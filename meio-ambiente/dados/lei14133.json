@@ -1,0 +1,628 @@
+{
+ "titulo": "Lei 14.133/2021: licitações e contratos, passo a passo",
+ "notacao": [
+  [
+   "5% / 10% / 30%",
+   "garantia: regra, majorada e seguro-garantia em grande vulto (Arts. 98 e 99)"
+  ],
+  [
+   "25% / 50%",
+   "acréscimos unilaterais: geral e reforma de edifício ou equipamento (Art. 125)"
+  ],
+  [
+   "R$ 100 mil / R$ 50 mil",
+   "dispensa por valor, no texto da lei (Art. 75)"
+  ],
+  [
+   "8 · 10 · 15 · 25 · 35 · 60",
+   "dias úteis mínimos para propostas (Art. 55)"
+  ],
+  [
+   "0,5% a 30%",
+   "multa por infração (Art. 156, § 3º)"
+  ],
+  [
+   "3 anos / 3 a 6 anos",
+   "impedimento / inidoneidade (Art. 156)"
+  ],
+  [
+   "5 anos / 10 anos",
+   "duração inicial e teto dos serviços contínuos (Arts. 106 e 107)"
+  ],
+  [
+   "R$ 200 milhões",
+   "grande vulto (Art. 6º, XXII)"
+  ]
+ ],
+ "etapas": [
+  {
+   "nome": "1 · Quem a lei alcança e os princípios",
+   "onde": "Arts. 1º e 5º",
+   "marco": "o ponto de partida",
+   "peso": 0.43,
+   "aviso": "",
+   "fatos": [
+    {
+     "txt": "A lei estabelece normas gerais de licitação e contratação para as Administrações Públicas diretas, autárquicas e fundacionais da União, dos Estados, do Distrito Federal e dos Municípios.",
+     "conf": 0.9
+    },
+    {
+     "txt": "A lei abrange os órgãos dos Poderes Legislativo e Judiciário, quando no desempenho de função administrativa, e os fundos especiais e as demais entidades controladas direta ou indiretamente pela Administração Pública.",
+     "conf": 0.84
+    },
+    {
+     "txt": "Não são abrangidas pela lei as empresas públicas, as sociedades de economia mista e as suas subsidiárias, regidas pela Lei 13.303/2016, ressalvado o disposto no Art. 178.",
+     "conf": 0.97
+    },
+    {
+     "txt": "Entre os princípios do Art. 5º estão a legalidade, a impessoalidade, a moralidade, a publicidade, a eficiência, o planejamento, a transparência, a segregação de funções, a vinculação ao edital, o julgamento objetivo, a segurança jurídica, a competitividade, a economicidade e o desenvolvimento nacional sustentável.",
+     "conf": 0.84
+    }
+   ],
+   "prova": "Pegadinha: incluir as estatais (Lei 13.303) no alcance da lei. Elas ficam de fora, com a ressalva do Art. 178."
+  },
+  {
+   "nome": "2 · As definições que a banca troca",
+   "onde": "Art. 6º",
+   "marco": "conceitos",
+   "peso": 0.75,
+   "aviso": "",
+   "fatos": [
+    {
+     "txt": "Compra é a aquisição remunerada de bens para fornecimento de uma só vez ou parceladamente, considerada imediata aquela com prazo de entrega de até 30 dias da ordem de fornecimento.",
+     "conf": 0.98
+    },
+    {
+     "txt": "Obra é toda atividade estabelecida, por força de lei, como privativa das profissões de arquiteto e engenheiro que implica intervenção no meio ambiente por meio de um conjunto harmônico de ações que, agregadas, formam um todo que inova o espaço físico da natureza ou acarreta alteração substancial das características originais de bem imóvel.",
+     "conf": 0.94
+    },
+    {
+     "txt": "Bens e serviços comuns são aqueles cujos padrões de desempenho e qualidade podem ser objetivamente definidos pelo edital, por meio de especificações usuais de mercado; os especiais, por sua alta heterogeneidade ou complexidade, não podem ser assim descritos, exigida justificativa prévia do contratante.",
+     "conf": 0.97
+    },
+    {
+     "txt": "Obras, serviços e fornecimentos de grande vulto são aqueles cujo valor estimado supera R$ 200.000.000,00.",
+     "conf": 0.98
+    },
+    {
+     "txt": "Serviços não contínuos ou contratados por escopo são aqueles que impõem ao contratado o dever de realizar a prestação de um serviço específico em período predeterminado, podendo ser prorrogado, desde que justificadamente, pelo prazo necessário à conclusão do objeto.",
+     "conf": 0.98
+    },
+    {
+     "txt": "Projeto básico é o conjunto de elementos necessários e suficientes, com nível de precisão adequado para definir e dimensionar a obra ou o serviço, ou o complexo de obras ou de serviços, elaborado com base nas indicações dos estudos técnicos preliminares, que assegure a viabilidade técnica e o adequado tratamento do impacto ambiental do empreendimento e que possibilite a avaliação do custo da obra e a definição dos métodos e do prazo de execução.",
+     "conf": 0.73,
+     "revisao": "Revisado à mão: confere com o Art. 6º, XXV. O inciso segue com a lista de elementos do projeto básico, que não está reproduzida aqui."
+    }
+   ],
+   "prova": "Pegadinha: confundir \"grande vulto\" (acima de R$ 200 milhões) com os valores de dispensa. E \"compra imediata\" é a de entrega em até 30 dias da ordem de fornecimento."
+  },
+  {
+   "nome": "3 · Objetivos, governança e controle",
+   "onde": "Arts. 11 e 169",
+   "marco": "quem responde",
+   "peso": 0.69,
+   "aviso": "",
+   "fatos": [
+    {
+     "txt": "O processo licitatório tem por objetivos assegurar a seleção da proposta apta a gerar o resultado de contratação mais vantajoso, inclusive quanto ao ciclo de vida do objeto, assegurar tratamento isonômico e justa competição, evitar sobrepreço, preços manifestamente inexequíveis e superfaturamento, e incentivar a inovação e o desenvolvimento nacional sustentável.",
+     "conf": 0.97
+    },
+    {
+     "txt": "A alta administração do órgão ou entidade é responsável pela governança das contratações e deve implementar processos e estruturas, inclusive de gestão de riscos e controles internos.",
+     "conf": 0.97
+    },
+    {
+     "txt": "As contratações públicas estão sujeitas a três linhas de defesa: a primeira, de servidores, agentes de licitação e autoridades da governança; a segunda, das unidades de assessoramento jurídico e de controle interno do próprio órgão; a terceira, do órgão central de controle interno da Administração e do tribunal de contas.",
+     "conf": 0.96
+    }
+   ],
+   "prova": "Pegadinha: trocar a ordem das linhas de defesa. O tribunal de contas está na terceira, e não na primeira."
+  },
+  {
+   "nome": "4 · As fases do processo",
+   "onde": "Arts. 17 e 18",
+   "marco": "a sequência",
+   "peso": 0.7,
+   "aviso": "",
+   "fatos": [
+    {
+     "txt": "O processo de licitação observa, em sequência, sete fases: preparatória; de divulgação do edital; de apresentação de propostas e lances, quando for o caso; de julgamento; de habilitação; recursal; e de homologação.",
+     "conf": 0.95
+    },
+    {
+     "txt": "A habilitação pode, mediante ato motivado com explicitação dos benefícios, anteceder as fases de apresentação de propostas e lances e de julgamento, desde que expressamente prevista no edital.",
+     "conf": 0.97
+    },
+    {
+     "txt": "As licitações serão realizadas preferencialmente sob a forma eletrônica; a forma presencial é admitida desde que motivada, com a sessão pública registrada em ata e gravada em áudio e vídeo.",
+     "conf": 0.97
+    },
+    {
+     "txt": "A fase preparatória é caracterizada pelo planejamento e compreende, entre outros itens, a descrição da necessidade em estudo técnico preliminar, a definição do objeto por termo de referência, anteprojeto, projeto básico ou projeto executivo, o orçamento estimado, a elaboração do edital e da minuta de contrato e a análise dos riscos.",
+     "conf": 0.94
+    }
+   ],
+   "prova": "Pegadinha: afirmar que a habilitação vem sempre depois do julgamento. É a regra, mas pode anteceder as propostas, com ato motivado e previsão no edital."
+  },
+  {
+   "nome": "5 · Modalidades e critérios de julgamento",
+   "onde": "Arts. 28, 29 e 33",
+   "marco": "obra vai para concorrência",
+   "peso": 0.75,
+   "aviso": "",
+   "fatos": [
+    {
+     "txt": "As modalidades de licitação são pregão, concorrência, concurso, leilão e diálogo competitivo.",
+     "conf": 0.91
+    },
+    {
+     "txt": "É vedada a criação de outras modalidades de licitação ou a combinação das modalidades previstas na lei.",
+     "conf": 0.95
+    },
+    {
+     "txt": "O pregão é adotado sempre que o objeto possuir padrões de desempenho e qualidade objetivamente definidos pelo edital, e não se aplica a serviços técnicos especializados de natureza predominantemente intelectual nem a obras e serviços de engenharia, exceto os serviços comuns de engenharia.",
+     "conf": 0.83
+    },
+    {
+     "txt": "A concorrência é a modalidade para contratação de bens e serviços especiais e de obras e serviços comuns e especiais de engenharia.",
+     "conf": 0.95
+    },
+    {
+     "txt": "Os critérios de julgamento são menor preço, maior desconto, melhor técnica ou conteúdo artístico, técnica e preço, maior lance (no caso de leilão) e maior retorno econômico.",
+     "conf": 0.97
+    }
+   ],
+   "prova": "Pegadinha: usar pregão para obra de engenharia. Ele só cabe para serviços comuns de engenharia; obra vai para concorrência."
+  },
+  {
+   "nome": "6 · Divulgação e prazos mínimos",
+   "onde": "Arts. 54, 55 e 183",
+   "marco": "números que caem",
+   "peso": 0.59,
+   "aviso": "",
+   "fatos": [
+    {
+     "txt": "A publicidade do edital é realizada mediante divulgação e manutenção do inteiro teor do ato convocatório e de seus anexos no Portal Nacional de Contratações Públicas (PNCP).",
+     "conf": 0.9
+    },
+    {
+     "txt": "É obrigatória a publicação de extrato do edital no Diário Oficial e em jornal diário de grande circulação, sem prejuízo da divulgação no PNCP.",
+     "conf": 0.79,
+     "revisao": "Revisado à mão: confere com o Art. 54, caput e § 1º."
+    },
+    {
+     "txt": "Para aquisição de bens, o prazo mínimo para apresentação de propostas e lances é de 8 dias úteis, quando adotados os critérios de menor preço ou de maior desconto, e de 15 dias úteis nas demais hipóteses.",
+     "conf": 0.97
+    },
+    {
+     "txt": "Para serviços e obras, o prazo mínimo é de 10 dias úteis para serviços comuns e obras e serviços comuns de engenharia, e de 25 dias úteis para serviços especiais e obras e serviços especiais de engenharia, ambos com menor preço ou maior desconto.",
+     "conf": 0.96
+    },
+    {
+     "txt": "Quando o regime de execução for contratação integrada, o prazo mínimo é de 60 dias úteis; na contratação semi-integrada e nas hipóteses não abrangidas pelas demais alíneas, é de 35 dias úteis.",
+     "conf": 0.95
+    },
+    {
+     "txt": "Para o critério de maior lance, o prazo mínimo é de 15 dias úteis; para técnica e preço ou melhor técnica ou conteúdo artístico, é de 35 dias úteis.",
+     "conf": 0.98
+    },
+    {
+     "txt": "Os prazos em dias úteis são contados com exclusão do dia do começo e inclusão do dia do vencimento, computando-se somente os dias com expediente administrativo; o dia do começo é, salvo disposição em contrário, o primeiro dia útil seguinte ao da disponibilização da informação na internet.",
+     "conf": 0.97
+    },
+    {
+     "txt": "Modificações no edital implicam nova divulgação e cumprimento dos mesmos prazos, exceto quando a alteração não comprometer a formulação das propostas.",
+     "conf": 0.93
+    }
+   ],
+   "prova": "Os números do Art. 55: 8, 15, 10, 25, 60, 35 e 15 dias úteis. A banca troca esses números entre as hipóteses."
+  },
+  {
+   "nome": "7 · Contratação direta: inexigibilidade e dispensa",
+   "onde": "Arts. 74 e 75",
+   "marco": "competição inviável × dispensada",
+   "peso": 0.78,
+   "aviso": "Os valores de R$ 100 mil e R$ 50 mil são os do texto da lei guardado no jev-ranker. Eles costumam ser atualizados por decreto, e não consegui conferir os valores vigentes. Confirme antes de usar na prática.",
+   "fatos": [
+    {
+     "txt": "É inexigível a licitação quando inviável a competição, em especial para materiais, equipamentos ou serviços que só possam ser fornecidos por produtor, empresa ou representante comercial exclusivos, e para contratação de profissional do setor artístico consagrado pela crítica especializada ou pela opinião pública.",
+     "conf": 0.94
+    },
+    {
+     "txt": "É inexigível a licitação para serviços técnicos especializados de natureza predominantemente intelectual com profissionais ou empresas de notória especialização, vedada a inexigibilidade para serviços de publicidade e divulgação.",
+     "conf": 0.95
+    },
+    {
+     "txt": "Segundo o texto da lei, é dispensável a licitação, por valor, quando a contratação envolver valores inferiores a R$ 100.000,00 para obras e serviços de engenharia ou serviços de manutenção de veículos automotores, e inferiores a R$ 50.000,00 para outros serviços e compras.",
+     "conf": 0.96
+    },
+    {
+     "txt": "É dispensável a licitação para contratação que mantenha todas as condições do edital de licitação realizada há menos de 1 ano, quando não surgiram licitantes interessados ou não foram apresentadas propostas válidas, ou quando as propostas consignaram preços manifestamente superiores aos de mercado ou incompatíveis com os fixados por órgãos oficiais.",
+     "conf": 0.95
+    },
+    {
+     "txt": "É dispensável a licitação para hortifrutigranjeiros, pães e outros gêneros perecíveis, no período necessário para a realização dos processos licitatórios correspondentes, com contratação direta com base no preço do dia.",
+     "conf": 0.97
+    }
+   ],
+   "prova": "Pegadinha: inexigibilidade (competição inviável) × dispensa (competição possível, mas a lei dispensa). E os limites de valor são \"inferiores a\": o valor exato do limite não cabe."
+  },
+  {
+   "nome": "8 · Contrato e garantias",
+   "onde": "Arts. 95, 96, 98 e 99",
+   "marco": "5% × 10% × 30%",
+   "peso": 0.9,
+   "aviso": "",
+   "fatos": [
+    {
+     "txt": "O instrumento de contrato é obrigatório, salvo na dispensa de licitação em razão de valor e nas compras com entrega imediata e integral dos bens, das quais não resultem obrigações futuras; nesses casos pode ser substituído por carta-contrato, nota de empenho, autorização de compra ou ordem de execução de serviço.",
+     "conf": 0.87
+    },
+    {
+     "txt": "É nulo e de nenhum efeito o contrato verbal com a Administração, salvo o de pequenas compras ou de prestação de serviços de pronto pagamento, de valor não superior a R$ 10.000,00.",
+     "conf": 0.96
+    },
+    {
+     "txt": "A garantia pode ser exigida, a critério da autoridade competente e mediante previsão no edital, nas contratações de obras, serviços e fornecimentos; cabe ao contratado optar entre caução, seguro-garantia, fiança bancária e título de capitalização.",
+     "conf": 0.93
+    },
+    {
+     "txt": "A garantia poderá ser de até 5% do valor inicial do contrato, autorizada a majoração para até 10%, desde que justificada mediante análise da complexidade técnica e dos riscos envolvidos.",
+     "conf": 0.97
+    },
+    {
+     "txt": "Nos serviços e fornecimentos contínuos com vigência superior a 1 ano, e nas prorrogações, usa-se o valor anual do contrato para definir e aplicar os percentuais da garantia.",
+     "conf": 0.97
+    },
+    {
+     "txt": "Nas obras e serviços de engenharia de grande vulto, pode ser exigida a prestação de garantia na modalidade seguro-garantia, com cláusula de retomada, em percentual equivalente a até 30% do valor inicial do contrato.",
+     "conf": 0.98
+    }
+   ],
+   "prova": "Pegadinha: confundir 5%, 10% e 30%. O 5% é a regra, o 10% exige justificativa, e o 30% só vale para grande vulto, em seguro-garantia com cláusula de retomada."
+  },
+  {
+   "nome": "9 · Duração e prorrogação",
+   "onde": "Arts. 105 a 107",
+   "marco": "5 anos e 10 anos",
+   "peso": 0.76,
+   "aviso": "",
+   "fatos": [
+    {
+     "txt": "A duração dos contratos é a prevista em edital, observadas, na contratação e a cada exercício financeiro, a disponibilidade de créditos orçamentários e a previsão no plano plurianual quando ultrapassar 1 exercício financeiro.",
+     "conf": 0.93
+    },
+    {
+     "txt": "A Administração pode celebrar contratos com prazo de até 5 anos nas hipóteses de serviços e fornecimentos contínuos.",
+     "conf": 0.91
+    },
+    {
+     "txt": "Nesses contratos de até 5 anos, a Administração tem a opção de extinguir o contrato, sem ônus, quando não dispuser de créditos orçamentários ou quando entender que o contrato não oferece mais vantagem; a extinção ocorre apenas na próxima data de aniversário do contrato e não pode ocorrer em prazo inferior a 2 meses, contado da referida data.",
+     "conf": 0.95
+    },
+    {
+     "txt": "Os contratos de serviços e fornecimentos contínuos podem ser prorrogados sucessivamente, respeitada a vigência máxima decenal, desde que haja previsão em edital e que a autoridade competente ateste que as condições e os preços permanecem vantajosos.",
+     "conf": 0.83
+    }
+   ],
+   "prova": "5 anos é o prazo possível para a contratação de serviços contínuos; 10 anos é o teto com as prorrogações."
+  },
+  {
+   "nome": "10 · Alterações do contrato",
+   "onde": "Arts. 124 a 126",
+   "marco": "25% e 50%",
+   "peso": 0.92,
+   "aviso": "",
+   "fatos": [
+    {
+     "txt": "O contrato pode ser alterado unilateralmente pela Administração quando houver modificação do projeto ou das especificações, para melhor adequação técnica, ou quando for necessária a modificação do valor contratual por acréscimo ou diminuição quantitativa do objeto, nos limites permitidos pela lei.",
+     "conf": 0.96
+    },
+    {
+     "txt": "O contratado é obrigado a aceitar, nas mesmas condições contratuais, acréscimos ou supressões de até 25% do valor inicial atualizado do contrato; no caso de reforma de edifício ou de equipamento, o limite para os acréscimos é de 50%.",
+     "conf": 0.91
+    },
+    {
+     "txt": "As alterações unilaterais não podem transfigurar o objeto da contratação.",
+     "conf": 0.97
+    },
+    {
+     "txt": "Por acordo entre as partes, o contrato pode ser alterado, entre outros casos, para substituir a garantia de execução, modificar o regime de execução ou o modo de fornecimento, modificar a forma de pagamento (vedada a antecipação sem contraprestação) e restabelecer o equilíbrio econômico-financeiro inicial.",
+     "conf": 0.95
+    }
+   ],
+   "prova": "Pegadinha: aplicar 50% a qualquer obra. O 50% é só para acréscimos em reforma de edifício ou de equipamento, e a base é o valor inicial atualizado."
+  },
+  {
+   "nome": "11 · Recebimento e pagamento",
+   "onde": "Arts. 140 e 141",
+   "marco": "o fim da execução",
+   "peso": 0.83,
+   "aviso": "",
+   "fatos": [
+    {
+     "txt": "Em obras e serviços, o objeto é recebido provisoriamente pelo responsável por seu acompanhamento e fiscalização, mediante termo detalhado, e definitivamente por servidor ou comissão designada pela autoridade competente, mediante termo detalhado.",
+     "conf": 0.88
+    },
+    {
+     "txt": "O recebimento provisório ou definitivo não exclui a responsabilidade civil pela solidez e pela segurança da obra ou serviço, nem a responsabilidade ético-profissional pela perfeita execução do contrato, nos limites estabelecidos pela lei ou pelo contrato.",
+     "conf": 0.98
+    },
+    {
+     "txt": "Salvo disposição em contrário no edital ou em ato normativo, os ensaios, testes e demais provas para aferição da boa execução do objeto, exigidos por normas técnicas oficiais, correm por conta do contratado.",
+     "conf": 0.97
+    },
+    {
+     "txt": "O pagamento observa a ordem cronológica para cada fonte diferenciada de recursos, subdividida em fornecimento de bens, locações, prestação de serviços e realização de obras.",
+     "conf": 0.85
+    },
+    {
+     "txt": "A ordem cronológica de pagamento pode ser alterada, mediante prévia justificativa e posterior comunicação ao controle interno e ao tribunal de contas, em situações como grave perturbação da ordem, emergência ou calamidade pública.",
+     "conf": 0.91
+    }
+   ],
+   "prova": "Pegadinha: achar que o recebimento definitivo encerra a responsabilidade pela solidez e segurança da obra. Não encerra (Art. 140, § 2º)."
+  },
+  {
+   "nome": "12 · Infrações e sanções",
+   "onde": "Arts. 155, 156, 162 e 163",
+   "marco": "impedimento × inidoneidade",
+   "peso": 0.68,
+   "aviso": "",
+   "fatos": [
+    {
+     "txt": "O licitante ou contratado é responsabilizado administrativamente, entre outras infrações, por dar causa à inexecução parcial ou total do contrato, não manter a proposta, não celebrar o contrato quando convocado, apresentar documentação falsa e fraudar a licitação.",
+     "conf": 0.96
+    },
+    {
+     "txt": "As sanções são advertência, multa, impedimento de licitar e contratar e declaração de inidoneidade para licitar ou contratar.",
+     "conf": 0.93
+    },
+    {
+     "txt": "A advertência é aplicada exclusivamente pela inexecução parcial do contrato, quando não se justificar a imposição de penalidade mais grave.",
+     "conf": 0.86
+    },
+    {
+     "txt": "A multa não pode ser inferior a 0,5% nem superior a 30% do valor do contrato licitado ou celebrado com contratação direta.",
+     "conf": 0.94
+    },
+    {
+     "txt": "O impedimento de licitar e contratar vale no âmbito da Administração direta e indireta do ente federativo que aplicou a sanção, pelo prazo máximo de 3 anos.",
+     "conf": 0.92
+    },
+    {
+     "txt": "A declaração de inidoneidade impede de licitar ou contratar no âmbito da Administração direta e indireta de todos os entes federativos, pelo prazo mínimo de 3 anos e máximo de 6 anos.",
+     "conf": 0.96
+    },
+    {
+     "txt": "A reabilitação exige, cumulativamente, a reparação integral do dano, o pagamento da multa, o transcurso de 1 ano da penalidade no caso de impedimento ou de 3 anos no caso de inidoneidade, o cumprimento das condições definidas no ato punitivo e a análise jurídica prévia.",
+     "conf": 0.94
+    },
+    {
+     "txt": "O atraso injustificado na execução do contrato sujeita o contratado a multa de mora, na forma do edital ou do contrato, e a multa de mora pode ser convertida em compensatória, com extinção unilateral do contrato e aplicação cumulada de outras sanções.",
+     "conf": 0.94
+    }
+   ],
+   "prova": "Pegadinha: confundir o impedimento (um ente, até 3 anos) com a inidoneidade (todos os entes, de 3 a 6 anos)."
+  }
+ ],
+ "tabela": [
+  {
+   "assunto": "Garantia de execução",
+   "limite": "até 5% do valor inicial do contrato, com majoração para até 10% se justificada pela complexidade técnica e pelos riscos",
+   "artigos": "Art. 98",
+   "cuidado": "Contínuos com mais de 1 ano: a base é o valor anual",
+   "conf": 0.79,
+   "revisao": "Revisado à mão: confere com o Art. 98."
+  },
+  {
+   "assunto": "Seguro-garantia em grande vulto",
+   "limite": "até 30% do valor inicial",
+   "artigos": "Art. 99",
+   "cuidado": "Só em obras e serviços de engenharia de grande vulto, com cláusula de retomada",
+   "conf": 0.88
+  },
+  {
+   "assunto": "Acréscimos unilaterais",
+   "limite": "até 25% do valor inicial atualizado; até 50% em reforma de edifício ou equipamento",
+   "artigos": "Art. 125",
+   "cuidado": "A base é o valor inicial atualizado",
+   "conf": 0.93
+  },
+  {
+   "assunto": "Dispensa por valor",
+   "limite": "abaixo de R$ 100 mil (engenharia, manutenção de veículos) ou R$ 50 mil (outros)",
+   "artigos": "Art. 75, I e II",
+   "cuidado": "Valores do texto; atualização por decreto não conferida",
+   "conf": 0.88
+  },
+  {
+   "assunto": "Multa por infração",
+   "limite": "de 0,5% a 30% do valor do contrato",
+   "artigos": "Art. 156, § 3º",
+   "cuidado": "",
+   "conf": 0.9
+  },
+  {
+   "assunto": "Impedimento de licitar",
+   "limite": "no âmbito da Administração direta e indireta do ente federativo que aplicou a sanção, pelo prazo máximo de 3 anos",
+   "artigos": "Art. 156, § 4º",
+   "cuidado": "",
+   "conf": 0.87
+  },
+  {
+   "assunto": "Declaração de inidoneidade",
+   "limite": "impede de licitar ou contratar em todos os entes federativos, pelo prazo mínimo de 3 anos e máximo de 6 anos",
+   "artigos": "Art. 156, § 5º",
+   "cuidado": "",
+   "conf": 0.92
+  },
+  {
+   "assunto": "Duração de serviços e fornecimentos contínuos",
+   "limite": "contratos de até 5 anos, com prorrogações sucessivas respeitada a vigência máxima decenal",
+   "artigos": "Arts. 106 e 107",
+   "cuidado": "",
+   "conf": 0.82
+  },
+  {
+   "assunto": "Contrato verbal",
+   "limite": "é nulo e de nenhum efeito, salvo o de pequenas compras ou de prestação de serviços de pronto pagamento, de valor não superior a R$ 10.000,00",
+   "artigos": "Art. 95, § 2º",
+   "cuidado": "",
+   "conf": 0.96
+  }
+ ],
+ "questoes": [
+  {
+   "titulo": "Acréscimo máximo em reforma de edifício",
+   "abordagem": "Percentual sobre a base correta, com dado-armadilha",
+   "enunciado": "Um contrato de reforma de edifício foi assinado por R$ 2.400.000,00. Com reajustes, o valor inicial atualizado é hoje R$ 2.600.000,00. A Administração quer acrescer unilateralmente o objeto. Qual é o maior acréscimo que o contratado é obrigado a aceitar, nas mesmas condições contratuais?",
+   "alternativas": {
+    "A": "R$ 650.000,00",
+    "B": "R$ 1.200.000,00",
+    "C": "R$ 1.300.000,00",
+    "D": "R$ 1.950.000,00",
+    "E": "R$ 3.900.000,00"
+   },
+   "gabarito": "C",
+   "passos": [
+    "Alteração unilateral quantitativa: Art. 124, I, b, nos limites do Art. 125.",
+    "Para reforma de edifício ou de equipamento, o limite para os acréscimos é de 50% (Art. 125).",
+    "A base é o valor inicial atualizado: R$ 2.600.000,00 (e não o valor assinado de R$ 2.400.000,00).",
+    "0,50 × R$ 2.600.000,00 = R$ 1.300.000,00."
+   ],
+   "erros": {
+    "A": "Aplicou o limite geral de 25%, esquecendo que em reforma de edifício o limite para acréscimos é de 50%.",
+    "B": "Aplicou 50% sobre o valor original; a base é o valor inicial atualizado.",
+    "D": "Somou os dois limites (25% + 50%). Eles não se acumulam: para reforma de edifício o limite de acréscimos é 50%.",
+    "E": "Informou o valor total do contrato depois do acréscimo, e não o valor do acréscimo."
+   },
+   "regra": "Nas alterações unilaterais, o contratado é obrigado a aceitar acréscimos ou supressões de até 25% do valor inicial atualizado do contrato e, no caso de reforma de edifício ou de equipamento, o limite para os acréscimos é de 50%.",
+   "regra_conf": 0.83,
+   "peso": 0.92
+  },
+  {
+   "titulo": "Garantia máxima em serviço contínuo de 4 anos",
+   "abordagem": "Percentual sobre valor anual, não sobre o total",
+   "enunciado": "Um serviço contínuo de limpeza será contratado por 4 anos, com valor total de R$ 4.800.000,00 em parcelas anuais iguais. A autoridade justificou, pela complexidade técnica e pelos riscos, a majoração da garantia ao máximo permitido para esse tipo de contratação. Qual é o valor máximo da garantia que pode ser exigido?",
+   "alternativas": {
+    "A": "R$ 60.000,00",
+    "B": "R$ 120.000,00",
+    "C": "R$ 240.000,00",
+    "D": "R$ 360.000,00",
+    "E": "R$ 480.000,00"
+   },
+   "gabarito": "B",
+   "passos": [
+    "Art. 98: a garantia pode ser de até 5% do valor inicial, majorada até 10% se justificada pela complexidade técnica e pelos riscos.",
+    "Parágrafo único do Art. 98: em serviços contínuos com vigência superior a 1 ano, usa-se o valor anual: R$ 4.800.000,00 ÷ 4 = R$ 1.200.000,00.",
+    "O limite de 30% é do seguro-garantia em obras e serviços de engenharia de grande vulto (Art. 99): não se aplica aqui.",
+    "0,10 × R$ 1.200.000,00 = R$ 120.000,00."
+   ],
+   "erros": {
+    "A": "Usou 5% e ignorou a majoração para até 10%, que a autoridade justificou pela complexidade técnica e pelos riscos.",
+    "C": "Errou duas vezes: usou o valor total (a base é o anual) e o percentual de 5% (a majoração permite até 10%).",
+    "D": "Aplicou 30%, que é o teto do seguro-garantia em obras e serviços de engenharia de grande vulto, e não de serviços contínuos.",
+    "E": "Aplicou 10% sobre o valor total de 4 anos. Em serviços contínuos com vigência superior a 1 ano, a base é o valor anual."
+   },
+   "regra": "Nas contratações de obras, serviços e fornecimentos, a garantia poderá ser de até 5% do valor inicial do contrato, autorizada a majoração para até 10%, desde que justificada mediante análise da complexidade técnica e dos riscos envolvidos; nos serviços e fornecimentos contínuos com vigência superior a 1 ano, usa-se o valor anual do contrato para definir e aplicar esses percentuais.",
+   "regra_conf": 0.93,
+   "peso": 0.9
+  },
+  {
+   "titulo": "Primeira data para apresentar propostas",
+   "abordagem": "Contagem de prazo em dias úteis",
+   "enunciado": "Um edital de serviço especial de engenharia, com critério de julgamento de menor preço, foi divulgado no PNCP em 07/04/2025 (segunda-feira). Desconsiderando feriados, qual é a primeira data em que pode terminar o prazo para apresentação de propostas, respeitado o prazo mínimo legal?",
+   "alternativas": {
+    "A": "22/04/2025 (terça-feira)",
+    "B": "03/05/2025 (sábado)",
+    "C": "12/05/2025 (segunda-feira)",
+    "D": "13/05/2025 (terça-feira)",
+    "E": "27/05/2025 (terça-feira)"
+   },
+   "gabarito": "D",
+   "passos": [
+    "Prazo mínimo (Art. 55, II, b): 25 dias úteis para serviços especiais e obras e serviços especiais de engenharia, com menor preço ou maior desconto.",
+    "Dia do começo (Art. 183, § 1º, I): o primeiro dia útil seguinte à disponibilização na internet = 08/04/2025 (terça-feira).",
+    "O dia do começo é excluído e o do vencimento é incluído; só contam dias úteis (sábados e domingos ficam de fora; feriados desconsiderados).",
+    "Somando 25 dias úteis a partir do dia seguinte ao do começo: 13/05/2025 (terça-feira)."
+   ],
+   "erros": {
+    "A": "Usou 10 dias úteis, que valem para serviços comuns e obras e serviços comuns de engenharia; aqui o objeto é serviço especial de engenharia (25 dias úteis).",
+    "B": "Contou 25 dias corridos. O Art. 55 fala em dias úteis, e só contam os dias com expediente.",
+    "C": "Tomou o dia da divulgação como dia do começo. Pelo Art. 183, § 1º, I, o dia do começo é o primeiro dia útil seguinte à disponibilização na internet.",
+    "E": "Usou 35 dias úteis, prazo da contratação semi-integrada e das hipóteses residuais, e não o de serviços especiais de engenharia com menor preço."
+   },
+   "regra": "Para serviços especiais e obras e serviços especiais de engenharia, com menor preço ou maior desconto, o prazo mínimo para apresentação de propostas é de 25 dias úteis; os prazos são contados com exclusão do dia do começo e inclusão do dia do vencimento, e o dia do começo é, salvo disposição em contrário, o primeiro dia útil seguinte ao da disponibilização da informação na internet.",
+   "regra_conf": 0.97,
+   "peso": 0.57
+  },
+  {
+   "titulo": "Quantas contratações cabem em dispensa por valor",
+   "abordagem": "Limites por categoria, com valor no limite",
+   "enunciado": "Considerando os valores do texto da Lei 14.133 (sem atualização por decreto), uma prefeitura pretende contratar diretamente, por dispensa em razão do valor: obra de engenharia de R$ 98.000,00; compra de material de escritório de R$ 52.000,00; serviço de manutenção de veículos automotores de R$ 99.500,00; serviço de limpeza de R$ 49.900,00. Quantas dessas contratações cabem na dispensa por valor do Art. 75, I e II?",
+   "alternativas": {
+    "A": "0",
+    "B": "1",
+    "C": "2",
+    "D": "3",
+    "E": "4"
+   },
+   "gabarito": "D",
+   "passos": [
+    "Art. 75, I: valores inferiores a R$ 100.000,00 para obras e serviços de engenharia ou serviços de manutenção de veículos automotores.",
+    "Art. 75, II: valores inferiores a R$ 50.000,00 para outros serviços e compras. \"Inferiores a\": o valor igual ao limite não cabe.",
+    "Obra de engenharia R$ 98.000,00 < R$ 100.000,00: cabe. Manutenção de veículos R$ 99.500,00 < R$ 100.000,00: cabe.",
+    "Compra de R$ 52.000,00 não é inferior a R$ 50.000,00: não cabe. Limpeza de R$ 49.900,00 < R$ 50.000,00: cabe.",
+    "Total que cabe: 3."
+   ],
+   "erros": {
+    "A": "Somou os valores (R$ 299.400,00) e comparou com um único limite. Cada contratação é analisada pelo seu próprio valor e categoria.",
+    "B": "Aplicou o limite de R$ 50 mil a tudo, esquecendo o limite de R$ 100 mil para obras e serviços de engenharia e manutenção de veículos.",
+    "C": "Tratou a manutenção de veículos automotores como \"outros serviços\" (limite de R$ 50 mil). O Art. 75, I a inclui no limite de R$ 100 mil.",
+    "E": "Aplicou o limite de R$ 100 mil a tudo. Compras e outros serviços têm limite de R$ 50 mil (Art. 75, II)."
+   },
+   "regra": "É dispensável a licitação, por valor, para contratação que envolva valores inferiores a R$ 100.000,00 no caso de obras e serviços de engenharia ou de serviços de manutenção de veículos automotores, e inferiores a R$ 50.000,00 no caso de outros serviços e compras.",
+   "regra_conf": 0.95,
+   "peso": 0.74
+  },
+  {
+   "titulo": "Teto da multa por inexecução total",
+   "abordagem": "Faixa percentual correta entre números parecidos",
+   "enunciado": "Um contratado deu causa à inexecução total de um contrato de R$ 2.000.000,00 (Art. 155, III). Qual é o valor máximo da multa que a Administração pode aplicar, calculada na forma do edital ou do contrato?",
+   "alternativas": {
+    "A": "R$ 10.000,00",
+    "B": "R$ 100.000,00",
+    "C": "R$ 200.000,00",
+    "D": "R$ 600.000,00",
+    "E": "R$ 1.000.000,00"
+   },
+   "gabarito": "D",
+   "passos": [
+    "Art. 156, II e § 3º: a multa não pode ser inferior a 0,5% nem superior a 30% do valor do contrato licitado ou celebrado com contratação direta.",
+    "Ela se aplica ao responsável por qualquer das infrações do Art. 155, inclusive a inexecução total.",
+    "Teto: 0,30 × R$ 2.000.000,00 = R$ 600.000,00."
+   ],
+   "erros": {
+    "A": "Informou o piso da multa (0,5%), e não o teto.",
+    "B": "Usou 5%, percentual-base da garantia (Art. 98). A multa vai de 0,5% a 30%.",
+    "C": "Usou 10%, teto da garantia majorada (Art. 98), e não o da multa.",
+    "E": "Usou 50%, limite de acréscimos em reforma de edifício (Art. 125). A multa tem teto de 30%."
+   },
+   "regra": "A multa não poderá ser inferior a 0,5% nem superior a 30% do valor do contrato licitado ou celebrado com contratação direta e será aplicada ao responsável por qualquer das infrações administrativas previstas no Art. 155.",
+   "regra_conf": 0.94,
+   "peso": 0.68
+  }
+ ],
+ "conferencia": {
+  "afirmacoes": 76,
+  "fatos": 62,
+  "tabela": 9,
+  "regras": 5,
+  "revisadas": 3,
+  "controles": 10,
+  "controle_min": 0.01,
+  "controle_max": 0.02,
+  "modelo": "jev-1.13.0"
+ }
+}

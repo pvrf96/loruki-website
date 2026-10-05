@@ -23,6 +23,7 @@
       '<div class="t">Meio Ambiente · um botão por arquivo da pasta</div><div class="bts">' +
       '<a href="https://jev-ranker.vercel.app/" class="bt">← jev-ranker</a><a href="https://covsaneamentomeioambiente.vercel.app/" class="bt peg">correlação san × MA</a><a href="https://covsaneamentomeioambiente.vercel.app/pegadinhas" class="bt peg">pegadinhas san × MA</a>' + bt('/', 'início') +
       bt('/lei12305', 'Lei 12305 de resíduos sólidos', 'peg') +
+      bt('/lei14133', 'Lei 14133 licitações e contratos', 'peg') +
       indice.map(function (f) { return bt('/' + f.slug, f.arquivo.replace(/\.json$/, '')); }).join('') + '</div>' +
       '<div class="t">Pegadinhas das 3 normas (CONAMA 237 · 9.605 · 6.938)</div><div class="bts">' +
       PEG.map(function (p) { return bt(p[0], p[1], 'peg'); }).join('') + '</div>';
