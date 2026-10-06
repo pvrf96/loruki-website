@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Estudo de caso</title>
+<meta name="description" content="Treino da prova discursiva (estudos de caso) do TCESP, Engenharia Civil, Vunesp: método, rubrica, casos com espelho de correção, resposta-modelo e redação de auditoria.">
+<style>
+  :root { --tx:#1d1d1f; --suave:#5b5b60; --linha:#e6e6e9; --marca:#0b57d0; --marcabg:#e8f0fe; --ok:#137333; --okbg:#e6f4ea; --err:#b3261e; --errbg:#fce8e6; --amar:#8a5a00; --amarbg:#fef7e0; --card:#fafafa; }
+  * { box-sizing:border-box; }
+  html { -webkit-text-size-adjust:100%; }
+  body { margin:0; background:#fff; color:var(--tx); font:17px/1.65 -apple-system,"Segoe UI",Roboto,Arial,sans-serif; }
+  main { max-width:780px; margin:0 auto; padding:24px 16px 100px; }
+  h1 { font-size:28px; line-height:1.2; margin:0 0 6px; }
+  h2 { font-size:21px; margin:30px 0 10px; }
+  h3 { font-size:17px; margin:22px 0 6px; }
+  p { margin:0 0 14px; overflow-wrap:break-word; }
+  a { color:var(--marca); }
+  .sub { color:var(--suave); font-size:15px; }
+  nav.tabs { display:flex; gap:6px; flex-wrap:wrap; margin:16px 0 8px; position:sticky; top:0; background:#fff; padding:8px 0; z-index:5; border-bottom:1px solid var(--linha); }
+  nav.tabs button { padding:7px 12px; font-size:15px; border-radius:999px; }
+  nav.tabs button.on { background:var(--marca); color:#fff; border-color:var(--marca); }
+  button { font:inherit; cursor:pointer; border-radius:10px; border:1px solid var(--linha); background:#fff; color:var(--tx); padding:10px 14px; text-align:left; }
+  button.pri { background:var(--marca); color:#fff; border-color:var(--marca); font-weight:700; text-align:center; }
+  button:disabled { opacity:.5; cursor:default; }
+  button small { display:block; font-weight:400; font-size:14px; opacity:.85; }
+  .btns { display:grid; gap:10px; }
+  .grid2 { display:grid; grid-template-columns:repeat(auto-fill,minmax(230px,1fr)); gap:10px; }
+  .caso-bt b { display:block; }
+  .caso-bt small { color:var(--suave); }
+  .nota { float:right; font-weight:800; color:var(--ok); }
+  .card { border:1px solid var(--linha); border-radius:12px; padding:16px; background:var(--card); margin-bottom:14px; }
+  .enun { font:17px/1.7 Georgia,"Times New Roman",serif; }
+  ol.cmd { margin:8px 0 0; padding-left:22px; }
+  ol.cmd li { margin-bottom:6px; font-weight:600; }
+  .passo { border-left:4px solid var(--marca); padding:4px 0 4px 14px; margin:0 0 16px; }
+  .exemplo { font-family:Georgia,serif; background:var(--marcabg); border-radius:8px; padding:10px 12px; margin:6px 0 12px; }
+  .ad { display:grid; grid-template-columns:1fr; gap:6px; margin-bottom:14px; }
+  .ad .a { background:var(--errbg); border-radius:8px; padding:8px 12px; }
+  .ad .d { background:var(--okbg); border-radius:8px; padding:8px 12px; }
+  .ad .a::before { content:"Antes: "; font-weight:700; color:var(--err); }
+  .ad .d::before { content:"Depois: "; font-weight:700; color:var(--ok); }
+  textarea { width:100%; font:17px/1.7 Georgia,serif; padding:12px; border:1px solid var(--linha); border-radius:10px; min-height:340px; resize:vertical; }
+  .plan textarea { min-height:70px; font:15px/1.5 -apple-system,"Segoe UI",Roboto,Arial,sans-serif; }
+  .plan { display:grid; grid-template-columns:repeat(auto-fill,minmax(210px,1fr)); gap:8px; }
+  .plan label { font-size:13px; font-weight:700; color:var(--suave); text-transform:uppercase; letter-spacing:.04em; }
+  .barra-ed { display:flex; justify-content:space-between; flex-wrap:wrap; gap:8px; font-size:14px; color:var(--suave); margin:6px 0 12px; }
+  .timer { font-weight:800; color:var(--tx); font-variant-numeric:tabular-nums; }
+  .timer.fim { color:var(--err); }
+  .esp { border:1px solid var(--linha); border-radius:10px; padding:12px; margin-bottom:10px; background:#fff; }
+  .esp .pts { float:right; font-weight:800; }
+  .esp .dica { font-size:13px; margin-top:6px; }
+  .esp .dica.sim { color:var(--ok); } .esp .dica.nao { color:var(--amar); }
+  .esp .ver { font-size:12px; color:var(--suave); }
+  .sel3 { display:flex; gap:6px; margin-top:8px; flex-wrap:wrap; }
+  .sel3 button { padding:5px 10px; font-size:14px; }
+  .sel3 button.on { background:var(--marca); color:#fff; border-color:var(--marca); }
+  .placar { font-size:26px; font-weight:800; }
+  .modelo p { font:17px/1.7 Georgia,serif; }
+  .tira li { margin-bottom:6px; }
+  table { width:100%; border-collapse:collapse; font-size:15px; }
+  td,th { text-align:left; padding:8px 6px; border-bottom:1px solid var(--linha); vertical-align:top; }
+  .expr { columns:2 240px; column-gap:24px; }
+  .expr li { break-inside:avoid; margin-bottom:6px; font-family:Georgia,serif; }
+  .aviso { background:var(--amarbg); color:var(--amar); border-radius:8px; padding:10px 12px; font-size:15px; margin-bottom:14px; }
+  details summary { cursor:pointer; font-weight:600; }
+  footer { margin-top:44px; color:var(--suave); font-size:14px; }
+</style>
+</head>
+<body>
+<main>
+<h1>Estudo de caso</h1>
+<p class="sub">A tarde da prova: 2 estudos de caso de 20 pontos cada (TCESP, Auditor de Controle Externo, Engenharia Civil, Vunesp). Material feito com dois agentes no papel de professores: um de <b>redação discursiva</b> (método, rubrica, erros e expressões) e um <b>examinador de auditoria de obras</b> (espelhos de correção e deslizes que zeram o item).</p>
+<nav class="tabs" id="tabs">
+  <button data-t="metodo">Método</button><button data-t="casos">Casos para treinar</button><button data-t="rubrica">Como é corrigido</button><button data-t="erros">12 erros</button><button data-t="expr">Expressões</button>
+</nav>
+<div id="app"></div>
+<footer>Regras da Lei 14.133 citadas nos espelhos: conferidas pelo Jev no texto da lei ou revisadas à mão (cada ponto diz qual). Súmulas, acórdãos, OTs e normas técnicas estão marcados "confira". Duração da prova, limite de linhas e pesos oficiais: confira no edital. Textos e notas ficam salvos só neste navegador.</footer>
+</main>
+<script>
+const $ = (s) => document.querySelector(s);
+const esc = (t) => String(t ?? '').replace(/[&<>"']/g, (m) => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;' }[m]));
+const CHAVE = 'estudodecaso-v1';
+function carrega() { try { return JSON.parse(localStorage.getItem(CHAVE)) || {}; } catch (e) { return {}; } }
+function salva() { try { localStorage.setItem(CHAVE, JSON.stringify(E)); } catch (e) {} }
+let C = [], E = carrega(); E.txt = E.txt || {}; E.plan = E.plan || {}; E.nota = E.nota || {};
+let timerId = null;
+
+const METODO = `
+<h2>Como resolver um estudo de caso, em 7 passos</h2>
+<div class="passo"><b>1. Leia os comandos antes do caso.</b> Comece pelo fim: o que a banca pede? Circule os verbos (<i>identifique, aponte, calcule, indique o dispositivo, proponha</i>). Cada verbo é um item que vale ponto.</div>
+<div class="passo"><b>2. Leia o caso caçando fatos.</b> Sublinhe números, datas, regime, valores e quem fez o quê. Na margem, anote a etapa da obra de cada fato: orçamento, licitação, medição, aditivo, recebimento.<div class="exemplo">"aditivos de R$ 2,5 mi" → alterações · "4º boletim, 120 m³" → medição</div></div>
+<div class="passo"><b>3. Monte a tabela de rascunho.</b> Uma linha por achado, seis colunas: <b>situação, critério (com artigo), evidência, causa, efeito (em R$) e encaminhamento</b>. Faça as contas no rascunho.<div class="exemplo">25% × 8,2 = R$ 2,05 mi de limite; acréscimos de 2,5 → excesso de R$ 0,45 mi</div></div>
+<div class="passo"><b>4. Confira cada comando.</b> Ligue cada verbo circulado a uma linha da tabela. Comando sem resposta é ponto perdido, por melhor que seja o resto.</div>
+<div class="passo"><b>5. Divida o tempo.</b> Metade do tempo para cada caso. Dentro de cada um: cerca de <b>25% para ler e planejar, 60% para escrever, 15% para revisar</b>. Não passe a limpo um texto que você não planejou. Duração da prova e uso de rascunho: confira no edital.</div>
+<div class="passo"><b>6. Escreva na estrutura fixa.</b>
+ <p style="margin:6px 0 4px"><b>Abertura (2 a 3 linhas):</b> situe o objeto e anuncie os achados.</p>
+ <div class="exemplo">A análise da contratação da Escola Municipal Vila Nova (preço global, R$ 8,2 milhões) revela quatro irregularidades, examinadas a seguir.</div>
+ <p style="margin:6px 0 4px"><b>Um parágrafo por achado ou comando</b>, sempre na ordem: situação → critério → evidência → causa → efeito → encaminhamento.</p>
+ <div class="exemplo">Os acréscimos somaram R$ 2,5 milhões, 30,5% do valor inicial atualizado. O limite é de 25% (Lei 14.133, art. 125), calculado sem compensação com as supressões. […] Propõe-se…</div>
+ <p style="margin:6px 0 4px"><b>Fechamento (2 a 3 linhas):</b> síntese e encaminhamento geral.</p>
+ <div class="exemplo">Diante do exposto, propõe-se determinar ao Município a correção das medições, o ressarcimento dos valores pagos a maior e a apuração de responsabilidades.</div></div>
+<div class="passo"><b>7. Revise em três passadas.</b> (1) Cada comando foi respondido? (2) Cada achado tem artigo e número? (3) Há erro de concordância, sigla sem explicação ou abreviação informal?</div>
+<h2>A régua de cada parágrafo</h2>
+<p>Cada parágrafo responde a seis perguntas: <b>o que é, o que deveria ser, como se sabe, por que aconteceu, quanto custou e o que fazer</b>. Se faltar o artigo ou o número, o parágrafo ainda não está pronto.</p>
+<div class="btns"><button class="pri" data-ir="casos">Treinar com um caso agora</button></div>`;
+
+const RUBRICA = `
+<h2>Como a banca corrige</h2>
+<p class="sub">Critérios usuais de discursiva. Pesos e grade oficial: confira no edital e nos padrões de resposta de provas anteriores da Vunesp.</p>
+<h3>A. Domínio do conteúdo técnico e legal (o que mais pesa)</h3><p>Vale ponto: irregularidade certa, dispositivo correto, conta certa, conceito preciso (sobrepreço ≠ superfaturamento). Tira ponto: conceito trocado, artigo errado, número inventado, jurisprudência citada sem certeza.</p>
+<h3>B. Atendimento a cada comando</h3><p>Vale ponto: responder a todos os itens, na ordem pedida. Se o comando pede "proponha", é preciso propor. Tira ponto: item sem resposta ou resposta a pergunta que não foi feita.</p>
+<h3>C. Estrutura, coesão e coerência</h3><p>Abertura, um parágrafo por achado, fechamento, conectivos ("além disso", "por conseguinte", "diante do exposto"). Tira ponto: tópicos soltos quando se pede texto (confira no edital), parágrafo que mistura achados, contradição.</p>
+<h3>D. Linguagem técnica e norma culta</h3><p>Registro formal, impessoal, preciso e conciso. Tira ponto: ortografia, concordância, regência, crase; primeira pessoa ("eu acho"); gírias e abreviações.</p>
+<h3>E. Formalidades</h3><p>Ultrapassar o limite de linhas, escrever fora do espaço, identificar-se ou deixar em branco pode tirar pontos ou anular. Regras exatas: confira no edital.</p>
+<h2>Espelho realista de 20 pontos (visão do examinador)</h2>
+<table><tr><th>o que o corretor procura</th><th>pontos</th></tr>
+<tr><td>Identificar a irregularidade com o nome técnico certo (ex.: superfaturamento, não sobrepreço)</td><td>5</td></tr>
+<tr><td>Critério com o dispositivo correto (a regra bem explicada vale mais que o número do artigo sozinho)</td><td>5</td></tr>
+<tr><td>Quantificação: usar os números do enunciado (conta, percentual, dano)</td><td>4</td></tr>
+<tr><td>Causa, efeito e responsabilidade (fiscal, projetista, contratado)</td><td>3</td></tr>
+<tr><td>Encaminhamento concreto (glosa, ressarcimento, determinação, apuração)</td><td>3</td></tr></table>
+<p class="sub" style="margin-top:8px">Pode haver desconto por expressão escrita (confira no edital).</p>
+<h2>Os 5 deslizes que zeram o item</h2>
+<ol>
+<li><b>Trocar o conceito central:</b> chamar de "sobrepreço" o pagamento por quantidade não executada.</li>
+<li><b>Compensar acréscimos com supressões</b> ("líquido de 23%, dentro do limite") ou aplicar 50% a obra que não é reforma.</li>
+<li><b>Inverter o regime:</b> dizer que na integrada a Administração faz o projeto básico, ou admitir medição por preço unitário na integrada.</li>
+<li><b>Citar com segurança o número ou dispositivo errado:</b> 85% como inexequibilidade, IRPJ e CSLL no BDI, acórdão inventado.</li>
+<li><b>Encaminhamento genérico ou ilegal:</b> "tomar providências", "manter o pagamento porque a obra está pronta", aceitar o uso como recebimento.</li>
+</ol>`;
+
+const ERROS = [
+ ['Os aditivos estão errados.', 'Os acréscimos excedem o limite de 25% do art. 125 da Lei 14.133.', 'Afirmar sem critério'],
+ ['Houve superfaturamento.', 'Pagaram-se 30 m³ não executados: dano de R$ 18.000, ou (120 − 90) × R$ 600.', 'Critério sem número do caso'],
+ ['A proposta tinha superfaturamento.', 'A proposta tinha sobrepreço; houve superfaturamento quando o item foi medido e pago.', 'Trocar sobrepreço por superfaturamento'],
+ ['O saldo líquido de 23% respeita o limite.', 'Acréscimos e supressões se calculam separadamente; só os acréscimos já somam 30,5%.', 'Compensar acréscimos com supressões'],
+ ['Devem ser tomadas providências.', 'Propõe-se determinar a glosa de R$ 18.000 no próximo boletim e apurar a responsabilidade do fiscal.', 'Encaminhamento vago'],
+ ['Eu acho que o fiscal errou.', 'Verifica-se falha da fiscalização na conferência das medições (art. 117).', 'Opinião e primeira pessoa'],
+ ['Conforme o Acórdão nº XXX do TCU…', 'Conforme o art. 59, § 3º, da Lei 14.133…', 'Citar jurisprudência de que não tem certeza'],
+ ['Começar pelo item (c) e esquecer o (b).', 'Quanto ao item (a)…; quanto ao item (b)…', 'Responder fora da ordem dos comandos'],
+ ['Repetir o caso por cinco linhas.', 'A medição do 4º boletim (120 m³) supera o volume das notas fiscais (90 m³).', 'Copiar o enunciado'],
+ ['A matriz de riscos é sempre obrigatória.', 'A matriz é obrigatória neste caso, por se tratar de contratação integrada (art. 22, § 3º).', 'Absoluto indevido'],
+ ['BDI, aditivos e medição no mesmo parágrafo.', 'Um parágrafo para cada, com transição: "Outro achado refere-se ao BDI."', 'Parágrafo-bloco com vários achados'],
+ ['O texto para no último achado.', 'Diante do exposto, propõem-se as determinações acima, sem prejuízo da apuração de responsabilidades.', 'Concluir sem fechar'],
+];
+const EXPR = {
+ 'Apontar irregularidade': ['Verifica-se que…', 'Constata-se, a partir de [documento], que…', 'Identificou-se divergência entre… e…', 'A situação encontrada evidencia…', 'Não consta dos autos [termo, ART, ensaio]…', 'Configura-se irregularidade na…', 'Observa-se afronta ao disposto no…'],
+ 'Citar o critério': ['Nos termos do art. X da Lei 14.133/2021, …', 'Conforme dispõe o art. X, § Y, …', 'A norma exige que… (NBR X).', 'O critério aplicável é o art. X, segundo o qual…', 'Em desacordo com o previsto no edital e no contrato, …', 'Segundo a OT-IBR X do Ibraop, …'],
+ 'Evidência e causa': ['Conforme se depreende do boletim de medição e das notas fiscais, …', 'O confronto entre… e… demonstra…', 'A provável causa reside na…', 'A falha decorre, possivelmente, da ausência de…'],
+ 'Quantificar o dano': ['O dano estimado corresponde a R$…, obtido por (quantidade medida − executada) × preço.', 'O excesso apurado é de R$…, equivalente a X% do valor contratual.', 'Resulta em pagamento a maior de R$…', 'O efeito é o risco de… (prejuízo, paralisação, redução da vida útil).', 'Implica perda do desconto obtido na licitação (art. 128).'],
+ 'Propor encaminhamento': ['Propõe-se determinar ao órgão que…', 'Recomenda-se à Administração que…', 'Cabe a glosa do valor de R$… nas próximas medições.', 'Impõe-se o ressarcimento ao erário do montante de R$…', 'Deve-se apurar a responsabilidade do [fiscal / autor do projeto] (art. 124, § 1º).', 'Recomenda-se notificar o contratado para reparar o vício às suas expensas (art. 119).', 'Sugere-se a lavratura do termo de recebimento, com vistoria detalhada (art. 140).'],
+ 'Ressalvar com prudência': ['Salvo justificativa não constante do caso, …', 'Caso confirmada por [ensaio/vistoria], a situação caracteriza…', 'A informação disponível não permite afirmar…; recomenda-se…', 'Sem prejuízo de exame mais aprofundado, …'],
+ 'Transição e fechamento': ['Outro achado refere-se a…', 'Diante do exposto, conclui-se que… e propõe-se…'],
+};
+
+function aba(t, extra) {
+  clearInterval(timerId);
+  document.querySelectorAll('#tabs button').forEach((b) => b.classList.toggle('on', b.dataset.t === t));
+  if (t === 'metodo') $('#app').innerHTML = METODO;
+  if (t === 'rubrica') $('#app').innerHTML = RUBRICA;
+  if (t === 'casos') return extra ? caso(extra) : listaCasos();
+  if (t === 'erros') erros();
+  if (t === 'expr') $('#app').innerHTML = `<h2>Banco de expressões de auditoria</h2><p class="sub">Tenha 2 ou 3 de cada grupo prontas na cabeça. Elas dão o tom técnico e impessoal que a banca espera.</p>${Object.entries(EXPR).map(([g, l]) => `<h3>${esc(g)}</h3><ul class="expr">${l.map((x) => `<li>${esc(x)}</li>`).join('')}</ul>`).join('')}`;
+  document.querySelectorAll('[data-ir]').forEach((b) => b.onclick = () => aba(b.dataset.ir));
+  window.scrollTo(0, 0);
+}
+
+function listaCasos() {
+  $('#app').innerHTML = `<h2>Casos para treinar</h2>
+  <p class="sub">8 casos nos temas que o Jev aponta como mais prováveis para a tarde. Em cada um: leia, planeje na tabela de rascunho, escreva com o cronômetro e corrija pelo espelho de 20 pontos. Depois compare com a resposta-modelo.</p>
+  <div class="grid2">${C.map((c) => `<button class="caso-bt" data-c="${c.id}">${E.nota[c.id] !== undefined ? `<span class="nota">${E.nota[c.id].toLocaleString('pt-BR')}/20</span>` : ''}<b>${esc(c.titulo)}</b><small>${esc(c.tema)} · chance de cair no ${esc(c.chance)}</small></button>`).join('')}</div>`;
+  document.querySelectorAll('[data-c]').forEach((b) => b.onclick = () => caso(b.dataset.c));
+}
+
+function linhas(t) { return t.split('\n').reduce((s, l) => s + Math.max(1, Math.ceil(l.length / 70)), 0); }
+function caso(id) {
+  const c = C.find((x) => x.id === id), p = E.plan[id] || {};
+  const COLS = ['situação', 'critério (artigo)', 'evidência', 'causa', 'efeito (R$)', 'encaminhamento'];
+  $('#app').innerHTML = `<p><a href="#" id="volta">← todos os casos</a></p>
+  <span class="sub">${esc(c.tema)} · chance de cair no ${esc(c.chance)}</span>
+  <h2 style="margin-top:4px">${esc(c.titulo)}</h2>
+  <div class="card"><p class="enun">${esc(c.enun)}</p><b>Comandos</b><ol class="cmd" type="a">${c.comandos.map((x) => `<li>${esc(x)}</li>`).join('')}</ol></div>
+  <h3>1. Rascunho: a tabela de achados</h3>
+  <p class="sub">Uma linha de pensamento por coluna. Faça as contas aqui.</p>
+  <div class="plan">${COLS.map((k, i) => `<div><label>${k}</label><textarea data-p="${i}">${esc(p[i] || '')}</textarea></div>`).join('')}</div>
+  <h3>2. Escreva a resposta</h3>
+  <div class="barra-ed"><span>Cronômetro: <span class="timer" id="tm">--:--</span> <button id="t30" style="padding:3px 8px;font-size:13px">30 min</button> <button id="t45" style="padding:3px 8px;font-size:13px">45 min</button> <button id="tst" style="padding:3px 8px;font-size:13px">parar</button></span><span id="cont">0 linhas</span></div>
+  <textarea id="txt" placeholder="Abertura (2 a 3 linhas), um parágrafo por comando (situação → critério → evidência → causa → efeito → encaminhamento) e fechamento.">${esc(E.txt[id] || '')}</textarea>
+  <p class="sub">Contagem aproximada: 1 linha ≈ 70 caracteres manuscritos. Limite oficial de linhas: confira no edital.</p>
+  <div class="btns"><button class="pri" id="corr">3. Corrigir pelo espelho</button></div>
+  <div id="corrigir"></div>`;
+  $('#volta').onclick = (e) => { e.preventDefault(); clearInterval(timerId); listaCasos(); };
+  const conta = () => { const t = $('#txt').value; $('#cont').textContent = `${linhas(t)} linhas · ${t.trim() ? t.trim().split(/\s+/).length : 0} palavras`; };
+  $('#txt').oninput = () => { E.txt[id] = $('#txt').value; salva(); conta(); }; conta();
+  document.querySelectorAll('[data-p]').forEach((t) => t.oninput = () => { E.plan[id] = E.plan[id] || {}; E.plan[id][t.dataset.p] = t.value; salva(); });
+  const inicia = (min) => { clearInterval(timerId); let s = min * 60; const tm = $('#tm'); tm.classList.remove('fim'); const f = () => { tm.textContent = `${String(Math.floor(s / 60)).padStart(2, '0')}:${String(s % 60).padStart(2, '0')}`; if (s <= 0) { clearInterval(timerId); tm.classList.add('fim'); tm.textContent = 'tempo!'; } s--; }; f(); timerId = setInterval(f, 1000); };
+  $('#t30').onclick = () => inicia(30); $('#t45').onclick = () => inicia(45); $('#tst').onclick = () => clearInterval(timerId);
+  $('#corr').onclick = () => corrige(c);
+}
+
+function corrige(c) {
+  const txt = ($('#txt').value || '').toLowerCase();
+  const marc = c.espelho.map(() => null);
+  const desenha = () => {
+    const nota = marc.reduce((s, m, i) => s + (m === null ? 0 : m * c.espelho[i].p), 0);
+    $('#corrigir').innerHTML = `<h3>Espelho de correção (20 pontos)</h3>
+    <p class="sub">Para cada ponto, compare com o seu texto e marque honestamente. A dica automática só procura palavras-chave: serve de pista, não de nota.</p>
+    ${c.espelho.map((e, i) => { const achou = e.kw.filter((k) => txt.includes(k.toLowerCase())); return `<div class="esp"><span class="pts">${e.p} pts</span>${esc(e.t)}
+      <div class="dica ${achou.length ? 'sim' : 'nao'}">${txt.trim() ? (achou.length ? `pista: seu texto menciona ${achou.map((a) => '"' + esc(a) + '"').join(', ')}` : 'pista: não encontrei as palavras-chave deste ponto') : ''}</div>
+      <div class="ver">${e.j === 'jev' ? 'regra legal conferida pelo Jev' : e.j === 'mao' ? 'regra legal revisada à mão' : 'ponto de aplicação, sem dispositivo da Lei 14.133'}</div>
+      <div class="sel3">${[[1, 'fiz completo'], [0.5, 'fiz em parte'], [0, 'não fiz']].map(([v, l]) => `<button data-i="${i}" data-v="${v}" class="${marc[i] === v ? 'on' : ''}">${l}</button>`).join('')}</div></div>`; }).join('')}
+    <div class="card"><span class="placar">${nota.toLocaleString('pt-BR')} / 20</span> ${marc.includes(null) ? '<span class="sub">(marque todos os pontos)</span>' : ''}</div>
+    <h3>Resposta-modelo</h3><div class="card modelo">${c.modelo.map((p) => `<p>${esc(p)}</p>`).join('')}</div>
+    <h3>O que tira ponto neste caso</h3><ul class="tira">${c.tirapontos.map((x) => `<li>${esc(x)}</li>`).join('')}</ul>
+    <div class="btns"><button id="outro">Próximo caso</button></div>`;
+    document.querySelectorAll('.sel3 button').forEach((b) => b.onclick = () => { marc[+b.dataset.i] = +b.dataset.v; if (!marc.includes(null)) { E.nota[c.id] = marc.reduce((s, m, i) => s + m * c.espelho[i].p, 0); salva(); } desenha(); });
+    $('#outro').onclick = () => { const k = (C.indexOf(c) + 1) % C.length; caso(C[k].id); window.scrollTo(0, 0); };
+  };
+  desenha();
+  $('#corrigir').scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function erros() {
+  $('#app').innerHTML = `<h2>Os 12 erros que mais tiram ponto</h2>
+  <p class="sub">Treino ativo: leia o "antes", reescreva do seu jeito na caixa e só então abra o "depois".</p>
+  ${ERROS.map(([a, d, t], i) => `<div class="card"><b>${i + 1}. ${esc(t)}</b><div class="ad" style="margin-top:8px"><div class="a">${esc(a)}</div></div>
+   <textarea style="min-height:60px;font-size:15px" placeholder="Reescreva aqui"></textarea>
+   <details style="margin-top:6px"><summary>ver o "depois"</summary><div class="ad" style="margin-top:6px"><div class="d">${esc(d)}</div></div></details></div>`).join('')}`;
+}
+
+document.querySelectorAll('#tabs button').forEach((b) => b.onclick = () => aba(b.dataset.t));
+fetch('dados/casos.json').then((r) => r.json()).then((d) => { C = d; aba('metodo'); })
+  .catch(() => { $('#app').innerHTML = '<p>Não consegui carregar os casos. Recarregue a página.</p>'; });
+</script>
+</body>
+</html>
