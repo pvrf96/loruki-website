@@ -20,7 +20,7 @@
   .sub { color: var(--suave); font-size: 17px; }
   b.peg { color: var(--peg); }
   .conta { font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 15.5px; background: #fafafa; border-left: 3px solid var(--linha); padding: 10px 14px; margin: 0 0 18px; white-space: pre-wrap; overflow-wrap: break-word; }
-  .confere { font: 600 12px/1 -apple-system, "Segoe UI", Roboto, Arial, sans-serif; color: #8a5a00; border: 1px solid #e8c77a; border-radius: 4px; padding: 2px 5px; white-space: nowrap; }
+  .confere { font: 600 12px/1 -apple-system, "Segoe UI", Roboto, Arial, sans-serif; color: #8a5a00; border: 1px solid #e8c77a; border-radius: 4px; padding: 2px 5px; }
   details { border: 1px solid var(--linha); border-radius: 8px; padding: 12px 16px; margin: 0 0 18px; }
   summary { cursor: pointer; font: 700 16px/1.4 -apple-system, "Segoe UI", Roboto, Arial, sans-serif; }
   details ol { margin: 12px 0 0; padding-left: 22px; }
@@ -74,8 +74,12 @@
   <li><a href="#execucao">Execução, desempenho, manutenção e CUB</a></li>
   <li><a href="#pavimento">Rodovias: o pavimento, as camadas e o dimensionamento</a></li>
   <li><a href="#rodovias">Rodovias: terraplenagem, drenagem, revestimento, controle e SICRO</a></li>
+  <li><a href="#ibraop">As Orientações Técnicas do Ibraop</a></li>
+  <li><a href="#confea">CONFEA, ART e responsabilidade técnica</a></li>
+  <li><a href="#bim">BIM</a></li>
+  <li><a href="#discursiva">A discursiva: como transformar tudo isso em resposta</a></li>
+  <li><a href="#revisao">Revisão final: os números que mais caem</a></li>
 </ol>
-<p class="chance">A próxima parte (Ibraop, CONFEA, BIM e a discursiva) entra aqui assim que for publicada.</p>
 </nav>
 
 <p class="parte">Parte 1 · Do planejamento ao orçamento</p>
@@ -685,8 +689,135 @@ regra: quanto mais alto, mais CBR e menos expansão</div>
 </details>
 <p class="leve">Leve para a prova: corte, aterro, empréstimo e bota-fora, com empolamento. Drenagem superficial tira a chuva; profunda, o lençol. Imprimação na base, ligação entre asfaltos. Controle geométrico, tecnológico e de compactação. Hora improdutiva não paga combustível.</p>
 
+<p class="parte">Parte 5 · Ibraop, CONFEA, BIM e a discursiva</p>
+
+<h2 id="ibraop">27. As Orientações Técnicas do Ibraop</h2>
+<p class="chance">Chance de cair · Ibraop OTs: dentro do bloco de obras e do Manual do TCESP (objetiva 78% · caso 56%); as OTs são a linguagem técnica comum dos tribunais de contas.</p>
+<p>O Ibraop (Instituto Brasileiro de Auditoria de Obras Públicas) publica <b>Orientações Técnicas</b>, as OT-IBR, que padronizam como os tribunais de contas entendem conceitos de obra. Não são lei, mas a banca de tribunal de contas as cobra como referência. Os trechos abaixo foram conferidos no texto das OTs do seu material.</p>
+<p><b>OT-IBR 001/2006, Projeto Básico.</b> O projeto básico deve estabelecer com precisão características, dimensões, especificações, quantidades, custos e tempo, "de forma a evitar alterações e adequações durante a elaboração do projeto executivo e realização das obras". E todos os seus elementos devem ser feitos por profissional habilitado, com <b>ART</b>, identificação do autor e assinatura em cada peça. Ponte com a seção 2: é aqui que a "precisão adequada" da lei ganha conteúdo.</p>
+<p><b>OT-IBR 002/2009, Obra e Serviço de Engenharia.</b> Diz como enquadrar o objeto. A primeira pergunta é se a atividade exige conhecimento técnico de profissional habilitado (Lei 5.194/1966); se não exige, não é obra nem serviço de engenharia. E o enquadramento depende do <b>objeto e da ação</b> (construir, reformar, ampliar, fabricar, recuperar), sendo <b>independente de quantidade, porte ou custo</b>. Pegadinha: "a obra de pequeno valor pode ser tratada como serviço comum". O porte não muda a natureza. A OT traz exemplos: pintar uma ou outra sala de aula não é serviço de engenharia; pintar a fachada de um prédio de 10 andares exige profissional habilitado, pela segurança envolvida, e é <b>serviço</b> de engenharia, não obra.</p>
+<p><b>OT-IBR 003/2011, Garantia Quinquenal.</b> Durante os cinco anos, o executor tem responsabilidade objetiva e só se livra provando uma de <b>quatro excludentes</b>: <b>caso fortuito, força maior, culpa exclusiva de terceiros ou inexistência do defeito</b>. A responsabilidade alcança também os <b>projetistas</b>, ainda que o projeto tenha sido aprovado pela Administração. A OT manda a Administração fazer avaliações periódicas da obra depois do recebimento, <b>preferencialmente a cada 12 meses</b>, e, achando defeito, instaurar processo começando pela <b>notificação</b> do responsável. E mesmo <b>depois dos cinco anos</b>, a Administração pode notificar, se a obra estiver dentro da vida útil, mas aí <b>o ônus da prova passa a ser dela</b>.</p>
+<p><b>OT-IBR 004/2012, Precisão do Orçamento.</b> Quanto mais avançado o projeto, mais preciso o orçamento:</p>
+<div class="conta">fase do projeto        tipo de orçamento          precisão esperada
+estudos preliminares   estimativa de custo        ± 30% (edificações)
+anteprojeto            orçamento preliminar       ± 20%
+projeto básico         detalhado (orçamento base) ± 10%
+projeto executivo      detalhado definitivo       ± 5%
+âncora: 30, 20, 10, 5, cada fase corta a incerteza</div>
+<p>E duas regras finas que caem: a faixa de precisão <b>não se confunde com o limite de aditivos</b> e não justifica erro de projeto nem pedido de aditivo; e a faixa <b>não pode ser incluída no BDI</b> como risco do construtor.</p>
+<p><b>OT-IBR 005/2012, Sobrepreço e Superfaturamento.</b> Ensina a medir o dano. O superfaturamento por quantidade é a diferença entre o medido e o executado vezes o preço pago:</p>
+<div class="conta">SF = (QM − QE) × PM
+QM = quantidade medida ou paga; QE = quantidade efetivamente executada (na OT, QP); PM = preço pago
+Escola: 120 m³ medidos, 90 m³ executados, R$ 600/m³ → (120 − 90) × 600 = R$ 18.000</div>
+<p>A OT fixa ainda quatro regras:</p>
+<div class="conta">antes do contrato, em preço unitário → limitação dos preços unitários, sem compensar itens
+preço global ou após o contrato      → limitação do preço global (itens 5.6.1 e 5.6.2)
+pagamento antecipado   dano calculado pela Selic no período
+reajuste antes de 12 meses da proposta ou do orçamento → dano
+preço de comparação    fontes oficiais → privadas → alternativas</div>
+<p>As demais OTs do seu material completam o quadro <span class="confere">confira números e anos</span>: a <b>006/2016</b> trata do anteprojeto (base da contratação integrada), a <b>007/2018</b> do projeto de limpeza urbana e resíduos sólidos, a <b>008/2020</b> do projeto executivo e a <b>009/2024</b> do reequilíbrio econômico-financeiro, que só cabe com prova de fato imprevisível ou de consequências incalculáveis que cause variação <b>extraordinária</b> de custos. Variação inflacionária ou cambial corriqueira <b>não</b> justifica reequilíbrio, e o pedido passa primeiro por admissibilidade e só depois pela análise de valores.</p>
+
+<details><summary>Pare e confira</summary>
+<ol>
+  <li>Uma obra de pequeno valor pode ser enquadrada como serviço comum, por causa do porte.<span>Errado. O enquadramento independe de quantidade, porte ou custo (OT-IBR 002). Pegadinha de critério errado.</span></li>
+  <li>Na garantia quinquenal, o executor se exime provando que agiu sem culpa.<span>Errado. Responsabilidade objetiva; só as quatro excludentes: caso fortuito, força maior, culpa exclusiva de terceiro, inexistência do defeito (OT-IBR 003).</span></li>
+  <li>A precisão de ±10% do orçamento base autoriza aditivos até esse percentual.<span>Errado. Precisão não se confunde com limite de aditivo nem justifica erro de projeto (OT-IBR 004).</span></li>
+  <li>Orçamento feito sobre o anteprojeto tem precisão esperada de ± 10%.<span>Errado. ± 20%. ± 10% é o do projeto básico. Pegadinha de número vizinho.</span></li>
+  <li>Medidos 800 m², executados 650 m², preço R$ 40/m². Qual o superfaturamento?<span>(800 − 650) × 40 = R$ 6.000.</span></li>
+</ol>
+</details>
+<p class="leve">Leve para a prova: OT 001 projeto básico com ART; 002 enquadra pelo objeto, não pelo porte; 003 cinco anos, quatro excludentes, avaliação anual; 004 precisão 30, 20, 10, 5, que não é margem de aditivo nem BDI; 005 SF = (medido − executado) × preço.</p>
+
+<h2 id="confea">28. CONFEA, ART e responsabilidade técnica</h2>
+<p class="chance">Chance de cair · Resoluções CONFEA 218/1973 e 1.137/2023: dentro de obras; caem de forma pontual.</p>
+<p>Todo projeto, toda execução e toda fiscalização de obra têm um responsável técnico. A prova disso é a <b>ART</b>, Anotação de Responsabilidade Técnica, registrada no CREA. Ela é exigida desde a Lei 6.496/1977 e hoje é regulamentada pela <b>Resolução CONFEA 1.137/2023</b>, que substituiu a antiga Resolução 1.025/2009 <span class="confere">confira</span>. A ART define <b>quem responde</b> por cada atividade técnica. Exemplo: se o projeto elétrico da escola foi assinado sem ART, ou por profissional fora das suas atribuições, o achado tem critério na Lei 6.496/1977 e na Res. CONFEA 218/1973, e o efeito é não conseguir responsabilizar ninguém pela falha. Para o auditor, ela é evidência: projeto sem ART é projeto sem responsável identificado, e o Art. 124, § 1º da Lei 14.133 manda apurar a responsabilidade do autor do projeto quando a alteração vem de falha de projeto.</p>
+<p>A <b>Resolução CONFEA 218/1973</b> discrimina as atividades profissionais (de supervisão, estudo, projeto, direção e execução de obra, fiscalização, vistoria, perícia, ensaios, orçamento, entre outras) e diz <b>quais competem a cada modalidade</b> de engenharia; as atribuições também são tratadas na Res. CONFEA 1.073/2016 <span class="confere">confira</span>. A ideia cobrada é a de <b>atribuição</b>: o profissional só pode assinar o que está nas atribuições do seu título.</p>
+<p>Ponte com a qualificação técnica (seção 10): os atestados de capacidade técnico-profissional são vinculados a profissionais com ART, e a lei não aceita atestados de profissionais que tenham dado causa a sanções graves por ato técnico (Lei 14.133, Art. 67, § 12).</p>
+
+<details><summary>Pare e confira</summary>
+<ol>
+  <li>A ART é hoje regulamentada pela Resolução CONFEA 1.025/2009.<span>Errado. A 1.025 foi substituída pela 1.137/2023; a ART foi criada pela Lei 6.496/1977. Pegadinha de norma revogada.</span></li>
+  <li>Mini-caso: o projeto básico da escola não tem ART, e o aditivo de fundação decorreu de falha de projeto. Achado?<span>Sim. Sem ART não há responsável identificado (OT-IBR 001), e a lei manda apurar a responsabilidade do responsável técnico (Art. 124, § 1º). O projeto ter sido aprovado não isenta o autor (OT-IBR 003). Pegadinha de "aprovado, isento".</span></li>
+  <li>Qualquer engenheiro pode assinar qualquer atividade técnica, independentemente da modalidade.<span>Errado. As atividades são atribuídas por modalidade (Res. CONFEA 218/1973). Pegadinha de absoluto.</span></li>
+</ol>
+</details>
+<p class="leve">Leve para a prova: ART diz quem responde. 218/1973 diz o que cada modalidade pode fazer. 1.137/2023 é a resolução atual da ART.</p>
+
+<h2 id="bim">29. BIM</h2>
+<p class="chance">Chance de cair · BIM: objetiva 37% · caso 29% (o menor do bloco de obras).</p>
+<p>BIM (<i>Building Information Modelling</i>) é a modelagem da informação da construção: em vez de desenhos soltos, um <b>modelo digital</b> em que cada elemento (pilar, viga, tubulação) carrega informações (material, quantidade, custo, prazo). Isso permite compatibilizar projetos (achar a tubulação que atravessa a viga antes da obra), extrair quantitativos direto do modelo e planejar a obra. A lei manda: nas licitações de obras e serviços de engenharia e arquitetura, <b>sempre que adequada</b> ao objeto, será <b>preferencialmente</b> adotada a BIM ou tecnologia similar ou mais avançada (Lei 14.133, Art. 19, § 3º). Repare nos dois freios: "sempre que adequada" e "preferencialmente". Pegadinha: "a BIM é obrigatória em toda licitação de obra". Errado. No plano federal, há a Estratégia BIM BR e decretos de implantação gradual <span class="confere">confira</span>.</p>
+<p>Olhar do auditor: na escola, um modelo BIM compatibilizado teria mostrado a tubulação atravessando a viga antes de virar aditivo. Edital de obra complexa sem BIM e sem justificativa merece registro, mas não é ilegal por si só: a lei diz "preferencialmente".</p>
+<details><summary>Pare e confira</summary>
+<ol>
+  <li>A Lei 14.133 torna a BIM obrigatória em toda licitação de obra.<span>Errado. Preferencial, sempre que adequada ao objeto (Art. 19, § 3º). Pegadinha de absoluto.</span></li>
+  <li>A lei veda tecnologias posteriores à BIM.<span>Errado. Admite tecnologias "similares ou mais avançadas que venham a substituí-la". Pegadinha de restrição inventada.</span></li>
+  <li>Que uso da BIM evita aditivo por interferência entre tubulação e viga?<span>A compatibilização de projetos. Ponte com o projeto básico deficiente (seção 2) e o Art. 124, § 1º.</span></li>
+</ol>
+</details>
+<p class="leve">Leve para a prova: BIM é preferencial, quando adequada (Art. 19, § 3º), não obrigatória em toda obra. Serve para compatibilizar, quantificar e planejar.</p>
+
+<h2 id="discursiva">30. A discursiva: como transformar tudo isso em resposta</h2>
+<p class="chance">Chance de cair · A tarde vale dois estudos de caso de 20 pontos cada. Os temas mais prováveis, pelo Jev: fiscalização e medições (71%), análise de propostas (69%), alteração de contratos (69%), documentação técnica (69%), acompanhamento da execução (66%) e regimes (65%); em rodovia, controle de execução (72%).</p>
+<p>Chegou a hora de juntar tudo. O estudo de caso descreve uma obra com problemas e pede que você, como auditor, identifique as irregularidades, diga o que a norma exige e proponha encaminhamentos. A ferramenta para isso é a <b>matriz de achados</b>, que você já vem usando desde a seção 1 sem perceber. Cada achado tem seis partes:</p>
+<div class="conta">1. Situação encontrada   o que é (o fato, com números)
+2. Critério              o que deveria ser (lei, norma, contrato)
+3. Evidência             como você sabe (documento, ensaio, medição, foto)
+4. Causa                 por que aconteceu (falha de projeto, de fiscalização...)
+5. Efeito                o que isso gera (dano, risco, atraso)
+6. Encaminhamento        o que propor (determinação, ressarcimento, apuração)</div>
+<p>Uma dica de escrita que vale ponto: <b>um parágrafo por achado</b>, sempre na mesma ordem. O critério com o artigo citado e o encaminhamento concreto são o que o corretor procura primeiro. Use números do enunciado, cite o dispositivo e não invente acórdão: a lei e a norma bastam.</p>
+<p>Vamos fazer um caso completo com a nossa escola, que reúne o que você estudou.</p>
+<p><b>Enunciado (modelo).</b> O Município de Vila Nova contratou a construção de uma escola por empreitada por preço global, valor de R$ 8,2 milhões, com orçamento-base de R$ 10 milhões elaborado com SINAPI (há recursos de convênio federal). A auditoria verificou: (a) a proposta vencedora tinha o item "escavação" 60% acima do SINAPI e o item "pintura" 50% abaixo; (b) dois aditivos acrescentaram R$ 2,5 milhões (escavação e quadra) e suprimiram R$ 0,6 milhão (pintura e paisagismo); (c) no 4º boletim, foram medidos 120 m³ de concreto a R$ 600/m³, mas as notas fiscais somam 90 m³; (d) o BDI da proposta inclui CSLL e administração local; (e) não há termo de recebimento provisório, e a escola já está em uso.</p>
+<p><b>Resposta modelo, em parágrafos.</b></p>
+<p><b>Achado 1, jogo de planilha.</b> <b>Situação:</b> a proposta vencedora tinha a escavação 60% acima do SINAPI e a pintura 50% abaixo, e os aditivos aumentaram a escavação e suprimiram a pintura. <b>Critério:</b> em obras, exequibilidade e sobrepreço consideram o preço global, os quantitativos e os preços unitários relevantes, com critério de aceitabilidade unitário e global (Lei 14.133, Art. 59, § 3º), e a diferença percentual entre o contrato e a referência não pode ser reduzida em favor do contratado por aditamentos (Art. 128). <b>Evidência:</b> proposta, orçamento-base e termos aditivos. <b>Causa:</b> edital sem critério de aceitabilidade de preços unitários e projeto básico com quantitativos imprecisos. <b>Efeito:</b> perda do desconto original e risco de sobrepreço. <b>Encaminhamento:</b> recalcular os aditivos para preservar o desconto original e apurar o valor pago a maior, com determinação de ressarcimento. Atenção à nuance: em preço global, o sobrepreço se mede pelo valor global (Art. 6º, LVI) e a medição é por etapa (Art. 46, § 9º); mesmo assim, o jogo de planilha aparece nos aditivos, que usam os preços unitários da proposta.</p>
+<p><b>Achado 2, aditivos acima do limite.</b> <b>Situação:</b> os acréscimos somaram R$ 2,5 milhões, 30,5% do valor contratual, e as supressões, R$ 0,6 milhão. <b>Critério:</b> o limite para acréscimos e supressões é de 25% do valor inicial atualizado, e a obra não é reforma (Art. 125); acréscimos e supressões são calculados separadamente, sem compensação. O limite é 25% × 8,2 = R$ 2,05 milhões; o excesso é 2,5 − 2,05 = R$ 0,45 milhão. <b>Evidência:</b> termos aditivos e planilhas. <b>Causa:</b> falhas do projeto básico. <b>Efeito:</b> contrato além do limite legal e risco de dano. <b>Encaminhamento:</b> determinar que não se executem acréscimos além do limite, rever o excesso de R$ 0,45 milhão e apurar a responsabilidade do autor do projeto pelas alterações decorrentes de falha de projeto (Art. 124, § 1º).</p>
+<p><b>Achado 3, superfaturamento por quantidade.</b> <b>Situação:</b> foram medidos e pagos 120 m³ de concreto a R$ 600/m³, mas as notas fiscais comprovam 90 m³. <b>Critério:</b> superfaturamento é dano caracterizado, entre outros, pela medição de quantidades superiores às executadas (Art. 6º, LVII, a). <b>Evidência:</b> boletim de medição, notas fiscais, diário de obra e mapas de concretagem. <b>Causa:</b> medição sem conferência em campo pelo fiscal (Art. 117). <b>Efeito:</b> dano de (120 − 90) × 600 = R$ 18.000 (OT-IBR 005). <b>Encaminhamento:</b> glosa ou ressarcimento do valor e apuração da responsabilidade do fiscal.</p>
+<p><b>Achado 4, BDI irregular.</b> <b>Situação:</b> o BDI da proposta inclui CSLL e administração local. <b>Critério:</b> IRPJ e CSLL não podem compor o BDI (Súmula TCU 254), e a administração local deve constar como custo direto na planilha. <b>Evidência:</b> composição do BDI da proposta. <b>Causa:</b> análise da proposta sem conferir a composição do BDI. <b>Efeito:</b> sobrepreço em todos os itens, porque o BDI multiplica cada um. <b>Encaminhamento:</b> recalcular o BDI e glosar a diferença paga.</p>
+<p><b>Achado 5, ausência de recebimento.</b> <b>Situação:</b> a escola está em uso sem termo de recebimento provisório ou definitivo. <b>Critério:</b> obras são recebidas provisoriamente pelo responsável pela fiscalização e definitivamente por servidor ou comissão, por termo detalhado (Art. 140, I). <b>Evidência:</b> processo sem os termos e registro fotográfico da escola em uso. <b>Causa:</b> falta de designação da comissão de recebimento. <b>Efeito:</b> dificuldade de cobrar vícios e de contar a garantia de no mínimo 5 anos (Art. 140, § 6º). <b>Encaminhamento:</b> lavrar os termos com vistoria detalhada e notificar o contratado sobre vícios encontrados.</p>
+<p>Repare que cada parágrafo usou duas ou três seções deste texto. É isso que a banca quer ver: não decoreba solta, mas a lei aplicada a fatos, com número, artigo e proposta.</p>
+
+<details><summary>Pare e confira</summary>
+<ol>
+  <li>Quais são as seis partes de um achado?<span>Situação, critério, evidência, causa, efeito e encaminhamento.</span></li>
+  <li>Em um caso de rodovia, a espessura de CBUQ medida é 5 cm, mas os corpos de prova extraídos mostram 4 cm. Monte critério e efeito.<span>Critério: especificação do serviço e medição do executado (Art. 6º, LVII, a e b, quantidade e qualidade). Efeito: superfaturamento e redução da vida útil do pavimento. Encaminhamento: glosa e correção às custas do contratado (Art. 119).</span></li>
+  <li>Na discursiva, citar um acórdão de memória, sem certeza do número, ajuda?<span>Não. Arrisca a nota. A lei, a norma e a OT bastam.</span></li>
+</ol>
+</details>
+<p class="leve">Leve para a prova: na tarde, um parágrafo por achado: situação, critério com artigo, evidência, causa, efeito e encaminhamento. Use os números do enunciado e não invente jurisprudência.</p>
+
+<h2 id="revisao">Revisão final: os números que mais caem</h2>
+<div class="conta">LEI 14.133
+grande vulto > R$ 200 mi (texto da lei; atualizado todo ano)
+proposta &lt; 75% inexequível · &lt; 85% garantia adicional = diferença
+atestado: parcela ≥ 4% · quantidade ≤ 50% · sem limite de tempo/local
+aditivo 25% (acréscimo e supressão) · 50% só acréscimo em reforma · sem compensar
+aditivo urgente formalizado em até 1 mês
+garantia 5% · até 10% justificado · até 30% grande vulto c/ retomada
+multa 0,5% a 30% · impedimento ≤ 3 anos (ente) · inidoneidade 3 a 6 anos (todos)
+recebimento: provisório = fiscal · definitivo = servidor/comissão · garantia ≥ 5 anos
+
+ORÇAMENTO
+SICRO transporte · SINAPI o resto · ≤ mediana
+BDI = [(1+AC+S+R+G)(1+DF)(1+L)/(1−I)] − 1 · sem IRPJ/CSLL · adm. local fora
+curva ABC: A ≈ 80% do valor em ≈ 20% dos itens
+precisão: 30 / 20 / 10 / 5%
+
+AMBIENTAL E SANEAMENTO
+análise 6 meses (12 c/ EIA) · LP ≤ 5 · LI ≤ 6 · LO 4 a 10 · renovar 120 dias antes
+RCC: A agregado · B recicla (gesso, madeira) · C complicado · D danoso (amianto)
+99% água · 90% esgoto · até 31/12/2033 · plano revisto ≤ 10 anos
+
+DISCURSIVA
+ACHADO: situação · critério (artigo) · evidência · causa · efeito (R$) · encaminhamento
+
+CONCRETO E RODOVIA
+a/c 0,65 / 0,60 / 0,55 / 0,45 (CAA I a IV) · fcj = fck + 1,65 sd (A 4,0 até C80 / B 5,5 até C25 / C 7,0 só C10-C15)
+cura até 15 MPa · 28 dias = idade de ensaio
+base CBR ≥ 80 · sub-base ≥ 20 · subleito ≥ 2 · eixo padrão 8,2 tf · IP = LL − LP</div>
+<p>Se você chegou até aqui, você percorreu a vida inteira de uma obra pública, da necessidade à garantia, com os olhos de quem vai fiscalizá-la. Na véspera, não leia tudo de novo: leia só os blocos <b>Leve para a prova</b> e esta revisão, e refaça os <b>Pare e confira</b> que você errou. Boa prova.</p>
+
 <footer>
-<p>Partes 1 a 4 de 5. As próximas partes entram nesta mesma página.</p>
+<p>Texto completo: partes 1 a 5. Revisado por dois analistas (didática e retenção/exatidão), com citações de lei conferidas no texto das leis.</p>
 </footer>
 </main>
 </body>
