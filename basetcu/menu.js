@@ -2,6 +2,7 @@
 (function () {
   var GRUPOS = [
     ['Estudo', [['/estudar', 'Estudar hoje'], ['/edital', 'Edital por tópicos'], ['/', 'início']]],
+    ['Resumos', [['/rodovias', 'Obras rodoviárias: o que mais cai']]],
     ['Teoria passo a passo', [['/lei12305', 'Lei 12305 de resíduos sólidos'], ['/lei14133', 'Lei 14133 licitações e contratos']]],
     ['Pegadinhas', [['/pegadinhas-lei14133', 'Lei 14133'], ['/pegadinhas-lei12305', 'Lei 12305'], ['/pegadinhas-lei11445', 'Lei 11445 saneamento']]]
   ];

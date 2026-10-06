@@ -39,6 +39,9 @@ const $ = (id) => document.getElementById(id);
 function esc(t) { return String(t).replace(/[&<>"']/g, (m) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;' }[m])); }
 const STATUS = { feito: 'concluído', andamento: 'em andamento', proxima: 'próxima parte', pendente: 'precisa de texto seu' };
 const TOPICOS = [
+  { nome: 'Obras rodoviárias e pavimentação urbana', det: 'Manual de Pavimentação DNIT (IPR-719), sondagens, ensaios, terraplenagem, pavimentação, drenagem, OAE, equipamentos, SICRO e controle de execução', st: 'andamento',
+    partes: [['Resumo: o que mais cai', '/rodovias']],
+    nota: '<b>Falta:</b> as pegadinhas. Sem o texto do manual e das especificações do DNIT o Jev não confere os valores (testei: ele não separa CBR 20% de 80%). <b>Preciso de:</b> os PDFs do manual e das especificações.' },
   { nome: 'Licitações e contratos', det: 'Lei 14.133/2021', st: 'feito',
     partes: [['Teoria e questões de cálculo', '/lei14133'], ['Pegadinhas', '/pegadinhas-lei14133', '/dados/pegadinhas-lei14133.json']] },
   { nome: 'Resíduos sólidos', det: 'Lei 12.305/2010', st: 'feito',
