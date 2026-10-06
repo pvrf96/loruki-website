@@ -1,0 +1,824 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Resumo final da prova</title>
+<meta name="description" content="Resumo explicativo de todo o edital de Engenharia Civil do TCESP (Auditor de Controle Externo, Vunesp), em texto corrido.">
+<style>
+  :root { --tx: #1d1d1f; --suave: #5b5b60; --linha: #e6e6e9; --marca: #0b57d0; --peg: #b3261e; }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: #ffffff; color: var(--tx); font: 18px/1.75 Georgia, "Times New Roman", serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 40px 16px 120px; }
+  h1 { font: 700 32px/1.25 -apple-system, "Segoe UI", Roboto, Arial, sans-serif; margin: 0 0 8px; }
+  h2 { font: 700 24px/1.3 -apple-system, "Segoe UI", Roboto, Arial, sans-serif; margin: 64px 0 6px; padding-top: 12px; border-top: 1px solid var(--linha); }
+  h3 { font: 700 19px/1.35 -apple-system, "Segoe UI", Roboto, Arial, sans-serif; margin: 34px 0 4px; }
+  .chance { font: 13px/1.4 -apple-system, "Segoe UI", Roboto, Arial, sans-serif; color: var(--suave); margin: 0 0 18px; }
+  p { margin: 0 0 18px; overflow-wrap: break-word; }
+  a { color: var(--marca); }
+  .sub { color: var(--suave); font-size: 17px; }
+  b.peg { color: var(--peg); }
+  .conta { font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 15.5px; background: #fafafa; border-left: 3px solid var(--linha); padding: 10px 14px; margin: 0 0 18px; white-space: pre-wrap; overflow-wrap: break-word; }
+  .confere { font: 600 12px/1 -apple-system, "Segoe UI", Roboto, Arial, sans-serif; color: #8a5a00; border: 1px solid #e8c77a; border-radius: 4px; padding: 2px 5px; }
+  details { border: 1px solid var(--linha); border-radius: 8px; padding: 12px 16px; margin: 0 0 18px; }
+  summary { cursor: pointer; font: 700 16px/1.4 -apple-system, "Segoe UI", Roboto, Arial, sans-serif; }
+  details ol { margin: 12px 0 0; padding-left: 22px; }
+  details li { margin-bottom: 12px; }
+  details li span { display: block; color: var(--suave); font-size: 16px; }
+  .leve { font-style: italic; }
+  nav ol { padding-left: 22px; }
+  nav li { margin-bottom: 4px; }
+  .parte { font: 600 12px/1 -apple-system, "Segoe UI", Roboto, Arial, sans-serif; letter-spacing: .06em; text-transform: uppercase; color: var(--suave); margin-top: 80px; }
+  footer { margin-top: 80px; color: var(--suave); font-size: 15px; }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Resumo final da prova</h1>
+<p class="sub">Auditor de Controle Externo do TCESP, Engenharia Civil (Vunesp). Todo o edital, em texto corrido, na ordem em que uma obra pública acontece. A chance de cair em cada tema é a estimativa do Jev.</p>
+
+<h2 id="como">Antes de começar: como ler este texto</h2>
+<p>Vou te conduzir pela vida de uma obra pública, do dia em que alguém percebe a necessidade até o dia em que a obra é entregue e começa a contar a garantia. Essa é a mesma ordem em que um auditor do Tribunal olha uma obra, e é também a ordem em que as perguntas da prova fazem sentido. Se você entender a história, as regras deixam de ser uma lista solta e passam a ter motivo.</p>
+<p>Para a história ter rosto, vamos acompanhar uma obra só, inventada: a <b>Escola Municipal Vila Nova</b>, em um município paulista, orçada em <b>R$ 10 milhões</b>, com parte do dinheiro vindo de um convênio com a União. Mais adiante, nas partes de rodovia e de saneamento, a mesma prefeitura vai recapear uma estrada vicinal e ampliar o esgoto do bairro. Sempre que eu falar "a nossa escola", é dela que estou falando.</p>
+<p>Algumas convenções. Quando uma regra vem da lei, eu indico o artigo entre parênteses, e você pode confiar que ela foi conferida no texto da lei. Quando é conhecimento técnico, de manual ou de norma, cujo texto eu não tinha em mãos para conferir, aparece a marca <span class="confere">confira</span>: o conteúdo é o usual da área, mas vale olhar o número na fonte antes da prova. No fim de cada seção há um bloco <b>Pare e confira</b>: tente responder antes de abrir. Errar ali é bom, porque é errar em casa.</p>
+<p>A chance de cair, logo abaixo de cada título, é a estimativa do Jev com o perfil da sua prova (TCESP, engenharia, Vunesp). "Objetiva" é a prova da manhã; "caso" é o estudo de caso da tarde. Ela não é estatística de provas anteriores; serve para você dosar o tempo.</p>
+
+<nav>
+<p><b>O caminho</b></p>
+<ol>
+  <li><a href="#mapa">O mapa: a vida de uma obra pública</a></li>
+  <li><a href="#planejamento">Planejamento: ETP, termo de referência, anteprojeto, projeto básico e executivo</a></li>
+  <li><a href="#regimes">Regimes de execução</a></li>
+  <li><a href="#riscos">Matriz de riscos</a></li>
+  <li><a href="#orcamento">Orçamento de referência: SINAPI, SICRO e a ordem da lei</a></li>
+  <li><a href="#composicao">Composição de custo unitário, encargos sociais e BDI</a></li>
+  <li><a href="#abc">Curva ABC, cronograma e curva S</a></li>
+  <li><a href="#sobrepreco">Sobrepreço, superfaturamento e orçamento sigiloso</a></li>
+  <li><a href="#propostas">Análise de propostas: exequibilidade, critério de aceitabilidade e jogo de planilha</a></li>
+  <li><a href="#habilitacao">Qualificação técnica e visita técnica</a></li>
+  <li><a href="#fiscalizacao">Fiscalização, medição e pagamento</a></li>
+  <li><a href="#alteracoes">Alterações do contrato, reajuste e reequilíbrio</a></li>
+  <li><a href="#garantias">Garantias e sanções</a></li>
+  <li><a href="#recebimento">Recebimento, garantia de cinco anos e responsabilidade do projetista</a></li>
+  <li><a href="#especiais">Registro de preços, contrato de eficiência e remuneração variável</a></li>
+  <li><a href="#licenciamento">Licenciamento ambiental: LP, LI, LO e EIA/RIMA</a></li>
+  <li><a href="#crimes">Responsabilidade ambiental e crimes</a></li>
+  <li><a href="#desapropriacao">Desapropriação na obra pública</a></li>
+  <li><a href="#rcc">Resíduos da construção civil: CONAMA 307, PGRCC, MTR e Lei 12.305</a></li>
+  <li><a href="#hidricos">Política Nacional do Meio Ambiente e recursos hídricos</a></li>
+  <li><a href="#saneamento">Saneamento básico: Lei 11.445 com o Marco de 2020, resíduos sólidos e ODS</a></li>
+  <li><a href="#concreto">Concreto: do cimento à resistência</a></li>
+  <li><a href="#controle">Controle tecnológico do concreto: slump, corpos de prova e aceitação</a></li>
+  <li><a href="#execucao">Execução, desempenho, manutenção e CUB</a></li>
+  <li><a href="#pavimento">Rodovias: o pavimento, as camadas e o dimensionamento</a></li>
+  <li><a href="#rodovias">Rodovias: terraplenagem, drenagem, revestimento, controle e SICRO</a></li>
+  <li><a href="#ibraop">As Orientações Técnicas do Ibraop</a></li>
+  <li><a href="#confea">CONFEA, ART e responsabilidade técnica</a></li>
+  <li><a href="#bim">BIM</a></li>
+  <li><a href="#discursiva">A discursiva: como transformar tudo isso em resposta</a></li>
+  <li><a href="#revisao">Revisão final: os números que mais caem</a></li>
+</ol>
+</nav>
+
+<p class="parte">Parte 1 · Do planejamento ao orçamento</p>
+
+<h2 id="mapa">1. O mapa: a vida de uma obra pública</h2>
+<p>Pense na nossa escola. Antes de existir qualquer tijolo, alguém na prefeitura percebeu que as crianças de Vila Nova estudam longe de casa. Esse é o problema. A lei quer que a Administração, antes de sair contratando, prove que entendeu o problema e escolheu a melhor solução. Esse primeiro documento é o <b>estudo técnico preliminar</b>, o ETP.</p>
+<p>Depois que a solução está escolhida (uma escola nova, e não, por exemplo, alugar um prédio), a Administração precisa descrever o que quer comprar com precisão suficiente para que as empresas façam preço. Em obra, essa descrição é o <b>projeto</b>: anteprojeto, projeto básico, projeto executivo. Com o projeto pronto, ela calcula quanto a obra deveria custar: é o <b>orçamento de referência</b>. Só então vem a licitação, onde as propostas são comparadas com esse orçamento.</p>
+<p>Assinado o contrato, começa a <b>execução</b>, que é acompanhada por um fiscal, medida mês a mês e paga conforme o que foi efetivamente feito. Durante a execução, o contrato pode precisar de <b>alterações</b>. No fim, a obra é <b>recebida</b>, primeiro provisoriamente e depois definitivamente, e a partir daí o construtor continua respondendo pela solidez e segurança por no mínimo cinco anos.</p>
+<p>Guarde essa sequência, porque toda pergunta da prova cabe em algum ponto dela: <b>necessidade → ETP → projeto → orçamento → licitação → contrato → execução e medição → alterações → recebimento → garantia</b>. Quando uma questão parecer confusa, pergunte-se primeiro: "em que ponto da vida da obra estamos?". Metade da resposta sai daí.</p>
+<p>E o auditor? O auditor de obras faz basicamente a mesma pergunta em cada etapa: o que deveria ter acontecido (o <b>critério</b>, que normalmente é a lei, a norma ou o contrato) e o que aconteceu de fato (a <b>situação encontrada</b>). Se os dois não batem, há um <b>achado</b>. Use essa ideia desde já: para cada regra que você ler aqui, imagine o descumprimento. Isso é um achado.</p>
+
+<details><summary>Pare e confira</summary>
+<ol>
+  <li>O orçamento de referência pode ser feito antes do projeto, e o projeto ajustado depois para caber no orçamento. Certo ou errado?<span>Errado na lógica da lei: o orçamento é calculado a partir do projeto, porque é o projeto que dá os quantitativos. Pegadinha de ordem.</span></li>
+  <li>O que é um achado de auditoria, em uma frase?<span>A diferença entre o critério (o que deveria ser) e a situação encontrada (o que é), sustentada por evidência.</span></li>
+  <li>O projeto básico caracteriza o interesse público e a melhor solução para a necessidade.<span>Errado. Isso é o ETP (Art. 6º, XX); o projeto básico vem depois e serve para orçar e licitar. Pegadinha de troca de documento.</span></li>
+  <li>Mini-caso: no 3º mês de obra, descobre-se que a sondagem não foi feita. Em que etapa nasceu o problema?<span>No projeto básico, que deveria trazer sondagens e ensaios geotécnicos (Art. 6º, XXV, a). Pegadinha de etapa: a culpa não nasceu na execução.</span></li>
+</ol>
+</details>
+<p class="leve">Leve para a prova: a obra pública tem uma ordem, e a lei protege essa ordem. Quase toda irregularidade é pular uma etapa ou fazer uma etapa mal feita.</p>
+
+<h2 id="planejamento">2. Planejamento: ETP, termo de referência, anteprojeto, projeto básico e executivo</h2>
+<p class="chance">Chance de cair · Lei 14.133 (definições, ETP, regimes): objetiva 88% · caso 63%. Documentação técnica: 82% · 69%. TR, anteprojeto, projeto básico e executivo: 76% · 57%.</p>
+<p>Vamos começar pelo começo da escola. A lei diz que a fase preparatória da licitação "é caracterizada pelo planejamento" (Art. 18). Ou seja, o legislador quis que a obra fosse pensada antes de ser comprada. O ETP é o primeiro documento desse planejamento: ele "caracteriza o interesse público envolvido e a sua melhor solução" e serve de base para o anteprojeto, o termo de referência ou o projeto básico (Art. 6º, XX).</p>
+<p>O ETP tem treze elementos possíveis (Art. 18, § 1º), e você não precisa decorar os treze. Precisa decorar <b>quais são obrigatórios</b>, porque é isso que a banca troca. São cinco (Art. 18, § 2º): a <b>descrição da necessidade</b> (inciso I), as <b>estimativas das quantidades</b> com memória de cálculo (IV), a <b>estimativa do valor</b> (VI), a <b>justificativa para parcelar ou não</b> a contratação (VIII) e o <b>posicionamento conclusivo</b> sobre se a contratação atende à necessidade (XIII). Os outros oito podem faltar, mas a falta tem de ser justificada.</p>
+<p>Uma forma de lembrar os cinco: pense nas perguntas que qualquer pessoa sensata faria antes de gastar dinheiro. <i>Do que eu preciso? Quanto eu preciso? Quanto vai custar? Compro tudo junto ou em partes? E, no fim, vale a pena?</i> Necessidade, quantidade, valor, parcelamento e conclusão. Repare que "levantamento de mercado" e "impactos ambientais" parecem importantíssimos, e são, mas <b>não estão entre os obrigatórios</b>. A Vunesp adora escrever "o ETP deverá conter, obrigatoriamente, o levantamento de mercado". <b class="peg">Errado</b>: ele pode deixar de conter, desde que justifique.</p>
+<p>Agora os documentos que descrevem o objeto. Eles são quatro e formam uma escada de detalhamento:</p>
+<p><b>Termo de referência</b> é o documento para a contratação de <b>bens e serviços</b> (Art. 6º, XXIII). Em obra, ele aparece pouco; o natural, em obra, é o projeto. <b>Anteprojeto</b> é a "peça técnica com todos os subsídios necessários à elaboração do projeto básico" (Art. 6º, XXIV): ele não é o projeto básico, é o que permite que alguém faça o projeto básico. <b>Projeto básico</b>, em uma frase: preciso o bastante para orçar, licitar e garantir a viabilidade. Na letra da lei, é o conjunto de elementos "necessários e suficientes, com nível de precisão adequado para definir e dimensionar a obra", que assegura a viabilidade técnica e o tratamento do impacto ambiental e "possibilite a avaliação do custo da obra e a definição dos métodos e do prazo de execução" (Art. 6º, XXV). <b>Projeto executivo</b> é o conjunto de elementos "necessários e suficientes à execução completa da obra", com o detalhamento das soluções do projeto básico (Art. 6º, XXVI).</p>
+<p>Perceba a diferença entre os dois últimos, porque é a mais cobrada: o projeto básico serve para <b>orçar e licitar</b>; o projeto executivo serve para <b>construir</b>. Um tem precisão para definir custo e prazo; o outro tem detalhe para o operário executar.</p>
+<p>E aqui vem uma regra que muita gente esquece: <b>é vedado executar obra sem projeto executivo</b> (Art. 46, § 1º). A única ressalva é a do Art. 18, § 3º: em obras e serviços <b>comuns</b> de engenharia, se ficar demonstrado que não há prejuízo para aferir desempenho e qualidade, a especificação pode ser feita só em termo de referência ou projeto básico. Note duas coisas. Primeiro, a vedação é para <b>executar</b> sem projeto executivo, não para <b>licitar</b> sem ele; licitar com projeto básico é o normal. Segundo, a exceção é estreita: obra comum, e com demonstração.</p>
+<p>Na contratação integrada, que veremos na próxima seção, a Administração nem faz projeto básico: ela é dispensada dele e faz um <b>anteprojeto</b> (Art. 46, § 2º). É o contratado quem elabora o projeto básico e o executivo. Na semi-integrada, a Administração faz o projeto básico e o contratado faz o executivo.</p>
+<p>Olhar do auditor: na nossa escola, se o fiscal descobre no meio da obra que a sondagem do terreno não foi feita e a fundação prevista não serve, o problema nasceu no projeto básico, que não tinha "nível de precisão adequado". A lei manda apurar a responsabilidade do autor do projeto quando a alteração do contrato decorre de falha de projeto (Art. 124, § 1º). Projeto básico deficiente é um dos achados mais comuns em obra pública, e quase sempre aparece depois disfarçado de aditivo.</p>
+
+<details><summary>Pare e confira</summary>
+<ol>
+  <li>O ETP deve conter obrigatoriamente o levantamento de mercado e a descrição dos impactos ambientais.<span>Errado. Obrigatórios são necessidade, quantidades, valor, parcelamento e conclusão (Art. 18, § 2º). Os demais podem faltar com justificativa. Pegadinha de absoluto.</span></li>
+  <li>É vedada a licitação de obra sem projeto executivo.<span>Errado. A vedação é para a realização (execução) da obra sem projeto executivo (Art. 46, § 1º). Licitar com projeto básico é a regra. Pegadinha de verbo.</span></li>
+  <li>Na contratação integrada, a Administração elabora o projeto básico e o contratado, o executivo.<span>Errado. Isso é a semi-integrada. Na integrada, a Administração faz anteprojeto e o contratado faz básico e executivo. Pegadinha de troca de regime.</span></li>
+  <li>O termo de referência é o documento típico para contratar bens e serviços.<span>Certo (Art. 6º, XXIII).</span></li>
+</ol>
+</details>
+<p class="leve">Leve para a prova: o ETP prova que a solução é boa; o projeto básico permite orçar e licitar; o executivo permite construir. Sem projeto executivo não se executa obra, salvo obra comum com demonstração (Art. 18, § 3º).</p>
+
+<h2 id="regimes">3. Regimes de execução</h2>
+<p class="chance">Chance de cair · Regimes de execução: objetiva 81% · caso 65%.</p>
+<p>O regime responde a uma pergunta simples: <b>como o contratado vai ser pago e quanto do risco fica com ele</b>. A lei admite sete regimes em obras e serviços de engenharia (Art. 46): empreitada por preço unitário, empreitada por preço global, empreitada integral, contratação por tarefa, contratação integrada, contratação semi-integrada e fornecimento e prestação de serviço associado.</p>
+<p>Vamos entender cada um pelo que ele resolve.</p>
+<p><b>Empreitada por preço unitário</b> é a "contratação da execução da obra ou do serviço por preço certo de unidades determinadas" (Art. 6º, XXVIII). Paga-se por metro cúbico, por metro quadrado, por quilo. Se a quantidade real for maior, paga-se mais. Ela é a escolha natural quando a <b>quantidade não pode ser conhecida com precisão</b> antes da obra: terraplenagem, fundação em terreno pouco conhecido, reforma em que só se descobre o estrago quando se abre a parede. O risco da quantidade fica com a Administração.</p>
+<p><b>Empreitada por preço global</b> é a contratação "por preço certo e total" (Art. 6º, XXIX). O contratado se compromete a entregar a obra inteira pelo valor combinado. Ela pressupõe <b>projeto bem definido</b>, porque o contratado assume o risco de pequenos erros de quantidade. É o regime mais comum para edificação com bom projeto, como a nossa escola.</p>
+<p><b>Empreitada integral</b> é contratar "o empreendimento em sua integralidade", sob inteira responsabilidade do contratado "até sua entrega ao contratante em condições de entrada em operação" (Art. 6º, XXX). Pense em uma estação de tratamento entregue funcionando, com tudo instalado. <b>Tarefa</b> é a contratação de "mão de obra para pequenos trabalhos por preço certo, com ou sem fornecimento de materiais" (Art. 6º, XXXI).</p>
+<p><b>Contratação integrada</b>: o contratado elabora o <b>projeto básico e o executivo</b>, executa, fornece, monta, testa e pré-opera (Art. 6º, XXXII). <b>Contratação semi-integrada</b>: o contratado elabora <b>só o executivo</b> e faz o resto (Art. 6º, XXXIII). Na semi-integrada, o projeto básico pode ser alterado com autorização prévia, se o contratado demonstrar a superioridade da inovação em custo, qualidade, prazo ou manutenção, assumindo o risco da mudança (Art. 46, § 5º). <b>Fornecimento e prestação de serviço associado</b>: além de fornecer, o contratado opera, mantém, ou ambos, por tempo determinado (Art. 6º, XXXIV).</p>
+<p>Agora o detalhe que derruba. A lei diz que os regimes dos incisos <b>II a VI</b> do Art. 46 (preço global, integral, tarefa, integrada e semi-integrada) "serão licitados por preço global" e terão medição e pagamento por <b>etapas do cronograma físico-financeiro vinculadas a metas de resultado</b>, sendo vedado remunerar por preços unitários ou por quantidades de itens unitários (Art. 46, § 9º). Traduzindo: só o preço unitário (I) e o fornecimento com serviço associado (VII) medem item por item. Na escola por preço global, você não paga "320 m² de alvenaria"; você paga "etapa 3 concluída: estrutura do bloco B pronta". Âncora: <b>de II a VI, paga-se marco, não metro</b>. Se a questão disser que "na contratação integrada a medição será feita por quantidades de itens unitários executados", ela está <b class="peg">errada</b>.</p>
+<p>Outro detalhe: o <b>orçamento detalhado</b> do custo global é elemento do projeto básico, mas ele é obrigatório "exclusivamente" para os regimes dos incisos <b>I, II, III, IV e VII</b> do Art. 46 (Art. 6º, XXV, alínea f). Ficam de fora justamente a <b>integrada (V)</b> e a <b>semi-integrada (VI)</b>. Nelas, o valor estimado segue a mesma ordem de fontes do orçamento comum, pode ser acrescido de uma parcela de <b>remuneração do risco</b> e, sempre que necessário e o anteprojeto permitir, é baseado em <b>orçamento sintético</b> balizado no SINAPI ou SICRO; metodologia expedita ou paramétrica fica reservada às frações do empreendimento não suficientemente detalhadas (Art. 23, § 5º). Isso explica por que esses regimes carregam mais incerteza de preço e por que a lei os cerca de cuidados (matriz de riscos obrigatória, como você vai ver já já).</p>
+<p>Olhar do auditor: o erro mais comum é a escolha do regime não combinar com a qualidade do projeto. Licitar uma obra de terraplenagem pesada por preço global com projeto ruim leva a pleitos de aditivo; licitar uma escola padrão por preço unitário com projeto excelente abre espaço para o famoso <b>jogo de planilha</b> (você vai vê-lo na parte de propostas). O regime tem de ser justificado no planejamento (Art. 18, VII).</p>
+<p><b>Na discursiva:</b> critério, Art. 46, § 9º; situação, contrato de integrada medido por planilha de quantidades; efeito, pagamento sem vínculo com meta de resultado.</p>
+
+<details><summary>Pare e confira</summary>
+<ol>
+  <li>Na contratação semi-integrada, o contratado elabora o projeto básico e o projeto executivo.<span>Errado. Só o executivo. Básico e executivo é a integrada. Pegadinha de troca.</span></li>
+  <li>A empreitada por preço unitário é indicada quando os quantitativos não podem ser definidos com precisão.<span>Certo. O risco da quantidade fica com a Administração.</span></li>
+  <li>Na contratação integrada, a medição pode ser feita por preços unitários dos itens executados.<span>Errado. Regimes II a VI: medição por etapas do cronograma vinculadas a metas, vedada a remuneração por preços unitários (Art. 46, § 9º).</span></li>
+  <li>Tarefa é regime para grandes empreendimentos entregues em operação.<span>Errado. Tarefa é mão de obra para pequenos trabalhos. Entrega em operação é a empreitada integral.</span></li>
+</ol>
+</details>
+<p class="leve">Leve para a prova: unitário paga quantidade; global paga o todo; integral entrega funcionando; integrada faz básico e executivo; semi-integrada faz só o executivo. De II a VI, mede-se por etapa e meta, nunca por item unitário.</p>
+
+<h2 id="riscos">4. Matriz de riscos</h2>
+<p class="chance">Chance de cair · Matriz de riscos e contrato de eficiência: dentro do bloco da Lei 14.133 (objetiva 88% · caso 63%).</p>
+<p>Imagine que, no meio da obra da escola, o preço do aço dispare, ou que a licença ambiental atrase, ou que chova o dobro do normal. Quem paga? Se o contrato não diz nada, cada parte puxa para o seu lado e a discussão vira um pedido de reequilíbrio. A matriz de riscos existe para responder antes: ela é uma tabela que diz, evento por evento, <b>quem assume o risco</b>.</p>
+<div class="conta">Matriz da escola (exemplo)
+produtividade da equipe abaixo do previsto  → contratado
+atraso na licença ambiental                 → Administração
+chuva dentro da média histórica             → contratado
+erro na sondagem feita pelo contratado,
+  em contratação integrada                  → contratado (Art. 22, § 4º)</div>
+<p>A lei diz que o edital "poderá" ter matriz de alocação de riscos, e que nesse caso o valor estimado pode considerar uma <b>taxa de risco</b> compatível com os riscos atribuídos ao contratado (Art. 22). A matriz deve alocar os riscos de forma eficiente e prever mecanismos que afastem o sinistro e mitiguem seus efeitos (Art. 22, § 1º), e o contrato deve refletir essa alocação, especialmente nas hipóteses de reequilíbrio, de resolução e de seguros obrigatórios (Art. 22, § 2º).</p>
+<p>Repare no verbo: em regra, ela é <b>facultativa</b>. Ela vira <b>obrigatória</b> em dois casos (Art. 22, § 3º): obras e serviços de <b>grande vulto</b> (valor estimado acima de <b>R$ 200 milhões</b> no texto da lei, Art. 6º, XXII; esse valor é atualizado todo 1º de janeiro pelo IPCA-E, Art. 182, então <span class="confere">confira o valor vigente</span>; a Vunesp costuma cobrar o da lei) ou quando se adota a <b>integrada ou a semi-integrada</b>. Faz sentido: nesses casos o contratado tem muita liberdade (projeta) ou o valor é enorme, então deixar o risco sem dono é perigoso demais.</p>
+<p>Uma regra fina e muito cobrada: na integrada e na semi-integrada, os riscos de fatos supervenientes "associados à escolha da solução de projeto básico pelo contratado" devem ficar <b>com o contratado</b> (Art. 22, § 4º). É lógico: quem escolheu a solução responde por ela.</p>
+<p>Uma alocação eficiente costuma seguir um princípio de bom senso: o risco fica com quem tem <b>mais condição de evitá-lo ou de suportá-lo ao menor custo</b>. Risco de produtividade da equipe é do construtor; risco de desapropriação atrasar é da Administração. E a matriz conversa com as alterações: nos regimes integrado e semi-integrado, um dos poucos casos em que se admite mudar o valor do contrato é um evento superveniente que a matriz alocou à Administração (Art. 133, IV).</p>
+<p>Olhar do auditor: integrada ou semi-integrada sem matriz é irregularidade direta (Art. 22, § 3º). Desconfie também de matriz que joga tudo no contratado e embute taxa de risco alta no preço, ou que joga tudo na Administração e abre a porta para aditivos pelo Art. 133, IV.</p>
+
+<details><summary>Pare e confira</summary>
+<ol>
+  <li>A matriz de riscos é obrigatória em toda contratação de obra.<span>Errado. É facultativa (Art. 22, "poderá"), salvo grande vulto ou integrada e semi-integrada (§ 3º). Pegadinha de absoluto.</span></li>
+  <li>Grande vulto é a obra com valor estimado acima de R$ 100 milhões.<span>Errado. R$ 200 milhões (Art. 6º, XXII). Pegadinha de número vizinho.</span></li>
+  <li>Na integrada, o risco decorrente da solução de projeto escolhida pelo contratado pode ser alocado à Administração.<span>Errado. Deve ser alocado ao contratado (Art. 22, § 4º).</span></li>
+</ol>
+</details>
+<p class="leve">Leve para a prova: matriz é "poderá"; vira "deverá" com grande vulto (acima de R$ 200 milhões) ou integrada e semi-integrada. Quem escolheu a solução de projeto assume o risco dela.</p>
+
+<h2 id="orcamento">5. Orçamento de referência: SINAPI, SICRO e a ordem da lei</h2>
+<p class="chance">Chance de cair · SINAPI e SICRO: objetiva 80% · caso 56%. Composições de custos: 82% · 62%. Manual do TCESP: 78% · 56%.</p>
+<p>Agora a nossa escola tem projeto básico. A pergunta seguinte é: quanto ela deveria custar? Esse número é o <b>orçamento de referência</b>, e é contra ele que as propostas serão comparadas. Se o orçamento estiver inflado, a Administração pode pagar caro sem perceber; se estiver baixo demais, a licitação fracassa ou atrai quem não vai conseguir terminar a obra.</p>
+<p>A lei dá uma ordem de fontes para obras e serviços de engenharia (Art. 23, § 2º). O valor é estimado, acrescido do <b>BDI de referência</b> e dos <b>encargos sociais</b> cabíveis, usando, nesta ordem:</p>
+<p>primeiro, <b>composições de custos unitários menores ou iguais à mediana</b> do item correspondente no <b>SICRO</b>, para obras e serviços de <b>infraestrutura de transportes</b>, ou no <b>SINAPI</b>, para as <b>demais obras e serviços de engenharia</b>; em segundo, dados de mídia especializada, tabelas de referência aprovadas pelo Executivo federal e sítios especializados, com data e hora de acesso; em terceiro, contratações similares da Administração concluídas ou em execução no último ano, com atualização de preços; e, por fim, a pesquisa na base nacional de notas fiscais eletrônicas.</p>
+<p>Duas trocas a banca adora. Primeira: <b>SICRO é transporte</b> (rodovia, ferrovia, hidrovia, aeroporto); <b>SINAPI é o resto</b> (edificação, saneamento, etc.). A nossa escola vai de SINAPI; a estrada vicinal, de SICRO. Segunda: a referência é <b>menor ou igual à mediana</b>, não à média e não ao maior valor.</p>
+<p>E agora o detalhe que interessa diretamente a quem vai trabalhar no TCESP. A lei diz que Municípios, Estados e o Distrito Federal, <b>desde que não envolvam recursos da União</b>, podem usar <b>outros sistemas de custos</b> adotados pelo respectivo ente (Art. 23, § 3º). Em São Paulo, isso abre espaço para tabelas estaduais e municipais próprias <span class="confere">confira</span>. Na nossa escola, como parte do dinheiro vem de convênio com a União, a regra federal (SINAPI) volta a valer. Essa é exatamente a nuance que costuma virar questão: "o Município, mesmo com recursos federais, pode adotar livremente sua tabela própria" é <b class="peg">errado</b>.</p>
+<p>Quem faz o SINAPI e o SICRO? Os dois sistemas são regulamentados, para recursos da União, pelo <b>Decreto 7.983/2013</b>: o SINAPI no Art. 3º e o SICRO no Art. 4º. No SINAPI há uma divisão de tarefas que a banca troca de propósito: a <b>Caixa</b> cuida da parte de engenharia (especificações, composições e metodologia), e o <b>IBGE</b> faz a pesquisa mensal de preços e salários <span class="confere">confira</span>. Frase errada típica: "a Caixa pesquisa mensalmente os preços de insumos". Quem pesquisa é o IBGE. O SICRO é mantido pelo <b>DNIT</b>.</p>
+<p>O SINAPI publica duas versões de cada tabela: <b>com desoneração</b> e <b>sem desoneração</b> da folha. A desoneração substitui a contribuição previdenciária patronal sobre a folha por uma contribuição sobre a receita bruta (a CPRB, da Lei 12.546/2011) <span class="confere">confira: regime em transição de reoneração desde 2025</span>. Quando a empresa é desonerada, os encargos sociais da mão de obra caem e, em compensação, a CPRB entra no BDI como tributo. O orçamentista deve escolher a versão que der o <b>menor preço</b> para a Administração, e não misturar as duas: usar encargos desonerados e esquecer a CPRB no BDI, ou o contrário, distorce o preço.</p>
+<p>Olhar do auditor: no orçamento, o auditor confere se a fonte correta foi usada (SINAPI ou SICRO, ou a tabela do ente quando cabível), se a data-base está certa, se os itens da planilha têm composição e não aparecem como "verba" genérica, e se as quantidades batem com o projeto. Quantidade inflada é sobrepreço tão real quanto preço unitário inflado.</p>
+
+<details><summary>Pare e confira</summary>
+<ol>
+  <li>Para obras de infraestrutura de transportes, a referência é o SINAPI.<span>Errado. É o SICRO (Art. 23, § 2º, I). Pegadinha de troca.</span></li>
+  <li>A composição de referência é limitada à média do item no sistema.<span>Errado. Menor ou igual à mediana. Pegadinha de palavra vizinha.</span></li>
+  <li>Um Município paulista, com obra custeada só por recursos próprios, pode usar sistema de custos adotado pelo próprio ente.<span>Certo (Art. 23, § 3º). Com recursos da União, não.</span></li>
+  <li>No SINAPI, a pesquisa de preços é feita pela Caixa.<span>Errado. A pesquisa de preços é do IBGE; a Caixa cuida da engenharia. Pegadinha de troca de papéis.</span></li>
+</ol>
+</details>
+<p class="leve">Leve para a prova: SICRO para transporte, SINAPI para o resto, sempre até a mediana, mais BDI e encargos. Sem recursos da União, o ente pode usar o próprio sistema.</p>
+
+<h2 id="composicao">6. Composição de custo unitário, encargos sociais e BDI</h2>
+<p class="chance">Chance de cair · Composições de custos, BDI e encargos: objetiva 82% · caso 62%.</p>
+<p>Vamos abrir um item da planilha da escola: "alvenaria de vedação, m²". Quanto custa um metro quadrado? A <b>composição de custo unitário</b> responde listando os insumos necessários para produzir <b>uma unidade</b> do serviço, cada um com seu <b>coeficiente</b> (quanto se gasta por unidade) e seu <b>preço</b>. Multiplica-se coeficiente por preço e soma-se tudo.</p>
+<div class="conta">Alvenaria, por m² (números ilustrativos)
+bloco:     12,5 un   × R$ 3,00  = R$ 37,50
+argamassa: 0,012 m³  × R$ 450,00 = R$ 5,40
+pedreiro:  0,80 h    × R$ 30,00 = R$ 24,00
+servente:  0,40 h    × R$ 22,00 = R$ 8,80
+custo direto unitário            = R$ 75,70</div>
+<p>Repare em três coisas. Primeiro, a argamassa entra como uma <b>composição auxiliar</b>: ela tem sua própria composição (cimento, areia, cal, mão de obra) e entra pronta na principal. Segundo, o preço da hora do pedreiro já inclui os <b>encargos sociais</b>. Terceiro, esse número é o <b>custo direto</b>, não o preço. Falta o BDI.</p>
+<p><b>Encargos sociais</b> são o que a empresa paga além do salário: INSS, FGTS, férias, 13º, descanso semanal, feriados, aviso prévio. Eles são expressos como percentual sobre o salário e são bem maiores para o <b>horista</b> do que para o <b>mensalista</b>, porque o mensalista já recebe descanso semanal e feriados dentro do salário, enquanto para o horista esses dias entram como encargo <span class="confere">confira os percentuais na tabela do SINAPI</span>.</p>
+<p>O <b>BDI</b> (Benefícios e Despesas Indiretas) é a taxa que transforma custo direto em preço de venda. A relação é sempre esta:</p>
+<div class="conta">Preço de venda = Custo direto × (1 + BDI)</div>
+<p>O que vai dentro do BDI? Pela fórmula adotada pelo TCU no <b>Acórdão 2.622/2013-Plenário</b>, entram: administração central (AC), seguros (S), riscos (R), garantias (G), despesas financeiras (DF), lucro (L) e os tributos sobre o faturamento (I). E a fórmula não é uma soma:</p>
+<div class="conta">BDI = [ (1 + AC + S + R + G) × (1 + DF) × (1 + L) ] / (1 − I) − 1</div>
+<p>Por que essa forma esquisita? Porque cada parcela incide sobre a anterior (despesa financeira incide sobre o custo já acrescido de administração e riscos; o lucro, sobre tudo isso), e porque os tributos são calculados <b>por dentro</b>: incidem sobre o preço final, que ainda não se conhece. Dividir por (1 − I) é a forma de resolver isso. Faça a conta uma vez e nunca mais esqueça:</p>
+<div class="conta">AC + S + R + G = 4% + 0,8% + 1,2% + 0,2% = 6,2%  → 1,062
+DF = 1,23%                                     → 1,0123
+L  = 7,4%                                      → 1,074
+I  = PIS 0,65% + COFINS 3% + ISS 2% = 5,65%    → 1 − 0,0565 = 0,9435
+
+numerador = 1,062 × 1,0123 × 1,074 = 1,1546
+BDI = 1,1546 / 0,9435 − 1 = 0,2238  → 22,4%
+
+soma simples errada: 6,2 + 1,23 + 7,4 + 5,65 = 20,48%</div>
+<p>A soma simples sempre dá menos que a fórmula. Se uma alternativa trouxer exatamente a soma dos percentuais, desconfie: ela foi feita para quem somou.</p>
+<p>Agora o que <b>não</b> pode ir no BDI, que é onde estão as pegadinhas. <b>IRPJ e CSLL</b> não entram no BDI, porque são tributos sobre o lucro, de natureza pessoal da empresa (Súmula TCU 254). Só entram os tributos sobre o faturamento: PIS, COFINS, ISS e, se houver desoneração, a CPRB. Se a questão listar IRPJ e CSLL na tabela de tributos, risque antes de calcular. <b>Administração local</b> (engenheiro residente, mestre de obras, encarregados), <b>canteiro de obras</b> e <b>mobilização e desmobilização</b> também não vão no BDI: são custos diretos e devem aparecer como itens da planilha, para poderem ser medidos. Por quê? No BDI, o engenheiro residente seria pago junto com a medição de cada serviço. Se a obra atrasar sem novos serviços, ninguém sabe quanto pagar por ele. Como item próprio da planilha, ele é medido por mês.</p>
+<p>Duas súmulas completam o quadro. Quando a obra tem <b>fornecimento de materiais ou equipamentos</b> de valor relevante que a construtora apenas compra e instala (elevadores, grupo gerador, subestação), deve-se aplicar sobre eles um <b>BDI diferenciado, menor</b>, porque a empresa não tem o mesmo risco e trabalho que tem em um serviço (Súmula TCU 253). E o edital deve trazer as composições de custos unitários e o detalhamento de encargos e BDI, sem itens como "verba" (Súmula TCU 258) <span class="confere">confira a redação</span>.</p>
+<p>Para ter ordem de grandeza, o Acórdão 2.622/2013 trouxe faixas de referência de BDI por tipo de obra. Para construção de edifícios, a mediana ficou em torno de <b>22%</b>; para rodovias e ferrovias, em torno de <b>21%</b>; para fornecimento de materiais e equipamentos, em torno de <b>14%</b> <span class="confere">confira os quartis no acórdão</span>. Um BDI fora da faixa não é ilegal por si só, mas pede justificativa, e é o tipo de coisa que o auditor anota.</p>
+
+<details><summary>Pare e confira</summary>
+<ol>
+  <li>O BDI é obtido pela soma dos percentuais de administração central, seguros, riscos, despesas financeiras, lucro e tributos.<span>Errado. É multiplicativo e dividido por (1 − I). A soma subestima o BDI. Pegadinha de fórmula.</span></li>
+  <li>A CSLL pode compor a parcela de tributos do BDI.<span>Errado. IRPJ e CSLL ficam fora (Súmula TCU 254). Pegadinha de intruso na lista.</span></li>
+  <li>A administração local da obra deve integrar o BDI, por ser despesa indireta.<span>Errado. É custo direto, item da planilha. Pegadinha de palavra ("indireta").</span></li>
+  <li>Elevadores comprados prontos e só instalados devem ter BDI reduzido.<span>Certo. BDI diferenciado para fornecimento relevante (Súmula TCU 253).</span></li>
+  <li>Preço de venda de um serviço com custo direto de R$ 100 e BDI de 25%.<span>R$ 125 = 100 × 1,25.</span></li>
+</ol>
+</details>
+<p class="leve">Leve para a prova: composição dá o custo direto; BDI transforma em preço. BDI é multiplicativo, com tributos por dentro. Fora do BDI: IRPJ, CSLL, administração local, canteiro e mobilização.</p>
+
+<h2 id="abc">7. Curva ABC, cronograma e curva S</h2>
+<p class="chance">Chance de cair · Dentro de composições, orçamento e acompanhamento da execução (objetiva 82 a 85% · caso 62 a 66%).</p>
+<p>A planilha da nossa escola tem uns quatrocentos itens. Ninguém consegue auditar quatrocentos itens com o mesmo cuidado. A <b>curva ABC</b> resolve isso: você ordena os itens do mais caro para o mais barato (pelo valor total, preço vezes quantidade) e acumula os percentuais. Descobre-se, quase sempre, que poucos itens concentram quase todo o dinheiro.</p>
+<div class="conta">Escola de R$ 10 mi, itens em ordem decrescente de valor (ilustrativo)
+concreto    R$ 2,5 mi  → 25% acumulado
+aço         R$ 1,8 mi  → 43%
+esquadrias  R$ 1,2 mi  → 55%
+...
+com 80 dos 400 itens (20%) chega-se a R$ 8 mi (80%) → faixa A</div>
+<p>A divisão usual é esta: a <b>faixa A</b> reúne os itens que somam cerca de <b>80% do valor</b>, e normalmente são uns <b>20% dos itens</b>; a <b>faixa B</b> traz o valor intermediário, cerca de 15%; a <b>faixa C</b> reúne a maioria dos itens, que somam só cerca de 5% <span class="confere">são faixas usuais, não fixadas em lei</span>. É o princípio de Pareto aplicado à obra.</p>
+<p>Por que isso importa? Porque a <b>faixa A é onde mora o risco</b>. É nela que o auditor confere preço, quantidade e composição com lupa, e é nela que o orçamentista deve ter mais rigor. Se a questão disser que a auditoria deve começar pelos itens de maior número de ocorrências ou pela faixa C, está <b class="peg">errada</b>: começa-se pelo que pesa no dinheiro.</p>
+<p>O <b>cronograma físico-financeiro</b> diz quanto de cada serviço será feito em cada mês e quanto isso custa. Somando os desembolsos mês a mês e acumulando, você obtém a <b>curva S</b>: ela começa devagar (mobilização, fundações), acelera no meio (estrutura, alvenaria, instalações) e desacelera no fim (acabamentos, limpeza). Daí o formato de S.</p>
+<p>A curva S é uma ferramenta de fiscalização. Se a curva real da obra está muito abaixo da prevista, a obra está atrasada. Se a curva financeira está acima da física, alguém está recebendo antes de executar, o que é um sinal de alerta, porque a lei, em regra, não permite pagamento antecipado (Art. 145), e recebimento antecipado ou distorção do cronograma físico-financeiro é uma das formas de superfaturamento (Art. 6º, LVII, d). E lembre-se do Art. 46, § 9º: nos regimes de preço global, integral, tarefa, integrada e semi-integrada, é exatamente o cronograma, com etapas e metas, que comanda a medição.</p>
+
+<details><summary>Pare e confira</summary>
+<ol>
+  <li>Na curva ABC, a faixa A reúne a maior quantidade de itens da planilha.<span>Errado. Reúne poucos itens (cerca de 20%) que concentram a maior parte do valor (cerca de 80%). Pegadinha de inversão.</span></li>
+  <li>A curva S começa acelerada, porque mobilização e fundações são caras.<span>Errado. Começa lenta, acelera no meio (estrutura e instalações) e desacelera no fim. Pegadinha de inversão de forma.</span></li>
+  <li>Em uma contratação integrada, o financeiro está 15% à frente do físico. Achado?<span>Sim. A medição deve seguir etapas e metas (Art. 46, § 9º, revise a seção 3) e o pagamento antecipado é vedado em regra (Art. 145). Pegadinha de "é só adiantamento".</span></li>
+</ol>
+</details>
+<p class="leve">Leve para a prova: A de Atenção: pouco item, muito dinheiro. Curva S é o cronograma acumulado, lenta, rápida, lenta. O financeiro não pode correr à frente do físico.</p>
+
+<h2 id="sobrepreco">8. Sobrepreço, superfaturamento e orçamento sigiloso</h2>
+<p class="chance">Chance de cair · Dentro de análise de propostas e acompanhamento (objetiva 84 a 85% · caso 66 a 69%).</p>
+<p>Essas duas palavras parecem sinônimas e não são, e é aqui que muita gente perde ponto. <b>Sobrepreço</b> é o preço orçado ou contratado "em valor expressivamente superior aos preços referenciais de mercado" (Art. 6º, LVI). <b>Superfaturamento</b> é o "dano provocado ao patrimônio da Administração" (Art. 6º, LVII), por exemplo por medição de quantidades maiores que as executadas, por deficiência na qualidade ou por alterações que desequilibram o contrato em favor do contratado.</p>
+<p>Uma forma de lembrar: <b>sobrepreço está no papel; superfaturamento está no bolso</b>. Se um contrato por <b>preço unitário</b> tem o metro cúbico de concreto 40% acima do SINAPI, mas nada foi pago ainda, há sobrepreço nesse item. Quando esse concreto é medido e pago, o sobrepreço vira superfaturamento. Também há superfaturamento sem sobrepreço: basta medir e pagar 500 m³ quando só 400 m³ foram executados, mesmo com preço justo.</p>
+<p>A lei ainda diz <b>como se mede</b> o sobrepreço (Art. 6º, LVI): ele pode ser de <b>um item só</b>, quando a licitação ou o contrato é por <b>preços unitários</b>; ou do <b>valor global</b>, quando é por tarefa, preço global, integral, semi-integrada ou integrada. Isso conversa com os regimes: em preço unitário, cada item tem vida própria; nos regimes globais, olha-se o todo.</p>
+<p>Por fim, o <b>orçamento sigiloso</b>. Desde que justificado, o orçamento estimado pode ficar sigiloso durante a licitação, sem prejuízo de divulgar os quantitativos e as informações necessárias para as propostas (Art. 24). A ideia é evitar que as empresas ancorem suas propostas no valor da Administração. Mas o sigilo <b>não vale para os órgãos de controle interno e externo</b> (Art. 24, I). Ou seja, para você, auditor do TCESP, não existe orçamento sigiloso. E, se o critério de julgamento for <b>maior desconto</b>, o preço estimado ou máximo aceitável <b>tem de constar do edital</b> (Art. 24, parágrafo único): não dá para dar desconto sobre um valor secreto.</p>
+
+<details><summary>Pare e confira</summary>
+<ol>
+  <li>Constatado preço unitário 40% acima do SINAPI na proposta vencedora, já está configurado superfaturamento.<span>Errado. Superfaturamento exige dano, isto é, pagamento. Se o contrato é por preço unitário, há sobrepreço no item; se é por preço global, o sobrepreço se afere no valor global (Art. 6º, LVI). Pegadinha de sinônimo falso e de regime.</span></li>
+  <li>Pode haver superfaturamento com preços unitários compatíveis com o mercado.<span>Certo. Mediu e pagou 500 m³ com 400 m³ executados (Art. 6º, LVII, a). Outros casos da lei: deficiência de qualidade (b), aditivo que desequilibra a favor do contratado (c), recebimento antecipado (d). Pegadinha de "só preço gera dano".</span></li>
+  <li>O orçamento sigiloso não pode ser acessado pelo Tribunal de Contas até o fim da licitação.<span>Errado. O sigilo não prevalece para controle interno e externo (Art. 24, I).</span></li>
+  <li>No critério de maior desconto, o orçamento pode ser sigiloso.<span>Errado. O preço estimado ou máximo aceitável deve constar do edital (Art. 24, parágrafo único).</span></li>
+</ol>
+</details>
+<p class="leve">Leve para a prova: sobrepreço no papel, superfaturamento no bolso. Orçamento sigiloso é sigiloso para o mercado, nunca para o Tribunal, e nunca no maior desconto.</p>
+
+<p class="parte">Parte 2 · Da licitação ao recebimento</p>
+
+<h2 id="propostas">9. Análise de propostas: exequibilidade, critério de aceitabilidade e jogo de planilha</h2>
+<p class="chance">Chance de cair · Análise de propostas: objetiva 84% · caso 69%.</p>
+<p>A licitação da nossa escola abriu. O orçamento de referência é de R$ 10 milhões, e chegaram três propostas: R$ 9,4 milhões, R$ 8,2 milhões e R$ 7,2 milhões. Qual você aceitaria? Antes de responder, faça uma conta que a lei te obriga a fazer.</p>
+<p>Em obras e serviços de engenharia, é <b>inexequível</b> a proposta abaixo de <b>75% do valor orçado</b> pela Administração (Art. 59, § 4º). E a proposta vencedora abaixo de <b>85%</b> do orçado obriga o vencedor a prestar <b>garantia adicional</b>, equivalente à diferença entre o orçado e a proposta, além das demais garantias (Art. 59, § 5º).</p>
+<div class="conta">Orçamento: R$ 10.000.000
+75% → R$ 7.500.000   abaixo disso: inexequível
+85% → R$ 8.500.000   abaixo disso: garantia adicional
+
+R$ 7,2 mi → 72%  → inexequível, desclassificada
+R$ 8,2 mi → 82%  → aceitável, mas com garantia adicional de 10,0 − 8,2 = R$ 1,8 mi
+R$ 9,4 mi → 94%  → sem garantia adicional</div>
+<p>Então a de R$ 8,2 milhões vence, mas com R$ 1,8 milhão de garantia a mais. Guarde o par: <b>75 desclassifica, 85 exige garantia</b>. A banca troca um pelo outro o tempo todo. Uma âncora: o número menor é o mais grave. Abaixo de 75 não tem conserto; entre 75 e 85 tem conserto, mas custa garantia. Uma nuance para a discursiva: no controle externo, discute-se se o corte de 75% é presunção relativa, isto é, se o licitante pode demonstrar que a proposta é viável <span class="confere">confira</span>. Na objetiva, fique com a letra da lei.</p>
+<p>Agora a parte mais importante, e mais sutil. Olhar só o preço global não basta. A lei manda considerar, para avaliar exequibilidade e sobrepreço, "o preço global, os quantitativos e os preços unitários tidos como relevantes", observado o <b>critério de aceitabilidade de preços unitário e global</b> fixado no edital (Art. 59, § 3º). O TCU já dizia isso antes da lei nova: o edital deve fixar critério de aceitabilidade para os preços unitários e para o global (Súmula TCU 259), e a súmula diz que isso é "obrigação e não faculdade" do gestor. Pegadinha de verbo: "o edital poderá fixar critério de aceitabilidade de preços unitários" está errado.</p>
+<p>Por que tanto cuidado com o unitário? Por causa do <b>jogo de planilha</b>. Veja como ele funciona, porque ele cai em objetiva e em caso. A empresa sabe (ou desconfia) que o projeto tem erro: a escavação prevista é pequena demais e vai aumentar; a pintura prevista é grande demais e vai diminuir. Ela então coloca preço <b>alto</b> na escavação e preço <b>baixo</b> na pintura. O total fica competitivo e ela ganha. Durante a obra, vem o aditivo: aumenta a escavação, cara, e suprime a pintura, barata. Resultado: a obra sai muito mais cara do que a segunda colocada teria cobrado, sem que nenhuma regra de preço global tenha sido violada no dia da licitação.</p>
+<p>A lei fecha essa porta de duas formas. A primeira é o critério de aceitabilidade de preços unitários: item com preço muito acima da referência pode desclassificar a proposta ou exigir ajuste. A segunda é o Art. 128: a diferença percentual entre o valor global do contrato e o preço global de referência "não poderá ser reduzida em favor do contratado" em razão de aditamentos que modifiquem a planilha. Em linguagem simples: <b>o desconto da licitação tem de sobreviver aos aditivos</b>. Se a empresa ganhou com 18% de desconto, depois de todos os aditivos o contrato ainda tem de estar 18% abaixo da referência.</p>
+<p>E se o aditivo precisar de um serviço que nem existia na planilha? O preço novo é fixado aplicando a <b>relação geral entre o valor da proposta e o orçamento-base</b> sobre os preços referenciais ou de mercado da data do aditamento, respeitados os limites do Art. 125 (Art. 127). Ou seja, o desconto da licitação também vale para o serviço novo.</p>
+<p>Olhar do auditor: na análise de propostas, o auditor pega a curva ABC da proposta vencedora (lembra da seção 7?) e compara os itens da faixa A, um a um, com a referência. Itens com sobrepreço unitário que o edital não barrou são o primeiro sinal de jogo de planilha. O segundo sinal aparece depois, nos aditivos.</p>
+
+<details><summary>Pare e confira</summary>
+<ol>
+  <li>Proposta de obra abaixo de 85% do orçado é inexequível.<span>Errado. Inexequível é abaixo de 75% (Art. 59, § 4º). Abaixo de 85%, exige garantia adicional (§ 5º). Pegadinha de número vizinho.</span></li>
+  <li>Orçado R$ 4 milhões, vencedora R$ 3,2 milhões. Qual a garantia adicional?<span>R$ 800 mil. 3,2 / 4 = 80%, abaixo de 85%; garantia = 4,0 − 3,2.</span></li>
+  <li>Em obras, basta que o preço global esteja abaixo do orçado para afastar sobrepreço.<span>Errado. Consideram-se também quantitativos e preços unitários relevantes, com critério de aceitabilidade unitário e global (Art. 59, § 3º). Pegadinha de "basta".</span></li>
+  <li>Aditivos podem reduzir o desconto obtido na licitação, desde que dentro de 25%.<span>Errado. O desconto não pode ser reduzido em favor do contratado (Art. 128).</span></li>
+</ol>
+</details>
+<p class="leve">Leve para a prova: 75 desclassifica, 85 exige garantia igual à diferença. Olha-se global e unitário. O desconto da licitação acompanha o contrato até o fim, inclusive nos preços novos.</p>
+
+<h2 id="habilitacao">10. Qualificação técnica e visita técnica</h2>
+<p class="chance">Chance de cair · Qualificação técnica e visita técnica: dentro de análise de propostas e Lei 14.133 (objetiva 84 a 88%).</p>
+<p>A empresa de R$ 8,2 milhões ganhou no preço. Mas ela já construiu alguma escola? A <b>qualificação técnica</b> verifica isso por meio de <b>atestados</b> de obras anteriores. Existem duas qualificações: a <b>técnico-profissional</b>, que olha o engenheiro (o profissional tem experiência?), e a <b>técnico-operacional</b>, que olha a empresa (a empresa já executou algo parecido?).</p>
+<p>O problema histórico dos atestados é o direcionamento: exigir tanta coisa que só uma empresa consegue cumprir. A lei limita isso de três maneiras, e as três caem em prova. Primeira: atestados só podem ser exigidos das <b>parcelas de maior relevância ou valor significativo</b>, e a lei define essas parcelas como as de valor individual <b>igual ou superior a 4%</b> do valor total estimado (Art. 67, § 1º). Segunda: a quantidade mínima exigida nos atestados é de <b>até 50%</b> dessas parcelas (Art. 67, § 2º). Terceira: são <b>vedadas limitações de tempo e de local</b> nos atestados (Art. 67, § 2º). Não se pode exigir "atestado de obra executada nos últimos cinco anos" nem "obra executada no Estado de São Paulo".</p>
+<div class="conta">Escola de R$ 10 mi. Estrutura de concreto = R$ 2,1 mi (21%) → parcela relevante (≥ 4%)
+Projeto prevê 3.000 m³ de concreto → atestado pode exigir no máximo 1.500 m³ (50%)
+Pintura = R$ 300 mil (3%) → abaixo de 4%: não pode ser exigida em atestado</div>
+<p>Os profissionais indicados devem participar da obra, e só podem ser substituídos por outros de experiência <b>equivalente ou superior</b>, com aprovação da Administração (Art. 67, § 6º).</p>
+<p>E a <b>visita técnica</b>? Quando conhecer o local for imprescindível, o edital pode exigir, sob pena de inabilitação, que o licitante <b>ateste</b> que conhece o local, assegurado o direito de vistoria prévia (Art. 63, § 2º). Mas a lei faz uma ressalva que é pegadinha certa: o edital <b>sempre</b> deve prever a possibilidade de substituir a vistoria por uma <b>declaração formal</b> do responsável técnico de que conhece as condições do local (Art. 63, § 3º). E, se houver vistoria, a Administração deve oferecer <b>datas e horários diferentes</b> para os interessados (Art. 63, § 4º), justamente para que os concorrentes não se encontrem e combinem preço.</p>
+<p>Olhar do auditor: exigências de qualificação que restringem a competição (atestado de parcela irrelevante, quantidade acima de 50%, limite de tempo ou local, visita obrigatória sem alternativa, visita coletiva em data única) são achados clássicos de edital, e o TCESP analisa muitos editais antes da licitação acontecer.</p>
+
+<details><summary>Pare e confira</summary>
+<ol>
+  <li>O edital pode exigir atestado com quantidade mínima de 60% da parcela relevante, se justificado.<span>Errado. O teto é 50% (Art. 67, § 2º). Pegadinha de número.</span></li>
+  <li>Parcela relevante é a de valor igual ou superior a 4% do total estimado.<span>Certo (Art. 67, § 1º).</span></li>
+  <li>O edital pode exigir atestado de obra executada nos últimos 3 anos.<span>Errado. Vedadas limitações de tempo e de local (Art. 67, § 2º).</span></li>
+  <li>A visita técnica pode ser obrigatória, sem alternativa, quando o local for complexo.<span>Errado. O edital sempre deve admitir declaração formal do responsável técnico no lugar da vistoria (Art. 63, § 3º). Pegadinha de absoluto.</span></li>
+</ol>
+</details>
+<p class="leve">Leve para a prova: atestado só de parcela com 4% ou mais, quantidade até 50%, sem limite de tempo ou de local. Vistoria sempre substituível por declaração e em datas diferentes.</p>
+
+<h2 id="fiscalizacao">11. Fiscalização, medição e pagamento</h2>
+<p class="chance">Chance de cair · Fiscalização e medições: objetiva 84% · caso 71% (o tema mais provável de estudo de caso). Acompanhamento da execução: 85% · 66%.</p>
+<p>Contrato assinado, obra começando. A partir daqui, a pessoa mais importante para a Administração é o <b>fiscal do contrato</b>. A execução deve ser acompanhada e fiscalizada por um ou mais fiscais, representantes da Administração especialmente designados, ou seus substitutos, e é permitido contratar terceiros para <b>assisti-los e subsidiá-los</b> com informações (Art. 117).</p>
+<p>O que o fiscal faz, segundo a lei? Ele <b>anota em registro próprio</b> todas as ocorrências da execução e <b>determina</b> o que for necessário para regularizar faltas ou defeitos (Art. 117, § 1º). Quando a situação ultrapassa sua competência, ele <b>informa aos superiores</b> em tempo hábil (§ 2º). E é auxiliado pela assessoria jurídica e pelo controle interno (§ 3º). Na obra, esse registro próprio é, na prática, o <b>diário de obra</b>: ali ficam as condições do tempo, os serviços executados, as ordens dadas, os problemas encontrados. Para o auditor, o diário é prova.</p>
+<p>Duas regras sobre responsabilidade derrubam muita gente. Primeira, sobre a empresa de apoio à fiscalização: ela responde objetivamente pelas informações que dá. Ela <b>não faz o que é exclusivo do fiscal</b>. E o fiscal <b>continua responsável</b>, nos limites das informações recebidas (Art. 117, § 4º). Segunda: a fiscalização <b>não exclui nem reduz</b> a responsabilidade do contratado por danos à Administração ou a terceiros (Art. 120). Ou seja, "o fiscal viu e não reclamou" não serve de defesa para o construtor.</p>
+<p>Quando há defeito, o contratado é obrigado a reparar, corrigir, remover, reconstruir ou substituir, <b>às suas expensas</b>, o que tiver vício resultante da execução ou dos materiais (Art. 119).</p>
+<p>A <b>medição</b> é o coração do controle. Todo mês, fiscal e contratado levantam o que foi executado, conforme os critérios de medição do contrato, e só isso é pago. Medir é conferir em campo, não copiar a planilha da empresa. Exemplo: o boletim do mês 4 traz 120 m³ de concreto a R$ 600, ou R$ 72 mil. Você confere o diário e as notas fiscais de concretagem e acha 90 m³. Os 30 m³ a mais valem R$ 18 mil; se forem pagos, isso é superfaturamento. Lembre da seção 8: medir quantidade maior que a executada é superfaturamento (Art. 6º, LVII, a). E lembre da seção 3: nos regimes de preço global, integral, tarefa, integrada e semi-integrada, a medição é por <b>etapa concluída do cronograma</b>, vinculada a metas (Art. 46, § 9º).</p>
+<p>No pagamento, duas regras. A Administração paga em <b>ordem cronológica</b>, para cada fonte de recursos, separando as categorias fornecimento de bens, locações, serviços e <b>obras</b> (Art. 141). Essa ordem só pode ser alterada nas situações listadas, com justificativa prévia e comunicação posterior ao controle interno e ao <b>tribunal de contas</b> (Art. 141, § 1º). E o pagamento <b>antecipado</b> é proibido (Art. 145). Exceção: sensível economia ou condição indispensável, com justificativa prévia e previsão no edital. Pode ser exigida garantia adicional. Se o objeto não sair no prazo, devolve-se o valor (Art. 145, §§ 1º a 3º).</p>
+<p>Duas regras de execução fecham a seção. É proibido à Administração <b>retardar imotivadamente</b> a obra, inclusive quando muda o prefeito ou o titular do órgão (Art. 115, § 1º): obra parada por troca de gestão é irregular. E, quando o licenciamento ambiental cabe à Administração, a licença prévia ou manifestação prévia, quando cabíveis, deve ser obtida <b>antes da divulgação do edital</b> (Art. 115, § 4º). Essa última é uma ponte com a parte ambiental, guarde-a.</p>
+<p>Olhar do auditor: em fiscalização, os achados mais comuns são medição sem memória de cálculo, serviço medido e não executado, diário de obra ausente ou genérico, fiscal sem designação formal, pagamento fora da ordem cronológica e pagamento à frente do cronograma físico. Cada um desses é um ótimo início de discursiva.</p>
+
+<details><summary>Pare e confira</summary>
+<ol>
+  <li>Contratada empresa de apoio à fiscalização, o fiscal do contrato fica isento de responsabilidade.<span>Errado. Não exime o fiscal, nos limites das informações recebidas (Art. 117, § 4º, II).</span></li>
+  <li>Se a fiscalização aprovou o serviço, o contratado deixa de responder por danos dele decorrentes.<span>Errado. A fiscalização não exclui nem reduz a responsabilidade do contratado (Art. 120).</span></li>
+  <li>A ordem cronológica de pagamentos pode ser alterada, com justificativa, comunicando-se depois o tribunal de contas.<span>Certo, mas só nas situações listadas no Art. 141, § 1º. Pegadinha de "em qualquer caso", se a banca omitir a lista.</span></li>
+  <li>A troca do chefe do Executivo justifica a suspensão da obra até a reavaliação do novo gestor.<span>Errado. É proibido retardar imotivadamente a obra, inclusive na posse de novo chefe do Executivo (Art. 115, § 1º).</span></li>
+  <li>Quando o licenciamento cabe à Administração, a licença prévia pode ser obtida depois da assinatura do contrato.<span>Errado. Deve ser obtida antes da divulgação do edital (Art. 115, § 4º).</span></li>
+</ol>
+</details>
+<p class="leve">Leve para a prova: o fiscal registra, determina, informa. Ajuda de terceiro não isenta ninguém. Fiscalizar não tira a culpa do construtor. Paga-se o medido, na fila, depois de feito.</p>
+
+<h2 id="alteracoes">12. Alterações do contrato, reajuste e reequilíbrio</h2>
+<p class="chance">Chance de cair · Alteração de contratos: objetiva 83% · caso 69%.</p>
+<p>No sexto mês da obra da escola, a prefeitura decide incluir uma quadra coberta. Em outro momento, descobre que a fundação precisa ser mais profunda. Pode mudar o contrato? Pode, mas dentro de regras que são das mais cobradas da prova.</p>
+<p>A lei separa as alterações em dois tipos (Art. 124). As <b>unilaterais</b>, feitas pela Administração mesmo sem a concordância do contratado, são duas: a <b>qualitativa</b>, quando se modifica o projeto ou as especificações para melhor adequação técnica (inciso I, a), e a <b>quantitativa</b>, quando se acrescenta ou diminui quantidade do objeto (inciso I, b). As <b>por acordo</b> são quatro: substituir a garantia, mudar o regime de execução quando o original se mostrar tecnicamente inaplicável, mudar a forma de pagamento por circunstância superveniente (vedada a antecipação sem contraprestação) e restabelecer o <b>equilíbrio econômico-financeiro</b> (inciso II, a a d).</p>
+<p>O limite das unilaterais é o número mais famoso da lei: o contratado é obrigado a aceitar, nas mesmas condições, acréscimos ou supressões de até <b>25% do valor inicial atualizado</b> do contrato; e, na <b>reforma de edifício ou de equipamento</b>, o limite para os <b>acréscimos</b> é de <b>50%</b> (Art. 125). Note: os 50% são só para acréscimo, e só em reforma. A supressão em reforma continua limitada a 25%.</p>
+<p>E não se compensa uma coisa com a outra. A jurisprudência do TCU entende que acréscimos e supressões são calculados <b>separadamente</b>, cada um sobre o valor inicial atualizado (Acórdão 749/2010-Plenário, firmado na lei antiga e aplicado à nova) <span class="confere">confira</span>. Faça a conta com a escola:</p>
+<div class="conta">Contrato: R$ 8,2 mi (valor inicial atualizado, para simplificar)
+Acréscimos: quadra R$ 1,6 mi + fundação R$ 0,9 mi = R$ 2,5 mi → 30,5% ✗
+Supressões: paisagismo R$ 0,6 mi                         → 7,3%
+Raciocínio errado: 30,5% − 7,3% = 23,2%, que "parece caber" ✗
+Raciocínio certo:  acréscimos de 30,5% passam dos 25% → irregular</div>
+<p>A alteração unilateral também <b>não pode transfigurar o objeto</b> (Art. 126): transformar a escola em hospital não é aditivo, é outra contratação. E, quando a Administração altera unilateralmente os encargos do contratado, deve restabelecer o equilíbrio <b>no mesmo termo aditivo</b> (Art. 130). Se houver supressão e o contratado já tiver comprado e posto o material no canteiro, a Administração paga o custo de aquisição comprovado e reajustado (Art. 129).</p>
+<p>Uma regra de forma: o <b>termo aditivo é condição</b> para o contratado executar o que a Administração determinar; só em caso de justificada necessidade de antecipar os efeitos, ele pode ser formalizado depois, no prazo máximo de <b>1 mês</b> (Art. 132). Já os registros que <b>não alteram</b> o contrato são feitos por <b>apostila</b>, sem aditivo: reajuste ou repactuação previstos no próprio contrato, atualizações e compensações financeiras previstas, mudança da razão social do contratado e empenho de dotações (Art. 136).</p>
+<p>Na <b>integrada e semi-integrada</b>, a regra é a <b>vedação</b> de alterar o valor, com só quatro exceções: caso fortuito ou força maior; alteração de projeto a pedido da Administração que não decorra de erro do contratado, dentro dos limites do Art. 125; alteração de projeto na semi-integrada nos termos do Art. 46, § 5º; e evento superveniente alocado à Administração na matriz de riscos (Art. 133). Faz sentido: quem projetou foi o contratado, então erro de projeto é problema dele.</p>
+<p>Agora três palavras que a banca embaralha: reajuste, repactuação e reequilíbrio. O <b>reajuste</b> (em sentido estrito) é aplicar um <b>índice</b> previsto no contrato, que retrata a variação do custo de produção (Art. 6º, LVIII). O edital deve <b>sempre</b> prever o índice de reajuste, qualquer que seja o prazo do contrato, com data-base vinculada à <b>data do orçamento estimado</b> (Art. 25, § 7º). A <b>repactuação</b> é para serviços contínuos com dedicação exclusiva ou predominância de mão de obra, por <b>demonstração analítica da variação dos custos</b> (Art. 6º, LIX; Art. 135). O <b>reequilíbrio</b> (ou revisão) é para o <b>imprevisível</b>: força maior, caso fortuito, fato do príncipe, ou fatos previsíveis de consequências incalculáveis, respeitada a matriz de riscos (Art. 124, II, d). Além disso, criação, alteração ou extinção de tributos com repercussão comprovada altera o preço para mais ou para menos (Art. 134). Uma âncora: <b>reajuste é índice, repactuação é planilha, reequilíbrio é surpresa</b>.</p>
+<p>E um prazo que pega muita gente: o pedido de reequilíbrio deve ser feito <b>durante a vigência</b> do contrato e <b>antes de eventual prorrogação</b> (Art. 131, parágrafo único). Mas a extinção do contrato não impede reconhecer um desequilíbrio já pedido; nesse caso, paga-se por termo indenizatório (Art. 131, caput).</p>
+<p>Olhar do auditor: se a alteração decorre de <b>falha de projeto</b>, a lei manda apurar a responsabilidade do responsável técnico e buscar o ressarcimento (Art. 124, § 1º). Aditivo grande é quase sempre a ponta de um projeto básico ruim, e um bom achado liga as duas coisas.</p>
+
+<details><summary>Pare e confira</summary>
+<ol>
+  <li>Em reforma de edifício, acréscimos e supressões podem chegar a 50%.<span>Errado. 50% só para acréscimos; supressões, 25% (Art. 125). Pegadinha de extensão indevida.</span></li>
+  <li>Acréscimo de 30% e supressão de 10% resultam em 20% líquido, dentro do limite.<span>Errado. Não se compensam; cada um tem o próprio limite (TCU). Pegadinha de conta.</span></li>
+  <li>O reajuste por índice previsto no contrato exige termo aditivo.<span>Errado. Faz-se por apostila (Art. 136, I).</span></li>
+  <li>Na contratação integrada, erro do contratado no projeto básico autoriza aditivo de valor dentro de 25%.<span>Errado. A alteração a pedido da Administração não pode decorrer de erro do contratado (Art. 133, II).</span></li>
+  <li>O pedido de reequilíbrio pode ser feito até um ano após o término do contrato.<span>Errado. Deve ser feito durante a vigência e antes de prorrogação (Art. 131, parágrafo único).</span></li>
+</ol>
+</details>
+<p class="leve">Leve para a prova: 25% para acréscimo e supressão, 50% só para acréscimo em reforma, sem compensar. Aditivo antes de executar (ou até 1 mês, se urgente). Reajuste é índice, repactuação é planilha, reequilíbrio é surpresa, e reajuste vai por apostila.</p>
+
+<h2 id="garantias">13. Garantias e sanções</h2>
+<p class="chance">Chance de cair · Garantias e sanções: dentro do bloco da Lei 14.133 (objetiva 88%).</p>
+<p>A garantia é um dinheiro (ou um compromisso de terceiro) que fica reservado para o caso de o contratado não cumprir. Ela pode ser exigida, a critério da autoridade, com previsão no edital (Art. 96), e quem <b>escolhe a modalidade é o contratado</b> (Art. 96, § 1º): caução em dinheiro ou títulos da dívida pública, seguro-garantia, fiança bancária ou título de capitalização. A banca gosta de dizer que a Administração escolhe; não escolhe.</p>
+<p>Os percentuais formam uma escada. Em regra, até <b>5%</b> do valor inicial do contrato, podendo subir para até <b>10%</b> se justificado pela complexidade técnica e pelos riscos (Art. 98). Em obras e serviços de engenharia de <b>grande vulto</b>, pode-se exigir seguro-garantia com <b>cláusula de retomada</b> de até <b>30%</b> (Art. 99). Some a isso a garantia adicional da proposta abaixo de 85% (seção 9). Escada: <b>5, 10, 30</b>. Na escola de R$ 8,2 mi: 5% dá R$ 410 mil; 10% dá R$ 820 mil; somada a garantia adicional da seção 9 (R$ 1,8 mi), o total chega a R$ 2,21 mi com 5%, ou R$ 2,62 mi com 10%.</p>
+<p>A cláusula de retomada (Art. 102) é a ideia mais interessante: se o contratado falhar, a <b>seguradora assume e conclui a obra</b>. Ela assina o contrato como interveniente anuente, pode acompanhar a execução e pode subcontratar a conclusão. Se concluir, fica isenta de pagar a importância segurada; se não assumir, paga a importância segurada integral. A garantia é devolvida após a fiel execução, ou após extinção por culpa exclusiva da Administração, e, se em dinheiro, atualizada (Art. 100).</p>
+<p>Já as sanções seguem uma escada de gravidade (Art. 156): <b>advertência</b> (só para inexecução parcial, quando não couber pena mais grave); <b>multa</b>, de no mínimo <b>0,5%</b> e no máximo <b>30%</b> do valor do contrato; <b>impedimento de licitar e contratar</b>, no âmbito do <b>ente que aplicou</b>, por até <b>3 anos</b>; e <b>declaração de inidoneidade</b>, que vale para <b>todos os entes</b>, por no mínimo <b>3</b> e no máximo <b>6 anos</b>. Âncora: o impedimento vale "em casa" e até 3; a inidoneidade vale "no país todo" e de 3 a 6.</p>
+<p>Olhar do auditor: confira se a garantia foi apresentada antes de executar, se não venceu no meio do contrato e se foi executada quando houve inadimplemento; e se a multa respeita o piso de 0,5% e passou por processo com defesa. Garantia vencida em obra parada é achado.</p>
+
+<details><summary>Pare e confira</summary>
+<ol>
+  <li>Cabe à Administração escolher a modalidade de garantia.<span>Errado. Cabe ao contratado optar (Art. 96, § 1º). Pegadinha de sujeito trocado.</span></li>
+  <li>Em obra de grande vulto, a garantia é limitada a 10%.<span>Errado. Com seguro-garantia e cláusula de retomada, até 30% (Art. 99). Os 10% são a regra geral majorada (Art. 98). Pegadinha de número vizinho.</span></li>
+  <li>A declaração de inidoneidade impede contratar só com o ente que a aplicou.<span>Errado. Vale para todos os entes; o impedimento é que fica no ente que aplicou (Art. 156, §§ 4º e 5º).</span></li>
+  <li>Multa de 0,3% do valor do contrato, por atraso, é compatível com a lei.<span>Errado. O mínimo é 0,5% (Art. 156, § 3º).</span></li>
+</ol>
+</details>
+<p class="leve">Leve para a prova: garantia 5, até 10 justificado, até 30 em grande vulto com retomada; quem escolhe a modalidade é o contratado. Impedimento: ente, até 3 anos. Inidoneidade: todos, 3 a 6 anos.</p>
+
+<h2 id="recebimento">14. Recebimento, garantia de cinco anos e responsabilidade do projetista</h2>
+<p class="chance">Chance de cair · Recebimento e garantia: objetiva 72% · caso 59%.</p>
+<p>A escola ficou pronta. Como a Administração a recebe? Em duas etapas (Art. 140, I). O recebimento <b>provisório</b> é feito <b>pelo responsável pelo acompanhamento e fiscalização</b>, mediante termo detalhado, quando verificado o cumprimento das exigências de <b>caráter técnico</b>. O recebimento <b>definitivo</b> é feito por <b>servidor ou comissão designada pela autoridade competente</b>, mediante termo detalhado que comprove o atendimento das exigências <b>contratuais</b>. Repare na lógica: quem acompanhou a obra confere a técnica; alguém com olhar de fora confirma que o contrato foi cumprido. Os prazos de cada etapa ficam para o regulamento ou o contrato (Art. 140, § 3º).</p>
+<p>O objeto pode ser rejeitado no todo ou em parte se estiver em desacordo com o contrato (§ 1º). Os ensaios, testes e provas exigidos por normas técnicas oficiais correm <b>por conta do contratado</b>, salvo disposição em contrário no edital ou em ato normativo (§ 4º).</p>
+<p>E o mais importante: <b>receber não é perdoar</b>. O recebimento, provisório ou definitivo, não exclui a responsabilidade civil pela <b>solidez e segurança</b> da obra, nem a ético-profissional (§ 2º). Em uma frase: depois do recebimento definitivo, o construtor responde por pelo menos 5 anos, objetivamente, pela solidez, segurança e funcionalidade. Na letra da lei: o recebimento definitivo não exime o contratado, pelo prazo <b>mínimo de 5 anos</b> (o edital e o contrato podem prever prazo maior), da responsabilidade <b>objetiva</b> pela solidez e segurança dos materiais e serviços e pela <b>funcionalidade</b> da construção, reforma, recuperação ou ampliação; havendo vício, o contratado repara, corrige, reconstrói ou substitui (§ 6º). Essa é a <b>garantia quinquenal</b>. Ela conversa com o Código Civil, Art. 618: o empreiteiro de materiais e execução responde por prazo <b>irredutível</b> de 5 anos pela solidez e segurança, e o dono da obra tem <b>180 dias</b> do aparecimento do vício para propor a ação (parágrafo único) <span class="confere">confira</span>. Par de números: 5 anos de garantia, 180 dias para agir.</p>
+<p>E o <b>projetista</b>? Em projeto de obra, o recebimento definitivo não exime o projetista ou o consultor da <b>responsabilidade objetiva</b> por todos os danos causados por <b>falha de projeto</b> (§ 5º). Junte com o Art. 124, § 1º (alteração por falha de projeto gera apuração de responsabilidade do responsável técnico) e você tem a responsabilidade do projetista completa.</p>
+<p>Olhar do auditor: pergunte sempre se houve termo de recebimento provisório e definitivo, se foram assinados pelas pessoas certas, se os ensaios exigidos foram apresentados e se, havendo defeitos dentro dos cinco anos, a Administração notificou o contratado. Prefeitura que paga a reforma de um defeito dentro do prazo de garantia, em vez de cobrar o construtor, é achado.</p>
+
+<details><summary>Pare e confira</summary>
+<ol>
+  <li>O recebimento definitivo de obra é feito pelo fiscal do contrato.<span>Errado. Provisório: responsável pelo acompanhamento e fiscalização. Definitivo: servidor ou comissão designada (Art. 140, I). Pegadinha de troca de sujeito.</span></li>
+  <li>Após o recebimento definitivo, cessa a responsabilidade do contratado pela solidez da obra.<span>Errado. Mínimo de 5 anos de responsabilidade objetiva (Art. 140, § 6º).</span></li>
+  <li>Mini-caso: no 4º ano, surgem trincas estruturais na escola, e a prefeitura contrata outra empresa para reparar. Achado?<span>Sim. Dentro dos 5 anos (mínimo, ampliável pelo contrato), o construtor responde objetivamente (Art. 140, § 6º) e deveria ter sido notificado. Pegadinha de "já recebeu, acabou".</span></li>
+  <li>Os ensaios exigidos por normas técnicas correm, em regra, por conta da Administração.<span>Errado. Por conta do contratado, salvo disposição em contrário (Art. 140, § 4º). Pegadinha de sujeito trocado.</span></li>
+</ol>
+</details>
+<p class="leve">Leve para a prova: provisório pelo fiscal (técnica), definitivo por servidor ou comissão (contrato). Receber não é perdoar: no mínimo 5 anos de responsabilidade objetiva do construtor, e o projetista responde objetivamente pela falha de projeto.</p>
+
+<h2 id="especiais">15. Registro de preços, contrato de eficiência e remuneração variável</h2>
+<p class="chance">Chance de cair · Sistema de registro de preços: objetiva 79% · caso 60%. Contrato de eficiência e remuneração variável: dentro da Lei 14.133.</p>
+<p>Três ferramentas fecham o bloco da lei, e cada uma resolve um problema diferente.</p>
+<p>O <b>sistema de registro de preços</b> (SRP) serve para quando a Administração sabe que vai precisar de algo várias vezes, mas não sabe exatamente quando nem quanto. Ela registra o preço numa ata e contrata conforme a necessidade. Em obra, isso é exceção, e a lei só admite com dois requisitos <b>cumulativos</b> (Art. 85): <b>projeto padronizado, sem complexidade técnica e operacional</b>, e <b>necessidade permanente ou frequente</b>. Pense em pequenas reformas padronizadas de calçadas, ou em módulos sanitários iguais em várias escolas. A nossa escola, obra única e específica, <b>não</b> caberia em SRP.</p>
+<p>O <b>contrato de eficiência</b> tem como objeto a prestação de serviços, que pode incluir obras e fornecimento de bens, com o objetivo de gerar <b>economia</b> ao contratante, na forma de redução de despesas correntes, e o contratado é remunerado com base em <b>percentual da economia gerada</b> (Art. 6º, LIII). Exemplo: uma empresa troca toda a iluminação pública por LED e recebe uma parte do que a prefeitura economizar na conta de energia. O critério de julgamento próprio é o <b>maior retorno econômico</b>, usado <b>exclusivamente</b> para esse contrato (Art. 39).</p>
+<p>A <b>remuneração variável</b> é diferente: ela pode existir em qualquer contrato de obras, fornecimentos e serviços, vinculada ao <b>desempenho</b> do contratado, com base em metas, padrões de qualidade, critérios de sustentabilidade e prazos definidos no edital e no contrato (Art. 144). Ela deve ser motivada e respeitar o <b>limite orçamentário</b> fixado (Art. 144, § 2º). Exemplo: um bônus se a escola for entregue antes do prazo com a qualidade exigida.</p>
+<p>E a <b>Lei 13.303/2016</b>, que está no seu edital. Empresa pública e sociedade de economia mista seguem a 13.303, não a 14.133, que as exclui (Lei 14.133, Art. 1º, § 1º). Âncora: <b>estatal tem lei própria</b>. Ela também conhece integrada, semi-integrada e matriz de riscos, mas tem uma diferença que cai: na 13.303 não há alteração unilateral; os contratos só se alteram por acordo entre as partes (Lei 13.303, Art. 72) <span class="confere">confira</span>. Contraste com a seção 12: na 14.133, a Administração impõe até 25%.</p>
+<p>Olhar do auditor: o achado típico é registro de preços para "reformas em geral", sem projeto padronizado (Art. 85, I). Na discursiva: critério, a exigência cumulativa do Art. 85; situação, ata com objetos heterogêneos; efeito, obra contratada sem projeto nem orçamento próprios.</p>
+
+<details><summary>Pare e confira</summary>
+<ol>
+  <li>O SRP pode ser usado para obras desde que haja projeto padronizado ou necessidade frequente.<span>Errado. Os requisitos são cumulativos: projeto padronizado sem complexidade E necessidade permanente ou frequente (Art. 85). Pegadinha de "ou" no lugar de "e".</span></li>
+  <li>No contrato de eficiência, o contratado recebe percentual da economia gerada.<span>Certo (Art. 6º, LIII; Art. 39).</span></li>
+  <li>O critério de maior retorno econômico pode ser usado em qualquer contratação de obra.<span>Errado. É exclusivo do contrato de eficiência (Art. 39).</span></li>
+  <li>Aditivo de contrato de uma sociedade de economia mista segue o Art. 125 da Lei 14.133.<span>Errado. Estatais seguem a Lei 13.303 (a 14.133 as exclui no Art. 1º, § 1º). Pegadinha de lei trocada.</span></li>
+  <li>A remuneração variável pode ultrapassar o limite orçamentário se o desempenho for excepcional.<span>Errado. Deve respeitar o limite orçamentário (Art. 144, § 2º).</span></li>
+</ol>
+</details>
+<p class="leve">Leve para a prova: SRP de obra só com projeto padronizado simples e necessidade frequente, as duas coisas. Eficiência paga percentual da economia (maior retorno econômico). Remuneração variável premia desempenho, dentro do orçamento. Estatal tem lei própria (13.303), sem alteração unilateral.</p>
+
+<p class="parte">Parte 3 · Meio ambiente, resíduos, recursos hídricos e saneamento</p>
+
+<h2 id="licenciamento">16. Licenciamento ambiental: LP, LI, LO e EIA/RIMA</h2>
+<p class="chance">Chance de cair · Licenciamento (CONAMA 237 e 001): dentro de obras e de saneamento; tema frequente em estudo de caso de obra hídrica e rodoviária.</p>
+<p>A prefeitura agora quer ampliar a rede de esgoto de Vila Nova e construir uma pequena estação de tratamento. Antes de qualquer máquina chegar, existe uma pergunta: o órgão ambiental deixa? A regra geral vem da Política Nacional do Meio Ambiente: a construção, instalação, ampliação e funcionamento de atividades utilizadoras de recursos ambientais, efetiva ou potencialmente poluidoras, dependem de <b>prévio licenciamento ambiental</b> (Lei 6.938/1981, Art. 10).</p>
+<p>O licenciamento acontece em três licenças, uma para cada fase da obra (Resolução CONAMA 237/1997, Art. 8º), e o jeito mais fácil de lembrar é associar cada uma a uma pergunta. A <b>Licença Prévia (LP)</b> é concedida na fase de <b>planejamento</b>: aprova a <b>localização e a concepção</b>, atesta a viabilidade ambiental e fixa as condicionantes. Pergunta: <i>pode ser aqui e desse jeito?</i> A <b>Licença de Instalação (LI)</b> autoriza a <b>instalação</b>, conforme os planos e projetos aprovados. Pergunta: <i>pode construir?</i> A <b>Licença de Operação (LO)</b> autoriza a <b>operação</b>, depois de verificado o cumprimento das licenças anteriores. Pergunta: <i>pode funcionar?</i></p>
+<p>Agora os números, que a banca troca entre si. O órgão tem prazo máximo de <b>6 meses</b> para analisar cada licença, contados do protocolo, e de <b>12 meses</b> quando há EIA/RIMA ou audiência pública (Art. 14). O empreendedor tem até <b>4 meses</b> para atender pedidos de complementação (Art. 15). Validades (Art. 18): LP de no máximo <b>5 anos</b>; LI de no máximo <b>6 anos</b>; LO de no mínimo <b>4</b> e no máximo <b>10 anos</b>. E a renovação da LO deve ser pedida com antecedência mínima de <b>120 dias</b> do vencimento, ficando a licença prorrogada até a manifestação do órgão.</p>
+<div class="conta">Âncora dos prazos da CONAMA 237
+análise: 6 meses (12 com EIA/RIMA)   complementação: 4 meses
+LP ≤ 5 anos   LI ≤ 6 anos   LO de 4 a 10 anos   renovar LO: 120 dias antes
+"5, 6, 4 a 10": cada licença dura um pouco mais que a anterior,
+e a LO é a única com mínimo e máximo.</div>
+<p>Quem licencia? O empreendimento é licenciado em <b>um único nível de competência</b> (Art. 7º): ou a União, ou o Estado, ou o Município, nunca dois ao mesmo tempo. Em São Paulo, o órgão estadual é a CETESB <span class="confere">confira</span>.</p>
+<p>Um aviso de atualização: a Lei Geral do Licenciamento Ambiental (Lei 15.190/2025) mudou regras do licenciamento e penas da Lei 9.605 <span class="confere">confira se o seu edital a inclui e se mudou algum prazo daqui</span>. Os números desta seção são os da CONAMA 237, que é o que o edital cita.</p>
+<p>Quando o empreendimento pode causar <b>significativa degradação</b>, a licença depende de <b>EIA/RIMA</b>: estudo de impacto ambiental e respectivo relatório, com publicidade e audiência pública quando couber (CONAMA 237, Art. 3º). A Resolução <b>CONAMA 001/1986</b> traz a lista exemplificativa das atividades que exigem EIA/RIMA, como estradas de rodagem com duas ou mais faixas, ferrovias, portos, aterros sanitários, grandes obras hidráulicas e troncos coletores e emissários de esgoto, <span class="confere">confira a lista</span>. A lista é exemplificativa. O EIA traz diagnóstico ambiental, análise dos impactos, medidas mitigadoras e programa de acompanhamento e monitoramento. Os estudos são feitos por profissionais legalmente habilitados, às expensas do empreendedor, que respondem pelas informações (CONAMA 237, Art. 11). Cuidado: a antiga exigência de "equipe multidisciplinar" da CONAMA 001 foi revogada pela CONAMA 237 (Art. 21). O <b>RIMA</b> é a versão do EIA em linguagem acessível ao público. Pegadinha clássica: dizer que o RIMA é mais técnico que o EIA. É o contrário.</p>
+<p>A ponte com a parte 2: quando o licenciamento cabe à Administração, a licença prévia deve ser obtida <b>antes da divulgação do edital</b> (Lei 14.133, Art. 115, § 4º). E o edital pode transferir ao contratado a obtenção do licenciamento (Lei 14.133, Art. 25, § 5º, I). Se a obra parar porque a licença atrasou por razões alheias ao contratado, cabe reequilíbrio (Lei 14.133, Art. 124, § 2º).</p>
+<p>Olhar do auditor: obra licitada sem LP, obra iniciada sem LI, estação operando sem LO, LO vencida sem pedido de renovação no prazo e condicionantes não cumpridas são achados frequentes, e cada um deles conversa com a parte penal da próxima seção.</p>
+
+<details><summary>Pare e confira</summary>
+<ol>
+  <li>A Licença de Instalação aprova a localização e a concepção do empreendimento.<span>Errado. Isso é a Licença Prévia. Pegadinha de troca de fase.</span></li>
+  <li>A validade da LO é de no máximo 6 anos.<span>Errado. LO: mínimo 4, máximo 10 anos. 6 anos é o máximo da LI. Pegadinha de número vizinho.</span></li>
+  <li>Um empreendimento pode ser licenciado ao mesmo tempo pelo Estado e pelo Município, para maior segurança.<span>Errado. Um único nível de competência (CONAMA 237, Art. 7º).</span></li>
+  <li>Com EIA/RIMA, o órgão tem até 12 meses para analisar.<span>Certo (Art. 14).</span></li>
+  <li>Quando o licenciamento é da Administração, a LP pode ser obtida após a assinatura do contrato.<span>Errado. Antes da divulgação do edital (Lei 14.133, Art. 115, § 4º). Ponte com a seção 11.</span></li>
+</ol>
+</details>
+<p class="leve">Leve para a prova: LP pode ser aqui? LI pode construir? LO pode funcionar? Análise em 6 meses (12 com EIA), LP até 5, LI até 6, LO de 4 a 10, renovar 120 dias antes. Um só nível licencia. RIMA é o EIA para o público.</p>
+
+<h2 id="crimes">17. Responsabilidade ambiental e crimes</h2>
+<p class="chance">Chance de cair · Lei 9.605/1998 e Lei 6.938/1981: dentro de obras e saneamento.</p>
+<p>Imagine que a estação de tratamento entre em funcionamento sem licença e, num dia de falha, despeje esgoto bruto no córrego. Três responsabilidades nascem ao mesmo tempo: civil (reparar o dano), administrativa (multa do órgão ambiental) e penal (crime).</p>
+<p>A responsabilidade <b>civil</b> é <b>objetiva</b>: o poluidor é obrigado a indenizar ou reparar os danos, <b>independentemente da existência de culpa</b> (Lei 6.938, Art. 14, § 1º). Não adianta provar que a empresa foi cuidadosa. Esse é o mesmo espírito do <b>poluidor-pagador</b>: a política ambiental visa impor ao poluidor a obrigação de recuperar ou indenizar, e ao usuário a contribuição pelo uso econômico de recursos ambientais (Lei 6.938, Art. 4º, VII).</p>
+<p>Na esfera <b>penal</b>, a Lei 9.605 traz duas ideias que caem sempre. Primeira, em uma frase: <b>empresa e diretor respondem juntos</b>. Na letra da lei, a <b>pessoa jurídica</b> responde administrativa, civil e penalmente, quando a infração é cometida por decisão do seu representante ou órgão colegiado, no interesse ou benefício da entidade, e isso <b>não exclui</b> a responsabilidade das pessoas físicas envolvidas (Art. 3º). Segunda: a pessoa jurídica pode ser <b>desconsiderada</b> sempre que sua personalidade for obstáculo ao ressarcimento dos danos ambientais (Art. 4º).</p>
+<p>E o crime que mais conversa com obra: <b>construir, reformar, ampliar, instalar ou fazer funcionar</b> obras ou serviços potencialmente poluidores <b>sem licença</b> ou contrariando as normas, com pena de detenção, ou multa, ou ambas (Lei 9.605, Art. 60). O texto da lei que usei traz detenção de <b>6 meses a 2 anos</b>, aumentada até o dobro se o licenciamento exigir EIA; essa é a redação dada em 2025. Textos e questões antigos trazem <b>1 a 6 meses</b> <span class="confere">confira qual versão o edital cobra</span>. Causar poluição que resulte ou possa resultar em dano à saúde humana, mortandade de animais ou destruição significativa da flora é outro crime, mais grave, com reclusão de 1 a 4 anos e multa (Art. 54). Âncora: <b>sem licença, detenção; poluiu com dano, reclusão de 1 a 4 anos</b>.</p>
+<p>Olhar do auditor: na estação de Vila Nova operando sem LO, o achado nasce em três esferas ao mesmo tempo (civil, administrativa e penal), e o gestor que mandou operar também pode responder. Na discursiva: critério, Lei 6.938, Art. 10, e Lei 9.605, Art. 60; situação, estação operando sem LO; evidência, consulta ao órgão licenciador; efeito, risco de dano ambiental e de responsabilização.</p>
+
+<details><summary>Pare e confira</summary>
+<ol>
+  <li>O poluidor só responde civilmente pelo dano ambiental se agiu com culpa.<span>Errado. Responsabilidade objetiva, independe de culpa (Lei 6.938, Art. 14, § 1º). Pegadinha de condição inventada.</span></li>
+  <li>Responsabilizada a pessoa jurídica, ficam isentas as pessoas físicas que participaram do fato.<span>Errado. Uma não exclui a outra (Lei 9.605, Art. 3º, parágrafo único). Pegadinha de exclusão inventada.</span></li>
+  <li>Fazer funcionar estação de tratamento sem licença é crime punido com reclusão de 1 a 4 anos.<span>Errado. Sem licença é o Art. 60, com pena de detenção (ou multa). Reclusão de 1 a 4 anos é poluição com dano à saúde (Art. 54). Pegadinha de pena vizinha.</span></li>
+  <li>Mini-caso: a estação sem LO despeja esgoto e mata peixes. Quantas esferas de responsabilidade?<span>Três: civil objetiva (Lei 6.938, Art. 14, § 1º), administrativa e penal (Arts. 54 e 60), contra a pessoa jurídica e as pessoas físicas (Art. 3º, parágrafo único). Pegadinha de "uma esfera exclui a outra".</span></li>
+</ol>
+</details>
+<p class="leve">Leve para a prova: civil objetiva, sem culpa; pessoa jurídica e pessoa física respondem juntas; obra sem licença é crime (Art. 60).</p>
+
+<h2 id="desapropriacao">18. Desapropriação na obra pública</h2>
+<p class="chance">Chance de cair · Desapropriações: dentro do bloco de obras.</p>
+<p>A estrada vicinal que a prefeitura vai alargar passa por sítios particulares. Para obra pública que precisa de terreno privado, o caminho é a <b>desapropriação</b>, que no caso mais comum se baseia em <b>utilidade pública</b> (Decreto-Lei 3.365/1941) e exige <b>indenização prévia e justa em dinheiro</b> (Constituição, Art. 5º, XXIV) <span class="confere">confira</span>.</p>
+<p>Na Lei 14.133, o tema aparece em três pontos, e os três conversam com o que você já viu. O edital pode atribuir ao contratado a <b>realização da desapropriação</b> autorizada pelo poder público (Art. 25, § 5º, II). Na <b>integrada e semi-integrada</b>, edital e contrato devem prever, quando for o caso, quem responde por cada fase do procedimento expropriatório, quem paga as indenizações, a estimativa do valor e a <b>distribuição objetiva de riscos</b>, incluindo o risco de a desapropriação custar mais que o estimado e o de atraso na disponibilização dos bens (Art. 46, § 4º). E, se a execução for obstada por atraso na desapropriação por circunstâncias alheias ao contratado, cabe <b>reequilíbrio</b> (Art. 124, § 2º).</p>
+<p>Exemplo: o contrato da vicinal prevê início em março, mas três sítios só são liberados em agosto. Cinco meses de atraso por razão alheia ao contratado dão direito a reequilíbrio (Art. 124, § 2º), e o custo cai na Administração, salvo se a matriz de riscos alocou esse risco ao contratado.</p>
+<p>Olhar do auditor: obra licitada sem as áreas liberadas é uma das causas mais comuns de obra paralisada e de aditivo de prazo. O auditor pergunta: o projeto previa as áreas? O decreto de utilidade pública saiu antes da licitação? A matriz de riscos dizia quem arcava com o atraso?</p>
+
+<details><summary>Pare e confira</summary>
+<ol>
+  <li>A Lei 14.133 proíbe transferir ao contratado a realização da desapropriação.<span>Errado. O edital pode prever (Art. 25, § 5º, II), assim como pode transferir o licenciamento ambiental (inciso I, ponte com a seção 16). Pegadinha de verbo ("proíbe" × "poderá").</span></li>
+  <li>Atraso na desapropriação, por circunstância alheia ao contratado, pode justificar reequilíbrio.<span>Certo (Art. 124, § 2º).</span></li>
+  <li>Na integrada da estrada, o edital é omisso sobre quem paga as indenizações. Achado?<span>Sim. Na integrada e semi-integrada, edital e contrato devem prever responsável por cada fase, pagamento, estimativa e distribuição do risco de custo e de atraso (Art. 46, § 4º). Revise a seção 4. Pegadinha de omissão tolerada.</span></li>
+</ol>
+</details>
+<p class="leve">Leve para a prova: desapropriação pode ir para o contratado se o edital disser; na integrada, o contrato distribui fases, custos e riscos; atraso alheio ao contratado dá reequilíbrio.</p>
+
+<h2 id="rcc">19. Resíduos da construção civil: CONAMA 307, PGRCC, MTR e Lei 12.305</h2>
+<p class="chance">Chance de cair · RCC, PGRCC, MTR, SIGOR e CONAMA 307: dentro de obras (tema prático, bom para caso).</p>
+<p>Durante a obra da escola, saem caçambas de entulho todos os dias. Para onde vão? A <b>Lei 12.305/2010</b> (Política Nacional de Resíduos Sólidos) dá a regra de ouro, a <b>ordem de prioridade</b>: <b>não geração, redução, reutilização, reciclagem, tratamento dos resíduos e disposição final ambientalmente adequada dos rejeitos</b> (Art. 9º). Decore como uma escada que desce: o melhor resíduo é o que não existe; o pior destino é o aterro.</p>
+<p>Duas palavras que parecem iguais e não são. <b>Destinação final</b> é o conceito amplo: reutilização, reciclagem, compostagem, recuperação, aproveitamento energético e outras, <b>entre elas</b> a disposição final (Art. 3º, VII). <b>Disposição final</b> é só a distribuição ordenada de <b>rejeitos em aterros</b> (Art. 3º, VIII). Ou seja, disposição é uma espécie de destinação, e é só para <b>rejeito</b>, aquilo que não tem mais como ser aproveitado.</p>
+<p>A lei classifica os <b>resíduos da construção civil</b> pela origem: os gerados em construções, reformas, reparos e demolições, incluídos os da preparação e escavação de terrenos (Art. 13, I, h). E as <b>empresas de construção civil</b> estão sujeitas a <b>plano de gerenciamento de resíduos sólidos</b>, nos termos do regulamento ou das normas do Sisnama (Art. 20, III). Para a obra, esse plano é o <b>PGRCC</b>, plano de gerenciamento de resíduos da construção civil.</p>
+<p>Quem detalha o RCC é a <b>Resolução CONAMA 307/2002</b>, com suas quatro classes <span class="confere">confira as alterações posteriores</span>:</p>
+<div class="conta">Classe A  reutilizáveis ou recicláveis como agregado
+          (tijolo, bloco, concreto, argamassa, solo de terraplenagem)
+          → reutilizar/reciclar como agregado, ou aterro de RCC classe A
+Classe B  recicláveis para outras destinações
+          (plástico, papel, papelão, metal, vidro, madeira, gesso*)
+          → reutilizar, reciclar ou armazenar para uso futuro
+Classe C  sem tecnologia ou aplicação viável de reciclagem
+          → conforme normas técnicas específicas
+Classe D  perigosos (tintas, solventes, óleos, amianto**)
+          (embalagem vazia de tinta imobiliária é B, Res. CONAMA 469/2015)
+          → conforme normas técnicas específicas
+* gesso passou para B pela Res. CONAMA 431/2011
+** amianto incluído na D pela Res. CONAMA 348/2004</div>
+<p>Âncora: <b>A de Agregado, B de Bom para reciclar, C de "Complicado", D de Danoso</b>. A pegadinha mais comum é o <b>gesso</b>: ele já foi classe C e hoje é classe B. A segunda é a madeira: classe B, não A. E a resolução proíbe dispor RCC em aterros de resíduos domiciliares, em áreas de bota-fora, em encostas, corpos d'água, lotes vagos e áreas protegidas <span class="confere">confira</span>.</p>
+<p>E o caminho do entulho é rastreado. O <b>MTR</b> (manifesto de transporte de resíduos) acompanha cada carga, do gerador ao destinatário. Em São Paulo, esse controle é feito pelo <b>SIGOR</b>, o sistema estadual de gerenciamento online de resíduos, operado pela CETESB, com módulo específico para construção civil <span class="confere">confira</span>. Para o fiscal e o auditor, o MTR é a evidência de que o entulho foi para onde o plano dizia.</p>
+<p>Olhar do auditor: obra sem PGRCC, entulho sem MTR, caçamba com destino não licenciado, medição de "remoção de entulho" sem comprovação de destinação e planilha que paga transporte para uma distância maior que a do destino real são achados que juntam meio ambiente e superfaturamento.</p>
+
+<details><summary>Pare e confira</summary>
+<ol>
+  <li>Na ordem da Lei 12.305, a reciclagem vem antes da reutilização.<span>Errado. Não geração, redução, reutilização, reciclagem, tratamento, disposição (Art. 9º). Pegadinha de ordem.</span></li>
+  <li>Disposição final e destinação final são sinônimos.<span>Errado. Disposição é só rejeito em aterro; destinação é o gênero (Art. 3º, VII e VIII).</span></li>
+  <li>O gesso é resíduo classe C da CONAMA 307.<span>Errado. Passou para classe B (Res. CONAMA 431/2011). Pegadinha de norma desatualizada.</span></li>
+  <li>Restos de concreto e tijolo são classe A e podem virar agregado reciclado.<span>Certo.</span></li>
+  <li>RCC classe A pode ser disposto em aterro de resíduos domiciliares.<span>Errado. Vai para aterro de RCC classe A ou reciclagem.</span></li>
+</ol>
+</details>
+<p class="leve">Leve para a prova: não gerar, reduzir, reutilizar, reciclar, tratar, dispor. Disposição é só rejeito. A agregado, B recicla (gesso e madeira), C complicado, D danoso (amianto). PGRCC planeja, MTR comprova.</p>
+
+<h2 id="hidricos">20. Política Nacional do Meio Ambiente e recursos hídricos</h2>
+<p class="chance">Chance de cair · Leis 6.938 e 9.433: dentro de obras hídricas e saneamento.</p>
+<p>A <b>Lei 6.938/1981</b> criou o <b>SISNAMA</b>, e a banca adora a sua estrutura (Art. 6º): órgão <b>superior</b>, o Conselho de Governo; órgão <b>consultivo e deliberativo</b>, o <b>CONAMA</b>; órgão <b>central</b>, hoje o Ministério do Meio Ambiente (a lei ainda fala em "Secretaria do Meio Ambiente da Presidência da República"); órgãos <b>executores</b>, IBAMA e Instituto Chico Mendes; órgãos <b>seccionais</b>, os <b>estaduais</b>; e órgãos <b>locais</b>, os <b>municipais</b>. Âncora: "seccional é estadual, local é municipal". Entre os instrumentos da política estão os padrões de qualidade ambiental, o zoneamento, a <b>avaliação de impactos ambientais</b> e o <b>licenciamento</b> (Art. 9º, I a IV).</p>
+<p>A <b>Lei 9.433/1997</b>, das águas, começa por seis fundamentos (Art. 1º), e quase todos viram questão: a água é <b>bem de domínio público</b>; é recurso <b>limitado, dotado de valor econômico</b>; na escassez, o uso prioritário é o <b>consumo humano e a dessedentação de animais</b>; a gestão deve proporcionar o <b>uso múltiplo</b>; a <b>bacia hidrográfica</b> é a unidade territorial de gestão; e a gestão é <b>descentralizada e participativa</b>, com Poder Público, usuários e comunidades.</p>
+<p>Os instrumentos são seis (Art. 5º): planos de recursos hídricos, <b>enquadramento</b> dos corpos d'água em classes segundo os usos preponderantes, <b>outorga</b>, <b>cobrança</b>, compensação a municípios e sistema de informações. Detalhe: a compensação a municípios continua na lista do Art. 5º, mas o artigo que a disciplinaria (Art. 24) foi vetado <span class="confere">confira</span>. Na prova, "seis instrumentos" está certo. A <b>outorga</b> é a autorização para usar a água, e está sujeita a ela, entre outros, a captação para abastecimento, a extração de água subterrânea, o <b>lançamento de esgoto</b>, tratado ou não, em corpo d'água, e o aproveitamento hidrelétrico (Art. 12). A estação de tratamento de Vila Nova precisa de outorga para lançar o efluente tratado no córrego. Não dependem de outorga os usos para pequenos núcleos rurais e as derivações, captações, lançamentos e acumulações considerados <b>insignificantes</b> (Art. 12, § 1º).</p>
+<p>O sistema de gerenciamento (Art. 33) reúne o Conselho Nacional de Recursos Hídricos, a ANA, os conselhos estaduais, os <b>comitês de bacia</b>, os órgãos públicos com competência na área e as <b>agências de água</b>. A outorga é dada pelo Executivo federal, estadual ou distrital (Art. 14).</p>
+<p>Olhar do auditor: estação de tratamento sem outorga de lançamento, captação sem outorga e obra de saneamento incompatível com o plano de bacia são achados. Em São Paulo, a outorga de águas estaduais é estadual <span class="confere">confira o órgão gestor</span>.</p>
+
+<details><summary>Pare e confira</summary>
+<ol>
+  <li>Em situação de escassez, o uso prioritário da água é o industrial.<span>Errado. Consumo humano e dessedentação de animais (Lei 9.433, Art. 1º, III).</span></li>
+  <li>O lançamento de esgoto tratado dispensa outorga, por já estar tratado.<span>Errado. Lançamento de esgotos, "tratados ou não", está sujeito a outorga (Art. 12, III). Pegadinha de condição.</span></li>
+  <li>No SISNAMA, os órgãos seccionais são os municipais.<span>Errado. Seccionais são estaduais; locais são municipais (Lei 6.938, Art. 6º).</span></li>
+  <li>A unidade territorial de gestão dos recursos hídricos é o município.<span>Errado. É a bacia hidrográfica (Art. 1º, V).</span></li>
+</ol>
+</details>
+<p class="leve">Leve para a prova: SISNAMA: CONAMA delibera, IBAMA executa, seccional é estado, local é município. Águas: domínio público, valor econômico, consumo humano primeiro, bacia como unidade, gestão participativa. Lançar esgoto, tratado ou não, pede outorga.</p>
+
+<h2 id="saneamento">21. Saneamento básico: Lei 11.445 com o Marco de 2020, resíduos sólidos e ODS</h2>
+<p class="chance">Chance de cair · Saneamento e marco legal: alto em obras hídricas; tema forte de estudo de caso.</p>
+<p>Saneamento básico, para a lei, não é só esgoto. É o conjunto de <b>quatro serviços</b> (Lei 11.445/2007, Art. 3º, I): <b>abastecimento de água</b>, da captação até as ligações prediais e seus medidores; <b>esgotamento sanitário</b>, das ligações prediais até a destinação final; <b>limpeza urbana e manejo de resíduos sólidos</b>; e <b>drenagem e manejo das águas pluviais urbanas</b>. Âncora: <b>água, esgoto, lixo e chuva</b>. Pegadinha clássica: dizer que drenagem urbana não é saneamento. É.</p>
+<p>O <b>Novo Marco do Saneamento</b> (Lei 14.026/2020) mudou a 11.445 e trouxe o número mais famoso do tema: os contratos devem ter metas de universalização que garantam <b>99% da população com água potável</b> e <b>90% com coleta e tratamento de esgoto</b> até <b>31 de dezembro de 2033</b> (Art. 11-B). Âncora: "99 de água, 90 de esgoto, até 33".</p>
+<p>A prestação dos serviços observa um <b>plano de saneamento básico</b>, que tem conteúdo mínimo (diagnóstico, metas de curto, médio e longo prazo, programas e ações, ações para emergências e mecanismos de avaliação) e deve ser revisto em prazo <b>não superior a 10 anos</b> (Art. 19, § 4º). Municípios com menos de <b>20 mil habitantes</b> podem ter plano <b>simplificado</b> (Art. 19, § 9º). Os planos devem ser compatíveis com os planos de bacia (Art. 19, § 3º), olha a ponte com a Lei 9.433.</p>
+<p>As edificações urbanas permanentes devem se <b>conectar às redes públicas</b> de água e esgoto disponíveis, sujeitas ao pagamento das tarifas (Art. 45); só na <b>ausência</b> de rede são admitidas soluções individuais (Art. 45, § 1º). E os serviços têm sua <b>sustentabilidade econômico-financeira</b> assegurada pela cobrança dos serviços e, quando necessário, por subsídios (Art. 29).</p>
+<p>Do lado dos resíduos sólidos urbanos, a Lei 12.305, com a redação dada pelo Marco de 2020, previu o fim dos lixões: a disposição ambientalmente adequada deveria estar implantada até 31/12/2020, com prazos escalonados para municípios com plano e cobrança: até 2 de agosto de <b>2021</b> para capitais e regiões metropolitanas, <b>2022</b> para municípios com mais de 100 mil habitantes, <b>2023</b> para os de 50 a 100 mil e <b>2024</b> para os com menos de 50 mil (Art. 54). Âncora: quanto <b>menor</b> o município, <b>mais</b> prazo.</p>
+<p>O edital também cita os <b>Objetivos de Desenvolvimento Sustentável</b> da Agenda 2030. Basta ligar o número ao tema: <b>ODS 6</b> água potável e saneamento; <b>ODS 7</b> energia limpa e acessível; <b>ODS 11</b> cidades e comunidades sustentáveis; <b>ODS 12</b> consumo e produção responsáveis; <b>ODS 13</b> ação contra a mudança do clima. A estação de tratamento de Vila Nova serve ao ODS 6; a troca da iluminação pública por LED serve ao ODS 7 (e, lembre da seção 15, pode ser feita por <b>contrato de eficiência</b>, pago com parte da economia); o PGRCC da escola serve ao ODS 12.</p>
+<p>Olhar do auditor: em saneamento, o Tribunal olha se o contrato de prestação tem as metas do Art. 11-B, se o plano municipal existe e está dentro do prazo de revisão, se a obra de rede está sendo feita sem as ligações domiciliares (rede que ninguém usa) e se a estação tem LO e outorga de lançamento.</p>
+
+<details><summary>Pare e confira</summary>
+<ol>
+  <li>Saneamento básico compreende abastecimento de água, esgotamento sanitário e manejo de resíduos sólidos.<span>Incompleto, logo errado na Vunesp: falta drenagem e manejo das águas pluviais urbanas (Art. 3º, I, d). Pegadinha de lista incompleta.</span></li>
+  <li>A meta é 99% de esgoto e 90% de água até 2033.<span>Errado. 99% água, 90% esgoto (Art. 11-B). Pegadinha de inversão.</span></li>
+  <li>O plano de saneamento deve ser revisto a cada 4 anos, no máximo.<span>Errado. Prazo não superior a 10 anos (Art. 19, § 4º).</span></li>
+  <li>Havendo rede pública disponível, o imóvel urbano pode manter fossa séptica por opção do proprietário.<span>Errado. Deve se conectar à rede disponível; solução individual só na ausência de rede (Art. 45 e § 1º).</span></li>
+  <li>O ODS 7 trata de água e saneamento.<span>Errado. ODS 6 é água e saneamento; ODS 7 é energia.</span></li>
+</ol>
+</details>
+<p class="leve">Leve para a prova: água, esgoto, lixo e chuva. 99 de água, 90 de esgoto, até 33. Plano revisto em até 10 anos, simplificado abaixo de 20 mil habitantes. Havendo rede, liga-se a ela. ODS 6 água, 7 energia, 11 cidades, 12 consumo, 13 clima.</p>
+
+<p class="parte">Parte 4 · Obras de edificações e obras rodoviárias</p>
+<p>Daqui em diante o conteúdo é técnico, de norma e de manual. A lei aparece pouco, e a maior parte dos números vem das NBR e dos manuais do DNIT, cujo texto eu não tinha para conferir palavra por palavra. Por isso a marca <span class="confere">confira</span> aparece mais. Os números marcados são os usuais da área e estão no seu material de estudo, mas confira na norma os que a prova costuma cobrar.</p>
+
+<h2 id="concreto">22. Concreto: do cimento à resistência</h2>
+<p class="chance">Chance de cair · Edificações (concreto, controle tecnológico e execução): o maior bloco do banco de questões do seu material, cerca de 200 de 558 questões.</p>
+<p>A estrutura da escola é de concreto armado. Para fiscalizar concreto, você precisa entender uma ideia que muda tudo: <b>o concreto não endurece porque seca; ele endurece porque o cimento reage com a água</b>. Essa reação se chama <b>hidratação</b>, e o produto que dá resistência é o <b>C-S-H</b>, silicato de cálcio hidratado. Se a água vai embora cedo, a reação para, e o concreto fica fraco e poroso.</p>
+<p>De onde vem o cimento? Calcário e argila são moídos, queimados no forno a cerca de 1.450 °C e viram <b>clínquer</b>; depois o clínquer é moído com <b>gesso</b>, que controla a pega (o gesso não vai ao forno) <span class="confere">confira</span>. O clínquer tem quatro compostos, e a banca gosta de saber o papel de cada um: o <b>C₃S</b> dá a resistência <b>inicial</b>; o <b>C₂S</b>, a resistência <b>tardia</b>; o <b>C₃A</b> reage muito rápido, libera muito calor e é controlado pelo gesso; o <b>C₄AF</b> contribui pouco para a resistência. Âncora: <b>3 é rápido, 2 é devagar</b>.</p>
+<p>Os tipos de cimento Portland mais cobrados: <b>CP II</b> (composto, com escória E, pozolana Z ou fíler F); <b>CP III</b> (alto-forno, muita escória); <b>CP IV</b> (pozolânico); <b>CP V-ARI</b> (alta resistência inicial). Os com muita adição (CP III e CP IV) ganham resistência mais devagar, liberam menos calor, são mais resistentes a ambientes agressivos e <b>pedem cura mais longa</b>. O CP V-ARI ganha resistência rápido e por isso permite desformar mais cedo <span class="confere">confira</span>.</p>
+<p>A relação mais importante da tecnologia do concreto é a <b>relação água/cimento (a/c)</b>. Para hidratar todo o cimento, bastam cerca de <b>0,42 kg de água por kg de cimento</b>. Toda água além disso não reage: evapora e deixa poros. Mais poros, menos resistência e mais permeabilidade. Essa é a <b>lei de Abrams</b>: quanto maior a relação a/c, menor a resistência. Por isso a norma limita a a/c máxima conforme a agressividade do ambiente <span class="confere">confira</span>:</p>
+<div class="conta">Classe de agressividade   I fraca  II moderada  III forte  IV muito forte
+(ambiente)               rural    urbano      marinho    químico/respingo de maré
+a/c máxima               0,65     0,60        0,55       0,45
+classe mínima            C20      C25         C30        C40
+cobrimento laje          20 mm    25 mm       35 mm      45 mm
+cobrimento viga/pilar    25 mm    30 mm       40 mm      50 mm
+(NBR 6118 e NBR 12655; tolerância de execução Δc = 10 mm)</div>
+<p>A tabela vale para concreto armado (no protendido as exigências são maiores), e os cobrimentos são nominais. Leia a tabela como uma história: quanto mais agressivo o ambiente, <b>menos água</b>, <b>concreto mais forte</b> e <b>mais cobrimento</b> protegendo a armadura. Se você lembrar a lógica, os números vizinhos não te enganam. A escola, em área urbana, é classe II: a/c até 0,60, no mínimo C25, cobrimento de 30 mm nas vigas.</p>
+<p>Olhar do auditor: confira no projeto a classe de agressividade adotada e se o fck e o cobrimento especificados respeitam a tabela. Projeto da escola com C20 em área urbana é achado.</p>
+<p>Agora a <b>cura</b>. Cura é o conjunto de medidas que mantém o concreto úmido e em temperatura adequada nas primeiras idades, para a hidratação continuar. Há dois grupos de métodos: os que <b>fornecem água</b> (molhagem, aspersão, mantas úmidas) e os que <b>impedem a saída de água</b> (membrana de cura, lonas). A NBR 14931 manda curar os elementos estruturais de superfície até atingirem <b>15 MPa</b> <span class="confere">confira</span>. Cuidado com a pegadinha: <b>28 dias não é prazo de cura</b>, é a idade convencional do ensaio de resistência. E a cura protege justamente a camada de fora, o cobrimento: cura mal feita deixa a superfície porosa, acelera a carbonatação e a entrada de cloretos e antecipa a <b>corrosão da armadura</b>.</p>
+
+<details><summary>Pare e confira</summary>
+<ol>
+  <li>A cura serve para acelerar a secagem do concreto.<span>Errado. Serve para impedir a perda de água; o concreto endurece por hidratação. Pegadinha de senso comum.</span></li>
+  <li>O C₂S é o principal responsável pela resistência inicial.<span>Errado. Inicial é o C₃S; o C₂S é tardio. Pegadinha de troca.</span></li>
+  <li>Em classe de agressividade III, a relação a/c máxima é 0,60.<span>Errado. É 0,55; 0,60 é a classe II. Pegadinha de número vizinho.</span></li>
+  <li>O prazo de cura do concreto estrutural é de 28 dias.<span>Errado. 28 dias é a idade de ensaio; a cura vai até 15 MPa (NBR 14931). Pegadinha de número famoso no lugar errado.</span></li>
+</ol>
+</details>
+<p class="leve">Leve para a prova: concreto endurece por hidratação, não por secagem. Mais água, menos resistência (Abrams). Ambiente mais agressivo, menos a/c, concreto mais forte, mais cobrimento. Cura até 15 MPa; 28 dias é ensaio.</p>
+
+<h2 id="controle">23. Controle tecnológico do concreto: slump, corpos de prova e aceitação</h2>
+<p class="chance">Chance de cair · Controle tecnológico (NBR 12655): o assunto com mais questões no seu banco (73); muito provável em objetiva e em caso.</p>
+<p>O caminhão-betoneira chegou à escola. Antes de lançar o concreto, o fiscal faz duas coisas: confere a <b>consistência</b> e molda os <b>corpos de prova</b>. A primeira diz se o concreto que chegou é trabalhável como foi pedido; a segunda vai dizer, semanas depois, se ele tem a resistência do projeto.</p>
+<p>A consistência é medida pelo <b>abatimento do tronco de cone</b>, o <i>slump test</i> (NBR 16889). O molde é um tronco de cone de <b>30 cm de altura</b>, com bases de <b>20 cm</b> e <b>10 cm</b>; enche-se em <b>3 camadas</b>, cada uma com <b>25 golpes</b> de uma haste de <b>16 mm</b>; retira-se o molde e mede-se quanto o concreto <b>abaixou</b> <span class="confere">confira</span>. O slump mede <b>consistência</b>, não resistência. Pegadinha clássica: "o slump avalia a resistência à compressão do concreto". Errado.</p>
+<p>Para a resistência, moldam-se <b>corpos de prova cilíndricos</b>, usualmente de 10 × 20 cm, que ficam as primeiras horas na obra e depois vão para cura padronizada em laboratório (câmara úmida, cerca de 23 °C e umidade de pelo menos 95%, NBR 5738) e são rompidos na prensa, em geral aos <b>28 dias</b> (NBR 5739) <span class="confere">confira</span>. Repare numa consequência: o corpo de prova curado no laboratório pode dar resultado melhor que o concreto mal curado da estrutura. Ensaio aprovado não prova que a cura da obra foi boa.</p>
+<p>Agora o conceito central: <b>fck</b> é a resistência característica à compressão, o valor que tem <b>95% de probabilidade de ser superado</b>. Não é a média. A média de dosagem (fcj) tem de ser maior que o fck, com uma margem que depende do <b>desvio-padrão</b>, que por sua vez depende do cuidado no preparo. A NBR 12655 define três <b>condições de preparo</b>: <b>A</b>, desvio-padrão de <b>4,0 MPa</b>, cimento e agregados medidos em massa e água corrigida pela umidade; <b>B</b>, <b>5,5 MPa</b>, agregados em volume com correção da umidade; <b>C</b>, <b>7,0 MPa</b>, agregados em volume com umidade estimada. E cada condição tem faixa de uso: a <b>A</b> vale de C10 a C80; a <b>B</b> só até <b>C25</b>; a <b>C</b> só para <b>C10 e C15</b>, que não são estruturais <span class="confere">confira</span>. Mais cuidado, menor desvio, menos cimento necessário.</p>
+<div class="conta">fcj = fck + 1,65 × sd
+Escola: fck = 25 MPa, condição A (sd = 4,0)
+fcj = 25 + 1,65 × 4,0 = 25 + 6,6 = 31,6 MPa
+Mesma escola em condição B (sd = 5,5): fcj = 25 + 9,08 = 34,1 MPa
+→ preparo menos rigoroso obriga a dosar um concreto mais forte (e mais caro)
+âncora: A até C80 · B até C25 · C só C10/C15</div>
+<p>E como a obra aceita o concreto? A NBR 12655 divide o concreto em <b>lotes</b> e de cada lote tira <b>exemplares</b> (cada exemplar é um par de corpos de prova do mesmo caminhão; vale o maior dos dois). Com os resultados, calcula-se o <b>fck estimado</b> (fck,est). Se <b>fck,est ≥ fck</b> do projeto, o lote é <b>aceito automaticamente</b>. Se não, a norma manda avaliar: ensaios na estrutura (extração de testemunhos), revisão do projeto com a resistência real e, no limite, reforço ou demolição <span class="confere">confira os critérios de formação de lote e as fórmulas do fck,est</span>. Há duas formas de controle: por amostragem <b>parcial</b> (alguns caminhões por lote) e <b>total</b> (todos os caminhões, a chamada amostragem 100%).</p>
+<p>Uma regra prática do concreto usinado que sempre cai: o concreto deve ser <b>lançado e adensado</b> antes de passar o tempo limite desde a primeira adição de água (o seu material traz <b>120 min</b> para o transporte; outras fontes da NBR 7212 trazem <b>90 min</b>; e <b>150 min</b> até o fim do adensamento), a temperatura no lançamento deve ficar entre <b>5 °C e 32 °C</b>, e a altura de queda livre não deve passar de <b>2 m</b> <span class="confere">confira na NBR 7212 e NBR 14931</span>. E é proibido adicionar água na obra para "melhorar" o slump além do que a norma permite, porque isso aumenta a a/c e derruba a resistência.</p>
+<p>Olhar do auditor: o auditor pede os <b>relatórios de ensaio</b> e cruza com as <b>notas fiscais</b> do concreto e com a <b>medição</b>. Concreto medido sem ensaio, lote reprovado e pago sem providência, slump fora do especificado aceito sem registro no diário e volume de concreto pago maior que o das notas fiscais são achados. E lembre: os ensaios correm por conta do contratado, salvo disposição em contrário (Lei 14.133, Art. 140, § 4º).</p>
+
+<details><summary>Pare e confira</summary>
+<ol>
+  <li>O slump test avalia a resistência à compressão do concreto fresco.<span>Errado. Avalia a consistência. Pegadinha de finalidade trocada.</span></li>
+  <li>O fck é a resistência média dos corpos de prova.<span>Errado. É o valor com 95% de probabilidade de ser superado; a média é maior. Pegadinha de conceito estatístico.</span></li>
+  <li>fck = 20 MPa, condição B. Qual o fcj? E um C30 pode ser preparado na condição B?<span>20 + 1,65 × 5,5 = 29,1 MPa. C30 na condição B não pode: a B vai só até C25. Pegadinha de condição fora da faixa.</span></li>
+  <li>fcj = fck + 1,96 sd.<span>Errado. O fator é 1,65 (quantil de 5%). Pegadinha de número vizinho.</span></li>
+  <li>Na condição de preparo A, os agregados são medidos em volume.<span>Errado. Na A, cimento e agregados em massa; volume é B e C. Pegadinha de troca de condição.</span></li>
+  <li>Se fck,est for menor que o fck, o lote deve ser demolido.<span>Errado. Primeiro avalia-se (testemunhos, revisão do projeto); demolição é o último recurso. Pegadinha de consequência exagerada.</span></li>
+</ol>
+</details>
+<p class="leve">Leve para a prova: slump mede consistência (cone 30 cm, 3 camadas, 25 golpes). fck é o valor com 95% de chance de ser superado; fcj = fck + 1,65 sd, com sd 4,0 / 5,5 / 7,0 nas condições A, B, C. fck,est ≥ fck aceita o lote; se não, avalia antes de demolir.</p>
+
+<h2 id="execucao">24. Execução, desempenho, manutenção e CUB</h2>
+<p class="chance">Chance de cair · Práticas executivas, patologia, NBR 15575 e CUB: médio na objetiva; patologia é boa para caso.</p>
+<p>Fôrmas e escoramentos sustentam o concreto até ele se sustentar sozinho. A retirada não pode ser precipitada. Prazos fixos em dias (como 14 dias para a retirada total, ou 21 dias para lajes com cimento comum contra 7 com ARI) vêm da norma antiga e aparecem no seu material; a NBR 14931 atual baseia a retirada em um <b>plano</b> que considera a <b>resistência e o módulo</b> já alcançados <span class="confere">confira a versão que a banca cobra</span>. O critério verdadeiro é a resistência, não o calendário.</p>
+<p>Na <b>patologia</b>, aprenda a ler o sintoma pela causa. <b>Fissura de retração plástica</b>: aparece nas primeiras horas, em superfícies grandes expostas a sol e vento, porque a água evaporou mais rápido do que subiu (cura atrasada). <b>Corrosão da armadura</b>: manchas de ferrugem, fissuras paralelas às barras e desplacamento do cobrimento, causadas por cobrimento insuficiente, carbonatação ou cloretos. <b>Eflorescência</b>: manchas brancas de sais carregados pela água que atravessa o concreto ou a alvenaria. <b>Ninhos de concretagem (bicheiras)</b>: vazios por adensamento ruim ou concreto muito seco em peça muito armada.</p>
+<p>A <b>NBR 15575</b> é a norma de <b>desempenho</b> das edificações <b>habitacionais</b> (a escola, portanto, não está no seu escopo direto): em vez de dizer como construir, diz o que o edifício tem de entregar (segurança estrutural, contra incêndio, estanqueidade, desempenho térmico e acústico, durabilidade) e fixa <b>vida útil de projeto</b> mínima para os sistemas, por exemplo 50 anos para a estrutura <span class="confere">confira</span>. A <b>NBR 5674</b> trata da <b>gestão da manutenção</b> e a <b>NBR 14037</b> do <b>manual de uso, operação e manutenção</b> que o construtor entrega <span class="confere">confira</span>. Ponte com a parte 2: defeito que aparece por falta de manutenção do usuário não é vício construtivo; por isso a garantia de 5 anos conversa com o manual de manutenção.</p>
+<p>O <b>CUB</b> (custo unitário básico, NBR 12721) é um custo por metro quadrado de projetos-padrão, usado na incorporação imobiliária e para estimativas. Ele <b>não inclui</b>, entre outros, fundações, elevadores, instalações especiais, urbanização, projetos e a remuneração do construtor e do incorporador (o BDI) <span class="confere">confira a lista</span>. Por isso o CUB serve para <b>estimativa paramétrica</b> (lembre da integrada, seção 3), nunca como orçamento detalhado de obra pública. Pegadinha: "o CUB inclui o custo das fundações e o BDI da construtora". Errado. Exemplo ilustrativo: escola de 2.500 m² × CUB de R$ 2.400/m² = R$ 6,0 mi; faltam fundação, urbanização e BDI; somando cerca de R$ 1,0 mi desses itens e 22% de BDI, chega-se a cerca de R$ 8,5 mi. Por isso o CUB serve para estimar, não para orçar.</p>
+<p>Olhar do auditor: fissura ao longo da armadura no ano 3 da escola, com cobrimento medido menor que o de projeto, é vício construtivo: pede-se o reparo ao construtor dentro dos 5 anos (Lei 14.133, Art. 140, § 6º). Se o problema for falta de manutenção prevista no manual de uso (NBR 14037), não é vício. Evidência: laudo com medição do cobrimento.</p>
+
+<details><summary>Pare e confira</summary>
+<ol>
+  <li>Fissuras paralelas às barras, com manchas de ferrugem, indicam retração plástica.<span>Errado. Indicam corrosão da armadura. Pegadinha de sintoma trocado.</span></li>
+  <li>A NBR 15575 prescreve o método construtivo que deve ser usado em habitações.<span>Errado. Ela fixa requisitos de desempenho, não o método. Pegadinha de natureza da norma.</span></li>
+  <li>O CUB pode substituir o orçamento detalhado no projeto básico de obra pública.<span>Errado. É estimativa paramétrica (cabe na fração não detalhada da integrada, Lei 14.133, Art. 23, § 5º) e exclui fundações, elevadores, projetos e a remuneração do construtor. Pegadinha de ferramenta trocada.</span></li>
+  <li>A NBR 15575 fixa vida útil de projeto mínima de 25 anos para a estrutura de habitações.<span>Errado. 50 anos (confira). Pegadinha de número.</span></li>
+</ol>
+</details>
+<p class="leve">Leve para a prova: desforma pela resistência, não pelo calendário. Ferrugem e fissura ao longo da barra é corrosão; fissura de primeiras horas é retração plástica. NBR 15575 é desempenho; CUB é estimativa e não inclui fundação especial, elevador nem BDI.</p>
+
+<h2 id="pavimento">25. Rodovias: o pavimento, as camadas e o dimensionamento</h2>
+<p class="chance">Chance de cair · Projeto de pavimentos: objetiva 54% · caso 49%. Reforço, sub-base e base: 54% · 34%. Manual IPR-719: 52% · 33%. Ensaios de solo e agregados: 36 a 40%.</p>
+<p>A prefeitura vai pavimentar a estrada vicinal. Pense no pavimento como um <b>sanduíche de camadas</b> que vai espalhando a carga do pneu, de modo que o solo lá embaixo receba uma pressão que ele aguenta. De cima para baixo: <b>revestimento</b>, <b>base</b>, <b>sub-base</b>, <b>reforço do subleito</b> (se necessário) e <b>regularização</b>, tudo sobre o <b>subleito</b>, que é o terreno de fundação. O revestimento recebe o tráfego e impermeabiliza; a base resiste e distribui os esforços; a sub-base complementa a base; o reforço existe quando o subleito é fraco.</p>
+<p>Há três tipos de pavimento. <b>Flexível</b>: as camadas deformam e dividem a carga entre si (revestimento asfáltico sobre bases granulares). <b>Rígido</b>: uma placa de concreto de cimento muito rígida absorve praticamente toda a tensão. <b>Semirrígido</b>: revestimento asfáltico sobre base cimentada (solo-cimento, brita graduada tratada com cimento).</p>
+<p>A régua do solo rodoviário é o <b>CBR</b> (índice de suporte Califórnia): ele compara a resistência à penetração do solo compactado com a de uma brita padrão, em corpos de prova <b>imersos por 4 dias</b>, e no mesmo ensaio mede a <b>expansão</b>. Quanto maior o CBR, melhor o material. As exigências crescem de baixo para cima, porque as camadas de cima recebem tensões maiores <span class="confere">valores usuais do Manual de Pavimentação IPR-719, confira</span>:</p>
+<div class="conta">camada          CBR mínimo              expansão máxima
+subleito        ≥ 2%                    ≤ 2%
+reforço         > CBR do subleito       ≤ 1% (usual)
+sub-base        ≥ 20%                   ≤ 1%
+base            ≥ 80% (≥ 60% se N ≤ 5×10⁶)   ≤ 0,5%
+regra: quanto mais alto, mais CBR e menos expansão</div>
+<p>O tráfego entra no projeto pelo número <b>N</b>: o número de passagens equivalentes do <b>eixo padrão de 8,2 tf</b> (80 kN) durante o período de projeto. Caminhões diferentes são convertidos em "eixos padrão" por fatores de equivalência. No método do DNER/DNIT pelo CBR, a lógica é: <b>quanto maior o N, maior a espessura</b>; <b>quanto maior o CBR do subleito, menor a espessura</b>. E o revestimento mínimo cresce com o N: tratamento superficial para tráfego muito leve, até concreto asfáltico de 12,5 cm para tráfego muito pesado <span class="confere">confira a tabela do manual</span>. O método mais novo, o <b>MeDiNa</b>, é mecanístico-empírico: calcula tensões e deformações e prevê o dano por fadiga e por deformação permanente <span class="confere">confira</span>.</p>
+<p>Os ensaios que caem, cada um com sua pergunta. No <b>solo</b>: granulometria; <b>limites de Atterberg</b>, com o índice de plasticidade <b>IP = LL − LP</b> (exemplo: LL = 45% e LP = 28% dão IP = 17%); <b>Proctor</b> (compactação), que dá a <b>umidade ótima</b> e a <b>massa específica seca máxima</b>; e o CBR. Na classificação <b>HRB/AASHTO</b>, solos com até <b>35% passando na peneira nº 200</b> são granulares (A-1 a A-3); acima disso, siltoso-argilosos (A-4 a A-7); e o índice de grupo vai de 0 (melhor) a 20 (pior). Nos <b>agregados</b>: abrasão <b>Los Angeles</b> (desgaste do graúdo), <b>equivalente de areia</b> (finos plásticos no miúdo), índice de forma e adesividade ao ligante. Nos <b>ligantes asfálticos</b>: penetração (que classifica o CAP), ponto de amolecimento, viscosidade, ductilidade e <b>ponto de fulgor</b> (segurança no aquecimento). E na geotecnia, a <b>sondagem SPT</b>: o N<sub>SPT</sub> é o número de golpes para cravar os <b>30 cm finais</b> de um total de 45 cm do amostrador <span class="confere">confira</span>.</p>
+<p>Olhar do auditor: base com CBR abaixo do exigido sem ensaio no relatório, espessura executada menor que a de projeto e revestimento dimensionado para um N menor que o tráfego real (o pavimento falha cedo) são achados. Evidências: ensaios de CBR e Proctor, extração de corpos de prova e controle de espessura.</p>
+
+<details><summary>Pare e confira</summary>
+<ol>
+  <li>A base exige CBR mínimo de 20% e a sub-base de 80%.<span>Errado. É o contrário: base ≥ 80%, sub-base ≥ 20%. Pegadinha de troca de camada.</span></li>
+  <li>Quanto maior o CBR do subleito, maior a espessura total do pavimento.<span>Errado. Subleito melhor, pavimento mais fino. Pegadinha de sentido invertido.</span></li>
+  <li>IP = LP − LL.<span>Errado. IP = LL − LP. Pegadinha de fórmula invertida.</span></li>
+  <li>Na classificação HRB, índice de grupo 20 indica excelente subleito.<span>Errado. 0 é o melhor, 20 o pior.</span></li>
+  <li>N<sub>SPT</sub> é o número de golpes para os 30 cm iniciais.<span>Errado. Os 30 cm finais (os 15 iniciais são de assentamento).</span></li>
+</ol>
+</details>
+<p class="leve">Leve para a prova: revestimento, base, sub-base, reforço, subleito; quanto mais alto, mais CBR e menos expansão (base 80, sub-base 20, subleito 2). Eixo padrão 8,2 tf; mais N, mais espessura; mais CBR no subleito, menos espessura. IP = LL − LP.</p>
+
+<h2 id="rodovias">26. Rodovias: terraplenagem, drenagem, revestimento, controle e SICRO</h2>
+<p class="chance">Chance de cair · Controle de execução: objetiva 81% · caso 72% (o mais provável do bloco rodoviário). Especificações de serviço: 77% · 55%. Drenagem: 72% · 54%. SICRO: 72% · 50%. Terraplenagem: 51% · 50%. Obras de arte especiais: 21% · 12%.</p>
+<p><b>Terraplenagem</b> é mover terra. <b>Corte</b> é escavar o terreno natural; <b>aterro</b> é construir com material de corte ou de <b>empréstimo</b> (material trazido de fora da plataforma quando falta); <b>bota-fora</b> é onde vai o material que sobra ou não serve. A terra escavada ocupa mais volume que no terreno (<b>empolamento</b>), e o aterro compactado ocupa menos; por isso volumes de corte e aterro não se comparam diretamente, e o projeto usa um fator de homogeneização. A <b>compensação</b> entre cortes e aterros reduz empréstimo e bota-fora, e a <b>distância média de transporte</b> pesa no custo. Exemplo: 1.000 m³ medidos no corte, com empolamento de 25%, viram 1.250 m³ na caçamba; pagar pelos 1.250 m³ "soltos" quando a especificação mede no corte é sobrepreço <span class="confere">confira o critério de medição</span>. A compactação é controlada pelo <b>grau de compactação</b> (massa específica seca de campo dividida pela máxima do Proctor) e pelo <b>desvio de umidade</b> em relação à ótima <span class="confere">confira os limites na especificação</span>.</p>
+<p><b>Drenagem</b> protege o pavimento da água, o maior inimigo dele. A <b>superficial</b> tira a água da chuva: sarjetas, valetas de proteção de corte e de aterro, meios-fios, descidas d'água. A <b>transposição de talvegues</b> deixa a água dos córregos passar sob a estrada: bueiros tubulares ou celulares, dimensionados pela vazão. A <b>profunda</b> rebaixa o lençol freático e protege a estrutura: drenos longitudinais profundos, drenos horizontais, colchões e camadas drenantes. Pegadinha: atribuir ao dreno profundo a função de captar a chuva da pista.</p>
+<p>No <b>revestimento</b>, duas pinturas que a banca troca sempre. <b>Imprimação</b>: ligante aplicado sobre a <b>base granular</b> pronta, antes do revestimento, para dar coesão superficial, impermeabilizar e ajudar a aderência. <b>Pintura de ligação</b>: ligante (em geral emulsão de ruptura rápida) aplicado sobre <b>superfície betuminosa</b> ou coesa, antes de nova camada asfáltica, para colar as camadas. Âncora: <b>imprimação imprime na base; ligação liga asfalto com asfalto</b>. Os revestimentos se dividem em <b>por penetração</b> (tratamentos superficiais simples, duplo e triplo) e <b>por mistura</b> (concreto asfáltico usinado a quente, CBUQ), cujo teor de ligante é definido pela dosagem Marshall (estabilidade, fluência, volume de vazios e relação betume/vazios) <span class="confere">confira</span>. Equipamentos: motoniveladora conforma a plataforma; rolo <b>pé-de-carneiro</b> compacta <b>solo coesivo</b>; rolo liso vibratório compacta material granular; no asfalto, a vibroacabadora espalha, o rolo pneumático faz a rolagem intermediária e o rolo liso faz o acabamento final <span class="confere">confira</span>. Âncora: <b>pé-de-carneiro no barro, pneu e liso no asfalto</b>.</p>
+<p>O <b>controle de execução</b>, o tema mais provável do bloco, junta tudo isso. Há três controles: <b>geométrico</b> (cotas, larguras, espessuras, abaulamento), <b>tecnológico</b> (ensaios de laboratório e campo dos materiais) e de <b>compactação</b> (grau de compactação e umidade). No CBUQ, controla-se na usina a granulometria, o <b>teor de ligante</b> e a <b>temperatura</b>, e na pista a espessura e o grau de compactação, muitas vezes por <b>extração de corpos de prova</b>. Cada serviço tem sua <b>especificação</b> do DNIT, com materiais, equipamentos, execução, controle e <b>critérios de medição</b>. Na lei, valem as mesmas regras da parte 2: o fiscal registra (Lei 14.133, Art. 117), o contratado corrige às suas custas (Art. 119) e paga os ensaios (Art. 140, § 4º).</p>
+<p>No <b>SICRO</b>, guarde a lógica. O equipamento que limita a produção comanda a equipe. Na hora <b>produtiva</b> entram propriedade (depreciação e juros), manutenção, combustível e operador. Na hora <b>improdutiva</b> (máquina parada esperando), só propriedade e operador, <b>sem combustível nem manutenção</b>. Âncora: <b>máquina parada não bebe diesel</b>. O transporte é pago pela distância, separada por tipo de via <span class="confere">confira</span>. Pagar combustível em hora improdutiva é sobrepreço. E lembre: obra rodoviária com recursos da União vai de SICRO (Lei 14.133, Art. 23, § 2º, I; Decreto 7.983, Art. 4º).</p>
+<p><b>Obras de arte especiais</b> (pontes e viadutos) são o tema menos provável, mas a divisão é simples: <b>superestrutura</b> (tabuleiro e vigas), <b>mesoestrutura</b> (pilares e aparelhos de apoio), <b>infraestrutura</b> (fundações).</p>
+<p>Olhar do auditor rodoviário: espessura de revestimento medida na planilha maior que a extraída nos corpos de prova, teor de ligante abaixo do projeto (asfalto "magro" que vai durar menos), transporte pago por distância maior que a real, empréstimo pago quando havia corte compensável, e hora de máquina paga como produtiva quando estava parada. São os achados clássicos de obra rodoviária, e quase todos se provam com ensaio, diário e medição.</p>
+
+<details><summary>Pare e confira</summary>
+<ol>
+  <li>A pintura de ligação é aplicada sobre a base granular antes do revestimento.<span>Errado. Isso é a imprimação. Pintura de ligação é sobre superfície betuminosa. Pegadinha de troca.</span></li>
+  <li>O rolo pé-de-carneiro é indicado para compactar o revestimento asfáltico.<span>Errado. É para solos coesivos. Asfalto: rolo pneumático e liso. Pegadinha de equipamento trocado.</span></li>
+  <li>O custo horário improdutivo inclui combustível, porque a máquina fica ligada.<span>Errado. Improdutivo: propriedade e operador, sem combustível e manutenção. Pegadinha de intruso.</span></li>
+  <li>Drenos profundos captam a água da chuva que escoa na pista.<span>Errado. Rebaixam o lençol freático; a chuva da pista é drenagem superficial. Pegadinha de função trocada.</span></li>
+  <li>Aparelhos de apoio fazem parte da infraestrutura da ponte.<span>Errado. Na divisão usual, mesoestrutura (com os pilares); infraestrutura é a fundação (há autores que tratam o aparelho de apoio à parte; confira).</span></li>
+</ol>
+</details>
+<p class="leve">Leve para a prova: corte, aterro, empréstimo e bota-fora, com empolamento. Drenagem superficial tira a chuva; profunda, o lençol. Imprimação na base, ligação entre asfaltos. Controle geométrico, tecnológico e de compactação. Hora improdutiva não paga combustível.</p>
+
+<p class="parte">Parte 5 · Ibraop, CONFEA, BIM e a discursiva</p>
+
+<h2 id="ibraop">27. As Orientações Técnicas do Ibraop</h2>
+<p class="chance">Chance de cair · Ibraop OTs: dentro do bloco de obras e do Manual do TCESP (objetiva 78% · caso 56%); as OTs são a linguagem técnica comum dos tribunais de contas.</p>
+<p>O Ibraop (Instituto Brasileiro de Auditoria de Obras Públicas) publica <b>Orientações Técnicas</b>, as OT-IBR, que padronizam como os tribunais de contas entendem conceitos de obra. Não são lei, mas a banca de tribunal de contas as cobra como referência. Os trechos abaixo foram conferidos no texto das OTs do seu material.</p>
+<p><b>OT-IBR 001/2006, Projeto Básico.</b> O projeto básico deve estabelecer com precisão características, dimensões, especificações, quantidades, custos e tempo, "de forma a evitar alterações e adequações durante a elaboração do projeto executivo e realização das obras". E todos os seus elementos devem ser feitos por profissional habilitado, com <b>ART</b>, identificação do autor e assinatura em cada peça. Ponte com a seção 2: é aqui que a "precisão adequada" da lei ganha conteúdo.</p>
+<p><b>OT-IBR 002/2009, Obra e Serviço de Engenharia.</b> Diz como enquadrar o objeto. A primeira pergunta é se a atividade exige conhecimento técnico de profissional habilitado (Lei 5.194/1966); se não exige, não é obra nem serviço de engenharia. E o enquadramento depende do <b>objeto e da ação</b> (construir, reformar, ampliar, fabricar, recuperar), sendo <b>independente de quantidade, porte ou custo</b>. Pegadinha: "a obra de pequeno valor pode ser tratada como serviço comum". O porte não muda a natureza. A OT traz exemplos: pintar uma ou outra sala de aula não é serviço de engenharia; pintar a fachada de um prédio de 10 andares exige profissional habilitado, pela segurança envolvida, e é <b>serviço</b> de engenharia, não obra.</p>
+<p><b>OT-IBR 003/2011, Garantia Quinquenal.</b> Durante os cinco anos, o executor tem responsabilidade objetiva e só se livra provando uma de <b>quatro excludentes</b>: <b>caso fortuito, força maior, culpa exclusiva de terceiros ou inexistência do defeito</b>. A responsabilidade alcança também os <b>projetistas</b>, ainda que o projeto tenha sido aprovado pela Administração. A OT manda a Administração fazer avaliações periódicas da obra depois do recebimento, <b>preferencialmente a cada 12 meses</b>, e, achando defeito, instaurar processo começando pela <b>notificação</b> do responsável. E mesmo <b>depois dos cinco anos</b>, a Administração pode notificar, se a obra estiver dentro da vida útil, mas aí <b>o ônus da prova passa a ser dela</b>.</p>
+<p><b>OT-IBR 004/2012, Precisão do Orçamento.</b> Quanto mais avançado o projeto, mais preciso o orçamento:</p>
+<div class="conta">fase do projeto        tipo de orçamento          precisão esperada
+estudos preliminares   estimativa de custo        ± 30% (edificações)
+anteprojeto            orçamento preliminar       ± 20%
+projeto básico         detalhado (orçamento base) ± 10%
+projeto executivo      detalhado definitivo       ± 5%
+âncora: 30, 20, 10, 5, cada fase corta a incerteza</div>
+<p>E duas regras finas que caem: a faixa de precisão <b>não se confunde com o limite de aditivos</b> e não justifica erro de projeto nem pedido de aditivo; e a faixa <b>não pode ser incluída no BDI</b> como risco do construtor.</p>
+<p><b>OT-IBR 005/2012, Sobrepreço e Superfaturamento.</b> Ensina a medir o dano. O superfaturamento por quantidade é a diferença entre o medido e o executado vezes o preço pago:</p>
+<div class="conta">SF = (QM − QE) × PM
+QM = quantidade medida ou paga; QE = quantidade efetivamente executada (na OT, QP); PM = preço pago
+Escola: 120 m³ medidos, 90 m³ executados, R$ 600/m³ → (120 − 90) × 600 = R$ 18.000</div>
+<p>A OT fixa ainda quatro regras:</p>
+<div class="conta">antes do contrato, em preço unitário → limitação dos preços unitários, sem compensar itens
+preço global ou após o contrato      → limitação do preço global (itens 5.6.1 e 5.6.2)
+pagamento antecipado   dano calculado pela Selic no período
+reajuste antes de 12 meses da proposta ou do orçamento → dano
+preço de comparação    fontes oficiais → privadas → alternativas</div>
+<p>As demais OTs do seu material completam o quadro <span class="confere">confira números e anos</span>: a <b>006/2016</b> trata do anteprojeto (base da contratação integrada), a <b>007/2018</b> do projeto de limpeza urbana e resíduos sólidos, a <b>008/2020</b> do projeto executivo e a <b>009/2024</b> do reequilíbrio econômico-financeiro, que só cabe com prova de fato imprevisível ou de consequências incalculáveis que cause variação <b>extraordinária</b> de custos. Variação inflacionária ou cambial corriqueira <b>não</b> justifica reequilíbrio, e o pedido passa primeiro por admissibilidade e só depois pela análise de valores.</p>
+
+<details><summary>Pare e confira</summary>
+<ol>
+  <li>Uma obra de pequeno valor pode ser enquadrada como serviço comum, por causa do porte.<span>Errado. O enquadramento independe de quantidade, porte ou custo (OT-IBR 002). Pegadinha de critério errado.</span></li>
+  <li>Na garantia quinquenal, o executor se exime provando que agiu sem culpa.<span>Errado. Responsabilidade objetiva; só as quatro excludentes: caso fortuito, força maior, culpa exclusiva de terceiro, inexistência do defeito (OT-IBR 003).</span></li>
+  <li>A precisão de ±10% do orçamento base autoriza aditivos até esse percentual.<span>Errado. Precisão não se confunde com limite de aditivo nem justifica erro de projeto (OT-IBR 004).</span></li>
+  <li>Orçamento feito sobre o anteprojeto tem precisão esperada de ± 10%.<span>Errado. ± 20%. ± 10% é o do projeto básico. Pegadinha de número vizinho.</span></li>
+  <li>Medidos 800 m², executados 650 m², preço R$ 40/m². Qual o superfaturamento?<span>(800 − 650) × 40 = R$ 6.000.</span></li>
+</ol>
+</details>
+<p class="leve">Leve para a prova: OT 001 projeto básico com ART; 002 enquadra pelo objeto, não pelo porte; 003 cinco anos, quatro excludentes, avaliação anual; 004 precisão 30, 20, 10, 5, que não é margem de aditivo nem BDI; 005 SF = (medido − executado) × preço.</p>
+
+<h2 id="confea">28. CONFEA, ART e responsabilidade técnica</h2>
+<p class="chance">Chance de cair · Resoluções CONFEA 218/1973 e 1.137/2023: dentro de obras; caem de forma pontual.</p>
+<p>Todo projeto, toda execução e toda fiscalização de obra têm um responsável técnico. A prova disso é a <b>ART</b>, Anotação de Responsabilidade Técnica, registrada no CREA. Ela é exigida desde a Lei 6.496/1977 e hoje é regulamentada pela <b>Resolução CONFEA 1.137/2023</b>, que substituiu a antiga Resolução 1.025/2009 <span class="confere">confira</span>. A ART define <b>quem responde</b> por cada atividade técnica. Exemplo: se o projeto elétrico da escola foi assinado sem ART, ou por profissional fora das suas atribuições, o achado tem critério na Lei 6.496/1977 e na Res. CONFEA 218/1973, e o efeito é não conseguir responsabilizar ninguém pela falha. Para o auditor, ela é evidência: projeto sem ART é projeto sem responsável identificado, e o Art. 124, § 1º da Lei 14.133 manda apurar a responsabilidade do autor do projeto quando a alteração vem de falha de projeto.</p>
+<p>A <b>Resolução CONFEA 218/1973</b> discrimina as atividades profissionais (de supervisão, estudo, projeto, direção e execução de obra, fiscalização, vistoria, perícia, ensaios, orçamento, entre outras) e diz <b>quais competem a cada modalidade</b> de engenharia; as atribuições também são tratadas na Res. CONFEA 1.073/2016 <span class="confere">confira</span>. A ideia cobrada é a de <b>atribuição</b>: o profissional só pode assinar o que está nas atribuições do seu título.</p>
+<p>Ponte com a qualificação técnica (seção 10): os atestados de capacidade técnico-profissional são vinculados a profissionais com ART, e a lei não aceita atestados de profissionais que tenham dado causa a sanções graves por ato técnico (Lei 14.133, Art. 67, § 12).</p>
+
+<details><summary>Pare e confira</summary>
+<ol>
+  <li>A ART é hoje regulamentada pela Resolução CONFEA 1.025/2009.<span>Errado. A 1.025 foi substituída pela 1.137/2023; a ART foi criada pela Lei 6.496/1977. Pegadinha de norma revogada.</span></li>
+  <li>Mini-caso: o projeto básico da escola não tem ART, e o aditivo de fundação decorreu de falha de projeto. Achado?<span>Sim. Sem ART não há responsável identificado (OT-IBR 001), e a lei manda apurar a responsabilidade do responsável técnico (Art. 124, § 1º). O projeto ter sido aprovado não isenta o autor (OT-IBR 003). Pegadinha de "aprovado, isento".</span></li>
+  <li>Qualquer engenheiro pode assinar qualquer atividade técnica, independentemente da modalidade.<span>Errado. As atividades são atribuídas por modalidade (Res. CONFEA 218/1973). Pegadinha de absoluto.</span></li>
+</ol>
+</details>
+<p class="leve">Leve para a prova: ART diz quem responde. 218/1973 diz o que cada modalidade pode fazer. 1.137/2023 é a resolução atual da ART.</p>
+
+<h2 id="bim">29. BIM</h2>
+<p class="chance">Chance de cair · BIM: objetiva 37% · caso 29% (o menor do bloco de obras).</p>
+<p>BIM (<i>Building Information Modelling</i>) é a modelagem da informação da construção: em vez de desenhos soltos, um <b>modelo digital</b> em que cada elemento (pilar, viga, tubulação) carrega informações (material, quantidade, custo, prazo). Isso permite compatibilizar projetos (achar a tubulação que atravessa a viga antes da obra), extrair quantitativos direto do modelo e planejar a obra. A lei manda: nas licitações de obras e serviços de engenharia e arquitetura, <b>sempre que adequada</b> ao objeto, será <b>preferencialmente</b> adotada a BIM ou tecnologia similar ou mais avançada (Lei 14.133, Art. 19, § 3º). Repare nos dois freios: "sempre que adequada" e "preferencialmente". Pegadinha: "a BIM é obrigatória em toda licitação de obra". Errado. No plano federal, há a Estratégia BIM BR e decretos de implantação gradual <span class="confere">confira</span>.</p>
+<p>Olhar do auditor: na escola, um modelo BIM compatibilizado teria mostrado a tubulação atravessando a viga antes de virar aditivo. Edital de obra complexa sem BIM e sem justificativa merece registro, mas não é ilegal por si só: a lei diz "preferencialmente".</p>
+<details><summary>Pare e confira</summary>
+<ol>
+  <li>A Lei 14.133 torna a BIM obrigatória em toda licitação de obra.<span>Errado. Preferencial, sempre que adequada ao objeto (Art. 19, § 3º). Pegadinha de absoluto.</span></li>
+  <li>A lei veda tecnologias posteriores à BIM.<span>Errado. Admite tecnologias "similares ou mais avançadas que venham a substituí-la". Pegadinha de restrição inventada.</span></li>
+  <li>Que uso da BIM evita aditivo por interferência entre tubulação e viga?<span>A compatibilização de projetos. Ponte com o projeto básico deficiente (seção 2) e o Art. 124, § 1º.</span></li>
+</ol>
+</details>
+<p class="leve">Leve para a prova: BIM é preferencial, quando adequada (Art. 19, § 3º), não obrigatória em toda obra. Serve para compatibilizar, quantificar e planejar.</p>
+
+<h2 id="discursiva">30. A discursiva: como transformar tudo isso em resposta</h2>
+<p class="chance">Chance de cair · A tarde vale dois estudos de caso de 20 pontos cada. Os temas mais prováveis, pelo Jev: fiscalização e medições (71%), análise de propostas (69%), alteração de contratos (69%), documentação técnica (69%), acompanhamento da execução (66%) e regimes (65%); em rodovia, controle de execução (72%).</p>
+<p>Chegou a hora de juntar tudo. O estudo de caso descreve uma obra com problemas e pede que você, como auditor, identifique as irregularidades, diga o que a norma exige e proponha encaminhamentos. A ferramenta para isso é a <b>matriz de achados</b>, que você já vem usando desde a seção 1 sem perceber. Cada achado tem seis partes:</p>
+<div class="conta">1. Situação encontrada   o que é (o fato, com números)
+2. Critério              o que deveria ser (lei, norma, contrato)
+3. Evidência             como você sabe (documento, ensaio, medição, foto)
+4. Causa                 por que aconteceu (falha de projeto, de fiscalização...)
+5. Efeito                o que isso gera (dano, risco, atraso)
+6. Encaminhamento        o que propor (determinação, ressarcimento, apuração)</div>
+<p>Uma dica de escrita que vale ponto: <b>um parágrafo por achado</b>, sempre na mesma ordem. O critério com o artigo citado e o encaminhamento concreto são o que o corretor procura primeiro. Use números do enunciado, cite o dispositivo e não invente acórdão: a lei e a norma bastam.</p>
+<p>Vamos fazer um caso completo com a nossa escola, que reúne o que você estudou.</p>
+<p><b>Enunciado (modelo).</b> O Município de Vila Nova contratou a construção de uma escola por empreitada por preço global, valor de R$ 8,2 milhões, com orçamento-base de R$ 10 milhões elaborado com SINAPI (há recursos de convênio federal). A auditoria verificou: (a) a proposta vencedora tinha o item "escavação" 60% acima do SINAPI e o item "pintura" 50% abaixo; (b) dois aditivos acrescentaram R$ 2,5 milhões (escavação e quadra) e suprimiram R$ 0,6 milhão (pintura e paisagismo); (c) no 4º boletim, foram medidos 120 m³ de concreto a R$ 600/m³, mas as notas fiscais somam 90 m³; (d) o BDI da proposta inclui CSLL e administração local; (e) não há termo de recebimento provisório, e a escola já está em uso.</p>
+<p><b>Resposta modelo, em parágrafos.</b></p>
+<p><b>Achado 1, jogo de planilha.</b> <b>Situação:</b> a proposta vencedora tinha a escavação 60% acima do SINAPI e a pintura 50% abaixo, e os aditivos aumentaram a escavação e suprimiram a pintura. <b>Critério:</b> em obras, exequibilidade e sobrepreço consideram o preço global, os quantitativos e os preços unitários relevantes, com critério de aceitabilidade unitário e global (Lei 14.133, Art. 59, § 3º), e a diferença percentual entre o contrato e a referência não pode ser reduzida em favor do contratado por aditamentos (Art. 128). <b>Evidência:</b> proposta, orçamento-base e termos aditivos. <b>Causa:</b> edital sem critério de aceitabilidade de preços unitários e projeto básico com quantitativos imprecisos. <b>Efeito:</b> perda do desconto original e risco de sobrepreço. <b>Encaminhamento:</b> recalcular os aditivos para preservar o desconto original e apurar o valor pago a maior, com determinação de ressarcimento. Atenção à nuance: em preço global, o sobrepreço se mede pelo valor global (Art. 6º, LVI) e a medição é por etapa (Art. 46, § 9º); mesmo assim, o jogo de planilha aparece nos aditivos, que usam os preços unitários da proposta.</p>
+<p><b>Achado 2, aditivos acima do limite.</b> <b>Situação:</b> os acréscimos somaram R$ 2,5 milhões, 30,5% do valor contratual, e as supressões, R$ 0,6 milhão. <b>Critério:</b> o limite para acréscimos e supressões é de 25% do valor inicial atualizado, e a obra não é reforma (Art. 125); acréscimos e supressões são calculados separadamente, sem compensação. O limite é 25% × 8,2 = R$ 2,05 milhões; o excesso é 2,5 − 2,05 = R$ 0,45 milhão. <b>Evidência:</b> termos aditivos e planilhas. <b>Causa:</b> falhas do projeto básico. <b>Efeito:</b> contrato além do limite legal e risco de dano. <b>Encaminhamento:</b> determinar que não se executem acréscimos além do limite, rever o excesso de R$ 0,45 milhão e apurar a responsabilidade do autor do projeto pelas alterações decorrentes de falha de projeto (Art. 124, § 1º).</p>
+<p><b>Achado 3, superfaturamento por quantidade.</b> <b>Situação:</b> foram medidos e pagos 120 m³ de concreto a R$ 600/m³, mas as notas fiscais comprovam 90 m³. <b>Critério:</b> superfaturamento é dano caracterizado, entre outros, pela medição de quantidades superiores às executadas (Art. 6º, LVII, a). <b>Evidência:</b> boletim de medição, notas fiscais, diário de obra e mapas de concretagem. <b>Causa:</b> medição sem conferência em campo pelo fiscal (Art. 117). <b>Efeito:</b> dano de (120 − 90) × 600 = R$ 18.000 (OT-IBR 005). <b>Encaminhamento:</b> glosa ou ressarcimento do valor e apuração da responsabilidade do fiscal.</p>
+<p><b>Achado 4, BDI irregular.</b> <b>Situação:</b> o BDI da proposta inclui CSLL e administração local. <b>Critério:</b> IRPJ e CSLL não podem compor o BDI (Súmula TCU 254), e a administração local deve constar como custo direto na planilha. <b>Evidência:</b> composição do BDI da proposta. <b>Causa:</b> análise da proposta sem conferir a composição do BDI. <b>Efeito:</b> sobrepreço em todos os itens, porque o BDI multiplica cada um. <b>Encaminhamento:</b> recalcular o BDI e glosar a diferença paga.</p>
+<p><b>Achado 5, ausência de recebimento.</b> <b>Situação:</b> a escola está em uso sem termo de recebimento provisório ou definitivo. <b>Critério:</b> obras são recebidas provisoriamente pelo responsável pela fiscalização e definitivamente por servidor ou comissão, por termo detalhado (Art. 140, I). <b>Evidência:</b> processo sem os termos e registro fotográfico da escola em uso. <b>Causa:</b> falta de designação da comissão de recebimento. <b>Efeito:</b> dificuldade de cobrar vícios e de contar a garantia de no mínimo 5 anos (Art. 140, § 6º). <b>Encaminhamento:</b> lavrar os termos com vistoria detalhada e notificar o contratado sobre vícios encontrados.</p>
+<p>Repare que cada parágrafo usou duas ou três seções deste texto. É isso que a banca quer ver: não decoreba solta, mas a lei aplicada a fatos, com número, artigo e proposta.</p>
+
+<details><summary>Pare e confira</summary>
+<ol>
+  <li>Quais são as seis partes de um achado?<span>Situação, critério, evidência, causa, efeito e encaminhamento.</span></li>
+  <li>Em um caso de rodovia, a espessura de CBUQ medida é 5 cm, mas os corpos de prova extraídos mostram 4 cm. Monte critério e efeito.<span>Critério: especificação do serviço e medição do executado (Art. 6º, LVII, a e b, quantidade e qualidade). Efeito: superfaturamento e redução da vida útil do pavimento. Encaminhamento: glosa e correção às custas do contratado (Art. 119).</span></li>
+  <li>Na discursiva, citar um acórdão de memória, sem certeza do número, ajuda?<span>Não. Arrisca a nota. A lei, a norma e a OT bastam.</span></li>
+</ol>
+</details>
+<p class="leve">Leve para a prova: na tarde, um parágrafo por achado: situação, critério com artigo, evidência, causa, efeito e encaminhamento. Use os números do enunciado e não invente jurisprudência.</p>
+
+<h2 id="revisao">Revisão final: os números que mais caem</h2>
+<div class="conta">LEI 14.133
+grande vulto > R$ 200 mi (texto da lei; atualizado todo ano)
+proposta &lt; 75% inexequível · &lt; 85% garantia adicional = diferença
+atestado: parcela ≥ 4% · quantidade ≤ 50% · sem limite de tempo/local
+aditivo 25% (acréscimo e supressão) · 50% só acréscimo em reforma · sem compensar
+aditivo urgente formalizado em até 1 mês
+garantia 5% · até 10% justificado · até 30% grande vulto c/ retomada
+multa 0,5% a 30% · impedimento ≤ 3 anos (ente) · inidoneidade 3 a 6 anos (todos)
+recebimento: provisório = fiscal · definitivo = servidor/comissão · garantia ≥ 5 anos
+
+ORÇAMENTO
+SICRO transporte · SINAPI o resto · ≤ mediana
+BDI = [(1+AC+S+R+G)(1+DF)(1+L)/(1−I)] − 1 · sem IRPJ/CSLL · adm. local fora
+curva ABC: A ≈ 80% do valor em ≈ 20% dos itens
+precisão: 30 / 20 / 10 / 5%
+
+AMBIENTAL E SANEAMENTO
+análise 6 meses (12 c/ EIA) · LP ≤ 5 · LI ≤ 6 · LO 4 a 10 · renovar 120 dias antes
+RCC: A agregado · B recicla (gesso, madeira) · C complicado · D danoso (amianto)
+99% água · 90% esgoto · até 31/12/2033 · plano revisto ≤ 10 anos
+
+DISCURSIVA
+ACHADO: situação · critério (artigo) · evidência · causa · efeito (R$) · encaminhamento
+
+CONCRETO E RODOVIA
+a/c 0,65 / 0,60 / 0,55 / 0,45 (CAA I a IV) · fcj = fck + 1,65 sd (A 4,0 até C80 / B 5,5 até C25 / C 7,0 só C10-C15)
+cura até 15 MPa · 28 dias = idade de ensaio
+base CBR ≥ 80 · sub-base ≥ 20 · subleito ≥ 2 · eixo padrão 8,2 tf · IP = LL − LP</div>
+<p>Se você chegou até aqui, você percorreu a vida inteira de uma obra pública, da necessidade à garantia, com os olhos de quem vai fiscalizá-la. Na véspera, não leia tudo de novo: leia só os blocos <b>Leve para a prova</b> e esta revisão, e refaça os <b>Pare e confira</b> que você errou. Boa prova.</p>
+
+<footer>
+<p>Texto completo: partes 1 a 5. Revisado por dois analistas (didática e retenção/exatidão), com citações de lei conferidas no texto das leis.</p>
+</footer>
+</main>
+</body>
+</html>

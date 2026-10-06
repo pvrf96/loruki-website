@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Estudo · Pegadinhas da Lei 12.305</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #0A0E17; color: #F8FAFC; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; min-height: 100vh; padding: 24px 16px; }
+  main { max-width: 900px; margin: 0 auto; }
+  h1 { font-size: 24px; margin-bottom: 8px; }
+  p.desc { color: #94A3B8; font-size: 14px; margin-bottom: 12px; line-height: 1.5; }
+  .menu { background: #0F172A; border: 1px solid #1E293B; border-radius: 10px; padding: 10px 12px; margin-bottom: 18px; display: flex; flex-wrap: wrap; gap: 8px; }
+  .menu a { background: #10264A; border: 1px solid #2563EB; color: #BFDBFE; padding: 7px 12px; border-radius: 8px; font-size: 13px; font-family: ui-monospace, Consolas, monospace; text-decoration: none; }
+  .menu a.on { background: #DC2626; border-color: #DC2626; color: #fff; font-weight: 800; }
+  .crit { background: #1C1017; border: 1px solid #7F1D1D; border-radius: 10px; padding: 10px 14px; margin-bottom: 14px; font-size: 13.5px; color: #FECACA; line-height: 1.55; }
+  .crit b { color: #FCA5A5; }
+  .linha { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 8px; }
+  .f { background: #111C33; color: #E2E8F0; border: 1px solid #334155; padding: 6px 10px; border-radius: 8px; font-size: 12.5px; cursor: pointer; font-weight: 600; }
+  .f.on { background: #DC2626; border-color: #DC2626; color: #fff; }
+  .f.op.on { background: #7C3AED; border-color: #7C3AED; }
+  .ctrl { display: flex; gap: 16px; flex-wrap: wrap; font-size: 13px; color: #CBD5E1; margin: 6px 0 10px; }
+  .ctrl label { display: inline-flex; gap: 6px; align-items: center; cursor: pointer; }
+  select { background: #111C33; color: #F8FAFC; border: 1px solid #334155; border-radius: 6px; padding: 4px 8px; font-size: 13px; }
+  #status { font-size: 13px; color: #9ca3af; margin: 6px 0 12px; }
+  .item { background: #111C33; border: 1px solid #1E293B; border-left: 4px solid #DC2626; border-radius: 8px; padding: 14px 16px; margin-bottom: 10px; display: grid; grid-template-columns: 30px 1fr; gap: 12px; }
+  .pos { font-family: ui-monospace, Consolas, monospace; font-size: 18px; font-weight: 800; color: #FCA5A5; }
+  .topo { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; align-items: center; }
+  .b { font-size: 11px; font-weight: 700; padding: 2px 8px; border-radius: 999px; }
+  .b.tema { background: #0B2530; color: #67E8F9; } .b.op { background: #22124A; color: #DDD6FE; }
+  .b.eng { background: #3B0D0D; color: #FCA5A5; } .b.cai { background: #10264A; color: #93C5FD; }
+  .afirm { font-size: 15px; line-height: 1.55; color: #F8FAFC; }
+  .afirm::before { content: "PARECE CERTO · "; font-size: 11px; font-weight: 800; color: #F87171; letter-spacing: .04em; }
+  .resp { margin-top: 10px; display: grid; gap: 6px; }
+  .resp p { font-size: 13.5px; line-height: 1.55; color: #E2E8F0; }
+  .resp .ok { background: #052E16; border: 1px solid #166534; border-radius: 6px; padding: 7px 10px; color: #BBF7D0; }
+  .resp .ok::before { content: "A NORMA DIZ · "; font-size: 11px; font-weight: 800; color: #4ADE80; }
+  .resp .lit { font-family: Georgia, serif; font-style: italic; color: #CBD5E1; border-left: 3px solid #475569; padding-left: 10px; }
+  .resp .por { color: #FDE68A; } .resp .por b { color: #FCD34D; }
+  .resp small { color: #94A3B8; font-size: 12px; }
+  .treino .resp { display: none; }
+  .treino .item.aberto .resp { display: grid; }
+  .treino .item { cursor: pointer; }
+  .dica-treino { display: none; font-size: 12px; color: #64748B; margin-top: 6px; }
+  .treino .item:not(.aberto) .dica-treino { display: block; }
+  .av2 { font-size: 11.5px; color: #94A3B8; margin-top: 6px; line-height: 1.5; }
+  .av2 .ok2 { color: #4ADE80; font-weight: 700; } .av2 .rv { color: #FCD34D; font-weight: 700; }
+  .conf { background: #0F172A; border: 1px solid #1E293B; border-radius: 10px; padding: 10px 12px; margin: 0 0 14px; font-size: 13px; line-height: 1.55; color: #CBD5E1; }
+  .conf b { color: #4ADE80; }
+</style>
+</head>
+<body>
+<main>
+  <nav id="menu"></nav>
+  <h1>Pegadinhas da Lei 12.305: o que parece certo e não está</h1>
+  <p class="desc">Política Nacional de Resíduos Sólidos. Cada afirmação abaixo é FALSA, mas foi escrita para parecer verdadeira. Cada uma nasce de um trecho literal da lei, que aparece junto com a resposta.</p>
+  <div class="crit"><b>Critério:</b> só entra afirmação que um candidato que estudou o assunto aceitaria como verdadeira. Nada de erro grosseiro. O erro está escondido num detalhe: uma palavra que some, um operador que vira (mínimo → máximo), um número trocado pelo vizinho que existe de verdade em outro ponto da lei, ou uma regra levada para o assunto errado (por exemplo, a competência do Estado atribuída ao Município). O Jev mediu, para cada uma, quanto engana quem estudou e a chance de a banca usar (perfil de prova: TCE-SP, auditor de engenharia, Vunesp).</div>
+  <div class="conf" id="conf"></div>
+  <div class="linha" id="temas"></div>
+  <div class="linha" id="ops"></div>
+  <div class="ctrl">
+    <label><input type="checkbox" id="treino"> Modo treino: esconder a resposta (clique no item para revelar)</label>
+    <label>ordenar por <select id="ord"><option value="ambos">mais perigosa (engana × cai)</option><option value="engana">quanto engana</option><option value="cai">chance de cair</option></select></label>
+  </div>
+  <div id="status">Carregando…</div>
+  <div id="lista"></div>
+</main>
+<script>
+const $ = (id) => document.getElementById(id);
+const OPS = { OP1: 'OP1 · troca de vizinho', OP2: 'OP2 · troca de escopo', OP3: 'OP3 · inversão de operador', OP4: 'OP4 · absoluto indevido' };
+let D = [], tema = 'Todas', op = 'Todos';
+function esc(t) { return String(t).replace(/[&<>"']/g, (m) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;' }[m])); }
+const pct = (v) => (v == null ? '—' : Math.round(v * 100) + '%');
+function filtros() {
+  const temas = ['Todas', ...new Set(D.map((p) => p.tema))];
+  $('temas').innerHTML = temas.map((t) => `<span class="f ${t === tema ? 'on' : ''}" data-t="${esc(t)}">${esc(t)} ${t === 'Todas' ? '' : '(' + D.filter((p) => p.tema === t).length + ')'}</span>`).join('');
+  $('ops').innerHTML = ['Todos', ...Object.keys(OPS)].map((o) => `<span class="f op ${o === op ? 'on' : ''}" data-o="${o}">${o === 'Todos' ? 'todos os operadores' : OPS[o]}</span>`).join('');
+}
+function render() {
+  filtros();
+  const ord = $('ord').value;
+  const k = (p) => ord === 'engana' ? p.engana || 0 : ord === 'cai' ? p.cai || 0 : (p.engana || 0) * (p.cai || 0);
+  const vis = D.filter((p) => (tema === 'Todas' || p.tema === tema) && (op === 'Todos' || p.operador === op)).sort((a, b) => k(b) - k(a));
+  $('status').textContent = `${vis.length} pegadinhas, da mais perigosa para a menos.`;
+  $('lista').innerHTML = vis.map((p, i) => `<div class="item">
+    <div class="pos">${i + 1}</div>
+    <div><div class="topo"><span class="b tema">${esc(p.tema)}</span><span class="b op">${OPS[p.operador]}</span>
+      <span class="b eng">engana ${pct(p.engana)}</span><span class="b cai">chance de cair ${pct(p.cai)}</span></div>
+      <div class="afirm">${esc(p.afirmacao)}</div>
+      <div class="dica-treino">Verdadeira ou falsa? Ache o detalhe e clique para conferir.</div>
+      <div class="resp">
+        <p class="ok">${esc(p.verdade)}</p>
+        <p class="lit">“${esc(p.trecho)}”</p>
+        <p class="por"><b>Por que engana:</b> ${esc(p.motivo)}</p>
+        ${p.vizinho ? `<p><small>De onde vem o valor falso: ${esc(p.vizinho)}</small></p>` : ''}
+        <p><small>Fonte: ${esc(p.fonte)}</small></p>
+        <p class="av2">Conferência do Jev: a afirmação falsa é sustentada pelo texto da lei em apenas <span class="ok2">${pct(p.falsa_sust)}</span>; a resposta certa é sustentada em <span class="${p.revisao ? 'rv' : 'ok2'}">${pct(p.verdade_conf)}</span>${p.revisao ? ' · revisado: ' + esc(p.revisao) : ''}.</p>
+      </div></div></div>`).join('');
+}
+document.addEventListener('click', (e) => {
+  const t = e.target.dataset.t, o = e.target.dataset.o;
+  if (t) { tema = t; render(); return; }
+  if (o) { op = o; render(); return; }
+  const it = e.target.closest('.item');
+  if (it && document.body.classList.contains('treino')) it.classList.toggle('aberto');
+});
+$('treino').addEventListener('change', (e) => document.body.classList.toggle('treino', e.target.checked));
+$('ord').addEventListener('change', render);
+fetch('/dados/pegadinhas-lei12305.json').then((r) => r.json()).then((d) => {
+  D = d.itens; const c = d.conferencia;
+  $('conf').innerHTML = `<b>Como o Jev conferiu.</b> ${c.itens} pegadinhas. Para cada uma, o Jev comparou com o texto dos artigos a afirmação falsa (a maior nota de "sustentada pelo texto" foi ${pct(c.falsa_max)}, ou seja, todas são mesmo falsas) e a resposta certa (a menor nota foi ${pct(c.verdade_min)}; ${c.revisadas} ficaram abaixo de 80% e foram revisadas à mão). Os números "engana" e "chance de cair" são estimativas do Jev (mediana ${pct(c.engana_med)} e ${pct(c.cai_med)}), não garantias. As afirmações falsas foram escritas por mim (Claude) a partir do texto literal; o trecho citado é extraído da lei por script. Os prazos do Art. 54 seguem o texto guardado no acervo, que não traz as marcas de alteração legislativa: confira no texto oficial se houve nova redação. O inciso XIX do Art. 19 aparece com duas redações nesse texto e por isso não foi usado.`;
+  render();
+}).catch((e) => { $('status').textContent = 'Erro: ' + e.message; });
+</script>
+<script src="/menu.js"></script>
+</body>
+</html>
