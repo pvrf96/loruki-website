@@ -113,7 +113,7 @@ function inicio() {
   ${E.tv[0] >= 10 && pct(E.tv[1], E.tv[0]) < 70 ? `<p class="aviso">Você erra muitas frases <b>verdadeiras</b>: está desconfiando de tudo. Nem toda frase é pegadinha. Leia até o fim.</p>` : ''}
   <div class="btns">
     <button class="pri" id="seguir">Continuar a trilha: etapa ${D.etapas.indexOf(proxima) + 1}<small>${esc(proxima.t)}</small></button>
-    <button id="sim">Simulado de 30 questões<small>sem feedback até o fim, como na prova, com mapa da sua certeza</small></button>
+    <button id="sim">Simulado no formato Vunesp<small>15 questões de múltipla escolha (5 alternativas), sem feedback até o fim, com mapa da sua certeza</small></button>
     <button id="cad" ${nCad ? '' : 'disabled'}>Caderno de erros (${nCad})<small>refaça só o que você errou, em outra redação quando houver</small></button>
   </div>
   ${motTop.length ? `<h2>Seu perfil de erro com certeza</h2><p class="sub">${motTop.map(([k, n]) => `${esc(k)}: <b>${n}</b>`).join(' · ')}</p>` : ''}
@@ -159,10 +159,10 @@ function passo() {
   pergunta(it);
 }
 function licao() {
-  const e = S.e;
+  const e = S.e; const erros = (S.reg || []).filter((r) => !r.acerto);
   $('#app').innerHTML = `<div class="topo"><a href="#" id="sair">← trilha</a><span>lição</span></div>
   <span class="fase">lição</span><h1 style="font-size:22px">Agora sim: o que você precisa levar</h1>
-  <p class="sub">Leia com calma. Repare no que você errou no pré-teste: a resposta está aqui.</p>
+  ${erros.length ? `<div class="licao" style="border-color:var(--err)"><h3>Você errou no pré-teste. Veja como é de verdade:</h3>${erros.map((r) => `<p>${esc(r.v.verdadeira ? r.q.t : (r.q.tv || r.q.t))}</p>`).join('')}</div>` : '<p class="sub">Você acertou todo o pré-teste. Leia mesmo assim: a prática vem com outras redações.</p>'}
   ${e.secs.map((s) => `<div class="licao"><h3>${esc(s.t)}</h3><p>${esc(s.leve)}</p><a href="${RESUMO}${s.id}" target="_blank" rel="noopener">ler a seção completa no resumo →</a></div>`).join('')}
   <div class="btns"><button class="pri" id="ir">Praticar</button></div>`;
   $('#sair').onclick = (ev) => { ev.preventDefault(); inicio(); };
@@ -209,7 +209,8 @@ function responde(disseV, certeza) {
   S.reg = S.reg || []; S.reg.push({ q, v, disseV, certeza, acerto });
   if (!acerto && certeza) S.altas.push(q);
   if (S.tipo === 'sim') { S.i++; return passo(); }
-  if (acerto && !v.verdadeira && q.a) return tocaPalavra(q, certeza);
+  if (acerto && !v.verdadeira && q.a && q.a.length < 0.6 * q.t.length) return tocaPalavra(q, certeza);
+  if (acerto && !v.verdadeira && q.a) return conserta(q, certeza, true);
   feedback(q, acerto, certeza, null);
 }
 
@@ -274,16 +275,40 @@ function fimEtapa() {
   $('#volta').onclick = inicio;
 }
 
-// ---------- simulado e caderno
+// ---------- simulado (múltipla escolha, como na Vunesp) e caderno
+function montaQuestao(etapaId) {
+  const pool = D.q.filter((q) => q.e === etapaId && !q.caso);
+  const verd = shuffle(pool.filter((q) => q.v).map((q) => ({ txt: q.t, ok: true, q })).concat(pool.filter((q) => !q.v && q.vok).map((q) => ({ txt: q.tv, ok: true, q }))));
+  const fals = shuffle(pool.filter((q) => !q.v).map((q) => ({ txt: q.t, ok: false, q })));
+  const inv = Math.random() < 0.3; // às vezes: assinale a INCORRETA
+  if (inv) { if (verd.length < 4 || !fals.length) return null; const certa = fals[0]; const outras = verd.filter((x) => x.q !== certa.q).slice(0, 4); if (outras.length < 4) return null; return { enun: 'Assinale a alternativa INCORRETA.', alts: shuffle([certa, ...outras]).map((x) => ({ ...x, marcar: x === certa })) }; }
+  if (!verd.length || fals.length < 4) return null; const certa = verd[0]; const outras = fals.filter((x) => x.q !== certa.q).slice(0, 4); if (outras.length < 4) return null;
+  return { enun: 'Assinale a alternativa correta.', alts: shuffle([certa, ...outras]).map((x) => ({ ...x, marcar: x === certa })) };
+}
 function simulado() {
-  const v = shuffle(D.q.filter((q) => q.v && !q.caso)).slice(0, 15), f = shuffle(D.q.filter((q) => !q.v && !q.caso)).slice(0, 15);
-  S = { tipo: 'sim', fila: shuffle(v.concat(f)).map((q) => ({ q, fase: 'simulado · sem feedback' })), i: 0, ok: 0, n: 0, altas: [] };
-  $('#app').innerHTML = `<div class="topo"><a href="#" id="sair">← início</a><span>simulado</span></div><h1 style="font-size:24px">Simulado de 30 questões</h1>
-  <p>Como na prova: <b>sem feedback</b> até o fim. Marque também a sua certeza. No final, você vê a nota, o mapa da sua certeza e a correção de cada questão.</p>
-  <p class="sub">Dica de prova: leia a frase inteira, procure o número, o sujeito e o absoluto ("sempre", "apenas", "em qualquer caso") antes de decidir.</p>
+  const lista = [];
+  for (let k = 0; k < 60 && lista.length < 15; k++) { const e = D.etapas[k % D.etapas.length]; const mq = montaQuestao(e.id); if (mq) { mq.e = e; lista.push(mq); } }
+  S = { tipo: 'mc', lista: shuffle(lista), i: 0, ok: 0, n: 0, reg: [] };
+  $('#app').innerHTML = `<div class="topo"><a href="#" id="sair">← início</a><span>simulado</span></div><h1 style="font-size:24px">Simulado no formato Vunesp</h1>
+  <p>${S.lista.length} questões de <b>múltipla escolha com 5 alternativas</b>, como na objetiva. Sem feedback até o fim. Em cada questão, escolha a alternativa e diga se tem certeza.</p>
+  <p class="sub">Atenção ao comando: às vezes é "assinale a correta", às vezes "assinale a INCORRETA". Ler o comando errado é a pegadinha mais barata da prova.</p>
   <div class="btns"><button class="pri" id="ir">Começar o simulado</button></div>`;
   $('#sair').onclick = (ev) => { ev.preventDefault(); inicio(); };
-  $('#ir').onclick = passo;
+  $('#ir').onclick = mc;
+}
+function mc() {
+  if (S.i >= S.lista.length) return fimSimulado();
+  const x = S.lista[S.i]; let esc_ = null;
+  $('#app').innerHTML = `<div class="topo"><a href="#" id="sair">← encerrar</a><span>${S.i + 1} de ${S.lista.length}</span></div>
+  <div class="barra"><i style="width:${Math.round(100 * S.i / S.lista.length)}%"></i></div>
+  <span class="fase">${esc(x.e.t)}</span>
+  <div class="card"><p class="frase" style="font-weight:700">${esc(x.enun)}</p>
+  <div class="opc">${x.alts.map((a, k) => `<button data-k="${k}"><b>${'ABCDE'[k]})</b> ${esc(a.txt)}</button>`).join('')}</div>
+  <div class="conf4" style="margin-top:14px"><button class="pri" id="cc" disabled>Confirmar · tenho certeza</button><button id="ca" disabled>Confirmar · acho</button></div></div>`;
+  $('#sair').onclick = (ev) => { ev.preventDefault(); fimSimulado(); };
+  document.querySelectorAll('.opc button').forEach((b) => b.onclick = () => { esc_ = +b.dataset.k; document.querySelectorAll('.opc button').forEach((y) => y.style.outline = ''); b.style.outline = '3px solid var(--marca)'; $('#cc').disabled = $('#ca').disabled = false; });
+  const conf = (certeza) => { const acerto = x.alts[esc_].marcar; S.n++; if (acerto) S.ok++; const k = certeza ? 'c' : 'a'; E.cal[k][0]++; if (acerto) E.cal[k][1]++; salva(); S.reg.push({ x, esc: esc_, certeza, acerto }); S.i++; mc(); window.scrollTo(0, 0); };
+  $('#cc').onclick = () => conf(true); $('#ca').onclick = () => conf(false);
 }
 function fimSimulado() {
   const r = S.reg || [], c = r.filter((x) => x.certeza), a = r.filter((x) => !x.certeza);
@@ -291,13 +316,14 @@ function fimSimulado() {
   $('#app').innerHTML = `<h1>Resultado do simulado</h1>
   <p style="font-size:22px"><b>${S.ok} de ${S.n}</b> (${pct(S.ok, S.n) ?? 0}%)</p>
   <h2>Mapa da sua certeza</h2>
-  <table><tr><th></th><th>respostas</th><th>acerto</th></tr>
+  <table><tr><th></th><th>questões</th><th>acerto</th></tr>
   <tr><td>"tenho certeza"</td><td>${c.length}</td><td class="${pct(oc(c), c.length) >= 90 ? 'bom' : 'mau'}">${c.length ? pct(oc(c), c.length) + '%' : '–'}</td></tr>
   <tr><td>"acho"</td><td>${a.length}</td><td>${a.length ? pct(oc(a), a.length) + '%' : '–'}</td></tr></table>
-  <p class="sub" style="margin-top:8px">Bem calibrado: perto de 100% no "certeza" e bem menos no "acho". Se o "certeza" ficou abaixo de 90%, você está confiante demais: é aí que a Vunesp te pega.</p>
+  <p class="sub" style="margin-top:8px">Bem calibrado: perto de 100% no "certeza" e menos no "acho". Abaixo de 90% no "certeza" significa confiança demais, e é aí que a Vunesp pega.</p>
   <h2>Correção</h2>
-  ${r.map((x, k) => `<details ${x.acerto ? '' : 'open'}><summary><span class="${x.acerto ? 'bom' : 'mau'}">${x.acerto ? '✓' : '✗'}</span> ${k + 1}. ${esc(x.v.texto.slice(0, 90))}${x.v.texto.length > 90 ? '…' : ''}${!x.acerto && x.certeza ? ' <b class="mau">(errou com certeza)</b>' : ''}</summary>
-    <p style="margin:8px 0 4px">Era <b>${x.v.verdadeira ? 'verdadeira' : 'falsa'}</b>. ${!x.v.verdadeira ? `Certa: <span class="certo">${esc(x.q.tv)}</span>` : ''}</p><p class="fonte">${esc(x.q.ex)} · ${esc(x.q.fo)}</p></details>`).join('')}
+  ${r.map((y, k) => `<details ${y.acerto ? '' : 'open'}><summary><span class="${y.acerto ? 'bom' : 'mau'}">${y.acerto ? '✓' : '✗'}</span> Questão ${k + 1} · ${esc(y.x.e.t)}${!y.acerto && y.certeza ? ' <b class="mau">(errou com certeza)</b>' : ''}</summary>
+    <p style="margin:8px 0 4px"><b>${esc(y.x.enun)}</b></p>
+    ${y.x.alts.map((al, j) => `<p style="font-size:15px;margin:0 0 8px">${al.marcar ? '<b class="bom">✓ gabarito</b> ' : ''}${j === y.esc && !al.marcar ? '<b class="mau">✗ sua resposta</b> ' : ''}<b>${'ABCDE'[j]})</b> ${esc(al.txt)}${!al.ok ? `<br><span class="fonte">Falsa. Certo: ${esc(al.q.tv)}</span>` : ''}</p>`).join('')}</details>`).join('')}
   <div class="btns" style="margin-top:16px"><button class="pri" id="volta">Voltar ao início</button></div>`;
   $('#volta').onclick = inicio;
 }
