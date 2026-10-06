@@ -1,7 +1,10 @@
 // Menu do site Base: só as páginas de estudo.
 (function () {
-  var LINKS = [['/estudar', 'Estudar hoje'], ['/lei12305', 'Lei 12305 de resíduos sólidos'], ['/lei14133', 'Lei 14133 licitações e contratos'],
-               ['/pegadinhas-lei14133', 'Pegadinhas Lei 14133'], ['/pegadinhas-lei12305', 'Pegadinhas Lei 12305'], ['/', 'início']];
+  var GRUPOS = [
+    ['Estudo', [['/estudar', 'Estudar hoje'], ['/edital', 'Edital por tópicos'], ['/', 'início']]],
+    ['Teoria passo a passo', [['/lei12305', 'Lei 12305 de resíduos sólidos'], ['/lei14133', 'Lei 14133 licitações e contratos']]],
+    ['Pegadinhas', [['/pegadinhas-lei14133', 'Lei 14133'], ['/pegadinhas-lei12305', 'Lei 12305'], ['/pegadinhas-lei11445', 'Lei 11445 saneamento']]]
+  ];
   var atual = location.pathname.replace(/\.html$/, '').replace(/\/$/, '') || '/';
   if (atual === '/index') atual = '/';
   var css = document.createElement('style');
@@ -16,9 +19,11 @@
   document.querySelectorAll('.nav, .menu-jev, #menu').forEach(function (n) { n.remove(); });
   var m = document.createElement('nav');
   m.className = 'menu-san';
-  m.innerHTML = '<div class="t">Base · estudo</div><div class="bts">' + LINKS.map(function (l) {
-    return '<a href="' + l[0] + '" class="bt' + (l[0] === atual ? ' on' : '') + '">' + l[1] + '</a>';
-  }).join('') + '</div>';
+  m.innerHTML = GRUPOS.map(function (g) {
+    return '<div class="t">' + g[0] + '</div><div class="bts">' + g[1].map(function (l) {
+      return '<a href="' + l[0] + '" class="bt' + (l[0] === atual ? ' on' : '') + '">' + l[1] + '</a>';
+    }).join('') + '</div>';
+  }).join('');
   var alvo = document.querySelector('main') || document.body;
   alvo.insertBefore(m, alvo.firstChild);
 })();

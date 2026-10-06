@@ -55,8 +55,8 @@
 
   <div class="box"><details class="logica"><summary>A lógica da sessão (toque para ver)</summary>
     <ol>
-      <li><b>Uma sessão por dia, três blocos:</b> 1 etapa de teoria, até 10 pegadinhas e 1 questão de cálculo (a de cálculo existe só para a Lei 14.133).</li>
-      <li><b>As duas leis se alternam</b> por dia: num dia a Lei 14.133 vem primeiro, no outro a Lei 12.305.</li>
+      <li><b>Uma sessão por dia, três blocos:</b> 1 etapa de teoria, até 10 pegadinhas e 1 questão de cálculo (a de cálculo existe só para a Lei 14.133; a Lei 11.445 ainda não tem teoria).</li>
+      <li><b>As leis se alternam</b>: a cada dia uma delas vem primeiro (14.133, 12.305, 11.445 e de novo). Quando entrarem novas partes, elas entram nesse rodízio.</li>
       <li><b>Ordem do que é novo:</b> pegadinhas pela nota do Jev &quot;engana &times; chance de cair&quot; (as mais perigosas primeiro) e teoria pela &quot;chance de cair&quot; da etapa.</li>
       <li><b>Pegadinha:</b> leia a afirmação falsa, tente achar o erro, revele a resposta e marque se achou ou não.</li>
       <li><b>Revisão espaçada:</b> se errou, volta amanhã. Se acertou, volta em 3, 7, 14 e 30 dias. Quem chega aos 30 dias conta como dominada.</li>
@@ -77,7 +77,8 @@
 const $ = (id) => document.getElementById(id);
 function esc(t) { return String(t).replace(/[&<>"']/g, (m) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;' }[m])); }
 const LEIS = { l14133: { nome: 'Lei 14.133', teoria: '/dados/lei14133.json', peg: '/dados/pegadinhas-lei14133.json' },
-               l12305: { nome: 'Lei 12.305', teoria: '/dados/lei12305.json', peg: '/dados/pegadinhas-lei12305.json' } };
+               l12305: { nome: 'Lei 12.305', teoria: '/dados/lei12305.json', peg: '/dados/pegadinhas-lei12305.json' },
+               l11445: { nome: 'Lei 11.445', peg: '/dados/pegadinhas-lei11445.json' } };
 const INT = [1, 3, 7, 14, 30], META = 10, CHAVE = 'estudar-v1';
 let S = { itens: {}, teoria: {} }, mem = null, DADOS = {}, TODOS = [], revelado = {};
 function carrega() { try { const r = localStorage.getItem(CHAVE); if (r) S = JSON.parse(r); } catch (e) { if (mem) S = mem; } S.itens = S.itens || {}; S.teoria = S.teoria || {}; }
@@ -95,7 +96,7 @@ function monta() {
   for (const [lei, cfg] of Object.entries(LEIS)) {
     const D = DADOS[lei];
     D.peg.itens.forEach((p) => TODOS.push({ key: 'p:' + lei + ':' + p.id, tipo: 'peg', lei, ...p }));
-    (D.teoria.questoes || []).forEach((q, i) => TODOS.push({ key: 'q:' + lei + ':' + i, tipo: 'calc', lei, idx: i, ...q }));
+    ((D.teoria && D.teoria.questoes) || []).forEach((q, i) => TODOS.push({ key: 'q:' + lei + ':' + i, tipo: 'calc', lei, idx: i, ...q }));
   }
 }
 function registra(key, acertou) {
@@ -104,7 +105,7 @@ function registra(key, acertou) {
   else { e.box = 0; e.erros++; e.prox = addDias(H, 1); }
   e.ultimo = H; S.itens[key] = e; salva();
 }
-function ldia() { return numDia(hoje()) % 2 === 0 ? 'l14133' : 'l12305'; }
+function ldia() { const ks = Object.keys(LEIS); return ks[numDia(hoje()) % ks.length]; }
 function fila(tipo, quota) {
   const H = hoje(), st = S.itens, L = ldia();
   const feito = TODOS.filter((it) => it.tipo === tipo && st[it.key] && st[it.key].ultimo === H).length;
@@ -118,7 +119,7 @@ function fila(tipo, quota) {
 }
 function etapaDoDia() {
   const H = hoje(), L = ldia();
-  const todas = []; for (const lei of [L, L === 'l14133' ? 'l12305' : 'l14133']) DADOS[lei].teoria.etapas.forEach((e, i) => todas.push({ lei, i, e, key: 't:' + lei + ':' + i }));
+  const todas = []; for (const lei of [L, ...Object.keys(LEIS).filter((k) => k !== L)]) if (DADOS[lei].teoria) DADOS[lei].teoria.etapas.forEach((e, i) => todas.push({ lei, i, e, key: 't:' + lei + ':' + i }));
   const hojeFeita = todas.find((x) => S.teoria[x.key] === H);
   if (hojeFeita) return { x: hojeFeita, feita: true };
   const nova = todas.filter((x) => !S.teoria[x.key]).sort((a, b) => (a.lei === L ? 0 : 1) - (b.lei === L ? 0 : 1) || (b.e.peso || 0) - (a.e.peso || 0) || a.i - b.i)[0];
@@ -130,7 +131,7 @@ function render() {
   const pegs = TODOS.filter((i) => i.tipo === 'peg'), st = S.itens;
   const vistas = pegs.filter((i) => st[i.key]).length, dom = pegs.filter((i) => st[i.key] && st[i.key].box >= 4).length;
   const devem = TODOS.filter((i) => st[i.key] && st[i.key].prox <= H && st[i.key].ultimo !== H).length;
-  const et = Object.keys(S.teoria).length, totEt = Object.values(DADOS).reduce((s, d) => s + d.teoria.etapas.length, 0);
+  const et = Object.keys(S.teoria).length, totEt = Object.values(DADOS).reduce((s, d) => s + (d.teoria ? d.teoria.etapas.length : 0), 0);
   $('stats').innerHTML = [[vistas + '/' + pegs.length, 'pegadinhas vistas'], [dom, 'dominadas (30 dias)'], [devem, 'revisões vencidas'], [et + '/' + totEt, 'etapas de teoria lidas']]
     .map(([n, l]) => `<div class="stat"><div class="n">${n}</div><div class="l">${l}</div></div>`).join('');
   // teoria
@@ -157,7 +158,7 @@ function render() {
   const c = fila('calc', 1);
   const querCalc = c.lista.filter((x) => x.rev || x.it.lei === L);
   let hc = '';
-  if (!querCalc.length) hc = c.feito ? '<div class="card feito">Questão de cálculo concluída hoje.</div>' : `<div class="vazio">${L === 'l12305' ? 'Hoje a primeira lei é a 12.305, que ainda não tem questões de cálculo. Volte amanhã.' : 'Você já respondeu todas as questões de cálculo.'}</div>`;
+  if (!querCalc.length) hc = c.feito ? '<div class="card feito">Questão de cálculo concluída hoje.</div>' : `<div class="vazio">${L !== 'l14133' ? 'Hoje a primeira lei é a ' + LEIS[L].nome.replace('Lei ', '') + ', que ainda não tem questões de cálculo. Elas aparecem quando a Lei 14.133 for a primeira do dia.' : 'Você já respondeu todas as questões de cálculo.'}</div>`;
   else { const { it, rev } = querCalc[0]; const resp = revelado[it.key];
     hc = `<div class="card"><div class="topo"><span><span class="tag ${rev ? 'rev' : 'nova'}">${rev ? 'revisão' : 'nova'}</span> <span class="tag">${LEIS[it.lei].nome}</span> ${esc(it.abordagem)}</span><span>chance de cair ${it.peso != null ? Math.round(it.peso * 100) + '%' : '-'}</span></div>
       <b>${esc(it.titulo)}</b><div class="afirm">${esc(it.enunciado)}</div>
@@ -175,7 +176,7 @@ document.addEventListener('click', (ev) => {
 });
 $('zerar').addEventListener('click', () => { if (confirm('Apagar todo o progresso deste aparelho?')) { S = { itens: {}, teoria: {} }; salva(); revelado = {}; render(); } });
 carrega();
-Promise.all(Object.entries(LEIS).map(([lei, cfg]) => Promise.all([fetch(cfg.teoria).then((r) => r.json()), fetch(cfg.peg).then((r) => r.json())]).then(([teoria, peg]) => { DADOS[lei] = { teoria, peg }; })))
+Promise.all(Object.entries(LEIS).map(([lei, cfg]) => Promise.all([cfg.teoria ? fetch(cfg.teoria).then((r) => r.json()) : null, fetch(cfg.peg).then((r) => r.json())]).then(([teoria, peg]) => { DADOS[lei] = { teoria, peg }; })))
   .then(() => { monta(); render(); }).catch((e) => { $('data').textContent = 'Erro: ' + e.message; });
 </script>
 <script src="/menu.js"></script>
