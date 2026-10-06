@@ -109,18 +109,19 @@ function inicio() {
     <div class="m"><b>${m.pz}/${m.pzN}</b><span>prazos e números gravados</span></div>
     <div class="m"><b>${m.fr}/${m.frN}</b><span>falso real gravado</span></div>
   </div>
+  <p class="sub">Escadas acertadas por inteiro: <b>${Object.values(E.esc || {}).filter((x) => x.a === x.n).length}/${ESCADAS.length}</b></p>
   ${m.tv !== null && m.tv < 70 && E.tv.n >= 10 ? `<p class="aviso">Você acerta só ${m.tv}% das frases <b>verdadeiras</b>. Sinal de que está marcando "errado" por reflexo. Leia até o fim antes de responder.</p>` : ''}
   <div class="btns">
     <button class="pri" data-m="tudo">Rodada do dia<small>revisões vencidas primeiro, depois até ${NOVOS_DIA} novas, tudo misturado</small></button>
     <button data-m="prazo">Só prazos e números<small>com digitação do número certo quando você achar a pegadinha</small></button>
     <button data-m="falso">Só falso real<small>as frases mais convincentes primeiro</small></button>
-    <button data-m="escadas">Escadas de prazos<small>ordene os números vizinhos de um mesmo assunto</small></button>
+    <button data-m="escadas">Escadas de prazos<small>associe cada linha ao seu número; os vizinhos ficam lado a lado</small></button>
   </div>
   <h2>Treinar um tipo de pegadinha</h2>
   <div class="chips">${ops.map((o) => `<button data-m="op:${o}">${o}</button>`).join('')}</div>
   <p class="sub" style="margin-top:10px">${ops.map((o) => `<b>${o}</b>: ${SELO[o]}`).join(' · ')}</p>
   <h2>Como funciona</h2>
-  <p class="sub">Cada cartão aparece ora na versão verdadeira, ora na versão pegadinha, para você ler de verdade e não responder "errado" por hábito. Acertou, o cartão volta mais tarde (1, 3, 7 e 16 dias). Errou, ele volta na mesma rodada e recomeça. Marque "chutei" quando acertar sem certeza: aí o cartão não avança. "Gravado" só conta depois de acertar com intervalo de uma semana ou mais.</p>
+  <p class="sub">Cada cartão aparece ora na versão verdadeira, ora na versão pegadinha, para você ler de verdade e não responder "errado" por hábito. Acertou, o cartão volta mais tarde (1, 3, 7 e 16 dias, depois 30). Errou, ele volta na mesma rodada e recomeça. Marque "chutei" quando acertar sem certeza: aí o cartão não avança. "Gravado" só conta depois de acertar com intervalo de uma semana ou mais.</p>
   <p class="sub">Origem: <b>${BANCO.filter((c) => c.conf === 'jev').length}</b> pegadinhas conferidas pelo Jev contra o texto da lei (Leis 14.133, 12.305 e 11.445, com trecho literal), e <b>${BANCO.filter((c) => c.conf === 'analistas').length}</b> itens do <a href="https://resumofinalprova.vercel.app">resumo final</a>, revisados pelos dois analistas, sem passar pelo Jev.</p>
   <footer>O progresso fica salvo só neste navegador. <button id="zerar" style="padding:4px 10px;font-size:13px">zerar progresso</button></footer>`;
   document.querySelectorAll('[data-m]').forEach((b) => b.onclick = () => b.dataset.m === 'escadas' ? escadas() : rodada(b.dataset.m));
@@ -147,6 +148,7 @@ function intercala(l) {
   return out;
 }
 function rodada(modo, lista) {
+  if (E.dia.d !== hoje()) E.dia = { d: hoje(), novos: 0 };
   let fila;
   if (lista) fila = lista;
   else {
@@ -154,7 +156,7 @@ function rodada(modo, lista) {
     const dev = base.filter(devido).sort((a, b) => est(a.id).due.localeCompare(est(b.id).due)).slice(0, TETO);
     const vagas = dev.length >= TETO ? 0 : Math.max(0, NOVOS_DIA - E.dia.novos);
     let nov = base.filter(novo);
-    nov = modo === 'falso' ? nov.sort((a, b) => (b.p) - (a.p)) : nov.sort((a, b) => b.p - a.p);
+    nov.sort((a, b) => b.p - a.p);
     fila = dev.concat(nov.slice(0, vagas));
     if (!fila.length) { alert(vagas === 0 && base.some(novo) ? 'Meta de novas de hoje cumprida e nada vencido neste filtro. Volte amanhã ou escolha outro filtro.' : 'Nada para revisar neste filtro hoje.'); return; }
     fila = modo === 'prazo' ? fila : intercala(fila.sort(() => Math.random() - .5));
@@ -167,9 +169,9 @@ function versao(c) {
   if (c.conf !== 'jev') return { texto: c.enunciado, certa: c.certa };
   const s = est(c.id); let vf;
   if (!c.ok_v) vf = false;
-  else if (s && s.lv !== undefined) vf = Math.random() < 0.7 ? !s.lv : s.lv;
-  else vf = Math.random() < 0.4;
-  return { texto: vf ? c.v : c.f, certa: vf };
+  else if (s && s.lv !== undefined) vf = Math.random() < 0.6 ? !s.lv : s.lv;
+  else vf = Math.random() < 0.65;
+  return { texto: vf ? c.vt : c.f, certa: vf };
 }
 
 function mostra() {
@@ -189,7 +191,7 @@ function mostra() {
   <div id="fb"></div>`;
   $('#sair').onclick = (e) => { e.preventDefault(); fim(); };
   $('#bC').onclick = () => responde(true);
-  $('#bE').onclick = () => (!R.ver.certa && c.troca) ? pedeNumero(c) : responde(false);
+  $('#bE').onclick = () => (!R.ver.certa && c.troca && c.dig) ? pedeNumero(c) : responde(false);
   $('#bN').onclick = () => responde(null);
 }
 
@@ -197,7 +199,7 @@ function pedeNumero(c) {
   $('#bC').disabled = $('#bE').disabled = $('#bN').disabled = true;
   $('#num').innerHTML = `<div class="num"><p><b>Você viu a pegadinha.</b> Qual é o número certo no lugar de <b>${esc(c.troca[0])}</b>?</p>
     <input id="nIn" inputmode="decimal" autocomplete="off"> <button class="pri" id="nOk" style="display:inline-block">conferir</button></div>`;
-  const nrm = (x) => parseFloat(String(x).replace(/\s|%/g, '').replace(/\.(?=\d{3}(\D|$))/g, '').replace(',', '.'));
+  const nrm = (x) => { const s = String(x).toLowerCase(); const n = parseFloat(s.replace(/\s|%|r\$/g, '').replace(/\.(?=\d{3}(\D|$))/g, '').replace(',', '.')); return /\bmil\b/.test(s) ? n * 1000 : n; };
   const go = () => { const v = $('#nIn').value; responde(false, nrm(v) === nrm(c.troca[1])); };
   $('#nOk').onclick = go; $('#nIn').onkeydown = (e) => { if (e.key === 'Enter') go(); }; $('#nIn').focus();
 }
@@ -212,9 +214,9 @@ function responde(resp, numOk) {
   if (R.ver.certa) { E.tv.n++; if (acerto) E.tv.ok++; }
   let s = est(c.id);
   if (!s) { s = E.c[c.id] = { b: 0, ok: 0, err: 0 }; E.dia.novos++; }
-  if (acerto) { s.ok++; if (!chute) s.b = Math.min(5, s.b + 1); if (s.b === 0) s.b = 1; s.due = soma(hoje(), s.b >= 5 && s.ult === 1 && s.b === 5 ? 30 : INTERV[s.b]); s.ult = chute ? 0 : 1; }
+  if (acerto) { const jaEra5 = s.b === 5; s.ok++; if (!chute) s.b = Math.min(5, Math.max(2, s.b + 1)); if (s.b === 0) s.b = 1; s.due = soma(hoje(), jaEra5 && s.ult === 1 && !chute ? 30 : INTERV[s.b]); s.ult = chute ? 0 : 1; }
   else {
-    s.err++; s.b = 1; s.due = hoje(); s.ult = 0;
+    s.err++; s.b = faltouNumero ? Math.max(1, s.b - 1) : 1; s.due = hoje(); s.ult = 0;
     R.erros.push(c);
     if (!R.reinseridos.has(c.id)) { R.reinseridos.add(c.id); R.fila.splice(Math.min(R.fila.length, R.i + 5), 0, c); }
   }
@@ -230,15 +232,19 @@ function feedback(c, acerto, naoSei, faltouNumero) {
   h += `<div class="res">${titulo}${v.certa ? ' · a frase era VERDADEIRA' : ' · a frase era PEGADINHA'}</div>`;
   if (c.conf === 'jev') {
     h += `<div class="selo" title="${esc(SELO[c.op])}">${esc(c.op)}</div><p style="margin-top:-4px;font-size:14px">${esc(SELO[c.op])}</p>`;
-    if (c.troca) h += `<div class="troca"><s>${esc(c.troca[0])}</s> → <b>${esc(c.troca[1])}</b></div>`;
-    if (v.certa) h += `<p><span class="rot">A versão pegadinha seria</span>${esc(c.f)}</p>`;
-    else h += `<p><span class="rot">O certo</span>${esc(c.v)}</p>`;
-    if (c.viz) h += `<p><span class="rot">O vizinho que engana</span>${esc(c.viz)}</p>`;
-    h += `<p><span class="rot">Por que parece verdade</span>${esc(c.mot)}</p>`;
+    if (c.troca) h += `${v.certa ? '<span class="rot">a banca trocaria</span>' : ''}<div class="troca"><s>${esc(c.troca[0])}</s> → <b>${esc(c.troca[1])}</b></div>`;
+    if (c.nota) h += `<p style="font-size:14px">${esc(c.nota)}</p>`;
+    let resto = '';
+    if (v.certa) resto += `<p><span class="rot">A versão pegadinha seria</span>${esc(c.f)}</p>`;
+    else resto += `<p><span class="rot">O certo</span>${esc(c.v)}</p>`;
+    if (c.viz) resto += `<p><span class="rot">O vizinho que engana</span>${esc(c.viz)}</p>`;
+    resto += `<p><span class="rot">Por que parece verdade</span>${esc(c.mot)}</p>`;
+    h += acerto ? `<details><summary>ver explicação</summary>${resto}</details>` : resto;
     h += `<details><summary>ver na lei · ${esc(c.fonte)}</summary><div class="lei">${esc(c.trecho)}</div></details>`;
     h += `<div class="conf">Conferido pelo Jev contra o texto da lei.</div>`;
   } else {
     if (c.op) h += `<div class="selo">${esc(c.op)}</div>`;
+    if (c.rot) h += `<p style="margin-top:-4px;font-size:14px">Pegadinha de ${esc(c.rot.toLowerCase())}</p>`;
     h += `<p>${esc(c.expl)}</p><div class="conf">Item do resumo final, revisado pelos analistas (sem Jev).</div>`;
   }
   $('#fb').innerHTML = `<div class="fb ${acerto ? 'ok' : 'err'}">${h}<button class="pri" id="prox" style="margin-top:12px;width:100%;text-align:center">próximo</button></div>`;
@@ -255,7 +261,7 @@ function fim() {
   <h1>Fim da rodada</h1>
   <p><b>${R.ok} de ${R.n}</b> respostas certas.</p>
   <table><tr><th>tipo de pegadinha</th><th>acertos</th></tr>${Object.entries(R.porOp).map(([k, [a, n]]) => `<tr><td>${esc(k)}</td><td class="${a === n ? 'bom' : 'mau'}">${a}/${n}</td></tr>`).join('')}</table>
-  ${unicos.length ? `<h2>Onde você caiu (${unicos.length})</h2><ul class="erros">${unicos.map((c) => `<li>${esc(c.conf === 'jev' ? c.f : c.enunciado)}<br><span class="sub">${esc(c.conf === 'jev' ? c.fonte : c.lei)}</span></li>`).join('')}</ul>
+  ${unicos.length ? `<h2>Onde você caiu (${unicos.length})</h2><ul class="erros">${unicos.map((c) => c.conf === 'jev' ? `<li><b>Certo:</b> ${esc(c.v)}<br><span class="sub">Pegadinha: <s>${esc(c.f)}</s> · ${esc(c.fonte)}</span></li>` : `<li>${esc(c.enunciado)}<br><span class="sub">${esc(c.expl)}</span></li>`).join('')}</ul>
   <div class="btns"><button class="pri" id="refaz">Refazer só estes agora</button></div>` : '<p>Nenhum erro. Os cartões subiram de caixa.</p>'}
   ${anc.length ? `<h2>Frases-âncora para o caderno</h2><p class="ancora">${anc.map(esc).join('<br>')}</p><div class="btns"><button id="copia">Copiar âncoras</button></div>` : ''}
   <div class="btns" style="margin-top:14px"><button id="volta">Voltar ao início</button></div>`;
@@ -266,7 +272,7 @@ function fim() {
 
 // Escadas: números conferidos no texto das leis (Lei 14.133, CONAMA 237, Leis 11.445 e 12.305).
 const ESCADAS = [
-  { t: 'Prazos mínimos de propostas (Lei 14.133, Art. 55), em dias úteis', l: [
+  { t: 'Prazos mínimos de propostas (Lei 14.133, Art. 55), em dias úteis. Atenção: 15 e 35 aparecem duas vezes, e é aí que mora a pegadinha', l: [
     ['Bens, menor preço ou maior desconto', '8'], ['Bens, demais casos', '15'], ['Serviços comuns e obras comuns, menor preço ou maior desconto', '10'],
     ['Serviços especiais e obras especiais, menor preço ou maior desconto', '25'], ['Contratação integrada', '60'], ['Contratação semi-integrada', '35'],
     ['Maior lance', '15'], ['Técnica e preço ou melhor técnica', '35']] },
@@ -282,7 +288,7 @@ const ESCADAS = [
     ['Análise de cada licença: prazo máximo (Art. 14)', '6 meses'], ['Análise com EIA/RIMA ou audiência pública (Art. 14)', '12 meses'], ['Atender complementações: prazo máximo (Art. 15)', '4 meses'],
     ['Licença Prévia: validade máxima (Art. 18)', '5 anos'], ['Licença de Instalação: validade máxima (Art. 18)', '6 anos'], ['Licença de Operação: validade mínima (Art. 18)', '4 anos'],
     ['Licença de Operação: validade máxima (Art. 18)', '10 anos'], ['Pedir renovação da LO: antecedência mínima (Art. 18, § 4º)', '120 dias']] },
-  { t: 'Saneamento e resíduos (Leis 11.445 e 12.305)', l: [
+  { t: 'Saneamento e resíduos (Leis 11.445 e 12.305; fim dos lixões: municípios com plano e cobrança, até 2 de agosto de cada ano)', l: [
     ['Meta de água potável (Lei 11.445, Art. 11-B)', '99%'], ['Meta de coleta e tratamento de esgoto (Art. 11-B)', '90%'], ['Ano-limite das metas (Art. 11-B)', '2033'],
     ['Revisão do plano de saneamento: no máximo a cada (Art. 19, § 4º)', '10 anos'], ['Plano simplificado: municípios com menos de (Art. 19, § 9º)', '20 mil hab.'],
     ['Fim dos lixões: capitais e regiões metropolitanas (Lei 12.305, Art. 54)', '2021'], ['Fim dos lixões: mais de 100 mil habitantes', '2022'],
@@ -309,6 +315,7 @@ function escadas(k = 0) {
       const ok = s.value === certo; if (ok) a++;
       td.insertAdjacentHTML('beforeend', `<div class="r ${ok ? 'bom' : 'mau'}">${ok ? '✓' : '✗ ' + esc(certo)}</div>`);
     });
+    E.esc = E.esc || {}; E.esc[k] = { a, n: e.l.length, d: hoje() }; salva();
     $('#placar').innerHTML = `<b>${a} de ${e.l.length}</b>. ${a === e.l.length ? 'Escada gravada.' : 'Refaça esta escada amanhã até acertar todas.'}`;
   };
 }
