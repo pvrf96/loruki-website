@@ -66,8 +66,9 @@
 <p class="sub">O overview de engenharia para Santos: como transformar o enunciado longo da IBAM numa pergunta curta, o que a banca cobra em cada tema e as questões reais dela comentadas.</p>
 <nav id="nav">
   <button data-v="metodo" class="on">1. Método</button>
-  <button data-v="trilhas">2. Trilhas</button>
-  <button data-v="questoes">3. Questões</button>
+  <button data-v="cadernos">2. Cadernos</button>
+  <button data-v="trilhas">3. Trilhas</button>
+  <button data-v="questoes">4. Questões reais</button>
   <button data-v="numeros">Números</button>
   <button data-v="painel">Meu desempenho</button>
 </nav>
@@ -86,7 +87,7 @@ const tema = (id) => D.temas.find((t) => t.id === id);
 function ir(v) { view = v; document.querySelectorAll('#nav button').forEach((b) => b.classList.toggle('on', b.dataset.v === v)); render(); window.scrollTo(0, 0); }
 document.querySelectorAll('#nav button').forEach((b) => b.onclick = () => ir(b.dataset.v));
 
-function render() { ({ metodo, trilhas, questoes, numeros, painel })[view](); }
+function render() { ({ metodo, cadernos, trilhas, questoes, numeros, painel })[view](); }
 
 function metodo() {
   const cont = {}; D.q.forEach((q) => cont[q.tema] = (cont[q.tema] || 0) + 1);
@@ -117,13 +118,14 @@ function metodo() {
   <div class="card">
     <h3>Como usar com o seu tempo de estudo</h3>
     <ol>
-      <li><b>Abra uma trilha</b> (comece pelas de cima do gráfico). Leia o mapa e o gatilho: 5 minutos.</li>
-      <li><b>Faça as questões daquela trilha</b> sem traduzir. Se travar no enunciado, toque em "Traduzir para Vunesp".</li>
+      <li><b>Siga os cadernos na ordem da triagem</b>: leia as fichas e faça as questões relâmpago.</li>
+      <li><b>Depois, a trilha do mesmo tema</b>: mapa, gatilho e as questões reais da IBAM.</li>
+      <li>Faça as questões <b>sem traduzir</b>. Se travar no enunciado, toque em "Traduzir para Vunesp".</li>
       <li>Depois de 3 ou 4 trilhas, faça o <b>misto</b> (é como a prova vem).</li>
       <li>No fim do dia, faça <b>"só as que errei"</b> até zerar.</li>
     </ol>
   </div>
-  <p><button class="pri" onclick="ir('trilhas')">Ir para as trilhas →</button></p>`;
+  <p><button class="pri" onclick="ir('cadernos')">Ir para a triagem e os cadernos →</button></p>`;
 }
 
 function trilhas() {
@@ -146,6 +148,32 @@ function abreTema(id) {
   window.scrollTo(0, 0);
 }
 
+
+function cadernos() {
+  $('#app').innerHTML = `<h2>Triagem: a ordem de estudo</h2>
+  <p class="sub">Cruzei o seu gargalo, o peso no edital e o que a IBAM mais cobra. Estude de cima para baixo. Cada caderno tem fichas curtas (🎯 o que é · ⚠️ pegadinha · 🔑 gatilho) e questões relâmpago no estilo IBAM 2026.</p>
+  ${D.triagem.map((c) => { const pr = D.cad[c.id]; const nq = pr ? pr.qs.length : 0; const s = pr ? D.cq.filter((q) => q.cad === c.id && st[q.id]) : []; return `<div class="tema" data-c="${c.id}" style="margin:10px 0;${pr ? '' : 'opacity:.55;cursor:default'}">
+    <b>${c.n}. ${esc(c.t)}</b>
+    <small>Gargalo: ${esc(c.gar)} · IBAM: ${esc(c.ibam)}</small><br><small>Edital: ${esc(c.ed)}</small><br>
+    <small>${pr ? `<b style="color:var(--ok)">pronto</b> · ${pr.blocos.reduce((a, b) => a + b.f.length, 0)} fichas · ${nq} questões${s.length ? ` · você fez ${s.length}` : ''}` : 'em preparação'}</small></div>`; }).join('')}`;
+  document.querySelectorAll('[data-c]').forEach((d) => d.onclick = () => { if (D.cad[d.dataset.c]) abreCad(d.dataset.c); });
+}
+function abreCad(id) {
+  const c = D.triagem.find((x) => x.id === id), pr = D.cad[id];
+  $('#app').innerHTML = `<p><button onclick="cadernos()">← triagem</button></p>
+  <h2>Caderno ${c.n}: ${esc(c.t)}</h2><p>${esc(pr.intro)}</p>
+  <p><button class="pri" id="cq1">Fazer as ${pr.qs.length} questões relâmpago →</button></p>
+  ${pr.blocos.map((b) => `<h3>${esc(b.b)}</h3>${b.f.map((f) => `<div class="card" style="padding:12px 14px;margin:8px 0">
+     <b style="font-size:17px">${esc(f.t)}</b>
+     <p style="margin:6px 0">🎯 ${esc(f.o)}</p>
+     ${f.p ? `<div class="peg">⚠️ ${esc(f.p)}</div>` : ''}
+     ${f.g ? `<div style="font-weight:800;color:var(--amar);margin-top:6px">🔑 ${esc(f.g)}</div>` : ''}</div>`).join('')}`).join('')}
+  <p><button class="pri" id="cq2">Fazer as ${pr.qs.length} questões relâmpago →</button></p>`;
+  const go = () => iniciar({ cad: id }); $('#cq1').onclick = go; $('#cq2').onclick = go;
+  window.scrollTo(0, 0);
+}
+function rot(q) { if (q.cad) { const c = D.triagem.find((x) => x.id === q.cad); return { nome: 'Caderno ' + c.n, cor: '#0b57d0', gat: '' }; } return tema(q.tema); }
+
 // ---------- questões ----------
 let fila = [], qi = 0, cfg = { tema: 'todos', modo: 'normal' }, estado = null;
 function desemp(tid) { let feitas = 0, certas = 0; D.q.forEach((q) => { if ((tid === 'todos' || q.tema === tid) && st[q.id]) { feitas++; if (st[q.id].ult) certas++; } }); return { feitas, certas }; }
@@ -161,7 +189,7 @@ function questoes() {
 }
 function iniciar(c) {
   cfg = Object.assign({ tema: 'todos', modo: 'normal' }, c);
-  let l = D.q.filter((q) => cfg.tema === 'todos' || q.tema === cfg.tema);
+  let l = cfg.cad ? D.cq.filter((q) => q.cad === cfg.cad) : D.q.filter((q) => cfg.tema === 'todos' || q.tema === cfg.tema);
   if (cfg.modo === 'novas') l = l.filter((q) => !st[q.id]);
   if (cfg.modo === 'erros') l = l.filter((q) => st[q.id] && !st[q.id].ult);
   if (cfg.modo === 'recentes') l = l.filter((q) => q.ano >= 2021);
@@ -171,19 +199,19 @@ function iniciar(c) {
   mostra();
 }
 function mostra() {
-  const q = fila[qi], t = tema(q.tema);
+  const q = fila[qi], t = rot(q);
   estado = { sel: null, risc: new Set(), resp: false, trad: false };
   const desenha = () => {
     $('#app').innerHTML = `<div class="linha"><button onclick="questoes()">← filtros</button><span class="prog">Questão ${qi + 1} de ${fila.length}</span></div>
     <div class="card">
-      <div class="fonte"><span class="chip" style="background:${t.cor};color:#fff">${esc(t.nome)}</span>IBAM · ${esc(q.fonte)}</div>
+      <div class="fonte"><span class="chip" style="background:${t.cor};color:#fff">${esc(t.nome)}</span>${q.cad ? 'Inédita no estilo IBAM 2026' : 'IBAM · ' + esc(q.fonte)}</div>
       <div class="enun">${esc(q.e)}</div>
       ${estado.trad || estado.resp ? `<div class="curta">🔍 Versão Vunesp: ${esc(q.curta)}</div>` : `<p style="margin-top:10px"><button id="tr">🔍 Traduzir para Vunesp</button></p>`}
       <div id="alts">${q.a.map((a, k) => { let c = ''; if (estado.resp) { if (k === q.g) c = 'cert'; else if (k === estado.sel) c = 'erra'; } else { if (estado.risc.has(k)) c = 'risc'; if (estado.sel === k) c += ' sel'; } return `<div class="alt ${c}"><button class="op" data-k="${k}" ${estado.resp ? 'disabled' : ''}><b>${L[k]})</b>${esc(a)}</button>${estado.resp ? '' : `<button class="x" data-x="${k}" title="riscar">✕</button>`}</div>`; }).join('')}</div>
       ${estado.resp ? '' : `<p class="sub">Toque em ✕ para riscar o que você elimina. Depois escolha e confirme.</p><p><button class="pri" id="conf" ${estado.sel === null ? 'disabled' : ''}>Confirmar</button></p>`}
       ${estado.resp ? `<div class="fb ${estado.sel === q.g ? 'ok' : 'no'}"><b>${estado.sel === q.g ? '✔ Acertou' : `✘ Errou. Certa: ${L[q.g]}`}</b><p style="margin:6px 0 0">${esc(q.com)}</p></div>${q.av ? `<div class="aviso">⚠️ ${esc(q.av)}</div>` : ''}
-        <div class="gat" style="font-size:15px">🔑 ${esc(t.gat)}</div>
-        <div class="linha">${qi < fila.length - 1 ? '<button class="pri" id="prox">Próxima →</button>' : '<button class="pri" id="fim">Ver resultado</button>'}<button id="vt">Abrir a trilha deste tema</button></div>` : ''}
+        ${t.gat ? `<div class="gat" style="font-size:15px">🔑 ${esc(t.gat)}</div>` : ''}
+        <div class="linha">${qi < fila.length - 1 ? '<button class="pri" id="prox">Próxima →</button>' : '<button class="pri" id="fim">Ver resultado</button>'}${q.cad ? '<button id="vc">Voltar ao caderno</button>' : '<button id="vt">Abrir a trilha deste tema</button>'}</div>` : ''}
     </div>`;
     if ($('#tr')) $('#tr').onclick = () => { estado.trad = true; desenha(); };
     document.querySelectorAll('[data-x]').forEach((b) => b.onclick = () => { const k = +b.dataset.x; estado.risc.has(k) ? estado.risc.delete(k) : estado.risc.add(k); if (estado.sel === k) estado.sel = null; desenha(); });
@@ -191,6 +219,7 @@ function mostra() {
     if ($('#conf')) $('#conf').onclick = () => { estado.resp = true; const ok = estado.sel === q.g; const r = st[q.id] || { n: 0, a: 0 }; r.n++; if (ok) r.a++; r.ult = ok; r.trad = estado.trad; st[q.id] = r; salva(); desenha(); };
     if ($('#prox')) $('#prox').onclick = () => { qi++; mostra(); window.scrollTo(0, 0); };
     if ($('#fim')) $('#fim').onclick = resultado;
+    if ($('#vc')) $('#vc').onclick = () => { view = 'cadernos'; document.querySelectorAll('#nav button').forEach((b) => b.classList.toggle('on', b.dataset.v === 'cadernos')); abreCad(q.cad); };
     if ($('#vt')) $('#vt').onclick = () => { view = 'trilhas'; document.querySelectorAll('#nav button').forEach((b) => b.classList.toggle('on', b.dataset.v === 'trilhas')); abreTema(q.tema); };
   };
   desenha();
@@ -198,12 +227,12 @@ function mostra() {
 function resultado() {
   const certas = fila.filter((q) => st[q.id] && st[q.id].ult).length;
   $('#app').innerHTML = `<div class="card"><h2>Resultado: ${certas} de ${fila.length}</h2><p>${certas / fila.length >= 0.8 ? 'Muito bom. Passe para outra trilha ou para o misto.' : 'Refaça "só as que errei" antes de seguir: o erro corrigido na hora é o que fixa.'}</p>
-  <div class="linha"><button class="pri" onclick="iniciar({tema:'${cfg.tema}',modo:'erros'})">Refazer só as que errei</button><button onclick="questoes()">Outro filtro</button></div></div>`;
+  <div class="linha"><button class="pri" onclick='iniciar(${JSON.stringify(Object.assign({}, cfg, { modo: "erros" }))})'>Refazer só as que errei</button>${cfg.cad ? `<button onclick="abreCad('${cfg.cad}')">Voltar ao caderno</button>` : '<button onclick="questoes()">Outro filtro</button>'}</div></div>`;
 }
 
 function numeros() {
   $('#app').innerHTML = `<h2>Números e distinções</h2><p class="sub">Todos os mapas das trilhas numa página, para revisar rápido ou imprimir. <button onclick="window.print()">Imprimir</button></p>
-  ${D.temas.map((t) => `<div class="card"><h3 style="color:${t.cor}">${esc(t.nome)}</h3><table>${t.mapa.map((r) => `<tr><td style="width:38%"><b>${esc(r[0])}</b></td><td>${esc(r[1])}</td></tr>`).join('')}</table><div class="gat" style="font-size:15px">🔑 ${esc(t.gat)}</div></div>`).join('')}`;
+  ${D.temas.map((t) => `<div class="card"><h3 style="color:${t.cor}">${esc(t.nome)}</h3><table>${t.mapa.map((r) => `<tr><td style="width:38%"><b>${esc(r[0])}</b></td><td>${esc(r[1])}</td></tr>`).join('')}</table>${t.gat ? `<div class="gat" style="font-size:15px">🔑 ${esc(t.gat)}</div>` : ''}</div>`).join('')}`;
 }
 
 function painel() {
