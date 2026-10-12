@@ -154,12 +154,12 @@ function cadernos() {
     <b>${c.n}. ${esc(c.t)}</b>
     <small>Gargalo: ${esc(c.gar)} · IBAM: ${esc(c.ibam)}</small><br><small>Edital: ${esc(c.ed)}</small><br>
     <small>${pr ? `<b style="color:var(--ok)">pronto</b> · ${pr.blocos.reduce((a, b) => a + b.f.length, 0)} fichas · ${nq} questões${s.length ? ` · você fez ${s.length}` : ''}` : 'em preparação'}</small></div>`; };
-  $('#app').innerHTML = `<h2>Bloco de Legislação <span class="sub">(5 questões × 2 pontos)</span></h2>
-  <p class="sub">Direito Administrativo, improbidade, LAI, Código do Usuário, LGPD, governo digital, 14.133 na execução e leis de Santos.</p>
-  ${D.triagem.filter((c) => c.g === 'leg').map(card).join('')}
-  <h2 style="margin-top:32px">Conhecimentos Específicos <span class="sub">(13 questões × 4 pontos)</span>: triagem</h2>
+  const leg = D.triagem.filter((c) => c.g === 'leg'), eng = D.triagem.filter((c) => c.g === 'eng');
+  $('#app').innerHTML = (leg.length ? `<h2>Bloco de Legislação <span class="sub">(5 questões × 2 pontos)</span></h2>
+  <p class="sub">Estude na ordem. Cada caderno tem fichas curtas (🎯 o que é · ⚠️ pegadinha · 🔑 gatilho) e questões relâmpago no estilo IBAM.</p>
+  ${leg.map(card).join('')}` : '') + (eng.length ? `<h2>Conhecimentos Específicos <span class="sub">(13 questões × 4 pontos)</span>: triagem</h2>
   <p class="sub">Cruzei o seu gargalo, o peso no edital e o que a IBAM mais cobra. Estude de cima para baixo. Cada caderno tem fichas curtas (🎯 o que é · ⚠️ pegadinha · 🔑 gatilho) e questões relâmpago no estilo IBAM 2026.</p>
-  ${D.triagem.filter((c) => c.g === 'eng').map(card).join('')}`;
+  ${eng.map(card).join('')}` : '');
   document.querySelectorAll('[data-c]').forEach((d) => d.onclick = () => { if (D.cad[d.dataset.c]) abreCad(d.dataset.c); });
 }
 function abreCad(id) {
@@ -254,7 +254,14 @@ function painel() {
   $('#zera').onclick = () => { if (confirm('Apagar todo o histórico?')) { st = {}; salva(); painel(); } };
 }
 
-fetch('dados/eng.json').then((r) => r.json()).then((d) => { D = d; render(); })
+fetch('dados/eng.json').then((r) => r.json()).then((d) => { D = d;
+  if (D.modo === 'leg') {
+    document.title = 'Legislação Santos'; $('h1').textContent = 'Legislação: Santos 2026';
+    $('.sub').textContent = 'Bloco de Legislação Municipal, Direito Administrativo, Licitações, Contratos e Fiscalização (5 questões × 2 pontos), no modelo de cadernos: fichas curtas e questões relâmpago no estilo IBAM.';
+    document.querySelectorAll('#nav button').forEach((b) => { if (b.dataset.v !== 'cadernos') b.remove(); else b.textContent = 'Cadernos'; });
+    $('footer').textContent = 'Leis de Santos montadas com trechos dos textos oficiais encontrados por busca; os pontos incertos têm aviso ⚠️. Leis federais conferidas pelo texto legal.';
+    view = 'cadernos'; ir('cadernos');
+  } else render(); })
   .catch(() => { $('#app').innerHTML = '<p>Não consegui carregar as questões. Recarregue a página.</p>'; });
 </script>
 </body>

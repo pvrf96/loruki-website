@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Engenharia IBAM</title>
+<meta name="description" content="Engenharia civil no estilo IBAM: método para ler o enunciado longo, trilhas por tema com dicas, pegadinhas e gatilhos, e as questões reais da banca comentadas.">
+<style>
+  :root { --tx:#1d1d1f; --suave:#5b5b60; --linha:#e3e3e8; --marca:#0b57d0; --marcabg:#e8f0fe; --ok:#137333; --okbg:#e6f4ea; --err:#b3261e; --errbg:#fce8e6; --amar:#8a5a00; --amarbg:#fef7e0; --card:#fafafa; }
+  * { box-sizing:border-box; }
+  html { -webkit-text-size-adjust:100%; }
+  body { margin:0; background:#fff; color:var(--tx); font:17px/1.6 -apple-system,"Segoe UI",Roboto,Arial,sans-serif; }
+  main { max-width:860px; margin:0 auto; padding:20px 16px 100px; }
+  h1 { font-size:27px; line-height:1.2; margin:0 0 6px; }
+  h2 { font-size:22px; margin:22px 0 8px; line-height:1.3; }
+  h3 { font-size:14px; text-transform:uppercase; letter-spacing:.05em; color:var(--suave); margin:20px 0 8px; }
+  p { margin:0 0 12px; overflow-wrap:break-word; }
+  .sub { color:var(--suave); font-size:15px; }
+  nav { position:sticky; top:0; background:#fff; z-index:5; display:flex; gap:6px; overflow-x:auto; padding:10px 0; border-bottom:1px solid var(--linha); margin:12px 0 4px; }
+  nav button { flex:0 0 auto; border-radius:999px; }
+  nav button.on { background:var(--marca); color:#fff; border-color:var(--marca); }
+  button { font:inherit; cursor:pointer; border-radius:10px; border:1px solid var(--linha); background:#fff; color:var(--tx); padding:8px 13px; text-align:left; }
+  button:disabled { opacity:.5; cursor:default; }
+  .pri { background:var(--marca); color:#fff; border-color:var(--marca); font-weight:700; }
+  .card { border:1px solid var(--linha); border-radius:14px; padding:16px; background:var(--card); margin:12px 0; }
+  .passo { display:grid; grid-template-columns:34px 1fr; gap:10px; margin:12px 0; }
+  .passo b.n { width:30px; height:30px; border-radius:50%; background:var(--marca); color:#fff; display:flex; align-items:center; justify-content:center; }
+  .ex { border-left:4px solid var(--marca); background:#fff; padding:10px 12px; margin:8px 0; border-radius:0 10px 10px 0; }
+  .ex .longo { font-size:15px; color:var(--suave); }
+  .ex .curto { font-weight:700; margin-top:6px; }
+  table { border-collapse:collapse; width:100%; font-size:15.5px; }
+  td, th { border-bottom:1px solid var(--linha); padding:7px 6px; vertical-align:top; text-align:left; }
+  th { color:var(--suave); font-size:13px; text-transform:uppercase; letter-spacing:.04em; }
+  .barra { height:10px; background:var(--marca); border-radius:5px; }
+  .grade { display:grid; grid-template-columns:repeat(auto-fill,minmax(240px,1fr)); gap:10px; }
+  .tema { border:1px solid var(--linha); border-radius:14px; padding:14px; background:#fff; cursor:pointer; }
+  .tema b { display:block; font-size:17px; }
+  .tema small { color:var(--suave); }
+  .chip { display:inline-block; font-size:12px; font-weight:700; border-radius:999px; padding:2px 9px; margin-right:6px; }
+  .gat { font-weight:800; font-size:18px; background:var(--amarbg); color:var(--amar); border-radius:12px; padding:12px 14px; margin:10px 0; }
+  .peg { background:var(--errbg); color:#7a1c16; border-radius:10px; padding:8px 12px; margin:6px 0; }
+  ul { padding-left:20px; margin:6px 0 12px; }
+  .enun { white-space:pre-line; font:17px/1.6 Georgia,serif; }
+  .fonte { font-size:13px; color:var(--suave); margin-bottom:6px; }
+  .alt { display:flex; gap:8px; align-items:stretch; margin:8px 0; }
+  .alt .op { flex:1; }
+  .alt .op b { margin-right:6px; }
+  .alt .x { flex:0 0 44px; text-align:center; color:var(--suave); }
+  .alt.risc .op { text-decoration:line-through; color:#9a9aa0; }
+  .alt.sel .op { border-color:var(--marca); background:var(--marcabg); }
+  .alt.cert .op { border-color:var(--ok); background:var(--okbg); }
+  .alt.erra .op { border-color:var(--err); background:var(--errbg); }
+  .curta { background:var(--marcabg); border-radius:10px; padding:10px 12px; margin:10px 0; font-weight:700; }
+  .fb { border-radius:12px; padding:12px 14px; margin-top:12px; }
+  .fb.ok { background:var(--okbg); } .fb.no { background:var(--errbg); }
+  .aviso { background:var(--amarbg); color:var(--amar); border-radius:10px; padding:8px 12px; margin-top:8px; font-size:15px; }
+  .linha { display:flex; flex-wrap:wrap; gap:8px; margin:10px 0; align-items:center; }
+  select { font:inherit; padding:8px; border-radius:10px; border:1px solid var(--linha); max-width:100%; }
+  .prog { font-size:14px; color:var(--suave); }
+  footer { margin-top:44px; color:var(--suave); font-size:14px; }
+</style>
+</head>
+<body>
+<main>
+<h1>Engenharia IBAM</h1>
+<p class="sub">O overview de engenharia para Santos: como transformar o enunciado longo da IBAM numa pergunta curta, o que a banca cobra em cada tema e as questões reais dela comentadas.</p>
+<nav id="nav">
+  <button data-v="metodo" class="on">1. Método</button>
+  <button data-v="cadernos">2. Cadernos</button>
+  <button data-v="trilhas">3. Trilhas</button>
+  <button data-v="questoes">4. Questões reais</button>
+  <button data-v="numeros">Números</button>
+  <button data-v="painel">Meu desempenho</button>
+</nav>
+<div id="app"></div>
+<footer>Questões reais da IBAM (caderno de engenharia civil do TEC Concursos) com o gabarito da banca. Ficaram de fora 7 questões com figura que não veio no PDF e o boletim de medição que chegou ilegível. Onde o gabarito é discutível, há um aviso amarelo na questão.</footer>
+</main>
+<script>
+const $ = (s) => document.querySelector(s);
+const esc = (t) => String(t ?? '').replace(/[&<>"']/g, (m) => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;' }[m]));
+const L = 'ABCD';
+let D = null, view = 'metodo';
+let st = {}; try { st = JSON.parse(localStorage.getItem('eib') || '{}'); } catch (e) {}
+const salva = () => { try { localStorage.setItem('eib', JSON.stringify(st)); } catch (e) {} };
+const tema = (id) => D.temas.find((t) => t.id === id);
+
+function ir(v) { view = v; document.querySelectorAll('#nav button').forEach((b) => b.classList.toggle('on', b.dataset.v === v)); render(); window.scrollTo(0, 0); }
+document.querySelectorAll('#nav button').forEach((b) => b.onclick = () => ir(b.dataset.v));
+
+function render() { ({ metodo, cadernos, trilhas, questoes, numeros, painel })[view](); }
+
+function metodo() {
+  const cont = {}; D.q.forEach((q) => cont[q.tema] = (cont[q.tema] || 0) + 1);
+  const ord = D.temas.slice().sort((a, b) => (cont[b.id] || 0) - (cont[a.id] || 0));
+  const mx = Math.max(...Object.values(cont));
+  $('#app').innerHTML = `
+  <h2>A IBAM é a Vunesp com enfeite</h2>
+  <p>Você vai bem na Vunesp porque ela é direta. A IBAM pergunta <b>a mesma coisa</b>, só que embrulhada num cenário ("a Prefeitura vai construir uma creche…"). Em quase todas as questões o cenário é enfeite: a pergunta real cabe numa linha. O treino aqui é <b>desembrulhar</b>.</p>
+  <div class="card">
+    <h3>Os 4 passos em cada questão</h3>
+    <div class="passo"><b class="n">1</b><div><b>Leia a ÚLTIMA frase primeiro.</b> É o comando: "denomina-se", "exceto", "é correto afirmar", "respectivamente". Ele diz o que você está caçando.</div></div>
+    <div class="passo"><b class="n">2</b><div><b>Risque o cenário e sublinhe os termos técnicos.</b> Prefeitura, creche, cidade: fora. OCR, tripé, NBR 6118, classe III: é aí que está a resposta.</div></div>
+    <div class="passo"><b class="n">3</b><div><b>Monte a pergunta curta, estilo Vunesp.</b> "Estaca com tripé e apiloamento é…?" Se você conseguir fazer essa frase, a questão virou fácil.</div></div>
+    <div class="passo"><b class="n">4</b><div><b>Elimine antes de escolher.</b> Com 4 alternativas, cada eliminação vale muito: tirando 1 você fica com 33%; tirando 2, com 50%.</div></div>
+  </div>
+  <h3>Veja o desembrulho em questões reais</h3>
+  ${['r4','r27','r50','r20'].map((id) => { const q = D.q.find((x) => x.id === id); return `<div class="ex"><div class="longo">${esc(q.e.slice(0, 260))}${q.e.length > 260 ? '…' : ''}</div><div class="curto">→ ${esc(q.curta)}</div><div class="sub">Resposta: ${L[q.g]}) ${esc(q.a[q.g])}</div></div>`; }).join('')}
+  <h3>Como a IBAM erra as alternativas (e como você elimina)</h3>
+  <table><tr><th>Truque da banca</th><th>Exemplo real</th></tr>
+  <tr><td><b>Termo trocado</b>: frase certa com a palavra do conceito vizinho</td><td>"compacidade da argila" (argila é consistência)</td></tr>
+  <tr><td><b>Número vizinho</b></td><td>0,30 × 0,50 m na ventilação; 3,5 × 5 m nas tomadas; 24 × 48 h</td></tr>
+  <tr><td><b>Absurdo</b>: alternativa que ninguém faria numa obra</td><td>congelar ou ferver a água da vala; "peso próprio como vantagem"</td></tr>
+  <tr><td><b>Palavra absoluta</b></td><td>"vedado em qualquer hipótese", "exclusivamente", "independentemente de"</td></tr>
+  <tr><td><b>Conceito de outro sistema</b></td><td>"descompressão" (protendido) numa pergunta de concreto armado</td></tr>
+  <tr><td><b>Conta pela metade</b></td><td>preço sem BDI (R$ 119,40) ao lado do certo (R$ 149,25)</td></tr></table>
+  <h3>O que cai, pela amostra das ${D.q.length} questões</h3>
+  ${ord.map((t) => `<div style="margin:6px 0"><div style="display:flex;justify-content:space-between;font-size:15px"><span>${esc(t.nome)}</span><span class="sub">${cont[t.id] || 0}</span></div><div class="barra" style="width:${((cont[t.id] || 0) / mx * 100).toFixed(0)}%;background:${t.cor}"></div></div>`).join('')}
+  <div class="card">
+    <h3>Como usar com o seu tempo de estudo</h3>
+    <ol>
+      <li><b>Siga os cadernos na ordem da triagem</b>: leia as fichas e faça as questões relâmpago.</li>
+      <li><b>Depois, a trilha do mesmo tema</b>: mapa, gatilho e as questões reais da IBAM.</li>
+      <li>Faça as questões <b>sem traduzir</b>. Se travar no enunciado, toque em "Traduzir para Vunesp".</li>
+      <li>Depois de 3 ou 4 trilhas, faça o <b>misto</b> (é como a prova vem).</li>
+      <li>No fim do dia, faça <b>"só as que errei"</b> até zerar.</li>
+    </ol>
+  </div>
+  <p><button class="pri" onclick="ir('cadernos')">Ir para a triagem e os cadernos →</button></p>`;
+}
+
+function trilhas() {
+  const cont = {}; D.q.forEach((q) => cont[q.tema] = (cont[q.tema] || 0) + 1);
+  const ord = D.temas.slice().sort((a, b) => (cont[b.id] || 0) - (cont[a.id] || 0));
+  $('#app').innerHTML = `<h2>Trilhas por tema</h2><p class="sub">Ordenadas pelo que mais caiu. Toque para abrir: o que cai, mapa para diferenciar, pegadinhas e o gatilho de memória.</p>
+  <div class="grade">${ord.map((t) => { const s = desemp(t.id); return `<div class="tema" data-t="${t.id}" style="border-top:4px solid ${t.cor}"><b>${esc(t.nome)}</b><small>${cont[t.id] || 0} questões reais${s.feitas ? ` · você: ${s.certas}/${s.feitas}` : ''}</small></div>`; }).join('')}</div>`;
+  document.querySelectorAll('[data-t]').forEach((d) => d.onclick = () => abreTema(d.dataset.t));
+}
+function abreTema(id) {
+  const t = tema(id), n = D.q.filter((q) => q.tema === id).length;
+  $('#app').innerHTML = `<p><button onclick="trilhas()">← trilhas</button></p>
+  <h2 style="color:${t.cor}">${esc(t.nome)}</h2>
+  <h3>O que a IBAM cobra</h3><ul>${t.cai.map((x) => `<li>${esc(x)}</li>`).join('')}</ul>
+  <h3>Mapa para não confundir</h3><table>${t.mapa.map((r) => `<tr><td style="width:38%"><b>${esc(r[0])}</b></td><td>${esc(r[1])}</td></tr>`).join('')}</table>
+  <h3>Pegadinhas</h3>${t.peg.map((x) => `<div class="peg">⚠️ ${esc(x)}</div>`).join('')}
+  <h3>Gatilho de memória</h3><div class="gat">🔑 ${esc(t.gat)}</div>
+  <p><button class="pri" id="bora">Fazer as ${n} questões deste tema →</button></p>`;
+  $('#bora').onclick = () => { iniciar({ tema: id }); };
+  window.scrollTo(0, 0);
+}
+
+
+function cadernos() {
+  const card = (c) => { const pr = D.cad[c.id]; const nq = pr ? pr.qs.length : 0; const s = pr ? D.cq.filter((q) => q.cad === c.id && st[q.id]) : []; return `<div class="tema" data-c="${c.id}" style="margin:10px 0;${pr ? '' : 'opacity:.55;cursor:default'}">
+    <b>${c.n}. ${esc(c.t)}</b>
+    <small>Gargalo: ${esc(c.gar)} · IBAM: ${esc(c.ibam)}</small><br><small>Edital: ${esc(c.ed)}</small><br>
+    <small>${pr ? `<b style="color:var(--ok)">pronto</b> · ${pr.blocos.reduce((a, b) => a + b.f.length, 0)} fichas · ${nq} questões${s.length ? ` · você fez ${s.length}` : ''}` : 'em preparação'}</small></div>`; };
+  const leg = D.triagem.filter((c) => c.g === 'leg'), eng = D.triagem.filter((c) => c.g === 'eng');
+  $('#app').innerHTML = (leg.length ? `<h2>Bloco de Legislação <span class="sub">(5 questões × 2 pontos)</span></h2>
+  <p class="sub">Estude na ordem. Cada caderno tem fichas curtas (🎯 o que é · ⚠️ pegadinha · 🔑 gatilho) e questões relâmpago no estilo IBAM.</p>
+  ${leg.map(card).join('')}` : '') + (eng.length ? `<h2>Conhecimentos Específicos <span class="sub">(13 questões × 4 pontos)</span>: triagem</h2>
+  <p class="sub">Cruzei o seu gargalo, o peso no edital e o que a IBAM mais cobra. Estude de cima para baixo. Cada caderno tem fichas curtas (🎯 o que é · ⚠️ pegadinha · 🔑 gatilho) e questões relâmpago no estilo IBAM 2026.</p>
+  ${eng.map(card).join('')}` : '');
+  document.querySelectorAll('[data-c]').forEach((d) => d.onclick = () => { if (D.cad[d.dataset.c]) abreCad(d.dataset.c); });
+}
+function abreCad(id) {
+  const c = D.triagem.find((x) => x.id === id), pr = D.cad[id];
+  $('#app').innerHTML = `<p><button onclick="cadernos()">← triagem</button></p>
+  <h2>Caderno ${c.n}: ${esc(c.t)}</h2><p>${esc(pr.intro)}</p>
+  <p><button class="pri" id="cq1">Fazer as ${pr.qs.length} questões relâmpago →</button></p>
+  ${pr.blocos.map((b) => `<h3>${esc(b.b)}</h3>${b.f.map((f) => `<div class="card" style="padding:12px 14px;margin:8px 0">
+     <b style="font-size:17px">${esc(f.t)}</b>
+     <p style="margin:6px 0">🎯 ${esc(f.o)}</p>
+     ${f.p ? `<div class="peg">⚠️ ${esc(f.p)}</div>` : ''}
+     ${f.g ? `<div style="font-weight:800;color:var(--amar);margin-top:6px">🔑 ${esc(f.g)}</div>` : ''}</div>`).join('')}`).join('')}
+  <p><button class="pri" id="cq2">Fazer as ${pr.qs.length} questões relâmpago →</button></p>`;
+  const go = () => iniciar({ cad: id }); $('#cq1').onclick = go; $('#cq2').onclick = go;
+  window.scrollTo(0, 0);
+}
+function rot(q) { if (q.cad) { const c = D.triagem.find((x) => x.id === q.cad); return { nome: 'Caderno ' + c.n, cor: '#0b57d0', gat: '' }; } return tema(q.tema); }
+
+// ---------- questões ----------
+let fila = [], qi = 0, cfg = { tema: 'todos', modo: 'normal' }, estado = null;
+function desemp(tid) { let feitas = 0, certas = 0; D.q.forEach((q) => { if ((tid === 'todos' || q.tema === tid) && st[q.id]) { feitas++; if (st[q.id].ult) certas++; } }); return { feitas, certas }; }
+function questoes() {
+  $('#app').innerHTML = `<h2>Questões</h2>
+  <div class="card">
+    <div class="linha"><label>Tema&nbsp;</label><select id="ft"><option value="todos">Todos (misto, como na prova)</option>${D.temas.map((t) => `<option value="${t.id}">${esc(t.nome)}</option>`).join('')}</select></div>
+    <div class="linha"><label>Quais&nbsp;</label><select id="fm"><option value="normal">Todas, em ordem aleatória</option><option value="novas">Só as que ainda não fiz</option><option value="erros">Só as que errei</option><option value="recentes">Só 2021 a 2026 (estilo atual)</option></select></div>
+    <p><button class="pri" id="go">Começar</button></p>
+  </div>`;
+  $('#ft').value = cfg.tema; $('#fm').value = cfg.modo;
+  $('#go').onclick = () => iniciar({ tema: $('#ft').value, modo: $('#fm').value });
+}
+function iniciar(c) {
+  cfg = Object.assign({ tema: 'todos', modo: 'normal' }, c);
+  let l = cfg.cad ? D.cq.filter((q) => q.cad === cfg.cad) : D.q.filter((q) => cfg.tema === 'todos' || q.tema === cfg.tema);
+  if (cfg.modo === 'novas') l = l.filter((q) => !st[q.id]);
+  if (cfg.modo === 'erros') l = l.filter((q) => st[q.id] && !st[q.id].ult);
+  if (cfg.modo === 'recentes') l = l.filter((q) => q.ano >= 2021);
+  fila = l.map((q) => [Math.random(), q]).sort((a, b) => a[0] - b[0]).map((x) => x[1]); qi = 0;
+  if (view !== 'questoes') { view = 'questoes'; document.querySelectorAll('#nav button').forEach((b) => b.classList.toggle('on', b.dataset.v === 'questoes')); }
+  if (!fila.length) { $('#app').innerHTML = `<div class="card"><p>${cfg.modo === 'erros' ? 'Nenhum erro pendente neste filtro. 🎉' : 'Nenhuma questão neste filtro.'}</p><button onclick="questoes()">← voltar</button></div>`; return; }
+  mostra();
+}
+function mostra() {
+  const q = fila[qi], t = rot(q);
+  estado = { sel: null, risc: new Set(), resp: false, trad: false };
+  const desenha = () => {
+    $('#app').innerHTML = `<div class="linha"><button onclick="questoes()">← filtros</button><span class="prog">Questão ${qi + 1} de ${fila.length}</span></div>
+    <div class="card">
+      <div class="fonte"><span class="chip" style="background:${t.cor};color:#fff">${esc(t.nome)}</span>${q.cad ? 'Inédita no estilo IBAM 2026' : 'IBAM · ' + esc(q.fonte)}</div>
+      <div class="enun">${esc(q.e)}</div>
+      ${estado.trad || estado.resp ? `<div class="curta">🔍 Versão Vunesp: ${esc(q.curta)}</div>` : `<p style="margin-top:10px"><button id="tr">🔍 Traduzir para Vunesp</button></p>`}
+      <div id="alts">${q.a.map((a, k) => { let c = ''; if (estado.resp) { if (k === q.g) c = 'cert'; else if (k === estado.sel) c = 'erra'; } else { if (estado.risc.has(k)) c = 'risc'; if (estado.sel === k) c += ' sel'; } return `<div class="alt ${c}"><button class="op" data-k="${k}" ${estado.resp ? 'disabled' : ''}><b>${L[k]})</b>${esc(a)}</button>${estado.resp ? '' : `<button class="x" data-x="${k}" title="riscar">✕</button>`}</div>`; }).join('')}</div>
+      ${estado.resp ? '' : `<p class="sub">Toque em ✕ para riscar o que você elimina. Depois escolha e confirme.</p><p><button class="pri" id="conf" ${estado.sel === null ? 'disabled' : ''}>Confirmar</button></p>`}
+      ${estado.resp ? `<div class="fb ${estado.sel === q.g ? 'ok' : 'no'}"><b>${estado.sel === q.g ? '✔ Acertou' : `✘ Errou. Certa: ${L[q.g]}`}</b><p style="margin:6px 0 0">${esc(q.com)}</p></div>${q.av ? `<div class="aviso">⚠️ ${esc(q.av)}</div>` : ''}
+        ${t.gat ? `<div class="gat" style="font-size:15px">🔑 ${esc(t.gat)}</div>` : ''}
+        <div class="linha">${qi < fila.length - 1 ? '<button class="pri" id="prox">Próxima →</button>' : '<button class="pri" id="fim">Ver resultado</button>'}${q.cad ? '<button id="vc">Voltar ao caderno</button>' : '<button id="vt">Abrir a trilha deste tema</button>'}</div>` : ''}
+    </div>`;
+    if ($('#tr')) $('#tr').onclick = () => { estado.trad = true; desenha(); };
+    document.querySelectorAll('[data-x]').forEach((b) => b.onclick = () => { const k = +b.dataset.x; estado.risc.has(k) ? estado.risc.delete(k) : estado.risc.add(k); if (estado.sel === k) estado.sel = null; desenha(); });
+    document.querySelectorAll('.op').forEach((b) => b.onclick = () => { const k = +b.dataset.k; if (estado.risc.has(k)) return; estado.sel = k; desenha(); });
+    if ($('#conf')) $('#conf').onclick = () => { estado.resp = true; const ok = estado.sel === q.g; const r = st[q.id] || { n: 0, a: 0 }; r.n++; if (ok) r.a++; r.ult = ok; r.trad = estado.trad; st[q.id] = r; salva(); desenha(); };
+    if ($('#prox')) $('#prox').onclick = () => { qi++; mostra(); window.scrollTo(0, 0); };
+    if ($('#fim')) $('#fim').onclick = resultado;
+    if ($('#vc')) $('#vc').onclick = () => { view = 'cadernos'; document.querySelectorAll('#nav button').forEach((b) => b.classList.toggle('on', b.dataset.v === 'cadernos')); abreCad(q.cad); };
+    if ($('#vt')) $('#vt').onclick = () => { view = 'trilhas'; document.querySelectorAll('#nav button').forEach((b) => b.classList.toggle('on', b.dataset.v === 'trilhas')); abreTema(q.tema); };
+  };
+  desenha();
+}
+function resultado() {
+  const certas = fila.filter((q) => st[q.id] && st[q.id].ult).length;
+  $('#app').innerHTML = `<div class="card"><h2>Resultado: ${certas} de ${fila.length}</h2><p>${certas / fila.length >= 0.8 ? 'Muito bom. Passe para outra trilha ou para o misto.' : 'Refaça "só as que errei" antes de seguir: o erro corrigido na hora é o que fixa.'}</p>
+  <div class="linha"><button class="pri" onclick='iniciar(${JSON.stringify(Object.assign({}, cfg, { modo: "erros" }))})'>Refazer só as que errei</button>${cfg.cad ? `<button onclick="abreCad('${cfg.cad}')">Voltar ao caderno</button>` : '<button onclick="questoes()">Outro filtro</button>'}</div></div>`;
+}
+
+function numeros() {
+  $('#app').innerHTML = `<h2>Números e distinções</h2><p class="sub">Todos os mapas das trilhas numa página, para revisar rápido ou imprimir. <button onclick="window.print()">Imprimir</button></p>
+  ${D.temas.map((t) => `<div class="card"><h3 style="color:${t.cor}">${esc(t.nome)}</h3><table>${t.mapa.map((r) => `<tr><td style="width:38%"><b>${esc(r[0])}</b></td><td>${esc(r[1])}</td></tr>`).join('')}</table>${t.gat ? `<div class="gat" style="font-size:15px">🔑 ${esc(t.gat)}</div>` : ''}</div>`).join('')}`;
+}
+
+function painel() {
+  const tot = desemp('todos');
+  const linhas = D.temas.map((t) => { const s = desemp(t.id), n = D.q.filter((q) => q.tema === t.id).length; return { t, s, n, pct: s.feitas ? s.certas / s.feitas : null }; })
+    .sort((a, b) => (a.pct ?? 2) - (b.pct ?? 2));
+  const trad = Object.values(st).filter((r) => r.trad).length;
+  $('#app').innerHTML = `<h2>Meu desempenho</h2>
+  <div class="card"><p><b>${tot.feitas}</b> de ${D.q.length} questões feitas · <b>${tot.feitas ? Math.round(tot.certas / tot.feitas * 100) : 0}%</b> de acerto na última tentativa.</p>
+  <p class="sub">Você usou a tradução para Vunesp em ${trad} questão(ões). A meta é ir precisando cada vez menos.</p></div>
+  <h3>Por tema (os mais fracos primeiro)</h3>
+  <table><tr><th>Tema</th><th>Feitas</th><th>Acerto</th><th></th></tr>${linhas.map((x) => `<tr><td>${esc(x.t.nome)}</td><td>${x.s.feitas}/${x.n}</td><td>${x.pct === null ? '–' : Math.round(x.pct * 100) + '%'}</td><td><button data-tt="${x.t.id}">treinar</button></td></tr>`).join('')}</table>
+  <p style="margin-top:16px"><button id="zera">Apagar meu histórico</button></p>`;
+  document.querySelectorAll('[data-tt]').forEach((b) => b.onclick = () => iniciar({ tema: b.dataset.tt, modo: desemp(b.dataset.tt).feitas ? 'erros' : 'normal' }));
+  $('#zera').onclick = () => { if (confirm('Apagar todo o histórico?')) { st = {}; salva(); painel(); } };
+}
+
+fetch('dados/eng.json').then((r) => r.json()).then((d) => { D = d;
+  if (D.modo === 'leg') {
+    document.title = 'Legislação Santos'; $('h1').textContent = 'Legislação: Santos 2026';
+    $('.sub').textContent = 'Bloco de Legislação Municipal, Direito Administrativo, Licitações, Contratos e Fiscalização (5 questões × 2 pontos), no modelo de cadernos: fichas curtas e questões relâmpago no estilo IBAM.';
+    document.querySelectorAll('#nav button').forEach((b) => { if (b.dataset.v !== 'cadernos') b.remove(); else b.textContent = 'Cadernos'; });
+    $('footer').textContent = 'Leis de Santos montadas com trechos dos textos oficiais encontrados por busca; os pontos incertos têm aviso ⚠️. Leis federais conferidas pelo texto legal.';
+    view = 'cadernos'; ir('cadernos');
+  } else render(); })
+  .catch(() => { $('#app').innerHTML = '<p>Não consegui carregar as questões. Recarregue a página.</p>'; });
+</script>
+</body>
+</html>
