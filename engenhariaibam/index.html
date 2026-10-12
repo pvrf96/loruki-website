@@ -150,12 +150,16 @@ function abreTema(id) {
 
 
 function cadernos() {
-  $('#app').innerHTML = `<h2>Triagem: a ordem de estudo</h2>
-  <p class="sub">Cruzei o seu gargalo, o peso no edital e o que a IBAM mais cobra. Estude de cima para baixo. Cada caderno tem fichas curtas (🎯 o que é · ⚠️ pegadinha · 🔑 gatilho) e questões relâmpago no estilo IBAM 2026.</p>
-  ${D.triagem.map((c) => { const pr = D.cad[c.id]; const nq = pr ? pr.qs.length : 0; const s = pr ? D.cq.filter((q) => q.cad === c.id && st[q.id]) : []; return `<div class="tema" data-c="${c.id}" style="margin:10px 0;${pr ? '' : 'opacity:.55;cursor:default'}">
+  const card = (c) => { const pr = D.cad[c.id]; const nq = pr ? pr.qs.length : 0; const s = pr ? D.cq.filter((q) => q.cad === c.id && st[q.id]) : []; return `<div class="tema" data-c="${c.id}" style="margin:10px 0;${pr ? '' : 'opacity:.55;cursor:default'}">
     <b>${c.n}. ${esc(c.t)}</b>
     <small>Gargalo: ${esc(c.gar)} · IBAM: ${esc(c.ibam)}</small><br><small>Edital: ${esc(c.ed)}</small><br>
-    <small>${pr ? `<b style="color:var(--ok)">pronto</b> · ${pr.blocos.reduce((a, b) => a + b.f.length, 0)} fichas · ${nq} questões${s.length ? ` · você fez ${s.length}` : ''}` : 'em preparação'}</small></div>`; }).join('')}`;
+    <small>${pr ? `<b style="color:var(--ok)">pronto</b> · ${pr.blocos.reduce((a, b) => a + b.f.length, 0)} fichas · ${nq} questões${s.length ? ` · você fez ${s.length}` : ''}` : 'em preparação'}</small></div>`; };
+  $('#app').innerHTML = `<h2>Bloco de Legislação <span class="sub">(5 questões × 2 pontos)</span></h2>
+  <p class="sub">Direito Administrativo, improbidade, LAI, Código do Usuário, LGPD, governo digital, 14.133 na execução e leis de Santos.</p>
+  ${D.triagem.filter((c) => c.g === 'leg').map(card).join('')}
+  <h2 style="margin-top:32px">Conhecimentos Específicos <span class="sub">(13 questões × 4 pontos)</span>: triagem</h2>
+  <p class="sub">Cruzei o seu gargalo, o peso no edital e o que a IBAM mais cobra. Estude de cima para baixo. Cada caderno tem fichas curtas (🎯 o que é · ⚠️ pegadinha · 🔑 gatilho) e questões relâmpago no estilo IBAM 2026.</p>
+  ${D.triagem.filter((c) => c.g === 'eng').map(card).join('')}`;
   document.querySelectorAll('[data-c]').forEach((d) => d.onclick = () => { if (D.cad[d.dataset.c]) abreCad(d.dataset.c); });
 }
 function abreCad(id) {
