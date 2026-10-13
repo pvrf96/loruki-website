@@ -257,7 +257,7 @@ function painel() {
 fetch('dados/eng.json').then((r) => r.json()).then((d) => { D = d;
   if (D.modo === 'leg') {
     document.title = 'Legislação Santos'; $('h1').textContent = 'Legislação: Santos 2026';
-    $('.sub').textContent = 'Bloco de Legislação Municipal, Direito Administrativo, Licitações, Contratos e Fiscalização (5 questões × 2 pontos), no modelo de cadernos: fichas curtas e questões relâmpago no estilo IBAM.';
+    $('.sub').insertAdjacentHTML('afterend', '<a href="aposta-santos.html" style="display:block;background:#0C447C;color:#fff;border-radius:12px;padding:12px 14px;margin:10px 0;text-decoration:none;font-weight:700">★ Aposta estratégica · Leis de Santos (modelo PPS) →</a>'); $('.sub').textContent = 'Bloco de Legislação Municipal, Direito Administrativo, Licitações, Contratos e Fiscalização (5 questões × 2 pontos), no modelo de cadernos: fichas curtas e questões relâmpago no estilo IBAM.';
     document.querySelectorAll('#nav button').forEach((b) => { if (b.dataset.v !== 'cadernos') b.remove(); else b.textContent = 'Cadernos'; });
     $('footer').textContent = 'Leis de Santos montadas com trechos dos textos oficiais encontrados por busca; os pontos incertos têm aviso ⚠️. Leis federais conferidas pelo texto legal.';
     view = 'cadernos'; ir('cadernos');
