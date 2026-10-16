@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JEV Ranker — Data-base e marcos de prazo</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #0A0E17; color: #F8FAFC; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; min-height: 100vh; padding: 24px 16px; }
+  main { max-width: 900px; margin: 0 auto; }
+  h1 { font-size: 24px; margin-bottom: 8px; }
+  p.desc { color: #94A3B8; font-size: 14px; margin-bottom: 12px; line-height: 1.5; }
+  .nav { font-size: 12px; margin-bottom: 18px; display: flex; gap: 14px; flex-wrap: wrap; }
+  .nav a { color: #60A5FA; text-decoration: none; }
+  .docs { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 12px; }
+  .doc { background: #111C33; color: #E2E8F0; border: 1px solid #334155; padding: 6px 10px; border-radius: 8px; font-size: 12.5px; cursor: pointer; font-weight: 600; }
+  .doc.on { background: #7C3AED; border-color: #7C3AED; color: #fff; }
+  label.tog { font-size: 13px; color: #CBD5E1; display: inline-flex; gap: 6px; align-items: center; cursor: pointer; margin-right: 14px; }
+  #status { font-size: 13px; color: #9ca3af; margin: 8px 0 12px; }
+  .item { background: #111C33; border: 1px solid #1E293B; border-left: 4px solid #7C3AED; border-radius: 8px; padding: 12px 14px; margin-bottom: 8px; }
+  .topo { display: flex; justify-content: space-between; gap: 10px; font-size: 12px; color: #94A3B8; margin-bottom: 6px; flex-wrap: wrap; }
+  .topo b { color: #F8FAFC; }
+  .chance { font-size: 11.5px; font-weight: 700; color: #C4B5FD; background: #2A1A4A; padding: 2px 8px; border-radius: 999px; }
+  .trecho { font-size: 13.5px; line-height: 1.55; color: #E2E8F0; }
+  mark { background: #22C55E; color: #052E16; padding: 0 3px; border-radius: 3px; font-weight: 700; }
+  .treino mark { background: #334155; color: #334155; }
+  .pk { margin-top: 8px; font-size: 13px; color: #FCA5A5; background: #2A1212; border-radius: 6px; padding: 6px 10px; }
+  .treino .pk { display: none; }
+  .treino .item { cursor: pointer; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Data-base: de quando conta cada prazo</h1>
+  <p class="desc">Todos os trechos das leis e das OTs do seu edital que fixam a data-base ou o marco de contagem de um prazo ("contado da", "a partir da", "antes da assinatura", "antecedência mínima"...). Para cada um, o Jev estimou a chance de a banca trocar o marco (OP2) e qual marco errado ela colocaria. O marco certo aparece em verde.</p>
+  <div class="nav"><a href="/">← armadilha</a><a href="/absolutos">absolutos</a><a href="/modais">deve/pode/vedado</a><a href="/prazos">prazos</a><a href="/top14133">Lei 14.133</a></div>
+  <div class="docs" id="docs"></div>
+  <label class="tog"><input type="checkbox" id="treino"> Modo treino: esconder o marco (clique no item para revelar)</label>
+  <label class="tog"><input type="checkbox" id="todos"> Mostrar todos (não só os 40 primeiros)</label>
+  <div id="status">Carregando…</div>
+  <div id="lista"></div>
+</main>
+<script>
+const TROCA = { proposta: 'data da proposta', orcamento: 'data do orçamento estimado', assinatura: 'assinatura do contrato', ordem_servico: 'ordem de serviço / início da execução', publicacao: 'publicação do edital ou do ato', notificacao: 'recebimento da notificação / intimação', conclusao: 'conclusão / recebimento do objeto', homologacao: 'homologação / adjudicação' };
+const FRASE = {
+  sempre: 'a banca diz que vale <b>sempre</b>',
+  nunca: 'a banca diz que <b>nunca</b> se admite / em nenhum caso',
+  em_qualquer_caso: 'a banca diz que vale <b>em qualquer caso</b> / independentemente da condição',
+  exclusivamente: 'a banca diz que vale <b>exclusivamente</b> numa hipótese',
+  obrigatoriamente: 'a banca transforma em dever: <b>obrigatoriamente</b>'
+};
+const $ = (id) => document.getElementById(id);
+let dados = null, doc = 'Todas';
+function esc(t) { return String(t).replace(/[&<>"']/g, (m) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;' }[m])); }
+function destaca(trecho, alvo) {
+  const t = esc(trecho), a = esc(alvo), i = t.indexOf(a);
+  return i < 0 ? t : t.slice(0, i) + '<mark>' + a + '</mark>' + t.slice(i + a.length);
+}
+function renderiza() {
+  const docs = ['Todas', ...new Set(dados.itens.map((i) => i.doc))];
+  $('docs').innerHTML = docs.map((d) => `<span class="doc ${d === doc ? 'on' : ''}" data-d="${esc(d)}">${esc(d)}</span>`).join('');
+  let vis = dados.itens.filter((i) => doc === 'Todas' || i.doc === doc).sort((a, b) => (b.chance || 0) - (a.chance || 0));
+  const total = vis.length;
+  if (!$('todos').checked) vis = vis.slice(0, 40);
+  $('status').textContent = `${total} marcos nesta seleção; mostrando ${vis.length}, do mais provável para o menos.`;
+  document.body.classList.toggle('treino', $('treino').checked);
+  $('lista').innerHTML = vis.map((it) => `<div class="item">
+    <div class="topo"><span><b>${esc(it.doc)}</b> · ${esc(it.dispositivo)}</span>
+    <span class="chance">chance de cair com troca de marco ${it.chance != null ? Math.round(it.chance * 100) + '%' : '—'}</span></div>
+    <div class="trecho">${destaca(it.trecho, it.alvo)}</div>
+    <div class="pk">Pegadinha provável: troca "${esc(it.alvo)}…" por <b>${TROCA[it.troca] || 'outro marco'}</b>.</div></div>`).join('');
+}
+$('docs').addEventListener('click', (e) => { const d = e.target.dataset.d; if (d) { doc = d; renderiza(); } });
+$('treino').addEventListener('change', renderiza);
+$('todos').addEventListener('change', renderiza);
+$('lista').addEventListener('click', (e) => { if (document.body.classList.contains('treino')) { const it = e.target.closest('.item'); if (it) it.querySelectorAll('mark').forEach((m) => { m.style.background = '#22C55E'; m.style.color = '#052E16'; }); } });
+fetch('/dados/marcos.json').then((r) => r.json()).then((d) => { dados = d; renderiza(); })
+  .catch((e) => { $('status').textContent = 'Erro: ' + e.message; });
+</script>
+<script src="/menu.js"></script>
+</body>
+</html>

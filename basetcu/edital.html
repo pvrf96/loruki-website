@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Estudo · Edital por tópicos</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #0A0E17; color: #F8FAFC; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; min-height: 100vh; padding: 24px 16px; }
+  main { max-width: 900px; margin: 0 auto; }
+  h1 { font-size: 24px; margin-bottom: 8px; }
+  p.desc { color: #94A3B8; font-size: 14px; margin-bottom: 12px; line-height: 1.55; }
+  .box { background: #0F172A; border: 1px solid #1E293B; border-radius: 10px; padding: 12px 14px; margin-bottom: 14px; font-size: 13.5px; line-height: 1.55; color: #CBD5E1; }
+  .box b { color: #FCD34D; }
+  .top { background: #111C33; border: 1px solid #1E293B; border-left: 4px solid #475569; border-radius: 10px; padding: 14px 16px; margin-bottom: 12px; }
+  .top.feito { border-left-color: #22C55E; } .top.andamento { border-left-color: #14B8A6; } .top.proxima { border-left-color: #3B82F6; } .top.pendente { border-left-color: #F59E0B; }
+  .cab { display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap; align-items: baseline; margin-bottom: 4px; }
+  .nome { font-size: 16px; font-weight: 800; }
+  .st { font-size: 11.5px; font-weight: 700; border-radius: 999px; padding: 2px 10px; white-space: nowrap; }
+  .feito .st { background: #052E16; color: #86EFAC; } .andamento .st { background: #07302B; color: #5EEAD4; } .proxima .st { background: #10264A; color: #93C5FD; } .pendente .st { background: #3A2A05; color: #FCD34D; }
+  .det { font-size: 13px; color: #94A3B8; margin-bottom: 8px; }
+  .partes { display: flex; flex-wrap: wrap; gap: 8px; margin: 6px 0; }
+  a.bt { background: #22124A; border: 1px solid #7C3AED; color: #DDD6FE; padding: 7px 12px; border-radius: 8px; font-size: 13px; text-decoration: none; }
+  a.bt:hover { background: #4C1D95; color: #fff; }
+  .nota { font-size: 13px; color: #CBD5E1; line-height: 1.5; margin-top: 6px; }
+  .nota b { color: #FCD34D; }
+</style>
+</head>
+<body>
+<main>
+  <nav id="menu"></nav>
+  <h1>Edital por tópicos</h1>
+  <p class="desc">As pegadinhas e a teoria organizadas pelos temas do edital. Cada parte é montada com o texto da lei ou da norma, e o Jev confere as afirmações.</p>
+  <div class="box"><b>Atenção:</b> a lista de temas abaixo vem do resumo do edital que o <code>jev-ranker</code> guarda. Eu <b>não tenho o conteúdo programático completo</b>, que está no <code>CLAUDE.md</code> do seu computador. Se você me passar o texto do edital, eu reorganizo estes tópicos e a ordem das partes.</div>
+  <div id="lista">Carregando…</div>
+</main>
+<script>
+const $ = (id) => document.getElementById(id);
+function esc(t) { return String(t).replace(/[&<>"']/g, (m) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;' }[m])); }
+const STATUS = { feito: 'concluído', andamento: 'em andamento', proxima: 'próxima parte', pendente: 'precisa de texto seu' };
+const TOPICOS = [
+  { nome: 'Obras rodoviárias e pavimentação urbana', det: 'Manual de Pavimentação DNIT (IPR-719), sondagens, ensaios, terraplenagem, pavimentação, drenagem, OAE, equipamentos, SICRO e controle de execução', st: 'andamento',
+    partes: [['Resumo: o que mais cai', '/rodovias']],
+    nota: '<b>Falta:</b> as pegadinhas. Sem o texto do manual e das especificações do DNIT o Jev não confere os valores (testei: ele não separa CBR 20% de 80%). <b>Preciso de:</b> os PDFs do manual e das especificações.' },
+  { nome: 'Licitações e contratos', det: 'Lei 14.133/2021', st: 'feito',
+    partes: [['Teoria e questões de cálculo', '/lei14133'], ['Pegadinhas', '/pegadinhas-lei14133', '/dados/pegadinhas-lei14133.json']] },
+  { nome: 'Resíduos sólidos', det: 'Lei 12.305/2010', st: 'feito',
+    partes: [['Teoria passo a passo', '/lei12305'], ['Pegadinhas', '/pegadinhas-lei12305', '/dados/pegadinhas-lei12305.json']] },
+  { nome: 'Saneamento básico', det: 'Lei 11.445/2007 (novo marco legal)', st: 'andamento',
+    partes: [['Pegadinhas', '/pegadinhas-lei11445', '/dados/pegadinhas-lei11445.json']],
+    nota: '<b>Falta:</b> teoria em etapas e questões de cálculo.' },
+  { nome: 'Recursos hídricos', det: 'Lei 9.433/1997', st: 'proxima',
+    nota: 'O texto da lei já está no acervo, então posso fazer sem nada de você.' },
+  { nome: 'Meio ambiente', det: 'Lei 6.938/1981, CONAMA 237, 001 e 307, Lei 9.605/1998', st: 'proxima',
+    nota: 'Os textos já estão no acervo. Entram em duas partes: política e licenciamento, e depois crimes ambientais.' },
+  { nome: 'Concessões e PPPs', det: 'Leis 8.987/1995 e 11.079/2004', st: 'pendente',
+    nota: '<b>Preciso de:</b> o texto completo das duas leis. No acervo só há trechos de prazos e verbos, e não dá para fazer pegadinha com trecho literal só com isso.' },
+  { nome: 'Orçamento de obras', det: 'SINAPI, SICRO, BDI e Decreto 7.983', st: 'pendente',
+    nota: '<b>Preciso de:</b> o texto do Decreto 7.983 e dos documentos de referência que o edital cobra. Não tenho essas fontes.' },
+  { nome: 'Obras rodoviárias e pavimentação', det: 'Manuais do DNIT, terraplenagem, drenagem, ensaios, equipamentos', st: 'pendente',
+    nota: '<b>Preciso de:</b> os manuais e normas indicados no edital, em texto.' },
+  { nome: 'Iluminação pública', det: 'conforme o edital', st: 'pendente',
+    nota: '<b>Preciso de:</b> as normas e o conteúdo que o edital indica para este tema.' },
+  { nome: 'ODS (Agenda 2030)', det: 'conforme o edital', st: 'pendente',
+    nota: '<b>Preciso de:</b> o que o edital cobra sobre os ODS.' }
+];
+async function conta(url) { try { const d = await (await fetch(url)).json(); return d.itens.length; } catch (e) { return null; } }
+(async () => {
+  const cont = {};
+  await Promise.all(TOPICOS.flatMap((t) => (t.partes || []).filter((p) => p[2]).map(async (p) => { cont[p[2]] = await conta(p[2]); })));
+  const feitas = TOPICOS.filter((t) => t.st === 'feito').length;
+  $('lista').innerHTML = `<p class="desc">${feitas} de ${TOPICOS.length} tópicos concluídos.</p>` + TOPICOS.map((t) => `<div class="top ${t.st}">
+    <div class="cab"><span class="nome">${esc(t.nome)}</span><span class="st">${STATUS[t.st]}</span></div>
+    <div class="det">${esc(t.det)}</div>
+    ${t.partes ? `<div class="partes">${t.partes.map((p) => `<a class="bt" href="${p[1]}">${esc(p[0])}${p[2] && cont[p[2]] ? ' (' + cont[p[2]] + ')' : ''}</a>`).join('')}</div>` : ''}
+    ${t.nota ? `<div class="nota">${t.nota}</div>` : ''}</div>`).join('');
+})();
+</script>
+<script src="/menu.js"></script>
+</body>
+</html>

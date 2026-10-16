@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meio Ambiente · Lei 14.133 licitações e contratos</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #0A0E17; color: #F8FAFC; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; min-height: 100vh; padding: 24px 16px; }
+  main { max-width: 960px; margin: 0 auto; }
+  h1 { font-size: 24px; margin-bottom: 8px; }
+  h2 { font-size: 17px; margin: 22px 0 10px; color: #93C5FD; }
+  p.desc { color: #94A3B8; font-size: 14px; margin-bottom: 12px; line-height: 1.55; }
+  .box { background: #0F172A; border: 1px solid #1E293B; border-radius: 10px; padding: 12px 14px; margin-bottom: 12px; overflow-x: auto; }
+  .not { display: flex; flex-wrap: wrap; gap: 8px; }
+  .not span { font-family: ui-monospace, Consolas, monospace; background: #111C33; border: 1px solid #334155; border-radius: 6px; padding: 4px 10px; font-size: 14px; }
+  .not b { color: #FDE68A; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th { text-align: left; color: #93C5FD; font-weight: 700; padding: 6px 8px; border-bottom: 1px solid #334155; white-space: nowrap; }
+  td { padding: 6px 8px; border-bottom: 1px solid #1E293B; color: #E2E8F0; vertical-align: top; }
+  td.f { font-family: ui-monospace, Consolas, monospace; color: #FDE68A; white-space: nowrap; }
+  .linha { position: relative; padding-left: 26px; }
+  .linha::before { content: ""; position: absolute; left: 9px; top: 6px; bottom: 6px; width: 3px; background: linear-gradient(#64748B, #F97316, #DC2626, #38BDF8, #22C55E); border-radius: 2px; }
+  .et { position: relative; background: #111C33; border: 1px solid #1E293B; border-radius: 10px; padding: 14px 16px; margin-bottom: 12px; }
+  .et::before { content: ""; position: absolute; left: -23px; top: 18px; width: 13px; height: 13px; border-radius: 50%; background: #F97316; border: 2px solid #0A0E17; }
+  .topo { display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap; align-items: baseline; margin-bottom: 6px; }
+  .nome { font-size: 16px; font-weight: 800; }
+  .meta { font-size: 12px; color: #94A3B8; }
+  .temp { font-size: 12px; font-weight: 800; color: #FDBA74; background: #3B1D0A; border-radius: 999px; padding: 2px 9px; margin-left: 6px; }
+  .imp { font-size: 11.5px; font-weight: 700; color: #93C5FD; background: #10264A; padding: 2px 8px; border-radius: 999px; }
+  .rx { background: #0B2530; border: 1px solid #155E75; border-radius: 8px; padding: 8px 10px; margin: 8px 0; }
+  .rx div { font-family: ui-monospace, Consolas, monospace; font-size: 13.5px; color: #A5F3FC; margin: 3px 0; }
+  ul.fatos { list-style: none; display: grid; gap: 6px; margin-top: 6px; }
+  ul.fatos li { font-size: 14px; line-height: 1.55; color: #E2E8F0; padding-left: 4px; }
+  .ok { font-size: 10.5px; font-weight: 800; border-radius: 4px; padding: 1px 6px; margin-left: 6px; white-space: nowrap; vertical-align: 1px; }
+  .ok.v { background: #052E16; color: #4ADE80; } .ok.r { background: #3A2A05; color: #FCD34D; }
+  .rev { display: block; font-size: 11.5px; color: #FCD34D; margin-top: 2px; }
+  .prova { margin-top: 10px; background: #1C1017; border: 1px solid #7F1D1D; border-radius: 8px; padding: 8px 10px; font-size: 13.5px; color: #FECACA; }
+  .prova b { color: #F87171; }
+.q { background:#111C33; border:1px solid #1E293B; border-left:4px solid #F97316; border-radius:10px; padding:16px 18px; margin-bottom:14px; }
+  .q .ab { font-size:12px; font-weight:800; color:#FDBA74; text-transform:uppercase; letter-spacing:.05em; }
+  .q .en { font-size:15px; line-height:1.6; margin:8px 0 10px; }
+  .q .alts { display:grid; gap:4px; font-size:14.5px; margin-bottom:8px; }
+  .q .alts span { padding:4px 10px; border-radius:6px; background:#0F172A; }
+  .q .alts span.ok { background:#052E16; color:#86EFAC; font-weight:700; }
+  .q details summary { cursor:pointer; color:#60A5FA; font-size:13.5px; }
+  .q .pass { background:#0B2530; border:1px solid #155E75; border-radius:8px; padding:8px 10px; margin:8px 0; font-family:ui-monospace,Consolas,monospace; font-size:13px; color:#A5F3FC; display:grid; gap:4px; }
+  .q .err { font-size:13.5px; color:#FECACA; display:grid; gap:4px; }
+</style>
+<style>
+  .av { background: #2A210A; border: 1px solid #854D0E; border-radius: 8px; padding: 8px 10px; margin: 8px 0; font-size: 13px; color: #FDE68A; line-height: 1.5; }
+  .av b { color: #FCD34D; }
+  .conf b { color: #4ADE80; }
+  td.n { white-space: nowrap; font-weight: 700; color: #93C5FD; }
+  .box table td { line-height: 1.45; }
+  .q .alts span.ok { font-size: 14.5px; padding: 4px 10px; margin-left: 0; vertical-align: baseline; white-space: normal; border-radius: 6px; }
+</style>
+</head>
+<body>
+<main>
+  <nav id="menu"></nav>
+  <h1>Lei 14.133/2021: licitações e contratos, passo a passo</h1>
+  <p class="desc">A teoria em etapas, os números que a banca troca e 5 questões de cálculo, cada uma com uma abordagem diferente. As contas foram feitas por script, e cada alternativa errada nasce de um erro específico. O Jev conferiu cada afirmação contra o texto dos artigos (selo verde = conferido; selo amarelo = o Jev ficou em dúvida e a frase foi revisada à mão contra o texto da lei).</p>
+  <div class="box conf" id="conf"></div>
+
+  <h2>Números que caem</h2>
+  <div class="box"><div class="not" id="not"></div></div>
+
+  <h2>Limites e percentuais</h2>
+  <div class="box"><table id="tab"><tr><th>assunto</th><th>o que a lei diz</th><th>artigo</th><th>cuidado</th></tr></table></div>
+
+  <h2>A teoria, etapa por etapa</h2>
+  <div class="linha" id="etapas">Carregando…</div>
+
+  <h2>Questões: 5 abordagens diferentes</h2>
+  <p class="desc">Tente resolver antes de abrir a resolução. Abrir a resolução destaca o gabarito e explica o erro que leva a cada alternativa errada.</p>
+  <div id="quest"></div>
+</main>
+<script>
+const $ = (id) => document.getElementById(id);
+function esc(t) { return String(t).replace(/[&<>"']/g, (m) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;' }[m])); }
+function selo(f) {
+  if (f.conf == null) return '';
+  return f.revisao ? `<span class="ok r">Jev ${Math.round(f.conf * 100)}% · revisado</span><span class="rev">${esc(f.revisao)}</span>`
+    : `<span class="ok v">✓ Jev ${Math.round(f.conf * 100)}%</span>`;
+}
+fetch('/dados/lei14133.json').then((r) => r.json()).then((d) => {
+  const c = d.conferencia;
+  $('conf').innerHTML = `<b>Como o Jev conferiu.</b> ${c.afirmacoes} afirmações (${c.fatos} da teoria, ${c.tabela} da tabela e ${c.regras} regras usadas nas questões), cada uma comparada com o texto dos artigos citados (modelo ${esc(c.modelo)}). ${c.revisadas} ficaram abaixo de 80% e foram revisadas à mão. Como teste, ${c.controles} afirmações erradas de propósito receberam entre ${c.controle_min} e ${c.controle_max}, ou seja, o Jev as reprovou. O Jev dá uma probabilidade, não uma garantia. Os valores em reais são os do texto da lei guardado no acervo (sem atualização por decreto): confira no texto oficial antes de usar em prova ou documento.`;
+  $('not').innerHTML = d.notacao.map(([a, b]) => `<span><b>${esc(a)}</b> ${esc(b)}</span>`).join('');
+  $('tab').innerHTML += d.tabela.map((r) => `<tr><td><b>${esc(r.assunto)}</b></td><td>${esc(r.limite)} ${selo(r)}</td><td class="n">${esc(r.artigos)}</td><td>${esc(r.cuidado || '-')}</td></tr>`).join('');
+  $('etapas').innerHTML = d.etapas.map((e) => `<div class="et">
+    <div class="topo"><span><span class="nome">${esc(e.nome)}</span><span class="temp">${esc(e.onde)}</span><br><span class="meta">${esc(e.marco)}</span></span>
+    <span class="imp">chance de cair ${e.peso != null ? Math.round(e.peso * 100) + '%' : '-'}</span></div>
+    ${e.aviso ? `<div class="av"><b>Atenção:</b> ${esc(e.aviso)}</div>` : ''}
+    <ul class="fatos">${e.fatos.map((f) => `<li>${esc(f.txt)} ${selo(f)}</li>`).join('')}</ul>
+    <div class="prova"><b>Na prova:</b> ${esc(e.prova)}</div></div>`).join('');
+  $('quest').innerHTML = d.questoes.map((q, n) => `<div class="q"><div class="topo"><span><span class="ab">${esc(q.abordagem)}</span><br><b>Questão ${n + 1} · ${esc(q.titulo)}</b></span><span class="imp">chance de cair ${q.peso != null ? Math.round(q.peso * 100) + '%' : '-'}</span></div>
+    <div class="en">${esc(q.enunciado)}</div>
+    <div class="alts">${Object.entries(q.alternativas).map(([L, t]) => `<span data-ok="${L === q.gabarito}">${L}) ${esc(t)}</span>`).join('')}</div>
+    <details><summary>ver resolução</summary><div class="pass">${q.passos.map(esc).join('<br>')}</div>
+    <div class="err"><b style="color:#86EFAC">Gabarito: ${q.gabarito}) ${esc(q.alternativas[q.gabarito])}</b>${Object.entries(q.erros).map(([L, m]) => `<div><b>${L})</b> ${esc(m)}</div>`).join('')}
+    <div style="margin-top:8px"><b>Regra aplicada</b> ${selo({ conf: q.regra_conf })}<br>${esc(q.regra)}</div></div></details></div>`).join('');
+  document.querySelectorAll('.q details').forEach((dt) => dt.addEventListener('toggle', () => dt.parentElement.querySelectorAll('.alts span').forEach((sp) => sp.classList.toggle('ok', dt.open && sp.dataset.ok === 'true'))));
+}).catch((e) => { $('etapas').textContent = 'Erro: ' + e.message; });
+</script>
+<script src="/menu.js"></script>
+</body>
+</html>

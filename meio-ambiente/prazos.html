@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JEV Ranker — Prazos: máximo ou mínimo</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #0A0E17; color: #F8FAFC; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; min-height: 100vh; padding: 24px 16px; }
+  main { max-width: 900px; margin: 0 auto; }
+  h1 { font-size: 24px; margin-bottom: 8px; }
+  p.desc { color: #94A3B8; font-size: 14px; margin-bottom: 12px; line-height: 1.5; }
+  .nav { font-size: 12px; margin-bottom: 18px; display: flex; gap: 14px; flex-wrap: wrap; }
+  .nav a { color: #60A5FA; text-decoration: none; }
+  .leis { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
+  .lei { background: #111C33; color: #E2E8F0; border: 1px solid #334155; padding: 8px 12px; border-radius: 8px; font-size: 13px; cursor: pointer; font-weight: 600; }
+  .lei.on { background: #0EA5E9; border-color: #0EA5E9; color: #fff; }
+  .lei.todas { border-color: #EAB308; color: #FDE047; }
+  .lei.todas.on { background: #EAB308; color: #0A0E17; }
+  .chips { display: flex; gap: 8px; flex-wrap: wrap; margin: 6px 0 12px; }
+  .chip { background: #1E293B; color: #CBD5E1; border: 1px solid #334155; padding: 5px 11px; border-radius: 999px; font-size: 12.5px; cursor: pointer; }
+  .chip.on { background: #F8FAFC; color: #0A0E17; border-color: #F8FAFC; font-weight: 700; }
+  label.tog { font-size: 13px; color: #CBD5E1; display: inline-flex; gap: 6px; align-items: center; cursor: pointer; }
+  #status { font-size: 13px; color: #9ca3af; margin: 8px 0 12px; }
+  h2.grupo { font-size: 15px; color: #FDE047; margin: 20px 0 8px; font-family: ui-monospace, Consolas, monospace; }
+  .item { background: #111C33; border: 1px solid #1E293B; border-left: 4px solid #334155; border-radius: 8px; padding: 12px 14px; margin-bottom: 8px; }
+  .item.maximo { border-left-color: #EF4444; } .item.minimo { border-left-color: #22C55E; }
+  .item.faixa { border-left-color: #EAB308; } .item.referencia { border-left-color: #64748B; }
+  .item.oculto { border-left-color: #334155; cursor: pointer; }
+  .topo { display: flex; justify-content: space-between; gap: 10px; font-size: 12px; color: #94A3B8; margin-bottom: 6px; flex-wrap: wrap; }
+  .valor { font-family: ui-monospace, Consolas, monospace; font-weight: 700; color: #F8FAFC; font-size: 14px; }
+  .badge { font-size: 12px; font-weight: 800; padding: 2px 10px; border-radius: 999px; }
+  .badge.maximo { background: #3B1212; color: #FCA5A5; } .badge.minimo { background: #0F2E1A; color: #86EFAC; }
+  .badge.faixa { background: #33290A; color: #FDE047; } .badge.referencia { background: #1E293B; color: #CBD5E1; }
+  .badge.erro { background: #3B1212; color: #FCA5A5; }
+  .trecho { font-size: 13.5px; line-height: 1.55; color: #E2E8F0; }
+  mark { background: #FDE047; color: #0A0E17; padding: 0 3px; border-radius: 3px; font-weight: 700; }
+  .oculto .badge { visibility: hidden; }
+  .freq { font-size: 11.5px; font-weight: 700; color: #38BDF8; background: #0C2A3D; padding: 2px 8px; border-radius: 999px; margin-left: 6px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Prazos: máximo ou mínimo?</h1>
+  <p class="desc">Cada prazo e percentual das leis do acervo, classificado pelo Jev como <b style="color:#FCA5A5">máximo</b>, <b style="color:#86EFAC">mínimo</b>, <b style="color:#FDE047">faixa</b> ou <b>referência/fixo</b>. Em "Todas por unidade", os prazos de leis diferentes aparecem lado a lado, agrupados pela unidade: é onde mora a troca de vizinho.</p>
+  <div class="nav">
+    <a href="/">← armadilha</a><a href="/modais">deve/pode/vedado</a><a href="/dificuldade">dificuldade</a><a href="/probabilidade">probabilidade</a>
+    <a href="/relevancia">relevância</a><a href="/estudo-caso">estudo de caso</a><a href="/classificar">classificar</a>
+  </div>
+
+  <div class="leis" id="leis"></div>
+  <div class="chips" id="chips"></div>
+  <label class="tog"><input type="checkbox" id="treino"> Modo treino: esconder a resposta (clique no item para revelar)</label>
+  <label class="tog" style="margin-left:14px;"><input type="checkbox" id="cobrados"> Ordenar pela chance de cair</label>
+  <div id="status">Carregando…</div>
+  <div id="lista"></div>
+</main>
+
+<script>
+const LEIS = [
+  ['conama237', 'CONAMA 237'],
+  ['lei9605', 'Lei 9.605'],
+  ['lei6938', 'Lei 6.938']
+];
+const NOME = Object.fromEntries(LEIS);
+const ROTULO = { maximo: 'MÁXIMO', minimo: 'MÍNIMO', faixa: 'FAIXA', referencia: 'REFERÊNCIA', erro: 'ERRO' };
+const UNIDADES = ['horas', 'dias úteis', 'dias corridos', 'dias', 'meses', 'anos', '%'];
+const cache = {};
+let atual = 'conama237', filtro = 'todos';
+const $ = (id) => document.getElementById(id);
+
+function esc(t) { return String(t).replace(/[&<>"']/g, (m) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;' }[m])); }
+function destaca(trecho, alvo) {
+  const t = esc(trecho), a = esc(alvo), i = t.indexOf(a);
+  return i < 0 ? t : t.slice(0, i) + '<mark>' + a + '</mark>' + t.slice(i + a.length);
+}
+function unidadeDe(it) { const u = (it.unidade || '').replace(/^dia$/, 'dias').replace(/^mês$/, 'meses').replace(/^ano$/, 'anos').replace(/^hora$/, 'horas'); return u; }
+
+async function carrega(lei) {
+  if (!cache[lei]) {
+    const r = await fetch(`/dados/prazos-${lei}.json`);
+    if (!r.ok) throw new Error('arquivo não encontrado');
+    cache[lei] = await r.json();
+  }
+  return cache[lei];
+}
+
+function card(it, mostrarLei, somaFreq) {
+  const p = it.papel || 'erro';
+  const oc = $('treino').checked ? 'oculto' : p;
+  const fq = it.chance != null ? `<span class="freq">chance de cair ${Math.round(it.chance * 100)}%</span>` : '';
+  return `<div class="item ${oc}" data-p="${p}">
+    <div class="topo"><span>${mostrarLei ? '<b>' + esc(NOME[it.lei] || it.lei) + '</b> · ' : ''}${esc(it.dispositivo)} · <span class="valor">${esc(it.valor)}</span>${fq}</span>
+    <span class="badge ${p}">${ROTULO[p]}</span></div>
+    <div class="trecho">${destaca(it.trecho, it.alvo)}</div></div>`;
+}
+
+async function renderiza() {
+  $('leis').innerHTML = LEIS.map(([k, n]) => `<span class="lei ${atual === k ? 'on' : ''}" data-l="${k}">${n}</span>`).join('')
+    + `<span class="lei todas ${atual === 'todas' ? 'on' : ''}" data-l="todas">Todas por unidade</span>`;
+  let itens;
+  try {
+    if (atual === 'todas') {
+      const todos = await Promise.all(LEIS.map(([k]) => carrega(k).catch(() => null)));
+      itens = todos.filter(Boolean).flatMap((d) => d.itens);
+    } else {
+      itens = (await carrega(atual)).itens;
+    }
+  } catch (e) { $('status').textContent = 'Erro: ' + e.message; $('lista').innerHTML = ''; return; }
+
+  const cont = {};
+  itens.forEach((it) => { const p = it.papel || 'erro'; cont[p] = (cont[p] || 0) + 1; });
+  $('chips').innerHTML = ['todos', 'maximo', 'minimo', 'faixa', 'referencia'].map((k) =>
+    `<span class="chip ${filtro === k ? 'on' : ''}" data-k="${k}">${k === 'todos' ? 'Todos' : ROTULO[k]} (${k === 'todos' ? itens.length : (cont[k] || 0)})</span>`).join('');
+  let vis = itens.filter((it) => filtro === 'todos' || it.papel === filtro);
+  if ($('cobrados').checked) vis = [...vis].sort((a, b) => (b.chance || 0) - (a.chance || 0));
+  const soma = 0;
+  $('status').textContent = `${vis.length} prazos exibidos. "Chance de cair" é a estimativa do Jev para prova de auditoria de obras (perfil TCE-SP/Vunesp), não uma contagem de questões.`;
+
+  if (atual === 'todas') {
+    const grupos = {};
+    vis.forEach((it) => { (grupos[unidadeDe(it)] = grupos[unidadeDe(it)] || []).push(it); });
+    const ordem = UNIDADES.filter((u) => grupos[u]).concat(Object.keys(grupos).filter((u) => !UNIDADES.includes(u)));
+    $('lista').innerHTML = ordem.map((u) => `<h2 class="grupo">${esc(u === '%' ? 'percentuais (%)' : u)} · ${grupos[u].length}</h2>` + grupos[u].map((it) => card(it, true, soma)).join('')).join('');
+  } else {
+    $('lista').innerHTML = vis.map((it) => card(it, false, soma)).join('');
+  }
+}
+
+$('leis').addEventListener('click', (e) => { const l = e.target.dataset.l; if (l) { atual = l; filtro = 'todos'; renderiza(); } });
+$('chips').addEventListener('click', (e) => { const k = e.target.dataset.k; if (k) { filtro = k; renderiza(); } });
+$('treino').addEventListener('change', renderiza);
+$('cobrados').addEventListener('change', renderiza);
+$('lista').addEventListener('click', (e) => {
+  const el = e.target.closest('.item.oculto');
+  if (el) { el.classList.remove('oculto'); el.classList.add(el.dataset.p); }
+});
+renderiza();
+</script>
+<script src="/menu.js"></script>
+</body>
+</html>

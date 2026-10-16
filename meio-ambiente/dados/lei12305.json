@@ -1,0 +1,412 @@
+{
+ "titulo": "Lei 12.305/2010: o passo a passo da Política Nacional de Resíduos Sólidos",
+ "notacao": [
+  [
+   "20 anos",
+   "horizonte do plano nacional e do estadual (Arts. 15 e 17)"
+  ],
+  [
+   "4 anos",
+   "atualização do plano nacional e revisão do estadual (Arts. 15 e 17)"
+  ],
+  [
+   "10 anos?",
+   "máximo para revisar o plano municipal (Art. 19, XIX): redação a confirmar"
+  ],
+  [
+   "6 grupos",
+   "produtos da logística reversa obrigatória (Art. 33)"
+  ],
+  [
+   "6 planos",
+   "grupos de planos de resíduos sólidos (Art. 14)"
+  ],
+  [
+   "2 anos",
+   "para os Arts. 16 e 18 entrarem em vigor (Art. 55)"
+  ],
+  [
+   "2021 a 2024",
+   "prazos escalonados do Art. 54, conforme o porte do Município"
+  ]
+ ],
+ "agentes": [
+  [
+   "Fabricantes, importadores, distribuidores e comerciantes",
+   "Estruturar a logística reversa dos produtos do Art. 33 e investir em produtos aptos à reutilização ou reciclagem",
+   "Arts. 31 e 33",
+   "A obrigação é independente do serviço público de limpeza urbana"
+  ],
+  [
+   "Consumidores",
+   "Acondicionar de forma diferenciada e disponibilizar para coleta ou devolução",
+   "Art. 35",
+   "Vale quando há coleta seletiva no plano municipal ou na aplicação do Art. 33"
+  ],
+  [
+   "Titular do serviço público de limpeza urbana",
+   "Coleta seletiva, compostagem, aproveitamento dos recicláveis e disposição final dos rejeitos do serviço",
+   "Art. 36",
+   "Se assumir tarefas do setor empresarial por acordo, deve ser remunerado"
+  ],
+  [
+   "Gerador sujeito ao PGRS (inclui construção civil)",
+   "Elaborar e implementar integralmente o plano de gerenciamento aprovado pelo órgão competente",
+   "Arts. 20, 21 e 27",
+   "Contratar terceiros não isenta de responsabilidade por danos"
+  ],
+  [
+   "Gerador domiciliar",
+   "Disponibilizar adequadamente os resíduos para a coleta",
+   "Art. 28",
+   "A responsabilidade cessa com a disponibilização adequada ou com a devolução (Art. 33)"
+  ]
+ ],
+ "etapas": [
+  {
+   "nome": "1 · O que é a PNRS e a quem ela se aplica",
+   "onde": "Arts. 1º e 2º",
+   "marco": "o ponto de partida",
+   "peso": null,
+   "aviso": "",
+   "fatos": [
+    {
+     "txt": "A lei institui a Política Nacional de Resíduos Sólidos, dispondo sobre seus princípios, objetivos e instrumentos, as diretrizes para a gestão integrada e o gerenciamento de resíduos sólidos, incluídos os perigosos, as responsabilidades dos geradores e do poder público e os instrumentos econômicos aplicáveis.",
+     "conf": 0.96
+    },
+    {
+     "txt": "Está sujeita à lei toda pessoa física ou jurídica, de direito público ou privado, responsável direta ou indiretamente pela geração de resíduos sólidos, ou que atue na gestão integrada ou no gerenciamento deles.",
+     "conf": 0.71,
+     "revisao": "Revisado à mão: o texto do Art. 1º, § 1º diz exatamente isso."
+    },
+    {
+     "txt": "A lei não se aplica aos rejeitos radioativos, que são regulados por legislação específica.",
+     "conf": 0.98
+    },
+    {
+     "txt": "Além da própria lei, aplicam-se aos resíduos sólidos as Leis 11.445/2007, 9.974/2000 e 9.966/2000 e as normas dos órgãos do Sisnama, do SNVS, do Suasa e do Sinmetro.",
+     "conf": 0.95
+    }
+   ],
+   "prova": "Pegadinha: dizer que a lei vale também para rejeitos radioativos. Não vale: eles têm legislação específica (Art. 1º, § 2º)."
+  },
+  {
+   "nome": "2 · As definições que a banca troca",
+   "onde": "Art. 3º",
+   "marco": "conceitos",
+   "peso": null,
+   "aviso": "",
+   "fatos": [
+    {
+     "txt": "Rejeito é o resíduo sólido que, depois de esgotadas todas as possibilidades de tratamento e recuperação por processos tecnológicos disponíveis e economicamente viáveis, não tem outra possibilidade que não a disposição final ambientalmente adequada.",
+     "conf": 0.97
+    },
+    {
+     "txt": "Destinação final ambientalmente adequada é mais ampla que disposição final: inclui a reutilização, a reciclagem, a compostagem, a recuperação e o aproveitamento energético, entre outras destinações, e também a disposição final.",
+     "conf": 0.94
+    },
+    {
+     "txt": "Disposição final ambientalmente adequada é a distribuição ordenada de rejeitos em aterros, observando normas operacionais específicas para evitar danos ou riscos à saúde pública e à segurança e minimizar os impactos ambientais adversos.",
+     "conf": 0.97
+    },
+    {
+     "txt": "Gerenciamento de resíduos sólidos é o conjunto de ações nas etapas de coleta, transporte, transbordo, tratamento e destinação final dos resíduos e disposição final dos rejeitos, conforme o plano municipal de gestão integrada ou o plano de gerenciamento de resíduos sólidos.",
+     "conf": 0.74,
+     "revisao": "Revisado à mão: confere com a definição do Art. 3º, X."
+    },
+    {
+     "txt": "Logística reversa é um instrumento de desenvolvimento econômico e social, com ações, procedimentos e meios para coletar e restituir os resíduos sólidos ao setor empresarial, para reaproveitamento em seu ciclo ou em outros ciclos produtivos, ou outra destinação final ambientalmente adequada.",
+     "conf": 0.97
+    },
+    {
+     "txt": "Acordo setorial é um ato de natureza contratual firmado entre o poder público e fabricantes, importadores, distribuidores ou comerciantes, para implantar a responsabilidade compartilhada pelo ciclo de vida do produto.",
+     "conf": 0.97
+    },
+    {
+     "txt": "Reciclagem é o processo que altera as propriedades físicas, físico-químicas ou biológicas dos resíduos para transformá-los em insumos ou novos produtos; a reutilização aproveita os resíduos sem essa transformação.",
+     "conf": 0.88
+    }
+   ],
+   "prova": "Pegadinha: tratar \"resíduo\" e \"rejeito\" como sinônimos, ou \"destinação final\" e \"disposição final\". Rejeito só existe depois de esgotado o tratamento; e só ele vai para o aterro."
+  },
+  {
+   "nome": "3 · Princípios e objetivos",
+   "onde": "Arts. 6º e 7º",
+   "marco": "listas que se decoram",
+   "peso": null,
+   "aviso": "",
+   "fatos": [
+    {
+     "txt": "Entre os princípios estão a prevenção e a precaução, o poluidor-pagador e o protetor-recebedor, o desenvolvimento sustentável e a responsabilidade compartilhada pelo ciclo de vida dos produtos.",
+     "conf": 0.98
+    },
+    {
+     "txt": "Um dos princípios é o reconhecimento do resíduo sólido reutilizável e reciclável como bem econômico e de valor social, gerador de trabalho e renda e promotor de cidadania.",
+     "conf": 0.98
+    },
+    {
+     "txt": "Entre os objetivos estão a não geração, a redução, a reutilização, a reciclagem e o tratamento dos resíduos sólidos, bem como a disposição final ambientalmente adequada dos rejeitos.",
+     "conf": 0.98
+    },
+    {
+     "txt": "Um dos objetivos é dar prioridade, nas aquisições e contratações governamentais, a produtos reciclados e recicláveis e a bens, serviços e obras que considerem critérios compatíveis com padrões de consumo social e ambientalmente sustentáveis.",
+     "conf": 0.97
+    },
+    {
+     "txt": "Um dos objetivos é a integração dos catadores de materiais reutilizáveis e recicláveis nas ações que envolvam a responsabilidade compartilhada pelo ciclo de vida dos produtos.",
+     "conf": 0.98
+    }
+   ],
+   "prova": "Princípios (Art. 6º) e objetivos (Art. 7º) são listas. A banca troca um item por outro que não está lá. Decore as duas."
+  },
+  {
+   "nome": "4 · A ordem de prioridade",
+   "onde": "Art. 9º",
+   "marco": "o coração da lei",
+   "peso": 0.85,
+   "aviso": "",
+   "fatos": [
+    {
+     "txt": "Na gestão e no gerenciamento de resíduos sólidos, a ordem de prioridade é: não geração, redução, reutilização, reciclagem, tratamento dos resíduos sólidos e disposição final ambientalmente adequada dos rejeitos.",
+     "conf": 0.95
+    },
+    {
+     "txt": "Podem ser usadas tecnologias de recuperação energética dos resíduos sólidos urbanos, desde que comprovada a viabilidade técnica e ambiental e implantado programa de monitoramento de emissão de gases tóxicos aprovado pelo órgão ambiental.",
+     "conf": 0.98
+    }
+   ],
+   "prova": "Pegadinha clássica: inverter a ordem (reciclagem antes de redução) ou pôr o aterro no meio. O aterro é o último passo, e só para rejeitos. Note o verbo: a recuperação energética \"poderá\" ser usada, é facultativa."
+  },
+  {
+   "nome": "5 · Os instrumentos da política",
+   "onde": "Art. 8º",
+   "marco": "ferramentas",
+   "peso": null,
+   "aviso": "",
+   "fatos": [
+    {
+     "txt": "Os instrumentos da política são listados no Art. 8º \"entre outros\", ou seja, a lista é exemplificativa.",
+     "conf": 0.91
+    },
+    {
+     "txt": "Os planos de resíduos sólidos, os inventários e o sistema declaratório anual de resíduos sólidos são instrumentos da política.",
+     "conf": 0.98
+    },
+    {
+     "txt": "A coleta seletiva, os sistemas de logística reversa e outras ferramentas de responsabilidade compartilhada pelo ciclo de vida dos produtos são instrumentos da política.",
+     "conf": 0.97
+    },
+    {
+     "txt": "Os acordos setoriais, a educação ambiental e o monitoramento e a fiscalização ambiental, sanitária e agropecuária são instrumentos da política.",
+     "conf": 0.98
+    },
+    {
+     "txt": "O Sinir (Sistema Nacional de Informações sobre a Gestão dos Resíduos Sólidos) e o Sinisa (Sistema Nacional de Informações em Saneamento Básico) são instrumentos da política.",
+     "conf": 0.98
+    }
+   ],
+   "prova": "Cai a sigla: Sinir é o sistema de informações sobre resíduos sólidos; Sinisa é o de saneamento básico."
+  },
+  {
+   "nome": "6 · Como os resíduos são classificados",
+   "onde": "Art. 13",
+   "marco": "origem e periculosidade",
+   "peso": 0.4,
+   "aviso": "",
+   "fatos": [
+    {
+     "txt": "Quanto à origem, os resíduos são: domiciliares, de limpeza urbana, sólidos urbanos, de estabelecimentos comerciais e prestadores de serviços, dos serviços públicos de saneamento básico, industriais, de serviços de saúde, da construção civil, agrossilvopastoris, de serviços de transportes e de mineração.",
+     "conf": 0.9
+    },
+    {
+     "txt": "Resíduos sólidos urbanos são os resíduos domiciliares mais os resíduos de limpeza urbana.",
+     "conf": 0.96
+    },
+    {
+     "txt": "Resíduos da construção civil são os gerados nas construções, reformas, reparos e demolições de obras de construção civil, incluídos os resultantes da preparação e escavação de terrenos para obras civis.",
+     "conf": 0.99
+    },
+    {
+     "txt": "Quanto à periculosidade, os resíduos são classificados em perigosos e não perigosos.",
+     "conf": 0.97
+    }
+   ],
+   "prova": "Resíduo da construção civil é categoria própria (alínea h): não entra em \"sólidos urbanos\" (domiciliares + limpeza urbana) e fica fora dos resíduos de estabelecimentos comerciais."
+  },
+  {
+   "nome": "7 · Os planos de resíduos sólidos",
+   "onde": "Arts. 14 a 19",
+   "marco": "números que caem",
+   "peso": 0.58,
+   "aviso": "O inciso XIX do Art. 19 aparece com duas redações no texto-base (vigência do PPA municipal x máximo de 10 anos). Elas não podem valer ao mesmo tempo. Confirme no Planalto qual está em vigor antes de usar o número 10.",
+   "fatos": [
+    {
+     "txt": "O Art. 14 lista seis incisos de planos: o nacional, os estaduais, os microrregionais e os de regiões metropolitanas ou aglomerações urbanas, os intermunicipais, os municipais de gestão integrada e os de gerenciamento de resíduos sólidos.",
+     "conf": 0.82
+    },
+    {
+     "txt": "O Plano Nacional de Resíduos Sólidos é elaborado pela União, sob a coordenação do Ministério do Meio Ambiente, com vigência por prazo indeterminado, horizonte de 20 anos e atualização a cada 4 anos.",
+     "conf": 0.98
+    },
+    {
+     "txt": "O plano estadual de resíduos sólidos tem vigência por prazo indeterminado, abrange todo o território do Estado, tem horizonte de 20 anos e revisões a cada 4 anos.",
+     "conf": 0.98
+    },
+    {
+     "txt": "A elaboração do plano municipal de gestão integrada de resíduos sólidos é condição para o Distrito Federal e os Municípios terem acesso a recursos da União, ou por ela controlados, para limpeza urbana e manejo de resíduos sólidos, ou para serem beneficiados por incentivos ou financiamentos de entidades federais.",
+     "conf": 0.95
+    },
+    {
+     "txt": "Têm prioridade no acesso aos recursos da União os Municípios que optarem por soluções consorciadas intermunicipais ou que implantarem coleta seletiva com a participação de cooperativas de catadores formadas por pessoas físicas de baixa renda.",
+     "conf": 0.94
+    },
+    {
+     "txt": "O texto-base traz duas redações para o inciso XIX do Art. 19 (periodicidade de revisão do plano municipal): uma pelo período de vigência do plano plurianual municipal e outra pelo período máximo de 10 anos.",
+     "conf": 0.94
+    }
+   ],
+   "prova": "Os números: 20 anos (horizonte do plano nacional e do estadual), 4 anos (atualização do nacional e revisão do estadual) e, para o plano municipal, \"máximo de 10 anos\" (redação mais recente, a confirmar). A banca troca esses números entre os planos."
+  },
+  {
+   "nome": "8 · O plano de gerenciamento (PGRS): quem precisa e o que contém",
+   "onde": "Arts. 20, 21, 27 e 28",
+   "marco": "o gerador",
+   "peso": null,
+   "aviso": "",
+   "fatos": [
+    {
+     "txt": "Estão sujeitos ao plano de gerenciamento os geradores de resíduos dos serviços públicos de saneamento básico, industriais, de serviços de saúde e de mineração.",
+     "conf": 0.95
+    },
+    {
+     "txt": "As empresas de construção civil também estão sujeitas ao plano de gerenciamento, nos termos do regulamento ou das normas do Sisnama.",
+     "conf": 0.97
+    },
+    {
+     "txt": "Os estabelecimentos comerciais e de prestação de serviços estão sujeitos ao plano de gerenciamento se gerarem resíduos perigosos, ou resíduos que, mesmo não perigosos, por sua natureza, composição ou volume, não sejam equiparados aos resíduos domiciliares pelo poder público municipal.",
+     "conf": 0.97
+    },
+    {
+     "txt": "O conteúdo mínimo do plano de gerenciamento inclui a descrição do empreendimento ou atividade, o diagnóstico dos resíduos gerados (origem, volume e caracterização, incluindo passivos ambientais), a explicitação dos responsáveis por cada etapa e as ações preventivas e corretivas para casos de gerenciamento incorreto ou acidentes.",
+     "conf": 0.94
+    },
+    {
+     "txt": "Contratar serviços de coleta, transporte, tratamento ou destinação final não isenta o gerador sujeito ao plano da responsabilidade por danos provocados pelo gerenciamento inadequado dos resíduos ou rejeitos.",
+     "conf": 0.9
+    },
+    {
+     "txt": "O gerador de resíduos sólidos domiciliares tem cessada sua responsabilidade pelos resíduos com a disponibilização adequada para a coleta ou, nos casos abrangidos pelo Art. 33, com a devolução.",
+     "conf": 0.99
+    }
+   ],
+   "prova": "Para quem faz obra: a construtora está sujeita ao PGRS. Pegadinha: achar que contratar a empresa de caçamba transfere a responsabilidade. Não transfere (Art. 27, § 1º). Só o gerador domiciliar se livra ao disponibilizar corretamente."
+  },
+  {
+   "nome": "9 · Responsabilidade compartilhada e logística reversa",
+   "onde": "Arts. 30 a 36",
+   "marco": "cadeia de responsáveis",
+   "peso": 0.45,
+   "aviso": "",
+   "fatos": [
+    {
+     "txt": "A responsabilidade compartilhada pelo ciclo de vida dos produtos é implementada de forma individualizada e encadeada e abrange fabricantes, importadores, distribuidores e comerciantes, consumidores e titulares dos serviços públicos de limpeza urbana e de manejo de resíduos sólidos.",
+     "conf": 0.98
+    },
+    {
+     "txt": "São obrigados a estruturar sistemas de logística reversa, independentes do serviço público de limpeza urbana, os fabricantes, importadores, distribuidores e comerciantes de agrotóxicos, pilhas e baterias, pneus, óleos lubrificantes, lâmpadas fluorescentes, de vapor de sódio e mercúrio e de luz mista, e produtos eletroeletrônicos e seus componentes.",
+     "conf": 0.88
+    },
+    {
+     "txt": "Por regulamento, acordos setoriais ou termos de compromisso, a logística reversa pode ser estendida a produtos em embalagens plásticas, metálicas ou de vidro e a outros produtos e embalagens.",
+     "conf": 0.9
+    },
+    {
+     "txt": "No fluxo da logística reversa, os consumidores devolvem os produtos aos comerciantes ou distribuidores, estes devolvem aos fabricantes ou importadores, e os fabricantes ou importadores dão a destinação ambientalmente adequada, enviando o rejeito à disposição final ambientalmente adequada.",
+     "conf": 0.91
+    },
+    {
+     "txt": "Os consumidores são obrigados a acondicionar adequadamente e de forma diferenciada os resíduos gerados e a disponibilizar os reutilizáveis e recicláveis para coleta ou devolução, sempre que houver coleta seletiva no plano municipal ou na aplicação do Art. 33.",
+     "conf": 0.88
+    },
+    {
+     "txt": "O titular do serviço público de limpeza urbana e de manejo de resíduos sólidos deve estabelecer sistema de coleta seletiva, implantar sistema de compostagem para resíduos orgânicos e dar disposição final ambientalmente adequada aos resíduos e rejeitos do serviço.",
+     "conf": 0.84
+    },
+    {
+     "txt": "Se o titular do serviço público assumir, por acordo setorial ou termo de compromisso, atividades de responsabilidade do setor empresarial na logística reversa, as ações do poder público serão remuneradas conforme o acordado entre as partes.",
+     "conf": 0.97
+    }
+   ],
+   "prova": "São seis grupos de produtos no caput do Art. 33. Entulho e resíduo de obra não estão na lista. Pegadinha: incluí-los na logística reversa obrigatória do Art. 33 (a lista só cresce por acordo setorial)."
+  },
+  {
+   "nome": "10 · O que a lei proíbe",
+   "onde": "Arts. 47 e 48",
+   "marco": "vedações",
+   "peso": 0.75,
+   "aviso": "",
+   "fatos": [
+    {
+     "txt": "São proibidos o lançamento de resíduos ou rejeitos em praias, no mar ou em quaisquer corpos hídricos, e o lançamento in natura a céu aberto, excetuados os resíduos de mineração.",
+     "conf": 0.93
+    },
+    {
+     "txt": "É proibida a queima de resíduos a céu aberto ou em recipientes, instalações e equipamentos não licenciados para essa finalidade.",
+     "conf": 0.73,
+     "revisao": "Revisado à mão: confere com o Art. 47, III. O Jev hesitou sobre o alcance de \"não licenciados\", que o texto da lei também não separa."
+    },
+    {
+     "txt": "Quando decretada emergência sanitária, a queima de resíduos a céu aberto pode ser realizada, desde que autorizada e acompanhada pelos órgãos competentes do Sisnama, do SNVS e, quando couber, do Suasa.",
+     "conf": 0.98
+    },
+    {
+     "txt": "Nas áreas de disposição final de resíduos ou rejeitos são proibidas a utilização dos rejeitos como alimentação, a catação (observado o inciso V do Art. 17), a criação de animais domésticos e a fixação de habitações temporárias ou permanentes.",
+     "conf": 0.97
+    },
+    {
+     "txt": "Assegurada a impermeabilização, as bacias de decantação de resíduos ou rejeitos industriais ou de mineração, devidamente licenciadas, não são consideradas corpos hídricos para efeito da proibição de lançamento.",
+     "conf": 0.88
+    }
+   ],
+   "prova": "Pegadinha: \"a queima a céu aberto é proibida sem exceção\". Errado: na emergência sanitária decretada ela pode ser feita, com autorização e acompanhamento (Art. 47, § 1º)."
+  },
+  {
+   "nome": "11 · Sanções e os prazos finais",
+   "onde": "Arts. 51, 54 e 55",
+   "marco": "o fecho",
+   "peso": 0.44,
+   "aviso": "Os prazos do Art. 54 abaixo seguem o texto guardado no jev-ranker, que não traz as marcas de alteração legislativa. Os mais antigos já venceram. Confirme no Planalto se houve nova redação antes de usar numa prova ou documento.",
+   "fatos": [
+    {
+     "txt": "Sem prejuízo da obrigação de reparar os danos independentemente da existência de culpa, a inobservância da lei sujeita os infratores às sanções previstas em lei, em especial às da Lei 9.605/1998.",
+     "conf": 0.96
+    },
+    {
+     "txt": "O Art. 54 prevê que a disposição final ambientalmente adequada dos rejeitos deveria ser implantada até 31 de dezembro de 2020, exceto para Municípios com plano intermunicipal ou municipal de gestão integrada e mecanismos de cobrança que garantam a sustentabilidade econômico-financeira.",
+     "conf": 0.91
+    },
+    {
+     "txt": "Para esses Municípios, os prazos do Art. 54 são: até 2 de agosto de 2021 para capitais e Municípios de regiões metropolitanas ou Rides de capitais; até 2 de agosto de 2022 para Municípios com mais de 100 mil habitantes e para os de mancha urbana a menos de 20 km da fronteira com países limítrofes; até 2 de agosto de 2023 para os de 50 a 100 mil; e até 2 de agosto de 2024 para os de menos de 50 mil.",
+     "conf": 0.89
+    },
+    {
+     "txt": "Se a disposição de rejeitos em aterros sanitários for economicamente inviável, podem ser adotadas outras soluções, observadas as normas técnicas e operacionais do órgão competente, para evitar danos ou riscos à saúde pública e à segurança e minimizar os impactos ambientais.",
+     "conf": 0.97
+    },
+    {
+     "txt": "Os Arts. 16 e 18 entram em vigor 2 anos após a data de publicação da lei.",
+     "conf": 0.97
+    }
+   ],
+   "prova": "Os prazos escalonados do Art. 54 dependem do porte do Município (população do Censo 2010). Troque 2021, 2022, 2023 e 2024 entre as faixas e a questão cai."
+  }
+ ],
+ "conferencia": {
+  "afirmacoes": 56,
+  "revisadas": 3,
+  "controles": 8,
+  "controle_min": 0.01,
+  "controle_max": 0.02,
+  "modelo": "jev-1.13.0"
+ }
+}

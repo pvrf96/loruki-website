@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Teste final V/F</title>
+<meta name="description" content="Treino das questões de sequência V/F com 5 alternativas (estilo Vunesp) para o edital de Engenharia Civil do TCESP, com foco nos pontos onde você mais erra.">
+<style>
+  :root { --tx:#1d1d1f; --suave:#5b5b60; --linha:#e6e6e9; --marca:#0b57d0; --marcabg:#e8f0fe; --ok:#137333; --okbg:#e6f4ea; --err:#b3261e; --errbg:#fce8e6; --amar:#8a5a00; --amarbg:#fef7e0; --card:#fafafa; }
+  * { box-sizing:border-box; }
+  html { -webkit-text-size-adjust:100%; }
+  body { margin:0; background:#fff; color:var(--tx); font:17px/1.6 -apple-system,"Segoe UI",Roboto,Arial,sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:28px 16px 100px; }
+  h1 { font-size:28px; line-height:1.2; margin:0 0 6px; }
+  h2 { font-size:20px; margin:28px 0 10px; }
+  p { margin:0 0 14px; overflow-wrap:break-word; }
+  a { color:var(--marca); }
+  .sub { color:var(--suave); font-size:15px; }
+  button { font:inherit; cursor:pointer; border-radius:10px; border:1px solid var(--linha); background:#fff; color:var(--tx); padding:12px 14px; text-align:left; }
+  button.pri { background:var(--marca); color:#fff; border-color:var(--marca); font-weight:700; text-align:center; }
+  button:disabled { opacity:.5; cursor:default; }
+  button small { display:block; font-weight:400; font-size:14px; opacity:.85; }
+  .btns { display:grid; gap:10px; }
+  .metr { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; margin:16px 0; }
+  .m { border:1px solid var(--linha); border-radius:10px; padding:10px 12px; }
+  .m b { display:block; font-size:22px; }
+  .m span { color:var(--suave); font-size:13px; }
+  .topo { display:flex; justify-content:space-between; gap:8px; color:var(--suave); font-size:14px; margin-bottom:10px; }
+  .fase { display:inline-block; font-size:12px; font-weight:700; letter-spacing:.05em; text-transform:uppercase; color:var(--marca); background:var(--marcabg); border-radius:6px; padding:2px 8px; margin-bottom:10px; }
+  .barra { height:6px; background:var(--linha); border-radius:3px; overflow:hidden; margin-bottom:14px; }
+  .barra i { display:block; height:100%; background:var(--marca); }
+  .card { border:1px solid var(--linha); border-radius:12px; padding:18px; background:var(--card); }
+  .enun { font-weight:700; margin-bottom:12px; }
+  .af { display:grid; grid-template-columns:34px 1fr; gap:8px; padding:10px 0; border-bottom:1px solid var(--linha); }
+  .af:last-child { border-bottom:0; }
+  .af .n { font-weight:800; color:var(--marca); }
+  .af .tx { font:17px/1.6 Georgia,"Times New Roman",serif; }
+  .mk { display:flex; gap:6px; margin-top:6px; }
+  .mk button { padding:4px 14px; font-size:14px; font-weight:700; }
+  .mk button.on.v { background:var(--okbg); border-color:var(--ok); color:var(--ok); }
+  .mk button.on.f { background:var(--errbg); border-color:var(--err); color:var(--err); }
+  .alts { display:grid; gap:8px; margin-top:16px; }
+  .alts button { display:flex; gap:12px; align-items:center; font-family:ui-monospace,Menlo,Consolas,monospace; font-size:18px; letter-spacing:.12em; }
+  .alts button b { font-family:-apple-system,"Segoe UI",Roboto,Arial,sans-serif; letter-spacing:0; }
+  .alts button.sel { outline:3px solid var(--marca); }
+  .alts button.morta { opacity:.35; text-decoration:line-through; }
+  .alts button.gab { background:var(--okbg); border-color:var(--ok); }
+  .alts button.minha { background:var(--errbg); border-color:var(--err); }
+  .seq span.x { color:var(--err); text-decoration:underline; text-decoration-thickness:2px; }
+  .conf2 { display:grid; grid-template-columns:1fr 1fr; gap:8px; margin-top:12px; }
+  .fb { margin-top:16px; border-radius:12px; padding:16px; }
+  .fb.ok { background:var(--okbg); } .fb.err { background:var(--errbg); }
+  .res { font-weight:800; font-size:18px; margin-bottom:8px; }
+  .cor { border-top:1px solid rgba(0,0,0,.08); padding:10px 0; font-size:15px; }
+  .cor .tg { font-weight:800; }
+  .bom { color:var(--ok); } .mau { color:var(--err); }
+  .certo { font-family:Georgia,serif; background:#fff; border-left:3px solid var(--ok); padding:6px 10px; margin:6px 0; }
+  .fonte { font-size:13px; color:var(--suave); }
+  .alta { background:var(--err); color:#fff; border-radius:8px; padding:8px 12px; font-weight:700; margin-bottom:10px; }
+  .dica { background:var(--amarbg); color:var(--amar); border-radius:8px; padding:10px 12px; font-size:15px; margin:12px 0 0; }
+  table { width:100%; border-collapse:collapse; font-size:15px; }
+  td,th { text-align:left; padding:8px 6px; border-bottom:1px solid var(--linha); vertical-align:middle; }
+  .bar { height:10px; background:var(--linha); border-radius:5px; overflow:hidden; min-width:60px; }
+  .bar i { display:block; height:100%; background:var(--err); }
+  details summary { cursor:pointer; }
+  footer { margin-top:44px; color:var(--suave); font-size:14px; }
+</style>
+</head>
+<body>
+<main id="app"><p>Carregando…</p></main>
+<script>
+const $ = (s) => document.querySelector(s);
+const esc = (t) => String(t ?? '').replace(/[&<>"']/g, (m) => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;' }[m]));
+const CHAVE = 'testefinal-v1', ROM = ['I', 'II', 'III', 'IV', 'V'], LET = 'ABCDE';
+const RESUMO = 'https://resumofinalprova.vercel.app/#';
+const shuffle = (a) => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+const pct = (a, n) => n ? Math.round(100 * a / n) : null;
+function carrega() { try { return JSON.parse(localStorage.getItem(CHAVE)) || {}; } catch (e) { return {}; } }
+function salva() { try { localStorage.setItem(CHAVE, JSON.stringify(E)); } catch (e) {} }
+let D = null, E = carrega(), S = null;
+E.a = E.a || {};            // por afirmativa: [vistas, erradas]
+E.et = E.et || {};          // por etapa: [afirmativas vistas, erradas]
+E.q = E.q || [0, 0];        // questões: [feitas, certas]
+E.cal = E.cal || { c: [0, 0], a: [0, 0] };
+E.tipo = E.tipo || { vf: [0, 0], fv: [0, 0] }; // [erros] marcou V sendo F / marcou F sendo V
+
+// ---------- onde eu mais erro
+function taxaEtapa(id) { const r = E.et[id]; return r && r[0] ? r[1] / r[0] : null; }
+function pesoEtapa(id) { const t = taxaEtapa(id); return t === null ? 0.45 : 0.12 + t; }
+function sorteiaEtapa(foco) {
+  if (foco) return foco;
+  const ps = D.etapas.map((e) => [e.id, pesoEtapa(e.id)]), tot = ps.reduce((s, x) => s + x[1], 0);
+  let r = Math.random() * tot; for (const [id, p] of ps) { if ((r -= p) <= 0) return id; } return ps[0][0];
+}
+function pesoAf(s) { const r = E.a[s.id]; if (!r) return 1; return 0.4 + 2 * (r[1] / r[0]) + (r[1] ? 0.6 : 0); }
+function pegaAfirmativas(etId, nFalsas) {
+  let pool = D.s.filter((s) => s.e === etId);
+  if (new Set(pool.map((s) => s.g)).size < 6) pool = pool.concat(D.s.filter((s) => s.e !== etId)); // etapa pequena: completa com outras
+  const escolher = (cands, n, usados) => {
+    const out = [];
+    const l = cands.map((s) => ({ s, k: Math.random() * pesoAf(s) })).sort((a, b) => b.k - a.k).map((x) => x.s);
+    for (const s of l) { if (out.length >= n) break; if (usados.has(s.g)) continue; usados.add(s.g); out.push(s); }
+    return out;
+  };
+  const usados = new Set();
+  const fs = escolher(pool.filter((s) => !s.v), nFalsas, usados);
+  const vs = escolher(pool.filter((s) => s.v), 5 - fs.length, usados);
+  return shuffle(fs.concat(vs));
+}
+function gerarQuestao(foco) {
+  const etId = sorteiaEtapa(foco);
+  const nF = [1, 2, 2, 3, 3, 4][Math.floor(Math.random() * 6)];
+  const af = pegaAfirmativas(etId, nF);
+  const certa = af.map((s) => s.v ? 'V' : 'F').join('');
+  // distratores no estilo Vunesp: diferem em 1 ou 2 posições
+  const flip = (seq, pos) => seq.split('').map((c, i) => pos.includes(i) ? (c === 'V' ? 'F' : 'V') : c).join('');
+  const cand = new Set();
+  const pos = shuffle([0, 1, 2, 3, 4]);
+  if (Math.random() < 0.8) {
+    // isca central: uma errada fica no "meio" das outras, para o truque de escolher a mais parecida com todas não funcionar
+    const isca = flip(certa, [pos[0]]); cand.add(isca);
+    cand.add(flip(isca, [pos[1]])); cand.add(flip(isca, [pos[2]])); cand.add(flip(certa, [pos[3]]));
+  } else {
+    cand.add(flip(certa, [pos[0]])); cand.add(flip(certa, [pos[1]]));
+    cand.add(flip(certa, [pos[2], pos[3]])); cand.add(flip(certa, [pos[0], pos[4]]));
+  }
+  cand.delete(certa);
+  const alts = shuffle([certa, ...[...cand].slice(0, 4)]);
+  return { etId, af, certa, alts };
+}
+
+// ---------- telas
+function inicio() {
+  S = null;
+  const ranking = D.etapas.map((e) => ({ e, t: taxaEtapa(e.id), n: (E.et[e.id] || [0])[0] })).sort((a, b) => (b.t ?? -1) - (a.t ?? -1));
+  const piores = ranking.filter((r) => r.t !== null && r.n >= 5).slice(0, 3);
+  const c = E.cal;
+  $('#app').innerHTML = `
+  <h1>Teste final: sequências V/F</h1>
+  <p class="sub">O tipo de questão que mais derruba: 5 afirmativas, cada uma verdadeira ou falsa, e 5 alternativas com sequências como <b>V V F F V</b>. As alternativas erradas diferem da certa em só 1 ou 2 letras, como faz a Vunesp. O site aprende <b>onde você mais erra</b> e puxa mais questões de lá.</p>
+  <div class="metr">
+    <div class="m"><b>${E.q[0] ? pct(E.q[1], E.q[0]) + '%' : '–'}</b><span>questões certas (${E.q[1]} de ${E.q[0]})</span></div>
+    <div class="m"><b>${c.c[0] ? pct(c.c[1], c.c[0]) + '%' : '–'}</b><span>acerto quando marca "tenho certeza"</span></div>
+    <div class="m"><b>${E.tipo.vf[0]}</b><span>vezes que você aceitou uma afirmativa FALSA como verdadeira</span></div>
+    <div class="m"><b>${E.tipo.fv[0]}</b><span>vezes que desconfiou de uma afirmativa VERDADEIRA</span></div>
+  </div>
+  ${E.tipo.vf[0] + E.tipo.fv[0] >= 8 ? `<p class="dica">${E.tipo.vf[0] > E.tipo.fv[0] * 1.5 ? 'Seu erro dominante é <b>acreditar na pegadinha</b>: leia cada afirmativa caçando o número, o sujeito e o absoluto antes de aceitar.' : E.tipo.fv[0] > E.tipo.vf[0] * 1.5 ? 'Seu erro dominante é <b>desconfiar do que é verdade</b>: nem toda afirmativa longa é pegadinha. Só marque F quando achar a palavra errada.' : 'Seus erros estão equilibrados entre aceitar pegadinha e desconfiar do que é verdade.'}</p>` : ''}
+  <div class="btns" style="margin-top:14px">
+    <button class="pri" id="treino">Treino guiado<small>marque V ou F em cada afirmativa e veja as alternativas incompatíveis sumirem: é a técnica de eliminação</small></button>
+    <button id="prova">Modo prova (10 questões)<small>sem ajuda e sem correção até o fim, como no dia</small></button>
+    ${piores.length ? `<button id="fraco">Só onde eu mais erro<small>${esc(piores[0].e.t)}</small></button>` : ''}
+  </div>
+  <h2>Onde você mais erra</h2>
+  ${ranking.some((r) => r.t !== null) ? `<table><tr><th>assunto</th><th>afirmativas erradas</th><th></th></tr>${ranking.map((r) => `<tr><td>${esc(r.e.t)}</td><td>${r.t === null ? '<span class="sub">ainda não visto</span>' : `${Math.round(100 * r.t)}% de ${r.n}`}</td><td>${r.t === null ? '' : `<button data-f="${r.e.id}" style="padding:4px 10px;font-size:13px">treinar</button>`}</td></tr>`).join('')}</table>` : '<p class="sub">Faça algumas questões e o ranking aparece aqui. Cada afirmativa que você julga errado conta contra o assunto dela.</p>'}
+  <h2>Como resolver esse tipo de questão</h2>
+  <p>1. <b>Comece pela afirmativa de que você tem mais certeza</b>, não pela I. 2. Marque V ou F e <b>risque as alternativas</b> que não batem. 3. Depois de 2 ou 3 afirmativas, muitas vezes sobra uma alternativa só, e você nem precisa julgar a afirmativa mais difícil. 4. Se sobrarem duas, compare <b>só a posição onde elas diferem</b>: é ali que está a pegadinha que a banca quer testar.</p>
+  <footer>${D.s.length} afirmativas conferidas pelo Jev ou revisadas à mão, vindas do <a href="https://verdadeirofinal.vercel.app">verdadeirofinal</a> e do <a href="https://pegadinhasfinal.vercel.app">pegadinhasfinal</a>. Progresso salvo só neste navegador. <button id="zerar" style="padding:4px 10px;font-size:13px">zerar</button></footer>`;
+  $('#treino').onclick = () => comecar('treino');
+  $('#prova').onclick = () => comecar('prova');
+  if ($('#fraco')) $('#fraco').onclick = () => comecar('treino', piores[0].e.id);
+  document.querySelectorAll('[data-f]').forEach((b) => b.onclick = () => comecar('treino', b.dataset.f));
+  $('#zerar').onclick = () => { if (confirm('Apagar o progresso deste navegador?')) { localStorage.removeItem(CHAVE); E = { a: {}, et: {}, q: [0, 0], cal: { c: [0, 0], a: [0, 0] }, tipo: { vf: [0, 0], fv: [0, 0] } }; inicio(); } };
+}
+
+function comecar(modo, foco) {
+  S = { modo, foco, i: 0, total: modo === 'prova' ? 10 : 8, ok: 0, reg: [] };
+  proxima();
+}
+function proxima() {
+  if (S.i >= S.total) return fim();
+  S.atual = gerarQuestao(S.foco); S.marcas = [null, null, null, null, null]; S.sel = null;
+  desenha();
+}
+function compat(seq) { return S.marcas.every((m, i) => m === null || seq[i] === m); }
+function desenha() {
+  const q = S.atual, et = D.etapas.find((e) => e.id === q.etId), guiado = S.modo === 'treino';
+  $('#app').innerHTML = `<div class="topo"><a href="#" id="sair">← encerrar</a><span>${S.i + 1} de ${S.total}${S.foco ? ' · foco' : ''}</span></div>
+  <div class="barra"><i style="width:${Math.round(100 * S.i / S.total)}%"></i></div>
+  <span class="fase">${esc(et.t)}</span>
+  <div class="card">
+    <div class="enun">Julgue as afirmativas a seguir, sobre ${esc(et.t.toLowerCase())}, como verdadeiras (V) ou falsas (F).</div>
+    ${q.af.map((s, i) => `<div class="af"><span class="n">${ROM[i]}.</span><div><div class="tx">${esc(s.t)}</div>${guiado ? `<div class="mk"><button class="v ${S.marcas[i] === 'V' ? 'on' : ''}" data-i="${i}" data-m="V">V</button><button class="f ${S.marcas[i] === 'F' ? 'on' : ''}" data-i="${i}" data-m="F">F</button></div>` : ''}</div></div>`).join('')}
+    <div class="enun" style="margin-top:14px">A sequência correta, de cima para baixo, é:</div>
+    <div class="alts">${q.alts.map((a, k) => `<button data-k="${k}" class="${S.sel === k ? 'sel' : ''} ${guiado && !compat(a) ? 'morta' : ''}"><b>${LET[k]})</b> ${a.split('').join(' ')}</button>`).join('')}</div>
+    ${guiado ? `<p class="sub" style="margin-top:10px">${q.alts.filter(compat).length} alternativa(s) ainda possível(is). ${S.marcas.every((m) => m === null) ? 'Comece pela afirmativa de que você tem mais certeza.' : q.alts.filter(compat).length === 1 ? 'Sobrou uma: veja se você nem precisou julgar todas.' : ''}</p>` : ''}
+    <div class="conf2"><button class="pri" id="cc" ${S.sel === null ? 'disabled' : ''}>Responder · tenho certeza</button><button id="ca" ${S.sel === null ? 'disabled' : ''}>Responder · acho</button></div>
+  </div><div id="fb"></div>`;
+  $('#sair').onclick = (ev) => { ev.preventDefault(); S.reg.length ? fim() : inicio(); };
+  document.querySelectorAll('.mk button').forEach((b) => b.onclick = () => { const i = +b.dataset.i; S.marcas[i] = S.marcas[i] === b.dataset.m ? null : b.dataset.m; desenha(); });
+  document.querySelectorAll('.alts button').forEach((b) => b.onclick = () => { S.sel = +b.dataset.k; desenha(); });
+  $('#cc').onclick = () => responde(true); $('#ca').onclick = () => responde(false);
+}
+
+function responde(certeza) {
+  const q = S.atual, minha = q.alts[S.sel], acerto = minha === q.certa;
+  E.q[0]++; if (acerto) { E.q[1]++; S.ok++; }
+  const k = certeza ? 'c' : 'a'; E.cal[k][0]++; if (acerto) E.cal[k][1]++;
+  // erro por afirmativa: posição onde a sequência escolhida difere do gabarito
+  q.af.forEach((s, i) => {
+    const errou = minha[i] !== q.certa[i];
+    E.a[s.id] = E.a[s.id] || [0, 0]; E.a[s.id][0]++; if (errou) E.a[s.id][1]++;
+    E.et[s.e] = E.et[s.e] || [0, 0]; E.et[s.e][0]++; if (errou) E.et[s.e][1]++;
+    if (errou) { if (s.v) E.tipo.fv[0]++; else E.tipo.vf[0]++; }
+  });
+  salva();
+  S.reg.push({ q, minha, acerto, certeza });
+  if (S.modo === 'prova') { S.i++; return proxima(); }
+  feedback(S.reg[S.reg.length - 1]);
+}
+
+function correcao(r) {
+  const q = r.q;
+  return q.af.map((s, i) => {
+    const errou = r.minha[i] !== q.certa[i];
+    return `<div class="cor"><span class="tg ${errou ? 'mau' : 'bom'}">${ROM[i]}. ${s.v ? 'V' : 'F'}</span> ${errou ? `<b class="mau">você marcou ${r.minha[i]}</b>` : ''}
+      <div>${esc(s.t)}</div>
+      ${!s.v ? `<div class="certo"><b>Certo:</b> ${esc(s.c)}</div>` : ''}
+      ${errou || !s.v ? `<div class="fonte">${esc(s.ex)}</div>` : ''}
+      <div class="fonte">${esc(s.fo)}${s.sec ? ` · <a href="${RESUMO}${s.sec}" target="_blank" rel="noopener">resumo</a>` : ''}${s.op ? ' · pegadinha: ' + esc(s.op) : ''}</div></div>`;
+  }).join('');
+}
+function feedback(r) {
+  const q = r.q;
+  document.querySelectorAll('.alts button').forEach((b) => { const a = q.alts[+b.dataset.k]; b.classList.remove('morta'); if (a === q.certa) b.classList.add('gab'); else if (+b.dataset.k === S.sel) b.classList.add('minha'); b.disabled = true; });
+  document.querySelectorAll('.mk button, #cc, #ca').forEach((b) => b.disabled = true);
+  const difs = q.af.map((_, i) => i).filter((i) => r.minha[i] !== q.certa[i]);
+  let h = `<div class="res">${r.acerto ? 'Acertou' : 'Errou'} · gabarito ${q.certa.split('').join(' ')}</div>`;
+  if (!r.acerto && r.certeza) h += `<div class="alta">Erro com certeza: releia a correção da afirmativa ${difs.map((i) => ROM[i]).join(' e ')} com atenção, é ela que a banca usa contra você.</div>`;
+  if (!r.acerto) h += `<p>Sua alternativa diferia do gabarito ${difs.length === 1 ? 'em <b>uma única posição</b>' : `em <b>${difs.length} posições</b>`}: ${difs.map((i) => 'afirmativa ' + ROM[i]).join(', ')}. ${difs.length === 1 ? 'É exatamente assim que a Vunesp monta as erradas: tudo igual menos um detalhe.' : ''}</p>`;
+  h += correcao(r);
+  $('#fb').innerHTML = `<div class="fb ${r.acerto ? 'ok' : 'err'}">${h}<button class="pri" id="prox" style="margin-top:14px;width:100%">${S.i + 1 < S.total ? 'próxima questão' : 'ver resultado'}</button></div>`;
+  $('#prox').onclick = () => { S.i++; proxima(); window.scrollTo(0, 0); };
+  if (!r.acerto) $('#fb').scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function fim() {
+  const r = S.reg, c = r.filter((x) => x.certeza), oc = (l) => l.filter((x) => x.acerto).length;
+  const porEt = {}; r.forEach((x) => x.q.af.forEach((s, i) => { porEt[s.e] = porEt[s.e] || [0, 0]; porEt[s.e][0]++; if (x.minha[i] !== x.q.certa[i]) porEt[s.e][1]++; }));
+  const piores = Object.entries(porEt).filter(([, v]) => v[1]).sort((a, b) => b[1][1] / b[1][0] - a[1][1] / a[1][0]).slice(0, 3);
+  $('#app').innerHTML = `<h1>Resultado</h1>
+  <p style="font-size:22px"><b>${S.ok} de ${r.length}</b> questões (${pct(S.ok, r.length) ?? 0}%)</p>
+  <p class="sub">Afirmativas julgadas certo: ${r.reduce((s, x) => s + x.q.af.filter((_, i) => x.minha[i] === x.q.certa[i]).length, 0)} de ${r.length * 5}. ${c.length ? `Com "tenho certeza": ${pct(oc(c), c.length)}% de acerto.` : ''}</p>
+  ${piores.length ? `<h2>Onde você errou nesta rodada</h2><ul>${piores.map(([id, v]) => `<li>${esc(D.etapas.find((e) => e.id === id).t)}: ${v[1]} de ${v[0]} afirmativas</li>`).join('')}</ul>` : ''}
+  ${S.modo === 'prova' ? `<h2>Correção</h2>${r.map((x, k) => `<details ${x.acerto ? '' : 'open'}><summary><b class="${x.acerto ? '' : 'mau'}">${x.acerto ? '✓' : '✗'}</b> Questão ${k + 1}: você ${x.minha.split('').join(' ')} · gabarito ${x.q.certa.split('').join(' ')}${!x.acerto && x.certeza ? ' <b class="mau">(errou com certeza)</b>' : ''}</summary>${correcao(x)}</details>`).join('')}` : ''}
+  <div class="btns" style="margin-top:16px">${piores.length ? `<button class="pri" id="foco">Treinar agora: ${esc(D.etapas.find((e) => e.id === piores[0][0]).t)}</button>` : ''}<button id="volta">Voltar ao início</button></div>`;
+  if ($('#foco')) $('#foco').onclick = () => comecar('treino', piores[0][0]);
+  $('#volta').onclick = inicio;
+}
+
+fetch('dados/teste.json').then((r) => r.json()).then((d) => { D = d; inicio(); })
+  .catch(() => { $('#app').innerHTML = '<p>Não consegui carregar as questões. Recarregue a página.</p>'; });
+</script>
+</body>
+</html>

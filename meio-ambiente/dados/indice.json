@@ -1,0 +1,149 @@
+[
+ {
+  "slug": "conama001-artigos-completos",
+  "arquivo": "conama001-artigos-completos.json",
+  "titulo": "CONAMA 001/1986 (EIA/RIMA): artigos completos",
+  "tipo": "artigo",
+  "n": 12
+ },
+ {
+  "slug": "conama237-artigos-completos",
+  "arquivo": "conama237-artigos-completos.json",
+  "titulo": "CONAMA 237/1997 (licenciamento): artigos completos",
+  "tipo": "artigo",
+  "n": 21
+ },
+ {
+  "slug": "conama237-artigos",
+  "arquivo": "conama237-artigos.json",
+  "titulo": "CONAMA 237/1997 (licenciamento): artigos (texto resumido)",
+  "tipo": "artigo",
+  "n": 21
+ },
+ {
+  "slug": "conama237-conceitos",
+  "arquivo": "conama237-conceitos.json",
+  "titulo": "CONAMA 237/1997 (licenciamento): conceitos",
+  "tipo": "conceito",
+  "n": 23
+ },
+ {
+  "slug": "conama237-modais",
+  "arquivo": "conama237-modais.json",
+  "titulo": "CONAMA 237/1997 (licenciamento): deve/pode/vedado",
+  "tipo": "dispositivo",
+  "n": 25
+ },
+ {
+  "slug": "conama237-prazos",
+  "arquivo": "conama237-prazos.json",
+  "titulo": "CONAMA 237/1997 (licenciamento): prazos e valores",
+  "tipo": "dispositivo",
+  "n": 8
+ },
+ {
+  "slug": "conama307-artigos-completos",
+  "arquivo": "conama307-artigos-completos.json",
+  "titulo": "CONAMA 307/2002 (RCC): artigos completos",
+  "tipo": "artigo",
+  "n": 14
+ },
+ {
+  "slug": "estudos-ambientais-desapropriacao",
+  "arquivo": "estudos-ambientais-desapropriacao.json",
+  "titulo": "Estudos Ambientais, Desapropriações e Regularização Fundiária na Engenharia de Obras",
+  "tipo": "tópico",
+  "n": 8
+ },
+ {
+  "slug": "jev-ambiental-subtopicos",
+  "arquivo": "jev-ambiental-subtopicos.json",
+  "titulo": "Subtópicos: ambiental",
+  "tipo": "subtópico",
+  "n": 12
+ },
+ {
+  "slug": "jev-ods-subtopicos",
+  "arquivo": "jev-ods-subtopicos.json",
+  "titulo": "Subtópicos: ods",
+  "tipo": "subtópico",
+  "n": 12
+ },
+ {
+  "slug": "lei6938-artigos-completos",
+  "arquivo": "lei6938-artigos-completos.json",
+  "titulo": "Lei 6.938/1981 (PNMA): artigos completos",
+  "tipo": "artigo",
+  "n": 21
+ },
+ {
+  "slug": "lei6938-artigos",
+  "arquivo": "lei6938-artigos.json",
+  "titulo": "Lei 6.938/1981 (PNMA): artigos (texto resumido)",
+  "tipo": "artigo",
+  "n": 21
+ },
+ {
+  "slug": "lei6938-conceitos",
+  "arquivo": "lei6938-conceitos.json",
+  "titulo": "Lei 6.938/1981 (PNMA): conceitos",
+  "tipo": "conceito",
+  "n": 22
+ },
+ {
+  "slug": "lei9605-artigos-completos",
+  "arquivo": "lei9605-artigos-completos.json",
+  "titulo": "Lei 9.605/1998 (crimes ambientais): artigos completos",
+  "tipo": "artigo",
+  "n": 79
+ },
+ {
+  "slug": "lei9605-artigos",
+  "arquivo": "lei9605-artigos.json",
+  "titulo": "Lei 9.605/1998 (crimes ambientais): artigos (texto resumido)",
+  "tipo": "artigo",
+  "n": 79
+ },
+ {
+  "slug": "lei9605-conceitos",
+  "arquivo": "lei9605-conceitos.json",
+  "titulo": "Lei 9.605/1998 (crimes ambientais): conceitos",
+  "tipo": "conceito",
+  "n": 20
+ },
+ {
+  "slug": "lei9605-modais",
+  "arquivo": "lei9605-modais.json",
+  "titulo": "Lei 9.605/1998 (crimes ambientais): deve/pode/vedado",
+  "tipo": "dispositivo",
+  "n": 29
+ },
+ {
+  "slug": "lei9605-prazos",
+  "arquivo": "lei9605-prazos.json",
+  "titulo": "Lei 9.605/1998 (crimes ambientais): prazos e valores",
+  "tipo": "dispositivo",
+  "n": 66
+ },
+ {
+  "slug": "meio_ambiente_completo",
+  "arquivo": "meio_ambiente_completo.json",
+  "titulo": "Legislação e Engenharia Ambiental Aplicada",
+  "tipo": "tópico",
+  "n": 207
+ },
+ {
+  "slug": "mtr-sigor-gestao-residuos",
+  "arquivo": "mtr-sigor-gestao-residuos.json",
+  "titulo": "MTR Nacional (SINIR) e SIGOR - Módulo Construção Civil (CETESB/SP)",
+  "tipo": "tópico",
+  "n": 8
+ },
+ {
+  "slug": "ods_agenda_2030_engenharia",
+  "arquivo": "ods_agenda_2030_engenharia.json",
+  "titulo": "Agenda 2030 para o Desenvolvimento Sustentável - ONU",
+  "tipo": "tópico",
+  "n": 42
+ }
+]
