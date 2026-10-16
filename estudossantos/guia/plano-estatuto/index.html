@@ -1,0 +1,288 @@
+<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Guia fundo · Plano Diretor e Estatuto da Cidade</title>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#EFEADC;--pg:#FDFBF3;--bd:#E3DFCF;--bl:#0C447C;--rd:#993C1D;--gr:#1A6B3C;--tx:#2C2C2A;--am:#D9A441}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);font-family:'Caveat',cursive;color:var(--tx)}
+.wrap{max-width:900px;margin:0 auto;padding:10px 10px 70px}
+.nav{position:sticky;top:0;z-index:30;background:var(--pg);border:1px solid var(--bd);border-radius:10px;padding:6px 10px;font-size:18px;line-height:26px;box-shadow:0 2px 6px rgba(0,0,0,.06)}.nav a{margin-right:10px;color:var(--rd);text-decoration:none;border-bottom:1px dotted #C9A896;white-space:nowrap}.nav b{color:var(--bl)}
+h1{font-size:34px;line-height:38px;margin:10px 0 4px;color:var(--bl)}h2{font-size:29px;line-height:33px;margin:0 0 8px;color:var(--bl);scroll-margin-top:80px}h3{font-size:23px;margin:14px 0 4px;color:var(--gr)}
+p,li{font-size:20px;line-height:29px;margin:5px 0}.sb{font-size:17px;color:#5F5E5A}ul,ol{padding-left:24px;margin:4px 0}
+.pg{background:var(--pg);border:1px solid var(--bd);border-radius:14px;padding:16px 16px 18px;margin:14px 0}
+.bz{border:1.5px solid var(--bl);border-radius:6px;padding:8px 12px;margin:10px 0;font-size:20px;line-height:28px;color:var(--bl);background:#F4F8FC}
+.pk{border:1.5px dashed #A32D2D;padding:8px 12px;margin:10px 0;font-size:19px;line-height:27px;color:#A32D2D;background:#FDF6F5;border-radius:6px}
+.fm{border-left:4px solid var(--gr);background:#F1F9F4;padding:7px 12px;margin:10px 0;font-size:20px;line-height:28px;color:#14532D}
+.av{background:#FFF6E0;border:1.5px solid var(--am);border-radius:8px;padding:8px 12px;margin:10px 0;font-size:18px;line-height:26px;color:#7A5A12}
+.hl{background:#FAEEDA;padding:0 4px;border-radius:3px}.cz{color:var(--bl);font-weight:700}.cv{color:#A32D2D;font-weight:700}
+table{width:100%;border-collapse:collapse;margin:8px 0;font-size:18px}th{background:#EAF0F7;color:var(--bl);text-align:left;padding:5px 7px;border:1px solid #D6D2C4}td{padding:5px 7px;border:1px solid var(--bd);vertical-align:top;line-height:24px}td.k{font-weight:700;color:var(--rd)}
+.tl{display:flex;flex-direction:column;gap:0;margin:10px 0}.st{display:flex;gap:10px;align-items:stretch}.st .d{min-width:92px;max-width:92px;background:var(--bl);color:#fff;border-radius:10px 0 0 10px;padding:6px 6px;font-size:18px;line-height:22px;text-align:center;display:flex;align-items:center;justify-content:center}
+.st .t{flex:1;border:1.5px solid var(--bl);border-radius:0 10px 10px 0;padding:6px 10px;font-size:19px;line-height:26px;background:#fff}.ar{text-align:center;font-size:24px;color:var(--rd);line-height:22px;margin:2px 0 2px 0}
+.st.r .d{background:#A32D2D}.st.r .t{border-color:#A32D2D}.st.g .d{background:var(--gr)}.st.g .t{border-color:var(--gr)}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}@media(max-width:620px){.grid{grid-template-columns:1fr}}
+.cell{border:2px solid var(--bl);border-radius:12px;padding:8px 10px;background:#fff}.cell h4{margin:0 0 4px;font-size:23px;color:var(--bl)}.cell.u{border-color:#0C447C;background:#EAF0F7}.cell.c{border-color:#1A6B3C;background:#E7F5EC}.cell.e{border-color:#B8860B;background:#FFF6DD}.cell.m{border-color:#993C1D;background:#FBEDE6}.cell.s{border-color:#6B3FA0;background:#F1EAF8}
+.cell .n{display:inline-block;background:var(--bl);color:#fff;border-radius:10px;padding:0 9px;font-size:18px;margin-right:6px}
+.inp{font:inherit;font-size:22px;border:1.5px solid var(--bl);border-radius:8px;padding:3px 8px;width:100%;background:#fff}.row{display:flex;gap:10px;flex-wrap:wrap}.row>div{flex:1;min-width:150px}label{font-size:18px;color:var(--bl);font-weight:700}
+.btn{font:inherit;font-size:21px;font-weight:700;border:2px solid var(--bl);background:var(--bl);color:#fff;border-radius:12px;padding:5px 14px;cursor:pointer;margin:4px 6px 4px 0}.btn.o{background:#fff;color:var(--bl)}
+.opt{display:inline-block;font:inherit;font-size:18px;border:1.5px solid var(--bl);color:var(--bl);background:#fff;border-radius:14px;padding:2px 11px;margin:3px 4px 3px 0;cursor:pointer}.opt.ok{background:#1A6B3C;color:#fff;border-color:#1A6B3C}.opt.no{background:#A32D2D;color:#fff;border-color:#A32D2D}
+.qz{border:1px solid var(--bd);border-radius:10px;padding:8px 10px;margin:8px 0;background:#fff}.qz .ex{margin-top:6px;font-size:18px;line-height:25px;color:#14532D;display:none}
+.mem{font-size:22px;line-height:32px;text-align:center;border:2px solid var(--rd);border-radius:12px;padding:8px 10px;margin:10px 0;background:#FDF6F5;color:var(--rd);font-weight:700}
+@media(max-width:520px){h1{font-size:27px}td,th{font-size:16px;padding:4px}.st .d{min-width:74px;max-width:74px;font-size:16px}}
+.pg{overflow-x:auto}td,th{word-break:break-word}.nav{overflow-wrap:anywhere}</style></head><body><div class="wrap">
+<div class="nav"><b>Guia fundo 4</b> · <a href="#mapa">1 Mapa</a> <a href="#ec1">2 Estatuto: base</a> <a href="#peuc">3 PEUC e IPTU</a> <a href="#sim">4 Simulador</a> <a href="#ec3">5 Usucapião e superfície</a> <a href="#ec4">6 Preempção, outorga, OUC</a> <a href="#ec5">7 EIV e plano diretor</a> <a href="#pd1">8 PD: território</a> <a href="#pd2">9 Zonas e habitação</a> <a href="#pd3">10 PD: instrumentos</a> <a href="#pd4">11 Estrutura e meio ambiente</a> <a href="#pd5">12 Gestão</a> <a href="#esq">13 Esquema</a> <a href="#treino">14 Treino</a> <a href="#nunca">15 Uma folha</a></div>
+<h1>Guia fundo: Plano Diretor de Santos e Estatuto da Cidade</h1>
+<p class="sb">Bloco 3 · Santos (IBAM) · overview das partes mais cobráveis (cerca de 70% de cada lei): LC 1.181/2022 e Lei 10.257/2001.</p>
+<div class="av"><b>Fontes e limites.</b> Escrevi a partir das apostas já conferidas: texto compilado da Lei 10.257 (Planalto) e texto da LC 1.181/2022 no Portal Legis de Santos. Não tenho acesso ao Estratégia (é pago) e não usei o Jev (falta chave de API). Os anexos do Plano Diretor (mapas) não foram transcritos, e alterações posteriores à LC 1.181 que não estejam no texto consolidado não foram conferidas. Os “70%” são uma escolha minha: deixei de fora o que é pouco cobrável (por exemplo, detalhes de arrecadação de imóveis abandonados, lista completa de planos setoriais e o conteúdo dos anexos). A probabilidade de cada tema é estimativa minha, não cálculo.</div>
+
+<section class="pg" id="mapa"><h2>1. O mapa: como as duas leis se encaixam</h2>
+<p>O <b>Estatuto da Cidade</b> (Lei 10.257/2001) é lei <b>federal</b>: regula os arts. 182 e 183 da Constituição e dá o <b>molde</b> de cada instrumento. O <b>Plano Diretor de Santos</b> (LC 1.181/2022) é lei <b>municipal</b>: pega o molde e <b>preenche</b> com os números e as áreas de Santos. A banca adora trocar um pelo outro.</p>
+<div class="grid">
+<div class="cell u"><h4>Estatuto da Cidade</h4>Quem legisla: <b>União</b> (normas gerais).<br>Diz: <b>o que pode</b> ser feito, os limites máximos e as garantias (teto de 15%, 5 anos, Senado, 10 anos).<br>Não diz: onde, em qual zona, qual percentual local.</div>
+<div class="cell m"><h4>Plano Diretor de Santos</h4>Quem legisla: <b>Município</b>.<br>Diz: <b>onde e quanto</b>: zonas, áreas mínimas (200 m²), CA 0,4, alíquotas 3-6-9-12-15 e 5-7-10-13-15, fundos, prazos locais.<br>Não pode: contrariar o molde federal.</div></div>
+<div class="fm"><b>Regra de ouro</b>: se a questão fala de teto, prazo máximo, aprovação do Senado, resgate de títulos, juros de 6%, usucapião de 250 m² ou intervenção do MP, é <b>Estatuto</b>. Se fala de macrozona, ZEIS, 200 m², 0,4, FUNDURB, FINCOHAP, CMDU, é <b>Plano Diretor de Santos</b>.</div>
+<h3>Quanto cada parte vale (estimativa minha, não é o Jev)</h3>
+<table><tr><th>Bloco do guia</th><th>Onde cai</th><th>Chance de cobrança</th></tr>
+<tr><td class="k">PEUC, IPTU progressivo, títulos</td><td>Estatuto arts. 5 a 8 · PD arts. 46 a 56 · CF 182</td><td><b>muito alta</b> (aparece nas duas leis e na CF)</td></tr>
+<tr><td class="k">Zonas especiais e habitação (ZEIS, HIS, HMP)</td><td>PD arts. 29 a 40 e 136 a 150</td><td><b>alta</b> (decoreba de número)</td></tr>
+<tr><td class="k">Preempção, outorga, OUC, TDC</td><td>Estatuto arts. 25 a 35 · PD arts. 69 a 83</td><td><b>alta</b></td></tr>
+<tr><td class="k">Macroáreas, macrozonas, objetivos</td><td>PD arts. 3 a 28</td><td><b>alta</b> (enumerações)</td></tr>
+<tr><td class="k">Plano diretor (conteúdo), EIV, gestão</td><td>Estatuto arts. 36 a 45 · PD arts. 198 a 238</td><td>média a alta</td></tr>
+<tr><td class="k">Mobilidade, verdes, saneamento, riscos</td><td>PD arts. 87 a 176</td><td>média (heliponto e PMMA são os mais “decoráveis”)</td></tr></table></section>
+
+<section class="pg" id="ec1"><h2>2. Estatuto da Cidade: a base (arts. 1º a 4º)</h2>
+<div class="bz"><b>Art. 1º</b>: a lei regula os <b>arts. 182 e 183 da CF</b>; são normas de <b>ordem pública e interesse social</b> que regulam o uso da propriedade urbana em prol do bem coletivo, da segurança, do bem-estar dos cidadãos e do equilíbrio ambiental.<br><b>Art. 2º</b>: o objetivo é <b>ordenar o pleno desenvolvimento das funções sociais da cidade e da propriedade urbana</b>.</div>
+<h3>Diretrizes gerais (art. 2º): as que mais caem</h3>
+<table><tr><th>Inciso</th><th>Ideia</th></tr>
+<tr><td class="k">I</td><td><b>direito a cidades sustentáveis</b>: terra urbana, moradia, saneamento ambiental, infraestrutura, transporte, serviços públicos, trabalho e lazer, para as presentes e futuras gerações</td></tr>
+<tr><td class="k">II</td><td><b>gestão democrática</b> (participação da população e de associações)</td></tr>
+<tr><td class="k">III e IV</td><td>cooperação entre governos, iniciativa privada e sociedade · planejamento do desenvolvimento das cidades</td></tr>
+<tr><td class="k">VI</td><td>ordenação e controle do uso do solo, para evitar: uso inadequado, usos incompatíveis, uso excessivo em relação à infraestrutura, polos geradores de tráfego sem infraestrutura, <b>retenção especulativa</b>, deterioração, poluição, exposição a riscos de desastres</td></tr>
+<tr><td class="k">IX e XI</td><td><b>justa distribuição</b> dos benefícios e ônus da urbanização · <b>recuperação dos investimentos</b> públicos que valorizaram imóveis</td></tr>
+<tr><td class="k">XII a XV</td><td>proteção do meio ambiente natural e construído e do patrimônio cultural · audiência do Poder Público e da população em empreendimentos com efeitos negativos · regularização fundiária de áreas de baixa renda · simplificação da legislação</td></tr>
+<tr><td class="k">XX</td><td>espaços livres de uso público <b>sem arquitetura hostil</b></td></tr></table>
+<div class="av">O art. 2º, XXI (conservação dos equipamentos de uso coletivo) aparece na versão de 2026 (Lei 15.333/2026) com vigência a confirmar. Não tratei como certo.</div>
+<h3>União (art. 3º) e instrumentos (art. 4º)</h3>
+<p>Cabe à <b>União</b> legislar sobre <b>normas gerais de direito urbanístico</b> (os Municípios não). Os instrumentos do art. 4º se agrupam em três famílias, e a banca pede para “identificar o que não é instrumento” ou “o que pertence a qual família”:</p>
+<div class="grid">
+<div class="cell u"><h4>Planejamento</h4>plano diretor · parcelamento, uso e ocupação do solo · zoneamento ambiental · PPA, LDO, orçamento · gestão orçamentária participativa</div>
+<div class="cell e"><h4>Tributários e financeiros</h4>IPTU · contribuição de melhoria · incentivos e benefícios fiscais e financeiros</div>
+<div class="cell c"><h4>Jurídicos e políticos</h4>desapropriação · servidão · limitações administrativas · tombamento · UCs · ZEIS · CDRU · concessão de uso especial · PEUC · usucapião especial · superfície · preempção · outorga onerosa · transferência do direito de construir · OUC · regularização fundiária · ATHIS · referendo e plebiscito · demarcação urbanística · legitimação de posse</div>
+<div class="cell m"><h4>Estudos</h4>EIA e EIV (estudo prévio de impacto ambiental e de vizinhança)</div></div>
+<div class="pk"><b>Como a banca erra a gente</b>: “compete aos <i>Municípios</i> legislar sobre normas gerais de direito urbanístico” (é da União, art. 3º, I) · “a gestão democrática é facultativa” · “o EIV substitui o EIA” · “a lei regula apenas a propriedade rural”.</div></section>
+
+<section class="pg" id="peuc"><h2>3. PEUC, IPTU progressivo e desapropriação com títulos (a “escada de 3 degraus”)</h2>
+<p>É o tema nº 1 das duas leis. A lógica: o Município quer que terreno parado seja usado. Para isso sobe uma <b>escada</b>, nesta ordem (CF 182, §4º; Estatuto arts. 5º a 8º):</p>
+<div class="tl">
+<div class="st"><div class="d">Degrau 1<br>PEUC</div><div class="t"><b>Parcelamento, edificação ou utilização compulsórios</b>. Lei municipal específica, para área incluída no plano diretor. Notificação <b>averbada no registro de imóveis</b>. Prazos mínimos do Estatuto: <span class="cz">1 ano</span> para protocolar o projeto e <span class="cz">2 anos</span> da aprovação para iniciar as obras.</div></div><div class="ar">↓</div>
+<div class="st r"><div class="d">Degrau 2<br>IPTU</div><div class="t"><b>IPTU progressivo no tempo</b>, por <span class="cz">5 anos consecutivos</span>, alíquota de cada ano <span class="cz">até o dobro</span> da anterior, teto de <span class="cz">15%</span>; depois dos 5 anos, mantém a máxima até cumprir. <b>Sem isenção nem anistia.</b></div></div><div class="ar">↓</div>
+<div class="st g"><div class="d">Degrau 3<br>Títulos</div><div class="t"><b>Desapropriação com pagamento em títulos da dívida pública</b>, após 5 anos de IPTU sem cumprimento: títulos de <b>prévia aprovação do Senado</b>, resgate em até <span class="cz">10 anos</span>, prestações anuais, iguais e sucessivas, <span class="cz">juros de 6% ao ano</span>.</div></div></div>
+<h3>Detalhes que viram questão (Estatuto)</h3>
+<ul><li><b>Subutilizado</b> = aproveitamento inferior ao mínimo definido no plano diretor ou em lei dele decorrente.</li>
+<li><b>Notificação</b>: por funcionário do Município, ao proprietário (ou a quem tenha poderes de gerência, se pessoa jurídica); <b>frustrada por três vezes</b>, por <b>edital</b>.</li>
+<li><b>Grande porte</b>: lei pode prever conclusão em etapas, com projeto do todo.</li>
+<li><b>Venda do imóvel</b> depois da notificação (inter vivos ou causa mortis): as obrigações <b>se transferem</b> e os prazos <b>não se interrompem</b> (art. 6º).</li>
+<li><b>Indenização</b>: valor real que reflete a base de cálculo do IPTU, descontado o valor das obras públicas posteriores à notificação; <b>não conta</b> expectativa de ganho, lucros cessantes e juros compensatórios.</li>
+<li>Os títulos <b>não têm poder liberatório</b> para pagar tributos.</li>
+<li>O Município deve dar <b>adequado aproveitamento em 5 anos</b> da incorporação ao patrimônio (direto, ou por alienação ou concessão com licitação). Não fazer isso é <b>improbidade</b> do Prefeito (art. 52).</li></ul>
+<h3>O mesmo tema no Plano Diretor de Santos (arts. 46 a 56)</h3>
+<table><tr><th>Categoria</th><th>Critério</th><th>Artigo</th></tr>
+<tr><td class="k">Não utilizado, não edificado</td><td>lote ou gleba <b>acima de 200 m²</b> com CA utilizado <b>igual a 0</b></td><td>46</td></tr>
+<tr><td class="k">Subutilizado, edificado</td><td><b>acima de 200 m²</b> com aproveitamento <b>inferior a 0,4</b> vez a área do lote</td><td>47</td></tr>
+<tr><td class="k">Não utilizado, edificado</td><td>CA <b>igual ou superior a 0,3</b> e desocupado por <b>mais de 1 ano</b> ininterrupto</td><td>48</td></tr></table>
+<p><b>Onde incide</b>: ZEIS, Macrozona Centro (exceto Zona Portuária), Zonas Industriais e Retroportuárias da Macroárea Insular e AAS. Imóveis <b>de até 200 m²</b> dependem de deliberação do <b>CMDU</b>. Em condomínio com <b>60% ou mais</b> de unidades desocupadas, a obrigação recai sobre cada unidade sem uso por mais de um ano.</p>
+<table><tr><th>Imóvel</th><th>Ano 1</th><th>Ano 2</th><th>Ano 3</th><th>Ano 4</th><th>Ano 5</th></tr>
+<tr><td class="k">Edificado</td><td>3%</td><td>6%</td><td>9%</td><td>12%</td><td>15%</td></tr>
+<tr><td class="k">Não edificado</td><td>5%</td><td>7%</td><td>10%</td><td>13%</td><td>15%</td></tr></table>
+<div class="mem">3 · 6 · 9 · 12 · 15 &nbsp;(edificado) &nbsp;|&nbsp; 5 · 7 · 10 · 13 · 15 &nbsp;(não edificado)</div>
+<ul><li><b>Notificação (art. 50)</b>: averbada na matrícula; projeto em até <b>1 ano</b>; obra em <b>2 anos</b> da aprovação, <b>sem prorrogação nem revalidação do alvará</b>; <b>recusa do cartório</b> em averbar <b>não torna a notificação sem efeito</b>.</li>
+<li><b>Desocupação por 1 ano</b> (art. 49): comprovada por critérios como corte de energia ou água; ausência de manifestação do proprietário após notificação por AR, com prazo de <b>15 dias</b>.</li>
+<li><b>Não são subutilizados</b> (art. 47 §1º e art. 54): atividades regulares que dispensem o CA mínimo (salvo ZEIS, Centro e AAS), postos de abastecimento, imóveis do Sistema de Áreas Verdes, tombados ou NP1a/1b/2a/2b com uso efetivo e conforme.</li>
+<li><b>Grande porte no Centro</b> (art. 51): obra em etapas se tiver mais de <b>20.000 m²</b> computáveis ou parcelamento de mais de <b>50.000 m²</b>.</li>
+<li><b>Lançamento</b> (art. 56): relação publicada até <b>novembro</b>; alíquota lançada para o exercício seguinte; CA mínimo de <b>0,5</b> no cumprimento da obrigação de construir.</li>
+<li>Imóvel notificado <b>não pode</b> ser doador de TDC (art. 53).</li></ul>
+<div class="pk"><b>Como a banca erra a gente</b>: alíquota “até 30%” · IPTU por “10 anos” · resgate “em 20 anos” · juros “de 12%” · títulos aprovados “pela Câmara” (é o <b>Senado</b>) · “0,3” no lugar de 0,4 · “500 m²” no lugar de 200 · “o alvará pode ser revalidado” · “a venda zera os prazos” · “o IPTU progressivo admite anistia” · “a desapropriação com títulos independe do IPTU”.</div>
+<div class="fm"><b>Macete da escada</b>: <b>P</b>rimeiro <b>P</b>arcela/edifica, <b>D</b>epois <b>D</b>oi no bolso (IPTU), por fim <b>T</b>ira o terreno (títulos). Nunca pule degrau.</div></section>
+
+<section class="pg" id="sim"><h2>4. Simulador: o imóvel está sujeito ao PEUC em Santos?</h2>
+<p>Preencha e veja o enquadramento do art. 46 a 48 da LC 1.181. É um treino de leitura: confira sempre os critérios, as zonas de incidência e as exceções.</p>
+<div class="row"><div><label>Área do terreno (m²)</label><input class="inp" id="a" type="number" value="450"></div>
+<div><label>Área construída computável (m²)</label><input class="inp" id="c" type="number" value="90"></div>
+<div><label>Meses desocupado</label><input class="inp" id="m" type="number" value="0"></div>
+<div><label>Zona</label><select class="inp" id="z"><option value="s">ZEIS, Centro, Zonas Industriais/Retroportuárias, AAS</option><option value="n">Outra zona</option></select></div></div>
+<button class="btn" onclick="enq()">Enquadrar</button><div id="eo"></div></section>
+
+<section class="pg" id="ec3"><h2>5. Usucapião especial, direito de superfície e consórcio imobiliário</h2>
+<div class="grid">
+<div class="cell u"><h4>Usucapião individual (art. 9º)</h4>área ou edificação urbana de <span class="cz">até 250 m²</span> · <span class="cz">5 anos</span>, ininterruptos e sem oposição · para <b>moradia</b> sua ou da família · <b>não ser dono</b> de outro imóvel urbano ou rural · <b>uma só vez</b> · título ao homem, à mulher ou a ambos</div>
+<div class="cell c"><h4>Usucapião coletiva (art. 10)</h4>núcleos urbanos informais com <b>mais de 5 anos</b> sem oposição · área total dividida pelo número de possuidores <b>inferior a 250 m²</b> por possuidor · juiz dá <b>frações ideais iguais</b> (salvo acordo escrito) · condomínio <b>indivisível</b> (extinção só por 2/3 dos condôminos, no caso de urbanização posterior)</div></div>
+<div class="bz"><b>Processo</b>: partes legítimas: possuidor (isolado ou em litisconsórcio), possuidores em composse e, como <b>substituto processual</b>, a <b>associação de moradores</b> autorizada · <b>intervenção do Ministério Público obrigatória</b> · justiça gratuita · ações petitórias e possessórias <b>sobrestadas</b> · pode ser alegada como <b>defesa</b> · rito sumário. A concessão de uso especial (arts. 15 a 20) foi <b>vetada</b>.</div>
+<h3>Direito de superfície (arts. 21 a 24)</h3>
+<ul><li>O proprietário concede, por prazo <b>determinado ou indeterminado</b>, por <b>escritura pública registrada</b>; abrange solo, subsolo e espaço aéreo, conforme o contrato; <b>gratuita ou onerosa</b>.</li>
+<li>O superficiário responde pelos <b>encargos e tributos</b> da propriedade superficiária; direito <b>transferível</b> a terceiros e herdeiros; na alienação, <b>preferência</b> para ambos.</li>
+<li>Extingue-se pelo <b>termo</b> ou pelo <b>descumprimento</b>; extinto, o proprietário recupera o domínio e as acessões e benfeitorias <b>sem indenização</b>, salvo contrato em contrário.</li></ul>
+<div class="bz"><b>Consórcio imobiliário (Estatuto, art. 46; PD, art. 57)</b>: o proprietário <b>transfere o imóvel ao Município</b> e, depois das obras, recebe <b>unidades urbanizadas ou edificadas</b> de valor igual ao do imóvel <b>antes das obras</b> (sem lucros cessantes nem juros compensatórios). É forma de viabilizar o PEUC. No PD de Santos, a regulamentação sai em <b>180 dias</b>.</div>
+<div class="pk"><b>Como a banca erra a gente</b>: “500 m²” ou “10 anos” · extinção do condomínio “por maioria simples” · substituto processual “o Município” (é a associação de moradores) · “o MP não intervém” · “imóvel público pode ser usucapido” · “a concessão de uso especial está nos arts. 15 a 20” (vetados).</div></section>
+
+<section class="pg" id="ec4"><h2>6. Preempção, outorga onerosa, operação urbana consorciada e transferência do direito de construir</h2>
+<table><tr><th>Instrumento</th><th>Em uma frase</th><th>Estatuto (molde)</th><th>Plano Diretor de Santos</th></tr>
+<tr><td class="k">Direito de preempção</td><td>Município tem <b>preferência</b> para comprar imóvel que o particular vai vender</td><td>lei municipal delimita as áreas; vigência <b>até 5 anos</b>, renovável a partir de <b>1 ano após o fim</b> do prazo; Município responde em <b>30 dias</b>; venda em condições diversas é <b>nula de pleno direito</b></td><td>mesmos 5 anos e 30 dias (art. 69 a 74); por ato do Chefe do Executivo; incide em lotes e glebas de <b>ZEIS</b>; envio de cópia da escritura em 30 dias</td></tr>
+<tr><td class="k">Outorga onerosa (OODC)</td><td>pagar para construir <b>acima do CA básico</b></td><td>plano diretor fixa áreas e limites máximos; <b>lei municipal específica</b> traz fórmula, isenções e contrapartida; recursos com as finalidades do art. 26</td><td>OODC nas Macrozonas <b>Leste, Centro e Noroeste</b> · recursos: <b>50% FUNDURB e 50% FINCOHAP</b> · OOAU (alteração de uso): <b>100% FUNDURB</b></td></tr>
+<tr><td class="k">Operação urbana consorciada (OUC)</td><td>conjunto de intervenções coordenadas pelo Município com proprietários, moradores, usuários e investidores</td><td>lei específica; plano com área, programa, atendimento social, finalidades, <b>EIV</b>, contrapartida e controle compartilhado; recursos <b>só na própria operação</b>; <b>CEPAC</b> convertível só na área</td><td>criada por lei específica; estudos ao CMDU em <b>180 dias</b>; regularização de obras em desacordo <b>só por OUC</b> (salvo ZEIS)</td></tr>
+<tr><td class="k">Transferência do direito de construir (TDC)</td><td>exercer ou vender em outro lugar o direito de construir</td><td>lei municipal; imóvel necessário a equipamentos, preservação histórica ou ambiental, regularização/HIS; vale também para quem <b>doar</b> o imóvel</td><td>por <b>escritura pública</b>; imóveis tombados ou NP 1a, 1b, 2a, 2b, 3a, necessários a vias ou equipamentos etc.; <b>vedada</b> para imóvel notificado como doador</td></tr></table>
+<h3>Finalidades da preempção (art. 26) e dos recursos da outorga</h3>
+<p>Regularização fundiária · habitação de interesse social · reserva fundiária · ordenamento da expansão urbana · equipamentos urbanos e comunitários · espaços de lazer e áreas verdes · unidades de conservação · áreas de interesse histórico, cultural ou paisagístico.</p>
+<div class="fm"><b>Macete</b>: preempção e outorga andam juntas nas finalidades (art. 26). OUC é a que tem <b>CEPAC</b> e <b>EIV</b>. TDC é a que “<b>transfere</b>”: tombado, equipamento, HIS.</div>
+<div class="pk"><b>Como a banca erra a gente</b>: preempção “por até 10 anos” · resposta do Município “em 60 dias” · venda em condições diversas “é anulável” · CEPAC “converte em qualquer área da cidade” · recursos da OUC “em qualquer obra” · outorga “dispensa lei específica” · OODC “100% ao FUNDURB” (são 50/50) · “a regularização de obras irregulares se faz por decreto”.</div></section>
+
+<section class="pg" id="ec5"><h2>7. EIV, plano diretor (Estatuto) e gestão democrática</h2>
+<h3>EIV (arts. 36 a 38)</h3>
+<p>Lei municipal define os empreendimentos que dependem de EIV para licenças de construção, ampliação ou funcionamento. O estudo avalia efeitos <b>positivos e negativos</b> sobre a qualidade de vida: <b>adensamento populacional</b>, equipamentos urbanos e comunitários, uso e ocupação do solo, <b>valorização imobiliária</b>, <b>geração de tráfego e demanda por transporte público</b>, ventilação e iluminação, paisagem urbana e patrimônio natural e cultural. Os documentos ficam <b>à disposição de qualquer interessado</b>. <b>O EIV não substitui o EIA.</b></p>
+<h3>Plano diretor segundo o Estatuto (arts. 39 a 42)</h3>
+<ul><li>Aprovado por <b>lei municipal</b>; é o <b>instrumento básico</b> da política de desenvolvimento e expansão urbana; engloba o <b>território inteiro</b> do Município.</li>
+<li>A propriedade cumpre a função social quando atende às exigências do plano diretor.</li>
+<li>Deve ser <b>revisto pelo menos a cada 10 anos</b>.</li>
+<li><b>Obrigatório</b> (art. 41) para cidades: <b>mais de 20 mil habitantes</b> · regiões metropolitanas e aglomerações urbanas · que queiram usar o art. 182, §4º · de interesse turístico · na área de influência de empreendimentos de grande impacto ambiental · no cadastro de áreas suscetíveis a deslizamentos e inundações.</li>
+<li><b>Mais de 500 mil habitantes</b>: plano de transporte urbano integrado. Cidades obrigadas ao plano diretor: plano de <b>rotas acessíveis</b> (passeios).</li>
+<li><b>Conteúdo mínimo (art. 42)</b>: delimitação das áreas do PEUC · disposições sobre preempção, outorga onerosa, alteração de uso, OUC e TDC · sistema de acompanhamento e controle.</li></ul>
+<h3>Gestão democrática (arts. 43 a 45) e art. 52</h3>
+<p>Órgãos colegiados, debates, audiências, consultas públicas, conferências e <b>iniciativa popular</b> de projeto de lei. Debates e audiências sobre PPA, LDO e orçamento são <b>condição obrigatória</b> para a Câmara aprovar. O <b>art. 52</b> lista condutas de <b>improbidade do Prefeito</b>: não dar aproveitamento em 5 anos ao imóvel desapropriado com títulos, usar recursos da outorga ou da OUC em desacordo, não garantir audiências e publicidade, não revisar o plano, comprar por preempção acima do valor de mercado.</p>
+<div class="pk"><b>Como a banca erra a gente</b>: revisão “a cada 5 anos” · plano de transporte “para mais de 100 mil habitantes” · plano diretor “aprovado por decreto” · “o EIV dispensa o EIA” · “o plano abrange só a zona urbana” · “obrigatório só acima de 20 mil, sem outros casos”.</div></section>
+
+<section class="pg" id="pd1"><h2>8. Plano Diretor de Santos: objetivos, território, macroáreas e macrozonas</h2>
+<div class="bz">O PD é o <b>instrumento básico</b> da política de desenvolvimento e expansão urbana (CF, Lei Orgânica, Estatuto da Cidade e <b>Estatuto da Metrópole</b>, Lei 13.089/2015), executado por meio do <b>Sistema de Planejamento</b> (arts. 1º e 2º).</div>
+<h3>Cinco objetivos gerais (art. 3º)</h3>
+<ol><li>desenvolvimento econômico sustentável</li><li>função social da cidade e da propriedade urbana</li><li>equidade com inclusão social e territorial</li><li>gestão democrática e direito à cidade</li><li>direito à moradia digna e ao meio urbano equilibrado</li></ol>
+<h3>Como o território é dividido</h3>
+<div class="grid">
+<div class="cell u"><h4>Para ordenar (art. 16)</h4>macroáreas · macrozonas · zonas de uso e ocupação do solo · zonas especiais</div>
+<div class="cell c"><h4>Por urbanização (art. 19)</h4><b>AU</b> Área Urbana · <b>AEU</b> Área de Expansão Urbana · <b>APCA</b> Área de Proteção e Conservação Ambiental (inclui o <b>Parque Estadual da Serra do Mar</b> e as APAs). Parcelamento para fins urbanos <b>só em AU e AEU</b> (art. 42).</div>
+<div class="cell e"><h4>Macroáreas (art. 23): 3</h4><b>Insular</b> (Ilha de São Vicente, alto grau de urbanização) · <b>Continental</b> (predomina a conservação, com usos urbanos, portuários e retroportuários) · <b>Estuário e Canais Fluviais</b> (ambiente aquático, marés)</div>
+<div class="cell m"><h4>Mapas</h4>escala <b>1:50.000</b> (Anexos II e III). As <b>zonas de uso e ocupação</b> são delimitadas pelas leis específicas das macroáreas Insular e Continental, <b>não pelo PD</b>.</div></div>
+<h3>As 7 macrozonas (art. 24) e a “pretensão” de cada uma</h3>
+<table><tr><th>Macrozona</th><th>Vocação</th></tr>
+<tr><td class="k">I Leste</td><td>área urbanizada; novos modelos de ocupação; uso residencial com prioridade a <b>HIS e HMP</b>; minimizar conflitos com o <b>Porto</b></td></tr>
+<tr><td class="k">II Centro</td><td>comércio e serviços; acervo cultural em <b>revitalização</b>; <b>transferência dos usos não conformes</b>; fixar residência e população de baixa e média rendas</td></tr>
+<tr><td class="k">III Noroeste</td><td>graus diversos de urbanização, <b>assentamentos precários</b>; verticalização, vazios com <b>EHIS</b>, regularização; prioridade às <b>palafitas</b></td></tr>
+<tr><td class="k">IV Morros</td><td>preservação, <b>redução de riscos</b>, respeito às fragilidades geológico-geotécnicas, renovação com oficialização de vias, EHIS</td></tr>
+<tr><td class="k">V Continental 1</td><td>vocações <b>portuária e retroportuária</b>, suporte urbano, interesse ambiental, ecoturismo</td></tr>
+<tr><td class="k">VI Continental 2</td><td>relevante interesse ambiental, <b>dois núcleos urbanos</b>; ocupação controlada, ecoturismo e turismo de comunidades tradicionais</td></tr>
+<tr><td class="k">VII Estuário e Canais</td><td>meio aquático e de transição; usos portuários, pesqueiros, esportivos e turísticos; recuperação de áreas contaminadas</td></tr></table>
+<div class="mem">Leste · Centro · Noroeste · Morros · Continental 1 · Continental 2 · Estuário</div>
+<div class="pk"><b>Como a banca erra a gente</b>: “quatro macroáreas” · escala “1:25.000” · “parcelamento admitido na APCA” · “o PD é o instrumento complementar” (é o <b>básico</b>) · palafitas nos Morros ou riscos geológicos no Noroeste · Continental 1 “residencial” · “seis macrozonas” · “o PD delimita as zonas de uso”.</div></section>
+
+<section class="pg" id="pd2"><h2>9. Zonas especiais e habitação (HIS, HMP, EHIS)</h2>
+<h3>Oito zonas especiais (art. 29)</h3>
+<table><tr><th>Sigla</th><th>O que é</th></tr>
+<tr><td class="k">ZEIS</td><td><b>1</b>: áreas ocupadas espontaneamente, loteamentos irregulares ou clandestinos, população de baixa renda → regularizar posse e parcelamento · <b>2</b>: glebas ou terrenos não edificados, subutilizados ou não utilizados → programas de <b>HIS e HMP</b> · <b>3</b>: concentração de edificações plurihabitacionais precárias (<b>cortiços</b>), atendimento prioritário aos moradores cadastrados. ZEIS <b>prevalecem</b> sobre qualquer outra zona de uso do lote (art. 32).</td></tr>
+<tr><td class="k">APC</td><td>áreas de interesse cultural, com <b>Corredores de Proteção Cultural (CPC)</b>, incentivo por TDC</td></tr>
+<tr><td class="k">NIDES</td><td>núcleos de destinação específica, incentivos fiscais, prioridade a mobilidade, lazer, cultura, esporte e turismo</td></tr>
+<tr><td class="k">ZERU</td><td>porções <b>sem destinação específica</b>, para novas formas de ocupação com desenho urbano inovador</td></tr>
+<tr><td class="k">FA</td><td>minimizar impactos das atividades <b>portuárias e retroportuárias</b>, permitindo atividades compatíveis com o uso residencial</td></tr>
+<tr><td class="k">AAS</td><td>faixas ao longo dos sistemas de <b>transporte coletivo de média capacidade</b> na Insular: maior aproveitamento do solo, mais HIS/HMP, desestimular o transporte individual</td></tr>
+<tr><td class="k">ZEP</td><td><b>Zona Especial de Praia</b>: livre e franco acesso à praia e ao mar; regulamento em <b>18 meses</b></td></tr>
+<tr><td class="k">AEM</td><td>extração mineral <b>desativada</b> na Insular: responsável mantém a área segura, com monitoramento; licenciamento exige laudo geológico-geotécnico</td></tr></table>
+<div class="mem">Z · A · N · Z · F · A · Z · A &nbsp;(ZEIS · APC · NIDES · ZERU · FA · AAS · ZEP · AEM)</div>
+<div class="bz"><b>EHIS</b>: nos empreendimentos de HIS, no mínimo <span class="cz">80%</span> das unidades devem ser HIS e as restantes, HMP (art. 30 §5º).</div>
+<h3>Habitação (arts. 136 a 150)</h3>
+<table><tr><th></th><th>Renda</th><th>Limites</th></tr>
+<tr><td class="k">HIS 1</td><td>até <b>3 salários mínimos</b></td><td rowspan="2">famílias de baixa renda · até <b>1 sanitário</b>, <b>1 vaga</b> e <b>60 m²</b> de área útil</td></tr>
+<tr><td class="k">HIS 2</td><td>de 3 até <b>7,5 SM</b></td></tr>
+<tr><td class="k">HMP</td><td>de 7,5 até <b>10 SM</b></td><td>até <b>2 sanitários</b>, <b>1 vaga</b>, <b>70 m²</b>; mínimo de <b>65% de área privativa</b> da área construída (excluídas vagas)</td></tr></table>
+<ul><li><b>Plano Municipal de Habitação</b>: por lei específica em <b>18 meses</b>; revisto em até <b>2 anos após o Censo</b> do IBGE.</li>
+<li>Objetivos: reduzir o déficit, regularizar a terra, priorizar imóveis vazios ou subutilizados (inclusive <b>retrofit</b>).</li>
+<li>Diretrizes: banco de terras municipal, <b>locação social</b>, prioridade à HIS 1, <b>ATHIS</b> (Lei 11.888/2008), pós-ocupação, programas para pessoas em situação de rua.</li>
+<li>Poderá ser exigida <b>doação de áreas para HIS</b> em empreendimentos de grande porte, <b>sem prejuízo</b> das áreas da Lei 6.766.</li>
+<li>Regularização fundiária: projeto <b>específico para cada assentamento</b>; remoção involuntária com <b>protocolo humanizado</b> (assistência social e psicologia).</li></ul>
+<div class="pk"><b>Como a banca erra a gente</b>: 80% trocado por 50% ou 60% · ZEIS-2 no lugar da ZEIS-3 · “ZERU tem destinação definida” · AAS “junto a vias de trânsito rápido” · AEM “em atividade” · HIS 1 “até 5 SM” · HMP “até 80 m²” ou “1 sanitário” · “a doação para HIS dispensa as áreas da Lei 6.766”.</div></section>
+
+<section class="pg" id="pd3"><h2>10. Plano Diretor: os instrumentos com número (arts. 57 a 86)</h2>
+<div class="grid">
+<div class="cell s"><h4>CDRU (arts. 61 a 68)</h4>Concessão de Direito Real de Uso, em <b>terreno público</b> · ocupante com <b>5 anos</b> de moradia · área de até <b>200 m²</b> · sem outro imóvel · renda de até <b>7,5 SM</b> · precedida de <b>desafetação</b>, <b>onerosa</b>, <b>licitação dispensada</b> · prazo de <b>30 anos</b> prorrogável · escritura pública registrada · casamento/união estável: concessão aos dois · não reconhecida mais de uma vez · resolve-se sem indenização se deixar de pagar ou ceder o imóvel · não se outorga em topo de morro (exceto ZEIS-1), APP ou áreas inaptas</div>
+<div class="cell e"><h4>Preempção (arts. 69 a 74)</h4><b>5 anos</b>, renovável a partir de 1 ano após o fim · ato do Chefe do Executivo · lotes e glebas de <b>ZEIS</b> · resposta em <b>30 dias</b> · sem resposta, venda livre nas condições da proposta e cópia em 30 dias · condições diversas: <b>nula de pleno direito</b></div>
+<div class="cell c"><h4>OODC e OOAU (arts. 75 a 77)</h4>OODC nas Macrozonas <b>Leste, Centro e Noroeste</b> · OOAU: <b>100% FUNDURB</b> · OODC: <b>50% FUNDURB + 50% FINCOHAP</b>, aplicados prioritariamente nas Macrozonas <b>Centro, Noroeste e Morros</b></div>
+<div class="cell u"><h4>TDC, OUC e abandonados (arts. 78 a 86)</h4>TDC por escritura pública · OUC por lei específica, estudos ao CMDU em 180 dias · imóveis abandonados: arrecadação com ao menos <b>3 notificações</b>, laudo técnico e Auto de Constatação; uso por <b>3 anos</b> (art. 1.276 do Código Civil); destinados a HIS, regularização ou equipamentos; se inviável, leilão com valor ao FUNDURB; <b>não dispensa o PEUC</b></div></div>
+<h3>Parcelamento (arts. 41 a 45)</h3>
+<table><tr><th>Loteamento</th><th>Desmembramento</th><th>Lote</th></tr>
+<tr><td>subdivisão de gleba em lotes, com <b>abertura de novas vias</b> ou prolongamento/ampliação das existentes</td><td>subdivisão <b>aproveitando o sistema viário existente</b>, sem abrir ou ampliar vias</td><td>terreno servido de <b>infraestrutura básica</b>, com dimensões que atendem aos índices do zoneamento</td></tr></table>
+<p><b>Infraestrutura básica</b> (art. 41 §4º): escoamento de águas pluviais · iluminação pública · esgotamento sanitário · abastecimento de água · energia elétrica pública e domiciliar · vias de circulação. (A lei <b>não</b> lista coleta de lixo.)</p>
+<div class="pk"><b>Como a banca erra a gente</b>: CDRU “gratuita” ou “com licitação” · preempção “10 anos / 60 dias / anulável” · OODC “100% FUNDURB” · inverter loteamento e desmembramento · “a regularização de obras irregulares se faz por decreto”.</div></section>
+
+<section class="pg" id="pd4"><h2>11. Estrutura urbana, saneamento, riscos e meio ambiente (PD, arts. 87 a 176)</h2>
+<h3>Quatro componentes da estrutura urbana e ambiental (art. 87)</h3>
+<p>mobilidade e acessibilidade · áreas verdes e espaços livres · saneamento ambiental · equipamentos urbanos e sociais.</p>
+<h3>Mobilidade (arts. 89 a 104)</h3>
+<ul><li>Sistemas: <b>viário e hidroviário · transporte coletivo · cicloviário · peatonal</b>.</li>
+<li>Hierarquia viária (CTB): vias de <b>trânsito rápido, arteriais, coletoras e locais</b> (mais vias compartilhadas, ciclovias etc.). Não existem “vias rurais” na lista.</li>
+<li>Prioridade de implantação: transporte coletivo, ligação entre bairros, integração com a RMBS. <b>Passeios exclusivamente para pedestres</b>, com acessibilidade universal.</li>
+<li>Regulamento de circulação de cargas (perigosas ou não): <b>18 meses</b>.</li>
+<li>Aeródromo e heliporto: instalação ou ampliação exige <b>EIA/RIMA</b>. <b>Heliponto</b> (art. 104): permitido em Porto Organizado, hospitais e maternidades, edifícios públicos, áreas privadas de interesse público (com deliberação do CMDU), edifícios comerciais em Corredores e ZERU; exige <b>EIV específico</b>, <b>ANAC</b> e <b>COMAER</b>.</li></ul>
+<div class="mem">Heliponto: recuo 5 m (sobre edificação) · 10 m (no solo) · 400 m entre helipontos · 10 m abaixo da superfície limitadora</div>
+<h3>Áreas verdes e saneamento (arts. 105 a 134)</h3>
+<ul><li>Supressão de área verde: compensar em <b>área equivalente ou superior</b>, na <b>própria macrozona</b>.</li>
+<li><b>Saneamento = 4 serviços</b>: água, esgoto, águas pluviais (transporte, detenção, retenção) e resíduos. Preferência de localização das redes é da <b>Prefeitura</b>, que pode remanejar sem custo.</li>
+<li>Drenagem: antes da macrodrenagem, <b>medidas não estruturais</b> como parques lineares; ações como Plano Diretor de Drenagem, Plano de Contingência de Ressacas e Inundações, desassoreamento, pisos drenáveis.</li>
+<li>Equipamentos (art. 132): educação, saúde, esportes, cultura, assistência social, segurança, turismo, meio ambiente.</li></ul>
+<h3>Riscos, ambiente e clima (arts. 158 a 176)</h3>
+<ul><li><b>PMRR</b> (Plano Municipal de Redução de Riscos): coordenado pela Defesa Civil; mapeamento <b>atualizado anualmente</b>.</li>
+<li><b>PMMA</b> (Mata Atlântica, art. 38 da Lei 11.428): participativo, com conteúdo mínimo (diagnóstico, diretrizes, interfaces, recursos, monitoramento); atualização em <b>no máximo 4 anos</b>, <b>aprovado pelo COMDEMA</b>.</li>
+<li>IPTU Verde: só por <b>lei específica</b>. Arborização: inventário georreferenciado, <b>espécies nativas</b>, IAV mínimo por bairro. Mudanças climáticas: PACS, articulado ao PMRR e à contingência.</li>
+<li>Paisagem urbana (art. 177): espaço aéreo e superfície externa de elementos naturais ou construídos (edifícios, anúncios, sinalização, veículos).</li>
+<li>Patrimônio cultural: diagnóstico em <b>5 etapas</b> (identificação, cadastro, catálogo, pré-inventário, inventário) e intervenção em <b>7 modalidades</b> (conservação, demolição, preservação, restauração, reabilitação, requalificação, revitalização); bens imateriais reconhecidos pelo <b>CONDEPASA</b>.</li></ul>
+<div class="pk"><b>Como a banca erra a gente</b>: 5 m e 10 m trocados · 400 m por 500 m · “EIA/RIMA para heliponto” (é EIV) · passeio para estacionamento · compensação “em qualquer parte do município” · PMMA “em 10 anos” ou “aprovado pelo CMDU” · PMRR “a cada 5 anos” · CONDEPASA trocado por COMDEMA.</div></section>
+
+<section class="pg" id="pd5"><h2>12. Gestão, participação e fundos (PD, arts. 198 a 238)</h2>
+<div class="grid">
+<div class="cell u"><h4>Participação</h4>processo participativo na elaboração, revisão e acompanhamento · instrumentos (art. 222): debates, audiências, consultas, referendos, plebiscitos, conselhos, conferências e a <b>Conferência Municipal da Cidade</b></div>
+<div class="cell c"><h4>Revisão (art. 223)</h4>publicidade das propostas com <b>30 dias</b> de antecedência da primeira audiência · audiências convocadas com <b>30 dias</b> · oficinas por macrozona · <b>devolutiva</b> antes do envio ao Legislativo</div>
+<div class="cell e"><h4>Fundos (arts. 224 a 227)</h4><b>FUNDURB</b> (HIS, renovação urbana, sistema viário, transporte coletivo, equipamentos) · <b>Fundo para a Preservação e Recuperação do Meio Ambiente</b> · <b>FINCOHAP</b> (habitação popular, prioridade a moradores de áreas degradadas e de risco)</div>
+<div class="cell m"><h4>Disposições finais</h4>revisão <b>a cada 10 anos</b> (art. 228) · alteração só vai ao Legislativo após apreciação do <b>CMDU</b>, de composição <b>paritária</b> (art. 229) · indicadores em <b>5 eixos</b> (ambiental, social, econômico, institucional, setorial), publicados em 18 meses · revoga a LC 1.005/2018 · vigência em <b>08/11/2022</b></div></div>
+<div class="pk"><b>Como a banca erra a gente</b>: revisão “a cada 5 anos” · antecedência “15 dias” · “o CMDU é majoritariamente do Poder Público” · “o FINCOHAP financia macrodrenagem” · “a Conferência da Cidade é convocada só pelo Estado”.</div></section>
+
+<section class="pg" id="esq"><h2>13. Esquema: nomes que a banca confunde e o fluxo de 4 perguntas</h2>
+<h3>Pares que se confundem</h3>
+<table><tr><th>Par</th><th>Diferença em uma linha</th></tr>
+<tr><td class="k">PEUC × IPTU progressivo × desapropriação</td><td>1º obriga a usar · 2º aumenta o imposto por 5 anos · 3º tira o imóvel (títulos). <b>Ordem fixa.</b></td></tr>
+<tr><td class="k">Estatuto × PD de Santos</td><td>federal (teto e garantias) × municipal (zona, m², CA, fundos)</td></tr>
+<tr><td class="k">Subutilizado × não utilizado × não edificado</td><td>CA &lt; 0,4 (edificado) · desocupado &gt; 1 ano com CA ≥ 0,3 · CA = 0 (terreno vazio)</td></tr>
+<tr><td class="k">Loteamento × desmembramento</td><td>com via nova × com via existente</td></tr>
+<tr><td class="k">ZEIS-1 × 2 × 3</td><td>regularizar × construir HIS em vazio × cortiço</td></tr>
+<tr><td class="k">HIS × HMP</td><td>até 7,5 SM e 60 m² × 7,5 a 10 SM e 70 m²</td></tr>
+<tr><td class="k">Superfície × CDRU</td><td>entre particulares ou com o Município, por escritura × terreno <b>público</b>, moradia, 30 anos</td></tr>
+<tr><td class="k">OODC × OOAU</td><td>direito de construir acima do CA básico (50/50) × alteração de uso (100% FUNDURB)</td></tr>
+<tr><td class="k">EIV × EIA</td><td>vizinhança (urbanístico) × meio ambiente; um <b>não substitui</b> o outro</td></tr></table>
+<h3>Fluxo para decidir na prova</h3>
+<div class="tl">
+<div class="st"><div class="d">1</div><div class="t"><b>De quem é a regra?</b> teto, Senado, 6%, 250 m² → Estatuto/CF. Zona, 200 m², 0,4, FUNDURB → PD de Santos.</div></div><div class="ar">↓</div>
+<div class="st r"><div class="d">2</div><div class="t"><b>É sanção ou incentivo?</b> sanção ao dono parado: escada PEUC → IPTU → títulos. Incentivo: outorga, TDC, consórcio.</div></div><div class="ar">↓</div>
+<div class="st g"><div class="d">3</div><div class="t"><b>Quem está envolvido?</b> terreno público e moradia → CDRU/superfície. Venda particular → preempção. Obra de grande porte com vários atores → OUC.</div></div><div class="ar">↓</div>
+<div class="st"><div class="d">4</div><div class="t"><b>Qual número?</b> procure o número no quadro; se a alternativa trouxer um número “vizinho”, desconfie.</div></div></div></section>
+
+<section class="pg" id="treino"><h2>14. Treino: 30 perguntas</h2>
+<p>Clique na alternativa. A correção vem na hora, com o porquê. No fim, a pontuação.</p>
+<div id="qzs"></div><div class="bz" id="sc"></div></section>
+
+<section class="pg" id="nunca"><h2>15. Para não errar mais: uma folha</h2>
+<div class="fm"><b>Estatuto</b>: normas gerais = União · PEUC 1 ano + 2 anos · IPTU 5 anos, dobro, teto 15%, sem anistia · títulos: Senado, 10 anos, 6% · usucapião 250 m², 5 anos, MP obrigatório · preempção 5 anos e 30 dias · OUC: EIV e CEPAC · plano diretor: lei municipal, território todo, revisão em 10 anos, obrigatório &gt; 20 mil · EIV não substitui EIA · transporte integrado &gt; 500 mil.</div>
+<div class="fm"><b>PD Santos</b>: 5 objetivos · 3 macroáreas · 7 macrozonas · AU/AEU/APCA · 8 zonas especiais · EHIS 80% · HIS 60 m² até 7,5 SM · HMP 70 m² 7,5 a 10 SM, 65% privativa · não edificado &gt; 200 m² CA 0 · subutilizado CA &lt; 0,4 · 3-6-9-12-15 e 5-7-10-13-15 · AR 15 dias · CDRU 30 anos, 200 m², 7,5 SM · OODC 50/50 FUNDURB/FINCOHAP · OOAU 100% FUNDURB · PMMA 4 anos, COMDEMA · revisão 10 anos · audiências 30 dias · CMDU paritário.</div>
+<div class="pk"><b>Armadilhas que mais se repetem</b>: Câmara no lugar do Senado · Município no lugar da União nas normas gerais · números “vizinhos” (0,3 por 0,4; 50% por 80%; 60 dias por 30) · inverter a ordem da escada · “substitui” (EIV/EIA) · “por decreto” (quase tudo é <b>lei</b>).</div>
+<div class="av">Lembrete: esta é a leitura das leis conferidas nas apostas. Confira no dia o que ficou marcado como “a confirmar” e não deixe o treino substituir a leitura das apostas completas.</div></section>
+</div>
+<script>
+const Q=[{"q": "Quem pode legislar sobre normas gerais de direito urbanístico?", "o": ["Município", "União", "Estado", "Câmara Municipal"], "a": 1, "e": "A União (Estatuto, art. 3º, I). Municípios legislam sobre assunto local e suplementam."}, {"q": "Na escada do art. 182 §4º da CF, a ordem correta é:", "o": ["IPTU progressivo, PEUC, títulos", "PEUC, IPTU progressivo, títulos", "Títulos, IPTU, PEUC", "PEUC, títulos, IPTU"], "a": 1, "e": "Primeiro parcelamento/edificação/utilização compulsórios, depois IPTU progressivo, por fim desapropriação com títulos."}, {"q": "Prazo mínimo do Estatuto para o proprietário notificado protocolar o projeto:", "o": ["6 meses", "1 ano", "2 anos", "5 anos"], "a": 1, "e": "1 ano da notificação para protocolar; 2 anos da aprovação para iniciar as obras."}, {"q": "O IPTU progressivo no tempo do Estatuto dura:", "o": ["3 anos", "5 anos consecutivos", "10 anos", "até o cumprimento, sem limite"], "a": 1, "e": "5 anos consecutivos; depois mantém-se a alíquota máxima até cumprir."}, {"q": "O teto da alíquota do IPTU progressivo (Estatuto) é de:", "o": ["10%", "12%", "15%", "20%"], "a": 2, "e": "15%, e cada ano não passa do dobro do ano anterior."}, {"q": "Os títulos da dívida pública da desapropriação urbanística dependem de aprovação:", "o": ["da Câmara Municipal", "do Senado Federal", "da Assembleia Legislativa", "do Tribunal de Contas"], "a": 1, "e": "Prévia aprovação do Senado; resgate em até 10 anos, juros de 6% ao ano."}, {"q": "Em Santos, a alíquota inicial do IPTU progressivo para imóvel NÃO edificado é:", "o": ["3%", "5%", "7%", "10%"], "a": 1, "e": "5, 7, 10, 13, 15%. A sequência 3, 6, 9, 12, 15% é a do edificado."}, {"q": "Imóvel edificado é subutilizado em Santos quando tem mais de 200 m² e aproveitamento:", "o": ["inferior a 0,3", "inferior a 0,4", "igual a 0", "superior a 0,5"], "a": 1, "e": "Inferior a 0,4 vez a área do lote (art. 47). 0,3 é o critério do edificado desocupado."}, {"q": "Para o PEUC, o imóvel edificado desocupado deve ter CA mínimo e estar desocupado por:", "o": ["CA ≥ 0,3 e mais de 1 ano", "CA ≥ 0,5 e mais de 2 anos", "CA ≥ 0,4 e mais de 6 meses", "qualquer CA e mais de 5 anos"], "a": 0, "e": "CA igual ou superior a 0,3 e desocupado por mais de 1 ano ininterrupto (art. 48)."}, {"q": "A recusa do cartório em averbar a notificação do PEUC:", "o": ["torna a notificação sem efeito", "não torna a notificação sem efeito", "suspende os prazos", "exige nova lei"], "a": 1, "e": "Art. 50: a recusa não torna a notificação sem efeito."}, {"q": "No PD de Santos, o início da obra após a aprovação do projeto deve ocorrer em:", "o": ["1 ano", "2 anos, sem prorrogação nem revalidação do alvará", "3 anos, prorrogável", "5 anos"], "a": 1, "e": "Art. 50: 2 anos da aprovação, sem prorrogação nem revalidação do alvará."}, {"q": "A usucapião especial urbana individual exige área de até:", "o": ["125 m²", "250 m²", "500 m²", "1.000 m²"], "a": 1, "e": "250 m², 5 anos, moradia, sem outro imóvel."}, {"q": "Na ação de usucapião especial urbana:", "o": ["o MP não intervém", "a intervenção do MP é obrigatória", "o Município é substituto processual", "a ação não pode ser matéria de defesa"], "a": 1, "e": "A intervenção do Ministério Público é obrigatória; o substituto processual é a associação de moradores."}, {"q": "O direito de superfície é concedido por:", "o": ["decreto", "escritura pública registrada", "portaria", "simples contrato verbal"], "a": 1, "e": "Por escritura pública registrada no cartório de imóveis."}, {"q": "O direito de preempção tem vigência de até:", "o": ["1 ano", "3 anos", "5 anos", "10 anos"], "a": 2, "e": "Até 5 anos, renovável a partir de 1 ano após o fim do prazo inicial."}, {"q": "Após a notificação do proprietário, o Município manifesta interesse na preempção em até:", "o": ["15 dias", "30 dias", "60 dias", "90 dias"], "a": 1, "e": "30 dias. Sem manifestação, o proprietário vende nas condições da proposta."}, {"q": "A alienação em condições diversas da proposta apresentada ao Município na preempção é:", "o": ["válida", "anulável", "nula de pleno direito", "válida com multa"], "a": 2, "e": "Nula de pleno direito."}, {"q": "Os CEPAC são certificados ligados à:", "o": ["outorga onerosa", "operação urbana consorciada", "preempção", "usucapião coletiva"], "a": 1, "e": "OUC; convertíveis em direito de construir apenas na área da operação."}, {"q": "O EIV, segundo o Estatuto:", "o": ["substitui o EIA", "não substitui o EIA", "é sigiloso", "só vale para obras públicas"], "a": 1, "e": "Não substitui o EIA, e seus documentos ficam à disposição de qualquer interessado."}, {"q": "A revisão do plano diretor deve ocorrer, no mínimo, a cada:", "o": ["4 anos", "5 anos", "8 anos", "10 anos"], "a": 3, "e": "A cada 10 anos (Estatuto, art. 40; PD de Santos, art. 228)."}, {"q": "O plano de transporte urbano integrado é exigido para cidades com mais de:", "o": ["100 mil habitantes", "250 mil habitantes", "500 mil habitantes", "1 milhão de habitantes"], "a": 2, "e": "Mais de 500 mil habitantes; o de 20 mil é a obrigatoriedade do plano diretor."}, {"q": "O PD de Santos divide o território em quantas macrozonas?", "o": ["5", "6", "7", "9"], "a": 2, "e": "Sete: Leste, Centro, Noroeste, Morros, Continental 1, Continental 2 e Estuário e Canais Fluviais."}, {"q": "Qual macrozona tem prioridade às áreas de palafitas?", "o": ["Morros", "Centro", "Noroeste", "Leste"], "a": 2, "e": "Noroeste (assentamentos precários, EHIS e palafitas). Morros foca em redução de riscos."}, {"q": "Nos EHIS, o percentual mínimo de unidades de HIS é:", "o": ["50%", "60%", "70%", "80%"], "a": 3, "e": "Mínimo de 80% HIS; o restante, HMP."}, {"q": "A ZEIS-3 corresponde a:", "o": ["áreas ocupadas espontaneamente", "glebas vazias para HIS e HMP", "áreas com cortiços e edificações plurihabitacionais precárias", "faixas junto ao transporte coletivo"], "a": 2, "e": "ZEIS-1: ocupações espontâneas; ZEIS-2: vazios; ZEIS-3: cortiços."}, {"q": "HMP (habitação de mercado popular) tem renda de:", "o": ["até 3 SM", "3 a 7,5 SM", "7,5 a 10 SM", "10 a 15 SM"], "a": 2, "e": "De 7,5 até 10 salários mínimos, até 70 m², 2 sanitários e 1 vaga."}, {"q": "Os recursos da outorga onerosa do direito de construir em Santos vão:", "o": ["100% para o FUNDURB", "50% FUNDURB e 50% FINCOHAP", "100% para o FINCOHAP", "50% FUNDURB e 50% Fundo do Meio Ambiente"], "a": 1, "e": "OODC: 50/50 FUNDURB e FINCOHAP; OOAU: 100% FUNDURB."}, {"q": "Na CDRU do PD de Santos, o prazo da concessão é de:", "o": ["10 anos", "20 anos", "30 anos prorrogável", "99 anos"], "a": 2, "e": "30 anos prorrogável; onerosa, com licitação dispensada, em terreno público desafetado."}, {"q": "O PMMA de Santos deve ser atualizado em no máximo:", "o": ["2 anos", "4 anos", "8 anos", "10 anos"], "a": 1, "e": "4 anos após a aprovação pelo COMDEMA."}, {"q": "Em Santos, o imóvel notificado para o PEUC como doador de transferência do direito de construir (TDC):", "o": ["pode ser doador normalmente", "é vedado como doador", "só pode ser doador com aval do Senado", "só pode ser doador após 10 anos"], "a": 1, "e": "Art. 53: é vedada a TDC com imóvel notificado como doador."}];
+function brl(n){return n.toLocaleString("pt-BR",{style:"currency",currency:"BRL"})}
+function enq(){const a=+document.getElementById("a").value,c=+document.getElementById("c").value,m=+document.getElementById("m").value,z=document.getElementById("z").value;
+ const ca=a>0?c/a:0;let h='<table><tr><th>Item</th><th>Valor</th></tr><tr><td class="k">Coeficiente utilizado</td><td>'+ca.toFixed(2).replace(".",",")+'</td></tr></table>';let r;
+ if(z=="n")r='Zona fora da lista do PEUC (art. 46 a 48 incidem em ZEIS, Centro, Zonas Industriais/Retroportuárias e AAS): <b>não incide</b>.';
+ else if(a<=200)r='Imóvel de até 200 m²: depende de <b>deliberação do CMDU</b>; não se enquadra automaticamente.';
+ else if(c==0)r='<b>Não utilizado, não edificado</b> (acima de 200 m² com CA = 0): sujeito a PEUC. Alíquotas do IPTU progressivo: 5, 7, 10, 13, 15%.';
+ else if(ca<0.4)r='<b>Subutilizado edificado</b> (acima de 200 m², CA &lt; 0,4): sujeito a PEUC. Alíquotas: 3, 6, 9, 12, 15%.';
+ else if(ca>=0.3&&m>12)r='<b>Não utilizado edificado</b> (CA ≥ 0,3 e desocupado mais de 1 ano): sujeito a PEUC.';
+ else r='Não se enquadra (CA ≥ 0,4 e uso regular, ou desocupado há menos de 1 ano).';
+ document.getElementById("eo").innerHTML=h+'<div class="bz">'+r+'</div><div class="av">Confira ainda as exceções do art. 47 §1º e art. 54 (atividades que dispensam CA mínimo, postos de abastecimento, imóveis tombados com uso etc.).</div>'}
+enq();
+let pts=0,done=0;
+Q.forEach((x,i)=>{const d=document.createElement("div");d.className="qz";const sh=((x.a-(i%4))%4+4)%4;const o=x.o.map((t,j)=>({t,j}));const rot=o.slice(sh).concat(o.slice(0,sh));
+ d.innerHTML='<b>'+(i+1)+'. '+x.q+'</b><br>'+rot.map((r,k)=>'<button class="opt" data-j="'+r.j+'">'+"ABCD"[k]+') '+r.t+'</button>').join("")+'<div class="ex">'+x.e+'</div>';
+ d.querySelectorAll(".opt").forEach(b=>b.onclick=()=>{if(d.dataset.d)return;d.dataset.d=1;done++;const j=+b.dataset.j;if(j==x.a){pts++;b.classList.add("ok")}else{b.classList.add("no");d.querySelectorAll(".opt").forEach(e=>{if(+e.dataset.j==x.a)e.classList.add("ok")})}
+  d.querySelector(".ex").style.display="block";document.getElementById("sc").innerHTML="Acertos: <b>"+pts+"</b> de "+done+" respondidas (total "+Q.length+")"});
+ document.getElementById("qzs").appendChild(d)});
+document.getElementById("sc").innerHTML="Acertos: 0 de 0 respondidas (total "+Q.length+")";
+</script></body></html>
