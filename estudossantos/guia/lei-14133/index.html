@@ -1,0 +1,266 @@
+<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Guia fundo 3 · Lei 14.133, BDI, Sinapi e Sicro</title>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#EFEADC;--pg:#FDFBF3;--bd:#E3DFCF;--bl:#0C447C;--rd:#993C1D;--gr:#1A6B3C;--tx:#2C2C2A;--am:#D9A441}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);font-family:'Caveat',cursive;color:var(--tx)}
+.wrap{max-width:900px;margin:0 auto;padding:10px 10px 70px}
+.nav{position:sticky;top:0;z-index:30;background:var(--pg);border:1px solid var(--bd);border-radius:10px;padding:6px 10px;font-size:18px;line-height:26px;box-shadow:0 2px 6px rgba(0,0,0,.06)}.nav a{margin-right:10px;color:var(--rd);text-decoration:none;border-bottom:1px dotted #C9A896;white-space:nowrap}.nav b{color:var(--bl)}
+h1{font-size:34px;line-height:38px;margin:10px 0 4px;color:var(--bl)}h2{font-size:29px;line-height:33px;margin:0 0 8px;color:var(--bl);scroll-margin-top:80px}h3{font-size:23px;margin:14px 0 4px;color:var(--gr)}
+p,li{font-size:20px;line-height:29px;margin:5px 0}.sb{font-size:17px;color:#5F5E5A}ul,ol{padding-left:24px;margin:4px 0}
+.pg{background:var(--pg);border:1px solid var(--bd);border-radius:14px;padding:16px 16px 18px;margin:14px 0}
+.bz{border:1.5px solid var(--bl);border-radius:6px;padding:8px 12px;margin:10px 0;font-size:20px;line-height:28px;color:var(--bl);background:#F4F8FC}
+.pk{border:1.5px dashed #A32D2D;padding:8px 12px;margin:10px 0;font-size:19px;line-height:27px;color:#A32D2D;background:#FDF6F5;border-radius:6px}
+.fm{border-left:4px solid var(--gr);background:#F1F9F4;padding:7px 12px;margin:10px 0;font-size:20px;line-height:28px;color:#14532D}
+.av{background:#FFF6E0;border:1.5px solid var(--am);border-radius:8px;padding:8px 12px;margin:10px 0;font-size:18px;line-height:26px;color:#7A5A12}
+.hl{background:#FAEEDA;padding:0 4px;border-radius:3px}.cz{color:var(--bl);font-weight:700}.cv{color:#A32D2D;font-weight:700}
+table{width:100%;border-collapse:collapse;margin:8px 0;font-size:18px}th{background:#EAF0F7;color:var(--bl);text-align:left;padding:5px 7px;border:1px solid #D6D2C4}td{padding:5px 7px;border:1px solid var(--bd);vertical-align:top;line-height:24px}td.k{font-weight:700;color:var(--rd)}
+.tl{display:flex;flex-direction:column;gap:0;margin:10px 0}.st{display:flex;gap:10px;align-items:stretch}.st .d{min-width:92px;max-width:92px;background:var(--bl);color:#fff;border-radius:10px 0 0 10px;padding:6px 6px;font-size:18px;line-height:22px;text-align:center;display:flex;align-items:center;justify-content:center}
+.st .t{flex:1;border:1.5px solid var(--bl);border-radius:0 10px 10px 0;padding:6px 10px;font-size:19px;line-height:26px;background:#fff}.ar{text-align:center;font-size:24px;color:var(--rd);line-height:22px;margin:2px 0 2px 0}
+.st.r .d{background:#A32D2D}.st.r .t{border-color:#A32D2D}.st.g .d{background:var(--gr)}.st.g .t{border-color:var(--gr)}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}@media(max-width:620px){.grid{grid-template-columns:1fr}}
+.cell{border:2px solid var(--bl);border-radius:12px;padding:8px 10px;background:#fff}.cell h4{margin:0 0 4px;font-size:23px;color:var(--bl)}.cell.u{border-color:#0C447C;background:#EAF0F7}.cell.c{border-color:#1A6B3C;background:#E7F5EC}.cell.e{border-color:#B8860B;background:#FFF6DD}.cell.m{border-color:#993C1D;background:#FBEDE6}.cell.s{border-color:#6B3FA0;background:#F1EAF8}
+.cell .n{display:inline-block;background:var(--bl);color:#fff;border-radius:10px;padding:0 9px;font-size:18px;margin-right:6px}
+.inp{font:inherit;font-size:22px;border:1.5px solid var(--bl);border-radius:8px;padding:3px 8px;width:100%;background:#fff}.row{display:flex;gap:10px;flex-wrap:wrap}.row>div{flex:1;min-width:150px}label{font-size:18px;color:var(--bl);font-weight:700}
+.btn{font:inherit;font-size:21px;font-weight:700;border:2px solid var(--bl);background:var(--bl);color:#fff;border-radius:12px;padding:5px 14px;cursor:pointer;margin:4px 6px 4px 0}.btn.o{background:#fff;color:var(--bl)}
+.opt{display:inline-block;font:inherit;font-size:18px;border:1.5px solid var(--bl);color:var(--bl);background:#fff;border-radius:14px;padding:2px 11px;margin:3px 4px 3px 0;cursor:pointer}.opt.ok{background:#1A6B3C;color:#fff;border-color:#1A6B3C}.opt.no{background:#A32D2D;color:#fff;border-color:#A32D2D}
+.qz{border:1px solid var(--bd);border-radius:10px;padding:8px 10px;margin:8px 0;background:#fff}.qz .ex{margin-top:6px;font-size:18px;line-height:25px;color:#14532D;display:none}
+.mem{font-size:22px;line-height:32px;text-align:center;border:2px solid var(--rd);border-radius:12px;padding:8px 10px;margin:10px 0;background:#FDF6F5;color:var(--rd);font-weight:700}
+@media(max-width:520px){h1{font-size:27px}td,th{font-size:16px;padding:4px}.st .d{min-width:74px;max-width:74px;font-size:16px}}
+</style></head><body><div class="wrap">
+<div class="nav"><b>Guia 3</b> · <a href="#prio">1 O que mais cai</a> <a href="#zero">2 Do zero</a> <a href="#fases">3 Fases e prazos</a> <a href="#reg">4 Regimes e projetos</a> <a href="#orc">5 Orçamento, Sinapi, Sicro</a> <a href="#bdi">6 BDI</a> <a href="#jul">7 Julgamento</a> <a href="#mod">8 Modalidades</a> <a href="#dir">9 Contratação direta</a> <a href="#exe">10 Execução e fiscal</a> <a href="#treino">11 Treino</a> <a href="#fim">12 Uma folha</a></div>
+<h1>Guia fundo 3: Lei 14.133, com BDI, Sinapi e Sicro</h1>
+<p class="sb">Feito para o seu edital: bloco 2 (licitações, contratos e fiscalização, 5 questões de peso 2) e bloco 3 (obras públicas, dentro das 8 questões de peso 3). A lei é a mesma nos dois blocos, por isso aparece muito.</p>
+<div class="av"><b>Fontes e limites.</b> Texto da Lei 14.133/2021 e do Decreto 7.983/2013 lidos no <b>Planalto</b>; apostas do bloco 2 (5 e 10) e do bloco 3 (obras A e B) do seu vault. As <b>faixas de BDI do TCU</b> (Acórdão 2.622/2013) vêm de editais que reproduzem o acórdão e <b>não foram conferidas no texto do TCU</b>; os percentuais do simulador de BDI são <b>hipóteses</b>. O texto do Decreto 7.983 cita a Lei 8.666; confira, para contratos sob a 14.133, o que o art. 23 diz. <b>Não usei o Jev</b> (sem chave de API) <b>nem o Estratégia</b> (pago). A ordem de prioridade é julgamento meu. Valores em reais da lei (dispensas, grande vulto) são atualizados por decreto.</div>
+<section class="pg" id="prio"><h2>1. O que mais cai da Lei 14.133 para Engenheiro Civil (ordem de estudo)</h2>
+<p>A lei tem 194 artigos. Para o seu cargo, o edital puxa o lado da <b>obra</b>: projeto, orçamento, fiscalização, aditivo e recebimento. Esta é a ordem que eu recomendo (julgamento meu):</p>
+<table><tr><th>#</th><th>Tema</th><th>O que decorar</th></tr>
+<tr><td class="k">1</td><td><b>Regimes de execução e projetos</b></td><td>quem faz o quê na integrada, semi-integrada, empreitada e tarefa; anteprojeto × básico × executivo</td></tr>
+<tr><td class="k">2</td><td><b>Orçamento: Sinapi, Sicro e BDI</b></td><td>ordem dos parâmetros, mediana, fórmula e componentes do BDI, sobrepreço × superfaturamento</td></tr>
+<tr><td class="k">3</td><td><b>Fiscal e agentes</b></td><td>agente de contratação (efetivo), comissão de 3, fiscal registra, terceiro de apoio</td></tr>
+<tr><td class="k">4</td><td><b>Garantia, aditivos, recebimento</b></td><td>5% e 10% e 30% · 25% e 50% · provisório × definitivo · 5 anos</td></tr>
+<tr><td class="k">5</td><td><b>Julgamento</b></td><td>75% e 85% em obra, atestados 4% e 50%, recurso 3 dias úteis</td></tr>
+<tr><td class="k">6</td><td><b>Modalidades, critérios e prazos</b></td><td>concorrência para obra; 10 · 25 · 35 · 60 dias úteis</td></tr>
+<tr><td class="k">7</td><td><b>Contratação direta</b></td><td>dispensa × inexigibilidade; projeto e fiscalização por notória especialização</td></tr>
+<tr><td class="k">8</td><td><b>Sanções e extinção</b></td><td>escada de sanções, 0,5% a 30%, 3 anos × 3 a 6 anos</td></tr></table></section>
+
+<section class="pg" id="zero"><h2>2. Do zero: o vocabulário que a banca usa</h2>
+<table><tr><th>Palavra</th><th>O que é</th></tr>
+<tr><td class="k">Licitação</td><td>procedimento para a Administração escolher a proposta mais vantajosa, com igualdade entre os participantes</td></tr>
+<tr><td class="k">Edital</td><td>“regulamento” da licitação: objeto, julgamento, habilitação, recursos, penalidades, fiscalização, pagamento</td></tr>
+<tr><td class="k">ETP</td><td>Estudo Técnico Preliminar: <b>primeira etapa</b> do planejamento; mostra o problema, a melhor solução e o interesse público</td></tr>
+<tr><td class="k">Termo de Referência</td><td>descreve o que se compra: para <b>bens e serviços</b></td></tr>
+<tr><td class="k">Anteprojeto</td><td>peça técnica inicial: programa de necessidades, concepção, levantamentos</td></tr>
+<tr><td class="k">Projeto básico</td><td>define e <b>dimensiona</b> a obra, permite avaliar custo, método e prazo</td></tr>
+<tr><td class="k">Projeto executivo</td><td>detalhamento completo para <b>executar</b></td></tr>
+<tr><td class="k">Matriz de riscos</td><td>cláusula que reparte riscos e define o equilíbrio econômico-financeiro inicial</td></tr>
+<tr><td class="k">Custo direto</td><td>o que se gasta <b>no serviço</b>: material, mão de obra, equipamento</td></tr>
+<tr><td class="k">BDI</td><td>percentual que se soma ao custo para cobrir <b>despesas indiretas e lucro</b> (veja a seção 6)</td></tr>
+<tr><td class="k">Sobrepreço</td><td>preço <b>orçado ou contratado</b> muito acima do mercado</td></tr>
+<tr><td class="k">Superfaturamento</td><td>dano <b>na execução</b>: medir mais do que foi feito, reduzir qualidade ou vida útil, ajustar orçamento a favor do contratado</td></tr></table>
+<div class="mem">Sobrepreço = PREÇO caro desde o orçamento · Superfaturamento = DANO na hora de executar e medir</div></section>
+
+<section class="pg" id="fases"><h2>3. A licitação no tempo: fases e prazos</h2>
+<div class="tl">
+<div class="st"><div class="d">Preparatória (art. 18)</div><div class="t"><b>ETP</b> → definição do objeto (TR, anteprojeto, projeto básico ou executivo) → orçamento estimado com composições → edital e minuta → regime, modalidade e critério → <b>matriz de riscos</b> e análise de riscos.</div></div><div class="ar">▼</div>
+<div class="st"><div class="d">Divulgação</div><div class="t">Edital e <b>todos os anexos</b> no site oficial, na mesma data, sem cadastro (art. 25, §3º). Prazos mínimos: veja abaixo.</div></div><div class="ar">▼</div>
+<div class="st"><div class="d">Propostas e lances</div><div class="t">Modo de disputa aberto, fechado ou combinado. Menor preço <b>não</b> pode ser só fechado; técnica e preço <b>não</b> pode ser aberto.</div></div><div class="ar">▼</div>
+<div class="st"><div class="d">Julgamento</div><div class="t">Desclassificação: vício insanável, fora das especificações, <b>inexequível</b> ou acima do orçamento. Em obra: inexequível abaixo de <b>75%</b> do orçado.</div></div><div class="ar">▼</div>
+<div class="st"><div class="d">Habilitação</div><div class="t">Jurídica, técnica, fiscal, social e trabalhista, econômico-financeira. A habilitação pode vir <b>antes</b> do julgamento só por ato motivado e previsto no edital.</div></div><div class="ar">▼</div>
+<div class="st"><div class="d">Recurso</div><div class="t"><b>3 dias úteis</b>; intenção de recorrer manifestada <b>imediatamente</b>; a superior decide em <b>10 dias úteis</b>.</div></div><div class="ar">▼</div>
+<div class="st g"><div class="d">Homologação</div><div class="t">Adjudicação e homologação pela autoridade superior; ela também pode sanear, <b>revogar</b> (conveniência, fato superveniente) ou <b>anular</b> (ilegalidade insanável).</div></div></div>
+<h3>Prazos mínimos para propostas (art. 55, em dias úteis, da divulgação do edital)</h3>
+<table><tr><th>Objeto</th><th>Prazo</th></tr>
+<tr><td class="k">Obras e serviços <b>comuns</b> de engenharia (menor preço ou maior desconto)</td><td><span class="cz">10</span></td></tr>
+<tr><td class="k">Obras e serviços <b>especiais</b> de engenharia</td><td><span class="cz">25</span></td></tr>
+<tr><td class="k">Contratação <b>semi-integrada</b> (e hipóteses não previstas)</td><td><span class="cz">35</span></td></tr>
+<tr><td class="k">Contratação <b>integrada</b></td><td><span class="cz">60</span></td></tr>
+<tr><td class="k">Técnica e preço ou melhor técnica</td><td><span class="cz">35</span></td></tr>
+<tr><td class="k">Bens (menor preço) · demais bens</td><td>8 · 15</td></tr>
+<tr><td class="k">Maior lance</td><td>15</td></tr></table>
+<div class="mem">Obra: 10 · 25 · 35 · 60 (comum · especial · semi · integrada)</div>
+<div class="pk"><b>Armadilhas</b>: integrada “35” e semi “60” (trocados); “dias corridos”; “a habilitação vem sempre antes do julgamento”; “o menor preço pode ter disputa só fechada”.</div></section>
+
+<section class="pg" id="reg"><h2>4. Regimes de execução e projetos (Lei 14.133, arts. 6º e 46)</h2>
+<table><tr><th>Regime</th><th>O que é</th><th>Quem projeta</th></tr>
+<tr><td class="k">Empreitada por preço unitário</td><td>preço certo de <b>unidades determinadas</b>: mede e paga o que foi executado</td><td>Administração (projeto básico/executivo)</td></tr>
+<tr><td class="k">Empreitada por preço global</td><td>preço certo e <b>total</b></td><td>Administração</td></tr>
+<tr><td class="k">Empreitada integral</td><td>empreendimento <b>completo</b>, até entrar em operação</td><td>Administração</td></tr>
+<tr><td class="k">Tarefa</td><td>mão de obra para <b>pequenos trabalhos</b>, com ou sem materiais</td><td>—</td></tr>
+<tr><td class="k">Contratação integrada</td><td>contratado faz <b>projeto básico e executivo</b>, executa e entrega operando</td><td>contratado (Administração: <b>anteprojeto</b>)</td></tr>
+<tr><td class="k">Contratação semi-integrada</td><td>contratado faz <b>só o projeto executivo</b> e executa</td><td>Administração: projeto básico</td></tr>
+<tr><td class="k">Fornecimento e serviço associado</td><td>fornece e <b>opera ou mantém</b> por tempo determinado</td><td>—</td></tr></table>
+<ul><li><b>Obra sem projeto executivo é vedada</b> (art. 46, §1º), com a exceção das obras e serviços comuns de engenharia (art. 18, §3º). Na integrada, a Administração só faz o anteprojeto.</li>
+<li>Regimes de <b>preço global, integral, tarefa, integrada e semi-integrada</b> são licitados por preço global: medição por <b>etapas do cronograma</b> ligadas a metas de resultado, <b>não</b> por quantidades unitárias.</li>
+<li>Integrada e semi-integrada: <b>não se alteram valores</b>, exceto em 4 casos (força maior ou caso fortuito; alteração do projeto pedida pela Administração sem erro do contratado; alteração do projeto na semi-integrada; evento da matriz de riscos alocado à Administração).</li>
+<li><b>Matriz de riscos</b>: obrigatória em obra de grande vulto e nas contratações integrada e semi-integrada (nelas, o risco da solução do projeto básico escolhida é do contratado).</li>
+<li><b>Licença ambiental</b>, quando a Administração é responsável: licença prévia <b>antes do edital</b> (art. 115, §4º). O edital pode transferir ao contratado o licenciamento e a desapropriação (art. 25, §5º).</li></ul>
+<div class="pk"><b>Armadilhas</b>: “na integrada a Administração faz o projeto básico”; “a tarefa serve para grandes obras”; “preço global permite medição por quantidades unitárias”; “obra pode ser executada só com o básico em qualquer caso”.</div></section>
+<section class="pg" id="orc"><h2>5. Orçamento da obra: Sinapi, Sicro e o resto</h2>
+<p>Antes de licitar, a Administração precisa saber <b>quanto a obra deve custar</b>. A lei diz <b>onde buscar</b> esse número e <b>em que ordem</b> (art. 23, §2º).</p>
+<div class="tl">
+<div class="st"><div class="d">1º</div><div class="t"><b>Composições de custos unitários menores ou iguais à mediana</b> do item no <b>Sicro</b> (infraestrutura de transportes) ou no <b>Sinapi</b> (demais obras e serviços de engenharia).</div></div><div class="ar">▼</div>
+<div class="st"><div class="d">2º</div><div class="t"><b>Mídia especializada</b>, tabela de referência aprovada pelo Executivo federal e sítios especializados, com <b>data e hora de acesso</b>.</div></div><div class="ar">▼</div>
+<div class="st"><div class="d">3º</div><div class="t"><b>Contratações similares</b> da Administração, em execução ou concluídas no <b>último 1 ano</b>, com atualização de preços.</div></div><div class="ar">▼</div>
+<div class="st g"><div class="d">4º</div><div class="t"><b>Base nacional de notas fiscais eletrônicas</b>, na forma de regulamento.</div></div></div>
+<div class="bz">O valor estimado vem <b>acrescido do BDI de referência e dos encargos sociais</b> cabíveis. <b>Municípios, Estados e DF</b>, quando <b>não houver recursos da União</b>, podem usar <b>outros sistemas de custos</b> do próprio ente (§3º). Com recursos da União, valem Sinapi e Sicro.</div>
+<table><tr><th></th><th>SINAPI</th><th>SICRO</th></tr>
+<tr><td class="k">Nome</td><td>Sistema Nacional de Pesquisa de Custos e Índices da Construção Civil</td><td>Sistema de Custos Referenciais de Obras</td></tr>
+<tr><td class="k">Para quê</td><td><b>demais obras e serviços de engenharia</b> (edificações, saneamento, urbanização)</td><td><b>infraestrutura de transportes</b></td></tr>
+<tr><td class="k">Quem mantém</td><td><b>Caixa Econômica Federal</b>, com pesquisa de preços do <b>IBGE</b> (ou órgão congênere)</td><td><b>DNIT</b></td></tr>
+<tr><td class="k">Regra de custo</td><td>composições <b>menores ou iguais à mediana</b> (Lei 14.133, art. 23, §2º, I)</td><td>idem na Lei 14.133 (o Decreto 7.983 diz “menores ou iguais aos correspondentes” no Sicro)</td></tr>
+<tr><td class="k">Exceção</td><td>itens de <b>montagem industrial</b> ou que não sejam construção civil</td><td>itens de montagem industrial ou que não sejam de infraestrutura de transportes</td></tr></table>
+<div class="mem">SINAPI = Caixa + IBGE, obras em geral · SICRO = DNIT, transportes · ambos: até a MEDIANA</div>
+<h3>O que o Decreto 7.983/2013 acrescenta (obras com recursos da União e transferências)</h3>
+<ul><li><b>Custo global de referência</b> = soma dos custos totais de todos os serviços. <b>Preço global de referência</b> = custo global + BDI.</li>
+<li>Novos sistemas de custos, só com <b>justificativa técnica</b> e aprovação (no federal), incorporando insumos do Sinapi e do Sicro (art. 5º). Sem sistema aplicável: tabelas aprovadas, publicações técnicas ou pesquisa de mercado (art. 6º).</li>
+<li><b>Especificidades locais</b> nas composições: só com <b>relatório técnico de profissional habilitado</b> (art. 8º). Custo acima do sistema: só em condições especiais justificadas.</li>
+<li>Preço <b>por preço global ou empreitada integral</b>: o licitante pode usar custos unitários diferentes dos do sistema, desde que o <b>preço global e o de cada etapa</b> do cronograma fiquem <b>iguais ou abaixo</b> dos de referência (art. 13, I).</li>
+<li>Falhas ou omissões do projeto: alterações, no conjunto, <b>não podem passar de 10% do valor do contrato</b> (art. 13, II; remissão ao limite da Lei 8.666).</li>
+<li><b>Aditivos</b>: orçamento específico detalhado; a diferença percentual entre o valor global do contrato e o preço global de referência <b>não pode ser reduzida em favor do contratado</b> (art. 14; na Lei 14.133, art. 128).</li>
+<li>Em <b>transferências a Estados e Municípios</b>, convênios e contratos de repasse trazem cláusula obrigando a seguir o Decreto (art. 16).</li></ul>
+<div class="pk"><b>Armadilhas</b>: Sinapi para rodovia (é Sicro); “média” em vez de <b>mediana</b>; “pesquisa de preços dos últimos 5 anos” (o último <b>1 ano</b>); inverter a ordem dos parâmetros; “Município sempre pode usar sistema próprio” (só <b>sem recursos da União</b>).</div></section>
+
+<section class="pg" id="bdi"><h2>6. BDI: o que é, a fórmula e como o TCU controla</h2>
+<p><b>BDI</b> = <b>B</b>enefícios e <b>D</b>espesas <b>I</b>ndiretas. É o <b>percentual que incide sobre o custo direto</b> para chegar ao preço. O Decreto 7.983 (art. 2º, V) o define como valor percentual que incide sobre o custo global de referência.</p>
+<div class="fm"><b>Conta da obra</b>: <span class="cz">preço de venda = custo direto × (1 + BDI)</span>. Exemplo: custo direto de R$ 1.000.000 com BDI de 25% → preço de R$ 1.250.000.</div>
+<h3>O que o BDI precisa mostrar, no mínimo (Decreto 7.983, art. 9º)</h3>
+<ol><li><b>Taxa de rateio da administração central</b> (AC)</li><li><b>Tributos</b> incidentes sobre o preço do serviço (excluídos os de natureza <b>direta e personalística</b> que oneram o contratado)</li><li><b>Taxa de risco, seguro e garantia</b> do empreendimento</li><li><b>Taxa de lucro</b></li></ol>
+<p>A fórmula usada na prática (a do TCU) soma também a despesa financeira:</p>
+<div class="bz">BDI = [ (1 + AC + S + R + G) × (1 + DF) × (1 + L) ] ÷ (1 − I) − 1<br><span class="sb">AC administração central · S seguro · R risco · G garantia · DF despesas financeiras · L lucro · I tributos (PIS, COFINS, ISS e, quando for o caso, a contribuição previdenciária sobre a receita bruta)</span></div>
+<div class="pk"><b>IRPJ e CSLL não entram no BDI</b>: são tributos de natureza <b>direta e personalística</b> do contratado (é isso que o art. 9º, II, do Decreto 7.983 exclui, e a Súmula 254 do TCU trata do mesmo assunto). Esta é uma das pegadinhas mais prováveis.</div>
+<h3>Simulador de BDI (percentuais hipotéticos)</h3>
+<div class="row"><div><label>AC (%)</label><input class="inp" id="ac" type="number" step="0.01" value="4"></div><div><label>Seguro S (%)</label><input class="inp" id="sg" type="number" step="0.01" value="0.8"></div><div><label>Risco R (%)</label><input class="inp" id="rk" type="number" step="0.01" value="1"></div><div><label>Garantia G (%)</label><input class="inp" id="gr" type="number" step="0.01" value="0.5"></div></div>
+<div class="row"><div><label>Desp. financeiras DF (%)</label><input class="inp" id="df" type="number" step="0.01" value="1"></div><div><label>Lucro L (%)</label><input class="inp" id="lc" type="number" step="0.01" value="7"></div><div><label>Tributos I (%)</label><input class="inp" id="trb" type="number" step="0.01" value="6.65"></div><div><label>Custo direto (R$)</label><input class="inp" id="cd" type="number" value="1000000"></div></div>
+<div><button class="btn" onclick="bdi()">Calcular BDI</button></div><div id="bd"></div>
+<p class="sb">Os percentuais acima são <b>hipótese</b> para você ver a mecânica (o 6,65% é só um exemplo de PIS + COFINS + ISS). Os valores reais vêm do edital e da composição do licitante.</p>
+<h3>Faixas de referência do TCU (Acórdão 2.622/2013), edificações</h3>
+<p>O TCU fixou faixas aceitáveis para cada parcela, a partir de estudo com centenas de contratos (1º e 3º quartis). Para <b>construção de edifícios</b>, os editais que reproduzem o acórdão trazem:</p>
+<table><tr><th>Parcela</th><th>Faixa (1º a 3º quartil)</th></tr>
+<tr><td class="k">Administração central</td><td>3,00% a 5,50%</td></tr>
+<tr><td class="k">Risco</td><td>0,97% a 1,27%</td></tr>
+<tr><td class="k">Despesas financeiras</td><td>0,59% a 1,39%</td></tr>
+<tr><td class="k">Lucro</td><td>6,16% a 8,96%</td></tr>
+<tr><td class="k">BDI resultante (edificações)</td><td>cerca de <b>20,34% a 25,00%</b></td></tr></table>
+<div class="av"><b>Não conferi no texto do TCU</b>: esses números vêm de editais municipais que citam o acórdão; confira o acórdão antes de decorar valor exato. Não incluí a faixa de seguro e garantia por falta de confirmação. Conceito mais seguro para a prova: <b>BDI é diferente por tipo de obra</b> (há tabela própria para rodovias, saneamento, fornecimento de materiais), e o BDI de <b>mero fornecimento de materiais e equipamentos</b> é <b>menor</b>.</div>
+<ul><li><b>BDI reduzido</b> para itens de fornecimento de materiais e equipamentos específicos, quando for inviável parcelar o objeto e eles forem percentual significativo do preço (Decreto, art. 9º, §1º).</li>
+<li>Na proposta, a <b>vencedora reelabora as planilhas</b> com o <b>BDI e os encargos sociais detalhados</b> e ajustados ao valor final (Lei 14.133, art. 56, §5º).</li>
+<li><b>Jogo de planilha</b>: baixar o preço de itens que serão reduzidos e subir o de itens que serão aditados; por isso a diferença percentual entre o contrato e a referência <b>não pode ser reduzida</b> em favor do contratado por aditivos.</li></ul>
+<div class="pk"><b>Armadilhas de BDI</b>: “IRPJ e CSLL compõem o BDI”; “o BDI é igual para qualquer obra”; “o BDI incide sobre o preço” (incide sobre o <b>custo direto</b>); “o lucro é taxa fixa da lei”; “o BDI dispensa detalhamento na proposta vencedora”.</div></section>
+
+<section class="pg" id="jul"><h2>7. Julgamento, habilitação e recursos: os números de obra</h2>
+<table><tr><th>Regra</th><th>Valor (Lei 14.133)</th></tr>
+<tr><td class="k">Proposta <b>inexequível</b> em obra</td><td>valor inferior a <b>75%</b> do orçado pela Administração (art. 59, §4º)</td></tr>
+<tr><td class="k"><b>Garantia adicional</b></td><td>vencedora com proposta inferior a <b>85%</b> do orçado: garantia igual à <b>diferença</b> entre o orçado e a proposta (§5º)</td></tr>
+<tr><td class="k">Exequibilidade em obra</td><td>considera preço <b>global</b>, quantitativos e preços unitários <b>relevantes</b>, conforme o critério de aceitabilidade do edital (§3º)</td></tr>
+<tr><td class="k">Atestados técnicos</td><td>só das <b>parcelas de maior relevância</b>: valor individual ≥ <b>4%</b> do total estimado; quantidade mínima de até <b>50%</b>; <b>vedadas</b> limitações de tempo e de local (art. 67)</td></tr>
+<tr><td class="k">Atestado profissional</td><td>profissional registrado no conselho, com <b>atestado de responsabilidade técnica</b> por obra de características semelhantes</td></tr>
+<tr><td class="k">Recurso</td><td><b>3 dias úteis</b>; reconsideração em 3; decisão da superior em <b>10 dias úteis</b></td></tr></table>
+<h3>Simulador: a proposta é inexequível? Precisa de garantia adicional?</h3>
+<div class="row"><div><label>Valor orçado pela Administração (R$)</label><input class="inp" id="or" type="number" value="10000000"></div><div><label>Valor da proposta (R$)</label><input class="inp" id="pp" type="number" value="8200000"></div></div>
+<div><button class="btn" onclick="inex()">Verificar</button></div><div id="ix"></div>
+<div class="pk"><b>Armadilhas</b>: “inexequível abaixo de 50%”; “70%”; “garantia adicional abaixo de 75%” (é 85%); “atestado exigido de todas as parcelas”; “atestado com limitação de local”; “recurso em 5 dias úteis”.</div></section>
+
+<section class="pg" id="mod"><h2>8. Modalidades e critérios de julgamento</h2>
+<table><tr><th>Modalidade</th><th>Quando</th></tr>
+<tr><td class="k">Pregão</td><td><b>bens e serviços comuns</b> (menor preço ou maior desconto); <b>não</b> serve para obras nem para serviços técnicos intelectuais; <b>cabe</b> para serviço comum de engenharia</td></tr>
+<tr><td class="k">Concorrência</td><td>bens e serviços especiais; <b>obras</b> e serviços comuns e especiais de engenharia</td></tr>
+<tr><td class="k">Concurso</td><td>trabalho técnico, científico ou artístico, com prêmio</td></tr>
+<tr><td class="k">Leilão</td><td>alienação de imóveis e de móveis inservíveis ou apreendidos (maior lance)</td></tr>
+<tr><td class="k">Diálogo competitivo</td><td>inovação, quando a Administração não define a solução; manifestação de interesse em no mínimo <b>25 dias úteis</b></td></tr></table>
+<div class="pk">Tomada de preços e convite <b>não existem</b> na Lei 14.133. É vedado criar outras modalidades ou combinar as existentes.</div>
+<p><b>Critérios de julgamento</b>: menor preço, maior desconto, melhor técnica ou conteúdo artístico, técnica e preço, maior lance, maior retorno econômico. No <b>maior desconto</b>, o desconto se estende aos aditivos e o preço de referência consta do edital. Em <b>técnica e preço</b>, a técnica pesa no máximo 70%.</p></section>
+
+<section class="pg" id="dir"><h2>9. Contratação direta: dispensa e inexigibilidade</h2>
+<div class="grid"><div class="cell e"><h4>Inexigível (art. 74)</h4><b>não dá para competir</b>: fornecedor exclusivo (com atestado de exclusividade, vedada marca); artista consagrado; <b>serviços técnicos especializados de natureza predominantemente intelectual</b> com notória especialização (estudos, <b>projetos básicos e executivos</b>, pareceres, perícias, consultorias, <b>fiscalização, supervisão ou gerenciamento de obras</b>, controle tecnológico e ensaios); credenciamento; imóvel específico. <b>Vedada</b> para publicidade e divulgação.</div>
+<div class="cell c"><h4>Dispensável (art. 75)</h4><b>dá para licitar, mas a lei libera</b>: valores baixos (obras e serviços de engenharia abaixo de <b>R$ 100 mil</b>; outros serviços e compras abaixo de <b>R$ 50 mil</b>, valores do texto da lei, <b>atualizados por decreto</b>); licitação deserta ou fracassada há menos de <b>1 ano</b>; <b>emergência ou calamidade</b>: só o necessário, em até <b>1 ano</b>, sem prorrogação nem recontratação da mesma empresa.</div></div>
+<div class="pk"><b>Armadilhas</b>: trocar dispensa × inexigibilidade; “emergência: 180 dias, prorrogáveis”; “obras abaixo de R$ 50 mil”; “basta o valor de cada contrato isolado” (soma-se o gasto do exercício com objetos da mesma natureza); “inexigibilidade para publicidade”.</div></section>
+
+<section class="pg" id="exe"><h2>10. Execução: fiscal, garantia, aditivos, recebimento e sanções</h2>
+<h3>Agentes e fiscal (arts. 7º, 8º e 117)</h3>
+<ul><li><b>Agente de contratação</b>: servidor <b>efetivo ou empregado permanente</b> (obrigatório; os demais agentes do art. 7º são “preferencialmente” efetivos). Responde individualmente, salvo se induzido a erro pela equipe. Nos bens e serviços especiais pode ser substituído por <b>comissão de no mínimo 3 membros</b>, que respondem solidariamente.</li>
+<li><b>Fiscal</b>: registra em registro próprio <b>todas as ocorrências</b> e determina a regularização das faltas; o que excede a competência, comunica aos superiores em tempo hábil. O <b>terceiro contratado para assisti-lo</b> responde objetivamente pelas informações, mas <b>não exerce atribuição própria e exclusiva</b> do fiscal.</li>
+<li>A fiscalização <b>não exclui nem reduz</b> a responsabilidade do contratado (art. 120). Linhas de defesa: 1ª agentes; 2ª jurídico e controle interno do órgão; 3ª órgão central de controle e tribunal de contas.</li></ul>
+<h3>Garantia, aditivos e recebimento</h3>
+<table><tr><th>Tema</th><th>Regra</th></tr>
+<tr><td class="k">Garantia</td><td>até <b>5%</b> do valor inicial (até <b>10%</b> com justificativa); <b>grande vulto</b>: seguro-garantia com cláusula de retomada de até <b>30%</b>; modalidades: caução, seguro-garantia, fiança, título de capitalização (escolha do contratado)</td></tr>
+<tr><td class="k">Aditivos</td><td>acréscimos ou supressões até <b>25%</b> do valor inicial atualizado; <b>reforma de edifício ou equipamento</b>: acréscimos até <b>50%</b>; <b>sem transfigurar o objeto</b>; termo aditivo antes da execução (ou até 1 mês se antecipado)</td></tr>
+<tr><td class="k">Reequilíbrio</td><td>pedido <b>durante a vigência e antes da prorrogação</b>; apostila para reajuste, atualização financeira e razão social</td></tr>
+<tr><td class="k">Paralisação</td><td>acima de <b>1 mês</b>: aviso público no site e <b>placa na obra</b></td></tr>
+<tr><td class="k">Recebimento</td><td><b>provisório</b> pelo responsável pelo acompanhamento e fiscalização (o fiscal); <b>definitivo</b> por servidor ou comissão designada; solidez e segurança: no mínimo <b>5 anos</b>, responsabilidade objetiva; ensaios e testes de normas técnicas por conta do contratado</td></tr></table>
+<h3>Simulador: quanto posso aditar?</h3>
+<div class="row"><div><label>Valor inicial atualizado do contrato (R$)</label><input class="inp" id="vi" type="number" value="5000000"></div><div><label>Tipo</label><select class="inp" id="ti"><option value="n">Obra nova ou outro serviço</option><option value="r">Reforma de edifício ou equipamento</option></select></div></div>
+<div><button class="btn" onclick="adt()">Calcular limites</button></div><div id="ad"></div>
+<h3>Escada de sanções (arts. 155 a 163)</h3>
+<table><tr><th>Sanção</th><th>Regra</th></tr>
+<tr><td class="k">Advertência</td><td>só para inexecução parcial leve</td></tr>
+<tr><td class="k">Multa</td><td><b>0,5% a 30%</b> do valor do contrato, em qualquer infração; defesa em 15 dias úteis</td></tr>
+<tr><td class="k">Impedimento de licitar e contratar</td><td>no <b>próprio ente</b>, por até <b>3 anos</b></td></tr>
+<tr><td class="k">Inidoneidade</td><td><b>todos os entes</b>, de <b>3 a 6 anos</b>; no Município, só pelo secretário municipal</td></tr>
+<tr><td class="k">Reabilitação</td><td>reparar o dano, pagar a multa e esperar <b>1 ano</b> (impedimento) ou <b>3 anos</b> (inidoneidade)</td></tr></table>
+<p class="sb">Em Santos, gestor (administrativo) e fiscal (técnico) estão no Decreto 10.222/2023 (aposta 11 do bloco 2). A divisão fiscal técnico × administrativo vem de regulamento, não do texto da lei.</p></section>
+
+<section class="pg" id="treino"><h2>11. Treino: 30 perguntas rápidas</h2><p>Escolha a alternativa e leia o porquê. A nota aparece no fim.</p><div id="tr"></div><div class="bz" id="trres"></div></section>
+
+<section class="pg" id="fim"><h2>12. Para não errar: uma folha</h2>
+<div class="fm"><b>Obra e orçamento</b>: parâmetros em ordem: Sinapi/Sicro (até a <b>mediana</b>) → mídia/tabelas → similares de 1 ano → notas fiscais · Sinapi = Caixa + IBGE, obras em geral · Sicro = DNIT, transportes · Município sem recursos da União: sistema próprio · preço = custo direto × (1 + BDI) · BDI: AC, tributos, risco/seguro/garantia, lucro (+ despesa financeira) · IRPJ e CSLL <b>fora</b> do BDI · vencedora detalha BDI e encargos · diferença percentual contrato × referência <b>não reduz</b>.</div>
+<div class="fm"><b>Números</b>: inexequível &lt; <b>75%</b> · garantia adicional &lt; <b>85%</b> · atestado ≥ <b>4%</b> e até <b>50%</b> · recurso <b>3</b> dias úteis, decisão em <b>10</b> · prazos de obra <b>10 · 25 · 35 · 60</b> · garantia <b>5%/10%/30%</b> · aditivo <b>25%/50%</b> · responsabilidade <b>5 anos</b> · paralisação &gt; <b>1 mês</b> · multa <b>0,5% a 30%</b> · impedimento até <b>3 anos</b> · inidoneidade <b>3 a 6</b>.</div>
+<div class="fm"><b>Regimes</b>: integrada = básico + executivo pelo contratado (Administração: anteprojeto) · semi = só executivo · preço global/integral/tarefa/integrada/semi: medição por etapas · obra sem projeto executivo vedada.</div>
+<div class="fm"><b>Pessoas</b>: agente de contratação efetivo · comissão ≥ 3 · fiscal registra e comunica · terceiro de apoio não assume atribuição exclusiva · fiscalização não reduz a responsabilidade do contratado.</div>
+<p class="sb">Para treinar: simulados, séries de questões e a cola do bloco 3 na página inicial do site.</p></section></div>
+<script>
+function brl(n){return n.toLocaleString("pt-BR",{style:"currency",currency:"BRL"})}
+function bdi(){const v=id=>(+document.getElementById(id).value)/100,AC=v("ac"),S=v("sg"),R=v("rk"),G=v("gr"),DF=v("df"),L=v("lc"),I=v("trb"),cd=+document.getElementById("cd").value;
+ if(I>=1){document.getElementById("bd").innerHTML='<div class="pk">Tributos devem ser menores que 100%.</div>';return}
+ const b=((1+AC+S+R+G)*(1+DF)*(1+L)/(1-I))-1,p=cd*(1+b);
+ document.getElementById("bd").innerHTML='<table><tr><th>Item</th><th>Resultado</th></tr><tr><td class="k">BDI</td><td><b>'+(b*100).toFixed(2).replace(".",",")+'%</b></td></tr><tr><td class="k">Custo direto</td><td>'+brl(cd)+'</td></tr><tr><td class="k">Preço = custo × (1 + BDI)</td><td><b>'+brl(p)+'</b></td></tr><tr><td class="k">Parcela de BDI no preço</td><td>'+brl(p-cd)+'</td></tr></table><div class="bz">Mecânica: somam-se AC, seguro, risco e garantia; multiplicam-se pelas despesas financeiras e pelo lucro; divide-se por (1 − tributos), porque os tributos incidem sobre o <b>preço final</b>, não sobre o custo. Valores hipotéticos.</div>'}
+bdi();
+function inex(){const o=+document.getElementById("or").value,p=+document.getElementById("pp").value,r=p/o*100;let h='<table><tr><th>Item</th><th>Resultado</th></tr><tr><td class="k">Proposta / orçado</td><td><b>'+r.toFixed(1).replace(".",",")+'%</b></td></tr>';
+ if(r<75)h+='<tr><td class="k">Situação</td><td><b>Inexequível</b> (abaixo de 75% do orçado, art. 59, §4º): desclassificada.</td></tr>';
+ else if(r<85)h+='<tr><td class="k">Situação</td><td>Exequível, mas exige <b>garantia adicional</b> de <b>'+brl(o-p)+'</b> (diferença entre o orçado e a proposta, art. 59, §5º), além das demais garantias.</td></tr>';
+ else h+='<tr><td class="k">Situação</td><td>Sem inexequibilidade e <b>sem garantia adicional</b> pela regra dos 75% e 85%.</td></tr>';
+ document.getElementById("ix").innerHTML=h+'</table>'}
+inex();
+function adt(){const v=+document.getElementById("vi").value,t=document.getElementById("ti").value;
+ let h='<table><tr><th>Item</th><th>Limite</th></tr><tr><td class="k">Acréscimo ou supressão até 25%</td><td><b>'+brl(v*0.25)+'</b> (contrato passa de '+brl(v)+' até '+brl(v*1.25)+')</td></tr>';
+ if(t=="r")h+='<tr><td class="k">Reforma: acréscimo até 50%</td><td><b>'+brl(v*0.5)+'</b> (até '+brl(v*1.5)+'); a <b>supressão</b> continua limitada a 25%</td></tr>';
+ document.getElementById("ad").innerHTML=h+'</table><div class="bz">Art. 125: o contratado é obrigado a aceitar acréscimos ou supressões de até 25% do valor inicial atualizado; em reforma de edifício ou de equipamento, os acréscimos podem chegar a 50%. As alterações unilaterais não podem transfigurar o objeto.</div>'}
+adt();
+const T=[
+["Para obras em geral (exceto infraestrutura de transportes), a Lei 14.133 manda usar como primeiro parâmetro de custo:",["a média do Sicro","a mediana do Sinapi","o menor preço de mercado","a tabela do Município"],1,"Composições menores ou iguais à mediana do Sinapi (art. 23, §2º, I)."],
+["O Sicro é mantido por:",["Caixa Econômica Federal","IBGE","DNIT","Ministério das Cidades"],2,"DNIT (Decreto 7.983, art. 4º). O Sinapi é da Caixa, com pesquisa do IBGE."],
+["O Sinapi é mantido pela:",["Caixa, com pesquisa de preços do IBGE","DNIT","Receita Federal","Tribunal de Contas da União"],0,"Caixa Econômica Federal, segundo definições técnicas dela e pesquisa do IBGE (art. 3º, §1º)."],
+["A ordem dos parâmetros do orçamento de obras (art. 23, §2º) é:",["mídia, similares, Sinapi, notas fiscais","Sinapi/Sicro, mídia, similares, notas fiscais","similares, notas fiscais, Sinapi, mídia","notas fiscais, Sinapi, mídia, similares"],1,"1º Sinapi/Sicro; 2º mídia e tabelas; 3º contratações similares; 4º notas fiscais."],
+["As contratações similares usadas na pesquisa de preços são as dos últimos:",["6 meses","1 ano","2 anos","5 anos"],1,"Em execução ou concluídas no período de 1 ano anterior à pesquisa."],
+["Município que contrata obra sem recursos da União:",["só pode usar Sinapi","pode usar outros sistemas de custos do próprio ente","não pode orçar","deve usar só o Sicro"],1,"Art. 23, §3º. Com recursos da União, valem Sinapi e Sicro."],
+["BDI significa:",["Base de Despesas Indiretas","Benefícios e Despesas Indiretas","Balanço de Despesas Indiretas","Benefício Direto Integrado"],1,"Benefícios e Despesas Indiretas."],
+["O BDI incide sobre:",["o preço final","o custo direto","a receita bruta","o lucro"],1,"Incide sobre o custo (global de referência); preço = custo × (1 + BDI)."],
+["Quais componentes o BDI deve evidenciar, no mínimo, segundo o Decreto 7.983?",["só lucro e tributos","administração central, tributos, risco/seguro/garantia e lucro","IRPJ, CSLL e lucro","apenas administração central"],1,"Art. 9º: rateio da administração central, tributos, taxa de risco, seguro e garantia, e lucro."],
+["IRPJ e CSLL em relação ao BDI:",["compõem o BDI","não entram no BDI","entram só em obras de saneamento","entram só no lucro"],1,"São tributos de natureza direta e personalística do contratado: ficam fora do BDI."],
+["Item de fornecimento de materiais e equipamentos específicos, em parte significativa do preço, quando inviável parcelar o objeto:",["usa BDI maior","usa BDI reduzido","não tem BDI","usa BDI igual ao dos serviços"],1,"Incidência de BDI reduzida em relação aos demais itens (art. 9º, §1º)."],
+["Na proposta da vencedora de obra, o BDI e os encargos sociais:",["não precisam ser detalhados","são detalhados e ajustados ao valor final","são fixados pelo TCU","são só os do edital, sem alteração"],1,"Art. 56, §5º."],
+["Em obra, a proposta é considerada inexequível quando inferior a:",["50% do orçado","70% do orçado","75% do orçado","85% do orçado"],2,"75% do valor orçado (art. 59, §4º)."],
+["Exige-se garantia adicional da vencedora de obra cuja proposta for inferior a:",["75% do orçado","80% do orçado","85% do orçado","90% do orçado"],2,"85%: garantia igual à diferença entre o orçado e a proposta."],
+["Atestados técnicos só podem ser exigidos para parcelas de valor individual igual ou superior a:",["2%","4%","10%","20%"],1,"4% do valor total estimado; quantidades de até 50% das parcelas (art. 67, §§1º e 2º)."],
+["O prazo para recurso contra o julgamento das propostas é de:",["2 dias úteis","3 dias úteis","5 dias úteis","15 dias úteis"],1,"3 dias úteis (art. 165); a superior decide em 10 dias úteis."],
+["Prazo mínimo para propostas em contratação integrada:",["10 dias úteis","25 dias úteis","35 dias úteis","60 dias úteis"],3,"60 dias úteis (semi-integrada: 35)."],
+["Para obra de engenharia, a modalidade adequada é:",["pregão","concorrência","tomada de preços","convite"],1,"Concorrência; tomada de preços e convite não existem mais."],
+["Na contratação integrada, o contratado elabora:",["só o executivo","projeto básico e executivo","anteprojeto","nenhum projeto"],1,"Básico e executivo; a Administração faz o anteprojeto."],
+["Contratação de projeto básico por notória especialização é:",["dispensável","inexigível","vedada","sempre por pregão"],1,"Inexigibilidade (art. 74, III, a), com serviço técnico especializado de natureza intelectual."],
+["Dispensa por emergência ou calamidade:",["180 dias prorrogáveis","até 1 ano, sem prorrogação nem recontratação da mesma empresa","sem limite de prazo","até 2 anos"],1,"Só o necessário, em até 1 ano, vedadas prorrogação e recontratação da mesma empresa."],
+["O agente de contratação deve ser:",["qualquer pessoa designada","servidor efetivo ou empregado permanente","somente advogado","somente engenheiro"],1,"Servidor efetivo ou empregado permanente (art. 8º); comissão, no mínimo 3 membros."],
+["O terceiro contratado para assistir o fiscal:",["assume as atribuições do fiscal","não exerce atribuição própria e exclusiva do fiscal","dispensa o fiscal","responde subjetivamente"],1,"Responde objetivamente pelas informações, mas não exerce atribuição exclusiva do fiscal."],
+["Garantia contratual de obras comuns, regra geral:",["até 5%, podendo chegar a 10% com justificativa","até 20%","sempre 30%","não pode ser exigida"],0,"Em grande vulto, seguro-garantia com retomada de até 30%."],
+["Aditivo unilateral em reforma de edifício, acréscimo máximo:",["10%","25%","50%","100%"],2,"50% de acréscimo (obras em geral: 25%)."],
+["O pedido de reequilíbrio deve ser feito:",["a qualquer tempo","durante a vigência e antes da prorrogação","só depois do recebimento","só em juízo"],1,"Art. 131."],
+["O recebimento provisório da obra é feito:",["pela comissão de 3 membros","pelo responsável pelo acompanhamento e fiscalização","pelo Prefeito","pelo TCE"],1,"Provisório pelo fiscal; definitivo por servidor ou comissão designada."],
+["Responsabilidade do construtor por solidez e segurança após o recebimento definitivo:",["2 anos","no mínimo 5 anos, objetiva","encerra com o recebimento","10 anos fixos"],1,"No mínimo 5 anos; o edital pode prever prazo maior."],
+["Multa por inadimplemento, na Lei 14.133:",["1% a 10%","0,5% a 30% do valor do contrato","até 5%","20% fixos"],1,"0,5% a 30% (art. 156, II)."],
+["Impedimento de licitar e contratar vale no:",["próprio ente, até 3 anos","todos os entes, de 3 a 6 anos","próprio ente, até 5 anos","país inteiro, até 10 anos"],0,"Impedimento: próprio ente, até 3 anos. Inidoneidade: todos os entes, de 3 a 6 anos."]
+];
+T.forEach((t,i)=>{const k=(i*3+1)%4,o=t[1];t[1]=o.map((_,j)=>o[(j+k)%4]);t[2]=(t[2]-k+4)%4});
+let ans={};
+function dr(){let h="";T.forEach((t,i)=>{h+='<div class="qz"><b>'+(i+1)+'.</b> '+t[0]+'<div>';t[1].forEach((o,j)=>{let c="opt";if(ans[i]!==undefined){if(j==t[2])c+=" ok";else if(ans[i]==j)c+=" no"}h+='<button class="'+c+'" onclick="ch('+i+','+j+')">'+"ABCD"[j]+') '+o+'</button>'});h+='</div><div class="ex" style="display:'+(ans[i]!==undefined?"block":"none")+'"><b>'+(ans[i]==t[2]?"Certo. ":"Errado. ")+'</b>'+t[3]+'</div></div>'});
+ document.getElementById("tr").innerHTML=h;const k=Object.keys(ans).length;let a=0;Object.keys(ans).forEach(i=>{if(ans[i]==T[i][2])a++});document.getElementById("trres").innerHTML="Respondidas: "+k+" / "+T.length+" · Acertos: "+a+(k==T.length?" ("+Math.round(100*a/T.length)+"%).":"")}
+function ch(i,j){if(ans[i]!==undefined)return;ans[i]=j;dr()}
+dr();
+</script></body></html>

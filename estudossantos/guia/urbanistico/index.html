@@ -267,9 +267,9 @@ const T=[
 ["Reserva Legal fora da Amazônia Legal:",["10%","20%","30%","35%"],1,"20% do imóvel."],
 ["Recomposição em APP consolidada para imóvel de 1,5 módulo fiscal:",["5 m","8 m","15 m","30 m"],1,"Mais de 1 e até 2 módulos: 8 m."],
 ["Meta de universalização do saneamento até 31/12/2033:",["100% água e esgoto","99% água e 90% esgoto","90% água e 99% esgoto","95% e 95%"],1,"99% da população com água e 90% com coleta e tratamento de esgoto."],
-["Garantia contratual em obras pela Lei 14.133 (regra geral):",["até 20%","até 5%, podendo chegar a 10% com justificativa","até 30% sempre","não pode ser exigida"],1,"Até 5% do valor inicial, podendo chegar a 10% com justificativa de complexidade e riscos; em grande vulto, seguro-garantia com retomada de até 30%."],
 ["Na contratação semi-integrada (Lei 14.133), o contratado elabora:",["anteprojeto","projeto básico e executivo","projeto executivo","nenhum projeto"],2,"O projeto executivo; na integrada, básico e executivo."]
 ];
+T.forEach((t,i)=>{const k=(i*3+1)%4,o=t[1];t[1]=o.map((_,j)=>o[(j+k)%4]);t[2]=(t[2]-k+4)%4});
 let ans={};
 function dr(){let h="";T.forEach((t,i)=>{h+='<div class="qz"><b>'+(i+1)+'.</b> '+t[0]+'<div>';t[1].forEach((o,j)=>{let c="opt";if(ans[i]!==undefined){if(j==t[2])c+=" ok";else if(ans[i]==j)c+=" no"}h+='<button class="'+c+'" onclick="ch('+i+','+j+')">'+"ABCD"[j]+') '+o+'</button>'});h+='</div><div class="ex" style="display:'+(ans[i]!==undefined?"block":"none")+'"><b>'+(ans[i]==t[2]?"Certo. ":"Errado. ")+'</b>'+t[3]+'</div></div>'});
  document.getElementById("tr").innerHTML=h;const k=Object.keys(ans).length;let a=0;Object.keys(ans).forEach(i=>{if(ans[i]==T[i][2])a++});document.getElementById("trres").innerHTML="Respondidas: "+k+" / "+T.length+" · Acertos: "+a+(k==T.length?" ("+Math.round(100*a/T.length)+"%).":"")}
