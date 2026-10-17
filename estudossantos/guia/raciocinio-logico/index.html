@@ -1,0 +1,225 @@
+<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Guia fundo 8 · Raciocínio lógico e matemática aplicada</title>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#EFEADC;--pg:#FDFBF3;--bd:#E3DFCF;--bl:#0C447C;--rd:#993C1D;--gr:#1A6B3C;--tx:#2C2C2A;--am:#D9A441}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);font-family:'Caveat',cursive;color:var(--tx)}
+.wrap{max-width:900px;margin:0 auto;padding:10px 10px 70px}
+.nav{position:sticky;top:0;z-index:30;background:var(--pg);border:1px solid var(--bd);border-radius:10px;padding:6px 10px;font-size:18px;line-height:26px;box-shadow:0 2px 6px rgba(0,0,0,.06)}.nav a{margin-right:10px;color:var(--rd);text-decoration:none;border-bottom:1px dotted #C9A896;white-space:nowrap}.nav b{color:var(--bl)}
+h1{font-size:34px;line-height:38px;margin:10px 0 4px;color:var(--bl)}h2{font-size:29px;line-height:33px;margin:0 0 8px;color:var(--bl);scroll-margin-top:80px}h3{font-size:23px;margin:14px 0 4px;color:var(--gr)}
+p,li{font-size:20px;line-height:29px;margin:5px 0}.sb{font-size:17px;color:#5F5E5A}ul,ol{padding-left:24px;margin:4px 0}
+.pg{background:var(--pg);border:1px solid var(--bd);border-radius:14px;padding:16px 16px 18px;margin:14px 0}
+.bz{border:1.5px solid var(--bl);border-radius:6px;padding:8px 12px;margin:10px 0;font-size:20px;line-height:28px;color:var(--bl);background:#F4F8FC}
+.pk{border:1.5px dashed #A32D2D;padding:8px 12px;margin:10px 0;font-size:19px;line-height:27px;color:#A32D2D;background:#FDF6F5;border-radius:6px}
+.fm{border-left:4px solid var(--gr);background:#F1F9F4;padding:7px 12px;margin:10px 0;font-size:20px;line-height:28px;color:#14532D}
+.av{background:#FFF6E0;border:1.5px solid var(--am);border-radius:8px;padding:8px 12px;margin:10px 0;font-size:18px;line-height:26px;color:#7A5A12}
+.hl{background:#FAEEDA;padding:0 4px;border-radius:3px}.cz{color:var(--bl);font-weight:700}.cv{color:#A32D2D;font-weight:700}
+table{width:100%;border-collapse:collapse;margin:8px 0;font-size:18px}th{background:#EAF0F7;color:var(--bl);text-align:left;padding:5px 7px;border:1px solid #D6D2C4}td{padding:5px 7px;border:1px solid var(--bd);vertical-align:top;line-height:24px}td.k{font-weight:700;color:var(--rd)}
+.tl{display:flex;flex-direction:column;gap:0;margin:10px 0}.st{display:flex;gap:10px;align-items:stretch}.st .d{min-width:92px;max-width:92px;background:var(--bl);color:#fff;border-radius:10px 0 0 10px;padding:6px 6px;font-size:18px;line-height:22px;text-align:center;display:flex;align-items:center;justify-content:center}
+.st .t{flex:1;border:1.5px solid var(--bl);border-radius:0 10px 10px 0;padding:6px 10px;font-size:19px;line-height:26px;background:#fff}.ar{text-align:center;font-size:24px;color:var(--rd);line-height:22px;margin:2px 0 2px 0}
+.st.r .d{background:#A32D2D}.st.r .t{border-color:#A32D2D}.st.g .d{background:var(--gr)}.st.g .t{border-color:var(--gr)}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}@media(max-width:620px){.grid{grid-template-columns:1fr}}
+.cell{border:2px solid var(--bl);border-radius:12px;padding:8px 10px;background:#fff}.cell h4{margin:0 0 4px;font-size:23px;color:var(--bl)}.cell.u{border-color:#0C447C;background:#EAF0F7}.cell.c{border-color:#1A6B3C;background:#E7F5EC}.cell.e{border-color:#B8860B;background:#FFF6DD}.cell.m{border-color:#993C1D;background:#FBEDE6}.cell.s{border-color:#6B3FA0;background:#F1EAF8}
+.cell .n{display:inline-block;background:var(--bl);color:#fff;border-radius:10px;padding:0 9px;font-size:18px;margin-right:6px}
+.inp{font:inherit;font-size:22px;border:1.5px solid var(--bl);border-radius:8px;padding:3px 8px;width:100%;background:#fff}.row{display:flex;gap:10px;flex-wrap:wrap}.row>div{flex:1;min-width:150px}label{font-size:18px;color:var(--bl);font-weight:700}
+.btn{font:inherit;font-size:21px;font-weight:700;border:2px solid var(--bl);background:var(--bl);color:#fff;border-radius:12px;padding:5px 14px;cursor:pointer;margin:4px 6px 4px 0}.btn.o{background:#fff;color:var(--bl)}
+.opt{display:inline-block;font:inherit;font-size:18px;border:1.5px solid var(--bl);color:var(--bl);background:#fff;border-radius:14px;padding:2px 11px;margin:3px 4px 3px 0;cursor:pointer}.opt.ok{background:#1A6B3C;color:#fff;border-color:#1A6B3C}.opt.no{background:#A32D2D;color:#fff;border-color:#A32D2D}
+.qz{border:1px solid var(--bd);border-radius:10px;padding:8px 10px;margin:8px 0;background:#fff}.qz .ex{margin-top:6px;font-size:18px;line-height:25px;color:#14532D;display:none}
+.mem{font-size:22px;line-height:32px;text-align:center;border:2px solid var(--rd);border-radius:12px;padding:8px 10px;margin:10px 0;background:#FDF6F5;color:var(--rd);font-weight:700}
+@media(max-width:520px){h1{font-size:27px}td,th{font-size:16px;padding:4px}.st .d{min-width:74px;max-width:74px;font-size:16px}}
+.pg{overflow-x:auto}td,th{word-break:break-word}.nav{overflow-wrap:anywhere}</style></head><body><div class="wrap">
+<div class="nav"><b>Guia fundo 8</b> · <a href="#mapa">1 Mapa</a> <a href="#zero">2 Do zero</a> <a href="#neg">3 Negação e equivalência</a> <a href="#arg">4 Argumentos e sequências</a> <a href="#conj">5 Conjuntos</a> <a href="#mat">6 Porcentagem, razão, regra de três</a> <a href="#uni">7 Unidades e geometria</a> <a href="#dados">8 Leitura de dados</a> <a href="#sim">9 Simuladores</a> <a href="#esq">10 Esquema</a> <a href="#treino">11 Treino</a> <a href="#nunca">12 Uma folha</a></div>
+<h1>Guia fundo: raciocínio lógico, matemática aplicada e leitura de dados técnicos</h1>
+<p class="sb">Bloco 1 · peso 1 (IBAM, Edital 74/2026) · feito a partir da lista de conteúdos do edital.</p>
+<div class="av"><b>Fontes e limites.</b> Este guia <b>não vem de uma lei</b>: escrevi a partir da lista de conteúdos do edital (você me mandou a foto) e do conhecimento padrão de lógica e matemática básica. Não tenho acesso a provas anteriores do IBAM nem ao Estratégia (é pago), e não usei o Jev (falta chave de API). Os exercícios são meus e os resultados foram conferidos por conta. A chance de cada tema é estimativa minha. Mesmo sem ter visto o estilo exato da banca para este bloco, a lista do edital pede, além de lógica, contas de obra: conversão de unidades, escala, declividade e consumo de material. Dei peso a isso.</div>
+
+<section class="pg" id="mapa"><h2>1. O mapa: o que o edital pede</h2>
+<p>O edital junta três assuntos: <b>lógica</b>, <b>matemática básica</b> e <b>leitura de dados técnicos</b> (tabelas, gráficos, plantas, escala, declividade, consumo e custo). Como o bloco vale peso 1, o mais eficiente é garantir o que se resolve rápido.</p>
+<div class="grid">
+<div class="cell u"><h4>Lógica proposicional</h4>Proposições, conectivos, negação, equivalência, argumentos e validade.</div>
+<div class="cell c"><h4>Padrões e conjuntos</h4>Sequências numéricas, alfabéticas e figurais; união, interseção e diagramas.</div>
+<div class="cell e"><h4>Matemática básica</h4>Porcentagem, razão e proporção, regra de três simples e composta, média aritmética e ponderada.</div>
+<div class="cell m"><h4>Grandezas e geometria</h4>Sistema métrico, conversão de unidades, perímetro, área, volume, escala, declividade, vazão.</div>
+<div class="cell s"><h4>Dados técnicos</h4>Tabelas, gráficos, plantas, croquis, perfis, planilhas, custos unitários, produtividade, índices.</div></div>
+<h3>Quanto cada parte vale (estimativa minha, não é o Jev)</h3>
+<table><tr><th>Tema</th><th>Chance de aparecer</th><th>Por quê</th></tr>
+<tr><td class="k">Negação e equivalência de proposições</td><td><b>alta</b></td><td>é o tema clássico de lógica e rende questão rápida</td></tr>
+<tr><td class="k">Porcentagem, razão, regra de três</td><td><b>alta</b></td><td>base de quase toda conta aplicada</td></tr>
+<tr><td class="k">Conversão de unidades, área, volume, escala</td><td><b>alta</b></td><td>está citado no edital e é cobrança de engenheiro</td></tr>
+<tr><td class="k">Conjuntos, sequências</td><td>média</td><td>aparecem em lógica de concursos em geral</td></tr>
+<tr><td class="k">Declividade, vazão, consumo de material, produtividade</td><td>média a alta</td><td>citados no edital como "dados técnicos"</td></tr>
+<tr><td class="k">Argumentos e validade</td><td>média</td><td>mais difícil, rende menos por tempo gasto</td></tr></table>
+</section>
+
+<section class="pg" id="zero"><h2>2. Do zero: proposições e conectivos</h2>
+<table><tr><th>Palavra</th><th>O que é</th><th>Exemplo</th></tr>
+<tr><td class="k">Proposição</td><td>Frase declarativa que é verdadeira (V) ou falsa (F), nunca as duas.</td><td>"A obra é pública." Pergunta e ordem não são proposições.</td></tr>
+<tr><td class="k">Negação ¬p</td><td>Inverte o valor de p.</td><td>p: "chove" · ¬p: "não chove"</td></tr>
+<tr><td class="k">Conjunção p ∧ q ("e")</td><td>V só se as duas são V.</td><td></td></tr>
+<tr><td class="k">Disjunção p ∨ q ("ou")</td><td>F só se as duas são F.</td><td>"ou...ou" (exclusiva) é F quando iguais.</td></tr>
+<tr><td class="k">Condicional p → q ("se...então")</td><td>F só no caso V → F.</td><td>"Se chove, a obra para."</td></tr>
+<tr><td class="k">Bicondicional p ↔ q ("se e somente se")</td><td>V quando iguais.</td><td></td></tr></table>
+<div class="fm"><b>A regra única:</b> a <b>condicional</b> só é falsa quando o antecedente é verdadeiro e o consequente é falso (V → F). Um número de linhas de tabela-verdade é 2 elevado ao número de proposições (3 proposições, 8 linhas).</div>
+<div class="mem">E: só V se ambas V · OU: só F se ambas F · SE...ENTÃO: só F em V→F · SE E SOMENTE SE: V se iguais</div>
+</section>
+
+<section class="pg" id="neg"><h2>3. Negação e equivalência</h2>
+<table><tr><th>Proposição</th><th>Negação</th></tr>
+<tr><td class="k">p ∧ q</td><td>¬p ∨ ¬q (De Morgan)</td></tr>
+<tr><td class="k">p ∨ q</td><td>¬p ∧ ¬q (De Morgan)</td></tr>
+<tr><td class="k">p → q</td><td><b>p ∧ ¬q</b></td></tr>
+<tr><td class="k">p ↔ q</td><td>"ou p ou q" (exclusivo)</td></tr>
+<tr><td class="k">Todo A é B</td><td><b>Algum A não é B</b></td></tr>
+<tr><td class="k">Algum A é B</td><td><b>Nenhum A é B</b></td></tr>
+<tr><td class="k">Nenhum A é B</td><td>Algum A é B</td></tr></table>
+<h3>Equivalências da condicional</h3>
+<table><tr><th>Forma</th><th>Equivale a "p → q"?</th></tr>
+<tr><td class="k">Contrapositiva: ¬q → ¬p</td><td><b>Sim</b></td></tr>
+<tr><td class="k">¬p ∨ q</td><td><b>Sim</b></td></tr>
+<tr><td class="k">Recíproca: q → p</td><td>Não</td></tr>
+<tr><td class="k">Inversa: ¬p → ¬q</td><td>Não (equivale à recíproca)</td></tr></table>
+<div class="pk"><b>Como a banca erra a gente:</b> negar "todo" com "nenhum" (é contrária, não negação) · negar "se...então" com outro "se...então" · esquecer de trocar E por OU em De Morgan · tomar a recíproca como equivalente · negar "e" mantendo o "e".</div>
+</section>
+
+<section class="pg" id="arg"><h2>4. Argumentos e sequências</h2>
+<p><b>Argumento válido:</b> se as premissas são verdadeiras, a conclusão tem de ser verdadeira. Validade não é a mesma coisa que a conclusão ser verdadeira no mundo real.</p>
+<table><tr><th>Forma</th><th>Nome</th><th>Válido?</th></tr>
+<tr><td class="k">Se p então q; p; logo q</td><td>Modus ponens</td><td><b>Sim</b></td></tr>
+<tr><td class="k">Se p então q; não q; logo não p</td><td>Modus tollens</td><td><b>Sim</b></td></tr>
+<tr><td class="k">Se p então q; q; logo p</td><td>Afirmar o consequente</td><td><b>Não</b> (falácia)</td></tr>
+<tr><td class="k">Se p então q; não p; logo não q</td><td>Negar o antecedente</td><td><b>Não</b> (falácia)</td></tr>
+<tr><td class="k">Todo A é B; x é A; logo x é B</td><td>Silogismo</td><td><b>Sim</b></td></tr></table>
+<h3>Sequências: o que procurar, nesta ordem</h3>
+<ol><li><b>Diferença constante</b> (soma de um valor): 3, 7, 11, 15 (soma 4).</li><li><b>Razão constante</b> (multiplica): 2, 6, 18, 54 (vezes 3).</li><li><b>Quadrados e cubos</b>: 1, 4, 9, 16, 25; 1, 8, 27, 64.</li><li><b>Diferenças que crescem</b>: 1, 2, 4, 7, 11 (somas 1, 2, 3, 4).</li><li><b>Duas sequências intercaladas</b>: posições ímpares e pares separadas.</li><li><b>Alfabéticas</b>: numere as letras (A=1... Z=26) e trate como números.</li></ol>
+<div class="pk"><b>Como a banca erra a gente:</b> dar conclusão "intuitivamente certa" a uma forma falaciosa · pular o teste da diferença e da razão e achar um padrão mais complicado.</div>
+</section>
+
+<section class="pg" id="conj"><h2>5. Conjuntos</h2>
+<div class="fm"><b>A conta:</b> |A ∪ B| = |A| + |B| − |A ∩ B|. Só A = |A| − |A ∩ B|. Só B = |B| − |A ∩ B|. Quem está fora de ambos = total − |A ∪ B|.</div>
+<ul><li><b>União</b>: pelo menos um ("A ou B"). <b>Interseção</b>: os dois ("A e B"). <b>Diferença</b>: A sem B.</li>
+<li><b>Comece sempre pela interseção</b> no diagrama; depois subtraia dela.</li>
+<li>"<b>Apenas</b> A" é diferente de "A": "A" inclui quem também está em B.</li>
+<li>Com três conjuntos: |A∪B∪C| = |A|+|B|+|C| − |A∩B| − |A∩C| − |B∩C| + |A∩B∩C|.</li></ul>
+<div class="pk"><b>Como a banca erra a gente:</b> somar |A| + |B| sem tirar a interseção · confundir "só A" com "A" · esquecer quem não está em nenhum conjunto.</div>
+</section>
+
+<section class="pg" id="mat"><h2>6. Porcentagem, razão, regra de três e média</h2>
+<ul>
+<li><b>Porcentagem</b>: x% de N = N × x/100. Aumento de x%: multiplique por (1 + x/100). Desconto de x%: multiplique por (1 − x/100).</li>
+<li><b>Sucessivos se multiplicam</b>: +20% e depois −20% dá 1,20 × 0,80 = 0,96, ou seja, −4%.</li>
+<li><b>Pontos percentuais</b>: de 20% para 25% subiu <b>5 pontos percentuais</b> e <b>25%</b> em termos relativos.</li>
+<li><b>Razão</b>: a/b. <b>Proporção</b>: igualdade de razões. Dividir um total na razão 3:5 = partes 3 e 5 de 8.</li>
+<li><b>Regra de três simples</b>: <b>direta</b> (as duas crescem juntas): multiplica em cruz. <b>Inversa</b> (uma sobe, a outra desce, como operários e dias): produto constante.</li>
+<li><b>Regra de três composta</b>: compare cada grandeza com a incógnita, diga se é direta ou inversa e multiplique as razões.</li>
+<li><b>Média aritmética</b>: soma ÷ quantidade. <b>Ponderada</b>: soma de (valor × peso) ÷ soma dos pesos.</li></ul>
+<div class="mem">+20% depois −20% = −4% · operários × dias = inversa · pontos percentuais ≠ percentual</div>
+<div class="pk"><b>Como a banca erra a gente:</b> somar percentuais sucessivos · confundir pontos percentuais com percentual · tratar operários e dias como diretas · calcular média simples quando pede ponderada.</div>
+</section>
+
+<section class="pg" id="uni"><h2>7. Unidades, geometria e dados de obra</h2>
+<h3>Conversões que mais pegam</h3>
+<table><tr><th>De</th><th>Para</th><th>Como</th></tr>
+<tr><td class="k">1 m³</td><td>litros</td><td>× 1.000</td></tr>
+<tr><td class="k">1 ha</td><td>m²</td><td>× 10.000</td></tr>
+<tr><td class="k">1 m²</td><td>cm²</td><td>× 10.000 (o fator ao quadrado)</td></tr>
+<tr><td class="k">km/h</td><td>m/s</td><td>÷ 3,6 (e m/s para km/h × 3,6)</td></tr>
+<tr><td class="k">1 hora</td><td>segundos</td><td>3.600</td></tr>
+<tr><td class="k">1 tonelada</td><td>kg</td><td>1.000</td></tr></table>
+<h3>Geometria</h3>
+<table><tr><th>Figura</th><th>Perímetro / área / volume</th></tr>
+<tr><td class="k">Retângulo</td><td>2(a+b) · a × b</td></tr>
+<tr><td class="k">Triângulo</td><td>base × altura ÷ 2</td></tr>
+<tr><td class="k">Trapézio</td><td>(B + b) × h ÷ 2</td></tr>
+<tr><td class="k">Círculo</td><td>2πr · πr²</td></tr>
+<tr><td class="k">Paralelepípedo</td><td>V = comprimento × largura × altura</td></tr>
+<tr><td class="k">Cilindro</td><td>V = πr² × altura</td></tr></table>
+<h3>Escala, declividade, vazão, consumo</h3>
+<ul>
+<li><b>Escala 1:N</b>: 1 cm no desenho = N cm na realidade. 1:100 → 5 cm vira 5 m. Na <b>área</b>, o fator é N² (1 cm² em 1:100 = 1 m²).</li>
+<li><b>Declividade</b> i(%) = desnível ÷ distância horizontal × 100. 3 m em 60 m = 5%. A declividade em % não é o ângulo em graus.</li>
+<li><b>Vazão</b> Q = volume ÷ tempo. Volume = Q × tempo (cuidado com L/s, minutos e m³).</li>
+<li><b>Consumo de material</b> = área × espessura (ou quantidade por m² × área). <b>Produtividade</b>: quantidade por dia por trabalhador; dias = quantidade ÷ (produtividade × trabalhadores).</li>
+<li><b>Custo</b> = quantidade × custo unitário; some as composições.</li></ul>
+<div class="pk"><b>Como a banca erra a gente:</b> converter m² para cm² multiplicando só por 100 · trocar horas por minutos na vazão · aplicar a escala linear na área · tratar declividade % como graus · esquecer a espessura em metros (3 cm = 0,03 m).</div>
+</section>
+
+<section class="pg" id="dados"><h2>8. Leitura de tabelas, gráficos, plantas e planilhas</h2>
+<ol><li><b>Título e unidade</b>: o que o dado mede e em qual unidade (m, m², R$, mil R$).</li>
+<li><b>Eixo e origem</b>: se o eixo vertical não começa em zero, as diferenças parecem maiores do que são.</li>
+<li><b>Escala</b>: em plantas e croquis, ache a escala antes de medir.</li>
+<li><b>Variação percentual</b> = (valor final − valor inicial) ÷ valor inicial × 100. A base é sempre o valor inicial.</li>
+<li><b>Compare o que é comparável</b>: mesmo período, mesma unidade.</li>
+<li><b>Perfis e cortes</b>: leia cotas (níveis) e calcule diferenças de nível.</li></ol>
+<div class="pk"><b>Como a banca erra a gente:</b> usar o valor final como base da variação · ignorar "em mil" na unidade · concluir pela aparência do gráfico sem olhar o eixo · misturar unidades dentro da tabela.</div>
+</section>
+
+<section class="pg" id="sim"><h2>9. Simuladores</h2>
+<div class="av">Servem para treinar a regra com seus números. Hipóteses de cada conta estão escritas ao lado do resultado.</div>
+<h3>Tabela-verdade</h3>
+<div class="row"><div><label>Conectivo</label><select class="inp" id="cn"><option value="and">p E q</option><option value="or">p OU q (inclusivo)</option><option value="xor">ou p ou q (exclusivo)</option><option value="imp">se p então q</option><option value="bic">p se e somente se q</option></select></div></div>
+<button class="btn" onclick="tv()">Montar</button><div id="tvo"></div>
+<h3>Conjuntos</h3>
+<div class="row"><div><label>|A|</label><input class="inp" id="ca" type="number" value="40"></div><div><label>|B|</label><input class="inp" id="cb" type="number" value="30"></div><div><label>|A ∩ B|</label><input class="inp" id="ci" type="number" value="15"></div></div>
+<button class="btn" onclick="cj()">Calcular</button><div id="cjo"></div>
+<h3>Regra de três</h3>
+<div class="row"><div><label>Grandeza 1 (ex.: operários)</label><input class="inp" id="ra" type="number" value="4"></div><div><label>Valor correspondente (ex.: dias)</label><input class="inp" id="rb" type="number" value="12"></div><div><label>Nova grandeza 1</label><input class="inp" id="rc" type="number" value="6"></div><div><label>Tipo</label><select class="inp" id="rt"><option value="i">Inversa</option><option value="d">Direta</option></select></div></div>
+<button class="btn" onclick="r3()">Calcular</button><div id="r3o"></div>
+<h3>Percentuais sucessivos</h3>
+<div class="row"><div><label>Valor inicial (R$)</label><input class="inp" id="pv" type="number" value="1000"></div><div><label>1ª variação (%)</label><input class="inp" id="p1" type="number" value="20"></div><div><label>2ª variação (%)</label><input class="inp" id="p2" type="number" value="-20"></div></div>
+<button class="btn" onclick="ps()">Calcular</button><div id="pso"></div>
+<h3>Declividade, escala e vazão</h3>
+<div class="row"><div><label>Desnível (m)</label><input class="inp" id="dh" type="number" value="3"></div><div><label>Distância horizontal (m)</label><input class="inp" id="dl" type="number" value="60"></div><div><label>Escala (1:N)</label><input class="inp" id="es" type="number" value="100"></div><div><label>Medida no desenho (cm)</label><input class="inp" id="cm" type="number" value="5"></div><div><label>Vazão (L/s)</label><input class="inp" id="qv" type="number" value="12"></div><div><label>Tempo (min)</label><input class="inp" id="qm" type="number" value="10"></div></div>
+<button class="btn" onclick="tc()">Calcular</button><div id="tco"></div>
+</section>
+
+<section class="pg" id="esq"><h2>10. Esquema: nomes que a banca confunde</h2>
+<table><tr><th>Par</th><th>Diferença</th></tr>
+<tr><td class="k">Contrária × contraditória</td><td>"Todo A é B": contrária "nenhum A é B" (podem ser as duas falsas); contraditória "algum A não é B" (uma é sempre V e a outra F).</td></tr>
+<tr><td class="k">Recíproca × inversa × contrapositiva</td><td>De "p → q": recíproca "q → p"; inversa "¬p → ¬q"; contrapositiva "¬q → ¬p" (só esta é equivalente).</td></tr>
+<tr><td class="k">"ou" inclusivo × exclusivo</td><td>Inclusivo é F só com as duas F. Exclusivo é F quando iguais.</td></tr>
+<tr><td class="k">Percentual × pontos percentuais</td><td>20% → 25%: 5 pontos percentuais, 25% relativo.</td></tr>
+<tr><td class="k">Direta × inversa</td><td>Operários e dias: inversa. Material e área: direta.</td></tr>
+<tr><td class="k">Escala linear × área</td><td>Linear: × N. Área: × N².</td></tr>
+<tr><td class="k">Declividade × ângulo</td><td>% = tangente × 100, não graus.</td></tr></table>
+<h3>Quatro perguntas para a prova</h3>
+<ol><li><b>É lógica ou conta?</b> Se tem "todo", "algum", "se...então", é lógica.</li><li><b>Qual conectivo?</b> Aplique a regra do V/F de cada um.</li><li><b>Quais unidades?</b> Converta tudo para uma só antes de calcular.</li><li><b>A resposta faz sentido?</b> Percentual não passa de 100% em desconto, área ao quadrado, tempo positivo.</li></ol>
+</section>
+
+<section class="pg" id="treino"><h2>11. Treino (35 questões)</h2><div id="qzs"></div><div class="bz" id="sc"></div></section>
+
+<section class="pg" id="nunca"><h2>12. Para não errar mais: uma folha</h2>
+<div class="fm"><b>Lógica</b>: condicional só F em V→F · ¬(p∧q)=¬p∨¬q · ¬(p→q)=p∧¬q · contrapositiva equivale · recíproca e inversa não · negação de "todo" = "algum não" · negação de "algum" = "nenhum" · linhas = 2ⁿ.</div>
+<div class="fm"><b>Argumentos</b>: modus ponens e tollens valem · afirmar o consequente e negar o antecedente não valem.</div>
+<div class="fm"><b>Conjuntos</b>: |A∪B| = |A|+|B|−|A∩B| · comece pela interseção.</div>
+<div class="fm"><b>Matemática</b>: sucessivos multiplicam (+20% −20% = −4%) · pontos percentuais ≠ percentual · operários × dias inversa · média ponderada = Σ(valor×peso) ÷ Σpesos.</div>
+<div class="fm"><b>Unidades</b>: 1 m³ = 1.000 L · 1 ha = 10.000 m² · km/h ÷ 3,6 = m/s · escala na área ao quadrado · declividade % = Δh ÷ L × 100 · vazão × tempo = volume · 3 cm = 0,03 m.</div>
+<div class="pk"><b>Armadilhas que mais se repetem</b>: contrária no lugar de contraditória · somar percentuais · esquecer a espessura em metros · converter unidade pela metade (área e volume) · trocar min por s na vazão.</div>
+<div class="av">Lembrete: este guia é baseado no conteúdo do edital e em matemática padrão, não em prova anterior do IBAM. Use o treino para soltar a mão, não como previsão do estilo da banca.</div></section>
+</div>
+<script>
+const Q=[{"q": "A negação de 'João é engenheiro e Maria é arquiteta' é:", "o": ["João não é engenheiro e Maria não é arquiteta", "João não é engenheiro ou Maria não é arquiteta", "João é engenheiro ou Maria é arquiteta", "Se João é engenheiro, Maria não é arquiteta"], "a": 1, "e": "Lei de De Morgan: ¬(p ∧ q) = ¬p ∨ ¬q. Nega cada parte e troca E por OU."}, {"q": "A negação de 'Se chove, então a obra para' é:", "o": ["Se não chove, a obra não para", "Chove e a obra não para", "Não chove e a obra para", "Se a obra não para, não chove"], "a": 1, "e": "¬(p → q) = p ∧ ¬q. Mantém a primeira, troca o 'se...então' por 'e' e nega a segunda."}, {"q": "É equivalente a 'Se p, então q':", "o": ["Se q, então p", "Se não p, então não q", "Se não q, então não p", "p e q"], "a": 2, "e": "A contrapositiva: p → q ≡ ¬q → ¬p (e também ≡ ¬p ∨ q). A recíproca (q → p) e a inversa (¬p → ¬q) NÃO são equivalentes."}, {"q": "A condicional 'p → q' é falsa somente quando:", "o": ["p é falso e q é verdadeiro", "p e q são falsos", "p é verdadeiro e q é falso", "p e q são verdadeiros"], "a": 2, "e": "V → F é o único caso falso. Falso → qualquer coisa é verdadeiro."}, {"q": "A negação de 'Todos os fiscais estão presentes' é:", "o": ["Nenhum fiscal está presente", "Pelo menos um fiscal não está presente", "Todos os fiscais estão ausentes", "Alguns fiscais estão presentes"], "a": 1, "e": "¬(Todo A é B) = Algum A não é B. A 'nenhum' é a contrária, não a negação (contraditória)."}, {"q": "A negação de 'Algum engenheiro é distraído' é:", "o": ["Algum engenheiro não é distraído", "Todo engenheiro é distraído", "Nenhum engenheiro é distraído", "Todo engenheiro não é distraído"], "a": 2, "e": "¬(Algum A é B) = Nenhum A é B (que é o mesmo que 'todo A não é B')."}, {"q": "A disjunção inclusiva 'p ou q' é falsa quando:", "o": ["só p é falso", "só q é falso", "p e q são falsos", "p e q são verdadeiros"], "a": 2, "e": "O 'ou' inclusivo só é falso se as duas forem falsas. Já 'ou p ou q' (exclusivo) é falso quando as duas têm o mesmo valor."}, {"q": "'p ↔ q' (bicondicional) é verdadeira quando:", "o": ["p e q têm o mesmo valor lógico", "p é verdadeiro", "q é verdadeiro", "p e q são diferentes"], "a": 0, "e": "Verdadeira quando ambos V ou ambos F; falsa quando diferentes."}, {"q": "Qual argumento é INVÁLIDO?", "o": ["Se A então B; A; logo B", "Se A então B; não B; logo não A", "Se A então B; B; logo A", "Todo A é B; x é A; logo x é B"], "a": 2, "e": "'Afirmar o consequente' é falácia. Os outros são modus ponens, modus tollens e silogismo válido."}, {"q": "Uma tabela-verdade com 3 proposições simples tem quantas linhas?", "o": ["6", "8", "9", "12"], "a": 1, "e": "2³ = 8 linhas."}, {"q": "Na sequência 2, 6, 18, 54, o próximo termo é:", "o": ["108", "144", "162", "216"], "a": 2, "e": "Multiplica por 3 a cada passo: 54 × 3 = 162."}, {"q": "Na sequência 1, 4, 9, 16, 25, o próximo termo é:", "o": ["30", "32", "36", "49"], "a": 2, "e": "Quadrados perfeitos: 6² = 36."}, {"q": "Em um grupo, 40 pessoas leem A, 30 leem B e 15 leem as duas. Quantas leem pelo menos uma?", "o": ["70", "55", "85", "45"], "a": 1, "e": "|A ∪ B| = 40 + 30 − 15 = 55."}, {"q": "Entre 100 pessoas, 60 usam o produto X e 50 usam Y; todas usam pelo menos um. Quantas usam os dois?", "o": ["0", "10", "20", "30"], "a": 1, "e": "100 = 60 + 50 − x, logo x = 10."}, {"q": "20% de 350 é:", "o": ["60", "65", "70", "75"], "a": 2, "e": "350 × 0,20 = 70."}, {"q": "Um valor sobe 20% e depois cai 20%. O resultado final é:", "o": ["igual ao inicial", "4% menor", "4% maior", "2% menor"], "a": 1, "e": "1,20 × 0,80 = 0,96, ou seja, 4% menor. Percentuais sucessivos se multiplicam, não se somam."}, {"q": "Um item de R$ 250,00 com desconto de 12% custa:", "o": ["R$ 210,00", "R$ 220,00", "R$ 230,00", "R$ 238,00"], "a": 1, "e": "250 × 0,88 = 220."}, {"q": "A razão entre engenheiros e técnicos é 3 para 5, e há 40 pessoas no total. Quantos são os engenheiros?", "o": ["12", "15", "20", "24"], "a": 1, "e": "Partes: 3 + 5 = 8; 40 ÷ 8 = 5; engenheiros = 3 × 5 = 15."}, {"q": "4 operários fazem uma obra em 12 dias. Quantos dias levam 6 operários (mesmo ritmo)?", "o": ["6", "8", "9", "18"], "a": 1, "e": "Grandezas inversas: 4 × 12 = 6 × x, logo x = 8."}, {"q": "3 pedreiros assentam 60 m² de piso em 5 dias. Quantos m² assentam 6 pedreiros em 10 dias?", "o": ["120", "180", "240", "300"], "a": 2, "e": "Regra de três composta, ambas diretas: 60 × (6/3) × (10/5) = 240."}, {"q": "A média ponderada de 6 (peso 3) e 8 (peso 2) é:", "o": ["7,0", "6,8", "6,5", "7,2"], "a": 1, "e": "(6×3 + 8×2) ÷ 5 = 34 ÷ 5 = 6,8."}, {"q": "A média aritmética de 10, 12, 14 e 16 é:", "o": ["12", "13", "14", "15"], "a": 1, "e": "52 ÷ 4 = 13."}, {"q": "2,5 hectares equivalem a quantos m²?", "o": ["250", "2.500", "25.000", "250.000"], "a": 2, "e": "1 ha = 10.000 m², logo 2,5 ha = 25.000 m²."}, {"q": "3 m³ equivalem a quantos litros?", "o": ["30", "300", "3.000", "30.000"], "a": 2, "e": "1 m³ = 1.000 L."}, {"q": "72 km/h correspondem a quantos m/s?", "o": ["10", "15", "20", "25"], "a": 2, "e": "Divide por 3,6: 72 ÷ 3,6 = 20."}, {"q": "A área de um trapézio de bases 6 m e 4 m e altura 3 m é:", "o": ["12 m²", "15 m²", "18 m²", "30 m²"], "a": 1, "e": "(B + b) × h ÷ 2 = 10 × 3 ÷ 2 = 15."}, {"q": "O volume de uma laje de 5 m × 4 m com espessura de 0,20 m é:", "o": ["0,4 m³", "4 m³", "40 m³", "2 m³"], "a": 1, "e": "5 × 4 × 0,20 = 4 m³."}, {"q": "Numa planta em escala 1:100, um retângulo mede 8 cm × 5 cm. A área real é:", "o": ["40 m²", "4 m²", "400 m²", "0,4 m²"], "a": 0, "e": "8 cm × 100 = 8 m e 5 cm × 100 = 5 m; área 40 m². Na área, a escala vale ao quadrado, mas você só precisa converter os lados."}, {"q": "Um trecho tem desnível de 3 m em 60 m de distância horizontal. A declividade é:", "o": ["3%", "5%", "6%", "20%"], "a": 1, "e": "i = Δh ÷ L × 100 = 3 ÷ 60 × 100 = 5%."}, {"q": "Uma vazão de 12 L/s durante 10 minutos entrega:", "o": ["120 L", "1.200 L", "7.200 L", "72.000 L"], "a": 2, "e": "10 min = 600 s; 12 × 600 = 7.200 L = 7,2 m³."}, {"q": "Uma taxa sobe de 20% para 25%. É correto afirmar que:", "o": ["subiu 5%", "subiu 5 pontos percentuais e 25% em termos relativos", "subiu 25 pontos percentuais", "não houve aumento"], "a": 1, "e": "A diferença é de 5 pontos percentuais; em termos relativos, 5 ÷ 20 = 25%."}, {"q": "Um pedreiro assenta 8 m²/dia. Quantos dias levam 3 pedreiros para 72 m²?", "o": ["2 dias", "3 dias", "4 dias", "9 dias"], "a": 1, "e": "Produção diária: 3 × 8 = 24 m²/dia; 72 ÷ 24 = 3 dias."}, {"q": "Aplicar argamassa de 3 cm de espessura em 120 m² exige quantos m³?", "o": ["0,36", "3,6", "36", "360"], "a": 1, "e": "3 cm = 0,03 m; 120 × 0,03 = 3,6 m³."}, {"q": "Num gráfico de barras cujo eixo vertical começa em 90 (e não em 0), a leitura correta é:", "o": ["as barras são proporcionais aos valores", "as diferenças parecem maiores do que são; leia os valores", "o gráfico está sempre errado", "o eixo não importa"], "a": 1, "e": "Eixo truncado exagera visualmente as diferenças. Sempre leia unidade, origem do eixo e escala."}, {"q": "A contraditória (negação) de 'Todo A é B' é:", "o": ["Nenhum A é B", "Algum A não é B", "Todo A não é B", "Algum A é B"], "a": 1, "e": "Todo A é B ↔ Algum A não é B. 'Nenhum A é B' é a contrária, que também pode ser falsa junto."}];
+const VF=v=>v?"V":"F";
+function tv(){const k=document.getElementById("cn").value;const f={and:(p,q)=>p&&q,or:(p,q)=>p||q,xor:(p,q)=>p!=q,imp:(p,q)=>!p||q,bic:(p,q)=>p==q}[k];
+ let r='<table><tr><th>p</th><th>q</th><th>resultado</th></tr>';[[1,1],[1,0],[0,1],[0,0]].forEach(a=>{const v=f(!!a[0],!!a[1]);r+='<tr><td>'+VF(a[0])+'</td><td>'+VF(a[1])+'</td><td class="k">'+VF(v)+'</td></tr>'});
+ const m={and:"E (conjunção): só V quando as duas são V.",or:"OU inclusivo: só F quando as duas são F.",xor:"OU exclusivo: V quando diferentes.",imp:"Condicional: só F em V → F.",bic:"Bicondicional: V quando iguais."}[k];
+ document.getElementById("tvo").innerHTML=r+'</table><div class="fm">'+m+'</div>'}
+function cj(){const a=+document.getElementById("ca").value,b=+document.getElementById("cb").value,i=+document.getElementById("ci").value,t=a+b-i;
+ let m='';if(i>a||i>b)m='<div class="pk">A interseção não pode passar de A nem de B.</div>';
+ document.getElementById("cjo").innerHTML='<table><tr><th>Região</th><th>Quantidade</th></tr><tr><td class="k">Só A</td><td>'+(a-i)+'</td></tr><tr><td class="k">Só B</td><td>'+(b-i)+'</td></tr><tr><td class="k">A e B</td><td>'+i+'</td></tr><tr><td class="k">A ∪ B (pelo menos um)</td><td>'+t+'</td></tr></table>'+m}
+function r3(){const a=+document.getElementById("ra").value,b=+document.getElementById("rb").value,c=+document.getElementById("rc").value,t=document.getElementById("rt").value;
+ const x=t=="d"?b*c/a:a*b/c;
+ document.getElementById("r3o").innerHTML='<div class="bz">'+(t=="d"?'Direta: '+a+' → '+b+'; '+c+' → <b>'+x.toFixed(2).replace(".",",")+'</b>':'Inversa: '+a+' → '+b+'; '+c+' → <b>'+x.toFixed(2).replace(".",",")+'</b> (produto constante: '+a+' × '+b+' = '+c+' × x)')+'</div>'}
+function ps(){const v=+document.getElementById("pv").value,p1=+document.getElementById("p1").value,p2=+document.getElementById("p2").value;
+ const f=(1+p1/100)*(1+p2/100),fin=v*f,tot=(f-1)*100;
+ document.getElementById("pso").innerHTML='<table><tr><th>Item</th><th>Valor</th></tr><tr><td class="k">Fator acumulado</td><td>'+f.toFixed(4).replace(".",",")+'</td></tr><tr><td class="k">Valor final</td><td>'+fin.toLocaleString("pt-BR",{style:"currency",currency:"BRL"})+'</td></tr><tr><td class="k">Variação total</td><td>'+tot.toFixed(2).replace(".",",")+'%</td></tr></table><div class="av">Use valores negativos para desconto (ex.: -20). Variações sucessivas se multiplicam; somar dá resposta errada.</div>'}
+function tc(){const dh=+document.getElementById("dh").value,L=+document.getElementById("dl").value,sc=+document.getElementById("es").value,cm=+document.getElementById("cm").value,q=+document.getElementById("qv").value,mn=+document.getElementById("qm").value;
+ const i=L>0?dh/L*100:0,ang=Math.atan(dh/L)*180/Math.PI,real=cm*sc/100,vol=q*mn*60;
+ document.getElementById("tco").innerHTML='<table><tr><th>Cálculo</th><th>Resultado</th></tr><tr><td class="k">Declividade (Δh ÷ L × 100)</td><td>'+i.toFixed(2).replace(".",",")+'% (≈ '+ang.toFixed(2).replace(".",",")+'°)</td></tr><tr><td class="k">Medida real pela escala</td><td>'+cm+' cm em 1:'+sc+' = '+real.toLocaleString("pt-BR")+' m</td></tr><tr><td class="k">Volume pela vazão</td><td>'+vol.toLocaleString("pt-BR")+' L = '+(vol/1000).toLocaleString("pt-BR")+' m³</td></tr></table><div class="av">Hipótese: declividade em trecho com L horizontal; vazão constante em L/s e tempo em minutos.</div>'}
+let pts=0,done=0;
+Q.forEach((x,i)=>{const d=document.createElement("div");d.className="qz";const sh=((x.a-(i%4))%4+4)%4;const o=x.o.map((t,j)=>({t,j}));const rot=o.slice(sh).concat(o.slice(0,sh));
+ d.innerHTML='<b>'+(i+1)+'. '+x.q+'</b><br>'+rot.map((r,k)=>'<button class="opt" data-j="'+r.j+'">'+"ABCD"[k]+') '+r.t+'</button>').join("")+'<div class="ex">'+x.e+'</div>';
+ d.querySelectorAll(".opt").forEach(b=>b.onclick=()=>{if(d.dataset.d)return;d.dataset.d=1;done++;const j=+b.dataset.j;if(j==x.a){pts++;b.classList.add("ok")}else{b.classList.add("no");d.querySelectorAll(".opt").forEach(e=>{if(+e.dataset.j==x.a)e.classList.add("ok")})}
+  d.querySelector(".ex").style.display="block";document.getElementById("sc").innerHTML="Acertos: <b>"+pts+"</b> de "+done+" respondidas (total "+Q.length+")"});
+ document.getElementById("qzs").appendChild(d)});
+document.getElementById("sc").innerHTML="Acertos: 0 de 0 respondidas (total "+Q.length+")";
+tv();cj();r3();ps();tc();
+</script></body></html>
