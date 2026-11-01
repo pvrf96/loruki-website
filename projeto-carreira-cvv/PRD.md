@@ -1,4 +1,4 @@
-# PRD — Carreira em CVV pelo mundo (rascunho v0)
+# PRD — Radar CVV: carreira em CVV pelo mundo (v1)
 
 ## Problema
 O residente de Cirurgia Cardiovascular já tem material de prova (a comunidade cobre isso).
@@ -10,7 +10,8 @@ e como a especialidade é praticada em cada país.
 - Recém-especialistas que querem subespecializar (aorta, transplante, congênitas, mitral/minimamente invasiva, TAVI/estrutural, ECMO)
 
 ## O que o produto faz
-1. **Buscador de fellow** — filtra por país, área, idioma, duração, bolsa (sim/não), exige prova (USMLE, IELTS, Goethe...), prazo de inscrição.
+1. **Radar de fellowships** (tela principal, ver DESIGN.md) — mapa mundial de pontos + lista ranqueada por encaixe;
+   **buscador** — filtra por país, área, idioma, duração, bolsa (sim/não), exige prova (USMLE, IELTS, Goethe...), prazo de inscrição.
 2. **Ficha do país** — como chegar (validação do diploma, licença, idioma, visto), custo de vida x bolsa, e **como se pratica ali**
    (diferenças de diretriz e de prática em relação ao Brasil, sempre com fonte).
 3. **Comparador** — 2 ou 3 países lado a lado.

@@ -13,6 +13,9 @@
 - [ ] Revisão humana (esposa) de tudo
 
 ## Fase 2 — site
+- [ ] Protótipo do Radar com 10 pontos de exemplo (marcados como exemplo) para aprovar o visual
+- [ ] Modo Mundo e modo Galáxia
+- [ ] Lista de oportunidades com Encaixe
 - [ ] Lista filtrável
 - [ ] Ficha do fellow
 - [ ] Ficha do país
