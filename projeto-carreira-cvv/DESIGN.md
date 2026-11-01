@@ -71,3 +71,36 @@ data da verificação, e atalho "ver país" (como chegar + como se pratica).
 - Logos de hospitais/sociedades sem permissão
 - Imagens de atlas comercial
 - Qualquer elemento copiado da ferramenta de referência (nome, ícones, textos)
+
+## Efeitos (o radar é vivo, nada estático)
+Todos os efeitos são escritos por nós; a referência é só a sensação.
+
+| Efeito | Como funciona | Tecnologia |
+|---|---|---|
+| **Varredura giratória** | Feixe que gira 360° em loop (~6 s/volta) com rastro em degradê que some atrás dele | WebGL: shader de gradiente cônico (ângulo do pixel vs ângulo do feixe) |
+| **Ping ao ser varrido** | Quando o feixe passa por um ponto, ele acende forte e apaga devagar (como radar real) | Cada ponto guarda o "ângulo"; brilho = função da distância angular ao feixe |
+| **Pulso das inscrições abertas** | Anel que expande e desaparece em volta do ponto, repetindo | Shader por ponto (raio e opacidade em função do tempo) |
+| **Brilho (glow/bloom)** | Pontos e feixe "vazam luz" como neon | Pós-processamento bloom (three.js + pmndrs/postprocessing) ou mistura aditiva |
+| **Cintilar de fundo** | Campo de estrelas muito sutil, cada uma piscando em ritmo próprio | Partículas com fase aleatória |
+| **Grade do radar** | Círculos concêntricos e linhas de grau que respiram levemente | Linhas com opacidade oscilando |
+| **Busca "varrendo"** | Ao buscar, o feixe acelera, os resultados acendem em sequência e o resto apaga | Animação de estado (GSAP para a interface) |
+| **Zoom e transição Mundo ⇄ Galáxia** | Pontos voam suavemente da posição geográfica para a constelação | Interpolação de posição na GPU |
+| **Hover/toque** | Ponto cresce, ganha anel e rótulo; linhas finas ligam a outros do mesmo país/área | Raycast + linhas com brilho |
+| **Contador** | Números do topo sobem rolando ao carregar | GSAP |
+
+### Bibliotecas candidatas (conferido no GitHub em 01/11/2026)
+| Biblioteca | ⭐ | Licença | Uso |
+|---|---|---|---|
+| three.js | 117 mil | MIT | Cena WebGL, pontos, shaders |
+| pmndrs/postprocessing | 2,9 mil | Zlib | Bloom/brilho de qualidade |
+| PixiJS + pixi filters | 48,6 mil / 1,1 mil | MIT | Alternativa 2D mais leve com glow |
+| deck.gl | 14,7 mil | MIT | Alternativa se o mapa geográfico crescer muito |
+| d3-geo | 1,1 mil | ISC | Projeção do mapa-múndi |
+| GSAP | 30 mil | licença própria (gratuita) | Animações da interface |
+
+Decisão proposta: **three.js + postprocessing** (radar e pontos) + **GSAP** (interface). Um único canvas, 60 fps.
+
+### Desempenho e acessibilidade
+- Celular: bloom em meia resolução, menos estrelas; mira 60 fps, aceita 30
+- "Reduzir movimento" do sistema: feixe para, pulsos viram brilho fixo
+- Sem WebGL: cai para versão canvas 2D simples
