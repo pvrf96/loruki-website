@@ -309,7 +309,7 @@ function openFicha(id,fly){const p=P[id];state.sel=id;const f=fit(p);
  '<dt>Requisitos</dt><dd>'+esc(p.requisitos)+'</dd><dt>Volume</dt><dd>'+esc(p.volume==='nao_confirmado'?'não publicado':p.volume)+'</dd></dl>'+
  dossie(p)+'<div class="fit"><div style="font-size:12px;color:var(--muted)">Chance estimada para o seu perfil</div><b>'+f.s.toFixed(1)+'/10</b><ul>'+f.why.map(w=>'<li>'+esc(w)+'</li>').join('')+'</ul></div>'+
  '<div class="src"><div class="lbl">Evidências por área ('+p.fontes.length+')</div>'+p.fontes.map(s=>'<div class="srci"><b>'+s.areas.map(tn).join(' · ')+'</b><span>'+esc(s.evid)+'</span>'+(s.volume&&!/^nao_/.test(s.volume)?'<span>Volume: '+esc(s.volume)+'</span>':'')+link(s.url,'fonte')+'</div>').join('')+'</div>'+
- '<p class="note">Dados de fontes públicas conferidos por agentes verificadores em 01/11/2026. Falta revisão humana: confirme na página oficial antes de enviar o e-mail.</p>');
+ '<p class="note">Dados de fontes públicas.</p>');
  if(fly&&window.__fly)window.__fly(id)}
 function cz(c){if(!c)return '';const ok=/^confirm/i.test(c);return '<span class="cz'+(ok?' ok':'')+'">'+(ok?'confirmado':'provável')+'</span>'}
 function dossie(p){const d=p.dossie;if(!d)return '';const L=(t,a)=>a?'<div><div class="lbl">'+t+'</div>'+a+'</div>':'';const has=a=>a&&a.length;
