@@ -13,8 +13,10 @@ if D:
         n=dict(D['novo_polo']);n['dossie']=None;P.append(n);byn[n['name']]=n
     for d in D.get('polos',[]):
         k=d['match'] if d['match']!='NOVO' else D['novo_polo']['name']
-        if k not in byn: print('SEM MATCH',k);continue
-        byn[k]['dossie']={x:d.get(x) for x in d if x!='match'}
+        cands=[p for p in P if p['name']==k]
+        if not cands: print('SEM MATCH',k);continue
+        free=[p for p in cands if not p.get('dossie')]
+        (free[0] if free else cands[-1])['dossie']={x:d.get(x) for x in d if x!='match'}
 s=s.replace('__POLOS__',json.dumps(P,ensure_ascii=False)).replace('__LAND__',open('land2.json').read())
 s=s.replace('__DOSSIE__',json.dumps({k:D.get(k) for k in ['atualizado','pontes_brasil','pontes_unifesp']} if D else {},ensure_ascii=False))
 open('index.html','w').write(s)
