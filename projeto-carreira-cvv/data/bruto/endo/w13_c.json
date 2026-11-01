@@ -1,0 +1,141 @@
+[
+ {
+  "match": "OLVG",
+  "cidade": "Amsterdã, Países Baixos",
+  "areas": ["arritmia_cirurgica"],
+  "alerta_correcao": "O vínculo do radar vem de uma notícia de 2013 (AtriCure Maze IV): o OLVG aparece só como membro do 'European Educational Steering Committee' da AtriCure. Não há fonte atual de que o OLVG seja centro de treinamento Maze IV. Os cursos AtriCure em Amsterdã de 2023 aconteceram no escritório da AtriCure ('AtriCure Office – Amsterdam'), não no OLVG. Não confunda com a Amsterdam UMC (van Boven/Kluin; Bart van Putte com a técnica de Maze totalmente toracoscópico).",
+  "programa": {
+   "pagina_observership": "não encontrado",
+   "porta_alternativa": "Maze IV Program da AtriCure Europe: curso de 1 dia com Maze IV completo em cadáver. É voltado a cirurgiões que já fazem cirurgia cardíaca minimamente invasiva. Os cursos são da empresa, não do OLVG.",
+   "fonte": "https://europe.atricure.com/sites/default/files/pdf-doc/PE-EU-4530B-1226-G%20ProfEd%20Brochure%202026.pdf",
+   "trecho": "one-day program devoted to all aspects of the concomitant surgical treatment of AF ... perform a complete Maze IV on a cadaver",
+   "certeza": "confirmado (curso AtriCure); programa do OLVG não encontrado"
+  },
+  "servico": {
+   "nome": "Cardiothoracale Chirurgie (OLVG, locatie Oost)",
+   "fonte": "https://www.olvg.nl/media/atifvs2d/organogram-olvg-29-juli-2025_2.pdf",
+   "trecho": "o organograma de 29/07/2025 lista o departamento 'Cardiothoracale Chirurgie'",
+   "chefe": "não encontrado",
+   "volume": "não encontrado",
+   "certeza": "confirmado (departamento existe em 2025)"
+  },
+  "pessoas_chave": [
+   {"nome": "W. Stooker", "cargo": "cirurgião cardiotorácico, OLVG Oost", "por_que": "faz parte do staff; não há fonte sobre papel em ablação cirúrgica", "fonte": "https://www.zorgkaartnederland.nl/zorgverlener/cardiothoracaal-chirurg-stooker-w-129047", "certeza": "confirmado (listado no diretório)"},
+   {"nome": "V. G. Hindori", "cargo": "cirurgião cardiotorácico, OLVG", "por_que": "staff; postou sobre o simpósio dos 60 anos do departamento", "fonte": "https://www.zorgkaartnederland.nl/zorgverlener/cardiothoracaal-chirurg-hindori-v-g-315457", "certeza": "confirmado"},
+   {"nome": "A. Yazdanbakhsh", "cargo": "cirurgião cardiotorácico, OLVG", "por_que": "staff", "fonte": "https://www.zorgkaartnederland.nl/zorgverlener/cardiothoracaal-chirurg-yazdanbakhsh-a-278464", "certeza": "confirmado"},
+   {"nome": "P. Symersky", "cargo": "cirurgião cardiotorácico, OLVG", "por_que": "staff", "fonte": "https://www.zorgkaartnederland.nl/zorgverlener/cardiothoracaal-chirurg-symersky-p-286844", "certeza": "confirmado"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": "não encontrado: nenhum artigo do OLVG de 2022–2026 em ablação cirúrgica apareceu nas buscas. O survey holandês sobre FA pós-operatória (Neth Heart J 2024, PMID 38358408) é da Amsterdam UMC, não do OLVG.",
+  "dicas": "Diretórios mostram cirurgiões que atuam no OLVG Oost e também na Amsterdam UMC/AMC (sobreposição de staff). Para treinar Maze IV, o canal documentado é a AtriCure Europe.",
+  "rota_recomendada": "Prioridade baixa. Se insistir: (1) curso Maze IV/ablação concomitante da AtriCure Europe; (2) e-mail genérico ao departamento Cardiothoracale Chirurgie do OLVG perguntando se aceitam observer. Para Maze em Amsterdã, avaliar a Amsterdam UMC, que tem produção publicada."
+ },
+ {
+  "match": "Sana Herzchirurgie Stuttgart",
+  "cidade": "Stuttgart, Alemanha",
+  "areas": ["arritmia_cirurgica"],
+  "alerta_correcao": "(1) A fonte do radar é de 2013, quando a Sana foi um dos 6 hospitais europeus iniciais do Maze IV Training da AtriCure, sob Nicolas Doll. Não há fonte de que ainda seja centro de treinamento. (2) O Klinikum Stuttgart (municipal) comprou a Sana Herzchirurgie Stuttgart, com aprovação do Bundeskartellamt. Hoje ela aparece como Herzzentrum/Klinik für Herzchirurgie do Klinikum Stuttgart, Herdweg 2. (3) Em 2026 o Ärztlicher Direktor/Chefarzt de Herzchirurgie listado é o Prof. Joerg Seeburger, não Doll. (4) Timo Weimar aparece no CTSNet como 'Sana Cardiac Surgery Stuttgart (2000-2008)', então hoje pode não estar lá.",
+  "programa": {
+   "pagina_observership": "não encontrado. Existem Hospitation e Famulatur em páginas de carreira (ex.: Sana Dresden; anúncio de Famulatur em Herzchirurgie no praktischarzt.de), mas sem regras para estrangeiros.",
+   "fonte": "https://www.menoldbezler.de/en/press/klinikum-stuttgart-takes-over-specialised-clinics-and-mvz-with-menold-bezler",
+   "trecho": "Klinikum Stuttgart takes over ... Sana Herzchirurgie Stuttgart (SHS)",
+   "certeza": "confirmado (aquisição); programa não encontrado"
+  },
+  "servico": {
+   "nome": "Herzchirurgie – Herzzentrum Klinikum Stuttgart (antiga Sana Herzchirurgie Stuttgart), Herdweg 2",
+   "chefe": "Prof. Dr. med. Joerg Seeburger, MBA – Ärztlicher Direktor und Chefarzt Herzchirurgie",
+   "fonte": "https://dkgev-en.deutsches-krankenhaus-verzeichnis.de/app/portrait/cb4c4c1f9702902b/department/1/start",
+   "trecho": "Prof. Dr. Joerg Seeburger MBA (Ärztlicher Direktor)",
+   "volume": "não encontrado. Há o dado de 66 leitos ('Hochleistungszentren für Herzchirurgie ... 66 Betten', praktischarzt.de).",
+   "certeza": "confirmado em anúncio de 2026 e no diretório DKG"
+  },
+  "pessoas_chave": [
+   {"nome": "Prof. Joerg Seeburger", "cargo": "Ärztlicher Direktor e Chefarzt Herzchirurgie, Klinikum Stuttgart", "por_que": "é quem decide sobre visitantes", "fonte": "https://aerztestellen.aerzteblatt.de/de/stellen/oberarzt/herzchirurgie/stuttgart/klinikum-stuttgart", "certeza": "confirmado"},
+   {"nome": "Prof. Nicolas (Kai-Nicolas) Doll", "cargo": "ex-Chefarzt/Ärztlicher Direktor da Sana Herzchirurgie Stuttgart; coordenador do CEASE-AF (com Hindricks)", "por_que": "referência histórica em ablação cirúrgica/híbrida; vínculo atual não confirmado", "fonte": "https://cardiacrhythmnews.com/atricure-launches-maze-iv-training-programme-in-europe", "certeza": "confirmado para 2013; vínculo atual incerto"},
+   {"nome": "Timo Weimar", "cargo": "cirurgião cardíaco, ex-Sana; ex-diretor médico internacional da AtriCure", "por_que": "autor da ablação endoscópica em coração batendo", "fonte": "https://www.ctsnet.org/print/home/tweimar", "certeza": "vínculo atual não confirmado"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {"titulo": "CEASE-AF (ablação híbrida vs. cateter; Sana foi centro e fez o primeiro procedimento)", "ano": "não confirmado nos resultados", "id": "não encontrado"},
+   {"titulo": "Approaching a paradigm shift: endoscopic ablation of lone atrial fibrillation on the beating heart (Weimar, Doll et al., Ann Thorac Surg 94:1886-1892)", "ano": 2012, "id": "não encontrado nos resultados", "obs": "fora da janela 2022–2026"},
+   {"titulo": "Chirurgische endoskopische Ablation des isolierten Vorhofflimmerns – 5-Jahres Ergebnisse (tese orientada por Doll)", "ano": 2020, "fonte": "https://core.ac.uk/download/334517886.pdf"}
+  ],
+  "dicas": "Na Alemanha a porta de entrada é a Hospitation, combinada com o secretariado do Chefarzt. Espere exigência de alemão ou inglês e de vacinas. Depois da integração ao Klinikum Stuttgart, os pedidos tendem a passar pela gestão do hospital municipal.",
+  "rota_recomendada": "(1) Confirmar com o Sekretariat Herzchirurgie do Klinikum Stuttgart se aceitam Hospitation de residente estrangeiro e quem hoje lidera a ablação cirúrgica/híbrida. (2) Mandar e-mail ao Prof. Seeburger citando o histórico do centro (Maze IV, CEASE-AF). (3) Alternativa: curso Maze IV da AtriCure Europe."
+ },
+ {
+  "match": "Boston Medical Center — BU Amyloidosis Center",
+  "cidade": "Boston, EUA",
+  "areas": ["miocardiopatias"],
+  "programa": {
+   "pagina_observership": "O site da Hematologia da BU tem o link 'Observership Requests' no menu, inclusive na página de amiloidose. O conteúdo (elegibilidade, taxa) não foi lido.",
+   "fonte": "https://www.bumc.bu.edu/hematology/amyloidosis",
+   "trecho": "menu: 'Observership Requests'",
+   "evidencia_visitantes": "'Each year, physicians and scientists visit the center to exchange ideas or undergo training in amyloidosis research.' (bu.edu/amyloid/about-us)",
+   "fellowship": "Research Fellowship in Cardiac Amyloidosis da BU/BMC (SCAN-MP), para investigadores clínicos em início de carreira: https://www.bumc.bu.edu/scan-mp/training/amyloid-research-fellowship",
+   "taxa_documentos": "não encontrado",
+   "certeza": "provável (o link existe; termos não verificados)"
+  },
+  "servico": {
+   "nome": "Amyloidosis Center (BU Chobanian & Avedisian SOM / Boston Medical Center); Amyloid Cardiomyopathy Program (Cardiovascular Medicine)",
+   "fonte_programa_cardio": "https://www.bumc.bu.edu/cardiovascular-medicine/areas-of-expertise/amyloid-cardiomyopathy-program",
+   "diretor": "Vaishali Sanchorawala, MD (hematologista) – Director, Amyloidosis Center; John L. Berk, MD – Assistant Director (página de pessoal, equipe 2023)",
+   "fonte": "https://www.bu.edu/amyloid/about-us/personnel",
+   "chefe_cardio": "Frederick L. Ruberg, MD – Chief, Section of Cardiovascular Medicine (BMC), membro do Amyloidosis Center",
+   "volume": "não encontrado",
+   "certeza": "confirmado"
+  },
+  "pessoas_chave": [
+   {"nome": "Frederick L. Ruberg, MD", "cargo": "Chief of Cardiovascular Medicine BMC; Ryan Professor; co-PI do SCAN-MP", "por_que": "líder da cardioamiloidose; é o melhor alvo para uma residente de cardiologia", "fonte": "https://www.bumc.bu.edu/busm/profile/frederick-ruberg", "certeza": "confirmado"},
+   {"nome": "Vaishali Sanchorawala, MD", "cargo": "Director, Amyloidosis Center", "por_que": "dirige o centro", "fonte": "https://www.bmc.org/about-us/directory/doctor/vaishali-sanchorawala-md", "certeza": "confirmado"},
+   {"nome": "Omar K. Siddiqi, MD", "cargo": "attending no Amyloidosis Center; diretor de cardio-oncologia do BMC", "por_que": "cardiologista que atende no ambulatório de amiloidose", "fonte": "https://www.bu.edu/amyloid/?p=4960", "certeza": "confirmado"},
+   {"nome": "John L. Berk, MD", "cargo": "Assistant Director, Amyloidosis Center", "por_que": "coordena o centro", "fonte": "https://www.bumc.bu.edu/camed/profile/john-berk/", "certeza": "confirmado (equipe 2023)"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado: nenhuma coautoria BU com Unifesp/InCor/Dante apareceu. A ponte possível é o ISA Fellowship (International Society of Amyloidosis), que financia estágio em centro anfitrião com mentor; um fellow da InCor-HCFMUSP (Cristhian Espinoza Romero) consta no programa, mas o centro anfitrião não foi confirmado.",
+  "pesquisa_recente": [
+   {"titulo": "Mosaic Loss of the Y Chromosome Is Enriched in Patients With Wild-Type Transthyretin Cardiac Amyloidosis and Associated With Increased Mortality (Circ Heart Fail)", "ano": 2024, "doi": "10.1161/CIRCHEARTFAILURE.124.011681"},
+   {"titulo": "Estudo de penetrância V122I em pacientes negros com IC (SCAN-MP, JAHA; BMC + Columbia)", "ano": 2023, "id": "não encontrado nos resultados"},
+   {"titulo": "Revisão sobre patogênese e tratamento da amiloidose no NEJM (BU)", "ano": 2024, "fonte": "https://www.bumc.bu.edu/camed/news-events/articles/2024/review-of-pathogenesis-research-and-treatment-of-amyloidosis-published-in-new-england-journal-of-medicine/", "id": "não encontrado"}
+  ],
+  "dicas": "O centro mantém o 'ARC Masterclass: The Art and Science of Managing Amyloidosis' (CME da BU, também on demand): https://cme.bu.edu/node/921. Fazer o curso antes do e-mail ajuda. O ISA Fellowship exige mentor e concordância do centro anfitrião, com até US$125 mil (https://isaamyloidosis.org/fellowships).",
+  "rota_recomendada": "(1) Pedido pelo formulário oficial 'Observership Requests' da BU Hematology/Amyloidosis, mencionando foco em cardioamiloidose. (2) Em paralelo, e-mail ao Dr. Ruberg ou Dr. Siddiqi citando o artigo de 2024 sobre perda do cromossomo Y e o SCAN-MP. (3) Médio prazo: ISA Fellowship com mentor na BU."
+ },
+ {
+  "match": "Royal Free — National Amyloidosis Centre",
+  "cidade": "Londres, Reino Unido",
+  "areas": ["miocardiopatias"],
+  "alerta_correcao": "A URL do radar é uma notícia de inauguração de RM, não uma página de programa. A página oficial do centro é https://www.ucl.ac.uk/amyloidosis/national-amyloidosis-centre/ (UCL Centre for Amyloidosis, Royal Free campus).",
+  "programa": {
+   "pagina_observership": "não encontrado: não há programa público de observer no NAC ou no Royal Free. Existem vagas remuneradas: Clinical Fellow de 1 ano (out/2025, encerrada) e Clinical Research Fellow de 3 anos com PhD na UCL, nas quais Gillmore e Fontana aparecem como contatos.",
+   "fonte": "https://findajob.dwp.gov.uk/details/16660005",
+   "comparacao": "Programas de observership em Londres como o do Imperial (exige registro no país de origem, sem atividade prática): https://www.imperial.nhs.uk/education/medicine/clinical-observership-programmes",
+   "certeza": "confirmado que nada foi encontrado"
+  },
+  "servico": {
+   "nome": "National Amyloidosis Centre (NAC), UCL Division of Medicine, Royal Free Hospital, Londres; centro nacional de referência para amiloidose",
+   "fonte": "https://www.ucl.ac.uk/amyloidosis/national-amyloidosis-centre/",
+   "trecho": "the only centre in the UK specialising in amyloidosis",
+   "chefe": "não confirmado. Prof. Julian Gillmore e Prof. Marianna Fontana são os contatos das vagas do NAC.",
+   "volume": "não encontrado (um estudo nacional de 20 anos mostra aumento grande de diagnósticos de ATTR-CM)",
+   "certeza": "provável"
+  },
+  "pessoas_chave": [
+   {"nome": "Prof. Marianna Fontana", "cargo": "cardiologista, NAC/UCL; primeira autora do HELIOS-B", "por_que": "lidera a cardioamiloidose e a RM cardíaca; contato das vagas", "fonte": "https://discovery.ucl.ac.uk/id/eprint/10214948/1/ehaf667.pdf", "certeza": "confirmado (autora correspondente, EHJ 2025)"},
+   {"nome": "Prof. Julian Gillmore", "cargo": "NAC/UCL; primeiro autor do ATTRibute-CM", "por_que": "liderança clínica do centro; contato das vagas", "fonte": "https://findajob.dwp.gov.uk/details/15713005", "certeza": "confirmado (contato nos anúncios)"},
+   {"nome": "Prof. Ashutosh Wechalekar", "cargo": "NAC/UCL (AL amiloidose)", "por_que": "contato de outras vagas do NAC", "fonte": "https://findajob.dwp.gov.uk/details/16613548", "certeza": "confirmado"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "Indireta: a experiência do HC-FMUSP/InCor (JACC CardioOncology 2021, PMC8543090) estadiou pacientes ATTR com o sistema de estadiamento do National Amyloidosis Centre. Não há coautoria confirmada.",
+  "pesquisa_recente": [
+   {"titulo": "Acoramidis in Transthyretin Amyloid Cardiomyopathy (ATTRibute-CM), Gillmore et al., NEJM", "ano": 2024, "id": "não encontrado nos resultados"},
+   {"titulo": "Vutrisiran in Patients with Transthyretin Amyloidosis with Cardiomyopathy (HELIOS-B), Fontana et al., NEJM", "ano": 2024, "doi": "10.1056/NEJMoa2409134"},
+   {"titulo": "Revisão sobre ATTR-CM no European Heart Journal (NAC, autora correspondente Fontana)", "ano": 2025, "fonte": "https://discovery.ucl.ac.uk/id/eprint/10214948/1/ehaf667.pdf", "id": "não encontrado"},
+   {"titulo": "Navigating the emerging landscape of asymptomatic ATTR-CM (Porcari et al., Future Cardiology)", "ano": 2025, "fonte": "https://discovery.ucl.ac.uk/id/eprint/10218904/"}
+  ],
+  "dicas": "Há uma masterclass em vídeo feita com o NAC (BJC TV, 1 CPD, para profissionais do Reino Unido). As vagas de Clinical Fellow abrem periodicamente no NHS Jobs. O ISA Fellowship pode financiar estágio no NAC, desde que haja mentor e concordância do centro.",
+  "rota_recomendada": "(1) E-mail curto à Prof. Fontana (via contato publicado na UCL/NAC) pedindo um attachment de observer de 4 semanas em cardioamiloidose, citando o HELIOS-B e o uso do estadiamento NAC no Brasil. (2) Pedir ao Royal Free/UCL o processo de honorary observer. (3) Médio prazo: ISA Fellowship com o NAC como anfitrião, ou candidatura a Clinical Research Fellow."
+ }
+]

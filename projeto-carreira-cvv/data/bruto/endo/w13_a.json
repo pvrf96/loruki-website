@@ -1,0 +1,150 @@
+[
+ {
+  "match": "Oklahoma Heart Hospital",
+  "cidade": "Oklahoma City, EUA",
+  "areas": ["arritmia_cirurgica"],
+  "programa": {
+   "status": "não encontrado",
+   "detalhe": "Nenhuma página de observership/visiting physician do Oklahoma Heart Hospital apareceu nas buscas. Hospital privado de propriedade médica (Oklahoma Heart Hospital Physicians), sem GME acadêmico visível — rota formal improvável.",
+   "fonte": "https://okheart.com/physicians/",
+   "trecho": "The Oklahoma Heart Hospital Physicians group is one of the nation's largest groups of cardiovascular specialists. With more than 70 specialist physicians...",
+   "certeza": "confirmado (ausência de programa nas buscas)"
+  },
+  "servico": {
+   "nome": "Cirurgia cardiotorácica (campi North e South); ablação cirúrgica de FA: Convergent (híbrida, cirurgião + eletrofisiologista) e Cox-Maze IV",
+   "fonte": "https://www.okheart.com/news/surgical-ablation-convergent-and-cox-maze-iv/",
+   "trecho": "physicians at the Oklahoma Heart Hospital perform two types of surgical ablation: a convergent ablation (sometimes referred to as a hybrid ablation) and the Cox Maze IV ablation",
+   "chefe": "James E. Cheatham, MD — Chief of Surgery (ambos os campi) (https://www.okheart.com/physicians/james-e-cheatham/ — 'Dr. Cheatham is the Chief of Surgery for both Oklahoma Heart Hospital campuses')",
+   "diretor_fellowship": "não encontrado (não há fellowship identificado)",
+   "volume": "não encontrado",
+   "certeza": "confirmado (serviço e chefe); nenhum cirurgião nomeado especificamente para Maze/Convergent nas fontes"
+  },
+  "pessoas_chave": [
+   {"nome": "James E. Cheatham, MD", "cargo": "Chief of Surgery, ambos os campi", "por_que": "decide quem entra no centro cirúrgico", "fonte": "https://www.okheart.com/physicians/james-e-cheatham/", "certeza": "confirmado"},
+   {"nome": "Goya V. Raikar, MD", "cargo": "Director of Cardiovascular Surgery, campus South (ex-Mayo Clinic; ex-Section Head CV&T Surgery, Regions Hospital, St. Paul)", "por_que": "diretor cirúrgico; listado no diretório StopAfib como cirurgião de FA (endereço antigo de Minnesota)", "fonte": "https://www.okheart.com/news/new-director-of-cardiothoracic-surgery-joins-ohh-south-from-mayo-clinic/", "certeza": "confirmado (cargo; anúncio sem data); vínculo com Maze = provável"},
+   {"nome": "Alice Le Huu, MD, FRCSC", "cargo": "Cirurgiã cardiotorácica (desde jun/2024; fellowship aórtica Texas Heart Institute)", "por_que": "recém-chegada, formação internacional (Canadá) — possivelmente mais receptiva", "fonte": "https://www.okheart.com/physicians/le-huu-alice/", "certeza": "confirmado"},
+   {"nome": "Steven D. Miller, MD", "cargo": "Cirurgião torácico/cardíaco, campus South", "por_que": "equipe cirúrgica", "fonte": "https://www.okheart.com/physicians/steven-d-miller/", "certeza": "confirmado"},
+   {"nome": "Paul J. Garabelli, MD, FHRS", "cargo": "Eletrofisiologista, campus South", "por_que": "lado EP do procedimento Convergent", "fonte": "https://upbeat.org/specialist/paul-j-garabelli-md-fhrs/", "certeza": "provável (EP; não confirmado como parceiro do Convergent)"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": "não encontrado (nenhum artigo 2022–2026 do OHH em ablação cirúrgica apareceu no PubMed/buscas)",
+  "dicas": "Hospital privado, não acadêmico; não confundir com Oklahoma Heart Institute (Tulsa, instituição diferente). Sem escritório de educação internacional identificado.",
+  "rota_recomendada": "Baixa prioridade. Se insistir: e-mail curto ao Dr. Goya Raikar (diretor CV surgery South) ou Dr. Cheatham via formulário de contato do okheart.com, pedindo 2–4 semanas observando Convergent/Cox-Maze IV, já oferecendo seguro, vacinas e B1/B2. Melhor alternativa para arritmia cirúrgica: centros acadêmicos com programa formal.",
+  "alerta_correcao": "Radar não traz contatos; nenhuma evidência de programa de observership. Polo é de baixa acessibilidade."
+ },
+ {
+  "match": "Austin Hospital",
+  "cidade": "Melbourne (Heidelberg), Austrália",
+  "areas": ["coronaria"],
+  "programa": {
+   "status": "existe programa institucional IMG Observership (Honorary Clinical Observer / IMG Training Program), mas voltado a médicos estrangeiros que querem migrar para o sistema australiano (8–12 meses), não a residentes visitantes de 1 mês; página indicava inscrições fechadas",
+   "fonte": "https://www.austin.org.au/img-program",
+   "trecho": "programa para ajudar médicos formados no exterior a entrar no sistema australiano via observação clínica supervisionada; '10-week observership within an 8-month period'; applications closed",
+   "fonte2": "https://careers.austin.org.au/job/Heidelberg-Honorary-Clinical-Observer-IMG-Training-Program/1331311666",
+   "taxa": "não encontrado",
+   "documentos": "não encontrado (Austrália exige visto de visitante; checar Working with Children/vacinas com o hospital)",
+   "certeza": "confirmado (existe; duração conflitante entre páginas: 10 sem/8 meses/12 meses); inadequado para estágio de 1 mês = provável"
+  },
+  "servico": {
+   "nome": "Brian F. Buxton Cardiac and Thoracic Aortic Surgery Unit, Austin Health",
+   "fonte": "https://careers.austin.org.au/job/Heidelberg-Unaccredited-Cardiothoracic-Surgery-Registrar/1247032866",
+   "trecho": "performs all types of adult cardiac surgery procedures, including complex valve repair...",
+   "chefe": "A/Prof Siven Seevanayagam — Director (PD Austin Health nov/2025: 'The Director of the Department is A/Prof Siven Seevanayagam')",
+   "fonte_chefe": "https://austinhealthrecruiting.blob.core.windows.net/pds/DataManager_PD_Nov_2025.pdf",
+   "diretor_fellowship": "não encontrado (há vaga 'Senior Fellow - Cardiac Surgery': https://careers.austin.org.au/job/Heidelberg-Senior-Fellow-Cardiac-Surgery/1363859066/)",
+   "volume": "não encontrado",
+   "certeza": "confirmado"
+  },
+  "pessoas_chave": [
+   {"nome": "A/Prof Siven Seevanayagam", "cargo": "Director, Buxton Cardiac & Thoracic Aortic Surgery Unit; interesse em revascularização arterial total", "por_que": "decide e hospeda; tema coronária arterial é dele", "fonte": "https://austinhealthrecruiting.blob.core.windows.net/pds/DataManager_PD_Nov_2025.pdf", "certeza": "confirmado"},
+   {"nome": "A/Prof George Matalanis", "cargo": "Responsável pelo Thoracic Aortic Surgery Program (Director of Thoracic Aortic Surgery desde 2018)", "por_que": "segundo líder sênior; fellowships aórticas (onde passou brasileiro)", "fonte": "https://anzscts.arinex.one/speakers/george-matalanis", "certeza": "confirmado"},
+   {"nome": "Brian F. Buxton (1940–2022)", "cargo": "Fundador da unidade, pioneiro de enxerto arterial (falecido)", "por_que": "legado de TAR/RAPCO para citar no e-mail", "fonte": "https://www.ctsnet.org/print/article/memoriam-brian-fowell-buxton-1940-2022", "certeza": "confirmado"}
+  ],
+  "brasileiros": [
+   {"nome": "Fabiano F. Viana, MD, FRACS", "vinculo": "Formação USP (cirurgia geral 2000–02, cirurgia CV 2002–05, fellowship InCor 2005); Cardiac Surgery Fellow (Aortic Surgery) Austin Health 2010–2011; depois Monash 2011–13; cirurgião em Adelaide (Royal Adelaide/St Andrew's/Ashford) desde 2014", "fonte": "https://ctsnet.org/home/ffviana", "trecho": "Austin Health - Melbourne - Cardiac Surgery Fellow (Aortic Surgery) - 2010-2011", "certeza": "confirmado (ex-fellow; posição atual não verificada)"}
+  ],
+  "pontes_unifesp_sp": "Ponte indireta via Fabiano Viana (InCor/USP → Austin). Coautorias Austin + Unifesp/InCor/Dante: não encontrado.",
+  "pesquisa_recente": [
+   {"titulo": "Association between bilateral radial artery grafting and long-term survival after coronary artery bypass surgery", "ano": "2026 (provável, 'cerca de 4 meses')", "pmid": "42604366", "certeza": "provável (resumo de busca atribui a Austin Health)"},
+   {"titulo": "Graft Patency and Clinical Outcomes in Patients With Radial Artery Grafts Previously Instrumented for Cardiac Catheterization", "ano": "2024 (provável)", "pmid": "38973456", "certeza": "provável (atribuído a Austin Health pela busca)"},
+   {"titulo": "Radial artery trial RAPCO — resultados de longo prazo (Circulation 2020; Austin único centro)", "ano": "2020 (fora da janela, mas é o carro-chefe)", "fonte": "https://www.austin.org.au/improvingcoronarybypasssurvival", "certeza": "confirmado"}
+  ],
+  "dicas": "Unidade leva o nome de Buxton, pioneiro de TAR/RAPCO — citar RAPCO e enxerto radial no e-mail. Programa IMG institucional é longo e voltado à imigração; para 1 mês o caminho é convite direto do diretor (honorary observer). Hiring manager publicado nas vagas é Seevanayagam.",
+  "rota_recomendada": "1) E-mail a A/Prof Seevanayagam citando RAPCO/bilateral RA e o interesse em TAR, pedindo observership honorário de 4 semanas; 2) pedir a Fabiano Viana (ex-fellow brasileiro, ex-InCor) uma apresentação; 3) se responderem, alinhar o trâmite com o Medical Workforce/IMG Program do Austin.",
+  "alerta_correcao": "URL do radar (ctsnet ?p=225903) não confirmada nas buscas. Matalanis aparece com títulos divergentes (Thoracic Aortic vs Thoracic Surgery)."
+ },
+ {
+  "match": "Royal Melbourne Hospital",
+  "cidade": "Melbourne (Parkville), Austrália",
+  "areas": ["coronaria"],
+  "programa": {
+   "status": "não encontrado (nenhuma página de observership; só vagas pagas de registrar/fellow e HMO-IMG)",
+   "contato_oficial_publicado": "Para vagas de cardiac surgery registrar 2027 a vaga indica: 'please contact Carol Maguire - Cardiothoracic Surgery Unit - Personal Assistant carol.maguire@mh.org.au' (e-mail publicado oficialmente na vaga; usar só para perguntar sobre observership)",
+   "fonte": "https://careers.thermh.org.au/job/2027-Cardiac-Surgery-Registrar-Unaccredited/7057-en_GB/",
+   "contato_rh_imgs": "ditrecruitment@mh.org.au (HMO-IMG; https://careers.thermh.org.au/job/2026-Hospital-Medical-Office-%28HMO%29-International-Medical-Graduates/4312-en_GB)",
+   "certeza": "confirmado (contatos publicados); programa = não encontrado"
+  },
+  "servico": {
+   "nome": "Cardiac Surgery Unit / Cardiothoracic Surgery Unit, The Royal Melbourne Hospital (campi City e Royal Park)",
+   "interesses": "arterial grafting, off-pump bypass, valve repair, aortic e adult congenital",
+   "volume": "'performing over 500 cases per year' (anúncio de recrutamento de Director of Cardiac Surgery, sem data)",
+   "fonte_volume": "https://alumniglobal.com/job/directorofcardiacsurgery-rmh",
+   "chefe": "incerto — Prof James Tatoulis consta como Director of Cardiothoracic Surgery em perfis antigos; há busca ativa/recente por novo Director of Cardiac Surgery (Alumni Global). Peter Skillington citado como Deputy Director.",
+   "diretor_fellowship": "não encontrado para cardíaca (Thoracic Fellow 2027: candidaturas a A/Prof Phillip Antippa)",
+   "certeza": "serviço confirmado; chefe atual = não confirmado"
+  },
+  "pessoas_chave": [
+   {"nome": "Prof Alistair Royse", "cargo": "Cirurgião cardiotorácico RMH; líder de pesquisa em revascularização arterial total; PI do ensaio 'TA' (MRFF A$5 milhões)", "por_que": "lidera a pesquisa coronária — melhor alvo acadêmico", "fonte": "https://www.thermh.org.au/news/research-grant-awarded-to-progress-treatment-of-heart-disease", "certeza": "confirmado"},
+   {"nome": "Prof James Tatoulis", "cargo": "Director of Cardiothoracic Surgery (perfis possivelmente desatualizados); referência mundial em TAR/radial", "por_que": "figura histórica; pode ser emérito", "fonte": "https://specialists.healthscope.com.au/specialist/james-tatoulis-med0001022917", "certeza": "provável (cargo atual incerto)"},
+   {"nome": "Peter Skillington", "cargo": "Deputy Director, Cardiothoracic Unit", "por_que": "liderança da unidade", "fonte": "https://specialists.healthscope.com.au/specialist/peter-skillington-med0001069193", "certeza": "provável (sem data)"},
+   {"nome": "Carol Maguire", "cargo": "Personal Assistant, Cardiothoracic Surgery Unit", "por_que": "contato administrativo oficial publicado", "fonte": "https://careers.thermh.org.au/job/2027-Cardiac-Surgery-Registrar-Unaccredited/7057-en_GB/", "certeza": "confirmado"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {"titulo": "Coronary Artery Bypass Surgery Without Saphenous Vein Grafting: JACC Review Topic of the Week", "ano": "2022", "pmid": "36328694", "certeza": "confirmado (Royse et al.)"},
+   {"titulo": "Long-Term Survival Advantage of Total Arterial Revascularization in Elderly Patients Following Coronary Artery Bypass Grafting (JACC: Advances, registro ANZSCTS; Ren, Royse et al.)", "ano": "2025 (provável)", "pmid": "41065621", "certeza": "provável (afiliação RMH não explícita no trecho)"},
+   {"titulo": "Estudo JACC RMH/UniMelb: >250.000 pacientes pareados, CABG sem safena com 23% menos mortalidade em 8 anos", "ano": "não informado", "fonte": "https://www.thermh.org.au/news/research-grant-awarded-to-progress-treatment-of-heart-disease", "certeza": "confirmado (estudo); ano não confirmado"}
+  ],
+  "dicas": "Assunto-gancho para o e-mail: ensaio randomizado nacional 'TA' (total arterial vs safena) financiado pelo MRFF; uso de radial subiu de 5% para 85% em 1997 na RMH. Grupo de ultrassom/enxertos arteriais da UniMelb (https://medicine.unimelb.edu.au/research-groups/surgery-research/ultrasound-education-group/arterial-grafting-for-coronary-artery-revascularisation) pode ser porta acadêmica.",
+  "rota_recomendada": "1) E-mail ao Prof Alistair Royse citando a JACC Review 2022 e o ensaio TA, pedindo 4 semanas como observer no programa de TAR; 2) em paralelo, e-mail à PA Carol Maguire perguntando o procedimento de honorary observer da unidade; 3) cogitar via University of Melbourne (Dept Surgery) como visiting.",
+  "alerta_correcao": "URL do radar é registro de ensaio (medpath 'Total Arterial Revascularisation'), não página do hospital. Chefia atual da cirurgia cardíaca indefinida (recrutamento de novo diretor)."
+ },
+ {
+  "match": "Apollo Hospitals Greams Road",
+  "cidade": "Chennai, Índia",
+  "areas": ["coronaria"],
+  "programa": {
+   "status": "não encontrado específico de cirurgia cardíaca; Apollo cita genericamente 'International Observership' entre suas oportunidades acadêmicas",
+   "fonte": "https://apollohospitals.com/academics-research/courses/medical/fellowship",
+   "trecho": "International Observership: Gain global insights and experience through international observership opportunities.",
+   "taxa_duracao_documentos": "não encontrado",
+   "certeza": "provável (existe menção genérica; sem detalhes)"
+  },
+  "servico": {
+   "nome": "Apollo Heart Institute — Cardiothoracic Surgery, Apollo Main Hospitals (Greams Road/Greams Lane), Chennai",
+   "volume": "'over 1,55,000 cardiac surgeries with a success rate of 99.6%' (acumulado, página de milestones); 50.000 cirurgias em dez/2018; >99,6% off-pump (autodeclarado)",
+   "fonte_volume": "https://apollohospitals.com/chennai/clinical-excellence/apollo-heart-institute/our-milestones",
+   "tecnicas": "TAR off-pump com ATI bilateral, radial e gastroepiploica; CABG robótico (500 procedimentos cardíacos robóticos anunciados)",
+   "chefe": "não confirmado — agregador Medigence lista Dr. Girinath M R como Head of Department (CABG), sem campus definido",
+   "diretor_fellowship": "não encontrado",
+   "certeza": "volume = autodeclarado; chefe = provável/agregador"
+  },
+  "pessoas_chave": [
+   {"nome": "Dr. M R Girinath", "cargo": "Head of Department (CABG) segundo agregador; 45 anos de experiência", "por_que": "figura sênior da cirurgia cardíaca Apollo Chennai", "fonte": "https://medigence.com/hospital/procedure/apollo-hospital/cabg", "certeza": "provável (agregador, campus não informado)"},
+   {"nome": "Dr. L F Sridhar", "cargo": "Cardiothoracic and Vascular Surgeon, Apollo Greams Road (27 anos)", "por_que": "cirurgião do campus", "fonte": "https://www.apollo247.com/procedures/coronary-artery-bypass-grafting-surgery-doctors?page=4", "certeza": "provável (diretório Apollo247)"},
+   {"nome": "Dr. Madan Kumar K", "cargo": "Cirurgião CV-torácico, Greams Lane (CABG, ECMO, VAD, transplante)", "por_que": "cirurgião do campus", "fonte": "https://www.logintohealth.com/amp/cardiovascular-and-thoracic-surgeon/madan-kumark", "certeza": "provável (agregador)"},
+   {"nome": "Dr. Dillip Kumar Mishra", "cargo": "Senior Consultant (CABG)", "por_que": "cirurgião sênior", "fonte": "https://medigence.com/hospital/procedure/apollo-hospital/cabg", "certeza": "provável (agregador, campus não informado)"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {"titulo": "Total arterial revascularization using robot assisted minimally invasive coronary artery bypass: an Indian experience", "ano": "2024 (online set/2023)", "pmid": "38125327", "certeza": "confirmado (Apollo Heart Institute, Chennai; 195 pacientes 2019–2023)"},
+   {"titulo": "Coronary-to-coronary bypass grafting in aortoarteritis: a case report", "ano": "2022", "pmid": "36050980", "certeza": "confirmado (Apollo Main Hospitals, Chennai 600006 = Greams Road)"}
+  ],
+  "dicas": "Programa robótico TAR (RA-MIDCAB) é o gancho ideal: alto volume e técnica rara no Brasil. Apollo tem estrutura de fellowships pagos (Docthub lista cursos em Greams Lane) — observership internacional provavelmente tramitado pelo Apollo academics / international desk. Custo de vida baixo.",
+  "rota_recomendada": "1) Contatar o setor acadêmico/fellowship da Apollo (página academics-research) pedindo 'International Observership' de 4 semanas na Cardiothoracic Surgery do Apollo Heart Institute, Greams Road; 2) em paralelo, e-mail ao autor correspondente do artigo PMID 38125327 citando o programa robótico de TAR; 3) pedir carta-convite para visto e-business/visita.",
+  "alerta_correcao": "URL do radar (ISMICS 2025 C30) não confirmada; ISMICS 2026 lista MIDCAB de Apollo Kolkata (não Chennai) — checar se o abstract do radar era de outro campus Apollo."
+ }
+]

@@ -1,0 +1,1170 @@
+{
+ "atualizado": "2026-11-01",
+ "polos": [
+  {
+   "match": "Szpital Medicover — Kardiochirurgia",
+   "alerta": "A robótica cardíaca de maior volume em Varsóvia é no PIM MSWiA (Suwalski), não no Medicover.",
+   "rota": [
+    "E-mail a Krzysztof Wróbel via secretaria da clínica pedindo 2–4 semanas de observação em mitral minimamente invasiva/robótica/NeoChord",
+    "Citar a carta de 2022 (da Vinci, 30 meses) e o caso com Chitwood",
+    "Esperar negociação ad hoc (sem programa formal)",
+    "Prioridade baixa frente a centros robóticos de alto volume"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Sem página de staż/observação para médicos externos ou estrangeiros; serviço privado com robótica mitral de baixo volume (primeiras da Polônia, 2018). Elegibilidade de estrangeiro não publicada.",
+    "url": "https://www.medicover.pl/en/medicover-hospital/cardiac-surgery",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Krzysztof Wróbel",
+     "cargo": "Kierownik Kliniki Kardiochirurgii; prof. Uczelnia Łazarskiego",
+     "papel": "Decide; fez as primeiras mitrais robóticas da Polônia; treinou médicos estrangeiros em NeoChord",
+     "url": "https://www.medicover.pl/lekarze/krzysztof-wrobel,20382,d,1021",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Marcin Zygier",
+     "cargo": "Líder do programa coronário minimamente invasivo",
+     "papel": "MIDCAB/híbrido coronário",
+     "url": "https://www.medicover.pl/en/medicover-hospital/cardiac-surgery",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Katarzyna Kurnicka",
+     "cargo": "Ecocardiografia (coautora)",
+     "papel": "Seguimento eco dos casos robóticos/NeoChord",
+     "url": "https://doaj.org/article/86d5d244f86044f584cbe4ec194e4605",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "Miniinvasive robotic mitral valve repair using the da Vinci system in the first two patients in Poland – echocardiographic follow-up results 30 months after surgery",
+     "ano": 2022,
+     "id": null,
+     "url": "https://doaj.org/article/86d5d244f86044f584cbe4ec194e4605"
+    },
+    {
+     "titulo": "Early results of MV repair with NeoChord DS1000 – first Polish consecutive patients",
+     "ano": 2019,
+     "id": "10.5114/aic.2019.81438",
+     "url": "https://doaj.org/article/ca92396fccdf4c2b83d8f13ab1cdfa64"
+    }
+   ],
+   "dicas": [
+    "Vínculo histórico com W. Randolph Chitwood (ECU): bom gancho para o e-mail",
+    "Também faz NeoChord transapical (único time na Polônia) e MIDCAB/híbrido",
+    "Secretaria da clínica: tel. 668 430 705 (seg–sex 8–15); geral 500 900 900 (provável)",
+    "E-mail kardiochirurgia@medicover.pl veio do radar e não foi reconfirmado"
+   ],
+   "lacunas": [
+    "Programa de observership, taxa, duração e documentos não encontrados",
+    "E-mail oficial reconfirmado não encontrado",
+    "Volume robótico anual e artigos 2023–2026 de robótica não encontrados",
+    "Brasileiros e pontes com Unifesp/SP não encontrados"
+   ]
+  },
+  {
+   "match": "USK Wrocław",
+   "alerta": "O 1º caso robótico (2025) foi feito com a equipe do PIM MSWiA (Varsóvia), que é o real polo robótico polonês.",
+   "rota": [
+    "Para robótica, priorizar o PIM MSWiA (Suwalski)",
+    "Se mantiver Wrocław: contato via secretaria da Katedra UMW a Roman Przybylski",
+    "Focar o pedido em transplante/assistência circulatória + robótica inicial"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Nada público sobre observership; robótica cardíaca incipiente (1º caso da Vinci Xi em 13/03/2025, com mentoria do PIM MSWiA). Elegibilidade de estrangeiro não publicada.",
+    "url": "https://www.wroclaw.pl/dla-mieszkanca/pierwsza-na-dolnym-slasku-operacja-kardiochirurgiczna-robotem-da-vinci",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Roman Przybylski",
+     "cargo": "Kierownik Oddziału Kardiochirurgii USK / Katedra UMW",
+     "papel": "Decide",
+     "url": "https://www.wroclaw.pl/dla-mieszkanca/pierwsza-na-dolnym-slasku-operacja-kardiochirurgiczna-robotem-da-vinci",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Maciej Rachwalik",
+     "cargo": "Cirurgião cardíaco USK",
+     "papel": "Co-operador do 1º caso robótico",
+     "url": "https://www.wroclaw.pl/dla-mieszkanca/pierwsza-na-dolnym-slasku-operacja-kardiochirurgiczna-robotem-da-vinci",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Piotr Suwalski",
+     "cargo": "PIM MSWiA Varsóvia (externo)",
+     "papel": "Mentor/proctor robótico do caso inaugural",
+     "url": "https://www.wroclaw.pl/dla-mieszkanca/pierwsza-na-dolnym-slasku-operacja-kardiochirurgiczna-robotem-da-vinci",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "Serviço forte em transplante cardíaco (2º centro do país no 1º ano, 2021)",
+    "Hospital tem um Uniwersyteckie Centrum Chirurgii Robotycznej multidisciplinar",
+    "Notícia mp.pl (14/03/2025) sobre o caso: https://www.mp.pl/chirurgia/aktualnosci/375413,wroclaw-kardiochirurgia-robotyczna-w-usk"
+   ],
+   "lacunas": [
+    "Programa de observership, taxa, documentos e contato oficial não encontrados",
+    "Continuidade e volume do programa robótico não encontrados",
+    "Artigos 2022–2026 de robótica do serviço não encontrados",
+    "Brasileiros e pontes com Unifesp/SP não encontrados"
+   ]
+  },
+  {
+   "match": "Kepler Universitätsklinikum — Herz Zentrum",
+   "alerta": "A URL do radar trata de válvulas, não de robótica; a robótica cardíaca só começou em jul/2026 (provável), com proctoring de Motol/Praga.",
+   "rota": [
+    "Para robótica, considerar Motol/Praga (Štěpán Černý) como alvo principal",
+    "Em Linz: e-mail ao secretariado de Andreas Zierer pedindo Hospitation de 4 semanas",
+    "Focar em valvar minimamente invasiva/aorta + início do programa robótico",
+    "Citar o artigo Perceval 2024"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Sem página de Hospitation/Gastarzt; a página de ensino descreve só residência (48 meses) e ofertas a estudantes. Para vagas, estrangeiros devem cumprir requisitos da Ärztekammer (não se aplica diretamente a observer).",
+    "url": "https://prod.kepleruniklinikum.at/kliniken-einrichtungen/herz-gefaess-und-thoraxchirurgie/aus-und-weiterbildung",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Andreas F. Zierer",
+     "cargo": "Vorstand, Herz-, Gefäß- und Thoraxchirurgie",
+     "papel": "Decide e opera robótica; foco minimamente invasiva e aorta",
+     "url": "https://www.tips.at/nachrichten/ooe/leben/731367-erste-roboter-bypass-operationen-am-kepler-uniklinikum-linz-durchgefuehrt",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Clemens Steinwender",
+     "cargo": "Vorstand Kardiologie und Internistische Intensivmedizin",
+     "papel": "Co-líder do projeto robótico/Herz Zentrum",
+     "url": "https://at.linkedin.com/in/seedavid",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Jens Meier",
+     "cargo": "Vorstand Anästhesiologie",
+     "papel": "Co-líder do projeto robótico",
+     "url": "https://at.linkedin.com/in/seedavid",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Štěpán Černý",
+     "cargo": "Cirurgião, Motol University Hospital (Praga) — externo",
+     "papel": "Proctor dos primeiros casos robóticos",
+     "url": "https://www.meinbezirk.at/linz/c-gesundheit/erste-bypass-operationen-mit-roboterunterstuetzung-am-kuk_a8837086",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "Estudo unicêntrico de 100 pacientes consecutivos com válvula sutureless Perceval (Kepler; coautor Zierer)",
+     "ano": 2024,
+     "id": "10.3389/fcvm.2024.1417617",
+     "url": "https://www.frontiersin.org/journals/cardiovascular-medicine/articles/10.3389/fcvm.2024.1417617/epub"
+    }
+   ],
+   "dicas": [
+    "Programa robótico recém-nascido (2 revascularizações da Vinci Xi sem CEC): volume baixo",
+    "Valor maior para observar minimamente invasiva e aorta",
+    "Alemão é exigido no dia a dia",
+    "Publicações da clínica: https://kepleruniklinikum.at/versorgung/kliniken/herz-gefaess-und-thoraxchirurgie/publikationen"
+   ],
+   "lacunas": [
+    "Observership, taxa, documentos e e-mail oficial não encontrados",
+    "Volume robótico não encontrado (programa em fase inicial)",
+    "Ano exato dos primeiros casos robóticos só via LinkedIn (2026 provável)",
+    "Brasileiros e pontes com Unifesp/SP não encontrados"
+   ]
+  },
+  {
+   "match": "St. Paul's Hospital — Centre for Heart Valve Innovation",
+   "alerta": "O contato do radar é de encaminhamento de pacientes, não de educação; o CHVI é conjunto St. Paul's + VGH.",
+   "rota": [
+    "Pedir apresentação via Matheus Simonato (EPM/UNIFESP, registro VIVID) a Sathananthan/Webb",
+    "E-mail a Janarthanan Sathananthan citando o bench redo-TAVI 2024, pedindo 4 semanas de observação estrutural",
+    "Com supervisor confirmado, tramitar o registro 'clinical observer' no CPSBC com antecedência"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Sem página de observership da Providence/CHVI. Na Colúmbia Britânica, o observador precisa de registro CPSBC como 'clinical observer', com acordo assinado por médico supervisor; atua no nível de estudante de 4º ano.",
+    "url": "https://www.cpsbc.ca/registrants/current-registrants/registration-and-licensing/img/clinical-observer",
+    "documentos": "Acordo de observership assinado pelo médico supervisor + CV (CPSBC)",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "John G. Webb",
+     "cargo": "Diretor do CHVI; Interventional Cardiology St. Paul's",
+     "papel": "Decide; pioneiro do TAVI transfemoral",
+     "url": "https://medicine.med.ubc.ca/?p=31120",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Janarthanan Sathananthan",
+     "cargo": "Interventional/structural cardiologist (St. Paul's e VGH)",
+     "papel": "Lidera bench-testing/redo-TAVR; provável anfitrião",
+     "url": "https://vchri.ca/researchers/janarthanan-sathananthan",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "David A. Wood",
+     "cargo": "Structural cardiologist",
+     "papel": "Pesquisa TAVR/redo",
+     "url": "https://bibliography.cumc.columbia.edu/node/34266",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Stephanie L. Sellers",
+     "cargo": "Pesquisadora (lab translacional/biobanco TAVI)",
+     "papel": "Pesquisa básica valvar",
+     "url": "https://healthresearchbc.ca/award_researcher/stephanie-sellers",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Jonathon Leipsic",
+     "cargo": "Director, Advanced Cardiac Imaging Fellowship (UBC Radiology)",
+     "papel": "Imagem/TC pré-TAVI",
+     "url": "https://radiology.med.ubc.ca/education/fellowships/advanced-cardiac-imaging",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Anson Cheung",
+     "cargo": "Cirurgião cardíaco St. Paul's",
+     "papel": "Programa Tiara mitral transcateter; ponte para cirurgia CV",
+     "url": "https://thedailyscan.providencehealthcare.org/2020/01/neovasc-announces-executive-steering-committee-for-transfemoral-trans-septal-tiara-program-dr-anson-cheung-sph/",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [
+    {
+     "nome": "Matheus Simonato",
+     "ligacao": "MD pela Escola Paulista de Medicina; dupla afiliação EPM/UNIFESP + St. Paul's (editorial 2015 com Danny Dvir); coordenador científico do registro VIVID",
+     "url": "https://www.elsevier.es/en-revista-revista-brasileira-cardiologia-invasiva-english-234-articulo-aortic-valve-in-valve-hemodynamic-outcomes-where-S2214123516300023",
+     "certeza": "confirmado"
+    }
+   ],
+   "artigos": [
+    {
+     "titulo": "Redo-TAVI with the ACURATE neo2 and Prime XL for balloon-expandable transcatheter heart valve failure (bench)",
+     "ano": 2024,
+     "id": "10.4244/eij-d-23-00783",
+     "url": "https://bibliography.cumc.columbia.edu/node/34266"
+    },
+    {
+     "titulo": "Outcomes of Redo Transcatheter Aortic Valve Replacement According to the Initial and Subsequent Valve Type",
+     "ano": 2022,
+     "id": null,
+     "url": "https://fis.uke.de/portal/en/publications/outcomes-of-redo-transcatheter-aortic-valve-replacement-according-to-the-initial-and-subsequent-valve-type(40230024-08aa-4801-803f-8bee27d7584b)/export.html"
+    }
+   ],
+   "dicas": [
+    "Passo crítico: conseguir um staff (Sathananthan/Wood/Webb) que assine o acordo do CPSBC",
+    "Equipe transmite casos de TAVI para treinamento internacional; há precedente de visitante estrangeiro (APF Fellow 2018–19)",
+    "Hospital muda para o novo St. Paul's em 2026: pode afetar disponibilidade",
+    "Ponte indireta Unifesp: Simonato + José Honório Palma em revisão ViV TAVR (Structural Heart 2025)"
+   ],
+   "lacunas": [
+    "Programa de observership do hospital e contato de educação não encontrados",
+    "Taxa do CPSBC não encontrada",
+    "Volume anual atual não encontrado",
+    "Se Simonato foi fellow no CHVI: não encontrado"
+   ]
+  },
+  {
+   "match": "UZ Brussel — Heart Rhythm Management Centre",
+   "alerta": null,
+   "rota": [
+    "E-mail a Carlo de Asmundis (via página do HRMC/VUB) pedindo observership de 4 semanas autofinanciado",
+    "Citar PFA (Affera Sphere-360) e a escola de crioablação; anexar carta da Unifesp",
+    "Sem vaga avulsa: mirar EHRA International Training Fellowship com o HRMC como anfitrião",
+    "Porta acadêmica formal: Postgraduate in Cardiac Electrophysiology and Pacing (VUB)"
+   ],
+   "prazos": [
+    {
+     "txt": "EHRA Training Fellowship: prazo da call 2023 foi 15/11/2023 (verificar call vigente); bolsa €35.000/ano",
+     "url": "https://www.escardio.org/static-file/Escardio/Subspecialty/EHRA/Fellowships/ABLA%20Rules%20TF%20-%20FINAL.pdf",
+     "certeza": "confirmado"
+    }
+   ],
+   "programa": {
+    "resumo": "Sem observership próprio publicado; o HRMC hospeda regularmente EHRA Training Fellowships (1 ano, estrangeiros aceitos) e mantém pós-graduação VUB em EP & Pacing para cardiologistas. Existe EHRA International Training Fellowship para não-europeus.",
+    "url": "https://www.escardio.org/Education/Career-Development/Grants-and-fellowships/EHRA-international-training-fellowships",
+    "duracao": "EHRA fellowship: 1 ano",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Carlo de Asmundis",
+     "cargo": "Chair, Heart Rhythm Management Centre; diretor da pós-graduação VUB em EP",
+     "papel": "Decide entrada de visitantes/fellows",
+     "url": "https://www.uzbrussel.be/pt/web/heart-rhythm-management-centre/doctors/-/asset_publisher/Na7T7TkVi4KU/content/prof-carlo-de-asmundis",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Gian-Battista Chierchia",
+     "cargo": "Eletrofisiologista intervencionista (staff)",
+     "papel": "Lidera ablação/PFA; hospedaria no laboratório",
+     "url": "https://www.uzbrussel.be/web/heart-rhythm-management-centre/doctors/-/asset_publisher/Na7T7TkVi4KU/content/prof-gian-battista-chierchia",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Pedro Brugada",
+     "cargo": "Fundador do HRMC (staff)",
+     "papel": "Nome histórico; síndrome de Brugada",
+     "url": "https://www.uzbrussel.be/web/heart-rhythm-management-centre/doctors/-/asset_publisher/Na7T7TkVi4KU/content/prof-pedro-brugada",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Andrea Sarkozy",
+     "cargo": "Chefe da clínica multidisciplinar de TV e morte súbita",
+     "papel": "TV/ablação ventricular",
+     "url": "https://uzbrussel.be/web/international/home/-/asset_publisher/ugGyqUdZikV4/content/professor-sarkozy-to-head-the-first-belgian-multidisciplinary-clinic-for-ventricular-tachycardia-and-sudden-cardiac-death-at-uz-brussel/newsletter-dialog-link-url",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Juan Sieira",
+     "cargo": "Eletrofisiologista (staff)",
+     "papel": "Staff do serviço",
+     "url": "https://www.uzbrussel.be/web/heart-rhythm-management-centre/doctors/-/asset_publisher/Na7T7TkVi4KU/content/prof-juan-sieira",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "Escola histórica de cryoballoon e agora PFA: bom gancho para o e-mail",
+    "Rota estruturada mais realista é via ESC/EHRA; trilha avançada de ablação exige ≥50 ablações como 1º operador",
+    "Pós-graduação VUB em EP & Pacing: https://www.vub.be/en/study/cardiac-electrophysiology-and-pacing",
+    "Regra belga: um 'stagemeester' só supervisiona um estagiário estrangeiro sem visto (provável só para estágio com atos clínicos)"
+   ],
+   "lacunas": [
+    "Observership próprio, taxa, documentos e e-mail de ensino não encontrados",
+    "Volume do serviço não encontrado",
+    "Artigos recentes sem URL de fonte nos brutos (só PMIDs)",
+    "Brasileiros e pontes com Unifesp/SP não encontrados"
+   ]
+  },
+  {
+   "match": "LUMC — Heart Lung Center",
+   "alerta": "A URL do radar (EACVI past winners) não é página do LUMC, e o chefe atual da cardiologia não foi confirmado.",
+   "rota": [
+    "E-mail a Nina Ajmone Marsan (cópia a Jeroen Bax) pedindo 4 semanas no echo lab/heart valve centre",
+    "Citar a linha de valvopatia tricúspide/aórtica por eco multimodal",
+    "Alternativa: EACVI Training Grant com LUMC como anfitrião",
+    "Para vínculo maior, propor research fellowship"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Sem programa público de observer/visiting doctor; a entrada histórica é research fellowship no grupo de imagem. LUMC já hospedou bolsista EACVI (2021, programa de 6 meses em imagem multimodal).",
+    "url": "https://www.escardio.org/Education/Career-Development/Grants-and-fellowships/EACVI-training-grants-past-winners",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Jeroen J. Bax",
+     "cargo": "Professor of Cardiology; director of non-invasive imaging/Echo Lab",
+     "papel": "Líder em imagem; decide entrada de fellows de pesquisa",
+     "url": "https://www.universiteitleiden.nl/en/staffmembers/jeroen-bax",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Nina Ajmone Marsan",
+     "cargo": "Cardiologista de imagem, LUMC Cardiology",
+     "papel": "Lidera linha de valvopatia e eco; coautora das diretrizes ESC/EACTS 2025",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/41175124/",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Hildo Lamb",
+     "cargo": "Radiologia LUMC (CMR/TC cardiovascular)",
+     "papel": "Cardio Vascular Imaging Group",
+     "url": "https://www.universiteitleiden.nl/en/staffmembers/h-lamb",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Douwe E. Atsma",
+     "cargo": "Cardiologia LUMC (cargo não confirmado)",
+     "papel": "Liderança departamental provável — verificar",
+     "url": "https://repository.tudelft.nl/record/uuid:144c6adf-33ca-4e57-84fb-644dd8d885f4",
+     "certeza": "provável"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "Can Cardiac Computed Tomography Refine Prognosis in Tricuspid Regurgitation?",
+     "ano": 2025,
+     "id": "PMID 41175124",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/41175124/"
+    },
+    {
+     "titulo": "2025 ESC/EACTS valvular heart disease guidelines: practical updates on mitral and tricuspid regurgitation",
+     "ano": null,
+     "id": "PMID 42064867",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/42064867/"
+    }
+   ],
+   "dicas": [
+    "EACVI Training Grant exige afiliação/associação à EACVI",
+    "Bom tema para o e-mail: valvopatia tricúspide/aórtica por eco multimodal (Bax/Ajmone Marsan)",
+    "Página para profissionais do Hart Long Centrum: https://www.lumc.nl/patientenzorg/specialistische-centra/hart-long-centrum/voor-professionals/cardiology-cardiothoracic-surgery-and-vascular-surgery/"
+   ],
+   "lacunas": [
+    "Observership, elegibilidade, taxa, documentos e e-mail oficial não encontrados",
+    "Chefe atual da cardiologia não confirmado",
+    "Volume do serviço não encontrado",
+    "Brasileiros e pontes com Unifesp/SP não encontrados"
+   ]
+  },
+  {
+   "match": "Royal Adelaide — Centre for Heart Rhythm Disorders",
+   "alerta": "O polo envolve University of Adelaide (CHRD), Royal Adelaide Hospital (EP clínica) e SAHMRI (sede física); observership clínico seria pelo RAH/SA Health.",
+   "rota": [
+    "E-mail a chrd@adelaide.edu.au endereçado ao Prof. Sanders pedindo 4 semanas de observação no lab de EP do RAH",
+    "Citar ARREST-AF ou o ensaio de isolamento do seio coronário",
+    "Oferecer colaboração em pesquisa (dados/registro) para fortalecer o pedido",
+    "Providenciar visto de visitante australiano"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Sem observership publicado; as rotas formais são PhD pelo CHRD (University of Adelaide) e a função de EP fellow, sem página de candidatura. Elegibilidade de estrangeiro não publicada.",
+    "url": "https://www.adelaide.edu.au/chrd/phd",
+    "contato": "chrd@adelaide.edu.au",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Prashanthan Sanders",
+     "cargo": "Director, CHRD; Director of Cardiac EP and Pacing, RAH",
+     "papel": "Decide",
+     "url": "https://adelaide.edu.au/directory/prash.sanders",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Dennis Lau",
+     "cargo": "A/Prof., pesquisador e supervisor de PhD do CHRD",
+     "papel": "Fatores de risco modificáveis da FA",
+     "url": "https://www.adelaide.edu.au/chrd/phd",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Kurt Roberts-Thomson",
+     "cargo": "A/Prof., Research leader CHRD",
+     "papel": "EP clínica/ablação",
+     "url": "https://www.adelaide.edu.au/chrd/",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Glenn Young",
+     "cargo": "A/Prof., Research leader CHRD",
+     "papel": "EP clínica",
+     "url": "https://www.adelaide.edu.au/chrd/",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Alexis Puvrez",
+     "cargo": "Senior Researcher / Research Leader",
+     "papel": "Pesquisa do centro",
+     "url": "https://www.adelaide.edu.au/chrd/",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "Marca do centro: manejo de fatores de risco na FA (LEGACY, ARREST-AF, CARDIO-FIT): gancho ideal",
+    "Endereço: Cardiology 4G751-769, Royal Adelaide Hospital, Port Road",
+    "Observação sem atos clínicos; exige visto de visitante"
+   ],
+   "lacunas": [
+    "Observership, taxa e documentos não encontrados",
+    "Regras do SA Health para observers não encontradas",
+    "Volume e diretor de fellowship não encontrados",
+    "Artigos recentes sem URL de fonte nos brutos (só PMIDs)"
+   ]
+  },
+  {
+   "match": "Instituto Cardiovascular de Buenos Aires (ICBA)",
+   "alerta": "A URL do radar é notícia SOLACI (2020), não página do ICBA, e as chefias citadas são de 2010–2011 ou sem data.",
+   "rota": [
+    "E-mail a Pablo Lamelas pedindo 4 semanas de observação em TAVI/estrutural, com carta da Unifesp",
+    "Citar a diretriz latino-americana TAVI vs SAVR (Heart 2021)",
+    "Contatar o Departamento de Docencia do ICBA",
+    "Se elegível, candidatar-se ao SOLACI MIL e usar SBHCI/SOLACI como ponte"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Sem observership oficial; há fellowship de 2 anos em intervencionista (provável) e bolsas SOLACI 'MIL Train More MIL' (1 semana presencial em estrutural, para intervencionistas mulheres latino-americanas, sem experiência prévia exigida).",
+    "url": "https://solaci.org/en/2023/01/02/mil-train-more-mil-training-scholarship-program-for-latin-american-interventional-women-in-structural-pathology/",
+    "duracao": "MIL: 1 semana",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Pablo Lamelas",
+     "cargo": "Interventional Cardiologist, ICBA (TAVR/estrutural); afiliação McMaster",
+     "papel": "Lidera estrutural e pesquisa",
+     "url": "https://www.radcliffecardiology.com/authors/pablo-lamelas",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Fernando Cura",
+     "cargo": "Intervencionista (subjefe em 2011; atual não confirmado)",
+     "papel": "Colaborou no programa estrutural MIL",
+     "url": "https://solaci.org/?p=84752",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Jorge Belardi",
+     "cargo": "Director de la División de Cardiología (data incerta)",
+     "papel": "Autoridade do departamento",
+     "url": "https://www.pcronline.com/Physicians/Jorge-Belardi",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Alberto E. Alves de Lima",
+     "cargo": "Diretor do Dpto. de Docencia (2010–2011; atual não confirmado)",
+     "papel": "Ensino/rotações",
+     "url": "https://www.intramed.net/content/congreso-icba-2010",
+     "certeza": "provável"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "Proximidade cultural/idioma e custo baixo; ICBA é centro SOLACI com atividades de estrutural",
+    "ICBA sediou jornada MIL (26/09/2023) com casos ao vivo de TAVI, TC de planejamento e oclusão de apêndice",
+    "Congresso anual de Cardiologia do ICBA é ocasião para contato presencial",
+    "Verificar edição vigente do SOLACI MIL"
+   ],
+   "lacunas": [
+    "Observership, taxa, documentos e e-mail oficial não encontrados",
+    "Chefias atuais e volume não confirmados",
+    "Artigos estruturais 2022–2026 com fonte não encontrados",
+    "Bolsista MIL listada como do Brasil sem formação/vínculo detalhado na fonte"
+   ]
+  },
+  {
+   "match": "Inselspital Bern — Kardiologie",
+   "alerta": "O radar não traz programa e sua URL é um relatório anual de 2018 (desatualizado).",
+   "rota": [
+    "E-mail à secretaria da Universitätsklinik für Kardiologie (via kardiologie.insel.ch) perguntando por Hospitation de 4 semanas em estrutural",
+    "Citar o SwissTAVI e os papers 2024",
+    "Pedir hospedagem direta a Stefan Stortecky ou Fabien Praz",
+    "Alternativa: inscrever-se num curso em Berna (TEE Akademie/curso PCR tricúspide) e propor a visita lá"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Nenhuma página de observership/Hospitation encontrada; menção a Hospitation só em contexto de recrutamento. Elegibilidade de estrangeiro não publicada.",
+    "url": "https://kardiologie.insel.ch",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Stephan Windecker",
+     "cargo": "Universitätsklinik für Kardiologie; contato central do SwissTAVI",
+     "papel": "Liderança do serviço/pesquisa TAVI (chefia não confirmada)",
+     "url": "https://clinicaltrials.gov/study/NCT01368250",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Stefan Stortecky",
+     "cargo": "Interventional cardiologist; contato do SwissTAVI Registry",
+     "papel": "Interlocutor natural em estrutural",
+     "url": "https://clinicaltrials.gov/study/NCT01368250",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Fabien Praz",
+     "cargo": "Associate Professor of Interventional Cardiology",
+     "papel": "Mitral/tricúspide; co-chair diretrizes valvares ESC/EACTS 2025",
+     "url": "https://www.pcronline.com/Physicians/Fabien-Praz",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Thomas Pilgrim",
+     "cargo": "stv. Chefarzt Kardiologie",
+     "papel": "Vice-chefe; coautor sênior dos papers TAVI 2024",
+     "url": "https://clinicaltrials.gov/study/NCT01368250",
+     "certeza": "provável"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "Long-Term Impact of Cardiac Damage Following Transcatheter Aortic Valve Replacement",
+     "ano": 2024,
+     "id": null,
+     "url": "https://clinicaltrials.gov/study/NCT01368250"
+    }
+   ],
+   "dicas": [
+    "Cursos abertos: TEE Akademie 2025 e curso de mitral/tricúspide com PCR Tricuspid Focus Group: https://www.pcronline.com/Network/Tricuspid-Focus-Group/Referral-meetings/Bern",
+    "Evento 'Fokus Herz Bern 2025' do Herz-Gefäss-Zentrum (herzgefaesszentrum.insel.ch)",
+    "SwissTAVI Registry (NCT01368250): registro nacional, ~20.000 pacientes",
+    "Conferir citações no PubMed antes de usar (vieram de tabela truncada do ClinicalTrials.gov)"
+   ],
+   "lacunas": [
+    "Observership, taxa, duração, documentos e e-mail oficial não encontrados",
+    "Chefia da clínica não confirmada",
+    "Volume publicado não encontrado",
+    "Brasileiros e pontes com Unifesp/SP não encontrados"
+   ]
+  },
+  {
+   "match": "Vanderbilt University Medical Center",
+   "alerta": "O radar não traz contatos e sua URL é notícia de volume, não de programa.",
+   "rota": [
+    "E-mail a Kelly Schlendorf (clínico/DCD) ou ao gabinete de Ashish Shah pedindo 4 semanas como observer",
+    "Citar o recorde de 2024 e os estudos DCD",
+    "Com o aceite, o departamento abre o International Visitor Screening no Office of Global Support",
+    "Levar carta da Unifesp e citar observership prévio em Chicago"
+   ],
+   "prazos": [
+    {
+     "txt": "International Visitor Screening enviado pelo departamento anfitrião até 10 dias úteis antes da chegada",
+     "url": "https://www.vumc.org/globalsupport/e-3",
+     "certeza": "confirmado"
+    }
+   ],
+   "programa": {
+    "resumo": "Sem observership estruturado para médicos internacionais; médicos estrangeiros passam pelo International Visitor Screening (Office of Global Support), que exige anfitrião interno. Há processo próprio para observadores no centro cirúrgico.",
+    "url": "https://vumc.org/periop-services/sites/default/files/public_files/Visitor-Observation%20Role%20Determinant%20and%20Department%20Contacts.pdf",
+    "contato": "Office of Global Support — https://www.vumc.org/globalsupport",
+    "duracao": "Visitante: tipicamente < 1 mês",
+    "documentos": "Screening internacional + checagem de export compliance",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Ashish Shah",
+     "cargo": "Surgical Director, Heart Transplant; Chair, Cardiac Surgery",
+     "papel": "Decide no lado cirúrgico",
+     "url": "https://www.vanderbilthealth.com/doctors/shah-ashish",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Kelly Schlendorf",
+     "cargo": "Medical Director, adult heart transplant; assoc. director AHF/Tx fellowship",
+     "papel": "Hospedaria residente de cardiologia; pesquisa DCD",
+     "url": "https://medicine.vumc.org/divisions/cardiovascular-medicine/education/advanced-heart-failure-transplantation-fellowship",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Lynne Stevenson",
+     "cargo": "Professor of Medicine; listada no fellowship AHF/Tx",
+     "papel": "Liderança em IC avançada",
+     "url": "https://medicine.vumc.org/divisions/cardiovascular-medicine/education/advanced-heart-failure-transplantation-fellowship",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Roger Dmochowski",
+     "cargo": "Contato para médicos visitantes (Office of Global Support)",
+     "papel": "Rota administrativa do screening",
+     "url": "https://vumc.org/periop-services/sites/default/files/public_files/Visitor-Observation%20Role%20Determinant%20and%20Department%20Contacts.pdf",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "John Trahanas",
+     "cargo": "Cirurgião cardíaco",
+     "papel": "Pesquisa DCD/NRP",
+     "url": "https://news.vumc.org/2023/10/05/study-finds-no-difference-in-heart-transplant-outcomes-using-organs-donated-after-circulatory-death-and-after-brain-death/",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "Estudo VUMC (JACC 2023): sobrevida em 1 ano semelhante entre doadores DCD e DBD",
+     "ano": 2023,
+     "id": null,
+     "url": "https://news.vumc.org/2023/10/05/study-finds-no-difference-in-heart-transplant-outcomes-using-organs-donated-after-circulatory-death-and-after-brain-death/"
+    },
+    {
+     "titulo": "Novo método de recuperação rápida de corações DCD (Williams et al., NEJM 2025)",
+     "ano": 2025,
+     "id": null,
+     "url": "https://www.news-medical.net/news/20250716/New-method-enables-recovery-of-hearts-from-deceased-organ-donors-after-circulatory-death.aspx"
+    }
+   ],
+   "dicas": [
+    "174 transplantes cardíacos em 2024 (recorde mundial): https://news.vumc.org/2025/01/13/vanderbilt-transplant-center-sets-world-record-for-heart-transplants-in-2024/",
+    "Sponsor interno é indispensável para abrir o screening",
+    "Planejar no máximo 4 semanas (definição de visitante)",
+    "Política GME 1F (2026) para residentes/fellows externos exige aprovação do program director e do DIO"
+   ],
+   "lacunas": [
+    "Taxa não encontrada",
+    "Vacinas e seguro exigidos não encontrados",
+    "Direção do fellowship AHF/Tx com informação conflitante",
+    "Brasileiros e pontes com Unifesp/SP não encontrados"
+   ]
+  },
+  {
+   "match": "HDZ NRW — Herz- und Diabeteszentrum",
+   "alerta": null,
+   "rota": [
+    "E-mail (inglês) à secretaria da Klinik für Thorax- und Kardiovaskularchirurgie / Prof. Gummert, ou a info@hdz-nrw.de pedindo encaminhamento",
+    "Pedir Hospitation de 4 semanas em transplante/VAD, citando o volume de 2024 e o CASTLE-HTx",
+    "Anexar CV, carta da Unifesp, vacinação e seguro",
+    "Alternativa: participar do HTx Seminar"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Sem página de Hospitation/Gastarzt; o modelo alemão usual é Hospitation só de observação, sem remuneração. Elegibilidade de estrangeiro não publicada.",
+    "url": "https://idw-online.de/en/news615811",
+    "contato": "info@hdz-nrw.de (contato geral)",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Jan Gummert",
+     "cargo": "Ärztlicher Direktor; Direktor Thorax- und Kardiovaskularchirurgie",
+     "papel": "Decide sobre Hospitation",
+     "url": "https://idw-online.de/en/news615811",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "René Schramm",
+     "cargo": "Cirurgião (cargo atual não confirmado)",
+     "papel": "Autor do 'Bad Oeynhausen score'",
+     "url": "https://doaj.org/article/18751b3b72e3470ea3badd0676d374c4",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Sebastian V. Rojas",
+     "cargo": "Coautor em transplante (cargo não confirmado)",
+     "papel": "Pesquisa em transplante",
+     "url": "https://doaj.org/article/18751b3b72e3470ea3badd0676d374c4",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Henrik Fox",
+     "cargo": "Senior researcher, Thorax- und Kardiovaskularchirurgie",
+     "papel": "IC terminal/transplante; CASTLE-HTx",
+     "url": "https://loop.frontiersin.org/people/1268121/bio",
+     "certeza": "provável"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "CASTLE-HTx: ablação de FA em IC terminal/candidatos a transplante (NEJM)",
+     "ano": 2023,
+     "id": "PMID 37634135",
+     "url": "https://idw-online.de/de/attachmentdata99268"
+    },
+    {
+     "titulo": "Donor–recipient risk assessment tools in heart transplant recipients: the Bad Oeynhausen experience",
+     "ano": 2021,
+     "id": "10.1002/ehf2.13673",
+     "url": "https://doaj.org/article/18751b3b72e3470ea3badd0676d374c4"
+    }
+   ],
+   "dicas": [
+    "Maior centro de transplante cardíaco da Alemanha em 2024; >2.100 transplantes desde 1989",
+    "HTx Seminar (flyer 2022): https://www.hdz-nrw.de/fileadmin/news/files/Flyer_HTx_Seminar2022_KK_web_02.pdf",
+    "Hospitante que só observa não conta como estagiário para salário mínimo",
+    "Kinderherzzentrum é o único em NRW a transplantar crianças"
+   ],
+   "lacunas": [
+    "Página de Hospitation, taxa e documentos do HDZ não encontrados",
+    "Abertura do HTx Seminar a estrangeiros não confirmada",
+    "Só 1 artigo 2022–2026 com PMID confirmado",
+    "Brasileiros e pontes com Unifesp/SP não encontrados"
+   ]
+  },
+  {
+   "match": "Deutsches Herzzentrum München",
+   "alerta": "Desde 2023 a cirurgia congênita é conjunta DHM (TUM) + LMU no Europäisches Kinderherzzentrum; a cardiologia pediátrica do DHM segue própria (Ewert).",
+   "rota": [
+    "E-mail à secretaria do Prof. Ewert (cardiologia) ou do Prof. Hörer (cirurgia) pedindo Hospitation de 4 semanas",
+    "Citar o paper Norwood 2024 (ezae058) e o EKHZ",
+    "Candidatura formal via bewerbung@dhm.mhn.de com CV, carta da Unifesp e atestado de saúde",
+    "Alternativa: Hospitation/Gastärzte do LMU Klinikum dentro do EKHZ"
+   ],
+   "prazos": [
+    {
+     "txt": "Atestado de saúde (Gesundheitsbescheinigung) com no máximo 8 semanas antes do início",
+     "url": "https://www.deutsches-herzzentrum-muenchen.de/app/uploads/2021/11/gesundheitsbescheinigung-deutsch.pdf",
+     "certeza": "confirmado"
+    }
+   ],
+   "programa": {
+    "resumo": "Sem página DHM de Hospitation; o parceiro LMU descreve Hospitation como observação pura, sem remuneração, exigindo independência financeira. Elegibilidade de estrangeiro não publicada pelo DHM.",
+    "url": "https://lmu-klinikum.de/hauner/kinder-und-kinderpoliklinik/studium-fort-und-weiterbildung/hospitation-gastarzte/eb6606e31df5928a",
+    "contato": "bewerbung@dhm.mhn.de (candidaturas; uso para Hospitation provável)",
+    "documentos": "Atestado de saúde (≤8 semanas, custo não coberto pelo DHM)",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Peter Ewert",
+     "cargo": "Direktor Kinderkardiologie/angeborene Herzfehler; Ärztlicher Direktor DHM",
+     "papel": "Decide em cardiologia congênita",
+     "url": "https://www.tum.de/aktuelles/alle-meldungen/pressemitteilungen/details/50-jahre-deutsches-herzzentrum-muenchen",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Jürgen Hörer",
+     "cargo": "Direktor, Chirurgie angeborener Herzfehler und Kinderherzchirurgie (TUM)",
+     "papel": "Decide para cirurgia CV; pesquisa ativa",
+     "url": "https://www.professoren.tum.de/hoerer-juergen",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Masamichi Ono",
+     "cargo": "Cirurgião",
+     "papel": "Estudos Norwood/Fontan",
+     "url": "https://ouci.dntb.gov.ua/works/4VOEy3bl",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Julie Cleuziou",
+     "cargo": "Cirurgiã congênita",
+     "papel": "Valva tricúspide, ACHD",
+     "url": "https://epub.ub.uni-muenchen.de/view/autoren/H=F6rer=3AJ=FCrgen=3A=3A.html",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "Longitudinal analysis of systemic ventricular function and atrioventricular valve function after the Norwood procedure",
+     "ano": 2024,
+     "id": "10.1093/ejcts/ezae058",
+     "url": "https://ouci.dntb.gov.ua/works/4VOEy3bl"
+    },
+    {
+     "titulo": "Desfechos relatados por pacientes a longo prazo em adultos operados de cardiopatia congênita no DHM",
+     "ano": 2024,
+     "id": "10.3389/fcvm.2024.1501680",
+     "url": "https://www.frontiersin.org/articles/10.3389/fcvm.2024.1501680/full"
+    },
+    {
+     "titulo": "Incidence, pathophysiology and treatment of failing Fontan after the total cavopulmonary connection",
+     "ano": 2024,
+     "id": null,
+     "url": "https://core-prod.cambridgecore.org/core/services/aop-cambridge-core/content/view/F20E01F50A80ADE4FBCB9404822A269B/S1047951124025782a.pdf/incidence-pathophysiology-and-treatment-of-failing-fontan-after-the-total-cavopulmonary-connection.pdf"
+    }
+   ],
+   "dicas": [
+    "EKHZ se diz a maior cirurgia cardíaca pediátrica da Alemanha (2023)",
+    "Dá para pedir pelo DHM ou pelo LMU, que tem página formal de Hospitation/Gastärzte",
+    "Relato de estudante (2019) indica que o DHM recebe visitantes de ensino"
+   ],
+   "lacunas": [
+    "Página DHM de Hospitation e taxa não encontradas",
+    "Permanência de Ewert nos cargos em 2025–26 não confirmada",
+    "Autores da coautoria DHM + Einstein (EJCTS 2025) não identificados",
+    "Brasileiros não encontrados"
+   ]
+  },
+  {
+   "match": "Harefield Hospital (Royal Brompton & Harefield)",
+   "alerta": "O trust atual é o Guy's and St Thomas' NHS Foundation Trust (fusão em 2021); o site rbht.nhs.uk segue ativo.",
+   "rota": [
+    "E-mail ao Dr Fernando Riesgo Gil (cardiologia de transplante) ou ao Prof. John Dunning, citando DCD/MCS",
+    "Pedir observership de 4 semanas e perguntar o processo do Trust",
+    "Em paralelo, contatar a educação médica do Guy's and St Thomas' sobre formulário de clinical observer",
+    "Alternativa: perguntar sobre o core thoracic transplant course (Khoshbin)"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Sem programa público de observership para internacionais em RBH/Harefield; a política provavelmente fica no nível do Guy's and St Thomas'. Pedir a um consultor que patrocine um honorary observer.",
+    "url": "https://www.rbht.nhs.uk/our-services/heart/transplantation-heart",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "John Dunning",
+     "cargo": "Director, heart & lung transplantation and circulatory support",
+     "papel": "Decide/hospeda no serviço cirúrgico",
+     "url": "https://www.rbht.nhs.uk/specialists/professor-john-dunning",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Fernando Riesgo Gil",
+     "cargo": "Consultant cardiologist; clinical lead for heart transplantation",
+     "papel": "Contato ideal para residente de cardiologia",
+     "url": "https://alumni.rbht.nhs.uk/news/2837464",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Espeed Khoshbin",
+     "cargo": "Consultant cardiac surgeon; Director, core thoracic transplant course",
+     "papel": "Possível porta educacional",
+     "url": "https://www.ctsnet.org/home/ekhoshbin",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Aravinda Abraham",
+     "cargo": "Consultant cardiac surgery and transplant",
+     "papel": "Consultor recente do time de transplante",
+     "url": "https://scts.org/patients/consultants/25870b2c-b1ec-44df-b537-e2854b989c0a/mr_aravinda_abraham_page",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "Guideline britânico de manejo de emergências em portadores de LVAD em centros de transplante (Intensive Care Medicine)",
+     "ano": 2024,
+     "id": null,
+     "url": "https://ufhealth.org/doctors/john-dunning/research"
+    }
+   ],
+   "dicas": [
+    "2024/25: 36 transplantes cardíacos, o maior número entre centros do Reino Unido: https://guysandstthomas.nhs.uk/news/harefield-hospitals-transplant-unit-welcomes-national-initiative",
+    "Forte em transplante DCD e suporte circulatório (ECMO/VAD): bom gancho temático",
+    "Existe Joint ECMO Fellowship RBH/Harefield: https://beta.jobs.nhs.uk/candidate/jobadvert/C9196-23-2545",
+    "Modelo de referência em Londres: observership internacional do Imperial (https://www.imperial.nhs.uk/education/medicine/clinical-observership-programmes)"
+   ],
+   "lacunas": [
+    "Política de observer do Trust, taxa, documentos e contato oficial não encontrados",
+    "Abertura do core thoracic transplant course a estrangeiros não confirmada",
+    "Artigos 2022–2026 com PMID/DOI não encontrados",
+    "Brasileiros e pontes com Unifesp/SP não encontrados"
+   ]
+  },
+  {
+   "match": "Hôpital Necker-Enfants malades",
+   "alerta": null,
+   "rota": [
+    "E-mail (idealmente em francês) ao Pr Bonnet (cardiologia) ou Pr Raisky (cirurgia) pedindo 'stage d'observation' de 4 semanas",
+    "Com o aceite do chefe de serviço, formalizar via Direction des Relations Internationales da AP-HP como stagiaire observateur"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Sem programa próprio do serviço; a AP-HP recebe estrangeiros como 'stagiaire observateur' (sem prática) ou 'stagiaire associé' (com prática e convenção). Para 1 mês, a via provável é stagiaire observateur.",
+    "url": "https://www.aphp.fr/nous-connaitre/international/laccueil-des-professionnels-de-sante-etrangers-welcoming-foreign",
+    "contato": "Direction des Relations Internationales da AP-HP (página oficial de acolhimento)",
+    "documentos": "Stagiaire associé: convenção assinada, visto iniciado pelo acolhedor, diploma e prova de vínculo com a instituição de origem",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Olivier Raisky",
+     "cargo": "Chef de service, chirurgie cardiaque pédiatrique",
+     "papel": "Decide quem observa no bloco",
+     "url": "https://www.aphp.fr/pr-raisky-olivier",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Damien Bonnet",
+     "cargo": "Chef, cardiologie médicale pédiatrique; coordenador M3C",
+     "papel": "Porta para residente de cardiologia (fetal ao adulto congênito)",
+     "url": "https://www.aphp.fr/necker-enfants-malades/service-de-cardiologie-medicale-pediatrique",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Alexander Moiroux-Sahraoui",
+     "cargo": "Cirurgião, chirurgie cardiaque pédiatrique",
+     "papel": "Staff do serviço",
+     "url": "https://www.aphp.fr/dr-moiroux-sahraoui-alexander",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Margaux Pontailler",
+     "cargo": "Cirurgiã, chirurgie cardiaque pédiatrique",
+     "papel": "Staff do serviço",
+     "url": "https://www.aphp.fr/dr-pontailler-margaux",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "Francês ajuda muito",
+    "Em 2024 a AP-HP fez 78 acolhimentos de stagiaires d'observation",
+    "M3C é centro de referência nacional, o maior da Europa em cardiopatias congênitas",
+    "~940 pacientes operados/ano no bloco (dado de 2019); novo bloco de cirurgia cardíaca pediátrica em projeto (2025)"
+   ],
+   "lacunas": [
+    "Taxa e antecedência do stage d'observation não encontradas",
+    "Artigos 2022–2026 do serviço com PMID/DOI não encontrados",
+    "Volume atualizado não encontrado",
+    "Brasileiros e pontes com Unifesp/SP não encontrados"
+   ]
+  },
+  {
+   "match": "AKH Wien / MedUni Wien",
+   "alerta": "O departamento passou a se chamar 'Universitätsklinik für Herz- und Thorakale Aortenchirurgie', chefiado por Daniel Zimpfer.",
+   "rota": [
+    "E-mail ao Prof. Zuckermann citando DCD/machine perfusion (PMID 41489975) e os 40 anos do programa",
+    "Pedir Hospitation de 4 semanas e o trâmite de Gastarzt/observer do AKH",
+    "Preparar carta da Unifesp (e possível acordo de cooperação)"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Sem página de observership da cirurgia cardíaca; na Áustria o Gastarzt costuma depender de acordo entre médico, instituição de origem e hospital. A ESAIC lista observership na MedUni Wien (anestesiologia, sem contato direto com pacientes), incluindo cardíaca/transplante.",
+    "url": "https://esaic.org/wp-content/uploads/2026/06/Medical-University-of-Vienna-Information.pdf",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Andreas Zuckermann",
+     "cargo": "Head, Heart Transplant Program; 2º vice-chefe do departamento",
+     "papel": "Decide/hospeda em transplante",
+     "url": "https://www.eacts.org/faculty/andreas-zuckermann/",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Daniel Zimpfer",
+     "cargo": "Chefe da Universitätsklinik für Herz- und Thorakale Aortenchirurgie",
+     "papel": "Autoriza visitantes; expert em MCS/LVAD",
+     "url": "https://www.meduniwien.ac.at/web/en/about-us/news/detail/inaugural-lectures-in-cardiac-and-thoracic-surgery/",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Arezu Aliabadi-Zuckermann",
+     "cargo": "Líder de DCD e machine perfusion",
+     "papel": "Pesquisa ativa: gancho para e-mail",
+     "url": "https://herzchirurgie.meduniwien.ac.at/en/ueber-uns/spezialprogramme/herztransplantation/team",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "Ferroptosis Blockade During Machine Perfusion: A New Lever for Donation After Circulatory Death Heart Transplantation?",
+     "ano": 2026,
+     "id": "PMID 41489975",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/41489975/"
+    },
+    {
+     "titulo": "Donor heart selection and outcomes: an analysis of over 2,000 cases",
+     "ano": 2018,
+     "id": "10.1016/j.healun.2018.04.014",
+     "url": "https://heibib.ub.uni-heidelberg.de/search/Record/1697230555"
+    }
+   ],
+   "dicas": [
+    "40–50 transplantes cardíacos/ano, >1.700 no total: https://www.meduniwien.ac.at/web/en/ueber-uns/news/2024/news-im-april-2024/40-years-of-heart-transplantation-in-vienna-a-success-story/",
+    "Departamento em expansão: concurso para professura de cirurgia cardíaca pediátrica e Kinderherzzentrum (2026)",
+    "Vistos/certificados de Gastarzt exigem antecedência: https://praktischarzt.at/?p=59129"
+   ],
+   "lacunas": [
+    "Página de observership da cirurgia cardíaca, taxa e documentos não encontrados",
+    "Contato oficial de ensino não encontrado",
+    "Brasileiros não encontrados",
+    "Pontes com Unifesp/SP não encontradas"
+   ]
+  },
+  {
+   "match": "Royal Children's Hospital Melbourne",
+   "alerta": "A URL do radar aponta para Cardiology; para cirurgia/congênitas a página da unidade é https://www.rch.org.au/cardiac_surg/",
+   "rota": [
+    "E-mail ao Prof. Brizard (ou Konstantinov) pedindo observership de 4 semanas na Cardiac Surgery Unit, citando AVSD/Fontan",
+    "Sem resposta: usar paediatric.surgery@rch.org.au pedindo encaminhamento à cirurgia cardíaca",
+    "Residente de cardiologia: contatar o Department of Cardiology",
+    "Planejar visto de visitante com meses de antecedência"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Sem observership específico da cirurgia cardíaca publicado; a Paediatric Surgery tem 'Clinical observership' com contato oficial, e há registro de observer estrangeiro na unidade cardiotorácica em 2024.",
+    "url": "https://www.rch.org.au/paed-surgery/clinical-observership/",
+    "contato": "paediatric.surgery@rch.org.au (secretaria da Paediatric Surgery)",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Christian Brizard",
+     "cargo": "Director, Cardiac Surgery Unit",
+     "papel": "Decide visitantes na cirurgia cardíaca",
+     "url": "https://www.rch.org.au/cardiac_surg/Staff/",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Igor Konstantinov",
+     "cargo": "Consultant cardiothoracic surgeon; Professor, Dept of Paediatrics, Univ. Melbourne",
+     "papel": "Líder acadêmico (AVSD, Fontan)",
+     "url": "https://www.rch.org.au/cardiac_surg/Staff/",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Edward Buratto",
+     "cargo": "Consultant cardiothoracic surgeon (RCH e Royal Melbourne)",
+     "papel": "Pesquisa AVSD/outcomes",
+     "url": "https://www.ctsnet.org/members/edward-buratto/",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "~700 operações/ano; único provedor de cirurgia cardíaca pediátrica para VIC, TAS, SA e NT",
+    "Fellowship in Paediatric Cardiac Surgery é de 12 meses e muito competitivo (não serve para 1 mês)",
+    "ANZ Fontan Registry é linha de pesquisa forte: bom gancho",
+    "Há Paediatric Cardiology VAD & Heart Transplant Fellow (programa de transplante/VAD pediátrico)"
+   ],
+   "lacunas": [
+    "Observership específico da cirurgia cardíaca, taxa e documentos não encontrados",
+    "Artigos 2022–2026 com PMID/DOI não encontrados",
+    "Brasileiros não encontrados",
+    "Pontes com Unifesp/SP não encontradas"
+   ]
+  }
+ ],
+ "pontes_brasil": [
+  {
+   "nome": "Matheus Simonato",
+   "onde": "Escola Paulista de Medicina/UNIFESP",
+   "ligacao": "Dupla afiliação EPM/UNIFESP + St. Paul's; coordenador científico do registro VIVID com coautores do CHVI",
+   "centros": [
+    "St. Paul's Hospital — Centre for Heart Valve Innovation"
+   ],
+   "url": "https://www.elsevier.es/en-revista-revista-brasileira-cardiologia-invasiva-english-234-articulo-aortic-valve-in-valve-hemodynamic-outcomes-where-S2214123516300023",
+   "certeza": "confirmado"
+  },
+  {
+   "nome": "José Honório Palma",
+   "onde": "UNIFESP (cirurgião)",
+   "ligacao": "Coautor com Simonato de revisão ViV TAVR (Structural Heart 2025); ponte indireta ao CHVI",
+   "centros": [
+    "St. Paul's Hospital — Centre for Heart Valve Innovation"
+   ],
+   "url": "https://profiles.wustl.edu/en/publications/the-essential-aortic-valve-in-valve-transcatheter-aortic-valve-re-2/",
+   "certeza": "provável"
+  },
+  {
+   "nome": "Registro VIVID (InCor-USP, EPM/UNIFESP, Einstein)",
+   "onde": "São Paulo",
+   "ligacao": "Coautorias com St. Paul's (Leipsic, Sathananthan) em artigos VIVID (EHJ 2018; stentless vs stented 2019)",
+   "centros": [
+    "St. Paul's Hospital — Centre for Heart Valve Innovation"
+   ],
+   "url": "https://pesquisa.bvsalud.org/bvsiec/resource/pt/mdl-31202944",
+   "certeza": "provável"
+  },
+  {
+   "nome": "Hospital Israelita Albert Einstein",
+   "onde": "São Paulo",
+   "ligacao": "Afiliação da cirurgia torácica do Einstein no mesmo artigo EJCTS 2025 que a cirurgia congênita do DHM (autores não identificados)",
+   "centros": [
+    "Deutsches Herzzentrum München"
+   ],
+   "url": "https://www.ovid.com/journals/ejcts/pdf/10.1093/ejcts/ezaf205~gender-disparities-in-authorship-in-european-cardio-thoracic",
+   "certeza": "provável"
+  },
+  {
+   "nome": "SBHCI",
+   "onde": "Brasil",
+   "ligacao": "Eventos conjuntos SOLACI-SBHCI (2023); ICBA é centro SOLACI — ponte indireta",
+   "centros": [
+    "Instituto Cardiovascular de Buenos Aires (ICBA)"
+   ],
+   "url": "https://solaci.org/en/2023/08/04/1st-mint-mil-symposium-for-women-interventionists-held-at-solaci-sbhci-2023/",
+   "certeza": "provável"
+  }
+ ]
+}

@@ -1,0 +1,171 @@
+[
+ {
+  "match": "Harefield Hospital (Royal Brompton & Harefield)",
+  "programa": {
+   "status": "não encontrado programa formal de observership para médicos internacionais em RBH/Harefield",
+   "contexto": "RBH e Harefield fazem parte do Guy's and St Thomas' NHS Foundation Trust desde fev/2021; qualquer política de observer provavelmente fica no nível do Trust (educação/medical staffing).",
+   "fontes": [
+    {"url": "https://www.rbht.nhs.uk/our-services/heart/transplantation-heart", "trecho": "página do serviço de transplante cardíaco (sem menção a observership nos trechos)"},
+    {"url": "https://www.imperial.nhs.uk/education/medicine/clinical-observership-programmes", "trecho": "outro trust de Londres (Imperial) com programa de observership internacional — janela fechada; referência de modelo, não de Harefield"}
+   ],
+   "porta_lateral": "Harefield oferece o 'core thoracic transplant course' (diretor: Espeed Khoshbin) — possível porta de entrada/contato, mas não confirmado se aberto a estrangeiros.",
+   "certeza": "confirmado que não há página pública encontrada; política do Trust = provável"
+  },
+  "servico": {
+   "nome": "Transplantation and Mechanical Circulatory Support (heart & lung transplantation), Harefield Hospital",
+   "chefe": "Prof. John Dunning — consultant cardiothoracic surgeon e director of heart and lung transplantation and circulatory support (voltou ao Reino Unido em nov/2021)",
+   "lider_clinico_cardiologia": "Dr Fernando Riesgo Gil — clinical lead for heart transplantation (cardiologista, IC avançada/transplante/VAD)",
+   "volume": "2024/25: 36 transplantes cardíacos e 26 pulmonares — 'highest number of heart transplants carried out by a transplant centre in the UK' (dado da própria instituição); anúncio de set/2025: ~50 corações e ~30 pulmões/ano, meta de ≥70 corações/ano em 3 anos",
+   "fontes": [
+    {"url": "https://www.rbht.nhs.uk/specialists/professor-john-dunning", "trecho": "director of heart and lung transplantation and circulatory support at Harefield Hospital"},
+    {"url": "https://guysandstthomas.nhs.uk/news/harefield-hospitals-transplant-unit-welcomes-national-initiative", "trecho": "In 2024/25, Harefield performed 36 heart transplants and 26 lung transplants. This is the highest number of heart transplants ..."},
+    {"url": "https://alumni.rbht.nhs.uk/news/2837464", "trecho": "Reconnect with Dr Fernando Riesgo Gil (clinical lead for heart transplantation)"}
+   ],
+   "certeza": "Dunning = provável/confirmado (perfil oficial sem data); volume = confirmado (fonte institucional)"
+  },
+  "pessoas_chave": [
+   {"nome": "Prof. John Dunning", "cargo": "Director, heart & lung transplantation and MCS, Harefield", "por_que": "decide/hospeda no serviço cirúrgico de transplante", "fonte": "https://www.rbht.nhs.uk/specialists/professor-john-dunning"},
+   {"nome": "Dr Fernando Riesgo Gil", "cargo": "Consultant cardiologist; clinical lead for heart transplantation", "por_que": "contato ideal para residente de cardiologia (IC avançada/transplante/VAD)", "fonte": "https://alumni.rbht.nhs.uk/news/2837464"},
+   {"nome": "Mr Espeed Khoshbin", "cargo": "Consultant cardiac surgeon; NHS lead for organ utilisation; Director do Harefield core thoracic transplant course", "por_que": "dirige curso de transplante — possível porta educacional", "fonte": "https://www.ctsnet.org/home/ekhoshbin"},
+   {"nome": "Mr Aravinda Abraham", "cargo": "Consultant cardiac surgery and transplant (nomeado 2024)", "por_que": "consultor recente do time de transplante", "fonte": "https://scts.org/patients/consultants/25870b2c-b1ec-44df-b537-e2854b989c0a/mr_aravinda_abraham_page"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado (nenhuma coautoria Harefield + Unifesp/InCor/Dante apareceu nas buscas)",
+  "pesquisa_recente": [
+   {"titulo": "Guideline das sociedades britânicas sobre manejo de emergências em portadores de LVAD em centros de transplante (Intensive Care Medicine)", "ano": 2024, "id": "não encontrado (listado na publicação de Dunning em ufhealth.org)", "fonte": "https://ufhealth.org/doctors/john-dunning/research", "certeza": "provável (lista de publicações; papel de Dunning não claro)"},
+   {"titulo": "Estudo transcontinental NRP vs direct procurement and perfusion em transplante cardíaco DCD, 22 centros (Bélgica, Espanha, UK, EUA), 504 transplantes — J Heart Lung Transplant", "ano": 2024, "id": "não encontrado", "fonte": "https://orbi.uliege.be/handle/2268/346383", "certeza": "provável (participação de Harefield indicada por autores na listagem, não confirmada)"},
+   {"titulo": "Trabalhos de 2023 sobre transplante cardíaco DCD (lista de Dunning)", "ano": 2023, "id": "não encontrado", "fonte": "https://ufhealth.org/doctors/john-dunning/research", "certeza": "provável"}
+  ],
+  "dicas": [
+   "Harefield é forte em DCD heart transplantation e suporte circulatório mecânico (ECMO/VAD) — bom gancho temático para e-mail.",
+   "Existe 'Joint ECMO Fellowship - Royal Brompton and Harefield' (vaga NHS) — indica estrutura de ensino em suporte circulatório: https://beta.jobs.nhs.uk/candidate/jobadvert/C9196-23-2545",
+   "Sem programa formal: pedir ao consultor-alvo (Riesgo Gil/Dunning) que patrocine um honorary observer e checar com a área de educação do Guy's and St Thomas'."
+  ],
+  "rota_recomendada": "1) E-mail personalizado ao Dr Riesgo Gil (cardiologia de transplante) ou Prof. Dunning citando DCD/MCS, pedindo observership de 4 semanas e perguntando o processo do Trust; 2) em paralelo, contatar a educação médica do Guy's and St Thomas' para formulário de clinical observer; 3) alternativa: perguntar sobre o core thoracic transplant course (Khoshbin).",
+  "alerta_correcao": "Trust atual é Guy's and St Thomas' NHS Foundation Trust (RBH&H fundiu em 2021); site rbht.nhs.uk segue ativo."
+ },
+ {
+  "match": "Hôpital Necker-Enfants malades",
+  "programa": {
+   "status": "não encontrado programa de observership próprio do serviço; via oficial AP-HP para profissionais estrangeiros",
+   "via_aphp": "AP-HP (Direction des Relations Internationales) distingue 'stagiaire observateur' (sem prática) e 'stagiaire associé' (com prática, exige convenção). Em 2024: 84 convenções de stagiaires associés (médicos fora da UE) e 78 acolhimentos de stagiaires d'observation.",
+   "documentos_stagiaire_associe": "convenção assinada pelo médico, diretor do hospital, médico supervisor, organismo de cooperação internacional; visto iniciado pela estrutura de acolhimento; diploma; prova de vínculo com instituição de origem (base legal CSP L.6134-1, R.6134-2). Para 1 mês, o 'stagiaire observateur' é a via provável.",
+   "fontes": [
+    {"url": "https://www.aphp.fr/nous-connaitre/international/laccueil-des-professionnels-de-sante-etrangers-welcoming-foreign", "trecho": "L'accueil des professionnels de santé étrangers / Welcoming foreign healthcare professionals"},
+    {"url": "https://cme.aphp.fr/sites/default/files/CMEDoc/comiteinternes27fevrier2018_relationsinternationales.pdf", "trecho": "stagiaire observateur, stagiaire associé"}
+   ],
+   "certeza": "confirmado que existe via AP-HP; detalhes de taxa/antecedência = não encontrado"
+  },
+  "servico": {
+   "nome": "Service de Chirurgie cardiaque pédiatrique (Necker-Enfants malades, 149 rue de Sèvres, 75015) + Service de Cardiologie médicale pédiatrique; centro de referência M3C",
+   "chefe": "Pr Olivier Raisky (chef de service, cirurgia cardíaca pediátrica)",
+   "cardiologia_pediatrica": "Pr Damien Bonnet — chefe da cardiologia médica pediátrica e coordenador do centro de referência M3C (malformações cardíacas congênitas complexas)",
+   "volume": "~940 pacientes operados/ano no bloco de cirurgia cardíaca pediátrica (fiche de poste 2019); fonte secundária não oficial cita 1.200 operações/ano; projeto 2025 de novo bloco de cirurgia cardíaca pediátrica (22 M€ total)",
+   "fontes": [
+    {"url": "https://www.aphp.fr/necker-enfants-malades/service-de-chirurgie-cardiaque-pediatrique", "trecho": "Chef de service : Pr OLIVIER RAISKY"},
+    {"url": "https://www.aphp.fr/necker-enfants-malades/service-de-cardiologie-medicale-pediatrique", "trecho": "Pr Damien Bonnet est le médecin coordonnateur du centre de référence des malformations cardiaques congénitales complexes (M3C)"},
+    {"url": "https://hopital-necker.aphp.fr/wp-content/blogs.dir/13/files/2019/03/Fiche-de-poste-IBODE-Bloc-chirurgie-cardiaque.pdf", "trecho": "environ 940 patients opérés par an (2019)"},
+    {"url": "https://maladiesrares-necker.aphp.fr/m3c-eng/", "trecho": "largest European center for the care of congenital heart diseases from fetal life to adulthood"}
+   ],
+   "certeza": "chefias = confirmado; volume = provável (dado antigo)"
+  },
+  "pessoas_chave": [
+   {"nome": "Pr Olivier Raisky", "cargo": "Chef de service, chirurgie cardiaque pédiatrique", "por_que": "decide quem observa no bloco", "fonte": "https://www.aphp.fr/pr-raisky-olivier"},
+   {"nome": "Pr Damien Bonnet", "cargo": "Chef, cardiologie médicale pédiatrique; coordenador M3C", "por_que": "porta para residente de cardiologia (congênitas/feto/adulto congênito)", "fonte": "https://www.aphp.fr/necker-enfants-malades/service-de-cardiologie-medicale-pediatrique"},
+   {"nome": "Dr Alexander Moiroux-Sahraoui", "cargo": "Cirurgião, chirurgie cardiaque pédiatrique", "por_que": "staff do serviço", "fonte": "https://www.aphp.fr/dr-moiroux-sahraoui-alexander"},
+   {"nome": "Dr Margaux Pontailler", "cargo": "Cirurgiã, chirurgie cardiaque pédiatrique", "por_que": "staff do serviço", "fonte": "https://www.aphp.fr/dr-pontailler-margaux"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": "não encontrado (buscas não retornaram artigos 2022–2026 do serviço com PMID/DOI; sugerir PubMed 'Raisky O[au]' e 'Bonnet D[au] Necker')",
+  "dicas": [
+   "Francês ajuda muito: a distinção 'stagiaire observateur' (sem contato assistencial) é o formato natural para 1 mês.",
+   "O pedido deve partir do aceite do chefe de serviço; a DRI da AP-HP formaliza.",
+   "M3C (Bonnet) é centro de referência nacional: bom gancho para cardiologista (fetal → adulto congênito)."
+  ],
+  "rota_recomendada": "1) E-mail (idealmente em francês) ao Pr Bonnet (se cardiologia) ou Pr Raisky (se cirurgia), pedindo 'stage d'observation' de 4 semanas; 2) com o aceite, formalizar via Direction des Relations Internationales da AP-HP como stagiaire observateur.",
+  "alerta_correcao": null
+ },
+ {
+  "match": "AKH Wien / MedUni Wien",
+  "programa": {
+   "status": "não encontrado página de observership da cirurgia cardíaca; ESAIC lista MedUni Wien com vagas de observership (sem contato direto com pacientes) incluindo cardíaca/transplante — mas é programa da anestesiologia (ESAIC)",
+   "fontes": [
+    {"url": "https://esaic.org/wp-content/uploads/2026/06/Medical-University-of-Vienna-Information.pdf", "trecho": "Observership (will not provide patient care with direct patient contact)"},
+    {"url": "https://praktischarzt.at/?p=59129", "trecho": "Gastarzt na Áustria geralmente via acordo de cooperação entre médico, instituição de origem e hospital; vistos/certificados exigem antecedência"}
+   ],
+   "certeza": "provável (sem página oficial do departamento)"
+  },
+  "servico": {
+   "nome": "Universitätsklinik für Herz- und Thorakale Aortenchirurgie (antes Universitätsklinik für Herzchirurgie), MedUni Wien/AKH — programa de transplante cardíaco",
+   "chefe": "Prof. Daniel Zimpfer (assumiu em 2024, sucedendo Günther Laufer, aposentado em out/2023)",
+   "transplante": "Prof. Andreas Zuckermann — Head of the Heart Transplant Program desde 2006; 2º vice-chefe do departamento desde abr/2024. Arezu Aliabadi-Zuckermann — líder de DCD e machine perfusion.",
+   "volume": "40–50 transplantes cardíacos/ano, >1.700 no total; ~85% sobrevivem >5 anos e 75% >10 anos (MedUni Wien, abr/2024)",
+   "fontes": [
+    {"url": "https://www.meduniwien.ac.at/web/en/ueber-uns/news/2024/news-im-april-2024/40-years-of-heart-transplantation-in-vienna-a-success-story/", "trecho": "an average of 40 to 50 heart transplants ... over 1,700"},
+    {"url": "https://www.eacts.org/faculty/andreas-zuckermann/", "trecho": "Head of the Heart Transplant Program at MedUni Vienna since 2006 ... Second Deputy Head ... since April 2024"},
+    {"url": "https://herzchirurgie.meduniwien.ac.at/en/ueber-uns/spezialprogramme/herztransplantation/team", "trecho": "equipe do programa de transplante (Zuckermann; Aliabadi-Zuckermann DCD/machine perfusion)"},
+    {"url": "https://www.meduniwien.ac.at/web/en/about-us/news/detail/inaugural-lectures-in-cardiac-and-thoracic-surgery/", "trecho": "Zimpfer ... leadership of the Universitätsklinik für Herzchirurgie from 2024"}
+   ],
+   "certeza": "confirmado"
+  },
+  "pessoas_chave": [
+   {"nome": "Prof. Andreas Zuckermann", "cargo": "Head, Heart Transplant Program; 2º vice-chefe", "por_que": "decide/hospeda em transplante", "fonte": "https://www.eacts.org/faculty/andreas-zuckermann/"},
+   {"nome": "Prof. Daniel Zimpfer", "cargo": "Chefe da Universitätsklinik für Herz- und Thorakale Aortenchirurgie", "por_que": "autoriza visitantes no departamento; expert em MCS/LVAD", "fonte": "https://www.meduniwien.ac.at/web/en/about-us/news/detail/inaugural-lectures-in-cardiac-and-thoracic-surgery/"},
+   {"nome": "Dr Arezu Aliabadi-Zuckermann", "cargo": "Líder DCD e machine perfusion", "por_que": "pesquisa ativa — gancho para e-mail", "fonte": "https://herzchirurgie.meduniwien.ac.at/en/ueber-uns/spezialprogramme/herztransplantation/team"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {"titulo": "Ferroptosis Blockade During Machine Perfusion: A New Lever for Donation After Circulatory Death Heart Transplantation?", "ano": 2026, "id": "PMID 41489975", "fonte": "https://pubmed.ncbi.nlm.nih.gov/41489975/", "certeza": "confirmado"},
+   {"titulo": "40 anos de transplante cardíaco em Viena (press release com resultados)", "ano": 2024, "id": "n/a (não é artigo)", "fonte": "https://www.meduniwien.ac.at/web/fileadmin/content/presseservice/presseaussendungen/pdf_2024/PA_40_Jahre_Herztransplantation.pdf", "certeza": "confirmado"},
+   {"titulo": "Donor heart selection and outcomes: an analysis of over 2,000 cases (JHLT 37(8):976-984) — anterior a 2022, só como contexto", "ano": 2018, "id": "DOI 10.1016/j.healun.2018.04.014", "fonte": "https://heibib.ub.uni-heidelberg.de/search/Record/1697230555", "certeza": "confirmado"}
+  ],
+  "dicas": [
+   "Em 2026 a MedUni Wien abriu concurso para professura de cirurgia cardíaca pediátrica e anunciou Kinderherzzentrum — departamento em expansão.",
+   "Formato austríaco 'Hospitation'/Gastarzt costuma exigir carta da instituição de origem (Unifesp) e às vezes acordo de cooperação."
+  ],
+  "rota_recomendada": "1) E-mail ao Prof. Zuckermann citando DCD/machine perfusion (PMID 41489975) e os 40 anos do programa, pedindo Hospitation de 4 semanas; 2) pedir que indique o trâmite de Gastarzt/observer do AKH e preparar carta da Unifesp.",
+  "alerta_correcao": "Nome do departamento mudou para 'Universitätsklinik für Herz- und Thorakale Aortenchirurgie' (2026); chefe Daniel Zimpfer."
+ },
+ {
+  "match": "Royal Children's Hospital Melbourne",
+  "programa": {
+   "status": "não encontrado observership específica da cirurgia cardíaca; existe 'Clinical observership' da Paediatric Surgery (geral) com contato oficial; CTSNet registra observership de um cirurgião estrangeiro no cardio-thoracic unit em 2024 (prova de que ocorre)",
+   "contato_oficial": "paediatric.surgery@rch.org.au (departmental secretary — página de observership da cirurgia pediátrica geral)",
+   "fontes": [
+    {"url": "https://www.rch.org.au/paed-surgery/clinical-observership/", "trecho": "applications should be sent to the Departmental secretary at paediatric.surgery@rch.org.au"},
+    {"url": "https://www.ctsnet.org/members/bobur-turaev/", "trecho": "Observership – Cardio-thoracic unit, Royal Childrens' Hopital, Melbourne, Australia (2024)"}
+   ],
+   "taxa_documentos": "não encontrado",
+   "certeza": "confirmado (existência); cardíaco específico = provável"
+  },
+  "servico": {
+   "nome": "Cardiac Surgery Unit (RCH) + Department of Cardiology; Nationally Funded Centre para transplante cardíaco pediátrico",
+   "chefe": "Prof. Christian Brizard — Director of the Cardiac Surgery Unit (página da equipe sem data; lidera desde 2000)",
+   "fellowship": "Fellowship in Paediatric Cardiac Surgery — 12 meses, remunerado, muito competitivo (não serve para 1 mês)",
+   "volume": "~700 operações/ano (página da unidade, sem data); >530 cirurgias abertas/ano (vaga de emprego); único provedor de cirurgia cardíaca pediátrica para VIC, TAS, SA e NT",
+   "fontes": [
+    {"url": "https://www.rch.org.au/cardiac_surg/Staff/", "trecho": "Director of the Cardiac Surgery Unit at the Royal Children's Hospital"},
+    {"url": "https://www.rch.org.au/cardiac_surg/", "trecho": "currently performs 700 operations per year"},
+    {"url": "https://www.rch.org.au/cardiac_surg/surgical_training/Fellowship_in_Paediatric_Cardiac_Surgery/", "trecho": "highly competitive"}
+   ],
+   "certeza": "Brizard = provável (página sem data); volume = confirmado (fonte oficial sem ano)"
+  },
+  "pessoas_chave": [
+   {"nome": "Prof. Christian Brizard", "cargo": "Director, Cardiac Surgery Unit", "por_que": "decide visitantes na cirurgia cardíaca", "fonte": "https://www.rch.org.au/cardiac_surg/Staff/"},
+   {"nome": "Prof. Igor Konstantinov", "cargo": "Consultant cardiothoracic surgeon; Professor, Dept of Paediatrics, Univ. Melbourne", "por_que": "líder acadêmico (AVSD, Fontan, outcomes de longo prazo)", "fonte": "https://www.rch.org.au/cardiac_surg/Staff/"},
+   {"nome": "Prof. Edward Buratto", "cargo": "Consultant cardiothoracic surgeon (RCH e Royal Melbourne)", "por_que": "pesquisador de AVSD/outcomes; ex-fellow", "fonte": "https://www.ctsnet.org/members/edward-buratto/"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": "não encontrado 2022–2026 com PMID/DOI nas buscas; trabalhos anteriores do grupo (Buratto/Konstantinov) sobre AVSD parcial (37 anos, 249 pacientes) e AVSD desbalanceado: https://findanexpert.unimelb.edu.au/scholarlywork/1224308-successful-atrioventricular-valve-repair-improves-long-term-outcomes-in-children-with-unbalanced-atrioventricular-septal-defect",
+  "dicas": [
+   "Registro australiano de Fontan (ANZ Fontan Registry, multicêntrico) é forte linha de pesquisa da região — bom gancho.",
+   "RCH também tem 'Paediatric Cardiology VAD & Heart Transplant Fellow' (cardiologia) — mostra programa de transplante/VAD pediátrico.",
+   "Distância/visto: Austrália exige visto de visitante; planejar com meses de antecedência."
+  ],
+  "rota_recomendada": "1) E-mail ao Prof. Brizard (ou Konstantinov) pedindo observership de 4 semanas na Cardiac Surgery Unit, citando AVSD/Fontan; 2) se não houver resposta, usar o canal oficial paediatric.surgery@rch.org.au pedindo encaminhamento à cirurgia cardíaca; 3) residente de cardiologia: contatar Department of Cardiology (fellowship training program).",
+  "alerta_correcao": "URL do radar aponta para Cardiology; para cirurgia/congênitas a página da unidade é https://www.rch.org.au/cardiac_surg/"
+ }
+]

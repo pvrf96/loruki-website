@@ -1,0 +1,177 @@
+[
+ {
+  "match": "UZ Brussel — Heart Rhythm Management Centre",
+  "cidade": "Bruxelas (Jette)", "pais": "Bélgica", "areas": ["eletrofisiologia"],
+  "programa": {
+   "observership_oficial": "não encontrado (nenhuma página pública de observership/visiting physician do UZ Brussel)",
+   "rotas_existentes": [
+    "EHRA Training Fellowships (ESC): o HRMC é centro anfitrião recorrente — 2024: 'Paul-Adrian Calburean (Romania) ... UZ HRMC Brussels' (1 ano ICD/CRT ou ablação); 2025: 'Zeynab Jebberi (Tunisia) ... Heart Rhythm Management Centre, Brussel' (1 ano ICD/CRT); listagens antigas incluem visitas de 4 semanas e 'observational programme' no centro — https://www.escardio.org/education/career-development/grants/EHRA-training-fellowships/ehra-training-fellowship-winners/ ; https://escardio.org/Education/Career-Development/Grants-and-fellowships/EHRA-training-fellowships-past-winners",
+    "Regras EHRA (call 2023): bolsa de '35 000 Euros per annum', prazo '15 November 2023'; trilha avançada de ablação exige '≥50 catheter ablations as first operator' — https://www.escardio.org/static-file/Escardio/Subspecialty/EHRA/Fellowships/ABLA%20Rules%20TF%20-%20FINAL.pdf ; existe também EHRA International Training Fellowship p/ não-europeus: https://www.escardio.org/Education/Career-Development/Grants-and-fellowships/EHRA-international-training-fellowships",
+    "VUB Postgraduate in Cardiac Electrophysiology and Pacing (ativo desde 2008; diretor Carlo de Asmundis; exige mestrado/diploma médico; voltado a cardiologistas) — https://www.vub.be/en/study/cardiac-electrophysiology-and-pacing ; admissão: https://vub.be/en/studying-vub/all-study-programmes-vub/bachelors-and-masters-programmes-vub/cardiac-electrophysiology-and-pacing/admission-and-enrolment"
+   ],
+   "elegibilidade_estrangeiro": "não encontrado para observership; EHRA fellowships recebem estrangeiros (romena, tunisiana etc. confirmados)",
+   "taxa": "não encontrado", "documentos": "não encontrado",
+   "regra_belga_relevante": "Decisão da Corte Constitucional belga sobre estágios de estrangeiros (art. 146): um 'stagemeester' só pode supervisionar um estagiário estrangeiro sem visto — https://nl.const-court.be/public/n/2019/2019-174n.pdf (provável aplicável só a estágio com atos clínicos)",
+   "contato_oficial": "página do serviço https://www.uzbrussel.be/web/heart-rhythm-management-centre (sem e-mail de ensino publicado nos resultados)",
+   "certeza": "confirmado: hospedagem EHRA; não encontrado: programa de observership próprio"
+  },
+  "servico": {
+   "nome": "Heart Rhythm Management Centre (HRMC), Centrum voor Hart- en Vaatziekten, UZ Brussel / VUB; grupo de pesquisa 'Heart Rhythm Research Brussels'",
+   "chefe": "Prof. Carlo de Asmundis — 'Chair of Heart Rhythm Management Center at Universitair Ziekenhuis Brussel' (https://esc365.escardio.org/person/33031); EACTS: 'director of the HRMC at UZ Brussel', cofundador em 2006 com Pedro Brugada (https://eacts.org/faculty/carlo-de-asmundis)",
+   "diretor_fellowship": "Carlo de Asmundis — diretor do Postgraduate Training in Cardiac Electrophysiology & Pacing (VUB) (https://eacts.org/faculty/carlo-de-asmundis)",
+   "volume": "não encontrado (com ano)",
+   "certeza": "confirmado"
+  },
+  "pessoas_chave": [
+   {"nome": "Prof. Carlo de Asmundis", "cargo": "Chefe do HRMC; diretor do pós-graduação VUB em EP", "por_que": "decide entrada de visitantes/fellows", "fonte": "https://www.uzbrussel.be/pt/web/heart-rhythm-management-centre/doctors/-/asset_publisher/Na7T7TkVi4KU/content/prof-carlo-de-asmundis"},
+   {"nome": "Prof. Gian-Battista Chierchia", "cargo": "Eletrofisiologista intervencionista (staff); porta-voz do programa PFA (Sphere-360/Affera, release 2026)", "por_que": "lidera ablação por cateter/PFA — hospedaria no laboratório", "fonte": "https://www.uzbrussel.be/web/heart-rhythm-management-centre/doctors/-/asset_publisher/Na7T7TkVi4KU/content/prof-gian-battista-chierchia ; https://uz-brussel.prezly.com/uz-brussel-further-refines-treatment-for-patients-with-atrial-fibrillation-using-new-ablation-catheter"},
+   {"nome": "Prof. Pedro Brugada", "cargo": "Fundador do HRMC (staff listado)", "por_que": "nome histórico; síndrome de Brugada", "fonte": "https://www.uzbrussel.be/web/heart-rhythm-management-centre/doctors/-/asset_publisher/Na7T7TkVi4KU/content/prof-pedro-brugada"},
+   {"nome": "Prof. Andrea Sarkozy", "cargo": "Chefe da primeira clínica belga multidisciplinar de TV e morte súbita no UZ Brussel", "por_que": "TV/ablação ventricular", "fonte": "https://uzbrussel.be/web/international/home/-/asset_publisher/ugGyqUdZikV4/content/professor-sarkozy-to-head-the-first-belgian-multidisciplinary-clinic-for-ventricular-tachycardia-and-sudden-cardiac-death-at-uz-brussel/newsletter-dialog-link-url"},
+   {"nome": "Prof. Juan Sieira", "cargo": "Eletrofisiologista (staff)", "por_que": "staff do serviço", "fonte": "https://www.uzbrussel.be/web/heart-rhythm-management-centre/doctors/-/asset_publisher/Na7T7TkVi4KU/content/prof-juan-sieira"}
+  ],
+  "brasileiros": "não encontrado (fellows EHRA listados são de Itália, Egito, Croácia, Rússia, Romênia, Tunísia)",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {"titulo": "Pulsed-field ablation beyond pulmonary vein for persistent atrial fibrillation: efficacy and impact on left atrial function", "ano": 2025, "pmid": "40457110", "doi": "10.1007/s10840-025-02080-1"},
+   {"titulo": "Different Approaches to Atrial Fibrillation Ablation in Heart Failure Patients: Temporal Trends and Clinical Outcomes (JACC Clin Electrophysiol)", "ano": 2025, "pmid": "39895449"},
+   {"titulo": "A Hybrid Minimally Invasive Atrial Fibrillation Ablation Procedure Using Unilateral Thoracoscopy and Endocardial Pulsed Field Ablation: An Early Feasibility Study", "ano": 2025, "pmid": "40278204"},
+   {"titulo": "Comparative spatiotemporal neuromodulation effect between pulsed field and cryoballoon ablation for atrial fibrillation (Nakasone, ..., Chierchia, de Asmundis)", "ano": "provável 2025–2026 (não confirmado)", "pmid": "41359233"}
+  ],
+  "dicas": [
+   "Escola histórica de crioablação (cryoballoon) e agora PFA (Affera Sphere-360) — bom gancho para e-mail.",
+   "Rota estruturada mais realista é via ESC/EHRA (fellowship de 1 ano ou International Training Fellowship); não há observership de 1 mês publicado.",
+   "Programa pós-graduação VUB em EP & Pacing é a porta acadêmica formal do HRMC."
+  ],
+  "rota_recomendada": "1) E-mail direto a Carlo de Asmundis (via página do HRMC/VUB), citando PFA/cryoballoon e pedindo observership de 4 semanas autofinanciado, com carta da Unifesp; 2) se não houver vaga avulsa, mirar EHRA International Training Fellowship com o HRMC como centro anfitrião.",
+  "alerta_correcao": null
+ },
+ {
+  "match": "LUMC — Heart Lung Center",
+  "cidade": "Leiden", "pais": "Países Baixos", "areas": ["imagem"],
+  "programa": {
+   "observership_oficial": "não encontrado (busca restrita a lumc.nl não achou programa de observer/visiting doctor)",
+   "rotas_existentes": [
+    "EACVI Training Grants (ESC): LUMC já hospedou bolsista — 2021, 'six-month multimodality imaging programme for coronary artery disease' supervisionado por Victoria Delgado — https://www.escardio.org/Education/Career-Development/Grants-and-fellowships/EACVI-training-grants-past-winners (provável: Delgado não está mais em Leiden — ver alerta)",
+    "Research fellowship/PhD: tradicionalmente fellows de imagem entram como pesquisadores (ex.: Delgado iniciou 'fellowship in new non-invasive cardiac imaging' no LUMC em 2007) — https://www.universiteitleiden.nl/en/staffmembers/jeroen-bax (provável)"
+   ],
+   "elegibilidade_estrangeiro": "não encontrado", "taxa": "não encontrado", "documentos": "não encontrado",
+   "contato_oficial": "página profissional do Hart Long Centrum: https://www.lumc.nl/patientenzorg/specialistische-centra/hart-long-centrum/voor-professionals/cardiology-cardiothoracic-surgery-and-vascular-surgery/ (sem e-mail de observership publicado)",
+   "certeza": "não encontrado programa; EACVI = confirmado"
+  },
+  "servico": {
+   "nome": "Afdeling Cardiologie, Hart Long Centrum Leiden (LUMC) — imagem não invasiva/echo lab; Cardio Vascular Imaging Group (Radiologia, CMR)",
+   "chefe": "não confirmado para 2025/2026 — último registro: Martin Schalij 'in 2011 hoofd van de afdeling Cardiologie' (https://www.lumc.nl/siteassets/patientenzorg/specialistische-centra/hart-long-centrum/bestanden/geschiedenis-hlc.pdf)",
+   "imagem": "Prof. Jeroen J. Bax — 'director of non-invasive imaging' e 'director of the Echo Laboratory' (Radcliffe, data incerta: https://www.radcliffecardiology.com/authors/jeroen-j-bax); Leiden: pesquisa em imagem integrando nuclear, eco, TC e RM (https://www.universiteitleiden.nl/en/staffmembers/jeroen-bax)",
+   "volume": "não encontrado",
+   "certeza": "provável (títulos não datados)"
+  },
+  "pessoas_chave": [
+   {"nome": "Prof. Jeroen J. Bax", "cargo": "Professor de cardiologia; diretor de imagem não invasiva/echo lab (provável vigente)", "por_que": "líder mundial em imagem; decide entrada de fellows de pesquisa", "fonte": "https://www.universiteitleiden.nl/en/staffmembers/jeroen-bax"},
+   {"nome": "Prof. Nina Ajmone Marsan", "cargo": "Cardiologista de imagem, LUMC Cardiology", "por_que": "lidera linha de valvopatia (IT, EAo) e eco; coautora das diretrizes ESC/EACTS 2025", "fonte": "https://pubmed.ncbi.nlm.nih.gov/41175124/ ; https://pubmed.ncbi.nlm.nih.gov/42064867/"},
+   {"nome": "Prof. H. (Hildo) Lamb", "cargo": "Radiologia LUMC (imagem cardiovascular/CMR)", "por_que": "Cardio Vascular Imaging Group — RM/TC", "fonte": "https://www.universiteitleiden.nl/en/staffmembers/h-lamb ; https://scmr.org/listings/cardio-vascular-imaging-group-cvig/"},
+   {"nome": "Douwe E. Atsma", "cargo": "Cardiologia LUMC (cargo não confirmado)", "por_que": "liderança departamental provável — verificar", "fonte": "https://repository.tudelft.nl/record/uuid:144c6adf-33ca-4e57-84fb-644dd8d885f4"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado (busca PubMed LUMC + USP/Unifesp sem coautoria conjunta)",
+  "pesquisa_recente": [
+   {"titulo": "Outcomes of moderate mixed aortic valve stenosis and regurgitation (Bax, Ajmone Marsan)", "ano": 2025, "pmid": "41104570"},
+   {"titulo": "Tricuspid regurgitation: standardized stepwise work-up from referral to expert heart valve centre (coaut. Bax)", "ano": "2026 (provável)", "pmid": "41895721"},
+   {"titulo": "Can Cardiac Computed Tomography Refine Prognosis in Tricuspid Regurgitation? (Ajmone Marsan, editorial JACC CV Imaging)", "ano": 2025, "pmid": "41175124"},
+   {"titulo": "2025 ESC/EACTS valvular heart disease guidelines: practical updates on mitral and tricuspid regurgitation (coaut. Ajmone Marsan)", "ano": "2025–2026", "pmid": "42064867"}
+  ],
+  "dicas": [
+   "LUMC não publica observership; entrada histórica é research fellowship (meses a anos) no grupo de imagem.",
+   "EACVI Training Grant (ESC) é rota financiada já usada para LUMC — exige afiliação/associação EACVI.",
+   "Assunto forte para e-mail: valvopatia tricúspide/aórtica por eco multimodal (linha Bax/Ajmone Marsan)."
+  ],
+  "rota_recomendada": "1) E-mail a Nina Ajmone Marsan (e cópia a Bax) pedindo 4 semanas de observação no echo lab/heart valve centre, citando PMID 41104570 ou 41895721; 2) alternativa: candidatar-se a EACVI Training Grant com LUMC como anfitrião; 3) se quiser vínculo maior, propor research fellowship.",
+  "alerta_correcao": "URL do radar (EACVI past winners, escardio.org) não é página do LUMC. Victoria Delgado (supervisora do bolsista EACVI 2021) provavelmente não está mais em Leiden (não confirmado nesta busca). Chefe atual da cardiologia não confirmado."
+ },
+ {
+  "match": "Royal Adelaide — Centre for Heart Rhythm Disorders",
+  "cidade": "Adelaide", "pais": "Austrália", "areas": ["eletrofisiologia"],
+  "programa": {
+   "observership_oficial": "não encontrado",
+   "rotas_existentes": [
+    "PhD em Medicina pelo CHRD (University of Adelaide; via Adelaide Graduate Centre) — https://www.adelaide.edu.au/chrd/phd",
+    "Clinical/EP fellow: existe a função (ex.: 'Cardiologist and Electrophysiology Fellow, Centre for Heart Rhythm Disorders ... Royal Adelaide Hospital') mas sem página de candidatura — https://medicalresearch.com/?p=12774 (provável)"
+   ],
+   "elegibilidade_estrangeiro": "não encontrado", "taxa": "não encontrado", "documentos": "não encontrado",
+   "contato_oficial": "chrd@adelaide.edu.au (e-mail geral do centro publicado no site da universidade); endereço: Cardiology 4G751-769, Royal Adelaide Hospital, Port Road — https://adelaide.edu.au/research/centre-for-heart-rhythm-disorders/",
+   "certeza": "contato = confirmado (trecho de busca); programa = não encontrado"
+  },
+  "servico": {
+   "nome": "Centre for Heart Rhythm Disorders (CHRD) — colaboração University of Adelaide + Royal Adelaide Hospital, sediado no SAHMRI; RAH Cardiac Electrophysiology and Pacing",
+   "chefe": "Prof. Prashanthan (Prash) Sanders — 'Director of the Centre for Heart Rhythm Disorders ... Director of Cardiac Electrophysiology and Pacing at the Royal Adelaide Hospital; and Group Leader for Heart Rhythm Disorders at SAHMRI' — https://adelaide.edu.au/directory/prash.sanders",
+   "diretor_fellowship": "não encontrado",
+   "volume": "não encontrado",
+   "certeza": "confirmado"
+  },
+  "pessoas_chave": [
+   {"nome": "Prof. Prashanthan Sanders", "cargo": "Diretor do CHRD e da EP do RAH; HRS Distinguished Scientist Award 2024; ex-fellow em Bordeaux (Haïssaguerre)", "por_que": "decide tudo", "fonte": "https://adelaide.edu.au/directory/prash.sanders ; https://aahms.org/fellowship/professor-prashanthan-sanders"},
+   {"nome": "A/Prof. Dennis Lau", "cargo": "Pesquisador/supervisor de PhD do CHRD", "por_que": "linha de fatores de risco modificáveis da FA", "fonte": "https://www.adelaide.edu.au/chrd/phd"},
+   {"nome": "A/Prof. Kurt Roberts-Thomson", "cargo": "Research leader CHRD", "por_que": "EP clínica/ablação", "fonte": "https://www.adelaide.edu.au/chrd/"},
+   {"nome": "A/Prof. Glenn Young", "cargo": "Research leader CHRD", "por_que": "EP clínica", "fonte": "https://www.adelaide.edu.au/chrd/"},
+   {"nome": "Dr Alexis Puvrez", "cargo": "Senior Researcher / Research Leader", "por_que": "pesquisa do centro", "fonte": "https://www.adelaide.edu.au/chrd/"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado (artigo brasileiro sobre prevalência de FA cita Lau/Sanders só como referência, não como coautores — PMID 34550228)",
+  "pesquisa_recente": [
+   {"titulo": "Aggressive Risk Factor Reduction Study for Atrial Fibrillation Implications for Ablation Outcomes: The ARREST-AF Randomized Clinical Trial", "ano": "provável 2025", "pmid": "41160038"},
+   {"titulo": "Coronary Sinus Isolation for High-Burden Atrial Fibrillation: A Randomized Clinical Trial", "ano": 2024, "pmid": "39436347"},
+   {"titulo": "Structural, Functional, and Electrical Remodeling of the Atria With Reduced Cardiorespiratory Fitness: Implications for AF", "ano": 2024, "pmid": "38869505"},
+   {"titulo": "Understanding Atrial Fibrillation in the Context of Body Fat Distribution", "ano": 2024, "pmid": "38938874"}
+  ],
+  "dicas": [
+   "Marca registrada: manejo de fatores de risco na FA (LEGACY, ARREST-AF, CARDIO-FIT) — gancho ideal para e-mail.",
+   "Sem programa de observership publicado; contato geral chrd@adelaide.edu.au é o canal oficial.",
+   "Austrália exige visto de visitante; observação sem atos clínicos — verificar regras do SA Health (não encontrado)."
+  ],
+  "rota_recomendada": "1) E-mail a chrd@adelaide.edu.au endereçado ao Prof. Sanders, citando ARREST-AF (PMID 41160038) ou isolamento do seio coronário (PMID 39436347), pedindo 4 semanas de observação no laboratório de EP do RAH, autofinanciadas; 2) oferecer colaboração em pesquisa (dados/registro) para fortalecer o pedido.",
+  "alerta_correcao": "Polo envolve três instituições: University of Adelaide (CHRD), Royal Adelaide Hospital (EP clínica) e SAHMRI (sede física). Observership clínico seria pelo RAH/SA Health."
+ },
+ {
+  "match": "Instituto Cardiovascular de Buenos Aires (ICBA)",
+  "cidade": "Buenos Aires", "pais": "Argentina", "areas": ["estrutural"],
+  "programa": {
+   "observership_oficial": "não encontrado (nenhuma página oficial de rotação externa/observership)",
+   "rotas_existentes": [
+    "Fellowship de Cardiologia Intervencionista de 2 anos no ICBA (perfil de ex-fellow: 'me sub-especialicé en Cardiología Intervencionista con un Fellowship de 2 años en el ICBA') — https://www.doctoraliar.com/perfil/sebastian-pablo-peralta (provável)",
+    "SOLACI 'MIL Train More MIL' (2023): 10 bolsas (apoio Medtronic) para intervencionistas MULHERES latino-americanas em doença estrutural; 1 semana presencial observando procedimentos; 'No previous experience is required'; ICBA sediou jornada em 26/09/2023 com casos ao vivo de TAVI (Evolut, bicúspide, acesso complexo), planejamento por TC, oclusão de apêndice — https://solaci.org/en/2023/01/02/mil-train-more-mil-training-scholarship-program-for-latin-american-interventional-women-in-structural-pathology/ ; https://solaci.org/2023/09/27/mil-entrenan-mas-mil-jornada-de-capacitacion-en-el-icba/",
+    "Congresso/Pré-congresso anual de Cardiologia do ICBA (ex.: 2022) — https://www.intramed.net/content/pre-congreso-cardiologia-icba-2022"
+   ],
+   "elegibilidade_estrangeiro": "não encontrado para observership; bolsas MIL aceitam latino-americanas (confirmado)",
+   "taxa": "não encontrado", "documentos": "não encontrado",
+   "contato_oficial": "Departamento de Docencia do ICBA (diretor em 2010–2011: Dr. Alberto E. Alves de Lima — dado antigo) — https://www.intramed.net/content/congreso-icba-2010 ; e-mail oficial não encontrado",
+   "certeza": "MIL = confirmado; fellowship = provável; observership = não encontrado"
+  },
+  "servico": {
+   "nome": "Servicio de Cardiología Intervencionista y Terapéuticas Endovasculares, Departamento de Cardiología, ICBA",
+   "chefe": "não confirmado atual — Jorge Belardi: 'Director de la División de Cardiología' (PCR Online, sem data: https://www.pcronline.com/Physicians/Jorge-Belardi); Fernando Cura: 'Subjefe del Servicio de Cardiología Intervencionista' (2010–2011)",
+   "estrutural": "Pablo Lamelas — 'Interventional Cardiologist, ICBA' com interesse em estrutural/TAVR (https://www.radcliffecardiology.com/authors/pablo-lamelas ; https://experts.mcmaster.ca/people/lamelapm)",
+   "volume": "não encontrado",
+   "certeza": "provável (cargos antigos/sem data)"
+  },
+  "pessoas_chave": [
+   {"nome": "Dr. Pablo Lamelas", "cargo": "Cardiologista intervencionista ICBA (TAVR, estrutural); afiliação McMaster", "por_que": "lidera estrutural e pesquisa; agradecido pela SOLACI na jornada MIL", "fonte": "https://www.radcliffecardiology.com/authors/pablo-lamelas ; https://solaci.org/?p=84752"},
+   {"nome": "Dr. Fernando Cura", "cargo": "Intervencionista (subjefe do serviço em 2011; atual não confirmado)", "por_que": "colaborou no programa estrutural MIL", "fonte": "https://www.intramed.net/content/congreso-de-cardiologia-icba-2011 ; https://solaci.org/?p=84752"},
+   {"nome": "Dr. Jorge Belardi", "cargo": "Diretor da Divisão de Cardiologia (data incerta)", "por_que": "autoridade máxima do departamento", "fonte": "https://www.pcronline.com/Physicians/Jorge-Belardi"},
+   {"nome": "Dr. Alberto E. Alves de Lima", "cargo": "Diretor do Dpto. de Docencia (2010–2011; atual não confirmado)", "por_que": "ensino/rotações", "fonte": "https://www.intramed.net/content/congreso-icba-2010"}
+  ],
+  "brasileiros": "provável: relato SOLACI (versão PT) da jornada MIL no ICBA lista uma bolsista do Brasil (Dra. María Antonieta Albanéz) — a fonte indica país, mas não detalha formação/vínculo — https://solaci.org/pt/2023/09/28/mil-treinam-mais-mil-jornada-de-capacitacao-no-icba/",
+  "pontes_unifesp_sp": "provável/indireta: Lamelas é 1º autor da diretriz latino-americana SOLACI/SIAC TAVI vs SAVR (Heart 2021, PMID 34127541) com coautores regionais (brasileiros não verificados); SOLACI–SBHCI organizam eventos conjuntos (SOLACI-SBHCI 2023) — https://solaci.org/en/2023/08/04/1st-mint-mil-symposium-for-women-interventionists-held-at-solaci-sbhci-2023/",
+  "pesquisa_recente": [
+   {"titulo": "Clinical practice guideline for transcatheter versus surgical valve replacement in patients with severe aortic stenosis in Latin America (Lamelas et al., Heart)", "ano": 2021, "pmid": "34127541", "obs": "fora de 2022–2026 mas é o melhor gancho"},
+   {"titulo": "New TAVR item added to cart for large scale clinical testing (Belardi, Lamelas)", "ano": "provável 2021", "pmid": "34369062"},
+   {"titulo": "TAVR for aortic valve regurgitation: Ready for a randomized trial? (Belardi, Lamelas)", "ano": "não confirmado", "pmid": "30719856"},
+   {"nota": "Nenhum artigo estrutural do ICBA de 2022–2026 com PMID apareceu nas buscas"}
+  ],
+  "dicas": [
+   "Proximidade cultural/idioma e custo baixo; ICBA é centro SOLACI e sedia atividades educacionais de estrutural.",
+   "Se a residente for mulher: SOLACI MIL 'Train More MIL' é porta de entrada direta (bolsa de 1 semana em estrutural, sem experiência prévia exigida) — verificar edição vigente.",
+   "Congresso anual do ICBA é ocasião para contato presencial."
+  ],
+  "rota_recomendada": "1) E-mail a Pablo Lamelas (via perfil institucional/SOLACI) pedindo 4 semanas de observação em TAVI/estrutural, citando a diretriz latino-americana (PMID 34127541) e carta da Unifesp; 2) contatar o Departamento de Docencia do ICBA; 3) se elegível, candidatar-se ao SOLACI MIL e usar SBHCI/SOLACI como ponte.",
+  "alerta_correcao": "URL do radar é notícia SOLACI (2020), não página oficial do ICBA. Chefias citadas são de 2010–2011 ou sem data."
+ }
+]

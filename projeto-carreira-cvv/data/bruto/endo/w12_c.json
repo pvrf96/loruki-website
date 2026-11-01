@@ -1,0 +1,163 @@
+[
+ {
+  "match": "Inselspital Bern — Kardiologie",
+  "cidade": "Berna", "pais": "Suíça", "areas": ["estrutural"],
+  "programa": {
+   "pagina_oficial": "não encontrado (nenhuma página de observership/Hospitation da Universitätsklinik für Kardiologie ou da Insel Gruppe apareceu nas buscas)",
+   "elegibilidade": "não encontrado", "taxa": "não encontrado", "duracao": "não encontrado", "documentos": "não encontrado",
+   "contato_oficial": "site da clínica https://kardiologie.insel.ch (endereço Freiburgstrasse 18, 3010 Bern — via resultado de busca de diretório)",
+   "indicio": "Anúncio de vaga em cardiologia pediátrica do Inselspital menciona que a equipe oferece Hospitation para conhecer o serviço — é contexto de recrutamento, não programa para visitantes (fonte: resultados jobup/medi-karriere da busca).",
+   "certeza": "não confirmado"
+  },
+  "servico": {
+   "nome": "Universitätsklinik für Kardiologie, Inselspital – Universitätsspital Bern (Insel Gruppe)",
+   "chefe": "Prof. Stephan Windecker — listado na Universitätsklinik für Kardiologie (BORIS/unibe) e como contato central do SwissTAVI Registry; título de chefe NÃO confirmado nas buscas (provável: é o diretor da clínica, mas confirmar no site)",
+   "vice": "Prof. Thomas Pilgrim — 'stv. Chefarzt Kardiologie' (resultado de busca de diretório)",
+   "registro_estrutural": "SwissTAVI Registry (NCT01368250), patrocinador Insel Gruppe AG, nacional, ~20.000 pacientes estimados; contatos Stefan Stortecky e Stephan Windecker — https://clinicaltrials.gov/study/NCT01368250",
+   "volume_publicado": "não encontrado (relatório anual 2018 citado no radar não foi lido)",
+   "certeza": "provável"
+  },
+  "pessoas_chave": [
+   {"nome": "Stephan Windecker", "cargo": "Universitätsklinik für Kardiologie; contato central do SwissTAVI", "porque": "liderança do serviço/pesquisa TAVI", "fonte": "https://clinicaltrials.gov/study/NCT01368250"},
+   {"nome": "Stefan Stortecky", "cargo": "cardiologista intervencionista; contato do SwissTAVI Registry", "porque": "lidera registro TAVI — interlocutor natural em estrutural", "fonte": "https://clinicaltrials.gov/study/NCT01368250"},
+   {"nome": "Thomas Pilgrim", "cargo": "stv. Chefarzt (vice-chefe) Kardiologie", "porque": "coautor sênior dos papers TAVI 2024; vice-chefe", "fonte": "resultado de busca (medi-karriere/comparis) + lista de referências NCT01368250"},
+   {"nome": "Fabien Praz", "cargo": "Associate Professor of Interventional Cardiology, Bern; co-chair força-tarefa diretrizes valvares ESC/EACTS 2025", "porque": "referência em mitral/tricúspide; organiza curso em Berna com PCR Tricuspid Focus Group", "fonte": "https://www.pcronline.com/Network/Tricuspid-Focus-Group/Referral-meetings/Bern ; https://www.pcronline.com/Physicians/Fabien-Praz"},
+   {"nome": "Peter Wenaweser", "cargo": "pessoa de contato do Swiss TAVI Registry no registro FMH", "porque": "histórico no registro (vínculo atual não confirmado)", "fonte": "https://register-schweiz.fmh.ch/medizinische-register/swiss-tavi-registry/download"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado (nenhuma coautoria Bern + Unifesp/InCor/Dante apareceu)",
+  "pesquisa_recente": [
+   {"titulo": "Long-Term Impact of Cardiac Damage Following Transcatheter Aortic Valve Replacement", "ano": 2024, "ref": "Nakase M, ... Stortecky S, ... Windecker S, Pilgrim T. JACC Cardiovasc Interv 2024;17(8):992-1003 (PMID/DOI não exibidos)", "fonte": "https://clinicaltrials.gov/study/NCT01368250"},
+   {"titulo": "Inibição do sistema renina-angiotensina e dano cardíaco após TAVR (Tomii D et al.)", "ano": 2024, "ref": "JACC Cardiovasc Interv 2024;17(10):1252-1264 (título exato não exibido; PMID/DOI não exibidos)", "fonte": "https://clinicaltrials.gov/study/NCT01368250"},
+   {"titulo": "Inibição do SRA em pacientes com lesão miocárdica após TAVR (Tomii D et al.)", "ano": 2024, "ref": "JACC Adv 2024;3(9):101212", "fonte": "https://clinicaltrials.gov/study/NCT01368250"}
+  ],
+  "dicas": [
+   "Cursos abertos: 'TEE Akademie 2025' (flyer em kardiologie.insel.ch/fileadmin/Kardiologie/pdf/Fortbildungen/Flyer_Einladung_TEE_Akademie_2025.pdf) e reunião/curso de imagem e intervenção mitral/tricúspide em Berna (set/2025) com PCR Tricuspid Focus Group — porta de entrada para contato pessoal.",
+   "Evento 'Fokus Herz Bern 2025' do Herz-Gefäss-Zentrum (herzgefaesszentrum.insel.ch).",
+   "Citações de papers vieram de tabela de referências do ClinicalTrials.gov (parcialmente truncada) — conferir no PubMed antes de citar."
+  ],
+  "rota_recomendada": "1) E-mail à secretaria da Universitätsklinik für Kardiologie (via kardiologie.insel.ch) perguntando se aceitam observer/Hospitation de 4 semanas em intervenção estrutural, citando SwissTAVI e os papers 2024; 2) pedir hospedagem direta a Stortecky/Praz (estrutural); 3) alternativa: inscrever-se num curso de Berna (TEE Akademie/curso PCR tricúspide) e propor a visita lá.",
+  "alerta_correcao": "Radar não traz programa; URL do radar é relatório anual 2018 (desatualizado)."
+ },
+ {
+  "match": "Vanderbilt University Medical Center",
+  "cidade": "Nashville", "pais": "EUA", "areas": ["transplante"],
+  "programa": {
+   "pagina_oficial": "Não há programa estruturado de observership para médicos internacionais publicado. Existem: (a) International Visitor Screening (Office of Global Support) obrigatório para médicos internacionais; (b) Vanderbilt Observational Experience (VOE, shadowing); (c) política GME para residentes/fellows externos.",
+   "trechos": [
+    "'international physicians must complete International Visitor Screening process' — https://vumc.org/periop-services/sites/default/files/public_files/Visitor-Observation%20Role%20Determinant%20and%20Department%20Contacts.pdf",
+    "Formulário de screening deve ser enviado 'no later than 10 business days prior to the arrival of the visitor'; 'visitor' = curto prazo, tipicamente < 1 mês — https://www.vumc.org/globalsupport/e-3",
+    "Política 1F (2026-04-10) sobre residentes/fellows externos visitando VUMC: exige aprovação do program director e do DIO — https://www.vumc.org/gme/sites/default/files/public_files/house-staff/house-staff-man-2026/2026.04.10-1F-Policy-on-External-Residents_Fellows-Visiting-VUMC.pdf",
+    "Processo de aprovação para observadores no centro cirúrgico — https://www.vumc.org/periop-services/sites/default/files/public_files/Visitors-Observers-Students%20in%20the%20OR%20Approval%20Process.pdf ; requisitos: https://vumc.org/periop-services/node/81"
+   ],
+   "contato_oficial": "Office of Global Support (https://www.vumc.org/globalsupport); documento periop lista Dr. Roger Dmochowski como contato para médicos visitantes (e-mail institucional consta no PDF; não transcrito aqui)",
+   "taxa": "não encontrado", "duracao": "visitante tipicamente < 1 mês (definição do screening)", "documentos": "screening internacional + checagem de export compliance; demais (vacinas, seguro) não encontrados",
+   "certeza": "confirmado (processo de screening); provável (aplicabilidade a residente estrangeira observadora)"
+  },
+  "servico": {
+   "nome": "Vanderbilt Transplant Center — Heart Transplant Program (adulto e pediátrico); Department of Cardiac Surgery; Division of Cardiovascular Medicine (Advanced HF/Transplant)",
+   "chefe_cirurgico": "Ashish Shah, MD — Surgical Director, Heart Transplant Program; Alfred Blalock Endowed Director and Chair, Department of Cardiac Surgery — https://www.vanderbilthealth.com/doctors/shah-ashish",
+   "diretor_medico": "Kelly Schlendorf, MD — medical director do programa adulto de transplante (relato 2025: https://www.beckershospitalreview.com/cardiology/the-well-oiled-machine-behind-vumcs-record-breaking-heart-transplant-program)",
+   "fellowship": "Advanced Heart Failure/Transplant Fellowship — página lista Lynne Stevenson, MD e Kelly Schlendorf, MD (associate director); perfil de Lynn Punnoose também a dá como diretora — conflito, confirmar: https://medicine.vumc.org/divisions/cardiovascular-medicine/education/advanced-heart-failure-transplantation-fellowship",
+   "volume_publicado": "174 transplantes cardíacos em 2024 (recorde mundial) — https://news.vumc.org/2025/01/13/vanderbilt-transplant-center-sets-world-record-for-heart-transplants-in-2024/ ; >2.000 transplantes no total (jan/2025) — https://news.vumc.org/2025/01/06/heart-transplant-program-reaches-new-landmark/ ; 210 (adulto+pediátrico) em 2025 segundo página Vanderbilt (resultado de busca)",
+   "certeza": "confirmado"
+  },
+  "pessoas_chave": [
+   {"nome": "Ashish Shah", "cargo": "Surgical Director Heart Transplant; Chair Cardiac Surgery", "porque": "decide sobre visitantes no lado cirúrgico", "fonte": "https://www.vanderbilthealth.com/doctors/shah-ashish"},
+   {"nome": "Kelly Schlendorf", "cargo": "Medical Director, adult heart transplant; assoc. director AHF/Tx fellowship", "porque": "hospedaria residente de cardiologia clínica; lidera pesquisa DCD", "fonte": "https://medicine.vumc.org/divisions/cardiovascular-medicine/education/advanced-heart-failure-transplantation-fellowship"},
+   {"nome": "Lynne Stevenson", "cargo": "Professor of Medicine; listada na página do fellowship AHF/Tx", "porque": "liderança histórica em IC avançada", "fonte": "mesma página do fellowship"},
+   {"nome": "Roger Dmochowski", "cargo": "contato para médicos visitantes (Office of Global Support, conforme PDF periop)", "porque": "rota administrativa do screening internacional", "fonte": "https://vumc.org/periop-services/sites/default/files/public_files/Visitor-Observation%20Role%20Determinant%20and%20Department%20Contacts.pdf"},
+   {"nome": "John Trahanas", "cargo": "cirurgião cardíaco, coautor dos estudos DCD", "porque": "pesquisa DCD/NRP", "fonte": "https://news.vumc.org/2023/10/05/study-finds-no-difference-in-heart-transplant-outcomes-using-organs-donated-after-circulatory-death-and-after-brain-death/"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {"titulo": "Estudo VUMC (JACC 2023): sem diferença de sobrevida em 1 ano entre doadores DCD (n=122) e DBD (n=263) — 94,3% vs 92,4%; autores incl. Hasan Siddiqi, Kelly Schlendorf, Ashish Shah", "ano": 2023, "ref": "PMID/DOI não exibidos", "fonte": "https://news.vumc.org/2023/10/05/study-finds-no-difference-in-heart-transplant-outcomes-using-organs-donated-after-circulatory-death-and-after-brain-death/ ; https://www.acc.org/latest-in-cardiology/journal-scans/2023/10/12/17/18/outcomes-of-heart-transplant"},
+   {"titulo": "Donation After Circulatory Death Cardiac Recovery Technique: Single-Center Observational Outcomes (Pasrija et al.; NRP vs DPP, 118 corações)", "ano": "não confirmado", "ref": "PMID/DOI não exibidos", "fonte": "https://katalog.lib.cas.cz/KNAV/EdsRecord/cmedm,39151717"},
+   {"titulo": "Novo método de recuperação rápida de corações DCD (Williams et al., NEJM 2025; VUMC usou em 20 transplantes)", "ano": 2025, "ref": "PMID/DOI não exibidos", "fonte": "https://www.news-medical.net/news/20250716/New-method-enables-recovery-of-hearts-from-deceased-organ-donors-after-circulatory-death.aspx"}
+  ],
+  "dicas": [
+   "Screening internacional precisa ser submetido pelo departamento anfitrião ≥10 dias úteis antes da chegada — logo, é indispensável um sponsor interno (médico do programa) que aceite hospedar.",
+   "Visitante definido como estadia < 1 mês: planejar 4 semanas no máximo.",
+   "Para acesso ao centro cirúrgico há processo próprio de aprovação de observadores (periop services)."
+  ],
+  "rota_recomendada": "1) E-mail personalizado a Kelly Schlendorf (lado clínico/DCD) ou ao gabinete de Ashish Shah, citando o recorde de 2024 e os estudos DCD, pedindo 4 semanas como observer; 2) com o aceite, o departamento abre o International Visitor Screening no Office of Global Support (≥10 dias úteis antes); 3) pedir carta da Unifesp e mencionar experiência prévia de observership em Chicago.",
+  "alerta_correcao": "Radar sem contatos; URL do radar é notícia de volume, não programa."
+ },
+ {
+  "match": "HDZ NRW — Herz- und Diabeteszentrum",
+  "cidade": "Bad Oeynhausen", "pais": "Alemanha", "areas": ["transplante"],
+  "programa": {
+   "pagina_oficial": "não encontrado (nenhuma página de Hospitation/Gastarzt do HDZ NRW nas buscas)",
+   "contato_oficial": "info@hdz-nrw.de (contato geral publicado em comunicados), Georgstraße 11, 32545 Bad Oeynhausen",
+   "contexto_alemanha": "Em outras clínicas alemãs, Hospitation exige CV, cópia de diploma/licença, comprovante de vacinação e às vezes alemão B2/comprovação financeira (UKM/UKW) — NÃO confirmado para o HDZ.",
+   "certeza": "não confirmado"
+  },
+  "servico": {
+   "nome": "Klinik für Thorax- und Kardiovaskularchirurgie (Transplantations- und Kunstherzzentrum); Kinderherzzentrum (único em NRW a transplantar crianças)",
+   "chefe": "Prof. Jan Gummert — Ärztlicher Direktor do HDZ NRW e Direktor der Klinik für Thorax- und Kardiovaskularchirurgie (desde 2009) — comunicado mar/2025 via idw-online",
+   "volume_publicado": "95 transplantes cardíacos em 2022, 75 em 2023 (https://www.aerzteblatt.de/news/mehr-herztransplantationen-in-bad-oeynhausen-3b53d626-bdee-47cf-a833-1574565d6c65 / idw); maior centro de transplante cardíaco da Alemanha em 2024 (comunicado 2025); >2.100 transplantes desde 1989 (https://idw-online.de/de/news848097); 78 crianças com VAD desde 2008",
+   "diretor_fellowship": "não aplicável/não encontrado",
+   "certeza": "confirmado (chefe e volumes)"
+  },
+  "pessoas_chave": [
+   {"nome": "Jan Gummert", "cargo": "Ärztlicher Direktor; Direktor Thorax- und Kardiovaskularchirurgie", "porque": "decide sobre hospitação na cirurgia/transplante", "fonte": "https://idw-online.de/en/news615811"},
+   {"nome": "René Schramm", "cargo": "cirurgião, autor principal do 'Bad Oeynhausen score' (2021)", "porque": "pesquisa em transplante (cargo atual não confirmado)", "fonte": "https://doaj.org/article/18751b3b72e3470ea3badd0676d374c4"},
+   {"nome": "Sebastian V. Rojas", "cargo": "coautor em transplante (cargo não confirmado)", "porque": "pesquisa transplante", "fonte": "https://doaj.org/article/18751b3b72e3470ea3badd0676d374c4"},
+   {"nome": "Henrik Fox", "cargo": "senior researcher, Klinik für Thorax- und Kardiovaskularchirurgie (perfil Frontiers, não datado)", "porque": "IC terminal/transplante; autor do estudo CASTLE-HTx (NEJM 2023)", "fonte": "https://loop.frontiersin.org/people/1268121/bio"},
+   {"nome": "Michiel Morshuis", "cargo": "citado na experiência da clínica (função não confirmada)", "porque": "histórico em VAD/transplante", "fonte": "idw-online (resultado de busca)"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {"titulo": "Ablação de FA em IC terminal/candidatos a transplante (CASTLE-HTx; Sohns C, Fox H, Marrouche NF, Crijns HJGM et al.), NEJM 2023, 194 pacientes", "ano": 2023, "ref": "PMID 37634135", "fonte": "https://idw-online.de/de/attachmentdata99268"},
+   {"titulo": "German Heart Surgery Report 2023 (coautor Gummert; 324 transplantes cardíacos isolados na Alemanha em 2023)", "ano": 2024, "ref": "Thorac Cardiovasc Surg 2024 (PMID/DOI não exibidos)", "fonte": "resultado de busca (busqueda.bvsalud.org/portal/resource/es/mdl-39079552)"},
+   {"titulo": "Donor–recipient risk assessment tools in heart transplant recipients: the Bad Oeynhausen experience (fora da janela 2022–26, mas central)", "ano": 2021, "ref": "DOI 10.1002/ehf2.13673", "fonte": "https://doaj.org/article/18751b3b72e3470ea3badd0676d374c4"}
+  ],
+  "dicas": [
+   "HDZ organiza 'HTx Seminar' (flyer 2022: https://www.hdz-nrw.de/fileadmin/news/files/Flyer_HTx_Seminar2022_KK_web_02.pdf) — possível porta de entrada (abertura a internacionais não confirmada).",
+   "Hospitante que só observa não é considerado estagiário para salário mínimo (Ärzte Zeitung) — Hospitation sem remuneração é o modelo usual alemão.",
+   "Só 1 artigo dentro de 2022–2026 com PMID confirmado; buscar PubMed 'Bad Oeynhausen heart transplantation 2024' antes do e-mail."
+  ],
+  "rota_recomendada": "1) E-mail (inglês) à secretaria da Klinik für Thorax- und Kardiovaskularchirurgie / Prof. Gummert (via site hdz-nrw.de ou info@hdz-nrw.de pedindo encaminhamento), pedindo Hospitation de 4 semanas no programa de transplante/VAD, citando o volume de 2024 e o CASTLE-HTx; 2) anexar CV, carta da Unifesp, vacinação e seguro; 3) alternativa: participar do HTx Seminar.",
+  "alerta_correcao": "Nenhuma."
+ },
+ {
+  "match": "Deutsches Herzzentrum München",
+  "cidade": "Munique", "pais": "Alemanha", "areas": ["congenitas"],
+  "programa": {
+   "pagina_oficial": "não encontrado (sem página DHM de Hospitation/observership)",
+   "documentos": "Formulário do DHM: atestado de saúde (Gesundheitsbescheinigung) a apresentar ao serviço de medicina do trabalho antes do início, com no máximo 8 semanas, custo não coberto pelo DHM — https://www.deutsches-herzzentrum-muenchen.de/app/uploads/2021/11/gesundheitsbescheinigung-deutsch.pdf",
+   "contato_oficial": "bewerbung@dhm.mhn.de (e-mail de candidaturas da Personalverwaltung publicado em anúncios 2019 e 2026; PDF ≤5 MB) — uso para Hospitation é provável, não confirmado",
+   "referencia_vizinha": "LMU Klinikum (parceiro no Europäisches Kinderherzzentrum) descreve Hospitation como observação pura, sem remuneração, exige independência financeira e não leva a emprego — https://lmu-klinikum.de/hauner/kinder-und-kinderpoliklinik/studium-fort-und-weiterbildung/hospitation-gastarzte/eb6606e31df5928a",
+   "certeza": "provável"
+  },
+  "servico": {
+   "nome": "Klinik für Angeborene Herzfehler und Kinderkardiologie; Klinik für Chirurgie angeborener Herzfehler und Kinderherzchirurgie — integrada desde 2023 ao Europäisches Kinderherzzentrum München (EKHZ, DHM/TUM + LMU)",
+   "chefe_cardiologia": "Prof. Peter Ewert — diretor da Klinik für Angeborene Herzfehler und Kinderkardiologie (TUM 2021) e Ärztlicher Direktor do DHM (TUM 28.6.2024); permanência em 2025–26 não confirmada",
+   "chefe_cirurgia": "Prof. Jürgen Hörer — Direktor da Abteilung für angeborene und Kinderherzchirurgie desde 2018 — https://www.professoren.tum.de/hoerer-juergen",
+   "volume_publicado": "EKHZ se diz 'mit Abstand größte Kinderherzchirurgie in Deutschland' (2023) — https://lmu-klinikum.de/aktuelles/pressemitteilungen/grundungsfeier-des-europaischen-kinderherzzentrums-munchen/7d9b40083e100a03 ; DHM: 197 leitos, ~12.000 casos internados (relatório 2023, diretório)",
+   "certeza": "confirmado (estrutura); provável (cargos atuais)"
+  },
+  "pessoas_chave": [
+   {"nome": "Peter Ewert", "cargo": "Diretor Kinderkardiologie/angeborene Herzfehler; Ärztlicher Direktor DHM", "porque": "decide sobre visitantes em cardiologia congênita", "fonte": "https://www.tum.de/aktuelles/alle-meldungen/pressemitteilungen/details/50-jahre-deutsches-herzzentrum-muenchen"},
+   {"nome": "Jürgen Hörer", "cargo": "Diretor cirurgia congênita/pediátrica (TUM), EKHZ", "porque": "decide para residente de cirurgia CV; pesquisa ativa", "fonte": "https://www.professoren.tum.de/hoerer-juergen"},
+   {"nome": "Masamichi Ono", "cargo": "cirurgião, coautor de estudos Norwood/Fontan", "porque": "pesquisa ativa em univentriculares", "fonte": "https://ouci.dntb.gov.ua/works/4VOEy3bl"},
+   {"nome": "Julie Cleuziou", "cargo": "cirurgiã congênita, coautora EJCTS", "porque": "pesquisa (valva tricúspide, ACHD)", "fonte": "https://epub.ub.uni-muenchen.de/view/autoren/H=F6rer=3AJ=FCrgen=3A=3A.html"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "Provável: artigo EJCTS 2025 (ezaf205, sobre disparidade de gênero em autoria em cirurgia cardiotorácica europeia) lista afiliações do departamento de cirurgia congênita do German Heart Centre Munich e da cirurgia torácica do Hospital Israelita Albert Einstein (SP); o trecho não mostra quais autores — https://www.ovid.com/journals/ejcts/pdf/10.1093/ejcts/ezaf205~gender-disparities-in-authorship-in-european-cardio-thoracic",
+  "pesquisa_recente": [
+   {"titulo": "Longitudinal analysis of systemic ventricular function and atrioventricular valve function after the Norwood procedure", "ano": 2024, "ref": "DOI 10.1093/ejcts/ezae058", "fonte": "https://ouci.dntb.gov.ua/works/4VOEy3bl"},
+   {"titulo": "Desfechos relatados por pacientes a longo prazo em adultos operados de cardiopatia congênita no DHM (Frontiers Cardiovasc Med, dez/2024; coautor Hörer)", "ano": 2024, "ref": "DOI 10.3389/fcvm.2024.1501680", "fonte": "https://www.frontiersin.org/articles/10.3389/fcvm.2024.1501680/full"},
+   {"titulo": "Incidence, pathophysiology and treatment of failing Fontan after the total cavopulmonary connection (Gaebert, Ono, Hörer et al., Cardiology in the Young)", "ano": 2024, "ref": "PMID/DOI não exibidos", "fonte": "https://core-prod.cambridgecore.org/core/services/aop-cambridge-core/content/view/F20E01F50A80ADE4FBCB9404822A269B/S1047951124025782a.pdf/incidence-pathophysiology-and-treatment-of-failing-fontan-after-the-total-cavopulmonary-connection.pdf"}
+  ],
+  "dicas": [
+   "Desde 2023 a cirurgia congênita é conjunta DHM+LMU (EKHZ) — dá para pedir pelo DHM ou pelo LMU (que tem página formal de Hospitation/Gastärzte).",
+   "Levar atestado de saúde recente (≤8 semanas) — exigência do DHM para atuação.",
+   "Relato de estudante (Going International, 2019) descreve estágio no DHM com contato interdisciplinar com cardiologia pediátrica — indica que o centro recebe visitantes de ensino."
+  ],
+  "rota_recomendada": "1) E-mail à secretaria de Prof. Ewert (cardiologia congênita) ou Prof. Hörer (se cirurgia CV) pedindo Hospitation de 4 semanas, citando o paper Norwood 2024 (ezae058) e o EKHZ; 2) candidatura formal via bewerbung@dhm.mhn.de com CV, carta Unifesp e atestado de saúde; 3) alternativa: rota LMU Klinikum (Hospitation/Gastärzte) dentro do EKHZ.",
+  "alerta_correcao": "URL do radar aponta para página LMU do European Pediatric Heart Center, que é a junção DHM (TUM) + LMU desde 2023 — o polo mistura duas instituições na cirurgia congênita; a cardiologia pediátrica do DHM segue própria (Ewert)."
+ }
+]

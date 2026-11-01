@@ -1,0 +1,151 @@
+[
+ {
+  "match": "MIOT International",
+  "cidade": "Chennai", "pais": "Índia", "areas": ["coronaria"],
+  "programa": {
+   "observership_oficial": "não encontrado (nenhuma página de observership/visiting physician em miotinternational.com nos resultados)",
+   "ensino_existente": "DNB credenciado pelo NBE: 'recognized by National Board of Examinations (NBE) India' incluindo 'DNB Cardiothoracic Surgery (Direct 6 year course Post MBBS)' — https://www.miotinternational.com/programmes-education/education/pg-courses-dnb/ (programa para médicos indianos, não porta para estrangeiro)",
+   "experiencia_com_estrangeiros": "cursos para estrangeiros em ortopedia/cirurgia (Indo-German Orthopaedic Foundation Master Course; FRCS Exit Exam Course) e cooperação com BG Hospital (Alemanha) — https://www.miotinternational.com/whats-new/past-events-at-miot/?pid=23 ; https://www.miotinternational.com/in-the-press/surgical-training-in-chennai-south-india-cooperation-with-miot-hospitals-and-bg-hospital-in-germany (não cardíacos)",
+   "elegibilidade_estrangeiro": "não encontrado", "taxa": "não encontrado", "duracao": "não encontrado", "documentos": "não encontrado",
+   "contato_oficial": "não encontrado e-mail de ensino; endereço/telefone geral do hospital: 4/112 Mount Poonamallee Rd, Manapakkam, Chennai 600089 (via resultados de busca/Wikipedia)",
+   "certeza": "confirmado: ausência de programa público; DNB existe"
+  },
+  "servico": {
+   "nome": "MIOT Institute of Cardiac Care / Department of Cardiothoracic Surgery — programa de Total Arterial Revascularization (TAR)",
+   "fonte": "https://www.miotinternational.com/total-arterial-revascularization/ ; https://www.miotinternational.com/centers-of-excellence/miot-institute-of-cardiac-care/",
+   "trecho": "'bilateral internal mammary artery surgery ... performed regularly since the installation of this department'; radial artery conduits 'on a routine basis'",
+   "chefe": "Vijit Cherian — 'Presently Director, Dept of Cardiothoracic Surgery at MIOT International Hospital, Chennai' (perfil CTSNet, possivelmente desatualizado) — https://www.ctsnet.org/members/vijit-cherian/",
+   "diretor_fellowship": "não encontrado",
+   "volume": "'over 1,000 surgeries annually' e '>15,000 cardiac surgical procedures' no total (site institucional, sem ano) — https://www.miotinternational.com/centers-of-excellence/miot-institute-of-cardiac-care/",
+   "certeza": "chefe: provável (CTSNet, sem data); volume: confirmado como autodeclarado"
+  },
+  "pessoas_chave": [
+   {"nome": "Vijit Cherian", "cargo": "Director, Dept of Cardiothoracic Surgery (segundo CTSNet)", "por_que": "provável decisor/anfitrião na cirurgia coronária arterial", "fonte": "https://www.ctsnet.org/members/vijit-cherian/", "certeza": "provável"},
+   {"nome": "Prithvi Mohandas", "cargo": "Managing Director, MIOT International", "por_que": "direção institucional (parcerias internacionais Fiji/Tajiquistão/Seychelles)", "fonte": "https://nation.sc/articles/25236/exclusive-interview-with-dr-prithvi-mohandas-managing-director-of-miot-international", "certeza": "confirmado"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": "não encontrado (nenhum artigo 2022–2026 do serviço em CABG/TAR apareceu nos resultados; só página promocional)",
+  "dicas": [
+   "MIOT tem forte braço de turismo médico/parcerias internacionais (Aspen Medical/Lautoka Hospital, Fiji desde 2022; MIOT Nurafzo, Tajiquistão, mar/2026; MHIC Seychelles) — escritório internacional é o canal mais responsivo — https://www.miotinternational.com/mhic-seychelles",
+   "Sem programa estruturado: pedido terá de ser ad hoc ao diretor de cirurgia cardiotorácica, com carta da Unifesp e foco declarado em TAR/BIMA/radial."
+  ],
+  "rota_recomendada": "1) E-mail pelo formulário/escritório internacional do site pedindo encaminhamento ao Dept. de Cirurgia Cardiotorácica (Dr. Vijit Cherian, confirmar cargo), propondo 4 semanas observando TAR com BIMA/radial; 2) anexar carta da COREME/Unifesp e CV. Prioridade baixa no radar: nenhum programa, nenhuma ponte brasileira e pouca produção indexada.",
+  "alerta_correcao": "Programa 'nao_confirmado' segue não confirmado; cargo de Vijit Cherian vem de perfil CTSNet sem data."
+ },
+ {
+  "match": "Seoul National University Hospital",
+  "cidade": "Seul", "pais": "Coreia do Sul", "areas": ["coronaria"],
+  "programa": {
+   "pagina_oficial": "SNUH Global — 'Sponsored Program for Doctors: International Fellowship Program (Observational)' — https://snuh.org/global/en/education/EN04001001.do",
+   "elegibilidade": "'Medical Doctors' (não detalha se residente é aceito; residente com CRM ativo provavelmente elegível)",
+   "janelas": "'All year round'",
+   "duracao": "'Minimum of 1 month, maximum of 1 year' — encaixa exatamente em 1 mês",
+   "taxa_apoio": "programa 'sponsored' com auxílio de '60,000 Korean Won per day (1.8 million Korean Won per month)' (vagas patrocinadas; critério de concessão não detalhado)",
+   "documentos": "application form, recommendation form, study plan, commitment form + licença médica em inglês + certificado de vínculo/emprego em inglês (sem menção a CV, vacinas ou seguro no trecho)",
+   "contato_oficial": "'Please send scanned copies via e-mail : 02903@snuh.org' (e-mail oficial publicado para este fim)",
+   "antecedencia": "não encontrado",
+   "certeza": "confirmado (trechos da página oficial); detalhe de vacinas/seguro/visto não encontrado",
+   "atencao": "Não confundir com SNU Bundang Hospital (edu@snubh.org; regras próprias, apoio só a países em desenvolvimento) — https://global.snubh.org/vs/sponsored.do"
+  },
+  "servico": {
+   "nome": "Cardiovascular Center / Division of Cardiology, Dept. of Internal Medicine (intervenção coronária, fisiologia) + Dept. of Thoracic and Cardiovascular Surgery (CABG com enxertos compostos)",
+   "chefe": "não encontrado (chefe atual da cardiologia/cirurgia não apareceu nos resultados)",
+   "diretor_fellowship": "não encontrado",
+   "volume": "não encontrado",
+   "fonte": "https://koreascience.kr/article/JAKO202322257649684.pdf (afiliação 'Department of Internal Medicine and Cardiovascular Center, Seoul National University Hospital')"
+  },
+  "pessoas_chave": [
+   {"nome": "Bon-Kwon Koo", "cargo": "cardiologista intervencionista, SNUH Cardiovascular Center", "por_que": "líder mundial em fisiologia/imagem coronária (PI do FLAVOUR 2022; coautor do FLAVOUR II, Lancet 2025)", "fonte": "https://www.pcronline.com/Physicians/Bon-Kwon-Koo ; https://pubmed.ncbi.nlm.nih.gov/40174597/", "certeza": "confirmado"},
+   {"nome": "Kyung Woo Park", "cargo": "cardiologista, contato central do HOST-ASSURE (SNUH)", "por_que": "lidera ensaios HOST de stent/antiplaquetário", "fonte": "https://clinicaltrials.gov/study/NCT01267734", "certeza": "confirmado"},
+   {"nome": "Hyo-Soo Kim", "cargo": "cardiologista, SNUH (coautor frequente de Koo)", "por_que": "liderança histórica em intervenção coronária", "fonte": "https://rankless.org/authors/bonkwon-koo", "certeza": "provável (só como coautor)"},
+   {"nome": "Ho Young Hwang", "cargo": "cirurgião cardiotorácico, SNUH", "por_que": "PI de ensaios de CABG com enxerto composto em Y de safena (NCT05704296, NCT04782492) — área coronária cirúrgica", "fonte": "https://trials.co/clinical-trials-details/-/NCT05704296 ; https://koreascience.kr/article/JAKO202326455356268.pdf", "certeza": "confirmado"},
+   {"nome": "Ki-Bong Kim", "cargo": "cirurgião cardiotorácico, SNUH (coautor de revisão com Hwang)", "por_que": "escola SNUH de enxertos compostos arteriais/safena a partir da ATI in situ", "fonte": "https://www.annalscts.com/article/view/16511/html", "certeza": "provável (cargo atual não confirmado)"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado vínculo direto com Unifesp/InCor/Dante. Indireto: Koo publica em consórcios internacionais de fisiologia com Carlos Collet (não brasileiro); nenhuma coautoria SNUH+Brasil apareceu.",
+  "pesquisa_recente": [
+   {"titulo": "FLAVOUR II — angiography-derived FFR vs IVUS para guiar PCI (Koo coautor; SNUH colaborador)", "ano": 2025, "pmid": "40174597", "doi": "10.1016/S0140-6736(25)00504-5", "fonte": "https://pubmed.ncbi.nlm.nih.gov/40174597/"},
+   {"titulo": "Coronary Physiology-Based Approaches for Plaque Vulnerability: Implications for Risk Prediction and Treatment Strategies (Yang S, Koo BK; Korean Circ J)", "ano": 2023, "pmid": "não encontrado", "doi": "não encontrado", "fonte": "https://koreascience.or.kr/article/JAKO202322257649684.page"},
+   {"titulo": "Arterial composite grafting baseado na LITA in situ — resultados precoces, 1 ano e tardios (Kim, Sohn, Choi, Oh, Hwang; J Chest Surg 2023;56(5):313-321)", "ano": 2023, "pmid": "não encontrado", "doi": "não encontrado", "fonte": "https://koreascience.kr/article/JAKO202326455356268.pdf"}
+  ],
+  "dicas": [
+   "Programa estruturado, ano todo, mínimo 1 mês, inscrição por e-mail — o melhor encaixe formal entre os 4 polos.",
+   "Exige 'study plan' e 'recommendation form': o plano de estudo pode citar especificamente fisiologia coronária (Koo) ou CABG com enxerto composto (Hwang), aumentando a chance de alocação.",
+   "Para residente de cirurgia: o Dept. de Cirurgia Torácica e CV da SNUH tem ensaio randomizado ativo (NCT05704296, 290 pacientes) — bom gancho para o e-mail.",
+   "A url do radar é um relatório de sessão conjunta JCS–KCS (Circulation Society japonesa), não página da SNUH."
+  ],
+  "rota_recomendada": "1) Candidatar-se ao International Fellowship Program (Observational) via 02903@snuh.org com os 4 formulários + licença e certificado de vínculo em inglês, pedindo 4 semanas na cardiologia intervencionista (ou cirurgia CV, conforme a residente); 2) em paralelo, e-mail curto ao Prof. Bon-Kwon Koo (ou Prof. Ho Young Hwang, se cirurgia) citando FLAVOUR II/enxertos compostos e pedindo aceite como supervisor — o que fortalece o study plan.",
+  "alerta_correcao": "URL do radar (j-circ.or.jp, sessão conjunta JCS/KCS) não é da SNUH; substituir por https://snuh.org/global/en/education/EN04001001.do. Status do programa: de 'nao_confirmado' para confirmado."
+ },
+ {
+  "match": "Kishiwada Tokushukai Hospital",
+  "cidade": "Kishiwada (Osaka)", "pais": "Japão", "areas": ["coronaria"],
+  "programa": {
+   "pagina_oficial": "Advanced Clinical Training Programs — https://kishiwada.tokushukai.or.jp/en/?p=196",
+   "trecho": "'Kishiwada Tokushukai Hospital is designated as a training hospital for foreign physicians and a training facility for various medical specialties'; programa descrito com exposição prática a procedimentos e pesquisa",
+   "elegibilidade_estrangeiro": "sim (programa voltado a médicos estrangeiros); detalhes não encontrados",
+   "taxa": "não encontrado", "duracao": "não encontrado", "documentos": "não encontrado",
+   "nota_legal": "No Japão, 'Advanced Clinical Training' (臨床修練) com atos práticos exige licença do MHLW; em outras instituições o processo leva ~4 meses e prazos mínimos são longos (ex. Juntendo: mín. 3 meses) — https://www.hosp.omu.ac.jp/en/training-foreign-physician/ ; observação sem atos clínicos tende a ser mais simples (provável)",
+   "contato_oficial": "International Medical Support Office (citado no site como canal internacional; e-mail não apareceu nos resultados) — https://kishiwada.tokushukai.or.jp/en/?p=1247",
+   "certeza": "confirmado: existência do programa para estrangeiros; demais itens não encontrados"
+  },
+  "servico": {
+   "nome": "Department of Cardiology (PCI/TAVI/EVT) e Department of Cardiovascular Surgery (CABG majoritariamente off-pump)",
+   "chefe_cardiologia": "Hiroshi Fujita — Vice President · Chief of Cardiology; ex-Clinical Professor, Kyoto Prefectural University of Medicine — https://kishiwada.tokushukai.or.jp/en/about/leadership/hiroshi-fujita/",
+   "chefe_cirurgia_cv": "Satoshi Kuroyanagi MD PhD — voltou como Chief of Cardiovascular Surgery em 2013; President do hospital desde 2024; treinou >20 anos com Dr. Higashiue — https://kishiwada.tokushukai.or.jp/en/about/leadership/satoshi-kuroyanagi/",
+   "diretor_fellowship": "não encontrado",
+   "volume": "Cardiologia 2024: 500 PCI, 149 TAVI, 626 EVT, 77 ablações, 28 WATCHMAN (https://kishiwada.tokushukai.or.jp/en/?p=373). Cirurgia CV: 94 CABG isolados em 2023, off-pump 83% (78/94) (https://kishiwada.tokushukai.or.jp/en/research/clinical-research-outcomes/cardiovascular-clinical-outcomes/)",
+   "certeza": "confirmado (autodeclarado pelo hospital)"
+  },
+  "pessoas_chave": [
+   {"nome": "Satoshi Kuroyanagi", "cargo": "President do hospital (2024–) e Chief of Cardiovascular Surgery", "por_que": "decide como presidente e lidera o CABG off-pump — alvo principal para residente de cirurgia", "fonte": "https://kishiwada.tokushukai.or.jp/en/about/leadership/satoshi-kuroyanagi/", "certeza": "confirmado"},
+   {"nome": "Hiroshi Fujita", "cargo": "Vice President · Chief of Cardiology", "por_que": "anfitrião para PCI/TAVI — alvo para residente de cardiologia", "fonte": "https://kishiwada.tokushukai.or.jp/en/?p=1247", "certeza": "confirmado"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": "não encontrado (só páginas institucionais de resultados; artigos CREDO-Kyoto com 'Kishiwada City Hospital' são de OUTRA instituição — não usar)",
+  "dicas": [
+   "Hospital privado (grupo Tokushukai) com página em inglês e escritório internacional — tende a ser mais ágil que universidade pública.",
+   "Gancho para e-mail: off-pump 83% em CABG isolado e volume de TAVI/PCI publicados pelo próprio hospital.",
+   "Pedir explicitamente 'observation only' de 4 semanas evita o processo de licença do Advanced Clinical Training (provável)."
+  ],
+  "rota_recomendada": "1) Contato via International Medical Support Office/página de Advanced Clinical Training pedindo observação de 4 semanas, endereçado ao Dr. Kuroyanagi (cirurgia, OPCAB) ou Dr. Fujita (cardiologia, PCI/TAVI); 2) perguntar se há modalidade só de observação (sem licença MHLW) e prazos.",
+  "alerta_correcao": "Cuidado para não confundir com Kishiwada City Hospital (CREDO-Kyoto). O CABG isolado é ~94/ano — volume modesto para foco em coronária cirúrgica."
+ },
+ {
+  "match": "Nagasaki University Hospital",
+  "cidade": "Nagasaki", "pais": "Japão", "areas": ["arritmia_cirurgica"],
+  "programa": {
+   "pagina_oficial": "International Medical Center, Nagasaki University Hospital — https://www.mh.nagasaki-u.ac.jp/imc/en (trata 'inquiries regarding training and education programs'; 1-7-1 Sakamoto, Nagasaki 852-8501)",
+   "evidencia_de_observers": "listagem Japan International Observership mostra observadores estrangeiros no Nagasaki University Hospital em 2022 (Myanmar) e 2025 (Filipinas, 3 meses) — via resultado de busca (fonte exata não identificada no snippet)",
+   "elegibilidade_estrangeiro": "provável (já recebeu observadores estrangeiros)",
+   "taxa": "não encontrado", "duracao": "não encontrado", "documentos": "não encontrado", "email_oficial": "não encontrado",
+   "certeza": "provável"
+  },
+  "servico": {
+   "nome": "Department of Cardiovascular Surgery (心臓血管外科), Nagasaki University Hospital / Graduate School of Biomedical Sciences",
+   "oferta_area": "página do serviço lista 'メイズ手術' (maze para FA) e '左心耳クリップ手術' (clip de apêndice atrial esquerdo) — https://www.med.nagasaki-u.ac.jp/surg-crd/patients/data/heartsurgery.pdf",
+   "chefe": "Kiyoyuki Eishi (江石清行) consta como professor nos relatórios do departamento até ~2021 e coautor em 2024; chefe ATUAL não confirmado — https://www.med.nagasaki-u.ac.jp/surg-crd/research/data/2021shinge.pdf",
+   "volume": "não encontrado para maze. DPC (abr/2024–mar/2025): 1º do estado em taquiarritmias, 243 casos, 181 com procedimento (inclui ablação por cateter; não específico de cirurgia) — https://caloo.jp/dpc/disease/107/42 ; relatório anual do serviço 2024 (url do radar) não lido: https://www.med.nagasaki-u.ac.jp/surg-crd/report/data/2024.pdf",
+   "certeza": "oferta de maze: confirmado; chefe atual: não confirmado"
+  },
+  "pessoas_chave": [
+   {"nome": "Kiyoyuki Eishi", "cargo": "Professor de Cirurgia Cardiovascular (confirmado até ~2021; status atual incerto)", "por_que": "líder histórico do serviço; coautor de trabalhos clássicos de maze modificado (Kosakai et al.) — afiliação nesses artigos antigos não confirmada", "fonte": "https://www.med.nagasaki-u.ac.jp/surg-crd/research/data/2021shinge.pdf ; https://nrid.nii.ac.jp/ja/nrid/1000020167290/", "certeza": "provável"},
+   {"nome": "Takashi Miura (三浦崇)", "cargo": "pesquisador/cirurgião do Dept. de Cirurgia Cardiovascular, Nagasaki (posto não confirmado)", "por_que": "linha de pesquisa em plastia valvar (tricúspide); coautor 2024 com Eishi", "fonte": "https://nrid.nii.ac.jp/nrid/1000080349745", "certeza": "provável"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {"titulo": "Artigo em General Thoracic and Cardiovascular Surgery com Miura T e Eishi K (tema não confirmado — provavelmente valvar, não arritmia)", "ano": 2024, "doi": "10.1007/s11748-024-02024-y", "pmid": "não encontrado", "fonte": "https://nrid.nii.ac.jp/nrid/1000080349745"},
+   "Nenhum artigo 2022–2026 do serviço especificamente sobre cirurgia de FA/maze apareceu nos resultados"
+  ],
+  "dicas": [
+   "O foco publicado do serviço parece ser valvar (mitral/tricúspide, MICS); maze/LAA clip são feitos, mas Nagasaki não aparece como referência de pesquisa em arritmia cirúrgica nos resultados.",
+   "Para arritmia cirúrgica no Japão, o nome que aparece é Takashi Nitta (Japanese Society for Arrhythmia Surgery; editor de special issue sobre FA cirúrgica, prazo 31/10/2026) — possível alternativa/porta — https://www.imrpress.com/journal/RCM/special-issues/surgical_afib",
+   "Universidade pública japonesa: esperar processo burocrático longo; pedir observação sem atos clínicos."
+  ],
+  "rota_recomendada": "1) Contato com o International Medical Center do hospital pedindo observação de 4 semanas no Dept. de Cirurgia Cardiovascular com foco em maze/plastia mitral com ablação concomitante; 2) confirmar antes quem é o professor atual (ler o relatório 2024 do serviço). Prioridade baixa para arritmia cirúrgica pura.",
+  "alerta_correcao": "Área 'arritmia_cirurgica' é fraca como diferencial: serviço publica sobretudo em valvar. Chefe atual não confirmado (Eishi possivelmente aposentado)."
+ }
+]
