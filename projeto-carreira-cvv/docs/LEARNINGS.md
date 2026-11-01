@@ -28,3 +28,9 @@
 - O polo "Memorial Hermann" tinha dados do Houston Methodist (erro de merge). Agora são polos separados.
 - Dossiê fica em data/dossie_*.json e é aplicado no build (não editar polos_all à mão).
 - Só dados profissionais públicos; nenhum e-mail/telefone pessoal.
+
+## 2026-11-01 — Pesquisa profunda de todos os polos (15 ondas)
+- 248/248 polos com dossiê. Método: 4 agentes × 4 polos por onda (~11 buscas/polo, teto de 200 buscas por rodada) + 1 normalizador por onda (NORM.md), merge no build.
+- Regras que precisaram ser endurecidas no meio: brasileiro só com formação/vínculo escrito na fonte (nome lusófono não basta); DOI/PMID nunca de memória; ponte/artigo sem URL não entra; e-mail individual de professor não vai para "contato"; nada de reputação, investigações ou crises institucionais.
+- Bug achado: polos com o mesmo nome (aceita em várias áreas) → o 2º dossiê sobrescrevia o 1º. Build agora distribui por ordem.
+- Muitos polos de "robótica" eram minimamente invasiva sem robô — corrigido via "alerta" no dossiê; a área no radar ainda não foi reclassificada.

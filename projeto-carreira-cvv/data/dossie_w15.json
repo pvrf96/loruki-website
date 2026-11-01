@@ -1,0 +1,755 @@
+{
+ "atualizado": "2026-11-01",
+ "polos": [
+  {
+   "match": "Hospital Israelita Albert Einstein",
+   "alerta": "A URL do radar (Einstein 2013) é a série inicial de 21 casos, dado antigo; o Einstein não é mais o único centro de robótica cardíaca do Brasil, e Robinson Poffo também operou o 1º caso robótico do HNSG (Curitiba).",
+   "rota": [
+    "Pedir à COREME da Unifesp ofício de estágio optativo (Res. CNRM 27/2019) e enviar ao Ensino Einstein pedindo enquadramento como 'Médico Estagiário'",
+    "E-mail a Robinson Poffo citando a série Ann CTS 2017 e o relato de 2024 (robótica)",
+    "Para choque/ECMO, pedir inserção na Unidade Coronária",
+    "Plano B: curso/certificação no CETEC"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Sem página pública de estágio externo em cardiologia/cirurgia CV; a política do HIAE prevê a categoria 'Médicos Estagiários', regida por 'Normas para Estágio' (documento não localizado).",
+    "url": "https://medicalsuite.einstein.br/pratica-medica/GuiaPraticaMedica/Politica Regras Gerais para a Atividade Medica no Hospital Israelita Albert Einstein.pdf",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Robinson Poffo",
+     "cargo": "Coordenador do Centro de Cirurgia Cardíaca Minimamente Invasiva e Robótica (HIAE)",
+     "papel": "Decide/hospeda em robótica; 1ª cirurgia cardíaca robótica da América Latina (2010)",
+     "url": "https://www.saudebusiness.com/artigos/einstein-faz-primeira-ponte-de-safena-sem-abrir-trax-do-paciente/",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Marcelo Passos Teivelis",
+     "cargo": "Cirurgião vascular, coautor do relato robótico 2024",
+     "papel": "Colaborador do grupo robótico",
+     "url": "https://doaj.org/article/31fe24226a91400491aa32c57bd06133",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Nelson Wolosker",
+     "cargo": "Cirurgião vascular (ensino/pesquisa Einstein), coautor do relato 2024",
+     "papel": "Liderança acadêmica",
+     "url": "https://doaj.org/article/31fe24226a91400491aa32c57bd06133",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "Robotic cardiac surgery for removal of iliac venous stent embolized in the right cardiac chambers: a case report",
+     "ano": 2024,
+     "id": null,
+     "url": "https://doaj.org/article/31fe24226a91400491aa32c57bd06133"
+    },
+    {
+     "titulo": "Reparo robótico de valva mitral nativa com endocardite (JTCVS Techniques)",
+     "ano": 2023,
+     "id": "PMC10859664",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10859664"
+    }
+   ],
+   "dicas": [
+    "CETEC já formou médicos de 16 países e certifica em robótica: possível porta de entrada (https://medicinasa.com.br/?p=47783)",
+    "Volume confirmado: 39 casos robóticos 2010–2015 (https://www.annalscts.com/article/view/13324/html); volume atual desconhecido",
+    "Simpósio da Unidade Coronária tem sessão de choque cardiogênico/coração artificial (https://www.saudebusiness.com/artigos/einstein-apresenta-avanos-na-rea-de-cardiologia/)"
+   ],
+   "lacunas": [
+    "Texto das 'Normas para Estágio', taxa, duração e documentos",
+    "Contato oficial do Ensino Einstein para estágio externo",
+    "Volume atual de robótica cardíaca e programa de ECMO/choque",
+    "Autoria do artigo PMC10859664 pelo grupo HIAE (não confirmada)"
+   ]
+  },
+  {
+   "match": "Real Hospital Português de Beneficência",
+   "alerta": "O serviço fetal é a Unidade de Cardiologia Materno-Fetal (UCMF) do RHP, ligada à ONG Círculo do Coração; a clínica CardioPED Recife no mesmo endereço não é confirmadamente do RHP.",
+   "rota": [
+    "Contato com Sandra Mattos (UCMF/Caduceus) pedindo 1 mês em cardiologia fetal/telemedicina",
+    "Pedir à COREME da Unifesp ofício de estágio optativo (Res. CNRM 27/2019) ao centro de estudos/ensino do RHP",
+    "Para cardiopediatria cirúrgica, citar a parceria Children's HeartLink/Texas Children's"
+   ],
+   "prazos": [],
+   "programa": {},
+   "pessoas": [
+    {
+     "nome": "Sandra da Silva Mattos",
+     "cargo": "Diretora da UCMF e Centro de Estudos Caduceus (RHP); presidente do Círculo do Coração de PE",
+     "papel": "Decide/hospeda em cardiologia fetal",
+     "url": "https://brcris.ibict.br/vivo/display/pers_d0384532-71d6-44b6-a60b-c701302a0abe",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Juliana Neves",
+     "cargo": "Cardiologista do RHP",
+     "papel": "Porta-voz do programa pediátrico na parceria Children's HeartLink",
+     "url": "https://childrensheartlink.org/realhospitalannouncement",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "Encontro de Cardiopediatria do RHP como porta de entrada (https://doity.com.br/iii-encontro-de-cardiopediatria-do-real-hospital-portugus)",
+    "Telemedicina do Círculo do Coração (PB/PE), com cirurgia dos casos graves no RHP: bom gancho para o e-mail",
+    "Parceiro Children's HeartLink desde 2022, com mentoria do Texas Children's (https://childrensheartlink.org/first-training-visit/)"
+   ],
+   "lacunas": [
+    "Página de estágio externo/COREME do RHP, taxa, duração e contato",
+    "Volume fetal/pediátrico",
+    "Artigos 2022–2026 com DOI/PMID"
+   ]
+  },
+  {
+   "match": "Hospital Nossa Senhora das Graças",
+   "alerta": "Polo fraco em robótica cardíaca: só uma notícia de 1º caso robótico (Woitowicz com Robinson Poffo, do Einstein) e nenhuma residência em cirurgia cardiovascular no HNSG.",
+   "rota": [
+    "Prioridade baixa: preferir Einstein (mesmo cirurgião) ou Angelina Caron",
+    "Se insistir, pedir à COREME da Unifesp ofício de estágio optativo (Res. CNRM 27/2019) à COREME do HNSG",
+    "Contato com Vinicius Woitowicz pedindo acompanhar casos robóticos agendados"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "HNSG tem COREME e 20 programas de residência credenciados (inclui Cardiologia, 2 vagas, 2 anos); estágio externo não publicado.",
+    "url": "https://hnsg.org.br/wp-content/uploads/2023/02/GUIA-DO-CANDIDATO-RESIDENCIA-MEDICA.pdf",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Vinicius Nicolau Woitowicz",
+     "cargo": "Cirurgião cardiovascular (Curitiba)",
+     "papel": "Operou o 1º caso robótico cardíaco do HNSG",
+     "url": "https://www.tribunapr.com.br/noticias/curitiba-regiao/hospital-de-curitiba-realiza-primeira-cirurgia-de-coracao-com-robo/",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Robinson Poffo",
+     "cargo": "Cirurgião robótico (HIAE), proctor do caso",
+     "papel": "Elo com o Einstein",
+     "url": "https://www.tribunapr.com.br/noticias/curitiba-regiao/hospital-de-curitiba-realiza-primeira-cirurgia-de-coracao-com-robo/",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [],
+   "lacunas": [
+    "Coordenadora da residência de cardiologia: fonte (Maria Letícia Leão Lana) pode ser de outro HNSG (Sete Lagoas-MG)",
+    "Chefe da cirurgia CV e volume robótico (data do caso desconhecida)",
+    "Estágio externo, contato, taxa e documentos",
+    "Publicações em robótica cardíaca"
+   ]
+  },
+  {
+   "match": "Hospital Angelina Caron",
+   "alerta": "Há um 'Rodrigo de Souza, MD' na USF (Tampa); não está confirmado que seja o Rodrigo Ribeiro de Souza que lidera a robótica cardíaca do HAC.",
+   "rota": [
+    "E-mail a Rodrigo Ribeiro de Souza pedindo 4 semanas na cirurgia cardíaca robótica",
+    "Pedir à COREME da Unifesp ofício de estágio optativo (Res. CNRM 27/2019) à COREME/ensino do HAC-UniCaron",
+    "Perguntar por vagas nos programas de formação em cirurgia CV minimamente invasiva e robótica",
+    "Citar o projeto de robótica para idosos do SUS e a missão com o King Faisal"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Hospital-escola (UniCaron) com residência própria (49 vagas em 2026) e programas de formação em cirurgia CV minimamente invasiva e robótica citados em 2026; estágio externo não publicado.",
+    "url": "https://www.bemparana.com.br/bem-estar/padilha-destaca-expansao-de-cirurgias-exames-e-tecnologia-do-hospital-angelina-caron/",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Rodrigo Ribeiro de Souza",
+     "cargo": "Cirurgião cardiovascular; conduziu a estreia da cirurgia cardíaca robótica do HAC",
+     "papel": "Decide/hospeda em robótica; certificação em robótica pela USF",
+     "url": "https://medicinasa.com.br/?p=136717",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "Missão de cirurgia CV avançada (10–17 set 2026) com o King Faisal Specialist Hospital, operando a fila do SUS: evento repetível (https://www.bandab.com.br/saude/hospital-angelina-caron-missao-cirurgias-cardiacas-sus-medicos-arabia-saudita/)",
+    "Projeto de cirurgia cardíaca robótica para idosos do SUS (https://www.tribunapr.com.br/saude-e-bem-estar/idosos-poderao-fazer-cirurgias-cardiacas-roboticas-em-campina-grande-do-sul/)"
+   ],
+   "lacunas": [
+    "Estágio externo, contato, taxa, duração e documentos",
+    "Volume de robótica cardíaca",
+    "Publicações do HAC em robótica cardíaca"
+   ]
+  },
+  {
+   "match": "Hospital Mater Dei",
+   "alerta": "Homonímia: o 'Mater Dei Hospital' de Malta aparece nas buscas e é outra instituição.",
+   "rota": [
+    "E-mail a Luciano Matar citando o artigo de 2026 (dupla mamária robótica)",
+    "Pedir 2–4 semanas acompanhando a robótica cardíaca",
+    "Pedir à COREME da Unifesp ofício de estágio optativo (Res. CNRM 27/2019) à Comissão de Ensino/COREME do Mater Dei Santo Agostinho"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Sem página de estágio externo; as unidades Santo Agostinho e Contorno são Hospital de Ensino Nível 1 (MS), o que sugere COREME a contatar.",
+    "url": "https://medicinasa.com.br/ms-mater-dei/",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Luciano Matar",
+     "cargo": "Cirurgião cardiovascular, endovascular e robótico (Santo Agostinho, Contorno, Nova Lima)",
+     "papel": "Provável anfitrião; coautor do artigo de 2026",
+     "url": "https://www.itatiaia.com.br/saude/mater-dei-avanca-no-uso-da-cirurgia-robotica-e-amplia-possibilidades-no-tratamento-cardiaco/",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Hugo Monteiro Neder Issa",
+     "cargo": "1º autor do relato de revascularização híbrida robótica",
+     "papel": "Produção acadêmica local",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12700020/",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "Hybrid Revascularization Approach Using Robot-Assisted Bilateral Internal Mammary Artery Grafting",
+     "ano": 2026,
+     "id": "DOI 10.21470/1678-9741-2025-0008",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12700020/"
+    }
+   ],
+   "dicas": [
+    "Gancho do e-mail: nota técnica Si vs Xi do artigo de 2026 (no Xi não há clipe)",
+    "A rede também tem robótica torácica (Daniel Bonomi)"
+   ],
+   "lacunas": [
+    "Estágio externo, contato e documentos",
+    "Chefe formal do serviço e volume de robótica cardíaca",
+    "Cargo de Hugo Issa no hospital"
+   ]
+  },
+  {
+   "match": "Hospital Oto Aldeota",
+   "alerta": "Programa incipiente: 1ª cirurgia cardíaca robótica do Ceará em março de 2026.",
+   "rota": [
+    "Prioridade baixa",
+    "Confirmar na matéria do O Povo o nome completo do cirurgião líder",
+    "Contato pelo canal institucional do hospital",
+    "Pedir à COREME da Unifesp ofício de estágio optativo (Res. CNRM 27/2019)"
+   ],
+   "prazos": [],
+   "programa": {},
+   "pessoas": [],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "Programa novo: talvez mais aberto a visitantes, mas de baixo volume (https://mais.opovo.com.br/jornal/ciencia-e-saude/2026/03/23/ceara-realiza-primeira-cirurgia-cardiaca-robotica.html)"
+   ],
+   "lacunas": [
+    "Líder citado só como 'Dr. Milanez'; não confirmado que seja Adriano Marcio de Melo Milanez (CTSNet)",
+    "Estágio externo e contato",
+    "Volume e proctor do programa",
+    "Publicações 2022–2026"
+   ]
+  },
+  {
+   "match": "Hospital Meridional",
+   "alerta": "O radar diz 'Vitória', mas o hospital principal e o Da Vinci Xi ficam em Cariacica (Grande Vitória); 'Meridional Vitória' é outra unidade.",
+   "rota": [
+    "E-mail a Melchior Luiz Lima pedindo acompanhar casos robóticos",
+    "Pedir à COREME da Unifesp ofício de estágio optativo (Res. CNRM 27/2019) à COREME da Rede Meridional"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "A Rede Meridional tem COREME com editais (Anestesiologia, Cirurgia Geral, Medicina Intensiva) e centro de treinamento em robótica; estágio externo em cirurgia CV não publicado.",
+    "url": "https://redemeridional.com.br/wp-content/uploads/2021/08/Edital_2021_2_2_MEDICINA_INTENSIVA.pdf",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Melchior Luiz Lima",
+     "cargo": "Coordenador da cirurgia cardíaca do Hospital Meridional",
+     "papel": "Decide/hospeda; liderou a 1ª cirurgia cardíaca robótica do ES",
+     "url": "https://tribunaonline.com.br/saude/espirito-santo-tem-1-cirurgia-cardiaca-feita-com-robos-299264",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "E-mail coreme@redemeridional.com.br veio só de resumo de busca do edital: a conferir",
+    "Centro formal de treinamento em robótica (Da Vinci Xi desde 2020) como porta de entrada (https://www.agazeta.com.br/conteudo-de-marca/hospital-no-es-forma-nova-geracao-de-cirurgioes-assistidos-por-robos-0921)"
+   ],
+   "lacunas": [
+    "Unidade exata da cirurgia cardíaca robótica (provável Cariacica)",
+    "Volume de robótica cardíaca",
+    "Taxa, duração e documentos do estágio",
+    "Publicações"
+   ]
+  },
+  {
+   "match": "Hospital Geral Unimed Maringá",
+   "alerta": "Programa cardíaco robótico começou em novembro de 2025 (ano inferido); volume baixo.",
+   "rota": [
+    "Prioridade baixa",
+    "Contato com Thiago Faria de Almeida via Unimed Maringá",
+    "Alternativa: procurar Cláudio Cunha (UFU), proctor de vários centros",
+    "Pedir à COREME da Unifesp ofício de estágio optativo (Res. CNRM 27/2019)"
+   ],
+   "prazos": [],
+   "programa": {},
+   "pessoas": [
+    {
+     "nome": "Thiago Faria de Almeida",
+     "cargo": "Cirurgião cardíaco cooperado; conduziu a 1ª cirurgia cardíaca robótica do HGU",
+     "papel": "Possível anfitrião",
+     "url": "https://www.unimed.coop.br/site/web/maringa/-/hgu-realiza-primeira-cirurgia-card%C3%ADaca-rob%C3%B3tica-de-maring%C3%A1",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Cláudio Cunha",
+     "cargo": "Proctor da cirurgia; Universidade Federal de Uberlândia",
+     "papel": "Proctor de programas iniciantes; ponte acadêmica (UFU)",
+     "url": "https://www.unimed.coop.br/site/web/maringa/-/hgu-realiza-primeira-cirurgia-card%C3%ADaca-rob%C3%B3tica-de-maring%C3%A1",
+     "certeza": "provável"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "Da Vinci X desde ago/2024, 394 cirurgias robóticas (todas as especialidades) até a notícia"
+   ],
+   "lacunas": [
+    "Estágio externo e contato",
+    "Volume de robótica cardíaca",
+    "Publicações"
+   ]
+  },
+  {
+   "match": "Hospital de Messejana",
+   "alerta": "Nome oficial: Hospital de Messejana Dr. Carlos Alberto Studart Gomes (SESA-CE); checar se o transplante pediátrico segue no HM após transferência anunciada da cardiologia pediátrica.",
+   "rota": [
+    "Pedir à COREME da Unifesp ofício de estágio optativo (Res. CNRM 27/2019) ao Centro de Estudos/COREME do HM",
+    "E-mail a Juan Cosquillo Mejia (cirurgia) ou João David de Souza Neto (IC/transplante clínico)",
+    "Citar o 600º transplante (ago/2026) e o ensaio de SGLT2i (NCT06147271)",
+    "Propor estágio de observação no formato da tutoria a equipes externas"
+   ],
+   "prazos": [],
+   "programa": {},
+   "pessoas": [
+    {
+     "nome": "Juan Cosquillo Mejia",
+     "cargo": "Coordenador cirúrgico da Unidade de Transplantes Cardíacos (2025)",
+     "papel": "Chefe cirúrgico; já coordenou tutoria de equipes externas",
+     "url": "https://site.abto.org.br/wp-content/uploads/2025/08/ABTO-NEWS-JULHO-no7_2025-.pdf",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "João David de Souza Neto",
+     "cargo": "Coordenador da Unidade de Transplante e IC (2023)",
+     "papel": "Lidera a parte clínica",
+     "url": "https://www.opovo.com.br/noticias/ceara/2023/02/22/hospital-de-messejana-atinge-marca-de-500-transplantes-cardiacos-realizados.html",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Valdester Cavalcante Pinto Júnior",
+     "cargo": "Cirurgião CV pediátrico ligado à história do transplante no CE",
+     "papel": "Referência do transplante pediátrico",
+     "url": "https://unifor.br/web/doedecoracao/-/entrevista-nota-10-valdester-cavalcante-e-a-trajetoria-do-transplante-cardiaco-no-ceara",
+     "certeza": "provável"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "Twenty-six years of heart transplantation in the world's largest public organ transplant system: a survival analysis (Heart Failure 2024, ESC)",
+     "ano": 2024,
+     "id": null,
+     "url": "https://esc365.escardio.org/presentation/280678"
+    },
+    {
+     "titulo": "Long-term survival after heart transplantation in Chagas disease (Transplantation Direct)",
+     "ano": 2022,
+     "id": "PMC9236606",
+     "url": "https://rcastoragev2.blob.core.windows.net/af828120056c04a18d4aa99c6df2b4ec/PMC9236606.pdf"
+    }
+   ],
+   "dicas": [
+    "600º transplante em ago/2026; 2º centro do Brasil em volume (https://mais.opovo.com.br/jornal/farol/2026/08/08/hospital-de-messejana-alcanca-a-marca-de-600-transplantes-de-coracoes.html)",
+    "Histórico de capacitação de equipes de outros estados (https://www.conass.org.br/?p=4719)",
+    "Ensaio SGLT2i em transplantados, UFC + HM (https://www.syfrah.com/trial/NCT06147271)"
+   ],
+   "lacunas": [
+    "Edital/página de estágio externo e contato oficial",
+    "Coordenadores em 2026 (cargos datados de 2023/2025)",
+    "Fellowship em transplante"
+   ]
+  },
+  {
+   "match": "ICESP — Instituto do Câncer do Estado de SP",
+   "alerta": "A URL do radar (PMC7189468) é artigo de 2020, não página de programa.",
+   "rota": [
+    "Pedir à COREME da Unifesp ofício de estágio optativo (Res. CNRM 27/2019) via Comissão de Ensino do HCFMUSP",
+    "E-mail à equipe de Ludhmila Hajjar citando o ensaio IPAC (JAHA 2025)",
+    "Pedir inserção em ambulatório/interconsulta e nas 2 sessões semanais"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Programa de Cardio-Oncologia desde 2009 e fellowship formal desde 2017 (edital InCor 2019 exigia 2 anos de residência + 6 meses em cardio-oncologia); estágio curto para externo não publicado.",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7189468",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Ludhmila Abrahão Hajjar",
+     "cargo": "Coordenadora de Cardio-Oncologia do ICESP; Director of Cardio-Oncology, InCor",
+     "papel": "Decide; autora correspondente do IPAC",
+     "url": "https://esc365.escardio.org/person/1178864",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Stephanie Itala Rizk",
+     "cargo": "1ª autora do ensaio IPAC (tese USP 2024)",
+     "papel": "Pesquisadora ativa; contato acadêmico",
+     "url": "https://teses.usp.br/teses/disponiveis/5/5131/tde-22052024-140427/en.php",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Roberto Kalil Filho",
+     "cargo": "Co-chair do Global Cardio-Oncology Summit 2019 (SP)",
+     "papel": "Liderança InCor ligada à cardio-oncologia",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8352295",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "Randomized, placebo-controlled, triple-blind clinical trial of ivabradine for the prevention of cardiac dysfunction (IPAC) — J Am Heart Assoc",
+     "ano": 2025,
+     "id": "DOI preprint 10.1101/2024.10.30.24316463",
+     "url": "https://iris.unisr.it/retrieve/7ca7c5cd-2103-4416-960f-95fd488ed478/rizk-et-al-2025-randomized-placebo-controlled-triple-blind-clinical-trial-of-ivabradine-for-the-prevention-of-cardiac.pdf"
+    },
+    {
+     "titulo": "Ivabradina na prevenção de cardiotoxicidade por antraciclina (tese FMUSP)",
+     "ano": 2024,
+     "id": null,
+     "url": "https://teses.usp.br/teses/disponiveis/5/5131/tde-22052024-140427/en.php"
+    },
+    {
+     "titulo": "Brazilian cardio-oncology: the 10-year experience of the ICESP",
+     "ano": 2020,
+     "id": "DOI 10.1186/s12872-020-01471-8",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7189468"
+    }
+   ],
+   "dicas": [
+    "2 sessões clínicas/semana (casos + journal club) e visita geral com o professor: formato bom para observador",
+    "Edital InCor 2019 do fellowship (https://www.incor.usp.br/sites/incor2013/docs/ps-1243-cartaz.pdf)"
+   ],
+   "lacunas": [
+    "Estágio curto para residente externo e contato oficial",
+    "Diretor do fellowship",
+    "Volume anual de cardio-oncologia",
+    "DOI final do IPAC no JAHA"
+   ]
+  },
+  {
+   "match": "Hospital Pequeno Príncipe",
+   "alerta": "Em 2025 os estágios remunerados foram encerrados e substituídos por Curso de Especialidades (com ênfase em Cardiologia); pedir estágio optativo não remunerado.",
+   "rota": [
+    "Pedir à COREME da Unifesp ofício de estágio optativo (Res. CNRM 27/2019) à COREME/Faculdades Pequeno Príncipe (fpp.edu.br)",
+    "Pedir 1 mês em cardiologia/cirurgia cardíaca pediátrica",
+    "E-mail a Bruno Hideo citando o recorde de 12 transplantes em 2025"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Sem estágio observador para médico externo; há residência (4 vagas cardiologia pediátrica, 2 cirurgia cardíaca pediátrica) e o Curso de Especialidades FPP 2026–2028.",
+    "url": "https://fpp.edu.br/wp-content/uploads/2025/08/EDITAL-ESP-2026_2028-1.pdf",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Bruno Hideo",
+     "cargo": "Coordenador do programa de transplante cardíaco pediátrico",
+     "papel": "Lidera a área de maior destaque",
+     "url": "https://pequenoprincipe.org.br/newsano9/en/6/50th-transplant-marks-pequeno-principes-excellence-in-pediatric-cardiology",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Fabio Said Sallum",
+     "cargo": "Cirurgia Cardíaca I (edital FPP 2026–2028)",
+     "papel": "Possível anfitrião",
+     "url": "https://fpp.edu.br/wp-content/uploads/2025/08/EDITAL-ESP-2026_2028-1.pdf",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Leonardo Mulinari",
+     "cargo": "Cirurgia Cardíaca II (edital FPP 2026–2028)",
+     "papel": "Cirurgia cardíaca",
+     "url": "https://fpp.edu.br/wp-content/uploads/2025/08/EDITAL-ESP-2026_2028-1.pdf",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Lucas Rocha Oliveira",
+     "cargo": "Cardiologia (edital FPP 2026–2028)",
+     "papel": "Cardiologia pediátrica clínica",
+     "url": "https://fpp.edu.br/wp-content/uploads/2025/08/EDITAL-ESP-2026_2028-1.pdf",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Fábio Binhara Navarro",
+     "cargo": "Dept. de Cirurgia Cardiovascular Pediátrica; coautor BJCVS 2024",
+     "papel": "Publicação/política da subespecialidade",
+     "url": "https://pesquisa.bvsalud.org/portal/resource/PT/biblio-1559404",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "Challenges of Congenital Heart Surgery in Brazil: It is Time to Designate Pediatric Congenital Heart Surgery Subspecialty",
+     "ano": 2024,
+     "id": null,
+     "url": "https://pesquisa.bvsalud.org/portal/resource/PT/biblio-1559404"
+    },
+    {
+     "titulo": "Carta-resposta ao artigo 'Challenges of Congenital Heart Surgery in Brazil' (BJCVS)",
+     "ano": 2025,
+     "id": "PMC11952209",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11952209"
+    }
+   ],
+   "dicas": [
+    "2024: 560 cirurgias cardíacas (92 em RN) e 9 transplantes (https://pequenoprincipe.org.br/newsano8/en/?p=2539)",
+    "UTI cardíaca de 8 leitos inaugurada em 2024; cardiologia clínica e cirúrgica em tempo integral",
+    "Relevante se o interesse for cardiopatia congênita/transplante pediátrico"
+   ],
+   "lacunas": [
+    "Chefe formal do serviço",
+    "Contato, taxa e documentos para estágio externo",
+    "Afiliação de Valdester C. Pinto Júnior (HPP x Ceará) a checar"
+   ]
+  },
+  {
+   "match": "Hospital da Criança e Maternidade — CardioPedBrasil",
+   "alerta": "Grafia correta: Croti (documento legislativo grafa 'Cotri').",
+   "rota": [
+    "Pedir à COREME da Unifesp ofício de estágio optativo (Res. CNRM 27/2019) à COREME FAMERP/FUNFARME",
+    "E-mail ao Prof. Ulisses Croti citando o Centro de Excelência Children's HeartLink e o registro IQIC",
+    "Pedir 1 mês no CardioPedBrasil",
+    "Se houver, ir ao próximo encontro internacional Children's HeartLink no HCM"
+   ],
+   "prazos": [],
+   "programa": {},
+   "pessoas": [
+    {
+     "nome": "Ulisses Alexandre Croti",
+     "cargo": "Líder/representante do CardioPedBrasil; cirurgião CV pediátrico",
+     "papel": "Decide; organiza simpósios com Mayo/Children's HeartLink",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11092978/",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "Children's HeartLink Certifies Center of Excellence in Brazil",
+     "ano": 2024,
+     "id": "DOI 10.21470/1678-9741-2023-0485",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11092978/"
+    },
+    {
+     "titulo": "Pediatric Heart Transplant: Initial Experience in a Tertiary Center in Brazil",
+     "ano": 2022,
+     "id": null,
+     "url": "https://scielo.br/j/rbccv/a/T6V784GPk3zVdfYXMMNVNqh/?lang=en"
+    }
+   ],
+   "dicas": [
+    "Centro de Excelência Children's HeartLink ('regional trainer'): formar externos faz parte da missão",
+    ">450 pacientes cirúrgicos/ano e >3.500 no registro IQIC",
+    "Editais 2026 achados são só para perfusionistas (https://www.cardiopedbrasil.com.br/educacao/Edital-XII-Curso-Aperfeicoamento-em-Circulacao-Extracorporea-Pediatrica-2026.pdf)"
+   ],
+   "lacunas": [
+    "Estágio optativo para médico externo e contato oficial",
+    "Fellowship",
+    "URL do radar (medicinasa) não verificada"
+   ]
+  },
+  {
+   "match": "Instituto de Cardiologia do RS — IC/FUC",
+   "alerta": "Não confundir com o ICTDF (Brasília), também mantido pela FUC.",
+   "rota": [
+    "Pedir à COREME da Unifesp ofício de estágio optativo (Res. CNRM 27/2019) à COREME do IC-RS (4 semanas na Unidade de Cardiologia Fetal)",
+    "E-mail a Paulo Zielinsky citando o ensaio de DHA/constrição ductal (PMID 38214544)",
+    "Se não houver vaga, usar o Workshop de Cardiologia Fetal ou o Dia F",
+    "Plano B em SP: curso observacional de eco fetal do Dante Pazzanese"
+   ],
+   "prazos": [],
+   "programa": {},
+   "pessoas": [
+    {
+     "nome": "Paulo Zielinsky",
+     "cargo": "Chefe e fundador da Unidade de Cardiologia Fetal (1993)",
+     "papel": "Decide/hospeda; líder em constrição ductal fetal",
+     "url": "https://brcris.ibict.br/vivo/display/pers_c5d57951-e80a-4aed-8c15-32356d2317c9",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Ângela R. L. Nader",
+     "cargo": "Autora da Unidade de Cardiologia Fetal (2018)",
+     "papel": "Equipe da unidade",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6081570",
+     "certeza": "provável"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "Maternal supplementation with docosahexaenoic acid does not cause constriction of fetal ductus arteriosus: randomized controlled trial",
+     "ano": 2024,
+     "id": "PMID 38214544",
+     "url": "https://www.pubmed.gov/38214544/"
+    },
+    {
+     "titulo": "Brazilian Fetal Cardiology Guidelines - 2019",
+     "ano": 2019,
+     "id": "DOI 10.5935/abc.20190075",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6555576/"
+    }
+   ],
+   "dicas": [
+    "Dia F (triagem gratuita de gestantes) como evento de ensino (https://sul21.com.br/?p=60511)",
+    "Workshop de Cardiologia Fetal (2023) citado por Zielinsky (https://www.escavador.com/sobre/1922859/paulo-zielinsky)",
+    "Residência do IC-RS é selecionada via Fundmed (https://med.estrategia.com/portal/noticias/instituto-de-cardiologia-do-rio-grande-do-sul-abre-selecao-para-residencia-medica-2026-confira-o-edital/)",
+    "Plano B SP: curso observacional de eco fetal do IDPC (https://cursos.idpc.org.br/image/catalog/pdf/OBSERVACIONAL/ECO%20FETAL/Curso_observacional_ecocardiograma_infantil_IDPC%20.pdf)"
+   ],
+   "lacunas": [
+    "Página de estágio externo, contato, taxa e documentos",
+    "Volume da unidade fetal e diretor de fellowship",
+    "Edições recentes do Dia F"
+   ]
+  },
+  {
+   "match": "Hospital Samaritano Paulista",
+   "alerta": "Não confundir com o Samaritano do Rio (Botafogo) nem com o Samaritano Higienópolis; a evidência pública é de Centro de Dor Torácica, não de programa de choque.",
+   "rota": [
+    "Pedir à COREME da Unifesp ofício de estágio optativo (Res. CNRM 27/2019) à diretoria médica/ensino do Samaritano Paulista",
+    "Pedir 4 semanas no Centro de Dor Torácica/UTI",
+    "Priorizar outros polos para choque/ECMO"
+   ],
+   "prazos": [],
+   "programa": {},
+   "pessoas": [],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "Centro de Dor Torácica: ~80 pacientes/mês, 35% com IAM; reconhecimento internacional (https://medicinasa.com.br/?p=36285)",
+    "163 leitos (27 de UTI), JCI e certificações em IAM e IC (https://www.saudebusiness.com/artigos/hospital-samaritano-paulista-inaugurado-em-so-paulo/)",
+    "Focar o e-mail em emergência cardiológica e protocolo de SCA"
+   ],
+   "lacunas": [
+    "Líder do Centro de Dor Torácica citado só como 'Pedro Barros'; identidade completa não confirmada",
+    "Coordenador atual de cardiologia/UTI e cargo atual do diretor",
+    "Estágio externo, residência própria e contato",
+    "Artigos 2022–2026 do serviço"
+   ]
+  },
+  {
+   "match": "Hospital Copa D'Or",
+   "alerta": "O ECMO do Copa D'Or é ligado à medicina respiratória/transplante pulmonar: útil para ECMO-VV, menos para ECMO-VA cardiológico.",
+   "rota": [
+    "Pedir à COREME da Unifesp ofício de estágio optativo (Res. CNRM 27/2019) à coordenação de ensino do IDOR",
+    "E-mail a Tiago Machuca pedindo 4 semanas no Centro de ECMO/UTI Pulmonar",
+    "Alternativa: mesmo pedido nas unidades São Luiz Itaim/Jabaquara (SP)",
+    "Usar o evento IDOR 'Fronteiras em Medicina Respiratória' para 1º contato"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Ensino da Rede D'Or concentrado no IDOR (residência em Medicina Intensiva com atividades no Copa D'Or); estágio para residente externo não publicado.",
+    "url": "https://www.rededorsaoluiz.com.br/instituto/idor/cursos/residencia-medica-em-medicina-intensiva-rj/",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Tiago Noguchi Machuca",
+     "cargo": "Diretor Nacional de Cirurgia Torácica, ECMO e Transplante de Pulmão (Rede D'Or)",
+     "papel": "Decide sobre o programa de ECMO",
+     "url": "https://www.rededorsaoluiz.com.br/site/medicina-respiratoria-alta-complexidade/equipe-medica",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Eduardo Fontena",
+     "cargo": "Cirurgião torácico; 1º transplante de pulmão do Copa D'Or",
+     "papel": "Equipe cirúrgica local",
+     "url": "https://www.rededorsaoluiz.com.br/noticias/artigo/transplante-de-pulmao-realizado-na-rede-dor-devolve-qualidade-de-vida-a-paciente-de-60-anos",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Desirée S. Machado",
+     "cargo": "Gerente Nacional de Qualidade ECMO (Rede D'Or); pesquisadora IDOR",
+     "papel": "Qualidade/treinamento ECMO da rede",
+     "url": "https://www.rededorsaoluiz.com.br/instituto/idor/post_scientists/desiree-s-machado/",
+     "certeza": "provável"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "Centro de ECMO Silver Level ELSO desde jan/2024 (https://www.rededorsaoluiz.com.br/hospital/copador/servicos/unidade-pulmonar/)",
+    "ECMO também em São Luiz Itaim/Jabaquara (SP) (https://www.rededorsaoluiz.com.br/site/medicina-respiratoria-alta-complexidade/infraestrutura)",
+    "Superambulância com suporte de ECMO (https://medicinasa.com.br/?p=146832)"
+   ],
+   "lacunas": [
+    "Contato oficial de ensino do IDOR para residente externo",
+    "Dados de ECMO-VA para choque cardiogênico",
+    "Artigos 2022–2026 de ECMO do Copa D'Or",
+    "Diretor de fellowship"
+   ]
+  },
+  {
+   "match": "Hospital e Maternidade Sepaco",
+   "alerta": "Sem diretor médico de ECMO publicado; foco neonatal/pediátrico: confirmar se aceitam residente de área adulta.",
+   "rota": [
+    "Pedir à COREME da Unifesp ofício de estágio optativo (Res. CNRM 27/2019) à diretoria/ensino do Sepaco (2–4 semanas no ECMO)",
+    "Citar o Gold ELSO, os >100 casos pediátricos e o transporte ECMO",
+    "Pedir indicação do coordenador médico via enfermeiro líder Luiz Ramos",
+    "Se for cirurgia CV, enfatizar ECMO pós-cardiotomia e congênitas"
+   ],
+   "prazos": [],
+   "programa": {},
+   "pessoas": [
+    {
+     "nome": "Luiz Ramos",
+     "cargo": "Especialista em ECMO e enfermeiro líder do programa",
+     "papel": "Porta de contato prática",
+     "url": "https://medicinasa.com.br/?p=168296",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Luci Meire Pivelli Usberco",
+     "cargo": "CEO do Hospital e Maternidade Sepaco",
+     "papel": "Autoriza convênios/estágios institucionais",
+     "url": "https://medicinasa.com.br/?p=168296",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "Centro de Excelência ELSO nível Gold (https://medicinasa.com.br/?p=168296)",
+    "Transporte ECMO: equipe implanta no hospital de origem (https://www.saudebusiness.com/artigos/hospital-sepaco-passa-oferecer-transporte-ecmo/)",
+    "Mesma cidade da residente: estágio curto sem custo de viagem"
+   ],
+   "lacunas": [
+    "Página de ensino/COREME e contato oficial",
+    "Diretor médico do ECMO",
+    "Artigos 2022–2026 com afiliação Sepaco"
+   ]
+  }
+ ],
+ "pontes_brasil": []
+}
