@@ -1,4 +1,6 @@
-# TASKS — passos pequenos (v0)
+# TASKS — passos pequenos (v1)
+
+Loop de cada tarefa: 1) escrever o 'pronto' no DONE.md  2) executar  3) conferir contra o DONE.md  4) anotar no LEARNINGS.md o que funcionou/errou
 
 ## Fase 0 — definição (agora, conversando)
 - [ ] Responder as perguntas em aberto do PRD
