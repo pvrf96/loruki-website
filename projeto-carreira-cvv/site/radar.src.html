@@ -139,6 +139,17 @@ details.w[open] summary::after{content:"–"}
 .src{display:flex;flex-direction:column;gap:9px}
 .srci{border-left:2px solid var(--line);padding-left:10px;font-size:12px;display:flex;flex-direction:column;gap:2px}
 .srci span{color:var(--muted)}
+.dosb{font:700 9px var(--f-mono);letter-spacing:.06em;border-radius:999px;padding:2px 7px;background:rgb(255 63 174 / .16);color:#ff7cc8}
+.dos{border:1px solid rgb(255 63 174 / .35);border-radius:12px;padding:12px;display:flex;flex-direction:column;gap:11px;background:linear-gradient(180deg,rgb(255 63 174 / .07),transparent 70%)}
+.dos h4{margin:0;font-size:13px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.dos .lbl{font:700 9.5px var(--f-mono);letter-spacing:.08em;color:var(--muted);text-transform:uppercase;margin-bottom:4px}
+.dos ol,.dos ul{margin:0;padding-left:18px;font-size:12.5px;display:flex;flex-direction:column;gap:4px}
+.dos .alert{font-size:12px;border-left:2px solid #ff8a2a;padding-left:9px;color:#ffc48e}
+.dos .pp{font-size:12px;display:flex;flex-direction:column;gap:6px}
+.dos .pp div{display:flex;flex-direction:column;gap:1px}.dos .pp span{color:var(--muted)}
+.dos a{overflow-wrap:anywhere}
+.cz{font:600 8.5px var(--f-mono);border-radius:4px;padding:0 4px;margin-left:4px;vertical-align:1px;border:1px solid var(--line);color:var(--muted)}
+.cz.ok{color:#5ee39b;border-color:rgb(94 227 155 / .4)}
 .note{font-size:11.5px;color:var(--muted);border-left:2px solid var(--act);padding-left:10px;margin:0}
 .steps{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:10px;font-size:13px;line-height:1.5}
 .nowebgl{position:absolute;inset:0;display:grid;place-items:center;padding:24px;text-align:center;color:var(--muted)}
@@ -250,6 +261,7 @@ const FAMC={ccv:'#ff3fae',crit:'#ff8a2a',int:'#a3ee2c',clin:'#9a5cff',ped:'#c77d
 const fc=k=>FAMC[(T[k]||[0,'est'])[1]];
 const REG={eua:'EUA',can:'Canadá',lat:'América Latina',eur:'Europa',asia:'Ásia e Oriente Médio',oce:'Oceania'};
 const RES={sim:'Aceita residentes',alguns_trainees:'Aceita alguns residentes',so_formados:'Só especialistas formados',nao:'Não aceita',nao_confirmado:'Não confirmado'};
+const DOS=__DOSSIE__;const DOS_DATA=DOS.atualizado?DOS.atualizado.split('-').reverse().join('/'):'';const PONTES=DOS.pontes_brasil||[];const PONTES_UNIFESP=DOS.pontes_unifesp||'';
 const P=POLOS.map((p,i)=>Object.assign({id:i},p));
 const state={area:'',reg:'',perf:'res',bud:45,w:[3,4,2,2],q:'',mix:0,mixT:0,sel:null,top:new Set(),boost:0};
 $('nAll').textContent=P.length;
@@ -275,13 +287,13 @@ function fit(p){const w=state.w,why=[],x=[];
 function matches(p){
  if(state.area&&!p.areas.includes(state.area))return false;
  if(state.reg&&p.reg!==state.reg)return false;
- if(state.q){const t=(p.name+' '+p.city+' '+p.country+' '+p.areas.map(tn).join(' ')).toLowerCase();if(!t.includes(state.q))return false}
+ if(state.q){const t=(p.name+' '+p.city+' '+p.country+' '+p.areas.map(tn).join(' ')+(p.dossie?' dossiê dossie '+(p.dossie.pessoas||[]).concat(p.dossie.brasileiros||[]).map(x=>x.nome).join(' '):'')).toLowerCase();if(!t.includes(state.q))return false}
  return true}
 
 function renderList(){const vis=P.filter(matches).map(p=>({p,f:fit(p)})).sort((a,b)=>b.f.s-a.f.s||b.p.areas.length-a.p.areas.length);
  $('nShow').textContent=vis.length;$('ring').style.setProperty('--p',(vis.length/P.length*100)+'%');$('nRes').textContent=vis.length+' polos';
  state.top=new Set(vis.slice(0,10).map(x=>x.p.id));
- $('cards').innerHTML=vis.slice(0,80).map((x,i)=>{const a=x.p.areas;return '<button type="button" class="card" data-id="'+x.p.id+'"><span class="rk">#'+(i+1)+'</span><span class="nm">'+esc(x.p.name)+'</span><span class="sc">'+x.f.s.toFixed(1)+'</span><span class="ct">'+esc(x.p.city)+' · '+esc(x.p.country)+'</span><span class="tags">'+((x.p.aceita==='sim'||x.p.aceita==='alguns_trainees')?'<span class="res">aceita residente</span>':'')+a.slice(0,3).map(k=>'<span class="tag" style="color:'+tc(k)+';border-color:'+tc(k)+'55">'+tn(k)+'</span>').join('')+(a.length>3?'<span class="tag" style="color:var(--muted);border-color:var(--line)">+'+(a.length-3)+'</span>':'')+'</span></button>'}).join('')||'<p class="note">Nenhum polo com esses filtros.</p>';
+ $('cards').innerHTML=vis.slice(0,80).map((x,i)=>{const a=x.p.areas;return '<button type="button" class="card" data-id="'+x.p.id+'"><span class="rk">#'+(i+1)+'</span><span class="nm">'+esc(x.p.name)+'</span><span class="sc">'+x.f.s.toFixed(1)+'</span><span class="ct">'+esc(x.p.city)+' · '+esc(x.p.country)+'</span><span class="tags">'+(x.p.dossie?'<span class="dosb">DOSSIÊ</span>':'')+((x.p.aceita==='sim'||x.p.aceita==='alguns_trainees')?'<span class="res">aceita residente</span>':'')+a.slice(0,3).map(k=>'<span class="tag" style="color:'+tc(k)+';border-color:'+tc(k)+'55">'+tn(k)+'</span>').join('')+(a.length>3?'<span class="tag" style="color:var(--muted);border-color:var(--line)">+'+(a.length-3)+'</span>':'')+'</span></button>'}).join('')||'<p class="note">Nenhum polo com esses filtros.</p>';
  document.querySelectorAll('.card').forEach(c=>c.onclick=()=>openFicha(+c.dataset.id,true));
  if(window.__upd)window.__upd()}
 
@@ -295,12 +307,29 @@ function openFicha(id,fly){const p=P[id];state.sel=id;const f=fit(p);
  '<dt>Contato</dt><dd>'+(p.contatos.length?p.contatos.map(contato).join('<br>'):'não confirmado')+'</dd>'+
  '<dt>Residentes</dt><dd>'+RES[p.aceita]+'</dd><dt>Taxa</dt><dd>'+esc(p.taxa)+'</dd><dt>Duração</dt><dd>'+esc(p.duracao)+'</dd><dt>Antecedência</dt><dd>'+esc(p.antecedencia)+'</dd>'+
  '<dt>Requisitos</dt><dd>'+esc(p.requisitos)+'</dd><dt>Volume</dt><dd>'+esc(p.volume==='nao_confirmado'?'não publicado':p.volume)+'</dd></dl>'+
- '<div class="fit"><div style="font-size:12px;color:var(--muted)">Chance estimada para o seu perfil</div><b>'+f.s.toFixed(1)+'/10</b><ul>'+f.why.map(w=>'<li>'+esc(w)+'</li>').join('')+'</ul></div>'+
+ dossie(p)+'<div class="fit"><div style="font-size:12px;color:var(--muted)">Chance estimada para o seu perfil</div><b>'+f.s.toFixed(1)+'/10</b><ul>'+f.why.map(w=>'<li>'+esc(w)+'</li>').join('')+'</ul></div>'+
  '<div class="src"><div class="lbl">Evidências por área ('+p.fontes.length+')</div>'+p.fontes.map(s=>'<div class="srci"><b>'+s.areas.map(tn).join(' · ')+'</b><span>'+esc(s.evid)+'</span>'+(s.volume&&!/^nao_/.test(s.volume)?'<span>Volume: '+esc(s.volume)+'</span>':'')+link(s.url,'fonte')+'</div>').join('')+'</div>'+
  '<p class="note">Dados de fontes públicas conferidos por agentes verificadores em 01/11/2026. Falta revisão humana: confirme na página oficial antes de enviar o e-mail.</p>');
  if(fly&&window.__fly)window.__fly(id)}
+function cz(c){if(!c)return '';const ok=/^confirm/i.test(c);return '<span class="cz'+(ok?' ok':'')+'">'+(ok?'confirmado':'provável')+'</span>'}
+function dossie(p){const d=p.dossie;if(!d)return '';const L=(t,a)=>a?'<div><div class="lbl">'+t+'</div>'+a+'</div>':'';const has=a=>a&&a.length;
+ const pr=d.programa||{};
+ return '<section class="dos"><h4><span class="dosb">DOSSIÊ</span> Pesquisa profunda · '+esc(DOS_DATA)+'</h4>'+
+  (d.alerta?'<div class="alert">'+esc(d.alerta)+'</div>':'')+
+  L('Rota recomendada',has(d.rota)?'<ol>'+d.rota.map(r=>'<li>'+esc(r)+'</li>').join('')+'</ol>':'')+
+  L('Prazos',has(d.prazos)?'<ul>'+d.prazos.map(x=>'<li>'+esc(x.txt)+cz(x.certeza)+(x.url?' · '+link(x.url,'fonte'):'')+'</li>').join('')+'</ul>':'')+
+  L('Programa',pr.resumo?'<div class="pp"><p style="margin:0">'+esc(pr.resumo)+cz(pr.certeza)+(pr.url?' · '+link(pr.url,'página'):'')+'</p>'+
+    [['Contato oficial',pr.contato],['Taxa',pr.taxa],['Duração',pr.duracao],['Documentos',pr.documentos]].filter(x=>x[1]&&!/^não encontrad/i.test(x[1])).map(x=>'<div><span>'+x[0]+'</span>'+(/^\S+@\S+$/.test(x[1])?'<a href="mailto:'+esc(x[1])+'">'+esc(x[1])+'</a>':esc(x[1]))+'</div>').join('')+'</div>':'')+
+  L('Quem decide / lidera',has(d.pessoas)?'<div class="pp">'+d.pessoas.map(x=>'<div><b>'+esc(x.nome)+cz(x.certeza)+'</b><span>'+esc(x.cargo||'')+(x.papel?' — '+esc(x.papel):'')+(x.url?' · '+link(x.url,'fonte'):'')+'</span></div>').join('')+'</div>':'')+
+  L('Brasileiros ligados ao serviço',has(d.brasileiros)?'<div class="pp">'+d.brasileiros.map(x=>'<div><b>'+esc(x.nome)+cz(x.certeza)+'</b><span>'+esc(x.ligacao||'')+(x.url?' · '+link(x.url,'fonte'):'')+'</span></div>').join('')+'</div>':'')+
+  L('Artigos para citar no e-mail',has(d.artigos)?'<ul>'+d.artigos.map(x=>'<li>'+esc(x.titulo)+(x.ano?' ('+x.ano+')':'')+(x.id?' · '+esc(x.id):'')+(x.url?' · '+link(x.url,'abrir'):'')+'</li>').join('')+'</ul>':'')+
+  L('Dicas',has(d.dicas)?'<ul>'+d.dicas.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ul>':'')+
+  L('Ainda a confirmar',has(d.lacunas)?'<ul>'+d.lacunas.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ul>':'')+
+  '<p class="note">Só dados profissionais públicos, cada um com a fonte; nenhum contato pessoal. Pontes Brasil → exterior na aba “Como fazer”.</p></section>'}
 function closeFicha(){$('drawer').classList.remove('open');state.sel=null}
 $('close').onclick=closeFicha;addEventListener('keydown',e=>{if(e.key==='Escape')closeFicha();if(e.key==='/'&&document.activeElement!==$('q')){e.preventDefault();$('q').focus()}});
+function pontes(){if(!PONTES.length)return '';return '<section class="dos" style="margin-top:12px"><h4><span class="dosb">DOSSIÊ</span> Pontes Brasil → exterior (endovascular e aorta)</h4><div class="pp">'+
+ PONTES.map(x=>'<div><b>'+esc(x.nome)+cz(x.certeza)+'</b><span>'+esc(x.onde||'')+(x.ligacao?' — '+esc(x.ligacao):'')+(x.url?' · '+link(x.url,'fonte'):'')+'</span></div>').join('')+'</div>'+(PONTES_UNIFESP?'<p class="note">'+esc(PONTES_UNIFESP)+'</p>':'')+'</section>'}
 function howTo(){openDrawer('<div><span class="badge">RASCUNHO · revisão da Dra.</span></div><h3>Como fazer um observership de 1 mês</h3><ol class="steps">'+
  '<li><b>Escolha 10 a 20 polos.</b> Use a busca: área, região e "aceita residente". Priorize programas publicados.</li>'+
  '<li><b>Mande muitos e-mails.</b> Currículo e carta curta: quem você é, por que aquele serviço, o período, e que seria uma honra observar. É jogo de volume: espere poucas respostas.</li>'+
@@ -308,7 +337,7 @@ function howTo(){openDrawer('<div><span class="badge">RASCUNHO · revisão da Dr
  '<li><b>Documentos e saúde.</b> Triagem de saúde (tuberculose, sorologias, vacinas), seguro e formulários. Alguns cobram taxa.</li>'+
  '<li><b>Autorização da residência.</b> Leve o aceite à sua COREME para aprovar como estágio externo.</li>'+
  '<li><b>Visto e custos.</b> Confira o visto pedido e planeje passagem, moradia e alimentação.</li></ol>'+
- '<p class="note">Baseado no caminho de uma residente da Unifesp que fez observership em robótica em Chicago. Texto em rascunho, a ser revisado por ela.</p>')}
+ pontes()+'<p class="note">Baseado no caminho de uma residente da Unifesp que fez observership em robótica em Chicago. Texto em rascunho, a ser revisado por ela.</p>')}
 
 // controles
 function setTab(id){['tWorld','tOpp','tHow'].forEach(t=>$(t).setAttribute('aria-current',t===id?'true':'false'))}

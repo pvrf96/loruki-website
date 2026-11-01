@@ -1,0 +1,117 @@
+[
+  {
+    "centro": "Cleveland Clinic — Sydell and Arnold Miller Family Heart, Vascular & Thoracic Institute (Aorta Center / Dept. of Vascular Surgery), Cleveland OH; + Cleveland Clinic Florida (Weston)",
+    "nota_metodo": "WebFetch bloqueado (my.clevelandclinic.org fora da rede da sessão); tudo baseado em trechos de busca. Busca feita em 2026-11-01.",
+    "programa": {
+      "nome": "International Physician Observership Program — Center for International Medical Education (CIME), campus principal Cleveland",
+      "url": "https://my.clevelandclinic.org/departments/international-medical-education/physician-programs/physician-observer",
+      "elegibilidade": "Aceita residentes estrangeiros: 'International residents and fellows enrolled in a residency/fellowship program at a foreign institution and who are expected to graduate from that same institution.' Não é para IMG que pretende aplicar para residência nos EUA.",
+      "certeza_elegibilidade": "confirmado",
+      "taxa": "US$500 total: US$200 processing fee não reembolsável na aplicação (abatido do programa) + US$300 após aceite; pago integralmente antes do início; sem dinheiro vivo; processing fee não transfere para outro período; CIME diz não poder isentar a taxa (FAQ).",
+      "certeza_taxa": "confirmado",
+      "duracao": "1 mês ('The length of the program is one month'); CIME hospeda observerships apenas no campus principal de Cleveland.",
+      "janelas": "Aplicação por períodos semestrais. Período Jan–Jun 2027: abriu 1/jun/2026, fechou 31/jul/2026 (decisão 15/set/2026) — JÁ FECHADO. Período Jul–Dez 2027: aplicação online abre 1/dez/2026, fecha 31/jan/2027, decisão até 15/mar/2027.",
+      "certeza_janelas": "provável-alto (tabela aparece embaralhada no trecho; conferir na página oficial)",
+      "documentos": "Carta de aprovação do CIME pode ser usada no pedido de visto B1/B2 ('Temporary Business/Tourism'). Lista de vacinas/seguro do CIME: não encontrado nos trechos.",
+      "contato_oficial": "Formulário online na página do CIME (e-mail do CIME não encontrado nos trechos).",
+      "outros_caminhos": "Página 'Surgical Observer' do CIME é só um hub que aponta para Physician Observer e Preceptorship (preceptorship: duração por especialidade, tipicamente 1–8 semanas, programa diferente/pago à parte). URL: https://my.clevelandclinic.org/departments/international-medical-education/international-programs/surgical-observer",
+      "florida": {
+        "url": "https://my.clevelandclinic.org/florida/medical-professionals/education/observerships",
+        "contato": "FlaObservers@ccf.org (oficial, publicado para dúvidas do Physician Observer Program na Flórida)",
+        "elegibilidade": "Inclui 'international residents and fellows... expected to graduate from that same institution' (confirmado); observadores sem contato com paciente nem pesquisa voluntária.",
+        "regras": "Rotações de 4 semanas começando na 1ª segunda-feira do mês; aplicação aprovada ≥60 dias antes; só aceita aplicações dentro das janelas publicadas; vistos aceitos: B1, B2, F2, H4, J2, L2, O3 ou ESTA; 'availability may vary, and spaces are limited'.",
+        "especialidade_vascular": "Lista de especialidades visível inclui 'Vascular Medicine'; Vascular Surgery NÃO confirmada (lista cortada no trecho) — perguntar a FlaObservers@ccf.org.",
+        "taxa_florida": "Documentos antigos divergem: PDF de refund policy = tuition US$900 + US$500 processing fee; guideline 2012 = US$500 + US$100/semana. Valor atual: não confirmado.",
+        "lideranca_vascular_weston": "Greg Kasper, MD — director of vascular services e Len Stuart Distinguished Chair in Vascular Surgery (Becker's; data antiga, provável ainda válido? não confirmado). Houve vaga anunciada de 'Florida Division Chair, Vascular Surgery' reportando ao Enterprise Chair (2023) — liderança atual em Weston incerta.",
+        "fontes": ["https://www.beckershospitalreview.com/uncategorized/cleveland-clinic-florida-taps-vascular-services-leader/", "https://career.com/job/cleveland-clinic/cleveland-clinic-florida-division-chair-vascular-surgery/j202311121849541513027"],
+        "certeza": "elegibilidade/contato confirmados; vascular surgery e taxa atuais não confirmados"
+      }
+    },
+    "servico": {
+      "nomes": "Department of Vascular Surgery ('largest group of vascular surgeons in the country') e Aorta Center, ambos no Miller Family Heart, Vascular & Thoracic Institute.",
+      "chefe_vascular": "Sean Lyden, MD — Chairman, Department of Vascular Surgery (página de faculty do CC; sem data). Lee Kirksey, MD — Vice Chair.",
+      "aorta_center": "Eric E. Roselli, MD — Director of the Aorta Center / Chief of Adult Cardiac Surgery (cirurgião cardíaco; perfil CC). Francis J. Caputo, MD — Vascular Surgery Director of the Aorta Center.",
+      "fellowship": "Francis Caputo — Program Director dos Vascular Surgery Training Programs; Ravi Ambani — Associate PD do fellowship. Existe 'Aortic Fellowship (1 year)' com início jul/2026 (anúncio).",
+      "volume": "Podcast 2024 (Patrick Vargo, Aorta Center): volume aórtico total aumentou em 2024; 0,8% de mortalidade em operações complexas de alto volume vs 2,5% esperado. Números de F/B-EVAR/TEVAR: não encontrados.",
+      "fontes": ["https://my.clevelandclinic.org/departments/heart/medical-professionals/fellowship-residency/vascular-surgery", "https://my.clevelandclinic.org/staff/6515", "https://providers.clevelandclinic.org/provider/francis-caputo/4271962", "https://my.clevelandclinic.org/podcasts/cardiac-consult/aorta-surgery-updates-and-outcomes", "https://jobs.crainscleveland.com/job/aortic-fellowship-1-year-start-date-july-2026/81402444"],
+      "certeza": "provável-alto (páginas oficiais sem data)"
+    },
+    "pessoas_chave": [
+      {"nome": "Sean P. Lyden, MD", "cargo": "Chairman, Department of Vascular Surgery", "por_que": "decide/endossa observers no departamento", "fonte": "https://my.clevelandclinic.org/departments/heart/medical-professionals/fellowship-residency/vascular-surgery"},
+      {"nome": "Francis J. Caputo, MD", "cargo": "Vascular Surgery Director, Aorta Center; PD dos programas de treinamento vascular", "por_que": "elo exato endovascular+aorta+educação; melhor 'host' acadêmico", "fonte": "https://providers.clevelandclinic.org/provider/francis-caputo/4271962"},
+      {"nome": "Eric E. Roselli, MD", "cargo": "Director, Aorta Center; Chief of Adult Cardiac Surgery", "por_que": "lado cirurgia cardíaca/arco aórtico — casa com residência de cirurgia CARDIOVASCULAR dela", "fonte": "https://my.clevelandclinic.org/staff/6515"},
+      {"nome": "Lee Kirksey, MD", "cargo": "Vice Chair, Vascular Surgery", "por_que": "liderança; falou em 2025 sobre treino em reparo aberto e endovascular", "fonte": "https://my.clevelandclinic.org/departments/heart/medical-professionals/fellowship-residency/vascular-surgery"},
+      {"nome": "Patrick Vargo, MD", "cargo": "Cirurgião do Aorta Center (porta-voz dos resultados 2024)", "por_que": "divulga resultados do Aorta Center", "fonte": "https://my.clevelandclinic.org/podcasts/cardiac-consult/aorta-surgery-updates-and-outcomes"},
+      {"nome": "Greg Kasper, MD", "cargo": "Director of vascular services, Cleveland Clinic Florida (Weston) — data não confirmada", "por_que": "rota Flórida", "fonte": "https://www.beckershospitalreview.com/uncategorized/cleveland-clinic-florida-taps-vascular-services-leader/"}
+    ],
+    "brasileiros": [
+      {"nome": "Agenor Paulino Dias, MD", "info": "Formado na UFPR (Vitals), residência no Hosp. Nossa Senhora das Graças/Hosp. Univ. Cajuru (Curitiba); no Cleveland Clinic fez Fellowship Endovascular (2014), research fellowship vascular (2016–17), Fellowship Aortic Surgery (2017–18), research fellowship cardiotorácica (2019–20); hoje cirurgião vascular no University Hospitals Cleveland (Clinical Assistant Professor). Fala português.", "fontes": ["https://www.uhhospitals.org/doctors/PaulinoDias-Agenor-1447655576", "https://www.vitals.com/doctors/1rkx5w/agenor-dias"], "certeza": "provável-alto (diretórios; ex-fellow, não é mais do CC)"},
+      {"nome": "Gustavo S. Oderich, MD", "info": "Brasileiro; fez 'Advanced Endovascular Aortic Therapy, Cleveland Clinic (2007)'. Hoje Baylor College of Medicine.", "fontes": ["https://en.wikipedia.org/wiki/Gustavo_S._Oderich"], "certeza": "provável"}
+    ],
+    "pontes_unifesp_sp": "Não encontrado (coautorias CC + Unifesp/USP/InCor/Dante em endovascular não apareceram nas buscas).",
+    "pesquisa_recente": [
+      {"titulo": "Artigo JTCVS Structural and Endovascular, nov/2024, com Francis J. Caputo (Dept. Vascular Surgery) e coautores da cirurgia torácica — tema não visível no trecho", "ano": 2024, "id": "https://doaj.org/article/9dcfcad823f047c296efafb5cc0c7fc5", "certeza": "provável (verificar título)"},
+      {"titulo": "Cleveland Clinic Aorta Center — resultados 2024 (podcast Cardiac Consult 'Aorta surgery updates and outcomes')", "ano": 2025, "id": "https://my.clevelandclinic.org/podcasts/cardiac-consult/aorta-surgery-updates-and-outcomes", "certeza": "confirmado (não é artigo)"},
+      {"titulo": "Terceiro artigo 2022–2026 com PMID: não encontrado nas buscas — buscar no PubMed: (Caputo FJ OR Lyden SP OR Roselli EE) AND Cleveland Clinic AND (TEVAR OR fenestrated OR thoracoabdominal) 2023:2026", "certeza": "não encontrado"}
+    ],
+    "dicas": [
+      "Próxima janela CIME: 1/dez/2026–31/jan/2027 para Jul–Dez 2027 (decisão 15/mar/2027). Aplicar logo em 1/dez.",
+      "Uma especialidade por aplicação: escolher Vascular Surgery (ou Thoracic & Cardiovascular Surgery / Aorta) e justificar foco em aorta/endovascular.",
+      "Flórida: precisa aprovação ≥60 dias antes, rotação de 4 semanas na 1ª segunda do mês; confirmar se Vascular Surgery é oferecida via FlaObservers@ccf.org.",
+      "Observer não tem contato com paciente; pedidos de carta de recomendação a attendings são desencorajados (guideline Florida 2012).",
+      "Existe Aortic Fellowship de 1 ano (porta futura pós-residência)."
+    ],
+    "rota_recomendada": "1) Aplicar ao International Physician Observership do CIME (campus Cleveland, Vascular Surgery/Aorta) na janela 1/dez/2026–31/jan/2027 para um mês em Jul–Dez 2027, com carta da Unifesp e e-mail citando Caputo/Roselli e o Aorta Center. 2) Em paralelo, escrever a FlaObservers@ccf.org perguntando se Vascular Surgery em Weston aceita residente estrangeiro e as datas. 3) Ponte informal: contato profissional com Agenor Paulino Dias (brasileiro, ex-fellow endovascular/aorta do CC) para orientação."
+  },
+  {
+    "centro": "Mayo Clinic, Rochester MN — Division of Vascular and Endovascular Surgery / Mayo Clinic Aortic Center",
+    "programa": {
+      "nome": "Não foi encontrada página oficial atual de 'Visiting Physician/Observer' geral da Mayo Rochester nos resultados.",
+      "historico": "Artigo da Mayo Alumni Association: 'Visiting physicians usually stay for less than 30 days. Visiting clinicians, who are officially appointed, stay from three months to two years' (artigo antigo, ~1990).",
+      "url_historico": "https://alumniassociation.mayo.edu/international-visitors-come-here-to-learn-the-mayo-way/",
+      "outras_vias_oficiais": [
+        {"nome": "Visiting Resident Experience (School of Graduate Medical Education) — formulário oficial MC0437-19", "url": "https://mcforms.mayo.edu/mc0400-mc0499/mc0437-19.pdf", "detalhe": "Elegibilidade/taxa não visíveis no trecho; é o caminho formal para residentes visitantes — verificar se aceita residentes de instituições estrangeiras.", "certeza": "existência confirmada; regras não encontradas"},
+        {"nome": "Vascular Surgery Advanced Aortic Fellowship (Minnesota)", "url": "https://college.mayo.edu/academics/residencies-and-fellowships/vascular-surgery-advanced-aortic-fellowship-minnesota/", "detalhe": "3 meses, 4 vagas/ano (início jan/abr/jul/out), US$5.000, exige vascular surgery fellowship/residency concluída 'in the U.S. or internationally' e licença médica de Minnesota; entrevista por telefone com o PD. Página dizia não aceitar aplicações até 2025. NÃO serve para residente em formação — porta futura.", "certeza": "confirmado (college.mayo.edu)"}
+      ],
+      "terceiros": "Agregadores/LinkedIn dizem que Mayo tem poucas vagas de observership para IMGs, competitivas, sem taxa — não oficial.",
+      "certeza": "programa geral: não encontrado"
+    },
+    "servico": {
+      "nomes": "Division of Vascular and Endovascular Surgery (Dept. of Surgery) e Mayo Clinic Aortic Center (Rochester).",
+      "chefe_vascular": "Randall R. DeMartino, MD, MS — Chair, Division of Vascular and Endovascular Surgery (perfil Mayo; foco cerebrovascular/periférico/mesentérico).",
+      "aortic_center": "Andrew W. Hoel, MD — Surgical Director, Mayo Clinic Aortic Center (veio da Northwestern, Chicago, onde era Director of the Aortic Program in Vascular Surgery).",
+      "fellowship": "Jill J. Colglazier, MD — Program Director do Vascular Surgery Fellowship e residência (Rochester); interesse em cirurgia aórtica aberta complexa. Diretor do Advanced Aortic Fellowship: não nomeado na página (antes era Bernardo Mendes).",
+      "oderich": "Gustavo Oderich foi chefe da divisão na Mayo 2006–2020, UTHealth Houston 2020–2024 e desde 2025 é Chief of Vascular Surgery and Endovascular Therapy no Baylor College of Medicine e diretor do Baylor Medicine Center for Aortic Surgery (NÃO está mais na UTHealth).",
+      "mendes": "Bernardo C. Mendes (brasileiro, líder de F/B-EVAR e PD do Advanced Aortic Fellowship na Mayo) saiu para UCLA (co-director, UCLA Health Aortic Center) em maio/2025.",
+      "volume": "600 FB-EVAR na Mayo 2007–2019 (Tenorio et al., JVS 2022; 2% mortalidade 30d). Estudo IDE de stents fenestrados/ramificados modificados pelo médico (NCT06526676), patrocínio Mayo, aprovação CMS 17/mar/2025 — CenterWatch (nov/2025) já lista UCLA como sponsor (provavelmente migrou com Mendes). Quem lidera F/B-EVAR na Mayo hoje: não confirmado (provável Hoel).",
+      "fontes": ["https://www.mayoclinic.org/biographies/demartino-randall-r-m-d-m-s/bio-20089296", "https://www.mayoclinic.org/biographies/hoel-andrew-w-m-d/bio-20590295", "https://www.mayoclinic.org/biographies/colglazier-jill-j/bio-20314462", "https://www.bcm.edu/people-search/gustavo-oderich-179646", "https://www.texasheart.org/dr-gustavo-oderich-joins-baylor-college-of-medicine-as-chief-of-the-division-of-vascular-surgery-and-endovascular-therapy/", "https://www.uclahealth.org/news/article/forefront-endovascular-revolution", "https://evtoday.com/news/fenestrated-branched-evar-assessed-in-complex-aortic-aneurysm", "https://cms.gov/medicare/coverage/investigational-device-exemption-ide-studies/approved/g230305-nct06526676"],
+      "certeza": "DeMartino/Colglazier confirmados; Hoel como Surgical Director confirmado só na versão árabe do perfil (provável-alto); Oderich e Mendes confirmados"
+    },
+    "pessoas_chave": [
+      {"nome": "Randall R. DeMartino, MD, MS", "cargo": "Chair, Division of Vascular and Endovascular Surgery", "por_que": "autoriza/endossa observer na divisão", "fonte": "https://www.mayoclinic.org/biographies/demartino-randall-r-m-d-m-s/bio-20089296"},
+      {"nome": "Andrew W. Hoel, MD", "cargo": "Surgical Director, Mayo Clinic Aortic Center", "por_que": "anfitrião ideal para foco em aorta; veio da Northwestern (Chicago) — possível ponte se o observership anterior dela foi na Northwestern", "fonte": "https://www.mayoclinic.org/biographies/hoel-andrew-w-m-d/bio-20590295"},
+      {"nome": "Jill J. Colglazier, MD", "cargo": "Program Director, Vascular Surgery Fellowship/Residency (Rochester)", "por_que": "educação; aorta aberta complexa", "fonte": "https://www.mayoclinic.org/biographies/colglazier-jill-j/bio-20314462"},
+      {"nome": "Manju Kalra, MBBS", "cargo": "Professor of Surgery, vascular (aneurisma/dissecção aórtica)", "por_que": "faculty aórtica sênior", "fonte": "https://college.mayo.edu/academics/residencies-and-fellowships/vascular-surgery-fellowship-minnesota/department-and-faculty/"}
+    ],
+    "brasileiros": [
+      {"nome": "Bernardo C. Mendes, MD", "info": "UFSM (2008), cirurgia geral Santa Casa de São Paulo (2012); research fellow com Oderich na Mayo desde 2012, faculty 2018, Professor e PD do Advanced Aortic Fellowship; desde maio/2025 co-diretor do UCLA Aortic Center.", "fontes": ["https://www.uclahealth.org/providers/bernardo-curi-mendes", "https://mayoclinic.org/biographies/mendes-bernardo-c-m-d/bio-20426532"], "certeza": "confirmado (ex-Mayo)"},
+      {"nome": "Gustavo S. Oderich, MD", "info": "Brasileiro, chefe da divisão na Mayo 2006–2020; hoje Baylor (Houston).", "fontes": ["https://www.bcm.edu/people-search/gustavo-oderich-179646"], "certeza": "confirmado (ex-Mayo)"},
+      {"nome": "Emanuel R. Tenorio, MD", "info": "Primeiro autor da série de 600 FB-EVAR da Mayo (JVS 2022); nacionalidade brasileira não confirmada nas buscas; hoje provavelmente com Oderich (UTHealth/Baylor) — não confirmado.", "fontes": ["https://evtoday.com/news/fenestrated-branched-evar-assessed-in-complex-aortic-aneurysm"], "certeza": "provável"},
+      {"nome": "Brasileiro atual na equipe vascular da Mayo Rochester", "info": "não encontrado", "certeza": "não encontrado"}
+    ],
+    "pontes_unifesp_sp": "Coautorias Mayo (Oderich) + FMRP-USP (Ribeirão Preto) em F/B-EVAR: 'Endovascular repair of thoracoabdominal aortic aneurysms using fenestrated and branched endografts' (J Thorac Cardiovasc Surg 2017; Maurício Ribeiro, USP) e estudo prospectivo de selagem supraceliaca (JVS 2017). Repositório USP: https://bdpi.usp.br/item/002898512 ; https://repositorio.usp.br/item/002898660 . Unifesp/InCor/Dante: não encontrado. Obs.: são pontes de Oderich, que saiu da Mayo.",
+    "pesquisa_recente": [
+      {"titulo": "Aneurysm sac shrinkage at 1 year after fenestrated-branched endovascular aortic repair of complex aortic aneurysms offers mid-term survival advantage", "ano": 2024, "id": "J Vasc Surg 2024 Oct;80(4):958-967.e3 (PMID não capturado)", "certeza": "confirmado (lista de publicações Mayo de Mendes)"},
+      {"titulo": "Effect of fenestration configuration on renal artery outcomes during fenestrated-branched endovascular aortic repair", "ano": 2024, "id": "J Vasc Surg 2024 Nov;80(5):1384-1395.e2", "certeza": "confirmado"},
+      {"titulo": "Preoperative predictors of nonhome discharge after fenestrated-branched endovascular repair of complex abdominal and thoracoabdominal aortic aneurysms", "ano": 2024, "id": "J Vasc Surg 2024 Mar;79(3):469-477.e3", "certeza": "confirmado"},
+      {"nota": "Todos com Mendes (agora UCLA). Para e-mail a Hoel/DeMartino, buscar no PubMed um artigo 2024–2026 deles — não encontrado nas buscas."}
+    ],
+    "dicas": [
+      "Mayo não publica (nos resultados) um observership geral pago como o do Cleveland; o caminho formal para residente parece ser o Visiting Resident Experience (formulário MC0437) — confirmar elegibilidade de residente estrangeiro com o GME.",
+      "Advanced Aortic Fellowship (3 meses, US$5.000, licença MN) é porta pós-formação, não agora.",
+      "AMA: observerships geralmente pedem aplicação 2–3 meses antes; aprovação do chefe de departamento é praxe.",
+      "Saída de Oderich (2020) e Mendes (2025) reduziu as pontes brasileiras na Mayo; elas agora estão em Baylor e UCLA."
+    ],
+    "rota_recomendada": "1) Escrever ao escritório de GME/Visiting Resident da Mayo perguntando se residente de instituição estrangeira pode fazer Visiting Resident Experience/observership em Vascular & Endovascular Surgery, e pedir que o Aortic Center (Hoel) seja o host. 2) Pedir apresentação via Bernardo Mendes (UCLA) ou Oderich (Baylor), que conhecem a divisão. 3) Se a Mayo não abrir, considerar seguir os brasileiros: Baylor (Oderich) e UCLA (Mendes) como alternativas."
+  }
+]

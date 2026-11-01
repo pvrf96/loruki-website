@@ -22,3 +22,9 @@
 - Caso real: esposa (Unifesp) mandou e-mail para vários polos de robótica nos EUA; só Chicago respondeu; entrevista por vídeo, exames de saúde, autorização da Unifesp, tudo por conta própria
 - Probabilidade = jogo de volume: mostrar polos + contato oficial + relatos
 - Fellowship informal/observership muitas vezes não tem edital: busca web sozinha não basta
+
+## 2026-11-01 — Dossiê endovascular
+- Pesquisa profunda (4 agentes + 1 normalizador) mudou fatos do radar: Oderich saiu da UTHealth para o Baylor/THI (fev/2025); Mendes saiu da Mayo para a UCLA (mai/2025). Dados de pessoas envelhecem rápido: sempre datar e marcar certeza.
+- O polo "Memorial Hermann" tinha dados do Houston Methodist (erro de merge). Agora são polos separados.
+- Dossiê fica em data/dossie_*.json e é aplicado no build (não editar polos_all à mão).
+- Só dados profissionais públicos; nenhum e-mail/telefone pessoal.
