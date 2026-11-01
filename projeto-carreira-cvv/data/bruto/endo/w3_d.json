@@ -1,0 +1,137 @@
+[
+ {
+  "match": "National University Heart Centre Singapore / NUH",
+  "programa": {
+   "pagina": "https://www.nuh.com.sg/research-and-education/hands-off-observership",
+   "elegibilidade": "Médicos estrangeiros podem observar um departamento clínico sem atividade prática ('Foreign doctors can apply to ... observe in a clinical department with no hands-on'). Lista de especialidades inclui cardiology e cardiac/thoracic/vascular surgery. Não diz explicitamente se aceita residente.",
+   "taxa": "S$170 (com GST) por estágio, paga online após aceite; alguns departamentos podem cobrar taxa extra ('Miscellaneous fee may be applicable for certain departments').",
+   "logistica": "Sem bolsa nem alojamento; o candidato cuida do próprio visto ('Accepted applicants are to arrange for their own VISA').",
+   "duracao_antecedencia_documentos": "não encontrado nos trechos (comparação: o NNI, outro instituto de Singapura, exige comprovante documental de vacinas, CV, 2 cartas e licença — NÃO é regra do NUH).",
+   "contato_oficial": "formulário/contato da própria página NUH Research & Education (e-mail não visto nos trechos)",
+   "certeza": "confirmado (taxa, visto, escopo); duração/documentos não encontrados"
+  },
+  "servico": {
+   "nome": "Department of Cardiac, Thoracic & Vascular Surgery (CTVS), National University Heart Centre Singapore (NUHCS)",
+   "chefe": "A/Prof Laszlo Kiraly, Head of Department CTVS (página 'At the Helm', sem data) — https://www.nuhcs.com.sg/about-nuhcs/at-the-helm ; Kiraly é cirurgião cardíaco congênito/pediátrico.",
+   "historico": "Prof Theo Kofidis foi chefe do CTVS (listado em dez/2023) e diretor do Robotic Cardiac Surgery Program do NUH desde 2008 (CV: https://presentation.hhg.gr/wp-content/uploads/2025/12/Kofidis_Theodoros.pdf); hoje atua em clínica privada (Mount Elizabeth: 'until recently... Head of the Department') — https://www.memc.com.sg/specialist/dr-theo-kofidis/",
+   "volume": "Programa MICS: 390 MICS vs 4063 esternotomias (jan/2009–fev/2020), SMJ 2022. Ranking Newsweek: top de Singapura em cirurgia cardíaca 2022–2026 (https://nuhcs.com.sg/Our-Services/Peak-Of-Excellence/Pages/default.aspx).",
+   "certeza": "chefe atual provável (página sem data); saída de Kofidis provável-confirmada"
+  },
+  "pessoas_chave": [
+   {"nome": "A/Prof Laszlo Kiraly", "cargo": "Head, CTVS NUHCS (e Head of Congenital Heart Surgery Division)", "por_que": "decide aceite no departamento", "fonte": "https://www.nuhcs.com.sg/about-nuhcs/at-the-helm ; https://www.nuh.com.sg/care-at-nuh/find-a-doctor/doctor-details/Laszlo_Kiraly"},
+   {"nome": "Dr Faizus Sazzad", "cargo": "cirurgião/pesquisador NUHCS, coautor dos estudos MICS", "por_que": "lidera pesquisa MICS; publicou na RBCCV (revista brasileira) em 2024 — gancho", "fonte": "https://scielo.br/j/rbccv/a/CfzXPPyT4TgqCrh6nFCYPLR/abstract/?lang=en"},
+   {"nome": "Prof Theo Kofidis", "cargo": "ex-chefe CTVS e ex-diretor do programa robótico (hoje privado)", "por_que": "referência histórica em robótica; não é mais quem decide", "fonte": "https://www.memc.com.sg/specialist/dr-theo-kofidis/"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "Indireta: artigo NUHCS publicado na Revista Brasileira de Cirurgia Cardiovascular (Braz J Cardiovasc Surg 2024;39(4):e20220421) — mostra relação com a SBCCV. Coautorias com Unifesp/InCor/Dante: não encontrado.",
+  "pesquisa_recente": [
+   {"titulo": "Minimally Invasive Coronary Artery Bypass Grafting in a Low-Risk Asian Cohort: A Propensity-Score Matched Study", "ano": 2024, "id": "Braz J Cardiovasc Surg 39(4):e20220421 (DOI não visto)", "fonte": "https://scielo.br/j/rbccv/a/CfzXPPyT4TgqCrh6nFCYPLR/abstract/?lang=en"},
+   {"titulo": "Comparison of the safety and efficacy between minimally invasive cardiac surgery and median sternotomy in a low-risk mixed Asian population in Singapore", "ano": 2022, "id": "DOI 10.11622/smedj.2021136 (Singapore Med J 63(11))", "fonte": "https://zendy.io/title/10.11622/smedj.2021136"},
+   {"titulo": "não encontrado terceiro artigo robótico 2022–2026 do NUHCS", "ano": null, "id": null}
+  ],
+  "dicas": "Programa geral 'hands-off' com taxa baixa (S$170) — o mais barato do lote. Ensaio NCT03657225 (mini-CPB em CABG em asiáticos) mostra linha de pesquisa ativa. Para robótica pura em Singapura, o histórico de mitral robótica é do National Heart Centre Singapore (NHCS, SingHealth) — instituição diferente.",
+  "rota_recomendada": "1) Aplicar pelo formulário hands-off do NUH escolhendo Cardiac/Thoracic/Vascular Surgery, pedindo foco em MICS. 2) Antes, e-mail de apresentação ao grupo MICS (Sazzad) citando o artigo deles na RBCCV 2024. 3) Se o objetivo for robótica pura, considerar NHCS como alternativa.",
+  "alerta_correcao": "Área 'robotica' está desatualizada: o diretor do programa robótico (Kofidis) saiu para o setor privado (por volta de 2024) e não achei atividade robótica cardíaca recente no NUHCS; o forte atual documentado é MICS (minitoracotomia). O chefe atual (Kiraly) é congênito."
+ },
+ {
+  "match": "Foothills Medical Centre / Libin (Univ. of Calgary)",
+  "programa": {
+   "pagina": "https://libin.ucalgary.ca/clinicians/libin-groups/minimally-invasive-cardiac-surgery/mics-surgeon-observation-training-program",
+   "descricao": "MICS Surgeon Observation Training Program: parceiros da indústria convidam cirurgiões e equipes para observar casos MICS (MVR, AVR, ASD) no Foothills. Grupo de no máximo 4; 1–2 cirurgiões visitantes + 1–2 da indústria; 'the industry partner organizer is responsible for all participants, logistics'. Stream 1: peer-to-peer; Stream 2: Individual Surgeon | Industry Observation. Agenda por formulários 'request dates' e 'confirm dates'; documentos: checklist, consentimento/confidencialidade, formulário de inscrição.",
+   "elegibilidade": "Voltado a cirurgiões formados com patrocínio da indústria; residentes não mencionados.",
+   "taxa_duracao_antecedencia": "não encontrado",
+   "contato_oficial": "'Questions? MICS Team' via página (e-mail não visto)",
+   "certeza": "confirmado (formato industry-led); elegibilidade de residente não encontrada — provavelmente NÃO é a porta certa sozinha"
+  },
+  "servico": {
+   "nome": "Section of Cardiac Surgery, Department of Cardiac Sciences / Libin Cardiovascular Institute — Minimally Invasive Cardiac Surgery (MICS) program, Foothills Medical Centre",
+   "chefe": "Dr Bob Kiaii, novo Section Lead of Cardiac Surgery, Calgary Zone (anúncio 12/ago/2025), vindo da UC Davis; ex-líder do programa robótico de London (ON). 'excited about the potential of bringing robotics to Calgary's cardiac surgery group' — https://libin.ucalgary.ca/news/cardiac-surgery-welcomes-new-section-lead",
+   "lideres_mics": "Dr William (Bill) Kent (lidera Minimally Invasive Valve Surgery Program; diretor cirúrgico de MCS) e Dr Corey Adams; programa iniciado por Dr Andrew Maitland.",
+   "volume": "≈400 cirurgias MICS/ano (Libin 2024: https://libin.ucalgary.ca/news/institute-cardiac-surgery-powerhouse-canada); seção faz ~1.800 cirurgias cardíacas/ano (anúncio 2025). 'amongst the top three in the country for minimally invasive surgery'.",
+   "certeza": "confirmado"
+  },
+  "pessoas_chave": [
+   {"nome": "Dr Bob Kiaii", "cargo": "Cardiac Surgery Section Lead (desde 2025); ex-presidente ISMICS", "por_que": "decide; pioneiro em robótica — quer implantar robótica em Calgary", "fonte": "https://libin.ucalgary.ca/news/cardiac-surgery-welcomes-new-section-lead ; https://profiles.ucalgary.ca/bob-kiaii"},
+   {"nome": "Dr William D.T. Kent", "cargo": "Líder do Minimally Invasive Valve Surgery Program", "por_que": "hospeda/lidera MICS e pesquisa", "fonte": "https://libin.ucalgary.ca/mics ; https://www.calgaryhealthfoundation.ca/our-blog/hero-in-health-william-kent-corey-adams/"},
+   {"nome": "Dr Corey Adams", "cargo": "Cirurgião cardíaco MICS (valvas, endocardite, TAVI)", "por_que": "co-líder do programa MICS e da Canadian MICS Conference", "fonte": "https://profiles.ucalgary.ca/corey-adams"},
+   {"nome": "Dr Ali Fatehi Hassanabad", "cargo": "cirurgião/pesquisador do grupo MICS", "por_que": "primeiro autor de vários artigos MICS", "fonte": "https://doaj.org/article/159fb1a59e7f465582079902d2aaefd3"},
+   {"nome": "Dr Paul Fedak", "cargo": "Diretor do Libin Cardiovascular Institute", "por_que": "liderança institucional/pesquisa", "fonte": "https://csii.ca/innovation-nation/upcoming-conference/2024-innovation-nation-speakers"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "Indireta via Kiaii (ex-Western): a cirurgiã brasileira Paola Keese Montanhesi (UNICAMP; ex-equipe robótica do Einstein-SP) fez fellowship MICS em Western em 2022 — época pós-Kiaii, mas mesmo programa (https://bv.fapesp.br/en/pesquisador/62644/URL). Coautorias Calgary–Unifesp/InCor: não encontrado.",
+  "pesquisa_recente": [
+   {"titulo": "Patient-reported outcome measures after minimally invasive mitral valve surgery: The benefit may be early", "ano": 2024, "id": "DOI 10.1016/j.xjon.2024.05.010 (JTCVS Open 20:26–28; PMC11405971)", "fonte": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11405971/"},
+   {"titulo": "Midterm Outcomes of Right Anterior Mini Thoracotomy Aortic Valve Replacement", "ano": 2024, "id": "CJC Open 2024, pp.1484–1490 (DOI não visto; PMC11681344 provável)", "fonte": "https://rcastoragev2.blob.core.windows.net/2298ae32bb03c3d796949d3c88c8f243/main.PMC11681344.pdf"},
+   {"titulo": "Estudo prospectivo MICS vs convencional em valva (PI: Kent) — NCT04514315", "ano": 2023, "id": "NCT04514315", "fonte": "https://trial.medpath.com/clinical-trial/8cafd2f3f7b75842/nct04514315-comparison-outcomes-minimally-invasive-conventional-cardiac-valvular-surgery"}
+  ],
+  "dicas": "Organizam a Canadian MICS Conference (Adams e Kent abriram/fecharam em 2024) — https://libin.ucalgary.ca/clinicians/opportunities/learning-opportunities/canadian-mics-conference ; datas 2025/26 não encontradas. Programa de observação é industry-led: um representante de indústria (ex.: Edwards/Medtronic/Corcym no Brasil) pode inscrever a residente junto com um cirurgião-preceptor dela. Página geral de educação: https://libin.ucalgary.ca/education/opportunities.",
+  "rota_recomendada": "1) Pedir ao preceptor/staff de MICS da Unifesp e a um parceiro da indústria que montem uma visita Stream 1/2 com a residente incluída. 2) Em paralelo, e-mail ao MICS Team / Dr Kent citando o artigo JTCVS Open 2024, perguntando se aceitam residente estrangeira como observer pela Cumming School of Medicine. 3) Mencionar interesse em robótica (agenda do Kiaii) e a conferência MICS.",
+  "alerta_correcao": "Área 'robotica' é prospectiva: Calgary é forte em MICS por minitoracotomia; robótica ainda é objetivo do novo chefe Kiaii (2025), não programa estabelecido nos trechos. O programa do radar exige organizador da indústria."
+ },
+ {
+  "match": "London Health Sciences Centre (Western University)",
+  "programa": {
+   "pagina": "https://www.schulich.uwo.ca/internationalization/global_initiatives/observerships.html (também https://www.schulich.uwo.ca/medicine/postgraduate/future-trainees/electives/observerships.html)",
+   "elegibilidade": "Processo via Schulich Internationalization Office com docente anfitrião; para visitantes externos, registro como visitante autofinanciado (VRO) na Western e documentação de imigração revisada pela Western International; depois visto de visitante ou eTA. Recomenda ~6 meses de antecedência. (Trecho fala de 'student'; residente/médico provável no mesmo fluxo.)",
+   "taxa": "não encontrado para cirurgia cardíaca. Referência de outro departamento Schulich (Anestesia/VISPS): CAD 125 (1 sem), 225 (2 sem), até 400 (6 sem); máx. 2 semanas por hospital; bloqueio jul–ago; aplicar ≥4 meses antes; carta de objetivos de 1 página — https://www.schulich.uwo.ca/anesthesia/education/visiting_international_student_physician__scholar_program_visps.html",
+   "contato_oficial": "internationalization@schulich.uwo.ca (confirmado nos trechos)",
+   "certeza": "provável (regras variam por departamento)"
+  },
+  "servico": {
+   "nome": "Division of Cardiac Surgery, LHSC/Western (University Hospital) — programa MINICS (Minimally-Invasive Cardiac Surgical Procedures) e antigo Minimally Invasive Robotic Cardiac Surgery Program",
+   "chefe": "Dr Michael W.A. Chu, Chair/Chief of Cardiac Surgery LHSC/Western (2020–presente; Ray and Margaret Elliott Chair in Surgical Innovation até abr/2027) — https://schulich.uwo.ca/about/news/2022/june/announcement_dr_michael_chu_appointed_the_ray_and_margaret_elliott_chair_in_surgical_innovation.html. Fellowship em robótica/mitral na East Carolina (2006–07).",
+   "fellowship": "Fellowship em MICS da Western (https://www.schulich.uwo.ca/minics/education/fellowships.html); diretor atual não encontrado.",
+   "volume": "≈1.500 casos robóticos acumulados em ~20 anos (Kiaii, 2018); 605 TECAB/robóticos 1998–2016 (ISMICS 2017). Volume 2022+ não encontrado.",
+   "certeza": "confirmado (Chu); status atual do programa robótico não confirmado"
+  },
+  "pessoas_chave": [
+   {"nome": "Dr Michael W.A. Chu", "cargo": "Chair/Chief, Division of Cardiac Surgery", "por_que": "decide; foco em mitral robótica/minimamente invasiva", "fonte": "https://ctsnet.org/home/mchu"},
+   {"nome": "Schulich Internationalization Office", "cargo": "escritório oficial", "por_que": "processa observers internacionais", "fonte": "https://www.schulich.uwo.ca/internationalization/global_initiatives/observerships.html"}
+  ],
+  "brasileiros": "Dra Paola Keese Montanhesi (UNICAMP; 6 anos na equipe de transplante e de cirurgia robótica/minimamente invasiva do Hospital Israelita Albert Einstein-SP) concluiu o Fellowship em MICS na Western University em 2022 e voltou ao Brasil para cirurgia robótica — https://bv.fapesp.br/en/pesquisador/62644/URL (confirmado). Também: cirurgião argentino fez fellowship TAVI/MICS no LHSC 2022–23 e italiano (Giambruno) em MICS/robótica 2014–17.",
+  "pontes_unifesp_sp": "Montanhesi é a ponte mais forte (SP/Einstein/UNICAMP). Coautorias Western–Unifesp/InCor: não encontrado.",
+  "pesquisa_recente": [
+   {"titulo": "Endoscopic Mitral Repair for Degenerative Mitral Regurgitation: Effect of Disease Complexity on Short- and Mid-term Outcomes (Chu sênior)", "ano": 2020, "id": "CJC Open 2020 (fora da janela 2022–26)", "fonte": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7499372"},
+   {"titulo": "Robotic-Assisted Endoscopic CABG: Long-Term Experience With Follow-Up (grupo London)", "ano": "abstract ISMICS 2020", "id": "sem PMID", "fonte": "https://www.ctsnet.org/article-video/robotic-assisted-endoscopic-coronary-artery-bypass-grafting-surgery-long-term-experience/"},
+   {"titulo": "não encontrado artigo 2022–2026 do serviço nas buscas", "ano": null, "id": null}
+  ],
+  "dicas": "Contato com a Dra Montanhesi (via canais profissionais públicos) pode render apresentação ao Dr Chu. Sala híbrida nova na University Hospital (2019). Respeitar bloqueio de verão comum na Schulich e pedir com ~6 meses.",
+  "rota_recomendada": "1) Falar com a Dra Montanhesi (ex-fellow brasileira) para indicação. 2) E-mail ao Dr Chu (via secretaria da divisão) com interesse em mitral minimamente invasiva/robótica, pedindo que seja o docente anfitrião. 3) Com o 'sim', abrir o processo no internationalization@schulich.uwo.ca com 6 meses de antecedência.",
+  "alerta_correcao": "O líder histórico da robótica (Bob Kiaii) saiu em ~2020 para UC Davis e em 2025 foi para Calgary (polo 45). Não achei notícia de robótica cardíaca no LHSC após 2018; o polo pode estar superestimado em 'robotica'. VISPS (taxas) é da Anestesia, não da cirurgia cardíaca."
+ },
+ {
+  "match": "Great Ormond Street Hospital",
+  "programa": {
+   "pagina": "https://gosh.nhs.uk/learning/gosh-learning-academy/international-opportunities/international-observership-programme",
+   "taxa": "£900 na 1ª semana e £750 por semana adicional (≈£3.150 por 4 semanas); sem bolsa; redução possível para países de renda média-baixa (Brasil é renda média-alta — provavelmente não se aplica).",
+   "regras": "Sem contato direto com paciente; certificado de presença; GOSH não fornece carta de recomendação nem formulário de avaliação; não ajuda com visto. Pagamento integral 4 semanas antes do início.",
+   "documentos": "1 carta de recomendação profissional + comprovação de financiamento; triagem pelo International Education Team e depois pelo specialty education lead. Vacinas/saúde ocupacional: não encontrado.",
+   "duracao_antecedencia": "não encontrado (fixo)",
+   "contato_oficial": "International Education Team via página (https://www.gosh.nhs.uk/learning/gosh-learning-academy/international-opportunities/meet-the-international-education-team/); fellowships: international.fellowship@gosh.nhs.uk",
+   "certeza": "confirmado"
+  },
+  "servico": {
+   "nome": "Cardiothoracic Unit / Heart and Lung Division, GOSH — cirurgia cardíaca congênita (neonatal a adulto congênito), transplante cardíaco e pulmonar",
+   "chefe": "Mr Martin Kostolny, Head of Clinical Service for Cardiothoracic Surgery desde 2015 — https://www.finder.bupa.co.uk/Consultant/view/86227/mr_martin_kostolny",
+   "volume": "Sobrevida 30 dias ajustada 'higher than predicted' no NCHDA 2025 (dados 2022/23–2024/25) — https://gosh.nhs.uk/health-professionals/clinical-outcomes/cardiothoracic-clinical-outcomes ; 99,5% de sobrevida 30d em 3 anos (site GOSH-UAE, secundário). Número de casos/ano não encontrado.",
+   "certeza": "confirmado (chefe pode estar desatualizado; sem data recente)"
+  },
+  "pessoas_chave": [
+   {"nome": "Mr Martin Kostolny", "cargo": "Head of Clinical Service, Cardiothoracic Surgery", "por_que": "decide; interesse em reparo de valva aórtica, DORV, ccTGA", "fonte": "https://www.gosh.nhs.uk/patients-and-families/your-hospital-visit/whos-who/staff-z/martin-kostolny/"},
+   {"nome": "Prof Victor Tsang", "cargo": "Consultant cardiothoracic surgeon (no GOSH desde 1997)", "por_que": "neonatal/complexo; >200 artigos", "fonte": "https://www.phin.org.uk/profiles/consultants/prof-victor-tsang-78175"},
+   {"nome": "Mr Branko Mimic", "cargo": "Consultant congenital cardiac surgeon (desde 2022)", "por_que": "neonatal/infantil e transplante", "fonte": "https://gosh.ae/consultants/mr-branko-mimic"},
+   {"nome": "Mr Serban Stoica", "cargo": "Consultant congenital cardiac surgeon", "por_que": "pesquisa em registros nacionais (switch arterial)", "fonte": "https://scts.org/news/645/appointments"},
+   {"nome": "Mr Nagarajan Muthialu", "cargo": "Consultant (congênito)", "por_que": "staff do serviço", "fonte": "https://scts.org/patients/consultants/54a4bbe9-020c-4858-a877-8bfcccb7af74/mr_nagarajan_muthialu"}
+  ],
+  "brasileiros": "Histórico: Dr Miguel Angel Maluf (Unifesp/EPM, cirurgião cardíaco pediátrico) fez estágio no Great Ormond Street Hospital em 1987 — https://bv.fapesp.br/en/pesquisador/89709/miguel-angel-maluf (confirmado). Atuais: não encontrado.",
+  "pontes_unifesp_sp": "Maluf (Unifesp) — ex-estagiário do GOSH: ponte direta e interna para a residente pedir carta/apresentação. Coautorias recentes GOSH–Unifesp/InCor: não encontrado.",
+  "pesquisa_recente": [
+   {"titulo": "Quantifying additional procedures in functionally single-ventricle disease: a national cohort study (Huang, Ridout, Tsang et al.)", "ano": 2024, "id": "DOI 10.1016/j.atssr.2023.12.001 (Ann Thorac Surg Short Rep 2(2):282–286)", "fonte": "https://centaur.reading.ac.uk/id/eprint/118295"},
+   {"titulo": "Retrospective cohort study of additional procedures and transplant-free survival in single-ventricle patients (companion)", "ano": 2024, "id": "DOI 10.1161/JAHA.123.033068", "fonte": "https://doaj.org/article/6bc7d36901f6428b89da1a987ae76b53"},
+   {"titulo": "Arterial Switch for Transposition of the Great Arteries: Treatment Timing, Late Outcomes, and Risk Factors (Franklin, Crowe, Stoica et al.; afiliação GOSH Heart and Lung Division)", "ano": 2023, "id": "DOI 10.1016/j.jacadv.2023.100407 (JACC Adv 2(5):100407)", "fonte": "https://discovery.ucl.ac.uk/10174959/1/1-s2.0-S2772963X23002491-main.pdf"}
+  ],
+  "dicas": "Programa estruturado e pago, porta mais previsível do lote. GOSH Learning Academy oferece cursos de cardiopatia congênita (ex.: correlação eco-anatomia com realidade virtual, mar/2026; 'Immersive journey in congenital heart disease') — https://www.gosh.nhs.uk/learning/gosh-learning-academy/gla-courses-and-events/echo_anatomy-correlation-of-congenital-heart-diseases-using-virtual-reality. Fellowship internacional (1–2 anos, ≥4 anos de especialidade; IELTS 7.5 em FAQ antigo) existe, mas o cardíaco listado é UTI cardíaca pediátrica. Visto: visitante UK (Brasil não precisa de visto para turismo/visita curta; confirmar regra para observership).",
+  "rota_recomendada": "1) Pedir carta de recomendação ao Dr Maluf (Unifesp, ex-GOSH) ou ao chefe da cirurgia pediátrica da Unifesp. 2) Aplicar pelo International Observership Programme escolhendo Cardiothoracic Surgery, mencionando os artigos de ventrículo único/switch arterial. 3) Orçar ~£3.150 para 4 semanas, pagos 4 semanas antes.",
+  "alerta_correcao": null
+ }
+]

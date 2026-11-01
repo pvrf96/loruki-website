@@ -1,0 +1,189 @@
+[
+ {
+  "match": "CHOP — Cardiac Center",
+  "centro": "Children's Hospital of Philadelphia (CHOP) — Cardiac Center (Div. Cardiology + Div. Cardiothoracic Surgery)",
+  "cidade": "Filadélfia, EUA",
+  "areas": ["congenitas", "cirurgia_cardiaca"],
+  "programa": {
+    "pagina": "https://www.chop.edu/services/international-observership-program",
+    "gestor": "Global Pediatric Education (GPE)",
+    "contato_oficial": "GPEducation@chop.edu",
+    "fluxo": "GPE avalia elegibilidade e encaminha à divisão clínica; se aceito, GPE emite carta de aceite e papelada de onboarding.",
+    "taxa": "US$750 taxa administrativa única + background screening (varia por país); 'tuition fee may also apply'.",
+    "duracao": "Programas de observership em geral 1 semana a 2 meses (Global Health-supported); oncologia 2-4 semanas.",
+    "antecedencia": "Formulário 2022 pede envio ao GPEducation@chop.edu ao menos 3 meses antes (certeza: provável — documento antigo).",
+    "visto": "CHOP não emite visto; fornece carta de aceite; 'Most observers apply for a B1/B2 visa'.",
+    "limites": "Não garante mentor a cada observer; docentes CHOP não fornecem cartas de recomendação nem formulários de avaliação.",
+    "alternativa_curta": "International Visitor Program (até 7 dias, sem contato com paciente): https://www.chop.edu/services/international-visitor-program",
+    "fontes": ["https://www.chop.edu/services/international-observer-program", "https://www.chop.edu/centers-programs/global-pediatric-education/observership-program-frequently-asked-questions", "https://www.chop.edu/global-health-supported-international-observerships", "https://chop.edu/sites/default/files/merf_2022.pdf"],
+    "certeza": "confirmado (taxa, visto, GPE, FAQ); checklist completo de documentos não encontrado nos trechos; aceitação explícita de residentes estrangeiros não confirmada (provável, programa é para profissionais internacionais)."
+  },
+  "servico": {
+    "nomes": ["Cardiac Center", "Division of Cardiothoracic Surgery", "Division of Cardiology"],
+    "co_diretores_executivos": "Joseph Rossano, MD (Chief, Div. Cardiology) e Jonathan M. Chen, MD (Chief, Div. Cardiothoracic Surgery) — assinam o Cardiac Center Annual Report 2024 (PDF jul/2025).",
+    "fellowship": "Congenital Cardiothoracic Surgery Fellowship (2 anos). Ex-PD Stephanie Fuller saiu p/ Johns Hopkins (nov/2025); PD atual não identificado nos trechos — liderança listada: Paul J. Devlin, Katsuhide Maeda, J. William Gaynor, Jonathan M. Chen, Muhammad A.K. Nuri, Fawwaz R. Shaw.",
+    "volume": "964 cirurgias cardíacas, 528 a céu aberto (Annual Report 2022; mesmo número na página 'Why Choose Us'). Números 2024 não extraídos.",
+    "fontes": ["https://www.chop.edu/sites/default/files/2025-07/Cardiac-Center-Annual-Report_0.pdf", "https://chop.edu/sites/default/files/cardiac-center-annual-report.pdf", "https://www.chop.edu/centers-programs/cardiac-center/why-choose-us", "https://www.chop.edu/centers-programs/cardiothoracic-surgery/congenital-cardiothoracic-surgery-fellowship", "https://www.hopkinsmedicine.org/news/articles/2025/11/a-new-leader-in-cardiothoracic-surgery"],
+    "certeza": "confirmado (chefias via relatório 2024); PD do fellowship: não encontrado"
+  },
+  "pessoas_chave": [
+    {"nome": "Jonathan M. Chen, MD", "cargo": "Chief, Division of Cardiothoracic Surgery; Co-Executive Director Cardiac Center", "por_que": "decide/hospeda observers na cirurgia", "fonte": "https://www.chop.edu/news/qa-jonathan-chen-md"},
+    {"nome": "Joseph Rossano, MD", "cargo": "Chief, Division of Cardiology; Co-Executive Director Cardiac Center", "por_que": "decide na cardiologia pediátrica/congênitas", "fonte": "https://www.chop.edu/sites/default/files/2025-07/Cardiac-Center-Annual-Report_0.pdf"},
+    {"nome": "J. William Gaynor, MD", "cargo": "Cirurgião cardiotorácico; liderança do fellowship; pesquisa neurodesenvolvimento pós-cirurgia neonatal", "por_que": "líder de pesquisa, possível host", "fonte": "https://www.chop.edu/doctors/gaynor-j-william"},
+    {"nome": "Katsuhide Maeda, MD, PhD", "cargo": "Cirurgião cardiotorácico (MCS/transplante); liderança do fellowship", "por_que": "possível host (suporte mecânico)", "fonte": "https://www.med.upenn.edu/apps/faculty/index.php/g20001280/p9408565"},
+    {"nome": "Muhammad A.K. Nuri, MD", "cargo": "Cirurgião cardiotorácico; liderança do fellowship", "por_que": "possível host", "fonte": "https://pennmedicine.org/providers/profile/muhammed-nuri?fadf=cch"}
+  ],
+  "brasileiros": {
+    "achados": "Rodrigo Cardoso-Cavalcante, MD — fellow de Pediatric Critical Care (PICU), MD pelo Centro Universitário Christus, Fortaleza. NÃO é do Cardiac Center, mas é ponte brasileira dentro do CHOP.",
+    "fonte": "https://www.chop.edu/doctors/cardoso-cavalcante-rodrigo",
+    "certeza": "confirmado (bio); nenhum brasileiro identificado no Cardiac Center"
+  },
+  "pontes_unifesp_sp": {"achados": "não encontrado (busca CHOP x InCor/Unifesp sem resultado; InCor tem parceria Children's HeartLink com SickKids/Children's Minnesota, não CHOP).", "fonte": "https://childrensheartlink.org/wp-content/uploads/2024/12/CHL.Brazil-Fact-Sheet.2021.pdf"},
+  "pesquisa_recente": [
+    {"titulo": "Increased utilization of the hybrid procedure is not associated with improved early survival", "ano": "2024 (Eur J Cardiothorac Surg, listado 'in press')", "id": "PMID não encontrado — confirmar no PubMed", "autores": "Chen JM, ... Fuller S, Maeda K, Nuri MAK, ... Spray TL, Gaynor JW", "fonte": "https://www.med.upenn.edu/apps/faculty/index.php/g275/p8216030"},
+    {"titulo": "Conjugated hyperbilirubinemia associated with morbidity and mortality after neonatal heart surgery (Hunt M, ..., Fuller S, Chen J, Gaynor JW)", "ano": "não confirmado", "id": "não encontrado", "fonte": "https://www.med.upenn.edu/apps/faculty/index.php/g275/p8216030"},
+    {"titulo": "Postoperative seizures after neonatal cardiac surgery: regional cerebral perfusion vs deep hypothermic circulatory arrest (Hsia J, Abend NS, Gaynor JW, Chen JM, Fuller S, Maeda K)", "ano": "não confirmado", "id": "não encontrado", "fonte": "https://www.med.upenn.edu/apps/faculty/index.php/g20000546/p9408565"}
+  ],
+  "dicas": [
+    "Congresso do serviço: 'Cardiology 2026' — 29th Annual Update on Pediatric and Congenital Cardiovascular Disease (fev-mar/2026, Scottsdale AZ) — porta para conhecer a equipe; próxima edição (Cardiology 2027) provável. Fonte: https://www.chop.edu/events/cardiology-2026",
+    "Visitor Program de até 7 dias como alternativa se o observership completo não sair.",
+    "Não esperar carta de recomendação do CHOP (política explícita do FAQ)."
+  ],
+  "rota_recomendada": "1) Escrever ao GPEducation@chop.edu pedindo aplicação ao International Observership no Cardiac Center/Cardiothoracic Surgery, ≥3-4 meses antes; 2) em paralelo, e-mail curto à divisão (Chen/Gaynor) citando um artigo, para que a divisão aceite quando o GPE encaminhar; 3) se recusado, International Visitor Program (≤7 dias) ou presença no congresso anual 'Cardiology 20xx'.",
+  "alerta_correcao": "URL do radar ok; existem duas páginas quase homônimas (international-observership-program e international-observer-program) — ambas do GPE."
+ },
+ {
+  "match": "Siriraj Hospital — Cardio-Thoracic Vascular Surgery",
+  "centro": "Faculty of Medicine Siriraj Hospital, Mahidol University — Division of Cardio-Thoracic Surgery (Dept. Surgery) + Dept. Anesthesiology (cardiothoracic anesthesia)",
+  "cidade": "Bangkok, Tailândia",
+  "areas": ["cirurgia_cardiaca", "anestesia_cardiaca"],
+  "programa": {
+    "pagina": "https://www2.si.mahidol.ac.th/en/international-office/short-training-courses",
+    "exemplo_radar": "https://www2.si.mahidol.ac.th/en/international-office/observership-program-in-cardio-thoracic-vascular-surgery-at-siriraj (notícia de 2018: anestesiologista italiana do Humanitas, 10-21/set/2018 ≈ 2 semanas) — é NOTÍCIA, não página de programa.",
+    "contato_oficial": "siiro@mahidol.ac.th (Siriraj International Office)",
+    "documentos": "Carta oficial ao Dean da Faculty of Medicine Siriraj descrevendo atividades e datas; formulário de aplicação; CV; carta de recomendação; tudo em PDF.",
+    "antecedencia": "Pelo menos 4 meses antes.",
+    "taxa": "Não publicada ('fees may be charged to cover the costs of your visit').",
+    "outros": "Inglês prático exigido. Existem programas de anestesia: '6-Month Clinical Observership Program in Cardiothoracic Anaesthesia' e '1-Month Clinical Observership in Critical Care' (Dept. Anesthesiology).",
+    "fontes": ["https://www2.si.mahidol.ac.th/en/international-office/short-training-courses", "https://www2.si.mahidol.ac.th/en/ir/site-visit", "https://www2.si.mahidol.ac.th/en/?p=13305", "https://www2.si.mahidol.ac.th/en/?p=54475", "https://www2.si.mahidol.ac.th/en/anesthesiology/short-observership-at-siriraj-anesthesiology"],
+    "certeza": "confirmado (e-mail, documentos, 4 meses); taxa e elegibilidade de residentes estrangeiros: não encontrado (provável aceitar — já recebeu médicos de Itália, Bangladesh, Malásia)."
+  },
+  "servico": {
+    "nomes": ["Division of Cardio-Thoracic Surgery, Department of Surgery", "Department of Anesthesiology (cardiothoracic anaesthesia)"],
+    "chefe": "Asst. Prof. Punnarerk Thongcharoen — listado como Head da Division of Cardio-Thoracic Surgery em página não datada; supervisionou observership de médicos de Bangladesh.",
+    "fellowship": "não encontrado",
+    "volume": "não encontrado (apenas dado nacional: >5.000 CABG/ano na Tailândia)",
+    "fontes": ["https://www2.si.mahidol.ac.th/en/?p=14066", "https://ctsnet.org/home/pthongcharoen"],
+    "certeza": "provável (chefia pode estar desatualizada)"
+  },
+  "pessoas_chave": [
+    {"nome": "Asst. Prof. Punnarerk Thongcharoen, MD", "cargo": "Head (listado), Division of Cardio-Thoracic Surgery", "por_que": "supervisiona observerships internacionais da divisão", "fonte": "https://www2.si.mahidol.ac.th/en/?p=14066"},
+    {"nome": "Worawong Slisatkorn, MD", "cargo": "Cirurgião cardiotorácico, Siriraj (perfil CTSNet)", "por_que": "possível host", "fonte": "https://ctsnet.freelock.com/article/author/Wslisatkorn", "certeza": "provável"}
+  ],
+  "brasileiros": {"achados": "não encontrado"},
+  "pontes_unifesp_sp": {"achados": "não encontrado"},
+  "pesquisa_recente": [
+    {"titulo": "Arterial switch operation outcomes at Siriraj (World J Pediatr Congenit Heart Surg) — coronária atípica como único preditor de mortalidade 30 dias", "ano": "não confirmado", "id": "não encontrado", "fonte": "https://medifind.com/conditions/transposition-of-the-great-arteries/2298/publication/536916259"},
+    {"titulo": "In-hospital cardiac arrest and mortality after pediatric cardiac surgery — 1.785 anestesias (apresentado no WCA2024, Singapura)", "ano": "2024", "id": "resumo de congresso", "fonte": "https://www2.si.mahidol.ac.th/en/?p=48871"},
+    {"titulo": "Delayed enteral feeding in critically ill patients after cardiac surgery (poster WCA2024, Dept. Anesthesiology)", "ano": "2024", "id": "resumo de congresso", "fonte": "https://www2.si.mahidol.ac.th/en/news-events/siriraj-faculty-abroad-at-the-wca2024-in-singapore-6/"}
+  ],
+  "dicas": [
+    "Departamento de Cirurgia organiza o evento 'ERAS in Cardiac Surgery' (https://www2.si.mahidol.ac.th/en/?p=47657) — tema para e-mail.",
+    "Siriraj Scholarship for ASEAN and Developing Countries existe, mas é voltado a ASEAN/países em desenvolvimento (Brasil provavelmente não elegível — não confirmado).",
+    "Para residente de cirurgia cardiovascular, a combinação cirurgia + anestesia cardiotorácica é um diferencial do centro."
+  ],
+  "rota_recomendada": "1) E-mail a siiro@mahidol.ac.th com carta endereçada ao Dean, CV, carta de recomendação e formulário, pedindo 4 semanas na Division of Cardio-Thoracic Surgery, ≥4 meses antes; 2) mencionar interesse em ERAS cardíaco/anestesia cardiotorácica; 3) perguntar taxa antes de fechar.",
+  "alerta_correcao": "A URL do radar é uma notícia de 2018 sobre um visitante, não a página oficial do programa; usar a página 'short-training-courses' do International Office."
+ },
+ {
+  "match": "NUH / National University Heart Centre",
+  "centro": "National University Hospital (NUH) / National University Heart Centre, Singapore (NUHCS) — Cardiac Genetics Service / Inherited Cardiac Conditions",
+  "cidade": "Singapura",
+  "areas": ["cardiogenetica", "miocardiopatias"],
+  "programa": {
+    "pagina": "https://www.nuh.com.sg/research-and-education/hands-off-observership",
+    "elegibilidade": "Médicos estrangeiros podem observar um departamento clínico sem hands-on; departamentos listados incluem Cardiology e Cardiac/Thoracic/Vascular Surgery; exige diploma médico reconhecido (lista completa de documentos truncada).",
+    "taxa": "S$170 (com GST) por attachment, paga online após aceite; taxas extras em alguns departamentos.",
+    "custos": "Sem bolsa, sem acomodação; visto por conta do aceito.",
+    "antecedencia": "não encontrado",
+    "contato_oficial": "não extraído dos trechos (ver página)",
+    "fontes": ["https://www.nuh.com.sg/research-and-education/hands-off-observership", "https://www.nuhs.edu.sg/education/honorary-fellowship-and-observership"],
+    "certeza": "confirmado (taxa, áreas, regra hands-off; página datada 02/02/2026); e-mail e checklist: não encontrado"
+  },
+  "servico": {
+    "nomes": ["Cardiac Genetics Service (NUHCS)", "Inherited Cardiac Conditions programme (NUH Centre for Genomic Medicine – NUGEM)", "Department of Cardiology, NUHCS"],
+    "lider_cardiogenetica": "Prof. Roger Foo — Clinical Lead, Cardiac Genetics Service; Director, NUHS Cardiovascular Research Institute (CVRI)",
+    "chefia_centro": "A/Prof. James Yip Wei Luen — Executive Director NUHCS; Head of Cardiology: Adj. A/Prof. Chai Ping (página de out/2024)",
+    "volume": "não encontrado; programa ICC iniciado no início dos anos 2010 (HCM, DCM, ACM, arritmias hereditárias, aortopatias)",
+    "fontes": ["https://ishr2025nara.jp/data/speakers/symposium/roger_foo.pdf", "https://www.nuhcs.com.sg/about-nuhcs/at-the-helm", "https://www.nuhcs.com.sg/our-services/specialties/cardiac-genetics", "https://www.nuh.com.sg/care-at-nuh/services/national-university-centre-for-genomic-medicine-(nugem)/programmes---services/inherited-cardiac-conditions"],
+    "certeza": "confirmado (Foo 2025); chefe de cardiologia provável (página 2024)"
+  },
+  "pessoas_chave": [
+    {"nome": "Prof. Roger Foo", "cargo": "Clinical Lead Cardiac Genetics Service; Director NUHS CVRI", "por_que": "host natural para cardiogenética/miocardiopatias; autor-correspondente da revisão ICC 2023", "fonte": "https://ishr2025nara.jp/data/speakers/symposium/roger_foo.pdf"},
+    {"nome": "A/Prof. James Yip Wei Luen", "cargo": "Executive Director, NUHCS", "por_que": "decisão institucional", "fonte": "https://www.nuh.com.sg/care-at-nuh/find-a-doctor/doctor-details/Yip_Wei_Luen_James"},
+    {"nome": "Adj. A/Prof. Chai Ping", "cargo": "Head, Department of Cardiology (out/2024)", "por_que": "aprova attachment no departamento", "fonte": "https://www.nuhcs.com.sg/about-nuhcs/at-the-helm", "certeza": "provável"},
+    {"nome": "A/Prof. Mark Chan Yan Yee", "cargo": "Deputy Executive Director, NUHCS", "por_que": "liderança", "fonte": "https://www.nuhcs.com.sg/about-nuhcs/at-the-helm"}
+  ],
+  "brasileiros": {"achados": "não encontrado (nenhum brasileiro atuando no NUHCS identificado)"},
+  "pontes_unifesp_sp": {
+    "achados": "PONTE FORTE com USP/InCor: 'Genetic Studies of Hypertrophic Cardiomyopathy in Singaporeans Identify Variants in TNNI3 and TNNT2 That Are Common in Chinese Patients' (Pua CJ et al., Circ Genom Precis Med 2020; PMID 32815737) — 43 autores, afiliações incluem 'Natl Univ Heart Ctr, Cardiol Dept, Singapore' e 'Univ Sao Paulo, Heart Inst InCor, Lab Genet & Mol Cardiol' (iniciais K.P., G.V.S., A.C.P. — provavelmente Kallyandra Padilha, Gabriela Venturini da Silva, Alexandre C. Pereira; confirmar). Também co-afiliação National Heart Centre Singapore (Stuart Cook).",
+    "fontes": ["https://bv.fapesp.br/en/publicacao/186487/genetic-studies-of-hypertrophic-cardiomyopathy-in-singaporea", "https://pesquisa.bvsalud.org/sms/resource/pt/mdl-32815737"],
+    "certeza": "confirmado (coautoria InCor + NUHCS); nomes dos brasileiros provável"
+  },
+  "pesquisa_recente": [
+    {"titulo": "Genomics in practice - a review of inherited cardiac conditions (Loong et al.; corresp. Roger Foo)", "ano": "2023", "id": "DOI 10.20517/jtgg.2022.20 (J Transl Genet Genom 2023;7:27-49)", "fonte": "https://www.oaepublish.com/articles/jtgg.2022.20"},
+    {"titulo": "Genetic Studies of HCM in Singaporeans Identify Variants in TNNI3 and TNNT2 (com InCor) — fora da janela 2022-26, mas melhor gancho", "ano": "2020", "id": "PMID 32815737", "fonte": "https://pesquisa.bvsalud.org/sms/resource/pt/mdl-32815737"},
+    {"titulo": "terceiro artigo 2022-2026 do serviço", "ano": "", "id": "não encontrado", "fonte": ""}
+  ],
+  "dicas": [
+    "Programa é 'hands-off' estruturado e barato (S$170) — uma das opções de menor custo do radar.",
+    "No e-mail ao Prof. Foo, citar a coautoria com o Laboratório de Genética e Cardiologia Molecular do InCor (Alexandre Pereira) — pedir apresentação via InCor pode ajudar."
+  ],
+  "rota_recomendada": "1) Contatar Prof. Roger Foo (Cardiac Genetics Service) pedindo aceite para 4 semanas no ICC clinic, citando PMID 32815737 e a revisão 2023; 2) com o aceite, submeter a aplicação Hands-Off Observership da NUH (Cardiology); 3) se possível, obter apresentação via grupo de Alexandre Pereira (InCor).",
+  "alerta_correcao": "Atenção para não confundir NUHCS (National University Heart Centre, NUH/NUHS) com NHCS (National Heart Centre Singapore, SingHealth) — o estudo de HCM 2020 envolve ambos."
+ },
+ {
+  "match": "UCLA Health",
+  "centro": "UCLA Health — Ahmanson/UCLA Adult Congenital Heart Disease Center + UCLA Cardiology",
+  "cidade": "Los Angeles, EUA",
+  "areas": ["congenita_adulto", "cardiologia"],
+  "programa": {
+    "pagina": "https://www.uclahealth.org/international-services/medical-education-training/physicians/physician-observerships",
+    "contato_oficial": "IntlEdu@mednet.ucla.edu",
+    "fluxo": "PRIMEIRO obter Invitation Letter com datas confirmadas do docente anfitrião; depois pedir a aplicação ao IntlEdu@mednet.ucla.edu; documentos até 30 dias antes do início.",
+    "taxa": "US$750 application fee (não reembolsável) + Departmental Training Fee US$4.000/mês (pode variar por departamento).",
+    "duracao": "1 a 3 meses (típico).",
+    "visto": "Quem tiver visto diferente do padrão deve contatar International Education (provável B1/B2).",
+    "limites": "Sem acesso a prontuário (CareConnect), biblioteca, e-mail Mednet; sem cuidado de paciente nem pesquisa voluntária; sem cartas de recomendação; não influencia candidatura a residência/fellowship.",
+    "fontes": ["https://www.uclahealth.org/international-services/medical-education-training/physicians/physician-observerships", "https://www.uclahealth.org/international-services/physician-observerships"],
+    "certeza": "confirmado"
+  },
+  "servico": {
+    "nomes": ["Ahmanson/UCLA Adult Congenital Heart Disease Center (ACHD Accredited Comprehensive Care Center — ACHA)", "UCLA Adult Congenital Heart Disease Fellowship (2 anos, ACGME)"],
+    "diretor": "Jamil A. Aboulhosn, MD — Director, Ahmanson/UCLA ACHD Center (assina newsletter verão 2026)",
+    "fellowship": "Program Director: Jamil Aboulhosn (página de liderança) OU Jeannette Lin, MD (newsletter verão 2026 lista 'Fellowship Director') — conflito, confirmar.",
+    "volume": "não encontrado (centro se descreve como 'first and one of the largest' do país)",
+    "fontes": ["https://www.uclahealth.org/medical-services/heart/achd/about-us/newsletters/summer-2026-newsletter", "https://www.uclahealth.org/heart/fellowship-leadership-faculty", "https://www.uclahealth.org/medical-services/heart/achd/about-us/newsletters/summer-2026-newsletter/faculty-and-contact-information", "https://www.uclahealth.org/news/release/ucla-among-first-in-nation-to-earn-accreditation-for-congenital-heart-disease-program"],
+    "certeza": "confirmado (diretor); PD fellowship provável"
+  },
+  "pessoas_chave": [
+    {"nome": "Jamil A. Aboulhosn, MD", "cargo": "Director, Ahmanson/UCLA ACHD Center; intervenção estrutural/ACHD; ex-chair Global Research Working Group ISACHD", "por_que": "pode emitir a Invitation Letter (host)", "fonte": "https://www.uclahealth.org/providers/jamil-aboulhosn"},
+    {"nome": "Jeannette Lin, MD", "cargo": "ACHD; listada como Fellowship Director (newsletter 2026)", "por_que": "host alternativo; pesquisa gestação/VD sistêmico", "fonte": "https://profiles.ucla.edu/jeannette.lin"},
+    {"nome": "Gentian Lluri, MD, PhD", "cargo": "Cardiologista ACHD, UCLA", "por_que": "pesquisa Fontan/VD sistêmico; possível host", "fonte": "https://profiles.ucla.edu/gentian.lluri"}
+  ],
+  "brasileiros": {"achados": "não encontrado (fellows 2023-2025 listados nas newsletters: Angela Li, Jenica Thangathurai, Eihab Ghantous, Dr. Gao, Julian Hirschbaum, Dr. Linnane — nenhum brasileiro identificado)", "fonte": "https://www.uclahealth.org/sites/default/files/documents/2e/achdc-summer-newsletter-2025-update-102425.pdf?f=d28d38ec"},
+  "pontes_unifesp_sp": {"achados": "não confirmado. Possível via APPROACH-IS II (registro internacional ACHD com autores da FMRP-USP: André Schmidt, Paulo Henrique Manso; DOI 10.1016/j.ijcard.2022.06.064) — participação da UCLA não verificada.", "fonte": "https://repositorio.usp.br/item/003267606", "certeza": "não encontrado / hipótese"},
+  "pesquisa_recente": [
+    {"titulo": "Outcomes in Transposition With Systemic Right Ventricles: Do Sex and Pregnancy Matter? (Lin, Lluri et al.)", "ano": "2024", "id": "JACC Adv. 2024;3(7):101013", "fonte": "https://profiles.ucla.edu/gentian.lluri"},
+    {"titulo": "Cardiovascular Outcomes in Fontan Patients With Right vs Left Univentricular Morphology: A Multicenter Study (com Aboulhosn; 12 centros norte-americanos)", "ano": "2024", "id": "JACC Advances 2024 (PMID/DOI não extraído)", "fonte": "https://rcastoragev2.blob.core.windows.net/3fd709484347ceb14a83b50ff26ba5be/main.PMC11198647.pdf", "certeza": "provável"},
+    {"titulo": "Cardiopulmonary Exercise Test Outcomes in Fontan Patients With Right Versus Left Single Ventricle Morphology (Dhauna, Aboulhosn, Lluri)", "ano": "2022", "id": "World J Pediatr Congenit Heart Surg 2022;13(3):366-370", "fonte": "https://profiles.ucla.edu/gentian.lluri"}
+  ],
+  "dicas": [
+    "Rota obrigatória: Invitation Letter do docente ANTES de contatar o IntlEdu — o e-mail ao Aboulhosn/Lin é o passo decisivo.",
+    "Custo alto (~US$4.750 para 1 mês) — considerar na comparação com outros polos.",
+    "Centro publica newsletters semestrais do ACHD (fonte de ganchos para e-mail)."
+  ],
+  "rota_recomendada": "1) E-mail a Jamil Aboulhosn (com cópia a Jeannette Lin) pedindo Invitation Letter para 4 semanas no ACHD Center, citando o artigo de VD sistêmico/gestação 2024 e o estudo multicêntrico de Fontan; 2) com a carta, solicitar a aplicação ao IntlEdu@mednet.ucla.edu ≥30 dias (idealmente 3 meses) antes; 3) orçar US$750 + US$4.000/mês.",
+  "alerta_correcao": "Polo genérico 'UCLA Health' — para as áreas listadas o serviço correto é o Ahmanson/UCLA Adult Congenital Heart Disease Center."
+ }
+]
