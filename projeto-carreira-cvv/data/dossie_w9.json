@@ -1,0 +1,909 @@
+{
+ "atualizado": "2026-11-01",
+ "polos": [
+  {
+   "match": "National Heart Centre Singapore",
+   "alerta": "A fonte do radar é notícia de 2009; não há evidência de robótica cardíaca ativa no NHCS em 2024–2026 (não confundir com NUHCS/NUH, que tem observership publicado).",
+   "rota": [
+    "E-mail a nhcs.ote@nhcs.com.sg pedindo observership hands-off de 4 semanas em cirurgia cardiotorácica/MICS, com carta da Unifesp",
+    "Em paralelo, considerar o NUH (Honorary Clinical Fellowship and Clinical Observership publicado)",
+    "Baixa prioridade para robótica pura neste centro"
+   ],
+   "prazos": [
+    {
+     "txt": "Candidaturas ao fellowship analisadas 2x por ano; só selecionados são notificados",
+     "url": "https://www.nhcs.com.sg/education/training-and-fellowships",
+     "certeza": "confirmado"
+    }
+   ],
+   "programa": {
+    "resumo": "Só há Fellowship (Overseas) formal; o de cirurgia cardíaca exige MMed/FRCS ou equivalente + ≥3 anos de experiência, logo residente provavelmente não é elegível. Observership hands-off não documentado.",
+    "url": "https://www.nhcs.com.sg/education/training-and-fellowships",
+    "contato": "nhcs.ote@nhcs.com.sg (NHCS Fellowship Administrator; só por e-mail)",
+    "taxa": "Sem bolsa: 'does not provide stipends' (custeio próprio)",
+    "documentos": "Formulário oficial + CV, cada um <1MB; hands-on (modelo SingHealth) exige registro temporário no SMC e Training Employment Pass",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Tan Teing Ee",
+     "cargo": "Head & Senior Consultant, Cardiothoracic Surgery NHCS (dez/2023)",
+     "papel": "Decide sobre recepção no departamento",
+     "url": "https://www.singhealthacademy.edu.sg/residency/programmes/Documents/Intranet%20Faculty%20Listing_SG%20IP%20CTS_Dec%20%2723%20Update.pdf",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Chao Tar Toong Victor",
+     "cargo": "Senior Consultant Cardiothoracic Surgery NHCS (dez/2023)",
+     "papel": "Staff sênior",
+     "url": "https://www.singhealthacademy.edu.sg/residency/programmes/Documents/Intranet%20Faculty%20Listing_SG%20IP%20CTS_Dec%20%2723%20Update.pdf",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Chua Yeow Leng",
+     "cargo": "Senior Consultant CTS; ex-Head of Department (1999–2007)",
+     "papel": "Pioneiro do reparo mitral/robótico no NHCS",
+     "url": "https://www.nhcs.com.sg/doctor/cardiothoracic-surgery/chua-yeow-leng",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Chua Kim Chai",
+     "cargo": "Clin Asst Prof, cirurgião cardiotorácico (MICS, LVAD)",
+     "papel": "Área mais próxima da robótica hoje (MICS)",
+     "url": "https://singhealth.com.sg/profile/chua-kim-chai",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "No e-mail, pedir explicitamente 'short-term clinical observership (hands-off)'; o site só formaliza fellowship",
+    "Há indício de observers estrangeiros via contato institucional (Universitas Sumatera Utara, 2024)",
+    "Bolsa APSC Singapore 2026 lista NHCS como centro acreditado (prioridade a quem já tem vaga aceita)"
+   ],
+   "lacunas": [
+    "Observership oficial para médicos: não encontrado",
+    "Fellowship director: não encontrado",
+    "Artigos 2022–2026 de robótica cardíaca do NHCS: não encontrados",
+    "Brasileiros e pontes com Unifesp/SP: não encontrados"
+   ]
+  },
+  {
+   "match": "King Faisal Specialist Hospital & Research Centre",
+   "alerta": "O KFSHRC tem sedes em Riad (Khaliel: valvar, transplante, LVAD robóticos) e Jidá (Al-Uthman: revascularização híbrida); o radar lista só Riad.",
+   "rota": [
+    "Contatar Academic and Training Affairs (portal kfshrc.edu.sa/education) perguntando por observership de 4 semanas em cirurgia cardíaca robótica",
+    "Carta curta ao Prof. Feras Khaliel citando o transplante robótico e o estudo de RAVR, pedindo sponsor interno",
+    "Alternativa: inscrever-se no Middle Eastern Robotic Cardiac Surgery Summit e fazer contato presencial"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Sem observership público; o short-term training publicado (jan/2026) cobre só estudantes. Elegibilidade de residente estrangeiro não confirmada; FAQ manda contatar Academic and Training Affairs.",
+    "url": "https://www.kfshrc.edu.sa/education",
+    "documentos": "Versão antiga do short-term training pede CV, passaporte e ACLS/BLS válido",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Feras Khaliel",
+     "cargo": "Head of Cardiac Surgery; Director Robotics & MIS Program; Deputy Exec. Director Heart Centre of Excellence",
+     "papel": "Decide e hospeda; preside comitê científico do Summit robótico",
+     "url": "https://www.biospace.com/press-releases/kfshrc-heart-centre-a-leader-in-advanced-cardiac-treatments",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Uthman Al-Uthman",
+     "cargo": "Director of Robotic Surgery, KFSHRC Jeddah",
+     "papel": "Lidera revascularização híbrida robótica em Jidá",
+     "url": "https://en.dsfhjeddah.fakeeh.care/news-updates/dr-soliman-fakeeh-hospital-in-jeddah-successfully-utilizes-the-da-vinci-robotic-system-for-heart-surgery",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Hani Al-Sergani",
+     "cargo": "Citado na cobertura do Summit (papel exato não confirmado)",
+     "papel": "Organização de evento educacional",
+     "url": "https://www.biospace.com/press-releases/kfshrc-heart-centre-a-leader-in-advanced-cardiac-treatments",
+     "certeza": "provável"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "Robotic aortic valve replacement in the Middle East: reproducibility into practice with evolving complexity",
+     "ano": 2025,
+     "id": "PMC12177770",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12177770/"
+    }
+   ],
+   "dicas": [
+    "400 cirurgias robóticas cardíacas com 98% de sobrevida (jul/2024); 1º transplante cardíaco totalmente robótico (set/2024)",
+    "Gancho para e-mail: entrevista de Khaliel no CTSNet 'The Beat with Joel Dunning Ep. 73'",
+    "Programa faz proctoring internacional: interesse declarado em ensino",
+    "A robótica coronária híbrida publicada é da sede de Jidá"
+   ],
+   "lacunas": [
+    "E-mail oficial de educação/observership: não encontrado",
+    "Fellowship director: não encontrado",
+    "Data do próximo Summit: não confirmada",
+    "Brasileiros e pontes: não encontrados"
+   ]
+  },
+  {
+   "match": "King Abdulaziz University Hospital",
+   "alerta": "A robótica cardíaca no KAUH é incipiente (primeiras CRM robóticas); em Jidá o programa estabelecido é o do KFSHRC-Jeddah.",
+   "rota": [
+    "Baixa prioridade: preferir KFSHRC-Jeddah",
+    "Se insistir: e-mail ao Department of Surgery/Faculty of Medicine KAU, aos Drs. Mazen Fatani e Abdullah Baghaffar, citando as CRM robóticas"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Sem observership publicado; a única oferta para graduados estrangeiros é internato de 1 ano, que não se aplica.",
+    "url": "https://medicine.kau.edu.sa/Pages-Interns-.aspx",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Mazen Fatani",
+     "cargo": "Cirurgião cardíaco KAUH",
+     "papel": "Co-líder das CRM robóticas",
+     "url": "https://www.kau.edu.sa/en/news-details/significant-advancement-at-king-abdulaziz-university-hospital-robotic-assisted-coronary-artery-bypass-surgeries-successfully-performed",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Abdullah Baghaffar",
+     "cargo": "Cirurgião cardíaco KAUH",
+     "papel": "Co-líder das CRM robóticas",
+     "url": "https://www.kau.edu.sa/en/news-details/significant-advancement-at-king-abdulaziz-university-hospital-robotic-assisted-coronary-artery-bypass-surgeries-successfully-performed",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Iskander Al-Githmi",
+     "cargo": "Consultant Cardiothoracic and Lung Transplant Surgeon, KAU",
+     "papel": "Staff sênior acadêmico",
+     "url": "https://it.kau.edu.sa/Default-0008516-EN",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Husain Jabbad",
+     "cargo": "Cardiac Surgery Unit, Department of Surgery, KAU",
+     "papel": "Staff",
+     "url": "https://ctsnet.org/home/hjabbad",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "KAUH passou de 1.000 cirurgias robóticas somando todas as especialidades (nov/2025); volume cardíaco não publicado"
+   ],
+   "lacunas": [
+    "Contato oficial e observership: não encontrados",
+    "Chefe do serviço: não encontrado",
+    "Artigos de robótica cardíaca do KAUH com URL: não encontrados",
+    "Brasileiros e pontes: não encontrados"
+   ]
+  },
+  {
+   "match": "Macquarie University Hospital",
+   "alerta": "A URL de contato do radar ('repairing the forgotten valve') é sobre reparo percutâneo (cardiologia), não robótica cirúrgica; as fontes de robótica são de 2018.",
+   "rota": [
+    "Contato direto com o Prof. Michael Wilson (via consultório/MQ Health) pedindo 4 semanas de observação em robótica coronária, com carta da Unifesp",
+    "Perguntar à MQ Health sobre a política de observers",
+    "Alternativa estruturada na Austrália: Monash Health (programa publicado)"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Sem observership publicado para médicos estrangeiros; hospital privado universitário, entrada provavelmente via sponsor direto (o cirurgião).",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Michael K. Wilson",
+     "cargo": "Professor, cirurgião cardiotorácico (MUH e outros hospitais); interesse em educação e simulação",
+     "papel": "Líder da robótica cardíaca (TECAB, OPCAB robótica); host natural",
+     "url": "https://tcc.eventsair.com/valvular-heart-disease-symposium/michael-wilson",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Michael Vallely",
+     "cargo": "Co-fundador do programa robótico (2011)",
+     "papel": "Pesquisa coronária off-pump; papel atual na MUH não confirmado",
+     "url": "https://lighthouse.mq.edu.au/article/2018-stories/Robots-open-the-door-to-safer-open-heart-surgery-at-Macquarie-Hospital",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Martin Ng",
+     "cargo": "Cardiologista intervencionista MUH (reparo transcateter mitral/tricúspide)",
+     "papel": "Relevante se o foco for estrutural",
+     "url": "https://mqhealth.org.au/about/stories/repairing-the-forgotten-valve",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "Programa robótico desde 2011: 1º programa robótico cardiotorácico totalmente integrado da Austrália",
+    "Wilson apresentou na sessão cardíaca do SRS 2023 (Society of Robotic Surgery)",
+    "Parte da robótica de Wilson pode ocorrer fora da MUH (TECAB no Northern Beaches Hospital)",
+    "Referência: Monash Health tem observership de 1–4 semanas, taxa AUD 500 (https://monashhealth.org/?p=9602)"
+   ],
+   "lacunas": [
+    "Contato oficial e observership: não encontrados",
+    "Chefe e volume do serviço: não encontrados",
+    "Atividade robótica cardíaca atual: não confirmada",
+    "Artigos 2022–2026 do serviço: não encontrados"
+   ]
+  },
+  {
+   "match": "St John of God Geelong Hospital",
+   "alerta": "O cirurgião-chave (Yap) atua em vários hospitais de Geelong; a observação pode acabar sendo no University Hospital Geelong (Barwon Health).",
+   "rota": [
+    "E-mail ao A/Prof Cheng-Hon Yap (via consultório ou perfil Barwon Health/CTSNet) pedindo 2–4 semanas de observação, citando RA-CABG e a dissecção bilateral de mamárias com da Vinci Xi",
+    "Com o aceite, pedir que ele indique a via administrativa (SJOG Geelong ou University Hospital Geelong)",
+    "Prioridade baixa: baixo rendimento/alto custo para residente"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Não há programa de observership publicado; hospital privado com médicos visitantes, entrada depende de convite pessoal do cirurgião.",
+    "url": "https://www.sjog.org.au/our-locations/st-john-of-god-geelong-hospital/services/cardiology",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Cheng-Hon Yap",
+     "cargo": "A/Prof; Clinical Lead Cardiac Services (SJOG Geelong); Supervisor of Cardiothoracic Surgery Training (University Hospital Geelong)",
+     "papel": "Lidera robótica e já dirigiu fellowship internacional de MICS; decide/hospeda",
+     "url": "https://research.barwonhealth.org.au/about-us/meet-our-researchers/cardiothoracic-surgery-a-prof-cheng-hon-yap/",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "Gancho: notícia 'A decade of heart' (dez/2025), com a 1ª dissecção robótica bilateral de mamárias de Victoria (https://www.sjog.org.au/news-and-media/news/a-decade-of-heart)",
+    "Yap tem interesse declarado em ensino (supervisor de treinamento; diretor de fellowship MICS na Tailândia)",
+    "Observação sem contato com paciente normalmente não exige registro AHPRA (não verificado)"
+   ],
+   "lacunas": [
+    "Contato oficial, taxa e documentos: não encontrados",
+    "Volume do serviço: não encontrado",
+    "Artigos 2022–2026 com PMID/DOI: não encontrados",
+    "Brasileiros e pontes: não encontrados"
+   ]
+  },
+  {
+   "match": "St. Michael's Hospital (Unity Health Toronto)",
+   "alerta": "A URL do radar (pgme.utoronto.ca/observerships) diz que a U of T NÃO gerencia observerships; o contato correto é o hospital/cirurgião.",
+   "rota": [
+    "E-mail ao Dr. Gianluigi Bisleri (cópia a Daniel Burns) pedindo 4 semanas de observação no programa MICS/robótico, citando os casos de 2025",
+    "Com o aceite, ele notifica o Medical Education Office/Student Centre da Unity Health para o registro como observer",
+    "Alternativa formal: elective internacional via U of T PGME (exige carta de patrocínio financeiro)"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Sem observership formal publicado; o observer deve ser arranjado por um staff physician do hospital, que avisa o Medical Education Office. Elective internacional pela U of T PGME é possível (até 15 semanas, com patrocínio financeiro integral).",
+    "url": "https://www.pgme.utoronto.ca/observerships",
+    "documentos": "Elective PGME: carta da agência patrocinadora confirmando 'full financial support'",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Gianluigi Bisleri",
+     "cargo": "Director, Minimally Invasive Cardiac Surgery; Associate Professor U of T",
+     "papel": "Lidera a robótica; principal anfitrião",
+     "url": "https://unityhealth.to/physician-directory/dr-gianluigi-bisleri/",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Daniel Burns",
+     "cargo": "Cirurgião cardíaco",
+     "papel": "Co-líder das primeiras cirurgias robóticas",
+     "url": "https://surgery.utoronto.ca/faculty/daniel-burns",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Bobby (Robert) Yanagawa",
+     "cargo": "Division Head of Cardiac Surgery",
+     "papel": "Autoriza na divisão",
+     "url": "https://unityhealth.to/physician-directory/dr-robert-yanagawa/",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "Ganchos: 1ª plastia mitral robótica de Toronto (abr/2025) e 1ª correção robótica de cor triatriatum (dez/2025)",
+    "Programa robótico novo (2025), com interesse em visibilidade",
+    "Checar com o hospital as exigências de observer (vacinas, TB, seguro, confidencialidade)"
+   ],
+   "lacunas": [
+    "E-mail do Medical Education Office: não encontrado",
+    "Taxa e documentos para observer: não encontrados",
+    "Artigos 2022–2026 de robótica com PMID/DOI: não encontrados",
+    "Brasileiros e pontes: não encontrados"
+   ]
+  },
+  {
+   "match": "Vancouver General Hospital (UBC)",
+   "alerta": "Atividade robótica cardíaca recente da VGH não confirmada; dados de volume e programa vêm de página UBC sem data.",
+   "rota": [
+    "E-mail ao Dr. Richard Cook perguntando se o programa robótico está ativo e se aceita observador por 4 semanas",
+    "Com o aceite, preencher o Visiting Observer Form da UBC",
+    "Checar com o CPSBC se é necessário registro de clinical observer"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Sem observership estruturado em cirurgia cardíaca; há um Visiting Observer Form (inclui médicos internacionais, provável oficial) e visiting electives da UBC para residentes internacionais.",
+    "url": "https://postgrad.med.ubc.ca/prospective-trainees/postgraduate-visiting-electives/",
+    "contato": "maryam.milani@ubc.ca (UBC Division of Cardiac Surgery, publicado para candidaturas ao Advanced Cardiac Surgery Fellowship)",
+    "documentos": "Visiting Observer Form: CV, foto e descrição do serviço/local/faculty",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Richard C. Cook",
+     "cargo": "Clinical Professor UBC; Director of Minimal Access and Robotically-Assisted Cardiac Surgery, VGH; diretor do Advanced Cardiac Surgery Fellowship",
+     "papel": "Decide e hospeda observação em robótica",
+     "url": "https://www.providenceresearch.ca/en/researchers/cook-richard",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "Formulário de observer: https://app.smartsheet.com/b/form/d917cf6bb3b64609884bdd15fd5b71e6 (observers não podem usar a experiência no currículo)",
+    "Cook fez fellowship em robótica com W. Randolph Chitwood Jr.: bom gancho",
+    "O robô da VGH é compartilhado com urologia e torácica"
+   ],
+   "lacunas": [
+    "Chefe atual da divisão: não encontrado",
+    "Atividade robótica cardíaca 2024–2026: não confirmada",
+    "Artigos 2022–2026 do serviço: não encontrados",
+    "Brasileiros e pontes: não encontrados"
+   ]
+  },
+  {
+   "match": "Centro Médico Nacional 20 de Noviembre (ISSSTE)",
+   "alerta": "A alegação de 'primeira cirurgia robótica de coração da América Latina' é contestável (Einstein, SP, é citado como pioneiro); robótica do CMN em 2025 é ginecológica/urológica/oncológica.",
+   "rota": [
+    "Baixa prioridade para robótica",
+    "Se mantiver: perguntar à Dra. María del Sol García Ortegón ou ao Dr. Díaz Quiroz se há cirurgia cardíaca robótica regular",
+    "Só então ofício da COREME/Unifesp à Jefatura de Enseñanza do CMN"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Sem norma pública de rotação/observação para estrangeiros em cirurgia cardíaca; a instituição aceita estrangeiros em residências de outras áreas.",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Guillermo Díaz Quiroz",
+     "cargo": "Jefe del Servicio de Cirugía Cardíaca",
+     "papel": "Decide sobre rotantes no serviço",
+     "url": "https://www.xataka.com.mx/investigacion/en-mexico-se-realizo-la-primera-cirugia-robotica-de-corazon-en-america-latina",
+     "certeza": "provável"
+    },
+    {
+     "nome": "María del Sol García Ortegón",
+     "cargo": "Cirurgiã cardiovascular adscrita; presidente do Consejo Nacional de Cirugía del Tórax",
+     "papel": "Pioneira da robótica cardíaca no serviço",
+     "url": "https://www.intramed.net/content/entrevista-con-la-dra-maria-sol-garcia-ortegon",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "Robô da Vinci Xi em uso desde out/2025 (16 procedimentos, não cardíacos)",
+    "Rotação externa provavelmente depende de ofício da instituição de origem à Jefatura de Enseñanza",
+    "Para robótica cardíaca na América Latina, o Einstein (SP) é alternativa doméstica mais sólida"
+   ],
+   "lacunas": [
+    "E-mail da Jefatura de Enseñanza: não encontrado",
+    "Volume de cirurgia cardíaca robótica: não encontrado",
+    "Artigos 2022–2026: não encontrados",
+    "Brasileiros e pontes: não encontrados"
+   ]
+  },
+  {
+   "match": "Fundación Clínica Shaio",
+   "alerta": "Volume robótico cardíaco documentado é muito baixo (6 casos em 2017–18) e não há dados após 2020; atividade atual incerta.",
+   "rota": [
+    "E-mail aos Drs. Darío Andrade/Federico Núñez citando o artigo publicado no Brazilian Journal of Cardiovascular Surgery",
+    "Pedir ao Departamento de Educación da Shaio as condições de rotação observacional para estrangeiros",
+    "Confirmar antes se o programa robótico cardíaco segue ativo"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Sem observership publicado; rotações passam pelo convênio docência-serviço com a Universidad de La Sabana (até mai/2031). Estrangeira provavelmente só como observadora, com seguro e visto adequado (regra da Valle del Lili, não confirmada para a Shaio).",
+    "url": "https://www.unisabana.edu.co/fileadmin/Archivos_de_usuario/Imagenes/Imagenes_Unidades_Academicas/Facultad_Medicina/Acreditacion_Especializaciones/Medicina_Interna/CONVENIO_SHAIO.pdf",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Darío Andrade",
+     "cargo": "Cirurgião cardiovascular, Shaio",
+     "papel": "1º autor do relato robótico; lidera o programa",
+     "url": "https://search.bvsalud.org/portal/resource/pt/biblio-1144008",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Federico Núñez",
+     "cargo": "Cirurgião cardiovascular sênior, Shaio",
+     "papel": "Autor sênior do relato; provável decisor (chefia não confirmada)",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7731842",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Juan Fernando Parra",
+     "cargo": "Cirurgião cardiovascular, Shaio",
+     "papel": "Coautor do relato robótico",
+     "url": "https://www.ctsnet.org/home/juanpaco",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Eric E. Vinck",
+     "cargo": "Cirurgião/pesquisador colombiano",
+     "papel": "Escreve sobre MICS e treino internacional na Colômbia",
+     "url": "https://cris.maastrichtuniversity.nl/en/publications/minimally-invasive-cardiac-surgery-in-colombia-evolution-and-the-/",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Husam Balkhy",
+     "cargo": "University of Chicago Medicine",
+     "papel": "Coautor/mentor do programa robótico da Shaio; ponte Chicago",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7731842",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "Robotic Cardiac Surgery in Colombia: Overcoming the Challenges of a Middle-income Setting",
+     "ano": 2020,
+     "id": "10.21470/1678-9741-2020-0064",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7731842"
+    },
+    {
+     "titulo": "Minimally Invasive Cardiac Surgery in Colombia: Evolution and the Impact of International Training",
+     "ano": 2021,
+     "id": "10.1177/15569845211030982",
+     "url": "https://cris.maastrichtuniversity.nl/en/publications/minimally-invasive-cardiac-surgery-in-colombia-evolution-and-the-/"
+    }
+   ],
+   "dicas": [
+    "Robô da Vinci Xi compartilhado com urologia/coloproctologia; cardiovascular foi 9,7% dos casos robóticos (2018)",
+    "O relato robótico saiu na revista da SBCCV: bom gancho brasileiro"
+   ],
+   "lacunas": [
+    "Observership e contato oficial para estrangeiros: não encontrados",
+    "Chefe da cirurgia cardiovascular: não encontrado",
+    "Artigos 2022–2026 de robótica cardíaca: não encontrados",
+    "Brasileiros: não encontrados"
+   ]
+  },
+  {
+   "match": "Clínica Cardio VID",
+   "alerta": "Nenhuma fonte confirma cirurgia cardíaca ROBÓTICA na Cardio VID; o artigo do radar é de MICS por minitoracotomia. Reclassificar como MICS/transplante.",
+   "rota": [
+    "E-mail ao Dr. Juan Camilo Rendón citando a série de 846 casos MICS (2024), pedindo observação em MICS",
+    "Verificar via UPB/educação da clínica as regras para rotante estrangeira",
+    "Não priorizar para robótica"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Sem observership publicado; vínculo acadêmico provável com a Universidad Pontificia Bolivariana (UPB). Regras para estrangeiros não encontradas.",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Juan Camilo Rendón (Rendón-Isaza)",
+     "cargo": "Cirurgião cardiovascular, Cardio VID",
+     "papel": "Líder em MICS; coautor da série de 846 casos",
+     "url": "https://investigacion.upb.edu.co/es/publications/experience-in-minimally-invasive-cardiac-surgery-in-a-cardiovascu/",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Juan Santiago Jaramillo",
+     "cargo": "Chefe de cirurgia cardiovascular (fonte sem data)",
+     "papel": "Possível decisor",
+     "url": "https://www.elcolombiano.com/historico/medellin_da_clase_de_cirugia_cardiovascular-NBEC_242582",
+     "certeza": "provável"
+    },
+    {
+     "nome": "José Julián Escobar-Matallana",
+     "cargo": "Cirurgião cardiovascular",
+     "papel": "Coautor da série MICS",
+     "url": "https://investigacion.upb.edu.co/en/publications/experience-in-minimally-invasive-cardiac-surgery-in-a-cardiovascu/",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Juan Camilo Peláez-Ortiz",
+     "cargo": "Cardio VID / UPB",
+     "papel": "Ponte acadêmica com a UPB",
+     "url": "https://www.elsevier.es/es-revista-cirugia-cardiovascular-358-pdf-download-S113400962400161X",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "Experience in minimally invasive cardiac surgery in a cardiovascular center",
+     "ano": 2024,
+     "id": null,
+     "url": "https://investigacion.upb.edu.co/es/publications/experience-in-minimally-invasive-cardiac-surgery-in-a-cardiovascu/"
+    },
+    {
+     "titulo": "Minimally Invasive Cardiac Surgery in Colombia: Evolution and the Impact of International Training",
+     "ano": 2021,
+     "id": "10.1177/15569845211030982",
+     "url": "https://cris.maastrichtuniversity.nl/en/publications/minimally-invasive-cardiac-surgery-in-colombia-evolution-and-the-/"
+    }
+   ],
+   "dicas": [
+    "Força do centro: MICS de alto volume (846 casos 2011–2022, mortalidade 3,8%) e transplante (677 acumulados)"
+   ],
+   "lacunas": [
+    "Observership e contato oficial: não encontrados",
+    "Programa robótico cardíaco: não encontrado",
+    "DOI do artigo de 2024: não encontrado",
+    "Brasileiros e pontes: não encontrados"
+   ]
+  },
+  {
+   "match": "Hospital Internacional de Colombia",
+   "alerta": "O HIC fica em Piedecuesta (área metropolitana de Bucaramanga); fontes divergem se o programa robótico é do HIC ou da FCV (mesmo grupo). Plataforma é SSI Mantra 3, não da Vinci.",
+   "rota": [
+    "Contato institucional com a diretoria médica do HIC (Dr. Jonathan Cáceres) / área acadêmica da FCV pedindo observação no programa robótico",
+    "Usar o congresso anual gratuito da FCV para networking",
+    "Programa muito inicial (2026): esperar pouco volume cardíaco robótico em 2027"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Sem observership publicado; o ecossistema FCV tem Fundación Universitaria FCV e pós-graduações, sem regra encontrada para rotantes estrangeiros.",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Víctor Raúl Castillo Mantilla",
+     "cargo": "Presidente da FCV / CEO do HIC",
+     "papel": "Líder institucional e porta-voz do programa robótico",
+     "url": "https://www.bluradio.com/regiones/santanderes/estamos-viendo-la-medicina-del-futuro-doctor-victor-castillo-por-cirugia-robotica-desde-santander-rg10",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Jonathan Cáceres",
+     "cargo": "Diretor médico do HIC",
+     "papel": "Provável instância que autoriza observação",
+     "url": "https://www.intramed.net/content/colombia-inaugura-una-nueva-era-en-cirugia-cardiaca-con-la--primera-cirugia-cardiovascular-robotica-realizada-con-el--si",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Sudhir Srivastava",
+     "cargo": "Fundador/CEO SS Innovations, cirurgião cardíaco",
+     "papel": "Proctor externo (operou a 1ª TECAB); não é staff do HIC",
+     "url": "https://www.massdevice.com/ss-innovations-completes-first-robotic-cardiac-surgery-in-the-americas/",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "1ª TECAB robótica da Colômbia (2026); 100 cirurgias robóticas de todas as especialidades em out/2026",
+    "FCV organiza congresso gratuito de cardiologia e cirurgia cardiovascular (última edição jul/2026): porta de entrada em edição futura"
+   ],
+   "lacunas": [
+    "Contato oficial e observership: não encontrados",
+    "Cirurgião local do programa robótico cardíaco: não identificado",
+    "Artigos de robótica cardíaca: não encontrados (programa de 2026)",
+    "Brasileiros e pontes: não encontrados"
+   ]
+  },
+  {
+   "match": "Clínica Las Condes",
+   "alerta": "A única publicação de robótica cardíaca da CLC é de 2019; atividade atual e equipe do programa não confirmadas.",
+   "rota": [
+    "E-mail ao Dr. Aníbal Ibáñez / Dr. Edgardo Sepúlveda citando a série robótica mitral/CIA (Rev Med Chile 2019) e perguntando se o programa segue ativo",
+    "Se seguir, pedir via docência da CLC uma 'pasantía de observación'",
+    "Prioridade baixa até confirmar atividade atual"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "A clínica tem residentes, mas não foi encontrada regra de observação para estrangeiros.",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Aníbal Ibáñez",
+     "cargo": "Cirurgião cardiovascular, Depto. Cirugía Cardiovascular CLC",
+     "papel": "Autor correspondente da série robótica (2019)",
+     "url": "https://search.bvsalud.org/gim/resource/es/biblio-1058597",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Edgardo Sepúlveda",
+     "cargo": "Chefe da unidade de cirurgia cardíaca CLC (2019)",
+     "papel": "Provável decisor",
+     "url": "https://revistamedicadechile.cl/index.php/rmedica/article/view/7466",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Emilio Santelices",
+     "cargo": "Diretor médico da CLC (2026)",
+     "papel": "Instância institucional",
+     "url": "https://www.theclinic.cl/2026/10/23/emilio-santelices-director-medico-de-la-clinica-las-condes-en-terminos-clinicos-la-crisis-ya-esta-zanjada/",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "Reparación de válvula mitral y cierre de comunicación interauricular, asistida por robot: experiencia inicial",
+     "ano": 2019,
+     "id": null,
+     "url": "https://revistamedicadechile.cl/index.php/rmedica/article/view/7466"
+    }
+   ],
+   "dicas": [
+    "Programa de cirurgia cardíaca robótica iniciado em 2015 (série dez/2015–fev/2019: reparo mitral e CIA)",
+    "Coautores da série robótica: Gustavo Sepúlveda, Mauricio Maureira, Juan Pablo Uribe"
+   ],
+   "lacunas": [
+    "Observership e contato oficial: não encontrados",
+    "Número de casos robóticos: não obtido",
+    "Artigos 2022–2026 de robótica cardíaca: não encontrados",
+    "Brasileiros e pontes: não encontrados"
+   ]
+  },
+  {
+   "match": "Hospital Nacional Dos de Mayo",
+   "alerta": "O programa de cirurgia cardíaca robótica só existe desde dez/2025 e o 1º bypass robótico foi feito com equipe visitante (missão 'Salvando Corazones', Aldo Rafael, Baylor Scott & White); as 500 cirurgias robóticas somam 5 especialidades.",
+   "rota": [
+    "Prioridade baixa para robótica cardíaca (programa novo, poucos casos)",
+    "Se quiser ir: e-mail ao Dr. Julio Peralta Rodríguez pedindo 'pasantía/rotación de observación', mencionando a ponte Einstein–Dos de Mayo",
+    "Formalizar pelo escritório de docência do HNDM",
+    "Alternativa mais útil: seguir Aldo Rafael (BSW Dallas) e acompanhar uma missão 'Salvando Corazones'"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Sem página pública de estágio para estrangeiros; o CONAREME (2026) regula a 'rotación externa' de residentes entre sedes, sem tratar de estrangeiros.",
+    "url": "https://www.conareme.org.pe/web/Documentos/Normas Legales/2026/DISPOSICIONES ROTACION EXTERNA MEDICO RESIDENTE.pdf",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Julio Peralta Rodríguez",
+     "cargo": "Jefe del Departamento de Cirugía de Tórax y Cardiovascular, HNDM",
+     "papel": "Decide quem entra no serviço e lidera o programa robótico cardíaco",
+     "url": "https://caretas.pe/salud/hospital-dos-de-mayo-paciente-de-56-anos-recibe-primer-bypass-coronario-robotico-realizado-en-peru/",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Aldo E. Rafael",
+     "cargo": "Cirurgião cardiotorácico, Baylor Scott & White (Dallas); lidera a missão 'Salvando Corazones' no Peru desde 2014",
+     "papel": "Liderou a equipe internacional do 1º bypass robótico no HNDM; ponte EUA–Peru",
+     "url": "https://www.bswhealth.com/blog/cardiac-surgeon-saving-hearts-home-country-peru",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "A equipe robótica do HNDM foi treinada no Einstein (SP): citar isso ajuda a abrir conversa",
+    "No Peru há trâmite formal de 'rotación externa' via CONAREME/sede docente"
+   ],
+   "lacunas": [
+    "Contato oficial, taxa, duração e documentos: não encontrados",
+    "Nome exato do escritório de docência: não confirmado",
+    "Se o treino no Einstein incluiu cirurgia cardíaca: não confirmado",
+    "Artigos 2022–2026 de robótica cardíaca: não encontrados"
+   ]
+  },
+  {
+   "match": "Baylor Scott & White The Heart Hospital – Plano",
+   "alerta": "A URL do radar (1.000ª cirurgia robótica) é de abr/2017 e o número soma cirurgias cardíacas e torácicas gerais; não há marco robótico mais novo.",
+   "rota": [
+    "E-mail ao Dr. Robert Smith citando o paper de 2022 sobre mitral robótica pós-esternotomia, com cópia à administração do Thoracic Surgery Fellowship (Dr. DiMaio)",
+    "Em paralelo, pedir ponte ao Dr. Aldo Rafael (BSW Dallas), hispanofalante e engajado com a América Latina",
+    "Pedir ao GME de Plano o formulário de 'visiting observer'"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Sem observership internacional publicado; o hospital tem GME próprio (Thoracic Surgery Fellowship, cardiologia, structural heart). Entrada tende a ser por contato direto com o cirurgião e liberação via GME/Medical Staff.",
+    "url": "https://www.bswhealth.com/Medical-Professionals/Education/Graduate-Medical-Education/Plano",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Robert L. Smith",
+     "cargo": "Chairman, Cardiovascular Services; cirurgião de mitral robótica",
+     "papel": "Líder clínico da robótica valvar; quem hospedaria",
+     "url": "https://www.heart-valve-surgery.com/videos/robotic-mitral-valve-replacement-robert-smith-md",
+     "certeza": "provável"
+    },
+    {
+     "nome": "J. Michael DiMaio",
+     "cargo": "Program Director, Thoracic Surgery Fellowship (Plano)",
+     "papel": "Controla a parte educacional/GME",
+     "url": "https://www.bswhealth.com/Medical-Professionals/Education/Graduate-Medical-Education/Plano/Thoracic-Surgery-Fellowship/Faculty-and-Fellows",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Taline Azadian",
+     "cargo": "Program administrator, Thoracic Surgery Fellowship",
+     "papel": "Via administrativa do fellowship",
+     "url": "https://www.bswhealth.com/Medical-Professionals/Education/Graduate-Medical-Education/Plano/Thoracic-Surgery-Fellowship/Faculty-and-Fellows",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Katherine Harrington",
+     "cargo": "Cirurgiã cardíaca (aorta, valvas, Ross)",
+     "papel": "Envolvida na trilha de treinamento em robótica da STS (provável)",
+     "url": "https://www.bswhealth.com/Provider-Type/physician/k/a/katherine-harrington-1538349360",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Aldo E. Rafael",
+     "cargo": "Cirurgião cardiotorácico, BSW Heart and Vascular Hospital – Dallas (não é de Plano)",
+     "papel": "Hispanofalante, ponte com a América Latina",
+     "url": "https://www.bswhealth.com/physician/aldo-rafael",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "Robotic mitral valve surgery after prior sternotomy (Meidan et al.)",
+     "ano": 2022,
+     "id": "PMC9196136",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9196136"
+    }
+   ],
+   "dicas": [
+    "'The largest robotic cardiothoracic surgery program in Texas'; robótica desde 2011 (CABG, mitral, ablação de FA, congênitos)",
+    "STS tem trilha/curso de robótica cardíaca com docentes de Plano: bom assunto de abertura (https://learningcenter.sts.org/node/4186)",
+    "Referência do que esperar (CHRISTUS, Texas): HIPAA, vacinas, sem ajuda com visto"
+   ],
+   "lacunas": [
+    "E-mail do fellowship/GME: não coletado",
+    "Taxa, duração e documentos: não encontrados",
+    "Chefe da robótica: só fonte de terceiros (provável)",
+    "Brasileiros e pontes: não encontrados"
+   ]
+  },
+  {
+   "match": "Virtua Our Lady of Lourdes",
+   "alerta": "O cirurgião do marco do radar (Arthur Martella, 1.000 cirurgias robóticas, 2020) provavelmente não está mais na Virtua; hoje a liderança cardiovascular é Ibrahim Sultan, e a atividade robótica atual é desconhecida.",
+   "rota": [
+    "E-mail curto ao escritório de Cardiothoracic Surgery do Lourdes / Dr. Ibrahim Sultan perguntando se a robótica cardíaca segue ativa e se aceitam residente observador internacional",
+    "Se sim, formalizar via UME@virtua.org pedindo exceção",
+    "Prioridade baixa: para robótica de alto volume, Plano (BSW) ou Inova são melhores"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "O observership oficial (Undergraduate Medical Education) é para estudantes de medicina e de PA; não há programa publicado para médicos/residentes estrangeiros.",
+    "url": "https://www.virtua.org/-/media/Project/Virtua-Tenant/Virtua/PDFs/Undergraduate-Medical-Education/Observership-Information--Requirements.pdf",
+    "contato": "UME@virtua.org (formulário oficial de observership UME)",
+    "documentos": "Comprovante de vacinas/saúde; isenções aprovadas pelo Employee Health; termo de responsabilidade",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Ibrahim Sultan",
+     "cargo": "VP Clinical Operations, Cardiovascular Services, Virtua Health",
+     "papel": "Maior autoridade cirúrgica cardiovascular da Virtua hoje",
+     "url": "https://www.virtua.org/news/virtua-appoints-ibrahim-sultan-md-vp-clinical-operations-for-cardiovascular-services",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Chun (Dan) Choi",
+     "cargo": "Cirurgião cardiotorácico e de transplante; VP de cardiologia (nomeado nov/2021)",
+     "papel": "Liderança CV em LVAD/MCS",
+     "url": "https://www.Virtua.org/news/virtua-welcomes-cardiothoracic-and-transplant-surgeon-to-lead-cardiovascular-services",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "Sinais recentes apontam foco em VAD/MCS, não em robótica",
+    "Confirmar com o serviço se a robótica cardíaca continua ativa antes de investir"
+   ],
+   "lacunas": [
+    "Chefe atual da cirurgia cardiotorácica: não encontrado",
+    "Volume robótico atual: não confirmado",
+    "Taxa, duração e antecedência: não encontradas",
+    "Artigos 2022–2026 de robótica cardíaca: não encontrados"
+   ]
+  },
+  {
+   "match": "Inova Fairfax (Schar Heart and Vascular)",
+   "alerta": "O programa atual de CABG robótico foi lançado em 2023 (a 'primeira robótica da região' é de 2001); volume não publicado e foco em ponte arterial única, não mitral.",
+   "rota": [
+    "E-mail ao Dr. Ramesh Singh pedindo 4 semanas de observação no programa de CABG robótico, citando o artigo dele de 2022",
+    "Com o 'sim', pedir ao Dr. Eric Sarin o patrocínio do departamento",
+    "Formalizar com o GME do Inova Fairfax (formulário de visiting resident/observer) ≥90 dias antes, com carta da Unifesp"
+   ],
+   "prazos": [
+    {
+     "txt": "Visiting resident: candidatura completa ≥90 dias antes; rotações <4 semanas não aceitas",
+     "url": "https://inova.org/sites/default/files/education/gme/Visiting_Resident_Elective_Rotation_Application.pdf",
+     "certeza": "confirmado"
+    }
+   ],
+   "programa": {
+    "resumo": "Visiting Resident Elective Rotation: candidatura direta ao departamento, aprovação final do GME do IFMC; não está claro se aceita residente estrangeiro (modelo pressupõe residente dos EUA). O 'Physician Observership' é para estudantes/leigos, via preceptor.",
+    "url": "https://www.inova.org/education/physician-observerships",
+    "contato": "Formulário Visiting Resident Elective Rotation do GME do Inova Fairfax Medical Campus (https://inova.org/sites/default/files/education/gme/Visiting_Resident_Elective_Rotation_Application.pdf)",
+    "duracao": "Mínimo de 4 semanas (visiting resident)",
+    "documentos": "Formulário de rotação; carta/assinatura da instituição de origem; malpractice da instituição de origem; credenciamento; treinamento EPIC",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Ramesh Singh",
+     "cargo": "Cirurgião cardiovascular; surgical director da CVICU; líder do CABG robótico/minimamente invasivo",
+     "papel": "Quem faz a robótica; anfitrião ideal",
+     "url": "https://inova.org/doctors/ramesh-singh-md",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Eric L. Sarin",
+     "cargo": "Section Chief, Adult Cardiac Surgery; co-diretor Structural Heart",
+     "papel": "Precisa aprovar visitante no departamento",
+     "url": "https://www.inova.org/doctors/eric-l-sarin-md",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Alan M. Speir",
+     "cargo": "Director Emeritus of Cardiac Surgery; Senior Associate Director, Inova Schar",
+     "papel": "Figura sênior; abre portas institucionais",
+     "url": "https://www.inova.org/doctors/alan-m-speir-md",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Jama Jahanyar",
+     "cargo": "Cirurgião cardíaco adulto, Inova",
+     "papel": "Membro da equipe (sem vínculo robótico confirmado)",
+     "url": "https://www.inova.org/doctors/jama-jahanyar-md-phd",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "Malpractice será o obstáculo para estrangeira: pedir status de observer sem contato com paciente",
+    "Conseguir primeiro o aceite de um cirurgião (Singh); o observership é departamental",
+    "Gancho: artigo de Singh no Inova Newsroom (nov/2022) e lançamento do CABG robótico em 2023"
+   ],
+   "lacunas": [
+    "Aceitação de residente estrangeiro: não confirmada",
+    "Taxa: não encontrada",
+    "Volume robótico: não publicado",
+    "Artigos 2022–2026 de robótica com PMID/DOI: não encontrados"
+   ]
+  }
+ ],
+ "pontes_brasil": [
+  {
+   "nome": "Hospital Israelita Albert Einstein",
+   "onde": "São Paulo, SP",
+   "ligacao": "Treinou a equipe robótica do Dos de Mayo (43 profissionais 'preparados en Brasil'); inclusão da cirurgia cardíaca não confirmada",
+   "centros": [
+    "Hospital Nacional Dos de Mayo"
+   ],
+   "url": "https://andina.pe/agencia/noticia-inen-y-hospital-dos-mayo-superan-las-100-intervenciones-exitosas-cirugia-robotica-1019678.aspx",
+   "certeza": "confirmado"
+  },
+  {
+   "nome": "Brazilian Journal of Cardiovascular Surgery (SBCCV)",
+   "onde": "Brasil",
+   "ligacao": "Publicou o relato do programa robótico cardíaco da Shaio (2020)",
+   "centros": [
+    "Fundación Clínica Shaio"
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7731842",
+   "certeza": "confirmado"
+  }
+ ]
+}

@@ -1,0 +1,154 @@
+[
+ {
+  "match": "National Heart Centre Singapore",
+  "cidade": "Singapura", "areas": ["robotica"],
+  "programa": {
+   "observership_oficial": "não encontrado: nenhuma página NHCS de observership/visiting physician para médicos apareceu. O que existe é o programa de Fellowship (Overseas).",
+   "fellowship_overseas": {
+    "url": "https://www.nhcs.com.sg/education/training-and-fellowships",
+    "formulario": "https://www.nhcs.com.sg:443/education-training/fellowships/Documents/01%20NHCS%20Fellowship%20Application%20Form.Apr23.pdf",
+    "contato_oficial": "nhcs.ote@nhcs.com.sg (NHCS Fellowship Administrator; formulário + CV, cada um <1MB, só por e-mail)",
+    "trecho": "the two documents, file size not exceeding 1MB, go to the NHCS Fellowship Administrator via email only; incomplete application forms will not be considered",
+    "taxa_financiamento": "NHCS não paga bolsa: 'does not provide stipends for fellowship training' — custeio próprio",
+    "janelas": "candidaturas analisadas 2x por ano; só selecionados são notificados",
+    "elegibilidade_cirurgia_cardiaca": "MMed (Surgery) ou FRCS ou equivalente + ≥3 anos de experiência em cirurgia cardíaca; hands-on 'Yes, as assistant' — https://www.nhcs.com.sg/education/training-and-fellowships/list-of-fellowship-programmes/fellowship-training-in-cardiac-surgery",
+    "certeza": "confirmado (formulário datado abr/2023 — conferir versão atual)"
+   },
+   "registro": "Modelo SingHealth (SGH): attachment hands-on exige registro temporário no Singapore Medical Council + Training Employment Pass, seguro de malpractice, certificate of good standing, taxa administrativa — https://sgh.com.sg/pgmi/fellowship_attachments (provável que NHCS siga regra semelhante)",
+   "indicio_observers_estrangeiros": "Universitas Sumatera Utara enviou médicos do Depto de Cardiologia para 'clinical observation programs at the National Heart Center Singapore' (2024) — https://www.usu.ac.id/en/university-activity/three-usu-medical-faculty-doctors-participate-in-clinical-education-at-nhcs (provável: NHCS aceita observers via contato institucional)",
+   "residente_R1_R5": "provavelmente NÃO elegível ao fellowship de cirurgia (exige ≥3 anos de experiência pós-título); observership hands-off não documentado"
+  },
+  "servico": {
+   "nome": "Department of Cardiothoracic Surgery, NHCS — https://www.nhcs.com.sg/our-specialties/cardiothoracic-surgery",
+   "chefe": "Clin Asst Prof Tan Teing Ee — 'Head & Senior Consultant Cardiothoracic Surgery NHCS' (lista de faculty do Singapore Integrated Programme CTS, atualizada dez/2023) — https://www.singhealthacademy.edu.sg/residency/programmes/Documents/Intranet%20Faculty%20Listing_SG%20IP%20CTS_Dec%20%2723%20Update.pdf (certeza: confirmado p/ 2023; atual não verificado)",
+   "programa_robotico": "Programa robótico iniciado em dez/2006 (SingHealth Endowment Fund): reparo mitral, ATI harvest, defeitos congênitos, timectomia, 1ª lobectomia robótica do Sudeste Asiático (2010). Fonte 2009: https://www.singhealth.com.sg/news/patient-care/nhc-offers-heart-patients-minimally-invasive-robot-assisted-mitral-valve-repair-surgery. Nenhuma notícia 2024–2025 de atividade robótica cardíaca encontrada — programa pode estar inativo (alerta).",
+   "volume": "~120 cirurgias valvares isoladas/ano, 2/3 reparos mitrais; mortalidade 1,92% (dado de 2009 — antigo)",
+   "fellowship_director": "não encontrado"
+  },
+  "pessoas_chave": [
+   {"nome": "Tan Teing Ee", "cargo": "Head & Senior Consultant, Cardiothoracic Surgery NHCS (dez/2023)", "por_que": "decide sobre recepção no departamento", "fonte": "https://www.singhealthacademy.edu.sg/residency/programmes/Documents/Intranet%20Faculty%20Listing_SG%20IP%20CTS_Dec%20%2723%20Update.pdf"},
+   {"nome": "Chao Tar Toong Victor", "cargo": "Senior Consultant Cardiothoracic Surgery NHCS (dez/2023)", "por_que": "staff sênior", "fonte": "mesma lista acima"},
+   {"nome": "Chua Yeow Leng", "cargo": "Senior Consultant CTS; ex-Head of Department 1999–jun/2007; interesse em reparo mitral e cirurgia de FA", "por_que": "pioneiro do reparo mitral/robótico no NHCS", "fonte": "https://www.nhcs.com.sg/doctor/cardiothoracic-surgery/chua-yeow-leng"},
+   {"nome": "Chua Kim Chai", "cargo": "Clin Asst Prof, cirurgião cardiotorácico; foco MICS (treino MICS no Canadá 2019); experiência LVAD no NHCS", "por_que": "minimamente invasiva — área mais próxima da robótica hoje", "fonte": "https://singhealth.com.sg/profile/chua-kim-chai"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado para NHCS. Observação: o grupo NUHCS (outra instituição, National University Heart Centre) publicou estudo MICS CABG no Brazilian Journal of Cardiovascular Surgery (jul/2024) — https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11259139/ — não é NHCS.",
+  "pesquisa_recente": [
+   {"titulo": "Transcatheter mitral valve repair with the PASCAL precision system: First case in Singapore", "ano": "não confirmado (~2025)", "pmid": "41197033", "nota": "Depto de Cardiologia NHCS; transcateter, não robótica"}
+  ],
+  "pesquisa_recente_obs": "não foram encontrados artigos 2022–2026 do NHCS em cirurgia robótica cardíaca",
+  "dicas": [
+   "Usar o canal oficial nhcs.ote@nhcs.com.sg perguntando explicitamente por 'short-term clinical observership (hands-off)' — o site só formaliza fellowship.",
+   "NHCS também publica artigo 'Murmurs' sobre MICS (2023) — https://www.nhcs.com.sg/news/murmurs/a-revolutionary-approach-minimally-invasive-cardiac-surgery-for-the-physicians",
+   "Bolsa APSC Singapore 2026 lista NHCS como centro de treino acreditado (cardiologia/cirurgia CT) — https://www.apscardio.org/wp/wp-content/uploads/2025/06/APSC-SINGAPORE-Scholarship-2026.pdf (prioridade a quem já tem vaga aceita)"
+  ],
+  "alerta_correcao": "Fonte do radar é notícia de 2009; não há evidência de robótica cardíaca ativa no NHCS em 2024–2026. Não confundir com NUHCS (National University Heart Centre), onde Theo Kofidis dirigiu programa robótico até 2024 (hoje na Grécia). Para robótica em Singapura, NUHCS/NUH tem programa formal 'Honorary Clinical Fellowship and Clinical Observership' — https://nuh.com.sg/research-and-education/honorary-clinical-fellowship-and-clinical-observership.",
+  "rota_recomendada": "1) E-mail a nhcs.ote@nhcs.com.sg pedindo observership hands-off de 4 semanas em cirurgia cardiotorácica/MICS, com carta da Unifesp; 2) em paralelo, considerar NUH/NUHCS, que tem observership publicado; 3) baixa prioridade para robótica pura (programa NHCS sem evidência recente)."
+ },
+ {
+  "match": "King Faisal Specialist Hospital & Research Centre",
+  "cidade": "Riad", "areas": ["robotica"],
+  "programa": {
+   "observership_oficial": "não encontrado: nenhuma página KFSHRC de observership/visiting physician.",
+   "educacao": "Academic and Training Affairs — https://www.kfshrc.edu.sa/education ; Postgraduate Medical Education — https://www.kfshrc.edu.sa/en/Home/Education/Programs . FAQ manda contatar Academic and Training Affairs sobre formatos.",
+   "short_term_training": "PDF atualizado em 11/jan/2026 cobre só estudantes (pré-internato 4º/5º ano, summer elective 3º/4º) — https://www.kfshrc.edu.sa/-/media/pdf/short-term-training-updated-11-jan-2026.pdf ; versão antiga pede CV, passaporte, ACLS/BLS válido — https://www.kfshrc.edu.sa/-/media/pdf/short-term-training.pdf",
+   "IMG": "IMGs precisam de qualificações reconhecidas + English Language Competency Test (dispensa com IELTS ≥5,5)",
+   "contato_oficial": "não encontrado e-mail de educação; só mediacoverage@kfshrc.edu.sa (imprensa — não usar para candidatura)",
+   "certeza": "não confirmado para residentes estrangeiros"
+  },
+  "servico": {
+   "nome": "Heart Centre of Excellence — Cardiac Surgery / Robotic and Minimally Invasive Surgery Program (Riad)",
+   "chefe": "Prof. Feras Khaliel — Head of Cardiac Surgery e Director of the Robotics and Minimally Invasive Surgery Program; Deputy Executive Director do Heart Centre of Excellence — https://www.biospace.com/press-releases/kfshrc-heart-centre-a-leader-in-advanced-cardiac-treatments (confirmado)",
+   "volume": "Programa robótico desde fev/2019; 400 cirurgias robóticas cardíacas com 98% de sobrevida (jul/2024) — https://www.kfshrc.edu.sa/news/2024/07/kfshrc-achieves-remarkable-98-survival-rate-in-400-robotic-cardiac-surgeries ; afirma maior volume fora dos EUA (alegação institucional)",
+   "marcos": "1º transplante cardíaco totalmente robótico (set/2024, 16 anos, 2,5 h) — https://www.ctsnet.org/print/jans/riyadh-kfshrc-performs-worlds-first-fully-robotic-heart-transplant ; 1º implante robótico de HeartMate 3 (jan/2025) — https://www.arabnews.pk/node/2586683 ; BiVAD robótico (jul/2025) — https://www.datensicherheit.de/?p=49115",
+   "fellowship_director": "não encontrado"
+  },
+  "pessoas_chave": [
+   {"nome": "Feras Khaliel", "cargo": "Head of Cardiac Surgery; Director Robotics & MIS Program; Deputy Exec. Director Heart Centre of Excellence", "por_que": "decide e hospeda; preside comitê científico do Middle Eastern Robotic Cardiac Surgery Summit", "fonte": "https://www.biospace.com/press-releases/kfshrc-heart-centre-a-leader-in-advanced-cardiac-treatments"},
+   {"nome": "Uthman Al-Uthman", "cargo": "Director of Robotic Surgery, KFSHRC Jeddah (cirurgião cardíaco robótico/transcateter)", "por_que": "lidera programa de revascularização híbrida robótica na filial de Jidá", "fonte": "https://en.dsfhjeddah.fakeeh.care/news-updates/dr-soliman-fakeeh-hospital-in-jeddah-successfully-utilizes-the-da-vinci-robotic-system-for-heart-surgery", "certeza": "provável (fonte de outro hospital)"},
+   {"nome": "Hani Al-Sergani", "cargo": "citado em cobertura do Summit (papel exato não confirmado)", "por_que": "organização de evento educacional", "fonte": "https://www.biospace.com/press-releases/kfshrc-heart-centre-a-leader-in-advanced-cardiac-treatments", "certeza": "provável"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado. Contexto: artigo RBCCV 'Proficiency in Robotic Cardiac Surgery: Toward a Brazilian Training Curriculum' (https://www.scielo.br/j/rbccv/a/b3cNRbk9BrRnGVySVMS69Sd/) — sem vínculo com KFSHRC.",
+  "pesquisa_recente": [
+   {"titulo": "Robotic aortic valve replacement in the Middle East: reproducibility into practice with evolving complexity", "ano": "2025 (casos mar/2022–nov/2024, KFSHRC Riad)", "pmcid": "PMC12177770", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12177770/"},
+   {"titulo": "A robotic-assisted hybrid coronary revascularization program: Establishment and early experience in the Middle East", "ano": "2022 (KFSHRC Jeddah, 78 pts)", "pmid": "36349707"},
+   {"titulo": "Does Robot-Assisted Hybrid Coronary Revascularization Matter? Insights From a Single-Center Experience in Patient Quality of Life", "ano": "não confirmado (recente)", "pmid": "42053075", "certeza": "provável KFSHRC Jeddah"},
+   {"titulo": "Evolution of robotic cardiac surgery: the first robotic-assisted heart transplant and beyond", "ano": "~2025", "pmcid": "PMC12000472", "certeza": "revisão sobre o caso KFSHRC; autoria KFSHRC não confirmada"}
+  ],
+  "dicas": [
+   "KFSHRC organiza o Middle Eastern Robotic Cardiac Surgery Summit (Riad, King Salman Auditorium) — porta de entrada para conhecer Khaliel (data atual a confirmar).",
+   "Programa faz proctoring/treinamento internacional (Alemanha, EUA) — interesse declarado em ensino.",
+   "Khaliel deu entrevista ao CTSNet 'The Beat with Joel Dunning Ep. 73' — https://ctsnet.podbean.com/e/the-beat-with-joel-dunning-ep-73-worlds-first-fully-robotic-heart-transplant — bom gancho para e-mail.",
+   "Há duas sedes (Riad e Jidá): robótica coronária híbrida publicada é da sede de Jidá."
+  ],
+  "alerta_correcao": "KFSHRC tem filiais Riad e Jidá com programas robóticos distintos (Riad: Khaliel – valvar/transplante/LVAD; Jidá: Al-Uthman – híbrida coronária). Radar lista só Riad.",
+  "rota_recomendada": "1) Contato com Academic and Training Affairs (portal kfshrc.edu.sa/education) perguntando por observership de 4 semanas para residente estrangeiro em cirurgia cardíaca robótica; 2) carta curta a Prof. Khaliel citando o transplante robótico e o estudo de RAVR, pedindo sponsor interno; 3) alternativa: inscrever-se no Robotic Cardiac Surgery Summit e fazer contato presencial."
+ },
+ {
+  "match": "King Abdulaziz University Hospital",
+  "cidade": "Jidá", "areas": ["robotica"],
+  "programa": {
+   "observership_oficial": "não encontrado. Única oferta publicada para graduados estrangeiros é internato de 1 ano — https://medicine.kau.edu.sa/Pages-Interns-.aspx (não se aplica).",
+   "contato_oficial": "não encontrado",
+   "certeza": "não confirmado"
+  },
+  "servico": {
+   "nome": "Cardiac Surgery Unit, Department of Surgery, KAUH",
+   "marco_robotico": "Primeiras CRM assistidas por robô com mini-incisões, lideradas por Dr. Mazen Fatani e Dr. Abdullah Baghaffar, com Dr. Fahad Makhdoom (Eastern Health Cluster) — https://www.kau.edu.sa/en/news-details/significant-advancement-at-king-abdulaziz-university-hospital-robotic-assisted-coronary-artery-bypass-surgeries-successfully-performed (confirmado; data provável ~2026)",
+   "volume": "KAUH ultrapassou 1.000 cirurgias robóticas no total (todas especialidades, nov/2025) — https://makkahnewspaper.com/article/1627256 ; volume cardíaco: não encontrado. Coorte CRM 2015–2022: 392 pacientes (PMID 37206527).",
+   "chefe": "não encontrado",
+   "fellowship_director": "não encontrado"
+  },
+  "pessoas_chave": [
+   {"nome": "Mazen Fatani", "cargo": "cirurgião cardíaco KAUH, co-líder das CRM robóticas", "por_que": "lidera robótica cardíaca", "fonte": "notícia KAU acima"},
+   {"nome": "Abdullah Baghaffar", "cargo": "cirurgião cardíaco KAUH, co-líder das CRM robóticas", "por_que": "lidera robótica cardíaca", "fonte": "notícia KAU acima"},
+   {"nome": "Iskander Al-Githmi", "cargo": "Consultant Cardiothoracic and Lung Transplant Surgeon, KAU", "por_que": "staff sênior acadêmico", "fonte": "https://it.kau.edu.sa/Default-0008516-EN"},
+   {"nome": "Husain Jabbad", "cargo": "Cardiac Surgery Unit, Department of Surgery, KAU", "por_que": "staff", "fonte": "https://ctsnet.org/home/hjabbad"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {"titulo": "Effect of Gender on Postoperative Outcome and Duration of Ventilation After Coronary Artery Bypass Grafting (CABG)", "ano": "2023", "pmid": "37206527"},
+   {"titulo": "Cardiac Surgery Morbidity and Mortality in Hypertensive and Arrhythmic Patients: A Retrospective Analysis", "ano": "2023 (provável)", "pmcid": "PMC10704061"},
+   {"titulo": "Acute Kidney Injury After Open Heart Surgery", "ano": "2022 (provável)", "pmcid": "PMC9278797"}
+  ],
+  "pesquisa_recente_obs": "nenhum artigo de robótica cardíaca do KAUH encontrado; os estudos de híbrida robótica em Jidá são do KFSHRC-Jeddah, não do KAUH",
+  "dicas": ["Programa robótico cardíaco é muito novo (primeiros casos de CRM); centro de baixa prioridade para aprender robótica."],
+  "alerta_correcao": "Robótica cardíaca no KAUH é incipiente; em Jidá o programa robótico cardíaco estabelecido é o do KFSHRC-Jeddah (Al-Uthman). Curiosidade: Husam Balkhy (UChicago, referência em TECAB) é graduado KAU 1987 — https://spb-cts.freelock.com/print/home/hbalkhy — mas não atua no KAUH.",
+  "rota_recomendada": "Baixa prioridade. Se insistir: e-mail ao Department of Surgery/Faculty of Medicine KAU citando a notícia das CRM robóticas e endereçado a Drs. Fatani e Baghaffar; melhor alternativa em Jidá é KFSHRC-Jeddah."
+ },
+ {
+  "match": "Macquarie University Hospital",
+  "cidade": "Sydney", "areas": ["robotica"],
+  "programa": {
+   "observership_oficial": "não encontrado (nenhuma página MUH de observership para médicos estrangeiros).",
+   "referencia_australia": "Comparáveis: Monash Health International Medical Fellowship and Observership (1–4 semanas, taxa AUD 500 não reembolsável, para especialistas e senior trainees) — https://monashhealth.org/?p=9602",
+   "contato_oficial": "não encontrado",
+   "certeza": "não confirmado"
+  },
+  "servico": {
+   "nome": "Cardiothoracic Surgical Unit, Macquarie University Hospital (hospital privado universitário, MQ Health)",
+   "programa_robotico": "Wilson e Michael Vallely iniciaram robótica cardíaca em 2011; 'Australia's first site to have a fully-integrated robotic cardio-thoracic surgery program covering coronary grafts, mitral valves and lungs' — https://lighthouse.mq.edu.au/article/2018-stories/Robots-open-the-door-to-safer-open-heart-surgery-at-Macquarie-Hospital ; 1ª OPCAB com da Vinci Xi (2018) — https://lighthouse.mq.edu.au/media-releases/macquarie-university-hospital-commences-using-the-latest-xi-da-vinci-surgical-system-to-perform-minimally-invasive-coronary-bypass-surgery",
+   "volume": "não encontrado",
+   "chefe": "não encontrado",
+   "fellowship_director": "não encontrado"
+  },
+  "pessoas_chave": [
+   {"nome": "Michael K. Wilson", "cargo": "Professor, cirurgião cardiotorácico (MUH, Mater, Northern Beaches, John Flynn); interesse em educação cirúrgica e simulação; >70 publicações", "por_que": "líder da robótica cardíaca (TECAB, OPCAB robótica); host natural", "fonte": "https://tcc.eventsair.com/valvular-heart-disease-symposium/michael-wilson ; https://specialists.healthscope.com.au/specialist/michael-wilson-med0001128713"},
+   {"nome": "Michael Vallely", "cargo": "co-fundador do programa robótico (2011); autor do estudo anOPCAB (37.720 pts, -78% AVC)", "por_que": "pesquisa coronária off-pump; afiliação atual não verificada", "fonte": "https://lighthouse.mq.edu.au/article/2018-stories/Robots-open-the-door-to-safer-open-heart-surgery-at-Macquarie-Hospital", "certeza": "papel atual na MUH não confirmado"},
+   {"nome": "Martin Ng", "cargo": "cardiologista intervencionista MUH (reparo transcateter mitral/tricúspide)", "por_que": "relevante se o foco for estrutural; fonte da URL de contato do radar", "fonte": "https://mqhealth.org.au/about/stories/repairing-the-forgotten-valve"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [],
+  "pesquisa_recente_obs": "não foram encontrados artigos 2022–2026 do serviço em robótica. Mais antigos (grupo CORE/Macquarie com Wilson): 'A systematic review on robotic coronary artery bypass graft surgery' PMID 27942485; 'Systematic review of robotic minimally invasive mitral valve surgery' PMID 24349971.",
+  "dicas": [
+   "Wilson moderou/apresentou no SRS 2023 (Society of Robotic Surgery, sessão cardíaca) — https://srobotics.org/wp-content/uploads/2023/07/SRS-Agenda_Cardiac-7.22.23.pdf",
+   "Wilson fez TECAB (totalmente endoscópica) no Northern Beaches Hospital — https://northsidelivingnews.com.au/?p=27511 — parte da robótica dele pode ocorrer fora da MUH.",
+   "Hospital privado: observership provavelmente depende de sponsor direto (o cirurgião)."
+  ],
+  "alerta_correcao": "URL de contato do radar ('repairing the forgotten valve') é sobre reparo PERCUTÂNEO (Prof. Martin Ng, cardiologia), não robótica cirúrgica. Fontes da robótica são de 2018; atividade robótica cardíaca atual não confirmada.",
+  "rota_recomendada": "1) Contato direto com Prof. Michael Wilson (via consultório/MQ Health, interesse declarado em educação) pedindo 4 semanas de observação em robótica coronária, com carta Unifesp; 2) perguntar à MQ Health sobre política de observers; 3) alternativa estruturada na Austrália: Monash Health (programa publicado)."
+ }
+]

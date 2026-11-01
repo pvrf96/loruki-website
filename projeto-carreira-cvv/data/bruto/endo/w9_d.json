@@ -1,0 +1,138 @@
+[
+ {
+  "match": "Hospital Nacional Dos de Mayo",
+  "alerta_correcao": "O polo está certo (Lima, Minsa). Atenção: o programa de cirurgia cardíaca robótica só existe desde dez/2025 (muito novo), e o primeiro bypass robótico do Peru foi feito dentro da missão 'Salvando Corazones', liderada por um cirurgião de fora: Aldo Rafael, MD, peruano que trabalha na Baylor Scott & White (Dallas, EUA). Ou seja, a experiência robótica cardíaca vem em boa parte de uma equipe visitante. O volume publicado (500 cirurgias robóticas) soma cinco especialidades e não é só cardíaco.",
+  "programa": {
+   "pagina": "não encontrado (não há página pública de estágio/observership para médicos estrangeiros)",
+   "elegibilidade": "não encontrado para estrangeiros. Marco peruano: as disposições do CONAREME (2026) regulam a 'rotación externa' de médicos residentes entre sedes docentes, com teto de rotantes definido pelos comitês de cada sede; o documento não trata de estrangeiros",
+   "fontes": ["https://www.conareme.org.pe/web/Documentos/Normas Legales/2026/DISPOSICIONES ROTACION EXTERNA MEDICO RESIDENTE.pdf"],
+   "contato_oficial": "não encontrado. Caminho provável: Oficina de Apoyo a la Docencia e Investigación do HNDM (nome do escritório não confirmado por fonte)",
+   "taxa": "não encontrado", "duracao": "não encontrado", "antecedencia": "não encontrado", "documentos": "não encontrado",
+   "certeza": "não encontrado"
+  },
+  "servico": {
+   "nome": "Departamento de Cirugía de Tórax y Cardiovascular – programa de cirugía cardíaca asistida por robot (desde dic/2025)",
+   "chefe": "Julio Peralta Rodríguez, jefe del Departamento de Cirugía de Tórax y Cardiovascular",
+   "fonte_chefe": "https://caretas.pe/salud/hospital-dos-de-mayo-paciente-de-56-anos-recibe-primer-bypass-coronario-robotico-realizado-en-peru/",
+   "trecho": "el jefe del Departamento de Cirugía de Tórax y Cardiovascular, Julio Peralta Rodríguez, señaló que el intercambio permite incorporar nuevas técnicas y ampliar la experiencia del equipo en cirugía cardíaca robótica",
+   "fellowship": "não encontrado",
+   "volume": "Primeiro bypass coronário robótico do Peru (Da Vinci, com o coração batendo, sem CEC; paciente de 56 anos; 2026). O hospital chegou a 500 cirurgias robóticas em 5 especialidades (visita do ministro em 1/8/2026). Em 20/2/2025 eram 101 cirurgias robóticas no HNDM. O robô é um Da Vinci Xi (S/ 35,2 milhões)",
+   "fontes_volume": ["https://caretas.pe/?p=830821", "https://andina.pe/agencia/noticia-inen-y-hospital-dos-mayo-superan-las-100-intervenciones-exitosas-cirugia-robotica-1019678.aspx", "https://www.infobae.com/peru/2025/05/24/hospital-dos-de-mayo-e-inen-niegan-supuesto-sobrecosto-en-compra-de-robots-quirurgicos-el-mercado-pone-el-precio/"],
+   "certeza": "chefe = confirmado (Caretas); volume = confirmado em notícias"
+  },
+  "pessoas_chave": [
+   {"nome": "Julio Peralta Rodríguez", "cargo": "Jefe del Departamento de Cirugía de Tórax y Cardiovascular, HNDM", "por_que": "decide quem entra no serviço e lidera o programa robótico cardíaco", "fonte": "https://caretas.pe/salud/hospital-dos-de-mayo-paciente-de-56-anos-recibe-primer-bypass-coronario-robotico-realizado-en-peru/"},
+   {"nome": "Aldo E. Rafael, MD", "cargo": "Cirurgião cardiotorácico da Baylor Scott & White (Hispanic Cardiovascular Institute, Dallas); lidera a missão 'Salvando Corazones' no Peru desde 2014; formado em cirurgia cardiotorácica na Cleveland Clinic", "por_que": "liderou a equipe internacional do primeiro bypass robótico no HNDM; é uma ponte EUA–Peru (BSW, o mesmo sistema do polo 141)", "fonte": "https://www.bswhealth.com/blog/cardiac-surgeon-saving-hearts-home-country-peru ; https://www.sts.org/news/thoracic-surgery-foundation-enabled-mission-save-hearts-peru"}
+  ],
+  "brasileiros": "Nenhum médico brasileiro identificado no serviço. Há um vínculo institucional com o Brasil: a equipe robótica do HNDM foi treinada no Hospital Israelita Albert Einstein (São Paulo); a Andina fala em 43 profissionais do Dos de Mayo 'preparados en Brasil' e um documento do MEF em 41 'capacitándose ... en Hospital Israelita Albert Einstein de Sao Paulo'. Não há evidência de que isso inclua a cirurgia cardíaca (pode ser só oncologia/urologia). Fontes: https://andina.pe/agencia/noticia-inen-y-hospital-dos-mayo-superan-las-100-intervenciones-exitosas-cirugia-robotica-1019678.aspx ; https://mef.gob.pe/contenidos/inv_publica/docs/novedades/notas_informativas/2024/notas_informativas_20241216_1.pdf. Certeza: o treino no Einstein está confirmado em notícias; a parte cardíaca não foi confirmada",
+  "pontes_unifesp_sp": "Nenhuma coautoria com Unifesp/USP/InCor/Dante encontrada. A ponte com SP é o Einstein, que treinou a equipe robótica do HNDM (ver brasileiros)",
+  "pesquisa_recente": "não encontrado (nenhum artigo de cirurgia cardíaca robótica do HNDM entre 2022 e 2026; o programa é de dez/2025). Artigo antigo do serviço sobre cirurgia valvar esquerda em hospital nacional de referência de Lima: https://pubmed.ncbi.nlm.nih.gov/24100815/ (PMID 24100815, anterior a 2022; a afiliação ao HNDM é provável, não confirmada)",
+  "dicas": "1) No Peru, o residente local só faz rotação no exterior a partir do R2, por no máximo 3 meses e com aprovação da universidade e da sede (resolução de 2024: https://cdn.www.gob.pe/uploads/document/file/6512222/5680058-180_op_13062024.PDF). Isso mostra que o sistema tem trâmite formal de 'rotación externa' via CONAREME/sede docente. 2) O programa cardíaco robótico é recente e depende de missões internacionais (Salvando Corazones / Aldo Rafael); para uma residente da Unifesp, o aprendizado de robótica cardíaca seria limitado, com poucos casos. 3) Como a equipe foi treinada no Einstein, citar SP/Einstein ajuda a abrir conversa. 4) Houve polêmica pública sobre o preço dos robôs (Congresso/Infobae), então é um tema sensível.",
+  "rota_recomendada": "Prioridade baixa para robótica cardíaca: o programa começou em dez/2025 e tem poucos casos. Se mesmo assim quiser ir: e-mail ao Dr. Julio Peralta Rodríguez (chefe do Dpto. de Cirugía de Tórax y Cardiovascular) pedindo uma 'pasantía/rotación de observación', mencionando a ponte Einstein–Dos de Mayo; formalizar pela Oficina de Docencia do HNDM. A alternativa mais útil é seguir Aldo Rafael (BSW Dallas) e acompanhar uma missão 'Salvando Corazones'."
+ },
+ {
+  "match": "Baylor Scott & White The Heart Hospital – Plano",
+  "alerta_correcao": "A URL do radar (1.000ª cirurgia robótica) é de abr/2017, não é recente. O número '1.000' soma cirurgias cardíacas e torácicas gerais robóticas. Não achei marco robótico mais novo. O hospital diz ser 'fourth busiest program in the nation for both general thoracic and cardiac robotic surgery' (página de GME, tom promocional).",
+  "programa": {
+   "pagina": "não encontrado (não há página pública de observership internacional da BSW)",
+   "elegibilidade": "não encontrado. O hospital tem GME próprio (Thoracic Surgery Fellowship, Cardiovascular Disease, Structural Heart, Interventional Cardiology): https://www.bswhealth.com/Medical-Professionals/Education/Graduate-Medical-Education/Plano",
+   "contato_oficial": "Taline Azadian, program administrator do Thoracic Surgery Fellowship (listada na página oficial de faculty; e-mail não coletado)",
+   "fonte_contato": "https://www.bswhealth.com/Medical-Professionals/Education/Graduate-Medical-Education/Plano/Thoracic-Surgery-Fellowship/Faculty-and-Fellows",
+   "taxa": "não encontrado", "duracao": "não encontrado", "antecedencia": "não encontrado", "documentos": "não encontrado",
+   "certeza": "ausência de programa formal = provável; contato do fellowship = confirmado"
+  },
+  "servico": {
+   "nome": "Robotic cardiothoracic surgery program – BSW The Heart Hospital – Plano ('The largest robotic cardiothoracic surgery program in Texas'); hospital com 105 leitos; robótica desde 2011",
+   "chefe": "Robert L. Smith, MD – Chairman, Cardiovascular Services, e especialista em mitral robótica (perfil de terceiros; certeza provável)",
+   "fonte_chefe": "https://www.heart-valve-surgery.com/videos/robotic-mitral-valve-replacement-robert-smith-md",
+   "fellowship": "Thoracic Surgery Fellowship – Program Director J. Michael DiMaio, MD (página oficial: 'Program Director in Thoracic Surgery')",
+   "fonte_fellowship": "https://www.bswhealth.com/Medical-Professionals/Education/Graduate-Medical-Education/Plano/Thoracic-Surgery-Fellowship/Faculty-and-Fellows",
+   "volume": ">1.000 procedimentos robóticos cardiovasculares/torácicos (1.000ª cirurgia em 31/3/2017); procedimentos: CABG robótico, reparo mitral, ablação de FA, defeitos congênitos",
+   "fontes_volume": ["https://news.bswhealth.com/releases/the-heart-hospital-baylor-plano-performs-1-000th-robotic-surgery", "https://cd-prod.bswhealth.com/the-heart-hospital/treatments-and-procedures/robot-assisted-surgery"],
+   "certeza": "fellowship PD = confirmado; chefe = provável; volume = confirmado (2017)"
+  },
+  "pessoas_chave": [
+   {"nome": "Robert L. Smith, MD", "cargo": "Chairman, Cardiovascular Services; cirurgião de mitral robótica", "por_que": "líder clínico da robótica valvar; quem hospedaria", "fonte": "https://www.heart-valve-surgery.com/videos/robotic-mitral-valve-replacement-robert-smith-md", "certeza": "provável"},
+   {"nome": "J. Michael DiMaio, MD", "cargo": "Program Director, Thoracic Surgery Fellowship (Plano)", "por_que": "controla a parte educacional/GME; é quem pode autorizar um visitante na equipe", "fonte": "https://www.bswhealth.com/Medical-Professionals/Education/Graduate-Medical-Education/Plano/Thoracic-Surgery-Fellowship/Faculty-and-Fellows", "certeza": "confirmado"},
+   {"nome": "Katherine Harrington, MD", "cargo": "Cirurgiã cardíaca (aorta, valvas, Ross); moderou em 2026 uma sessão sobre a nova trilha de treinamento em robótica da STS", "por_que": "envolvida na formação nacional em robótica", "fonte": "https://www.bswhealth.com/Provider-Type/physician/k/a/katherine-harrington-1538349360", "certeza": "perfil = confirmado; sessão STS = provável (resumo de busca citando TCTMD)"},
+   {"nome": "William Brinkman, MD", "cargo": "Cirurgião cardíaco; um diretório atribui a ele 'minimally invasive/robotic procedures'", "por_que": "possível cirurgião robótico ativo", "fonte": "https://www.doximity.com/pub/katherine-harrington-md (coautoria) – diretório não identificado", "certeza": "provável"},
+   {"nome": "Kimble Jett, MD", "cargo": "Medical Director of Thoracic Surgery (2018)", "por_que": "robótica torácica geral (menos relevante)", "fonte": "https://localprofile.com/2018/08/22/cardiothoracic-robotic-surgery-cardiothoracic-robotic-surgery/", "certeza": "confirmado em 2018; cargo atual não verificado"},
+   {"nome": "Aldo E. Rafael, MD", "cargo": "Cirurgião cardiotorácico, BSW Heart and Vascular Hospital – Dallas (Hispanic Cardiovascular Institute)", "por_que": "hispanofalante, ligado à América Latina (missões no Peru); pode servir de ponte dentro da BSW. Não é de Plano", "fonte": "https://www.bswhealth.com/physician/aldo-rafael", "certeza": "confirmado"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado (nenhuma coautoria do serviço com Unifesp/USP/InCor/Dante nos resultados). Ponte indireta latino-americana: Aldo Rafael (BSW Dallas, peruano)",
+  "pesquisa_recente": [
+   {"titulo": "Robotic mitral valve surgery after prior sternotomy (Meidan et al.)", "ano": 2022, "revista": "JTCVS Techniques", "id": "PMC9196136; PMID 35711230 (provável: o link pubmed.gov/35711230 apareceu na mesma busca)", "fonte": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9196136", "nota": "342 reoperações mitrais em Plano (2013–2020); 21 robóticas, sem conversão nem óbito intraoperatório"},
+   {"titulo": "não encontrado (2º artigo de 2022–2026)", "nota": "nenhum outro artigo de robótica de Plano apareceu nas buscas"}
+  ],
+  "dicas": "1) Não há observership público: a entrada tende a ser por contato direto com o cirurgião e liberação via GME/Medical Staff. 2) O hospital é um 'training site' de alto volume em robótica e tem fellowship de cirurgia torácica, então já existe cultura de ensino. 3) A STS tem trilha/curso de robótica cardíaca (workshop: 1 dia de simulação hands-on + 1 dia de aulas; currículo online 2024: https://learningcenter.sts.org/node/4186); docentes de Plano participam, e isso é bom assunto para abrir conversa. 4) Um sistema vizinho do Texas (CHRISTUS) exige HIPAA, vacinas, e não ajuda com visto; é uma referência do que esperar (https://christushealth.org/-/media/christus-health/for-providers/files/education/continuing-medical-education/observationprivilegesstandards2024.ashx).",
+  "rota_recomendada": "1) E-mail ao Dr. Robert Smith (mitral robótica) citando o paper de 2022 sobre mitral robótica pós-esternotomia, com cópia para a administração do Thoracic Surgery Fellowship (Taline Azadian / Dr. DiMaio), pedindo 4 semanas de observação. 2) Em paralelo, pedir uma ponte ao Dr. Aldo Rafael (BSW Dallas), hispanofalante e engajado com a América Latina. 3) Pedir ao GME de Plano o formulário de 'visiting observer'."
+ },
+ {
+  "match": "Virtua Our Lady of Lourdes",
+  "alerta_correcao": "IMPORTANTE: o marco da URL do radar (1.000ª cirurgia robótica, fev/2020) é do Dr. Arthur T. Martella, então Chief of Cardiothoracic Surgery do Lourdes (Camden). Diretórios atuais (Riverside Health, VA, e Doximity) listam Martella na Riverside (Riverside Regional Medical Center, Newport News / Riverside Eastern Shore, Onancock, VA). É PROVÁVEL que ele tenha deixado a Virtua; nenhuma fonte confirma a data. Sem ele, o volume robótico do Lourdes hoje é desconhecido. A liderança cardiovascular da Virtua passou por Chun (Dan) Choi (VP, nov/2021, vindo do Johns Hopkins) e depois Ibrahim Sultan (VP Clinical Operations, vindo da UPMC; data não confirmada). O link de contato do radar ('cardiothoracic-surgery-sewell') é só um consultório.",
+  "programa": {
+   "pagina": "https://www.virtua.org/-/media/Project/Virtua-Tenant/Virtua/PDFs/Undergraduate-Medical-Education/Observership-Information--Requirements.pdf",
+   "elegibilidade": "O observership oficial da Virtua é de Undergraduate Medical Education e é voltado a estudantes de medicina (MD/DO) e de PA ou candidatos a PA. Não há programa publicado para médicos/residentes estrangeiros",
+   "contato_oficial": "UME@virtua.org (e-mail do formulário oficial de observership UME)",
+   "documentos": "comprovante atualizado de vacinas/saúde; isenções aprovadas pelo Employee Health; termo de responsabilidade (há versão para menores)",
+   "taxa": "não encontrado", "duracao": "não encontrado", "antecedencia": "não encontrado",
+   "certeza": "UME = confirmado; aplicação a residente estrangeiro = não confirmado (provavelmente não se aplica sem exceção)"
+  },
+  "servico": {
+   "nome": "Virtua Cardiothoracic Surgery – Virtua Our Lady of Lourdes Hospital (Camden), 'the leading cardiothoracic surgery program in South Jersey', centro do programa cardiovascular da Virtua; robótica: mitral, CABG, eletrodos de marca-passo/CDI",
+   "chefe": "Atual: não encontrado. Até 2020: Arthur T. Martella, MD (chefe desde 2011; 1.000 cirurgias cardíacas robóticas)",
+   "fonte_chefe": "https://www.virtua.org/news/virtua-surgeon-performs-1000th-robotic-surgery",
+   "lideranca_linha_cv": "Ibrahim Sultan, MD, FACS, FACC, FAHA – VP Clinical Operations, Cardiovascular Service Line (ex-chefe de Cirurgia Cardíaca da UPMC)",
+   "fonte_lideranca": "https://www.virtua.org/news/virtua-appoints-ibrahim-sultan-md-vp-clinical-operations-for-cardiovascular-services",
+   "fellowship": "não encontrado",
+   "volume": "1.000 cirurgias cardíacas robóticas de Martella (fev/2020). Material de capacidades CT de nov/2022: https://media.virtua.org/Digital411/PDF/ClinicianPublications/CTSurgeryCapabilitiesNovember2022.pdf (conteúdo não lido)",
+   "certeza": "marco = confirmado (2020); atividade robótica atual = não confirmada"
+  },
+  "pessoas_chave": [
+   {"nome": "Ibrahim Sultan, MD", "cargo": "VP Clinical Operations, Cardiovascular Services, Virtua Health (ex-chefe da Divisão de Cirurgia Cardíaca da UPMC)", "por_que": "maior autoridade cirúrgica cardiovascular da Virtua hoje; decide estratégia e parcerias", "fonte": "https://www.virtua.org/news/virtua-appoints-ibrahim-sultan-md-vp-clinical-operations-for-cardiovascular-services", "certeza": "confirmado"},
+   {"nome": "Chun (Dan) Choi, MD", "cargo": "Cirurgião cardiotorácico e de transplante; VP de cardiologia desde nov/2021 (vindo do Johns Hopkins, MCS)", "por_que": "liderança CV; se ainda estiver na Virtua, cuida de LVAD/MCS", "fonte": "https://www.Virtua.org/news/virtua-welcomes-cardiothoracic-and-transplant-surgeon-to-lead-cardiovascular-services", "certeza": "nomeação confirmada; situação atual não confirmada"},
+   {"nome": "Arthur T. Martella, MD", "cargo": "Ex-chefe de cirurgia cardiotorácica do Lourdes; hoje provavelmente na Riverside Health (VA)", "por_que": "o cirurgião robótico do marco do radar; se saiu, o polo perde força", "fonte": "https://www.riversideonline.com/find-a-doctor/find-a-doctor-results/arthur-martella", "certeza": "saída = provável"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": "não encontrado (nenhum artigo de robótica cardíaca da Virtua Lourdes entre 2022 e 2026 nos resultados)",
+  "dicas": "1) O único observership publicado é o UME (estudantes), com e-mail UME@virtua.org. 2) A Virtua está contratando cirurgião cardiotorácico em Camden para VAD/MCS (vaga de 2025), sinal de foco em insuficiência cardíaca/MCS, não em robótica. 3) Antes de investir, confirmar com o serviço se a robótica cardíaca continua ativa depois de Martella.",
+  "rota_recomendada": "Prioridade baixa: o cirurgião robótico do marco provavelmente saiu. Se quiser tentar, primeiro mandar um e-mail curto ao escritório de Cardiothoracic Surgery do Lourdes / Dr. Ibrahim Sultan perguntando se a robótica cardíaca segue ativa e se aceitam um residente observador internacional; depois formalizar via UME@virtua.org pedindo exceção. Para robótica de alto volume, Plano (BSW) ou Inova são melhores."
+ },
+ {
+  "match": "Inova Fairfax (Schar Heart and Vascular)",
+  "alerta_correcao": "A Inova fez a 'primeira cirurgia cardíaca robótica da região' em 2001, mas o programa atual de CABG robótico foi lançado em 2023 (linha do tempo do newsroom de mar/2025). Volume robótico não publicado; Singh indica CABG robótico sobretudo para ponte em uma artéria só. Os nomes 'Inova Heart and Vascular Institute' e 'Inova Schar Heart and Vascular' são a mesma estrutura renomeada (Fairfax Medical Campus, Falls Church/Fairfax). A cirurgia cardíaca fica no Inova Fairfax Medical Campus.",
+  "programa": {
+   "pagina": "https://www.inova.org/education/physician-observerships",
+   "elegibilidade": "A página 'Physician Observerships' da Inova é para estudantes de graduação e leigos ainda sem diploma médico; é patrocinada por cada departamento, e o interessado contata um médico preceptor direto. Para residentes há a 'Visiting Resident Elective Rotation': candidatura direta ao departamento, completa 90 dias antes, mínimo de 4 semanas, credenciamento + treinamento online EPIC, malpractice coberto pela instituição de origem, aprovação final pelo GME do IFMC. Não está claro se aceita residente estrangeiro (os documentos não falam de estrangeiros; o modelo pressupõe residente de programa dos EUA)",
+   "fontes": ["https://inova.org/sites/default/files/education/gme/Visiting_Resident_Elective_Rotation_Application.pdf", "https://WWW.INOVA.ORG/sites/default/files/education/gme/visiting_resident_fellow_application_process.pdf"],
+   "trecho": "must apply directly to the department in which their training will take place. Applications must be complete and received at least 90 days prior ... applications for rotations less than 4 weeks will not be accepted",
+   "contato_oficial": "Escritório de GME do Inova Fairfax Medical Campus (contato de visiting residents listado no formulário oficial: Deborah Blackburn, 703.776.4497)",
+   "taxa": "não encontrado", "duracao": "mínimo de 4 semanas (visiting resident)", "antecedencia": "90 dias", "documentos": "formulário de rotação eletiva; carta/assinatura da instituição de origem; seguro de malpractice; credenciamento; treinamento EPIC",
+   "certeza": "regras de visiting resident = confirmado; aceitação de estrangeiro = não confirmado"
+  },
+  "servico": {
+   "nome": "Inova Schar Heart and Vascular – Adult Cardiac Surgery (Inova Fairfax Medical Campus); programa de CABG robótico (lançado em 2023)",
+   "chefe": "Eric L. Sarin, MD – Section Chief, Adult Cardiac Surgery; co-diretor do Structural Heart Program; lidera a pesquisa cardiovascular",
+   "fonte_chefe": "https://www.inova.org/doctors/eric-l-sarin-md",
+   "robotica": "Ramesh Singh, MD – oferece CABG minimamente invasivo/robótico na Inova (artigo de nov/2022); surgical director da CVICU; perfil antigo diz que ele criou e lidera 'the only robotic revascularization program in the Washington DC metro area'",
+   "fonte_robotica": "https://www.inovanewsroom.org/expert-commentary/2022/11/inova-offers-robotic-assisted-minimally-invasive-heart-bypass-surgery/ ; https://cme.inova.org/node/2881/bio/7500/view",
+   "fellowship": "não encontrado (fellowship de cirurgia cardíaca na Inova não confirmado)",
+   "volume": "não publicado para robótica. Linha do tempo: 1977 início; 2001 primeira cirurgia cardíaca robótica da região; 2023 lançamento do programa de CABG robótico",
+   "fonte_volume": "https://www.inovanewsroom.org/featured-posts/2025/03/nearly-50-years-of-cardiac-surgery-innovation-and-excellence/",
+   "certeza": "chefe = confirmado; Singh como líder da robótica = provável/confirmado (artigo assinado por ele)"
+  },
+  "pessoas_chave": [
+   {"nome": "Ramesh Singh, MD", "cargo": "Cirurgião cardiovascular; surgical director da CVICU (Inova Fairfax); líder do CABG robótico/minimamente invasivo; também citado como diretor do programa de MCS e professor assistente da UVA", "por_que": "é quem faz a robótica; anfitrião ideal", "fonte": "https://inova.org/doctors/ramesh-singh-md", "certeza": "confirmado"},
+   {"nome": "Eric L. Sarin, MD", "cargo": "Section Chief, Adult Cardiac Surgery; co-diretor Structural Heart", "por_que": "chefe do serviço; precisa aprovar visitante no departamento", "fonte": "https://www.inova.org/doctors/eric-l-sarin-md", "certeza": "confirmado"},
+   {"nome": "Alan M. Speir, MD", "cargo": "Director Emeritus of Cardiac Surgery; Senior Associate Director, Inova Schar; Director of Quality, Outcomes and Clinical Excellence", "por_que": "figura sênior e histórica; abre portas institucionais", "fonte": "https://www.inova.org/doctors/alan-m-speir-md", "certeza": "confirmado"},
+   {"nome": "Jama Jahanyar, MD, PhD", "cargo": "Cirurgião cardíaco adulto, Inova", "por_que": "membro da equipe (sem vínculo robótico confirmado)", "fonte": "https://www.inova.org/doctors/jama-jahanyar-md-phd", "certeza": "confirmado"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": "não encontrado (nenhum artigo de robótica cardíaca da Inova entre 2022 e 2026 nos resultados). Para o e-mail dá para citar o artigo de opinião de Singh 'Inova Offers Robotic-assisted Minimally Invasive Heart Bypass Surgery' (Inova Newsroom, nov/2022) e o lançamento do programa de CABG robótico em 2023",
+  "dicas": "1) A Inova tem processo formal e publicado para residente visitante: 4 semanas, 90 dias de antecedência, candidatura direto ao departamento, malpractice da instituição de origem e aprovação final do GME. Para uma residente estrangeira, a Unifesp teria que assinar e o malpractice seria o obstáculo; pedir status de 'observer' sem contato com paciente. 2) O observership 'Physician Observerships' é departamental e exige um preceptor: conseguir o aceite de um cirurgião (Singh) primeiro. 3) O foco robótico é CABG (sobretudo ponte única), não mitral.",
+  "rota_recomendada": "1) E-mail ao Dr. Ramesh Singh pedindo 4 semanas de observação no programa de CABG robótico (lançado em 2023), citando o artigo dele de 2022. 2) Com o 'sim' dele, pedir ao Dr. Eric Sarin o patrocínio do departamento. 3) Formalizar com o GME do Inova Fairfax (formulário de visiting resident / observer) pelo menos 90 dias antes, com carta da Unifesp."
+ }
+]

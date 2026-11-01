@@ -1,0 +1,161 @@
+[
+ {
+  "match": "St John of God Geelong Hospital",
+  "centro": "St John of God Geelong Hospital (privado, Geelong, Victoria, Austrália) – Cardiology and cardiothoracic surgery",
+  "areas": ["robotica"],
+  "programa": {
+   "status": "não encontrada página de observership/visiting observer do St John of God Health Care nem do hospital de Geelong",
+   "evidencia": [
+    {"url": "https://www.sjog.org.au/our-locations/st-john-of-god-geelong-hospital/services/cardiology", "trecho": "'one of Australia's most advanced minimally invasive cardiac surgery programs ... robotic-assisted procedures for coronary bypass surgery, valve surgery and cardiac tumours' (página de serviço, sem informação para visitantes)"}
+   ],
+   "contato_oficial": "não encontrado (só a página do serviço; médicos são 'visiting' com consultórios privados)",
+   "taxa_documentos": "não encontrado",
+   "certeza": "confirmado que não há programa publicado; hospital privado com médicos visitantes → entrada dependeria de convite pessoal do cirurgião"
+  },
+  "servico": {
+   "nomes": ["Cardiology and cardiothoracic surgery – St John of God Geelong Hospital"],
+   "chefe": {"nome": "A/Prof Cheng-Hon Yap", "cargo": "Visiting Cardiothoracic Surgeon e Clinical Lead for Cardiac Services, St John of God Geelong", "url": "https://www.ctsnet.org/home/cyap", "certeza": "confirmado (perfil CTSNet); também em https://www.sjog.org.au/find-a-specialist/Y/assoc-professor-cheng-hon-yap"},
+   "fellowship": "não há fellowship próprio publicado; Yap foi 'Programme Director, Lampang-Artivion Minimally Invasive Cardiac Surgery Fellowship' (2023, Tailândia) – https://www.ctsnet.org/home/cyap",
+   "marcos": [
+    {"fato": "robô cirúrgico recebido em maio/2016", "url": "https://www.sjog.org.au/-/media/files/news-and-media/publications/pomegranate/spring-2016.pdf", "certeza": "provável (resumo do resultado de busca)"},
+    {"fato": "10 anos de cirurgia cardíaca (dez/2025); primeira dissecção robótica bilateral de artérias mamárias do estado de Victoria com da Vinci Xi, por Yap", "url": "https://www.sjog.org.au/news-and-media/news/a-decade-of-heart", "certeza": "confirmado"}
+   ],
+   "volume": "não encontrado"
+  },
+  "pessoas_chave": [
+   {"nome": "A/Prof Cheng-Hon Yap", "cargo": "Clinical Lead Cardiac Services (SJOG Geelong); cirurgião em University Hospital Geelong (Barwon Health); Deakin University; Supervisor of Cardiothoracic Surgery Training em University Hospital Geelong", "por_que": "único nome identificado; lidera robótica (RA-CABG, mini-toracotomia valvar) e já dirigiu fellowship internacional de MICS → é quem decide/hospeda", "url": "https://research.barwonhealth.org.au/about-us/meet-our-researchers/cardiothoracic-surgery-a-prof-cheng-hon-yap/"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": "não encontrado artigo 2022–2026 do serviço com PMID/DOI nos resultados (perfil cita >50 publicações; vídeos cirúrgicos no CTSNet/MedTube) – citar no e-mail a notícia 'A decade of heart' (dez/2025) e a dissecção robótica bilateral de mamárias",
+  "dicas": [
+   "Hospital privado; observership não estruturado. Contato tende a ser via cirurgião (Yap) – ele tem perfil acadêmico em Barwon Health/Deakin, que pode ser canal mais institucional (University Hospital Geelong).",
+   "Yap tem interesse declarado em ensino (supervisor de treinamento; diretor de fellowship MICS na Tailândia) → bom argumento no e-mail.",
+   "Austrália exige visto de visitante; observação sem contato com paciente normalmente não exige registro AHPRA (não verificado nesta pesquisa)."
+  ],
+  "rota_recomendada": "1) E-mail curto ao A/Prof Cheng-Hon Yap (via contato do consultório/perfil institucional Barwon Health ou mensagem CTSNet) citando RA-CABG e a dissecção bilateral de mamárias com da Vinci Xi, pedindo 2–4 semanas de observação; 2) se aceitar, pedir que ele indique a via administrativa (SJOG Geelong ou University Hospital Geelong). Polo de baixo rendimento/alto custo para residente: prioridade baixa.",
+  "alerta_correcao": "Yap atua em vários hospitais de Geelong (SJOG, University Hospital Geelong/Barwon Health, Epworth Geelong); a observação pode acabar sendo no Barwon Health."
+ },
+ {
+  "match": "St. Michael's Hospital (Unity Health Toronto)",
+  "centro": "St. Michael's Hospital – Unity Health Toronto (afiliado à University of Toronto), Division of Cardiac Surgery / Minimally Invasive Cardiac Surgery (MICS) program, Schroeder BRAIN&HEART Centre",
+  "areas": ["robotica"],
+  "programa": {
+   "status": "não há programa formal de observership publicado pela Unity Health; observership é arranjado diretamente com staff do hospital",
+   "evidencia": [
+    {"url": "https://www.pgme.utoronto.ca/observerships", "trecho": "'Observerships have no University of Toronto status' – PGME não processa; deve-se contatar o hospital desejado", "certeza": "confirmado"},
+    {"url": "https://www.uoftplasticsurgery.ca/?p=179", "trecho": "St. Michael's: 'prospective observers must arrange their observership through a staff physician at the hospital, who will notify the hospital's Medical Education Office'", "certeza": "provável (página antiga, ~2012)"},
+    {"url": "https://unityhealth.to/research-and-education/education/our-student-centre/", "trecho": "aprendizes em 'placement' devem registrar-se no Student Centre; placements exigem Academic Affiliation Agreement (válido para electives, não necessariamente observers)", "certeza": "confirmado"},
+    {"url": "https://pgme.utoronto.ca/postgraduate-elective-training-international-learners", "trecho": "elective internacional (pós-graduação) exige carta da agência patrocinadora confirmando 'full financial support'; máx. 15 semanas", "certeza": "confirmado – rota alternativa (elective formal), mais burocrática"}
+   ],
+   "contato_oficial": "Medical Education Office / Student Centre da Unity Health (e-mail específico não encontrado); na prática, o cirurgião anfitrião aciona",
+   "taxa_documentos": "não encontrado para observer",
+   "certeza": "provável"
+  },
+  "servico": {
+   "nomes": ["Division of Cardiac Surgery, St. Michael's Hospital", "Minimally Invasive Cardiac Surgery (MICS) program"],
+   "chefe": {"nome": "Dr. Bobby (Robert) Yanagawa", "cargo": "Division Head of Cardiac Surgery, St. Michael's Hospital", "url": "https://unityhealth.to/physician-directory/dr-robert-yanagawa/", "certeza": "confirmado"},
+   "diretor_robotica_mics": {"nome": "Dr. Gianluigi Bisleri", "cargo": "Director, Minimally Invasive Cardiac Surgery; Joseph Vitale and TLN Media Group Chair in Minimally-Invasive Cardiac Surgery (nov/2024); fundou o programa MICS em 2021", "url": "https://surgery.utoronto.ca/GianluigiBisleri-JosephVitaleTLNMediaGroupChair", "certeza": "confirmado"},
+   "fellowship": "não encontrado fellowship de robótica publicado",
+   "volume": {"dado": "~1400 cirurgias com CEC/ano (inclui valvar e aórtica aberta e minimamente invasiva)", "url": "https://scahq.org/institution/unity-health-st-michaels-hospital/", "ano": "não datado", "certeza": "provável"},
+   "marcos": [
+    {"fato": "primeira plastia mitral robótica de Toronto (mar–abr/2025), Bisleri no console e Burns à beira do leito", "url": "https://unityhealth.to/2025/04/torontos-first-robotic-mitral-valve-repair/", "certeza": "confirmado"},
+    {"fato": "primeira correção robótica de cor triatriatum do mundo (nov/2025), Bisleri e Burns", "url": "https://unityhealth.to/2025/12/robotic-procedure-makes-st-michaels-hospital-home-to-landmark-cardiac-surgery/", "certeza": "confirmado (alegação do próprio hospital)"},
+    {"fato": "primeiro maze minimamente invasivo de Ontário (2021)", "url": "https://unityhealth.to/2021/03/surgeons-at-st-michaels-perform-first-minimally-invasive-maze-procedure-for-atrial-fibrillation-in-ontario/", "certeza": "confirmado"}
+   ]
+  },
+  "pessoas_chave": [
+   {"nome": "Dr. Gianluigi Bisleri", "cargo": "Director MICS; Associate Professor U of T", "por_que": "lidera robótica; italiano (Brescia/Pádua, fellowship em arritmia e robótica em Columbia 2003) – histórico de receber visitantes internacionais; principal anfitrião", "url": "https://unityhealth.to/physician-directory/dr-gianluigi-bisleri/"},
+   {"nome": "Dr. Daniel Burns", "cargo": "cirurgião cardíaco, co-líder das primeiras robóticas", "por_que": "segundo cirurgião robótico; possível anfitrião", "url": "https://surgery.utoronto.ca/faculty/daniel-burns"},
+   {"nome": "Dr. Bobby Yanagawa", "cargo": "Division Head of Cardiac Surgery", "por_que": "autoriza na divisão; pesquisa em revascularização e valvopatia", "url": "https://unityhealth.to/physician-directory/dr-robert-yanagawa/"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado (nenhuma coautoria Brasil identificada nos resultados)",
+  "pesquisa_recente": [
+   {"titulo": "The role of robotic technology in minimally invasive surgery for mitral valve disease (Bisleri coautor)", "ano": 2021, "doi": "10.1080/17434440.2021.1960506", "obs": "fora da janela 2022–2026, mas confirmado nos resultados"},
+   {"titulo": "artigo em Circulation 2023 com Yanagawa e Bisleri coautores (com Rumman, Verma, Leong-Poi)", "ano": 2023, "doi": "não encontrado nos resultados", "url": "https://research.unityhealth.to/profiles/bobby-yanagawa/"},
+   {"titulo": "não encontrado 3º artigo 2022–2026 de robótica com PMID/DOI; usar as notícias de robótica mitral (2025) e cor triatriatum (2025) como gancho"}
+  ],
+  "dicas": [
+   "U of T PGME não cuida de observerships: o pedido tem de ir ao cirurgião, que aciona o Medical Education Office.",
+   "Programa robótico é novo (2025) – há interesse em visibilidade; citar a plastia mitral robótica e o cor triatriatum.",
+   "Ontário: observer não tem contato com pacientes; checar com o hospital exigências (vacinas, TB, seguro, confidencialidade)."
+  ],
+  "rota_recomendada": "1) E-mail personalizado ao Dr. Gianluigi Bisleri (com cópia a Daniel Burns) pedindo 4 semanas de observação no programa MICS/robótico, citando os casos de 2025; 2) com o aceite, ele notifica o Medical Education Office/Student Centre da Unity Health para o registro como observer; 3) alternativa formal: elective internacional via U of T PGME (exige carta de patrocínio financeiro da Unifesp/agência).",
+  "alerta_correcao": "url do radar (pgme.utoronto.ca/observerships) diz justamente que U of T NÃO gerencia observerships – o contato correto é o hospital/cirurgião."
+ },
+ {
+  "match": "Vancouver General Hospital (UBC)",
+  "centro": "Vancouver General Hospital (Vancouver Coastal Health) – UBC Division of Cardiac Surgery; programa de cirurgia cardíaca robótica e de acesso mínimo",
+  "areas": ["robotica"],
+  "programa": {
+   "status": "sem observership estruturado de cirurgia cardíaca; existem vias UBC gerais",
+   "evidencia": [
+    {"url": "https://app.smartsheet.com/b/form/d917cf6bb3b64609884bdd15fd5b71e6", "trecho": "'New Visiting Observer Form' – inclui 'international physicians interested in observing procedures'; pede CV, foto e descrição do serviço/local/faculty; observers não podem usar a experiência no currículo", "certeza": "provável (não confirmado que seja formulário oficial UBC)"},
+    {"url": "https://postgrad.med.ubc.ca/prospective-trainees/postgraduate-visiting-electives/", "trecho": "residentes internacionais podem fazer visiting elective por via separada de 'postgraduate trainee'; UBC não firma acordos de afiliação com instituições de origem", "certeza": "confirmado"},
+    {"url": "https://www.cpsbc.ca/registrants/current-registrants/registration-and-licensing/img/clinical-observer", "trecho": "CPSBC tem classe 'clinical observer'; supervisor é responsável por qualquer contato com pacientes", "certeza": "confirmado (necessário se houver contato clínico)"}
+   ],
+   "contato_oficial": "UBC Division of Cardiac Surgery – maryam.milani@ubc.ca (publicado para candidaturas ao Advanced Cardiac Surgery Fellowship; pode servir para encaminhar pedido)",
+   "taxa_documentos": "não encontrado",
+   "certeza": "provável"
+  },
+  "servico": {
+   "nomes": ["VGH Cardiac Surgery program", "Minimal Access and Robotically-Assisted Cardiac Surgery (VGH)"],
+   "diretor_robotica": {"nome": "Dr. Richard C. Cook", "cargo": "Clinical Professor of Surgery UBC; Director of Minimal Access and Robotically-Assisted Cardiac Surgery, VGH; fellowship em robótica com W. Randolph Chitwood Jr.", "url": "https://www.providenceresearch.ca/en/researchers/cook-richard", "certeza": "confirmado (página sem data)"},
+   "fellowship": {"nome": "Advanced Cardiac Surgery Fellowship (1 ano, VGH)", "diretor": "Dr. Richard Cook", "url": "https://surgery.med.ubc.ca/?p=39868", "elegibilidade": "cirurgião com residência reconhecida pelo Royal College; aberto a internacionais", "certeza": "confirmado"},
+   "chefe_divisao": "não encontrado (atual)",
+   "volume": {"dado": "800–900 cirurgias com CEC/ano; 'only robotic cardiac surgery program in B.C.'", "url": "https://apt.med.ubc.ca/?p=539", "ano": "não datado", "certeza": "provável (pode estar desatualizado)"}
+  },
+  "pessoas_chave": [
+   {"nome": "Dr. Richard C. Cook", "cargo": "Director robótica/minimal access VGH; diretor do fellowship", "por_que": "decide e hospeda observação em robótica", "url": "https://ctsnet.org/home/rccook"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {"titulo": "estudo multicêntrico canadense de CABG robótico (300 pacientes ≥60 anos; VGH e London Health Sciences Centre), Canadian Cardiovascular Congress", "ano": 2014, "doi": "não encontrado", "url": "https://sciencedaily.com/releases/2014/10/141028082636.htm", "obs": "fora da janela; não encontrados artigos 2022–2026 do serviço nos resultados"}
+  ],
+  "dicas": [
+   "Não há notícias 2024–2026 de atividade robótica cardíaca na VGH nos resultados – confirmar se o programa está ativo antes de investir.",
+   "O robô da VGH ('Jack') é compartilhado com urologia e torácica (vghfoundation.ca)."
+  ],
+  "rota_recomendada": "1) E-mail ao Dr. Richard Cook perguntando se o programa robótico está ativo e se aceita observador por 4 semanas (citar sua formação com Chitwood e o estudo de RA-CABG); 2) com o aceite, preencher o Visiting Observer Form da UBC e checar com o CPSBC se precisa de registro de clinical observer. Prioridade baixa-média pela incerteza sobre atividade atual.",
+  "alerta_correcao": "atividade robótica cardíaca recente da VGH não confirmada; dados de volume/programa vêm de página UBC sem data."
+ },
+ {
+  "match": "Centro Médico Nacional 20 de Noviembre (ISSSTE)",
+  "centro": "Centro Médico Nacional '20 de Noviembre' – ISSSTE (Cidade do México), Servicio de Cirugía Cardíaca / Cardiotorácica",
+  "areas": ["robotica"],
+  "programa": {
+   "status": "não encontrada norma pública de rotação externa/observação para estrangeiros em cirurgia cardíaca",
+   "evidencia": [
+    {"url": "https://sites.google.com/view/cursopaido/psiq", "trecho": "serviço de psiquiatria do CMN convoca 'médicas y médicos nacionales y extranjeros' para residência 2026–2030 – indica abertura institucional a estrangeiros, mas em outra área", "certeza": "provável"},
+    {"url": "https://www.razon.com.mx/mexico/2025/09/23/anuncia-marti-batres-plan-de-cirugia-robotica-en-el-issste/", "trecho": "hospital oferece 'Cursos de Especialidad y Alta Especialidad' (pós-graduação UNAM)", "certeza": "provável"}
+   ],
+   "contato_oficial": "Subdirección/Jefatura de Enseñanza e Investigación do CMN 20 de Noviembre (e-mail não encontrado)",
+   "taxa_documentos": "não encontrado",
+   "certeza": "não encontrado"
+  },
+  "servico": {
+   "nomes": ["Servicio de Cirugía Cardíaca (Cardiotorácica), CMN 20 de Noviembre"],
+   "chefe": {"nome": "Dr. Guillermo Díaz Quiroz", "cargo": "jefe del Servicio de Cirugía Cardíaca; um dos dois primeiros certificados no México em cirurgia cardíaca robótica", "url": "https://www.xataka.com.mx/investigacion/en-mexico-se-realizo-la-primera-cirugia-robotica-de-corazon-en-america-latina", "certeza": "provável (matéria sem data visível)"},
+   "robotica": [
+    {"fato": "robô da Vinci adquirido em 2015, substituído por da Vinci Xi; primeiras cirurgias com Xi em out/2025 (ginecológicas/urológicas/oncológicas; 16 procedimentos)", "url": "https://consultorsalud.com.mx/cirugia-robotica-mexico-issste-robot-vinci/", "certeza": "confirmado"},
+    {"fato": "cirurgia cardíaca robótica realizada por María del Sol García Ortegón (data não informada)", "url": "https://unamglobal.unam.mx/global_revista/maria-del-sol-garcia-primera-mujer-cirujana-en-realizar-trasplante-de-corazon-en-mexico/", "certeza": "provável"}
+   ],
+   "volume": "não encontrado"
+  },
+  "pessoas_chave": [
+   {"nome": "Dr. Guillermo Díaz Quiroz", "cargo": "Jefe do Servicio de Cirugía Cardíaca", "por_que": "decide sobre rotantes no serviço", "url": "https://www.xataka.com.mx/investigacion/en-mexico-se-realizo-la-primera-cirugia-robotica-de-corazon-en-america-latina"},
+   {"nome": "Dra. María del Sol García Ortegón", "cargo": "cirurgiã cardiovascular adscrita (>26 anos no CMN); primeira mulher a fazer transplante cardíaco no México (2017); presidente do Consejo Nacional de Cirugía del Tórax", "por_que": "pioneira de robótica cardíaca no serviço; figura pública acessível", "url": "https://www.intramed.net/content/entrevista-con-la-dra-maria-sol-garcia-ortegon"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": "não encontrado (nenhum artigo 2022–2026 de robótica cardíaca do serviço nos resultados)",
+  "dicas": [
+   "Robótica do CMN em 2025 está voltada a gineco/uro/onco; não há evidência de programa robótico cardíaco regular atual.",
+   "Espanhol e proximidade cultural facilitam; rotação externa provavelmente depende de ofício da instituição de origem à Jefatura de Enseñanza."
+  ],
+  "rota_recomendada": "Baixa prioridade para robótica. Se mantiver: 1) contato com a Dra. María del Sol García Ortegón ou Dr. Díaz Quiroz perguntando se há cirurgia cardíaca robótica regular; 2) só então ofício da COREME/Unifesp à Jefatura de Enseñanza do CMN. Para robótica cardíaca na América Latina, o Einstein (SP) é alternativa doméstica mais sólida.",
+  "alerta_correcao": "A alegação 'primeira cirurgia robótica de coração da América Latina' (Xataka) é contestável: o Hospital Israelita Albert Einstein (SP) é citado como pioneiro latino-americano (https://www.solardaily.com/reports/Brazil_surgical_robot_fixes_heart_in_Latin_America_first_999.html; série Einstein 2010–2013 em https://scielo.br/pdf/eins/v11n3/a07v11n3.pdf). Atividade robótica cardíaca atual do CMN não confirmada."
+ }
+]

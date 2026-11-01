@@ -1,0 +1,158 @@
+[
+ {
+  "match": "Fundación Clínica Shaio",
+  "cidade": "Bogotá, Colômbia",
+  "areas": ["robotica"],
+  "programa": {
+   "observership_oficial": "não encontrado (nenhuma página de observership/visiting physician localizada)",
+   "docencia": "Tem convênio marco docência-serviço com a Universidad de La Sabana (recebe internos e residentes em Cardiologia, UTI etc.); vigência até mai/2031 segundo ata de 2022.",
+   "fontes": [
+    {"url": "https://www.unisabana.edu.co/fileadmin/Archivos_de_usuario/Imagenes/Imagenes_Unidades_Academicas/Facultad_Medicina/Acreditacion_Especializaciones/Medicina_Interna/CONVENIO_SHAIO.pdf", "trecho": "convenio marco docencia servicio celebrado entre la Fundación Abood Shaio y la Universidad de la Sabana"},
+    {"url": "https://www.unisabana.edu.co/fileadmin/Archivos_de_usuario/Documentos/Documentos_Programas/Documentos_Posgrados/Facultad_de_Medicina/Actas_docencia_y_servicio-_comision_de_posgrados/3._ACTA_N.3_SHAIO_-_U_SABANA_2022.pdf", "trecho": "vigencia del convenio docencia servicio hasta el mes de mayo de 2031"}
+   ],
+   "referencia_pais": "Para estrangeiros na Colômbia, a Fundación Valle del Lili (outra instituição) só aceita médicos estrangeiros como observadores, exige seguro saúde e não aceita visto de turista — provável que regra semelhante se aplique (não confirmado para Shaio). https://valledellili.org/wp-content/uploads/2018/10/Requisitos-Rotaciones-Observacionales-Profesionales-Extranjeros.pdf",
+   "contato_oficial": "não encontrado (pedir via Departamento de Educación/Docencia da Shaio)",
+   "certeza": "convênio confirmado; programa para estrangeiros não encontrado"
+  },
+  "servico": {
+   "nome": "Cirugía Cardiovascular / Servicio de Cirugía Robótica (da Vinci Xi multiespecialidade)",
+   "chefe": "não encontrado para cirurgia cardiovascular; Dr. Danilo Citarella citado como director médico do Serviço de Cirurgia Robótica e chefe de Urologia (não cardíaco)",
+   "volume": "1ª cirurgia cardíaca robótica da Colômbia; 6 pacientes RACS set/2017–2018 (ASD, mitral) com da Vinci Xi; cirurgia cardiovascular = 9,7% dos casos robóticos (2018). Nenhum dado posterior a 2020.",
+   "fontes": [
+    {"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7731842", "trecho": "From September 2017 through 2018, six patients were taken to RACS at a single Cardiovascular and ECMO referral center in the Capital of Colombia, using a da Vinci Xi console"},
+    {"url": "https://www.eluniversal.com.co/salud/2018/10/25/da-vinci-xi-un-robot-que-hace-cirugias/", "trecho": "9,7% de Cirugía Cardiovascular"},
+    {"url": "https://www.elespectador.com/bogota/asi-es-da-vinci-xi-el-robot-que-asiste-cirujanos-en-la-clinica-shaio-article-823787/", "trecho": "la primera clínica del país en realizar una cirugía de corazón asistida con este robot"}
+   ],
+   "certeza": "confirmado (dados antigos, 2018–2020)"
+  },
+  "pessoas_chave": [
+   {"nome": "Darío Andrade", "cargo": "cirurgião cardiovascular, Fundación Clínica Shaio (1º autor do relato RACS)", "porque": "lidera/relata o programa robótico cardíaco", "fonte": "https://search.bvsalud.org/portal/resource/pt/biblio-1144008"},
+   {"nome": "Juan Fernando Parra", "cargo": "cirurgião cardiovascular, Fundación Clínica Shaio", "porque": "coautor RACS; perfil CTSNet ligado à Shaio", "fonte": "https://www.ctsnet.org/home/juanpaco"},
+   {"nome": "Federico Núñez", "cargo": "cirurgião cardiovascular sênior, Fundación Clínica Shaio (autor sênior RACS 2020)", "porque": "provável decisor/sênior do serviço (cargo de chefia não confirmado)", "fonte": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7731842"},
+   {"nome": "Eric E. Vinck", "cargo": "cirurgião/pesquisador colombiano, autor de série sobre MICS e treino internacional na Colômbia", "porque": "elo acadêmico entre Shaio e Cardio VID; escreve sobre formação de residentes", "fonte": "https://cris.maastrichtuniversity.nl/en/publications/minimally-invasive-cardiac-surgery-in-colombia-evolution-and-the-/"},
+   {"nome": "Husam Balkhy", "cargo": "University of Chicago Medicine (coautor/mentor do programa robótico da Shaio)", "porque": "ponte Chicago — se o observership prévio da residente foi na UChicago, é referência direta", "fonte": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7731842"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "Nenhuma coautoria com Unifesp/InCor/Dante encontrada. Ponte indireta: o relato RACS da Shaio foi publicado no Brazilian Journal of Cardiovascular Surgery (revista da SBCCV), DOI 10.21470/1678-9741-2020-0064, PMID 33306326.",
+  "pesquisa_recente": [
+   {"titulo": "Robotic Cardiac Surgery in Colombia: Overcoming the Challenges of a Middle-income Setting", "ano": 2020, "doi": "10.21470/1678-9741-2020-0064", "pmid": "33306326", "nota": "anterior a 2022, mas é o artigo-chave"},
+   {"titulo": "Minimally Invasive Cardiac Surgery in Colombia: Evolution and the Impact of International Training", "ano": 2021, "doi": "10.1177/15569845211030982", "nota": "Vinck, Rendón, Andrade, Escobar, Núñez, Sardari Nia"},
+   {"titulo": "nenhum artigo 2022–2026 de robótica cardíaca da Shaio encontrado", "ano": null}
+  ],
+  "dicas": "Programa robótico cardíaco pequeno e sem publicação recente; robô é compartilhado com urologia/colo-proctologia (artigo diz que robótica cardíaca sozinha não se sustenta). Rotações passam pelo convênio docência-serviço — residente estrangeira provavelmente só como observadora com seguro e visto adequado.",
+  "rota_recomendada": "1) E-mail ao Dr. Darío Andrade/Federico Núñez citando o artigo no BJCVS (revista brasileira) e, se aplicável, a ligação com Balkhy/UChicago; 2) pedir ao Departamento de Educación da Shaio as condições de rotação observacional para estrangeiros; 3) confirmar antes se o programa robótico cardíaco segue ativo.",
+  "alerta_correcao": "Volume robótico cardíaco documentado é muito baixo (6 casos 2017–18) e sem dados após 2020 — atividade atual incerta."
+ },
+ {
+  "match": "Clínica Cardio VID",
+  "cidade": "Medellín, Colômbia",
+  "areas": ["robotica"],
+  "programa": {
+   "observership_oficial": "não encontrado",
+   "docencia": "Vínculo acadêmico com a Universidad Pontificia Bolivariana (UPB) — autores com dupla afiliação Cardio VID + UPB (provável campo de prática da UPB).",
+   "fontes": [{"url": "https://www.elsevier.es/es-revista-cirugia-cardiovascular-358-pdf-download-S113400962400161X", "trecho": "Juan Camilo Peláez-Ortiz ... Cardio VID Clinic and Pontifical Bolivarian University"}],
+   "contato_oficial": "não encontrado",
+   "certeza": "programa não encontrado; vínculo UPB provável"
+  },
+  "servico": {
+   "nome": "Cirugía Cardiovascular (cirurgia cardíaca minimamente invasiva por minitoracotomia; transplante cardíaco)",
+   "chefe": "Juan Santiago Jaramillo citado como chefe de cirurgia cardiovascular em nota sem data do El Colombiano (pode estar desatualizado)",
+   "volume": "846 pacientes MICS (valvar/coronária) 2011–2022, mortalidade 3,8%; 677 transplantes cardíacos acumulados (1º transplante do país em 1985).",
+   "fontes": [
+    {"url": "https://investigacion.upb.edu.co/es/publications/experience-in-minimally-invasive-cardiac-surgery-in-a-cardiovascu/", "trecho": "846 patients who met the inclusion criteria ... overall mortality of 3.8%"},
+    {"url": "https://telemedellin.tv/?p=153533", "trecho": "677 trasplantes de corazón"},
+    {"url": "https://www.elcolombiano.com/historico/medellin_da_clase_de_cirugia_cardiovascular-NBEC_242582", "trecho": "Juan Santiago Jaramillo, jefe de cirugía cardiovascular"}
+   ],
+   "certeza": "volume MICS confirmado; chefe provável/datado"
+  },
+  "pessoas_chave": [
+   {"nome": "Juan Camilo Rendón (Rendón-Isaza)", "cargo": "cirurgião cardiovascular, Cardio VID", "porque": "líder em MICS; coautor da série de 846 casos e do artigo de treino internacional com Vinck", "fonte": "https://investigacion.upb.edu.co/es/publications/experience-in-minimally-invasive-cardiac-surgery-in-a-cardiovascu/"},
+   {"nome": "Juan Santiago Jaramillo", "cargo": "chefe de cirurgia cardiovascular (fonte sem data)", "porque": "possível decisor", "fonte": "https://www.elcolombiano.com/historico/medellin_da_clase_de_cirugia_cardiovascular-NBEC_242582"},
+   {"nome": "José Julián Escobar-Matallana", "cargo": "cirurgião cardiovascular, coautor MICS", "porque": "coautor da série MICS e do artigo Innovations 2021", "fonte": "https://investigacion.upb.edu.co/en/publications/experience-in-minimally-invasive-cardiac-surgery-in-a-cardiovascu/"},
+   {"nome": "Juan Camilo Peláez-Ortiz", "cargo": "Cardio VID / UPB", "porque": "autor acadêmico, ponte com UPB", "fonte": "https://www.elsevier.es/es-revista-cirugia-cardiovascular-358-pdf-download-S113400962400161X"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {"titulo": "Experience in minimally invasive cardiac surgery in a cardiovascular center", "ano": 2024, "revista": "Cirugía Cardiovascular", "doi": "não encontrado (Elsevier PII S113400962400161X)", "nota": "listas de autores divergem entre Elsevier e portal UPB"},
+   {"titulo": "Série de hérnia pulmonar intercostal após minitoracotomia (803 pacientes, 2010–2022)", "ano": 2024, "doi": "não encontrado", "nota": "título exato não obtido"},
+   {"titulo": "Minimally Invasive Cardiac Surgery in Colombia: Evolution and the Impact of International Training", "ano": 2021, "doi": "10.1177/15569845211030982"}
+  ],
+  "dicas": "Força do centro é cirurgia minimamente invasiva por minitoracotomia e transplante/assistência ventricular, não robótica. Bom para quem quer MICS de alto volume.",
+  "rota_recomendada": "1) E-mail ao Dr. Juan Camilo Rendón citando a série de 846 casos MICS (2024), pedindo observação em MICS; 2) verificar via UPB/educação da clínica as regras para rotante estrangeira. Não priorizar para robótica.",
+  "alerta_correcao": "Nenhuma fonte confirma programa de cirurgia cardíaca ROBÓTICA na Cardio VID; o artigo do radar é sobre cirurgia minimamente invasiva (minitoracotomia). Área 'robotica' provavelmente incorreta — reclassificar como MICS/transplante."
+ },
+ {
+  "match": "Hospital Internacional de Colombia",
+  "cidade": "Piedecuesta (área metropolitana de Bucaramanga), Santander, Colômbia",
+  "areas": ["robotica"],
+  "programa": {
+   "observership_oficial": "não encontrado",
+   "docencia": "Ecossistema FCV tem Fundación Universitaria FCV e pós-graduações; não encontrada regra para rotantes estrangeiros.",
+   "fontes": [{"url": "https://www.vanguardia.com/opinion/columnistas/2025/08/09/fundacion-universitaria-fcv-un-legado-de-salud-y-conocimiento/", "trecho": "Fundación Universitaria FCV"}],
+   "contato_oficial": "não encontrado",
+   "certeza": "não encontrado"
+  },
+  "servico": {
+   "nome": "Programa de cirurgia cardíaca robótica do HIC/FCV (plataforma SSI Mantra 3)",
+   "chefe": "não encontrado (cirurgião local da 1ª TECAB não identificado); Víctor Raúl Castillo = presidente FCV / CEO HIC; Jonathan Cáceres = diretor médico HIC",
+   "volume": "1ª TECAB robótica da Colômbia (2026, Mantra 3); HIC atingiu 100 cirurgias robóticas (todas as especialidades) em out/2026; meta 3.500–4.000/ano. Telecirurgia Colômbia–Índia em jul/2026.",
+   "fontes": [
+    {"url": "https://www.intramed.net/content/colombia-inaugura-una-nueva-era-en-cirugia-cardiaca-con-la--primera-cirugia-cardiovascular-robotica-realizada-con-el--si", "trecho": "realizó la primera cirugía cardiovascular robótica coronaria totalmente endoscópica (TECAB) del país con el sistema SSI Mantra 3"},
+    {"url": "https://www.vanguardia.com/area-metropolitana/bucaramanga/2026/10/10/hospital-internacional-de-colombia-alcanza-las-primeras-100-cirugias-roboticas-asi-funciona-esta-tecnologia/", "trecho": "alcanza las primeras 100 cirugías robóticas"},
+    {"url": "https://www.bluradio.com/salud/cirugia-robotica-en-colombia-el-hic-busca-realizar-hasta-4-000-procedimientos-al-ano-so35", "trecho": "meta de entre 3.500 y 4.000 procedimientos anuales"},
+    {"url": "https://www.massdevice.com/ss-innovations-completes-first-robotic-cardiac-surgery-in-the-americas/", "trecho": "launched the robotic cardiac surgery program at La Fundación Cardiovascular de Colombia (FCV) in Bucaramanga ... first Totally Endoscopic Beating-Heart Bypass"}
+   ],
+   "certeza": "confirmado"
+  },
+  "pessoas_chave": [
+   {"nome": "Víctor Raúl Castillo Mantilla", "cargo": "presidente da Fundación Cardiovascular de Colombia / CEO do HIC", "porque": "líder institucional e porta-voz do programa robótico", "fonte": "https://www.bluradio.com/regiones/santanderes/estamos-viendo-la-medicina-del-futuro-doctor-victor-castillo-por-cirugia-robotica-desde-santander-rg10"},
+   {"nome": "Jonathan Cáceres", "cargo": "diretor médico do HIC", "porque": "provável instância que autoriza estágios/observação", "fonte": "https://www.intramed.net/content/colombia-inaugura-una-nueva-era-en-cirugia-cardiaca-con-la--primera-cirugia-cardiovascular-robotica-realizada-con-el--si"},
+   {"nome": "Sudhir Srivastava", "cargo": "fundador/CEO SS Innovations, cirurgião cardíaco (operou a 1ª TECAB)", "porque": "proctor externo do programa; não é staff do HIC", "fonte": "https://www.massdevice.com/ss-innovations-completes-first-robotic-cardiac-surgery-in-the-americas/"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [{"titulo": "nenhum artigo 2022–2026 de robótica cardíaca do HIC/FCV encontrado (programa iniciado em 2026)", "ano": null}],
+  "dicas": "FCV organiza congresso GRATUITO de cardiologia e cirurgia cardiovascular (edição 30–31 jul/2026, no HIC, 40 anos da FCV) — porta de entrada para contato em edição futura. Programa robótico cardíaco é novíssimo (2026), com plataforma indiana Mantra 3 (não da Vinci).",
+  "fontes_dicas": [{"url": "https://www.bluradio.com/regiones/santanderes/fcv-reunira-en-bucaramanga-a-expertos-de-talla-mundial-en-congreso-gratuito-de-cardiologia-rg10", "trecho": "congreso gratuito de cardiología"}],
+  "rota_recomendada": "1) Contato institucional com a diretoria médica do HIC (Dr. Jonathan Cáceres) / área acadêmica da FCV pedindo observação no programa robótico; 2) usar o congresso anual gratuito da FCV para networking; 3) programa muito inicial — expectativa de pouco volume cardíaco robótico em 2027.",
+  "alerta_correcao": "HIC fica em Piedecuesta (área metropolitana de Bucaramanga), não na cidade de Bucaramanga. Fontes divergem se o programa é do HIC ou da FCV (mesmo grupo; SS Innovations cita FCV, Intramed cita HIC)."
+ },
+ {
+  "match": "Clínica Las Condes",
+  "cidade": "Santiago, Chile",
+  "areas": ["robotica"],
+  "programa": {
+   "observership_oficial": "não encontrado",
+   "docencia": "Clínica tem residentes (cerca de 680 médicos, >590 staff, demais residentes, out/2026). Não encontrada regra para estrangeiros.",
+   "fontes": [{"url": "https://www.theclinic.cl/2026/10/23/emilio-santelices-director-medico-de-la-clinica-las-condes-en-terminos-clinicos-la-crisis-ya-esta-zanjada/", "trecho": "Emilio Santelices, director médico de la Clínica Las Condes"}],
+   "contato_oficial": "não encontrado",
+   "certeza": "não encontrado"
+  },
+  "servico": {
+   "nome": "Departamento de Cirugía Cardiovascular – Unidad de Cirugía Cardíaca, Clínica Las Condes",
+   "chefe": "Edgardo Sepúlveda descrito como 'jefe unidad de cirugía cardíaca CLC' em artigo de 2019 (pode estar desatualizado)",
+   "volume": "Programa de cirurgia cardíaca robótica iniciado em 2015; série dez/2015–fev/2019 (reparo mitral e CIA assistidos por robô). Número de casos não obtido.",
+   "fontes": [
+    {"url": "https://revistamedicadechile.cl/index.php/rmedica/article/download/7466/5340/94714", "trecho": "programa de cirugía cardíaca robótica que se inició en nuestro centro en 2015"},
+    {"url": "https://sidalc.net/search/Record/oai:scielo:S0034-98872019001001303/Similar", "trecho": "Reparación de válvula mitral y cierre de comunicación interauricular, asistida por robot: experiencia inicial"}
+   ],
+   "certeza": "confirmado (2019)"
+  },
+  "pessoas_chave": [
+   {"nome": "Aníbal Ibáñez", "cargo": "cirurgião cardiovascular, Depto. Cirugía Cardiovascular CLC (autor correspondente 2019)", "porque": "lidera publicação do programa robótico", "fonte": "https://search.bvsalud.org/gim/resource/es/biblio-1058597"},
+   {"nome": "Edgardo Sepúlveda", "cargo": "chefe da unidade de cirurgia cardíaca CLC (2019)", "porque": "provável decisor", "fonte": "https://revistamedicadechile.cl/index.php/rmedica/article/view/7466"},
+   {"nome": "Gustavo Sepúlveda; Mauricio Maureira; Juan Pablo Uribe", "cargo": "cirurgiões CLC coautores da série robótica", "porque": "equipe robótica", "fonte": "https://revistamedicadechile.cl/index.php/rmedica/article/view/7466"},
+   {"nome": "Emilio Santelices", "cargo": "diretor médico da CLC (2026)", "porque": "instância institucional", "fonte": "https://www.theclinic.cl/2026/10/23/emilio-santelices-director-medico-de-la-clinica-las-condes-en-terminos-clinicos-la-crisis-ya-esta-zanjada/"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {"titulo": "Reparación de válvula mitral y cierre de comunicación interauricular, asistida por robot: experiencia inicial", "ano": 2019, "revista": "Rev Med Chile 147(10)", "doi": "não encontrado", "nota": "SciELO S0034-98872019001001303; anterior a 2022"},
+   {"titulo": "nenhum artigo 2022–2026 de robótica cardíaca da CLC encontrado", "ano": null}
+  ],
+  "dicas": "Na área robótica cardíaca, só há publicação de 2019. A CLC passou por crise financeira e de renúncias de médicos (2024–2026); o diretor médico disse em out/2026 que a crise clínica 'ya está zanjada'.",
+  "rota_recomendada": "1) E-mail ao Dr. Aníbal Ibáñez / Edgardo Sepúlveda citando a série robótica mitral/CIA (Rev Med Chile 2019) e perguntando se o programa segue ativo; 2) se seguir, pedir via docência da CLC uma 'pasantía de observación'. Prioridade baixa até confirmar atividade atual.",
+  "alerta_correcao": "Fontes divergem sobre o início da robótica na CLC (2013 para da Vinci institucional em revistacirugia.cl; 2015 para o programa cardíaco). Crise institucional recente: equipe de 2019 pode ter mudado."
+ }
+]
