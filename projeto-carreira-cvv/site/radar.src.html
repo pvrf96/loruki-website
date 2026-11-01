@@ -1,4 +1,4 @@
-<title>Radar CVV</title>
+<title>Radar Global</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap">
@@ -23,7 +23,8 @@ button,select,input{font:inherit;color:inherit}
 header{display:flex;align-items:center;gap:10px;background:rgb(12 11 22 / .92);border-bottom:1px solid var(--line);
   padding-block:8px;padding-left:max(14px,env(safe-area-inset-left,0px));padding-right:max(14px,env(safe-area-inset-right,0px));min-width:0}
 .brand{display:flex;align-items:center;gap:8px;font-weight:700;font-size:14px;white-space:nowrap}
-.brand i{width:16px;height:16px;display:inline-block;background:var(--grad);clip-path:polygon(50% 0,62% 38%,100% 50%,62% 62%,50% 100%,38% 62%,0 50%,38% 38%)}
+.brand .logo{width:28px;height:28px;flex:none;display:inline-block;background:center/contain no-repeat var(--logo,none)}.brand .logo:empty:not([style]){display:none}
+.brand .bt{display:flex;flex-direction:column;line-height:1.05}.brand .bt b{font-size:14px}.brand .bt small{font:500 10px var(--f-mono);color:var(--muted);letter-spacing:.04em}
 nav{display:flex;gap:4px;background:var(--panel2);border:1px solid var(--line);border-radius:999px;padding:3px;overflow-x:auto;scrollbar-width:none;min-width:0;flex:0 1 auto}
 nav::-webkit-scrollbar{display:none}
 nav button{display:flex;align-items:center;gap:6px;background:none;border:0;border-radius:999px;padding:6px 12px;font-size:12px;color:var(--muted);cursor:pointer;white-space:nowrap}
@@ -187,7 +188,7 @@ details.w[open] summary::after{content:"–"}
 
 <div class="app">
   <header>
-    <div class="brand"><i aria-hidden="true"></i>Radar CVV</div>
+    <div class="brand"><span class="logo" id="logo" aria-hidden="true"></span><span class="bt"><b>Radar Global</b><small>CVV.cardiologia</small></span></div>
     <nav aria-label="Seções">
       <button type="button" id="tWorld" aria-current="true">◍ <b>Mapa</b></button>
       <button type="button" id="tOpp" aria-current="false">★ <b>Oportunidades</b></button>
