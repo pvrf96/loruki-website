@@ -15,7 +15,9 @@
 projeto-carreira-cvv/
   data/  fellowships.json  paises.json  diretrizes.json  fontes.json
   site/  index.html  app.js  radar.js  encaixe.js  styles.css
-  docs/  (estes 6 arquivos)
+  docs/  (documentação do projeto)
+  scripts/  check_data.py  check_site.js
+  CLAUDE.md
 ```
 
 ## Fluxo de dados

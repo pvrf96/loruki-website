@@ -13,3 +13,10 @@
 - Prometer vaga, aprovação ou visto.
 - Expor dados pessoais de residentes/relatos sem autorização.
 - Misturar com material de prova (outro produto).
+
+## Glossário (sentido fixo no projeto)
+- **Fellowship/fellow**: treinamento pós-residência em subárea, com atuação clínica
+- **Observership**: estágio só de observação, sem atuar — não é fellow, marcar diferente
+- **Encaixe**: nota 0–10 de compatibilidade programa × perfil do usuário, sempre explicada
+- **Verificado**: conferido por humano contra a fonte oficial, com data
+- **Exemplo**: dado fictício só para protótipo, sempre marcado e nunca em produção
