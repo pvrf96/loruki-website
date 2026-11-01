@@ -1,0 +1,427 @@
+<title>Radar CVV</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap">
+<style>
+/* Layout: app de tela cheia. Topo em pílulas; painel de busca à esquerda (no celular vira gaveta inferior); nebulosa de partículas ao centro; ficha deslizante.
+   Tema único escuro (espaço profundo), cores explícitas. */
+:root{
+  --space:#04040a; --panel:#0c0b16; --panel2:#14121f; --line:#262238; --ink:#ecebf6; --muted:#8f8aa8;
+  --g1:#8b5cf6; --g2:#ec4899; --g3:#f59e0b; --act:#f5a524;
+  --grad:linear-gradient(90deg,var(--g1),var(--g2) 55%,var(--g3));
+  --f-ui:"Sora",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{height:100%;overflow:hidden}
+body{background:var(--space);color:var(--ink);font-family:var(--f-ui);font-size:14px;margin:0}
+[hidden]{display:none!important}
+button,select,input{font:inherit;color:inherit}
+.app{height:100%;height:100dvh;display:grid;grid-template-rows:auto minmax(0,1fr)}
+/* topo */
+header{display:flex;align-items:center;gap:10px;background:rgb(12 11 22 / .92);border-bottom:1px solid var(--line);
+  padding-block:8px;padding-left:max(14px,env(safe-area-inset-left,0px));padding-right:max(14px,env(safe-area-inset-right,0px));min-width:0}
+.brand{display:flex;align-items:center;gap:8px;font-weight:700;font-size:14px;white-space:nowrap}
+.brand i{width:16px;height:16px;display:inline-block;background:var(--grad);clip-path:polygon(50% 0,62% 38%,100% 50%,62% 62%,50% 100%,38% 62%,0 50%,38% 38%)}
+nav{display:flex;gap:4px;background:var(--panel2);border:1px solid var(--line);border-radius:999px;padding:3px;overflow-x:auto;scrollbar-width:none;min-width:0;flex:0 1 auto}
+nav::-webkit-scrollbar{display:none}
+nav button{display:flex;align-items:center;gap:6px;background:none;border:0;border-radius:999px;padding:6px 12px;font-size:12px;color:var(--muted);cursor:pointer;white-space:nowrap}
+nav button b{font-weight:400;opacity:.8}
+nav button[aria-current="true"]{background:var(--grad);color:#fff}
+nav button:disabled{opacity:.45;cursor:not-allowed}
+.search{flex:1 1 200px;min-width:0;position:relative}
+.search input{width:100%;background:var(--panel2);border:1px solid var(--line);border-radius:999px;padding:7px 34px 7px 14px;font-size:12.5px}
+.search input:focus{outline:2px solid var(--g1);outline-offset:1px}
+.search kbd{position:absolute;right:10px;top:50%;transform:translateY(-50%);font:500 10.5px var(--f-mono);color:var(--muted);border:1px solid var(--line);border-radius:4px;padding:0 5px}
+.count{display:flex;align-items:center;gap:8px;white-space:nowrap;font:500 11px var(--f-mono);color:var(--muted)}
+.ring{width:18px;height:18px;border-radius:50%;background:conic-gradient(var(--g3) var(--p,100%),var(--line) 0);display:grid;place-items:center}
+.ring::after{content:"";width:12px;height:12px;border-radius:50%;background:var(--panel)}
+.count b{color:var(--ink);font-size:12px}
+.count small{display:block;font-size:9.5px;opacity:.8}
+/* corpo */
+main{position:relative;display:grid;grid-template-columns:330px minmax(0,1fr);min-height:0}
+.panel{background:var(--panel);border-right:1px solid var(--line);display:flex;flex-direction:column;min-height:0;min-width:0}
+.handle{display:none}
+.pscroll{overflow-y:auto;min-height:0;padding:14px;display:flex;flex-direction:column;gap:12px;overscroll-behavior:contain}
+.scan{background:linear-gradient(180deg,rgb(139 92 246 / .10),rgb(12 11 22 / 0) 60%),var(--panel2);border:1px solid var(--line);border-radius:14px;padding:14px;display:flex;flex-direction:column;gap:11px}
+.eyebrow{font:600 10px var(--f-mono);letter-spacing:.12em;color:var(--muted);display:flex;align-items:center;gap:6px}
+.eyebrow::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--g3);box-shadow:0 0 8px var(--g3)}
+.scan h2{margin:0;font-size:20px;line-height:1.2;text-wrap:balance}
+.scan h2 em{font-style:normal;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.scan p{margin:0;font-size:12px;color:var(--muted);line-height:1.5}
+.fld{display:flex;flex-direction:column;gap:5px;min-width:0}
+.fld label,.lbl{font:600 9.5px var(--f-mono);letter-spacing:.1em;color:var(--muted);text-transform:uppercase}
+.fld label span{opacity:.6;text-transform:none;letter-spacing:0;font-weight:400}
+select{width:100%;min-width:0;background:var(--space);border:1px solid var(--line);border-radius:9px;padding:8px 10px;font-size:12.5px;appearance:none;
+  background-image:linear-gradient(45deg,transparent 50%,var(--muted) 50%),linear-gradient(135deg,var(--muted) 50%,transparent 50%);
+  background-position:calc(100% - 15px) 52%,calc(100% - 10px) 52%;background-size:5px 5px;background-repeat:no-repeat}
+select:focus,input[type=range]:focus-visible{outline:2px solid var(--g1);outline-offset:1px}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.budget{background:var(--space);border:1px solid var(--line);border-radius:10px;padding:10px;display:flex;flex-direction:column;gap:6px}
+.bhead{display:flex;justify-content:space-between;align-items:center}
+.bval{font-size:12px;font-weight:600;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+input[type=range]{width:100%;accent-color:var(--g2);height:18px;margin:0}
+.bfoot{display:flex;justify-content:space-between;font:400 10px var(--f-mono);color:var(--muted)}
+details.w{background:var(--space);border:1px solid var(--line);border-radius:10px;padding:9px 10px}
+details.w summary{cursor:pointer;font-size:12px;list-style:none;display:flex;justify-content:space-between}
+details.w summary::after{content:"+";color:var(--muted)}
+details.w[open] summary::after{content:"–"}
+.wl{display:grid;grid-template-columns:1fr 92px;gap:6px 10px;align-items:center;margin-top:10px;font-size:11.5px;color:var(--muted)}
+.go{border:0;border-radius:999px;padding:11px 14px;background:var(--grad);color:#fff;font-weight:600;font-size:13px;cursor:pointer;display:flex;justify-content:center;align-items:center;gap:8px;box-shadow:0 6px 24px rgb(236 72 153 / .25)}
+.go:focus-visible{outline:2px solid #fff;outline-offset:2px}
+.go[aria-busy="true"]{opacity:.85}
+.mini{display:flex;flex-direction:column;align-items:center;gap:6px;padding:4px 0 2px}
+.mini .dial{width:84px;height:84px;border-radius:50%;border:1px solid var(--line);background:radial-gradient(circle,rgb(139 92 246 / .12),transparent 70%);position:relative;overflow:hidden}
+.mini .dial::after{content:"";position:absolute;inset:0;border-radius:50%;background:conic-gradient(from 0deg,rgb(236 72 153 / .55),transparent 28%);animation:spin 1.1s linear infinite}
+.mini small{font:500 10.5px var(--f-mono);color:var(--muted);text-align:center}
+@keyframes spin{to{transform:rotate(360deg)}}
+.rhead{display:flex;justify-content:space-between;align-items:baseline;padding:2px 2px 0}
+.rhead h3{margin:0;font-size:13px}
+.rhead span{font:500 11px var(--f-mono);color:var(--muted)}
+.cards{display:flex;flex-direction:column;gap:8px}
+.card{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:3px 10px;align-items:center;text-align:left;background:var(--panel2);border:1px solid var(--line);border-radius:12px;padding:10px 12px;cursor:pointer;width:100%}
+.card:hover,.card:focus-visible{border-color:var(--g1);outline:none}
+.card .rk{grid-row:1/span 3;font:700 11px var(--f-mono);color:var(--muted)}
+.card .nm{font-weight:600;font-size:12.5px;line-height:1.3;overflow-wrap:anywhere}
+.card .ct{font-size:11px;color:var(--muted)}
+.card .sc{grid-row:1/span 3;grid-column:3;font:700 16px var(--f-mono);background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.tags{display:flex;flex-wrap:wrap;gap:4px;grid-column:2}
+.tag{font:500 9.5px var(--f-mono);border-radius:999px;padding:2px 7px;border:1px solid;white-space:nowrap}
+.res{font:600 9.5px var(--f-mono);border-radius:999px;padding:2px 7px;background:rgb(94 227 155 / .14);color:#5ee39b}
+/* palco */
+.stage{position:relative;min-width:0;min-height:0;overflow:hidden;background:radial-gradient(ellipse at 50% 45%,#0d0a1c 0%,#04040a 70%)}
+.stage canvas{display:block;width:100%;height:100%;touch-action:none}
+.glabel{position:absolute;pointer-events:none;font:600 10px var(--f-ui);transform:translate(-50%,-50%);white-space:nowrap;padding:2px 7px;border-radius:999px;background:rgb(4 4 10 / .55);border:1px solid rgb(255 255 255 / .08);opacity:0;transition:opacity .35s}
+.glabel.fam{font-size:11.5px;font-weight:700;padding:3px 10px;background:rgb(4 4 10 / .7)}
+.tip{position:absolute;pointer-events:none;background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:7px 10px;font-size:12px;max-width:260px;transform:translate(14px,-50%)}
+.tip small{display:block;color:var(--muted);font-size:11px}
+.zoom{position:absolute;right:12px;bottom:14px;display:flex;flex-direction:column;gap:4px}
+.zoom button{width:32px;height:32px;border-radius:9px;border:1px solid var(--line);background:rgb(12 11 22 / .85);cursor:pointer;font-size:15px}
+.legend{position:absolute;left:12px;bottom:14px;display:flex;gap:10px;flex-wrap:wrap;font:500 10.5px var(--f-mono);color:var(--muted);background:rgb(4 4 10 / .6);border:1px solid var(--line);border-radius:999px;padding:5px 11px;max-width:calc(100% - 80px)}
+.legend span{display:flex;align-items:center;gap:5px;white-space:nowrap}
+.dot{width:7px;height:7px;border-radius:50%;display:inline-block}
+/* ficha */
+.drawer{position:absolute;top:0;right:0;bottom:0;width:min(380px,100%);background:var(--panel);border-left:1px solid var(--line);z-index:8;
+  transform:translateX(102%);transition:transform .35s cubic-bezier(.2,.8,.2,1);display:flex;flex-direction:column}
+.drawer.open{transform:none}
+.dhead{display:flex;justify-content:flex-end;padding:10px 12px 0}
+.dbody{overflow-y:auto;padding:4px 18px 24px;display:flex;flex-direction:column;gap:14px;padding-bottom:max(24px,env(safe-area-inset-bottom,0px))}
+.x{border:1px solid var(--line);background:var(--panel2);border-radius:999px;padding:6px 12px;font-size:12px;cursor:pointer}
+.dbody h3{margin:0;font-size:18px;line-height:1.25;text-wrap:balance}
+.badge{font:700 9.5px var(--f-mono);letter-spacing:.08em;background:var(--act);color:#1a1205;border-radius:4px;padding:2px 6px}
+.kv{display:grid;grid-template-columns:auto minmax(0,1fr);gap:7px 14px;font-size:12.5px;margin:0}
+.kv dt{font:600 9.5px var(--f-mono);letter-spacing:.08em;color:var(--muted);text-transform:uppercase;padding-top:2px}
+.kv dd{margin:0;min-width:0;overflow-wrap:anywhere}
+.kv a,.src a,.steps a{color:#c4b5fd}
+.mono{font-family:var(--f-mono);font-size:12px;user-select:all;word-break:break-all}
+.fit{background:var(--panel2);border:1px solid var(--line);border-radius:12px;padding:12px}
+.fit b{font:700 24px var(--f-mono);background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.fit ul{margin:6px 0 0;padding-left:18px;color:var(--muted);font-size:12px}
+.src{display:flex;flex-direction:column;gap:9px}
+.srci{border-left:2px solid var(--line);padding-left:10px;font-size:12px;display:flex;flex-direction:column;gap:2px}
+.srci span{color:var(--muted)}
+.note{font-size:11.5px;color:var(--muted);border-left:2px solid var(--act);padding-left:10px;margin:0}
+.steps{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:10px;font-size:13px;line-height:1.5}
+.nowebgl{position:absolute;inset:0;display:grid;place-items:center;padding:24px;text-align:center;color:var(--muted)}
+/* celular */
+@media (max-width:760px){
+  header{flex-wrap:wrap;row-gap:8px}
+  .brand{order:1}
+  .count{order:2;margin-left:auto}
+  nav{order:3;flex:1 1 100%}
+  .search{order:4;flex:1 1 100%}
+  .search kbd{display:none}
+  main{grid-template-columns:minmax(0,1fr)}
+  .panel{position:absolute;left:0;right:0;bottom:0;z-index:6;border-right:0;border-top:1px solid var(--line);border-radius:18px 18px 0 0;
+    height:var(--sheet,190px);max-height:calc(100% - 12px);transition:height .3s ease;box-shadow:0 -10px 30px rgb(0 0 0 / .5)}
+  .panel.up{--sheet:84%}
+  .handle{display:flex;justify-content:center;align-items:center;gap:8px;width:100%;border:0;background:none;padding:8px 0 2px;cursor:pointer;color:var(--muted);font:500 11px var(--f-mono)}
+  .handle::before{content:"";width:40px;height:4px;border-radius:2px;background:var(--line)}
+  .pscroll{padding:8px 14px max(14px,env(safe-area-inset-bottom,0px))}
+  .panel:not(.up) .pscroll{overflow:hidden}
+  .legend{display:none}
+  .zoom{bottom:auto;top:12px}
+  .drawer{width:100%;border-left:0;z-index:9}
+  .row2{grid-template-columns:1fr}
+}
+@media (prefers-reduced-motion:reduce){.drawer,.panel{transition:none}.mini .dial::after{animation:none}}
+</style>
+
+<div class="app">
+  <header>
+    <div class="brand"><i aria-hidden="true"></i>Radar CVV</div>
+    <nav aria-label="Seções">
+      <button type="button" id="tGal" aria-current="true">✦ <b>Galáxia</b></button>
+      <button type="button" id="tWorld" aria-current="false">◍ <b>Mundo</b></button>
+      <button type="button" id="tOpp" aria-current="false">★ <b>Oportunidades</b></button>
+      <button type="button" id="tHow" aria-current="false">? <b>Como fazer</b></button>
+      <button type="button" disabled title="Em breve">↗ <b>Tendências</b></button>
+    </nav>
+    <div class="search"><input id="q" type="search" placeholder="Buscar hospital, cidade ou área" aria-label="Buscar hospital, cidade ou área" autocomplete="off"><kbd>/</kbd></div>
+    <div class="count"><span class="ring" id="ring"></span><span><b id="nShow">0</b> / <span id="nAll">0</span> polos<small>A CONFERIR · fontes públicas</small></span></div>
+  </header>
+  <main>
+    <section class="panel" id="panel" aria-label="Busca de polos">
+      <button class="handle" id="handle" type="button" aria-expanded="false">Busca e resultados</button>
+      <div class="pscroll" id="pscroll">
+        <div class="scan">
+          <div class="eyebrow">BUSCA DE POLOS</div>
+          <h2>Encontre o seu <em>polo</em></h2>
+          <p id="desc">O radar varre centros de cardiologia e cirurgia cardiovascular no mundo e ranqueia onde você tem mais chance de conseguir um observership.</p>
+          <div class="fld"><label for="fArea">Área <span>opcional</span></label><select id="fArea"></select></div>
+          <div class="row2">
+            <div class="fld"><label for="fReg">Região</label><select id="fReg"><option value="">Qualquer lugar</option></select></div>
+            <div class="fld"><label for="fPerf">Perfil</label><select id="fPerf"><option value="res">Residente (R1–R5)</option><option value="esp">Especialista formado</option></select></div>
+          </div>
+          <div class="budget">
+            <div class="bhead"><span class="lbl">Orçamento</span><span class="bval" id="bval">Moderado</span></div>
+            <input id="fBud" type="range" min="0" max="100" value="45" aria-label="Orçamento">
+            <div class="bfoot"><span>econômico</span><span>sem limite</span></div>
+          </div>
+          <details class="w"><summary>Pesos do ranking</summary>
+            <div class="wl">
+              <label for="w1">Programa publicado</label><input id="w1" type="range" min="0" max="5" value="3">
+              <label for="w2">Aceita residente</label><input id="w2" type="range" min="0" max="5" value="4">
+              <label for="w3">Contato oficial</label><input id="w3" type="range" min="0" max="5" value="2">
+              <label for="w4">Volume e áreas</label><input id="w4" type="range" min="0" max="5" value="2">
+            </div>
+          </details>
+          <button class="go" id="go" type="button">◌ Varrer o mundo</button>
+          <div class="mini" id="mini" hidden><div class="dial"></div><small id="miniTxt">Varrendo polos…<br>leva poucos segundos</small></div>
+        </div>
+        <div class="rhead"><h3>Resultados</h3><span id="nRes"></span></div>
+        <div class="cards" id="cards"></div>
+      </div>
+    </section>
+    <section class="stage" id="stage" aria-label="Mapa de polos">
+      <div class="legend" id="legend"></div>
+      <div class="zoom"><button type="button" id="zin" aria-label="Aproximar">+</button><button type="button" id="zout" aria-label="Afastar">−</button></div>
+      <div class="tip" id="tip" hidden></div>
+      <aside class="drawer" id="drawer" aria-label="Ficha"><div class="dhead"><button class="x" type="button" id="close">Fechar</button></div><div class="dbody" id="dbody"></div></aside>
+    </section>
+  </main>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/three@0.147.0/build/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.147.0/examples/js/shaders/CopyShader.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.147.0/examples/js/shaders/LuminosityHighPassShader.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.147.0/examples/js/postprocessing/EffectComposer.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.147.0/examples/js/postprocessing/ShaderPass.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.147.0/examples/js/postprocessing/MaskPass.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.147.0/examples/js/postprocessing/RenderPass.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.147.0/examples/js/postprocessing/UnrealBloomPass.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.147.0/examples/js/controls/OrbitControls.js"></script>
+<script>
+(function(){
+const LAND=__LAND__;
+const POLOS=__POLOS__;
+const $=id=>document.getElementById(id);
+const esc=t=>String(t==null?'':t).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+const mobile=()=>innerWidth<=760;
+// áreas: nome, grupo, cor
+const GROUPS=[['ccv','Cirurgia cardiovascular'],['int','Intervenção e arritmia'],['clin','Cardiologia clínica'],['ped','Pediatria e congênitas'],['crit','Terapia intensiva e suporte'],['est','Estágio e programas gerais']];
+const T={
+ robotica:['Robótica / MICS','ccv','#ff4fd8'],coronaria:['Coronária / CRM','ccv','#ff6f91'],aorta:['Aorta','ccv','#ff4d5e'],vascular_endovascular:['Vascular / endovascular','ccv','#e15bff'],
+ valvar:['Cirurgia valvar','ccv','#ff8fc8'],arritmia_cirurgica:['Arritmia cirúrgica','ccv','#c26bff'],transplante:['Transplante / LVAD','ccv','#ff8a3d'],cirurgia_cardiaca:['Cirurgia cardíaca','ccv','#f472b6'],congenitas:['Congênitas (cirurgia)','ped','#d39bff'],
+ estrutural:['Estrutural / TAVI','int','#b8f046'],hemodinamica_coronaria:['Hemodinâmica coronária','int','#86e24f'],eletrofisiologia:['Eletrofisiologia','int','#52f0a0'],imagem:['Imagem','int','#3fe0c5'],nuclear:['Medicina nuclear','int','#59d4ff'],
+ ic:['Insuficiência cardíaca','clin','#ffc04d'],miocardiopatias:['Miocardiopatias','clin','#5ab8ff'],hipertensao_pulmonar:['Hipertensão pulmonar','clin','#7b93ff'],cardio_oncologia:['Cardio-oncologia','clin','#9b86ff'],
+ preventiva:['Preventiva','clin','#4fc3ff'],esporte:['Cardiologia do esporte','clin','#35e0ff'],cardiogenetica:['Cardiogenética','clin','#a7b6ff'],valvopatias_clinicas:['Valvopatias','clin','#80cfff'],cardiologia:['Cardiologia geral','est','#cfd3ff'],
+ cardio_pediatrica:['Cardiologia pediátrica','ped','#f4e45c'],congenita_adulto:['Congênita do adulto','ped','#e7c4ff'],fetal:['Cardiologia fetal','ped','#fff07a'],hemodinamica_pediatrica:['Hemodinâmica pediátrica','ped','#e2ff66'],
+ uti_cardiaca:['UTI cardíaca','crit','#ff9b54'],ecmo:['ECMO','crit','#ffb04a'],anestesia_cardiaca:['Anestesia cardíaca','crit','#ffa26b'],perfusao:['Perfusão','crit','#ffc27d'],reabilitacao:['Reabilitação','crit','#ffd59b'],emergencia_choque:['Emergência / choque','crit','#ff7a45'],
+ estagio_externo_cardiologia:['Estágio externo — cardiologia','est','#ffffff'],estagio_externo_ccv:['Estágio externo — CCV','est','#f0f0ff']
+};
+const tn=k=>(T[k]||[k])[0], tc=k=>(T[k]||[0,0,'#ccc'])[2];
+const REG={eua:'EUA',can:'Canadá',lat:'América Latina',eur:'Europa',asia:'Ásia e Oriente Médio',oce:'Oceania'};
+const RES={sim:'Aceita residentes',alguns_trainees:'Aceita alguns residentes',so_formados:'Só especialistas formados',nao:'Não aceita',nao_confirmado:'Não confirmado'};
+const P=POLOS.map((p,i)=>Object.assign({id:i},p));
+const state={area:'',reg:'',perf:'res',bud:45,w:[3,4,2,2],q:'',mix:1,mixT:1,sel:null,top:new Set(),boost:0};
+$('nAll').textContent=P.length;
+
+// selects
+const present=Object.keys(T).filter(k=>P.some(p=>p.areas.includes(k)));
+$('fArea').innerHTML='<option value="">Todas as áreas</option>'+GROUPS.map(g=>{const ks=present.filter(k=>T[k][1]===g[0]);return ks.length?'<optgroup label="'+g[1]+'">'+ks.map(k=>'<option value="'+k+'">'+tn(k)+' ('+P.filter(p=>p.areas.includes(k)).length+')</option>').join('')+'</optgroup>':''}).join('');
+$('fReg').innerHTML+=Object.keys(REG).filter(r=>P.some(p=>p.reg===r)).map(r=>'<option value="'+r+'">'+REG[r]+'</option>').join('');
+$('legend').innerHTML=GROUPS.slice(0,5).map(g=>{const k=present.find(k=>T[k][1]===g[0]);return '<span><i class="dot" style="background:'+tc(k)+';box-shadow:0 0 6px '+tc(k)+'"></i>'+g[1]+'</span>'}).join('');
+$('desc').textContent='O radar varre '+P.length+' centros de cardiologia e cirurgia cardiovascular no mundo e ranqueia onde você tem mais chance de conseguir um observership.';
+
+// ranking
+function budLabel(v){return v<25?'Econômico':v<55?'Moderado':v<80?'Confortável':'Sem limite'}
+function fit(p){const w=state.w,why=[],x=[];
+ const prog=p.programa==='sim'?1:p.programa==='nao_publico'?.3:.2;x.push(prog);why.push((p.programa==='sim'?'Programa de observership publicado':'Sem programa público: contato direto com o serviço'));
+ let res;if(state.perf==='res'){res={sim:1,alguns_trainees:.75,nao_confirmado:.35}[p.aceita]||0;why.push('Residentes: '+RES[p.aceita])}else{res={sim:1,alguns_trainees:1,so_formados:1,nao_confirmado:.5}[p.aceita]||0;why.push('Especialistas: '+(res>=1?'aceita':'não confirmado'))}x.push(res);
+ const cont=(p.contato_fonte==='oficial'&&p.contatos.length)?1:p.contatos.length?.5:0;x.push(cont);why.push(cont===1?'Contato oficial publicado':cont?'Contato encontrado (confirmar)':'Sem contato confirmado');
+ const vol=Math.min(1,p.areas.length/5)*.6+((p.volume&&p.volume!=='nao_confirmado')?.4:0);x.push(vol);why.push(p.areas.length+(p.areas.length>1?' áreas':' área')+(p.volume&&p.volume!=='nao_confirmado'?' · volume publicado':''));
+ const cw=(1-state.bud/100)*3;const cost=p.taxa_baixa?1:/não publicada|não informada/.test(p.taxa)?.5:.15;
+ const W=w[0]+w[1]+w[2]+w[3]+cw;const s=W?10*(w[0]*x[0]+w[1]*x[1]+w[2]*x[2]+w[3]*x[3]+cw*cost)/W:0;
+ why.push('Custo: '+(p.taxa_baixa?'taxa até US$ 500':'taxa '+p.taxa)+(cw<.5?' (pesa pouco no seu orçamento)':''));
+ return {s:Math.round(s*10)/10,why}}
+function matches(p){
+ if(state.area&&!p.areas.includes(state.area))return false;
+ if(state.reg&&p.reg!==state.reg)return false;
+ if(state.q){const t=(p.name+' '+p.city+' '+p.country+' '+p.areas.map(tn).join(' ')).toLowerCase();if(!t.includes(state.q))return false}
+ return true}
+
+function renderList(){const vis=P.filter(matches).map(p=>({p,f:fit(p)})).sort((a,b)=>b.f.s-a.f.s||b.p.areas.length-a.p.areas.length);
+ $('nShow').textContent=vis.length;$('ring').style.setProperty('--p',(vis.length/P.length*100)+'%');$('nRes').textContent=vis.length+' polos';
+ state.top=new Set(vis.slice(0,10).map(x=>x.p.id));
+ $('cards').innerHTML=vis.slice(0,80).map((x,i)=>{const a=x.p.areas;return '<button type="button" class="card" data-id="'+x.p.id+'"><span class="rk">#'+(i+1)+'</span><span class="nm">'+esc(x.p.name)+'</span><span class="sc">'+x.f.s.toFixed(1)+'</span><span class="ct">'+esc(x.p.city)+' · '+esc(x.p.country)+'</span><span class="tags">'+((x.p.aceita==='sim'||x.p.aceita==='alguns_trainees')?'<span class="res">aceita residente</span>':'')+a.slice(0,3).map(k=>'<span class="tag" style="color:'+tc(k)+';border-color:'+tc(k)+'55">'+tn(k)+'</span>').join('')+(a.length>3?'<span class="tag" style="color:var(--muted);border-color:var(--line)">+'+(a.length-3)+'</span>':'')+'</span></button>'}).join('')||'<p class="note">Nenhum polo com esses filtros.</p>';
+ document.querySelectorAll('.card').forEach(c=>c.onclick=()=>openFicha(+c.dataset.id,true));
+ if(window.__upd)window.__upd()}
+
+function link(u,t){return /^https?:\/\//.test(u||'')?'<a href="'+esc(u)+'" target="_blank" rel="noopener">'+esc(t||'abrir')+'</a>':esc(u||'')}
+function contato(c){if(/^https?:/.test(c))return link(c,'formulário / página oficial');if(/@/.test(c))return '<span class="mono">'+esc(c)+'</span>';return esc(c)}
+function openDrawer(html){$('dbody').innerHTML=html;$('drawer').classList.add('open');$('close').focus({preventScroll:true});if(mobile())setSheet(false)}
+function openFicha(id,fly){const p=P[id];state.sel=id;const f=fit(p);
+ openDrawer('<div><span class="badge">A CONFERIR</span></div><h3>'+esc(p.name)+'</h3><div style="color:var(--muted);margin-top:-8px">'+esc(p.city)+', '+esc(p.country)+'</div>'+
+ '<dl class="kv"><dt>Áreas</dt><dd><b>Aceita em '+p.areas.length+(p.areas.length>1?' áreas':' área')+'</b><br>'+p.areas.map(k=>'<span style="color:'+tc(k)+'">'+tn(k)+'</span>').join(' · ')+'</dd>'+
+ '<dt>Observership</dt><dd>'+(p.programa==='sim'?'Programa publicado — '+link(p.url,'abrir página'):p.programa==='nao_publico'?'Sem programa público':'Não confirmado')+'</dd>'+
+ '<dt>Contato</dt><dd>'+(p.contatos.length?p.contatos.map(contato).join('<br>'):'não confirmado')+'</dd>'+
+ '<dt>Residentes</dt><dd>'+RES[p.aceita]+'</dd><dt>Taxa</dt><dd>'+esc(p.taxa)+'</dd><dt>Duração</dt><dd>'+esc(p.duracao)+'</dd><dt>Antecedência</dt><dd>'+esc(p.antecedencia)+'</dd>'+
+ '<dt>Requisitos</dt><dd>'+esc(p.requisitos)+'</dd><dt>Volume</dt><dd>'+esc(p.volume==='nao_confirmado'?'não publicado':p.volume)+'</dd></dl>'+
+ '<div class="fit"><div style="font-size:12px;color:var(--muted)">Chance estimada para o seu perfil</div><b>'+f.s.toFixed(1)+'/10</b><ul>'+f.why.map(w=>'<li>'+esc(w)+'</li>').join('')+'</ul></div>'+
+ '<div class="src"><div class="lbl">Evidências por área ('+p.fontes.length+')</div>'+p.fontes.map(s=>'<div class="srci"><b>'+s.areas.map(tn).join(' · ')+'</b><span>'+esc(s.evid)+'</span>'+(s.volume&&!/^nao_/.test(s.volume)?'<span>Volume: '+esc(s.volume)+'</span>':'')+link(s.url,'fonte')+'</div>').join('')+'</div>'+
+ '<p class="note">Dados de fontes públicas conferidos por agentes verificadores em 01/11/2026. Falta revisão humana: confirme na página oficial antes de enviar o e-mail.</p>');
+ if(fly&&window.__fly)window.__fly(id)}
+function closeFicha(){$('drawer').classList.remove('open');state.sel=null}
+$('close').onclick=closeFicha;addEventListener('keydown',e=>{if(e.key==='Escape')closeFicha();if(e.key==='/'&&document.activeElement!==$('q')){e.preventDefault();$('q').focus()}});
+function howTo(){openDrawer('<div><span class="badge">RASCUNHO · revisão da Dra.</span></div><h3>Como fazer um observership de 1 mês</h3><ol class="steps">'+
+ '<li><b>Escolha 10 a 20 polos.</b> Use a busca: área, região e "aceita residente". Priorize programas publicados.</li>'+
+ '<li><b>Mande muitos e-mails.</b> Currículo e carta curta: quem você é, por que aquele serviço, o período, e que seria uma honra observar. É jogo de volume: espere poucas respostas.</li>'+
+ '<li><b>Entrevista.</b> Alguns serviços marcam uma conversa por vídeo antes de aceitar.</li>'+
+ '<li><b>Documentos e saúde.</b> Triagem de saúde (tuberculose, sorologias, vacinas), seguro e formulários. Alguns cobram taxa.</li>'+
+ '<li><b>Autorização da residência.</b> Leve o aceite à sua COREME para aprovar como estágio externo.</li>'+
+ '<li><b>Visto e custos.</b> Confira o visto pedido e planeje passagem, moradia e alimentação.</li></ol>'+
+ '<p class="note">Baseado no caminho de uma residente da Unifesp que fez observership em robótica em Chicago. Texto em rascunho, a ser revisado por ela.</p>')}
+
+// controles
+function setTab(id){['tGal','tWorld','tOpp','tHow'].forEach(t=>$(t).setAttribute('aria-current',t===id?'true':'false'))}
+$('tGal').onclick=()=>{setTab('tGal');state.mixT=1};$('tWorld').onclick=()=>{setTab('tWorld');state.mixT=0};
+$('tOpp').onclick=()=>{setTab('tOpp');if(mobile())setSheet(true);$('cards').scrollIntoView({behavior:reduce?'auto':'smooth'})};
+$('tHow').onclick=()=>{setTab('tHow');howTo()};
+function setSheet(up){$('panel').classList.toggle('up',up);$('handle').setAttribute('aria-expanded',up);$('handle').textContent=up?'Fechar busca':'Busca e resultados'}
+$('handle').onclick=()=>setSheet(!$('panel').classList.contains('up'));
+$('fArea').onchange=e=>{state.area=e.target.value;renderList()};$('fReg').onchange=e=>{state.reg=e.target.value;renderList()};$('fPerf').onchange=e=>{state.perf=e.target.value;renderList()};
+$('fBud').oninput=e=>{state.bud=+e.target.value;$('bval').textContent=budLabel(state.bud);renderList()};
+['w1','w2','w3','w4'].forEach((id,i)=>$(id).oninput=e=>{state.w[i]=+e.target.value;renderList()});
+let qT;$('q').addEventListener('input',e=>{clearTimeout(qT);qT=setTimeout(()=>{state.q=e.target.value.trim().toLowerCase();renderList();state.boost=1.2},150)});
+$('go').onclick=()=>{const b=$('go');if(b.getAttribute('aria-busy')==='true')return;b.setAttribute('aria-busy','true');b.textContent='Varrendo '+P.filter(matches).length+' polos…';$('mini').hidden=false;if(mobile())setSheet(true);state.boost=2.2;
+ setTimeout(()=>{b.removeAttribute('aria-busy');b.textContent='◌ Varrer de novo';$('mini').hidden=true;renderList();const first=document.querySelector('.card');if(first){first.scrollIntoView({block:'nearest',behavior:reduce?'auto':'smooth'});if(window.__fly)window.__fly(+first.dataset.id)}},reduce?200:1600)};
+renderList();
+
+// ---------- WebGL ----------
+const stage=$('stage');let renderer;
+try{renderer=new THREE.WebGLRenderer({antialias:false,powerPreference:'high-performance'})}catch(e){}
+if(!renderer){stage.insertAdjacentHTML('beforeend','<div class="nowebgl">Seu navegador não liberou WebGL. A busca e a lista continuam funcionando.</div>');return}
+const lowp=mobile();renderer.setPixelRatio(Math.min(devicePixelRatio,lowp?1.5:2));renderer.setClearColor(0x04040a,0);
+stage.prepend(renderer.domElement);
+const scene=new THREE.Scene();const cam=new THREE.OrthographicCamera(-6,6,3,-3,-10,10);cam.position.z=5;
+const ctr=new THREE.OrbitControls(cam,renderer.domElement);ctr.enableRotate=false;ctr.screenSpacePanning=true;ctr.enableDamping=true;ctr.minZoom=.5;ctr.maxZoom=9;
+ctr.mouseButtons={LEFT:THREE.MOUSE.PAN,MIDDLE:THREE.MOUSE.DOLLY,RIGHT:THREE.MOUSE.PAN};ctr.touches={ONE:THREE.TOUCH.PAN,TWO:THREE.TOUCH.DOLLY_PAN};
+const U={uTime:{value:0},uSweep:{value:0},uMix:{value:1},uPx:{value:renderer.getPixelRatio()},uZoom:{value:1},uReduce:{value:reduce?1:0}};
+let seed=11;const rnd=()=>{seed=(seed*16807)%2147483647;return (seed-1)/2147483646};const gs=()=>(rnd()+rnd()+rnd()+rnd()-2)*.87;
+// centros das nebulosas (por área) em espiral elíptica
+const AK=present;const centers={};
+const FC={ccv:[-2.75,.95],int:[2.75,1.15],clin:[-2.6,-1.6],ped:[2.7,-1.45],crit:[0,-2.35],est:[0,2.3]};
+GROUPS.forEach(([g])=>{const ks=AK.filter(k=>T[k][1]===g);const R=ks.length>1?Math.min(1.45,.55+ks.length*.13):0;ks.forEach((k,i)=>{const a=i/ks.length*Math.PI*2+.4;centers[k]=[FC[g][0]+Math.cos(a)*R*.95,FC[g][1]+Math.sin(a)*R*.72]})});
+// posição de cada polo na galáxia: perto da nebulosa da 1ª área
+P.forEach(p=>{const c=centers[p.areas[0]];p.gx=c[0]+gs()*.26;p.gy=c[1]+gs()*.2;p.wx=p.lon/30;p.wy=p.lat/30});
+const EASE='float ease(float t){return t<.5?4.*t*t*t:1.-pow(-2.*t+2.,3.)/2.;}';
+// estrelas de fundo
+(function(){const n=lowp?500:1100,pos=new Float32Array(n*3),ph=new Float32Array(n);for(let i=0;i<n;i++){pos[i*3]=(rnd()-.5)*30;pos[i*3+1]=(rnd()-.5)*18;pos[i*3+2]=-2;ph[i]=rnd()*6.28}
+ const g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.BufferAttribute(pos,3));g.setAttribute('aPh',new THREE.BufferAttribute(ph,1));
+ scene.add(new THREE.Points(g,new THREE.ShaderMaterial({uniforms:U,transparent:true,depthWrite:false,blending:THREE.AdditiveBlending,
+  vertexShader:'attribute float aPh;uniform float uTime,uPx,uReduce;varying float vA;void main(){vA=uReduce>.5?.25:.10+.22*(.5+.5*sin(uTime*1.1+aPh*4.));gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.);gl_PointSize=1.3*uPx;}',
+  fragmentShader:'varying float vA;void main(){float r=length(gl_PointCoord-.5)*2.;gl_FragColor=vec4(vec3(.8,.82,1.)*vA*(1.-r),1.);}'})))})();
+// varredura fina
+const sweep=new THREE.Mesh(new THREE.PlaneGeometry(60,60),new THREE.ShaderMaterial({uniforms:U,transparent:true,depthWrite:false,blending:THREE.AdditiveBlending,
+ vertexShader:'varying vec2 vP;void main(){vP=position.xy;gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.);}',
+ fragmentShader:`varying vec2 vP;uniform float uSweep,uTime,uReduce;
+ void main(){float r=length(vP);float a=atan(vP.y,vP.x);float d=mod(uSweep-a,6.2831853);float fade=smoothstep(7.5,.3,r);
+  float trail=exp(-d*3.2)*.10*fade;float beam=exp(-d*260.)*.55*fade;if(uReduce>.5){trail=0.;beam=0.;}
+  float rr=abs(fract(r/1.1+.5)-.5)*1.1;float ring=smoothstep(.012,0.,rr)*.035*fade;
+  vec3 c=mix(vec3(.55,.36,.96),vec3(.93,.29,.6),clamp(d/1.2,0.,1.))*(trail+beam)+vec3(.45,.4,.75)*ring;gl_FragColor=vec4(c,1.);}`}));
+sweep.position.z=-1;scene.add(sweep);
+// continentes (só no modo Mundo)
+(function(){const n=LAND.length/2,pos=new Float32Array(n*3);for(let i=0;i<n;i++){pos[i*3]=LAND[i*2]/300;pos[i*3+1]=LAND[i*2+1]/300;pos[i*3+2]=-.5}
+ const g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.BufferAttribute(pos,3));
+ scene.add(new THREE.Points(g,new THREE.ShaderMaterial({uniforms:U,transparent:true,depthWrite:false,blending:THREE.AdditiveBlending,
+  vertexShader:EASE+'uniform float uPx,uZoom,uMix;varying float vA;void main(){vA=.16*(1.-ease(uMix));gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.);gl_PointSize=(1.4+.5*min(uZoom,4.))*uPx;}',
+  fragmentShader:'varying float vA;void main(){float r=length(gl_PointCoord-.5)*2.;if(r>1.)discard;gl_FragColor=vec4(vec3(.5,.55,.95)*vA,1.);}'})))})();
+// poeira das nebulosas: cada polo x área gera partículas
+const dust=[];AK.forEach(k=>{const ps=P.filter(p=>p.areas.includes(k));const n=Math.round(Math.max(lowp?260:520,ps.length*(lowp?24:46)));for(let i=0;i<n;i++)dust.push([ps[i%ps.length].id,k])});
+const HAZE=lowp?1400:3000;const ND=dust.length+HAZE;const dW=new Float32Array(ND*2),dG=new Float32Array(ND*2),dC=new Float32Array(ND*3),dP=new Float32Array(ND),dS=new Float32Array(ND),dO=new Float32Array(ND),dDim=new Float32Array(ND);
+const owner=new Int32Array(ND);const col=new THREE.Color();let j=0;
+const hsl={};
+dust.forEach(([pid,k])=>{const p=P[pid],c=centers[k];col.set(tc(k));col.getHSL(hsl);
+  const rr=Math.pow(rnd(),.8),ang=rnd()*6.283;dW[j*2]=p.wx+Math.cos(ang)*rr*.13;dW[j*2+1]=p.wy+Math.sin(ang)*rr*.13;
+  const tight=rnd()<.35;const sp=tight?.12:.36;const bx=tight?p.gx:c[0],by=tight?p.gy:c[1];
+  dG[j*2]=bx+gs()*sp*1.1;dG[j*2+1]=by+gs()*sp*.8;
+  col.setHSL((hsl.h+(rnd()-.5)*.06+1)%1,Math.min(1,hsl.s*(.85+rnd()*.25)),Math.min(.82,hsl.l*(.7+rnd()*.55)));
+  dC.set([col.r,col.g,col.b],j*3);dP[j]=rnd();dS[j]=1+Math.pow(rnd(),3)*3.2;dO[j]=.45+rnd()*.55;owner[j]=pid;j++});
+for(let h=0;h<HAZE;h++){const k=AK[Math.floor(rnd()*AK.length)];const g=T[k][1];const f=FC[g];const p=P[Math.floor(rnd()*P.length)];col.set(tc(k));col.getHSL(hsl);
+  dW[j*2]=p.wx+gs()*.2;dW[j*2+1]=p.wy+gs()*.2;dG[j*2]=f[0]+gs()*1.25;dG[j*2+1]=f[1]+gs()*.85;
+  col.setHSL(hsl.h,hsl.s*.8,hsl.l*.55);dC.set([col.r,col.g,col.b],j*3);dP[j]=rnd();dS[j]=1+rnd()*1.6;dO[j]=.18+rnd()*.25;owner[j]=p.id;j++}
+const dGeo=new THREE.BufferGeometry();dGeo.setAttribute('position',new THREE.BufferAttribute(new Float32Array(ND*3),3));
+[['aW',dW,2],['aG',dG,2],['aCol',dC,3],['aPh',dP,1],['aSz',dS,1],['aOp',dO,1],['aDim',dDim,1]].forEach(([n,a,s])=>dGeo.setAttribute(n,new THREE.BufferAttribute(a,s)));
+dGeo.boundingSphere=new THREE.Sphere(new THREE.Vector3(),100);
+scene.add(new THREE.Points(dGeo,new THREE.ShaderMaterial({uniforms:U,transparent:true,depthWrite:false,blending:THREE.AdditiveBlending,
+ vertexShader:EASE+`attribute vec2 aW,aG;attribute vec3 aCol;attribute float aPh,aSz,aOp,aDim;uniform float uTime,uSweep,uMix,uPx,uZoom,uReduce;varying vec3 vC;varying float vA;
+ void main(){float e=ease(uMix);vec2 p=mix(aW,aG,e);vec2 drift=vec2(sin(uTime*.25+aPh*40.),cos(uTime*.21+aPh*31.))*.012*e*(1.-uReduce);p+=drift;
+  float a=atan(p.y,p.x);float d=mod(uSweep-a,6.2831853);float ping=uReduce>.5?0.:exp(-d*2.4);
+  float tw=uReduce>.5?1.:.65+.35*sin(uTime*(1.2+aPh*1.5)+aPh*40.);
+  vA=aOp*(.42+.6*ping)*tw*(1.-aDim*.92);vC=aCol;
+  gl_Position=projectionMatrix*modelViewMatrix*vec4(p,0.,1.);gl_PointSize=aSz*uPx*(.75+.18*min(uZoom,5.));}`,
+ fragmentShader:'varying vec3 vC;varying float vA;void main(){float r=length(gl_PointCoord-.5)*2.;if(r>1.)discard;float g=exp(-r*r*3.5);gl_FragColor=vec4(vC*g*vA,1.);}'})));
+// núcleos dos polos
+const NP=P.length;const cW=new Float32Array(NP*2),cG=new Float32Array(NP*2),cC=new Float32Array(NP*3),cS=new Float32Array(NP),cPg=new Float32Array(NP),cPh=new Float32Array(NP),cDim=new Float32Array(NP),cSel=new Float32Array(NP);
+P.forEach((p,i)=>{cW[i*2]=p.wx;cW[i*2+1]=p.wy;cG[i*2]=p.gx;cG[i*2+1]=p.gy;col.set(tc(p.areas[0]));cC.set([col.r,col.g,col.b],i*3);cS[i]=4.5+Math.min(6,p.areas.length*1.2)+((p.volume&&p.volume!=='nao_confirmado')?1.5:0);cPg[i]=p.programa==='sim'?1:0;cPh[i]=rnd()});
+const cGeo=new THREE.BufferGeometry();cGeo.setAttribute('position',new THREE.BufferAttribute(new Float32Array(NP*3),3));
+[['aW',cW,2],['aG',cG,2],['aCol',cC,3],['aSz',cS,1],['aPg',cPg,1],['aPh',cPh,1],['aDim',cDim,1],['aSel',cSel,1]].forEach(([n,a,s])=>cGeo.setAttribute(n,new THREE.BufferAttribute(a,s)));
+cGeo.boundingSphere=new THREE.Sphere(new THREE.Vector3(),100);
+scene.add(new THREE.Points(cGeo,new THREE.ShaderMaterial({uniforms:U,transparent:true,depthWrite:false,blending:THREE.AdditiveBlending,
+ vertexShader:EASE+`attribute vec2 aW,aG;attribute vec3 aCol;attribute float aSz,aPg,aPh,aDim,aSel;uniform float uTime,uSweep,uMix,uPx,uZoom,uReduce;varying vec3 vC;varying float vA;
+ void main(){vec2 p=mix(aW,aG,ease(uMix));float a=atan(p.y,p.x);float d=mod(uSweep-a,6.2831853);float ping=uReduce>.5?0.:exp(-d*2.);
+  float pulse=uReduce>.5?0.:aPg*(.5+.5*sin(uTime*2.2+aPh*6.28))*.35;
+  vA=(.55+.9*ping+pulse+aSel*1.4)*(1.-aDim*.9);vC=aCol;
+  gl_Position=projectionMatrix*modelViewMatrix*vec4(p,0.,1.);gl_PointSize=aSz*uPx*(1.+aSel*.8+.3*ping)*(.8+.15*min(uZoom,5.));}`,
+ fragmentShader:'varying vec3 vC;varying float vA;void main(){float r=length(gl_PointCoord-.5)*2.;if(r>1.)discard;float core=smoothstep(.45,0.,r);float g=exp(-r*r*4.);gl_FragColor=vec4((vC*g*.9+vec3(1.)*core*.75)*vA,1.);}'})));
+// bloom
+const composer=new THREE.EffectComposer(renderer);composer.addPass(new THREE.RenderPass(scene,cam));
+const bloom=new THREE.UnrealBloomPass(new THREE.Vector2(256,256),lowp?.7:.85,.65,.08);composer.addPass(bloom);
+function fitCam(){const w=stage.clientWidth,h=stage.clientHeight;if(!w||!h)return;const asp=w/h;const hh=Math.max(3.7,4.9/asp);const hw=hh*asp;
+ cam.left=-hw;cam.right=hw;cam.top=hh;cam.bottom=-hh;cam.updateProjectionMatrix();renderer.setSize(w,h,false);composer.setSize(w,h);bloom.resolution.set(w*(lowp?.5:1),h*(lowp?.5:1))}
+new ResizeObserver(fitCam).observe(stage);fitCam();
+if(mobile()){cam.zoom=1.2;cam.updateProjectionMatrix();cam.position.y=-2.4;ctr.target.y=-2.4}
+// rótulos das nebulosas
+const labels=AK.map(k=>{const d=document.createElement('div');d.className='glabel';d.textContent=tn(k);d.style.color=tc(k);stage.appendChild(d);return d});
+const FG=GROUPS.filter(([g])=>AK.some(k=>T[k][1]===g));const flabels=FG.map(([g,n])=>{const d=document.createElement('div');d.className='glabel fam';d.textContent=n;d.style.color=tc(AK.find(k=>T[k][1]===g));stage.appendChild(d);return d});
+// filtro -> brilho
+window.__upd=()=>{P.forEach((p,i)=>cDim[i]=matches(p)?0:1);cGeo.attributes.aDim.needsUpdate=true;for(let n=0;n<ND;n++)dDim[n]=cDim[owner[n]];dGeo.attributes.aDim.needsUpdate=true};window.__upd();
+const v3=new THREE.Vector3();const ease=t=>t<.5?4*t*t*t:1-Math.pow(-2*t+2,3)/2;
+function pos(p){const e=ease(state.mix);return [p.wx+(p.gx-p.wx)*e,p.wy+(p.gy-p.wy)*e]}
+function scr(x,y){v3.set(x,y,0).project(cam);return [(v3.x+1)/2*stage.clientWidth,(1-v3.y)/2*stage.clientHeight]}
+let fly=null;window.__fly=id=>{const q=pos(P[id]);fly={x0:ctr.target.x,y0:ctr.target.y,x:q[0],y:q[1]-(mobile()?.4:0),t:0,z0:cam.zoom,z:Math.max(cam.zoom,2.2)}};
+function pick(cx,cy,maxd){const r=renderer.domElement.getBoundingClientRect();const mx=cx-r.left,my=cy-r.top;let best=null,bd=maxd;
+ P.forEach((p,i)=>{if(cDim[i])return;const q=pos(p),s=scr(q[0],q[1]);const d=Math.hypot(s[0]-mx,s[1]-my);if(d<bd){bd=d;best=p}});return best?{p:best,mx,my}:null}
+let down=null;const cv=renderer.domElement;
+cv.addEventListener('pointerdown',e=>down=[e.clientX,e.clientY]);
+cv.addEventListener('pointerup',e=>{if(!down||Math.hypot(e.clientX-down[0],e.clientY-down[1])>6)return;const h=pick(e.clientX,e.clientY,mobile()?28:18);if(h)openFicha(h.p.id,false);else closeFicha()});
+cv.addEventListener('pointermove',e=>{if(e.pointerType!=='mouse')return;const h=pick(e.clientX,e.clientY,14),t=$('tip');if(!h){t.hidden=true;cv.style.cursor='grab';return}
+ cv.style.cursor='pointer';t.innerHTML=esc(h.p.name)+'<small>'+esc(h.p.city)+' · '+h.p.areas.length+(h.p.areas.length>1?' áreas':' área')+'</small>';t.style.left=h.mx+'px';t.style.top=h.my+'px';t.hidden=false});
+cv.addEventListener('pointerleave',()=>$('tip').hidden=true);
+$('zin').onclick=()=>{cam.zoom=Math.min(9,cam.zoom*1.4);cam.updateProjectionMatrix()};$('zout').onclick=()=>{cam.zoom=Math.max(.5,cam.zoom/1.4);cam.updateProjectionMatrix()};
+// loop
+const clock=new THREE.Clock();let fr=0,acc=0;window.__radar={fps:0,get angle(){return U.uSweep.value}};
+function loop(){requestAnimationFrame(loop);const dt=Math.min(clock.getDelta(),.1);U.uTime.value+=dt;fr++;acc+=dt;if(acc>=1){window.__radar.fps=Math.round(fr/acc);fr=0;acc=0}
+ if(!reduce)U.uSweep.value=(U.uSweep.value+Math.PI*2/7*(1+state.boost*2)*dt)%(Math.PI*2);state.boost=Math.max(0,state.boost-dt*.8);
+ const ms=reduce?1:dt/1.3;if(state.mix<state.mixT)state.mix=Math.min(state.mixT,state.mix+ms);else if(state.mix>state.mixT)state.mix=Math.max(state.mixT,state.mix-ms);U.uMix.value=state.mix;
+ if(fly){fly.t=Math.min(1,fly.t+(reduce?1:dt/.9));const e=1-Math.pow(1-fly.t,3);const nx=fly.x0+(fly.x-fly.x0)*e,ny=fly.y0+(fly.y-fly.y0)*e;cam.position.x+=nx-ctr.target.x;cam.position.y+=ny-ctr.target.y;ctr.target.set(nx,ny,0);cam.zoom=fly.z0+(fly.z-fly.z0)*e;cam.updateProjectionMatrix();if(fly.t>=1)fly=null}
+ P.forEach((p,i)=>cSel[i]=state.sel===i?1:state.top.has(i)&&!cDim[i]?.35:0);cGeo.attributes.aSel.needsUpdate=true;
+ U.uZoom.value=cam.zoom;ctr.update();
+ const la=Math.max(0,state.mix*2-1);const fam=mobile()&&cam.zoom<2.2;flabels.forEach((d,i)=>{const f=FC[FG[i][0]];const s=scr(f[0],f[1]);const hw=d.offsetWidth/2+6;d.style.left=Math.min(stage.clientWidth-hw,Math.max(hw,s[0]))+'px';d.style.top=s[1]+'px';d.style.opacity=fam?la:0});labels.forEach((d,i)=>{const c=centers[AK[i]];const s=scr(c[0],c[1]+(i%2?.42:-.42));d.style.left=s[0]+'px';d.style.top=s[1]+'px';d.style.opacity=(fam&&state.area!==AK[i])?0:la*(state.area&&state.area!==AK[i]?.25:1)});
+ composer.render()}
+loop();
+})();
+</script>
