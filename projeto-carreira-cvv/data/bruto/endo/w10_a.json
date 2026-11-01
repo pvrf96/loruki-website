@@ -1,0 +1,133 @@
+[
+ {
+  "match": "MedStar Washington Hospital Center",
+  "cidade": "Washington (DC)", "areas": ["robotica"],
+  "programa": {
+   "observership_oficial": "Política institucional MWHC de 'Clinical Observers' (não-programa institucional de ensino), aprovada 15/02/2025. Só attending ou APP do MWHC pode hospedar o observer; a observação pode ser encerrada a qualquer momento.",
+   "trecho": "Only MWHC attending physicians or Advanced Practice Professional (APPs) may host a Clinical Observer. / MWHC Approval Date: 02/15/2025",
+   "contato_oficial": "MWHCClinicalObservers@medstar.net (formulários e dúvidas de observers); rotators@medstar.net (aprendizes em programas institucionais)",
+   "fonte": "documento de política MWHC surgido na busca (URL do PDF não exibida no resultado; buscar 'MWHC clinical observer policy' em medstarhealth.org)",
+   "elegibilidade_estrangeiro": "não encontrado trilha internacional explícita; taxa, vacinas, seguro, visto: não encontrado",
+   "certeza": "confirmado quanto ao e-mail e à exigência de host; provável quanto a aceitar estrangeiro"
+  },
+  "servico": {
+   "nome": "Cardiac Surgery – MedStar Washington Hospital Center / MedStar Heart & Vascular Institute (MHVI), programa de cirurgia cardíaca robótica — https://www.medstarhealth.org/Locations/Cardiac-Surgery-MedStar-Washington-Hospital-Center",
+   "lider_robotica": "Yuji Kawano, MD — 'director of the new robotic cardiac surgery program' — https://www.medstarhealth.org/news-and-publications/news/mwhc-first-robotic-heart-surgery",
+   "chefe_cirurgia_cardiaca": "não encontrado nos resultados",
+   "fellowship": "não encontrado",
+   "volume": "Kawano: >200 cirurgias robóticas e >2.000 cardiovasculares antes do programa (comunicado 2022); 1ª robótica mitral da região (abr/2022, WTOP: https://wtop.com/health-fitness/2022/05/medstar-washington-hospital-center-first-in-region-to-perform-robotic-heart-surgery); STS 3 estrelas",
+   "planos": "expandir robótica para coronária, tricúspide, FA, CIA e tumores cardíacos",
+   "certeza": "confirmado (dados de 2022; cargo atual 2026 não reconfirmado)"
+  },
+  "pessoas_chave": [
+   {"nome": "Yuji Kawano, MD", "cargo": "diretor do programa de cirurgia cardíaca robótica (MHVI/MWHC); fellowship robótica avançada em Emory e fellowship no Brigham and Women's", "por_que": "host natural para observer em robótica (a política exige attending host)", "fonte": "https://www.medstarhealth.org/Doctors/yuji-kawano-md ; https://www.medstarhealth.org/news-and-publications/news/mwhc-first-robotic-heart-surgery"},
+   {"nome": "Ammar S. Bafi; Thomas E. MacGillivray; Alexander Nissen; Christian C. Shults", "cargo": "cirurgiões cardíacos listados na página do serviço", "por_que": "staff do serviço; possíveis hosts alternativos", "fonte": "https://www.medstarhealth.org/Locations/Cardiac-Surgery-MedStar-Washington-Hospital-Center"}
+  ],
+  "brasileiros": "não encontrado (nenhuma fonte liga cirurgião do serviço a formação no Brasil)",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": "não encontrado artigo 2022–2026 do serviço em robótica nos resultados (só imprensa)",
+  "dicas": [
+   "Observer exige attending host do MWHC: o e-mail ao Dr. Kawano é a chave; depois formulários via MWHCClinicalObservers@medstar.net.",
+   "Gancho para e-mail: programa robótico lançado em 2022 com expansão planejada (coronária, tricúspide, FA) e formação do Dr. Kawano em Emory."
+  ],
+  "rota_recomendada": "1) E-mail ao Dr. Yuji Kawano pedindo para ser host de observership de 4 semanas em robótica (citar o programa e a expansão para CABG/tricúspide); 2) com o aceite, enviar papelada a MWHCClinicalObservers@medstar.net confirmando requisitos para estrangeiros (vacinas, seguro, B1/B2).",
+  "alerta_correcao": "URL do radar é comunicado de 2022 (não 2026). Nada errado no nome."
+ },
+ {
+  "match": "Corewell Health Beaumont",
+  "cidade": "Royal Oak (MI)", "areas": ["robotica"],
+  "programa": {
+   "observership_oficial": "não encontrado para cirurgia cardíaca. Vários programas de residência de Royal Oak dizem explicitamente que NÃO oferecem observership.",
+   "trecho": "No, we do not offer observerships. (FAQ Internal Medicine Royal Oak) / No, we do not offer observerships or externships at this time. (Psychiatry)",
+   "fonte": "https://corewellhealth.org/graduate-medical-education/southeast-michigan/residencies/royal-oak/internal-medicine/faqs",
+   "legado": "formulário antigo 'graduate observership' do Beaumont Dearborn (status atual incerto): https://www.beaumont.org/docs/librariesprovider2/medical-students---dearborn/graduate-observ-application.pdf",
+   "visto": "GME aceita só J-1 ECFMG (para residentes) — não se aplica a observer",
+   "certeza": "confirmado (política negativa nas FAQs de GME; cirurgia cardíaca específica não encontrada)"
+  },
+  "servico": {
+   "nome": "Cardiac Surgery – Corewell Health William Beaumont University Hospital (Royal Oak); programa de cirurgia mitral robótica (lançado ~2024–2025, 'único na Grande Detroit')",
+   "chefe": "Thomas A. Schwann, MD, MBA — Regional Chief of Cardiac Surgery, Corewell Health East (Royal Oak, Dearborn, Troy) — https://www.dbusiness.com/people/thomas-schwann-to-lead-cardiovascular-surgery-at-corewell-health-in-southeast-michigan/",
+   "lider_robotica": "Rakesh M. Suri, MD — regional director of cardiac surgery robotics and innovation — https://newsroom.corewellhealth.org/2026-07-14-Corewell-Health-performs-worlds-first-documented-single-port-robotic-mitral-valve-repair",
+   "volume": "Suri: >7.000 procedimentos (perfil); 1º reparo mitral robótico single-port documentado do mundo (14/07/2026; 1 porta robótica + 1 utilitária vs 5 portas). US News: cardiologia/cirurgia cardíaca #25 nacional.",
+   "fellowship": "não encontrado",
+   "certeza": "confirmado"
+  },
+  "pessoas_chave": [
+   {"nome": "Rakesh M. Suri, MD", "cargo": "Regional Director, Cardiac Surgery Robotics and Innovation, WBUH Royal Oak", "por_que": "lidera robótica mitral; seria o host/sponsor", "fonte": "https://providers.corewellhealth.org/provider/rakesh-suri/3189518"},
+   {"nome": "Thomas A. Schwann, MD", "cargo": "Regional Chief of Cardiac Surgery, Corewell Health East", "por_que": "chefe do serviço; aprovaria exceção", "fonte": "https://doximity.com/pub/thomas-schwann-md"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado (busca Beaumont + São Paulo em mitral/robótica sem resultado)",
+  "pesquisa_recente": [
+   {"titulo": "Port-access robotic repair of myxomatous mitral valve endocarditis: Radical excision and reconstruction using proven techniques", "ano": 2025, "revista": "JTCVS Tech", "pmid": "41112438", "nota": "Suri último autor; afiliação Corewell WBUH"}
+  ],
+  "dicas": [
+   "Não há porta oficial: só por convite pessoal do Dr. Suri (e possivelmente aprovação do Dr. Schwann/medical staff).",
+   "Gancho: single-port robotic MVr (jul/2026) e o case report JTCVS Tech 2025."
+  ],
+  "rota_recomendada": "Baixa probabilidade via GME (política 'não oferecemos observership'). Se insistir: e-mail direto ao Dr. Suri citando o single-port MVr e o PMID 41112438, pedindo visita curta como observer; tratar como alvo secundário.",
+  "alerta_correcao": "'Corewell Health Beaumont' = Corewell Health William Beaumont University Hospital (Royal Oak), antigo Beaumont; algumas páginas usam marca antiga."
+ },
+ {
+  "match": "Henry Ford Macomb",
+  "cidade": "Clinton Township (MI)", "areas": ["robotica"],
+  "programa": {
+   "observership_oficial": "Política sistêmica Henry Ford MEP 237 'Observership or Shadowing Experiences': exige médico sponsor que organiza a observação; aprovação do diretor do programa do observer e do diretor do programa receptor; observer só no serviço do sponsor; trâmite via Physician Staff Services.",
+   "fonte": "https://www.henryford.com/-/media/files/henry-ford/hcp/med-ed/residencies-hfh/medical-education-policies/mep-237-observership-or-shadowing-experiences.pdf?la=en",
+   "alternativa": "Cardiologia Henry Ford Hospital (Detroit) recebe visiting fellows: Visiting House Officer Application ≥75 dias antes, com assinatura do diretor do programa de origem — https://henryford.com/hcp/med-ed/residencies-fellowships/hfh/cardio-disease/visiting-fellows",
+   "outro": "Henry Ford Warren tem 'International Observership Policy' (conteúdo não visto); ENT de Warren tem International Physician Observer Program — https://prod-cd.henryford.com/hcp/med-ed/residencies-fellowships/warren",
+   "taxa_docs": "não encontrado",
+   "certeza": "confirmado (política sistêmica; aplicação ao campus Macomb é provável)"
+  },
+  "servico": {
+   "nome": "Cardiothoracic Surgery – Henry Ford Macomb Hospital (Heart & Vascular); robótica cardíaca e torácica",
+   "marcos": "1º reparo mitral robótico do sistema Henry Ford em nov/2025 (5 incisões) — https://www.henryford.com/hcp/clinical-insights/heart ; 1ª ressecção pulmonar robótica single-port de Michigan (Impact Report 2025) — https://prod-cd.henryford.com/-/media/files/henry-ford/locations/macomb/hfmh_impact_report_2025.pdf",
+   "chefe": "CONFLITO de fontes: SCAI 2026 lista Raed Alnajjar, MD como Medical Director of Cardiothoracic Surgery (Macomb) e Medical Director for Robotic Cardiothoracic Surgery (Henry Ford Health) — https://scai.confex.com/scai/2026/webprogramarchives/Person91754.html ; perfil CTSNet de Steven Harrington diz Medical Director of Cardiothoracic Surgery at Henry Ford Macomb desde 2019 e diretor de robótica — https://www.ctsnet.org/home/sharrington",
+   "cirurgiao_mitral_robotica": "não encontrado nome do operador de nov/2025",
+   "volume": "não encontrado",
+   "certeza": "provável (títulos conflitantes; a fonte SCAI 2026 é a mais recente)"
+  },
+  "pessoas_chave": [
+   {"nome": "Raed Alnajjar, MD", "cargo": "Medical Director Cardiothoracic Surgery (Macomb) / Robotic CT Surgery (Henry Ford Health) segundo SCAI 2026; Surgeon of Excellence in Robotic Surgery (SRC 2022)", "por_que": "provável sponsor/decisor", "fonte": "https://scai.confex.com/scai/2026/webprogramarchives/Person91754.html"},
+   {"nome": "Steven Harrington, MD", "cargo": "cirurgião cardiotorácico, Henry Ford Macomb (perfil CTSNet)", "por_que": "liderança histórica do serviço/robótica", "fonte": "https://www.ctsnet.org/home/sharrington"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": "não encontrado (sem artigos 2022–2026 do serviço nos resultados)",
+  "dicas": [
+   "Precisa de sponsor interno (MEP 237) + carta/aprovação do programa de origem (COREME/Unifesp).",
+   "Hospital comunitário com robótica nova (mitral desde nov/2025) — volume robótico cardíaco ainda pequeno; melhor valor talvez em robótica torácica."
+  ],
+  "rota_recomendada": "1) E-mail ao Dr. Raed Alnajjar pedindo sponsorship de observership em robótica cardiotorácica, citando o 1º MVr robótico do sistema (nov/2025) e o single-port torácico; 2) com aceite, seguir MEP 237 via Physician Staff Services com carta da Unifesp. Alternativa mais estruturada: visiting na cardiologia do Henry Ford Hospital (Detroit), ≥75 dias de antecedência.",
+  "alerta_correcao": "URLs do radar são páginas gerais do sistema Henry Ford, não específicas de Macomb. Chefia do serviço com títulos conflitantes (Alnajjar vs Harrington)."
+ },
+ {
+  "match": "El Camino Hospital",
+  "cidade": "Mountain View (CA)", "areas": ["robotica"],
+  "programa": {
+   "observership_oficial": "não encontrado (nenhuma política/página de observer ou visiting physician da El Camino Health nos resultados)",
+   "contato": "Robotic-Assisted Surgery Mountain View: 2500 Grant Rd, tel. 650-988-7563 (linha de serviço pública) — https://locations.elcaminohealth.org/mountain-view-hospital-campus/2500-grant-rd/robotic-assisted-surgery-mountain-view",
+   "certeza": "não encontrado"
+  },
+  "servico": {
+   "nome": "El Camino Health Heart and Vascular Institute (HVI) – Robotic-Assisted Cardiac Surgery; consultório Cardiothoracic Surgery – Melchor (2490 Hospital Dr, Mountain View) — https://www.elcaminohealth.org/node/178821",
+   "marcos": "programa de CABG robótico (da Vinci) anunciado jul/2026 ('Silicon Valley Hospital Launches Robotic Bypass, Joining Elite Few...'); HVI com STS 3 estrelas; robótica geral há >10 anos — https://www.elcaminohealth.org/newsroom ; https://www.therobotreport.com/surgeons-use-da-vinci-surgical-robot-perform-common-cardiac-surgery/",
+   "chefe": "não encontrado",
+   "volume": "não encontrado",
+   "certeza": "confirmado (programa); chefia não encontrada"
+  },
+  "pessoas_chave": [
+   {"nome": "Nels D. Carroll, MD", "cargo": "cirurgião cardíaco El Camino Health; realizou o CABG robótico (comunicado Los Gatos Hospital)", "por_que": "líder da robótica coronária; host natural", "fonte": "https://www.elcaminohealth.org/node/179096 ; https://www.losaltosonline.com/news/el-camino-health-offers-robotic-assisted-heart-bypass/article_b96de194-1bc0-4463-be04-a3ccc9eefc03.html", "nota": "também ligado a Los Robles (1º CABG robótico de Ventura County, 2025) — https://losrobleshospital.com/about/newsroom/los-robles-completes-first-robotically-assisted-open-heart-surgery-in-ventura-county"},
+   {"nome": "Vincent Gaudiani, MD; Keith Korver, MD", "cargo": "cirurgiões no diretório El Camino Health (aparentemente cardiotorácicos)", "por_que": "staff do serviço", "fonte": "https://www.getcare.elcaminohealth.org/providers/vincent-gaudiani-md-1851317341-1", "certeza": "provável"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": "não encontrado (hospital comunitário sem produção acadêmica visível na área)",
+  "dicas": [
+   "Hospital comunitário sem GME/observership estruturado conhecido; acesso dependeria de convite pessoal + medical staff office.",
+   "Programa robótico cardíaco muito novo (2026) — baixo volume esperado."
+  ],
+  "rota_recomendada": "Prioridade baixa. Se quiser tentar: e-mail ao Dr. Nels Carroll via canal institucional do HVI perguntando se aceitam observer internacional em CABG robótico; antes, pedir ao HVI a política de clinical observers.",
+  "alerta_correcao": "Possível mistura de campi: anúncio do CABG robótico saiu pelo Los Gatos Hospital (El Camino Health), e o Dr. Carroll tem vínculos também com Los Robles (CA) e possivelmente Providence Olympia (WA) — confirmar onde opera."
+ }
+]

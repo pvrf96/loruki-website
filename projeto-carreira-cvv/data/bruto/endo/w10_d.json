@@ -1,0 +1,127 @@
+[
+ {
+  "match": "HonorHealth Deer Valley",
+  "cidade": "Phoenix (AZ), EUA",
+  "areas": ["robotica"],
+  "programa": {
+   "pagina_oficial": "não encontrado",
+   "detalhe": "Nenhuma página de observership/visiting physician da HonorHealth apareceu nas buscas. A página de Undergraduate Medical Education diz que não oferece rotações a alunos de escolas fora dos EUA (isso vale para estudantes, não para médicos/residentes).",
+   "fonte": "https://honorhealth.com/academic-affairs/undergraduate-medical-education",
+   "trecho": "does not offer rotations to students from medical schools outside the U.S.",
+   "contato_oficial": "Consultório HonorHealth Heart and Lung Surgical Group – Deer Valley: 19636 N 27th Ave, Ste 306, Phoenix AZ 85027, tel. 480-882-7750 (número público do consultório, não do escritório de educação)",
+   "fonte_contato": "https://www.honorhealth.com/locations/specialty-care/honorhealth-heart-lung-surgical-group-deer-valley",
+   "certeza": "programa: não encontrado; regra de alunos estrangeiros: confirmado"
+  },
+  "servico": {
+   "nome": "HonorHealth Heart Care – Heart and Lung Surgery (Deer Valley Medical Center); programas de Artificial Heart/MCS/ECMO",
+   "chefe": "não encontrado (chefe formal do serviço). Líder visível da robótica: Zain Khalpey, MD, PhD",
+   "volume": "1as duas cirurgias cardíacas robóticas do sistema em jul/2022 em Deer Valley; 100º procedimento convergente robótico para FA em 2024; >500 procedimentos mitrais/ano no sistema (sem dizer quantos robóticos)",
+   "fontes": ["https://www.honorhealth.com/healthy-living/honorhealth-deer-valley-medical-center-first-hospital-network-and-only-hospital", "https://honorhealthfoundation.org/content/2024-AR/inc/html/15.html", "https://honorhealth.com/healthy-living/how-honorhealth-harnessing-power-robotic-technology-mitral-valve-disease"],
+   "certeza": "confirmado (fontes institucionais)"
+  },
+  "pessoas_chave": [
+   {"nome": "Zain Khalpey, MD, PhD", "cargo": "Cirurgião cardiotorácico; diretor de Artificial Heart, Mechanical Circulatory Support e ECMO; network director of Artificial Intelligence da HonorHealth", "por_que": "Liderou as primeiras cirurgias cardíacas robóticas e o reparo mitral robótico em Deer Valley; seria o anfitrião natural", "fonte": "https://www.honorhealth.com/physicians/zain-khalpey", "certeza": "confirmado"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {"titulo": "Revolutionizing Atrial Fibrillation Treatment: The Robotic Convergent Plus Procedure", "ano": 2024, "revista": "Cureus", "autores": "Khalpey Z, Kumar U, Aslam U, Krauthammer Y, Doshi R", "pmid_doi": "não encontrado nos resultados", "certeza": "confirmado (título/autores)"}
+  ],
+  "dicas": "Sem programa estruturado público: seria observership 'ad hoc' via convite do cirurgião. Khalpey tem forte perfil de IA em cirurgia cardíaca (editor em revista de IA, OAE Publish) — bom gancho para e-mail se a residente tiver interesse em IA/robótica/MCS. Centro de volume robótico cardíaco ainda pequeno/recente.",
+  "rota_recomendada": "1) Contato via consultório/departamento com Dr. Khalpey, citando o artigo Robotic Convergent Plus (2024) e interesse em robótica mitral/FA. 2) Pedir que o departamento indique o caminho de credenciamento de observador (Medical Staff/Academic Affairs). Prioridade baixa vs. centros com programa formal.",
+  "alerta_correcao": "Não há programa de observership confirmado; o link do radar é matéria de marketing. Reparo mitral robótico é anunciado como 'primeiro no Arizona em 15 anos', sem data."
+ },
+ {
+  "match": "Mills-Peninsula (Sutter)",
+  "cidade": "Burlingame (CA), EUA",
+  "areas": ["robotica"],
+  "programa": {
+   "pagina_oficial": "não encontrado (observership médico)",
+   "detalhe": "Só foi achado o 'observational experience packet' de voluntariado da Sutter, que exige comprovante de imunizações e teste de TB; não trata de médicos observadores.",
+   "fonte": "https://sutterhealth.org/pdf/volunteering/observational-experience-packet.pdf",
+   "trecho": "written proof of immunizations and TB test is required",
+   "certeza": "programa para médicos: não encontrado; pacote genérico: confirmado"
+  },
+  "servico": {
+   "nome": "Programa de Cirurgia Cardíaca Robótica – Mills-Peninsula Medical Center (lançado 2025)",
+   "chefe": "Bilal Shafi, MD (líder do programa robótico)",
+   "volume": "Shafi: quase 700 cirurgias robóticas na carreira, >300 cardíacas robóticas (Sutter, abr/2025); Mills-Peninsula é o único hospital Sutter com a cirurgia",
+   "fonte": "https://vitals.sutterhealth.org/?p=43933",
+   "trecho": "only cardiothoracic surgeon performing robotic mitral valve replacement and repair surgeries in the San Francisco Bay area",
+   "certeza": "confirmado (fonte institucional, alegação promocional)"
+  },
+  "pessoas_chave": [
+   {"nome": "Bilal Shafi, MD", "cargo": "Cirurgião cardiotorácico; bio Sutter: Director of Cardiovascular Surgery & Structural Heart, Good Samaritan Hospital (2016–presente); fundou o programa de valva robótica da Bay Area", "por_que": "Único cirurgião do programa robótico; decide e hospedaria", "fonte": "https://www.sutterhealth.org/find-doctor/dr-Bilal-Shafi ; https://ace.sutterhealth.org/node/9878/bio/25948/view", "certeza": "confirmado"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": "não encontrado (nenhum artigo 2022–2026 do serviço apareceu nos resultados)",
+  "dicas": "Programa novo e de um cirurgião só; Shafi opera em vários hospitais (Mills-Peninsula, Good Samaritan, El Camino/Dominican conforme diretórios), então observar exige combinar com ele o local. Hospital comunitário sem fellowship cardiotorácico conhecido.",
+  "rota_recomendada": "1) Contato com Dr. Shafi via escritório/Sutter, pedindo 2–4 semanas de observação em robótica mitral. 2) Se ele aceitar, pedir à Medical Staff Office de Mills-Peninsula o processo de observador (vacinas/TB conforme pacote Sutter). Prioridade baixa.",
+  "alerta_correcao": "Shafi aparece vinculado a vários hospitais (Good Samaritan San Jose, Dominican Santa Cruz, El Camino) além de Mills-Peninsula; bio Sutter lista cargos em Good Samaritan/Dominican — local principal atual incerto."
+ },
+ {
+  "match": "Liverpool Heart and Chest Hospital",
+  "cidade": "Liverpool, Reino Unido",
+  "areas": ["robotica"],
+  "programa": {
+   "pagina_oficial": "não encontrado",
+   "detalhe": "Nenhuma página de observership/clinical attachment da LHCH foi achada. Modelos de outros trusts NHS (Barts: 4 semanas, £1.600, honorary contract obrigatório, sem atividade hands-on) indicam o formato provável, mas NÃO são regras da LHCH.",
+   "fonte_comparativa": "https://educationacademy.bartshealth.nhs.uk/our-teams/medical-education-clinical-observership-programme/",
+   "certeza": "não encontrado"
+  },
+  "servico": {
+   "nome": "Cardiac Surgery – programa de cirurgia robótica cardíaca e torácica (lançado 2017–2018, 'primeiro do Reino Unido')",
+   "chefe": "não encontrado (chefe de cirurgia cardíaca). Líder robótico: Mr Paul Modi",
+   "volume": "Projeção inicial de 250–300 operações robóticas cardíacas+torácicas nos primeiros 12 meses (≈2018); 1os mitrais totalmente endoscópicos robóticos em mar/2018. Volume atual: não encontrado",
+   "fontes": ["https://www.lhch.nhs.uk/news/article/240", "https://heartvalvevoice.com/news/news/liverpool-heart-and-chest-hospital-performs-uks-first-roboti"],
+   "certeza": "confirmado (dados antigos, 2017–2018)"
+  },
+  "pessoas_chave": [
+   {"nome": "Mr Paul Modi", "cargo": "Consultant cardiac surgeon; subespecialidade em reparo mitral minimamente invasivo e robótico e cirurgia de FA; primeiro no Reino Unido a fazer reparo mitral robótico totalmente endoscópico", "por_que": "Fundador/líder do programa robótico cardíaco — anfitrião principal", "fonte": "https://topdoctors.co.uk/cn/doctor/paul-modi ; https://www.ctsnet.org/print/jans/robotic-mitral-surgery-starts-uk", "certeza": "confirmado"},
+   {"nome": "Mr Steven Woolley", "cargo": "Cirurgião torácico do programa robótico (newsletter 2017)", "por_que": "Co-líder do programa robótico (lado torácico)", "fonte": "https://www.lhch.nhs.uk/resources/download/lhch-64c8c1838d4555.03066547", "certeza": "provável (dado de 2017)"},
+   {"nome": "Omar Al-Rawi", "cargo": "Coautor da revisão de robótica mitral da LHCH (2021)", "por_que": "Equipe do programa robótico", "fonte": "https://typeset.io/pdf/robotic-mitral-valve-surgery-a-review-and-tips-for-safely-2zn3zsjf93.pdf", "certeza": "provável (cargo atual não confirmado)"}
+  ],
+  "brasileiros": "não encontrado (busca específica não achou fellows brasileiros na LHCH; referências brasileiras em robótica cardíaca são Robinson Poffo – Einstein SP, sem vínculo com Liverpool nos resultados)",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {"titulo": "Robotic mitral valve surgery (revisão; Massey, Modi et al., LHCH)", "ano": 2023, "revista": "Frontiers in Cardiovascular Medicine", "doi": "10.3389/fcvm.2023.1239742", "certeza": "confirmado (DOI na URL do resultado)"},
+   {"titulo": "Robotic mitral valve surgery: a review and tips for safely negotiating the learning curve (Toolan, Palmer, Al-Rawi, Ridgway, Modi)", "ano": 2021, "revista": "J Thorac Dis 2021;13(3):1971-1981", "doi": "não encontrado nos resultados", "nota": "fora da janela 2022–2026, mas útil para o e-mail", "certeza": "confirmado"}
+  ],
+  "dicas": "Segundo maior centro especializado de cirurgia cardíaca do Reino Unido. Oferece post-CCT fellowships com experiência robótica (ex.: 'Robotic cardiac surgery experience, LHCH 2019-2020' em perfil CTSNet) — sinal de que recebe treinandos internacionais, mas via vaga paga NHS (exige registro GMC). Para observer, provavelmente será necessário honorary contract/checagens NHS (padrão dos trusts).",
+  "rota_recomendada": "1) E-mail a Mr Paul Modi citando a revisão de 2023 (Frontiers) e pedindo 4 semanas de observação em robótica mitral. 2) Se aceitar, ele encaminha ao Medical Education/HR da LHCH para honorary contract de observador. 3) Médio prazo: fellowship post-CCT (requer GMC).",
+  "alerta_correcao": "Dados de volume/equipe do programa robótico são de 2017–2018; não foram achadas notícias 2024–2025 confirmando situação atual."
+ },
+ {
+  "match": "James Cook University Hospital",
+  "cidade": "Middlesbrough, Reino Unido (South Tees Hospitals NHS FT / University Hospitals Tees)",
+  "areas": ["robotica"],
+  "programa": {
+   "pagina_oficial": "não encontrado",
+   "detalhe": "Nenhum programa de observership encontrado. Há anúncios de Clinical Fellow em cirurgia cardiotorácica (NHS Jobs) com casuística de cirurgia mitral/aórtica minimamente invasiva e TAVI — vaga paga, requer GMC.",
+   "fonte": "https://www.jobs.nhs.uk/candidate/jobadvert/C9328-25-0929",
+   "certeza": "observership: não encontrado; fellow posts: provável"
+  },
+  "servico": {
+   "nome": "Cardiothoracic Surgery – James Cook; Academic Cardiovascular Unit (ACU)",
+   "chefe": "não encontrado",
+   "volume": "Acreditado pela SCTS como um de 5 centros nacionais (17 candidatos) em cirurgia cardíaca minimamente invasiva e ERAS; descrito como centro de referência para cirurgia cardíaca minimamente invasiva/robótica no Nordeste. Robótica cardíaca descrita como 'em desenvolvimento'. Data da acreditação: não aparece no resultado",
+   "fonte": "https://www.southtees.nhs.uk/news/leaders-in-minimally-invasive-heart-surgery-and-enhanced-recovery/",
+   "trecho": "accredited as a national leader in minimally invasive cardiac surgery and enhanced recovery after cardiac surgery",
+   "certeza": "confirmado"
+  },
+  "pessoas_chave": [
+   {"nome": "Prof Enoch Akowuah", "cargo": "Consultant cardiac surgeon (James Cook desde 2010); honorary senior clinical lecturer Newcastle University; Chair Adult Cardiac Surgery subcommittee da SCTS; CI do UK Mini Mitral", "por_que": "Lidera pesquisa em mitral minimamente invasiva e a acreditação; figura acadêmica mais influente do serviço", "fonte": "https://www.ctsnet.org/home/eakowuah ; https://scts.org/patients/consultants/d229ec21-f502-4a5b-ad43-846e683f51d5/mr_enoch_francis_akowuah/", "certeza": "confirmado"},
+   {"nome": "Mr Joel Dunning", "cargo": "Cirurgião cardiotorácico (robótica torácica; ajudou no 1º procedimento cardiotorácico robótico da África, Cape Town)", "por_que": "Líder do programa robótico da trust", "fonte": "https://southtees.mixd.co.uk/news/middlesbrough-surgeon-in-africa-robotic-surgery-first/", "certeza": "confirmado (foco mais torácico)"},
+   {"nome": "Mr Luke Rogers", "cargo": "Cirurgião citado na acreditação minimamente invasiva", "por_que": "Equipe de cirurgia minimamente invasiva/ERAS", "fonte": "https://www.southtees.nhs.uk/news/leaders-in-minimally-invasive-heart-surgery-and-enhanced-recovery/", "certeza": "provável (cargo exato não confirmado)"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {"titulo": "Minithoracotomy vs Conventional Sternotomy for Mitral Valve Repair: A Randomized Clinical Trial (UK Mini Mitral)", "ano": 2023, "revista": "JAMA 2023;329(22):1957-1966", "doi": "10.1001/jama.2023.7800", "pmc": "PMC10265311", "registro": "ISRCTN13930454", "certeza": "confirmado"}
+  ],
+  "dicas": "Força real do centro é cirurgia mitral minimamente invasiva (mini-toracotomia) e ERAS + pesquisa (ACU, ensaios multicêntricos), mais que robótica cardíaca madura. Bom para quem quer aprender a desenhar ensaio cirúrgico. Robótica torácica é bem estabelecida (3 da Vinci, desde 2014).",
+  "rota_recomendada": "1) E-mail ao Prof Akowuah citando o UK Mini Mitral (JAMA 2023), pedindo observação de 4 semanas em mitral minimamente invasiva/ERAS e na ACU. 2) Perguntar se há honorary observer via departamento. Escolher este centro só se o interesse for mini-mitral/pesquisa, não robótica cardíaca.",
+  "alerta_correcao": "O link do radar (ISRCTN13930454) é o UK Mini Mitral — ensaio de MINI-TORACOTOMIA vs esternotomia, NÃO robótica. A robótica cardíaca de James Cook aparece como 'em desenvolvimento' (plano de iniciar ~2021); robótica madura é torácica. Área 'robotica' do polo deve ser revista para 'minimamente invasiva mitral'."
+ }
+]
