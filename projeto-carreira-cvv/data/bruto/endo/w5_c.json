@@ -1,0 +1,185 @@
+[
+ {
+  "match": "St Vincent's Hospital Sydney",
+  "cidade": "Sydney", "pais": "Austrália", "areas_polo": ["robotica","ic","transplante"],
+  "alerta_correcao": "Radar correto. Programa cardíaco = Heart-Lung program / Cardiopulmonary Transplant Unit (St Vincent's Hospital Sydney, Darlinghurst), em parceria com Victor Chang Cardiac Research Institute. Não confundir com St Vincent's Melbourne (instituição diferente). Robótica cardíaca: só fontes secundárias/perfil do Dr Jansz; sem volume publicado.",
+  "programa": {
+   "url": "não encontrado (nenhuma página oficial de observership para médicos internacionais localizada)",
+   "elegibilidade_residente_estrangeiro": "não encontrado",
+   "taxa": "não encontrado", "duracao": "não encontrado", "antecedencia": "não encontrado", "documentos": "não encontrado",
+   "contato_oficial": "SVHS.Cardiology@svha.org.au — e-mail do escritório de cardiologia listado no perfil do Prof Michael Feneley (https://www.svph.org.au/specialists/prof-michael-feneley-cardiologist); provável canal geral do departamento",
+   "alternativas": "Vagas pagas de 'Provisional Fellow' em cardiologia (IC/transplante, intervenção) aceitam candidatos 'seeking an elective training year' (https://jobs.health.nsw.gov.au/jobs/provisional-fellow-299939; .../provisional-fellow-299922) — exigem registro AHPRA; não é observership.",
+   "comparativo_australia": "Monash Health (Melbourne) tem observership estruturado 1–4 semanas, AUD 500 (https://monashhealth.org/?p=9602) — referência de formato, não de St Vincent's.",
+   "certeza": "programa formal não encontrado; e-mail de cardiologia provável"
+  },
+  "servico": {
+   "nomes": ["Cardiothoracic Surgery (https://www.svhs.org.au/our-services/list-of-services/cardiothoracic-surgery)","Heart-Lung program / Cardiopulmonary (Heart & Lung) Transplant Unit","Mechanical circulatory support program"],
+   "chefes": [
+    {"nome":"Dr Paul Jansz","cargo":"Director of Cardiothoracic and Transplant Surgery; chefe do programa de assistência circulatória mecânica e do programa minimamente invasivo e robótico","fonte":"https://www.csanzasm.com/program/speakers/paul-jansz ; https://www.svph.org.au/general-practitioners/elevate/on-demand-content/presenters/elevate-program-presenter?id=1086","trecho":"now holds the role of Director of cardiothoracic and transplant surgery ... head of the mechanical circulatory assist program and the minimally-invasive and robotic surgical program","certeza":"confirmado (CSANZ 2026)"},
+    {"nome":"Prof Michael Feneley AM","cargo":"Diretor do Heart-Lung program","fonte":"https://www.svhs.org.au/newsroom/news/new-clinical-research-role-to-drive-heart-lung-research-at-st-vincent-s","certeza":"provável"}
+   ],
+   "diretor_fellowship": "não encontrado",
+   "volume": [
+    {"dado":"74 transplantes cardíacos DCD (2014–~2022), sobrevida 94% em 1 ano e 88% em 5 anos","fonte":"https://eprints.victorchang.edu.au/1355","ano":"2023"},
+    {"dado":"Primeiro implante de coração artificial total BiVACOR fora dos EUA, 22/11/2024, liderado por Jansz","fonte":"https://www.svhs.org.au/newsroom/news/australia-first-total-artificial-heart-implant","ano":"2024"},
+    {"dado":"volume anual de transplantes/robótica 2024","fonte":"não encontrado"}
+   ]
+  },
+  "pessoas_chave": [
+   {"nome":"Dr Paul Jansz","cargo":"Diretor de cirurgia cardiotorácica e transplante; robótica e MCS","por_que":"decide/hospeda nas 3 áreas do polo (robótica, IC avançada/MCS, transplante)","fonte":"https://www.svph.org.au/specialists/dr-paul-jansz-cardiothoracic-surgeon"},
+   {"nome":"Prof Michael Feneley AM","cargo":"Diretor do Heart-Lung program","por_que":"liderança do programa cardíaco; e-mail de cardiologia listado no perfil","fonte":"https://www.svph.org.au/specialists/prof-michael-feneley-cardiologist"},
+   {"nome":"Prof Peter Macdonald","cargo":"Cardiologista, senior staff specialist, Cardiopulmonary Transplant Unit; Victor Chang","por_que":"liderança científica do transplante/DCD","fonte":"https://svph.org.au/specialists/prof-peter-macdonald-cardiologist"},
+   {"nome":"A/Prof Clare Arnott","cargo":"Pagent Family Director of Clinical Research – Heart-Lung (desde 2024)","por_que":"pesquisa clínica do Heart-Lung program","fonte":"https://www.svhs.org.au/newsroom/news/new-clinical-research-role-to-drive-heart-lung-research-at-st-vincent-s"},
+   {"nome":"Dr Emily Granger","cargo":"Cirurgiã cardiotorácica e de transplante","por_que":"coautora da série DCD","fonte":"https://www.svph.org.au/specialists/dr-emily-granger-cardiothoracic-surgeon"},
+   {"nome":"Dr Ricardo Deveza","cargo":"Cardiologista, staff specialist do Heart Transplant unit","por_que":"BRASILEIRO (ver abaixo) — ponte natural","fonte":"https://www.svph.org.au/specialists/dr-ricardo-deveza-cardiologist"}
+  ],
+  "brasileiros": [
+   {"nome":"Dr Ricardo Deveza","vinculo":"MD pela Universidade de São Paulo; residência de cardiologia no InCor (Instituto do Coração, SP); fellowship em IC e transplante cardíaco no St Vincent's; hoje staff specialist do Heart Transplant unit (público) e consultor no St Vincent's Private","fonte":"https://www.svph.org.au/specialists/dr-ricardo-deveza-cardiologist","trecho":"MD at the University of Sao Paulo ... cardiology training at Sao Paulo's Heart Institute ... fellowship in heart failure and heart transplantation at St Vincent's Hospital","certeza":"confirmado"}
+  ],
+  "pontes_unifesp_sp": "Dr Ricardo Deveza (USP/InCor → St Vincent's) é a ponte mais forte. Coautorias formais St Vincent's × Unifesp/USP/Dante: não encontrado.",
+  "pesquisa_recente": [
+   {"titulo":"Heart Transplantation From DCD Donors in Australia: Lessons Learned From the First 74 Cases","ano":"2023 (Transplantation)","id":"PMID/DOI não visível nos resultados","fonte":"https://eprints.victorchang.edu.au/1355"},
+   {"titulo":"Estudo DCD jan/2021–fev/2024 comparando perfusão normotérmica, hipotérmica e armazenamento frio estático (Jansz, Macdonald; correspondência Joshi)","ano":"2024 (Annals of Cardiothoracic Surgery)","id":"título exato e DOI não visíveis","fonte":"https://www.annalscts.com/article/view/17134/pdf","certeza":"provável"},
+   {"titulo":"Heart Transplantation Using Donation After Circulatory Death (DCD) Donors: St Vincent's Hospital Experience Update","ano":"não visível","id":"não visível","fonte":"https://opus.lib.uts.edu.au/handle/10453/177621"}
+  ],
+  "dicas": "Sem programa formal: abordagem é carta direta ao consultor. Gancho forte para e-mail: BiVACOR (primeiro coração artificial total fora dos EUA, 2024) e protocolo DCD 'heart in a box' pioneiro. Mencionar Deveza (USP/InCor) como referência de trajetória. O hospital busca acreditação internacional do Heart-Lung program como Centre of Excellence.",
+  "rota_recomendada": "1) Contato com Dr Ricardo Deveza (brasileiro, ex-fellow de IC/transplante) para orientação e apresentação interna; 2) e-mail ao escritório de cardiologia (SVHS.Cardiology@svha.org.au) pedindo observership de 4 semanas em IC/transplante, citando o trabalho DCD/BiVACOR, com cópia/endosso de Jansz se o interesse for cirurgia (robótica/MCS)."
+ },
+ {
+  "match": "Auckland City Hospital (Greenlane)",
+  "cidade": "Auckland", "pais": "Nova Zelândia", "areas_polo": ["robotica","eletrofisiologia","estrutural"],
+  "alerta_correcao": "Nome: Green Lane Hospital virou Greenlane Clinical Centre em 2003 e toda a internação foi para Auckland City Hospital (Te Toka Tumai Auckland, Health NZ/Te Whatu Ora) — https://en.wikipedia.org/wiki/Green_Lane_Hospital,_Auckland. Cirurgia cardíaca ROBÓTICA não confirmada em nenhuma fonte (só 'minimally invasive cardiac surgery' em anúncio de vaga) — área 'robotica' do radar provavelmente incorreta.",
+  "programa": {
+   "url": "não encontrado (nenhuma política de observership pública de Te Toka Tumai localizada)",
+   "elegibilidade_residente_estrangeiro": "não encontrado; vagas pagas (fellows EP, intervenção, imagem, transplante) exigem formação RACP ou equivalente internacional + elegibilidade a registro no Medical Council of NZ (https://jobs.asms.org.nz/?p=14237; https://adhbrac.referrals.selectminds.com/jobs/transplant-fellow-cardiology-intake-2026-71722)",
+   "taxa": "não encontrado", "duracao": "não encontrado", "antecedencia": "não encontrado", "documentos": "não encontrado",
+   "contato_oficial": "não encontrado e-mail de escritório; anúncio de fellowship direciona dúvidas a 'Prof Mark Webster, Cardiology Dept, Te Toka Tumai Auckland'",
+   "certeza": "programa formal não encontrado"
+  },
+  "servico": {
+   "nomes": ["Cardiology – Te Toka Tumai Auckland (Heart Rhythm Section; cardiologia estrutural/TAVI)","Cardiothoracic Surgical Unit, Auckland City Hospital"],
+   "chefes": [
+    {"nome":"Assoc Prof Nigel Lever","cargo":"Director of the Heart Rhythm Section (EP)","fonte":"https://healthpoint.co.nz/public/specialist/assoc-prof-nigel-lever/at/cardiology-auckland-te-toka-tumai/","certeza":"provável (Healthpoint, pode estar desatualizado)"},
+    {"nome":"Chefe da cirurgia cardiotorácica / líder TAVI","cargo":"—","fonte":"não encontrado"}
+   ],
+   "diretor_fellowship": "não encontrado (fellowship de EP existe: https://jobs.asms.org.nz/?p=14237)",
+   "volume": [
+    {"dado":">1.000 cirurgias cardíacas/ano e ~50 transplantes de coração e pulmão/ano; unidade de maior volume da Australásia","fonte":"https://insidegovernment.co.nz/new-life-saving-bypass-machines-for-auckland/","ano":"2025"},
+    {"dado":"772 TAVI no registro 2018–2023","fonte":"https://airdrive.eventsair.com/eventsairseasiaprod/production-tcc-public/631450cb127c433097a310ea267901cf","ano":"2018–2023","certeza":"provável (resumo de congresso)"},
+    {"dado":"EP: serviço regional + referência nacional para extração de eletrodos, arritmias complexas e cardiopatia estrutural","fonte":"https://jobs.asms.org.nz/?p=14237"}
+   ]
+  },
+  "pessoas_chave": [
+   {"nome":"Assoc Prof Nigel Lever","cargo":"Diretor da Heart Rhythm Section; ablação de FA e TV; Senior Lecturer Univ. of Auckland","por_que":"decide/hospeda em eletrofisiologia","fonte":"https://healthpoint.co.nz/public/specialist/assoc-prof-nigel-lever/at/cardiology-auckland-te-toka-tumai/"},
+   {"nome":"Prof Mark Webster","cargo":"Cardiologia (intervenção), contato indicado em anúncio de fellowship","por_que":"porta de entrada de fellows/intervenção-estrutural","fonte":"https://jobs.y-axis.com/jobs/interventional-cardiology-fellow-te-toka-tumai-intake-april-2025-health-new-zealand-te-whatu-ora-te-toka-tumai-auckland","certeza":"provável"},
+   {"nome":"Prof Harvey White","cargo":"Cardiologista, Te Toka Tumai","por_que":"pesquisador de ensaios internacionais","fonte":"https://www.healthpoint.co.nz/public/specialist/prof-harvey-white/at/cardiology-auckland-te-toka-tumai/"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado. (Rodrigo Estévez-Loureiro aparece como colaborador no COVID-TAVI, mas é espanhol/Vigo — não brasileiro.)",
+  "pesquisa_recente": [
+   {"titulo":"COVID-TAVI (estudo multicêntrico com colaboração de Auckland City Hospital)","ano":"2024 (JACC Cardiovasc Interv 17(3):374-387)","id":"PMID/DOI não visível","fonte":"https://portalcientifico.sergas.gal/investigadores/260423/colaboracion/organizaciones/8249?lang=en"},
+   {"titulo":"Acute Coronary Syndrome After Transcatheter Aortic Valve Implantation: Insights from the Auckland City Hospital TAVI Registry 2018-2023","ano":"~2024 (resumo de congresso)","id":"não visível","fonte":"https://airdrive.eventsair.com/eventsairseasiaprod/production-tcc-public/631450cb127c433097a310ea267901cf"},
+   {"titulo":"Heart Team TAVI vs SAVR, Auckland City Hospital 2011–2016 (fora da janela 2022–26)","ano":"2020 (Heart Lung Circ 29(3):368-373)","id":"DOI 10.1016/j.hlc.2019.02.192","fonte":"https://pmc.ncbi.nlm.nih.gov/articles/PMC7330728"}
+  ],
+  "dicas": "Sem programa de observership publicado; contato direto com o departamento. EP com perfil de referência nacional (extração de eletrodos, TV) é o ponto mais forte para o e-mail. Distância/fuso e ausência de ponte brasileira tornam este polo de menor prioridade.",
+  "rota_recomendada": "1) E-mail direto a A/Prof Nigel Lever (EP) ou ao departamento de cardiologia via Prof Mark Webster, pedindo observership hands-off de 4 semanas em EP/estrutural; 2) se não houver resposta, tratar como polo secundário — não há programa formal nem ponte brasileira identificada."
+ },
+ {
+  "match": "Penn Presbyterian (Penn Medicine)",
+  "cidade": "Filadélfia", "pais": "EUA", "areas_polo": ["robotica","eletrofisiologia","aorta"],
+  "alerta_correcao": "Mistura de sítios: cirurgia robótica/aorta envolvem Penn Presbyterian Medical Center (PPMC) e Penn Aorta Center, mas o programa de Eletrofisiologia (med.upenn.edu/ep) está sediado no Hospital of the University of Pennsylvania (HUP). Tratar como 'Penn Medicine' (Divisão de Cirurgia Cardiovascular + Seção de EP).",
+  "programa": {
+   "url": "não existe página central; observerships por departamento. Cirurgia: Observership (shadowing) Program Interest Form https://pennmedicine.org/-/media/academic departments/surgery/medical_students/observership_program_interest_form.ashx?la=en",
+   "detalhes_form_cirurgia": "pede status de visto, interesses/objetivos e até 3 attendings desejados; 'expressed interest ... does not guarantee acceptance' (confirmado; caminho do arquivo sugere foco em estudantes — confirmar se vale para médico estrangeiro)",
+   "cardiologia": "Divisão de Cardiovascular Medicine só oferece contato do Cardiovascular Education Office; sem observership internacional descrito (https://www3.pennmedicine.org/departments-and-centers/department-of-medicine/divisions/division-of-cardiovascular-medicine/education)",
+   "referencias_outros_deptos_penn": "Radiologia: 'Visiting Observer Application', processo de 6–9 meses quando Penn emite J-1; Neurocirurgia: trilha para não-cidadãos, caso a caso, com clearances adicionais — indicam padrão institucional (antecedência longa).",
+   "taxa": "não encontrado (cardio/cirurgia)", "duracao": "não encontrado", "antecedencia": "provável 6–9 meses (padrão de outros departamentos Penn)", "documentos": "não encontrado especificamente; 'additional clearances and paperwork' (Neurocirurgia)",
+   "contato_oficial": "Cardiovascular Education Office (página da divisão); e-mails de docentes de EP listados em https://www.med.upenn.edu/ep/personnel.html",
+   "certeza": "formulário de cirurgia confirmado; programa específico de cardio/EP não encontrado"
+  },
+  "servico": {
+   "nomes": ["Division of Cardiovascular Surgery, Penn Medicine (PPMC Heart and Vascular Pavilion)","Minimally Invasive and Robotic Cardiac Surgery Program","Penn Aorta Center","Section of Cardiac Electrophysiology (HUP)"],
+   "chefes": [
+    {"nome":"Wilson Y. Szeto, MD","cargo":"Chief, Division of Cardiovascular Surgery, Penn Medicine (desde mai/2024); Co-Director PPMC Heart and Vascular Pavilion; Penn Aorta Center","fonte":"https://www.pennmedicine.org/providers/wilson-szeto ; https://www.pennmedicine.org/physicians-hub/physician-article/szeto-new-leadership-at-penn-cardiovascular-surgery","certeza":"confirmado"},
+    {"nome":"Pavan Atluri, MD","cargo":"Director, Minimally Invasive and Robotic Cardiac Surgery Program","fonte":"https://pennmedicine.org/-/media/documents%20and%20audio/articles/clinical%20briefings/2020/january/cardfy200000robohrtsurgclinicalbriefing.ashx ; ReachMD 2026","certeza":"provável (fontes 2020 e ReachMD datado 2026)"},
+    {"nome":"Francis E. Marchlinski, MD","cargo":"Director of Electrophysiology, UPHS; Deputy Editor JACC: Clinical EP","fonte":"https://pennmedicine.org/news/news-releases/2017/may/penn-medicine-electrophysiologist-to-receive-distinguished-teacher-award-from-heart-rhythm-society","certeza":"confirmado (2017; podcast JACC 2026 reforça atividade)"}
+   ],
+   "diretor_fellowship": "EP: Greg Supple, MD (página da seção) OU David Lin, MD (outra lista) — inconsistente; David Callans = Associate Director EP UPHS. Certeza: incerto.",
+   "volume": [
+    {"dado":"EP HUP 2024: ~933 ablações de TV/ESV e 1.003 ablações de FA","fonte":"https://www.pennmedicine.org/departments-and-centers/department-of-medicine/divisions/division-of-cardiovascular-medicine/education-and-training/fellowship-programs/electrophysiology-fellowship","ano":"2024","certeza":"confirmado"},
+    {"dado":"EP: 18 docentes; Marchlinski treinou >120 fellows de EP","fonte":"https://www.med.upenn.edu/ep/","ano":"—"},
+    {"dado":"Acker, Atluri e Ibrahim: >6.000 procedimentos valvares","fonte":"https://heart-valve-surgery.com/learning/?p=2860","ano":"2022"}
+   ]
+  },
+  "pessoas_chave": [
+   {"nome":"Wilson Y. Szeto","cargo":"Chefe da Cirurgia Cardiovascular; aorta/TAVR","por_que":"decide na cirurgia; área aorta","fonte":"https://www.pennmedicine.org/providers/wilson-szeto"},
+   {"nome":"Pavan Atluri","cargo":"Diretor do programa robótico e minimamente invasivo","por_que":"hospedaria em robótica (mitral sem afastamento de costelas)","fonte":"https://videolink.pennmedicine.org/videos/state-of-robotic-mitral-valve-repair"},
+   {"nome":"Nimesh D. Desai","cargo":"Cirurgião de aorta, Penn Aorta Center","por_que":"pesquisa em dissecção/aorta","fonte":"https://www.pennmedicine.org/providers/profile/nimesh-desai"},
+   {"nome":"Joseph E. Bavaria","cargo":"Cirurgião de aorta (coautor das séries de dissecção)","por_que":"liderança histórica em aorta","fonte":"https://www.pennmedicine.org/providers/profile/nimesh-desai","certeza":"cargo atual não confirmado"},
+   {"nome":"Francis E. Marchlinski","cargo":"Diretor de EP UPHS","por_que":"decide em EP; referência mundial em TV","fonte":"https://www.med.upenn.edu/apps/faculty/index.php/g323/p8418"},
+   {"nome":"David J. Callans","cargo":"Associate Director, Cardiac EP UPHS","por_que":"ensino de EP; coautor com InCor no passado","fonte":"https://www.med.upenn.edu/apps/faculty/index.php/g20001280/p4356"}
+  ],
+  "brasileiros": "não encontrado (fellows atuais de EP listados têm formação EUA/Áustria/Canadá)",
+  "pontes_unifesp_sp": [
+   {"ponte":"Capítulo de livro sobre mapeamento de TV coassinado por David Callans (HUP) e Eduardo Sosa (InCor/USP)","fonte":"https://onlinelibrary-wiley-com-443.webvpn.zafu.edu.cn/doi/pdf/10.1002/9781444317077.ch6","certeza":"confirmado (antigo, ~2008–2010)"},
+   {"ponte":"Venice Chart consensus (FA) com afiliações HUP e InCor/USP","fonte":"https://air.unimi.it/bitstream/2434/540926/2/NATALE_et_al-2010-Journal_of_Cardiovascular_Electrophysiology.pdf","certeza":"confirmado (2010)"},
+   {"ponte":"Unifesp/Dante: não encontrado"}
+  ],
+  "pesquisa_recente": [
+   {"titulo":"Long-term outcomes of antegrade thoracic stent grafting during repair of acute DeBakey I dissection (Mosbahi ... Bavaria, Szeto, Desai)","ano":"2024 (Ann Thorac Surg, Epub)","id":"PMID não visível","fonte":"https://www.pennmedicine.org/providers/profile/nimesh-desai"},
+   {"titulo":"The Penn Classification System for Malperfusion in Acute Type A Dissection: A 25-Year Experience","ano":"não visível (provável 2022)","id":"PMID 36334650 (conforme URL do resultado)","fonte":"https://api-pubmed-ncbi.laibokeji.com/36334650","certeza":"provável"},
+   {"titulo":"Endocardial-only ablation for ventricular arrhythmias in ARVC (Marchlinski e col.)","ano":"2024 (Heart Rhythm)","id":"não visível; título exato não confirmado","fonte":"https://www.med.upenn.edu/apps/faculty/index.php/g323/p8418"},
+   {"titulo":"Podcast/artigo: pulsed field ablation-based endocardial strategy for VT in ARVC (JACC Clin EP; Marchlinski Deputy Editor)","ano":"2026","id":"não visível","fonte":"https://www.castfox.net/podcast/jacc-specialty-journals-216456/episode/a-pulsed-field-ablation-based-endocardial-strategy-for-ventricular-tachycardia-in-arrhythmogenic-right-ventricular-cardiomyopathy-jacc-clinical-electrophysiology-1075004"}
+  ],
+  "dicas": "Observership é por departamento; para cirurgia, preencher o Interest Form nomeando até 3 attendings (ex.: Atluri, Szeto, Desai). Prever 6–9 meses de antecedência (padrão Penn). EP fica no HUP, não no PPMC. Material público de ensino (Penn videolink 'State of Robotic Mitral Valve Repair', clinical briefing de mitral robótica sem afastamento de costelas) serve de gancho.",
+  "rota_recomendada": "1) Para robótica/aorta: Interest Form do Dept. de Cirurgia nomeando Atluri e Szeto/Desai, com e-mail prévio a eles citando o paper DeBakey I 2024 / classificação Penn de malperfusão; 2) para EP: e-mail ao Cardiovascular Education Office + Marchlinski/Callans citando a ponte histórica com InCor (Sosa) e o volume de ablação de TV; 3) iniciar com ≥6 meses de antecedência."
+ },
+ {
+  "match": "Allegheny General (AHN)",
+  "cidade": "Pittsburgh", "pais": "EUA", "areas_polo": ["robotica","ecmo","emergencia_choque"],
+  "alerta_correcao": "Radar correto (Allegheny General Hospital, hub do AHN). Página ECMO da AHN ainda cita Robert Moraca como líder, mas ele saiu em 2019 (CTSNet) — desatualizada. Manreet Kanwar aparece com página de docente na UChicago (https://medicine.uchicago.edu/faculty/manreet-kanwar-md) — possível saída da AHN; confirmar antes de citá-la como contato.",
+  "programa": {
+   "url": "não encontrado programa estruturado de observership internacional",
+   "canais_existentes": [
+    {"nome":"International Services – Allegheny General Hospital (parcerias de educação com provedores estrangeiros)","url":"https://www.ahn.org/locations/hospitals/allegheny-general/international-services","certeza":"confirmado"},
+    {"nome":"International Medical Faculty of Allegheny General — médicos internacionais visitantes em programas de educação/pesquisa são elegíveis","url":"https://www.ahn.org/locations/allegheny-general-hospital/contact-us","certeza":"confirmado"},
+    {"nome":"Physician observer AGH — acordo de confidencialidade para 'observation days' (observador não é funcionário, não age independentemente)","url":"https://www.ahn.org/content/dam/ahn/en/dmxahn/documents/health-care-professionals/career-exploration/physician-observer-agh.pdf","certeza":"confirmado (documento existe; regras completas não visíveis)"}
+   ],
+   "elegibilidade_residente_estrangeiro": "provável sim via International Services / International Medical Faculty (indireto)",
+   "taxa": "não encontrado", "duracao": "não encontrado", "antecedencia": "não encontrado", "documentos": "acordo de confidencialidade de observador (PDF acima); demais não encontrados",
+   "contato_oficial": "International Services AGH (página acima; e-mail não visível nos trechos)",
+   "certeza": "canais confirmados; detalhes não encontrados"
+  },
+  "servico": {
+   "nomes": ["AHN Cardiovascular Institute – Cardiac Surgery (Robotic and Minimally Invasive Heart Surgery)","AHN Cardiogenic Shock Program / Shock Team (AGH = hub do sistema)","ECMO Program AGH","Mechanical Circulatory Support & Cardiac Transplant Program"],
+   "chefes": [
+    {"nome":"Walter E. McGregor, MD","cargo":"Director, Robotic and Minimally Invasive Heart Surgery; Director, Thoracic Surgery Residency Program","fonte":"https://dmxapi.highmark.com/Walter-E-McGregor ; https://www.ahn.org/health-care-professionals/education/graduate-medical-education/residencies/thoracic-surgery/faculty","certeza":"provável-confirmado"},
+    {"nome":"Karthikeyan Ranganathan, MD","cargo":"System Director, AHN Cardiogenic Shock program; Co-Director Cardiac ICU, AGH","fonte":"https://cme.ahn.org/sites/default/files/course/2025-08/MX5340300_CME_CardiogenicShock_Registration_BRO_FS%20rev%203.pdf","certeza":"confirmado (2025)"},
+    {"nome":"Tyler VanDyck","cargo":"Co-director AHN Cardiothoracic Surgical Unit ICU; medical director do programa ECMO","fonte":"https://consultantlive.com/view/cardiogenic-shock-silent-killer-ahn-shock-team-fights-back","certeza":"provável (jan/2025)"}
+   ],
+   "diretor_fellowship": "Thoracic Surgery Residency: McGregor (provável). Heart Failure fellowship existe (https://www.ahn.org/education/graduate-medical-education-fellowships/heart-failure-fellowship-program) — diretor não encontrado.",
+   "volume": [
+    {"dado":"ELSO Platinum Center of Excellence (um de 14 centros adultos nos EUA); Gold todo ano desde 2015","fonte":"https://www.hcplive.com/view/cardiogenic-shock-silent-killer-ahn-shock-team-fights-back","ano":"2025"},
+    {"dado":"Mitral Valve Repair Reference Center (AHA/Mitral Foundation), único na Pensilvânia","fonte":"https://dicardiology.com/node/83880","ano":"2023"},
+    {"dado":"número de casos robóticos/ECMO por ano","fonte":"não encontrado"}
+   ]
+  },
+  "pessoas_chave": [
+   {"nome":"Walter E. McGregor","cargo":"Diretor de cirurgia cardíaca robótica e minimamente invasiva","por_que":"hospeda/decide em robótica mitral","fonte":"https://dmxapi.highmark.com/Walter-E-McGregor"},
+   {"nome":"Karthikeyan Ranganathan","cargo":"Diretor de sistema do Cardiogenic Shock program","por_que":"decide em choque/emergência; organiza simpósio anual","fonte":"https://cme.ahn.org/sites/default/files/course/2025-08/MX5340300_CME_CardiogenicShock_Registration_BRO_FS%20rev%203.pdf"},
+   {"nome":"Tyler VanDyck","cargo":"Diretor médico do ECMO","por_que":"ECMO (Platinum ELSO)","fonte":"https://consultantlive.com/view/cardiogenic-shock-silent-killer-ahn-shock-team-fights-back"},
+   {"nome":"Manreet Kanwar","cargo":"Ex/atual Director MCS & Cardiac Transplant (2023); chair do Cardiogenic Shock Academy 2025 (ISHLT)","por_que":"liderança acadêmica em choque (Cardiogenic Shock Working Group) — vínculo atual incerto","fonte":"https://cme.ahn.org/sites/default/files/course/2023-09/Updates%20in%20Shock_Kanwar.pdf ; https://ishlt.org/event-calendar/event/2025/04/26/default-calendar/2025-cardiogenic-shock-academy"},
+   {"nome":"Debra Camp","cargo":"Coordenadora de cardiogenic shock e ECMO","por_que":"contato operacional do programa (listado pela AHN)","fonte":"https://consultantlive.com/view/cardiogenic-shock-silent-killer-ahn-shock-team-fights-back","certeza":"provável"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado (sem coautoria AGH × USP/Unifesp/Dante nos resultados)",
+  "pesquisa_recente": [
+   {"titulo":"Análise de comorbidades no registro do Cardiogenic Shock Working Group (Kanwar listada)","ano":"2025 (Eur J Heart Fail)","id":"PMID 40956069","fonte":"https://medicine.uchicago.edu/faculty/manreet-kanwar-md","certeza":"provável (afiliação AHN e título exato não confirmados)"},
+   {"titulo":"IABP axilar vs femoral (Cardiogenic Shock Working Group)","ano":"2026 (J Card Fail)","id":"PMID 40846302","fonte":"https://medicine.uchicago.edu/faculty/manreet-kanwar-md","certeza":"provável"},
+   {"titulo":"Impact of Age on Outcomes in Patients With Cardiogenic Shock (fora da janela)","ano":"2021 (Front Cardiovasc Med)","id":"DOI 10.3389/fcvm.2021.688098","fonte":"https://www.frontiersin.org/journals/cardiovascular-medicine/articles/10.3389/fcvm.2021.688098/epub"},
+   {"nota":"artigo robótico AGH 2022–2026 com PMID: não encontrado"}
+  ],
+  "dicas": "Portas de entrada abertas: Western Pennsylvania Cardiogenic Shock Initiative (simpósio anual AHN, ed. 6/set/2025 — https://cme.ahn.org/node/46742) e 'Cardiogenic Shock/ECMO M&M' mensal (https://cme.ahn.org/cardiogenic-shock-ecmo-m-m-2025/series-events). Shock Team de chamada única 24/7 e ECMO Platinum são ganchos para o e-mail. Programa International Services + International Medical Faculty é o canal institucional.",
+  "rota_recomendada": "1) Escrever ao International Services da AGH pedindo observership de 4 semanas (choque/ECMO + robótica), já indicando os sponsors desejados; 2) e-mail paralelo a Ranganathan (choque) e McGregor (robótica) citando o Platinum ELSO e o Mitral Reference Center; 3) participar (online/presencial) do Cardiogenic Shock Initiative como ponto de contato."
+ }
+]

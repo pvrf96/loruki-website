@@ -1,0 +1,176 @@
+[
+ {
+  "match": "Rigshospitalet — The Heart Center",
+  "centro": "Rigshospitalet (Copenhagen University Hospital) — Hjertecentret / The Heart Centre, Copenhague",
+  "cidade": "Copenhague, Dinamarca",
+  "areas": ["estrutural","ic","imagem","transplante"],
+  "programa": {
+   "pagina": "não encontrado (nenhuma página oficial de observership/visiting physician do Hjertecentret nos resultados)",
+   "indicio_1": "Diretório ESC de treinamento em cardiologia intervencionista lista Rigshospitalet: 12 fellows locais, aceita 4 international fellows/ano, tipo 'clinical' — https://www.escardio.org/Research/Research-and-training-directory-in-interventional-cardiology/Rigshospitalet (confirmado no trecho; contato da página não visível)",
+   "indicio_2": "Relato de observer estrangeiro (Geórgia) de 4 semanas na Eye Clinic do Rigshospitalet-Glostrup via grant SOE — mostra que estágios de observação curtos existem na instituição, mas em outro departamento — https://soevision.org/?p=9714 (provável como precedente)",
+   "elegibilidade_taxa_documentos": "não encontrado",
+   "contato_oficial": "não encontrado",
+   "certeza": "baixa — programa não confirmado"
+  },
+  "servico": {
+   "nomes": ["Department of Cardiology, The Heart Centre, Rigshospitalet (Afdeling for Hjertesygdomme, Hjertecentret)"],
+   "chefe_departamento": "Conflitante: anúncios citam Søren Boesgaard (anúncio ~2020) e, em anúncio mais recente de professorship, Nicolai W. Albrechtsen como contato do head of department — https://jobbank.dk/en/job/3099941/region-hovedstaden/consultancy-in-cardiology-combined-with-a-clinical-professorship-in-cardiology-with-special-focus-on-intensive-care-in-critical-heartdisease (provável; confirmar)",
+   "ic_transplante": "Finn Gustafsson — professor de cardiologia (Univ. Copenhagen) e medical director do programa de advanced heart failure, transplantation and MCS do Rigshospitalet — https://www.radcliffecardiology.com/authors/finn-gustafsson (confirmado)",
+   "estrutural": "Ole De Backer — senior consultant em cardiologia intervencionista, full professor (KU), foco em doença estrutural/aórtica/FA — https://researchprofiles.ku.dk/en/persons/ole-de-backer/ (confirmado)",
+   "imagem": "Klaus Fuglsang Kofoed — lidera a Cardiac CT research unit (CT em dor torácica e TAVR) — https://esc365.escardio.org/person/160920 (confirmado)",
+   "volume": "TAVI: >400 procedimentos/ano (perfil ESC de Gintautas Bieliauskas, sem ano) — https://esc365.escardio.org/person/34508 (provável). Transplante: 384 primeiros transplantes isolados 1990–2020, sobrevida mediana 13,8 anos — DOI 10.1080/14017431.2022.2061726 (confirmado)"
+  },
+  "pessoas_chave": [
+   {"nome":"Finn Gustafsson","cargo":"Medical director, Advanced HF/Transplant/MCS; professor KU","por_que":"decide/hospeda área de IC e transplante","fonte":"https://www.radcliffecardiology.com/authors/finn-gustafsson"},
+   {"nome":"Ole De Backer","cargo":"Senior consultant intervencionista; professor KU","por_que":"lidera pesquisa estrutural (NOTION-2 apresentado EuroPCR 2024)","fonte":"https://researchprofiles.ku.dk/en/persons/ole-de-backer/"},
+   {"nome":"Lars Søndergaard","cargo":"Consultant cardiologist e professor (valvas e congênitas) — perfil sem data, pode estar desatualizado","por_que":"referência histórica em TAVI no centro","fonte":"https://www.icrjournal.com/authors/lars-s-ndergaard"},
+   {"nome":"Klaus Fuglsang Kofoed","cargo":"Líder da Cardiac CT research unit; PI DYNAMITE (NCT04709900)","por_que":"porta para imagem (TC cardíaca)","fonte":"https://esc365.escardio.org/person/160920"},
+   {"nome":"Christian Hassager","cargo":"Professor of critical care (KU), Dept. of Cardiology","por_que":"UTI cardiológica/choque","fonte":"https://www.sciencenews.dk/en/profile/christian-hassager"},
+   {"nome":"Thomas Engstrøm","cargo":"Contato listado em vaga de research assistant em cardiologia (provável liderança de pesquisa)","por_que":"possível contato de pesquisa; e-mail institucional publicado apenas em anúncio de vaga — não usar como canal de observership","fonte":"https://www.sundhedsjobs.dk/jobopslag/490010/1-year-fixed-term-position-research-assistant-with-biomedical-engineering-training"}
+  ],
+  "brasileiros": "não encontrado (busca não achou brasileiro com vínculo documentado no Hjertecentret)",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {"titulo":"Short-term outcomes after heart transplantation using donor hearts preserved with ex vivo perfusion","ano":2023,"doi":"10.1080/14017431.2023.2267804","pmid":"37822186 (provável — aparece como mdl-37822186 na mesma busca)","fonte":"https://informahealthcare.com/doi/abs/10.1080/14017431.2023.2267804"},
+   {"titulo":"Advantages and Limitations of Retro- and Prospective Comparative TAVR Studies (editorial, Willemen & De Backer, JACC CI)","ano":2024,"doi":"10.1016/j.jcin.2024.08.040","pmid":"39570232","fonte":"https://api-pubmed-ncbi.laibokeji.com/39570232"},
+   {"titulo":"HOSPITAVI — acompanhamento ambulatorial intensificado pós-TAVI (Bække et al., Am J Cardiol) = NCT05670041 'Re-hospitalisation After TAVI'","ano":2025,"doi":"10.1016/j.amjcard.2025.01.031","fonte":"https://clinicaltrials.gov/study/NCT05670041"},
+   {"titulo":"NOTION-2 (TAVR vs SAVR em jovens de baixo risco, 370 pts) — apresentação EuroPCR 2024; DOI da publicação não encontrado","ano":2024,"fonte":"https://www.pcronline.com/News/PCR-Press-Releases/2024/EuroPCR-2024-Short-term-data-from-NOTION-2-TAVR-versus-SAVI-for-younger-patients-with-aortic-stenosis"}
+  ],
+  "dicas": [
+   "Sem programa público: rota realista é carta direta a um professor (Gustafsson para IC/Tx; De Backer para estrutural; Kofoed para TC) pedindo 4 semanas como observer, citando um paper dele.",
+   "O centro já aceita fellows internacionais em intervenção (4/ano, diretório ESC) — sinal de cultura receptiva.",
+   "Dinamarca é Schengen: brasileira entra sem visto até 90 dias para visita; observação sem ato médico (confirmar exigências do hospital — não encontrado).",
+   "Item do radar (NCT05670041) é o HOSPITAVI, estudo de reinternação pós-TAVI — bom gancho para e-mail ao grupo estrutural."
+  ],
+  "rota_recomendada": "1) E-mail personalizado a Finn Gustafsson (IC/transplante, o eixo mais forte do centro) ou Ole De Backer (estrutural), citando DOI acima, pedindo observership de 4 semanas e perguntando o trâmite administrativo do Hjertecentret; 2) anexar carta da Unifesp, CV e prova de seguro; 3) alternativa: ESC (vínculo com diretório de treinamento/grants ESC) como porta institucional.",
+  "alerta_correcao": "url do radar (NCT05670041) é estudo de TAVI (HOSPITAVI), não página de programa; chefia do departamento é conflitante entre fontes."
+ },
+ {
+  "match": "Royal Brompton Hospital",
+  "centro": "Royal Brompton Hospital (Royal Brompton & Harefield, hoje parte do Guy's and St Thomas' NHS Foundation Trust), Londres",
+  "cidade": "Londres, Reino Unido",
+  "areas": ["cardiogenetica","miocardiopatias","hipertensao_pulmonar","congenita_adulto"],
+  "programa": {
+   "pagina": "Não há página própria de observership do Royal Brompton nos resultados. O trust controlador (GSTT) tem Visiting Professional Programmes (VPP): International Clinical Fellowship, Clinical Attachment (hands-on, exige GMC), Clinical Observership (sem hands-on) e Virtual VPP — https://gstt.mixd.co.uk/vpp/ (confirmado que o VPP existe; NÃO confirmado que inclui Royal Brompton/cardiologia)",
+   "elegibilidade": "Observership VPP: sem contato com paciente; attachment exige GMC — https://gstt.mixd.co.uk/?p=340 (confirmado)",
+   "taxa": "Observership: não encontrado. (ICFP: £52.000/ano + £3.800 admin — só para fellowship de 1 ano.)",
+   "duracao_antecedencia_documentos": "não encontrado para VPP observership; certificado de participação ao fim (página anestesia VPP)",
+   "contato_oficial": "ICFP@gstt.nhs.uk publicado para International Clinical Fellowship; e-mail de observership não encontrado",
+   "visto": "Brasileiro entra no RU como Standard Visitor; regras do RU permitem observação clínica sem trabalho (não confirmado nas buscas — verificar gov.uk)",
+   "certeza": "provável (via GSTT VPP)"
+  },
+  "servico": {
+   "nomes": ["Inherited Cardiac Conditions (ICC) service — Royal Brompton & Harefield (serviço único nos dois sites)","Cardiomyopathy service","Pulmonary Hypertension Service (National Pulmonary Hypertension Service)","Adult Congenital Heart Centre"],
+   "lider_icc_miocardiopatias": "Dr Antonis Pantazis — consultant cardiologist, lidera o cardiomyopathy and ICC service (desde 2016) — https://fondazione-menarini.com/es/cursos-y-eventos/orador.html/antonis-pantazis (confirmado; data incerta)",
+   "lider_hp": "Prof S John Wort — clinical lead for pulmonary hypertension; contato de vaga GSTT 2025 — https://www.jobs.nhs.uk/candidate/jobadvert/C9196-25-1637 (confirmado)",
+   "achd": "Prof Michael Gatzoulis — Adult Congenital Heart Centre and National Centre for PH (Royal Brompton/NHLI Imperial) — afiliação confirmada em livro; Prof Konstantinos Dimopoulos — ACHD/PH, autor principal das revisões 2024",
+   "volume": "não encontrado (com ano)"
+  },
+  "pessoas_chave": [
+   {"nome":"Antonis Pantazis","cargo":"Clinical Lead, Cardiomyopathy & ICC","por_que":"decide/hospeda em cardiogenética e miocardiopatias","fonte":"https://fondazione-menarini.com/es/cursos-y-eventos/orador.html/antonis-pantazis"},
+   {"nome":"S John Wort","cargo":"Clinical lead, Pulmonary Hypertension","por_que":"decide em HP","fonte":"https://www.jobs.nhs.uk/candidate/jobadvert/C9196-25-1637"},
+   {"nome":"Laura Price","cargo":"Education lead do time de HP","por_que":"pessoa de ensino — alvo natural para pedido de observership em HP","fonte":"https://www.rbht.nhs.uk/node/1003"},
+   {"nome":"Konstantinos Dimopoulos","cargo":"ACHD Centre & Centre for PH","por_que":"lidera pesquisa ACHD-HP (cruza duas áreas do polo)","fonte":"https://www.frontiersin.org/articles/10.3389/fcvm.2024.1360555/full"},
+   {"nome":"Alexander Kempny","cargo":"Lead consultant, intervenções em ACHD e HP","por_que":"hemodinâmica ACHD/HP","fonte":"https://www.doctify.com/uk/specialist/prof-alexander-kempny"},
+   {"nome":"Sanjay Prasad","cargo":"Cardiologista, CMR em miocardiopatias","por_que":"pesquisa CMR+genética em CMD","fonte":"https://www.frontiersin.org/articles/10.3389/fcvm.2022.1017119/full"}
+  ],
+  "brasileiros": [
+   {"nome":"Paulo Rego Medeiros","vinculo":"Cirurgião cardíaco de Pernambuco; especialização na Beneficência Portuguesa (SP) e fellowship em cirurgia cardíaca no Royal Brompton Hospital","fonte":"https://www.ctsnet.org/home/pmedeiros","certeza":"confirmado (ex-fellow; área cirúrgica/congênita, não as áreas clínicas do polo)"}
+  ],
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {"titulo":"Pulmonary arterial hypertension related to congenital heart disease with a left-to-right shunt: phenotypic spectrum and approach to management (Ferrero, Constantine, Chessa, Dimopoulos)","ano":2024,"doi":"10.3389/fcvm.2024.1360555"},
+   {"titulo":"Pulmonary arterial hypertension in congenital heart disease (Heart 110(18):1145–52)","ano":2024,"doi":"10.1136/heartjnl-2023-322890 (provável — derivado do PII)"},
+   {"titulo":"Genetic testing + CMR para estratificar etiologia na cardiomiopatia dilatada (Amin, Ware, Prasad, Halliday)","ano":2022,"doi":"10.3389/fcvm.2022.1017119"},
+   {"titulo":"Editorial PAH em CIA (Krishnathasan, Rafiq, Dimopoulos)","ano":2025,"doi":"10.3389/fcvm.2025.1589305"}
+  ],
+  "dicas": [
+   "Royal Brompton agora é GSTT: candidatar via GSTT Visiting Professional Programmes (observership sem hands-on não exige GMC).",
+   "Em outros trusts do NHS o padrão é ter um consultant sponsor/supervisor que aceite antes — conseguir 'sim' de um consultant (Pantazis/Wort/Price/Dimopoulos) antes de abrir o processo administrativo.",
+   "Royal Brompton oferece cursos pagos para cardiologistas (ex. £400) — porta de entrada e networking.",
+   "Paediatric inpatient services mudaram para Evelina London (aviso na página ICC)."
+  ],
+  "rota_recomendada": "1) E-mail a Laura Price (education lead HP) ou Antonis Pantazis (ICC/miocardiopatias) citando um dos papers 2024 de Dimopoulos/Prasad e pedindo 4 semanas de observership; 2) com aceite do consultant, formalizar via GSTT Visiting Professional Programmes (Clinical Observership); 3) alternativa: curso de curta duração do Royal Brompton como primeiro contato.",
+  "alerta_correcao": "Instituição hoje integrada ao Guy's and St Thomas' NHS FT; páginas rbht.nhs.uk podem estar desatualizadas."
+ },
+ {
+  "match": "Fuwai Hospital",
+  "centro": "Fuwai Hospital, Chinese Academy of Medical Sciences / National Center for Cardiovascular Diseases, Pequim",
+  "cidade": "Pequim, China",
+  "areas": ["hipertensao_pulmonar","miocardiopatias","coronaria","cardio_pediatrica"],
+  "programa": {
+   "pagina": "não encontrado (sem página oficial de visiting scholar/observership em inglês nos resultados)",
+   "indicios": "Wikipedia: programas educacionais (Zhu Xiaodong Scholarship, Vascular Surgery training, China Oxford Centre for International Health Research) treinam alunos nacionais e internacionais — https://en.wikipedia.org/wiki/Fuwai_Hospital (fonte secundária). Cirurgião do Uzbequistão concluiu estudo de 1 ano no Fuwai em mar/2025 sob a Belt and Road — https://govt.chinadaily.com.cn/s/202505/21/WS682d322f498eec7e1f737441/chinese-ultrasound-guided-therapy-enhances-global-cardiaovascular-care-capacity.html (confirmado; indica estágios longos, não 1 mês)",
+   "elegibilidade_taxa_documentos_contato": "não encontrado",
+   "certeza": "baixa"
+  },
+  "servico": {
+   "nomes": ["Center for Respiratory and Pulmonary Vascular Diseases (Dept. of Cardiology)","Center for Pulmonary Vascular Disease Diagnosis and Treatment (nome histórico)","Cirurgia de miectomia septal / CMH obstrutiva","Cardiologia intervencionista coronária"],
+   "hp": "Zhihong Liu — PI do registro CHASE (NCT06135909) no Center for Respiratory and Pulmonary Vascular Diseases, Fuwai — https://clinicaltrials.gov/study/NCT06135909 (confirmado como PI; cargo de diretor só via LinkedIn — provável). Changming Xiong — professor, Fuwai/State Key Lab (provável).",
+   "coronaria": "Bo Xu — Secretary-General do CIT (China Interventional Therapeutics) — https://microport.com/news/microport-organizes-belt-and-road-international-pci-symposium-at-cit-online-2020 (confirmado)",
+   "miocardiopatias": "Grande série de miectomia: 1491 pacientes com CMHo 2015–2019 em estudo de HP pós-miectomia — https://pmc.ncbi.nlm.nih.gov/articles/PMC11629235 (confirmado; ano de publicação não visto)",
+   "volume": "não encontrado com ano"
+  },
+  "pessoas_chave": [
+   {"nome":"Zhihong Liu","cargo":"PI, Center for Respiratory and Pulmonary Vascular Diseases","por_que":"lidera HP","fonte":"https://clinicaltrials.gov/study/NCT06135909"},
+   {"nome":"Changming Xiong","cargo":"Professor, Fuwai / State Key Laboratory of Cardiovascular Disease","por_que":"HP (pesquisa)","fonte":"https://www.medifind.com/doctors/changming-m-xiong/572754988"},
+   {"nome":"Bo Xu","cargo":"Professor; Secretary-General do CIT","por_que":"coronária; congresso CIT é porta internacional","fonte":"https://microport.com/news/microport-organizes-belt-and-road-international-pci-symposium-at-cit-online-2020"},
+   {"nome":"Runlin Gao / Yuejin Yang","cargo":"Autores correspondentes do ensaio Tongxinluo em IAM (JAMA)","por_que":"liderança coronária","fonte":"https://bohrium.dp.tech/paper/arxiv/34588097"}
+  ],
+  "brasileiros": "não encontrado (brasileiros em treinamento achados foram no Xiamen Cardiovascular Hospital, não no Fuwai — https://www.news.cn/world/20260911/affe14f34c854f7fa6a89ea9d5ea0240/c.html)",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {"titulo":"Deep Learning-Enhanced Non-Invasive Detection of Pulmonary Hypertension and Subtypes via Chest Radiographs, Validated by Catheterization (Chest)","ano":2025,"doi":"10.1016/j.chest.2025.06.008"},
+   {"titulo":"Myectomy vs alcohol septal ablation vs medical therapy em CMHO, 965 pts (Meng et al., Front Cardiovasc Med)","ano":2022,"doi":"10.3389/fcvm.2022.755376"},
+   {"titulo":"Implication of prolonged nocturnal hypoxemia and OSA for pulmonary hemodynamics (J Clin Sleep Med 19(2):213–223)","ano":2023,"doi":"10.5664/jcsm.10286 (provável autoria Fuwai — citado em NCT05595200)"},
+   {"titulo":"Deep learning PH detection (npj Digital Medicine)","ano":2025,"doi":"10.1038/s41746-025-01593-3"}
+  ],
+  "dicas": [
+   "Estágios documentados para estrangeiros são longos (1 ano) e via cooperações de governo/Belt and Road; observership de 1 mês não documentado.",
+   "Congresso CIT (Pequim) e eventos internacionais do Fuwai são porta de networking.",
+   "Comparável: Xiamen Cardiovascular Hospital tem programa visiting scholar para BRICS desde 2022 com brasileiros (46 médicos de 18 países) — alternativa chinesa mais acessível."
+  ],
+  "rota_recomendada": "1) Contato direto com Zhihong Liu (HP) ou grupo de miectomia citando paper, pedindo observação curta; 2) buscar escritório internacional do Fuwai via site fuwai.com (contato não encontrado); 3) alternativa realista: programa BRICS do Xiamen Cardiovascular Hospital.",
+  "alerta_correcao": "url do radar (frontiersin fsurg.2022.1067750) não confirmada nas buscas — é artigo, não página de programa."
+ },
+ {
+  "match": "Starship Children's Hospital",
+  "centro": "Starship Children's Health — Green Lane Paediatric and Congenital Cardiac Service (PCCS), Auckland City Hospital/Te Toka Tumai, Health NZ",
+  "cidade": "Auckland, Nova Zelândia",
+  "areas": ["cardio_pediatrica","fetal","congenita_adulto","hemodinamica_pediatrica"],
+  "programa": {
+   "pagina": "Não há observership para médicos estrangeiros nos resultados. Existe elective para estudantes internacionais no último ano (via University of Auckland) — https://www.starship.org.nz/health-professionals/medical-roles-at-starship (confirmado; não serve para residente)",
+   "fellowship": "Advanced Paediatric Cardiology Trainee (Fellowship) de 12 meses, intake jan/2026; exige MBChB, FRACP ou equivalente e registro como pediatra — https://adhbrac.referrals.selectminds.com/jobs/medical-fellow-paediatric-and-congenital-cardiac-service-starship-childrens-health-71976 (confirmado; vaga paga, não observership)",
+   "elegibilidade_taxa_documentos_contato": "não encontrado",
+   "certeza": "baixa para observership"
+  },
+  "servico": {
+   "nomes": ["Green Lane Paediatric and Congenital Cardiac Service (PCCS) — serviço nacional, inclui fetal cardiology (clínica no National Women's fetal medicine clinic) e ACHD"],
+   "diretor": "Dr Tim Hornung — Service Clinical Director (paed & ACHD cardiologist; ACHD, RM cardíaca, Marfan) — https://starship.org.nz/health-professionals/paediatric-and-congenital-cardiology-service/ (confirmado; títulos variam entre fontes)",
+   "volume": "Cirurgia cardíaca pediátrica: 280 casos em 2025 (dados de perfusão Health NZ) — https://www.scoop.co.nz/stories/GE2603/S00081.htm (confirmado). Anúncio cita >400 cirurgias/ano (sem ano, provável que inclua adultos/antigo).",
+   "fellowship_director": "não encontrado"
+  },
+  "pessoas_chave": [
+   {"nome":"Tim Hornung","cargo":"Service Clinical Director, PCCS","por_que":"decide","fonte":"https://starship.org.nz/health-professionals/paediatric-and-congenital-cardiology-service/"},
+   {"nome":"Tom Gentles","cargo":"Professor, cardiologista pediátrico (interesse fetal)","por_que":"fetal + pesquisa de desfechos","fonte":"https://starship.org.nz/health-professionals/paediatric-and-congenital-cardiology-service/"},
+   {"nome":"Judith MacCormick","cargo":"Cardiologista pediátrica (fetal)","por_que":"fetal","fonte":"https://www.healthpoint.co.nz/public/specialist/dr-judith-maccormick/"},
+   {"nome":"Gemma Penford","cargo":"Interventional paediatric cardiologist","por_que":"hemodinâmica pediátrica","fonte":"https://starship.org.nz/directory-of-services/green-lane-paediatric-and-congenital-cardiac-service/"},
+   {"nome":"John Stirling","cargo":"Cardiologista, cateterismo intervencionista","por_que":"hemodinâmica pediátrica","fonte":"https://www.healthpoint.co.nz/public/specialist/dr-john-stirling/"},
+   {"nome":"Clare O'Donnell","cargo":"Cardiologista (ACHD, HP, intervenção)","por_que":"cruza ACHD e hemodinâmica","fonte":"https://www.healthpoint.co.nz/public/specialist/dr-clare-odonnell/"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {"titulo":"Parent and healthcare professional experiences of critical congenital heart disease in New Zealand to advance health equity (Watkins et al., BMC Health Serv Res 24:991)","ano":2024,"doi":"10.1186/s12913-024-11410-4","pmid":"39187808 (provável — mdl-39187808 no resultado)"},
+   {"titulo":"Three Decades of Surgery for Congenital Heart Disease: Factors Associated With Mortality (Heart Lung Circ) — Green Lane/Starship 1985–2014","ano":"não confirmado","doi":"não encontrado","fonte":"https://researchspace.auckland.ac.nz/handle/2292/43097"},
+   {"titulo":"Factors Associated With Ethnic Disparities in CCHD survival (NZ 2006–2019)","ano":"não confirmado","fonte":"https://ourarchive.otago.ac.nz/esploro/outputs/journalArticle/Factors-Associated-With-Ethnic-Disparities-in/9926723711001891"}
+  ],
+  "dicas": [
+   "Único centro nacional de cardiologia/cirurgia cardíaca pediátrica da NZ — volume concentrado, mas sem programa de observership publicado.",
+   "PICU do Starship aparece no diretório WFPICCS como unidade que pode aceitar electives/observerships com contato nomeado (sem obrigação) — https://wfpiccs.org/medical-students-elective/ — via indireta para cardio-intensivismo pediátrico.",
+   "Perfil do polo (pediátrico) é pouco aderente a residente de cardiologia/cirurgia CV adulta — exceto ACHD (Hornung, O'Donnell)."
+  ],
+  "rota_recomendada": "1) E-mail a Tim Hornung (diretor; ACHD) ou Tom Gentles (fetal) pedindo observação de 4 semanas, citando Watkins 2024; 2) perguntar via Te Toka Tumai/Health NZ o processo de 'honorary observer'; 3) baixa prioridade frente a polos com programa formal.",
+  "alerta_correcao": "Serviço formal é 'Green Lane Paediatric and Congenital Cardiac Service' (Health NZ, Auckland City Hospital/Starship) — não é um departamento autônomo do Starship."
+ }
+]
