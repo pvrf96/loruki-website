@@ -16,3 +16,9 @@
 - Elemento escondido com transform (gaveta fora da tela) alargava a página no celular → `overflow:hidden` no palco
 - Continentes muito apagados na 1ª versão → brilho base subido
 - FPS não dá para medir aqui (navegador de teste sem GPU: 19 fps desktop / 11 celular); medir em aparelho real
+
+## Virada de foco (01/11/2026)
+- O que os residentes querem é OBSERVERSHIP de ~1 mês (barato, autorizado pela residência), não fellowship
+- Caso real: esposa (Unifesp) mandou e-mail para vários polos de robótica nos EUA; só Chicago respondeu; entrevista por vídeo, exames de saúde, autorização da Unifesp, tudo por conta própria
+- Probabilidade = jogo de volume: mostrar polos + contato oficial + relatos
+- Fellowship informal/observership muitas vezes não tem edital: busca web sozinha não basta

@@ -19,3 +19,12 @@ Regra: uma tarefa só está pronta quando passa em todos os itens da sua lista.
 - [ ] Link oficial abre e confirma os dados
 - [ ] Trecho de evidência salvo para cada campo
 - [ ] Aprovada por humano, com data
+
+## Radar de Observership — polos de robótica/MICS (aprovado pelo Paulo em 01/11/2026)
+- [ ] Polos de cirurgia cardíaca robótica/MICS em EUA, Canadá, Europa e Ásia, só com fonte
+- [ ] Por polo: link da página oficial de observership + contato institucional publicado, ou "sem programa público"
+- [ ] Requisitos publicados (entrevista, exames, taxa, duração)
+- [ ] Agente verificador confere tudo
+- [ ] Nenhum e-mail pessoal garimpado; nenhum dado inventado
+- [ ] Polos substituem os pontos de exemplo no radar; ficha mostra contato e link
+- [ ] Seção "Como fazer" com o caminho da esposa (revisão dela antes)
