@@ -1,0 +1,403 @@
+[
+ {
+  "match": "Boston Children's — Benderson Heart Center",
+  "cidade": "Boston",
+  "pais": "EUA",
+  "areas": [
+   "congenitas"
+  ],
+  "programa": {
+   "pagina": "https://www.childrenshospital.org/centers/heart-center/education-and-training/observerships",
+   "elegibilidade": "Observership de Cardiologia aberto a médicos internacionais e dos EUA (aprendizado informal, sem hands-on). Fluência em inglês escrito e oral; pode haver entrevista online antes da decisão.",
+   "fonte": [
+    "https://bchcmg.tch.harvard.edu/services/cardiology/education-training",
+    "https://childrenshospital.org/sites/default/files/2025-01/international-observership-application-checklist-2025-26.pdf"
+   ],
+   "trecho": "'open to international and U.S.-based physicians ... informal learning in the Department of Cardiology'; 'must be fluent in written and oral English, and may be required to complete an online interview'",
+   "taxa": "Há 'program fee' na lista de registro (valor não publicado nos trechos; no checklist 2024-25 consta 'applicable only in some cases').",
+   "duracao": "não encontrado",
+   "antecedencia": "não encontrado",
+   "documentos": "Após aceite: registros de vacinação (clearance RH + Occupational Health), program fee, comprovante de seguro saúde, cópia de visto e passaporte, background investigation e CORI quando aplicável. Visto B1/B2 ou ESTA — o hospital NÃO patrocina visto.",
+   "contato_oficial": "Observership.Program@childrens.harvard.edu (aplicação via formulário online + upload)",
+   "certeza": "confirmado (checklist oficial 2025-26); taxa/duração não encontradas"
+  },
+  "servico": {
+   "nome": "Benderson Family Heart Center — Department of Cardiology e Department of Cardiac Surgery",
+   "chefes": "Tal Geva, MD (Cardiologist-in-Chief); Pedro del Nido, MD (Chief of Cardiac Surgery); Diego Porras, MD (Chief, Division of Invasive Cardiology)",
+   "fonte": "https://bchcmg.tch.harvard.edu/services/heart-center/meet-our-team",
+   "certeza": "provável (página sem data; confirmar se houve sucessão recente)",
+   "fellowship": "David W. Brown, MD — Program Director, Pediatric Cardiology Fellowship (FREIDA atualizado fev/2026); assistentes Sarah Teele e David Kane; David Kane dirige o Acute Pediatric Congenital Cardiac Care Senior Fellowship",
+   "fonte_fellowship": [
+    "https://freida.ama-assn.org/program/3252411022",
+    "https://cecourses.childrenshospital.org/?p=42680"
+   ],
+   "volume": "não encontrado"
+  },
+  "pessoas_chave": [
+   {
+    "nome": "Tal Geva, MD",
+    "cargo": "Cardiologist-in-Chief",
+    "por_que": "chefe do departamento que hospeda o observership de cardiologia",
+    "fonte": "https://bchcmg.tch.harvard.edu/services/heart-center/meet-our-team"
+   },
+   {
+    "nome": "Pedro del Nido, MD",
+    "cargo": "Chief of Cardiac Surgery",
+    "por_que": "lidera cirurgia congênita (relevante se a residente for de cirurgia CV)",
+    "fonte": "https://bchcmg.tch.harvard.edu/services/heart-center/meet-our-team"
+   },
+   {
+    "nome": "Diego Porras, MD",
+    "cargo": "Chief, Division of Invasive Cardiology",
+    "por_que": "hemodinâmica congênita",
+    "fonte": "https://scai.confex.com/scai/ff25/webprogramarchives/Person20897.html"
+   },
+   {
+    "nome": "David W. Brown, MD",
+    "cargo": "Pediatric Cardiology Fellowship Program Director",
+    "por_que": "educação/fellows",
+    "fonte": "https://freida.ama-assn.org/program/3252411022"
+   },
+   {
+    "nome": "Kathy Jenkins, MD",
+    "cargo": "Líder do IQIC (International Quality Improvement Collaborative), gerido no Boston Children's",
+    "por_que": "ponte histórica com centros brasileiros (São José do Rio Preto)",
+    "fonte": "https://childrensheartlink.org/iqic"
+   }
+  ],
+  "brasileiros": [
+   {
+    "nome": "Renata Caroline Costa de Freitas",
+    "papel": "pós-doc no Department of Cardiac Surgery do BCH; doutoranda/assistente de pesquisa na USP",
+    "fonte": "https://loop.frontiersin.org/people/504207",
+    "certeza": "provável (perfil Frontiers Loop)"
+   },
+   {
+    "nome": "Gabriela B. de O. Carvalho",
+    "papel": "coautora em artigo da Rev Bras Cir Cardiovasc com afiliações InCor/FMUSP e BCH Cardiac Surgery",
+    "fonte": "https://scielo.br/j/rbccv/a/gfbKD3nw5gq65f8b3mDZZJp/abstract/?lang=en",
+    "certeza": "provável (trecho não mostra ano/título)"
+   }
+  ],
+  "pontes_unifesp_sp": [
+   {
+    "tipo": "coautoria InCor/FMUSP + BCH Cardiac Surgery",
+    "fonte": "https://scielo.br/j/rbccv/a/gfbKD3nw5gq65f8b3mDZZJp/abstract/?lang=en",
+    "certeza": "provável"
+   },
+   {
+    "tipo": "IQIC (Boston Children's/Children's HeartLink) — FAMERP São José do Rio Preto participa desde 2009; aulas mensais pela internet 2010–2011",
+    "fonte": "https://www.scielo.br/j/rbccv/a/q7tX6p8Jv3PL6N6MZKZ76jg/?lang=en",
+    "certeza": "confirmado"
+   },
+   {
+    "tipo": "Unifesp/EPM ou Dante Pazzanese",
+    "detalhe": "não encontrado"
+   }
+  ],
+  "pesquisa_recente": [
+   {
+    "titulo": "Long-term liver outcomes after biventricular repair vs Fontan (Ghbeis, Pane, Beroukhim, Feins, del Nido, Sleeper, Emani, Kheir)",
+    "ano": 2025,
+    "revista": "JACC: Advances",
+    "id": "PMC11720947",
+    "fonte": "https://rcastoragev2.blob.core.windows.net/6a78664d0fea83bf31a2cfb4eab24514/main.PMC11720947.pdf",
+    "certeza": "provável (título exato não confirmado)"
+   },
+   {
+    "titulo": "Growth of the Fontan Pathway and its Association with Long-Term Outcomes",
+    "ano": 2025,
+    "revista": "J Thorac Cardiovasc Surg",
+    "doi": "10.1016/j.jtcvs.2025.07.034",
+    "fonte": "https://www.nature.com/nature-index/article/10.1016/j.jtcvs.2025.07.034",
+    "certeza": "confirmado (Nature Index; BCH única instituição)"
+   },
+   {
+    "titulo": "Intraoperative conduction mapping to reduce postoperative AV block (BCH)",
+    "ano": 2024,
+    "revista": "JACC (segundo página de faculty)",
+    "id": "não encontrado",
+    "certeza": "provável — verificar no PubMed"
+   }
+  ],
+  "dicas": [
+   "Boston Children's não patrocina visto: B1/B2 ou ESTA.",
+   "Pode haver entrevista online — preparar inglês.",
+   "Adicionar Observership.Program@childrens.harvard.edu aos remetentes seguros (recomendação do checklist).",
+   "Fellowships internacionais (J1) levam 4–6 meses de processamento — observership é a via rápida.",
+   "O BCH tem extensa oferta de cursos CME (cecourses.childrenshospital.org) — possível porta de entrada."
+  ],
+  "rota_recomendada": "1) Aplicar pelo formulário online do Observership Program (Observership.Program@childrens.harvard.edu), indicando Cardiology/Heart Center e foco em congênitas, com carta da Unifesp e CV. 2) Em paralelo, e-mail curto ao serviço citando trabalho recente (ex. Fontan/JTCVS 2025) e o histórico IQIC-Brasil. 3) Contatar brasileiros com vínculo BCH (pós-doc USP em Cardiac Surgery) para dicas internas.",
+  "alerta_correcao": "Polo está restrito a congênitas/pediatria — só faz sentido se a residente tiver interesse em cardiopatias congênitas (ou ACHD)."
+ },
+ {
+  "match": "University of Miami — Global Observership (IMI)",
+  "cidade": "Miami",
+  "pais": "EUA",
+  "areas": [
+   "cardiologia"
+  ],
+  "programa": {
+   "pagina": "https://med.miami.edu/centers-and-institutes/international-medicine-institute/education-and-training/global-observership",
+   "elegibilidade": "Médicos e estudantes estrangeiros qualificados; rotação de 1 a 3 meses em departamento/divisão/centro da Miller School; departamentos que queiram receber observador e estrangeiros devem contatar o IMI.",
+   "trecho": "'one- to three-month rotations at the University to observe the activities of a particular department, division, center or institute'; '3-month maximum'",
+   "taxa": "US$ 250 de application process fee + US$ 250 de taxa medical student/graduate; não reembolsáveis (página oficial). Cópia antiga cita US$ 300.",
+   "duracao": "até 3 meses (fonte antiga menciona blocos de 2 semanas — contraditório)",
+   "antecedencia": "não encontrado",
+   "documentos": "formulário com documentos obrigatórios (lista não visível nos trechos)",
+   "contato_oficial": "Ms. Olivia Cata, Director, The William J. Harrington Programs – Global Observerships (IMI); e-mail institucional citado em página de Pathology: IMI-HarringtonTrainingPrograms@miami.edu",
+   "fonte_contato": "https://med.miami.edu/departments/pathology-and-laboratory-medicine/education/training-programs/observership-program",
+   "certeza": "confirmado (programa, taxa, contato); provável (e-mail, vem de página de departamento)"
+  },
+  "servico": {
+   "nome": "Division of Cardiovascular Medicine, University of Miami Miller School of Medicine (UHealth / Jackson Memorial)",
+   "chefe": "Yiannis S. Chatzizisis, MD, PhD — Professor and Chief, Division of Cardiovascular Medicine; Director, Center for Digital Cardiovascular Innovation",
+   "fonte": "https://med.miami.edu/faculty/yiannis-chatzizisis-md-phd",
+   "certeza": "confirmado",
+   "fellowship": "Carlos E. Alfonso, MD (PD) e Rosario Colombo (APD) na fellowship de cardiologia geral; Michael Dyal — PD Interventional Cardiology (UM/Jackson). Vaga de Fellowship PD anunciada (posting 05/2026) — possível troca.",
+   "fonte_fellowship": [
+    "https://ucardiologyfellows.com/faculty/",
+    "https://jobright.ai/jobs/info/6925f367f0beb0723262090a"
+   ],
+   "certeza_fellowship": "provável",
+   "volume": "não encontrado"
+  },
+  "pessoas_chave": [
+   {
+    "nome": "Olivia Cata",
+    "cargo": "Director, Harrington Programs – Global Observerships (IMI)",
+    "por_que": "escritório que processa o observership",
+    "fonte": "https://med.miami.edu/centers-and-institutes/international-medicine-institute/education-and-training/global-observership"
+   },
+   {
+    "nome": "Yiannis S. Chatzizisis, MD, PhD",
+    "cargo": "Chief, Cardiovascular Medicine",
+    "por_que": "aprova hospedagem na divisão; pesquisa em bifurcação, IVUS/OCT, IA",
+    "fonte": "https://med.miami.edu/faculty/yiannis-chatzizisis-md-phd"
+   },
+   {
+    "nome": "Carlos E. Alfonso, MD",
+    "cargo": "Cardiology Fellowship Program Director",
+    "por_que": "educação",
+    "fonte": "https://ucardiologyfellows.com/faculty/"
+   },
+   {
+    "nome": "Rosario Colombo, MD",
+    "cargo": "Associate PD",
+    "por_que": "educação",
+    "fonte": "https://ucardiologyfellows.com/faculty/"
+   },
+   {
+    "nome": "Michael Dyal, MD",
+    "cargo": "PD Interventional Cardiology Fellowship",
+    "por_que": "hemodinâmica",
+    "fonte": "https://scai.confex.com/scai/ff23/webprogramarchives/Person30257.html"
+   }
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {
+    "titulo": "First-in-Human Computational Preprocedural Planning of Left Main Interventions Using a New Everolimus-Eluting Stent (Chatzizisis, autor principal)",
+    "ano": "não confirmado",
+    "fonte": "https://news.med.miami.edu/using-ai-for-heart-disease-treatments",
+    "certeza": "provável"
+   },
+   {
+    "titulo": "Patient-specific computational simulation of coronary artery bifurcation stenting",
+    "ano": 2021,
+    "doi": "10.1038/s41598-021-95026-2",
+    "nota": "fora da janela 2022–2026, mas central na linha do chefe",
+    "certeza": "confirmado"
+   },
+   {
+    "titulo": "3º artigo 2022–2026",
+    "detalhe": "não encontrado"
+   }
+  ],
+  "dicas": [
+   "O programa é guarda-chuva do IMI: o departamento precisa aceitar hospedar — buscar 'sponsor' na divisão antes/junto da aplicação.",
+   "Taxas baixas (≈US$ 500) comparadas a outros centros EUA.",
+   "Center for Digital Cardiovascular Innovation (IA, simulação computacional, realidade estendida — 'AISER') é gancho de e-mail.",
+   "Miami tem forte vínculo latino-americano (programa Harrington historicamente voltado à América Latina)."
+  ],
+  "rota_recomendada": "1) Contatar o IMI (Olivia Cata / IMI-HarringtonTrainingPrograms@miami.edu) pedindo aplicação para Cardiovascular Medicine, 4 semanas. 2) E-mail ao chefe Chatzizisis ou a faculty de imagem/intervenção citando a linha de planejamento computacional/IA, pedindo aceite como host. 3) Enviar carta Unifesp + experiência prévia em Chicago.",
+  "alerta_correcao": "Contato do radar é só a URL; e-mail institucional e nome da diretora adicionados. Taxa e duração têm fontes conflitantes (US$250 vs 300; 2 semanas vs 1–3 meses)."
+ },
+ {
+  "match": "Guy's and St Thomas' — Cardiology Visiting Professional",
+  "cidade": "Londres",
+  "pais": "Reino Unido",
+  "areas": [
+   "cardiologia"
+  ],
+  "programa": {
+   "pagina": "https://gstt.mixd.co.uk/vpp/programmes/cardiology",
+   "elegibilidade": "Trainees não-UK, specialist registrars e consultants; observership ou programa prático (prático exige registro GMC; observership não).",
+   "trecho": "'for non-UK trainee clinicians, specialist registrars and consultants'; 'GMC registration is not required for Clinical Observership'",
+   "taxa": "£600/semana + £1.500 de admin fee (página geral VPP); cardiologia específica não encontrada. Bolsas/descontos possíveis a critério da diretoria.",
+   "duracao": "Cardiologia: 3 a 12 meses (página geral: 12 semanas a 1 ano) — NÃO há opção de 1 mês publicada para cardiologia",
+   "antecedencia": "não encontrado",
+   "documentos": "não encontrado",
+   "contato_oficial": "não encontrado para VPP (e-mail ofuscado nos trechos); ICFP@gstt.nhs.uk é do International Clinical Fellowship Programme",
+   "certeza": "confirmado (elegibilidade/duração); provável (taxa)"
+  },
+  "servico": {
+   "nome": "Cardiology — Guy's and St Thomas' NHS FT (ACHD, arritmia, IC, doenças cardíacas hereditárias, intervenção, imagem, estrutural e valvar)",
+   "lideranca": "Gerald Carr-White — joint medical director, Cardiovascular, Respiratory and Critical Care unit (ex-clinical lead IC/hereditárias por 14 anos); Brian Clapp — Clinical Lead Interventional Cardiology; Vas Panoulas — Director of Coronary Intervention (Heart, Lung and Critical Care)",
+   "fonte": [
+    "https://guysandstthomas.nhs.uk/our-consultants/gerald-carr-white",
+    "https://www.jobs.nhs.uk/candidate/jobadvert/C9196-25-0942"
+   ],
+   "certeza": "provável (anúncios de vaga 2025)",
+   "fellowship": "não encontrado",
+   "volume": "não encontrado"
+  },
+  "pessoas_chave": [
+   {
+    "nome": "Gerald Carr-White",
+    "cargo": "Joint Medical Director, CV/Respiratory/Critical Care",
+    "por_que": "liderança do serviço",
+    "fonte": "https://guysandstthomas.nhs.uk/our-consultants/gerald-carr-white"
+   },
+   {
+    "nome": "Brian Clapp",
+    "cargo": "Clinical Lead Interventional Cardiology",
+    "por_que": "hemodinâmica",
+    "fonte": "https://www.jobs.nhs.uk/candidate/jobadvert/C9196-25-0942"
+   },
+   {
+    "nome": "Simon Redwood",
+    "cargo": "Professor of Interventional Cardiology (estrutural)",
+    "por_que": "TAVI/estrutural",
+    "fonte": "https://guysandstthomas.nhs.uk/our-consultants/simon-redwood"
+   },
+   {
+    "nome": "Aldo Rinaldi",
+    "cargo": "Líder do serviço e da pesquisa de dispositivos cardíacos",
+    "por_que": "CRT, extração de eletrodos, FA",
+    "fonte": "https://radcliffecardiology.com/authors/aldo-rinaldi"
+   },
+   {
+    "nome": "Amedeo Chiribiri",
+    "cargo": "Director, Cardiac MR Service; Professor KCL",
+    "por_que": "imagem/perfusão por RM",
+    "fonte": "https://www.kcl.ac.uk/people/amedeo-chiribiri"
+   }
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {
+    "titulo": "Estudo de função ventricular com ajustes temporários de marcapasso pós-CRT (Rinaldi et al.)",
+    "ano": 2024,
+    "id": "NCT05993585",
+    "tipo": "ensaio registrado, não artigo",
+    "fonte": "https://www.syfrah.com/trial/NCT05993585",
+    "certeza": "confirmado (registro)"
+   },
+   {
+    "titulo": "artigos 2022–2026 com PMID",
+    "detalhe": "não encontrado"
+   }
+  ],
+  "dicas": [
+   "Cada visitante recebe supervisor da equipe clínica.",
+   "Há bolsas/descontos individuais a critério das diretorias.",
+   "GSTT incorporou Royal Brompton & Harefield (cardiologia também nesses sites)."
+  ],
+  "rota_recomendada": "1) Pedir ao escritório VPP (formulário da página) se aceitam observership de 4 semanas em cardiologia — o publicado é mínimo 3 meses/12 semanas. 2) Se não, identificar consultant-supervisor (ex. CMR/Chiribiri ou estrutural/Redwood) que aceite exceção. 3) Considerar custo alto (£600/sem + £1.500).",
+  "alerta_correcao": "URL do radar está em gstt.mixd.co.uk (domínio de agência web/staging, não o oficial guysandstthomas.nhs.uk) — confirmar link oficial. Duração mínima publicada (3 meses) é incompatível com ~1 mês."
+ },
+ {
+  "match": "Med Uni Graz — Observership",
+  "cidade": "Graz",
+  "pais": "Áustria",
+  "areas": [
+   "cardiologia"
+  ],
+  "programa": {
+   "pagina": "https://typo3-migration.medunigraz.at/en/international-student-mobility/observership-at-med-uni-graz",
+   "elegibilidade": "Estudantes de medicina e médicos internacionais; observerships no LKH-Univ. Klinikum Graz com mentor docente designado.",
+   "trecho": "'allows international medical students and medical doctors to obtain a glimpse into the Austrian health care system'; 'Each participant is matched with a Med Uni Graz faculty member who serves as a mentor'",
+   "taxa": "não encontrado",
+   "duracao": "não encontrado",
+   "antecedencia": "não encontrado",
+   "documentos": "não encontrado",
+   "contato_oficial": "international.office@medunigraz.at (do radar; não reconfirmado nos trechos)",
+   "certeza": "confirmado (existência/elegibilidade); resto não encontrado"
+  },
+  "servico": {
+   "nome": "Klinische Abteilung für Kardiologie — Universitäres Herzzentrum Graz (UHZG), LKH-Univ. Klinikum Graz",
+   "chefe": "Univ.-Prof. Andreas Zirlik — Head of University Heart Center Graz e chefe da Cardiologia (desde 2019; listado como líder científico em set/2025)",
+   "fonte": [
+    "https://lipid.or.kr/uploaded/board/speaker/_550899ed1f8835bf69c31f0263fb2ac90.pdf",
+    "https://aerztezeitung.at/wp-content/uploads/2025/03/KARDIOGRAZ25_Ankuendigung.pdf"
+   ],
+   "certeza": "provável (fontes 2024–2025)",
+   "fellowship": "não encontrado",
+   "volume": "não encontrado"
+  },
+  "pessoas_chave": [
+   {
+    "nome": "Andreas Zirlik",
+    "cargo": "Chefe da Cardiologia / UHZG",
+    "por_que": "decide; intervenção coronária e mitral, IC avançada",
+    "fonte": "https://springermedizin.at/kardiologie/graz-amtsantritt-von-prof-dr-andreas-zirlik/16307532"
+   },
+   {
+    "nome": "Daniel Scherr",
+    "cargo": "Eletrofisiologia; co-organizador do Graz Cardio Summit/KARDIOGRAZ",
+    "por_que": "EP; PI do ERASe",
+    "fonte": "https://aerztezeitung.at/wp-content/uploads/2025/03/KARDIOGRAZ25_Ankuendigung.pdf"
+   },
+   {
+    "nome": "Dirk von Lewinski",
+    "cargo": "Cardiologista, co-líder do EMMY",
+    "por_que": "pesquisa clínica IAM/SGLT2",
+    "fonte": "https://www.fwf.ac.at/en/research-radar/10.55776/KLI1155"
+   },
+   {
+    "nome": "Harald Sourij",
+    "cargo": "Endocrinologia/cardiometabólico, co-líder EMMY",
+    "por_que": "pesquisa",
+    "fonte": "https://www.fwf.ac.at/en/research-radar/10.55776/KLI1155"
+   },
+   {
+    "nome": "Nicolas Verheyen",
+    "cargo": "PI estudo RoC-HF",
+    "por_que": "insuficiência cardíaca",
+    "fonte": "https://cdn.clinicaltrials.gov/large-docs/78/NCT02922478/Prot_SAP_000.pdf"
+   }
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {
+    "titulo": "Empagliflozin in acute myocardial infarction: the EMMY trial",
+    "ano": 2022,
+    "revista": "Eur Heart J 43(41):4421-4432",
+    "doi": "10.1093/eurheartj/ehac494",
+    "pmid_provavel": "36036746",
+    "fonte": "https://www.acc.org/Latest-in-Cardiology/Clinical-Trials/2022/08/28/03/46/EMMY",
+    "certeza": "confirmado (DOI); PMID provável (mdl-36036746 na BVS)"
+   },
+   {
+    "titulo": "ERASe trial — Ertugliflozin to Reduce Arrhythmic Burden in ICD/CRT patients (NCT04600921; PI Scherr)",
+    "ano": "protocolo 2021; publicação não encontrada",
+    "certeza": "confirmado (registro)"
+   },
+   {
+    "titulo": "3º artigo",
+    "detalhe": "não encontrado"
+   }
+  ],
+  "dicas": [
+   "Graz Cardio Summit / KARDIOGRAZ (set/2025, 10–15/9) com workshop de eletrofisiologia — porta de entrada/networking.",
+   "Med Uni Graz tem 'international short courses' com bedside teaching no Universitäres Herzzentrum (DAC, EP) — alternativa estruturada.",
+   "Mentor docente é designado — vale sugerir um nome (ex. Scherr/EP) na aplicação."
+  ],
+  "rota_recomendada": "1) Escrever ao International Office (international.office@medunigraz.at) pedindo observership de 4 semanas na Kardiologie/UHZG, com carta Unifesp. 2) Sugerir mentor (Zirlik ou Scherr) citando EMMY/ERASe. 3) Avaliar os international short courses ou o Graz Cardio Summit como alternativa.",
+  "alerta_correcao": "URL do radar é 'typo3-migration.medunigraz.at' (cópia de migração); página oficial provavelmente em medunigraz.at — confirmar. Programa parece voltado sobretudo a estudantes (relatos são de alunos)."
+ }
+]

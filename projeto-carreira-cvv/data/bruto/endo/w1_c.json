@@ -1,0 +1,358 @@
+[
+ {
+  "match": "Children's Hospital Colorado",
+  "centro": "Children's Hospital Colorado / University of Colorado Anschutz (Aurora, CO) — Heart Institute",
+  "nota_metodo": "WebSearch (WebFetch indisponível); dados a partir de trechos dos resultados. ~9 buscas.",
+  "alerta_correcao": "O programa linkado no radar é o International Trainee Observership do DEPARTAMENTO DE PEDIATRIA (CU Anschutz), genérico, voltado a estudantes/trainees de pediatria que miram residência nos EUA (pede USMLE). Não é um programa do Heart Institute nem de cardiologia adulta. Para residente de cardio/cirurgia CV adulto, só serve se ela for focar em cardiopatia congênita/pediátrica; o caminho mais realista é pedido direto ao programa ACHD (CATCH) ou ao Heart Institute.",
+  "programa": {
+   "url": "https://medschool.cuanschutz.edu/pediatrics/education/international-trainee-observership-program",
+   "elegibilidade": "Estudantes de medicina ou trainees de pediatria internacionais; acompanha rounds e conferências. Quem pretende residência deve enviar transcript USMLE; quem não fez Step 1 e Step 2 deve aguardar para aplicar.",
+   "taxa": "US$ 100 de registro (cheque/money order até o 1º dia).",
+   "duracao": "1 mês",
+   "janelas": "Página ofertava rotações de jan a ago/2026 (janela já passada em nov/2026; página deve ser atualizada).",
+   "antecedencia": "Papelada suplementar 2 meses antes do início, após aprovação.",
+   "documentos": "Background check criminal internacional, drug screen, comprovante de imunizações, certificado de treinamento HIPAA. Moradia e refeições por conta do observer.",
+   "contato_oficial": "Formulário online na página; coordenador citado: Michael Baca (e-mail mascarado no resultado — não coletado).",
+   "certeza": "confirmado (trechos da página oficial); taxa US$100 confirmada; sem cardiologia específica",
+   "fonte_trecho": "\"one-month rotations experiences from January 2026 thru August of 2026\"; \"$100 registration fee\""
+  },
+  "servico": {
+   "nomes": [
+    "Heart Institute — Children's Hospital Colorado",
+    "Colorado's Adult & Teen Congenital Heart Program (CATCH) — parceria Children's Colorado + CU School of Medicine + UCHealth University of Colorado Hospital"
+   ],
+   "chefe": "Shelley Miyamoto, MD — Section Head of Pediatric Cardiology e Co-Director do Heart Institute (desde 1/12/2023); Jack Cooper Millisor Chair. Fonte: https://news.cuanschutz.edu/pediatrics/miyamoto-appointed-section-head-of-cardiology",
+   "outro_codiretor": "James Jaggers, MD — Barton-Elliman Chair in Pediatric Cardiothoracic Surgery, Co-Medical Director do Heart Institute (perfil oficial; atualidade não confirmada). https://www.childrenscolorado.org/doctors-and-departments/physicians/j/james-jaggers/",
+   "fellowship_relevante": "ACHD fellowship (2 anos, ACGME) — Program Director Joseph Kay, MD (desde jul/2015). https://freida.ama-assn.org/program/1530714001",
+   "volume": "não encontrado",
+   "certeza": "confirmado para Miyamoto e Kay; provável para Jaggers"
+  },
+  "pessoas_chave": [
+   {
+    "nome": "Joseph Kay, MD",
+    "cargo": "Medical Director do programa CATCH (ACHD) e Program Director do fellowship ACHD",
+    "por_que": "Decide/hospeda observer em congênito adulto — alvo nº1 do e-mail",
+    "fonte": "https://achaheart.org/your-heart/resources/clinic-directory/a-e/colorados-adult-teen-congenital-heart-program-catch"
+   },
+   {
+    "nome": "Amber Khanna, MD",
+    "cargo": "Medical Co-Director do CATCH",
+    "por_que": "Co-lidera ACHD e pesquisa (PTSD em ACHD, coarctação)",
+    "fonte": "https://achaheart.org/your-heart/resources/clinic-directory/a-e/colorados-adult-teen-congenital-heart-program-catch"
+   },
+   {
+    "nome": "Shelley Miyamoto, MD",
+    "cargo": "Chefe da Cardiologia Pediátrica e Co-Diretora do Heart Institute",
+    "por_que": "Autoridade máxima do serviço",
+    "fonte": "https://news.cuanschutz.edu/pediatrics/miyamoto-appointed-section-head-of-cardiology"
+   },
+   {
+    "nome": "James Jaggers, MD",
+    "cargo": "Chair de Cirurgia Cardiotorácica Pediátrica; Co-Medical Director Heart Institute",
+    "por_que": "Cirurgia congênita (para interesse cirúrgico)",
+    "fonte": "https://www.childrenscolorado.org/doctors-and-departments/physicians/j/james-jaggers/"
+   },
+   {
+    "nome": "David Campbell, MD",
+    "cargo": "Director, Congenital Cardiac Surgery Residency; Director, Pediatric Heart Transplant Program",
+    "por_que": "Responsável pela formação em cirurgia congênita",
+    "fonte": "https://www.childrenscolorado.org/doctors-and-departments/physicians/c/david-campbell/"
+   }
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado. Busca por colaboração Colorado–InCor só achou a parceria InCor–SickKids (Toronto) via Children's HeartLink (https://childrensheartlink.org/wp-content/uploads/2024/12/CHL.Brazil-Fact-Sheet.2021.pdf).",
+  "pesquisa_recente": [
+   {
+    "titulo": "The burden of psychological trauma and post-traumatic stress disorder among adults with congenital heart disease: PTSD in ACHD",
+    "ano": 2024,
+    "ref": "Am J Cardiol. 2024;219:9-16 (Harrison DJ, Kay J, ... Khanna A)",
+    "fonte": "https://profiles.ucdenver.edu/profile/226956/198/218000",
+    "certeza": "confirmado (citação no perfil CCTSI); PMID não obtido"
+   },
+   {
+    "titulo": "Submaximal Exercise Response is Associated with Future Hypertension in Patients with Coarctation of the Aorta",
+    "ano": 2023,
+    "ref": "Pediatr Cardiol. 2023;44(6):1209-1216 (Holzemer NF, Silveira LJ, Kay J, Khanna AD, Jacobsen RM)",
+    "fonte": "https://profiles.ucdenver.edu/profile/226956/198/218000",
+    "certeza": "confirmado; PMID não obtido"
+   },
+   {
+    "titulo": "Children's Colorado aceito como um dos 9 core sites do Pediatric Heart Network (NIH)",
+    "ano": 2024,
+    "ref": "notícia, não artigo",
+    "fonte": "https://www.news-medical.net/news/20240209/Childrens-Colorado-announces-its-recent-acceptance-into-the-Pediatric-Heart-Network.aspx",
+    "certeza": "confirmado"
+   }
+  ],
+  "dicas": [
+   "Programa de pediatria é estruturado em blocos de 1 mês e barato (US$100), mas pensado para candidatos à residência americana (USMLE).",
+   "Cardiologia congênita adulta é programa conjunto com UCHealth (adulto) — um e-mail ao CATCH pode abrir porta tanto no lado pediátrico quanto adulto.",
+   "Gancho de e-mail: PTSD/saúde mental em ACHD e exercício/hipertensão pós-coarctação (Kay/Khanna)."
+  ],
+  "rota_recomendada": "Só vale se ela quiser congênito. 1) E-mail ao Dr. Joseph Kay (CATCH/ACHD) citando o artigo de PTSD em ACHD 2024 e pedindo observership de 4 semanas; 2) se ele aceitar, formalizar via programa International Trainee Observership da Pediatria (ou via UCHealth/Dept. of Medicine se for lado adulto). Para cardiologia/cirurgia adulta geral, este polo é baixa prioridade."
+ },
+ {
+  "match": "USF Health — International Training Programs",
+  "centro": "USF Health Morsani College of Medicine / Tampa General Hospital (TGH) Heart & Vascular Institute — Tampa, FL",
+  "nota_metodo": "WebSearch; ~9 buscas.",
+  "alerta_correcao": "O programa (IMT Observership) é do escritório central de International Affairs da USF, não do serviço de cardiologia; a parte clínica cardiológica/cirúrgica ocorre no Tampa General Hospital (afiliado). Liderança da cardiologia mudou recentemente (ver Guilherme Oliveira).",
+  "programa": {
+   "url": "https://health.usf.edu/medicine/ia/international-training-programs",
+   "elegibilidade": "\"international medical students and graduates from non-affiliated institutions\" — residente estrangeira formada é elegível (provável).",
+   "taxa": "Valor não publicado nos trechos; 'You will be notified of how to send your fee'. (Dado antigo de 2014 em blog: US$2000 em infecto — não confiável.)",
+   "duracao": "não encontrado",
+   "antecedencia": "Resposta à aplicação em ~1 semana; vaga só reservada após etapa de confirmação (texto cortado).",
+   "processo": "Etapas: application → acceptance → confirmation → orientation → observership → debriefing (documento revisado 06/2015).",
+   "documentos": "não detalhados nos trechos (ver documento 'IMT Observership Application Process' no site).",
+   "contato_oficial": "observerships@usf.edu",
+   "certeza": "confirmado para e-mail, elegibilidade e etapas; taxa/duração não encontradas",
+   "fonte_trecho": "\"For more information, please email observerships@usf.edu\""
+  },
+  "servico": {
+   "nomes": [
+    "USF Health Division of Cardiovascular Sciences / TGH Heart & Vascular Institute",
+    "USF Division of Cardiothoracic Surgery / TGH Cardiothoracic Surgery Center of Excellence",
+    "TGH Interventional Cardiology Center of Excellence; TGH Minimally Invasive Valve program"
+   ],
+   "chefe_cardiologia": "Incerto: Guilherme H. Oliveira, MD era Vice President & Chief do TGH HVI e Chief da Division of Cardiovascular Sciences (USF), mas perfil mais recente o descreve como 'former founding director' e liderando o TGH Concierge. Página de faculty da USF mostra Fadi Matar sob cabeçalho 'Division Chief' (trecho truncado). Confirmar.",
+   "chefe_cirurgia": "Lucian Lozonschi, MD — Chief, Division of Cardiothoracic Surgery (USF), TGH Endowed Chair, Associate Director HVI, Medical Director TGH CT Surgery Center of Excellence (https://health.usf.edu/medicine/surgery/cardiothoracic-surgery/)",
+   "fellowship_relevante": "Cardiovascular Disease fellowship USF (3 sites); AHFT fellowship 1 ano/1 fellow em TGH (FREIDA 1591114028). Diretores: não encontrado.",
+   "volume": "não encontrado",
+   "certeza": "confirmado para Lozonschi; incerto para chefia da cardiologia"
+  },
+  "pessoas_chave": [
+   {
+    "nome": "Hiram G. Bezerra, MD, PhD",
+    "cargo": "Professor of Medicine; Director of Interventional Cardiology USF/TGH; Medical Director TGH Interventional Cardiology Center of Excellence; diretor do Minimally Invasive Valve program",
+    "por_que": "BRASILEIRO (MD Santa Casa de Vitória; residência e fellowship em cardiologia/hemodinâmica na USP). Ponte natural; referência mundial em OCT",
+    "fonte": "https://www.getcare.tgh.org/providers/hiram-bezerra-1528389442"
+   },
+   {
+    "nome": "Guilherme H. Oliveira, MD, MBA",
+    "cargo": "(ex-)Chief TGH Heart & Vascular Institute e Division of Cardiovascular Sciences USF; IC avançada/transplante/cardio-onco",
+    "por_que": "BRASILEIRO (MD UFRJ); Mayo + Baylor. Mesmo se mudou de função, segue em TGH",
+    "fonte": "https://doctors.tgh.org/doctor/npi_1699879098/Guilherme+Oliveira"
+   },
+   {
+    "nome": "Lucian Lozonschi, MD",
+    "cargo": "Chief, Division of Cardiothoracic Surgery",
+    "por_que": "Decide observership em cirurgia cardíaca; interesse em terapias valvares transcateter",
+    "fonte": "https://health.usf.edu/medicine/surgery/cardiothoracic-surgery/"
+   },
+   {
+    "nome": "International Affairs (observerships@usf.edu)",
+    "cargo": "Escritório do IMT Observership",
+    "por_que": "Formaliza a observership após aceite do serviço",
+    "fonte": "https://health.usf.edu/medicine/ia/international-training-programs"
+   }
+  ],
+  "brasileiros": [
+   {
+    "nome": "Hiram G. Bezerra",
+    "detalhe": "MD Escola de Medicina da Santa Casa de Misericórdia de Vitória (1994); residência e fellowship de cardiologia/intervenção na Universidade de São Paulo; CT/RM em Harvard",
+    "fonte": "https://swedish-site.pages.dev/docs/theme-1/providers/hiram-bezerra-1528389442?config=tgh (espelho do perfil TGH)",
+    "certeza": "provável-alto (perfil agregador espelhando TGH)"
+   },
+   {
+    "nome": "Guilherme H. Oliveira",
+    "detalhe": "MD Universidade Federal do Rio de Janeiro; IM Mayo Clinic; cardio e IC/transplante Baylor",
+    "fonte": "https://doctors.tgh.org/doctor/npi_1699879098/Guilherme+Oliveira",
+    "certeza": "confirmado (perfil TGH)"
+   }
+  ],
+  "pontes_unifesp_sp": "Bezerra formou-se em cardiologia/hemodinâmica pela USP (vínculo de formação, não coautoria verificada). Coautorias recentes do centro com Unifesp/InCor/Dante: não encontrado nas buscas (sugestão: PubMed 'Bezerra HG' + 'São Paulo').",
+  "pesquisa_recente": [
+   {
+    "titulo": "Efficacy and Safety of High-Frequency Optical Coherence Tomography (HF-OCT) for Coronary Imaging: A Multicenter Study",
+    "ano": 2025,
+    "ref": "J Soc Cardiovasc Angiogr Interv (JSCAI), 2025 — Bezerra entre autores (lista Doximity)",
+    "fonte": "https://www.doximity.com/pub/hiram-bezerra-md",
+    "certeza": "provável; PMID/DOI não obtido"
+   },
+   {
+    "titulo": "TGH faz primeiro TMVR com AltaValve no Sudeste dos EUA",
+    "ano": 2024,
+    "ref": "press release (não artigo)",
+    "fonte": "https://www.biospace.com/tampa-general-hospital-is-the-first-and-only-in-the-southeast-to-complete-transcatheter-mitral-valve-replacement-tmvr-with-altavalve-technology",
+    "certeza": "confirmado"
+   },
+   {
+    "titulo": "Primeiro TricValve da Flórida (FDA Early Feasibility Study) — Bezerra diretor do Minimally Invasive Valve program",
+    "ano": "2024–2025 (data não exata)",
+    "ref": "notícia",
+    "fonte": "https://trial.medpath.com/news/31287f2c542c4fcb/new-transcatheter-tricuspid-valve-treatments-offer-hope-for-high-risk-cardiac-patients",
+    "certeza": "provável"
+   }
+  ],
+  "dicas": [
+   "Escritório central responde em ~1 semana — rápido.",
+   "Programa é para IMGs que querem conhecer o sistema americano; ter um 'host' no serviço (ex. Bezerra) antes de aplicar aumenta muito a chance.",
+   "Ganchos: OCT/imagem intracoronária, terapias transcateter mitral/tricúspide (AltaValve, TricValve), IC avançada/transplante em sobreviventes de câncer (Oliveira)."
+  ],
+  "rota_recomendada": "1) E-mail (em português pode abrir, mas proposta formal em inglês) ao Dr. Hiram Bezerra mencionando a formação dele na USP e interesse em imagem intravascular/valvas transcateter, pedindo para ser host de 4 semanas; alternativa: Dr. Guilherme Oliveira (IC/transplante). 2) Com o aceite, aplicar pelo IMT Observership (observerships@usf.edu). 3) Interesse cirúrgico: Dr. Lozonschi."
+ },
+ {
+  "match": "AIIMS Nova Délhi — Observership for Foreign Nationals",
+  "centro": "All India Institute of Medical Sciences (AIIMS), Nova Délhi — Depto. de Cardiologia e Depto. de CTVS",
+  "nota_metodo": "WebSearch; ~7 buscas. Documentos AIIMS são de anos variados.",
+  "alerta_correcao": "Nenhum erro de identidade. Atenção: chefia do CTVS em regime interino desde out/2025 (ver abaixo).",
+  "programa": {
+   "url": "https://www.aiims.edu/images/pdf/Academic_Section/Observership for Foreign Nationals.pdf",
+   "elegibilidade": "Estrangeiros patrocinados por governo/órgão autônomo/instituição médica estrangeira, recomendados pelo Dean; candidatura via empregador ('routed through employer'); autopatrocinados ou encaminhados só por chefe de departamento NÃO são considerados.",
+   "taxa": "Equivalente em rúpias a US$ 200/mês, pago integralmente ao se apresentar. (NMC também prevê taxa de processamento US$200 para PG em faculdades indianas — aplicabilidade à AIIMS não confirmada.)",
+   "duracao": "Short-term training até 6 meses (long-term até 2 anos).",
+   "antecedencia": "não encontrado",
+   "documentos": "Visto válido, seguro médico de viagem, clearance do Ministry of External Affairs; só viajar após carta de confirmação de datas da Academic Section. Sem hands-on sem permissão do conselho (MCI/NMC; registro temporário ~Rs 5.000 em formulário antigo). Formulário: https://www.aiims.edu/aiims/academic/Form%20-%20STT-Foreign%20National.pdf",
+   "contato_oficial": "academicsection@aiims.edu; Registrar/Dean (Academic), Academic Section, AIIMS, Ansari Nagar, New Delhi 110029",
+   "certeza": "confirmado (trechos dos PDFs oficiais)",
+   "fonte_trecho": "\"All others will be charged a fee in Indian rupees equivalent of US $ 200 per month/candidate\""
+  },
+  "servico": {
+   "nomes": [
+    "Department of Cardiology",
+    "Department of Cardiothoracic and Vascular Surgery (CTVS)"
+   ],
+   "chefe_cardiologia": "Prof. Rajiv Narang — Head, Dept. of Cardiology (nota AIIMS 27/09/2025) https://aiims.edu/images/pdf/events/PRO-27-09-25.pdf",
+   "chefe_ctvs": "Dr. A.K. Bisoi afastado da chefia em 11/10/2025 (inquérito); encargo passado ao Prof. V. Devagourou 'till further orders' — interino. https://medicaldialogues.in/amp/news/health/doctors/aiims-new-delhi-removes-hod-ctvs-over-sexual-harassment-allegations-156821",
+   "fellowship_relevante": "não encontrado",
+   "volume": "não encontrado",
+   "certeza": "confirmado (Narang); confirmado mas instável (CTVS)"
+  },
+  "pessoas_chave": [
+   {
+    "nome": "Prof. Rajiv Narang",
+    "cargo": "Head, Department of Cardiology",
+    "por_que": "HOD que aceita o observer no departamento",
+    "fonte": "https://aiims.edu/images/pdf/events/PRO-27-09-25.pdf"
+   },
+   {
+    "nome": "Prof. V. Devagourou (Devagourou Velayoudam)",
+    "cargo": "Professor CTVS, chefe interino desde out/2025; cirurgia congênita",
+    "por_que": "Decide no CTVS",
+    "fonte": "https://www.ctsnet.org/home/dvelayoudam"
+   },
+   {
+    "nome": "Academic Section (Dean/Registrar Academic)",
+    "cargo": "Escritório oficial",
+    "por_que": "Recebe e aprova a candidatura",
+    "fonte": "https://www.aiims.edu/images/pdf/Academic_Section/Observership for Foreign Nationals.pdf"
+   }
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado (busca AIIMS+InCor/São Paulo sem coautoria).",
+  "pesquisa_recente": [
+   {
+    "titulo": "Preprint de cardiologia AIIMS (Gupta SK, Mukharjee A, Pandey NN, Ramakrishnan S, Kothari SS, Saxena A, Anderson RH)",
+    "ano": 2024,
+    "ref": "medRxiv DOI 10.1101/2024.01.04.24300875 (título não obtido no trecho)",
+    "fonte": "https://medrxiv.org/content/10.1101/2024.01.04.24300875v1.article-info",
+    "certeza": "provável"
+   },
+   {
+    "titulo": "Nenhum outro artigo 2022–2026 do serviço confirmado nas buscas",
+    "ano": null,
+    "ref": "não encontrado",
+    "fonte": null
+   }
+  ],
+  "dicas": [
+   "Candidatura TEM de vir encaminhada pela instituição de origem (Unifesp/COREME ou Dean) — autocandidatura é descartada.",
+   "Barato (US$200/mês) mas burocrático: clearance do MEA leva tempo; não viajar antes da carta de confirmação.",
+   "Observership sem hands-on.",
+   "Contexto: CTVS em turbulência administrativa (afastamento do HOD em 2025; reportagens de 2026 sobre filas e evasão de docentes)."
+  ],
+  "rota_recomendada": "1) Contato prévio com o HOD de Cardiologia (Prof. Narang) para aceite informal; 2) Unifesp (Dean/COREME) envia ofício de patrocínio + formulário STT-Foreign National à Academic Section (academicsection@aiims.edu) com 3–4 meses de folga para o clearance do MEA; 3) visto e seguro só após carta de datas. Prioridade média-baixa para o perfil (alto volume, pouca ponte com o Brasil)."
+ },
+ {
+  "match": "SCTIMST — Clinical Observership",
+  "centro": "Sree Chitra Tirunal Institute for Medical Sciences and Technology (SCTIMST), Thiruvananthapuram, Kerala — Depto. de Cardiologia e Depto. de Cirurgia Cardiovascular e Torácica",
+  "nota_metodo": "WebSearch; ~6 buscas.",
+  "alerta_correcao": "Há duas versões das diretrizes (Part-1 e Part-2, revisada jan/2023) com regras de taxa diferentes; chefias com fontes conflitantes/sem data.",
+  "programa": {
+   "url": "https://audit.sctimst.ac.in/Academic%20and%20Research/Academic/Guidelines,%20Manuals,%20Forms/resources/Guidelines_for_Clinical_Observership-Part-1.pdf",
+   "url_parte2": "https://audit.sctimst.ac.in/Academic%20and%20Research/Academic/Guidelines, Manuals, Forms/resources/Guidelines_for_Clinical_Observership-Part-2.pdf",
+   "elegibilidade": "Apenas quem cursa/concluiu residência/curso nas especialidades do instituto (inclui Cardiologia); estudantes de graduação NÃO elegíveis. Estrangeiros permitidos.",
+   "taxa": "Part-1: US$300/mês (países de alta renda) ou US$200/mês (renda média — Brasil se enquadra como renda média-alta, provável US$200). Part-2 (jan/2023): critério SAARC/não-SAARC, valor explícito só para AMCHSS. Confirmar.",
+   "duracao": "não encontrado",
+   "antecedencia": "Aplicação deve chegar ao menos 1 mês antes do início.",
+   "documentos": "Aplicação + documentos encaminhados pelo chefe da instituição de origem (Head of the Institute) e endereçados ao HOD do departamento no SCTIMST.",
+   "contato_oficial": "Via HOD do departamento-alvo; página People & Contacts da Academic: https://sctimst.ac.in/Academic and Research/Academic/People & Contacts",
+   "certeza": "confirmado (trechos dos PDFs); taxa atual incerta"
+  },
+  "servico": {
+   "nomes": [
+    "Department of Cardiology (50 anos em jan/2026)",
+    "Department of Cardiovascular and Thoracic Surgery"
+   ],
+   "chefe_cardiologia": "Conflitante: Dr. S. Harikrishnan listado como 'Professor Senior Grade & Head' (página sem data); notícia de jan/2026 (agregador) cita Binu Thomas como Head. Confirmar.",
+   "chefe_cvts": "Prof. K. Jayakumar listado como Head na página do departamento (sem data); página de contatos cita Dr. Vivek V. Pillai. Confirmar.",
+   "diretor_instituto": "Dr. V.K. Ajit Kumar (cardiologista; diretor desde 2021) — atualidade não verificada",
+   "volume": "não encontrado",
+   "certeza": "provável/conflitante"
+  },
+  "pessoas_chave": [
+   {
+    "nome": "Dr. S. Harikrishnan",
+    "cargo": "Professor Senior Grade, Cardiologia (Head segundo página do depto.); PI do National Heart Failure Registry",
+    "por_que": "Lidera pesquisa em IC/registro nacional; possível HOD",
+    "fonte": "https://sctimst.ac.in/Academic and Research/Academic/People & Contacts"
+   },
+   {
+    "nome": "Binu Thomas",
+    "cargo": "Head of Cardiology (segundo notícia jan/2026, fonte secundária)",
+    "por_que": "Possível HOD atual",
+    "fonte": "https://science-technology.news-articles.net/content/2026/01/18/sctimst-cardiology-department-celebrates-50th-anniversary.html"
+   },
+   {
+    "nome": "Prof. K. Jayakumar",
+    "cargo": "Head, Cardiovascular and Thoracic Surgery (página sem data)",
+    "por_que": "Decide no CVTS",
+    "fonte": "https://www.sctimst.ac.in/About SCTIMST/Departments and Divisions/Hospital Wing/Cardiovascular and Thoracic Surgery Department"
+   },
+   {
+    "nome": "Dr. Vargheese T. Panicker",
+    "cargo": "Professor CVTS & Associate Medical Superintendent",
+    "por_que": "Docente sênior da cirurgia",
+    "fonte": "https://new1.sctimst.ac.in/?p=6012"
+   },
+   {
+    "nome": "Dr. A. Gopalakrishnan",
+    "cargo": "Cardiologia; PI do ensaio de digoxina em cardiopatia reumática (ICMR)",
+    "por_que": "Pesquisa em doença reumática — tema comum com o Brasil",
+    "fonte": "https://indiascienceandtechnology.gov.in/research/digoxin-patients-rheumatic-heart-disease-randomized-placebo-controlled-trial-sctim"
+   }
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado. Tema-ponte possível (sem colaboração documentada): cardiopatia reumática — no Brasil o PROVAR (UFMG) é o grande programa; SCTIMST tem ensaio de digoxina em RHD e a válvula de baixo custo 'Chitra'.",
+  "pesquisa_recente": [
+   {
+    "titulo": "One-year mortality and re-admission rate by disease etiology in National Heart Failure Registry of India",
+    "ano": 2025,
+    "ref": "Nat Commun 2025;16(1) DOI 10.1038/s41467-024-55362-z (Harikrishnan et al.)",
+    "fonte": "https://ideas.repec.org/a/nat/natcom/v16y2025i1d10.1038_s41467-024-55362-z.html",
+    "certeza": "confirmado"
+   },
+   {
+    "titulo": "Digoxin in patients with rheumatic heart disease — RCT placebo-controlado (SCTIMST/ICMR)",
+    "ano": "não confirmado",
+    "ref": "resumo institucional",
+    "fonte": "https://indiascienceandtechnology.gov.in/research/digoxin-patients-rheumatic-heart-disease-randomized-placebo-controlled-trial-sctim",
+    "certeza": "provável"
+   },
+   {
+    "titulo": "Desenho/90 dias do National Heart Failure Registry (NHFR)",
+    "ano": "~2022",
+    "ref": "PMC9773752",
+    "fonte": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9773752",
+    "certeza": "provável (ano)"
+   }
+  ],
+  "dicas": [
+   "Regra explícita: pedido roteado pelo chefe da instituição de origem e endereçado ao HOD — sem isso não anda.",
+   "Prazo curto (≥1 mês) comparado à AIIMS.",
+   "Departamento de Cardiologia celebrou 50 anos em 20–21/jan/2026 (evento institucional).",
+   "SCTIMST organiza encontros sobre pesquisa em IC (press release fev/2024)."
+  ],
+  "rota_recomendada": "1) E-mail ao Dr. S. Harikrishnan (citando o NHFR, Nat Commun 2025) pedindo aceite para 4 semanas na Cardiologia; 2) ofício da Unifesp (Diretor/COREME) ao HOD conforme diretriz, com ≥1–2 meses de antecedência, mais pagamento ~US$200–300/mês. Prioridade baixa-média: barato e acessível, mas sem ponte brasileira."
+ }
+]
