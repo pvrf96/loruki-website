@@ -1,0 +1,198 @@
+[
+ {
+  "match": "Royal Papworth Hospital",
+  "cidade": "Cambridge", "pais": "Reino Unido",
+  "areas_polo": ["transplante","cardiologia","cirurgia_cardiaca","hipertensao_pulmonar","ecmo","anestesia_cardiaca"],
+  "programa": {
+   "nome": "Sem pagina oficial de observership/clinical attachment encontrada no site do Trust. Portas publicadas: (a) ESAIC Exchange Programme (Royal Papworth e centro anfitriao para residentes e especialistas, observership e hands-on o ano todo); (b) cursos pagos Papworth Professional Development (ECMO, CALS, ECHO) com equipe de 'business services' para internacionais.",
+   "url": "https://esaic.org/wp-content/uploads/2025/05/Royal-Papworth-Hospital-NHS-Foundation-Trust-Information.pdf",
+   "url_cursos": "https://royalpapworth.nhs.uk/our-services/theatres-and-critical-care/ecmo/ecmo-courses",
+   "contato_oficial": "papworth.business.services@nhs.net / 01223 639739 (publicado pelo hospital para consultas internacionais sobre cursos)",
+   "elegibilidade_residente_estrangeiro": "ESAIC: aberto a residentes e especialistas, mas exige ser membro ESAIC e o ciclo 2027 ja fechou; ciclo 2028 abre em maio/2027. Observership direto no Trust: nao encontrado.",
+   "taxa": "nao encontrado (para referencia, outros trusts NHS cobram ~GBP 200-1.600 por 4 semanas - nao aplicavel a Papworth)",
+   "duracao": "nao encontrado",
+   "antecedencia": "nao encontrado",
+   "documentos": "nao encontrado (padrao NHS: honorary contract/observer agreement, sem contato com paciente; nao confirmado para Papworth)",
+   "certeza": "confirmado (ESAIC host, cursos e contato business services); provavel (sem programa proprio publicado)"
+  },
+  "servico": {
+   "nomes": ["Transplant services (coracao, pulmao, coracao-pulmao)","National Pulmonary Vascular Diseases Unit (PVDU)","Programa nacional de endarterectomia pulmonar (PEA) - unico do Reino Unido","National Respiratory ECMO Service","Anestesia e terapia intensiva cardiotoracica"],
+   "volume": [
+    {"txt":"72 transplantes cardiotoracicos em 2024/25 (mais que qualquer outro hospital do Reino Unido); 41 de pulmao","url":"https://www.royalpapworth.nhs.uk/our-services/surgery/transplant-services","certeza":"confirmado"},
+    {"txt":"PEA: ate 190 operacoes/ano (pagina sem data)","url":"https://www.royalpapworth.nhs.uk/our-services/surgery","certeza":"confirmado (sem ano)"},
+    {"txt":"Treinamento ja oferecido a 72 hospitais internacionais (Europa, Asia, Oriente Medio, Americas)","url":"https://royalpapworth.nhs.uk/partner-with-us","certeza":"confirmado"}
+   ]
+  },
+  "pessoas_chave": [
+   {"nome":"Marius Berman","cargo":"Consultant Cardiothoracic & Transplant Surgeon; Clinical Director for Transplantation","por_que":"lidera transplante/DCD; decide visitas na area","fonte":"https://www.bridgeheadcommunications.com/vital-signs/voice/marius-berman","certeza":"provavel (fonte nao oficial, data incerta)"},
+   {"nome":"David Jenkins","cargo":"Lead surgeon do programa nacional de PEA; divisional director surgery & transplantation (EACTS)","por_que":"referencia mundial em PEA/HP tromboembolica","fonte":"https://www.royalpapworth.nhs.uk/consultant-profiles/mr-david-jenkins","certeza":"confirmado (PEA); provavel (cargo divisional)"},
+   {"nome":"Joanna Pepke-Zaba","cargo":"Lead physician / director PVDU (perfil do hospital); perfil Cambridge diz diretora 2003-2019","por_que":"hipertensao pulmonar; lideranca atual da PVDU incerta","fonte":"https://www.royalpapworth.nhs.uk/consultant-profiles/dr-joanna-pepke-zaba","certeza":"provavel (fontes divergentes)"},
+   {"nome":"Mark Toshner","cargo":"Honorary consultant PVDU; pesquisador HLRI/Cambridge","por_que":"lidera pesquisa em hipertensao pulmonar","fonte":"https://www.royalpapworth.nhs.uk/consultant-profiles/dr-mark-toshner","certeza":"confirmado"},
+   {"nome":"Alain Vuylsteke","cargo":"Director, National Respiratory ECMO Service (desde 2011, perfil do hospital)","por_que":"ECMO/terapia intensiva; cargo pode estar desatualizado","fonte":"https://www.royalpapworth.nhs.uk/our-services/theatres-and-critical-care/ecmo","certeza":"provavel (resultado cita so 'Vuylsteke'; verificar)"},
+   {"nome":"Simon Messer","cargo":"Cirurgiao de transplante; autor das series DCD","por_que":"pesquisa DCD heart transplant","fonte":"https://read.qxmd.com/read/32464875/heart-transplantation-from-donation-after-circulatory-determined-death-the-royal-papworth-experience","certeza":"provavel (afiliacao atual nao verificada)"}
+  ],
+  "brasileiros": "nao encontrado (unico lusofono achado e cardiologista portugues formado em Coimbra; equipe de PEA de Lisboa/Santa Marta treinou formalmente em Papworth)",
+  "pontes_unifesp_sp": [
+   {"txt":"Nenhuma coautoria Papworth-Unifesp/InCor encontrada. InCor tem programa de PEA (Fabio Jatene, treinado em San Diego, 25-30 casos/ano) - ponte tematica, nao institucional.","url":"https://www.revportcardiol.org/en-improvements-in-pulmonary-thromboendarterectomy-articulo-S0870255120303498","certeza":"provavel"}
+  ],
+  "pesquisa_recente": [
+   {"titulo":"ECMO perioperatoria na endarterectomia pulmonar: coorte nacional do Reino Unido de 17 anos (110 pacientes, 4,7%; salvamento 51,8%)","ano":2024,"id":"PMID provavel 37730188 (registro BVS mdl-37730188); J Heart Lung Transplant 43(2)","url":"https://pesquisa.bvsalud.org/sms/resource/pt/mdl-37730188"},
+   {"titulo":"A 5-year single-center early experience of heart transplantation from DCD donors (Messer, Berman et al.)","ano":2020,"id":"nao encontrado (J Heart Lung Transplant 2020) - fora da janela 2022-2026","url":"https://bvbvf1.bib-bvb.de/vufind/PrimoRecord/cdi_proquest_miscellaneous_2465762926"},
+   {"titulo":"Terceiro artigo 2022-2026: nao encontrado nas buscas","ano":null,"id":null,"url":null}
+  ],
+  "dicas": [
+   "Curso Royal Papworth ECMO (3 dias, aberto a toda equipe multiprofissional; >500 delegados internacionais; inclui visita a UTI) - edicao listada 5/out/2026; CALS set/2026. Bom 'pe na porta' para conhecer equipe.",
+   "ESAIC Exchange Programme: Papworth anfitriao em ingles para residentes; ciclo 2028 abre maio/2027 (exige membro ESAIC; foco anestesia/cuidados perioperatorios).",
+   "Hospital tem area 'International partnerships' e consultores que dao cursos no mundo todo - consultar business services para visita customizada.",
+   "Secretarias de anestesia/UTI (01223 638180/638185) citadas em anuncio antigo para visitas informais - pode estar desatualizado."
+  ],
+  "rota_recomendada": "1) E-mail a papworth.business.services@nhs.net pedindo visita/observership de ~4 semanas em transplante/HP/ECMO, oferecendo pagar e combinando com inscricao no curso ECMO. 2) Em paralelo, contato com Berman (transplante) ou Jenkins (PEA) citando o artigo de ECMO pos-PEA 2024. 3) Se o foco for anestesia/UTI, planejar ESAIC Exchange 2028.",
+  "alerta_correcao": "O URL do radar (PDF ESAIC) e da ficha de centro anfitriao do programa de intercambio ESAIC, nao de um observership proprio do hospital; e-mail business services e para cursos/consultas internacionais."
+ },
+ {
+  "match": "Samsung Medical Center",
+  "cidade": "Seul", "pais": "Coreia do Sul",
+  "areas_polo": ["robotica","ic","transplante","ecmo","emergencia_choque"],
+  "programa": {
+   "nome": "Observership Program & Medical Student Clinical Elective Program (SMC, Healthcare Professionals > Education)",
+   "url": "https://www.samsunghospital.com/en/healthcare-professionals/education/observership-electives.do",
+   "elegibilidade_residente_estrangeiro": "provavel sim (programa para profissionais estrangeiros; trecho nao detalha nivel)",
+   "taxa": "nao encontrado",
+   "duracao": "nao encontrado",
+   "antecedencia": "nao encontrado em geral (Pediatria exige >=6 meses)",
+   "documentos": "Formulario de aplicacao + declaracao de consentimento + documentos de suporte, originais em ingles ou traducao juramentada, tudo num unico PDF por e-mail (nome do arquivo: Nome_Sobrenome_Pais_Departamento). Incompletos nao sao considerados. SMC NAO emite carta de garantia para visto de observership.",
+   "contato_oficial": "e-mail indicado na propria pagina (endereco nao apareceu no trecho)",
+   "certeza": "confirmado (documentos, formato, sem carta de visto); taxa/duracao nao encontrados"
+  },
+  "servico": {
+   "nomes": ["Heart Vascular Stroke Institute - Heart Center (6 times especializados, incl. Heart Failure/Transplantation)","Time 24/7 de IAM e choque cardiogenico com VA-ECMO","Primeiro centro dedicado de ECMO e LVAD da Coreia (Cardiovascular Surgery)","Cirurgia cardiaca robotica e minimamente invasiva"],
+   "volume": [
+    {"txt":">2.000 casos de ECMO (2022)","url":"https://www.asiae.co.kr/en/article/2022111608552073580","certeza":"confirmado"},
+    {"txt":"100 implantes HeartMate - primeiro da Coreia (maio/2023)","url":"https://www.asiae.co.kr/en/article/2023052409185627036","certeza":"confirmado"},
+    {"txt":">1.000 cirurgias cardiacas/ano, mortalidade precoce <1%","url":"https://www.samsunghospital.com/en/departments/cardiovascular-surgery.do","certeza":"confirmado (sem ano)"}
+   ]
+  },
+  "pessoas_chave": [
+   {"nome":"Jeong Hoon Yang","cargo":"Chefe do time de choque cardiogenico (cardiologia + medicina intensiva); PI do ensaio CLEAN ECMO e estudo de LVAD em choque","por_que":"lider de choque/ECMO clinico - alvo principal","fonte":"https://www.asiae.co.kr/en/article/2022111608552073580","certeza":"confirmado (2022)"},
+   {"nome":"Yang Hyun Cho","cargo":"Director, Adult ECMO program (desde 2014); surgical director advanced HF/MCS","por_que":"ECMO cirurgico, LVAD, transplante","fonte":"https://ctsnet.org/home/yhcho","certeza":"provavel (fontes 2014-2019)"},
+   {"nome":"Jin-Oh Choi","cargo":"Head, Heart Failure Team; professor de cardiologia","por_que":"IC avancada e transplante","fonte":"https://www.asiae.co.kr/en/article/2023052409185627036","certeza":"confirmado (2023)"},
+   {"nome":"Dong Seop Jeong","cargo":"Professor, Thoracic and Cardiovascular Surgery (cirurgia minimamente invasiva, valvar, transplante)","por_que":"cirurgia minimamente invasiva/robotica adulta","fonte":"https://us-uk.bookimed.com/doctor/dong-seop-jeong/","certeza":"provavel (fonte de turismo medico)"},
+   {"nome":"Ji-Hyuk Yang","cargo":"Professor, Thoracic and Cardiovascular Surgery; interesses minimamente invasiva, robotica, congenitas","por_que":"robotica","fonte":"https://www.ctsnet.org/home/jiyang","certeza":"provavel"}
+  ],
+  "brasileiros": "nao encontrado",
+  "pontes_unifesp_sp": "nao encontrado (nenhuma coautoria SMC-Brasil em choque/ECMO/IC nas buscas)",
+  "pesquisa_recente": [
+   {"titulo":"CLEAN ECMO: piloto randomizado de purificacao sanguinea oXiris em choque cardiogenico com VA-ECMO (PI Jeong Hoon Yang)","ano":2025,"id":"DOI 10.1186/s13054-025-05495-4 (Critical Care)","url":"https://clinicaltrials.gov/study/NCT05642273"},
+   {"titulo":"Analise combinada dos registros RESCUE e SMC-ECMO em choque cardiogenico (Ki Hong Choi, Jeong Hoon Yang et al., JAHA; 315 pacientes)","ano":2023,"id":"nao encontrado","url":"https://esc365.escardio.org/presentation/295479"},
+   {"titulo":"Desfechos de LVAD em pacientes coreanos com choque cardiogenico (registro, study chair J.H. Yang)","ano":null,"id":"NCT02985008","url":"https://clinicaltrials.gov/study/NCT02985008"}
+  ],
+  "dicas": [
+   "Montar um unico PDF com nome no formato exigido; documentos em ingles ou traducao juramentada - incompleto e descartado.",
+   "Sem carta de garantia para visto: verificar regra de entrada para brasileiros na Coreia (K-ETA/isencao) por conta propria.",
+   "Indicar departamento especifico na aplicacao (Cardiology - choque/ECMO ou Thoracic & CV Surgery).",
+   "Pediatria exige >=6 meses de antecedencia; usar isso como referencia conservadora."
+  ],
+  "rota_recomendada": "1) Aplicar pelo Observership Program oficial (PDF unico) indicando Cardiologia/CICU - time de choque e ECMO. 2) Antes, e-mail curto a Jeong Hoon Yang citando o CLEAN ECMO (2025) e o registro SMC-ECMO pedindo aceite como supervisor. 3) Alternativa: transplante/LVAD com Jin-Oh Choi.",
+  "alerta_correcao": "Area 'robotica' pouco documentada no SMC nas buscas (nenhum programa robotico de mitral com nome de cirurgiao confirmado); pontos fortes comprovados sao ECMO, choque, IC/LVAD e transplante."
+ },
+ {
+  "match": "Mount Sinai — International Observership",
+  "cidade": "Nova York", "pais": "EUA",
+  "areas_polo": ["eletrofisiologia","estrutural","cardiologia","cirurgia_cardiaca"],
+  "programa": {
+   "nome": "Foreign National Observer Application (Mount Sinai Health System, sistema vsyslive) - observerships sao organizadas por departamento, com sponsor docente.",
+   "url": "https://mountsinai.vsyslive.com/pages/app/fnobserver",
+   "elegibilidade_residente_estrangeiro": "provavel sim; nao cidadao/nao green card precisa de clearance do International Personnel (IP) Department antes de ser alocado",
+   "taxa": "nao encontrado para cardiologia (Cirurgia Geral: US$750 por rodizio, ate 14 dias - outro departamento)",
+   "duracao": "nao encontrado para cardiologia",
+   "antecedencia": "nao encontrado",
+   "documentos": "Clearance IP; requisitos do Employee Health (clearance medica); em cirurgia: PPD/TB em ate 3 meses; transplante: carta de motivacao, diploma e licenca traduzidos, passaporte; visto proprio (B1/B2), sem patrocinio.",
+   "certeza": "confirmado (clearance IP, employee health); provavel (demais itens vem de outros departamentos)"
+  },
+  "servico": {
+   "nomes": ["Mount Sinai Fuster Heart Hospital","Helmsley Center for Electrophysiology / Cardiac Arrhythmia Service","Cardiac Catheterization Laboratory (Kini) / Structural Heart Program","Department of Cardiovascular Surgery; Mitral Valve Repair Reference Center; Adams Valve Institute"],
+   "chefes_e_fellowship": "EP: Vivek Reddy (Director, Cardiac Arrhythmia Services); Cath lab e fellowship de cardiologia intervencionista: Annapoorna Kini; Cirurgia: David H. Adams (System Chair); Estrutural: Gilbert Tang (Surgical and Academic Director, Structural Heart Program); Fuster Heart: Deepak Bhatt (Director). Diretor do fellowship de EP: nao encontrado.",
+   "volume": [
+    {"txt":"Gilbert Tang: >3.500 TAVR e >700 reparos mitrais transcateter","url":"https://profiles.mountsinai.org/gilbert-hl-tang","certeza":"confirmado (sem ano)"},
+    {"txt":"Cath lab com maior rating de seguranca entre 61 centros de PCI de NY","url":"https://mountsinai.org/interventional-cardiology-cath-lab","certeza":"confirmado (data antiga)"}
+   ]
+  },
+  "pessoas_chave": [
+   {"nome":"Vivek Y. Reddy","cargo":"Director, Cardiac Arrhythmia Services (MSH) / Director of EP, Mount Sinai Health System","por_que":"lider mundial em ablacao por campo pulsado; decide EP","fonte":"https://profiles.icahn.mssm.edu/vivek-reddy","certeza":"confirmado"},
+   {"nome":"Srinivas Dukkipati","cargo":"Co-Director, Cardiac Arrhythmia Services; Director EP Lab (2017)","por_que":"EP lab no dia a dia","fonte":"https://profiles.icahn.mssm.edu/srinivas-dukkipati","certeza":"provavel (dado 2017)"},
+   {"nome":"Annapoorna S. Kini","cargo":"Director, Cardiac Catheterization Lab; Director, Interventional Cardiology Fellowship","por_que":"decide treinamento no cath lab; co-fundou o Live Symposium de casos complexos","fonte":"https://profiles.mountsinai.org/annapoorna-s-kini","certeza":"confirmado"},
+   {"nome":"Samin K. Sharma","cargo":"Ex-diretor do cath lab; lideranca no cardiovascular institute do Fuster Heart","por_que":"intervencao complexa, co-fundador do simposio","fonte":"https://physicians.mountsinai.org/participant/samin-k-sharma-md","certeza":"provavel"},
+   {"nome":"Gilbert H. L. Tang","cargo":"Surgical and Academic Director, Structural Heart Program","por_que":"estrutural (TAVR/mitral transcateter); registros EXPLANT-TAVR, ALIGN-TAVR","fonte":"https://events.aats.org/mitral-conclave-25/gilbert-h-l-tang","certeza":"confirmado"},
+   {"nome":"David H. Adams","cargo":"System Chair, Cardiovascular Surgery; Cardiac Surgeon-in-Chief","por_que":"decide observers da cirurgia cardiaca/mitral","fonte":"https://icahn.mssm.edu/about/departments/cardiovascular-surgery/chair-message","certeza":"confirmado"}
+  ],
+  "brasileiros": "nao encontrado (medicos brasileiros no staff/fellows de EP/estrutural nao identificados)",
+  "pontes_unifesp_sp": [
+   {"txt":"Memorando de entendimento Icahn Mount Sinai x Brazilian Clinical Research Institute (BCRI, Sao Paulo) assinado em 6/set/2023 para pesquisa, ensaios e EDUCACAO MEDICA cardiovascular na America Latina; citados Deepak Bhatt e Thomas Almeida (CEO BCRI). BCRI fundado por Renato D. Lopes (PhD pela Escola Paulista de Medicina - EPM/Unifesp, professor de Duke).","url":"https://www.eurekalert.org/news-releases/999995","certeza":"confirmado (MoU); provavel (vinculo EPM de Lopes, perfil Duke diz 'Paulista Medical School')"}
+  ],
+  "pesquisa_recente": [
+   {"titulo":"Pulsed Field or Conventional Thermal Ablation for Paroxysmal Atrial Fibrillation (ADVENT; Reddy VY et al.)","ano":2023,"id":"DOI 10.1056/NEJMoa2307291","url":"https://clinicaltrials.gov/study/NCT04612244"},
+   {"titulo":"ADVENT - desfechos de longo prazo (4 anos), Nature Medicine (Reddy VY)","ano":2026,"id":"DOI 10.1038/s41591-026-04246-4 (provavel)","url":"https://www.bostonscientific.com/en-US/products/catheters--ablation/farapulse-pfa-system/clinical-data/advent.html"},
+   {"titulo":"Estudo multicentrico de seguranca de PFA liderado pelo Mount Sinai (senior author Reddy)","ano":2024,"id":"nao encontrado","url":"https://www.sciencedaily.com/releases/2024/07/240708100956.htm"}
+  ],
+  "dicas": [
+   "Cada departamento precisa de um sponsor docente; sem ele o vsyslive nao avanca (regra explicita em Cirurgia).",
+   "Cirurgia Geral informa que observerships internacionais foram 'temporariamente suspensas' (sem data) - confirmar se vale para cardiologia.",
+   "Live Symposium of Complex Coronary Cases (anual, junho, Kini/Sharma) e porta de entrada para conhecer o cath lab.",
+   "Usar o MoU Mount Sinai-BCRI (educacao medica para America Latina) como gancho; pedir apresentacao via BCRI/Renato Lopes."
+  ],
+  "rota_recomendada": "1) Conseguir sponsor docente: e-mail ao Arrhythmia Service (Reddy/Dukkipati) citando ADVENT, ou ao Structural Heart (Tang). 2) Tentar apresentacao via BCRI/Renato Lopes (ex-EPM) usando o MoU de 2023. 3) Com sponsor, preencher Foreign National Observer Application e iniciar clearance IP/Employee Health.",
+  "alerta_correcao": "'International Observership' nao e um programa central unico com taxa/duracao publicadas: o link e o formulario de foreign national observer do sistema; regras variam por departamento."
+ },
+ {
+  "match": "Duke University Hospital",
+  "cidade": "Durham (NC)", "pais": "EUA",
+  "areas_polo": ["robotica","transplante","nuclear"],
+  "programa": {
+   "nome": "Sem programa central; observerships departamentais. Radiology Visiting Observerships inclui 'Nuclear Medicine/Cardiology/PET' e Cardiothoracic/Cardiovascular Imaging. Cardiologia/cirurgia cardiotoracica: pagina nao encontrada.",
+   "url": "https://radiology.duke.edu/education/visiting-observerships",
+   "elegibilidade_residente_estrangeiro": "Radiologia: aceita residentes estrangeiros ou domesticos 'de radiologia' (residente de cardiologia - provavel, a confirmar)",
+   "taxa": "Radiologia: US$1.900/semana (ate 40h CME cat. 1); pagina diz que observerships estavam suspensas 'until further notice' por COVID-19 - status atual incerto",
+   "duracao": "Radiologia: formato semanal",
+   "antecedencia": "nao encontrado para cardio (Duke Eye Center exige 6 meses para internacional - outro departamento)",
+   "documentos": "nao encontrado; sem cuidado direto ao paciente",
+   "contato_oficial": "deborah.griffin@duke.edu (publicado na pagina de observerships de Radiologia)",
+   "certeza": "confirmado (pagina, taxa, contato); provavel (status suspenso pode estar desatualizado)"
+  },
+  "servico": {
+   "nomes": ["Duke Heart Center - Heart Transplant Program / Advanced Heart Failure (ECMO, LVAD)","Cirurgia mitral minimamente invasiva e robotica (Duke Heart)","Nuclear Cardiology - Duke Heart Center / Radiology"],
+   "volume": [
+    {"txt":"132 transplantes cardiacos em 2024; #1 dos EUA em volume total (OPTN); lider nacional em DCD","url":"https://physicians.dukehealth.org/sites/default/files/media_browser/Heart%20Transplant%20Adult%20Jan%202025.pdf","certeza":"confirmado"},
+    {"txt":"~150 reparos mitrais minimamente invasivos/ano; analise de 5 anos com 129 roboticos e 628 port-access","url":"https://physicians.dukehealth.org/articles/first-five-year-analysis-mitral-valve-repair-published","certeza":"confirmado (sem ano exato)"}
+   ]
+  },
+  "pessoas_chave": [
+   {"nome":"Jacob N. Schroder","cargo":"Surgical Director of Cardiac Transplantation (desde 2017) e Surgical Director for Advanced Heart Failure (jan/2024; ECMO e LVAD)","por_que":"decide no transplante; lider DCD","fonte":"https://surgery.duke.edu/news/jacob-n-schroder-md-named-surgical-director-advanced-heart-failure","certeza":"confirmado"},
+   {"nome":"Jeffrey Keenan","cargo":"Surgical Director, Mechanical Circulatory Support","por_que":"MCS/ponte para transplante","fonte":"https://surgery.duke.edu/news/jeffrey-keenan-md-named-surgical-director-mechanical-circulatory-support-duke-heart-center","certeza":"confirmado"},
+   {"nome":"Brittany A. Zwischenberger","cargo":"Cirurgia cardiaca - reparo mitral robotico","por_que":"robotica mitral (artigo do radar)","fonte":"https://physicians.dukehealth.org/articles/robotic-mitral-valve-repair-provides-faster-recovery","certeza":"confirmado"},
+   {"nome":"Donald D. Glower","cargo":"Cirurgiao, serie de 5 anos de reparo mitral robotico/port-access","por_que":"robotica/minimamente invasiva","fonte":"https://physicians.dukehealth.org/articles/first-five-year-analysis-mitral-valve-repair-published","certeza":"confirmado"},
+   {"nome":"Salvador Borges-Neto","cargo":"Medical Director of Nuclear Cardiology, Duke Health / Duke Heart Center; Professor of Radiology e Medicine","por_que":"BRASILEIRO - decide/hospeda em cardiologia nuclear","fonte":"https://medicine.duke.edu/profile/salvador-borges-neto","certeza":"confirmado"},
+   {"nome":"Renato D. Lopes","cargo":"Professor of Medicine (Cardiology), Duke/DCRI; fundador do BCRI","por_que":"BRASILEIRO, PhD pela EPM - ponte Unifesp","fonte":"https://scholars.duke.edu/person/renato.lopes/credentials","certeza":"confirmado (cargo); provavel (EPM=Unifesp)"}
+  ],
+  "brasileiros": [
+   {"nome":"Salvador Borges-Neto","ligacao":"MD Universidade Federal Fluminense; fellowship cardiologia HU Antonio Pedro (1982-84); palestrante SOCESP","url":"https://www.dukecancerinstitute.org/dci-members/salvador-borges-neto","certeza":"confirmado"},
+   {"nome":"Renato D. Lopes","ligacao":"MD Univ. Santo Amaro; PhD Escola Paulista de Medicina; ex-chief fellow DCRI; Califf Award de mentoria (primeiro estrangeiro)","url":"https://portal.cfm.org.br/noticias/membro-da-diretoria-da-sbcm-recebe-premio-do-duke-clinical-research-institute/","certeza":"confirmado"}
+  ],
+  "pontes_unifesp_sp": [
+   {"txt":"Renato Lopes (PhD EPM/Unifesp; BCRI Sao Paulo) e professor de cardiologia em Duke - ponte direta Unifesp-Duke.","url":"https://scholars.duke.edu/person/renato.lopes/credentials","certeza":"provavel-alto (perfil Duke: 'Paulista Medical School')"},
+   {"txt":"Borges-Neto: participacoes internacionais no Congresso SOCESP (Sao Paulo).","url":"https://portal.cfm.org.br/noticias/participacoes-internacionais-ja-estao-confirmadas-para-o-xxxiii-congresso-da-socesp/","certeza":"confirmado"}
+  ],
+  "pesquisa_recente": [
+   {"titulo":"Ensaio randomizado DCD vs morte encefalica em transplante cardiaco (Schroder et al., NEJM, 180 pacientes)","ano":2023,"id":"nao confirmado nas buscas","url":"https://cm.healio.com/news/cardiology/20230607/outcomes-similar-with-heart-donation-after-circulatory-death-vs-brain-death"},
+   {"titulo":"Estudo multicentrico retrospectivo comparando dois metodos de recuperacao de coracao DCD (22 centros), JACC: Heart Failure","ano":2025,"id":"nao encontrado","url":"https://scholars.duke.edu/publication/1818285"},
+   {"titulo":"DCD heart transplantation Europa vs EUA, J Heart Lung Transplant (coautor Schroder)","ano":2026,"id":"nao encontrado","url":"https://scholars.duke.edu/publication/1818285"}
+  ],
+  "dicas": [
+   "Borges-Neto (brasileiro, diretor de cardiologia nuclear) e o contato mais quente: e-mail em portugues apresentando a residencia.",
+   "Radiology observerships (nuclear/cardio/PET) tem formato semanal e taxa publicada (US$1.900/semana) - confirmar se reabriram.",
+   "Duke Eye Center mostra o padrao Duke: mentor docente obrigatorio, 6 meses de antecedencia para internacional, taxa nao reembolsavel; Duke Visa Services ajuda com visto.",
+   "Transplante: Duke e #1 em volume (132 em 2024) e lider em DCD - citar o NEJM 2023 de Schroder."
+  ],
+  "rota_recomendada": "1) Contato com Salvador Borges-Neto (brasileiro) pedindo mentoria/observership em cardiologia nuclear e, por ele, ponte ao Heart Center. 2) Pedir apresentacao via Renato Lopes (EPM/Unifesp, DCRI) para transplante (Schroder) ou robotica mitral (Zwischenberger). 3) Confirmar com deborah.griffin@duke.edu se as Radiology Visiting Observerships reabriram.",
+  "alerta_correcao": "O URL do radar e de Radiologia (observership de imagem), nao de cardiologia/cirurgia cardiaca; para transplante e robotica nao ha programa publicado - entrada depende de mentor docente."
+ }
+]

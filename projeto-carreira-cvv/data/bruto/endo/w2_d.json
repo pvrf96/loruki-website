@@ -1,0 +1,397 @@
+[
+ {
+  "match": "UCSF Cardiac Surgery — Visiting Physician",
+  "cidade": "San Francisco",
+  "pais": "EUA",
+  "areas": [
+   "fetal",
+   "cardio_pediatrica",
+   "robotica"
+  ],
+  "alerta_correcao": "O Visiting Physician Observership da divisão de cirurgia CT da UCSF dura só 1–3 dias (não 1 mês) e exige diploma médico; a página 'visitors-programs' de Cardiac Surgery & Lung Transplantation também lista um Visiting Physician Research Program (J-1, 4–6 meses de antecedência, contato direto com docentes). Fetal e cardio pediátrica ficam em outros serviços (UCSF Benioff Children's: Fetal Cardiovascular Program e Pediatric Cardiothoracic Surgery), não na divisão adulta.",
+  "programa": {
+   "pagina": "https://cardiacsurgery.ucsf.edu/node/3846",
+   "fonte": [
+    "https://cardiacsurgery.ucsf.edu/node/3846",
+    "https://cardiacsurgery.ucsf.edu/visitors-programs",
+    "https://ctsurgery.ucsf.edu/node/3846"
+   ],
+   "elegibilidade": "Médicos internacionais ou locais podem observar procedimentos cirúrgicos; grau terminal exigido: Medical Degree; estudantes não participam de observação clínica.",
+   "trecho": "'Visiting Physician Observership Program, which allows international or local physicians to observe surgical procedures at UCSF Health/Medical Center'; '4-6 months' lead time; 'no visa sponsorship… B1'; '1-3 days'",
+   "taxa": "Badge fee US$50 (retirado no escritório WEID); taxa de programa não encontrada",
+   "duracao": "1–3 dias (observership); research program: duração não encontrada",
+   "antecedencia": "4–6 meses",
+   "documentos": "Visto B1 obtido pelo próprio visitante (sem patrocínio); demais documentos não encontrados nos trechos",
+   "contato_oficial": "Telefone da página: 415-353-7995; e-mail aparece ofuscado nos resultados (abrir a página para ver)",
+   "certeza": "confirmado (trechos da página oficial); e-mail não capturado"
+  },
+  "servico": {
+   "nome": "Division of Cardiac Surgery & Lung Transplantation (adulto; robótica/minimamente invasiva) | Division of Pediatric Cardiothoracic Surgery | Fetal Cardiovascular Program (Pediatric Heart Center + Fetal Treatment Center)",
+   "chefes": "Jason W. Smith, MD — Division Chief, Cardiac Surgery & Lung Transplantation desde 1/jun/2025; Tobias Deuse, MD — Director, Minimally-invasive Cardiac Surgery e Surgical Director, Transcatheter Valve Program; Anita Moon-Grady, MD — Director, Fetal Cardiovascular Program; cirurgia CT pediátrica: V. Mohan Reddy nomeado chefe em 2015 (atualidade não confirmada)",
+   "fonte": [
+    "https://cardiacsurgery.ucsf.edu/news/dr-jason-w-smith-named-new-chief-division-cardiac-surgery-lung-transplantation",
+    "https://cardiacsurgery.ucsf.edu/node/114151",
+    "https://fetus.ucsf.edu/our-team/anita-j-moon-grady-md-faap-facc/",
+    "https://pedctsurgery.ucsf.edu/node/8936"
+   ],
+   "fellowship": "não encontrado",
+   "volume": "Primeira cirurgia mitral robótica da UCSF em 2022 (Nguyen e Deuse); volume anual não encontrado",
+   "certeza": "Smith/Deuse/Moon-Grady confirmados; Reddy provável-desatualizado"
+  },
+  "pessoas_chave": [
+   {
+    "nome": "Jason W. Smith, MD",
+    "cargo": "Division Chief, Cardiac Surgery & Lung Transplantation (desde jun/2025)",
+    "papel": "chefe da divisão que hospeda o observership/research program",
+    "fonte": "https://cardiacsurgery.ucsf.edu/news/dr-jason-w-smith-named-new-chief-division-cardiac-surgery-lung-transplantation",
+    "certeza": "confirmado"
+   },
+   {
+    "nome": "Tobias Deuse, MD",
+    "cargo": "Director, Minimally-invasive Cardiac Surgery; Surgical Director, Transcatheter Valve Program",
+    "papel": "lidera robótica (mitral robótica desde 2022; experiência prévia em Hamburgo)",
+    "fonte": "https://cardiacsurgery.ucsf.edu/node/114151",
+    "certeza": "confirmado"
+   },
+   {
+    "nome": "Tom C. Nguyen, MD",
+    "cargo": "Cirurgião CT; citado como chefe da Adult CT Surgery em 2022",
+    "papel": "co-líder da 1ª mitral robótica da UCSF; cargo atual não confirmado",
+    "fonte": "https://cardiacsurgery.ucsf.edu/node/12071",
+    "certeza": "provável"
+   },
+   {
+    "nome": "Anita Moon-Grady, MD",
+    "cargo": "Director, Fetal Cardiovascular Program; Professor of Pediatrics",
+    "papel": "decide/hospeda em cardiologia fetal; pesquisa em IA para detecção pré-natal de cardiopatia",
+    "fonte": "https://fetus.ucsf.edu/our-team/anita-j-moon-grady-md-faap-facc/",
+    "certeza": "confirmado"
+   },
+   {
+    "nome": "Shabnam Peyvandi, MD, MAS",
+    "cargo": "Associate Director, Fetal Cardiovascular Program; dirige Pediatric Cardiovascular Research Program",
+    "papel": "ponte alternativa em fetal/neurodesenvolvimento",
+    "fonte": "https://medconnection.ucsfbenioffchildrens.org/participant/shabnam-peyvandi-md-mas",
+    "certeza": "confirmado"
+   },
+   {
+    "nome": "V. Mohan Reddy, MD",
+    "cargo": "Chief, Pediatric Cardiothoracic Surgery (nomeado 2015)",
+    "papel": "cirurgia congênita pediátrica; confirmar se ainda é chefe",
+    "fonte": "https://pedctsurgery.ucsf.edu/node/8936",
+    "certeza": "provável (fonte de 2015)"
+   }
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {
+    "titulo": "Modelo de deep learning para triagem pré-natal de cardiopatia congênita (Ultrasound Obstet Gynecol 63(1))",
+    "ano": 2024,
+    "id": "PMID 38197327",
+    "url": "https://profiles.ucsf.edu/anita.moon-grady",
+    "certeza": "provável (pareamento título/PMID incerto no trecho)"
+   },
+   {
+    "titulo": "Reddy, Rizvi, Moon-Grady, Arnaout — biometria cardíaca fetal composta (J Am Soc Echocardiogr)",
+    "ano": 2024,
+    "id": "PMID 39209237",
+    "url": "https://pediatrics.ucsf.edu/people/aneela-reddy",
+    "certeza": "provável"
+   },
+   {
+    "titulo": "UCSF Performs First Robotic Cardiac Surgery in San Francisco (notícia, mitral robótica)",
+    "ano": 2022,
+    "id": null,
+    "url": "https://cardiacsurgery.ucsf.edu/node/12071",
+    "certeza": "confirmado (notícia, não artigo)"
+   }
+  ],
+  "dicas": [
+   "O observership clínico é curto (1–3 dias): para ~1 mês, combinar com Fetal Cardiovascular Program/Benioff ou pedir visita de pesquisa via docente (Research Program exige contato direto com faculty e J-1).",
+   "Planejar 4–6 meses de antecedência; visto B1 por conta própria.",
+   "Outros departamentos da UCSF cobram taxas (ex. neurocirurgia US$425, CV + 3 cartas) — esperar exigência semelhante.",
+   "Em fetal, citar o trabalho de IA/deep learning de Moon-Grady no e-mail."
+  ],
+  "rota_recomendada": "1) Para fetal/cardio pediátrica: e-mail direto à Dra. Anita Moon-Grady (Fetal Cardiovascular Program) propondo observação de ~4 semanas, citando PMID 38197327; 2) Para robótica: solicitar o Visiting Physician Observership (1–3 dias) pela página da divisão (tel. 415-353-7995) mirando casos do Dr. Deuse, como complemento; 3) aplicar 4–6 meses antes com B1."
+ },
+ {
+  "match": "UZ Leuven — Cardiac Surgery Observership",
+  "cidade": "Leuven",
+  "pais": "Bélgica",
+  "areas": [
+   "congenita_adulto",
+   "arritmia_cirurgica",
+   "robotica"
+  ],
+  "alerta_correcao": "A página de observership da cirurgia cardíaca é voltada a quem 'already graduated as a specialist surgeon' — residente pode não ser elegível por essa via; confirmar. Não encontrei robótica cardíaca documentada em Leuven (foco publicado: minimamente invasiva, valvar, congênita, eletrofisiologia/ablação).",
+  "programa": {
+   "pagina": "https://www.uzleuven.be/en/cardiac-surgery/cardiac-surgery-observership",
+   "fonte": [
+    "https://www.uzleuven.be/en/cardiac-surgery/cardiac-surgery-observership",
+    "https://uzleuven.be/nl/observership-active-internship-fellowship",
+    "https://esaic.org/wp-content/uploads/2026/05/UZ-Leuven-Information.pdf"
+   ],
+   "elegibilidade": "Cirurgiões já especialistas, para ver de perto o trabalho da equipe; até 6 meses.",
+   "trecho": "'If you have already graduated as a specialist surgeon and would like to see up close how our surgeons work… an observership of up to 6 months may be right for you.'",
+   "taxa": "não encontrado",
+   "duracao": "até 6 meses (cirurgia cardíaca)",
+   "antecedencia": "Regras gerais UZ Leuven (páginas de anestesia/geral, podem não valer para cirurgia cardíaca): aplicar ≥6 meses antes; janelas jan/mai/set em uma página",
+   "documentos": "Regras gerais UZ Leuven: CV atualizado, foto digital, cópia do documento de identidade (frente e verso), 3 áreas de interesse; inglês B2 (observership sem contato com paciente)",
+   "contato_oficial": "Seção 'Contact' da página oficial (endereço não capturado nos trechos)",
+   "certeza": "página do programa confirmada; documentos/prazos são das regras gerais (provável)"
+  },
+  "servico": {
+   "nome": "Department of Cardiac Surgery, UZ Leuven (campus Gasthuisberg)",
+   "chefes": "Bart Meyns — Head of the Department of Cardiac Surgery (perfil EACTS, sem data); Filip Rega — head of clinic e surgical director do programa de transplante cardíaco",
+   "fonte": [
+    "https://www.eacts.org/faculty/bart-meyns/",
+    "https://www.eacts.org/faculty/filip-rega/"
+   ],
+   "fellowship": "não encontrado",
+   "volume": "Registro belga de ablação concomitante (890 pacientes 2011–2016, multicêntrico, liderado por Leuven); volume próprio não encontrado",
+   "certeza": "provável (perfis sem data)"
+  },
+  "pessoas_chave": [
+   {
+    "nome": "Bart Meyns",
+    "cargo": "Head of the Department of Cardiac Surgery, UZ Leuven; Professor KU Leuven",
+    "papel": "decide sobre observers do departamento",
+    "fonte": "https://www.eacts.org/faculty/bart-meyns/",
+    "certeza": "provável"
+   },
+   {
+    "nome": "Filip Rega",
+    "cargo": "Head of clinic, Cardiac Surgery; Surgical Director, Heart Transplant; Full Professor KU Leuven",
+    "papel": "interesses principais: valvar e congênita, com foco especial em eletrofisiologia — casa exata com congênita do adulto + arritmia cirúrgica",
+    "fonte": "https://www.eacts.org/faculty/filip-rega/",
+    "certeza": "confirmado"
+   },
+   {
+    "nome": "Lucas Van Hoof",
+    "cargo": "Cirurgião/pesquisador, Cardiac Surgery UZ Leuven",
+    "papel": "autor correspondente do registro belga de ablação cirúrgica de FA",
+    "fonte": "https://documentserver.uhasselt.be/handle/1942/31841",
+    "certeza": "confirmado (afiliação em 2020)"
+   },
+   {
+    "nome": "Peter Verbrugghe",
+    "cargo": "Staff, Cardiac Surgery UZ Leuven (desde 2016)",
+    "papel": "minimamente invasiva valvar, reparo mitral/aórtico, Ross, ERAS",
+    "fonte": "https://eacts.org/?p=2402",
+    "certeza": "confirmado"
+   },
+   {
+    "nome": "Bart Meuris",
+    "cargo": "Staff surgeon (desde 2006), Full Professor",
+    "papel": "valvar/pesquisa; alternativa de contato",
+    "fonte": "https://www.ctsnet.org/home/bmeuris",
+    "certeza": "confirmado"
+   },
+   {
+    "nome": "Marc Gewillig",
+    "cargo": "Cardiologista pediátrico/congênito, UZ Leuven",
+    "papel": "cardiologia congênita (não cirurgião)",
+    "fonte": "https://www.medifind.com/doctors/marc-h-gewillig/571927742",
+    "certeza": "provável"
+   }
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado (busca por coautoria Leuven + São Paulo sem resultado)",
+  "pesquisa_recente": [
+   {
+    "titulo": "Current state of the art and recommendations in robotic mitral valve surgery (revisão europeia, com coautores ligados a Leuven)",
+    "ano": 2022,
+    "id": "PMC9724768",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9724768/",
+    "certeza": "provável (participação de Leuven indireta)"
+   },
+   {
+    "titulo": "Multi-centre prospective registry of concomitant surgical ablation for AF in Belgium (Van Hoof … Rega) — fora da janela 2022–26",
+    "ano": 2020,
+    "id": null,
+    "url": "https://documentserver.uhasselt.be/handle/1942/31841",
+    "certeza": "confirmado"
+   }
+  ],
+  "dicas": [
+   "Via alternativa: observerships da ESTS listam UZ Leuven como instituição anfitriã (porém é sociedade torácica; candidatura via ESTS).",
+   "Pedir ≥6 meses antes e indicar 3 áreas de interesse (regra geral do hospital).",
+   "Observership é sem contato com paciente; inglês B2 basta para observership."
+  ],
+  "rota_recomendada": "1) Escrever pela seção Contact da página de observership pedindo exceção para residente sênior, nomeando interesse em congênita do adulto + ablação cirúrgica e citando o trabalho do Prof. Filip Rega; 2) cópia ao chefe Prof. Bart Meyns; 3) enviar CV, foto, ID e 3 áreas de interesse com ≥6 meses de antecedência."
+ },
+ {
+  "match": "National Taiwan University Hospital",
+  "cidade": "Taipé",
+  "pais": "Taiwan",
+  "areas": [
+   "robotica",
+   "ecmo"
+  ],
+  "alerta_correcao": "O radar diz '3 meses de antecedência'; a diretriz oficial (2008) diz 2 meses e a página de elective diz 3 meses (6 se >3 meses) — usar 3 por segurança. Não encontrei a exigência 'R1 completo'; a diretriz exige diploma médico estrangeiro e licença para exercer no país de origem.",
+  "programa": {
+   "pagina": "https://www.ntuh.gov.tw/ckfinder_file/PMR/files/Guidelines%20of%20Clinical%20Observationship%20for%20Foreign%20Medical%20Doctors%20at%20National%20Taiwan%20University%20Hospital%20_NTUH_.pdf",
+   "fonte": [
+    "https://www.ntuh.gov.tw/ckfinder_file/PMR/files/Guidelines%20of%20Clinical%20Observationship%20for%20Foreign%20Medical%20Doctors%20at%20National%20Taiwan%20University%20Hospital%20_NTUH_.pdf",
+    "https://www.ntuh.gov.tw/ckfinder_file/PMR/files/clinical%20observership%20application%20form.pdf",
+    "https://www.ntuh.gov.tw/EDU/Fpage.action?fid=5425"
+   ],
+   "elegibilidade": "Médicos estrangeiros com diploma MD/MB e licença no país de origem; observação de cuidado geral e especializado, sem cuidado direto ao paciente.",
+   "trecho": "'entitled to observing the practice of general and specialty medical care. They should not conduct any direct patient care'; 'application has to be submitted two months prior'",
+   "taxa": "não encontrado (só dormitório: cartão NT$500 + NT$3.000/mês)",
+   "duracao": "até 1 ano",
+   "antecedencia": "2 meses (diretriz) / 3 meses (página de elective)",
+   "documentos": "Formulário, cartas de recomendação (do supervisor ou diretor da residência), cópia do passaporte, diploma, foto 3x4; enviados pelo candidato ou instituição ao Department of Medical Education; certificado ao final",
+   "contato_oficial": "Department of Medical Education (páginas listam e-mails institucionais diferentes — 113613@ntuh.gov.tw e 102372@ntuh.gov.tw; confirmar qual vale)",
+   "certeza": "confirmado (PDFs oficiais); e-mail conflitante"
+  },
+  "servico": {
+   "nome": "Division of Cardiovascular Surgery, Department of Surgery, NTUH (programa de ECMO e de cirurgia mitral robótica)",
+   "chefes": "Yih-Sharng Chen — chefe da divisão de cirurgia cardiovascular desde 2010 (perfil JTD 2018; atualidade não confirmada); pioneiro de ECMO em Taiwan",
+   "fonte": [
+    "https://jtd.amegroups.org/article/view/18036"
+   ],
+   "fellowship": "não encontrado",
+   "volume": "Robótica: 450 reparos mitrais robóticos jan/2012–set/2022 (equipe única, da Vinci Si/Xi); 523 reparos robóticos de IM degenerativa 2012–nov/2024. ECMO: 1.329 adultos em VA-ECMO por choque cardiogênico 2010–2021.",
+   "certeza": "volumes confirmados; chefia provável"
+  },
+  "pessoas_chave": [
+   {
+    "nome": "Yih-Sharng Chen",
+    "cargo": "Chair, Cardiovascular Surgery Division (desde 2010, segundo perfil 2018); ex-Chair Elect ELSO Asia-Pacific",
+    "papel": "líder do programa de ECMO — principal anfitrião para ECMO",
+    "fonte": "https://jtd.amegroups.org/article/view/18036",
+    "certeza": "provável (cargo atual)"
+   },
+   {
+    "nome": "Nai-Hsin Chi",
+    "cargo": "Cirurgião cardiovascular, NTUH",
+    "papel": "padronizou o reparo mitral robótico; ensina cursos de simulação da Vinci — anfitrião para robótica",
+    "fonte": "https://www.annalscts.com/article/view/16974/html",
+    "certeza": "confirmado"
+   },
+   {
+    "nome": "Nai-Kwan Chou",
+    "cargo": "Cirurgião cardiovascular, NTUH",
+    "papel": "1º autor da série de 10 anos de mitral robótica",
+    "fonte": "https://www.annalscts.com/article/view/16974",
+    "certeza": "confirmado"
+   },
+   {
+    "nome": "Department of Medical Education (Hui-Ling Chen, contato de electives)",
+    "cargo": "Escritório oficial",
+    "papel": "recebe candidaturas",
+    "fonte": "https://www.ntuh.gov.tw/EDU/Fpage.action?fid=5425",
+    "certeza": "provável"
+   }
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {
+    "titulo": "Robotic mitral valve repair in National Taiwan University Hospital: 10-year results (Ann Cardiothorac Surg 11(6))",
+    "ano": 2022,
+    "id": null,
+    "url": "https://www.annalscts.com/article/view/16974",
+    "certeza": "confirmado"
+   },
+   {
+    "titulo": "Robotic chordae shortening in mitral valve repair (Wei et al., 523 casos)",
+    "ano": 2026,
+    "id": null,
+    "url": "https://www.annalscts.com/article/view/17360/html",
+    "certeza": "confirmado"
+   },
+   {
+    "titulo": "Estudo nacional de ECMO em adultos em Taiwan 2011–2020 (15.151 pacientes; Chen coautor)",
+    "ano": 2026,
+    "id": null,
+    "url": "https://scholars.lib.ntu.edu.tw/handle/123456789/737236",
+    "certeza": "provável (título exato não capturado)"
+   }
+  ],
+  "dicas": [
+   "Carta de recomendação do supervisor/diretor da residência é exigida — pedir à COREME/Unifesp.",
+   "Dormitório do hospital disponível (NT$3.000/mês).",
+   "Não há créditos acadêmicos para electives de clínicos estrangeiros.",
+   "Mencionar ECMO pós-cardiotomia e reparo mitral robótico padronizado no e-mail."
+  ],
+  "rota_recomendada": "1) Enviar ao Department of Medical Education o formulário + carta do diretor da residência + passaporte + diploma com 3 meses de antecedência, pedindo alocação na Cardiovascular Surgery (ECMO e robótica); 2) em paralelo, e-mail profissional ao Dr. Yih-Sharng Chen (ECMO) e/ou Dr. Nai-Hsin Chi (robótica) citando os artigos de 2022/2026 para obter aceite do serviço."
+ },
+ {
+  "match": "Cleveland Clinic Abu Dhabi",
+  "cidade": "Abu Dhabi",
+  "pais": "Emirados Árabes",
+  "areas": [
+   "robotica",
+   "cardiologia"
+  ],
+  "alerta_correcao": "Perfis antigos (CTSNet) ainda listam Tomislav Mihaljevic como chefe do HVI de Abu Dhabi — desatualizado; o chair atual do Heart, Vascular & Thoracic Institute é Gopal Bhatnagar (jul/2025). Taxas de US$500/$200 citadas na web são do campus de Cleveland (Ohio), não de Abu Dhabi. Programa robótico de CCAD documentado ~2015–2016 (Suri, Bonatti); Bonatti saiu (UPMC) e não achei marco robótico 2024–25.",
+  "programa": {
+   "pagina": "https://www.clevelandclinicabudhabi.ae/subspecialties/clinical-observership-program",
+   "fonte": [
+    "https://www.clevelandclinicabudhabi.ae/subspecialties/clinical-observership-program",
+    "https://fs10.formsite.com/CCADclinicaltraining/form1/index"
+   ],
+   "elegibilidade": "Aberto de estudantes universitários a clínicos em exercício (médicos, enfermeiros, farmacêuticos, allied health); puramente observacional, sem cuidado direto.",
+   "trecho": "'open to a range of people, from university students up to practicing clinicians'; 'purely observational and does not involve participation in actual clinical practice or direct patient care'",
+   "taxa": "não encontrado",
+   "duracao": "4–12 semanas (Clinical Elective Program); duração do observership não explicitada",
+   "antecedencia": "não encontrado",
+   "documentos": "não encontrado",
+   "contato_oficial": "Formulário online oficial (formsite CCADclinicaltraining)",
+   "certeza": "confirmado (página oficial); taxa/documentos não encontrados"
+  },
+  "servico": {
+   "nome": "Heart, Vascular & Thoracic Institute (Cardiac Surgery; Cardiovascular Medicine)",
+   "chefes": "Gopal Bhatnagar — Institute Chair / Chief of Cardiac Surgery (Aletihad jul/2025)",
+   "fonte": [
+    "https://en.aletihad.ae/news/uae/4435526/department-of-health---abu-dhabi-appoints-cleveland-clinic-a",
+    "https://clevelandclinicabudhabi.ae/en/find-a-doctor/gopal-bhatnagar"
+   ],
+   "fellowship": "não encontrado",
+   "volume": "Hospital afirma realizar mais de 2/3 dos casos de doença estrutural cardíaca dos EAU (sem data); acreditação ACC em fev/2025",
+   "certeza": "chefia confirmada (2025); volume provável"
+  },
+  "pessoas_chave": [
+   {
+    "nome": "Gopal Bhatnagar",
+    "cargo": "Chair, Heart, Vascular & Thoracic Institute; Cardiothoracic Surgery",
+    "papel": "decide sobre observers do instituto",
+    "fonte": "https://clevelandclinicabudhabi.ae/en/find-a-doctor/gopal-bhatnagar",
+    "certeza": "confirmado"
+   },
+   {
+    "nome": "Mitesh Badiwala",
+    "cargo": "Surgical Director, Heart Transplant & MCS (ex-Toronto General 2014–2023)",
+    "papel": "cirurgia cardíaca avançada; possível anfitrião",
+    "fonte": "https://ctsnet.org/home/mbadiwala",
+    "certeza": "provável"
+   },
+   {
+    "nome": "Rakesh Suri",
+    "cargo": "Ex-CEO e ex-Chair of Thoracic and Cardiovascular Surgery, CCAD",
+    "papel": "criou os programas robótico e transcatéter; vínculo atual não confirmado",
+    "fonte": "https://consultqd.clevelandclinic.org/cardiac-surgeon-rakesh-m-suri-joins-cleveland-clinics-heart-vascular-institute",
+    "certeza": "provável (pode ter saído)"
+   },
+   {
+    "nome": "Wael Al Mahmeed",
+    "cargo": "Staff Physician, Cardiovascular Medicine, HVTI",
+    "papel": "cardiologia clínica",
+    "fonte": "https://www.clevelandclinicabudhabi.ae/en/find-a-doctor/wael-al-mahmeed",
+    "certeza": "confirmado"
+   }
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": "não encontrado (nenhum artigo 2022–2026 do serviço identificado nas buscas)",
+  "dicas": [
+   "Programa aceita amplo espectro de candidatos (até estudantes) — barreira de elegibilidade baixa para residente.",
+   "Candidatura via formulário online oficial; especificar Cardiac Surgery/robótica e Cardiovascular Medicine.",
+   "Ligação com Cleveland Clinic Ohio: um observership prévio em centro americano top fortalece o CV."
+  ],
+  "rota_recomendada": "1) Preencher o formulário oficial do Clinical Observership Program indicando HVTI (cirurgia cardíaca/robótica e cardiologia), 4 semanas; 2) e-mail de apoio ao chair Dr. Gopal Bhatnagar mencionando interesse em robótica/estrutural; 3) confirmar taxa e documentos com o escritório antes de comprar passagem."
+ }
+]
