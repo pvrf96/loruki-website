@@ -1,0 +1,71 @@
+[
+ {
+  "match": "Hospital Mater Dei",
+  "cidade": "Belo Horizonte (unidades Santo Agostinho, Contorno e Nova Lima)",
+  "areas": ["robotica"],
+  "programa": {"valor": "não encontrado: nenhum edital ou página pública de estágio externo/optativo em cirurgia cardiovascular. Pista indireta: as unidades Santo Agostinho e Contorno foram certificadas pelo Ministério da Saúde como Hospital de Ensino Nível 1, o que indica estrutura formal de ensino e torna plausível existir uma COREME a contatar.", "fonte": "https://medicinasa.com.br/ms-mater-dei/", "trecho": "placa de certificação de Hospital de Ensino Nível 1 para as unidades Santo Agostinho e Contorno", "certeza": "provável (só a estrutura de ensino; o estágio não foi confirmado)"},
+  "servico": {"valor": "Cirurgia cardiovascular robótica da Rede Mater Dei (Da Vinci; o artigo menciona os sistemas Si e Xi). Chefe ou diretor formal não encontrado. Volume específico de robótica cardíaca não encontrado.", "fonte": "https://www.itatiaia.com.br/saude/mater-dei-avanca-no-uso-da-cirurgia-robotica-e-amplia-possibilidades-no-tratamento-cardiaco/", "certeza": "confirmado (existência do serviço); a liderança formal não foi encontrada"},
+  "pessoas_chave": [
+   {"nome": "Luciano Matar (Luciano Matar Miranda no catálogo)", "cargo": "Cirurgião cardiovascular, endovascular e de cirurgia robótica nas unidades Santo Agostinho, Contorno e Nova Lima", "por_que_importa": "rosto público da robótica cardíaca na rede e coautor do artigo de 2026 feito no Mater Dei; é o provável anfitrião", "fonte": "https://www.itatiaia.com.br/saude/mater-dei-avanca-no-uso-da-cirurgia-robotica-e-amplia-possibilidades-no-tratamento-cardiaco/", "certeza": "confirmado"},
+   {"nome": "Hugo Monteiro Neder Issa", "cargo": "Primeiro autor do relato de revascularização híbrida robótica no Hospital Mater Dei", "por_que_importa": "lidera a produção acadêmica da robótica cardíaca local", "fonte": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12700020/", "certeza": "confirmado (autoria); o cargo no hospital não foi encontrado"}
+  ],
+  "brasileiros": {"valor": "Centro brasileiro; não se aplica.", "certeza": "n/a"},
+  "pontes_unifesp_sp": {"valor": "não encontrado", "certeza": "não encontrado"},
+  "pesquisa_recente": [
+   {"titulo": "Hybrid Revascularization Approach Using Robot-Assisted Bilateral Internal Mammary Artery Grafting", "ano": "2026 (online em 10/12/2025)", "doi": "10.21470/1678-9741-2025-0008", "pmcid": "PMC12700020", "fonte": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12700020/", "certeza": "confirmado"}
+  ],
+  "dicas": "Assunto concreto para o e-mail: o relato de 2026 da dupla mamária (ATIs bilaterais) robótica seguida de angioplastia, com nota técnica sobre Si vs Xi (no Xi não há instrumento de clipe). A rede também tem robótica torácica (Daniel Bonomi). A matéria do Itatiaia tem tom institucional.",
+  "rota_recomendada": "1) Escrever ao Dr. Luciano Matar citando o artigo de 2026 e pedindo 2 a 4 semanas acompanhando a robótica cardíaca. 2) Em paralelo, pedir à Comissão de Ensino/COREME do Mater Dei Santo Agostinho (hospital de ensino) o trâmite de estágio externo, com carta da COREME da Unifesp.",
+  "alerta_correcao": "Atenção à homonímia: 'Mater Dei Hospital' em Malta aparece nas buscas e é outra instituição."
+ },
+ {
+  "match": "Hospital Oto Aldeota",
+  "cidade": "Fortaleza",
+  "areas": ["robotica"],
+  "programa": {"valor": "não encontrado: nenhum programa de estágio externo publicado.", "certeza": "não encontrado"},
+  "servico": {"valor": "Primeira cirurgia cardíaca robótica do Ceará, feita no Hospital Oto Aldeota (O Povo, 23/03/2026). O hospital já usava o Da Vinci X em outras especialidades. Programa novo, sem volume publicado.", "fonte": "https://mais.opovo.com.br/jornal/ciencia-e-saude/2026/03/23/ceara-realiza-primeira-cirurgia-cardiaca-robotica.html", "trecho": "Equipe médica realiza a primeira cirurgia cardíaca robótica do Ceará no Hospital Oto Aldeota, em Fortaleza", "certeza": "confirmado"},
+  "pessoas_chave": [
+   {"nome": "Dr. Milanez (primeiro nome não está no trecho da matéria)", "cargo": "Cirurgião cardiovascular da equipe da primeira cirurgia robótica", "por_que_importa": "líder visível do programa", "fonte": "https://mais.opovo.com.br/jornal/ciencia-e-saude/2026/03/23/ceara-realiza-primeira-cirurgia-cardiaca-robotica.html", "certeza": "confirmado (sobrenome)"},
+   {"nome": "Adriano Marcio de Melo Milanez", "cargo": "Cirurgião cardiovascular com perfil no CTSNet", "por_que_importa": "talvez seja o mesmo Dr. Milanez, mas não há confirmação", "fonte": "https://www.ctsnet.org/home/amilanez", "certeza": "provável/incerto: nenhuma fonte o liga a Fortaleza"}
+  ],
+  "brasileiros": {"valor": "Centro brasileiro; não se aplica.", "certeza": "n/a"},
+  "pontes_unifesp_sp": {"valor": "não encontrado. Possível pista: Adriano M. Milanez é coautor com Dallan e Platania na Rev Bras Cir Cardiovasc (2008), grupo de São Paulo. Não está confirmado que seja a mesma pessoa.", "fonte": "https://www.ctsnet.org/home/fplatania", "certeza": "incerto"},
+  "pesquisa_recente": "não encontrado (2022–2026)",
+  "dicas": "O programa começou em 2026, então ainda é pequeno. Pode haver mais abertura para visitantes, mas o volume deve ser baixo. Não foi encontrado proctor nomeado (o vínculo com Poffo não se confirmou).",
+  "rota_recomendada": "Prioridade baixa. Se houver interesse, contato direto com o Dr. Milanez pelo canal institucional do hospital, depois de confirmar o nome completo na matéria do O Povo.",
+  "alerta_correcao": "Nenhum dado errado no radar, mas o programa é incipiente (primeiro caso em março de 2026)."
+ },
+ {
+  "match": "Hospital Meridional",
+  "cidade": "Rede Meridional, Grande Vitória (ES); o robô fica na unidade de Cariacica",
+  "areas": ["robotica"],
+  "programa": {"valor": "Existe COREME na Rede Meridional, com editais de Anestesiologia, Cirurgia Geral e Medicina Intensiva. Nenhum estágio externo em cirurgia cardiovascular foi encontrado. Os editais citam o contato coreme@redemeridional.com.br, segundo o resumo da busca.", "fonte": "https://redemeridional.com.br/wp-content/uploads/2021/08/Edital_2021_2_2_MEDICINA_INTENSIVA.pdf", "certeza": "provável (o e-mail veio do resumo do edital; confirmar)"},
+  "servico": {"valor": "Cirurgia cardíaca do Hospital Meridional, que fez a primeira cirurgia cardíaca robótica do ES (revascularização do miocárdio, foto da matéria datada de 14/05/2025). A rede usa o Da Vinci Xi desde 2020 em Cariacica, investiu R$ 25 milhões e tem centro de treinamento em robótica (em 2021: 13 cirurgiões certificados e cerca de 30 procedimentos por mês, todas as especialidades).", "fontes": ["https://tribunaonline.com.br/saude/espirito-santo-tem-1-cirurgia-cardiaca-feita-com-robos-299264", "https://medicinasa.com.br/meridional-cirurgia-robotica/", "https://www.agazeta.com.br/conteudo-de-marca/hospital-no-es-forma-nova-geracao-de-cirurgioes-assistidos-por-robos-0921"], "certeza": "confirmado"},
+  "pessoas_chave": [
+   {"nome": "Melchior Luiz Lima", "cargo": "Cirurgião cardiovascular e coordenador da cirurgia cardíaca do Hospital Meridional", "por_que_importa": "decide e hospeda; liderou a primeira cirurgia robótica do ES", "fonte": "https://tribunaonline.com.br/saude/espirito-santo-tem-1-cirurgia-cardiaca-feita-com-robos-299264", "certeza": "confirmado"}
+  ],
+  "brasileiros": {"valor": "Centro brasileiro; não se aplica.", "certeza": "n/a"},
+  "pontes_unifesp_sp": {"valor": "não encontrado", "certeza": "não encontrado"},
+  "pesquisa_recente": "não encontrado",
+  "dicas": "A rede tem centro formal de treinamento em cirurgia robótica, o que pode servir de porta de entrada. Há COREME estruturada.",
+  "rota_recomendada": "1) E-mail ao Dr. Melchior Luiz Lima (coordenador), pedindo para acompanhar os casos robóticos. 2) Formalizar pela COREME da Rede Meridional, com carta da Unifesp.",
+  "alerta_correcao": "O radar diz 'Vitória', mas o Hospital Meridional principal e o robô Da Vinci Xi ficam em Cariacica (Grande Vitória). O 'Meridional Vitória' é outra unidade (antiga Maternidade Santa Úrsula). Não se sabe com certeza em qual unidade foi a cirurgia cardíaca, mas o mais provável é Cariacica."
+ },
+ {
+  "match": "Hospital Geral Unimed Maringá",
+  "cidade": "Maringá (PR)",
+  "areas": ["robotica"],
+  "programa": {"valor": "não encontrado", "certeza": "não encontrado"},
+  "servico": {"valor": "Primeira cirurgia cardíaca robótica do Noroeste do Paraná (revascularização do miocárdio, domingo 02/11, provavelmente 2025). O Da Vinci X foi instalado em agosto de 2024, com 394 cirurgias robóticas de todas as especialidades até a data da notícia. É a primeira unidade do Sistema Unimed no Paraná com cirurgia robótica.", "fonte": "https://www.unimed.coop.br/site/web/maringa/-/hgu-realiza-primeira-cirurgia-card%C3%ADaca-rob%C3%B3tica-de-maring%C3%A1", "certeza": "confirmado (ano inferido)"},
+  "pessoas_chave": [
+   {"nome": "Thiago Faria de Almeida", "cargo": "Cirurgião cardíaco e médico cooperado; conduziu a primeira cirurgia cardíaca robótica do HGU", "por_que_importa": "hospedaria a visita", "fonte": "https://www.unimed.coop.br/site/web/maringa/-/hgu-realiza-primeira-cirurgia-card%C3%ADaca-rob%C3%B3tica-de-maring%C3%A1", "certeza": "provável (nome em trecho de resumo de busca; outra busca não o confirmou)"},
+   {"nome": "Cláudio Cunha", "cargo": "Proctor da cirurgia; Universidade Federal de Uberlândia", "por_que_importa": "proctor de programas iniciantes de robótica cardíaca e ponte acadêmica (UFU)", "fonte": "https://www.unimed.coop.br/site/web/maringa/-/hgu-realiza-primeira-cirurgia-card%C3%ADaca-rob%C3%B3tica-de-maring%C3%A1", "certeza": "provável"}
+  ],
+  "brasileiros": {"valor": "Centro brasileiro; não se aplica.", "certeza": "n/a"},
+  "pontes_unifesp_sp": {"valor": "não encontrado", "certeza": "não encontrado"},
+  "pesquisa_recente": "não encontrado",
+  "dicas": "Programa muito novo e baixo volume cardíaco. O proctor Cláudio Cunha (UFU) pode ser contato mais útil que o próprio HGU para ver robótica cardíaca em vários centros.",
+  "rota_recomendada": "Prioridade baixa. Se houver interesse, contato com o Dr. Thiago Faria de Almeida pela Unimed Maringá. Alternativa melhor: procurar o Dr. Cláudio Cunha (UFU) como proctor itinerante.",
+  "alerta_correcao": "Nenhum erro no radar; o programa cardíaco robótico começou em novembro de 2025."
+ }
+]

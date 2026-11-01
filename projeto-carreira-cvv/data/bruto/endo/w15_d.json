@@ -1,0 +1,154 @@
+[
+ {
+  "match": "Instituto de Cardiologia do RS — IC/FUC",
+  "cidade": "Porto Alegre, RS, Brasil",
+  "areas": ["fetal"],
+  "programa": {
+   "tipo": "estágio optativo/externo para residente de outra instituição (via COREME)",
+   "pagina_oficial": "não encontrado (nenhuma página de estágio externo do IC/FUC nos resultados)",
+   "marco_legal": {"texto": "Res. CNRM 27/2019: 'Tanto a oferta como a participação em estágio optativo são facultativos'; admite estágio no Brasil ou exterior", "url": "https://residenciamedica.ufes.br/sites/residenciamedica.ufes.br/files/field/anexo/resolucao_cnrm_no_27_de_18_de_abril_de_2019_-_estagio_optativo_no_ambito_dos_programas_de_residencia_medica.pdf"},
+   "selecao_residencia_local": {"texto": "Residência médica do IC-RS selecionada via Fundmed (fundmed.org.br); editais 2024-2026 publicados", "url": "https://med.estrategia.com/portal/noticias/instituto-de-cardiologia-do-rio-grande-do-sul-abre-selecao-para-residencia-medica-2026-confira-o-edital/"},
+   "formacao_fetal": {"texto": "Perfil de médica com 'Cardiologia Pediátrica e Fetal pelo Instituto de Cardiologia - Fundação Universitária de Cardiologia' (2007-2008) — indica que o IC já formou especializandos em fetal", "url": "https://www.catalogo.med.br/doutor/patricia-lemos-cardoso-1977345.htm", "certeza": "provável"},
+   "taxa_duracao_documentos": "não encontrado",
+   "contato_oficial": "não encontrado (sugestão: COREME do IC-RS / Fundmed)",
+   "certeza": "baixa — programa não confirmado"
+  },
+  "servico": {
+   "nome": "Unidade de Cardiologia Fetal do Instituto de Cardiologia do RS / Fundação Universitária de Cardiologia",
+   "chefe": {"nome": "Paulo Zielinsky", "texto": "'Chefe da Unidade de Cardiologia Fetal do Instituto de Cardiologia do RS - Fundação Universitária de Cardiologia'; fundou a unidade em 1993, descrita como a primeira Unidade de Cardiologia Fetal da América Latina", "url": "https://brcris.ibict.br/vivo/display/pers_c5d57951-e80a-4aed-8c15-32356d2317c9", "certeza": "confirmado (data do perfil não verificada)"},
+   "diretor_fellowship": "não encontrado",
+   "volume": "não encontrado",
+   "endereco": "Av. Princesa Isabel, 395, Porto Alegre",
+   "fonte_url_radar": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6081570"
+  },
+  "pessoas_chave": [
+   {"nome": "Paulo Zielinsky", "cargo": "Chefe e fundador da Unidade de Cardiologia Fetal", "por_que": "decide/hospeda; líder da linha de pesquisa em constrição ductal fetal e polifenóis", "fonte": "https://www.escavador.com/sobre/1922859/paulo-zielinsky"},
+   {"nome": "Ângela R. L. Nader", "cargo": "autora da Unidade de Cardiologia Fetal (artigo Obstet Gynecol Int 2018)", "por_que": "membro da equipe da unidade", "fonte": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6081570", "certeza": "provável (vínculo atual não confirmado)"}
+  ],
+  "brasileiros": "Centro brasileiro — toda a equipe é brasileira; não se aplica como ponte internacional",
+  "pontes_unifesp_sp": {
+   "texto": "IC-RS listado entre centros participantes da Diretriz Brasileira de Cardiologia Fetal 2019 (Arq Bras Cardiol 2019;112(5):600-648, DOI 10.5935/abc.20190075), com Zielinsky coautor — diretriz nacional que reúne grupos de SP. Coautoria direta Zielinsky x Unifesp (ex. Edward Araujo Júnior, EPM) NÃO confirmada.",
+   "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6555576/",
+   "certeza": "provável (ponte indireta)"
+  },
+  "pesquisa_recente": [
+   {"titulo": "Maternal supplementation with docosahexaenoic acid does not cause constriction of fetal ductus arteriosus: randomized controlled trial", "ano": 2024, "revista": "Ultrasound Obstet Gynecol 63(5):586-591", "pmid": "38214544", "url": "https://www.pubmed.gov/38214544/"},
+   {"titulo": "Improvement in fetal pulmonary hypertension and maturity after reversal of ductal constriction: prospective cohort study", "ano": "2021 (fora da janela 2022-26)", "pmid": "não confirmado", "url": "https://pesquisa.bvsalud.org/saudepublica/resource/pt/mdl-33502049"},
+   {"titulo": "Brazilian Fetal Cardiology Guidelines - 2019", "ano": 2019, "doi": "10.5935/abc.20190075", "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6555576/"}
+  ],
+  "pesquisa_recente_obs": "Só 1 artigo 2022-2026 confirmado nos resultados.",
+  "dicas": [
+   {"texto": "'Dia F – Dia do Coração Fetal': triagem gratuita de gestantes a partir do 5º mês; casos alterados seguem na Unidade — evento de ensino/rastreamento onde observadores costumam ajudar", "url": "https://sul21.com.br/?p=60511", "certeza": "confirmado (2016; edições recentes não verificadas)"},
+   {"texto": "Zielinsky lista 'Workshop de Cardiologia Fetal' (2023) e organização do 27º Salão de Iniciação Científica do IC-FUC (2023) — possíveis portas de entrada", "url": "https://www.escavador.com/sobre/1922859/paulo-zielinsky", "certeza": "confirmado (detalhes do evento não encontrados)"},
+   {"texto": "Alternativa em SP: Dante Pazzanese (IDPC) oferece curso observacional de eco fetal/infantil; pré-requisito ser cardiologista com residência/estágio comprovado", "url": "https://cursos.idpc.org.br/image/catalog/pdf/OBSERVACIONAL/ECO%20FETAL/Curso_observacional_ecocardiograma_infantil_IDPC%20.pdf"}
+  ],
+  "alerta_correcao": "Documento da Câmara de Porto Alegre (2023) lista a FUC em 'RECUPERACAO JUDICIAL' (26/11/2023) — pode afetar oferta de estágios. URL: https://www.camarapoa.rs.gov.br/draco/processos/140460/Anexo_Emenda_601.pdf . Não confundir com ICTDF (Brasília, também mantido pela FUC).",
+  "rota_recomendada": "1) Pedir via COREME da Unifesp um estágio optativo de 4 semanas na Unidade de Cardiologia Fetal (Res. CNRM 27/2019), com carta à COREME do IC-RS e e-mail ao Dr. Paulo Zielinsky citando o ensaio de DHA/constrição ductal (PMID 38214544). 2) Se não houver vaga, usar o Workshop de Cardiologia Fetal ou o Dia F para o primeiro contato. 3) Plano B em SP: curso observacional de eco fetal do Dante Pazzanese."
+ },
+ {
+  "match": "Hospital Samaritano Paulista",
+  "cidade": "São Paulo, SP, Brasil",
+  "areas": ["emergencia_choque"],
+  "programa": {
+   "tipo": "estágio optativo/externo via COREME",
+   "pagina_oficial": "não encontrado",
+   "indicio": {"texto": "diretório lista médico no Samaritano Paulista 'como Residente Não-SUS' — indício fraco de residência própria", "url": "https://www.catalogo.med.br/medicos/em-sao-paulo-sp/hosp-samaritano-e846034.htm", "certeza": "baixa"},
+   "taxa_duracao_documentos": "não encontrado",
+   "contato_oficial": "não encontrado",
+   "certeza": "não confirmado"
+  },
+  "servico": {
+   "nome": "Centro de Dor Torácica (Cardiologia) do Hospital Samaritano Paulista",
+   "volume": {"texto": "cerca de 80 pacientes/mês no Centro de Dor Torácica, 35% com IAM; reconhecimento internacional do Centro de Dor Torácica em novembro (ano provável 2020, 'primeiro da América Latina')", "url": "https://medicinasa.com.br/?p=36285", "certeza": "confirmado (ano provável 2020; organismo acreditador não nomeado nos trechos)"},
+   "estrutura": {"texto": "163 leitos, 27 de UTI; acreditação JCI e certificações em IAM e insuficiência cardíaca (2019)", "url": "https://www.saudebusiness.com/artigos/hospital-samaritano-paulista-inaugurado-em-so-paulo/"},
+   "chefe": "não encontrado (coordenador de cardiologia/UTI cardiológica atual não identificado)",
+   "diretor_fellowship": "não encontrado"
+  },
+  "pessoas_chave": [
+   {"nome": "Pedro Barros (provavelmente Pedro Gabriel Melo de Barros e Silva)", "cargo": "cardiologista à frente do projeto do Centro de Dor Torácica", "por_que": "líder da linha de cuidado de síndrome coronariana aguda; ligado à pesquisa clínica (afiliação 'Hospital Samaritano Paulista – Cardiologia' em artigo SciELO/ABC)", "fonte": "https://www.saudebusiness.com/artigos/primeiro-da-amrica-latina-hospital-samaritano-paulista-recebe-reconhecimento-internacional/ ; https://www.scielo.br/j/abc/a/fGGt8FbqgVVFLPgvww7NtvL/abstract/?lang=en", "certeza": "provável (identidade completa inferida pela afiliação)"},
+   {"nome": "Valter Furlan", "cargo": "Diretor do Samaritano Paulista (na época da acreditação)", "por_que": "diretoria do hospital; cargo atual não verificado", "fonte": "https://medicinasa.com.br/?p=36285"}
+  ],
+  "brasileiros": "Centro brasileiro — não se aplica",
+  "pontes_unifesp_sp": {"texto": "Perfil de palestrante (Afya) com vínculo Samaritano Paulista + preceptor de Emergências Clínicas da USP + UTI InCor — indica corpo clínico com ponte USP/InCor em emergência/choque; nome não aparece no trecho", "url": "https://portal.afya.com.br/videos/terapia-intensiva/caso-clinico-como-realizar-o-diagnostico-diferencial-de-um-choque-cardiogenico-com-pocus-video", "certeza": "provável"},
+  "pesquisa_recente": "não encontrado (nenhum artigo 2022-2026 do serviço em choque/emergência confirmado nos resultados)",
+  "dicas": [
+   {"texto": "Força do serviço é linha de dor torácica/IAM e certificações de IAM/IC — e-mail deve focar emergência cardiológica e protocolo de SCA, não ECMO/choque avançado (sem dado publicado sobre programa de choque)", "certeza": "inferência"}
+  ],
+  "alerta_correcao": "Cuidado: a notícia do JB (2015) sobre 'Hospital Samaritano' e o diretor de cardiologia Dr. João Mansur Filho refere-se ao congresso da Socerj, isto é, provavelmente ao Samaritano do RIO (Botafogo), não ao Samaritano Paulista; e há também o Samaritano Higienópolis (SP), outra instituição. Não misturar. URL: https://www.jb.com.br/ciencia-e-tecnologia/noticias/2015/04/20/amp/com-tecnica-inovadora-hospital-samaritano-se-destaca-em-congresso-de-cardiologia.html . Polo fraco para 'choque': evidência pública é de centro de dor torácica.",
+  "rota_recomendada": "1) Contato com a diretoria médica/ensino do Samaritano Paulista pedindo estágio optativo de 4 semanas no Centro de Dor Torácica/UTI, formalizado pela COREME da Unifesp. 2) Endereçar o Dr. Pedro Barros e Silva (pesquisa clínica em cardiologia) como possível anfitrião. 3) Priorizar outros polos para choque cardiogênico/ECMO, pois aqui não há programa de choque publicado."
+ },
+ {
+  "match": "Hospital Copa D'Or",
+  "cidade": "Rio de Janeiro, RJ, Brasil",
+  "areas": ["ecmo"],
+  "programa": {
+   "tipo": "estágio optativo/externo via COREME; ensino da Rede D'Or concentrado no IDOR",
+   "pagina_oficial": "não encontrado estágio observacional para residentes externos",
+   "relacionados": [
+    {"texto": "IDOR: residência em Medicina Intensiva RJ (4 vagas) com atividades nos hospitais Barra D'Or, Copa D'Or e Quinta D'Or", "url": "https://www.rededorsaoluiz.com.br/instituto/idor/cursos/residencia-medica-em-medicina-intensiva-rj/"},
+    {"texto": "IDOR: residência em Cirurgia Torácica RJ", "url": "https://www.rededorsaoluiz.com.br/instituto/idor/cursos/residencia-medica-em-cirurgia-toracica-rj/"},
+    {"texto": "IDOR: estágio acadêmico (só estudantes) em emergência, intensiva e cardiologia nos hospitais D'Or do RJ", "url": "https://www.rededorsaoluiz.com.br/instituto/idor/cursos/estagio-academico-medicina/"},
+    {"texto": "Evento IDOR 'Fronteiras em Medicina Respiratória' — possível porta de entrada", "url": "https://www.rededorsaoluiz.com.br/instituto/idor/eventos/fronteiras-medicina-respiratoria/"}
+   ],
+   "taxa_duracao_documentos": "não encontrado",
+   "contato_oficial": "não encontrado (sugestão: coordenação de ensino do IDOR)",
+   "certeza": "não confirmado"
+  },
+  "servico": {
+   "nome": "Centro de ECMO da Unidade Pulmonar do Hospital Copa D'Or (Programa de Medicina Respiratória de Alta Complexidade / Transplante Pulmonar da Rede D'Or)",
+   "certificacao": {"texto": "'A partir de 1º de janeiro de 2024, o Centro de ECMO do Hospital Copa D'Or foi oficialmente designado como Silver Level ELSO Award Recipient'", "url": "https://www.rededorsaoluiz.com.br/hospital/copador/servicos/unidade-pulmonar/", "certeza": "confirmado (fonte institucional)"},
+   "chefe": {"nome": "Tiago Noguchi Machuca", "texto": "Diretor Nacional de Cirurgia Torácica, ECMO e Transplante de Pulmão da Rede D'Or; membro da equipe de ECMO do Copa D'Or", "url": "https://www.rededorsaoluiz.com.br/site/medicina-respiratoria-alta-complexidade/equipe-medica", "certeza": "confirmado"},
+   "volume": {"texto": "Centro de Cirurgia Torácica e Transplante Pulmonar do Copa D'Or: 14 transplantes em 18 meses (imprensa, ~2024)", "url": "https://acionista.com.br/dr-tiago-machuca-assume-medicina-toracica-na-rede-dor/", "certeza": "provável (imprensa)"},
+   "foco": "ECMO predominantemente respiratório/ponte para transplante pulmonar (não há dado publicado de ECMO-VA para choque cardiogênico)",
+   "diretor_fellowship": "não encontrado"
+  },
+  "pessoas_chave": [
+   {"nome": "Tiago Noguchi Machuca", "cargo": "Diretor Nacional de Cirurgia Torácica, ECMO e Transplante de Pulmão; Diretor Nacional de Medicina Respiratória de Alta Complexidade (Rede D'Or)", "por_que": "decide sobre o programa de ECMO; carreira prévia nos EUA (Miami Transplant Institute)", "fonte": "https://www.rededorsaoluiz.com.br/site/medicina-respiratoria-alta-complexidade/equipe-medica"},
+   {"nome": "Eduardo Fontena", "cargo": "cirurgião torácico que realizou o primeiro transplante de pulmão do Copa D'Or", "por_que": "equipe cirúrgica local", "fonte": "https://www.rededorsaoluiz.com.br/noticias/artigo/transplante-de-pulmao-realizado-na-rede-dor-devolve-qualidade-de-vida-a-paciente-de-60-anos"},
+   {"nome": "Desirée S. Machado", "cargo": "Gerente Nacional de Qualidade ECMO e de Qualidade e Segurança da Rede D'Or; pesquisadora IDOR; intensivista pediátrica, ex-diretora de ECMO/VAD nos EUA", "por_que": "qualidade/treinamento ECMO da rede; papel específico no Copa D'Or não confirmado", "fonte": "https://www.rededorsaoluiz.com.br/instituto/idor/post_scientists/desiree-s-machado/"},
+   {"nome": "Rosa Vianna", "cargo": "coordenação geral do estágio acadêmico IDOR (RJ)", "por_que": "contato de ensino (programa é para estudantes)", "fonte": "https://www.rededorsaoluiz.com.br/instituto/idor/cursos/estagio-academico-medicina/", "certeza": "provável"}
+  ],
+  "brasileiros": "Centro brasileiro — não se aplica. Machuca é brasileiro com carreira nos EUA (fonte: 'o médico brasileiro Tiago Machuca').",
+  "pontes_unifesp_sp": "não encontrado (coautorias Copa D'Or ECMO x Unifesp/USP/Dante não confirmadas). Rede D'Or tem unidades ECMO-capacitadas em SP (São Luiz Itaim e Jabaquara) — fonte: https://www.rededorsaoluiz.com.br/site/medicina-respiratoria-alta-complexidade/infraestrutura",
+  "pesquisa_recente": "não encontrado (nenhum artigo 2022-2026 de ECMO do Copa D'Or confirmado nos resultados)",
+  "dicas": [
+   {"texto": "Rede D'Or opera superambulância com suporte para ECMO (transporte) — tema de conversa", "url": "https://medicinasa.com.br/?p=146832"},
+   {"texto": "Como a residente é de SP, a mesma rede tem ECMO em São Luiz Itaim/Jabaquara — pedir estágio dentro da rede pode ser mais simples logisticamente", "url": "https://www.rededorsaoluiz.com.br/site/medicina-respiratoria-alta-complexidade/infraestrutura", "certeza": "inferência"}
+  ],
+  "alerta_correcao": "Programa de ECMO do Copa D'Or é ligado à medicina respiratória/transplante pulmonar (cirurgia torácica), não à cirurgia cardiovascular; útil para ECMO-VV, menos para ECMO-VA cardiológico.",
+  "rota_recomendada": "1) Escrever à coordenação de ensino do IDOR e ao Dr. Tiago Machuca pedindo estágio optativo de 4 semanas no Centro de ECMO/UTI Pulmonar, formalizado via COREME da Unifesp. 2) Alternativa: mesmo pedido nas unidades São Luiz Itaim/Jabaquara (SP). 3) Usar evento IDOR 'Fronteiras em Medicina Respiratória' para primeiro contato."
+ },
+ {
+  "match": "Hospital e Maternidade Sepaco",
+  "cidade": "São Paulo, SP, Brasil",
+  "areas": ["ecmo"],
+  "programa": {
+   "tipo": "estágio optativo/externo via COREME",
+   "pagina_oficial": "não encontrado (nenhuma página de ensino/COREME do Sepaco nos resultados)",
+   "taxa_duracao_documentos": "não encontrado",
+   "contato_oficial": "não encontrado",
+   "certeza": "não confirmado"
+  },
+  "servico": {
+   "nome": "Programa de ECMO do Hospital e Maternidade Sepaco (forte em neonatal/pediátrico, cardiopatias congênitas e pós-operatório de cirurgia cardíaca)",
+   "certificacao": {"texto": "Centro de Excelência em ECMO – nível Gold (ELSO); 'apenas dois hospitais brasileiros' no nível Gold; terapia desde 2013; Silver em 2024", "url": "https://medicinasa.com.br/?p=168296", "certeza": "confirmado (data do Gold não informada; provável 2025-2026)"},
+   "volume": {"texto": "2023: mais de 100 internações pediátricas com ECMO; depois 115 procedimentos de ECMO", "url": "https://medicinasa.com.br/sepaco-elso", "certeza": "confirmado (imprensa)"},
+   "transporte": {"texto": "equipe vai ao hospital de origem, implanta ECMO no local e transporta ao Sepaco", "url": "https://www.saudebusiness.com/artigos/hospital-sepaco-passa-oferecer-transporte-ecmo/"},
+   "chefe_medico": "não encontrado",
+   "diretor_fellowship": "não encontrado"
+  },
+  "pessoas_chave": [
+   {"nome": "Luiz Ramos", "cargo": "especialista em ECMO e enfermeiro líder do programa", "por_que": "coordena a operação do programa; porta de contato prática", "fonte": "https://medicinasa.com.br/?p=168296"},
+   {"nome": "Luci Meire Pivelli Usberco", "cargo": "CEO do Hospital e Maternidade Sepaco", "por_que": "autoriza convênios/estágios institucionais", "fonte": "https://medicinasa.com.br/?p=168296"}
+  ],
+  "brasileiros": "Centro brasileiro — não se aplica",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": "não encontrado (nenhum artigo 2022-2026 com afiliação Sepaco confirmado)",
+  "dicas": [
+   {"texto": "Mesma cidade da residente (SP): estágio optativo curto sem custo de viagem; foco pediátrico/congênito e pós-cardiotomia — bom para cirurgia cardiovascular", "certeza": "inferência"},
+   {"texto": "Programa de transporte ECMO é diferencial raro no Brasil — citar no e-mail", "url": "https://www.saudebusiness.com/artigos/hospital-sepaco-passa-oferecer-transporte-ecmo/"}
+  ],
+  "alerta_correcao": "Sem nome de diretor médico do ECMO publicado; foco do programa é neonatal/pediátrico — confirmar se aceitam residente de cardiologia adulta.",
+  "rota_recomendada": "1) Contato institucional com o Sepaco (diretoria/ensino) pedindo estágio optativo de 2-4 semanas no programa de ECMO, formalizado pela COREME da Unifesp. 2) Mencionar o Gold ELSO, os >100 casos pediátricos e o transporte ECMO; pedir indicação do coordenador médico (via enfermeiro líder Luiz Ramos). 3) Se for de cirurgia CV, enfatizar interesse em ECMO pós-cardiotomia e congênitas."
+ }
+]
