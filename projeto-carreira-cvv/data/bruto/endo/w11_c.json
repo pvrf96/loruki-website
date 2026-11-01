@@ -1,0 +1,114 @@
+[
+ {
+  "match": "Centro Cardiovascolare Lancisi (Univpm)",
+  "centro": "SOD Cardiochirurgia, Ospedale G.M. Lancisi – AOU delle Marche (Ospedali Riuniti, Ancona) / Univpm; Centro di ricerca Minimally Invasive and Trans-catheter Cardiac Surgery",
+  "areas": ["robotica"],
+  "alerta_correcao": "Não encontrei programa de cirurgia cardíaca ROBÓTICA (da Vinci) em Ancona: o foco publicado é cirurgia minimamente invasiva por minitoracotomia/transaxilar e endoscópica, além de transcateter. Busca por 'robot da Vinci cardiochirurgia Ancona' só achou da Vinci em mastologia (Torrette, 2018). Reclassificar área para 'mini-invasiva/endoscópica mitral' em vez de 'robotica' (certeza: provável).",
+  "programa": {
+   "status": "não encontrado",
+   "detalhe": "Sem página oficial de observership/visiting physician. Porta de entrada pública = cursos: 'Ancona Advanced Courses' (ex.: 'Minimally Invasive Cardiac Surgery: Aortic and Mitral Valves') e 'Ancona Live Course' (minimamente invasiva e transcateter, mitral/tricúspide; edição jun/2024). A edição virtual de 2021 teve 5.332 dispositivos conectados de 81 países.",
+   "fontes": ["https://minicardiacsurgery-univpm-research.com/", "https://minicardiacsurgery-univpm-research.com/?p=2219", "https://www.minicardiacsurgery-univpm-research.com/wp-content/uploads/2024/06/Programma_Minimally_invasive-1.pdf", "https://www.minicardiacsurgery-univpm-research.com/wp-content/uploads/2021/06/newRBO_AnconaLiveVirtualCourse11giu.pdf"],
+   "contato_radar": "https://www.minicardiacsurgery-univpm-research.com/?p=90 (página de contato do site do centro, vinda do radar; conteúdo não verificado)",
+   "certeza": "cursos confirmados; observership não encontrado"
+  },
+  "servico": {
+   "nome": "Cardiochirurgia G.M. Lancisi (Ancona) + Centro de pesquisa em cirurgia cardíaca minimamente invasiva e transcateter (Univpm)",
+   "chefe": {"nome": "Prof. Marco Di Eusanio", "cargo": "Professor of Cardiac Surgery; Director of the Cardiac Surgery Department, Lancisi Cardiovascular Center (AOU Ancona); Director do Marfan Center e do centro de pesquisa em cirurgia mini-invasiva e transcateter", "fonte": "https://ctsnet.org/home/mdieusanio ; https://www.minicardiacsurgery-univpm-research.com/marco-di-eusanio/", "trecho": "Professor of Cardiac Surgery and Director of the Cardiac Surgery Department at the Lancisi Cardiovascular Center ... Director of the Marfan Center", "certeza": "confirmado"},
+   "fellowship_relevante": "não encontrado",
+   "volume": {"valor": ">8.000 cirurgias cardíacas adultas 1999–2005 (dado antigo); volume atual não encontrado", "fonte": "https://www.qsalute.it/cardiochirurgia-gm-lancisi/", "certeza": "confirmado (dado histórico)"}
+  },
+  "pessoas_chave": [
+   {"nome": "Marco Di Eusanio", "cargo": "Diretor da Cardiochirurgia / Prof. Univpm", "por_que": "decide; organiza os Ancona Live/Advanced Courses; mitral mini-invasiva transaxilar", "fonte": "https://ctsnet.org/home/mdieusanio", "certeza": "confirmado"},
+   {"nome": "Paolo Berretta", "cargo": "Cirurgião, Ancona; lidera o Mini Mitral International Registry", "por_que": "pesquisa (registro internacional ~7.957 pacientes mini-mitral) – bom gancho de e-mail", "fonte": "https://minicardiacsurgery-univpm-research.com/", "certeza": "confirmado (vínculo Ancona); provável (liderança do registro, via resultado de busca J Vis Surg 2025)"},
+   {"nome": "Pietro Giorgio Malvindi", "cargo": "Cirurgião, Ancona", "por_que": "primeiro autor de estudos mini-mitral (cardioplegia del Nido, transaxilar)", "fonte": "https://minicardiacsurgery-univpm-research.com/", "certeza": "confirmado"},
+   {"nome": "Carlo Zingaro", "cargo": "Cirurgião, Ancona", "por_que": "equipe mini-invasiva; coautor", "fonte": "https://minicardiacsurgery-univpm-research.com/", "certeza": "confirmado"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado (busca por Brasil/São Paulo + Di Eusanio/Lancisi sem resultado)",
+  "pesquisa_recente": [
+   {"titulo": "Del Nido vs HTK cardioplegia em cirurgia mitral minimamente invasiva (propensity-matched) – Malvindi, Bifulco, Berretta, ... Zingaro, Di Eusanio", "ano": 2023, "revista": "Perfusion", "id": "não encontrado (PMID/DOI não apareceram nos resultados)"},
+   {"titulo": "Estudo do Mini Mitral International Registry (Berretta et al.), ~7.957 pacientes", "ano": 2025, "revista": "Journal of Visualized Surgery", "id": "não encontrado"},
+   {"titulo": "Recuperação após cirurgia mitral por via transaxilar (Malvindi et al.)", "ano": 2023, "revista": "não encontrado", "id": "não encontrado"}
+  ],
+  "dicas": "Cursos Ancona Live/Advanced (abertos a internacionais, inclusive virtuais) são a porta de entrada natural para conhecer a equipe. O site lista também 'visiting surgeons' internacionais no corpo docente. Emiliano Navarra (listado no site) é proctor de cirurgia mitral robótica desde 2016, mas atua fora de Ancona.",
+  "rota_recomendada": "Se o objetivo for ROBÓTICA, Ancona não é o lugar (programa é mini-invasivo não robótico). Se aceitar mitral mini-invasiva: inscrever-se no próximo Ancona Live/Advanced Course e, a partir dele, escrever ao Prof. Di Eusanio citando o registro Mini Mitral e o trabalho de del Nido, pedindo 2–4 semanas de observação; o vínculo formal deve passar pela AOU delle Marche/Univpm (processo não publicado)."
+ },
+ {
+  "match": "Ospedale di Legnano — Cardiochirurgia",
+  "centro": "SC Cardiochirurgia, Ospedale di Legnano – ASST Ovest Milanese (Lombardia)",
+  "areas": ["robotica"],
+  "alerta_correcao": "A cardiocirurgia de Legnano NÃO tem programa robótico publicado: a notícia do radar trata de cirurgia mini-invasiva por minitoracotomia (aórtica/mitral) e coleta endoscópica de safena. O robô citado em Legnano/Magenta (53 procedimentos até nov/2025) é de cirurgia geral e urologia. Área 'robotica' parece erro de classificação (certeza: confirmado pelas fontes encontradas).",
+  "programa": {"status": "não encontrado", "detalhe": "Sem programa de observership internacional publicado (hospital público regional, não universitário de ponta). Caminho seria contato direto com a SC/direção da ASST.", "certeza": "não encontrado"},
+  "servico": {
+   "nome": "Struttura Complessa di Cardiochirurgia – Dipartimento Cardio Vascolare, ASST Ovest Milanese",
+   "chefe": {"nome": "Dr. Germano Di Credico", "cargo": "Direttore della SC di Cardiochirurgia e Direttore del Dipartimento Cardio Vascolare dell'ASST Ovest Milanese", "fonte": "https://www.legnanonews.com/aree-geografiche/legnano/2025/12/30/asst-ovest-milanese-nuovi-traguardi-nella-cardiochirurgia-mini-invasiva-a-legnano/1394911/?output=pdf", "trecho": "Di Credico, Direttore della Struttura Complessa di Cardiochirurgia e Direttore del Dipartimento Cardio Vascolare dell'ASST Ovest Milanese", "certeza": "confirmado"},
+   "fellowship_relevante": "não aplicável/não encontrado",
+   "volume": {"valor": ">600 intervenções em 2024; 2025: 24 trocas aórticas + 6 aórtica+mitral por minitoracotomia (outra fonte diz '>20'); CABG isolada 210 em 2025, 1.257 CABG em 6 anos; 1º centro da Lombardia em CABG isolada em 2024 (Agenas)", "fontes": ["https://www.legnanonews.com/aree-geografiche/legnano/2024/12/30/alla-cardiochirurgia-di-legnano-oltre-600-interventi-nel-2024/1274136/?output=pdf", "https://www.legnanonews.com/aree-geografiche/legnano/2025/12/30/asst-ovest-milanese-nuovi-traguardi-nella-cardiochirurgia-mini-invasiva-a-legnano/1394911/?output=pdf", "https://www.ilgiorno.it/salute/bypass-aortocoronarico-ospedale-legnano-eav290pn"], "certeza": "confirmado (números divergem entre veículos)"}
+  },
+  "pessoas_chave": [
+   {"nome": "Germano Di Credico", "cargo": "Diretor SC Cardiochirurgia e do Dipartimento Cardio Vascolare", "por_que": "decide", "fonte": "https://www.legnanonews.com/aree-geografiche/legnano/2025/12/30/asst-ovest-milanese-nuovi-traguardi-nella-cardiochirurgia-mini-invasiva-a-legnano/1394911/?output=pdf", "certeza": "confirmado"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": "não encontrado (só notícias de imprensa local: aórtica por minitoracotomia direita sem esternotomia – set/2025; safena endoscópica – fev/2026)",
+  "dicas": "Centro de alto volume em CABG isolada e em crescimento em mini-invasiva valvar; útil para CABG/mini-aórtica, não para robótica.",
+  "rota_recomendada": "Baixa prioridade para robótica — sugerir remover do radar robótico. Se interessar CABG/minitoracotomia: e-mail ao Dr. Di Credico citando os números Agenas 2024, pedindo observação curta; trâmite administrativo via ASST Ovest Milanese (não publicado)."
+ },
+ {
+  "match": "CHU de Bordeaux (Haut-Lévêque)",
+  "centro": "Service de Chirurgie Cardiaque adulte – Hôpital Haut-Lévêque (Pessac), Pôle Cardio-Thoracique, CHU de Bordeaux",
+  "areas": ["robotica"],
+  "programa": {
+   "status": "não encontrado",
+   "detalhe": "Nenhuma página de stage d'observation/visiting physician para médicos estrangeiros encontrada. Existem Diplômes universitaires (Univ. Bordeaux) que aceitam médicos estrangeiros com especialidade (ex.: DIU cardiologia pediátrica/congênita e DU cirurgia das cardiopatias congênitas, com estágio obrigatório de 35 h e carta de motivação + CV) — não são de robótica.",
+   "fontes": ["https://sante.u-bordeaux.fr/download_file/view/8057e604-544d-4f85-95d6-5ded92680179/462"],
+   "certeza": "observership não encontrado; DU confirmados (fora da área)"
+  },
+  "servico": {
+   "nome": "Chirurgie cardiaque adulte (Haut-Lévêque), programa robótico da Vinci desde jan/2021 (mitral, MIDCAB/TECAB, tricúspide, CIA/FOP)",
+   "chefe": {"nome": "Pr Louis Labrousse", "cargo": "Chirurgien cardiaque, chef de service de cardiologie interventionnelle/chirurgie cardiaque structurelle (Philips, dez/2021)", "fonte": "https://www.philips.fr/healthcare/articles/perspective-medicale/chu-bordeaux-cardiologie-interventionnelle-retours-dexperience", "certeza": "provável (dado de 2021; cargo atual não confirmado)"},
+   "fellowship_relevante": "não encontrado",
+   "volume": {"valor": "Jan–set/2021: 44 casos com da Vinci (29 plastias mitrais, 10 CABG). 2023: 3.381 intervenções no bloco de cirurgia cardíaca, 25 intervenções robóticas, 28 transplantes cardíacos", "fontes": ["https://pmc.ncbi.nlm.nih.gov/articles/PMC8674761", "https://candidat.francetravail.fr/offres/recherche/detail/1551658"], "trecho": "3381 interventions au bloc de chirurgie cardiaque, 25 interventions robot, 28 greffes cardiaques", "certeza": "confirmado"}
+  },
+  "pessoas_chave": [
+   {"nome": "Louis Labrousse", "cargo": "Cirurgião cardíaco; chefe de serviço (2021)", "por_que": "coautor sênior do programa robótico mitral; criou protocolo robótica + eletrofisiologia", "fonte": "https://www.ctsnet.org/home/llabrousse ; https://www.hospitaldaluz.pt/en/media/news/cirurgia-cardiaca-eis-os-robos", "certeza": "confirmado (papel); provável (cargo atual)"},
+   {"nome": "Thomas Modine", "cargo": "Professor, cirurgião cardíaco, CHU de Bordeaux", "por_que": "liderou a 1ª intervenção cardíaca robótica à distância do mundo (MitraClip, Bordeaux–Xiamen, 2025); figura internacional com muita rede", "fonte": "https://www.pourquoidocteur.fr/Articles/Question-d-actu/53263-Des-medecins-francais-opere-patient-chinois-10000-km-distance", "certeza": "confirmado (data diverge: 23/10 ou 23/11/2025)"},
+   {"nome": "Olivier Busuttil", "cargo": "Cirurgião cardíaco, CHU de Bordeaux", "por_que": "coautor do artigo de início do programa robótico mitral (provável console surgeon)", "fonte": "https://busca.umc.cl/Record/oai:doaj.org-article:0c7edddfd46d4852b3e622ff04b6920d/Description", "certeza": "confirmado (coautoria); provável (papel)"},
+   {"nome": "Mathieu Pernot", "cargo": "Cirurgião cardíaco, CHU de Bordeaux", "por_que": "coautor do programa robótico", "fonte": "https://busca.umc.cl/Record/oai:doaj.org-article:0c7edddfd46d4852b3e622ff04b6920d/Description", "certeza": "confirmado (coautoria; prenome não exibido no trecho — provável)"},
+   {"nome": "Antonio Piperata", "cargo": "Primeiro autor (estrangeiro, italiano) dos artigos robóticos de Bordeaux", "por_que": "exemplo de fellow internacional que entrou no programa robótico – mostra que o serviço recebe estrangeiros", "fonte": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8674761", "certeza": "confirmado (autoria); provável (status de fellow)"},
+   {"nome": "Lionel Leroux", "cargo": "Cardiologista intervencionista", "por_que": "parceiro de Modine na telecirurgia robótica estrutural", "fonte": "https://www.pourquoidocteur.fr/Articles/Question-d-actu/53263-Des-medecins-francais-opere-patient-chinois-10000-km-distance", "certeza": "confirmado"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado (busca Modine/Bordeaux + Unifesp/InCor/Dante sem resultado)",
+  "pesquisa_recente": [
+   {"titulo": "Starting A New Robotic Surgery Program for Mitral Valve Repair. Lessons Learned from The First Nine Months (Piperata, Busuttil, Pernot, Labrousse et al.)", "ano": "2021 (publicado J Clin Med; ano exato não exibido)", "id": "PMC8674761 (PMID não exibido)", "fonte": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8674761"},
+   {"titulo": "Registro europeu de cirurgia cardíaca robótica 2016–2019 (Cerny, Oosterlinck et al.) – Bordeaux entre os centros", "ano": 2022, "id": "DOI 10.3389/fcvm.2021.827515", "fonte": "https://www.frontiersin.org/articles/10.3389/fcvm.2021.827515"},
+   {"titulo": "Robotic surgery at Bordeaux University Hospital (MDPI, J Pers Med 12(11):1895) – 32 pacientes mitrais", "ano": 2022, "id": "não exibido (URL mdpi.com/2075-4426/12/11/1895)", "fonte": "https://www.mdpi.com/2075-4426/12/11/1895"}
+  ],
+  "dicas": "Único (com Limoges) centro francês citado como fazendo cirurgia cardíaca robótica; volume robótico modesto (25 em 2023). Recebe estrangeiros (Piperata). Francês é útil. A telecirurgia robótica de Modine (2025) é ótimo gancho de e-mail. O Philips/Hospital da Luz mostram que Labrousse fala em eventos ibéricos.",
+  "rota_recomendada": "1) E-mail ao Pr Labrousse (cc Pr Modine) em francês/inglês citando o artigo de início do programa robótico mitral e a telecirurgia 2025, pedindo 4 semanas de observação na chirurgie cardiaque Haut-Lévêque; 2) pedir que indiquem o trâmite da Direction des Affaires Médicales/convenção de estágio do CHU; 3) alternativa: inscrever-se num DU da Univ. Bordeaux para ter vínculo formal."
+ },
+ {
+  "match": "CHU de Limoges",
+  "centro": "Service de Chirurgie Thoracique et Cardio-Vasculaire – CHU Dupuytren, Limoges",
+  "areas": ["robotica"],
+  "alerta_correcao": "As notícias de cirurgia cardíaca robótica em Limoges (duplo CABG robô-assistido a coração batendo por minitoracotomia, equipe Dr Le Guyader/Dr Piccardo) datam de ~2013; nenhuma atividade robótica cardíaca 2021–2026 encontrada. A URL do radar (caducee.net) é antiga. Programa robótico cardíaco pode estar inativo (certeza: provável). Houve suspensão de transplante cardíaco em 2016 (não relacionado).",
+  "programa": {"status": "não encontrado", "certeza": "não encontrado"},
+  "servico": {
+   "nome": "Chirurgie thoracique et cardio-vasculaire, CHU Dupuytren",
+   "chefe": {"nome": "não confirmado", "detalhe": "hopital.fr (modif. fev/2021) lista Dr Jean-Pierre Favereau como chef de service; documento do internat limousin 2025 associa Jérôme Jouan ao serviço sem rotular como chefe", "fontes": ["https://www.hopital.fr/ezpublish/index.php/annuaire-service/soins-hautement-specialises-thorax-abdomen-chu-dupuytren-1-limoges,49116", "https://www.unilim.fr/internat_limousin/wp-content/uploads/sites/4/2025/09/Chir-GO.pdf"], "certeza": "provável/desatualizado"},
+   "fellowship_relevante": "não encontrado",
+   "volume": {"valor": "7 CABG robô-assistidas no ano da notícia (~2013); 2º centro da França em cirurgia cardíaca robótica. Volume atual não encontrado", "fonte": "https://www.caducee.net/actualite-medicale/11103/chirurgie-cardiaque-le-chu-de-limoges-realise-un-double-pontage-a-l-aide-d-un-robot.html", "certeza": "confirmado (histórico)"}
+  },
+  "pessoas_chave": [
+   {"nome": "Alexandre Le Guyader", "cargo": "Cirurgião cardiotorácico, CHU Dupuytren Limoges", "por_que": "liderou o programa de CABG robótico", "fonte": "https://ctsnet.freelock.com/article/author/aleguyader ; https://www.caducee.net/actualite-medicale/11103/chirurgie-cardiaque-le-chu-de-limoges-realise-un-double-pontage-a-l-aide-d-un-robot.html", "certeza": "confirmado (histórico); vínculo atual provável"},
+   {"nome": "Dr Piccardo", "cargo": "Cirurgião cardíaco (prenome não exibido)", "por_que": "coexecutor do CABG robótico", "fonte": "https://www.caducee.net/actualite-medicale/11103/chirurgie-cardiaque-le-chu-de-limoges-realise-un-double-pontage-a-l-aide-d-un-robot.html", "certeza": "confirmado (histórico)"},
+   {"nome": "Jérôme Jouan", "cargo": "Associado ao serviço de cirurgia torácica e cardiovascular (2025)", "por_que": "possível liderança atual", "fonte": "https://www.unilim.fr/internat_limousin/wp-content/uploads/sites/4/2025/09/Chir-GO.pdf", "certeza": "provável"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": "não encontrado (nenhum artigo robótico 2022–2026 do serviço nos resultados)",
+  "dicas": "Programa robótico cardíaco aparentemente pioneiro mas sem atividade recente publicada; confirmar antes de investir.",
+  "rota_recomendada": "Baixa prioridade. Se insistir: e-mail ao Dr Le Guyader perguntando se o programa de CABG robótico segue ativo antes de pedir observação; para robótica na França, Bordeaux é melhor opção."
+ }
+]

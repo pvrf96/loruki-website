@@ -1,0 +1,136 @@
+[
+ {
+  "match": "Herzzentrum Duisburg",
+  "cidade": "Duisburg (Fahrn, desde 2024 no Evangelisches Krankenhaus Duisburg-Nord)", "pais": "Alemanha", "areas": ["robotica"],
+  "programa": {
+   "observership_oficial": "não encontrado (nenhuma página de Hospitation/Gastarzt para médicos externos ou estrangeiros)",
+   "elegibilidade_estrangeiro": "não encontrado", "taxa": "não encontrado", "documentos": "não encontrado",
+   "contexto": "Herzzentrum Duisburg pertence ao Evangelisches Klinikum Niederrhein gGmbH, hospital de ensino acadêmico da Heinrich-Heine-Universität Düsseldorf ('akademisches Lehrkrankenhaus der Heinrich-Heine-Universität Düsseldorf'); status G-BA 'Herzzentrum mit besonderen Aufgaben'.",
+   "contato_oficial": "página da clínica: https://www.evkln.de/hzd/klinik-fuer-herzchirurgie-und-kinderherzchirurgie.html ; telefone listado em resultado de busca +49 203 3969 3523 (secretaria; não reconfirmado na página oficial)",
+   "fonte": "https://www.medi-karriere.de/job/stellenanzeige-assistenzarzt-ärztin-duisburg-herzchirurgie_ss_thoraxchirurgiesschirurgie-dc6710ff57c0d63d9576f32a237727d9/ ; https://www.kliniken.de/krankenhaus/herzzentrum-duisburg-4193K.html",
+   "certeza": "confirmado: inexistência de programa público encontrado; contato = provável"
+  },
+  "servico": {
+   "nome": "Klinik für Herzchirurgie und Kinderherzchirurgie – Herzzentrum Duisburg (EVKLN)",
+   "chefe": "Prof. Dr. med. Jochen Börgermann, Chefarzt (desde 2018) — PM ago/2025: 'Prof. Dr. med. Jochen Börgermann, Chefarzt der Klinik für Herzchirurgie und Kinderherzchirurgie' — https://www.kgnw.de/download/20250811-heart-failure-unit-evk-niederrhein-pdf",
+   "robotica": "da Vinci em cirurgia cardíaca (mitral e bypass coronário) — 'Herzzentrum Duisburg setzt als 2. Klinik bundesweit und als 1. Klinik in NRW innovativen Da Vinci-Roboter ein' (https://www.openpr.de/news/1245040/Herzzentrum-Duisburg-setzt-als-2-Klinik-bundesweit-und-als-1-Klinik-in-NRW-innovativen-Da-Vinci-Roboter-ein.html ; https://biermann-medizin.de/roboter-assistierte-herzchirurgie-herzzentrum-duisburg-setzt-auf-davinci-robter/). dpa/Volksstimme (atualizado 12/11/2025), citando a DGTHG: 'solche roboterassistierten Herzoperationen werden deutschlandweit ansonsten nur noch im Herzzentrum Duisburg durchgeführt' (https://www.volksstimme.de/panorama/hightech-im-op-charite-nutzt-roboter-fur-herzoperationen-4147319). Rundschau Duisburg mai/2026 reafirma uso do da Vinci, 'als eines von zwei Kliniken in Deutschland' (https://www.rundschauduisburg.de/2026/05/01/herzzentrum-duisburg-neue-technik-gegen-herzrhythmusstoerungen).",
+   "fellowship": "não encontrado",
+   "volume": "Börgermann: >120 procedimentos cardíacos complexos com da Vinci (página da clínica evkln.de, data não exibida); >70.000 cirurgias cardíacas em 32 anos e >2.000 válvulas transcateter (PM 2021, https://kgnw.de/download/210813-32-jahre-herzzentrum-evk-niederrhein-pm); >70% dos bypass off-pump (PM 2022)",
+   "certeza": "confirmado (robótica ativa 2025–2026; volume robótico = dado da página institucional, sem ano)"
+  },
+  "pessoas_chave": [
+   {"nome": "Prof. Dr. med. Jochen Börgermann", "cargo": "Chefarzt, Herzchirurgie und Kinderherzchirurgie", "por_que": "decide; é o cirurgião robótico principal (>120 casos da Vinci); foco OPCAB/MIDCAB, valvas minimamente invasivas, assistência circulatória", "fonte": "https://www.evkln.de/hzd/klinik-fuer-herzchirurgie-und-kinderherzchirurgie.html ; https://www.kgnw.de/download/20250811-heart-failure-unit-evk-niederrhein-pdf"},
+   {"nome": "Edis Ljajikj", "cargo": "Oberarzt, Herzchirurgie (listado na página da clínica)", "por_que": "membro da equipe; papel no programa robótico não confirmado", "fonte": "https://www.evkln.de/hzd/klinik-fuer-herzchirurgie-und-kinderherzchirurgie.html", "certeza": "provável"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": "não encontrado artigo 2022–2026 do serviço sobre robótica com PMID/DOI nos resultados (buscas por 'Börgermann robotic' só trouxeram revisões gerais)",
+  "dicas": [
+   "É um dos apenas 2 centros com cirurgia cardíaca robótica na Alemanha (o outro é o DHZC/Charité) — argumento forte para o e-mail.",
+   "Equipe enfatiza cirurgia sem CEC (OPCAB >70%) e MIDCAB — tema de interesse para citar junto com robótica.",
+   "Sem programa estruturado: pedido deve ir direto ao Chefarzt/secretaria, provavelmente em alemão ou inglês, com carta da Unifesp e seguro.",
+   "A suposta 'Summer School' do Herzzentrum (PDF kgnw 2022) não foi confirmada como curso aberto; a DGTHG (Junges Forum) organiza uma 'Summer School International' para jovens cirurgiões DACH (https://www.dgthg.de/sites/default/files/2023_JFDGTHG_Summer_School_International.pdf)."
+  ],
+  "rota_recomendada": "1) E-mail ao secretariado do Prof. Börgermann (via página evkln.de) pedindo Hospitation de 4 semanas focada em da Vinci mitral/coronária, citando o status de 'um de dois centros robóticos na Alemanha'; 2) anexar carta da Unifesp, CV e seguro; 3) se não houver resposta, tentar via DHZC/Charité (outro centro robótico) como alternativa.",
+  "alerta_correcao": "A URL do radar é uma matéria sobre a Charité (DHZC) que apenas menciona Duisburg; os dados de Duisburg foram confirmados por fontes próprias (openPR/Biermann/evkln/Rundschau 2026). Endereço Gerrickstraße (Meiderich) em diretórios está desatualizado: mudou para Fahrn em 2024."
+ },
+ {
+  "match": "Klinikum Passau — Herzchirurgie",
+  "cidade": "Passau", "pais": "Alemanha", "areas": ["robotica"],
+  "programa": {
+   "observership_oficial": "não encontrado programa de Gastarzt/observership. Hospitation aparece apenas como oferta de recrutamento em vagas ('Gerne geben wir Ihnen Gelegenheit, Ihren künftigen Aufgabenbereich im Rahmen einer Hospitation kennenzulernen').",
+   "porta_de_entrada": "Fortbildung 'Minimalinvasive Herzchirurgie – Was gibt es Neues?' em 24/06/2026, 18:00–19:45, Klinikum Passau, Innstraße 76, Großer Hörsaal (evento local já passado em nov/2026).",
+   "contato_oficial": "herzchirurgie@klinikum-passau.de ; tel. 0851 5300 2897 (publicados como contato de inscrição do evento)",
+   "fonte": "https://www.klinikum-passau.de/fileadmin/user_upload/veranstaltungen/aerztl_dienst/2026/Einladung_FoBi-Minimalinvasive-Herzchirurgie-2026-06-24_WEB.pdf ; https://bewerbung.klinikum-passau.de/dateiablage/stellen/2550/saapalliativ202505web.pdf",
+   "elegibilidade_estrangeiro": "não encontrado", "taxa": "não encontrado", "documentos": "não encontrado",
+   "certeza": "contato confirmado; programa não encontrado"
+  },
+  "servico": {
+   "nome": "Klinik für Herzchirurgie, Klinikum Passau",
+   "chefe": "Prof. Dr. med. Parwis Massoudy, Chefarzt — confirmado no convite da FoBi 2026 e no DKG-Verzeichnis",
+   "lider_minimamente_invasiva": "Dr. med. Robert Balan, MHBA, Ltd. Oberarzt minimalinvasive Herzchirurgie (convite FoBi 2026)",
+   "robotica": "não encontrado — nenhuma fonte indica cirurgia robótica; o foco é minimamente invasivo/endoscópico",
+   "fellowship": "não encontrado",
+   "volume": "500–600 cirurgias/ano com CEC; cirurgia valvar minimamente invasiva como foco (anúncio de vaga 2023: https://bewerbung.klinikum-passau.de/dateiablage/stellen/2325/saaaherzchirurgieweiterbildung202308web.pdf)",
+   "certeza": "confirmado (chefe/equipe 2026); volume = provável (dado de 2023)"
+  },
+  "pessoas_chave": [
+   {"nome": "Prof. Dr. med. Parwis Massoudy", "cargo": "Chefarzt Klinik für Herzchirurgie", "por_que": "decide; guest editor da special issue de cirurgia cardíaca minimamente invasiva no J Clin Med (MDPI, prazo 30/11/2025)", "fonte": "https://www.mdpi.com/journal/jcm/special_issues/J43849ZVPR"},
+   {"nome": "Dr. med. Robert Balan, MHBA", "cargo": "Leitender Oberarzt minimalinvasive Herzchirurgie", "por_que": "provável host para observação de mitral minimamente invasiva", "fonte": "https://www.klinikum-passau.de/fileadmin/user_upload/veranstaltungen/aerztl_dienst/2026/Einladung_FoBi-Minimalinvasive-Herzchirurgie-2026-06-24_WEB.pdf"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": "não encontrado artigo com PMID/DOI; gancho para e-mail: special issue 'minimally invasive cardiac surgery' editada por Massoudy no J Clin Med (MDPI) — https://www.mdpi.com/journal/jcm/special_issues/J43849ZVPR",
+  "dicas": [
+   "Centro menor (500–600 CEC/ano), o que pode facilitar aceitação informal via Chefarzt.",
+   "Citar a special issue do JCM editada por Massoudy é o melhor assunto personalizado.",
+   "Diretório arzt-auskunft lista 'Dr. Markus Czesla, Chefarzt' — provavelmente desatualizado."
+  ],
+  "rota_recomendada": "1) E-mail para herzchirurgie@klinikum-passau.de dirigido ao Prof. Massoudy pedindo Hospitation de 4 semanas em cirurgia mitral/tricúspide minimamente invasiva com o Dr. Balan, citando a special issue do JCM; 2) só vale se a residente aceitar cirurgia endoscópica no lugar de robótica.",
+  "alerta_correcao": "Área 'robotica' não confirmada: o serviço faz cirurgia minimamente invasiva/endoscópica, sem evidência de robô. Reclassificar como 'minimamente invasiva'."
+ },
+ {
+  "match": "MEDICLIN Herzzentrum Lahr",
+  "cidade": "Lahr/Schwarzwald", "pais": "Alemanha", "areas": ["robotica"],
+  "programa": {
+   "observership_oficial": "não encontrado para médicos; há Famulatur (estágio para estudantes) em Herzchirurgie, Kardiologie e Anästhesie/Intensiv",
+   "contato_oficial": "herzchirurgie.HZL@mediclin.de ; tel. +49 7821 925-1001 (secretaria de cirurgia cardíaca, publicado em material da clínica); endereço Hohbergweg 2, 77933 Lahr",
+   "fonte": "https://www.herzzentrum-lahr.de/fileadmin/02_Dokumente_Share_verzeichnis/02_Klinikdokumente/Herzzentrum_Lahr/HZL_Infos_Herzchirurgie.pdf ; https://english.herzzentrum-lahr.de",
+   "elegibilidade_estrangeiro": "não encontrado (site tem versão em inglês para pacientes)", "taxa": "não encontrado", "documentos": "não encontrado",
+   "certeza": "contato confirmado; Famulatur provável (trecho de busca); observership não encontrado"
+  },
+  "servico": {
+   "nome": "Klinik für Herz-, Thorax- und Gefäßchirurgie, MEDICLIN Herzzentrum Lahr",
+   "chefe": "Prof. Dr. med. Ralf Sodian (Chefarzt) — https://herzzentrum-lahr.de/unsere-experten/experte/prof-dr-med-ralf-sodian",
+   "cardiologia": "Kambis Mashayekhi, Chefarzt Kardiologie desde 2022 (sucedeu Prof. von Hodenberg) — Herzecho 2022",
+   "robotica": "não encontrado — material da clínica fala de reparo mitral minimamente invasivo ('Durch den schonenden, minimalinvasiven Eingriff können wir diese Herzklappen meist sehr gut reparieren', Herzecho 01/2022), sem robô",
+   "fellowship": "não encontrado", "volume": "não encontrado",
+   "certeza": "confirmado (chefias); robótica ausente"
+  },
+  "pessoas_chave": [
+   {"nome": "Prof. Dr. med. Ralf Sodian", "cargo": "Chefarzt Herz-, Thorax- und Gefäßchirurgie", "por_que": "decide; lidera cirurgia mitral minimamente invasiva", "fonte": "https://herzzentrum-lahr.de/unsere-experten/experte/prof-dr-med-ralf-sodian"},
+   {"nome": "Kambis Mashayekhi", "cargo": "Chefarzt Kardiologie", "por_que": "relevante para residente de cardiologia (centro conhecido em CTO/PCI complexa — provável, não confirmado nos resultados)", "fonte": "https://www.herzzentrum-lahr.de/fileadmin/02_Dokumente_Share_verzeichnis/02_Klinikdokumente/Herzzentrum_Lahr/Herzecho_01_2022.pdf"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": "não encontrado artigo 2022–2026 do serviço com PMID/DOI nos resultados",
+  "dicas": [
+   "Clínica privada (grupo MEDICLIN); sem programa estruturado — pedido direto ao Chefarzt.",
+   "Newsletter 'Herzecho' (PDFs no site) traz temas atuais da clínica para personalizar o e-mail."
+  ],
+  "rota_recomendada": "1) E-mail a herzchirurgie.HZL@mediclin.de ao Prof. Sodian pedindo Hospitation em reparo mitral minimamente invasivo; 2) baixa prioridade para o objetivo 'robótica'.",
+  "alerta_correcao": "Área 'robotica' não confirmada: nenhum indício de cirurgia robótica em Lahr; o PDF do radar (Herzecho) trata de cirurgia minimamente invasiva. Reclassificar."
+ },
+ {
+  "match": "Universitäts-Herzzentrum Freiburg – Bad Krozingen",
+  "cidade": "Bad Krozingen (cirurgia cardíaca) / Freiburg", "pais": "Alemanha", "areas": ["robotica"],
+  "programa": {
+   "observership_oficial": "não encontrado. As páginas 'Hospitationstage' da Uniklinik Freiburg são da Akademie für medizinische Berufe (enfermagem/técnicos), não para médicos.",
+   "contexto": "UHZ integrado definitivamente à Uniklinik Freiburg em abril/2021; ~22.000 pacientes internados/ano.",
+   "fonte": "https://www.uniklinik-freiburg.de/en/akademie-fuer-medizinische-berufe/hospitationstage-akademie.html",
+   "elegibilidade_estrangeiro": "não encontrado", "taxa": "não encontrado", "documentos": "não encontrado", "contato_oficial": "não encontrado",
+   "certeza": "confirmado: sem programa público para médicos visitantes"
+  },
+  "servico": {
+   "nome": "Klinik für Herz- und Gefäßchirurgie, Universitäts-Herzzentrum Freiburg – Bad Krozingen (Südring 15, Bad Krozingen)",
+   "chefe": "Prof. Dr. Martin Czerny, W3-Professor und Ärztlicher Direktor — foco em medicina da aorta, endoconduit, biomarcadores; co-líder das diretrizes de cirurgia de aorta — https://www.med.uni-freiburg.de/de/fakultaet/profs/czerny ; CV 2025: https://uniklinik-freiburg.de/fileadmin/mediapool/09_zentren/herzzentrum/bilder/herzchirurgie/2025_02_07_Czerny_Curriculum_Vitae.pdf",
+   "outros": "Prof. Matthias Siepe (cirurgião, mitral) aparece em agregador MediFind associado a Freiburg — vínculo atual não confirmado em fonte oficial",
+   "robotica": "Robótica no UHZ é da CARDIOLOGIA: 'weltweit modernster Herzkatheter-Roboter' (2021, https://www.uniklinik-freiburg.de/en/press/press-releases/detailed-view/2427-weltweit-modernster-herzkatheter-roboter-steht-in-freiburg.html); UHZ aktuell Jul/2021 ('Koronarinterventionen mittels Robotik') e Out/2022 ('Robotik am UHZ', balanço do 1º ano). Não encontrado cirurgia cardíaca robótica (da Vinci). Out/2022 também traz bypass sem CEC e reconstrução mitral minimamente invasiva.",
+   "fellowship": "não encontrado",
+   "volume": "~3.500 operações/ano no coração e grandes vasos (dado de 2013, UHZ aktuell); ~22.000 internações/ano",
+   "certeza": "confirmado (chefia 2025); robótica cirúrgica ausente"
+  },
+  "pessoas_chave": [
+   {"nome": "Prof. Dr. Martin Czerny", "cargo": "Ärztlicher Direktor, Klinik für Herz- und Gefäßchirurgie", "por_que": "decide; referência mundial em aorta (EACTS/diretrizes)", "fonte": "https://www.med.uni-freiburg.de/de/fakultaet/profs/czerny"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado (busca por coautorias Czerny–Brasil sem resultado)",
+  "pesquisa_recente": "não encontrado artigo com PMID/DOI nas áreas do polo nos resultados; gancho: diretrizes de aorta co-lideradas por Czerny (https://www.eurekalert.org/news-releases/1035929)",
+  "dicas": [
+   "Se a residente for de cardiologia, a robótica de cateterismo (PCI robótica) do UHZ é o tema certo; para cirurgia, o forte é aorta, não robótica.",
+   "Eventos: 'Bad Krozinger Herz-Kreislauf-Tage' (2022 no Konzerthaus Freiburg) — possível porta de contato."
+  ],
+  "rota_recomendada": "1) Se cardiologia: pedido de Hospitation à Kardiologie do UHZ focado em PCI robótica; 2) se cirurgia: e-mail ao Prof. Czerny com foco em aorta (não robótica), via secretaria da Klinik für Herz- und Gefäßchirurgie no site da Uniklinik Freiburg.",
+  "alerta_correcao": "Área 'robotica' é parcialmente errada: a robótica do UHZ é de cateterismo (cardiologia intervencionista), não cirurgia cardíaca robótica. O PDF do radar (UHZ aktuell Out/2022) traz 'Robotik am UHZ' nesse sentido."
+ }
+]
