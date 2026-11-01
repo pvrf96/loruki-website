@@ -1,0 +1,379 @@
+[
+ {
+  "match": "ECMO Centre Karolinska",
+  "cidade": "Estocolmo",
+  "pais": "Suécia",
+  "areas": [
+   "ecmo"
+  ],
+  "programa": {
+   "pagina_observership": "não encontrado (sem página pública de observership/visiting physician do ECMO Centre)",
+   "alternativas": [
+    {
+     "tipo": "International Fellowship (vaga paga, full-time) em ECMO e transporte",
+     "fonte": "https://www.regionstockholm.se/jobb/for-dig-som-letar-jobb/lediga-jobb/karolinska-universitetssjukhuset/international-fellowship-in-ecmo-and-intensive-care-to-transportation-team-at-ecmo-centre",
+     "trecho": "International Fellowship in ECMO and intensive care to transportation team at ECMO Centre (prazo 24/07/2025, vencido)",
+     "certeza": "confirmado"
+    },
+    {
+     "tipo": "ECMO Course Stockholm 2026 (adulto, respiratório e circulatório incl. choque séptico), em inglês",
+     "datas": "12–15 out 2026; inscrições abertas desde 04/05/2026",
+     "fonte": "https://www.karolinska.se/vard/funktion/funktion-barn-pmi/ecmo/ecmo-course-international/",
+     "trecho": "Stockholm, October 12th – 15th 2026 ... Registration will open on May 4th 2026",
+     "taxa": "não encontrado",
+     "certeza": "confirmado"
+    },
+    {
+     "tipo": "Stockholm Neonatal & Pediatric ECMO Course",
+     "fonte": "https://www.karolinska.se/vard/funktion/funktion-barn-pmi/ecmo/stockholm-neonatal-pediatric-ecmo-course",
+     "certeza": "confirmado (existe; datas não verificadas)"
+    }
+   ],
+   "contato_oficial": "Contatos publicados na página do curso: Björn Frenckner e Marcus Brynolf (e-mails institucionais listados na página do curso para dúvidas de viagem/acomodação) — https://www.karolinska.se/vard/funktion/funktion-barn-pmi/ecmo/ecmo-course-international/",
+   "elegibilidade_residente_estrangeiro": "não encontrado. Referência regional (Sahlgrenska, não Karolinska): sem licença sueca/UE, apenas shadowing/pesquisa — https://www.sahlgrenska.se/en/testsidor/sahlgrenska-university-hospital2/careers/education-and-training/ (provável regra semelhante)",
+   "taxa": "não encontrado",
+   "documentos": "não encontrado",
+   "certeza": "programa individual não confirmado"
+  },
+  "servico": {
+   "nome": "ECMO Centre Karolinska (Karolinska University Hospital, Funktion Barn PMI), ELSO Platinum — único Platinum nos países nórdicos",
+   "fonte_platinum": "https://www.regionstockholm.se/jobb/for-dig-som-letar-jobb/lediga-jobb/karolinska-universitetssjukhuset/international-fellowship-in-ecmo-and-intensive-care-to-transportation-team-at-ecmo-centre",
+   "chefe": "Jonas Berner — Head of ECMO unit, Medical director (lista de faculty 2026)",
+   "fonte_chefe": "https://www.karolinska.se/4a3494/globalassets/global/2-funktioner/funktion-barn-pmi/ecmo/faculty-2026-2.docx",
+   "certeza_chefe": "confirmado (documento de faculty 2026)",
+   "diretor_fellowship": "não encontrado",
+   "volume": "não encontrado"
+  },
+  "pessoas_chave": [
+   {
+    "nome": "Jonas Berner",
+    "cargo": "Head of ECMO unit, Medical director",
+    "por_que": "decide recepção de visitantes clínicos",
+    "fonte": "https://www.karolinska.se/4a3494/globalassets/global/2-funktioner/funktion-barn-pmi/ecmo/faculty-2026-2.docx"
+   },
+   {
+    "nome": "Lars Mikael Broman",
+    "cargo": "Senior Consultant Intensivist, ECMO Centre Karolinska; Docent; líder do grupo de pesquisa em ECLS/ECMO no Karolinska Institutet (ex-Head of R&D)",
+    "por_que": "porta de entrada via pesquisa (visiting researcher)",
+    "fonte": "https://ki.se/en/fyfa/extracorporeal-life-support-and-extracorporeal-membrane-oxygenation-0"
+   },
+   {
+    "nome": "Björn Frenckner",
+    "cargo": "contato oficial do ECMO Course Stockholm",
+    "por_que": "contato publicado para o curso internacional",
+    "fonte": "https://www.karolinska.se/vard/funktion/funktion-barn-pmi/ecmo/ecmo-course-international/"
+   },
+   {
+    "nome": "Marcus Brynolf",
+    "cargo": "contato oficial do ECMO Course Stockholm",
+    "por_que": "idem",
+    "fonte": "https://www.karolinska.se/vard/funktion/funktion-barn-pmi/ecmo/ecmo-course-international/"
+   }
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": {
+   "brasil": "não encontrado",
+   "ponte_indireta": "Karolinska Institutet é colaborador do ensaio OSIRIS ECPR liderado por Jan Bělohlávek (VFN Praga) — liga este polo ao polo 221",
+   "fonte": "https://clinicaltrials.gov/study/NCT06805344",
+   "certeza": "confirmado"
+  },
+  "pesquisa_recente": [
+   {
+    "titulo": "Implementação de programa de ECPR para PCR extra-hospitalar em Estocolmo (estudo observacional prospectivo; 95 pacientes; sobrevida 25%)",
+    "ano": 2024,
+    "revista": "Resuscitation Plus",
+    "pmid": "38486930",
+    "fonte": "https://pubmed.ncbi.nlm.nih.gov/38486930/"
+   },
+   {
+    "titulo": "Fluxo sanguíneo pulmonar / dano pulmonar em TC durante ECMO (Falk, Lidegran, Diaz Ruiz, Hultman, Broman)",
+    "ano": 2024,
+    "revista": "J Clin Med 13(4):1113",
+    "doi": "10.3390/jcm13041113",
+    "fonte": "https://www.mdpi.com/2077-0383/13/4/1113"
+   },
+   {
+    "titulo": "EuroECMO-COVID (multicêntrico, Karolinska entre os centros; mortalidade hospitalar 55,9%)",
+    "ano": 2025,
+    "pmid": "40010369",
+    "fonte": "https://dev.nlk.cz/mdv/doc/pmid40010369?lang=en"
+   }
+  ],
+  "dicas": [
+   "Não há observership publicado: a porta realista é o ECMO Course Stockholm (anual, outubro; inscrição abre em maio) — networking presencial com o faculty.",
+   "Treinamentos práticos curtos foram feitos para equipes institucionais (ex.: 1 semana para equipe de hospital de Kyiv, 2024) — modelo institucional, não individual: https://www.karolinska.se/om-oss/centrala-nyheter/2024/12/ecmo-kurs-for-ukrainsk-vardpersonal-pa-karolinska-universitetssjukhuset/",
+   "Fellowship internacional pago aparece em vagas da Region Stockholm — monitorar regionstockholm.se/jobb."
+  ],
+  "rota_recomendada": "1) Inscrever-se no ECMO Course Stockholm (out/2027; inscrição ~maio) e usar o curso para pedir ao Medical director (Jonas Berner) alguns dias de shadowing. 2) Em paralelo, contato acadêmico com o grupo de pesquisa de L. M. Broman (KI) citando o paper de ECPR de Estocolmo (PMID 38486930). 3) Observership clínico formal provavelmente indisponível sem licença sueca/UE.",
+  "alerta_correcao": "URL do radar aponta para a seção pediátrica (funktion-barn-pmi), mas o ECMO Centre atende adultos e crianças; sem programa de observership confirmado."
+ },
+ {
+  "match": "General University Hospital in Prague (VFN)",
+  "cidade": "Praga",
+  "pais": "Tchéquia",
+  "areas": [
+   "ecmo"
+  ],
+  "programa": {
+   "pagina": "Estágios (Stáže) – seção 'Internships for foreign applicants'",
+   "url": "https://www.vfn.cz/en/odbornici/vzdelavani/staze/",
+   "processo": "Preencher questionário completo e enviar para internship@vfn.cz; contrato enviado por e-mail, imprimir 2 vias, assinar e enviar ao Departamento de Educação; consentimento do serviço anfitrião (guarantor) por e-mail a staze@vfn.cz",
+   "antecedencia": "mínimo 4 semanas",
+   "trecho": "fill in the questionnaire completely and send it to internship@vfn.cz ... at least four weeks prior to the start of the traineeship",
+   "fonte_detalhada": "https://vfn-webprod-testovaci.azurewebsites.net/en/?p=426 (espelho de teste do site; conferir no vfn.cz)",
+   "documentos": "autopagantes: diploma de medicina, seguro de acidentes e seguro de responsabilidade profissional",
+   "fonte_documentos": "https://vfn.cz/en/?p=426",
+   "taxa": "não encontrado",
+   "aceita_residente_estrangeiro": "provável (há seção específica para estrangeiros; requisitos completos não legíveis)",
+   "acordo_mobilidade": "https://www.vfn.cz/wp-content/uploads/2025/08/internship-p3-mobility-agreement.pdf",
+   "certeza": "confirmado (processo e e-mails oficiais); taxa e vagas no ECMO Centre não confirmadas"
+  },
+  "servico": {
+   "nome": "Center for Mechanical Cardiac Support – ECMO Center da VFN (8 leitos simultâneos), ligado à 2ª Clínica de Medicina Interna – Cardiologia e Angiologia (1ª Faculdade de Medicina, Univ. Carlos)",
+   "fonte": "https://www.vfn.cz/en/ecmo-centrum/",
+   "chefe": "Prof. Jan Bělohlávek — primář da II. interní klinika 1. LF UK a VFN; coordenador do time ECMO; listado no contato do ECMO center",
+   "fonte_chefe": "https://www.vfn.cz/en/aktuality/ecmo-tym-vfn-zasahuje-i-na-ulici/",
+   "certeza": "confirmado",
+   "volume": "ECPR hospitalar com ZZS HMP desde 2012; projeto de ECPR pré-hospitalar prevê ~70–90 pacientes em 3 anos (até 2028)",
+   "fonte_volume": "https://www.vfn.cz/en/odbornici/veda-a-vyzkum/evropske-granty-vfn/implementace-systemu-prednemocnicni-ecpr/",
+   "diretor_fellowship": "não encontrado"
+  },
+  "pessoas_chave": [
+   {
+    "nome": "Jan Bělohlávek",
+    "cargo": "Chefe da 2ª Clínica de Medicina Interna (Cardiologia/Angiologia), coordenador ECMO VFN/1ª LF; PI do Prague OHCA (JAMA 2022) e OSIRIS ECPR; Chair do grupo de ECPR da EuroELSO",
+    "por_que": "decide/hospeda; referência mundial em ECPR",
+    "fonte": "https://eacts.org/?p=30134"
+   },
+   {
+    "nome": "Daniel Rob",
+    "cargo": "Co-PI do estudo de ECPR pré-hospitalar em Praga; 1º autor da análise secundária do Prague OHCA (Crit Care 2022)",
+    "por_que": "pesquisador ativo, possível supervisor no dia a dia",
+    "fonte": "https://clinicaltrials.gov/study/NCT06789978"
+   }
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": {
+   "brasil": "não encontrado",
+   "ponte_indireta": "OSIRIS ECPR: colaboradores Karolinska Institutet, Heinrich-Heine Düsseldorf, Freiburg",
+   "fonte": "https://clinicaltrials.gov/study/NCT06805344"
+  },
+  "pesquisa_recente": [
+   {
+    "titulo": "Prague OHCA study — abordagem hiperinvasiva (ECPR) vs padrão na PCR refratária",
+    "ano": 2022,
+    "revista": "JAMA",
+    "pmid_doi": "não encontrado nos resultados",
+    "fonte": "https://eacts.org/?p=30134"
+   },
+   {
+    "titulo": "Análise secundária do Prague OHCA: ECPR vs RCP convencional (Rob D et al.)",
+    "ano": 2022,
+    "revista": "Critical Care",
+    "pmid_doi": "não encontrado nos resultados",
+    "fonte": "https://dev.nlk.cz/mdv/doc/bmc22032968?lang=en"
+   },
+   {
+    "titulo": "OSIRIS ECPR Trial (registro)",
+    "ano": "2025",
+    "id": "NCT06805344",
+    "fonte": "https://clinicaltrials.gov/study/NCT06805344"
+   },
+   {
+    "titulo": "Rapid Prehospital ACcess to ECPR in Prague (registro)",
+    "ano": "2025",
+    "id": "NCT06789978",
+    "fonte": "https://clinicaltrials.gov/study/NCT06789978"
+   }
+  ],
+  "dicas": [
+   "Exige consentimento prévio do serviço anfitrião: sem ele o pedido não é analisado — escrever primeiro a Bělohlávek pedindo aceite e só então submeter o questionário.",
+   "Caso do maratonista (maio/2025) salvo por ECPR pré-hospitalar é bom gancho para o e-mail: https://www.vfn.cz/wp-content/uploads/2025/05/TZ_Záchrana-života-ve-47-minutách-díky-VFN-a-ZZS-HMP.pdf",
+   "Faculty de workshops ESICM de ECMO inclui o grupo — cursos europeus podem servir de contato: https://www.esicm.org/wp-content/uploads/2022/08/Faculty-list_ECMO_WS.pdf"
+  ],
+  "rota_recomendada": "1) E-mail a Jan Bělohlávek (via contato oficial do ECMO center) citando Prague OHCA/ECPR pré-hospitalar e pedindo aceite como estagiária observadora por 4 semanas. 2) Com o aceite, enviar questionário a internship@vfn.cz ≥4 semanas antes, com diploma e seguros (acidente + responsabilidade profissional). É o polo deste lote com rota formal mais clara para estrangeiros.",
+  "alerta_correcao": "URL do radar (?p=14307) não verificada; páginas oficiais do ECMO center: https://www.vfn.cz/en/ecmo-centrum/"
+ },
+ {
+  "match": "Fundación Cardiovascular de Colombia",
+  "cidade": "Bucaramanga (Floridablanca)",
+  "pais": "Colômbia",
+  "areas": [
+   "ecmo"
+  ],
+  "programa": {
+   "pagina_observership": "não encontrado",
+   "cursos": "Curso de suporte circulatório mecânico no choque cardiogênico (fev/2019) com faculty da ELSO; curso acreditado ELSO no Centro Internacional de Especialistas (CIE) do HIC; 36 profissionais latino-americanos treinados (2019)",
+   "fonte": "https://www.vanguardia.com/area-metropolitana/bucaramanga/de-santander-para-el-mundo-el-equipo-medico-que-ensena-a-otros-especialistas-a-salvar-vidas-XX563011",
+   "certeza": "confirmado (dados de 2019; atualidade não verificada)",
+   "taxa": "não encontrado",
+   "documentos": "não encontrado",
+   "contato_oficial": "não encontrado"
+  },
+  "servico": {
+   "nome": "Programa de ECMO y Corazón Artificial / ECMO y Asistencia Ventricular — FCV / HIC Instituto Cardiovascular",
+   "chefe": "Leonardo Salazar Rojas — director do programa",
+   "fonte_chefe": "https://www.bluradio.com/regiones/santanderes/ecmo-en-santander-supera-estandares-internacionales-historia-de-vida-lo-demuestra-rg10",
+   "certeza": "confirmado (2025)",
+   "acreditacao": "ELSO Center of Excellence Platinum (1º na Colômbia em 2018 como Center of Excellence; 2º na América Latina)",
+   "fonte_acred": "https://www.vanguardia.com/area-metropolitana/bucaramanga/fcv-recibio-la-maxima-distincion-en-latinoamerica-por-manejo-de-ecmo-NE4341492",
+   "volume": "~80 pacientes/ano (maior da América Latina, segundo RCN, ~2020); >560 pacientes até 2019; 2025: sobrevida 73% em suporte cardiovascular pediátrico vs 62% ELSO",
+   "fontes_volume": [
+    "https://www.noticiasrcn.com/salud/con-tecnologia-ecmo-reemplazan-la-funcion-del-pulmon-en-pacientes-afectados-con-coronavirus-en",
+    "https://www.bluradio.com/regiones/santanderes/ecmo-en-santander-supera-estandares-internacionales-historia-de-vida-lo-demuestra-rg10"
+   ],
+   "diretor_fellowship": "não encontrado"
+  },
+  "pessoas_chave": [
+   {
+    "nome": "Leonardo Salazar Rojas",
+    "cargo": "Diretor do Programa de ECMO e Coração Artificial/Assistência Ventricular",
+    "por_que": "decide",
+    "fonte": "https://www.bluradio.com/regiones/santanderes/ecmo-en-santander-supera-estandares-internacionales-historia-de-vida-lo-demuestra-rg10"
+   },
+   {
+    "nome": "Camilo Pizarro",
+    "cargo": "membro da liderança do time ECMO; 1º autor do estudo latino-americano de ECMO (Med Intensiva 2025)",
+    "por_que": "pesquisa/ensino",
+    "fonte": "https://www.medintensiva.org/en-experience-with-extracorporeal-membrane-oxygenation-articulo-S2173572725000049"
+   },
+   {
+    "nome": "Antonio Figueredo Moreno",
+    "cargo": "co-líder do curso de suporte circulatório mecânico (2019)",
+    "por_que": "ensino",
+    "fonte": "https://www.vanguardia.com/area-metropolitana/bucaramanga/de-santander-para-el-mundo-el-equipo-medico-que-ensena-a-otros-especialistas-a-salvar-vidas-XX563011"
+   },
+   {
+    "nome": "Claudia Colmenares-Mejía",
+    "cargo": "coautora (FCV) do estudo latino-americano de ECMO",
+    "por_que": "pesquisa clínica",
+    "fonte": "https://www.medintensiva.org/en-experience-with-extracorporeal-membrane-oxygenation-articulo-S2173572725000049"
+   }
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": {
+   "brasil": "não encontrado (estudo Med Intensiva 2025 de 13 unidades/7 países: afiliações vistas Colômbia, México, Costa Rica, Argentina — sem Brasil nos trechos)",
+   "ponte_regional": "ELSO Latin America chapter (LatAm ELSO) — rede comum com centros brasileiros: https://testingdnn.elso.org/aboutus/chapters/latin-americaELSO.aspx",
+   "certeza": "provável (ponte institucional, não coautoria)"
+  },
+  "pesquisa_recente": [
+   {
+    "titulo": "Experience with extracorporeal membrane oxygenation support in Latin America between 2016 and 2020",
+    "ano": 2025,
+    "revista": "Medicina Intensiva 49(5)",
+    "pmid_doi": "não encontrado nos resultados (PII S2173572725000049)",
+    "fonte": "https://www.medintensiva.org/en-experience-with-extracorporeal-membrane-oxygenation-articulo-S2173572725000049"
+   },
+   {
+    "titulo": "Setting up an ECMO program in a South American country: outcomes of the first 104 pediatric patients (histórico, fora da janela 2022–26)",
+    "ano": 2015,
+    "pmid": "26180151",
+    "fonte": "https://www.pubmed.gov/26180151/"
+   }
+  ],
+  "dicas": [
+   "Mesmo idioma-próximo (espanhol) e custo menor que EUA/Europa; centro Platinum ELSO — opção forte de ECMO na América Latina.",
+   "Porta de entrada provável: cursos ELSO do próprio time (CIE/HIC) — checar calendário atual.",
+   "Não há página de observership; contato direto com a direção do programa ou com o setor de educação da FCV/HIC."
+  ],
+  "rota_recomendada": "1) Contato com Leonardo Salazar Rojas (via canais institucionais FCV/HIC) pedindo rotação observacional de 4 semanas no programa ECMO, citando os resultados 2025 vs ELSO e o estudo latino-americano de 2025. 2) Alternativa: inscrever-se num curso ELSO organizado pela FCV e negociar estágio na sequência. 3) Perguntar à COREME/Unifesp se há convênio para estágio optativo no exterior.",
+  "alerta_correcao": "O programa hoje é citado como 'HIC Instituto Cardiovascular' (Hospital Internacional de Colombia, mesmo grupo FCV) — usar ambos os nomes nas buscas/contatos."
+ },
+ {
+  "match": "UChicago Medicine — Heart & Vascular",
+  "cidade": "Chicago",
+  "pais": "EUA",
+  "areas": [
+   "robotica"
+  ],
+  "programa": {
+   "pagina_observership": "não encontrado (sem programa central público para médicos internacionais)",
+   "indicios": [
+    {
+     "desc": "Matéria institucional: programas de treinamento atraem visitantes de outros países; Balkhy recebeu grupos internacionais para treinar com o time robótico",
+     "fonte": "https://www.uchicagomedicine.org/forefront/heart-and-vascular-articles/international-collaborations-reflect-prestige-and-expertise-of-uchicago-medicine-heart-and-vascular-center",
+     "certeza": "confirmado (2019)"
+    },
+    {
+     "desc": "Formulário departamental de Clinical Observers (Dermatologia, 2021) define 'visiting professional' com licença de outro país — mostra que observerships são por departamento",
+     "fonte": "https://dermed.uchicago.edu/files/2023/03/Clinical-Observers-Application-Sep-2021.pdf",
+     "certeza": "confirmado (outro departamento)"
+    },
+    {
+     "desc": "Visitantes/rotadores externos: visiting.pritzker@bsd.uchicago.edu",
+     "fonte": "https://medchiefs.bsd.uchicago.edu/resources/external-rotators",
+     "certeza": "confirmado (voltado a estudantes/rotadores)"
+    },
+    {
+     "desc": "Center for Global Health orienta departamentos que hospedam visiting scholars (até 6 meses, custos pela instituição de origem)",
+     "fonte": "https://cgh.uchicago.edu/page/visiting-medical-students",
+     "certeza": "provável"
+    }
+   ],
+   "taxa": "não encontrado",
+   "documentos": "não encontrado"
+  },
+  "servico": {
+   "nome": "Section of Cardiac Surgery — Robotic and Minimally Invasive Cardiac Surgery (Heart and Vascular Center)",
+   "chefe_secao": "Valluvan Jeevanandam — Chief, Section of Cardiac Surgery; Director, Heart and Vascular Center",
+   "fonte": "https://surgeryar.bsd.uchicago.edu/sections/cardiac-surgery",
+   "diretor_robotica": "Husam H. Balkhy — Director, Robotic and Minimally Invasive Cardiac Surgery",
+   "fonte_robotica": "https://www.uchicagomedicine.org/find-a-physician/physician/husam-h-balkhy",
+   "volume": "1.000ª cirurgia robótica em ago/2020; Balkhy >2.000 cirurgias robóticas; único programa no mundo a fazer CABG robótico multiarterial de rotina (segundo a seção)",
+   "fonte_volume": "https://www.uchicagomedicine.org/forefront/heart-and-vascular-articles/husam-balkhys-relentless-quest-for-robotic-heart-surgery",
+   "certeza": "confirmado",
+   "diretor_fellowship": "não encontrado"
+  },
+  "pessoas_chave": [
+   {
+    "nome": "Husam H. Balkhy",
+    "cargo": "Professor of Surgery; Director, Robotic and Minimally Invasive Cardiac Surgery",
+    "por_que": "hospeda; já recebeu grupos internacionais e faz proctoring mundial; foco em TECAB robótico",
+    "fonte": "https://www.uchicagomedicine.org/find-a-physician/physician/husam-h-balkhy"
+   },
+   {
+    "nome": "Valluvan Jeevanandam",
+    "cargo": "Chief, Section of Cardiac Surgery; Director, Heart and Vascular Center",
+    "por_que": "autoriza visitantes na seção",
+    "fonte": "https://surgeryar.bsd.uchicago.edu/sections/cardiac-surgery"
+   }
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": {
+   "brasil": "não encontrado parceria com hospital brasileiro",
+   "indicio": "Lista de publicações de Balkhy inclui 'Robotic Cardiac Surgery in Colombia: Overcoming the Challenges of a Middle-income Setting', Braz J Cardiovasc Surg 2020 — autoria de Balkhy não confirmada no trecho; revista da SBCCV pode servir de gancho",
+   "fonte": "https://profiles.uchicago.edu/profiles/profile/2101335/198/34770",
+   "certeza": "provável"
+  },
+  "pesquisa_recente": [
+   {
+    "titulo": "Achieving Mastery in Robotic-Assisted Coronary Artery Bypass Surgery: Why Stop at One Internal Thoracic Artery Graft!?",
+    "ano": 2023,
+    "revista": "Ann Thorac Surg 115(5):1125-1126 (editorial)",
+    "pmid_doi": "não encontrado nos resultados",
+    "fonte": "https://profiles.uchicago.edu/profiles/display/2101335/Network/ResearchAreas/33662307"
+   },
+   {
+    "titulo": "Alta no 1º dia pós-operatório após TECAB robótico",
+    "ano": 2023,
+    "revista": "Innovations",
+    "pmid_doi": "não encontrado nos resultados",
+    "fonte": "https://profiles.uchicago.edu/profiles/display/2101335/Network/ResearchAreas/33662307"
+   },
+   {
+    "titulo": "Impacto das dimensões da parede torácica em bypass robótico uni e multiarterial",
+    "ano": 2024,
+    "revista": "Innovations",
+    "pmid_doi": "não encontrado nos resultados",
+    "fonte": "https://profiles.uchicago.edu/profiles/display/2101335/Network/ResearchAreas/33662307"
+   }
+  ],
+  "dicas": [
+   "Observership é negociado com a seção/departamento (não há escritório central publicado): pedido direto ao Balkhy é o caminho.",
+   "Balkhy dá entrevistas sobre simulação e treinamento robótico (CTSNet) — bom tema para o e-mail: https://www.ctsnet.org/article-video/robotic-cardiac-surgery-and-simulation-training-interview-husam-balkhy/",
+   "Se a residente já fez observership em outro hospital de Chicago, carta do preceptor de lá ajuda (mesma cidade, mesma logística de visto B1/B2)."
+  ],
+  "rota_recomendada": "1) E-mail a Husam Balkhy pedindo 4 semanas de observação no programa robótico/TECAB, citando o editorial de 2023 (Ann Thorac Surg) e o trabalho de alta no POD1; anexar CV, carta da Unifesp e da experiência prévia em Chicago. 2) Se ele aceitar, pedir à seção (Jeevanandam) e a visiting.pritzker@bsd.uchicago.edu o formulário e os requisitos de visitante (vacinas, seguro, background). 3) Plano B: cursos/proctoring de robótica fora de Chicago com o time.",
+  "alerta_correcao": "No radar o programa consta como 'nao_publico' — confirmado: só há formulários departamentais (ex. dermatologia), sem programa central de observership."
+ }
+]

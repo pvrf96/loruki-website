@@ -1,0 +1,194 @@
+[
+ {
+  "match": "Legacy Emanuel Medical Center",
+  "cidade": "Portland (OR), EUA",
+  "areas": ["ecmo"],
+  "programa": {
+   "status": "não encontrado",
+   "detalhe": "Nenhuma página oficial de observership/visiting physician da Legacy Health apareceu nas buscas. Rota terá de ser via contato direto com o programa de ECMO / educação médica.",
+   "fontes": ["https://legacyhealth.org/For-Health-Professionals/refer-a-patient/ECMO-for-providers"],
+   "certeza": "não encontrado"
+  },
+  "servico": {
+   "nome": "Legacy ECMO Program (Legacy Emanuel Medical Center) – ELSO Platinum Award for Excellence in Life Support (nov/2025)",
+   "chefe": "Joseph Deng, MD – ECMO Medical Director, Legacy Health (anestesiologia + medicina intensiva; foco ECMO e ecocardiografia)",
+   "fellowship": "não encontrado",
+   "volume": "Equipe de ECMO móvel completou 100 transportes terrestres (release de 2/mar/2023); programa com >30 anos de história",
+   "fontes": [
+    {"url": "https://www.legacyhealth.org/about/news-and-media/story-center/2025/11/legacy-emanuel-ecmo-earns-highest-level-of-recognition", "trecho": "Joseph Deng, MD, Legacy Health's ECMO Medical Director ... credited ... more than 30 years of hard work"},
+    {"url": "https://legacyhealth.org/providers/joseph-deng", "trecho": "board certifications in anesthesiology and critical care medicine; ECMO and echocardiography"},
+    {"url": "https://www.legacyhealth.org/about/news-and-media/for-the-media/news-releases/2023/legacy-emanuel-unveils-a-mobile-icu-to-pick-up-and-transport-critically-ill-patients-to-the-hospital", "trecho": "mobile ECMO team completed 100 ground transports"}
+   ],
+   "certeza": "confirmado (diretor e prêmio); volume anual não encontrado"
+  },
+  "pessoas_chave": [
+   {"nome": "Joseph Deng, MD", "cargo": "ECMO Medical Director, Legacy Health", "por_que": "decide/hospeda observadores no programa de ECMO", "fonte": "https://www.legacyhealth.org/about/news-and-media/story-center/2025/11/legacy-emanuel-ecmo-earns-highest-level-of-recognition"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": {
+   "itens": [
+    {"titulo": "Adultos com SDRA grave tratados com ECMO na Legacy Emanuel como centro de referência regional (A.J. Michaels et al.)", "ano": 2013, "revista": "Am J Surg 205:492-499", "id": "não encontrado", "obs": "fora da janela 2022–2026; único artigo do serviço achado"}
+   ],
+   "nota": "Nenhum artigo 2022–2026 do serviço apareceu nas buscas. Gancho alternativo para e-mail: Platinum ELSO 2025 e programa de ECMO móvel/mobile ICU.",
+   "certeza": "não encontrado para 2022–2026"
+  },
+  "dicas": [
+   "Dr. Deng aparece como palestrante convidado em sessão sobre desfechos de longo prazo de ECMO e processo de consulta com a equipe Legacy (evento externo, Salem Health) — tema bom para o e-mail.",
+   "Hospital comunitário/privado sem escola médica própria: provavelmente sem programa formal de observership; pedir por e-mail institucional do programa de ECMO.",
+   "Fonte: https://salemhealth.org/common-ground-home/common-ground-post/icu-m-m-conference-on-covid-19-feb.-13"
+  ],
+  "rota_recomendada": "1) Carta/e-mail a Dr. Joseph Deng (via canais oficiais do Legacy ECMO Program na página para profissionais) citando o Platinum 2025 e o ECMO móvel, pedindo observar 4 semanas; 2) pedir que indique o setor de educação médica/voluntariado para a papelada. Prioridade baixa frente a centros com programa formal.",
+  "alerta_correcao": null
+ },
+ {
+  "match": "Cooper University Hospital",
+  "cidade": "Camden (NJ), EUA",
+  "areas": ["ecmo"],
+  "programa": {
+   "status": "não encontrado",
+   "detalhe": "Sem página institucional de observership para médicos estrangeiros. Cooper aparece apenas em lista de observerships de otorrino (AAO-HNS, 2024), mostrando que departamentos aceitam observadores caso a caso.",
+   "fontes": ["https://www.entnet.org/wp-content/uploads/2024/03/Observership_Listings_2024-v2.pdf"],
+   "certeza": "provável (observership por departamento existe; para ECMO não confirmado)"
+  },
+  "servico": {
+   "nome": "Cooper ECMO Program – Center for Critical Care Medicine/Critical Care Services; ELSO Gold Level Award (out/2025); Silver em 2022; ECMO móvel lançado em 2026",
+   "chefe": "Emily Damuth, MD – Section Head of ECMO; Nitin Puri, MD – Director of Critical Care Services (fundou o programa)",
+   "fellowship": "não encontrado (Puri citado em 2019 como Program Director, Critical Care Medicine)",
+   "volume": "não encontrado; programa formal desde ~2019/2020, só adultos; primeira canulação móvel em fev/2026 (paciente de Vineland, NJ)",
+   "fontes": [
+    {"url": "https://blogs.cooperhealth.org/news/2025/10/cooper-university-health-care-internationally-recognized-with-gold-level-award-for-excellence-in-life-support/", "trecho": "\"This milestone reflects the vision and leadership of Dr. Nitin Puri, who helped build our ECMO program from its inception six years ago,\" said Emily Damuth, MD, section head of ECMO"},
+    {"url": "https://blogs.cooperhealth.org/news/2026/04/cooper-university-health-care-launches-mobile-ecmo-transport-program-for-critically-ill-heart-and-lung-patients/", "trecho": "Nitin Puri, MD, director of Critical Care Services ... first mobile cannulation and transport in mid-February 2026"},
+    {"url": "https://www.roi-nj.com/2022/10/06/healthcare/cooper-critical-care-team-earns-national-honor-for-excellence-in-life-support", "trecho": "Silver Level Center on the Path to Excellence in Life Support ... Damuth and Rob Rios maintain patient database"}
+   ],
+   "certeza": "confirmado"
+  },
+  "pessoas_chave": [
+   {"nome": "Emily Damuth, MD", "cargo": "Section Head of ECMO", "por_que": "líder clínica do ECMO; quem hospedaria/autorizaria", "fonte": "https://blogs.cooperhealth.org/news/2025/10/cooper-university-health-care-internationally-recognized-with-gold-level-award-for-excellence-in-life-support/"},
+   {"nome": "Nitin Puri, MD", "cargo": "Director of Critical Care Services", "por_que": "fundador do programa; decide no nível do centro", "fonte": "https://blogs.cooperhealth.org/news/2026/04/cooper-university-health-care-launches-mobile-ecmo-transport-program-for-critically-ill-heart-and-lung-patients/"},
+   {"nome": "Rob Rios", "cargo": "equipe ECMO (mantém banco de dados de pacientes) – cargo exato não encontrado", "por_que": "dados/qualidade", "fonte": "https://www.roi-nj.com/2022/10/06/healthcare/cooper-critical-care-team-earns-national-honor-for-excellence-in-life-support"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": {
+   "itens": [
+    {"titulo": "Comparação de canulação para ECMO por cirurgiões cardiotorácicos vs intensivistas clínicos / fatores de risco na seleção para VV-ECMO (Kouch M, Green A, Damuth E, Puri N et al.)", "ano": "não confirmado", "id": "não encontrado", "fonte": "https://www.peeref.com/works/24496122"}
+   ],
+   "nota": "Só 1 artigo achado, sem ano confirmado. Ganchos para o e-mail: ECMO móvel 2026 e modelo de ECMO liderado por intensivistas.",
+   "certeza": "provável"
+  },
+  "dicas": [
+   "ECMO conduzido pela medicina intensiva (não pela cirurgia) — bom para residente de cardiologia interessada no modelo intensivista.",
+   "Programa novo de ECMO móvel (2026) com transporte multiprofissional — tema concreto para pedir para acompanhar."
+  ],
+  "rota_recomendada": "1) E-mail a Dra. Emily Damuth (cópia Dr. Puri) citando Gold ELSO 2025 e ECMO móvel 2026, pedindo observership de 4 semanas; 2) pedir encaminhamento ao setor de educação médica (Cooper Medical School of Rowan University) para formalizar.",
+  "alerta_correcao": null
+ },
+ {
+  "match": "University of Iowa Hospitals & Clinics",
+  "cidade": "Iowa City (IA), EUA",
+  "areas": ["ecmo"],
+  "programa": {
+   "status": "não encontrado (programa institucional formal para estrangeiros)",
+   "detalhe": "Não há página oficial de visiting physician internacional. Documento de observador atribuído à UIHC (Scribd, terceiro) diz: sem contato físico com paciente; não exige licença de Iowa, nomeação CCOM, credenciamento nem background check; supervisor garante escopo. Patologia declara NÃO aceitar observers internacionais (vale só para patologia). Existe formulário de observação de GME (Iowa HD Observation Application).",
+   "fontes": [
+    {"url": "https://www.scribd.com/document/633103498/Observing-Physicians", "trecho": "The supervising physician shall ensure that the observer acts within the scope of an observer, including no direct physical patient contact", "certeza": "provável (fonte de terceiros)"},
+    {"url": "https://gme.medicine.uiowa.edu/sites/gme.medicine.uiowa.edu/files/wysiwyg_uploads/Iowa%20HD%20Observation%20Application.docx", "trecho": "Iowa HD Observation Application", "certeza": "provável"},
+    {"url": "https://pathology.medicine.uiowa.edu/education/observerships", "trecho": "does not currently provide ... observerships for international medical trainees", "certeza": "confirmado (só patologia)"}
+   ]
+  },
+  "servico": {
+   "nome": "UI Heart and Vascular Center ECMO Program – ELSO Platinum (2022); Center of Excellence desde 2013; Gold desde 2016; 30 anos de ECMO (jul/2024); eCPR; ECMO AirCare (helicóptero, 2025)",
+   "chefe": "Lovkesh Arora, MBBS, MD, FASA – ECMO Medical Director, Heart and Vascular Center (anestesiologia)",
+   "fellowship": "não encontrado",
+   "volume": "não encontrado",
+   "outros": "Dan Dietzel, RN – ECMO Program Clinical Practice Leader; Katelyn Meyer – coordenadora dos cursos de ECMO (e-mail publicado no folheto do curso: katelyn-meyer@uiowa.edu)",
+   "fontes": [
+    {"url": "https://anesthesia.medicine.uiowa.edu/profile/lovkesh-arora", "trecho": "ECMO Medical Director, Heart and Vascular Center"},
+    {"url": "https://uihc.org/news/ecmo-program-earns-highest-level-elso-distinction-excellence-life-support", "trecho": "Center of Excellence since 2013 and gold-level since 2016 ... platinum-level designation"},
+    {"url": "https://internalmedicineiowa.org/2024/08/15/30-years-of-ecmo/", "trecho": "celebrate 30 years of extracorporeal membrane oxygenation"},
+    {"url": "https://www.kcrg.com/2025/09/01/univ-iowa-health-care-expands-life-support-capabilities-its-helicopters", "trecho": "only hospital in Iowa to have an ECMO AirCare Team"}
+   ],
+   "certeza": "confirmado"
+  },
+  "pessoas_chave": [
+   {"nome": "Lovkesh Arora, MBBS, MD", "cargo": "ECMO Medical Director, Heart and Vascular Center", "por_que": "decide/hospeda; faculty dos cursos", "fonte": "https://anesthesia.medicine.uiowa.edu/profile/lovkesh-arora"},
+   {"nome": "Dan Dietzel, RN", "cargo": "ECMO Program Clinical Practice Leader", "por_que": "organiza operação/curso", "fonte": "https://www.healthcare.uiowa.edu/marcom/uihc/heart_vascular_center/ECMO-Course.pdf"},
+   {"nome": "Katelyn Meyer", "cargo": "coordenadora do curso de ECMO (contato oficial do curso)", "por_que": "porta de entrada pelo curso", "fonte": "https://uiowa.cloud-cme.com/Assets/uiowa/Activities/79996/Updated_2026_October_ECMO_course_brochure.pdf"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": {
+   "itens": [
+    {"titulo": "What are the real issues in providing Extracorporeal Membrane Oxygenation (ECMO) support: a survey", "ano": 2024, "revista": "J Intensive Care Med 39(10):949-957", "autores": "Siddiqui S, Arora L, et al.", "id": "não encontrado"},
+    {"titulo": "Emergent veno-venous extracorporeal membrane oxygenation during aortic valve replacement following severe re-expansion pulmonary edema: a case report", "ano": 2024, "autores": "Cavanaugh NB, Nguyen LH, Arora L, Singhal AK, Hanada S", "id": "não encontrado"}
+   ],
+   "fonte": "https://anesthesia.medicine.uiowa.edu/profile/lovkesh-arora",
+   "certeza": "confirmado (perfil oficial); PMID/DOI não apareceram"
+  },
+  "dicas": [
+   "Curso de ECMO adulto baseado em simulação, endossado pela ELSO (2º nos EUA) — edições mar/2026 e 13–16 out/2026; ver próxima edição no uiowa.cloud-cme.com. Excelente porta de entrada antes/junto do pedido de observership.",
+   "Fontes: https://medicine.uiowa.edu/node/8211 ; https://uiowa.cloud-cme.com/Assets/uiowa/Activities/79996/Updated_2026_October_ECMO_course_brochure.pdf"
+  ],
+  "rota_recomendada": "1) Inscrever-se no próximo curso ELSO-endossado de ECMO adulto (contato oficial: coordenação do curso) e usar o contato para pedir observership; 2) e-mail ao Dr. Lovkesh Arora citando o survey JICM 2024 e o ECMO AirCare, pedindo 4 semanas; 3) formalizar via GME (formulário de observação).",
+  "alerta_correcao": null
+ },
+ {
+  "match": "Toronto Rehabilitation Institute (UHN)",
+  "cidade": "Toronto, Canadá",
+  "areas": ["reabilitacao"],
+  "programa": {
+   "status": "confirmado (UHN Observership Program centralizado)",
+   "detalhe": "UHN recebe ~1.550 observadores/ano do mundo todo. Pedido via formulário online (CV, foto, módulo eLearning de privacidade, Authorized Guest Agreement); precisa ser arranjado com faculty/departamento UHN. Vacinas exigidas conforme política UHN. Taxa: US$/CA$175 não-reembolsável para >2 dias (fonte de terceiros, UofT Plastic Surgery). Contato oficial: observerships@uhn.ca / 416-340-4800 ext. 2665. Seguro e duração máxima: não encontrado.",
+   "fontes": [
+    {"url": "https://uhn.ca/healthcareprofessionals/Observerships", "trecho": "vaccinations are required at all University Health Network sites in accordance with UHN policy", "certeza": "confirmado"},
+    {"url": "https://www.uhn.ca/Education/About-Us/Portfolios/CEPD/ICE/Pages/observerships.aspx", "trecho": "welcomes approximately 1,550 observers per year from all around the world", "certeza": "confirmado"},
+    {"url": "https://events.myconferencesuite.com/UHN_Observerships", "trecho": "observerships@uhn.ca ... 416-340-4800 ext. 2665", "certeza": "confirmado"},
+    {"url": "https://www.uoftplasticsurgery.ca/?p=179", "trecho": "non-refundable observer application fee of $175 is applicable to observers (> 2 days)", "certeza": "provável (terceiros)"}
+   ]
+  },
+  "servico": {
+   "nome": "UHN Cardiovascular Prevention and Rehabilitation Program (Toronto Rehab Rumsey Centre, 347 Rumsey Rd + Toronto Western GoodLife Fitness unit, 399 Bathurst St; parceria Peter Munk Cardiac Centre); KITE Research Institute",
+   "chefe": "Paul Oh, MD, FRCPC – Medical Director e GoodLife Fitness Chair in Cardiovascular Rehabilitation and Prevention (fontes até 2022; atualidade 2026 não confirmada)",
+   "fellowship": "não encontrado",
+   "volume": "~2.600 pacientes/ano (2015); opções híbrida e totalmente virtual (folheto abr/2022)",
+   "fontes": [
+    {"url": "https://www.uhnresearch.ca/researcher/paul-oh", "trecho": "Medical Director of the Cardiovascular Prevention and Rehabilitation Program ... Senior Scientist at KITE"},
+    {"url": "https://esc365.escardio.org/person/725189", "trecho": "Medical Director and GoodLife Fitness Chair ... UHN – Toronto Rehab and Peter Munk Cardiac Centre"},
+    {"url": "https://www.uhn.ca/PMCC/About/Globe_Mail/Pages/cardiac_rehab_importance_globe-2015.aspx", "trecho": "about 2,600 people annually"},
+    {"url": "https://www.uhn.ca/PatientsFamilies/Health_Information/Health_Topics/Documents/PMCC_Cardiac_Rehabilitation_and_Prevention_Program.pdf", "trecho": "Rumsey Centre and Toronto Western ... hybrid and virtual"}
+   ],
+   "certeza": "provável (cargo de Oh sem fonte de 2025–2026)"
+  },
+  "pessoas_chave": [
+   {"nome": "Paul Oh, MD, FRCPC", "cargo": "Medical Director, Cardiovascular Prevention and Rehabilitation Program; Senior Scientist KITE", "por_que": "decide/hospeda", "fonte": "https://www.uhnresearch.ca/researcher/paul-oh"},
+   {"nome": "Gabriela Lima de Melo Ghisi, PhD", "cargo": "Affiliate Scientist, KITE/Toronto Rehab; Assistant Professor, Temerty Faculty of Medicine (UofT); Chair do ICCPR", "por_que": "BRASILEIRA; lidera educação do paciente (Cardiac College); ponte ideal", "fonte": "https://kite-uhn.com/news/gabriela-ghisi-qanda"},
+   {"nome": "Sherry L. Grace, PhD", "cargo": "pesquisadora KITE/Toronto Rehab e York University (listada como director of research do programa — fonte antiga)", "por_que": "líder de pesquisa global em reabilitação cardíaca; muitas colaborações com Brasil", "fonte": "https://kite-uhn.com/news/Cardiac-spotlight-grace"},
+   {"nome": "Caroline Chessex, MD", "cargo": "citada como clinical director (fonte antiga, não confirmado atual)", "por_que": "gestão clínica", "fonte": "https://expertfile.com/experts/drpaul.oh"}
+  ],
+  "brasileiros": [
+   {"nome": "Gabriela Lima de Melo Ghisi", "evidencia": "KITE: 'is originally from Brazil and is now a member of KITE's cardiorespiratory team as well as an assistant professor at Temerty Faculty of Medicine'; estudos prévios com Universidade do Estado de Santa Catarina (UDESC)", "fonte": "https://kite-uhn.com/news/gabriela-ghisi-qanda", "certeza": "confirmado"}
+  ],
+  "pontes_unifesp_sp": {
+   "detalhe": "Forte ponte com o Brasil, mas não com SP: ensaio clínico randomizado em Belo Horizonte (UFMG) publicado no Heart (Chaves GSS, Ghisi GLM, Grace SL et al.; 115 pacientes, 2015–2017); survey nacional de disponibilidade de RC no Brasil (Braz J Phys Ther, 2019, UFMG + Instituto de Cardiologia de Santa Catarina); estudos de barreiras (Vasc Health Risk Manag 2013) e conhecimento de DAC Brasil x Canadá (Arq Bras Cardiol 2013). Coautoria com Unifesp/USP/InCor/Dante: não encontrado.",
+   "fontes": ["https://heart.bmj.com/content/105/5/406", "https://repositorio.ufmg.br/bitstream/1843/41157/2/Cardiac%20rehabilitation%20availability%20and%20delivery%20in%20Brazil.pdf", "https://www.dovepress.com/perceptions-of-barriers-to-cardiac-rehabilitation-use-in-brazil-peer-reviewed-fulltext-article-VHRM"],
+   "certeza": "confirmado (Brasil); SP não encontrado"
+  },
+  "pesquisa_recente": {
+   "itens": [
+    {"titulo": "Avaliação multicêntrica mista do Cardiac College for Women (educação em reabilitação cardíaca para mulheres) – Carson, Grace, Bomtempo, Hebert, Ross, Oh, Ghisi", "ano": 2024, "revista": "Front Cardiovasc Med", "doi": "10.3389/fcvm.2024.1430268"},
+    {"titulo": "Desenvolvimento de recursos de reabilitação cardiovascular personalizados para mulheres (Ghisi et al.)", "ano": 2023, "revista": "Heart & Lung", "id": "não encontrado"},
+    {"titulo": "Estudo HERACLES – 1.000 pacientes com Apple Watch e desfechos de longo prazo (KITE)", "ano": "em andamento", "id": "não encontrado", "fonte": "https://www.uhnresearch.ca/news/uhn-empowering-women-heart-health"}
+   ],
+   "certeza": "confirmado (DOI do Frontiers apareceu no resultado)"
+  },
+  "dicas": [
+   "UHN tem escritório central de observership (observerships@uhn.ca), mas exige faculty UHN que aceite — conseguir o 'sim' do Dr. Oh ou da Dra. Ghisi primeiro.",
+   "Em fev/2025 equipe de North Bay treinou no Rumsey Centre — o programa já recebe visitantes para aprender o modelo (https://www.hospitalnews.com/uhn-helps-launch-first-cardiac-rehab-clinic-in-north-bay/).",
+   "Ghisi preside o ICCPR (International Council of Cardiovascular Prevention and Rehabilitation) — rede global; Cardiac College é gratuito e multilíngue.",
+   "Para cirurgia cardiovascular/cardiologia clínica pura, considerar combinar com Peter Munk Cardiac Centre (mesma UHN, mesmo escritório)."
+  ],
+  "rota_recomendada": "1) E-mail em português/inglês à Dra. Gabriela Ghisi (brasileira, KITE) citando o artigo Frontiers 2024 e o ensaio de BH, pedindo apoio para observar o programa de reabilitação; 2) com o aceite dela ou do Dr. Paul Oh, aplicar no UHN Observership Program (observerships@uhn.ca, formulário online, vacinas, taxa ~CA$175).",
+  "alerta_correcao": "Paul Oh como Medical Director só tem fontes até 2022; confirmar atualidade. Afiliação de Ghisi é 'Affiliate Scientist' (UHN Foundation em fev/2024 dizia que ela estava 'completing her work' no KITE)."
+ }
+]

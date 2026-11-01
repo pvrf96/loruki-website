@@ -1,0 +1,1115 @@
+{
+ "atualizado": "2026-11-01",
+ "polos": [
+  {
+   "match": "Oklahoma Heart Hospital",
+   "alerta": "Nenhuma evidência de programa de observership; polo de baixa acessibilidade.",
+   "rota": [
+    "Baixa prioridade: preferir centros acadêmicos com programa formal",
+    "Se insistir, contato via formulário do okheart.com dirigido ao Dr. Goya Raikar ou Dr. Cheatham",
+    "Pedir 2–4 semanas observando Convergent/Cox-Maze IV",
+    "Oferecer de antemão seguro, vacinas e visto B1/B2"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Hospital privado de propriedade médica, sem GME acadêmico visível; nenhuma página de observership para estrangeiros. Faz ablação cirúrgica Convergent e Cox-Maze IV.",
+    "url": "https://www.okheart.com/news/surgical-ablation-convergent-and-cox-maze-iv/",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "James E. Cheatham, MD",
+     "cargo": "Chief of Surgery (ambos os campi)",
+     "papel": "Decide quem entra no centro cirúrgico",
+     "url": "https://www.okheart.com/physicians/james-e-cheatham/",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Goya V. Raikar, MD",
+     "cargo": "Director of Cardiovascular Surgery, campus South",
+     "papel": "Diretor cirúrgico; vínculo com Maze provável",
+     "url": "https://www.okheart.com/news/new-director-of-cardiothoracic-surgery-joins-ohh-south-from-mayo-clinic/",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Alice Le Huu, MD, FRCSC",
+     "cargo": "Cardiothoracic surgeon (desde jun/2024)",
+     "papel": "Formação internacional (Canadá); possivelmente receptiva",
+     "url": "https://www.okheart.com/physicians/le-huu-alice/",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Steven D. Miller, MD",
+     "cargo": "Cardiothoracic surgeon, campus South",
+     "papel": "Equipe cirúrgica",
+     "url": "https://www.okheart.com/physicians/steven-d-miller/",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Paul J. Garabelli, MD, FHRS",
+     "cargo": "Electrophysiologist, campus South",
+     "papel": "Lado EP do Convergent (parceria não confirmada)",
+     "url": "https://upbeat.org/specialist/paul-j-garabelli-md-fhrs/",
+     "certeza": "provável"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "Não confundir com o Oklahoma Heart Institute (Tulsa), outra instituição",
+    "Sem escritório de educação internacional identificado"
+   ],
+   "lacunas": [
+    "Programa de observership",
+    "Brasileiros e pontes com SP",
+    "Artigos 2022–2026 em ablação cirúrgica",
+    "Volume de cirurgias"
+   ]
+  },
+  {
+   "match": "Austin Hospital",
+   "alerta": "O IMG Observership institucional é longo e voltado à migração para a Austrália, não a estágio de 1 mês.",
+   "rota": [
+    "E-mail a A/Prof Seevanayagam citando RAPCO/radial bilateral e interesse em TAR, pedindo observership honorário de 4 semanas",
+    "Pedir apresentação a Fabiano Viana (ex-fellow, formação USP/InCor)",
+    "Se aceitarem, alinhar o trâmite com o Medical Workforce/IMG Program do Austin"
+   ],
+   "prazos": [
+    {
+     "txt": "IMG Training Program com inscrições fechadas na última consulta",
+     "url": "https://www.austin.org.au/img-program",
+     "certeza": "confirmado"
+    }
+   ],
+   "programa": {
+    "resumo": "Existe o IMG Observership (Honorary Clinical Observer), mas para médicos estrangeiros que querem entrar no sistema australiano (8–12 meses); para 1 mês, o caminho é convite direto do diretor.",
+    "url": "https://www.austin.org.au/img-program",
+    "duracao": "Conflitante entre páginas (10 semanas em 8 meses; 12 meses)",
+    "documentos": "Visto de visitante; checar Working with Children/vacinas com o hospital",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "A/Prof Siven Seevanayagam",
+     "cargo": "Director, Buxton Cardiac & Thoracic Aortic Surgery Unit",
+     "papel": "Decide e hospeda; interesse em revascularização arterial total",
+     "url": "https://austinhealthrecruiting.blob.core.windows.net/pds/DataManager_PD_Nov_2025.pdf",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "A/Prof George Matalanis",
+     "cargo": "Director of Thoracic Aortic Surgery",
+     "papel": "Líder sênior; fellowships aórticas",
+     "url": "https://anzscts.arinex.one/speakers/george-matalanis",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [
+    {
+     "nome": "Fabiano F. Viana, MD, FRACS",
+     "ligacao": "Formação USP (cirurgia CV) e fellowship InCor 2005; Cardiac Surgery Fellow (Aortic) no Austin 2010–2011",
+     "url": "https://ctsnet.org/home/ffviana",
+     "certeza": "confirmado"
+    }
+   ],
+   "artigos": [
+    {
+     "titulo": "Association between bilateral radial artery grafting and long-term survival after coronary artery bypass surgery",
+     "ano": 2026,
+     "id": "PMID 42604366",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/42604366/"
+    },
+    {
+     "titulo": "Graft Patency and Clinical Outcomes in Patients With Radial Artery Grafts Previously Instrumented for Cardiac Catheterization",
+     "ano": 2024,
+     "id": "PMID 38973456",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/38973456/"
+    },
+    {
+     "titulo": "RAPCO: resultados de longo prazo do ensaio de enxerto radial (Circulation)",
+     "ano": 2020,
+     "id": null,
+     "url": "https://www.austin.org.au/improvingcoronarybypasssurvival"
+    }
+   ],
+   "dicas": [
+    "Unidade leva o nome de Brian Buxton, pioneiro de TAR/RAPCO: citar RAPCO e enxerto radial no e-mail",
+    "Seevanayagam é o hiring manager publicado nas vagas da unidade"
+   ],
+   "lacunas": [
+    "Taxa do programa",
+    "Volume da unidade",
+    "Coautorias Austin com Unifesp/InCor/Dante",
+    "Afiliação Austin dos artigos 2024/2026 é provável"
+   ]
+  },
+  {
+   "match": "Royal Melbourne Hospital",
+   "alerta": "Chefia atual da cirurgia cardíaca indefinida (recrutamento de novo diretor); URL do radar é registro de ensaio, não página do hospital.",
+   "rota": [
+    "E-mail ao Prof Alistair Royse citando a JACC Review 2022 e o ensaio TA, pedindo 4 semanas como observer em TAR",
+    "Perguntar à secretaria da unidade o procedimento de honorary observer",
+    "Considerar a via University of Melbourne (Dept of Surgery) como visiting"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Nenhuma página de observership; só vagas pagas de registrar/fellow e HMO-IMG. Unidade com >500 casos/ano e foco em enxerto arterial.",
+    "url": "https://careers.thermh.org.au/job/2027-Cardiac-Surgery-Registrar-Unaccredited/7057-en_GB/",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Prof Alistair Royse",
+     "cargo": "Cardiothoracic surgeon; PI do ensaio TA (MRFF)",
+     "papel": "Lidera a pesquisa em revascularização arterial total; melhor alvo",
+     "url": "https://www.thermh.org.au/news/research-grant-awarded-to-progress-treatment-of-heart-disease",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Prof James Tatoulis",
+     "cargo": "Director of Cardiothoracic Surgery (perfil possivelmente desatualizado)",
+     "papel": "Referência mundial em TAR/radial",
+     "url": "https://specialists.healthscope.com.au/specialist/james-tatoulis-med0001022917",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Peter Skillington",
+     "cargo": "Deputy Director, Cardiothoracic Unit",
+     "papel": "Liderança da unidade",
+     "url": "https://specialists.healthscope.com.au/specialist/peter-skillington-med0001069193",
+     "certeza": "provável"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "Coronary Artery Bypass Surgery Without Saphenous Vein Grafting: JACC Review Topic of the Week",
+     "ano": 2022,
+     "id": "PMID 36328694",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/36328694/"
+    },
+    {
+     "titulo": "Long-Term Survival Advantage of Total Arterial Revascularization in Elderly Patients Following CABG (JACC: Advances)",
+     "ano": 2025,
+     "id": "PMID 41065621",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/41065621/"
+    },
+    {
+     "titulo": "Estudo JACC RMH/UniMelb: CABG sem safena com 23% menos mortalidade em 8 anos",
+     "ano": null,
+     "id": null,
+     "url": "https://www.thermh.org.au/news/research-grant-awarded-to-progress-treatment-of-heart-disease"
+    }
+   ],
+   "dicas": [
+    "Gancho: ensaio randomizado nacional TA (arterial total vs safena) financiado pelo MRFF",
+    "Uso de radial na RMH subiu de 5% para 85% em 1997",
+    "Grupo de enxertos arteriais da UniMelb pode ser porta acadêmica: https://medicine.unimelb.edu.au/research-groups/surgery-research/ultrasound-education-group/arterial-grafting-for-coronary-artery-revascularisation"
+   ],
+   "lacunas": [
+    "Programa de observership e contato oficial de inscrição",
+    "Diretor atual da cirurgia cardíaca",
+    "Brasileiros e pontes com SP"
+   ]
+  },
+  {
+   "match": "Apollo Hospitals Greams Road",
+   "alerta": "URL do radar (ISMICS 2025) não confirmada; ISMICS 2026 lista MIDCAB da Apollo Kolkata, não Chennai.",
+   "rota": [
+    "Contatar o setor acadêmico da Apollo pedindo International Observership de 4 semanas na cirurgia cardiotorácica de Greams Road",
+    "E-mail ao autor correspondente do PMID 38125327 citando o programa robótico de TAR",
+    "Pedir carta-convite para visto"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "A Apollo cita genericamente 'International Observership' entre oportunidades acadêmicas, sem detalhes para a cirurgia cardíaca. Alto volume e TAR off-pump/robótico (autodeclarado).",
+    "url": "https://apollohospitals.com/academics-research/courses/medical/fellowship",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Dr. M R Girinath",
+     "cargo": "Head of Department (CABG), segundo agregador",
+     "papel": "Figura sênior da cirurgia cardíaca Apollo Chennai",
+     "url": "https://medigence.com/hospital/procedure/apollo-hospital/cabg",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Dr. L F Sridhar",
+     "cargo": "Cardiothoracic and Vascular Surgeon, Greams Road",
+     "papel": "Cirurgião do campus",
+     "url": "https://www.apollo247.com/procedures/coronary-artery-bypass-grafting-surgery-doctors?page=4",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Dr. Madan Kumar K",
+     "cargo": "CTVS surgeon, Greams Lane",
+     "papel": "Cirurgião do campus (CABG, ECMO, VAD)",
+     "url": "https://www.logintohealth.com/amp/cardiovascular-and-thoracic-surgeon/madan-kumark",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Dr. Dillip Kumar Mishra",
+     "cargo": "Senior Consultant (CABG)",
+     "papel": "Cirurgião sênior",
+     "url": "https://medigence.com/hospital/procedure/apollo-hospital/cabg",
+     "certeza": "provável"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "Total arterial revascularization using robot assisted minimally invasive coronary artery bypass: an Indian experience",
+     "ano": 2024,
+     "id": "PMID 38125327",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/38125327/"
+    },
+    {
+     "titulo": "Coronary-to-coronary bypass grafting in aortoarteritis: a case report",
+     "ano": 2022,
+     "id": "PMID 36050980",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/36050980/"
+    }
+   ],
+   "dicas": [
+    "Programa robótico de TAR (RA-MIDCAB) é o gancho: alto volume e técnica rara no Brasil",
+    "Volume autodeclarado: >1,55 lakh cirurgias cardíacas acumuladas",
+    "Custo de vida baixo"
+   ],
+   "lacunas": [
+    "Taxa, duração e documentos do observership",
+    "Chefe atual do serviço (só agregador)",
+    "Brasileiros e pontes com SP"
+   ]
+  },
+  {
+   "match": "MIOT International",
+   "alerta": "Programa segue não confirmado; cargo de Vijit Cherian vem de perfil CTSNet sem data.",
+   "rota": [
+    "Contatar o escritório internacional pelo site pedindo encaminhamento à Cirurgia Cardiotorácica (Dr. Vijit Cherian, confirmar cargo)",
+    "Propor 4 semanas observando TAR com BIMA/radial",
+    "Anexar carta da COREME/Unifesp e CV",
+    "Prioridade baixa"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Sem programa público de observership; o DNB credenciado é para médicos indianos. Pedido terá de ser ad hoc ao diretor de cirurgia.",
+    "url": "https://www.miotinternational.com/programmes-education/education/pg-courses-dnb/",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Vijit Cherian",
+     "cargo": "Director, Dept of Cardiothoracic Surgery (CTSNet)",
+     "papel": "Provável decisor/anfitrião em TAR",
+     "url": "https://www.ctsnet.org/members/vijit-cherian/",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Prithvi Mohandas",
+     "cargo": "Managing Director, MIOT International",
+     "papel": "Direção institucional; parcerias internacionais",
+     "url": "https://nation.sc/articles/25236/exclusive-interview-with-dr-prithvi-mohandas-managing-director-of-miot-international",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "Forte braço de turismo médico/parcerias internacionais: o escritório internacional tende a ser o canal mais responsivo (https://www.miotinternational.com/mhic-seychelles)",
+    "Volume autodeclarado: >1.000 cirurgias/ano",
+    "Foco declarado: TAR com BIMA e radial de rotina (https://www.miotinternational.com/total-arterial-revascularization/)"
+   ],
+   "lacunas": [
+    "Programa, elegibilidade, taxa e e-mail de ensino",
+    "Brasileiros e pontes com SP",
+    "Artigos 2022–2026 em CABG/TAR"
+   ]
+  },
+  {
+   "match": "Seoul National University Hospital",
+   "alerta": "URL do radar (sessão JCS/KCS) não é da SNUH; programa passa de não confirmado para confirmado (https://snuh.org/global/en/education/EN04001001.do).",
+   "rota": [
+    "Candidatar-se ao International Fellowship Program (Observational) via 02903@snuh.org com os 4 formulários + licença e vínculo em inglês",
+    "Pedir 4 semanas na cardiologia intervencionista ou cirurgia CV",
+    "Em paralelo, e-mail ao Prof. Bon-Kwon Koo (ou Ho Young Hwang, se cirurgia) pedindo aceite como supervisor"
+   ],
+   "prazos": [
+    {
+     "txt": "Inscrições o ano todo; mínimo 1 mês, máximo 1 ano",
+     "url": "https://snuh.org/global/en/education/EN04001001.do",
+     "certeza": "confirmado"
+    }
+   ],
+   "programa": {
+    "resumo": "International Fellowship Program (Observational) para 'Medical Doctors', o ano todo; aceitação de residente não detalhada (provavelmente elegível com CRM ativo).",
+    "url": "https://snuh.org/global/en/education/EN04001001.do",
+    "contato": "02903@snuh.org",
+    "taxa": "Programa patrocinado com auxílio de 60.000 KRW/dia (critério de concessão não detalhado)",
+    "duracao": "1 mês a 1 ano",
+    "documentos": "Application form, recommendation form, study plan, commitment form, licença médica e certificado de vínculo em inglês",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Bon-Kwon Koo",
+     "cargo": "Interventional cardiologist, SNUH Cardiovascular Center",
+     "papel": "Líder mundial em fisiologia coronária (FLAVOUR, FLAVOUR II)",
+     "url": "https://www.pcronline.com/Physicians/Bon-Kwon-Koo",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Kyung Woo Park",
+     "cargo": "Cardiologist, SNUH",
+     "papel": "Lidera ensaios HOST de stent/antiplaquetário",
+     "url": "https://clinicaltrials.gov/study/NCT01267734",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Hyo-Soo Kim",
+     "cargo": "Cardiologist, SNUH",
+     "papel": "Liderança histórica em intervenção coronária",
+     "url": "https://rankless.org/authors/bonkwon-koo",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Ho Young Hwang",
+     "cargo": "Cardiothoracic surgeon, SNUH",
+     "papel": "PI de ensaios de CABG com enxerto composto em Y",
+     "url": "https://trials.co/clinical-trials-details/-/NCT05704296",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Ki-Bong Kim",
+     "cargo": "Cardiothoracic surgeon, SNUH",
+     "papel": "Escola SNUH de enxertos compostos a partir da ATI in situ",
+     "url": "https://www.annalscts.com/article/view/16511/html",
+     "certeza": "provável"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "FLAVOUR II: angiography-derived FFR vs IVUS para guiar PCI (Lancet)",
+     "ano": 2025,
+     "id": "10.1016/S0140-6736(25)00504-5",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/40174597/"
+    },
+    {
+     "titulo": "Coronary Physiology-Based Approaches for Plaque Vulnerability (Yang S, Koo BK; Korean Circ J)",
+     "ano": 2023,
+     "id": null,
+     "url": "https://koreascience.or.kr/article/JAKO202322257649684.page"
+    },
+    {
+     "titulo": "Arterial composite grafting baseado na LITA in situ: resultados precoces, 1 ano e tardios (J Chest Surg 2023;56(5):313-321)",
+     "ano": 2023,
+     "id": null,
+     "url": "https://koreascience.kr/article/JAKO202326455356268.pdf"
+    }
+   ],
+   "dicas": [
+    "Melhor encaixe formal da onda: programa estruturado, ano todo, mínimo 1 mês, inscrição por e-mail",
+    "Use o study plan para citar fisiologia coronária (Koo) ou enxerto composto (Hwang)",
+    "Gancho cirúrgico: ensaio randomizado ativo NCT05704296 (290 pacientes)",
+    "Não confundir com o SNU Bundang Hospital (regras próprias)"
+   ],
+   "lacunas": [
+    "Antecedência, vacinas, seguro e visto",
+    "Chefes atuais da cardiologia e da cirurgia",
+    "Volume do serviço",
+    "Brasileiros e pontes com SP"
+   ]
+  },
+  {
+   "match": "Kishiwada Tokushukai Hospital",
+   "alerta": "Não confundir com o Kishiwada City Hospital (CREDO-Kyoto); CABG isolado ~94/ano é volume modesto.",
+   "rota": [
+    "Contato pelo International Medical Support Office/página de Advanced Clinical Training pedindo observação de 4 semanas",
+    "Endereçar ao Dr. Kuroyanagi (OPCAB) ou Dr. Fujita (PCI/TAVI)",
+    "Pedir modalidade só de observação (sem licença MHLW) e prazos"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Hospital designado para treinamento de médicos estrangeiros (Advanced Clinical Training Programs); atos práticos exigem licença do MHLW, observação pura tende a ser mais simples (provável).",
+    "url": "https://kishiwada.tokushukai.or.jp/en/?p=196",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Satoshi Kuroyanagi",
+     "cargo": "President (2024–) e Chief of Cardiovascular Surgery",
+     "papel": "Decide e lidera o CABG off-pump; alvo para cirurgia",
+     "url": "https://kishiwada.tokushukai.or.jp/en/about/leadership/satoshi-kuroyanagi/",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Hiroshi Fujita",
+     "cargo": "Vice President · Chief of Cardiology",
+     "papel": "Anfitrião para PCI/TAVI; alvo para cardiologia",
+     "url": "https://kishiwada.tokushukai.or.jp/en/about/leadership/hiroshi-fujita/",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "Hospital privado (grupo Tokushukai) com site em inglês e escritório internacional: tende a ser mais ágil que universidade pública",
+    "Gancho: off-pump em 83% dos CABG isolados (2023) e 500 PCI/149 TAVI em 2024 (https://kishiwada.tokushukai.or.jp/en/?p=373)",
+    "Pedir 'observation only' de 4 semanas evita o processo de licença (provável)"
+   ],
+   "lacunas": [
+    "Taxa, duração, documentos e e-mail do programa",
+    "Artigos do serviço (CREDO-Kyoto é de outra instituição)",
+    "Brasileiros e pontes com SP"
+   ]
+  },
+  {
+   "match": "Nagasaki University Hospital",
+   "alerta": "Arritmia cirúrgica é fraca como diferencial: o serviço publica sobretudo em valvar; chefe atual não confirmado.",
+   "rota": [
+    "Contato com o International Medical Center pedindo observação de 4 semanas na Cirurgia Cardiovascular (maze, mitral com ablação concomitante)",
+    "Antes, confirmar o professor atual no relatório 2024 do serviço",
+    "Pedir observação sem atos clínicos",
+    "Prioridade baixa para arritmia cirúrgica pura"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "O International Medical Center trata de programas de treinamento; há registro de observadores estrangeiros em 2022 e 2025, mas regras não publicadas.",
+    "url": "https://www.mh.nagasaki-u.ac.jp/imc/en",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Kiyoyuki Eishi",
+     "cargo": "Professor of Cardiovascular Surgery (confirmado até ~2021)",
+     "papel": "Líder histórico do serviço; cargo atual incerto",
+     "url": "https://www.med.nagasaki-u.ac.jp/surg-crd/research/data/2021shinge.pdf",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Takashi Miura",
+     "cargo": "Cirurgião/pesquisador, Cirurgia Cardiovascular (posto não confirmado)",
+     "papel": "Pesquisa em plastia valvar tricúspide",
+     "url": "https://nrid.nii.ac.jp/nrid/1000080349745",
+     "certeza": "provável"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "Artigo em General Thoracic and Cardiovascular Surgery com Miura T e Eishi K (tema provavelmente valvar)",
+     "ano": 2024,
+     "id": "10.1007/s11748-024-02024-y",
+     "url": "https://nrid.nii.ac.jp/nrid/1000080349745"
+    }
+   ],
+   "dicas": [
+    "Serviço oferece maze e clip de apêndice atrial esquerdo (https://www.med.nagasaki-u.ac.jp/surg-crd/patients/data/heartsurgery.pdf)",
+    "Alternativa no Japão para arritmia cirúrgica: Takashi Nitta (Japanese Society for Arrhythmia Surgery)",
+    "Universidade pública: esperar processo burocrático longo"
+   ],
+   "lacunas": [
+    "E-mail, taxa, duração e documentos do programa",
+    "Chefe atual do serviço",
+    "Volume de maze",
+    "Brasileiros e pontes com SP"
+   ]
+  },
+  {
+   "match": "OLVG",
+   "alerta": "Não há fonte atual de que o OLVG seja centro de treinamento Maze IV (vínculo vem de notícia AtriCure de 2013); não confundir com a Amsterdam UMC.",
+   "rota": [
+    "Prioridade baixa",
+    "Alternativa: curso Maze IV/ablação concomitante da AtriCure Europe",
+    "Se insistir, e-mail genérico à Cardiothoracale Chirurgie do OLVG perguntando se aceitam observer",
+    "Para Maze em Amsterdã, avaliar a Amsterdam UMC"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Sem página de observership do OLVG. A porta documentada é o Maze IV Program da AtriCure Europe (curso de 1 dia em cadáver, para cirurgiões que já fazem cirurgia minimamente invasiva).",
+    "url": "https://europe.atricure.com/sites/default/files/pdf-doc/PE-EU-4530B-1226-G%20ProfEd%20Brochure%202026.pdf",
+    "duracao": "1 dia (curso AtriCure)",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "W. Stooker",
+     "cargo": "Cardiothoracic surgeon, OLVG Oost",
+     "papel": "Staff; papel em ablação não documentado",
+     "url": "https://www.zorgkaartnederland.nl/zorgverlener/cardiothoracaal-chirurg-stooker-w-129047",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "V. G. Hindori",
+     "cargo": "Cardiothoracic surgeon, OLVG",
+     "papel": "Staff",
+     "url": "https://www.zorgkaartnederland.nl/zorgverlener/cardiothoracaal-chirurg-hindori-v-g-315457",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "A. Yazdanbakhsh",
+     "cargo": "Cardiothoracic surgeon, OLVG",
+     "papel": "Staff",
+     "url": "https://www.zorgkaartnederland.nl/zorgverlener/cardiothoracaal-chirurg-yazdanbakhsh-a-278464",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "P. Symersky",
+     "cargo": "Cardiothoracic surgeon, OLVG",
+     "papel": "Staff",
+     "url": "https://www.zorgkaartnederland.nl/zorgverlener/cardiothoracaal-chirurg-symersky-p-286844",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "Há sobreposição de staff entre OLVG Oost e Amsterdam UMC/AMC",
+    "Departamento Cardiothoracale Chirurgie existe no organograma de jul/2025"
+   ],
+   "lacunas": [
+    "Programa de observership do OLVG",
+    "Chefe e volume do serviço",
+    "Artigos 2022–2026 em ablação cirúrgica",
+    "Brasileiros e pontes com SP"
+   ]
+  },
+  {
+   "match": "Sana Herzchirurgie Stuttgart",
+   "alerta": "A Sana Herzchirurgie foi integrada ao Klinikum Stuttgart (Herzzentrum, Herdweg 2), hoje chefiado pelo Prof. Joerg Seeburger; o status de centro Maze IV é de 2013.",
+   "rota": [
+    "Confirmar com o Sekretariat Herzchirurgie do Klinikum Stuttgart se aceitam Hospitation de residente estrangeiro",
+    "Perguntar quem lidera hoje a ablação cirúrgica/híbrida",
+    "E-mail ao Prof. Seeburger citando o histórico do centro (Maze IV, CEASE-AF)",
+    "Alternativa: curso Maze IV da AtriCure Europe"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Sem página de observership; na Alemanha a porta é a Hospitation combinada com o secretariado do Chefarzt, sem regras publicadas para estrangeiros.",
+    "url": "https://www.menoldbezler.de/en/press/klinikum-stuttgart-takes-over-specialised-clinics-and-mvz-with-menold-bezler",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Prof. Joerg Seeburger",
+     "cargo": "Ärztlicher Direktor und Chefarzt Herzchirurgie, Klinikum Stuttgart",
+     "papel": "Decide sobre visitantes",
+     "url": "https://aerztestellen.aerzteblatt.de/de/stellen/oberarzt/herzchirurgie/stuttgart/klinikum-stuttgart",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "Chirurgische endoskopische Ablation des isolierten Vorhofflimmerns: 5-Jahres-Ergebnisse (tese)",
+     "ano": 2020,
+     "id": null,
+     "url": "https://core.ac.uk/download/334517886.pdf"
+    }
+   ],
+   "dicas": [
+    "Esperar exigência de alemão ou inglês e de vacinas",
+    "Após a integração, pedidos tendem a passar pela gestão do hospital municipal",
+    "Serviço com 66 leitos"
+   ],
+   "lacunas": [
+    "Programa/Hospitation para estrangeiros",
+    "Líder atual da ablação cirúrgica/híbrida",
+    "Volume do serviço",
+    "Brasileiros e pontes com SP"
+   ]
+  },
+  {
+   "match": "Boston Medical Center — BU Amyloidosis Center",
+   "alerta": null,
+   "rota": [
+    "Pedido pelo formulário oficial 'Observership Requests' da BU Hematology/Amyloidosis, com foco em cardioamiloidose",
+    "Em paralelo, e-mail ao Dr. Ruberg ou Dr. Siddiqi citando o artigo de 2024 sobre perda do cromossomo Y e o SCAN-MP",
+    "Fazer antes o ARC Masterclass (CME on demand)",
+    "Médio prazo: ISA Fellowship com mentor na BU"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "O site da Hematologia/Amiloidose da BU tem link 'Observership Requests' e o centro recebe visitantes todo ano; termos e elegibilidade de estrangeiro não verificados.",
+    "url": "https://www.bumc.bu.edu/hematology/amyloidosis",
+    "contato": "Formulário 'Observership Requests' (menu de https://www.bumc.bu.edu/hematology/amyloidosis)",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Frederick L. Ruberg, MD",
+     "cargo": "Chief of Cardiovascular Medicine BMC; co-PI do SCAN-MP",
+     "papel": "Líder da cardioamiloidose; melhor alvo para cardiologia",
+     "url": "https://www.bumc.bu.edu/busm/profile/frederick-ruberg",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Vaishali Sanchorawala, MD",
+     "cargo": "Director, Amyloidosis Center",
+     "papel": "Dirige o centro",
+     "url": "https://www.bmc.org/about-us/directory/doctor/vaishali-sanchorawala-md",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Omar K. Siddiqi, MD",
+     "cargo": "Attending, Amyloidosis Center; diretor de cardio-oncologia BMC",
+     "papel": "Cardiologista do ambulatório de amiloidose",
+     "url": "https://www.bu.edu/amyloid/?p=4960",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "John L. Berk, MD",
+     "cargo": "Assistant Director, Amyloidosis Center",
+     "papel": "Coordena o centro",
+     "url": "https://www.bumc.bu.edu/camed/profile/john-berk/",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "Mosaic Loss of the Y Chromosome Is Enriched in Patients With Wild-Type Transthyretin Cardiac Amyloidosis and Associated With Increased Mortality (Circ Heart Fail)",
+     "ano": 2024,
+     "id": "10.1161/CIRCHEARTFAILURE.124.011681",
+     "url": "https://doi.org/10.1161/CIRCHEARTFAILURE.124.011681"
+    },
+    {
+     "titulo": "Revisão sobre patogênese e tratamento da amiloidose no NEJM (BU)",
+     "ano": 2024,
+     "id": null,
+     "url": "https://www.bumc.bu.edu/camed/news-events/articles/2024/review-of-pathogenesis-research-and-treatment-of-amyloidosis-published-in-new-england-journal-of-medicine/"
+    }
+   ],
+   "dicas": [
+    "ARC Masterclass da BU (CME, on demand): https://cme.bu.edu/node/921",
+    "Research Fellowship in Cardiac Amyloidosis (SCAN-MP) para início de carreira: https://www.bumc.bu.edu/scan-mp/training/amyloid-research-fellowship",
+    "ISA Fellowship exige mentor e concordância do anfitrião, até US$125 mil: https://isaamyloidosis.org/fellowships"
+   ],
+   "lacunas": [
+    "Termos, taxa e documentos do observership",
+    "Volume do centro",
+    "Brasileiros e pontes com SP (fellow InCor no ISA sem centro anfitrião confirmado)"
+   ]
+  },
+  {
+   "match": "Royal Free — National Amyloidosis Centre",
+   "alerta": "URL do radar é notícia de inauguração de RM; a página oficial é https://www.ucl.ac.uk/amyloidosis/national-amyloidosis-centre/.",
+   "rota": [
+    "E-mail curto à Prof. Fontana (contato publicado na UCL/NAC) pedindo attachment de observer de 4 semanas em cardioamiloidose",
+    "Citar o HELIOS-B e o uso do estadiamento NAC no HC-FMUSP/InCor",
+    "Pedir ao Royal Free/UCL o processo de honorary observer",
+    "Médio prazo: ISA Fellowship com o NAC como anfitrião ou Clinical Research Fellow"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Sem programa público de observer no NAC/Royal Free; só vagas remuneradas de Clinical Fellow (1 ano) e Clinical Research Fellow com PhD (3 anos).",
+    "url": "https://findajob.dwp.gov.uk/details/16660005",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Prof. Marianna Fontana",
+     "cargo": "Cardiologist, NAC/UCL",
+     "papel": "Lidera cardioamiloidose e RM cardíaca; primeira autora do HELIOS-B",
+     "url": "https://discovery.ucl.ac.uk/id/eprint/10214948/1/ehaf667.pdf",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Prof. Julian Gillmore",
+     "cargo": "NAC/UCL",
+     "papel": "Liderança clínica; primeiro autor do ATTRibute-CM",
+     "url": "https://findajob.dwp.gov.uk/details/15713005",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Prof. Ashutosh Wechalekar",
+     "cargo": "NAC/UCL (AL amyloidosis)",
+     "papel": "Contato de vagas do NAC",
+     "url": "https://findajob.dwp.gov.uk/details/16613548",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "Vutrisiran in Patients with Transthyretin Amyloidosis with Cardiomyopathy (HELIOS-B), NEJM",
+     "ano": 2024,
+     "id": "10.1056/NEJMoa2409134",
+     "url": "https://doi.org/10.1056/NEJMoa2409134"
+    },
+    {
+     "titulo": "Revisão sobre ATTR-CM no European Heart Journal (autora correspondente Fontana)",
+     "ano": 2025,
+     "id": null,
+     "url": "https://discovery.ucl.ac.uk/id/eprint/10214948/1/ehaf667.pdf"
+    },
+    {
+     "titulo": "Navigating the emerging landscape of asymptomatic ATTR-CM (Porcari et al., Future Cardiology)",
+     "ano": 2025,
+     "id": null,
+     "url": "https://discovery.ucl.ac.uk/id/eprint/10218904/"
+    }
+   ],
+   "dicas": [
+    "Comparação: Imperial tem observership formal em Londres (https://www.imperial.nhs.uk/education/medicine/clinical-observership-programmes)",
+    "Vagas de Clinical Fellow abrem periodicamente no NHS Jobs",
+    "ISA Fellowship pode financiar estágio no NAC com mentor e concordância do centro"
+   ],
+   "lacunas": [
+    "Programa de observer e contato oficial de inscrição",
+    "Chefe do centro",
+    "Volume",
+    "Brasileiros (só ponte indireta de estadiamento, sem coautoria)"
+   ]
+  },
+  {
+   "match": "Hôpital Bicêtre (AP-HP)",
+   "alerta": "O centro de referência de HP fica no serviço de Pneumologia; a cirurgia de CTEPH é no Hôpital Marie-Lannelongue, instituição separada.",
+   "rota": [
+    "Pedir apresentação por Rogério Souza ou Carlos Jardim (InCor), coautores de Humbert",
+    "Escrever a Marc Humbert citando o registro brasileiro de 2015 e o sotatercept",
+    "Com o aceite, formalizar estágio de observação de 1 mês pela DRI da AP-HP (convênio Unifesp–AP-HP)",
+    "Se o foco for cirúrgico, pedir o Marie-Lannelongue (CTEPH)"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Sem página própria do serviço; a AP-HP recebe 'stagiaires d'observation' de fora da UE pela Direction des Relations Internationales (78 em 2024), provavelmente com convenção entre instituições.",
+    "url": "https://www.aphp.fr/nous-connaitre/international/laccueil-des-professionnels-de-sante-etrangers-welcoming-foreign",
+    "duracao": "1 a 3 meses (instrução interministerial de 28/07/2015)",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Marc Humbert",
+     "cargo": "Chef de service de Pneumologie; responsável pelo centro de referência de HP",
+     "papel": "Decide o acolhimento; Grand Prix Inserm 2025",
+     "url": "https://www.aphp.fr/bicetre/service-de-pneumologie",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Olivier Sitbon",
+     "cargo": "Professeur, Bicêtre",
+     "papel": "Lidera pesquisa clínica e o registro francês de HP",
+     "url": "https://www.aphp.fr/pr-sitbon-olivier",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "David Montani",
+     "cargo": "Médico-pesquisador do serviço",
+     "papel": "Pesquisa em PVOD e HP induzida por drogas",
+     "url": "https://www.universite-paris-saclay.fr/actualites/marc-humbert-guerir-lhypertension-pulmonaire",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Laurent Savale",
+     "cargo": "Médico do serviço",
+     "papel": "Coautor de ensaios do centro",
+     "url": "https://www.timc.fr/publication/hal-04526871v1",
+     "certeza": "provável"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "Sotatercept em HAP de alto risco (ZENITH), NEJM/ACC.25",
+     "ano": 2025,
+     "id": null,
+     "url": "https://www.news-medical.net/news/20250416/Promising-findings-for-the-treatment-of-patients-with-pulmonary-arterial-hypertension-with-a-high-risk-of-mortality.aspx"
+    },
+    {
+     "titulo": "Algoritmo para identificar HAP no banco de dados nacional de saúde francês (ERJ Open Research)",
+     "ano": 2024,
+     "id": "PMC11317892",
+     "url": "https://rcastoragev2.blob.core.windows.net/09924c7aa222b0769f6ed2704330299a/00109-2024.PMC11317892.pdf"
+    },
+    {
+     "titulo": "Conseil génétique et dépistage de l'HTAP: consensus internacional (Rev Mal Respir)",
+     "ano": 2023,
+     "id": null,
+     "url": "https://scholarhub.vn/publication/Conseil-g%C3%A9n%C3%A9tique-et-d%C3%A9pistage-de-l-hypertension-art%C3%A9rielle-pulmonaire-consensus-du-Consortium-international-pour-les-%C3%A9tudes-g%C3%A9n%C3%A9tiques-dans-l-HTAP-version-fran%C3%A7aise/5f9ffeb5-d19b-4129-800a-d3238591e2f1"
+    }
+   ],
+   "dicas": [
+    "Serviço é de pneumologia: para cardiologia, enquadrar como hemodinâmica de HP (cateterismo direito) e equipe multidisciplinar",
+    "Gancho: programa de pesquisa em CTEPH financiado em 2024",
+    "Registro francês de HP com >18.000 casos",
+    "E-mail em francês ou inglês, com carta da COREME/Unifesp"
+   ],
+   "lacunas": [
+    "E-mail da DRI, taxa e documentos",
+    "Fellow brasileiro com passagem por Bicêtre",
+    "Ponte com a Unifesp"
+   ]
+  },
+  {
+   "match": "AOU Careggi",
+   "alerta": "A unidade é conjunta UniFi/Careggi/Meyer e o líder (Olivotto) tem afiliação principal recente no Meyer; URL do radar é o anuário do DMSC.",
+   "rota": [
+    "Pedir apresentação via Alexandre C. Pereira (InCor), coautor de Olivotto",
+    "Escrever a Olivotto citando o estudo do mavacamten (doi 10.1002/ejhf.3120)",
+    "Com o aceite, formalizar 'frequenza volontaria' de 1 mês pela Direzione Medica",
+    "Alternativa para amiloidose: Francesco Cappelli"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Sem programa de observership internacional; na Itália existe a 'frequenza volontaria' em estruturas universitárias, autorizada caso a caso com parecer do responsável.",
+    "url": "https://www.aslvco.it/wp-content/uploads/2025/06/2885448.pdf",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Iacopo Olivotto",
+     "cargo": "Professore ordinario di Cardiologia (UniFi); Servizio Cardiomiopatie Careggi; Meyer",
+     "papel": "Decide e hospeda; referência mundial em CMH e mavacamten",
+     "url": "https://fondazione-menarini.com/es/cursos-y-eventos/orador.html/iacopo-olivotto",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Francesco Cappelli",
+     "cargo": "Codiretor da Cardiomyopathy Unit",
+     "papel": "Amiloidose cardíaca/fenocópias",
+     "url": "https://www.dmsc.unifi.it/upload/sub/CV%20Giacomo%20Bonacchi.pdf",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Marta Pieroni",
+     "cargo": "Codiretora da Cardiomyopathy Unit",
+     "papel": "Miocardiopatias/Fabry",
+     "url": "https://www.dmsc.unifi.it/upload/sub/CV%20Giacomo%20Bonacchi.pdf",
+     "certeza": "provável"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "Real-world candidacy to mavacamten in a contemporary hypertrophic obstructive cardiomyopathy population (Eur J Heart Fail)",
+     "ano": 2024,
+     "id": "10.1002/ejhf.3120",
+     "url": "https://iris.uniroma1.it/retrieve/efeae4ec-a1b7-4ec4-8d3c-1d4ce36be62d/Bertero_Real-world-candidacy-to-mavacamten_2024.pdf"
+    },
+    {
+     "titulo": "Remodelamento atrial na CMH e seu papel prognóstico (Frontiers in Cardiovascular Medicine)",
+     "ano": 2025,
+     "id": "10.3389/fcvm.2025.1620313",
+     "url": "https://www.frontiersin.org/articles/10.3389/fcvm.2025.1620313/full"
+    },
+    {
+     "titulo": "Registro HOPS: cerca de metade dos pacientes com CMHO seriam elegíveis ao mavacamten",
+     "ano": 2025,
+     "id": null,
+     "url": "https://air.unimi.it/handle/2434/1174835"
+    }
+   ],
+   "dicas": [
+    "Citar mavacamten e SHaRe/ICON no e-mail",
+    "Centro Regionale di Riferimento para doenças miocárdicas primárias",
+    "Linhas de pesquisa no Annuario 2023 do DMSC: https://www.dmsc.unifi.it/upload/sub/News/2024/Annuario%202023%20stampa.pdf"
+   ],
+   "lacunas": [
+    "Contato da Direzione Medica e requisitos da frequenza volontaria",
+    "Título atual de Olivotto na Careggi",
+    "Volume",
+    "Ponte com Unifesp/Dante"
+   ]
+  },
+  {
+   "match": "Universitätsklinikum Heidelberg — Amyloidose-Zentrum",
+   "alerta": "O Amyloidose-Zentrum fica na Med. Klinik V (hematologia) e a cardiologia da amiloidose na Innere Medizin III/ICH; o programa oficial de visitantes é formação de 6 anos.",
+   "rota": [
+    "Escrever a Hegenbart/Schönland pedindo hospitação de observação de 4 semanas em amiloidose cardíaca",
+    "Pedir rodízio com a cardiologia (aus dem Siepen/Kristen)",
+    "Usar o congresso da ISA para contato pessoal",
+    "Não usar o programa Gastarzt (6 anos, alemão B2)"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "A Innere Medizin III só publica o Gastarzt (formação de 6 anos, exige alemão B2, bolsa e 2 anos de prática); hospitação curta não documentada.",
+    "url": "https://klinikum.uni-heidelberg.de/en/zentrum-fuer-innere-medizin-medizin-klinik/innere-medizin-iii-kardiologie-angiologie-und-pneumologie/lehre/gastarzttaetigkeit-weiterbildung-fuer-das-fach-kardiologie",
+    "duracao": "Gastarzt: 6 anos",
+    "documentos": "Gastarzt: CV, licença, bolsa, alemão B2, visto e entrevista",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Stefan Schönland",
+     "cargo": "Ärztlicher Leiter, Amyloidose-Ambulanz; presidente da ISA",
+     "papel": "Decide o acolhimento no centro",
+     "url": "https://idw-online.de/de/news799786",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Ute Hegenbart",
+     "cargo": "Contato primário do centro (ISA)",
+     "papel": "Porta de entrada oficial",
+     "url": "https://directory.isaamyloidosis.org/provider-directory/entry/104/",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Arnt V. Kristen",
+     "cargo": "Associate Professor of Cardiology, Universität Heidelberg",
+     "papel": "Cardiologista da amiloidose; fundador do centro",
+     "url": "https://heibib.ub.uni-heidelberg.de/search/Record/1945034459/Details",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Fabian aus dem Siepen",
+     "cargo": "Cardiologia, UK Heidelberg; ICH",
+     "papel": "Cardiologista do dia a dia da amiloidose",
+     "url": "https://klinikum.uni-heidelberg.de/fileadmin/medizinische_klinik/Abteilung_3/ICH/241216ICH_BRO_Amyloidose_143x185_Web_final_Medienzentrum.pdf",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Norbert Frey",
+     "cargo": "Cardiologia, Heidelberg",
+     "papel": "Chefe provável da Innere Medizin III",
+     "url": "https://link.springer.com/content/pdf/10.1007/s00392-020-01799-3.pdf",
+     "certeza": "provável"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "Transthyretin amyloid cardiomyopathy: 2025 update (Tschöpe, Elsanhoury, Kristen; J Clin Med)",
+     "ano": 2025,
+     "id": null,
+     "url": "https://heibib.ub.uni-heidelberg.de/search/Record/1945034459/Details"
+    },
+    {
+     "titulo": "RV-PA uncoupling e mortalidade na ATTR-CM tratada com tafamidis (Clin Res Cardiol)",
+     "ano": 2024,
+     "id": null,
+     "url": "https://katalog.ub.uni-heidelberg.de/profil/1028373708"
+    },
+    {
+     "titulo": "Biomarcadores pró-fibróticos na amiloidose TTR cardíaca (Int J Mol Sci 26(21):10714)",
+     "ano": 2025,
+     "id": null,
+     "url": "https://www.mdpi.com/1422-0067/26/21/10714"
+    }
+   ],
+   "dicas": [
+    "Centro liderado pela hematologia (AL): pedir explicitamente a Amyloidose-Sprechstunde cardiológica ou o ICH",
+    "1.500 pacientes/ano (diretório ISA 2026)",
+    "Hospitação curta de estrangeiro sem licença costuma ser só observação; perguntar direto"
+   ],
+   "lacunas": [
+    "E-mail/form oficial para hospitação curta",
+    "Taxa e requisitos de hospitação",
+    "Chefe confirmado da Innere Medizin III",
+    "Brasileiros e pontes com SP"
+   ]
+  },
+  {
+   "match": "Amsterdam UMC",
+   "alerta": "URL do radar é PDF do Netherlands Heart Journal; a cardiogenética de Wilde/Bezzina é historicamente da localização AMC.",
+   "rota": [
+    "Escrever a Pieter Postema ou Ahmad Amin pedindo 4 semanas de observação no ambulatório e nas MDTs de cardiogenética",
+    "Citar a revisão de Brugada 2023 e a ERN GUARD-Heart",
+    "Pedir que o anfitrião aponte o trâmite administrativo",
+    "Plano B: observership formal da Erasmus MC (https://www.eur.nl/en/erasmusmc/exchange/observership)"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Sem página de observership; há precedente de intercâmbio de 4 semanas em cardiogenética (EJP RD/ERN), provavelmente restrito a membros europeus.",
+    "url": "https://www.ejprarediseases.org/wp-content/uploads/2023/12/PR_Scerri-1.pdf",
+    "duracao": "4 semanas (precedente EJP RD)",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Arthur A.M. Wilde",
+     "cargo": "Cardiologist; coordenador da ERN GUARD-Heart",
+     "papel": "Fundador do ambulatório de cardiogenética; nome que abre portas",
+     "url": "https://escardio.org/Congresses-Events/ESC-Congress/Congress-news/meet-the-esc-gold-medallists-professor-arthur-wilde",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Connie R. Bezzina",
+     "cargo": "Professor of Molecular Cardiogenetics (UvA)",
+     "papel": "Lidera a pesquisa genética (Brugada, CMH)",
+     "url": "https://www.um.edu.mt/think/preventing-sudden-death/",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Pieter G. Postema",
+     "cargo": "Cardiologist-electrophysiologist, Amsterdam UMC Heart Center",
+     "papel": "Clínica de arritmias hereditárias",
+     "url": "https://www.practiceupdate.com/author/pieter-postema/4866",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Ahmad S. Amin",
+     "cargo": "Amsterdam UMC (cargo não confirmado)",
+     "papel": "Clínica de canalopatias",
+     "url": "https://pure.amsterdamumc.nl/ws/files/161847622/Novelties-in-brugada-syndrome.pdf",
+     "certeza": "provável"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "Novelties in Brugada syndrome (Card Electrophysiol Clin)",
+     "ano": 2023,
+     "id": null,
+     "url": "https://pure.amsterdamumc.nl/ws/files/161847622/Novelties-in-brugada-syndrome.pdf"
+    },
+    {
+     "titulo": "Família multigeracional com bradicardia sinusal e LQT2 (Cardiogenetics 15(4):31)",
+     "ano": 2025,
+     "id": null,
+     "url": "https://www.mdpi.com/2035-8148/15/4/31"
+    },
+    {
+     "titulo": "Reavaliação de genes associados à CMH (preprint medRxiv)",
+     "ano": 2024,
+     "id": "10.1101/2024.07.29.24311195",
+     "url": "https://medrxiv.org/content/10.1101/2024.07.29.24311195.full.pdf"
+    }
+   ],
+   "dicas": [
+    "Pedir para acompanhar as MDTs semanais de cardiogenética, como no intercâmbio já documentado",
+    "Gancho CMH genética: estudo na VUmc com portadores MYBPC3/MYH7 (https://whichtrial.com/trial/NCT06400524)",
+    "Coordena a ERN GUARD-Heart desde 2017"
+   ],
+   "lacunas": [
+    "Programa formal, taxa e contato",
+    "Chefe atual do ambulatório",
+    "Coautor brasileiro (LAHRS) do consenso Europace 2022 sem nome visto",
+    "Ponte com a Unifesp"
+   ]
+  }
+ ],
+ "pontes_brasil": [
+  {
+   "nome": "Fabiano F. Viana",
+   "onde": "Adelaide, Austrália (formação USP/InCor)",
+   "ligacao": "Ex-Cardiac Surgery Fellow (Aortic) do Austin 2010–2011; pode apresentar ao Austin",
+   "centros": [
+    "Austin Hospital"
+   ],
+   "url": "https://ctsnet.org/home/ffviana",
+   "certeza": "confirmado"
+  },
+  {
+   "nome": "Rogério Souza, Carlos Jardim e Caio Fernandes",
+   "onde": "InCor-HCFMUSP",
+   "ligacao": "Coautores com Marc Humbert do registro brasileiro de HAP (Chest, 2015)",
+   "centros": [
+    "Hôpital Bicêtre (AP-HP)"
+   ],
+   "url": "https://ghdx.healthdata.org/node/401224",
+   "certeza": "confirmado"
+  },
+  {
+   "nome": "Alexandre C. Pereira",
+   "onde": "HC-FMUSP/InCor",
+   "ligacao": "Coautor com Olivotto de estudo SHaRe sobre SARS-CoV-2 na CMH (ESC Heart Failure, 2022)",
+   "centros": [
+    "AOU Careggi"
+   ],
+   "url": "https://doaj.org/article/91483f6a810740f68b374d86c8670633",
+   "certeza": "confirmado"
+  }
+ ]
+}

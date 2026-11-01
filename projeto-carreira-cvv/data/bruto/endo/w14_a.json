@@ -1,0 +1,375 @@
+[
+ {
+  "match": "Baker Heart Institute / St Vincent's Melbourne",
+  "cidade": "Melbourne",
+  "pais": "Austrália",
+  "areas": [
+   "esporte"
+  ],
+  "alerta_correcao": "O polo mistura instituições: o laboratório de cardiologia do esporte foi criado no Baker Heart and Diabetes Institute por André La Gerche, mas desde 2023 ele chefia o HEART Lab (Heart, Exercise and Research Trials) no St Vincent's Institute, em parceria com o Victor Chang Cardiac Research Institute, e o National Centre for Sports Cardiology (Baker + St Vincent's Hospital + SVI). Não está claro se o vínculo com o Baker continua (provável que tenha migrado). O alvo hoje é o HEART Lab / National Centre for Sports Cardiology no St Vincent's (Fitzroy).",
+  "programa": {
+   "status": "nenhum observership estruturado encontrado",
+   "detalhes": "Nenhuma página oficial de observership de cardiologia no Baker ou no SVHM. Há um precedente: visita acadêmica informal (sabático de 12 meses de um cardiologista britânico, Dhrubo Rakhit, como 'visiting cardiologist' no laboratório de cardiologia do esporte do Baker, em 2017). A página de carreiras do SVHM tem uma seção para IMG, mas o trecho veio truncado. Bolsas de cardiologia do SVHM (intervenção, imagem, marca-passo) são cargos remunerados via PMCV/Workday, não observerships.",
+   "fontes": [
+    {
+     "url": "https://www.uhs.nhs.uk/for-patients/find-your-consultant/dr-dhrubo-drew-rakhit",
+     "trecho": "12-month sabbatical in 2017 as a visiting cardiologist in the sports cardiology lab at the Baker Institute, Melbourne ... under the guidance of associate professor André La Gerche"
+    },
+    {
+     "url": "https://www.svhm.org.au/careers/careers-svhm/medical-careers/",
+     "trecho": "(IMG) with valuable information prior joining St Vincent's Melbourne (SVHM)"
+    }
+   ],
+   "taxa": "não encontrado",
+   "duracao": "não encontrado",
+   "documentos": "não encontrado",
+   "contato_oficial": "não encontrado",
+   "certeza": "confirmado que não há programa publicado; via de contato direto com o laboratório = provável"
+  },
+  "servico": {
+   "nome": "National Centre for Sports Cardiology; HEART Lab (St Vincent's Institute / Victor Chang); antes, Sports Cardiology Lab do Baker Heart and Diabetes Institute",
+   "chefe": "Prof. André La Gerche (cardiologista, St Vincent's Hospital Melbourne; chefe do HEART Lab e do National Centre for Sports Cardiology)",
+   "diretor_fellowship": "não encontrado",
+   "volume": "Lidera 'o maior e mais abrangente estudo do mundo sobre remodelamento cardíaco do atleta' (Pro@Heart) - sem número anual",
+   "fontes": [
+    {
+     "url": "https://www.victorchang.edu.au/news/new-heart-lab",
+     "trecho": "appointed to lead a new Heart, Exercise and Research Trials lab at St Vincent's Institute (set. 2023)"
+    },
+    {
+     "url": "https://www.victorchang.edu.au/about-us/our-scientists/andre-legerche",
+     "trecho": "André heads the National Centre for Sports Cardiology ... based at Victor Chang ... and St Vincent's Institute"
+    },
+    {
+     "url": "https://global.vic.gov.au/elements/resources/global-victoria-healthtech-talks-cardiovascular-health",
+     "trecho": "Head of Sports Cardiology and Clinical Research Domain at the Baker Heart and Diabetes Institute (sem data)"
+    }
+   ],
+   "certeza": "confirmado"
+  },
+  "pessoas_chave": [
+   {
+    "nome": "André La Gerche",
+    "cargo": "Chefe do HEART Lab (SVI/Victor Chang) e do National Centre for Sports Cardiology; cardiologista do St Vincent's Hospital Melbourne",
+    "por_que": "decide e hospeda visitantes (precedente Rakhit); referência mundial em coração do atleta, RM cardíaca de esforço",
+    "fonte": "https://www.victorchang.edu.au/about-us/our-scientists/andre-legerche"
+   },
+   {
+    "nome": "Kegan Moneghetti",
+    "cargo": "Cardiologista; perfil de pesquisa no Baker (cardiologia do esporte)",
+    "por_que": "cardiologista clínico do grupo; possível cohost clínico",
+    "fonte": "https://www.baker.edu.au/research/staff/kegan-moneghetti",
+    "certeza": "provável (o trecho só mostra que ele tem perfil no Baker; papel no grupo não detalhado)"
+   }
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {
+    "titulo": "Reduced Ejection Fraction in Elite Endurance Athletes: Clinical and Genetic Overlap With Dilated Cardiomyopathy",
+    "ano": 2024,
+    "ref": "Circulation 149(18):1405-1415 (PMID/DOI não apareceram nos resultados)",
+    "fonte": "https://eprints.victorchang.edu.au/view/creators/La_Gerche=3AAndr=E9=3A=3A.html"
+   },
+   {
+    "titulo": "Tackling an unmet need in sports cardiology: understanding exercise-induced cardiac remodelling and its clinical consequences",
+    "ano": 2022,
+    "ref": "DOI 10.1136/bjsports-2022-105440 (Br J Sports Med 56(14):776-777)",
+    "fonte": "https://www.pubmed.gov/35428656/"
+   },
+   {
+    "titulo": "Editorial sobre ecocardiografia 3D no coração do atleta (La Gerche, Pedrizzetti, Ranieri, D'Andrea, Bossone)",
+    "ano": 2022,
+    "ref": "DOI 10.1093/eurjpc/zwac117",
+    "fonte": "busca web (findanexpert.unimelb.edu.au)"
+   }
+  ],
+  "dicas": [
+   "Não existe programa formal: o caminho é uma carta direta para La Gerche propondo visita de pesquisa/observação de ~4 semanas (teste cardiopulmonar, RM de esforço, clínica de atletas).",
+   "O precedente aceito foi um sabático acadêmico (12 meses); propor um projeto concreto (ex.: dados do Pro@Heart, FE reduzida em atleta) aumenta a chance.",
+   "Ele é palestrante frequente (ACSEP, CRY, UT Southwestern): abordá-lo num congresso é uma porta de entrada."
+  ],
+  "rota_recomendada": "1) E-mail para André La Gerche (via página do HEART Lab no SVI/Victor Chang) citando o artigo de 2024 na Circulation sobre FE reduzida em atletas de endurance e propondo 4 semanas de observação/pesquisa; 2) pedir que ele indique o caminho institucional no St Vincent's Hospital Melbourne (clinical observer); 3) plano B: contato num congresso de cardiologia do esporte."
+ },
+ {
+  "match": "UMC Groningen",
+  "cidade": "Groningen",
+  "pais": "Países Baixos",
+  "areas": [
+   "hemodinamica_coronaria"
+  ],
+  "alerta_correcao": "A URL do radar (PMC7782643) não foi verificada. O cirurgião cardíaco Massimo Mariani, antes chefe de cirurgia cardiotorácica do UMCG, aparece em perfil recente como chefe no UMC Utrecht desde 10/2025.",
+  "programa": {
+   "status": "nenhum observership de cardiologia específico; existe a via geral 'clinical observership' do UMCG (feita para estudantes)",
+   "detalhes": "Vários departamentos oferecem clinical observerships a estudantes estrangeiros; a cardiologia não é citada. Os candidatos independentes ('freemovers') enviam a candidatura direto ao International Office com carta de motivação, CV e nível de inglês, pelo menos 3 meses antes; sem garantia de vaga; parceiros têm prioridade. Observership = sem contato direto com paciente. O diretório ESC de cardiologia intervencionista lista um programa de fellowship com 1 fellow internacional por ano.",
+   "contato_oficial": "international.office@umcg.nl (International Office UMCG - e-mail publicado na página de estudantes internacionais)",
+   "taxa": "não encontrado",
+   "duracao": "não encontrado",
+   "documentos": "carta de motivação, CV, comprovação de inglês (para estudantes)",
+   "fontes": [
+    {
+     "url": "https://www.rug.nl/umcg/education/geneeskunde/international-students/clinicalobservership/",
+     "trecho": "several departments in the UMCG offer clinical observerships for foreign students"
+    },
+    {
+     "url": "https://www.rug.nl/umcg/education/geneeskunde/international-students/clinical-and-research-in-the-umcg",
+     "trecho": "letter of motivation, CV and information on their level of English ... at least 3 months before the starting date"
+    },
+    {
+     "url": "https://escardio.org/Research/Research-and-training-directory-in-interventional-cardiology/University-Medical-Center-Groningen",
+     "trecho": "fellowship program ... one international fellow per year; 500 primary PCIs per year"
+    }
+   ],
+   "certeza": "confirmado para estudantes; para residentes formados = provável (perguntar ao International Office)"
+  },
+  "servico": {
+   "nome": "Cardiologia / Hartcentrum (UMCG Thoraxcentrum) - cardiologia intervencionista",
+   "chefe": "não encontrado",
+   "diretor_fellowship": "não encontrado",
+   "volume": "~500 ICPs primárias/ano (diretório ESC, sem data); a factsheet do Hartcentrum de 2024 lista ICP entre os percursos assistenciais, mas o número não aparece no trecho",
+   "fontes": [
+    {
+     "url": "https://www.umcg.nl/documents/d/umcg.nl/factsheet-hartcentrum-2024",
+     "trecho": "PCI listado entre os percursos assistenciais (número não visível)"
+    }
+   ],
+   "certeza": "provável"
+  },
+  "pessoas_chave": [
+   {
+    "nome": "Erik Lipsic",
+    "cargo": "Cardiologista intervencionista, UMCG",
+    "por_que": "perfil RUG: doença coronária, infarto, cardiologia intervencionista; coautor do programa de CTO do UMCG",
+    "fonte": "https://www.rug.nl/staff/e.lipsic/?lang=en"
+   },
+   {
+    "nome": "Pim van der Harst",
+    "cargo": "coautor do programa de CTO do UMCG (2019)",
+    "por_que": "liderança acadêmica em cardiologia no paper de CTO; o cargo atual não foi confirmado (o perfil da UMCU nos resultados sugere que ele mudou de centro)",
+    "fonte": "https://link.springer.com/10.1007/s12471-019-01348-2",
+    "certeza": "provável / possivelmente desatualizado"
+   }
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "Não foi encontrada coautoria UMCG + Unifesp/InCor/Dante em coronária. Ponte institucional: a Graduate School da RUG tem parceria estratégica com a USP (USP Winter Schools) - https://graduateschoolrug.sites.kirra.nl/about/strategic-partners/usp-winter-schools (certeza: confirmado que a parceria existe; não é específica de cardiologia).",
+  "pesquisa_recente": [
+   {
+    "titulo": "STICH 3.0-NL - ensaio randomizado CABG vs ICP na FE reduzida (liderado pelo UMCG, recrutando; financiamento da Hartstichting)",
+    "ano": "2025-2026 (registro NCT07269366)",
+    "ref": "NCT07269366",
+    "fonte": "https://whichtrial.com/trial/NCT07269366/"
+   },
+   {
+    "titulo": "Ensaio multicêntrico internacional de planejamento de ICP guiado por TC photon-counting (o UMCG tem 'leading role')",
+    "ano": "em andamento",
+    "ref": "sem PMID",
+    "fonte": "https://noorderlink.nl/vacature/75371-10419-02S000A4AP-umc-groningen"
+   },
+   {
+    "titulo": "Development and first results of a dedicated chronic total occlusion programme (fora da janela 2022-2026)",
+    "ano": 2019,
+    "ref": "DOI 10.1007/s12471-019-01348-2",
+    "fonte": "https://link.springer.com/10.1007/s12471-019-01348-2"
+   }
+  ],
+  "dicas": [
+   "Vagas escassas; os parceiros têm prioridade - o candidato independente precisa de carta muito específica.",
+   "Para um médico formado, perguntar ao International Office se existe 'visiting doctor/observer' (o fluxo de observership publicado é para estudantes).",
+   "Citar o STICH 3.0-NL ou o programa de CTO é um gancho para o e-mail ao grupo de intervenção."
+  ],
+  "rota_recomendada": "1) E-mail para international.office@umcg.nl perguntando sobre observer para residente estrangeiro na Cardiologia (intervenção) e pedindo o contato do departamento; 2) em paralelo, carta para Erik Lipsic (via página institucional) citando o programa de CTO/STICH 3.0-NL; 3) candidatar-se com pelo menos 3 meses de antecedência."
+ },
+ {
+  "match": "Birmingham Children's Hospital",
+  "cidade": "Birmingham",
+  "pais": "Reino Unido",
+  "areas": [
+   "cardio_pediatrica"
+  ],
+  "alerta_correcao": "O hospital pertence ao Birmingham Women's and Children's NHS Foundation Trust (BWC). O cirurgião David Barron (BCH 1999-2019) saiu: foi para Toronto e depois para Guy's and St Thomas'.",
+  "programa": {
+   "status": "nenhuma página oficial de observership encontrada",
+   "detalhes": "Um perfil no CTSNet registra um observership estrangeiro na unidade cardiotorácica do BCH em 2019, o que mostra que existe precedente. No padrão NHS (Barts, Newcastle, Mersey), observer = sem atuação prática, com honorary contract/letter of access e liberação da saúde ocupacional, taxa entre £130 e ~£1.600/4 semanas e visto adequado; o BWC não publica a política dele.",
+   "fontes": [
+    {
+     "url": "https://www.ctsnet.org/members/bobur-turaev/",
+     "trecho": "Observership – Cardio-thoracic unit, Birmingham children's hospital, Birmingham, the UK (2019)"
+    },
+    {
+     "url": "https://educationacademy.bartshealth.nhs.uk/our-teams/medical-education-clinical-observership-programme/",
+     "trecho": "4-week observership costing £1,600 (referência de outro trust, não BWC)"
+    }
+   ],
+   "taxa": "não encontrado",
+   "duracao": "não encontrado",
+   "documentos": "provável: honorary contract/letter of access, liberação da saúde ocupacional, visto de visitante (padrão NHS, não confirmado no BWC)",
+   "contato_oficial": "não encontrado",
+   "certeza": "precedente confirmado; procedimento = não encontrado"
+  },
+  "servico": {
+   "nome": "Cardiac Unit (cardiologia pediátrica + cirurgia cardíaca congênita), Birmingham Children's Hospital - 'one of the largest in the UK'",
+   "chefe": "Dr Vinay Bhole - Consultant Paediatric Cardiologist & Clinical Service Lead (anúncio de vaga, 2025)",
+   "diretor_fellowship": "Dr Chetan Mehta - Lead for fellow training program (anúncio de vaga, 2025)",
+   "volume": "cirurgia congênita feita por equipe de 3 cirurgiões consultores (anúncio); volume anual não encontrado",
+   "fontes": [
+    {
+     "url": "https://www.jobs.nhs.uk/candidate/jobadvert/C9284-25-0531",
+     "trecho": "Vinay Bhole, Consultant Paediatric Cardiologist & Clinical service lead ... Dr Chetan Mehta, Lead for fellow training program"
+    },
+    {
+     "url": "https://www.bch.org.uk/childrens-heart-appeal",
+     "trecho": "Our Cardiac Unit is one of the largest in the UK"
+    }
+   ],
+   "certeza": "provável (fonte = anúncio de vaga)"
+  },
+  "pessoas_chave": [
+   {
+    "nome": "Vinay Bhole",
+    "cargo": "Consultant Paediatric Cardiologist & Clinical Service Lead",
+    "por_que": "decide sobre quem entra no serviço",
+    "fonte": "https://www.jobs.nhs.uk/candidate/jobadvert/C9284-25-0531"
+   },
+   {
+    "nome": "Chetan Mehta",
+    "cargo": "Consultant; Lead for fellow training program",
+    "por_que": "organiza a formação de fellows - interlocutor natural para um observer",
+    "fonte": "https://www.jobs.nhs.uk/candidate/jobadvert/C9284-25-0531"
+   },
+   {
+    "nome": "Nigel Drury",
+    "cargo": "Consultant paediatric cardiac surgeon; pesquisador da University of Birmingham",
+    "por_que": "lidera os ensaios DESTINY e BRICC e o Priority Setting Partnership em cardiopatia congênita",
+    "fonte": "https://bwc.nhs.uk/news/mending-hearts-at-our-childrens-hospital-destiny-trial-to-investigate-how-to-improve-protection-for-children-during-open-heart-surgery-4145"
+   },
+   {
+    "nome": "Anna N Seale",
+    "cargo": "Consultant paediatric and fetal cardiologist",
+    "por_que": "cardiologia fetal; pesquisa em ventrículo único/genética pré-natal",
+    "fonte": "https://www.birmingham.ac.uk/staff/profiles/cardiovascular-sciences/seale-anna"
+   }
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {
+    "titulo": "DESTINY - del Nido vs St Thomas' blood cardioplegia em crianças (ensaio randomizado, 2021-2025)",
+    "ano": "2021-2025",
+    "ref": "ISRCTN13638147; DOI 10.1186/ISRCTN13638147",
+    "fonte": "https://www.isrctn.com/ISRCTN13638147"
+   },
+   {
+    "titulo": "Preprint do grupo de Nigel Drury no medRxiv (conteúdo não visto)",
+    "ano": 2023,
+    "ref": "doi 10.1101/2023.04.21.23288646",
+    "fonte": "https://medrxiv.org/content/10.1101/2023.04.21.23288646v1.full.pdf+html"
+   },
+   {
+    "titulo": "BRICC - protocolo de precondicionamento isquêmico remoto em cirurgia cardíaca pediátrica (BMJ Open; fora da janela)",
+    "ano": 2020,
+    "ref": "doi 10.1136/bmjopen-2020-042176",
+    "fonte": "https://www.bhf.org.uk/research-projects/remote-ischaemic-preconditioning-for-myocardial-protection-in-young-children-undergoing-heart-surgery-a-doubleblind-randomised-controlled-trial-in-normoxic-and-hypoxic-patients"
+   }
+  ],
+  "dicas": [
+   "O trust tem fellowships clínicas pagas em cardiologia pediátrica e cirurgia congênita (12 meses) - indica cultura de receber estrangeiros.",
+   "Mencionar o ensaio DESTINY é um bom gancho para a cirurgia; para a cardiologia, falar com o fellowship lead (Mehta)."
+  ],
+  "rota_recomendada": "1) Carta para o Dr Chetan Mehta (lead de fellows) com cópia para o Dr Vinay Bhole pedindo 4 semanas como clinical observer; 2) perguntar à educação médica/RH do BWC sobre a letter of access e a saúde ocupacional; 3) se o foco for cirurgia, citar o DESTINY ao escrever para Nigel Drury."
+ },
+ {
+  "match": "Shanghai Children's Medical Center",
+  "cidade": "Xangai",
+  "pais": "China",
+  "areas": [
+   "cardio_pediatrica"
+  ],
+  "alerta_correcao": "Afiliado à Shanghai Jiao Tong University School of Medicine (SJTUSM). Não é o mesmo que o Shanghai Chest Hospital, que tem programa de 'international visiting scholar' em cardiotorácica desde 2015.",
+  "programa": {
+   "status": "nenhum programa oficial para médicos estrangeiros encontrado",
+   "detalhes": "Não foi achada página de visiting physician com regras. A Project HOPE é parceira histórica (co-fundou o SCMC em 1998) e financia treinamento e intercâmbio acadêmico, mas o foco é enviar médicos chineses para fora. Alternativa próxima: o programa de visiting scholar do Shanghai Chest Hospital (outra instituição).",
+   "fontes": [
+    {
+     "url": "https://www.projecthope.org/country/shanghai/",
+     "trecho": "Shanghai Children's Medical Center opened in 1998 with HOPE partnering ..."
+    },
+    {
+     "url": "https://www.citynewsservice.cn/articles/cns/health-wellness/general/leading-chest-hospital-attracts-international-fellow-doctors-zmpppogm",
+     "trecho": "international visiting scholar program was launched in 2015 (Shanghai Chest Hospital)"
+    }
+   ],
+   "taxa": "não encontrado",
+   "duracao": "não encontrado",
+   "documentos": "não encontrado",
+   "contato_oficial": "não encontrado",
+   "certeza": "não encontrado"
+  },
+  "servico": {
+   "nome": "Heart Center (Cardiothoracic Surgery + Pediatric Cardiology), Shanghai Children's Medical Center",
+   "chefe": "não confirmado (Zhiwei Xu aparece como 'Director of Thorac & Cardiovasc Surg. (1999-now)' no CTSNet, possivelmente desatualizado; Liu Jinfen = ex-chefe do Heart Center)",
+   "diretor_fellowship": "não encontrado",
+   "volume": ">3.700 cirurgias cardíacas/ano (artigo de 2020 do próprio centro; repetido pela Project HOPE)",
+   "fontes": [
+    {
+     "url": "https://techscience.com/chd/v15n5/40258/html",
+     "trecho": "our heart center treats more than 3,700 surgical cases every year"
+    },
+    {
+     "url": "https://www.ctsnet.org/members/zhiwei-xu/",
+     "trecho": "Shanghai Children's Medical Center, Directer of Thorac & Cardiovasc Surg. (1999-now)"
+    }
+   ],
+   "certeza": "volume confirmado (2020); chefia = provável/desatualizado"
+  },
+  "pessoas_chave": [
+   {
+    "nome": "Zhiwei Xu",
+    "cargo": "Diretor de Cirurgia Torácica e Cardiovascular (CTSNet, 1999-)",
+    "por_que": "liderança histórica da cirurgia congênita",
+    "fonte": "https://www.ctsnet.org/members/zhiwei-xu/",
+    "certeza": "provável (pode estar desatualizado)"
+   },
+   {
+    "nome": "Zhuoming Xu",
+    "cargo": "Chief physician, orientadora de doutorado, área cardiotorácica",
+    "por_que": "hipertensão pulmonar associada à cardiopatia congênita",
+    "fonte": "https://www.shsmu.edu.cn/english/info/1338/3149.htm"
+   },
+   {
+    "nome": "Zhang Hao",
+    "cargo": "Vice-presidente executivo do SCMC (cirurgião cardíaco)",
+    "por_que": "liderança administrativa; possível porta institucional",
+    "fonte": "https://www.shsmu.edu.cn/english/info/1338/3137.htm",
+    "certeza": "provável"
+   }
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {
+    "titulo": "Estudo de óbitos após cirurgia de cardiopatia congênita, 2012-2019 (mortalidade de 1,9%)",
+    "ano": 2020,
+    "ref": "DOI 10.32604/CHD.2020.011983",
+    "fonte": "https://techscience.com/chd/v15n5/40258/html"
+   },
+   {
+    "titulo": "Cirurgia cardíaca neonatal - características pré-operatórias e desfechos precoces (2006-2019)",
+    "ano": 2021,
+    "ref": "DOI 10.3389/fped.2021.670197",
+    "fonte": "https://frontiersin.org/articles/10.3389/fped.2021.670197/pdf"
+   },
+   {
+    "titulo": "Machine learning para eventos adversos maiores em 23.000 cirurgias congênitas (2014-2021), primeiro autor Du X",
+    "ano": "provável 2022-2024 (não confirmado)",
+    "ref": "não aparece nos resultados",
+    "fonte": "https://pesquisa.bvsalud.org/ses/resource/es/mdl-38265429"
+   }
+  ],
+  "dicas": [
+   "Volume enorme (>3.700/ano) - excelente para observar cirurgia congênita, mas sem via publicada para estrangeiros.",
+   "Barreira de língua e visto: um convite oficial do hospital é provavelmente necessário (não confirmado).",
+   "Muitos cirurgiões fizeram estágio em Boston/Filadélfia - uma apresentação vinda de um centro norte-americano (ex. o hospital de Chicago onde ela já esteve) pode abrir a porta."
+  ],
+  "rota_recomendada": "Prioridade baixa. 1) E-mail ao Heart Center/escritório internacional do SCMC (via SJTUSM) pedindo carta-convite para 4 semanas de observação; 2) pedir apresentação a um mentor do hospital de Chicago com laço com Boston/CHOP/Project HOPE; 3) alternativa: o programa de visiting scholar do Shanghai Chest Hospital (se servir cirurgia em adulto)."
+ }
+]
