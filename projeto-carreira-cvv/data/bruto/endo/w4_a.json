@@ -1,0 +1,184 @@
+[
+ {
+  "match": "MD Anderson Cancer Center — Cardiology",
+  "cidade": "Houston", "pais": "EUA", "areas_polo": ["cardio_oncologia"],
+  "alerta_correcao": "Página geral de Observer Programs existe, mas nas buscas não apareceu sub-página específica de Cardiologia (há Surgery, Cancer Medicine, Pediatrics, Radiation Oncology, Diagnostic Imaging, Pathology, 'Other'). Aceite depende do departamento; confirmar com o contato do programa se Cardiology recebe observers.",
+  "programa": {
+    "nome": "MD Anderson Observer Programs (Outreach Programs, Education & Training)",
+    "url": "https://www.mdanderson.org/education-training/outreach-programs/observer-programs.html",
+    "trecho": "A fee of $2,000 will only be charged to professional applicants who have been conditionally accepted to an Observer program ... no fee for trainees or students; payment by credit card in the Slate payment system.",
+    "elegibilidade_residente_estrangeiro": "provável: categoria 'trainees' isenta da taxa institucional; profissionais devem estar 'currently employed or appointed at a healthcare or academic institution'. Residente da Unifesp provavelmente entra como trainee (não confirmado para cardiologia).",
+    "taxa": "US$ 2.000 taxa institucional para profissionais (isenta para trainees/estudantes); departamentos podem cobrar adicional (ex. Patologia e Radio-oncologia US$ 1.000; alguns US$ 500).",
+    "duracao": "não encontrado para cardiologia",
+    "antecedencia": "não encontrado",
+    "documentos": "documentos não em inglês traduzidos por agência certificada; vacina da gripe na temporada; requisitos adicionais por departamento; candidatura via sistema Slate",
+    "contato_oficial": "contato do programa indicado na página principal (e-mail não capturado nas buscas); não encontrado contato específico de Cardiologia",
+    "certeza": "confirmado (taxa, tradução, gripe); provável (elegibilidade de residente estrangeiro em cardiologia)"
+  },
+  "servico": {
+    "nomes": ["Department of Cardiology, Division of Internal Medicine (fundado em 2000; descrito como o primeiro departamento de cardio-oncologia do mundo)"],
+    "chefes": [
+      {"nome": "Anita Deswal, MD, MPH", "cargo": "Chair, Department of Cardiology (Ting Tsung and Wei Fong Chao Distinguished Chair), desde 2019", "fonte": "https://faculty.mdanderson.org/profiles/anita_deswal.html", "certeza": "confirmado"}
+    ],
+    "fellowship": [
+      {"programa": "Onco-Cardiology Fellowship (novo, aprovado pelo Texas Medical Board)", "diretor": "não encontrado (página cita 'Program Director' e 'Co Program Director of Cardiology' sem nome nos trechos)", "url": "https://www.mdanderson.org/education-training/clinical-training/graduate-medical-education/residencies-fellowships/onco-cardiology-fellowship.html"},
+      {"programa": "Cardiology Fellowship Program (geral)", "diretor": "Syed Wamique Yusuf", "url": "https://www.mdanderson.org/research/departments-labs-institutes/departments-divisions/cardiology/faculty-staff.html", "certeza": "provável (página de faculty, sem data)"}
+    ],
+    "volume": "não encontrado"
+  },
+  "pessoas_chave": [
+    {"nome": "Anita Deswal", "cargo": "Chair, Department of Cardiology", "por_que": "decide/aprova hospedagem no departamento; co-PI do programa de doença CV induzida por radiação; subcontract PI do ensaio TACTIC", "fonte": "https://www.mdanderson.org/research/departments-labs-institutes/departments-divisions/cardiology/research.html", "certeza": "confirmado"},
+    {"nome": "Elie Mouhayar", "cargo": "Deputy Chair for Clinical Affairs, Cardiology", "por_que": "liderança clínica — quem organiza agenda clínica de observer", "fonte": "https://www.mdanderson.org/research/departments-labs-institutes/departments-divisions/cardiology/faculty-staff.html", "certeza": "provável"},
+    {"nome": "Syed Wamique Yusuf", "cargo": "Director, Cardiology Fellowship Program", "por_que": "educação/treinamento no departamento", "fonte": "https://www.mdanderson.org/research/departments-labs-institutes/departments-divisions/cardiology/faculty-staff.html", "certeza": "provável"},
+    {"nome": "Nicolas Palaskas", "cargo": "Associate Professor, Department of Cardiology", "por_que": "lidera pesquisa em miocardite por inibidores de checkpoint (ICI) — tema forte para e-mail", "fonte": "https://faculty.mdanderson.org/profiles/nicolas_palaskas.html", "certeza": "confirmado"},
+    {"nome": "Ihab Hamzeh", "cargo": "faculty, cardio-oncologia", "por_que": "faculty listado em busca de cardio-oncologia MDA", "fonte": "https://faculty.mdanderson.org/profiles/ihab_hamzeh.html", "certeza": "provável (cargo exato não capturado)"}
+  ],
+  "brasileiros": "não encontrado no Dept. of Cardiology. Indireto: o cardiologista brasileiro Sanderson Cauduro relatou 'imersão em cardio-oncologia no MD Anderson' (congresso internacional em Houston, 2019) — https://www.bemparana.com.br/publicacao/iza-zilli/imersao-em-cardio-oncologia-no-md-anderson/ (provável; não é fellow).",
+  "pontes_unifesp_sp": "não encontrado coautoria MDA Cardiology + Unifesp/InCor/ICESP nas buscas. Referência brasileira natural: Programa de Cardio-Oncologia do ICESP (USP; Ludhmila Hajjar, Roberto Kalil Filho; fellowship desde 2017) — https://pmc.ncbi.nlm.nih.gov/articles/PMC7189468 — sem vínculo formal com MDA confirmado.",
+  "pesquisa_recente": [
+    {"titulo": "STRICT — Strict surveillance with troponin during immune checkpoint therapy (ensaio, ~980 pacientes)", "ano": "em andamento", "id": "NCT05062395", "url": "https://ctv.veeva.com/study/strict-surveillance-with-troponin-during-immune-checkpoint-therapy", "nota": "ensaio, não artigo"},
+    {"titulo": "Terapia de ressincronização cardíaca em pacientes com câncer — experiência de centro único (Deswal coautora)", "ano": 2026, "id": "não encontrado", "revista": "Heart Rhythm O2", "url": "https://mdanderson.elsevierpure.com/en/persons/anita-deswal/", "certeza": "provável (título exato não capturado)"},
+    {"titulo": "Artigo do Dept. of Cardiology MDA em Frontiers in Cardiovascular Medicine", "ano": 2023, "id": "DOI 10.3389/fcvm.2023.1235015", "url": "https://public-pages-files-2025.frontiersin.org/journals/cardiovascular-medicine/articles/10.3389/fcvm.2023.1235015/xml", "certeza": "provável (título não capturado — conferir antes de citar)"}
+  ],
+  "dicas": [
+    "Taxa institucional US$ 2.000 só é cobrada após aceite condicional e NÃO se aplica a trainees — enfatizar status de residente.",
+    "Departamentos têm requisitos/taxas próprios; perguntar ao contato do programa se Cardiology aceita observers antes de pagar.",
+    "Traduções certificadas obrigatórias para documentos não em inglês; vacina de gripe se no inverno.",
+    "MDA tem 'MD Anderson Practice (MAP)' — algoritmos de manejo de complicações CV da terapia oncológica (PMC5883083) — bom gancho para e-mail; o departamento também promove cursos CME de cardio-oncologia (Heart Success in Cardio-Oncology Clinical Rounds)."
+  ],
+  "rota_recomendada": "1) Escrever ao contato do Observer Programs perguntando se Cardiology recebe observers e confirmar status 'trainee' (isento da taxa). 2) Em paralelo, e-mail curto à chefia (Deswal) ou a um faculty com pesquisa afim (ex. Palaskas, miocardite por ICI) pedindo aceite de hospedagem de 4 semanas. 3) Alternativa: participar de curso/simpósio de cardio-oncologia do MDA como primeiro contato."
+ },
+ {
+  "match": "Memorial Sloan Kettering — Cardiology Service",
+  "cidade": "Nova York", "pais": "EUA", "areas_polo": ["cardio_oncologia"],
+  "alerta_correcao": "A url do radar (clinical-observertion-program-application.pdf) é documento antigo; o fluxo atual é o International Observership Program (Bobst International Center), que exige que um médico do MSK (sponsor) inicie o processo. Chefe atual do Cardiology Service: Jennifer Liu (fontes antigas citam Richard Steingart).",
+  "programa": {
+    "nome": "MSK International Observership Program / International Clinical Observer Program (Bobst International Center)",
+    "url": "https://www.mskcc.org/hcp-education-training/international/observership",
+    "trecho": "The International Observership Program is open and accepting applications. Onsite visits are limited to 30 days and start dates are every other Monday. Please contact an MSK physician directly to arrange a visit ... The International program does not match applicants with sponsors and is unable to give out faculty contact information.",
+    "elegibilidade_residente_estrangeiro": "provável sim (fluxo para médicos internacionais via Bobst; residentes não excluídos nos trechos)",
+    "taxa": "não encontrado atual (documento antigo cita US$ 125 para <1 semana — desatualizado)",
+    "duracao": "máx. 30 dias; início em segundas-feiras alternadas (diretrizes antigas de 2013 citavam até 2 meses)",
+    "antecedencia": "não encontrado; 'Do not make any plans until the International observer program approves the application'",
+    "documentos": "visto B-1 (MSK não patrocina visto); demais documentos não capturados",
+    "contato_oficial": "e-mail do programa internacional existe na página https://www.mskcc.org/hcp-education-training/graduate-medical-education/clinical-observerships mas veio mascarado nas buscas — conferir na página",
+    "certeza": "confirmado (30 dias, sponsor obrigatório, B-1)"
+  },
+  "servico": {
+    "nomes": ["Cardiology Service, Department of Medicine, MSK"],
+    "chefes": [{"nome": "Jennifer E. Liu, MD", "cargo": "Chief, Cardiology Service; Program Director, Cardio-Oncology fellowship", "fonte": "https://mskcc.org/cancer-care/doctors/jennifer-liu", "certeza": "confirmado"}],
+    "fellowship": [{"programa": "Cardio-Oncology Research and Clinical Fellowship (1–2 anos; imagem avançada: eco, PET cardíaco, angioTC, RM)", "diretor": "Jennifer Liu (página MSK); ACC/ESC citam Dipti Gupta como Program Director — possivelmente co-diretora/anterior", "contato": "medcardfellow@mskcc.org (contato oficial publicado do fellowship; Xavier Aristy)", "url": "https://www.mskcc.org/hcp-education-training/fellowships/cardiology-service-cardio-oncology", "certeza": "confirmado (Liu); provável (Gupta)"}],
+    "volume": "não encontrado"
+  },
+  "pessoas_chave": [
+    {"nome": "Jennifer Liu", "cargo": "Chief, Cardiology Service; Symposium Director MSK Cardio-Oncology 2026", "por_que": "decide/pode ser sponsor; lidera educação", "fonte": "https://mskcc.org/cancer-care/doctors/jennifer-liu", "certeza": "confirmado"},
+    {"nome": "Anthony F. Yu", "cargo": "cardio-oncologista, PI do ensaio de vigilância reduzida em HER2+ (NCT03983382)", "por_que": "pesquisa ativa e citável (JACC CardioOncology 2025); potencial sponsor", "fonte": "https://synapse.mskcc.org/synapse/works/226275", "certeza": "confirmado"},
+    {"nome": "Dipti Gupta, MD, MPH", "cargo": "Program Director, Cardio-Oncology fellowship (segundo ACC/ESC)", "por_que": "educação/fellows", "fonte": "https://esc365.escardio.org/person/1399253", "certeza": "provável"},
+    {"nome": "Richard M. Steingart", "cargo": "ex-chefe do Cardiology Service; coeditor do Atlas of Imaging in Cardio-Oncology", "por_que": "figura sênior; ainda coautor em 2024", "fonte": "https://synapse.mskcc.org/synapse/people/4321-Richard_Steingart/works", "certeza": "provável (status atual)"},
+    {"nome": "Ioanna Kosmidou", "cargo": "cardiologista MSK, coautora 2024 (EHJ Quality of Care)", "por_que": "pesquisa de qualidade/desfechos", "fonte": "https://synapse.mskcc.org/synapse/people/4321-Richard_Steingart/works", "certeza": "provável"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado nas buscas",
+  "pesquisa_recente": [
+    {"titulo": "Cardiac safety of reduced cardiotoxicity surveillance during HER2-targeted therapy", "ano": 2025, "id": "JACC: CardioOncology 7(4); NCT03983382 (PMID não capturado)", "url": "https://synapse.mskcc.org/synapse/works/226275"},
+    {"titulo": "Rationale and design of a cardiac safety study for reduced cardiotoxicity surveillance during HER2-targeted therapy", "ano": 2023, "id": "DOI 10.1186/s40959-023-00163-4", "url": "https://link.springer.com/doi/10.1186/s40959-023-00163-4"},
+    {"titulo": "Yu AF, White C, ..., Liu JE, Steingart RM, Powell SN, Cahlon O — Advances in Radiation Oncology (título não capturado)", "ano": 2024, "id": "não encontrado", "url": "https://synapse.mskcc.org/synapse/people/4321-Richard_Steingart/works", "certeza": "provável"}
+  ],
+  "dicas": [
+    "Sponsor interno é OBRIGATÓRIO: o programa internacional não faz match nem fornece contatos — o e-mail precisa ir direto a um cardiologista do MSK.",
+    "Máx. 30 dias, início em segundas alternadas — encaixa exatamente num observership de 1 mês.",
+    "MSK não patrocina visto: B-1 de negócios.",
+    "MSK Cardio-Oncology Symposium (21–22 maio 2026, dir. Jennifer Liu) — porta de entrada para conhecer o time; https://mskcc.cloud-cme.com/Assets/mskcc/Activities/58983/Cardio-Onc2026_Brochure.pdf"
+  ],
+  "rota_recomendada": "1) E-mail a Anthony Yu ou Jennifer Liu citando o estudo de vigilância reduzida em HER2+ (2025) e pedindo sponsorship para 4 semanas. 2) Com o 'sim' do sponsor, ele inicia o processo no International Observership Program (Bobst); só então tirar B-1 e marcar viagem. 3) Se não houver resposta, usar o simpósio anual de cardio-oncologia do MSK para contato pessoal."
+ },
+ {
+  "match": "National Heart Centre Singapore",
+  "cidade": "Singapura", "pais": "Singapura", "areas_polo": ["nuclear"],
+  "alerta_correcao": "A url do radar é de FELLOWSHIP hands-on de 6–12 meses (Fellowship Training in Nuclear Cardiology), não de observership de 1 mês. Não foi encontrado observership curto específico da NHCS; perguntar ao Office of Training & Education.",
+  "programa": {
+    "nome": "NHCS Fellowship Training in Nuclear Cardiology (Office of Training & Education)",
+    "url": "https://www.nhcs.com.sg/education/training-and-fellowships/list-of-fellowship-programmes/Fellowship-Training-in-Nuclear-Cardiology",
+    "trecho": "Duration 6 - 12 months; objetivos: SPECT sestamibi, MUGA, interpretação de teste de esforço; NHCS recebeu >120 fellows internacionais desde 1992.",
+    "elegibilidade_residente_estrangeiro": "não encontrado (fellowship voltado a cardiologistas formados; observership curto não documentado)",
+    "taxa": "não encontrado",
+    "duracao": "6–12 meses (fellowship)",
+    "antecedencia": "não encontrado",
+    "documentos": "não encontrado",
+    "contato_oficial": "nhcs.ote@nhcs.com.sg (NHCS Fellowship Administrator, publicado nas páginas de fellowship); alternativa fellowship@singhealthacademy.edu.sg (SingHealth Academy)",
+    "certeza": "confirmado (duração, e-mail OTE); não encontrado (observership curto)"
+  },
+  "servico": {
+    "nomes": ["Nuclear Cardiology / Nuclear Cardiac Imaging, National Heart Centre Singapore"],
+    "chefes": [{"nome": "Clin Assoc Prof Felix Keng Yung Jih", "cargo": "Senior Consultant; Director of Nuclear Cardiac Imaging (treinou PET cardíaco na UCLA)", "fonte": "https://www.nhcs.com.sg/doctor/cardiology/felix-keng", "certeza": "provável (cargo de diretor sem data; um trecho diz 'was Director')"}],
+    "fellowship": [{"programa": "Fellowship Training in Nuclear Cardiology", "diretor": "não encontrado"}],
+    "volume": "não encontrado"
+  },
+  "pessoas_chave": [
+    {"nome": "Felix Keng Yung Jih", "cargo": "Senior Consultant, nuclear cardiology; Director Nuclear Cardiac Imaging", "por_que": "lidera o serviço e pesquisa de fluxo miocárdico/SPECT dinâmico — hospedaria", "fonte": "https://www.nhcs.com.sg/doctor/cardiology/felix-keng", "certeza": "provável"},
+    {"nome": "Terrance Chua Siang Jin", "cargo": "ex-CEO NHCS, Senior Advisor; Director SAF Cardiac Fitness Centre (desde mai/2024); prêmio 2013 por trabalho em cardiologia nuclear", "por_que": "figura sênior histórica da cardiologia nuclear em Singapura", "fonte": "https://www.nhcs.com.sg/profile/chua-siang-jin-terrance", "certeza": "provável"},
+    {"nome": "Cai Xinzhe James", "cargo": "Consultant, interesses em eco e cardiologia nuclear", "por_que": "staff da área", "fonte": "https://www.nhcs.com.sg/doctor/cardiology/cai-xinzhe-james", "certeza": "provável"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+    {"titulo": "Going beyond summed stress scores: Correlating global and territorial coronary flow reserve by single photon emission tomography with routine myocardial perfusion imaging", "ano": 2024, "id": "DOI 10.1016/j.heliyon.2024.e29629 (PMC11040110)", "url": "https://doaj.org/article/ab59fe1ecb384403ad8b299d11841c97"},
+    {"titulo": "Ensaio: dynamic vs conventional MPI (quantificação de fluxo) em 300 diabéticos com DAC — custo-efetividade", "ano": "em andamento (conclusão est. 2026-03)", "id": "NCT05343884", "url": "https://www.trialx.com/clinical-trials/listings/277209/evaluating-dynamic-myocardial-blood-flow-quantitation-as-a-cost-effective-care-model-for-diabetic-patients-with-coronary-artery-disease/?radius=50"}
+  ],
+  "dicas": [
+    "Foco do serviço: SPECT dinâmico com quantificação de fluxo/reserva coronariana — tema concreto para o e-mail.",
+    "Página de 'overseas fellowship alumni' da NHCS mostra tradição de receber estrangeiros: https://www.nhcs.com.sg/education-training/fellowships/overseas-fellowship-alumni",
+    "Observer em Singapura em geral não tem hands-on; o vizinho NUH/NUHS tem esquema formal de 'clinical observership' para médicos estrangeiros (instituição diferente: https://www.nuh.com.sg/research-and-education/honorary-clinical-fellowship-and-clinical-observership)."
+  ],
+  "rota_recomendada": "1) Escrever a nhcs.ote@nhcs.com.sg perguntando se há attachment/observership curto (4 semanas) em Nuclear Cardiology para residente estrangeiro. 2) Copiar/endereçar Felix Keng citando o artigo de reserva de fluxo por SPECT (Heliyon 2024). 3) Se a NHCS só oferecer fellowship de 6–12 meses, considerar o observership formal do NUH/NUHS como plano B em Singapura."
+ },
+ {
+  "match": "Children's Hospital Los Angeles — Heart Institute",
+  "cidade": "Los Angeles", "pais": "EUA", "areas_polo": ["cardio_pediatrica"],
+  "alerta_correcao": "Liderança mudou: John David Cleveland é o novo Division Chief de Cirurgia Cardiotorácica e Co-Director do Heart Institute (press release set/2026), substituindo Vaughn Starnes nesses cargos; Paul Kantor segue Co-Director e Chief de Cardiologia.",
+  "programa": {
+    "nome": "CHLA International Observership Program (Center for Global Health)",
+    "url": "https://www.chla.org/international-observership-program",
+    "trecho": "Our International Observership Program is open to trained doctors and allied health professionals practicing abroad, and international residents and fellows currently enrolled abroad who expect to graduate from that same institution.",
+    "elegibilidade_residente_estrangeiro": "SIM — residentes internacionais matriculados no exterior são explicitamente elegíveis",
+    "taxa": "US$ 250 de application fee não reembolsável (pode haver tuition adicional — este último só em espelho não oficial)",
+    "duracao": "máx. 3 meses; cada divisão define (de poucas semanas a 3 meses); tipicamente 1 mês",
+    "antecedencia": "um trecho cita janela de candidatura 1/jul–31/ago para observerships em jan–fev (confirmar no site)",
+    "documentos": "formulário PDF (https://www.chla.org/sites/default/files/atoms/files/chla_application_current_update_05112022_final_filable.pdf) com 3 objetivos de aprendizado para a divisão; cartas de recomendação endereçadas ao CHLA Center for Global Health; entrevista de proficiência em inglês; carta-convite para visto; sem moradia, sem e-mail CHLA e sem acesso ao prontuário",
+    "contato_oficial": "internationalobservership@chla.usc.edu (citado no FAQ/formulário; telefone geral +1-323-660-2450)",
+    "certeza": "confirmado (elegibilidade, US$ 250, máx. 3 meses, entrevista); provável (janela de datas, e-mail — confirmar na página oficial)"
+  },
+  "servico": {
+    "nomes": ["Heart Institute — Division of Cardiology", "Heart Institute — Division of Cardiothoracic Surgery (maior centro cardíaco pediátrico do oeste dos EUA)"],
+    "chefes": [
+      {"nome": "Paul F. Kantor, MBBCh, MSc, FRCPC", "cargo": "Division Chief of Cardiology; Co-Director, Heart Institute", "fonte": "https://chla.org/profile/paul-f-kantor-mbbch-msc-frcpc", "certeza": "confirmado"},
+      {"nome": "John David Cleveland, MD", "cargo": "Division Chief of Cardiothoracic Surgery; Co-Director, Heart Institute (antes Program Director do Congenital Cardiac Surgery Fellowship)", "fonte": "https://secure.businesswire.com/news/home/20260922413880/en/John-David-Cleveland-MD-Named-Division-Chief-of-Cardiothoracic-Surgery-and-Co-Director-of-the-Heart-Institute-at-Childrens-Hospital-Los-Angeles", "certeza": "confirmado"}
+    ],
+    "fellowship": [{"programa": "Pediatric Cardiology Fellowship (ACGME); Congenital Cardiac Surgery Fellowship", "diretor": "não encontrado atual (Cleveland era PD da cirurgia congênita antes da promoção)", "url": "https://chla.org/fellowship/cardiology-fellowship/fellows"}],
+    "volume": "não encontrado com ano"
+  },
+  "pessoas_chave": [
+    {"nome": "Paul F. Kantor", "cargo": "Chief of Cardiology, Co-Director Heart Institute", "por_que": "divisão de cardiologia decide aceite do observer; líder em insuficiência cardíaca pediátrica", "fonte": "https://chla.org/profile/paul-f-kantor-mbbch-msc-frcpc", "certeza": "confirmado"},
+    {"nome": "John David Cleveland", "cargo": "Chief of Cardiothoracic Surgery, Co-Director Heart Institute", "por_que": "decide para cirurgia cardíaca congênita", "fonte": "https://secure.businesswire.com/news/home/20260922413880/en/John-David-Cleveland-MD-Named-Division-Chief-of-Cardiothoracic-Surgery-and-Co-Director-of-the-Heart-Institute-at-Childrens-Hospital-Los-Angeles", "certeza": "confirmado"},
+    {"nome": "Vaughn A. Starnes", "cargo": "H. Russell Smith Foundation Chair in Cardiothoracic Surgery; Chair, Dept. of Surgery Keck/USC", "por_que": "figura sênior, segue operando no Heart Institute", "fonte": "https://www.chla.org/profile/vaughn-starnes-md", "certeza": "confirmado"},
+    {"nome": "Robert E. Shaddy", "cargo": "cardiologista CHLA, autor correspondente do PANORAMA-HF", "por_que": "pesquisa de IC pediátrica", "fonte": "https://rcastoragev2.blob.core.windows.net/5e124fb9c0771e055ab559b315a30144/cir-150-1756.PMC11593999.pdf", "certeza": "confirmado"},
+    {"nome": "Karla L. Loss", "cargo": "pesquisadora/cardiologista no Heart Institute (1ª autora JAHA 2024)", "por_que": "possível ponte brasileira (ver campo brasileiros)", "fonte": "https://profiles.sc-ctsi.org/paul.kantor", "certeza": "provável"}
+  ],
+  "brasileiros": [
+    {"nome": "Karla L. Loss", "ligacao": "1ª autora de estudo CHLA (JAHA 2024) com Kantor; perfil agregador cita trabalho em pesquisa de remodelamento do VD no CHLA e comparação de mortalidade cirúrgica com a 'média brasileira' — sugere origem/atuação no Brasil", "fonte": "https://deepenrich.com/profile/77ed/karla-loss-0011hyesv", "certeza": "provável (nacionalidade não confirmada em fonte oficial — verificar antes de citar)"}
+  ],
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+    {"titulo": "Serial B-type natriuretic peptide, vasoactive drug weaning and adverse cardiovascular outcomes in pediatric heart failure (Loss KL, ..., Shaddy RE, Kantor PF)", "ano": 2024, "id": "J Am Heart Assoc 2024;13(16):e031132", "url": "https://profiles.sc-ctsi.org/paul.kantor"},
+    {"titulo": "PANORAMA-HF: sacubitril/valsartan vs enalapril em crianças com IC por disfunção sistólica do VE sistêmico", "ano": 2024, "id": "Circulation 2024;150:1756 (PMC11593999)", "url": "https://rcastoragev2.blob.core.windows.net/5e124fb9c0771e055ab559b315a30144/cir-150-1756.PMC11593999.pdf"},
+    {"titulo": "Progressive left ventricular remodeling as predictor of mortality in children with dilated cardiomyopathy (Pediatric Cardiomyopathy Registry)", "ano": 2024, "id": "JAHA jan/2024 (ID não capturado)", "url": "https://profiles.sc-ctsi.org/paul.kantor"}
+  ],
+  "dicas": [
+    "Residente internacional é explicitamente elegível — CHLA é dos poucos com essa frase oficial.",
+    "Aceite é 'at the discretion of each specialty' e o observer fica restrito à divisão aprovada: escolher UMA divisão (Cardiology ou Cardiothoracic Surgery).",
+    "Formulário exige 3 objetivos de aprendizado específicos para a divisão + cartas endereçadas ao CHLA Center for Global Health + entrevista de inglês.",
+    "Não há certificado de avaliação de habilidades; apenas certificado de participação."
+  ],
+  "rota_recomendada": "1) Preencher o formulário oficial do International Observership Program (US$ 250) escolhendo a Division of Cardiology (ou Cardiothoracic Surgery), com 3 objetivos ligados a IC pediátrica/cardiomiopatias. 2) Antes, e-mail curto a Paul Kantor (ou Cleveland, se cirurgia) citando PANORAMA-HF/JAHA 2024 pedindo apoio da divisão. 3) Confirmar janela de datas no site e enviar com ≥6 meses de antecedência."
+ }
+]

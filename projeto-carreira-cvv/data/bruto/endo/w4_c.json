@@ -1,0 +1,186 @@
+[
+ {
+  "match": "Leeds Teaching Hospitals — Medical Observerships",
+  "cidade": "Leeds", "pais": "Reino Unido", "areas_polo": ["cardiologia"],
+  "alerta_correcao": "Radar correto. Cardiologia fica no Yorkshire Heart Centre (YHC), Leeds General Infirmary (LGI). A pesquisa acadêmica (ex. CMR) é da University of Leeds (LICAMM), em parceria com o Trust.",
+  "programa": {
+   "nome": "LTHT Medical Observerships",
+   "url": "https://www.leedsth.nhs.uk/careers/medical-observerships/",
+   "faq": "https://www.leedsth.nhs.uk/careers/medical-observerships/frequently-asked-questions/",
+   "como_aplicar": "https://www.leedsth.nhs.uk/careers/medical-observerships/how-to-apply-for-an-observership-with-ltht/",
+   "elegibilidade_residente_estrangeiro": "provável sim — 'Medical Observerships are for medical graduates only'; residente já formado se enquadra. Sem restrição explícita a estrangeiros nos trechos.",
+   "taxa": "£350 taxa administrativa única, não reembolsável, não dispensável; pedido só avança após pagamento (confirmado, FAQ)",
+   "duracao": "máximo 12 semanas; extensão possível dentro de 12 semanas, sem pausa e no mesmo CSU (confirmado)",
+   "antecedencia": "não encontrado",
+   "documentos": "LTHT Occupational Health clearance após pagar a taxa; certificate of good standing e police clearance (traduzidos e notarizados se não em inglês); visto quando necessário — carta de apoio ao visto só emitida após todas as outras checagens; formulário MHC3 Observership request (passo 6). Sem contato direto com paciente (hands-off). (confirmado nos trechos; lista completa de documentos não visível)",
+   "contato_oficial": "via 'LTHT hosting team' indicado na página How to apply (e-mail não visível nos trechos)",
+   "regra_chave": "Passo 1: o candidato precisa ENCONTRAR SOZINHO um consultant que aceite hospedar/supervisionar; fica a critério do consultant; só então o hosting team abre o pedido (confirmado)",
+   "certeza": "confirmado (taxa, duração, OH, visto, consultant sponsor); e-mail do escritório não encontrado"
+  },
+  "servico": {
+   "nomes": ["Yorkshire Heart Centre (cardiologia e cirurgia cardíaca), Leeds General Infirmary"],
+   "chefes": [
+    {"nome":"Dr Andrew Hogarth","cargo":"Clinical Director, Cardiology (LGI)","fonte":"https://www.jobs.nhs.uk/candidate/jobadvert/C9298-MED-525","trecho":"Dr Andrew Hogarth ... Clinical Director","certeza":"provável (anúncio de vaga 2025)"},
+    {"nome":"Dr Dominik Schlosshan / Dr Kate Gatenby","cargo":"Lead Clinicians, cardiologia LGI (Schlosshan = clinical lead cardiac imaging)","fonte":"https://www.jobs.nhs.uk/candidate/jobadvert/C9298-MED-525","certeza":"provável (anúncio 2025)"}
+   ],
+   "volume": "≈2.600 PCIs/ano (1.100 primárias); TAVI 250–300/ano, líder regional; 33 cardiologistas consultores (anúncios NHS, data variável; o YHC se descreve como 'largest tertiary cardiac centre in the UK', população 2,8 mi)",
+   "fonte_volume": "https://www.jobs.nhs.uk/candidate/jobadvert/C9298-CON-826",
+   "certeza": "provável (anúncios de vaga, não página institucional)"
+  },
+  "pessoas_chave": [
+   {"nome":"Dr Andrew Hogarth","cargo":"Clinical Director, Cardiology","por_que":"decide a rotina do serviço; ponto para aprovação","fonte":"https://www.jobs.nhs.uk/candidate/jobadvert/C9298-MED-525"},
+   {"nome":"Dr Dominik Schlosshan","cargo":"Lead Clinician / clinical lead cardiac imaging","por_que":"possível consultant host em imagem/CMR","fonte":"https://www.jobs.nhs.uk/candidate/jobadvert/C9298-MED-525"},
+   {"nome":"Dr Kate Gatenby","cargo":"Lead Clinician","por_que":"liderança clínica; possível host","fonte":"https://www.jobs.nhs.uk/candidate/jobadvert/C9298-MED-525"},
+   {"nome":"Dr Jennifer Rossington","cargo":"Coronary Intervention Lead","por_que":"host para hemodinâmica/TAVI","fonte":"https://resuminder.com/jobs/761011-con-971-consultant-cardiologist-tavi-at-leeds-teaching-hospitals","certeza":"provável"},
+   {"nome":"Dr Stephen Page","cargo":"Consultant Cardiologist & Electrophysiologist, YHC","por_que":"host para EP","fonte":"https://www.leedsth.nhs.uk/consultants/dr-stephen-page/"},
+   {"nome":"Prof Sven Plein / Prof John Greenwood","cargo":"University of Leeds — CMR (Plein chefe de Biomedical Imaging Science); Greenwood PI do CE-MARC","por_que":"grupo de CMR de referência mundial com 3 scanners dedicados no LTHT","fonte":"https://www.postdocjobs.com/posting/7138252"}
+  ],
+  "brasileiros": "não encontrado (nenhum fellow/consultor brasileiro identificado no YHC)",
+  "pontes_unifesp_sp": "fraca: white paper SCMR 2023 sobre carreira inicial em CMR tem Sven Plein e coautora do InCor (Gabriela Liberato, InCor/Sírio-Libanês) — provável; fonte via busca (doaj/SCMR). Coautoria Unifesp: não encontrado.",
+  "pesquisa_recente": [
+   {"titulo":"Randomised trial of stable chest pain investigation: 3-year clinical and quality of life results from CE-MARC 2","ano":2023,"ref":"Open Heart 2023;10(1):e002221","certeza":"confirmado (citação no trecho)"},
+   {"titulo":"Comparison of Stress-rest and Stress-LGE analysis strategy in patients undergoing stress perfusion CMR (CE-MARC)","ano":2023,"ref":"Circ Cardiovasc Imaging, dez/2023 (PMID não obtido)","certeza":"provável"},
+   {"titulo":"CE-MARC 3 — ensaio randomizado multicêntrico UK de investigação de dor torácica estável (>2.500 randomizados, recrutando em ago/2024)","ano":2024,"ref":"abstract JCMR 2024; https://eprints.whiterose.ac.uk/id/eprint/224949/","certeza":"provável"}
+  ],
+  "dicas": [
+   "Sem consultant que aceite, não há pedido: o e-mail personalizado ao consultant É a candidatura.",
+   "Pagar £350 só depois do aceite; não reembolsável.",
+   "Brasileiro não precisa de visto para visita curta ao UK, mas confirmar regras de 'permitted activities'/ETA; a carta do Trust só sai após OH e checagens.",
+   "Antecipar police clearance (PF) e good standing (CRM) com tradução juramentada + notarização."
+  ],
+  "rota_recomendada": "1) Escolher subárea (imagem/CMR, EP ou intervenção) e escrever direto a um consultant (Schlosshan p/ imagem, Page p/ EP, Rossington p/ TAVI/PCI) citando CE-MARC; 2) com aceite, acionar o hosting team via página How to apply, pagar £350 e iniciar OH + police clearance/good standing traduzidos; 3) planejar 4 semanas (máx. 12)."
+ },
+ {
+  "match": "NYU Langone — Dept. of Surgery Observership",
+  "cidade": "Nova York (Manhattan) / Mineola (Long Island)", "pais": "EUA", "areas_polo": ["robotica"],
+  "alerta_correcao": "Dados do radar não confirmados: a URL med.nyu.edu/.../surgery/education/observership-program e o e-mail NYU-SurgeryObservership@NYULangone.org NÃO apareceram em nenhum resultado. O programa encontrado é o 'International Observership Program in Surgery' da NYU Grossman LONG ISLAND School of Medicine (Dept. of Surgery, foco trauma/acute care/critical care), dirigido por Patrizio Petrone. Além disso, cirurgia cardíaca robótica fica no Department of Cardiothoracic Surgery (departamento separado, chair Ralph S. Mosca), que não tem observership publicado. Logo o polo mistura dois departamentos.",
+  "programa": {
+   "nome": "International Observership Program in Surgery (NYU Grossman Long Island School of Medicine)",
+   "url": "https://medli.nyu.edu/departments-divisions/surgery/research/international-observership-program",
+   "trecho": "Registration is open year-round ... acceptance based on evaluation of the scholar's qualifications, references, personal or remote interview, and position availability",
+   "elegibilidade_residente_estrangeiro": "provável sim (programa internacional, 'scholars from around the world'), mas foco trauma/acute care — não robótica cardíaca",
+   "taxa": "não encontrado", "duracao": "não encontrado", "antecedencia": "inscrição aberta o ano todo",
+   "documentos": "CV + statement of purpose + nomes de 3 recomendadores, por e-mail ao diretor; entrevista presencial ou remota. Visto: outros deptos NYU exigem B-1 ou ESTA business (ORL) — referência, não confirmado p/ este programa.",
+   "contato_oficial": "patrizio.petrone@nyulangone.org (publicado na página do programa como contato de aplicação)",
+   "cardiotoracica": "Department of Cardiothoracic Surgery: só observação para estudantes NYU (Cardiothoracic Surgery Club / NYU Engage); nenhum observership para médicos externos encontrado — https://med.nyu.edu/departments-institutes/cardiothoracic-surgery/education/medical-student-training",
+   "certeza": "confirmado para o programa de Long Island; radar (URL/e-mail) não confirmado"
+  },
+  "servico": {
+   "nomes": ["Department of Cardiothoracic Surgery — Robotic Mitral Valve Program / Mitral Valve Repair Program", "NYU Langone Robotic Surgery Center"],
+   "chefes": [
+    {"nome":"Ralph S. Mosca, MD","cargo":"Chair, Department of Cardiothoracic Surgery","fonte":"https://med.nyu.edu/departments-institutes/cardiothoracic-surgery/","certeza":"provável (página sem data)"},
+    {"nome":"Didier F. Loulmet, MD","cargo":"Director, Robotic Mitral Valve Program; fez com Carpentier o 1º reparo mitral robótico (1998)","fonte":"https://nyulangone.org/doctors/1629059076/didier-f-loulmet","certeza":"confirmado"}
+   ],
+   "volume": ">1.000 reparos mitrais robóticos desde 2011 (NYU Langone) — https://nyulangone.org/care-services/robotic-surgery-center/robotic-surgery-for-heart-conditions (provável, sem ano exato)",
+   "fellowship": "não há fellowship de robótica cardíaca encontrado; existe Advanced Minimally Invasive Robotic Thoracic Surgery Fellowship (torácica) e Robotic & MIS Fellowship (geral/foregut)"
+  },
+  "pessoas_chave": [
+   {"nome":"Didier F. Loulmet","cargo":"Diretor do Robotic Mitral Valve Program","por_que":"lidera e hospedaria observação em robótica mitral; pioneiro","fonte":"https://nyulangone.org/doctors/1629059076/didier-f-loulmet"},
+   {"nome":"Eugene A. Grossi","cargo":"Stephen B. Colvin Professor of CT Surgery; equipe robótica com Loulmet","por_que":"coautor sênior das séries robóticas","fonte":"https://nyulangone.org/doctors/1205821949/eugene-a-grossi"},
+   {"nome":"Ralph S. Mosca","cargo":"Chair, Cardiothoracic Surgery","por_que":"aprovação departamental","fonte":"https://med.nyu.edu/departments-institutes/cardiothoracic-surgery/"},
+   {"nome":"Patrizio Petrone","cargo":"Diretor, International Observership Program in Surgery (Long Island)","por_que":"único programa internacional publicado; trauma/acute care","fonte":"https://medli.nyu.edu/departments-divisions/surgery/research/international-observership-program"}
+  ],
+  "brasileiros": "não encontrado no serviço. Ponte histórica: Loulmet e Robinson Poffo (cirurgia robótica cardíaca, Einstein-SP) palestraram juntos em simpósio do Einstein em SP (2012) — provável, fonte ismics.org brochure.",
+  "pontes_unifesp_sp": "não encontrado (nenhuma coautoria NYU-CT × Unifesp/USP/Dante 2022–2025 identificada)",
+  "pesquisa_recente": [
+   {"titulo":"Two decades of experience with robotic mitral valve repair: What have we learned?","ano":2024,"ref":"JTCVS Techniques, DOI 10.1016/j.xjtc.2024.01.014 (PMC11145349)","certeza":"confirmado"},
+   {"titulo":"Short-term outcomes of robotic left ventricular patch ventriculoplasty for significant mitral annular calcification","ano":2024,"ref":"JTCVS Techniques 2024;27:81-90, DOI 10.1016/j.xjtc.2024.06.016","certeza":"confirmado"},
+   {"titulo":"Subvalvular techniques enhanced with endoscopic robotic mitral valve repair (Dorsey, James, Shrivastava, Loulmet, Grossi)","ano":2023,"ref":"JTCVS Techniques 2023 (DOI não obtido)","certeza":"provável"}
+  ],
+  "dicas": [
+   "Robótica cardíaca: não há programa estruturado — precisa de convite/host do próprio Loulmet ou Grossi.",
+   "Orthopedics NYU exige faculty sponsor e limita a 30 dias — padrão provável da instituição.",
+   "Visto: deptos NYU indicam B-1 ou ESTA business (brasileiro precisa de B1/B2)."
+  ],
+  "rota_recomendada": "1) E-mail direto a Loulmet (cc Grossi) citando o review de 2024 e a ponte Poffo/Einstein, pedindo 4 semanas de observação em reparo mitral robótico; 2) se aceito, seguir o fluxo de visiting observer que o departamento indicar; 3) programa do Petrone em Long Island só como plano B (é trauma, não cardíaca)."
+ },
+ {
+  "match": "Fundación Favaloro",
+  "cidade": "Buenos Aires", "pais": "Argentina",
+  "areas_polo": ["robotica","eletrofisiologia","ic","transplante","hipertensao_pulmonar","estagio_externo_cardiologia"],
+  "alerta_correcao": "Divergência de cargos: matérias de fev/2026 citam Mariano Camporrotondo como chefe de Cirurgia Cardiovascular (líder do 1º bypass robótico); matéria Los Andes mai/2026 chama Alejandro Bertolotti de 'jefe de Cirugía Cardiovascular y Torácica'. Bio TTS de Bertolotti: Chairman do Departamento de Transplante. Confirmar no site.",
+  "programa": {
+   "nome": "não público — sem página de observership/rotación externa para estrangeiros encontrada",
+   "url": "não encontrado",
+   "elegibilidade_residente_estrangeiro": "provável — 'formó más de 450 residentes provenientes de Argentina, Latinoamérica y de algunos países europeos' (lavozdesanjusto.com.ar); estrangeiros entram na especialização com matrícula provisória (CONEAU). Para observação curta, padrão argentino (Univ. Austral, outra instituição) é ingressar como 'observante' sem matrícula; >90 dias exige visa de residência transitória.",
+   "taxa": "não encontrado", "duracao": "não encontrado", "antecedencia": "não encontrado",
+   "documentos": "não encontrado (referência: título, carta da instituição de origem, seguro)",
+   "contato_oficial": "não encontrado — usar Docencia/Departamento de Docencia via fundacionfavaloro.org",
+   "fonte": "https://www.coneau.gob.ar/archivos/anexos/IF-2018-57383703-APN-DAC-CONEAU.pdf",
+   "certeza": "não encontrado / provável"
+  },
+  "servico": {
+   "nomes": ["Departamento de Cirugía Cardiovascular","Departamento de Trasplante Intratorácico — Servicio de Insuficiencia Cardíaca, Asistencia Circulatoria Mecánica y Trasplante Cardíaco","Electrofisiología (chefe não encontrado)","Hipertensión pulmonar (chefe não encontrado)"],
+   "chefes": [
+    {"nome":"Dr. Mariano Camporrotondo","cargo":"Jefe de Cirugía Cardiovascular; liderou o 1º bypass coronário robótico da Argentina (da Vinci Xi, fev/2026)","fonte":"https://www.baenegocios.com/saludybienestar/la-fundacion-favaloro-realizo-el-primer-bypass-coronario-asistido-por-robot-del-pais-3347/","certeza":"confirmado (imprensa 2026)"},
+    {"nome":"Dr. Alejandro M. Bertolotti","cargo":"Chairman Transplant Department; Director HF, MCS & Heart Transplant Division; Director Lung Transplant","fonte":"https://virtual.tts.org/webapp/bio/6485","certeza":"provável (bio sem data)"}
+   ],
+   "volume": "não encontrado"
+  },
+  "pessoas_chave": [
+   {"nome":"Mariano Camporrotondo","cargo":"Jefe Cirugía Cardiovascular","por_que":"lidera robótica cardíaca (programa novo, 2026)","fonte":"https://www.baenegocios.com/saludybienestar/la-fundacion-favaloro-realizo-el-primer-bypass-coronario-asistido-por-robot-del-pais-3347/"},
+   {"nome":"Alejandro Bertolotti","cargo":"Chefe Transplante / IC avançada / ACM","por_que":"decide observação em transplante e IC","fonte":"https://virtual.tts.org/webapp/bio/6485"}
+  ],
+  "brasileiros": "não encontrado no staff. Alexandre Abizaid (Brasil) foi palestrante do Favaloro Cardiovascular Symposium 2025 (baenegocios, ago/2025) — ponte de contato, provável.",
+  "pontes_unifesp_sp": "não encontrado (coautorias Favaloro × Unifesp/InCor/Dante não identificadas; possível via registro latino-americano de transplante cardíaco 1968–2022, não confirmado)",
+  "pesquisa_recente": [
+   {"titulo":"Carta científica: nova variante genética associada a hipertensão arterial pulmonar (Banchio Dal Bó et al., Hosp. Univ. Fundación Favaloro)","ano":"não confirmado","ref":"Rev Argent Cardiol — https://www.redalyc.org/journal/3053/305383148012/305383148012_2.pdf","certeza":"provável (ano não visível)"},
+   {"titulo":"Resposta dos autores (grupo Alustiza, Unidad de IC y Trasplante Cardíaco, HU Favaloro) a carta de Avellaneda","ano":"2024 provável","ref":"Rev Argent Cardiol vol 92 — https://www.redalyc.org/journal/3053/305382840010/305382840010_2.pdf","certeza":"provável"},
+   {"titulo":"1º bypass coronário assistido por robô da Argentina (notícia, não artigo)","ano":2026,"ref":"https://www.baenegocios.com/saludybienestar/la-fundacion-favaloro-realizo-el-primer-bypass-coronario-asistido-por-robot-del-pais-3347/","certeza":"confirmado"}
+  ],
+  "dicas": [
+   "Favaloro Cardiovascular Symposium (Buenos Aires, set/2025, 11–12/09; apoio SOLACI) com bolsas de participação via organizacionsimposioff@grupoolmos.com.ar (assunto 'Beca – Favaloro Cardiovascular Symposium') — porta de entrada para contato pessoal; edição 2026 não encontrada.",
+   "Espanhol fluente ajuda; instituições argentinas costumam pedir carta de competência linguística.",
+   "Estadias <90 dias: brasileiro entra com RG/passaporte como turista; >90 dias exige residência transitória (regra geral argentina)."
+  ],
+  "rota_recomendada": "1) E-mail em espanhol ao Departamento de Docencia + chefe da área (Bertolotti p/ IC/transplante; Camporrotondo p/ robótica) pedindo 'rotación como observadora' de 4 semanas, com carta da COREME/Unifesp; 2) usar o Favaloro Cardiovascular Symposium como ocasião de contato presencial; 3) pedir a lista de requisitos (seguro, título, carta) ao Docencia."
+ },
+ {
+  "match": "Stanford Health Care",
+  "cidade": "Palo Alto/Stanford", "pais": "EUA",
+  "areas_polo": ["robotica","ic","transplante","arritmia_cirurgica","cardiogenetica","esporte","miocardiopatias","congenita_adulto","cardio_pediatrica"],
+  "alerta_correcao": "Stanford não tem observership central de cardiologia; cada departamento gere o seu Visiting Observer Program (regras de Stanford Medicine). Cirurgia Cardiotorácica é departamento próprio (chair Y. Joseph Woo), separado do Dept. of Surgery cujo International Visiting Observer Program é o único internacional publicado; não está confirmado que ele cubra CT surgery.",
+  "programa": {
+   "nome": "Stanford Medicine Visiting Observer Program (por departamento); International Visiting Observer Program (Dept. of Surgery / Global Surgery)",
+   "url": "https://surgery.stanford.edu/about/global-surgery/international-visiting-observer-program.html",
+   "formulario": "New Visiting Observer Form (Smartsheet): https://app.smartsheet.com/b/form/d917cf6bb3b64609884bdd15fd5b71e6",
+   "elegibilidade_residente_estrangeiro": "provável sim — política geral lista 'International Physicians interested in observing procedures'; exige faculty host Stanford",
+   "taxa": "Surgery internacional: US$1.500 de registro (inclui 1ª semana) + US$1.000/semana adicional, máx. 4 semanas (confirmado). Outros deptos variam (Dermatologia US$1.000).",
+   "duracao": "máx. 4 semanas (Surgery); muitos deptos: ≤30 dias consecutivos por 12 meses (confirmado)",
+   "antecedencia": "não encontrado",
+   "documentos": "faculty host que aceite supervisionar; sem hands-on; COVID-19 vacina + reforço (aviso 2022, pode estar desatualizado); visto por conta do candidato — Stanford não orienta visto; aprovação do Visiting Observer office não garantida",
+   "contato_oficial": "não encontrado e-mail específico de CV; IMS (ims@stanfordmed.org) citado em resumo de busca — não confirmado como canal de observership",
+   "outros": "AHFTC Visiting Fellow Rotation (IC avançada/transplante) exige fellow ACGME — residente brasileira NÃO elegível: https://med.stanford.edu/cvmedicine/education/ahfc/AHFTC_Rotation.html",
+   "certeza": "confirmado (taxa/duração Surgery; host obrigatório); cobertura de cardiologia/CT não confirmada"
+  },
+  "servico": {
+   "nomes": ["Department of Cardiothoracic Surgery","Division of Cardiovascular Medicine — Heart Failure, Cardiac Transplant & MCS","Stanford Center for Inherited Cardiovascular Disease (SCICD)","Adult Congenital Heart Program","Sports Cardiology Program"],
+   "chefes": [
+    {"nome":"Y. Joseph Woo, MD","cargo":"Chair, Cardiothoracic Surgery; Norman E. Shumway Professor","fonte":"https://profiles.stanford.edu/joseph-woo","certeza":"confirmado"},
+    {"nome":"Victoria Parikh, MD","cargo":"Director, SCICD (desde 2023)","fonte":"https://profiles.stanford.edu/victoria-parikh","certeza":"confirmado"},
+    {"nome":"George Lui, MD","cargo":"Medical Director, Adult Congenital Heart Program","fonte":"https://www.stanfordchildrens.org/en/services/congenital-heart/careteam.html","certeza":"confirmado"},
+    {"nome":"Kiran Khush, MD","cargo":"diretora de pesquisa em transplante cardíaco","fonte":"https://med.stanford.edu/cvmedicine/affinity-groups/heart-failure.html","certeza":"provável"},
+    {"nome":"Jeffrey Teuteberg, MD","cargo":"Medical Director, MCS program","fonte":"https://med.stanford.edu/cvmedicine/affinity-groups/heart-failure.html","certeza":"provável"},
+    {"nome":"Sports cardiology","cargo":"diretor não confirmado (Matthew Wheeler aparece ligado; não confirmado)","fonte":"https://stanfordhealthcare.org/doctors/w/matthew-wheeler.html","certeza":"não confirmado"}
+   ],
+   "volume": "robotic-assisted MIDCAB iniciado out/2022, >12 casos adultos e pediátricos (https://med.stanford.edu/ctsurgery/about-the-department/departmental-highlights/2023.html); Mitral Valve Repair Reference Center AHA/Mitral Foundation 2020–2024; transplante: 13 cardiologistas de transplante (anúncio de vaga)"
+  },
+  "pessoas_chave": [
+   {"nome":"Y. Joseph Woo","cargo":"Chair CT Surgery","por_que":"decide/hospeda robótica, mitral, transplante, minimamente invasiva","fonte":"https://profiles.stanford.edu/joseph-woo"},
+   {"nome":"Victoria Parikh","cargo":"Director SCICD","por_que":"host em cardiogenética/miocardiopatias","fonte":"https://profiles.stanford.edu/victoria-parikh"},
+   {"nome":"Euan Ashley","cargo":"líder/fundador do SCICD (lab)","por_que":"cardiogenética de referência mundial","fonte":"https://ashleylab.stanford.edu/our-team/faculty/","certeza":"provável"},
+   {"nome":"Kiran Khush","cargo":"pesquisa em transplante cardíaco","por_que":"host em transplante/IC","fonte":"https://med.stanford.edu/cvmedicine/affinity-groups/heart-failure.html"},
+   {"nome":"George Lui","cargo":"Medical Director ACHD","por_que":"host em congênito adulto","fonte":"https://www.stanfordchildrens.org/en/services/congenital-heart/careteam.html"}
+  ],
+  "brasileiros": "Julio Cesar Batista Ferreira (ICB-USP) foi Professor Visitante/pós-doc na Stanford School of Medicine (2019–21) — pesquisa básica de metabolismo cardíaco, não clínica (https://bv.fapesp.br/pt/pesquisador/32710/julio-cesar-batista-ferreira/), provável. Brasileiros no staff clínico cardiovascular: não encontrado.",
+  "pontes_unifesp_sp": "USP (ICB) — via J.C.B. Ferreira; Unifesp/InCor/Dante: não encontrado",
+  "pesquisa_recente": "não encontrado com PMID nas buscas (sugestão: PubMed 'Woo YJ[au] 2024 transplant' e 'Parikh VN[au] 2024'); destaque citável: robotic-assisted MIDCAB Stanford 2022–2023 (página departamental).",
+  "dicas": [
+   "Primeiro passo oficial: identificar faculty host que aceite; sem host não há pedido.",
+   "Orçar ~US$4.500 por 4 semanas se seguir o modelo do Dept. of Surgery.",
+   "Visto B1/B2 por conta própria; vacinas incluindo COVID.",
+   "Fellowships/rotações formais (AHFTC) exigem ACGME — não servem."
+  ],
+  "rota_recomendada": "1) Escolher UMA subárea (ex. SCICD/cardiogenética com Parikh, ou CT surgery com Woo) e pedir host por e-mail citando trabalho específico; 2) com aceite, o departamento submete o Visiting Observer Form e cobra taxa; 3) usar a conexão USP–Stanford (J.C.B. Ferreira) como apresentação se a área for miocardiopatia/IC."
+ }
+]
