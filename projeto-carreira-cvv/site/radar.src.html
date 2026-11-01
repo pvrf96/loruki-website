@@ -92,17 +92,25 @@ details.w[open] summary::after{content:"–"}
 .tag{font:500 9.5px var(--f-mono);border-radius:999px;padding:2px 7px;border:1px solid;white-space:nowrap}
 .res{font:600 9.5px var(--f-mono);border-radius:999px;padding:2px 7px;background:rgb(94 227 155 / .14);color:#5ee39b}
 /* palco */
-.stage{position:relative;min-width:0;min-height:0;overflow:hidden;background:radial-gradient(ellipse at 50% 45%,#0d0a1c 0%,#04040a 70%)}
+.stage{position:relative;min-width:0;min-height:0;overflow:hidden;background:#06060c}
 .stage canvas{display:block;width:100%;height:100%;touch-action:none}
-.glabel{position:absolute;pointer-events:none;font:600 10px var(--f-ui);transform:translate(-50%,-50%);white-space:nowrap;padding:2px 7px;border-radius:999px;background:rgb(4 4 10 / .55);border:1px solid rgb(255 255 255 / .08);opacity:0;transition:opacity .35s}
-.glabel.fam{font-size:11.5px;font-weight:700;padding:3px 10px;background:rgb(4 4 10 / .7)}
+/* rótulos de cidade: posicionados por transform (declutter no JS) */
+.glabel{position:absolute;left:0;top:0;pointer-events:none;display:flex;align-items:center;gap:5px;font:500 10.5px/1 var(--f-ui);color:#e4e2ef;white-space:nowrap;padding:3px 7px 3px 6px;border-radius:6px;background:rgb(6 6 12 / .78);border:1px solid rgb(255 255 255 / .07);opacity:0;visibility:hidden;transition:opacity .2s,visibility 0s .2s}
+.glabel.on{opacity:1;visibility:visible;transition:opacity .2s}
+.glabel i{width:6px;height:6px;border-radius:50%;flex:none}
+.glabel b{font:600 10px/1 var(--f-mono);color:var(--muted)}
 .tip{position:absolute;pointer-events:none;background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:7px 10px;font-size:12px;max-width:260px;transform:translate(14px,-50%)}
 .tip small{display:block;color:var(--muted);font-size:11px}
-.zoom{position:absolute;right:12px;bottom:14px;display:flex;flex-direction:column;gap:4px}
-.zoom button{width:32px;height:32px;border-radius:9px;border:1px solid var(--line);background:rgb(12 11 22 / .85);cursor:pointer;font-size:15px}
-.legend{position:absolute;left:12px;bottom:14px;display:flex;gap:10px;flex-wrap:wrap;font:500 10.5px var(--f-mono);color:var(--muted);background:rgb(4 4 10 / .6);border:1px solid var(--line);border-radius:999px;padding:5px 11px;max-width:calc(100% - 80px)}
-.legend span{display:flex;align-items:center;gap:5px;white-space:nowrap}
-.dot{width:7px;height:7px;border-radius:50%;display:inline-block}
+.zoom{position:absolute;right:12px;bottom:14px;display:flex;flex-direction:column;border:1px solid var(--line);border-radius:10px;background:rgb(12 11 22 / .9);overflow:hidden}
+.zoom button{width:34px;height:34px;border:0;background:none;cursor:pointer;font-size:16px;line-height:1;color:var(--ink);display:grid;place-items:center}
+.zoom button+button{border-top:1px solid var(--line)}
+.zoom button:hover{background:var(--panel2)}
+.zoom button:focus-visible{outline:2px solid var(--g1);outline-offset:-2px}
+.legend{position:absolute;left:12px;bottom:14px;display:flex;gap:6px 12px;flex-wrap:wrap;align-items:center;font:500 10.5px var(--f-ui);color:#bdb9cf;background:rgb(6 6 12 / .82);border:1px solid var(--line);border-radius:10px;padding:7px 11px;max-width:calc(100% - 80px)}
+.legend span{display:flex;align-items:center;gap:6px;white-space:nowrap}
+.legend .sep{width:1px;height:12px;background:var(--line)}
+.dot{width:10px;height:10px;border-radius:50%;display:inline-block;flex:none;background:radial-gradient(circle,currentColor 0 34%,#06060c 36% 54%,currentColor 56% 72%,transparent 75%)}
+.dot.top{background:radial-gradient(circle,#bdb9cf 0 30%,#06060c 33% 52%,#fff 55% 72%,transparent 75%)}
 /* ficha */
 .drawer{position:absolute;top:0;right:0;bottom:0;width:min(380px,100%);background:var(--panel);border-left:1px solid var(--line);z-index:8;
   transform:translateX(102%);transition:transform .35s cubic-bezier(.2,.8,.2,1);display:flex;flex-direction:column}
@@ -195,7 +203,7 @@ details.w[open] summary::after{content:"–"}
     </section>
     <section class="stage" id="stage" aria-label="Mapa de polos">
       <div class="legend" id="legend"></div>
-      <div class="zoom"><button type="button" id="zin" aria-label="Aproximar">+</button><button type="button" id="zout" aria-label="Afastar">−</button></div>
+      <div class="zoom"><button type="button" id="zin" aria-label="Aproximar">+</button><button type="button" id="zout" aria-label="Afastar">−</button><button type="button" id="zhome" aria-label="Voltar à vista inicial" title="Vista inicial">⌂</button></div>
       <div class="tip" id="tip" hidden></div>
       <aside class="drawer" id="drawer" aria-label="Ficha"><div class="dhead"><button class="x" type="button" id="close">Fechar</button></div><div class="dbody" id="dbody"></div></aside>
     </section>
@@ -203,13 +211,6 @@ details.w[open] summary::after{content:"–"}
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/three@0.147.0/build/three.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/three@0.147.0/examples/js/shaders/CopyShader.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/three@0.147.0/examples/js/shaders/LuminosityHighPassShader.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/three@0.147.0/examples/js/postprocessing/EffectComposer.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/three@0.147.0/examples/js/postprocessing/ShaderPass.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/three@0.147.0/examples/js/postprocessing/MaskPass.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/three@0.147.0/examples/js/postprocessing/RenderPass.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/three@0.147.0/examples/js/postprocessing/UnrealBloomPass.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/three@0.147.0/examples/js/controls/OrbitControls.js"></script>
 <script>
 (function(){
@@ -244,7 +245,7 @@ $('nAll').textContent=P.length;
 const present=Object.keys(T).filter(k=>P.some(p=>p.areas.includes(k)));
 $('fArea').innerHTML='<option value="">Todas as áreas</option>'+GROUPS.map(g=>{const ks=present.filter(k=>T[k][1]===g[0]);return ks.length?'<optgroup label="'+g[1]+'">'+ks.map(k=>'<option value="'+k+'">'+tn(k)+' ('+P.filter(p=>p.areas.includes(k)).length+')</option>').join('')+'</optgroup>':''}).join('');
 $('fReg').innerHTML+=Object.keys(REG).filter(r=>P.some(p=>p.reg===r)).map(r=>'<option value="'+r+'">'+REG[r]+'</option>').join('');
-$('legend').innerHTML=GROUPS.slice(0,5).map(g=>'<span><i class="dot" style="background:'+FAMC[g[0]]+';box-shadow:0 0 6px '+FAMC[g[0]]+'"></i>'+g[1]+'</span>').join('');
+$('legend').innerHTML=GROUPS.slice(0,5).map(g=>'<span><i class="dot" style="color:'+FAMC[g[0]]+'"></i>'+g[1]+'</span>').join('')+'<i class="sep"></i><span><i class="dot top"></i>Top 10 do ranking</span>';
 $('desc').textContent='O radar varre '+P.length+' centros de cardiologia e cirurgia cardiovascular no mundo e ranqueia onde você tem mais chance de conseguir um observership.';
 
 // ranking
@@ -310,110 +311,165 @@ $('go').onclick=()=>{const b=$('go');if(b.getAttribute('aria-busy')==='true')ret
 renderList();
 
 // ---------- WebGL ----------
+// Mapa em matriz de pontos (dot-matrix): grade regular de terra em tom neutro escuro,
+// cor das famílias só ao redor dos polos, marcadores nítidos (ponto + anel), rótulos sem colisão.
+// Ganchos para efeitos: MAP.tick(dt) é chamado a cada quadro; U.uTime avança só sem reduced-motion.
 const stage=$('stage');let renderer;
 try{renderer=new THREE.WebGLRenderer({antialias:false,powerPreference:'high-performance'})}catch(e){}
 if(!renderer){stage.insertAdjacentHTML('beforeend','<div class="nowebgl">Seu navegador não liberou WebGL. A busca e a lista continuam funcionando.</div>');return}
-const lowp=mobile();renderer.setPixelRatio(Math.min(devicePixelRatio,lowp?1.5:2));renderer.setClearColor(0x05040c,1);
+const lowp=mobile();renderer.setPixelRatio(Math.min(devicePixelRatio,lowp?2:2));renderer.setClearColor(0x06060c,1);
 stage.prepend(renderer.domElement);
 const scene=new THREE.Scene();const cam=new THREE.OrthographicCamera(-6,6,3,-3,-10,10);cam.position.z=5;
 const ctr=new THREE.OrbitControls(cam,renderer.domElement);ctr.enableRotate=false;ctr.screenSpacePanning=true;ctr.enableDamping=true;ctr.minZoom=.5;ctr.maxZoom=9;
 ctr.mouseButtons={LEFT:THREE.MOUSE.PAN,MIDDLE:THREE.MOUSE.DOLLY,RIGHT:THREE.MOUSE.PAN};ctr.touches={ONE:THREE.TOUCH.PAN,TWO:THREE.TOUCH.DOLLY_PAN};
-const U={uTime:{value:0},uSweep:{value:0},uMix:{value:1},uPx:{value:renderer.getPixelRatio()},uZoom:{value:1},uReduce:{value:reduce?1:0}};
-let seed=11;const rnd=()=>{seed=(seed*16807)%2147483647;return (seed-1)/2147483646};const gs=()=>(rnd()+rnd()+rnd()+rnd()-2)*.87;
-// centros das nebulosas (por área) em espiral elíptica
-const AK=present;const centers={};
-const FC={ccv:[-2.75,.95],int:[2.75,1.15],clin:[-2.6,-1.6],ped:[2.7,-1.45],crit:[0,-2.35],est:[0,2.3]};
-GROUPS.forEach(([g])=>{const ks=AK.filter(k=>T[k][1]===g);const R=ks.length>1?Math.min(1.45,.55+ks.length*.13):0;ks.forEach((k,i)=>{const a=i/ks.length*Math.PI*2+.4;centers[k]=[FC[g][0]+Math.cos(a)*R*.95,FC[g][1]+Math.sin(a)*R*.72]})});
-// posição de cada polo na galáxia: perto da nebulosa da 1ª área
-P.forEach(p=>{const c=centers[p.areas[0]];p.gx=c[0]+gs()*.26;p.gy=c[1]+gs()*.2;p.wx=p.lon/30;p.wy=p.lat/30});
-const EASE='float ease(float t){return t<.5?4.*t*t*t:1.-pow(-2.*t+2.,3.)/2.;}';
-// estrelas de fundo
-(function(){const n=lowp?500:1100,pos=new Float32Array(n*3),ph=new Float32Array(n);for(let i=0;i<n;i++){pos[i*3]=(rnd()-.5)*30;pos[i*3+1]=(rnd()-.5)*18;pos[i*3+2]=-2;ph[i]=rnd()*6.28}
- const g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.BufferAttribute(pos,3));g.setAttribute('aPh',new THREE.BufferAttribute(ph,1));
- scene.add(new THREE.Points(g,new THREE.ShaderMaterial({uniforms:U,transparent:true,depthWrite:false,blending:THREE.AdditiveBlending,
-  vertexShader:'attribute float aPh;uniform float uTime,uPx,uReduce;varying float vA;void main(){vA=uReduce>.5?.25:.10+.22*(.5+.5*sin(uTime*1.1+aPh*4.));gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.);gl_PointSize=1.3*uPx;}',
-  fragmentShader:'varying float vA;void main(){float r=length(gl_PointCoord-.5)*2.;gl_FragColor=vec4(vec3(.8,.82,1.)*vA*(1.-r),1.);}'})))})();
-// varredura fina
-const sweep=new THREE.Mesh(new THREE.PlaneGeometry(60,60),new THREE.ShaderMaterial({uniforms:U,transparent:true,depthWrite:false,blending:THREE.AdditiveBlending,
- vertexShader:'varying vec2 vP;void main(){vP=position.xy;gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.);}',
- fragmentShader:`varying vec2 vP;uniform float uSweep,uTime,uReduce;
- void main(){float r=length(vP);float a=atan(vP.y,vP.x);float d=mod(uSweep-a,6.2831853);float fade=smoothstep(7.5,.3,r);
-  float trail=exp(-d*3.2)*.045*fade;float beam=exp(-d*260.)*.18*fade;if(uReduce>.5){trail=0.;beam=0.;}
-  float rr=abs(fract(r/1.1+.5)-.5)*1.1;float ring=smoothstep(.012,0.,rr)*.035*fade;
-  vec3 c=mix(vec3(.55,.36,.96),vec3(.93,.29,.6),clamp(d/1.2,0.,1.))*(trail+beam)+vec3(.45,.4,.75)*ring;gl_FragColor=vec4(c,1.);}`}));
-sweep.position.z=-1;scene.add(sweep);
-// continentes (só no modo Mundo)
-(function(){const n=LAND.length/2,pos=new Float32Array(n*3),cl=new Float32Array(n*3),al=new Float32Array(n),ph=new Float32Array(n);const base=new THREE.Color('#3a2a6e');const tmp=new THREE.Color();
- const FK=Object.keys(FAMC);const fcnt={};P.forEach(p=>p.areas.forEach(k=>{const g=T[k][1];fcnt[g]=(fcnt[g]||0)+1/p.areas.length}));
- const FCOL=FK.map(g=>new THREE.Color(FAMC[g]));
- const PC=P.map(p=>{const v=FK.map(()=>0);p.areas.forEach(k=>{const gi=FK.indexOf(T[k][1]);v[gi]+=1/p.areas.length/Math.sqrt(fcnt[FK[gi]]||1)});return [p.lon,p.lat,v,Math.cos(p.lat*Math.PI/180),.6+Math.min(1.4,p.areas.length*.25)]});
- for(let i=0;i<n;i++){const lo=LAND[i*2]/10,la=LAND[i*2+1]/10;pos[i*3]=lo/30;pos[i*3+1]=la/30;pos[i*3+2]=-.5;let r=0,g=0,b=0,w=0;
-  const fv=FK.map(()=>0);for(const q of PC){const dx=(lo-q[0])*q[3],dy=la-q[1];const d2=dx*dx+dy*dy;if(d2>900)continue;const ww=q[4]*Math.exp(-d2/(2*36));for(let f=0;f<FK.length;f++)fv[f]+=q[2][f]*ww;w+=ww}
-  const it=Math.min(1,w*.9);if(w>0){let bi=0;for(let f=1;f<FK.length;f++)if(fv[f]>fv[bi])bi=f;tmp.copy(FCOL[bi]);const hsl2={};tmp.getHSL(hsl2);tmp.setHSL((hsl2.h+(rnd()-.5)*.04+1)%1,hsl2.s,hsl2.l*(.8+rnd()*.35))}else tmp.copy(base);
-  tmp.lerpColors(base,tmp,Math.min(1,it*1.2));cl.set([tmp.r,tmp.g,tmp.b],i*3);al[i]=(.08+.66*it)*(.6+rnd()*.6);ph[i]=rnd();
-  pos[i*3]+=(rnd()-.5)*.028;pos[i*3+1]+=(rnd()-.5)*.028}
- const g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.BufferAttribute(pos,3));g.setAttribute('aCol',new THREE.BufferAttribute(cl,3));g.setAttribute('aA',new THREE.BufferAttribute(al,1));g.setAttribute('aPh',new THREE.BufferAttribute(ph,1));
- scene.add(new THREE.Points(g,new THREE.ShaderMaterial({uniforms:U,transparent:true,depthWrite:false,blending:THREE.AdditiveBlending,
-  vertexShader:'attribute vec3 aCol;attribute float aA,aPh;uniform float uPx,uZoom,uTime,uSweep,uReduce,uGlow;varying vec3 vC;varying float vA;void main(){float a=atan(position.y,position.x);float d=mod(uSweep-a,6.2831853);float ping=0.;float tw=uReduce>.5?1.:.8+.2*sin(uTime*1.3+aPh*40.);vA=aA*tw+ping*aA;vC=aCol;gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.);gl_PointSize=(1.1+.5*min(uZoom,5.))*uPx*(.7+aPh*.8)*(1.+.35*uGlow);}',
-  fragmentShader:'varying vec3 vC;varying float vA;void main(){float r=length(gl_PointCoord-.5)*2.;if(r>1.)discard;float g=exp(-r*r*2.2);gl_FragColor=vec4(vC*g*vA,1.);}'})))})();
-// poeira das nebulosas: cada polo x área gera partículas
-const dust=[];AK.forEach(k=>{const ps=P.filter(p=>p.areas.includes(k));const n=Math.round(Math.max(lowp?260:520,ps.length*(lowp?24:46)));for(let i=0;i<n;i++)dust.push([ps[i%ps.length].id,k])});
-const HAZE=lowp?1400:3000;const ND=dust.length+HAZE;const dW=new Float32Array(ND*2),dG=new Float32Array(ND*2),dC=new Float32Array(ND*3),dP=new Float32Array(ND),dS=new Float32Array(ND),dO=new Float32Array(ND),dDim=new Float32Array(ND);
-const owner=new Int32Array(ND);const col=new THREE.Color();let j=0;
-const hsl={};
-dust.forEach(([pid,k])=>{const p=P[pid],c=centers[k];col.set(fc(k));col.getHSL(hsl);
-  const rr=Math.pow(rnd(),1.4),ang=rnd()*6.283;dW[j*2]=p.wx+Math.cos(ang)*rr*.32;dW[j*2+1]=p.wy+Math.sin(ang)*rr*.24;
-  const tight=rnd()<.35;const sp=tight?.12:.36;const bx=tight?p.gx:c[0],by=tight?p.gy:c[1];
-  dG[j*2]=bx+gs()*sp*1.1;dG[j*2+1]=by+gs()*sp*.8;
-  col.setHSL((hsl.h+(rnd()-.5)*.06+1)%1,Math.min(1,hsl.s*(.85+rnd()*.25)),Math.min(.82,hsl.l*(.7+rnd()*.55)));
-  dC.set([col.r,col.g,col.b],j*3);dP[j]=rnd();dS[j]=1+Math.pow(rnd(),3)*3.2;dO[j]=.45+rnd()*.55;owner[j]=pid;j++});
-for(let h=0;h<HAZE;h++){const p=P[Math.floor(rnd()*P.length)];const k=p.areas[Math.floor(rnd()*p.areas.length)];const g=T[k][1];const f=FC[g];col.set(fc(k));col.getHSL(hsl);
-  dW[j*2]=p.wx+gs()*.45;dW[j*2+1]=p.wy+gs()*.3;dG[j*2]=f[0]+gs()*1.25;dG[j*2+1]=f[1]+gs()*.85;
-  col.setHSL(hsl.h,hsl.s*.8,hsl.l*.55);dC.set([col.r,col.g,col.b],j*3);dP[j]=rnd();dS[j]=1+rnd()*1.6;dO[j]=.18+rnd()*.25;owner[j]=p.id;j++}
-const dGeo=new THREE.BufferGeometry();dGeo.setAttribute('position',new THREE.BufferAttribute(new Float32Array(ND*3),3));
-[['aW',dW,2],['aG',dG,2],['aCol',dC,3],['aPh',dP,1],['aSz',dS,1],['aOp',dO,1],['aDim',dDim,1]].forEach(([n,a,s])=>dGeo.setAttribute(n,new THREE.BufferAttribute(a,s)));
-dGeo.boundingSphere=new THREE.Sphere(new THREE.Vector3(),100);
-scene.add(new THREE.Points(dGeo,new THREE.ShaderMaterial({uniforms:U,transparent:true,depthWrite:false,blending:THREE.AdditiveBlending,
- vertexShader:EASE+`attribute vec2 aW,aG;attribute vec3 aCol;attribute float aPh,aSz,aOp,aDim;uniform float uTime,uSweep,uMix,uPx,uZoom,uReduce,uGlow;varying vec3 vC;varying float vA;
- void main(){float e=ease(uMix);vec2 p=mix(aW,aG,e);vec2 drift=vec2(sin(uTime*.25+aPh*40.),cos(uTime*.21+aPh*31.))*.012*e*(1.-uReduce);p+=drift;
-  float a=atan(p.y,p.x);float d=mod(uSweep-a,6.2831853);float ping=uReduce>.5?0.:exp(-d*2.4);
-  float tw=uReduce>.5?1.:.65+.35*sin(uTime*(1.2+aPh*1.5)+aPh*40.);
-  vA=aOp*.22*tw*(1.-aDim*.92);vC=aCol;
-  gl_Position=projectionMatrix*modelViewMatrix*vec4(p,0.,1.);gl_PointSize=aSz*uPx*(.75+.18*min(uZoom,5.))*(1.+.6*uGlow);}`,
- fragmentShader:'uniform float uGlow;varying vec3 vC;varying float vA;void main(){float r=length(gl_PointCoord-.5)*2.;if(r>1.)discard;float g=exp(-r*r*3.5);float h=exp(-r*r*1.2)*.35*uGlow;gl_FragColor=vec4(vC*(g+h)*vA*(1.+.4*uGlow),1.);}'})));
-// núcleos dos polos
-const NP=P.length;const cW=new Float32Array(NP*2),cG=new Float32Array(NP*2),cC=new Float32Array(NP*3),cS=new Float32Array(NP),cPg=new Float32Array(NP),cPh=new Float32Array(NP),cDim=new Float32Array(NP),cSel=new Float32Array(NP);
-P.forEach((p,i)=>{cW[i*2]=p.wx;cW[i*2+1]=p.wy;cG[i*2]=p.gx;cG[i*2+1]=p.gy;col.set(fc(p.areas[0]));cC.set([col.r,col.g,col.b],i*3);cS[i]=4.5+Math.min(6,p.areas.length*1.2)+((p.volume&&p.volume!=='nao_confirmado')?1.5:0);cPg[i]=p.programa==='sim'?1:0;cPh[i]=rnd()});
-const cGeo=new THREE.BufferGeometry();cGeo.setAttribute('position',new THREE.BufferAttribute(new Float32Array(NP*3),3));
-[['aW',cW,2],['aG',cG,2],['aCol',cC,3],['aSz',cS,1],['aPg',cPg,1],['aPh',cPh,1],['aDim',cDim,1],['aSel',cSel,1]].forEach(([n,a,s])=>cGeo.setAttribute(n,new THREE.BufferAttribute(a,s)));
-cGeo.boundingSphere=new THREE.Sphere(new THREE.Vector3(),100);
-scene.add(new THREE.Points(cGeo,new THREE.ShaderMaterial({uniforms:U,transparent:true,depthWrite:false,blending:THREE.AdditiveBlending,
- vertexShader:EASE+`attribute vec2 aW,aG;attribute vec3 aCol;attribute float aSz,aPg,aPh,aDim,aSel;uniform float uTime,uSweep,uMix,uPx,uZoom,uReduce,uGlow;varying vec3 vC;varying float vA;
- void main(){vec2 p=mix(aW,aG,ease(uMix));float a=atan(p.y,p.x);float d=mod(uSweep-a,6.2831853);float ping=uReduce>.5?0.:exp(-d*2.);
-  float pulse=uReduce>.5?0.:aPg*(.5+.5*sin(uTime*2.2+aPh*6.28))*.35;
-  vA=(.6+aSel*.6)*(1.-aDim*.85);vC=aCol;
-  gl_Position=projectionMatrix*modelViewMatrix*vec4(p,0.,1.);gl_PointSize=(2.6+aSel*2.)*uPx*(.8+.15*min(uZoom,5.));}`,
- fragmentShader:'uniform float uGlow;varying vec3 vC;varying float vA;void main(){float r=length(gl_PointCoord-.5)*2.;if(r>1.)discard;float g=smoothstep(1.,.5,r);gl_FragColor=vec4(vC*g*vA,1.);}'})));
-// bloom
-// celular: sem bloom (falha em muitos aparelhos); o brilho vem do próprio sprite
-const useBloom=false;let composer=null,bloom=null;
-if(useBloom){try{composer=new THREE.EffectComposer(renderer);composer.addPass(new THREE.RenderPass(scene,cam));bloom=new THREE.UnrealBloomPass(new THREE.Vector2(256,256),.85,.65,.08);composer.addPass(bloom)}catch(e){composer=null}}
-U.uGlow={value:0};
-function fitCam(){const w=stage.clientWidth,h=stage.clientHeight;if(!w||!h)return;const asp=w/h;const hh=Math.max(2.9,6.3/asp);const hw=hh*asp;
- cam.left=-hw;cam.right=hw;cam.top=hh;cam.bottom=-hh;cam.updateProjectionMatrix();renderer.setSize(w,h,false);if(composer){composer.setSize(w,h);bloom.resolution.set(w,h)}}
-new ResizeObserver(fitCam).observe(stage);fitCam();
-if(mobile()){cam.zoom=2.2;cam.updateProjectionMatrix();cam.position.set(-2.1,.2,5);ctr.target.set(-2.1,.2,0)}else{cam.zoom=1.05;cam.updateProjectionMatrix();cam.position.y=.5;ctr.target.y=.5}
-// rótulos das nebulosas
-const cityMap={};P.forEach(p=>{const k=p.city.replace(/ \(.*\)/,'');(cityMap[k]=cityMap[k]||{n:0,lo:0,la:0,f:{}});const c=cityMap[k];c.n++;c.lo+=p.wx;c.la+=p.wy;const g=T[p.areas[0]][1];c.f[g]=(c.f[g]||0)+1});
-const CITIES=Object.entries(cityMap).map(([k,c])=>({k,n:c.n,x:c.lo/c.n,y:c.la/c.n,g:Object.entries(c.f).sort((a,b)=>b[1]-a[1])[0][0]})).sort((a,b)=>b.n-a.n);
-const labels=CITIES.map(c=>{const d=document.createElement('div');d.className='glabel';d.textContent=c.k+(c.n>1?' · '+c.n:'');d.style.color=FAMC[c.g];stage.appendChild(d);return d});
+const U={uTime:{value:0},uMix:{value:0},uPx:{value:renderer.getPixelRatio()},uZoom:{value:1},uReduce:{value:reduce?1:0},
+ uDot:{value:2},uF1:{value:1},uF2:{value:0},uPass:{value:0},uBg:{value:new THREE.Color('#06060c')}};
+const MAP={tick:null};window.__map=MAP; // ponto de extensão para efeitos sutis
+/* ===================== FX · UNIFORMS =====================
+   Efeitos só mexem em cor/alfa/tamanho dos próprios pontos + 1 linha de 1px. Sem bloom/halo/pós-processamento.
+   FX1 uIntro : s desde o início -> revelação em onda a partir de São Paulo (uma vez)
+   FX2 uLandT : 0..1 transição de cor da terra ao filtrar (aCol0 -> aCol); aFade nos polos (JS)
+   FX3 uRip   : (x,y, s desde a seleção, força do holofote 0..1) ; uRipC cor da família
+   FX4 uArc   : (progresso do traçado, opacidade) ; uArcC
+   FX5 uHov   : (x,y, raio em unidades do mapa, força 0..1)
+   Precisa vir ANTES dos materiais: as 3 passadas dos polos fazem Object.assign({},U,...). */
+const FX_ORIGIN=[-46.63/30,-23.55/30]; // São Paulo (lon/30, lat/30)
+Object.assign(U,{uIntro:{value:reduce?99:0},uOrigin:{value:new THREE.Vector2(FX_ORIGIN[0],FX_ORIGIN[1])},uLandT:{value:1},
+ uRip:{value:new THREE.Vector4(0,0,99,0)},uRipC:{value:new THREE.Color('#ffffff')},uHov:{value:new THREE.Vector4(0,0,.3,0)},
+ uArc:{value:new THREE.Vector2(0,0)},uArcC:{value:new THREE.Color('#ffffff')}});
+const FX_GLSL=`uniform float uIntro;uniform vec2 uOrigin;
+float fxReveal(vec2 p){float t=clamp((uIntro-.15)/2.4,0.,1.);float R=10.*t*t*(3.-2.*t);return smoothstep(R,R-.9,distance(p,uOrigin));}`;
+function fxRevealJS(x,y){const t=Math.min(1,Math.max(0,(U.uIntro.value-.15)/2.4)),R=10*t*t*(3-2*t),d=Math.hypot(x-FX_ORIGIN[0],y-FX_ORIGIN[1]);const u=Math.min(1,Math.max(0,(R-d)/.9));return u*u*(3-2*u)}
+/* ========================================================== */
+P.forEach(p=>{p.wx=p.lon/30;p.wy=p.lat/30;p.gx=p.wx;p.gy=p.wy});
+const FK=Object.keys(FAMC),FCOL=FK.map(g=>new THREE.Color(FAMC[g]));
+const famOf=p=>T[p.areas[0]][1];
 
-// filtro -> brilho
-window.__upd=()=>{P.forEach((p,i)=>cDim[i]=matches(p)?0:1);cGeo.attributes.aDim.needsUpdate=true;for(let n=0;n<ND;n++)dDim[n]=cDim[owner[n]];dGeo.attributes.aDim.needsUpdate=true};window.__upd();
-const v3=new THREE.Vector3();const ease=t=>t<.5?4*t*t*t:1-Math.pow(-2*t+2,3)/2;
-function pos(p){const e=ease(state.mix);return [p.wx+(p.gx-p.wx)*e,p.wy+(p.gy-p.wy)*e]}
+// ---- terra: grade regular 0,75° com 3 níveis de detalhe (3° / 1,5° / 0,75°) ----
+const NL=LAND.length/2,GI=480,GJ=200,grid=new Int32Array(GI*GJ).fill(-1);
+const lPos=new Float32Array(NL*3),lCol=new Float32Array(NL*3),lCol0=new Float32Array(NL*3),lLod=new Float32Array(NL),lI=new Int16Array(NL),lJ=new Int16Array(NL);
+for(let n=0;n<NL;n++){const lo=LAND[n*2]/10,la=LAND[n*2+1]/10;const i=Math.round((lo+180)/.75),j=Math.round((la+56)/.75);lI[n]=i;lJ[n]=j;grid[j*GI+i]=n;
+ lPos[n*3]=(-180+i*.75)/30;lPos[n*3+1]=(-56+j*.75)/30;lPos[n*3+2]=-.5;lLod[n]=(i%4===0&&j%4===0)?0:(i%2===0&&j%2===0)?1:2}
+// influência de cada polo sobre os pontos vizinhos (gaussiana ~4°, raio 12°), guardada esparsa para refazer as cores ao filtrar
+const SIG=4.2,RAD=12,pD=[],pP=[],pW=[];
+P.forEach((p,pi)=>{const ci=Math.round((p.lon+180)/.75),cj=Math.round((p.lat+56)/.75),cl=Math.max(.2,Math.cos(p.lat*Math.PI/180));const ri=Math.ceil(RAD/.75/cl),rj=Math.ceil(RAD/.75);const wt=.55+Math.min(1.2,p.areas.length*.2);
+ for(let j=Math.max(0,cj-rj);j<=Math.min(GJ-1,cj+rj);j++)for(let ii=ci-ri;ii<=ci+ri;ii++){const i=((ii%GI)+GI)%GI;const n=grid[j*GI+i];if(n<0)continue;
+  const dx=(ii-ci)*.75*cl,dy=(j-cj)*.75,d2=dx*dx+dy*dy;if(d2>RAD*RAD)continue;pD.push(n);pP.push(pi);pW.push(wt*Math.exp(-d2/(2*SIG*SIG)))}});
+const PD=Int32Array.from(pD),PP=Int32Array.from(pP),PW=Float32Array.from(pW);
+const BASE=new THREE.Color('#24222f'),fam=new Float32Array(NL*FK.length),pFam=P.map(p=>FK.indexOf(famOf(p))),tmp=new THREE.Color();
+function paintLand(){fam.fill(0);for(let k=0;k<PD.length;k++){if(cDim[PP[k]])continue;fam[PD[k]*FK.length+pFam[PP[k]]]+=PW[k]}
+ for(let n=0;n<NL;n++){let bi=0,w=0;for(let f=0;f<FK.length;f++){const v=fam[n*FK.length+f];w+=v;if(v>fam[n*FK.length+bi])bi=f}
+  const it=w>0?Math.pow(1-Math.exp(-w*1.6),1.15)*.82:0;tmp.copy(BASE);if(it>0)tmp.lerp(FCOL[bi],it);lCol[n*3]=tmp.r;lCol[n*3+1]=tmp.g;lCol[n*3+2]=tmp.b}
+ lGeo.attributes.aCol.needsUpdate=true}
+const lGeo=new THREE.BufferGeometry();lGeo.setAttribute('position',new THREE.BufferAttribute(lPos,3));lGeo.setAttribute('aCol',new THREE.BufferAttribute(lCol,3));lGeo.setAttribute('aLod',new THREE.BufferAttribute(lLod,1));lGeo.setAttribute('aCol0',new THREE.BufferAttribute(lCol0,3)); /* FX2: cor anterior */
+scene.add(new THREE.Points(lGeo,new THREE.ShaderMaterial({uniforms:U,transparent:true,depthWrite:false,depthTest:false,
+ vertexShader:FX_GLSL+`attribute vec3 aCol,aCol0;attribute float aLod;uniform float uDot,uF1,uF2,uPx,uZoom,uLandT;uniform vec4 uRip,uHov;uniform vec3 uRipC;varying vec3 vC;varying float vA,vS;
+ void main(){vec2 p=position.xy;vA=aLod>1.5?uF2:aLod>.5?uF1:1.;float sz=1.;
+  vC=mix(aCol0,aCol,uLandT);                                   /* FX2: cor da terra transita ao filtrar */
+  vA*=fxReveal(p);                                             /* FX1: onda a partir de São Paulo */
+  float ds=distance(p,uRip.xy)*uZoom;float life=clamp(1.-uRip.z/1.4,0.,1.);
+  float k=exp(-pow((ds-uRip.z*1.6)/.12,2.))*life*life;vC=mix(vC,mix(uRipC,vec3(1.),.25),k*.8);sz+=k*.45;   /* FX3: ondulação única, só tinge */
+  vA*=1.-uRip.w*.4*smoothstep(.7,2.,ds);                       /* FX3: holofote por subtração */
+  float h=uHov.w*smoothstep(uHov.z,0.,distance(p,uHov.xy));sz+=h*.35;vC=mix(vC,vC*1.25,h); /* FX5: lente */
+  vS=uDot*uPx*sz;gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.);gl_PointSize=vA<.01?0.:vS+1.;}`,
+ fragmentShader:'varying vec3 vC;varying float vA,vS;void main(){float d=length(gl_PointCoord-.5)*(vS+1.);float a=clamp(vS*.5-d+.5,0.,1.)*vA;if(a<.01)discard;gl_FragColor=vec4(vC,a);}'})));
+
+// ---- polos: ponto sólido + anel fino da família; tamanho pelo nº de áreas ----
+const NP=P.length;const cFade=new Float32Array(NP);const cW=new Float32Array(NP*3),cC=new Float32Array(NP*3),cS=new Float32Array(NP),cDim=new Float32Array(NP),cSel=new Float32Array(NP);const col=new THREE.Color();
+P.forEach((p,i)=>{cW[i*3]=p.wx;cW[i*3+1]=p.wy;col.set(FAMC[famOf(p)]);cC.set([col.r,col.g,col.b],i*3);cS[i]=6.5+Math.min(4.5,(p.areas.length-1)*.8)});
+const cGeo=new THREE.BufferGeometry();cGeo.setAttribute('position',new THREE.BufferAttribute(cW,3));
+[['aCol',cC,3],['aSz',cS,1],['aDim',cDim,1],['aSel',cSel,1],['aFade',cFade,1]].forEach(([n,a,s])=>cGeo.setAttribute(n,new THREE.BufferAttribute(a,s)));
+cGeo.boundingSphere=new THREE.Sphere(new THREE.Vector3(),100);
+// 3 passadas (apagados → normais → top10/selecionado) para o destaque ficar sempre por cima
+[0,1,2].forEach(pass=>{const m=new THREE.ShaderMaterial({uniforms:Object.assign({},U,{uPass:{value:pass}}),transparent:true,depthWrite:false,depthTest:false,
+ vertexShader:FX_GLSL+`attribute vec3 aCol;attribute float aSz,aDim,aSel,aFade;uniform float uPx,uZoom,uPass;varying vec3 vC;varying float vK,vS,vSel,vF;
+ void main(){vC=aCol;vSel=aSel;gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.);
+  /* FX2: aFade (0..1, animado no JS) faz cross-fade entre a versão cinza (passada 0) e a colorida (passada 1/2) */
+  float kc=aSel>0.?2.:1.;float on;float k;
+  if(uPass<.5){k=0.;on=step(.001,aFade);vF=aFade;}else{k=kc;on=step(abs(kc-uPass),.1)*step(aFade,.999);vF=1.-aFade;}
+  vK=k;float rv=fxReveal(position.xy);vF*=rv;                 /* FX1: polo surge quando a onda passa */
+  float z=1.+.06*(clamp(uZoom,1.,7.)-1.);float s=k<.5?4.5:(aSz*z+(aSel>.9?8.:aSel>0.?4.:0.))*(1.-.35*aFade);
+  vS=s*uPx*(.5+.5*rv);gl_PointSize=on*rv<.001?0.:vS;}`,
+ fragmentShader:`uniform float uPx;uniform vec3 uBg;varying vec3 vC;varying float vK,vS,vSel,vF;
+ float band(float d,float a,float b){return clamp(d-a+.5,0.,1.)*clamp(b-d+.5,0.,1.);}
+ void main(){float d=length(gl_PointCoord-.5)*vS;float R=vS*.5;
+  if(vK<.5){float a=clamp(R-d,0.,1.)*.55*vF;if(a<.01)discard;gl_FragColor=vec4(.36,.35,.45,a);return;}
+  float px=uPx;float halo=clamp(R-d,0.,1.);                       // contorno escuro que separa do pontilhado
+  float ringW=(vSel>.9?1.6:1.15)*px;float rr=R-1.*px-ringW;          // anel fino
+  float ring=band(d,rr,rr+ringW);float core=clamp(R*(vSel>.9?.46:.42)-d+.5,0.,1.);
+  vec3 ringC=vSel>.9?vec3(1.):vSel>0.?mix(vC,vec3(1.),.55):vC;
+  vec3 c=uBg;float a=halo*.88;c=mix(c,ringC,ring);a=max(a,ring);c=mix(c,vC,core);a=max(a,core);
+  a*=vF;if(a<.01)discard;gl_FragColor=vec4(c,a);}`});
+ const pts=new THREE.Points(cGeo,m);pts.renderOrder=10+pass;scene.add(pts)});
+/* ===================== FX4 · ARCO São Paulo -> polo selecionado =====================
+   1px, curva quadrática para o norte, desenhada em ~0,9 s; alfa cresce rumo ao destino (sentido "daqui para lá");
+   depois, um trecho levemente mais claro percorre a linha a cada 5 s. Reduce: pronta e parada. Fica sob os polos. */
+const ARC_N=72;const arcPos=new Float32Array(ARC_N*3),arcT=new Float32Array(ARC_N);for(let i=0;i<ARC_N;i++)arcT[i]=i/(ARC_N-1);
+const arcGeo=new THREE.BufferGeometry();arcGeo.setAttribute('position',new THREE.BufferAttribute(arcPos,3));arcGeo.setAttribute('aT',new THREE.BufferAttribute(arcT,1));
+arcGeo.boundingSphere=new THREE.Sphere(new THREE.Vector3(),100);
+const arc=new THREE.Line(arcGeo,new THREE.ShaderMaterial({uniforms:U,transparent:true,depthWrite:false,depthTest:false,
+ vertexShader:'attribute float aT;varying float vT;void main(){vT=aT;gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.);}',
+ fragmentShader:`uniform vec2 uArc;uniform vec3 uArcC;uniform float uTime;varying float vT;
+ void main(){if(vT>uArc.x)discard;float a=(.22+.45*vT)*uArc.y;
+  float m=fract(uTime/5.);a+=uArc.y*step(.999,uArc.x)*.25*exp(-pow((vT-m)*14.,2.));
+  gl_FragColor=vec4(mix(vec3(.72,.71,.82),uArcC,vT),a);}`}));
+arc.renderOrder=5;arc.visible=false;scene.add(arc);
+const orgGeo=new THREE.BufferGeometry();orgGeo.setAttribute('position',new THREE.BufferAttribute(new Float32Array([FX_ORIGIN[0],FX_ORIGIN[1],0]),3));
+const org=new THREE.Points(orgGeo,new THREE.ShaderMaterial({uniforms:U,transparent:true,depthWrite:false,depthTest:false,
+ vertexShader:'uniform float uPx;void main(){gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.);gl_PointSize=9.*uPx;}',
+ fragmentShader:'uniform vec2 uArc;void main(){float r=length(gl_PointCoord-.5)*2.;float ring=smoothstep(.16,0.,abs(r-.78));if(ring<.01)discard;gl_FragColor=vec4(vec3(.85,.84,.95),ring*.7*uArc.y);}'}));
+org.renderOrder=6;org.visible=false;scene.add(org);
+function fxSetArc(x1,y1){const x0=FX_ORIGIN[0],y0=FX_ORIGIN[1],dx=x1-x0,dy=y1-y0,L=Math.hypot(dx,dy)||1;
+ let nx=-dy/L,ny=dx/L;if(ny<0){nx=-nx;ny=-ny}const bend=Math.min(1.2,L*.22);const cx=(x0+x1)/2+nx*bend,cy=(y0+y1)/2+ny*bend;
+ for(let i=0;i<ARC_N;i++){const t=arcT[i],u=1-t;arcPos[i*3]=u*u*x0+2*u*t*cx+t*t*x1;arcPos[i*3+1]=u*u*y0+2*u*t*cy+t*t*y1;arcPos[i*3+2]=0}
+ arcGeo.attributes.position.needsUpdate=true}
+const fx={lastSel:null,arcA:0,arcOn:false,hovOn:0};
+/* ==================================================================================== */
+
+// ---- câmera ----
+let hhW=3,hwW=6;
+function fitCam(){const w=stage.clientWidth,h=stage.clientHeight;if(!w||!h)return;const asp=w/h;hhW=Math.max(2.9,6.3/asp);hwW=hhW*asp;
+ cam.left=-hwW;cam.right=hwW;cam.top=hhW;cam.bottom=-hhW;cam.updateProjectionMatrix();renderer.setSize(w,h,false)}
+new ResizeObserver(fitCam).observe(stage);fitCam();
+function frame(x0,x1,y0,y1){const z=Math.min(2*hwW/(x1-x0),2*hhW/(y1-y0));const cx=(x0+x1)/2,cy=(y0+y1)/2;cam.zoom=Math.max(ctr.minZoom,Math.min(ctr.maxZoom,z));cam.updateProjectionMatrix();cam.position.set(cx,cy,5);ctr.target.set(cx,cy,0)}
+// celular: Américas (com Brasil inteiro); desktop: mundo habitado
+function home(){if(mobile())frame(-4.05,-1.2,-1.9,2.05);else frame(-5.9,6.1,-1.9,2.5)}
+home();
+
+// ---- rótulos de cidade (com declutter por colisão de retângulos) ----
+const cityMap={};P.forEach(p=>{const k=p.city.replace(/ \(.*\)/,'');(cityMap[k]=cityMap[k]||{ids:[],lo:0,la:0,f:{}});const c=cityMap[k];c.ids.push(p.id);c.lo+=p.wx;c.la+=p.wy;const g=famOf(p);c.f[g]=(c.f[g]||0)+1});
+const CITIES=Object.entries(cityMap).map(([k,c])=>({k,ids:c.ids,n:c.ids.length,m:c.ids.length,x:c.lo/c.ids.length,y:c.la/c.ids.length,g:Object.entries(c.f).sort((a,b)=>b[1]-a[1])[0][0]})).sort((a,b)=>b.n-a.n);
+CITIES.forEach(c=>{const d=document.createElement('div');d.className='glabel';d.innerHTML='<i style="background:'+FAMC[c.g]+'"></i><span>'+esc(c.k)+'</span><b></b>';stage.appendChild(d);c.el=d;c.b=d.querySelector('b');c.w=0;c.h=0;c.on=false});
+function measure(){CITIES.forEach(c=>{c.w=c.el.offsetWidth;c.h=c.el.offsetHeight})}
+function setCounts(){CITIES.forEach(c=>{c.m=c.ids.filter(i=>!cDim[i]).length;c.b.textContent=c.m>1?c.m:'';c.b.hidden=c.m<2});measure()}
+if(document.fonts&&document.fonts.ready)document.fonts.ready.then(measure);
+const hit=(a,b)=>a[0]<b[2]&&b[0]<a[2]&&a[1]<b[3]&&b[1]<a[3];
+function placeLabels(){const W=stage.clientWidth,H=stage.clientHeight,z=cam.zoom;
+ const lim=mobile()?(z<3?4:z<5?7:20):(z<1.5?9:z<2.5?16:z<4?28:60);
+ const placed=[];const rs=el=>{const r=el.getBoundingClientRect(),s=stage.getBoundingClientRect();return [r.left-s.left-4,r.top-s.top-4,r.right-s.left+4,r.bottom-s.top+4]};
+ [$('legend'),document.querySelector('.zoom'),$('drawer').classList.contains('open')&&!mobile()?$('drawer'):null].forEach(el=>{if(el&&el.offsetParent)placed.push(rs(el))});
+ // marcadores em destaque (top 10 / selecionado) também são obstáculos: o rótulo não cobre o polo
+ P.forEach((p,i)=>{if(cSel[i]>0){const q=scr(p.wx,p.wy);placed.push([q[0]-7,q[1]-7,q[0]+7,q[1]+7])}});
+ const pri=c=>(state.sel!=null&&c.ids.includes(state.sel)?1e4:0)+(c.ids.some(i=>state.top.has(i)&&!cDim[i])?1e3:0)+c.m;
+ const order=CITIES.filter(c=>c.m>0).sort((a,b)=>pri(b)-pri(a));let shown=0;const want=new Set();
+ for(const c of order){if(shown>=lim&&pri(c)<1e3)break;const s=scr(c.x,c.y);if(s[0]<-40||s[0]>W+40||s[1]<-20||s[1]>H+20)continue;
+  if(fxRevealJS(c.x,c.y)<.6)continue; /* FX1: rótulo só depois que a onda passa */
+  const w=c.w,h=c.h,g=9;const cand=[[s[0]+g,s[1]-h/2],[s[0]-g-w,s[1]-h/2],[s[0]-w/2,s[1]-g-h],[s[0]-w/2,s[1]+g]];
+  for(const q of cand){const r=[q[0],q[1],q[0]+w,q[1]+h];if(r[0]<4||r[1]<4||r[2]>W-4||r[3]>H-4)continue;if(placed.some(o=>hit(o,r)))continue;
+   placed.push([r[0]-3,r[1]-2,r[2]+3,r[3]+2]);c.el.style.transform='translate('+q[0].toFixed(1)+'px,'+q[1].toFixed(1)+'px)';want.add(c);shown++;break}}
+ CITIES.forEach(c=>{const on=want.has(c);if(on!==c.on){c.on=on;c.el.classList.toggle('on',on)}})}
+
+// ---- filtro → cores e marcadores ----
+window.__upd=()=>{lCol0.set(lCol);P.forEach((p,i)=>cDim[i]=matches(p)?0:1);cGeo.attributes.aDim.needsUpdate=true;paintLand();setCounts();
+ U.uLandT.value=reduce?1:0;lGeo.attributes.aCol0.needsUpdate=true}; /* FX2: cDim = alvo; cFade/uLandT animam no fxTick */
+window.__upd();cFade.set(cDim);cGeo.attributes.aFade.needsUpdate=true;U.uLandT.value=1;
+const v3=new THREE.Vector3();
+function pos(p){return [p.wx,p.wy]}
 function scr(x,y){v3.set(x,y,0).project(cam);return [(v3.x+1)/2*stage.clientWidth,(1-v3.y)/2*stage.clientHeight]}
-let fly=null;window.__fly=id=>{const q=pos(P[id]);fly={x0:ctr.target.x,y0:ctr.target.y,x:q[0],y:q[1]-(mobile()?.4:0),t:0,z0:cam.zoom,z:Math.max(cam.zoom,2.2)}};
+// voo até o polo; no desktop desloca o alvo para o polo não ficar sob a ficha aberta (380px à direita)
+let fly=null;window.__fly=id=>{const q=pos(P[id]);const z=Math.max(cam.zoom,2.2);const upx=stage.clientHeight/(2*hhW)*z;
+ const dx=(!mobile()&&$('drawer').classList.contains('open'))?Math.min(380,stage.clientWidth*.5)/2/upx:0;
+ fly={x0:ctr.target.x,y0:ctr.target.y,x:q[0]+dx,y:q[1]-(mobile()?.4:0),t:0,z0:cam.zoom,z}};
 function pick(cx,cy,maxd){const r=renderer.domElement.getBoundingClientRect();const mx=cx-r.left,my=cy-r.top;let best=null,bd=maxd;
  P.forEach((p,i)=>{if(cDim[i])return;const q=pos(p),s=scr(q[0],q[1]);const d=Math.hypot(s[0]-mx,s[1]-my);if(d<bd){bd=d;best=p}});return best?{p:best,mx,my}:null}
 let down=null;const cv=renderer.domElement;
@@ -421,18 +477,46 @@ cv.addEventListener('pointerdown',e=>down=[e.clientX,e.clientY]);
 cv.addEventListener('pointerup',e=>{if(!down||Math.hypot(e.clientX-down[0],e.clientY-down[1])>6)return;const h=pick(e.clientX,e.clientY,mobile()?28:18);if(h)openFicha(h.p.id,false);else closeFicha()});
 cv.addEventListener('pointermove',e=>{if(e.pointerType!=='mouse')return;const h=pick(e.clientX,e.clientY,14),t=$('tip');if(!h){t.hidden=true;cv.style.cursor='grab';return}
  cv.style.cursor='pointer';t.innerHTML=esc(h.p.name)+'<small>'+esc(h.p.city)+' · '+h.p.areas.length+(h.p.areas.length>1?' áreas':' área')+'</small>';t.style.left=h.mx+'px';t.style.top=h.my+'px';t.hidden=false});
-cv.addEventListener('pointerleave',()=>$('tip').hidden=true);
+cv.addEventListener('pointerleave',()=>{$('tip').hidden=true;fx.hovOn=0});
+/* FX5 · lente do cursor (só mouse): raio ≈ 46 px na tela em qualquer zoom */
+cv.addEventListener('pointermove',e=>{if(e.pointerType!=='mouse'){fx.hovOn=0;return}const r=cv.getBoundingClientRect();
+ v3.set((e.clientX-r.left)/r.width*2-1,-(e.clientY-r.top)/r.height*2+1,0).unproject(cam);U.uHov.value.x=v3.x;U.uHov.value.y=v3.y;
+ U.uHov.value.z=46*(cam.right-cam.left)/cam.zoom/r.width;fx.hovOn=e.buttons?0:1});
 $('zin').onclick=()=>{cam.zoom=Math.min(9,cam.zoom*1.4);cam.updateProjectionMatrix()};$('zout').onclick=()=>{cam.zoom=Math.max(.5,cam.zoom/1.4);cam.updateProjectionMatrix()};
-// loop
-const clock=new THREE.Clock();let fr=0,acc=0;window.__radar={fps:0,get angle(){return U.uSweep.value}};
-function loop(){requestAnimationFrame(loop);const dt=Math.min(clock.getDelta(),.1);U.uTime.value+=dt;fr++;acc+=dt;if(acc>=1){window.__radar.fps=Math.round(fr/acc);fr=0;acc=0}
- if(!reduce)U.uSweep.value=(U.uSweep.value+Math.PI*2/7*(1+state.boost*2)*dt)%(Math.PI*2);state.boost=Math.max(0,state.boost-dt*.8);
- const ms=reduce?1:dt/1.3;if(state.mix<state.mixT)state.mix=Math.min(state.mixT,state.mix+ms);else if(state.mix>state.mixT)state.mix=Math.max(state.mixT,state.mix-ms);U.uMix.value=state.mix;
+$('zhome').onclick=()=>{fly=null;home()};
+
+// ---- loop ----
+const ss=(a,b,x)=>{const t=Math.min(1,Math.max(0,(x-a)/(b-a)));return t*t*(3-2*t)};
+const clock=new THREE.Clock();let fr=0,acc=0;window.__radar={fps:0,get angle(){return U.uTime.value}};
+function loop(){requestAnimationFrame(loop);const dt=Math.min(clock.getDelta(),.1);if(!reduce)U.uTime.value+=dt;fr++;acc+=dt;if(acc>=1){window.__radar.fps=Math.round(fr/acc);fr=0;acc=0}
+ state.boost=Math.max(0,state.boost-dt*.8);
  if(fly){fly.t=Math.min(1,fly.t+(reduce?1:dt/.9));const e=1-Math.pow(1-fly.t,3);const nx=fly.x0+(fly.x-fly.x0)*e,ny=fly.y0+(fly.y-fly.y0)*e;cam.position.x+=nx-ctr.target.x;cam.position.y+=ny-ctr.target.y;ctr.target.set(nx,ny,0);cam.zoom=fly.z0+(fly.z-fly.z0)*e;cam.updateProjectionMatrix();if(fly.t>=1)fly=null}
- P.forEach((p,i)=>cSel[i]=state.sel===i?1:state.top.has(i)&&!cDim[i]?.35:0);cGeo.attributes.aSel.needsUpdate=true;
- U.uZoom.value=cam.zoom;ctr.update();
- const lim=mobile()?(cam.zoom<3?7:cam.zoom<4.5?14:40):(cam.zoom<1.5?7:cam.zoom<2.5?14:cam.zoom<4?28:60);const W=stage.clientWidth,H=stage.clientHeight;labels.forEach((d,i)=>{const c=CITIES[i];const s=scr(c.x,c.y+.09);const on=i<lim&&s[0]>0&&s[0]<W&&s[1]>0&&s[1]<H;d.style.left=s[0]+'px';d.style.top=s[1]+'px';d.style.opacity=on?1:0});
- if(composer)composer.render();else renderer.render(scene,cam)}
+ let ch=false;P.forEach((p,i)=>{const v=state.sel===i?1:state.top.has(i)&&!cDim[i]?.35:0;if(cSel[i]!==v){cSel[i]=v;ch=true}});if(ch)cGeo.attributes.aSel.needsUpdate=true;
+ ctr.update();U.uZoom.value=cam.zoom;
+ // nível de detalhe da grade: passo em px CSS do nível 0,75°
+ const p2=stage.clientHeight/(2*hhW)*cam.zoom*.025,f2=ss(2.6,3.5,p2),f1=ss(2.6,3.5,p2*2);U.uF1.value=f1;U.uF2.value=f2;
+ const dp=(4*p2+(2*p2-4*p2)*f1)+(p2-(4*p2+(2*p2-4*p2)*f1))*f2;U.uDot.value=Math.min(7,Math.max(1.3,dp*.56));
+ if(MAP.tick)MAP.tick(dt);
+ placeLabels();renderer.render(scene,cam)}
+/* ===================== FX · TICK (via gancho MAP.tick) ===================== */
+MAP.tick=function(dt){const k=a=>reduce?1:Math.min(1,dt*a);
+ if(!reduce)U.uIntro.value+=dt;
+ if(fx.introAt!=null)U.uIntro.value=fx.introAt; // gancho de teste (prints)
+ // FX3/FX4: troca de seleção detectada aqui; openFicha/closeFicha/__fly intactos
+ if(state.sel!==fx.lastSel){fx.lastSel=state.sel;if(state.sel!=null){const p=P[state.sel];
+   U.uRip.value.set(p.wx,p.wy,reduce?99:-.55,U.uRip.value.w); /* -0,55 s: espera o voo da câmera */
+   U.uRipC.value.set(FAMC[famOf(p)]);U.uArcC.value.copy(U.uRipC.value);
+   fxSetArc(p.wx,p.wy);U.uArc.value.x=reduce?1:0;fx.arcOn=Math.hypot(p.wx-FX_ORIGIN[0],p.wy-FX_ORIGIN[1])>.15;arc.visible=org.visible=fx.arcOn}}
+ U.uRip.value.z+=dt;U.uRip.value.w+=((state.sel!=null?1:0)-U.uRip.value.w)*k(6);
+ if(state.sel!=null)U.uArc.value.x=Math.min(1,U.uArc.value.x+(reduce?1:dt/.9));
+ fx.arcA+=((state.sel!=null&&fx.arcOn?1:0)-fx.arcA)*k(5);U.uArc.value.y=fx.arcA;if(state.sel==null&&fx.arcA<.01)arc.visible=org.visible=false;
+ // FX2
+ U.uLandT.value=Math.min(1,U.uLandT.value+(reduce?1:dt/.4));
+ let ch=false;for(let i=0;i<NP;i++){const t=cDim[i],v=cFade[i];if(v!==t){cFade[i]=Math.abs(t-v)<.01?t:v+(t-v)*k(9);ch=true}}if(ch)cGeo.attributes.aFade.needsUpdate=true;
+ // FX5
+ U.uHov.value.w+=(fx.hovOn-U.uHov.value.w)*k(8)};
+window.__radar.fx=fx;
+/* ========================================================================== */
 loop();
 })();
 </script>
