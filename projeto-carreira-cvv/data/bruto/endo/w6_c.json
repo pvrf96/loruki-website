@@ -1,0 +1,169 @@
+[
+ {
+  "match": "IRCCS Policlinico San Donato",
+  "cidade": "San Donato Milanese (Milão), Itália",
+  "areas": ["cardio_pediatrica","congenita_adulto","hemodinamica_pediatrica"],
+  "programa": {
+   "pagina_observership": "não encontrado (nenhuma página oficial de observership/visiting physician localizada)",
+   "porta_formal_alternativa": {
+     "descricao": "Curso de pós-graduação UniSR 'Clinical Paediatric Cardiology: Diagnostic and Therapeutic Aspects', ligado à rede San Donato; aulas online em inglês e discussão de casos; aberto a graduados em medicina e especialistas em cardiologia/pediatria. Duração e taxa não encontradas.",
+     "contato_oficial": "postgraduate@unisr.it (publicado na página do curso para formulários de inscrição)",
+     "fonte": "https://www.unisr.it/offerta-formativa/corsi-formazione/clinical-paediatric-cardiology",
+     "certeza": "confirmado (existência e público-alvo); provável (vínculo com equipe San Donato)"
+   },
+   "outros_cursos": {"descricao":"Curso teórico-prático de ecocardiografia pediátrica com simulador neonatal (básico/avançado) na UniSR; inscrição €1000 citada para o avançado","fonte":"https://www.unisr.it/en/offerta-formativa/corsi-formazione/corso-ecocardiografia-pediatrica-avanzato","certeza":"confirmado (curso UniSR); provável (realizado pela equipe San Donato)"},
+   "elegibilidade_taxa_documentos": "não encontrado. Na Itália o padrão é 'frequenza volontaria' com nulla osta da Direzione Sanitaria (exemplo de outra instituição — Univ. Bari), não confirmado para San Donato.",
+   "fonte_referencia_italia": "https://www.uniba.it/it/organizzazione/amm-centrale/dru/uo-rapporti-con-il-servizio-sanitario-regionale-e-nazionale/rapporti-con-il-servizio-sanitario-nazionale-e-regionale/frequenza-post-laurea-di-strutture-assistenziali/frequenza-di-strutture-a-direzione-universitaria-da-parte-di-medici-volontari"
+  },
+  "servico": {
+   "nomes": ["Cardiologia Pediatrica (Centro di Cardiologia Pediatrica ed Emodinamica)","Cardiopatie Congenite dell'Adulto (GUCH/ACHD)","Cardiochirurgia Pediatrica e delle Cardiopatie Congenite"],
+   "chefes": [
+     {"nome":"Massimo Chessa","cargo":"Head of the Pediatric Cardiology and Hemodynamics Center and the Adult Congenital Heart Center; prof. associado UniSR","fonte":"https://www.gsdinternational.com/doctors/massimo-chessa","certeza":"confirmado"},
+     {"nome":"Alessandro Giamberti","cargo":"Responsável pela cardiocirurgia pediátrica e congênita do adulto (QSalute: 'ha come Responsabile il Dott. Alessandro Giamberti')","fonte":"https://www.qsalute.it/cardiochirurgia-1-policlinico-san-donato/","certeza":"provável (GSD International ainda chama Frigiola de Head — páginas possivelmente desatualizadas)"},
+     {"nome":"Mario Carminati","cargo":"Head of the Pediatric Cardiology Unit (perfil GSD; pode ser histórico)","fonte":"https://www.gsdinternational.com/doctors/mario-carminati","certeza":"provável/desatualizado — Chessa aparece como chefe atual do centro"}
+   ],
+   "diretor_fellowship": "não encontrado",
+   "volume": {"dado":"~500 intervenções cirúrgicas pediátricas/ano (material institucional, sem ano)","fonte":"https://gsdinternational.com/hospitals/policlinico-san-donato/pediatric-cardiac-surgery","certeza":"provável (sem ano)"}
+  },
+  "pessoas_chave": [
+   {"nome":"Massimo Chessa","cargo":"Chefe Cardiologia Pediátrica/Hemodinâmica e ACHD; presidente SICPed 2023–2027; conselho AEPC 2024–2027","por_que":"decide/hospeda nas 3 áreas do polo; figura central europeia em ACHD","fonte":"https://unifind.unisr.it/v1/dataservice/files/cv/2b21016d-4b9f-4103-a24f-7c4ccf466ec1"},
+   {"nome":"Alessandro Giamberti","cargo":"Cirurgia cardíaca pediátrica e congênita do adulto (no instituto desde 2000)","por_que":"lidera cirurgia congênita","fonte":"https://gsdinternational.com/doctors/alessandro-giamberti"},
+   {"nome":"Gianfranco Butera","cargo":"Hemodinamicista congênito, afiliado IRCCS Policlinico San Donato; co-editor do livro 'Cardiac Catheterization for Congenital Heart Disease' e de research topic Frontiers 2024","por_que":"hemodinâmica pediátrica — assunto do e-mail","fonte":"https://frontiersin.org/articles/10.3389/fcvm.2024.1484393/full","certeza":"confirmado (afiliação na editorial 2024)"},
+   {"nome":"Alessandro Frigiola","cargo":"Cirurgião cardíaco pediátrico; fundador da tradição de missões (Bambini Cardiopatici nel Mondo); defende escola de cirurgia cardíaca pediátrica para países em desenvolvimento","por_que":"cultura institucional de acolher formação internacional","fonte":"https://gsdinternational.com/doctors/alessandro-frigiola"},
+   {"nome":"Alessandro Varrica / Lo Rito / Micheletti","cargo":"Equipe coautora frequente de Chessa/Giamberti","por_que":"possíveis hosts no dia a dia","fonte":"https://gsdinternational.com/doctors/alessandro-varrica","certeza":"provável"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado (busca por coautores brasileiros de Chessa/Giamberti sem resultado; única cooperação internacional citada: Camarões).",
+  "pesquisa_recente": [
+   {"titulo":"Editorial: Transcatheter treatment of congenital heart defects (Frontiers research topic; Haddad, Kenny, Sturla, Butera)","ano":2024,"doi":"10.3389/fcvm.2024.1484393","fonte":"https://frontiersin.org/articles/10.3389/fcvm.2024.1484393/full"},
+   {"titulo":"Editorial sobre imagem, diagnóstico e tratamento intervencionista de cardiopatia congênita pediátrica (Carminati e col., IRCCS San Donato)","ano":2025,"doi":"10.3389/fped.2025.1652879","fonte":"https://www.frontiersin.org/journals/pediatrics/articles/10.3389/fped.2025.1652879/full"},
+   {"titulo":"Artigo sobre transição do cuidado pediátrico para adulto em cardiopatia congênita (Chessa coautor), J Clin Med","ano":2025,"doi":"não encontrado","fonte":"https://unifind.unisr.it/v1/dataservice/files/cv/2b21016d-4b9f-4103-a24f-7c4ccf466ec1","certeza":"provável (título exato não visto)"}
+  ],
+  "dicas": [
+   "Instituição com forte tradição de missões humanitárias e de formar equipes de países em desenvolvimento (Frigiola; centro cardíaco de Camarões, PMC6038727).",
+   "Centro avaliado para ERN GUARD-Heart (EMA, 2024) — mencionar ACHD/transição no e-mail.",
+   "Cursos UniSR de cardiologia pediátrica e eco pediátrica com simulador são porta de entrada paga e formal."
+  ],
+  "rota_recomendada": "1) E-mail direto ao Prof. Massimo Chessa (ACHD/hemodinâmica pediátrica) propondo 4 semanas de frequência voluntária, citando o editorial Frontiers 2024 de Butera e o tema transição/ACHD; pedir que o serviço encaminhe à Direzione Sanitaria. 2) Em paralelo, inscrever-se em curso UniSR (postgraduate@unisr.it) para criar vínculo formal. 3) Alternativa: contato com a cirurgia (Giamberti).",
+  "alerta_correcao": "URL do radar é página de marketing GSD International; chefias divergentes entre fontes (Frigiola vs Giamberti na cirurgia; Carminati vs Chessa na cardiologia pediátrica) — confirmar no site oficial grupo-sandonato.it."
+ },
+ {
+  "match": "Hôpital Marie Lannelongue",
+  "cidade": "Le Plessis-Robinson, França (Groupe Hospitalier Paris Saint-Joseph & Marie Lannelongue)",
+  "areas": ["cardio_pediatrica","congenita_adulto","fetal"],
+  "programa": {
+   "pagina_observership": "não encontrado",
+   "vias_formais_franca": {"descricao":"DFMS/DFMSA (médicos estrangeiros em formação: status FFI, convênio com a faculdade, prática obrigatória) — via longa, não serve para 1 mês","fonte":"https://algerie.campusfrance.org/system/files/medias/documents/2022-01/FAQ%20DFMS%20_DFMSA%20_décembre%202021.pdf","certeza":"confirmado (regra geral francesa), não específico do HML"},
+   "formacao_continua": {"descricao":"Perfil 'Formation continue santé Paris Saint-Joseph Marie Lannelongue' na Invivox (plataforma de cursos/imersões práticas) — possível porta de entrada","fonte":"https://invivox.com/en/department/profile/formation-continue-sante-paris-saint-joseph-marie-lannelongue","certeza":"provável (conteúdo não visto)"},
+   "diu": {"descricao":"DIU Cardiologie Pédiatrique et Congénitale 2024–2025, Université Paris-Saclay","fonte":"https://www.medecine.universite-paris-saclay.fr/sites/default/files/2025-07/DIU%20Cardiologie%20P%C3%A9diatrique%20et%20Cong%C3%A9nitale%202024-2025.pdf","certeza":"confirmado (existência)"},
+   "historico": "Hospital tem histórico de fellows estrangeiros (ex.: Lacour-Gayet 1981–85; David Luu clinical fellow 2012–14) — https://www.ctsnet.org/?p=425715",
+   "elegibilidade_taxa_documentos": "não encontrado",
+   "mudanca": "Atividades transferidas para novo prédio em janeiro/2026 (contatos podem ter mudado) — https://www.pasrel.universite-paris-saclay.fr/wp-content/uploads/2025/01/4-plateformes-malic-ag-hub-pasrel-112024.pdf"
+  },
+  "servico": {
+   "nomes": ["Département/Service des Cardiopathies Congénitales (enfant et adulte)","Pôle Cœur-Enfant (chirurgia cardíaca pediátrica)","Centro de referência M3C (com Necker)"],
+   "chefes": [
+    {"nome":"Sébastien Hascoët","cargo":"Professor de Cardiologia Pediátrica e Congênita (Univ. Paris-Saclay), Head of the Congenital Heart Disease Department","fonte":"https://www.eacts.org/faculty/sebastien-hascoet/","certeza":"confirmado"},
+    {"nome":"Emre Belli","cargo":"Codiretor do Pôle Cœur-Enfant (cirurgia cardíaca pediátrica/congênita)","fonte":"https://www.lequotidiendumedecin.fr/specialites/cardiologie/un-nouveau-pole-coeur-enfant-lhopital-marie-lannelongue","certeza":"confirmado (artigo sem data visível)"}
+   ],
+   "diretor_fellowship": "não encontrado",
+   "volume": {"dado":"~3.000 procedimentos de cirurgia cardíaca + intervencionismo/ano (hospital todo)","fonte":"https://www.pasrel.universite-paris-saclay.fr/wp-content/uploads/2025/01/4-plateformes-malic-ag-hub-pasrel-112024.pdf","certeza":"provável (documento 2024; não específico de congênitas)"}
+  },
+  "pessoas_chave": [
+   {"nome":"Sébastien Hascoët","cargo":"Chefe do Departamento de Cardiopatias Congênitas; intervencionista do neonato ao adulto","por_que":"decide e hospeda; áreas congênita adulto/hemodinâmica; PI de estudos TPVI SAPIEN 3 (NCT05264181) e OPTIVENOSUS (NCT05865119)","fonte":"https://clinicaltrials.gov/study/NCT05264181"},
+   {"nome":"Emre Belli","cargo":"Codiretor Pôle Cœur-Enfant, cirurgião congênito","por_que":"lidera cirurgia pediátrica","fonte":"https://www.lequotidiendumedecin.fr/specialites/cardiologie/un-nouveau-pole-coeur-enfant-lhopital-marie-lannelongue"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {"titulo":"OPTIVENOSUS — correção transcateter vs cirúrgica do defeito sinus venosus (ensaio multicêntrico francês patrocinado pelo HML)","ano":"2023 (registro)","pmid_doi":"NCT05865119","fonte":"https://trials.co/clinical-trials-details/-/NCT05865119"},
+   {"titulo":"Estudo neonatal de neurodesenvolvimento em fetos com cardiopatia crítica de diagnóstico pré-natal (área fetal)","ano":"2024–2025 (registro)","pmid_doi":"NCT06690151","fonte":"https://clinicaltrials.gov/study/NCT06690151"},
+   {"titulo":"Registro internacional da válvula pulmonar SAPIEN 3 (citado no registro do HML; autoria de Hascoët não confirmada)","ano":2024,"doi":"10.1093/eurheartj/ehad663","fonte":"https://clinicaltrials.gov/study/NCT05264181","certeza":"provável quanto ao vínculo"}
+  ],
+  "dicas": [
+   "Recém-nascidos com cardiopatia nascem na maternidade nível 3 do Hôpital Béclère (Clamart, ~1 km) e são transferidos — o fluxo fetal/neonatal envolve Béclère.",
+   "Organiza a 'Journée HML' anual (programa 2025 na SFC) — congresso como ponto de contato: https://www.sfcardio.fr/wp-content/uploads/2025/04/Journee-HML-2025-Programme.pdf",
+   "Francês é provavelmente necessário no dia a dia; escrever e-mail em francês ou inglês."
+  ],
+  "rota_recomendada": "1) E-mail ao Prof. Sébastien Hascoët (chefe congênitas) propondo observership de 4 semanas em congênita do adulto/intervenção, citando OPTIVENOSUS e TPVI; pedir convenção de stage com a direção médica. 2) Se cirurgia, Dr. Emre Belli. 3) Alternativa formal: Journée HML ou DIU Paris-Saclay como vínculo.",
+  "alerta_correcao": "Área 'fetal': não há programa fetal próprio confirmado; diagnóstico pré-natal envolve Béclère/Necker (M3C). Hospital mudou de prédio em jan/2026."
+ },
+ {
+  "match": "Prince of Wales Hospital (CUHK)",
+  "cidade": "Sha Tin, Hong Kong",
+  "areas": ["robotica","estrutural"],
+  "programa": {
+   "pagina_observership": {"descricao":"Hospital Authority 'Opportunities for Short-term Experience Scheme (Clinical Observation)': exige seguro durante o estágio, treinamento em controle de infecção (≤24 meses), visto de treinamento para não residentes; candidatura enviada ao HA, que ajuda com documentos do visto","fonte":"https://www.ha.org.hk/haho/ho/hesd/OpportunitiesforShorttermExperienceScheme_en.html","certeza":"confirmado (esquema HA, aplicável aos hospitais públicos incl. PWH; não confirmado especificamente para cardiologia)"},
+   "registro_limitado": {"descricao":"Contato clínico com pacientes exige limited registration no Medical Council of HK (~12 semanas após documentação) — para observação pura possivelmente não","fonte":"https://www.idd.cuhk.edu.hk/endo_attachment_programme/","certeza":"confirmado (para attachments com contato clínico na CUHK)"},
+   "modelo_cuhk": "CUHK tem 'attachment programmes' estruturados em outras áreas (endoscopia, hepatologia) — modelo a pedir na cardiologia; https://www.idd.cuhk.edu.hk/hepatology-attachment-programme",
+   "antecedencia": "≥3–4 meses (estimativa pelo prazo de registro limitado)",
+   "taxa": "não encontrado"
+  },
+  "servico": {
+   "nomes": ["Division of Cardiology, Dept. of Medicine & Therapeutics, CUHK/PWH — Structural Heart Interventions","Division of Cardiothoracic Surgery, Dept. of Surgery CUHK (robótica sobretudo torácica/broncoscopia)"],
+   "chefes": [{"nome":"Kent Chak-Yu So","cargo":"Director of Structural Heart Interventions, Prince of Wales Hospital & CUHK; proctor de vários dispositivos TAVI","fonte":"https://www.radcliffecardiology.com/authors/kent-chak-yu-so","certeza":"confirmado"}],
+   "diretor_fellowship": "não encontrado",
+   "volume": "não encontrado",
+   "marco_robotica": {"descricao":"27/03/2026: primeira substituição tricúspide transcateter assistida por robô em humano (plataforma CAS Institute of Automation + Jenscare); ensaio NCT07516145 'Robotic Transjugular Transcatheter Tricuspid Valve Replacement' (Lux Valve Plus) patrocinado pelo PWH, início 12/03/2026, n≈10","fontes":["https://global.chinadaily.com.cn/a/202604/02/WS69ce5fb7a310d6866eb41797.html","https://clinicaltrials.gov/study/NCT07516145"],"certeza":"confirmado (evento e registro); 'world first' é alegação da imprensa"}
+  },
+  "pessoas_chave": [
+   {"nome":"Kent Chak-Yu So","cargo":"Diretor de Intervenções Estruturais; PI do PWH Structural Heart Registry (NCT07020286, desde 08/2024); fez os 2 primeiros implantes Venus-Vitae (SMART-ALIGN)","por_que":"decide/hospeda em estrutural e robótica transcateter","fonte":"https://clinicaltrials.gov/study/NCT07020286"},
+   {"nome":"Leo Kar Lok Lai","cargo":"Cardiologista intervencionista estrutural PWH (coautor)","por_que":"equipe estrutural","fonte":"https://www.pcronline.com/Physicians/Leo-Kar-Lok-Lai"},
+   {"nome":"Ling Na (Geri) Wong","cargo":"Resident Specialist, Cardiology, PWH (coautora estrutural)","por_que":"equipe estrutural","fonte":"https://www.radcliffecardiology.com/authors/kent-chak-yu-so"},
+   {"nome":"Bryan Yan","cargo":"Cardiologista CUHK (perfil PCR)","por_que":"liderança em intervenção CUHK","fonte":"https://www.pcronline.com/Physicians/Bryan-Yan","certeza":"provável (cargo não visto)"},
+   {"nome":"Simon C.Y. Chow","cargo":"Cirurgião cardiotorácico CUHK (ATVI)","por_que":"lado cirúrgico do heart team TAVI","fonte":"https://surgery.cuhk.edu.hk/ATVI/SimonCYCHOW.html"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado (sem coautoria PWH–InCor/Unifesp localizada)",
+  "pesquisa_recente": [
+   {"titulo":"Application of Transcatheter Electrosurgery in Structural Heart Interventions (So KCY, Lai LKL, Wong LN et al.), J Asian Pac Soc Cardiol 2024;3:e15","ano":2024,"doi":"não encontrado","fonte":"https://www.radcliffecardiology.com/authors/kent-chak-yu-so"},
+   {"titulo":"Robotic Transjugular Transcatheter Tricuspid Valve Replacement (ensaio)","ano":2026,"pmid_doi":"NCT07516145","fonte":"https://clinicaltrials.gov/study/NCT07516145"},
+   {"titulo":"Robotic transcatheter tricuspid valve replacement with hybrid enhanced intelligence: first-in-vivo study (preprint; afiliação PWH não confirmada)","ano":2024,"pmid_doi":"arXiv 2411.12478","fonte":"https://arxiv.org/pdf/2411.12478","certeza":"provável"}
+  ],
+  "dicas": [
+   "CUHK tem site de TAVI (tavi.mect.cuhk.edu.hk) e realiza eventos 'CUHK TAVI update' — porta de contato.",
+   "HA co-organizou o 15º China Chest Pain Centers Congress (HK, abr/2026) — HA está internacionalizando congressos.",
+   "Cardiotorácica CUHK: robótica é torácica (broncoscopia robótica), não cirurgia cardíaca robótica."
+  ],
+  "rota_recomendada": "1) Candidatar-se pelo HA Short-term Experience Scheme (Clinical Observation) indicando PWH/Cardiologia estrutural, com carta da Unifesp, seguro e certificado de controle de infecção. 2) Em paralelo, e-mail ao Dr. Kent So citando o ensaio robótico tricúspide NCT07516145 e o registro estrutural do PWH, pedindo sponsor interno. 3) Planejar ≥4 meses de antecedência.",
+  "alerta_correcao": "Área 'robotica' do radar = robótica TRANSCATETER (tricúspide), não cirurgia cardíaca robótica. Cuidado: existe homônimo Prince of Wales Hospital em Sydney (Austrália) — em resultados de busca as fontes se misturam."
+ },
+ {
+  "match": "Narayana Institute of Cardiac Sciences",
+  "cidade": "Bengaluru (Narayana Health City), Índia",
+  "areas": ["robotica","congenitas"],
+  "programa": {
+   "pagina_observership": "não encontrado (sem página oficial de observership do NH)",
+   "evidencia_indireta": {"descricao":"Relato público (LinkedIn) de médico estrangeiro que fez attachment/observership em cirurgia cardíaca de um hospital Narayana (Narayana Superspeciality, viabilizado pelo Dr. Debasis Das) — mostra que existe por contato pessoal","fonte":"https://bd.linkedin.com/in/arup-khan-2012b98a","certeza":"provável (outra unidade NH; não NICS)"},
+   "regras_india": {"descricao":"NMC: diretrizes para NOC a estrangeiros em observership em faculdades de medicina (taxa de US$200 para PG; limite 5%); outras instituições exigem registro temporário/autorização MEA","fonte":"https://news.careers360.com/nmc-issues-guidelines-for-noc-grant-foreign-nationals-for-observership-in-indian-medical-colleges","certeza":"confirmado (regra para medical colleges); aplicabilidade a hospital privado incerta"},
+   "elegibilidade_taxa_documentos": "não encontrado"
+  },
+  "servico": {
+   "nomes": ["Cardiac Surgery (adulto, incl. robótica)","Paediatric & Congenital Cardiac Surgery","Paediatric Cardiology"],
+   "chefes": "não encontrado (chefe atual de cirurgia pediátrica não confirmado)",
+   "diretor_fellowship": "não encontrado",
+   "volume": {"dado":">60 CABG robóticos com SSi Mantra antes do 1º caso mitral (mar/2024)","fonte":"https://www.globenewswire.com/news-release/2024/03/12/2844465/0/en/SS-Innovations-SSi-Mantra-Surgical-Robotic-System-used-to-perform-Mitral-Valve-Replacement.html","certeza":"confirmado (declaração do cirurgião em release do fabricante)"}
+  },
+  "pessoas_chave": [
+   {"nome":"Nitin Kumar Rajput","cargo":"Consultant Cardiac Surgeon, Narayana Health — líder do programa robótico SSi Mantra (mitral 2024)","por_que":"robótica — host natural","fonte":"https://vattikutifoundation.com/2024/03/29/indian-ssi-mantra-used-for-mitral-valve-replacement/"},
+   {"nome":"Sudesh Prabhu","cargo":"Senior Consultant – Paediatric Cardiac Surgery, NICS","por_que":"congênitas","fonte":"https://www.narayanahealth.org/c/bangalore/cardiac-surgery-paediatric/dr-sudesh-prabhu/"},
+   {"nome":"Sujith N S","cargo":"Consultor cirurgia cardíaca pediátrica/congênita, NICS","por_que":"congênitas","fonte":"https://www.narayanahealth.org/c/bangalore/cardiac-surgery/dr-sujith-n-s"},
+   {"nome":"Colin John","cargo":"Senior Consultant, Paediatric & Congenital Heart Surgery (diretório NH)","por_que":"congênitas","fonte":"https://www.narayanahealth.org/ocaapp/doctors/bangalore/cardiac%20surgeon","certeza":"provável"},
+   {"nome":"Devi Prasad Shetty","cargo":"Fundador/presidente Narayana Health, cirurgião cardíaco","por_que":"cultura de treinamento em alto volume","fonte":"https://www.narayanahealth.org/ocaapp/doctors/undefined/cardiac-surgery-adult"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {"titulo":"Primeira troca/reparo mitral com sistema robótico SSi Mantra (relato de caso/press)","ano":2024,"pmid_doi":"não aplicável","fonte":"https://cardiovascularnews.com/first-mitral-valve-replacement-performed-using-ssi-mantra-robotic-system/"},
+   {"titulo":"Coronavirus disease 2019 convalescent children: outcomes after congenital heart surgery (Joshi SS et al., NICS), Cardiol Young","ano":2021,"pmid":"34706786","fonte":"https://busqueda.bvsalud.org/portal/resource/es/mdl-34706786","certeza":"confirmado (fora da janela 2022–2026)"},
+   {"titulo":"The outcome of surgery for congenital heart disease in India: systematic review and meta-analysis, Ann Pediatr Cardiol (não específico do NICS)","ano":2024,"doi":"10.4103/apc.apc_71_24","fonte":"https://doaj.org/article/9d6d7356fa8c4bef9801337ad163752d"}
+  ],
+  "dicas": [
+   "Altíssimo volume e modelo de treinamento próprio (Devi Shetty) — fellowships históricas de estrangeiros (ex. 2006–2008).",
+   "Robótica com sistema indiano SSi Mantra (baixo custo) — tema diferencial para e-mail.",
+   "Tabela de preços NICS 2022 pública (custos de procedimentos, não de observership): https://www.iiap.res.in/files/NICS_tariff_2022.pdf"
+  ],
+  "rota_recomendada": "1) E-mail ao Dr. Nitin Kumar Rajput (robótica) ou Dr. Sudesh Prabhu (congênitas) pedindo observership de 4 semanas, com carta da Unifesp e CV; pedir que encaminhem ao departamento acadêmico/RH do NH. 2) Verificar exigências de visto e eventual registro temporário (NMC). 3) Pesquisa sem página oficial — esperar processo informal por sponsor.",
+  "alerta_correcao": "Caso robótico de mar/2024: releases divergem entre 'replacement' e 'repair'. URL de contatos do radar é página genérica de marketing NH."
+ }
+]

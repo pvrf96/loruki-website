@@ -1,0 +1,588 @@
+[
+ {
+  "match": "Emory — Robotic Cardiac Surgery",
+  "cidade": "Atlanta",
+  "pais": "EUA",
+  "areas_polo": [
+   "aorta",
+   "robotica",
+   "coronaria"
+  ],
+  "alerta_correcao": "O polo junta dois núcleos com locais e chefias diferentes: (1) Robótica, centrada no Emory Saint Joseph's Hospital (Douglas Murphy, Emory Robotic Center) e (2) Aorta, o Emory Aortic Center no Emory University Hospital (Leshnower/Chen). A URL do radar (ascending-aorta-arch-surgery) cobre só a aorta.",
+  "programa": {
+   "nome": "Não existe observership próprio da cirurgia cardiotorácica. A rota institucional é o Emory Office of Observership Credentialing (EOOC), da Emory Healthcare, sempre com sponsor do corpo clínico",
+   "url": "https://med.emory.edu/departments/radiology/education/observer-program/observer-application-process.html",
+   "trecho": "Non-Emory Affiliated Applicants ... Complete the supplemental application from the Emory Office of Observership Credentialing (EOOC). Obtain the application by sending a request by email.",
+   "elegibilidade_residente_estrangeiro": "provável (o EOOC credencia observadores de fora da Emory, com sponsor; nenhuma regra específica para estrangeiros apareceu). As visiting rotations de 4 semanas da CT surgery são para estudantes de medicina e para residentes de cirurgia geral dos EUA, não servem para ela",
+   "sponsor": "exigido: um médico da Emory ou um professor/pesquisador clínico com acesso clínico aprovado (formulário de observership da urologia/medicina de família, med.emory.edu)",
+   "taxa": "Observership Credentialing Fee de US$150, pagável à Emory Healthcare (formulário da Family & Preventive Medicine: https://med.emory.edu/departments/family-preventive/_documents/documents/observership-application.pdf); o valor pode variar por departamento",
+   "duracao": "não encontrado",
+   "antecedencia": "não encontrado",
+   "documentos": "immunization clearance antes de observar (formulário da urologia); a EM lista pré-requisitos da Emory Healthcare em PDF próprio (https://med.aws.emory.edu/departments/emergency-medicine/_documents/emory-healthcare-observership-prerequisites.pdf). Visto, seguro e background check: não encontrado",
+   "contato_oficial": "observership.credentialing@emoryhealthcare.org (e-mail do EOOC, publicado em várias páginas de departamentos da Emory)",
+   "certeza": "confirmado (EOOC, sponsor, imunização, e-mail); provável (taxa de US$150 vale para a cirurgia CT)"
+  },
+  "servico": {
+   "nomes": [
+    "Division of Cardiothoracic Surgery, Emory University School of Medicine",
+    "Emory Robotic Center / robotic cardiac program (Emory Saint Joseph's Hospital)",
+    "Emory Aortic Center"
+   ],
+   "chefes": [
+    {
+     "nome": "Michael E. Halkos, MD, MSc",
+     "cargo": "Chief, Division of Cardiothoracic Surgery (desde 01/07/2017); Program Director da residência de CT; co-diretor do Robotic Cardiac Surgery Fellowship",
+     "fonte": "https://med.emory.edu/departments/surgery/news-and-events/news-highlights/2017/michael_halkos_appointed_new_chief_of_cardiothoracic_surgery_2017.html",
+     "certeza": "confirmado para 2017; provável que continue (diretório atual o lista como co-diretor do fellowship)"
+    },
+    {
+     "nome": "Douglas A. Murphy, MD",
+     "cargo": "Medical Director, Emory Robotic Center; chefe da CT no Emory Saint Joseph's; lidera a International College of Robotic Surgery desde 2009",
+     "fonte": "https://med.emory.edu/departments/surgery/education/cardiothoracic-surgery-residencies-fellowship/fellowships/advanced-robotic-cardiac-surgery-fellowship.html",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Bradley G. Leshnower, MD",
+     "cargo": "Director of Thoracic Aortic Surgery, Emory Healthcare, e Co-Director, Emory Aortic Center (desde 2020); Chief of Cardiac Surgery, Emory University Hospital",
+     "fonte": "https://med.emory.edu/directory/profile/?u=BLESHNO",
+     "certeza": "confirmado (diretório da Emory)"
+    }
+   ],
+   "fellowship": [
+    {
+     "programa": "Advanced Robotic Cardiac Surgery Fellowship (robótica mitral, intracardíaca e coronária; no Emory Saint Joseph's)",
+     "diretor": "Co-diretores Douglas A. Murphy e Michael Halkos",
+     "fonte": "https://med.emory.edu/departments/surgery/education/cardiothoracic-surgery-residencies-fellowship/fellowships/advanced-robotic-cardiac-surgery-fellowship.html",
+     "nota": "exige residência de CT credenciada pelo ACGME, então não serve como rota para ela",
+     "certeza": "confirmado"
+    }
+   ],
+   "volume": [
+    {
+     "dado": "Murphy fez a 2.000ª cirurgia mitral robótica (recorde mundial anunciado em dez/2016); primeira cirurgia cardíaca robótica da Geórgia em 2002",
+     "ano": 2016,
+     "fonte": "https://news.emory.edu/stories/2016/12/saint_josephs_murphy_world_record/index.html",
+     "certeza": "confirmado"
+    },
+    {
+     "dado": "307 RA-CABG consecutivos de out/2009 a set/2012, feitos por 2 cirurgiões (dado antigo)",
+     "ano": 2014,
+     "fonte": "https://scholar.usuhs.edu/en/publications/early-clinical-and-angiographic-outcomes-after-robotic-assisted-c/",
+     "certeza": "confirmado"
+    },
+    {
+     "dado": "Volume atual (anual) de robótica e de aorta",
+     "ano": null,
+     "fonte": "não encontrado"
+    }
+   ]
+  },
+  "pessoas_chave": [
+   {
+    "nome": "Douglas A. Murphy, MD",
+    "cargo": "Medical Director, Emory Robotic Center (Saint Joseph's)",
+    "por_que": "Hospeda e decide o dia a dia da robótica; já treina cirurgiões e equipes de fora (EUA, Europa, Japão), então é o sponsor mais natural",
+    "fonte": "https://news.emory.edu/stories/2018/03/saint_josephs_cardiac_robotics/index.html"
+   },
+   {
+    "nome": "Michael E. Halkos, MD, MSc",
+    "cargo": "Chief, Division of Cardiothoracic Surgery",
+    "por_que": "Chefe da divisão, co-diretor do fellowship de robótica e líder da pesquisa em RA-CABG/híbrida",
+    "fonte": "https://med.emory.edu/directory/profile/?u=MHALKOS"
+   },
+   {
+    "nome": "Bradley G. Leshnower, MD",
+    "cargo": "Director of Thoracic Aortic Surgery; Co-Director, Emory Aortic Center",
+    "por_que": "Decide sobre a aorta; investigador principal do Aortic Research Lab",
+    "fonte": "https://med.emory.edu/departments/surgery/research/cardiothoracic-surgery-research/aortic-research-lab.html"
+   },
+   {
+    "nome": "Edward P. Chen, MD",
+    "cargo": "Fundador do programa de cirurgia aórtica; Associate Program Director da residência de cirurgia torácica",
+    "por_que": "Referência em aorta e na educação da residência",
+    "fonte": "https://med.emory.edu/directory/profile/?u=EPCHEN",
+    "certeza": "provável (o cargo atual pode ter mudado)"
+   },
+   {
+    "nome": "Yazan Duwayri, MD",
+    "cargo": "Co-Director, Emory Aortic Center (cirurgia vascular)",
+    "por_que": "Co-dirige o centro de aorta (lado endovascular)",
+    "fonte": "https://support.doctorpodcasting.com/client/emoryphy/item/38729-the-emory-aortic-center",
+    "certeza": "provável (podcast sem data)"
+   }
+  ],
+  "brasileiros": {
+   "achados": [],
+   "resumo": "não encontrado (nenhum fellow ou cirurgião brasileiro na Emory CT apareceu; Robinson Poffo, pioneiro da robótica cardíaca no Brasil, treinou na UAB, não na Emory)",
+   "fonte": "https://www.ctsnet.org/members/robinson-poffo/"
+  },
+  "pontes_unifesp_sp": {
+   "achados": [],
+   "resumo": "não encontrado (a busca não achou coautoria Emory CT com Unifesp, InCor ou Dante; seria preciso checar no PubMed por afiliação)"
+  },
+  "pesquisa_recente": [
+   {
+    "titulo": "Long-term Results of Valve-Sparing Aortic Root Replacement in Acute Type A Aortic Dissection",
+    "autores": "Leshnower, Farrington, Huckaby, Keeling, Zellner, Chen",
+    "ano": 2025,
+    "revista": "Ann Thorac Surg 119(1):101-107",
+    "doi": "10.1016/j.athoracsur.2024.09.007",
+    "certeza": "confirmado (DOI veio do resultado da busca)"
+   },
+   {
+    "titulo": "Guia prático para iniciar um programa de CABG robótico (editorial de Halkos & Jonsson)",
+    "ano": 2024,
+    "revista": "Annals of Cardiothoracic Surgery",
+    "url": "https://www.annalscts.com/article/view/17139/html",
+    "doi": "não encontrado",
+    "certeza": "provável (o título exato não foi capturado)"
+   },
+   {
+    "titulo": "Maffucci syndrome como possível doença aórtica torácica hereditária (Singh SK, Leshnower B, Chen EP et al.)",
+    "ano": 2024,
+    "revista": "J Thorac Cardiovasc Surg (20/07/2024)",
+    "doi": "não encontrado",
+    "fonte": "https://med.emory.edu/departments/surgery/research/cardiothoracic-surgery-research/aortic-research-lab.html",
+    "certeza": "provável (título aproximado)"
+   }
+  ],
+  "dicas": [
+   "A divisão já recebeu cursos internacionais de robótica, como o Intracardiac Robotics course no Saint Joseph's (mar/2018), e Murphy lidera a International College of Robotic Surgery: cursos e programas de treinamento de equipes podem ser uma porta de entrada (https://news.emory.edu/stories/2018/03/saint_josephs_cardiac_robotics/index.html)",
+   "A Emory Healthcare exige sponsor interno antes do credenciamento pelo EOOC, então ela deve conseguir o 'sim' de um cirurgião antes de escrever ao escritório",
+   "As 4 semanas de visiting rotation da CT são só para estudantes ou residentes de cirurgia geral; não mencionar isso como pedido",
+   "Nos 4 pilares de pesquisa da divisão estão a robótica mitral, o CABG robótico e o off-pump, assuntos que ela pode citar no e-mail"
+  ],
+  "rota_recomendada": "1) E-mail personalizado a Douglas Murphy (robótica, Saint Joseph's) ou a Halkos, citando RA-CABG/híbrida, pedindo que seja sponsor de 4 semanas como observer. 2) Com o sim do sponsor, pedir o formulário ao EOOC (observership.credentialing@emoryhealthcare.org) e preparar imunizações e a taxa (~US$150). 3) Se o foco for aorta, a alternativa é Leshnower (Aortic Center), pelo mesmo trâmite do EOOC."
+ },
+ {
+  "match": "Hôpital Pitié-Salpêtrière",
+  "cidade": "Paris",
+  "pais": "França",
+  "areas_polo": [
+   "transplante",
+   "ecmo",
+   "uti_cardiaca"
+  ],
+  "alerta_correcao": "O polo junta dois serviços distintos do Institut de Cardiologie (AP-HP / Sorbonne Université): (1) Service de Chirurgie cardiaque et thoracique (Pr Pascal Leprince), com transplante, ECMO e assistência circulatória, e (2) Service de Médecine intensive-réanimation (Pr Alain Combes), com ECMO e UTI. A URL do radar é um artigo de 2016 da Académie de Médecine, não uma página de programa.",
+  "programa": {
+   "nome": "Não há observership público. As alternativas formais são (a) stage d'observation negociado direto com o chefe de serviço e (b) DFMS (residentes estrangeiros em formação, 1–2 anos, status FFI) e DFMSA, longos demais para 1 mês",
+   "url": "https://u-paris.fr/medecine/dfms-dfmsa/",
+   "trecho": "DFMS: candidato em formação especializada no país de origem; nível B2 em francês; status de étudiant faisant fonction d'interne; dossiê até 15 de janeiro (exemplo de Strasbourg)",
+   "elegibilidade_residente_estrangeiro": "não encontrado para estágio curto; DFMS confirmado para residente estrangeiro, mas é de 1–2 anos e pede B2 em francês",
+   "taxa": "não encontrado",
+   "duracao": "DFMS de 1–2 anos (não serve para 1 mês); observação curta: não encontrado",
+   "antecedencia": "não encontrado",
+   "documentos": "não encontrado",
+   "contato_oficial": "Secretariado do Service de Chirurgie cardiaque et thoracique: +33 1 42 16 55 74, 47-83 bd de l'Hôpital, 75013 Paris (https://www.aphp.fr/pitie-salpetriere/service-de-chirurgie-cardiaque-et-thoracique)",
+   "certeza": "confirmado (DFMS e contato do serviço); não encontrado (programa curto)"
+  },
+  "servico": {
+   "nomes": [
+    "Service de Chirurgie cardiaque et thoracique (Institut de Cardiologie, Pitié-Salpêtrière, AP-HP)",
+    "Service de Médecine intensive-réanimation (Réanimation médicale, Institut de Cardiologie)"
+   ],
+   "chefes": [
+    {
+     "nome": "Pr Pascal Leprince",
+     "cargo": "Chef du Service de Chirurgie cardiaque et thoracique",
+     "fonte": "https://www.aphp.fr/actualites/chirurgie-cardiaque-entre-humanite-et-technicite",
+     "certeza": "confirmado (AP-HP, atualizado em 10/02/2025)"
+    },
+    {
+     "nome": "Pr Alain Combes",
+     "cargo": "Chef du Service de Médecine intensive-réanimation; pesquisa ECMO/ECCO2R",
+     "fonte": "https://www.aphp.fr/pitie-salpetriere/service-de-reanimation-medicale",
+     "certeza": "confirmado"
+    }
+   ],
+   "fellowship": [
+    {
+     "programa": "DU Cœur artificiel et assistance circulatoire (Sorbonne Université; 76 h a distância; 1.430 € na formação contínua individual)",
+     "diretor": "Pr Guillaume Lebreton (contato)",
+     "fonte": "https://fc.sorbonne-universite.fr/nos-offres/du-coeur-artificiel-et-assistance-circulatoire",
+     "nota": "elegibilidade descrita para diploma francês, internos e residentes; aceitação de estrangeiro a confirmar (fcmedecine@sorbonne-universite.fr)",
+     "certeza": "confirmado (página de 17/07/2026)"
+    }
+   ],
+   "volume": [
+    {
+     "dado": "ECMO usada 2.191 vezes de 2002 ao fim de 2013 (1.493 pacientes em assistência circulatória de urgência)",
+     "ano": 2013,
+     "fonte": "https://www.academie-medecine.fr/wp-content/uploads/2016/03/PAGES-DE-1335-1344.pdf",
+     "certeza": "confirmado"
+    },
+    {
+     "dado": "1.918 transplantes cardíacos de abr/1968 a dez/2010 (série que passou de 2.000)",
+     "ano": 2010,
+     "fonte": "https://www.academie-medecine.fr/reflexions-sur-2-000-transplantations-cardiaques-experience-de-la-pitie/",
+     "certeza": "confirmado"
+    },
+    {
+     "dado": "1.152 transplantes cardíacos isolados em adultos de 2007 a 2021",
+     "ano": 2024,
+     "fonte": "https://doaj.org/article/149e578803024c42a85278e69c409479",
+     "certeza": "confirmado"
+    }
+   ]
+  },
+  "pessoas_chave": [
+   {
+    "nome": "Pr Pascal Leprince",
+    "cargo": "Chefe da cirurgia cardíaca e torácica",
+    "por_que": "Decide quem é recebido na cirurgia, no transplante e na MCS",
+    "fonte": "https://www.aphp.fr/pr-leprince-pascal"
+   },
+   {
+    "nome": "Pr Guillaume Lebreton",
+    "cargo": "Cirurgião cardíaco; responsável pelo DU Cœur artificiel et assistance circulatoire",
+    "por_que": "Lidera ECMO/MCS e ensino; é a porta mais natural para quem quer ECMO cirúrgica",
+    "fonte": "https://fc.sorbonne-universite.fr/nos-offres/du-coeur-artificiel-et-assistance-circulatoire"
+   },
+   {
+    "nome": "Pr Alain Combes",
+    "cargo": "Chefe da Médecine intensive-réanimation",
+    "por_que": "Referência mundial em ECMO (UTI cardíaca); ensina ECMO de adulto no DACRE",
+    "fonte": "https://www.esicm.org/wp-content/uploads/2018/09/Alain-Combes.pdf"
+   },
+   {
+    "nome": "Dr Matthieu Schmidt",
+    "cargo": "Réanimation médicale, Pitié-Salpêtrière",
+    "por_que": "Pesquisa e ensino de VA/VV-ECMO (docente do DACRE)",
+    "fonte": "https://fc.sorbonne-universite.fr/wp-content/uploads/2021/03/Programme-DACRE-2024-2025.pdf"
+   },
+   {
+    "nome": "Dr Adrien Bouglé",
+    "cargo": "Anestesia-reanimação cardíaca (Sorbonne)",
+    "por_que": "Docente em formação contínua da Sorbonne (UTI pós-operatória cardíaca)",
+    "fonte": "https://fc.sorbonne-universite.fr/corps_enseignant/adrien-bougle/",
+    "certeza": "provável (o papel exato não foi capturado)"
+   }
+  ],
+  "brasileiros": {
+   "achados": [],
+   "resumo": "não encontrado"
+  },
+  "pontes_unifesp_sp": {
+   "achados": [],
+   "resumo": "não encontrado (nenhuma coautoria Pitié–InCor/Unifesp em ECMO ou transplante apareceu; o centro de ECMO do InCor, com Luiz Fernando Caneo, é a ponte potencial, mas sem vínculo comprovado)"
+  },
+  "pesquisa_recente": [
+   {
+    "titulo": "Fifteen-year experience of direct bridge with venoarterial extracorporeal membrane oxygenation to heart transplantation",
+    "autores": "Laali, Ponnaiah, Coutance, Hekimian, D'Alessandro, Demondion, Lebreton, Leprince",
+    "ano": 2024,
+    "revista": "JTCVS Open",
+    "doi": "10.1016/j.xjon.2024.08.014",
+    "certeza": "confirmado"
+   },
+   {
+    "titulo": "Time course, factors related to, and prognostic impact of venoarterial extracorporeal membrane flow in cardiogenic shock",
+    "autores": "Montero, Rivas-Lasarte, Huang, Chommeloux, Leprince, Combes, Alvarez-Garcia, Schmidt",
+    "ano": 2023,
+    "revista": "ESC Heart Failure 10(1):568-577",
+    "doi": "10.1002/ehf2.14132",
+    "certeza": "confirmado"
+   },
+   {
+    "titulo": "Estudo de troca de ECMO periférica para central no choque cardiogênico refratário (Leprince coautor)",
+    "ano": 2024,
+    "revista": "Annals of Intensive Care",
+    "doi": "10.1186/s13613-024-01382-3",
+    "certeza": "confirmado (DOI); provável (título aproximado)"
+   },
+   {
+    "titulo": "Danial et al., desfechos de VA-ECMO periférica por etiologia do choque (Pitié, 2015–2018)",
+    "ano": 2023,
+    "revista": "JACC 81(9):897-909",
+    "doi": "não encontrado",
+    "certeza": "confirmado (citação); DOI não encontrado"
+   }
+  ],
+  "dicas": [
+   "O DU Cœur artificiel et assistance circulatoire (76 h a distância) e o DACRE (ECMO neonatal e pediátrica) são cursos da Sorbonne ligados à Pitié; um curso pode servir de contato prévio com Lebreton e Combes",
+   "Falar francês ajuda muito: o DFMS exige B2; para observação curta não há regra publicada",
+   "Para 1 mês, o caminho é informal: carta direta ao chefe de serviço (Leprince, ou Combes para a UTI) com carta da Unifesp"
+  ],
+  "rota_recomendada": "1) E-mail em francês (ou inglês) ao Pr Lebreton/Pr Leprince, citando o estudo de bridge com VA-ECMO de 2024, pedindo 4 semanas de stage d'observation na chirurgie cardiaque (transplante/MCS), via secretariado do serviço. 2) Em paralelo, ou como alternativa para UTI/ECMO, escrever ao Pr Combes/Dr Schmidt citando o paper de fluxo de VA-ECMO. 3) Se nada vier, considerar o DU de assistência circulatória como vínculo acadêmico prévio."
+ },
+ {
+  "match": "National Cerebral and Cardiovascular Center (NCVC)",
+  "cidade": "Suita (Osaka)",
+  "pais": "Japão",
+  "areas_polo": [
+   "transplante",
+   "ic",
+   "hipertensao_pulmonar"
+  ],
+  "alerta_correcao": "Nas fontes de 2024–2025, o antigo 'Department of Transplant Medicine' aparece como 'Department of Heart Failure and Transplantation'. A URL do radar é um artigo do PMC, não uma página de programa.",
+  "programa": {
+   "nome": "Nenhum programa de observership para estrangeiros apareceu no site do NCVC",
+   "url": "https://professional.heart.org/en/partners/scientific-councils/young-hearts/exchange-fellowship-program",
+   "trecho": "AHA Young Hearts Exchange Fellowship (com a Japanese Society of Pediatric Cardiology and Cardiac Surgery) lista o NCVC (Osaka) entre as instituições japonesas; estadia de 4 a 8 semanas; não exige japonês",
+   "elegibilidade_residente_estrangeiro": "não encontrado no NCVC. O Young Hearts é programa de troca da AHA (cardiologia pediátrica), provavelmente para membros da AHA; elegibilidade dela a confirmar",
+   "taxa": "não encontrado",
+   "duracao": "4–8 semanas (Young Hearts)",
+   "antecedencia": "não encontrado (referência de outro centro nacional, o NCC: documentos pelo menos 3 meses antes)",
+   "documentos": "não encontrado",
+   "contato_oficial": "não encontrado",
+   "certeza": "confirmado (o Young Hearts lista o NCVC); não encontrado (programa próprio)"
+  },
+  "servico": {
+   "nomes": [
+    "Department of Heart Failure and Transplantation (antes Department of Transplant Medicine)",
+    "Department of Cardiovascular Medicine",
+    "Division of Pulmonary Circulation (hipertensão pulmonar / BPA)",
+    "Department of Adult Cardiac Surgery"
+   ],
+   "chefes": [
+    {
+     "nome": "Norihide Fukushima",
+     "cargo": "Director, Department of Transplant Medicine (bio de 2019)",
+     "fonte": "https://themeetinglab.eventsair.com/3rd-biennial-asia-pacific-mechanical-circulatory-support-conference-2019/norihide-fukushima",
+     "certeza": "provável (2019; o cargo atual não foi confirmado)"
+    },
+    {
+     "nome": "Chisato Izumi",
+     "cargo": "Director, Department of Cardiovascular Medicine (desde 2018)",
+     "fonte": "https://esc365.escardio.org/person/145105",
+     "certeza": "provável (perfil da ESC sem data)"
+    },
+    {
+     "nome": "Satsuki Fukushima",
+     "cargo": "Director of Cardiac Surgery (2020–presente)",
+     "fonte": "https://www.ctsnet.org/members/satsuki-fukushima/",
+     "certeza": "provável (perfil da CTSNet)"
+    },
+    {
+     "nome": "Takeshi Ogo",
+     "cargo": "Division of Pulmonary Circulation, NCVC; referência em BPA na CTEPH",
+     "fonte": "https://aph.kglmeridian.com/downloadpdf/view/journals/adph/19/1/article-p21.pdf",
+     "certeza": "confirmado (afiliação, 2020); provável (chefia atual)"
+    }
+   ],
+   "fellowship": [],
+   "volume": [
+    {
+     "dado": "122 transplantes cardíacos consecutivos de mai/1999 a jun/2019 (133 no total no período); 200 dos ~1.200 implantes do J-MACS até o fim de 2019 foram no NCVC",
+     "ano": 2020,
+     "fonte": "https://www.jstage.jst.go.jp/article/circj/84/6/84_CJ-19-1209/_html/-char/en",
+     "certeza": "confirmado"
+    }
+   ]
+  },
+  "pessoas_chave": [
+   {
+    "nome": "Norihide Fukushima",
+    "cargo": "Diretor (2019) de Transplant Medicine",
+    "por_que": "Lidera o maior programa de transplante cardíaco do Japão",
+    "fonte": "https://themeetinglab.eventsair.com/3rd-biennial-asia-pacific-mechanical-circulatory-support-conference-2019/norihide-fukushima"
+   },
+   {
+    "nome": "Osamu Seguchi",
+    "cargo": "Department of Transplant Medicine (autor)",
+    "por_que": "Autor frequente de estudos de transplante e LVAD no NCVC",
+    "fonte": "https://www.jstage.jst.go.jp/article/circj/84/5/84_CJ-19-0847/_article/-char/ja",
+    "certeza": "confirmado (afiliação); cargo não encontrado"
+   },
+   {
+    "nome": "Chisato Izumi",
+    "cargo": "Diretora de Cardiovascular Medicine",
+    "por_que": "Decide a parte clínica de IC; pesquisa ICFEP",
+    "fonte": "https://nrid.nii.ac.jp/nrid/1000070768100"
+   },
+   {
+    "nome": "Takeshi Ogo",
+    "cargo": "Pulmonary Circulation",
+    "por_que": "Hipertensão pulmonar e BPA, um dos focos de excelência do centro",
+    "fonte": "https://aph.kglmeridian.com/downloadpdf/view/journals/adph/19/1/article-p21.pdf"
+   },
+   {
+    "nome": "Satsuki Fukushima",
+    "cargo": "Diretora de Cirurgia Cardíaca",
+    "por_que": "Implante de LVAD e cirurgia de transplante",
+    "fonte": "https://www.ctsnet.org/members/satsuki-fukushima/"
+   }
+  ],
+  "brasileiros": {
+   "achados": [],
+   "resumo": "não encontrado (nenhum treinamento de brasileiro em BPA ou transplante no NCVC apareceu; existe uma coorte brasileira de BPA, de Salvador, 2024, sem vínculo com o NCVC)"
+  },
+  "pontes_unifesp_sp": {
+   "achados": [],
+   "resumo": "não encontrado"
+  },
+  "pesquisa_recente": [
+   {
+    "titulo": "HeartMate 3 vs HeartMate II em BTT (75 pacientes do NCVC e da Osaka University, 2019–2021)",
+    "ano": 2022,
+    "revista": "Circulation Journal 86(12)",
+    "url": "https://www.jstage.jst.go.jp/article/circj/86/12/86_CJ-22-0332/_html/-char/en",
+    "doi": "não encontrado (o ID J-STAGE é CJ-22-0332)",
+    "certeza": "provável (título aproximado)"
+   },
+   {
+    "titulo": "Artigo multicêntrico com o Department of Heart Failure and Transplantation do NCVC",
+    "ano": 2025,
+    "revista": "Circulation Journal (advance publication CJ-25-0002)",
+    "url": "https://www.jstage.jst.go.jp/article/circj/advpub/0/advpub_CJ-25-0002/_article",
+    "doi": "não encontrado",
+    "certeza": "provável (título não capturado)"
+   },
+   {
+    "titulo": "Artigo com afiliação ao Department of Cardiovascular Medicine do NCVC",
+    "ano": 2024,
+    "revista": "Circulation Journal 88(3) (CJ-23-0695)",
+    "url": "https://www.jstage.jst.go.jp/article/circj/88/3/88_CJ-23-0695/_article",
+    "doi": "não encontrado",
+    "certeza": "provável (título e tema não capturados)"
+   }
+  ],
+  "dicas": [
+   "Não há canal público para observer estrangeiro; o caminho provável é o convite de um chefe de departamento (modelo de outros centros japoneses, como a University of Tokyo: aceite do chefe + aprovação do comitê)",
+   "O AHA Young Hearts Exchange Fellowship (4–8 semanas, sem exigir japonês) inclui o NCVC, mas é voltado à cardiologia pediátrica",
+   "O transplante no Japão é de baixo volume (escassez de doadores), com longos períodos em LVAD: o forte do NCVC é IC avançada, LVAD de longa duração e BPA",
+   "Prever pelo menos 3 meses de antecedência para documentos (referência do National Cancer Center, outro centro nacional)"
+  ],
+  "rota_recomendada": "1) E-mail a Norihide Fukushima / Department of Heart Failure and Transplantation (ou a Takeshi Ogo, se o interesse for HP/BPA), citando o estudo de HeartMate 3 e o programa de BTT, pedindo 4 semanas como observer e quem cuida do trâmite internacional. 2) Ter carta da Unifesp e aceitar a burocracia (aprovação de comitê). Prioridade baixa frente a centros com programa formal."
+ },
+ {
+  "match": "Fundación Cardiovascular de Colombia",
+  "cidade": "Bucaramanga",
+  "pais": "Colômbia",
+  "areas_polo": [
+   "transplante",
+   "congenitas",
+   "robotica"
+  ],
+  "alerta_correcao": "O hospital fica em Floridablanca (região metropolitana de Bucaramanga) e opera como Hospital Internacional de Colombia (HIC) / Instituto Cardiovascular. A URL do radar diz 'primeiro transplante pediátrico' (do país, durante a pandemia), mas uma tese da UIS registra 18 transplantes cardíacos pediátricos na FCV desde 2006: provavelmente a manchete se refere a outro marco. A robótica cardíaca é muito recente: o primeiro TECAB do país, com o robô SSI Mantra 3, foi noticiado em ago/2026.",
+  "programa": {
+   "nome": "Nenhum programa publicado de rotação para residentes ou médicos estrangeiros. Existe um site internacional (internacional.fcv.org), sem conteúdo capturado, e a Fundación Universitaria-FCV (2025), cujas especializações treinam no HIC",
+   "url": "https://www.vanguardia.com/area-metropolitana/bucaramanga/2025/11/10/bucaramanga-tiene-nuevas-opciones-para-las-especializaciones-en-salud/",
+   "trecho": "os alunos das especializações médico-cirúrgicas fazem a prática clínica no HIC e no Instituto Cardiovascular, com respaldo acadêmico e clínico da FCV",
+   "elegibilidade_residente_estrangeiro": "não encontrado",
+   "taxa": "não encontrado",
+   "duracao": "não encontrado",
+   "antecedencia": "não encontrado",
+   "documentos": "não encontrado (referência de outro centro colombiano, a Fundación Valle del Lili: carta de apresentação da instituição de origem e seguro saúde para toda a estadia; https://valledellili.org/wp-content/uploads/2018/10/Requisitos-Rotaciones-Observacionales-Profesionales-Extranjeros.pdf)",
+   "contato_oficial": "não encontrado",
+   "certeza": "não encontrado"
+  },
+  "servico": {
+   "nomes": [
+    "Cirugía Cardiovascular, FCV / HIC Instituto Cardiovascular",
+    "Programa de Falla y Trasplante Cardíaco Pediátrico (certificado pela JCI)",
+    "Programa de cirugía cardíaca robótica (SSI Mantra 3, 2026)"
+   ],
+   "chefes": [
+    {
+     "nome": "Antonio Figueredo Moreno",
+     "cargo": "Jefe de cirugía cardiovascular, FCV",
+     "fonte": "https://www.lafm.com.co/colombia/colombia-realizo-el-primer-trasplante-pediatrico",
+     "certeza": "provável (nota de ~2020)"
+    },
+    {
+     "nome": "Gabriel Prieto González",
+     "cargo": "Chief of Cardiac Surgery Department, FCV (perfil da CTSNet)",
+     "fonte": "https://www.ctsnet.org/home/gaprietogonzalez",
+     "certeza": "provável (perfil sem data; pode ser anterior)"
+    },
+    {
+     "nome": "Javier Castro",
+     "cargo": "Jefe del Programa de Falla y Trasplante Cardíaco Pediátrico, HIC",
+     "fonte": "https://consultorsalud.com/jci-hic-trasplante-cardiaco-pediatrico/",
+     "certeza": "confirmado (nota da JCI, ~nov/2025)"
+    },
+    {
+     "nome": "Víctor Raúl Castillo Mantilla",
+     "cargo": "CEO / presidente executivo da FCV-HIC",
+     "fonte": "https://lanotaeconomica.com.co/movidas-empresarial/colombia-consolida-avances-en-cirugia-cardiovascular-pero-se-necesitan-mas-donantes",
+     "certeza": "provável"
+    }
+   ],
+   "fellowship": [],
+   "volume": [
+    {
+     "dado": "2.073 transplantes de órgãos e tecidos, 276 deles de coração (nota sem data)",
+     "ano": null,
+     "fonte": "https://lanotaeconomica.com.co/movidas-empresarial/colombia-consolida-avances-en-cirugia-cardiovascular-pero-se-necesitan-mas-donantes",
+     "certeza": "provável (sem data)"
+    },
+    {
+     "dado": "Certificação JCI do transplante cardíaco pediátrico: primeiro centro fora dos EUA com esse reconhecimento",
+     "ano": 2025,
+     "fonte": "https://www.vanguardia.com/contenido-especial/2025/11/22/hic-primer-centro-de-excelencia-jci-en-trasplante-cardiaco-pediatrico-en-colombia/",
+     "certeza": "confirmado"
+    },
+    {
+     "dado": "6 robôs Mantra 3 (4 em Piedecuesta, 2 no Instituto Cardiovascular); 100 cirurgias robóticas no total (todas as especialidades)",
+     "ano": 2026,
+     "fonte": "https://www.vanguardia.com/area-metropolitana/bucaramanga/2026/10/10/hospital-internacional-de-colombia-alcanza-las-primeras-100-cirugias-roboticas-asi-funciona-esta-tecnologia/",
+     "certeza": "confirmado"
+    }
+   ]
+  },
+  "pessoas_chave": [
+   {
+    "nome": "Javier Castro",
+    "cargo": "Chefe do programa de IC e transplante cardíaco pediátrico (HIC)",
+    "por_que": "Lidera o programa com certificação JCI, o grande diferencial do centro",
+    "fonte": "https://consultorsalud.com/jci-hic-trasplante-cardiaco-pediatrico/"
+   },
+   {
+    "nome": "Antonio Figueredo Moreno",
+    "cargo": "Chefe de cirurgia cardiovascular",
+    "por_que": "Decide sobre o centro cirúrgico, o transplante e as congênitas",
+    "fonte": "https://www.lafm.com.co/colombia/colombia-realizo-el-primer-trasplante-pediatrico"
+   },
+   {
+    "nome": "Gabriel Prieto González",
+    "cargo": "Chief of Cardiac Surgery (CTSNet)",
+    "por_que": "Cirurgião sênior, com perfil público em inglês",
+    "fonte": "https://www.ctsnet.org/home/gaprietogonzalez"
+   },
+   {
+    "nome": "Víctor Raúl Castillo Mantilla",
+    "cargo": "CEO FCV-HIC",
+    "por_que": "Puxa a agenda de inovação e robótica; útil como cópia institucional",
+    "fonte": "https://lanotaeconomica.com.co/movidas-empresarial/colombia-consolida-avances-en-cirugia-cardiovascular-pero-se-necesitan-mas-donantes"
+   }
+  ],
+  "brasileiros": {
+   "achados": [],
+   "resumo": "não encontrado"
+  },
+  "pontes_unifesp_sp": {
+   "achados": [],
+   "resumo": "não encontrado (só coautorias amplas no PURE / Frontiers Latin America, sem tema de transplante ou congênitas)"
+  },
+  "pesquisa_recente": [
+   {
+    "titulo": "Outcomes and Associated Extracardiac Malformations in Neonates from Colombia with Severe Congenital Heart Disease",
+    "ano": 2024,
+    "revista": "Pediatric Cardiology 45(1):55-62",
+    "pmid": "não encontrado (o registro BVS é mdl-37814158, provavelmente o PMID 37814158, não confirmado)",
+    "doi": "não encontrado",
+    "certeza": "confirmado (título e revista)"
+   },
+   {
+    "titulo": "Robotic Cardiac Surgery in Colombia: Overcoming the Challenges of a Middle-income Setting",
+    "ano": 2020,
+    "pmid": "33306326",
+    "url": "https://www.pubmed.gov/33306326/",
+    "certeza": "confirmado (PMID); afiliação à FCV não confirmada; fora da janela 2022–2026"
+   },
+   {
+    "titulo": "Trasplante cardiaco pediátrico, reporte de casos en la FCV y revisión de la literatura (tese da UIS)",
+    "ano": null,
+    "url": "https://noesis.uis.edu.co/items/8c9d952d-a483-4e74-a082-cc2a5f2bf12e/full",
+    "certeza": "confirmado (tese, sem data)"
+   }
+  ],
+  "dicas": [
+   "A FCV organiza um congresso anual de cardiologia e cirurgia cardiovascular; a edição de 29–30/07/2026 (40 anos da FCV) teve programa de congênitas e cirurgia cardíaca pediátrica, uma boa porta de contato (https://www.intramed.net/content/congreso-de-cardiologia-y-cirugia-cardiovascular-fcv)",
+   "A robótica cardíaca começou em 2026 e o programa é jovem: não espere volume de robótica cardíaca; o forte é transplante pediátrico e congênitas",
+   "Mesma língua latina e voo curto: o custo é menor; levar carta da Unifesp e seguro saúde (padrão colombiano)"
+  ],
+  "rota_recomendada": "1) E-mail em espanhol a Javier Castro (transplante pediátrico/IC), com cópia ao chefe de cirurgia cardiovascular, pedindo 4 semanas de rotação observacional e o trâmite com a área de educação (Fundación Universitaria-FCV). 2) Usar o congresso anual da FCV como contato. 3) Anexar carta da Unifesp e apólice de seguro."
+ }
+]
