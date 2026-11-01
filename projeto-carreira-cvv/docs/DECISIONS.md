@@ -8,3 +8,5 @@
 | 2026-11-01 | Sem servidor na fase 1 (JSON + navegador) | Poucas centenas de registros; menos custo e manutenção |
 | 2026-11-01 | Toda ficha com fonte + evidência + revisão humana | Dado de carreira errado prejudica o residente |
 | 2026-11-01 | Ciclo de 4 passos (pronto → executa → confere → registra) | Evitar "o agente disse pronto e não estava" |
+| 2026-11-01 | Bloom com UnrealBloomPass do próprio three.js (r147, UMD) em vez de pmndrs/postprocessing | Funciona via CDN sem build; troca futura é simples |
+| 2026-11-01 | Protótipo com 94 programas EXEMPLO em 72 cidades reais, sem nome de instituição | Aprovar o visual sem inventar dados de programas reais |

@@ -11,3 +11,8 @@
 - Responder de memória sem verificar → conferir fonte e dizer quando não conferiu
 - Misturar este produto com material de prova
 - Cair na rede bloqueada da nuvem sem avisar → usar o PC (Claude Code + Remote Control) para buscar dados
+
+## Protótipo do radar (01/11/2026)
+- Elemento escondido com transform (gaveta fora da tela) alargava a página no celular → `overflow:hidden` no palco
+- Continentes muito apagados na 1ª versão → brilho base subido
+- FPS não dá para medir aqui (navegador de teste sem GPU: 19 fps desktop / 11 celular); medir em aparelho real
