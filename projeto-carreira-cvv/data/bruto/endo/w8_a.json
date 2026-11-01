@@ -1,0 +1,361 @@
+[
+ {
+  "match": "CHU Sainte-Justine",
+  "cidade": "Montreal",
+  "pais": "Canadá",
+  "areas_polo": [
+   "cardio_pediatrica",
+   "fetal"
+  ],
+  "alerta_correcao": "A URL do radar é um release de out/2024 sobre o Dr. Jean-Claude-Fouron Pediatric Cardiology Fellowship Fund (US$ 2,5 mi CAD). É fellowship financiado para médicos de regiões carentes, não um observership curto. Não achei página pública de observership para médico estrangeiro.",
+  "programa": {
+   "nome": "Não há observership público para médicos estrangeiros. O que existe: (a) Direction de l'enseignement, que cuida dos estágios de formação; (b) o fundo Fouron para fellowships internacionais",
+   "url": "https://enseignement.chusj.org/getattachment/Etudiants-en-stage/Professionnels-de-la-sante/Exigences-minimales-Stages-de-formation-CHUSJ.pdf.aspx",
+   "url_extra": [
+    "https://newswire.ca/news-releases/philanthropy-powers-global-reach-of-chu-sainte-justine-and-universite-de-montreal-in-pediatric-cardiology-843191420.html",
+    "https://academica.ca/top-ten/umontreal-chu-sainte-justine-receive-2-5m-to-boost-pediatric-cardiology-education/",
+    "https://www.chusj.org/getmedia/511326a6-13ec-4972-b3d1-fa53001d78b3/pdf_relations-internationales_vision-internationale_FR.pdf"
+   ],
+   "trecho": "Exigências mínimas para estágios de formação: crachá o tempo todo, declaração de antecedentes criminais e assinatura dos compromissos antes do estágio; dúvidas pelo e-mail direction.enseignement.hsj@ssss.gouv.qc.ca. Fundo Fouron: 'will finance international fellowships, allowing doctors from underserved regions to receive advanced training at CHU Sainte-Justine'.",
+   "elegibilidade_residente_estrangeiro": "não encontrado. Para atuar no Québec pode ser preciso cumprir regras do Collège des médecins du Québec (a confirmar)",
+   "taxa": "não encontrado",
+   "duracao": "não encontrado",
+   "antecedencia": "não encontrado",
+   "documentos": "Declaração de antecedentes criminais, crachá, termos de compromisso/confidencialidade (regras gerais de estágio, que podem não valer para médico observador estrangeiro)",
+   "contato_oficial": "Direction de l'enseignement: direction.enseignement.hsj@ssss.gouv.qc.ca (endereço publicado no guia de estágios). Relações internacionais: Marie-Eve Desrosiers, ramal publicado no documento institucional",
+   "certeza": "confirmado (há guia de estágios e o fundo existe); não encontrado (observership estruturado para estrangeiro)"
+  },
+  "servico": {
+   "nome": "Service de cardiologie pédiatrique e Centre de cardiologie fœtale (o primeiro do Canadá, fundado por J.-C. Fouron)",
+   "chefe": "não encontrado (chefe atual de cardiologia pediátrica não confirmado)",
+   "diretor_fellowship": "não encontrado",
+   "volume": "Mais de 10.000 consultas de cardiologia pediátrica por ano e mais de 2.600 ecocardiogramas fetais por ano (página 'Areas of excellence', atualizada por volta de 2014, então os números podem estar defasados)",
+   "fonte": "https://www.chusj.org/en/About-us/Who-we-are-/Areas-of-excellence",
+   "certeza": "confirmado (volume, com ressalva de data); não encontrado (chefia)"
+  },
+  "pessoas_chave": [
+   {
+    "nome": "Joaquim Miró",
+    "cargo": "Full Professor, Dept. de Pediatria da UdeM, cardiologista pediátrico do CHUSJ",
+    "por_que": "Lidera a missão de alcance global que deu origem ao fundo Fouron: é a ponte natural para quem vem de fora",
+    "fonte": "https://newswire.ca/news-releases/philanthropy-powers-global-reach-of-chu-sainte-justine-and-universite-de-montreal-in-pediatric-cardiology-843191420.html",
+    "certeza": "confirmado"
+   },
+   {
+    "nome": "Nassiba Alami Laroussi",
+    "cargo": "Cardiologista pediátrica do CHUSJ",
+    "por_que": "Deu workshop de ecocardiografia fetal em Abidjan (AFRICARDIO, mai/2025) com a técnica Sylvie Gamache: tem perfil de ensino internacional em ecocardiografia fetal",
+    "fonte": "https://incotedivoire.net/expats-news/news/7th%20Edition%20of%20AFRICARDIO:%20Doctors%20from%20Canada%E2%80%99s%20Sainte-Justine%20Hospital%20Share%20Their%20Expertise%20with%20African%20Peers",
+    "certeza": "confirmado"
+   },
+   {
+    "nome": "Marie-Josée Raboisson",
+    "cargo": "Diretora do programa de transplante/IC e do laboratório de ecocardiografia (perfil sem data)",
+    "por_que": "Comanda o laboratório de eco, por onde passa um observer de imagem",
+    "fonte": "https://www.emedevents.com/speaker-profile/marie-josee-raboisson",
+    "certeza": "provável (perfil sem data)"
+   },
+   {
+    "nome": "Anne Fournier",
+    "cargo": "Cardiologista pediátrica do CHUSJ, coautora do livro 'Cardiologie pédiatrique et congénitale' (Elsevier)",
+    "por_que": "Liderança acadêmica histórica do serviço; francófona",
+    "fonte": "https://shop.elsevier.com/books/cardiologie-pediatrique-et-congenitale/bonnet/978-2-294-79142-0",
+    "certeza": "confirmado (afiliação no livro)"
+   },
+   {
+    "nome": "Marie-Eve Desrosiers",
+    "cargo": "Contato de Relações Internacionais do CHUSJ",
+    "por_que": "Porta administrativa para visitantes internacionais",
+    "fonte": "https://www.chusj.org/getmedia/511326a6-13ec-4972-b3d1-fa53001d78b3/pdf_relations-internationales_vision-internationale_FR.pdf",
+    "certeza": "provável (documento pode estar desatualizado)"
+   }
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {
+    "titulo": "não encontrado",
+    "nota": "As buscas não trouxeram artigos 2022–2026 do serviço com PMID/DOI. Sugestão: no PubMed, buscar 'Sainte-Justine[ad] AND fetal' e filtrar 2022–2026."
+   }
+  ],
+  "dicas": [
+   "O serviço é francófono: um e-mail em francês e o domínio do idioma contam muito.",
+   "O fundo Fouron mostra que a liderança investe em formar estrangeiros. Vale citá-lo no e-mail, deixando claro que o pedido é de observership curto e autofinanciado.",
+   "Sem programa formal, o caminho provável é um sponsor docente (por exemplo Miró) e depois a Direction de l'enseignement.",
+   "Ex-residentes do CHUSJ dirigem cardiologia fetal em Columbia (Stephanie Levasseur): sinal de escola forte em fetal."
+  ],
+  "rota_recomendada": "1) E-mail em francês ao Prof. Joaquim Miró (ou a quem chefia a cardiologia fetal), pedindo 4 semanas de observação em eco fetal e pediátrico, autofinanciadas e com carta da Unifesp. 2) Com o aceite, formalizar pela Direction de l'enseignement (direction.enseignement.hsj@ssss.gouv.qc.ca), confirmando as exigências para médico estrangeiro. Probabilidade incerta: não há programa público."
+ },
+ {
+  "match": "Evelina London Children's Hospital",
+  "cidade": "Londres",
+  "pais": "Reino Unido",
+  "areas_polo": [
+   "fetal",
+   "cardio_pediatrica"
+  ],
+  "alerta_correcao": "O programa oficial é o Visiting Professional Programmes (VPP) do Guy's and St Thomas' (GSTT), não do Evelina sozinho. O VPP de Cardiologia listado é de adulto/ACHD e não cita fetal. O snippet indica observership de no mínimo 12 semanas, mais longo que 1 mês: confirmar. Gianfranco Butera foi Lead Consultant da intervenção congênita no Evelina de 2018 a 2020 e hoje está no Bambino Gesù.",
+  "programa": {
+   "nome": "GSTT Visiting Professional Programmes (VPP): Clinical Observership / Practical Attachment / International Clinical Fellowship",
+   "url": "https://gstt.mixd.co.uk/vpp/",
+   "url_extra": [
+    "https://gstt.mixd.co.uk/vpp/programmes/cardiology",
+    "https://gstt.mixd.co.uk/?p=482",
+    "https://gstt.mixd.co.uk/vpp/programmes/"
+   ],
+   "trecho": "'Visitors have the choice of applying for a practical attachment or observership programme.' 'Those wishing to apply for a practical attachment must have GMC registration.' VPP de Cardiologia: 'intended for non-UK trainee clinicians, specialist registrars and consultants. Both observership and practical programmes are offered... three months up to 12 months.' Página geral (snippet): observerships de 12 semanas a 1 ano, sem exigência de GMC, £600/semana mais taxa administrativa de £1.500.",
+   "elegibilidade_residente_estrangeiro": "confirmado: aceita 'non-UK trainee clinicians'",
+   "taxa": "£600/semana mais £1.500 de taxa administrativa (provável: snippet de página VPP, pode estar desatualizado; em Anestesia a taxa é informada só por e-mail)",
+   "duracao": "De 12 semanas a 1 ano (observership); VPP de Cardiologia de 3 a 12 meses. Um mês provavelmente não cabe no formato padrão",
+   "antecedencia": "não encontrado",
+   "documentos": "Observership não exige GMC; os demais documentos não foram encontrados",
+   "contato_oficial": "Formulário/contato da equipe VPP no site gstt.mixd.co.uk/vpp (há rota para 'clinical areas not listed'). E-mail exato: não encontrado nos trechos",
+   "certeza": "confirmado (existência do VPP e elegibilidade); provável (taxa e duração)"
+  },
+  "servico": {
+   "nome": "Evelina London Fetal Cardiology Unit (St Thomas' Hospital) e Department of Congenital Heart Disease / Paediatric Cardiology",
+   "chefe": "Fetal: John Simpson lidera a unidade (site pessoal); Trisha Vigneswaran aparece como clinical lead da fetal cardiology/rede fetal do Evelina. Head of Service de Paediatric & Fetal Cardiology: nome atual não encontrado",
+   "diretor_fellowship": "não encontrado (existe fetal cardiology fellowship, com ex-fellows em 2007 e 2015)",
+   "volume": "Maior unidade de cardiologia fetal do Reino Unido e uma das maiores da Europa; 6 consultores de fetal cardiology (anúncio de vaga GSTT). Série publicada com 7.945 fetos normais (Circ Cardiovasc Imaging, 2018)",
+   "fonte": "https://sites.google.com/view/fetal-cardiology-uk/home",
+   "certeza": "confirmado (porte); provável (títulos de chefia, fontes divergem)"
+  },
+  "pessoas_chave": [
+   {
+    "nome": "John Simpson",
+    "cargo": "Professor, lidera a Fetal Cardiology Unit; editor do livro 'Fetal Cardiology' (2025)",
+    "por_que": "Decide e hospeda na unidade fetal",
+    "fonte": "https://sites.google.com/view/fetal-cardiology-uk/home",
+    "certeza": "provável (site pessoal)"
+   },
+   {
+    "nome": "Trisha Vigneswaran",
+    "cargo": "Clinical lead, Evelina London fetal cardiology network",
+    "por_que": "Lidera pesquisa em hiperoxigenação materna aguda; tema ótimo para o e-mail",
+    "fonte": "https://www.evelinalondon.nhs.uk/our-services/hospital/consultants/vigneswaran-trisha.aspx",
+    "certeza": "confirmado"
+   },
+   {
+    "nome": "Vita Zidere",
+    "cargo": "Consultant in paediatric and fetal cardiology",
+    "por_que": "Coeditora do livro e coautora dos valores de referência fetais",
+    "fonte": "https://evelinalondon.nhs.uk/our-services/hospital/consultants/zidere-vita.aspx",
+    "certeza": "confirmado"
+   },
+   {
+    "nome": "Owen Miller",
+    "cargo": "Clinical director da rede CHD GSTT-ELCH e 'director of international services' (página Evelina); ex-Head of Paediatric Cardiology (2012–2016)",
+    "por_que": "Cuida de serviços internacionais: possível ponte para um visitante estrangeiro",
+    "fonte": "https://www.evelinalondon.nhs.uk/our-services/hospital/consultants/miller-owen.aspx",
+    "certeza": "provável (fontes divergem nas datas)"
+   }
+  ],
+  "brasileiros": "não encontrado no Evelina. Observação: Julene Carvalho (formada no Brasil, início da cardiologia em São Paulo, PhD em Londres) atua no Royal Brompton, outra instituição. Pode servir de ponte indireta em Londres: https://www.rbht.nhs.uk/node/6038",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {
+    "titulo": "Fetal Heart Society protocol for acute maternal hyperoxygenation testing (consenso)",
+    "ano": 2024,
+    "ref": "Ultrasound Obstet Gynecol 2024;64(5):567-573 (Vigneswaran coautora)",
+    "pmid_doi": "não encontrado nos trechos",
+    "certeza": "confirmado (citação)"
+   },
+   {
+    "titulo": "Resposta à hiperoxigenação materna aguda em fetos com transposição das grandes artérias (estudo piloto)",
+    "ano": 2025,
+    "pmid_doi": "DOI 10.1016/j.echo.2024.12.011",
+    "certeza": "confirmado (DOI veio no resultado; título exato a conferir)"
+   },
+   {
+    "titulo": "Fetal Cardiology (livro; eds. Simpson, Zidere, Miller, Vigneswaran)",
+    "ano": 2025,
+    "pmid_doi": "ISBN 9783031723179",
+    "certeza": "confirmado"
+   }
+  ],
+  "dicas": [
+   "A unidade organiza cursos abertos: Evelina Foundation Course in Fetal Cardiology (2024: £200, reserva pela Canon Medical) e curso virtual. Fazer o curso é uma porta de entrada e gera contato com a equipe.",
+   "No VPP, observership não exige GMC, mas é pago e tem mínimo provável de 12 semanas. Para 1 mês, pedir exceção ou combinar 'clinical area not listed' (fetal).",
+   "No e-mail, citar a hiperoxigenação materna (Vigneswaran) e o livro de 2025."
+  ],
+  "rota_recomendada": "1) Inscrever-se no próximo Evelina Foundation/Advanced Course in Fetal Cardiology para fazer contato. 2) Escrever ao Prof. John Simpson / Dra. Trisha Vigneswaran pedindo observação curta em cardiologia fetal. 3) Formalizar pelo GSTT VPP (Clinical Observership, sem GMC), perguntando se aceitam 4 semanas e qual é a taxa atual."
+ },
+ {
+  "match": "Ospedale Pediatrico Bambino Gesù",
+  "cidade": "Roma",
+  "pais": "Itália",
+  "areas_polo": [
+   "hemodinamica_pediatrica",
+   "cardio_pediatrica"
+  ],
+  "alerta_correcao": "A URL do radar é o comunicato stampa de 17/03/2023 sobre a nova sala de hemodinâmica no Gianicolo (Padiglione Spellman). Não é página de programa. Não foi encontrado regulamento público de 'frequenza volontaria' para médicos estrangeiros.",
+  "programa": {
+   "nome": "Não encontrado programa público de observership/frequenza volontaria para estrangeiros. Há relatos de clinical fellowships de visitantes (ex.: EPNS 2020)",
+   "url": "https://img.ospedalebambinogesu.it/images/2023/03/17/095958076-a4162edf-b79d-4565-a59e-bbf083f7d48c.pdf",
+   "url_extra": [
+    "https://www.epns.info/2021/09/07/"
+   ],
+   "trecho": "Nos hospitais italianos em geral, o 'frequentatore volontario' precisa combinar antes com o responsável da unidade e ter o aval do chefe, contratar seguro próprio, e há limite de frequentadores por unidade. Regra do Bambino Gesù em si: não encontrada.",
+   "elegibilidade_residente_estrangeiro": "não encontrado",
+   "taxa": "não encontrado",
+   "duracao": "não encontrado",
+   "antecedencia": "não encontrado",
+   "documentos": "provável (padrão italiano): seguro próprio de responsabilidade civil e acidentes, aval do responsável da UO, CV. Não confirmado para o OPBG",
+   "contato_oficial": "não encontrado",
+   "certeza": "não encontrado (programa); provável (padrão italiano)"
+  },
+  "servico": {
+   "nome": "UOC/Unità di Cardiologia Interventistica (Emodinamica), dentro do Dipartimento Cardiochirurgia, Cardiologia e Trapianto Cuore-Polmone",
+   "chefe": "Gianfranco Butera, responsável pela Cardiologia Interventistica (2023, 2025). Departamento: Lorenzo Galletti (diretório sem data). Cardiologia e Aritmologia: Fabrizio Drago (diretório sem data)",
+   "diretor_fellowship": "não encontrado",
+   "volume": "Cerca de 500 procedimentos/ano em cardiopatias congênitas, do neonato ao adulto (comunicato de 17/03/2023)",
+   "fonte": "https://img.ospedalebambinogesu.it/images/2023/03/17/095958076-a4162edf-b79d-4565-a59e-bbf083f7d48c.pdf",
+   "certeza": "confirmado (Butera e volume, 2023/2025); provável (Galletti e Drago)"
+  },
+  "pessoas_chave": [
+   {
+    "nome": "Gianfranco Butera",
+    "cargo": "Chief, Interventional Congenital Cardiology, OPBG; Senior Lecturer King's College London; ex-Lead Consultant Evelina (2018–2020)",
+    "por_que": "Decide e hospeda na hemodinâmica. Fez fellowship no Necker (Paris), é coeditor do 'Atlas of Cardiac Catheterization for CHD', que tem capítulo dos Pedra (Dante Pazzanese/HCor)",
+    "fonte": "https://scai.confex.com/scai/2021/webprogramarchives/Person5950.html",
+    "certeza": "confirmado"
+   },
+   {
+    "nome": "Lorenzo Galletti",
+    "cargo": "Chefe do Dipartimento Cardiochirurgia, Cardiologia e Trapianto (diretório)",
+    "por_que": "Chefia o departamento e pode assinar a autorização",
+    "fonte": "https://www.qsalute.it/cardiochirurgia-bambino-gesù/",
+    "certeza": "provável (sem data)"
+   },
+   {
+    "nome": "Fabrizio Drago",
+    "cargo": "Direttore Responsabile, Cardiologia e Aritmologia (diretório)",
+    "por_que": "Chefia a cardiologia pediátrica clínica",
+    "fonte": "https://www.qsalute.it/cardiologia-bambino-gesù/",
+    "certeza": "provável (sem data)"
+   },
+   {
+    "nome": "Gabriele Rinelli",
+    "cargo": "Responsável Ecocardiografia (diretório)",
+    "por_que": "Imagem e ecocardiografia",
+    "fonte": "https://www.qsalute.it/cardiologia-bambino-gesù/",
+    "certeza": "provável (sem data)"
+   }
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "Indireta: Carlos A. C. Pedra e Simone F. Pedra (Dante Pazzanese/HCor, São Paulo) contribuem com capítulo do 'Atlas of Cardiac Catheterization for Congenital Heart Disease' (Springer), coeditado por Butera. Fonte: https://www.springer.com/gp/book/9783319724423 (provável, listagem truncada). Uma carta de apresentação de C. Pedra seria uma ponte forte. Coautoria com Unifesp: não encontrada.",
+  "pesquisa_recente": [
+   {
+    "titulo": "Registro multicêntrico italiano da válvula pulmonar autoexpansível Venus P (61/65 implantes com sucesso)",
+    "ano": "2025 (provável)",
+    "revista": "International Journal of Cardiology Congenital Heart Disease",
+    "pmid_doi": "não encontrado nos trechos",
+    "certeza": "provável"
+   },
+   {
+    "titulo": "Procedimento inovador em paciente univentricular de 32 anos (notícia, não artigo)",
+    "ano": 2025,
+    "fonte": "https://primapaginanews.it/articoli/pdf?id=545091",
+    "certeza": "confirmado (notícia)"
+   },
+   {
+    "titulo": "Artigo Frontiers sobre atrial flow regulator com Butera",
+    "ano": 2023,
+    "pmid_doi": "DOI 10.3389/fcvm.2023.1332395",
+    "certeza": "provável (o DOI veio no resultado, mas título e tema não estão confirmados)"
+   }
+  ],
+  "dicas": [
+   "Sem programa formal: o aceite depende do responsável da UO (Butera). Depois vem a burocracia de frequentador, com seguro próprio.",
+   "Ajuda falar italiano ou inglês fluente; citar a válvula Venus P e a nova sala 3D do Gianicolo.",
+   "A ponte Pedra/Dante Pazzanese via Atlas de cateterismo é o melhor argumento brasileiro."
+  ],
+  "rota_recomendada": "1) Obter apresentação de C. A. C. Pedra (Dante Pazzanese), coautor do Atlas editado por Butera. 2) E-mail ao Dr. Gianfranco Butera pedindo 4 semanas de observação em hemodinâmica congênita, citando os registros de Venus P/Melody. 3) Com o aceite, cumprir o trâmite de frequentatore (seguro próprio, aval do chefe) indicado pelo hospital."
+ },
+ {
+  "match": "Amrita Institute of Medical Sciences",
+  "cidade": "Kochi",
+  "pais": "Índia",
+  "areas_polo": [
+   "cardio_pediatrica",
+   "fetal"
+  ],
+  "alerta_correcao": "A URL do radar é o Children's HeartLink Fellowship: 2 anos, para LMICs, dividido com o IJN da Malásia. Não é o canal para um mês. O canal certo é o Observership do Amrita Center for International Programs.",
+  "programa": {
+   "nome": "Amrita School of Medicine: International Observership (ACIP Kochi). Também: Fellowship in Fetal Cardiology, Fellowship in Pediatric Cardiology, Children's HeartLink Fellowship",
+   "url": "https://www.amrita.edu/international/student-opportunities/observership/",
+   "url_extra": [
+    "https://amrita.edu/program/fellowship-in-fetal-cardiology",
+    "https://amrita.edu/program/fellowships-in-pediatric-cardiac-sciences/",
+    "https://childrensheartlink.org/childrens-heartlink-fellowship-pediatric-cardiac-sciences"
+   ],
+   "trecho": "'To submit application for observership, please use the following email address: acipkochi@aims.amrita.edu, with a copy to international@amrita.edu'. Documentos: 'Copy of passport • Statement of Purpose • Copies of relevant certificates'. O programa de cardiologia pediátrica já treina fellows de fora (Sri Lanka, Bangladesh, Vietnã, Uganda, Alemanha, Reino Unido).",
+   "elegibilidade_residente_estrangeiro": "provável sim: a página é dirigida a 'foreign applicants'",
+   "taxa": "não encontrado",
+   "duracao": "não encontrado",
+   "antecedencia": "não encontrado",
+   "documentos": "Cópia do passaporte, Statement of Purpose, cópias dos certificados relevantes (confirmado). Visto (provável: visto indiano adequado) não detalhado",
+   "contato_oficial": "acipkochi@aims.amrita.edu com cópia para international@amrita.edu (observership). Cardiologia fetal: fetalcardiology@aims.amrita.edu. Cardiologia pediátrica: paediatriccardiology@aims.amrita.edu (e-mails institucionais publicados nas páginas dos programas)",
+   "certeza": "confirmado"
+  },
+  "servico": {
+   "nome": "Department of Pediatric Cardiology e Fetal Cardiology Division (Amrita Hospital, Kochi)",
+   "chefe": "Pediatric Cardiology: Dr. R. Krishna Kumar (Clinical Professor & Head, lidera o programa desde 1998). Fetal: Dr. Balu Vaidyanathan (Clinical Professor & Head of Fetal Cardiology, fundou a divisão em 2008)",
+   "diretor_fellowship": "provável: Balu Vaidyanathan (fetal) e R. Krishna Kumar (pediátrica). Não explícito",
+   "volume": "214.225 ecocardiogramas acumulados no departamento desde a fundação (Children's HeartLink, dez/2025); mais de 10.000 ecocardiogramas fetais acumulados (site de terceiros); eco fetal seis dias por semana. Volume anual não encontrado",
+   "fonte": "https://www.amritahospitals.org/kochi/department/cardiac-sciences/fetal-cardiology-division",
+   "certeza": "confirmado (chefias); provável (volumes, cumulativos)"
+  },
+  "pessoas_chave": [
+   {
+    "nome": "R. Krishna Kumar",
+    "cargo": "Clinical Professor & Head, Pediatric Cardiology; T. Duckett Jones Memorial Lecturer AHA 2025",
+    "por_que": "Decide no departamento; líder global em cardiologia pediátrica em LMIC",
+    "fonte": "https://www.amritahospitals.org/kochi/doctor/r-krishna-kumar",
+    "certeza": "confirmado"
+   },
+   {
+    "nome": "Balu Vaidyanathan",
+    "cargo": "Clinical Professor & Head of Fetal Cardiology",
+    "por_que": "Hospeda o observership fetal e criou o banco de dados fetal desde 2008",
+    "fonte": "https://www.amritahospitals.org/kochi/doctor/balu-vaidyanathan",
+    "certeza": "confirmado"
+   },
+   {
+    "nome": "Renjith S. Bhadran",
+    "cargo": "Contato em cópia nas candidaturas de observership (ACIP)",
+    "por_que": "Escritório internacional",
+    "fonte": "https://www.amrita.edu/international/student-opportunities/observership/",
+    "certeza": "provável (e-mail citado em snippet; cargo não confirmado)"
+   }
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "Bruno Ramos Nascimento (UFMG, Belo Horizonte) é coautor, com R. Krishna Kumar (Amrita), da revisão 'The Echocardiographic Diagnosis of Rheumatic Heart Disease: A Review of the Performance of the World Heart Federation Criteria 2012–2023' (DOAJ: https://doaj.org/article/82abe64a539244108bc56c300715c738). É ponte brasileira via ecocardiografia/RHD, mas não com Unifesp. Com Unifesp, InCor ou Dante: não encontrado.",
+  "pesquisa_recente": [
+   {
+    "titulo": "Estudo de ecocardiografia fetal com registros eletrônicos de saúde em Kerala (preprint)",
+    "ano": 2024,
+    "pmid_doi": "DOI 10.1101/2024.09.11.24313355 (medRxiv)",
+    "certeza": "confirmado (DOI no resultado; título exato a conferir)"
+   },
+   {
+    "titulo": "The Echocardiographic Diagnosis of Rheumatic Heart Disease: A Review of the Performance of the World Heart Federation Criteria 2012–2023",
+    "ano": "2024 (provável)",
+    "pmid_doi": "não encontrado nos trechos",
+    "certeza": "confirmado (título); provável (ano)"
+   },
+   {
+    "titulo": "Refining Risk Stratification Among Children With Latent Rheumatic Heart Disease",
+    "ano": "2023 (provável)",
+    "pmid_doi": "PMID 37307310",
+    "certeza": "provável (o resultado veio na busca por Kumar; autoria do Amrita não confirmada no trecho)"
+   }
+  ],
+  "dicas": [
+   "A candidatura de observership é por e-mail, com 3 documentos simples. Barreira baixa, ótima opção 'garantida'.",
+   "O Statement of Purpose deve focar em ecocardiografia fetal em ambiente de alto volume e cuidado periparto planejado (linha de pesquisa de Vaidyanathan sobre diagnóstico pré-natal em cenário de poucos recursos).",
+   "Children's HeartLink publicou guia de avaliação do coração fetal (childrensheartlink.org/new-guide-helps-clinicians-with-fetal-heart-evaluation), bom para citar."
+  ],
+  "rota_recomendada": "1) Enviar candidatura de observership para acipkochi@aims.amrita.edu, com cópia para international@amrita.edu e fetalcardiology@aims.amrita.edu: passaporte, Statement of Purpose sobre cardiologia fetal e certificados, mais a carta da Unifesp. 2) Em paralelo, e-mail curto ao Dr. Balu Vaidyanathan citando o banco de dados fetal desde 2008 / o preprint de 2024. 3) Confirmar taxa, duração e visto com o ACIP."
+ }
+]

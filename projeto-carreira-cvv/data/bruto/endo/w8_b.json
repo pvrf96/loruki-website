@@ -1,0 +1,131 @@
+[
+ {
+  "match": "Hospital Garrahan",
+  "centro": "Hospital de Pediatría Prof. Dr. Juan P. Garrahan (Buenos Aires, Argentina) – público nacional, Parque Patricios",
+  "areas": ["cardio_pediatrica", "hemodinamica_pediatrica"],
+  "programa": {
+   "status": "não encontrada página oficial de rotação externa/observership em cardiologia para estrangeiros",
+   "evidencia": [
+    {"url": "https://cdn.www.gob.pe/uploads/document/file/4659588/R.D.%20N%C2%B0%20066-2023-DG_removed%20%281%29.pdf", "trecho": "Resolução peruana autoriza residente R3 a fazer 'rotación externa Internacional en Emergencia Pediátrica, del Hospital de Pediatría GARRAHAN' (2023) — prova que o hospital recebe rotantes estrangeiros, mas em outra área"},
+    {"url": "https://docencia.garrahan.gov.ar/residencia/programa-abreviado-de-pediatria.pdf/download", "trecho": "Residência aberta a 'egresados de Universidades Nacionales o Extranjeras'; 'las rotaciones están sujetas a los cambios que la Dirección definir'"},
+    {"url": "https://www.swissmedical.com.ar/clinewsite/images/cardiologia_intervencionista/pdf/nuestros_profesionales/dr_francisco_comas.pdf", "trecho": "'Beca de Programas especiales en Cardiología Intervencionista Pediátrica en Servicio de Hemodinamia del Hospital de Pediatría JP Garrahan' — existe programa formativo em hemodinâmica pediátrica"}
+   ],
+   "contato_oficial": "Dirección/Departamento de Docencia e Investigación — portal docencia.garrahan.gov.ar (e-mail específico não encontrado)",
+   "taxa_documentos": "não encontrado",
+   "certeza": "provável (rotação internacional existe por precedente; regras para cardiologia não publicadas)"
+  },
+  "servico": {
+   "nomes": ["Servicio de Cardiología", "Servicio de Hemodinamia (cateterismo pediátrico)", "Cirugía Cardiovascular / Trasplante cardíaco pediátrico"],
+   "chefe_cardiologia": {"nome": "Gladys Salgado", "cargo": "jefa de Cardiología del Hospital Garrahan", "url": "https://www.lavozdesanjusto.com.ar/el-95-de-las-ninas-y-ninos-con-malformaciones-cardiacas-puede-mejorar-su-pronostico-132076", "certeza": "provável (nota de imprensa sem data visível; publicação anterior do hospital citava Horacio Capelli como jefe — https://www.garrahan.edu.ar/pluginfile.php/32246/mod_page/content/6/el%20ni%C3%B1o%20con%20cardiopat%C3%ADas%20cong%C3%A9nitas.pdf)"},
+   "chefe_hemodinamia": "não confirmado (Horacio Faella foi jefe de Hemodinamia desde 1987; CV indica término ~2011 — https://www.swissmedical.com.ar/clinewsite/images/cardiologia_intervencionista/pdf/nuestros_profesionales/dr_horacio_faella.pdf)",
+   "volume": [
+    {"dado": "100 transplantes cardíacos pediátricos; 52% dos transplantes cardíacos pediátricos da Argentina", "ano": 2024, "url": "https://misionesonline.net/2024/05/22/el-hospital-garrahan-alcanzo-los-100-trasplantes-de-corazon/"},
+    {"dado": "2.361 crianças operadas de cardiopatia congênita desde 2010; referência nacional", "ano": 2015, "url": "https://www.conclusion.com.ar/internet/premian-medicos-cardiologos-del-garrahan/02/2015/"}
+   ],
+   "contexto": "Crise de pessoal em 2025 (relato de 245 renúncias) e novo diretor médico Mariano Pirozzo — pode afetar capacidade de receber visitantes. Fontes: https://www.lavozdesanjusto.com.ar/el-garrahan-en-riesgo-la-fuga-de-profesionales-puede-desmantelar-el-hospital-advierte-un-medico ; https://www.cronista.com/economia-politica/un-nuevo-director-medico-asumio-en-el-garrahan-y-ate-desafia-la-decision-con-un-paro-quien-es"
+  },
+  "pessoas_chave": [
+   {"nome": "Gladys Salgado", "cargo": "Jefa de Cardiología (provável atual)", "porque": "decide aceitação no serviço de cardiologia", "url": "https://www.lavozdesanjusto.com.ar/el-95-de-las-ninas-y-ninos-con-malformaciones-cardiacas-puede-mejorar-su-pronostico-132076"},
+   {"nome": "Francisco Comas", "cargo": "Cardiologista intervencionista pediátrico do Servicio de Hemodinamia", "porque": "hemodinâmica pediátrica; ex-bolsista do programa", "url": "https://www.swissmedical.com.ar/clinewsite/images/cardiologia_intervencionista/pdf/nuestros_profesionales/dr_francisco_comas.pdf"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado (sem coautoria Garrahan–Unifesp/InCor/Dante localizada)",
+  "pesquisa_recente": [
+   {"titulo": "Telecardiologia em cardiopatias congênitas durante a pandemia COVID-19 (Garrahan, abr/2020–abr/2021)", "ano": 2023, "revista": "Archivos de Cardiología de México 93(Supl 6)", "id": "provável PMID 37931895 (do identificador MEDLINE no catálogo)", "url": "https://katalog.lib.cas.cz/KNAV/EdsRecord/cmedm,37931895"},
+   {"titulo": "Níveis de referência diagnóstica locais em cardiologia intervencionista pediátrica na Argentina", "ano": 2023, "revista": "Children (Basel) 10(12)", "id": "mdl-38136079 (provável PMID 38136079); vínculo com Garrahan não confirmado", "url": "https://pesquisa.bvsalud.org/bvsms/resource/pt/mdl-38136079"},
+   {"titulo": "Estudo de 316 lactentes com cardiopatia crítica operados/intervindos por cateterismo antes de 1 ano (fora de 2022–26)", "ano": 2019, "id": "não encontrado", "url": "https://search.bvsalud.org/gim/resource/en/biblio-1016395"}
+  ],
+  "dicas": "Hispanófono e próximo: rotação externa via Docencia com carta da COREME/Unifesp. Garrahan foi o primeiro hospital argentino escolhido por Harvard para cursos de pesquisa clínica (https://www.lavozdesanjusto.com.ar/el-garrahan-primer-hospital-del-pais-elegido-por-harvard-para-dictar-cursos-de-investigacion-clinica-70136). Escrever em espanhol.",
+  "rota_recomendada": "1) E-mail em espanhol à Dirección de Docencia e Investigación (via docencia.garrahan.gov.ar) pedindo rotação externa de 4 semanas em Cardiología/Hemodinamia, anexando carta da Unifesp e citando o precedente de rotação internacional. 2) Em paralelo, contato com a jefatura de Cardiología (Dra. Gladys Salgado) mencionando transplante/telecardiologia. 3) Considerar a crise de pessoal 2025 ao propor datas.",
+  "alerta_correcao": "URL do radar é nota de imprensa (La Voz de San Justo), não página do hospital."
+ },
+ {
+  "match": "NewHeart Watanabe Institute",
+  "centro": "NewHeart Watanabe International Hospital (ニューハート・ワタナベ国際病院), Suginami, Tóquio",
+  "areas": ["robotica"],
+  "programa": {
+   "status": "não encontrado programa de observership/visita para médicos estrangeiros",
+   "evidencia": [{"url": "https://anesth.or.jp/img/upload/program/pdf/65f13c503f0f9dc80ab131f70248e23a.pdf", "trecho": "Hospital é '連携施設' de programa de anestesiologia do St. Luke's — só parcerias de treinamento domésticas"}],
+   "contato_oficial": "não encontrado para educação; endereço Tokyo Suginami Hamadayama 3-19-11, tel. geral 03-3311-1119 (https://doctorsfile.jp/h/41146/)",
+   "certeza": "provável ausência"
+  },
+  "servico": {
+   "nomes": ["Cirurgia cardíaca robótica 'keyhole' (4 portas, totalmente endoscópica, da Vinci)"],
+   "chefe": {"nome": "Go Watanabe (渡邊剛)", "cargo": "President/総長 (desde 2014)", "url": "https://medicalnote.jp/doctors/150821-000003-EAQDZC/biography", "certeza": "confirmado"},
+   "volume": [{"dado": ">1.200 cirurgias cardíacas robóticas; 195 em 2021 (180 para insuficiência mitral); programa robótico iniciado em 2014", "ano": 2022, "url": "https://www.annalscts.com/article/view/16955/html", "certeza": "confirmado"}],
+   "nota": "Nome atual: NewHeart Watanabe International Hospital (notícia de 2026 de troca de aorta ascendente por minitoracotomia) — https://aeo.washinmura.jp/ai/%E5%8C%BB%E7%99%82%E6%B3%95%E4%BA%BA%E7%A4%BE%E5%9B%A3%E6%9D%B1%E4%BA%AC%E5%8C%BB%E5%BF%83%E4%BC%9A%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%8F%E3%83%BC%E3%83%88-%E3%83%AF%E3%82%BF%E3%83%8A%E3%83%99%E5%9B%BD%E9%9A%9B%E7%97%85%E9%99%A2/en/news/2026-05-13-successful-ascending-aortic-replacement-2"
+  },
+  "pessoas_chave": [
+   {"nome": "Go Watanabe", "cargo": "President", "porque": "fundador, decide; pioneiro da robótica cardíaca no Japão", "url": "https://ctsnet.org/home/tgwatana"},
+   {"nome": "Norihiko Ishikawa", "cargo": "cirurgião cardíaco, coautor principal das séries robóticas", "porque": "lidera publicação da série robótica mitral", "url": "https://www.annalscts.com/article/view/16955/html"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {"titulo": "Robotic mitral valve repair in Japan and keyhole cardiac surgery in NewHeart Watanabe Institute (Ishikawa N, Watanabe G)", "ano": 2022, "revista": "Ann Cardiothorac Surg 11(5)", "id": "PMC9551375", "url": "https://www.annalscts.com/article/view/16955/html"},
+   {"titulo": "Successful launch of robot-assisted mitral valve repair in Japan under universal health coverage", "ano": 2024, "revista": "J Thorac Cardiovasc Surg", "id": "PMID 38802045", "url": "https://pesquisa.bvsalud.org/portal/resource/e/mdl-38802045"},
+   {"titulo": "Série de reparo mitral robótico totalmente endoscópico (Circ J)", "ano": 2019, "id": "não encontrado (fora de 2022–26)", "url": "https://www.jstage.jst.go.jp/article/circj/83/8/83_CJ-19-0284/_html/-char/ja"}
+  ],
+  "dicas": "Lista oficial de publicações do hospital: https://newheart.jp/introduction/publishing.php (útil para citar). Hospital privado sem estrutura pública de visitante: e-mail deve ser pessoal ao Dr. Watanabe, em inglês, citando PMID 38802045.",
+  "rota_recomendada": "1) Carta em inglês ao Dr. Go Watanabe (via contato geral do hospital/CTSNet) pedindo observação de 2–4 semanas da cirurgia keyhole, citando o artigo JTCVS 2024. 2) Se houver mentor da Unifesp com contato no Japão, pedir apresentação. Baixa probabilidade sem ponte pessoal.",
+  "alerta_correcao": "Nome atual é 'NewHeart Watanabe International Hospital'."
+ },
+ {
+  "match": "Sakakibara Heart Institute of Okayama",
+  "centro": "Sakakibara Heart Institute of Okayama (心臓病センター榊原病院, Okayama) — NÃO confundir com Sakakibara Heart Institute (Fuchu, Tóquio)",
+  "areas": ["robotica"],
+  "programa": {"status": "não encontrado", "certeza": "—"},
+  "servico": {
+   "nomes": ["Cirurgia cardiovascular — cirurgia mitral minimamente invasiva (MICS) por minitoracotomia direita"],
+   "chefe": "não encontrado",
+   "volume": [{"dado": "476 pacientes MIMVS por minitoracotomia direita, mar/2006–out/2017", "ano": 2018, "url": "https://www.jstage.jst.go.jp/article/circj/82/6/82_CJ-17-1319/_html/-char/en", "certeza": "confirmado"}],
+   "robotica": "não encontrada evidência de programa robótico (da Vinci) no Okayama; buscas em inglês e japonês sem resultado"
+  },
+  "pessoas_chave": [
+   {"nome": "Arudo Hiraoka", "cargo": "cirurgião cardiotorácico (perfil CTSNet, endereço Okayama)", "porque": "interesse em MICS e cirurgia mitral", "url": "https://www.ctsnet.org/home/ahiraoka", "certeza": "provável (cargo atual não confirmado)"},
+   {"nome": "Taichi Sakaguchi", "cargo": "esteve no Sakakibara Okayama desde 2012; perfil atual lista Hyogo College of Medicine", "porque": "interesse 'Minimally invasive / Robotic surgery' — provavelmente já saiu", "url": "https://www.ctsnet.org/home/tsakaguchi"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": "não encontrado artigo 2022–2026 do serviço em robótica",
+  "dicas": "Centro forte em MICS, não comprovadamente robótico.",
+  "rota_recomendada": "Baixa prioridade para robótica. Se o interesse for MICS mitral, contato com a cirurgia cardiovascular via site oficial; para robótica preferir NewHeart Watanabe.",
+  "alerta_correcao": "Radar classificou como 'robotica' com base em artigo Circ J 2018 sobre MICS por minitoracotomia (não robótica). Possível confusão com o Sakakibara Heart Institute de Fuchu (Tóquio), instituição distinta."
+ },
+ {
+  "match": "Seoul National University Bundang Hospital",
+  "centro": "Seoul National University Bundang Hospital (SNUBH), Seongnam, Coreia do Sul",
+  "areas": ["robotica"],
+  "programa": {
+   "status": "programa institucional de treinamento para estrangeiros existe, com categoria 'Observation'",
+   "evidencia": [
+    {"url": "https://global.snubh.org/vs/global.do", "trecho": "tabela de programas com categoria 'Observation' separada de 'Advanced'; 'Institutions or Individual may apply for the program by e-mail'"},
+    {"url": "https://global.snubh.org/vs/sponsored.do", "trecho": "Sponsored Education Program: International Fellowship Program para 'Medical Doctors from abroad holding medical license or diploma'; rotas GIMA e Korea Medical Training Program"}
+   ],
+   "contato_oficial": "edu@snubh.org (fax +82-31-787-4044) — publicado na página de programas",
+   "taxa_duracao_documentos": "não encontrado",
+   "certeza": "confirmado (existência e e-mail); detalhes não obtidos"
+  },
+  "servico": {
+   "nomes": ["Department of Thoracic and Cardiovascular Surgery — cirurgia cardíaca robótica (da Vinci desde 2010)"],
+   "chefe": "não encontrado",
+   "volume": [
+    {"dado": "50 cirurgias cardíacas robóticas consecutivas fev/2010–mar/2014 sem mortalidade hospitalar", "ano": 2015, "url": "https://www.koreascience.or.kr/article/JAKO201531360573154.pdf"},
+    {"dado": "45 correções robóticas totais de CIA fev/2010–fev/2019", "ano": "~2021", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8024858"}
+   ]
+  },
+  "pessoas_chave": [
+   {"nome": "Cheong Lim, MD, PhD", "cargo": "cirurgião cardiotorácico, SNUBH; interesse em cirurgia cardíaca robô-assistida", "porque": "líder/coautor das séries robóticas", "url": "https://www.ctsnet.org/home/cheolim"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {"titulo": "Robot-assisted ASD repair: beating-heart vs non-beating-heart (Yun, Lim et al.)", "ano": 2022, "revista": "Journal of Chest Surgery (fev/2022)", "id": "não encontrado", "url": "https://doaj.org/article/5e3e9630d0514e798e030ed2c1523cd2"},
+   {"titulo": "Totally robotic ASD repair — 45 pacientes (SNUBH)", "ano": "provável 2021", "id": "PMC8024858", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8024858"},
+   {"titulo": "Robot-Assisted Cardiac Surgery Using the Da Vinci Surgical System: A Single Center Experience (Kim ER, Lim C et al.)", "ano": 2015, "id": "PMC4398164 (provável)", "url": "https://www.koreascience.or.kr/article/JAKO201531360573154.pdf"}
+  ],
+  "dicas": "Coreia recebe muitos visitantes: estudo de visiting scholars em cirurgia (8 hospitais incl. SNUBH) contou 1.496 visitantes de 80 países 2014–2018, maioria <3 meses (https://rcastoragev2.blob.core.windows.net/c5505191f5ebe36e45f0d90e876bb240/PMC7520232.pdf). Programa robótico cardíaco é pequeno (foco em CIA/mitral/mixoma).",
+  "rota_recomendada": "1) E-mail a edu@snubh.org pedindo programa 'Observation' de 4 semanas em Thoracic & Cardiovascular Surgery (robótica), com CV e carta da Unifesp. 2) Em paralelo, e-mail ao Dr. Cheong Lim citando o artigo de CIA robótica. Volume robótico cardíaco modesto — avaliar frente a centros maiores.",
+  "alerta_correcao": "URL do radar (sports.khan.co.kr, nov/2025) não pôde ser corroborada; nenhuma notícia de marco robótico cardíaco SNUBH em 2025 encontrada."
+ }
+]

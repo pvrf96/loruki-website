@@ -1,0 +1,864 @@
+{
+ "atualizado": "2026-11-01",
+ "polos": [
+  {
+   "match": "CHU Sainte-Justine",
+   "alerta": "A URL do radar é release de out/2024 do fundo Fouron (fellowships para médicos de regiões carentes), não um observership curto; não há observership público para estrangeiro.",
+   "rota": [
+    "E-mail em francês ao Prof. Joaquim Miró pedindo 4 semanas de observação em eco fetal e pediátrico, autofinanciadas, com carta da Unifesp",
+    "Com o aceite, formalizar pela Direction de l'enseignement (direction.enseignement.hsj@ssss.gouv.qc.ca)",
+    "Confirmar as exigências para médico estrangeiro (possíveis regras do Collège des médecins du Québec)"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Não há observership estruturado para médico estrangeiro; existem as regras gerais de estágio da Direction de l'enseignement e o fundo Fouron para fellowships internacionais. Elegibilidade de residente estrangeiro não publicada.",
+    "url": "https://enseignement.chusj.org/getattachment/Etudiants-en-stage/Professionnels-de-la-sante/Exigences-minimales-Stages-de-formation-CHUSJ.pdf.aspx",
+    "contato": "direction.enseignement.hsj@ssss.gouv.qc.ca (Direction de l'enseignement)",
+    "documentos": "Declaração de antecedentes criminais, crachá, termos de compromisso (regras gerais de estágio; podem não valer para observador estrangeiro)",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Joaquim Miró",
+     "cargo": "Full Professor, Pediatria UdeM; cardiologista pediátrico CHUSJ",
+     "papel": "Lidera a missão global que originou o fundo Fouron; sponsor natural",
+     "url": "https://newswire.ca/news-releases/philanthropy-powers-global-reach-of-chu-sainte-justine-and-universite-de-montreal-in-pediatric-cardiology-843191420.html",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Nassiba Alami Laroussi",
+     "cargo": "Cardiologista pediátrica, CHUSJ",
+     "papel": "Ensino internacional em eco fetal (AFRICARDIO 2025)",
+     "url": "https://incotedivoire.net/expats-news/news/7th%20Edition%20of%20AFRICARDIO:%20Doctors%20from%20Canada%E2%80%99s%20Sainte-Justine%20Hospital%20Share%20Their%20Expertise%20with%20African%20Peers",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Marie-Josée Raboisson",
+     "cargo": "Diretora do programa de transplante/IC e do laboratório de eco",
+     "papel": "Comanda o laboratório de eco",
+     "url": "https://www.emedevents.com/speaker-profile/marie-josee-raboisson",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Anne Fournier",
+     "cargo": "Cardiologista pediátrica, CHUSJ",
+     "papel": "Liderança acadêmica histórica do serviço",
+     "url": "https://shop.elsevier.com/books/cardiologie-pediatrique-et-congenitale/bonnet/978-2-294-79142-0",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Marie-Eve Desrosiers",
+     "cargo": "Relações Internacionais, CHUSJ",
+     "papel": "Porta administrativa para visitantes internacionais",
+     "url": "https://www.chusj.org/getmedia/511326a6-13ec-4972-b3d1-fa53001d78b3/pdf_relations-internationales_vision-internationale_FR.pdf",
+     "certeza": "provável"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "Serviço francófono: escrever em francês",
+    "Citar o fundo Fouron, deixando claro que o pedido é observership curto e autofinanciado",
+    "Centre de cardiologie fœtale foi o primeiro do Canadá: >2.600 ecos fetais/ano (dado de ~2014)"
+   ],
+   "lacunas": [
+    "Observership estruturado para estrangeiro: não encontrado",
+    "Taxa, duração e antecedência: não encontrados",
+    "Chefe atual da cardiologia pediátrica: não confirmado",
+    "Artigos 2022–2026 do serviço: não encontrados"
+   ]
+  },
+  {
+   "match": "Evelina London Children's Hospital",
+   "alerta": "O programa oficial é o GSTT Visiting Professional Programmes (VPP), não do Evelina sozinho; o VPP de Cardiologia é de adulto/ACHD e o observership tem mínimo provável de 12 semanas.",
+   "rota": [
+    "Inscrever-se no Evelina Foundation/Advanced Course in Fetal Cardiology para fazer contato",
+    "Escrever a John Simpson / Trisha Vigneswaran pedindo observação curta em cardiologia fetal",
+    "Formalizar pelo GSTT VPP (Clinical Observership, sem GMC), perguntando se aceitam 4 semanas e a taxa atual"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "VPP do GSTT oferece observership (sem GMC) ou practical attachment (com GMC) para 'non-UK trainee clinicians'; formato padrão de 12 semanas a 1 ano, fetal entra como área não listada.",
+    "url": "https://gstt.mixd.co.uk/vpp/",
+    "contato": "Formulário de contato da equipe VPP em gstt.mixd.co.uk/vpp",
+    "taxa": "£600/semana + £1.500 de taxa administrativa (provável, pode estar desatualizada)",
+    "duracao": "12 semanas a 1 ano (VPP Cardiologia: 3 a 12 meses)",
+    "documentos": "Observership não exige GMC",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "John Simpson",
+     "cargo": "Professor, lidera a Fetal Cardiology Unit",
+     "papel": "Decide e hospeda na unidade fetal",
+     "url": "https://sites.google.com/view/fetal-cardiology-uk/home",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Trisha Vigneswaran",
+     "cargo": "Clinical lead, Evelina London fetal cardiology network",
+     "papel": "Pesquisa em hiperoxigenação materna aguda",
+     "url": "https://www.evelinalondon.nhs.uk/our-services/hospital/consultants/vigneswaran-trisha.aspx",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Vita Zidere",
+     "cargo": "Consultant in paediatric and fetal cardiology",
+     "papel": "Coeditora do livro 'Fetal Cardiology' (2025)",
+     "url": "https://evelinalondon.nhs.uk/our-services/hospital/consultants/zidere-vita.aspx",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Owen Miller",
+     "cargo": "Clinical director da rede CHD GSTT-ELCH; director of international services",
+     "papel": "Possível ponte para visitante estrangeiro",
+     "url": "https://www.evelinalondon.nhs.uk/our-services/hospital/consultants/miller-owen.aspx",
+     "certeza": "provável"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "Maior unidade de cardiologia fetal do Reino Unido, com 6 consultores",
+    "Cursos abertos (Foundation Course 2024: £200) são porta de entrada",
+    "Para 1 mês, pedir exceção ao mínimo de 12 semanas do VPP",
+    "No e-mail, citar hiperoxigenação materna e o livro 'Fetal Cardiology' (2025)"
+   ],
+   "lacunas": [
+    "E-mail exato do VPP: não encontrado",
+    "Antecedência e documentos além do GMC: não encontrados",
+    "Head of Service de Paediatric & Fetal Cardiology: não encontrado",
+    "Artigos com URL de fonte: não encontrados"
+   ]
+  },
+  {
+   "match": "Ospedale Pediatrico Bambino Gesù",
+   "alerta": "A URL do radar é comunicado de 17/03/2023 sobre a nova sala de hemodinâmica do Gianicolo, não página de programa; não há regulamento público de frequenza volontaria para estrangeiros.",
+   "rota": [
+    "Obter apresentação de C. A. C. Pedra (Dante Pazzanese), coautor do Atlas editado por Butera",
+    "E-mail ao Dr. Gianfranco Butera pedindo 4 semanas de observação em hemodinâmica congênita",
+    "Com o aceite, cumprir o trâmite de frequentatore (seguro próprio, aval do chefe)"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Sem programa público de observership para estrangeiros; o padrão italiano de 'frequentatore volontario' exige combinar com o responsável da unidade, aval do chefe e seguro próprio (não confirmado para o OPBG).",
+    "url": "https://img.ospedalebambinogesu.it/images/2023/03/17/095958076-a4162edf-b79d-4565-a59e-bbf083f7d48c.pdf",
+    "documentos": "Provável (padrão italiano): seguro próprio de responsabilidade civil e acidentes, aval do responsável da UO, CV",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Gianfranco Butera",
+     "cargo": "Chief, Interventional Congenital Cardiology, OPBG",
+     "papel": "Decide e hospeda na hemodinâmica",
+     "url": "https://scai.confex.com/scai/2021/webprogramarchives/Person5950.html",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Lorenzo Galletti",
+     "cargo": "Chefe do Dipartimento Cardiochirurgia, Cardiologia e Trapianto",
+     "papel": "Pode assinar a autorização",
+     "url": "https://www.qsalute.it/cardiochirurgia-bambino-gesù/",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Fabrizio Drago",
+     "cargo": "Direttore Responsabile, Cardiologia e Aritmologia",
+     "papel": "Chefia a cardiologia pediátrica clínica",
+     "url": "https://www.qsalute.it/cardiologia-bambino-gesù/",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Gabriele Rinelli",
+     "cargo": "Responsável Ecocardiografia",
+     "papel": "Imagem e ecocardiografia",
+     "url": "https://www.qsalute.it/cardiologia-bambino-gesù/",
+     "certeza": "provável"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "Cerca de 500 procedimentos/ano em cardiopatias congênitas (2023)",
+    "Falar italiano ou inglês fluente; citar a válvula Venus P e a nova sala 3D do Gianicolo",
+    "A ponte Pedra/Dante via Atlas de cateterismo é o melhor argumento brasileiro"
+   ],
+   "lacunas": [
+    "Regulamento do OPBG para frequentador estrangeiro: não encontrado",
+    "Contato oficial, taxa e duração: não encontrados",
+    "Brasileiros no serviço: não encontrados",
+    "Artigos com URL de fonte: não encontrados"
+   ]
+  },
+  {
+   "match": "Amrita Institute of Medical Sciences",
+   "alerta": "A URL do radar é o Children's HeartLink Fellowship (2 anos, para LMICs); o canal para um mês é o International Observership do ACIP Kochi.",
+   "rota": [
+    "Enviar candidatura a acipkochi@aims.amrita.edu com cópia para international@amrita.edu e fetalcardiology@aims.amrita.edu",
+    "Anexar passaporte, Statement of Purpose em cardiologia fetal, certificados e carta da Unifesp",
+    "E-mail curto ao Dr. Balu Vaidyanathan citando o banco de dados fetal desde 2008",
+    "Confirmar taxa, duração e visto com o ACIP (e a regra de NOC da NMC)"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "International Observership do Amrita Center for International Programs, com candidatura por e-mail dirigida a 'foreign applicants'; o departamento já treina fellows de vários países.",
+    "url": "https://www.amrita.edu/international/student-opportunities/observership/",
+    "contato": "acipkochi@aims.amrita.edu (cópia international@amrita.edu); fetalcardiology@aims.amrita.edu; paediatriccardiology@aims.amrita.edu",
+    "documentos": "Cópia do passaporte, Statement of Purpose, cópias dos certificados relevantes",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "R. Krishna Kumar",
+     "cargo": "Clinical Professor & Head, Pediatric Cardiology",
+     "papel": "Decide no departamento",
+     "url": "https://www.amritahospitals.org/kochi/doctor/r-krishna-kumar",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Balu Vaidyanathan",
+     "cargo": "Clinical Professor & Head of Fetal Cardiology",
+     "papel": "Hospeda o observership fetal",
+     "url": "https://www.amritahospitals.org/kochi/doctor/balu-vaidyanathan",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Renjith S. Bhadran",
+     "cargo": "Contato em cópia nas candidaturas (ACIP)",
+     "papel": "Escritório internacional",
+     "url": "https://www.amrita.edu/international/student-opportunities/observership/",
+     "certeza": "provável"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "The Echocardiographic Diagnosis of Rheumatic Heart Disease: A Review of the Performance of the World Heart Federation Criteria 2012–2023",
+     "ano": 2024,
+     "id": null,
+     "url": "https://doaj.org/article/82abe64a539244108bc56c300715c738"
+    }
+   ],
+   "dicas": [
+    "Barreira baixa: candidatura por e-mail com 3 documentos",
+    "Statement of Purpose focado em eco fetal de alto volume e diagnóstico pré-natal com poucos recursos",
+    "Eco fetal seis dias por semana; >214 mil ecos acumulados no departamento",
+    "Índia: NOC da National Medical Commission (desde 1/3/2023) para observership em faculdade de medicina, taxa US$200 (PG) + GST, intervalo mínimo de 1 ano entre observerships; aplicação a hospital privado não confirmada"
+   ],
+   "lacunas": [
+    "Taxa, duração e antecedência: não encontradas",
+    "Volume anual: não encontrado",
+    "Brasileiros no serviço: não encontrados",
+    "Ponte com Unifesp/InCor/Dante: não encontrada"
+   ]
+  },
+  {
+   "match": "Hospital Garrahan",
+   "alerta": "A URL do radar é nota de imprensa (La Voz de San Justo), não página do hospital; não há página oficial de rotação em cardiologia para estrangeiros.",
+   "rota": [
+    "E-mail em espanhol à Dirección de Docencia e Investigación (docencia.garrahan.gov.ar) pedindo rotação externa de 4 semanas em Cardiología/Hemodinamia",
+    "Anexar carta da Unifesp e citar o precedente de rotação externa internacional (2023)",
+    "Contato paralelo com a jefatura de Cardiología (Dra. Gladys Salgado)",
+    "Considerar a crise de pessoal de 2025 ao propor datas"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Sem regras publicadas para cardiologia, mas o hospital recebe rotantes estrangeiros (resolução peruana de 2023 autoriza rotação externa internacional em Emergencia Pediátrica); via Docencia e Investigación.",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/4659588/R.D.%20N%C2%B0%20066-2023-DG_removed%20%281%29.pdf",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Gladys Salgado",
+     "cargo": "Jefa de Cardiología",
+     "papel": "Decide aceitação no serviço",
+     "url": "https://www.lavozdesanjusto.com.ar/el-95-de-las-ninas-y-ninos-con-malformaciones-cardiacas-puede-mejorar-su-pronostico-132076",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Francisco Comas",
+     "cargo": "Cardiologista intervencionista pediátrico, Servicio de Hemodinamia",
+     "papel": "Hemodinâmica pediátrica; ex-bolsista do programa",
+     "url": "https://www.swissmedical.com.ar/clinewsite/images/cardiologia_intervencionista/pdf/nuestros_profesionales/dr_francisco_comas.pdf",
+     "certeza": "provável"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "Telecardiologia em cardiopatias congênitas durante a pandemia COVID-19 (Garrahan)",
+     "ano": 2023,
+     "id": "PMID 37931895",
+     "url": "https://katalog.lib.cas.cz/KNAV/EdsRecord/cmedm,37931895"
+    }
+   ],
+   "dicas": [
+    "Hispanófono e próximo: escrever em espanhol",
+    "Existe 'Beca de Programas especiales en Cardiología Intervencionista Pediátrica' na Hemodinamia",
+    "52% dos transplantes cardíacos pediátricos da Argentina (100 transplantes, 2024)"
+   ],
+   "lacunas": [
+    "E-mail específico de Docencia: não encontrado",
+    "Taxa e documentos: não encontrados",
+    "Chefe atual da Hemodinamia: não confirmado",
+    "Brasileiros e ponte com Unifesp/InCor/Dante: não encontrados"
+   ]
+  },
+  {
+   "match": "NewHeart Watanabe Institute",
+   "alerta": "Nome atual é NewHeart Watanabe International Hospital; não há programa de observership para médicos estrangeiros.",
+   "rota": [
+    "Carta em inglês ao Dr. Go Watanabe (via contato geral do hospital/CTSNet) pedindo 2–4 semanas de observação da cirurgia keyhole",
+    "Citar o artigo JTCVS 2024 (PMID 38802045)",
+    "Se houver mentor da Unifesp com contato no Japão, pedir apresentação"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Hospital privado sem estrutura pública para visitantes estrangeiros; só parcerias de treinamento domésticas encontradas.",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Go Watanabe",
+     "cargo": "President (desde 2014)",
+     "papel": "Fundador, decide; pioneiro da robótica cardíaca no Japão",
+     "url": "https://medicalnote.jp/doctors/150821-000003-EAQDZC/biography",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Norihiko Ishikawa",
+     "cargo": "Cirurgião cardíaco",
+     "papel": "Lidera publicações da série robótica mitral",
+     "url": "https://www.annalscts.com/article/view/16955/html",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "Robotic mitral valve repair in Japan and keyhole cardiac surgery in NewHeart Watanabe Institute",
+     "ano": 2022,
+     "id": "PMC9551375",
+     "url": "https://www.annalscts.com/article/view/16955/html"
+    },
+    {
+     "titulo": "Successful launch of robot-assisted mitral valve repair in Japan under universal health coverage",
+     "ano": 2024,
+     "id": "PMID 38802045",
+     "url": "https://pesquisa.bvsalud.org/portal/resource/e/mdl-38802045"
+    }
+   ],
+   "dicas": [
+    ">1.200 cirurgias cardíacas robóticas; 195 em 2021",
+    "Lista oficial de publicações: https://newheart.jp/introduction/publishing.php",
+    "Baixa probabilidade sem ponte pessoal"
+   ],
+   "lacunas": [
+    "Programa e contato educacional oficial: não encontrados",
+    "Brasileiros e ponte com Unifesp: não encontrados"
+   ]
+  },
+  {
+   "match": "Sakakibara Heart Institute of Okayama",
+   "alerta": "O radar classificou como robótica com base em artigo de 2018 sobre MICS por minitoracotomia; não há evidência de programa robótico, e não é o Sakakibara de Fuchu (Tóquio).",
+   "rota": [
+    "Baixa prioridade para robótica: preferir NewHeart Watanabe",
+    "Se o interesse for MICS mitral, contatar a cirurgia cardiovascular pelo site oficial"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Nenhum programa de observership para estrangeiros encontrado."
+   },
+   "pessoas": [
+    {
+     "nome": "Arudo Hiraoka",
+     "cargo": "Cirurgião cardiotorácico",
+     "papel": "Interesse em MICS e cirurgia mitral",
+     "url": "https://www.ctsnet.org/home/ahiraoka",
+     "certeza": "provável"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "Centro forte em MICS mitral: 476 casos por minitoracotomia direita (2006–2017)"
+   ],
+   "lacunas": [
+    "Programa robótico: não encontrado",
+    "Programa de observership e contato: não encontrados",
+    "Chefe do serviço: não encontrado",
+    "Artigos 2022–2026 em robótica: não encontrados"
+   ]
+  },
+  {
+   "match": "Seoul National University Bundang Hospital",
+   "alerta": "A URL do radar (sports.khan.co.kr, nov/2025) não pôde ser corroborada; programa robótico cardíaco é pequeno (CIA/mitral/mixoma).",
+   "rota": [
+    "E-mail a edu@snubh.org pedindo o programa 'Observation' de 4 semanas em Thoracic & Cardiovascular Surgery (robótica)",
+    "Anexar CV e carta da Unifesp",
+    "E-mail paralelo ao Dr. Cheong Lim citando o artigo de CIA robótica",
+    "Comparar com centros de maior volume robótico"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Programa institucional de treinamento para estrangeiros com categoria 'Observation'; instituições ou indivíduos se candidatam por e-mail; há também International Fellowship para médicos com licença estrangeira.",
+    "url": "https://global.snubh.org/vs/global.do",
+    "contato": "edu@snubh.org (fax +82-31-787-4044)",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Cheong Lim, MD, PhD",
+     "cargo": "Cirurgião cardiotorácico, SNUBH",
+     "papel": "Líder/coautor das séries robóticas",
+     "url": "https://www.ctsnet.org/home/cheolim",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "Robot-assisted ASD repair: beating-heart vs non-beating-heart",
+     "ano": 2022,
+     "id": null,
+     "url": "https://doaj.org/article/5e3e9630d0514e798e030ed2c1523cd2"
+    },
+    {
+     "titulo": "Totally robotic ASD repair — 45 pacientes (SNUBH)",
+     "ano": 2021,
+     "id": "PMC8024858",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8024858"
+    }
+   ],
+   "dicas": [
+    "Da Vinci desde 2010; 45 correções robóticas de CIA (2010–2019)",
+    "Hospitais coreanos receberam 1.496 visiting scholars de 80 países (2014–2018), maioria <3 meses"
+   ],
+   "lacunas": [
+    "Taxa, duração e documentos: não encontrados",
+    "Chefe do departamento: não encontrado",
+    "Brasileiros e ponte com Unifesp: não encontrados"
+   ]
+  },
+  {
+   "match": "Chinese PLA General Hospital",
+   "alerta": "A URL do radar é abstract de 2013 e Gao Changqing não é contato atual; programa robótico sem produção recente visível.",
+   "rota": [
+    "Baixa prioridade: preferir Xiamen ou Queen Mary",
+    "Se insistir, tentar via escritório internacional do hospital ou sociedade chinesa de cirurgia robótica"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Nenhuma página oficial de observership para estrangeiros; hospital militar, acesso provavelmente restrito e mediado por cooperação internacional (não confirmado)."
+   },
+   "pessoas": [
+    {
+     "nome": "Yang Ming",
+     "cargo": "Cirurgião, coautor da série robótica",
+     "papel": "Provável membro sênior do programa robótico",
+     "url": "https://rcastoragev2.blob.core.windows.net/fc3581d014252a387d6a90c86526557a/PMC4636820.pdf",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Xiao Cangsong",
+     "cargo": "Cirurgião, coautor da série robótica",
+     "papel": "Membro sênior do programa robótico",
+     "url": "https://rcastoragev2.blob.core.windows.net/fc3581d014252a387d6a90c86526557a/PMC4636820.pdf",
+     "certeza": "provável"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "Comparison of clinical outcomes for total robotic versus total thoracoscopic mitral repair (carta)",
+     "ano": 2022,
+     "id": "PMID 35060191",
+     "url": "https://www.pubmed.gov/35060191/"
+    }
+   ],
+   "dicas": [
+    "Primeira cirurgia cardíaca robótica da China (2007); >700 operações da Vinci até 2014 (dados antigos)"
+   ],
+   "lacunas": [
+    "Programa, elegibilidade e contato oficial: não encontrados",
+    "Chefe atual: não encontrado",
+    "Volume recente: não encontrado",
+    "Brasileiros e ponte com Unifesp: não encontrados"
+   ]
+  },
+  {
+   "match": "Beijing Anzhen Hospital",
+   "alerta": "O polo robótico de Anzhen se apoia num único artigo (2022) e volume modesto (~24/ano).",
+   "rota": [
+    "Escrever ao Department of Cardiac Surgery citando o artigo de 2022 (Li/You)",
+    "Pedir orientação sobre o escritório de cooperação internacional de Anzhen/Capital Medical University"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Página oficial de visiting scholar para estrangeiros não encontrada; o hospital declara missão de intercâmbio internacional."
+   },
+   "pessoas": [
+    {
+     "nome": "Bin You",
+     "cargo": "Department of Cardiac Surgery, Anzhen",
+     "papel": "Provável autor sênior da série de reparo mitral robótico",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9148248/",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Guang Li",
+     "cargo": "Department of Cardiac Surgery, Anzhen",
+     "papel": "1º autor da série robótica",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9148248/",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "Follow-Up of Robotic Mitral Valve Repair: A Single Tertiary Institution Experience in China",
+     "ano": 2022,
+     "id": "DOI 10.1155/2022/1997371",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9148248/"
+    }
+   ],
+   "dicas": [
+    "121 reparos mitrais robóticos (2016–2021) sem conversão para esternotomia"
+   ],
+   "lacunas": [
+    "Programa, elegibilidade e contato oficial: não encontrados",
+    "Chefe do departamento: não encontrado",
+    "Artigos robóticos 2023–2026: não encontrados",
+    "Brasileiros e ponte com Unifesp: não encontrados"
+   ]
+  },
+  {
+   "match": "Xiamen Cardiovascular Hospital",
+   "alerta": "A robótica de Xiamen é intervenção estrutural transcateter (TEER robótico, robô nacional), não cirurgia da Vinci tradicional; melhor para cardiologia/hemodinâmica estrutural.",
+   "rota": [
+    "Contatar o Heart Sapling Visiting Scholar Program (via escritório internacional; ver podcast CTSNet Ep. 154) pedindo vaga curta",
+    "Pedir apresentação aos fellows de Salvador (Amanda e Eric Mercado) e/ou ao Hospital de Messejana",
+    "E-mail ao gabinete do presidente Wang Yan citando DOI 10.1007/s10554-024-03227-3"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Heart Sapling Visiting Scholar Program (desde 2022): imersão clínica de médicos estrangeiros com foco inicial em BRICS; formato observado de 6 meses, estágio de 1 mês não confirmado.",
+    "url": "https://en.people.cn/n3/2026/0910/c90000-20498116.html",
+    "duracao": "6 meses (formato observado nos fellows brasileiros)",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Wang Yan",
+     "cargo": "Presidente do hospital, intervencionista estrutural",
+     "papel": "Decide e lidera o programa robótico e o Heart Sapling",
+     "url": "https://www.fujian.gov.cn/english/news/202510/t20251029_7027484.htm",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Chen Xiang",
+     "cargo": "Coautor do 1º TEER robótico em humano",
+     "papel": "Equipe robótica",
+     "url": "https://www.deutsche-digitale-bibliothek.de/item/WWOZNUREUVQITUPPVZQS3LM75KD4J4TS",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [
+    {
+     "nome": "Amanda Gabas Mercado e Eric Rodrigo Morales Mercado",
+     "ligacao": "Cirurgiões de Salvador (BA), fellowship de 6 meses no Heart Sapling desde abr/2026",
+     "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/09/10/brazilian-surgeons-seek-advanced-heart-training-in-china-under-brics-program",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Médico(a) do Hospital de Messejana (nome não divulgado)",
+     "ligacao": "Enviado(a) em mar/2024 para programa de 6 meses em Xiamen",
+     "url": "https://regional.chinadaily.com.cn/fujian/2024-10/24/c_1038487.htm",
+     "certeza": "confirmado"
+    }
+   ],
+   "artigos": [
+    {
+     "titulo": "First-in-human robotic-assisted transcatheter mitral edge-to-edge repair for treatment of severe mitral regurgitation",
+     "ano": 2024,
+     "id": "DOI 10.1007/s10554-024-03227-3",
+     "url": "https://www.deutsche-digitale-bibliothek.de/item/WWOZNUREUVQITUPPVZQS3LM75KD4J4TS"
+    }
+   ],
+   "dicas": [
+    "Programa explicitamente aberto a brasileiros (BRICS): maior chance de aceite entre os polos robóticos",
+    "Citar a parceria Messejana–Xiamen e os colegas de Salvador",
+    "Perguntar se aceitam estágio de ~1 mês além do formato de 6 meses",
+    "Ensaio NCT07055919 compara TEER assistido por robô vs manual"
+   ],
+   "lacunas": [
+    "Contato oficial publicado do Heart Sapling: não encontrado",
+    "Taxa, documentos e prazos: não encontrados",
+    "Ponte com Unifesp/USP/Dante: não encontrada"
+   ]
+  },
+  {
+   "match": "Queen Mary Hospital (HKU)",
+   "alerta": "Volume robótico cardíaco baixo (~1 caso/mês reportado) e sem publicação recente; observership formal para estrangeiros não confirmado.",
+   "rota": [
+    "E-mail ao Dr. Max Wong (robótica/mitral) com cópia à Chief of Service Dr. Cally Ho, pedindo ~4 semanas de observação",
+    "Pedir o caminho administrativo HKU/Hospital Authority",
+    "Alternativa: Hong Kong Surgical Forum para contato presencial"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Só programas para estudantes locais e o Global Healthcare Talent Scheme (12–24 meses, com registro médico); observership curto provavelmente depende de convite do departamento.",
+    "url": "https://www.ha.org.hk/haho/ho/hesd/NLTD_GHTS_en.htm",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Cally Ho",
+     "cargo": "Chief of Service, Dept. of Cardiothoracic Surgery, QMH",
+     "papel": "Autoriza visitantes",
+     "url": "https://hksf.hku.hk/cally-ho",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Max Wong",
+     "cargo": "Associate Consultant",
+     "papel": "Interesse em robótica e reparo mitral; anfitrião natural",
+     "url": "https://hksf.hku.hk/max-wong",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Daniel Chan Tai-leung",
+     "cargo": "Cirurgião cardíaco/estrutural",
+     "papel": "Pioneiro da robótica cardíaca no QMH",
+     "url": "https://hkuhs.med.hku.hk/en/Homepage/Our Professional/Dr Chan Tai Leung Daniel",
+     "certeza": "provável"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "Maior centro cardiotorácico terciário de HK, único em transplante/ACHD/MCS",
+    "Considerar foco em mitral minimamente invasiva, transplante e MCS"
+   ],
+   "lacunas": [
+    "Observership curto e contato oficial: não encontrados",
+    "Volume robótico anual: não encontrado",
+    "Artigos robóticos 2022–2026: não encontrados",
+    "Brasileiros e ponte com Unifesp: não encontrados"
+   ]
+  },
+  {
+   "match": "Apollo Hospitals Bangalore",
+   "alerta": "A URL do radar é comunicado de 2021 (100 robóticas); hoje são >600 robóticas cardíacas, e o recorde '100 em 155 dias' (2026) é da Apollo Jubilee Hills, não de Bangalore.",
+   "rota": [
+    "E-mail a fellowship@apollohospitals.com pedindo International Observership de 4 semanas em Robotic Cardiac Surgery (Bangalore)",
+    "Carta curta ao Dr. Sathyaki Nambala via canal institucional pedindo aval",
+    "Confirmar se é preciso NOC da NMC antes de comprar passagem"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "A página de fellowships da Apollo lista uma opção 'International Observership' sem termos publicados; os fellowships clínicos exigem MBBS/MD/DNB/MS.",
+    "url": "https://apollohospitals.com/academics-research/courses/medical/fellowship",
+    "contato": "fellowship@apollohospitals.com (escritório de fellowships)",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Sathyaki P. Nambala",
+     "cargo": "Chief Surgeon, Robotic & Minimally Invasive Cardiac Surgery",
+     "papel": "Lidera o programa robótico",
+     "url": "https://medicaldialogues.in/news/health/hospital-diagnostics/apollo-hospitals-bangalore-completes-100-robotic-cardiac-surgeries-81734",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "Programa desde 2019 (da Vinci Xi): >600 robóticas cardíacas e >150 trocas mitrais robóticas (autorreportado)",
+    "Citar casos divulgados como comunicados, não como artigos",
+    "Índia: NOC da National Medical Commission (desde 1/3/2023) para observership em faculdade de medicina, taxa US$200 (PG) + GST, intervalo mínimo de 1 ano entre observerships; aplicação a hospital privado não confirmada"
+   ],
+   "lacunas": [
+    "Taxa, duração, antecedência e documentos: não encontrados",
+    "Artigos 2022–2026 do serviço: não encontrados",
+    "Brasileiros e ponte com Unifesp: não encontrados"
+   ]
+  },
+  {
+   "match": "Apollo Hospitals Jubilee Hills",
+   "alerta": "O recorde '100 cirurgias cardíacas robóticas em 155 dias' (abr/2026) é autoproclamado, sem validação independente.",
+   "rota": [
+    "E-mail a fellowship@apollohospitals.com pedindo International Observership em CTVS robótica (Jubilee Hills)",
+    "Mencionar interesse em robótica, transplante e MICS e pedir encaminhamento ao Dr. Nagesh Ayalasomayajula",
+    "Checar exigência de NOC da NMC"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Mesma via corporativa da Apollo ('International Observership' na página de fellowships), sem termos publicados.",
+    "url": "https://apollohospitals.com/academics-research/courses/medical/fellowship",
+    "contato": "fellowship@apollohospitals.com (escritório de fellowships)",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Nagesh Ayalasomayajula",
+     "cargo": "Senior Consultant Cardiothoracic & Heart Transplant Surgeon",
+     "papel": "Liderou o programa de 100 robóticas em 155 dias",
+     "url": "https://www.apollohospitals.com/doctors/cardiothoracic-and-vascular-surgery/hyderabad/dr-nagesh-ayalasomayajula",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "Programa robótico recente (2025-26) de alto volume com cirurgião de transplante",
+    "Índia: NOC da National Medical Commission (desde 1/3/2023) para observership em faculdade de medicina, taxa US$200 (PG) + GST, intervalo mínimo de 1 ano entre observerships; aplicação a hospital privado não confirmada"
+   ],
+   "lacunas": [
+    "Taxa, duração e documentos: não encontrados",
+    "Chefe do departamento: não encontrado",
+    "Artigos 2022–2026: não encontrados",
+    "Brasileiros e ponte com Unifesp: não encontrados"
+   ]
+  },
+  {
+   "match": "Manipal Hospitals",
+   "alerta": "Polo vago: rede com várias unidades em Bengaluru e URL de marketing; sem volume robótico cardíaco publicado (a notícia de CABG robótico achada é da Manipal Delhi, 2023).",
+   "rota": [
+    "Despriorizar: em Bengaluru, Apollo Bangalore tem programa robótico documentado",
+    "Se insistir, contatar o canal internacional/academics pedindo observação no CTVS de Electronics City",
+    "Confirmar por escrito que há casos robóticos cardíacos regulares"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Nenhum programa de observership para estrangeiros encontrado."
+   },
+   "pessoas": [
+    {
+     "nome": "Harsha Goutham H V",
+     "cargo": "Cirurgião cardiotorácico e vascular, Manipal Electronics City",
+     "papel": "Declara >250 robóticas cardíacas/torácicas",
+     "url": "https://www.manipalhospitals.com/electronicscity/doctors/dr-harsha-goutham-h-v-cardiothoracic-and-vascular-surgeon/",
+     "certeza": "provável"
+    },
+    {
+     "nome": "N. S. Devananda",
+     "cargo": "HOD – Cardiothoracic and Vascular Surgery, Manipal HAL Airport Road",
+     "papel": "Chefe do CTVS; ligação com robótica não confirmada",
+     "url": "https://omega.credihealth.com/doctors/india/robotic-cardiac-surgery",
+     "certeza": "provável"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "Sakra World Hospital (>550 robóticas cardíacas, ago/2025) e Narayana têm programas mais documentados em Bengaluru",
+    "Índia: NOC da National Medical Commission (desde 1/3/2023) para observership em faculdade de medicina, taxa US$200 (PG) + GST, intervalo mínimo de 1 ano entre observerships; aplicação a hospital privado não confirmada"
+   ],
+   "lacunas": [
+    "Programa, contato, taxa e documentos: não encontrados",
+    "Volume robótico cardíaco do serviço: não encontrado",
+    "Artigos 2022–2026: não encontrados",
+    "Brasileiros e ponte com Unifesp: não encontrados"
+   ]
+  },
+  {
+   "match": "Medanta – The Medicity",
+   "alerta": "A URL do radar é do Medanta Vattikuti Institute of Robotic Surgery, multiespecialidade; o dado cardíaco vem do CTVS e do histórico do Dr. Trehan.",
+   "rota": [
+    "E-mail ao escritório internacional/acadêmico do Medanta pedindo 4 semanas de observação em cirurgia cardíaca robótica/MICS",
+    "Pedir encaminhamento ao Dr. Harpreet Wasir como anfitrião",
+    "Checar exigência de NOC da NMC (US$200)"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Sem programa oficial de observership no site; só um diretório de terceiro lista o Medanta em observership de cardiologia."
+   },
+   "pessoas": [
+    {
+     "nome": "Naresh Trehan",
+     "cargo": "Chairman & MD, Chief Cardiac Surgeon",
+     "papel": "Decide em última instância; pioneiro da robótica na Índia",
+     "url": "https://www.medanta.org/doctor-listing/cardiac-surgery-doctors-in-gurugram",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Harpreet Wasir",
+     "cargo": "Cirurgião cardíaco (robotic cardiac surgery)",
+     "papel": "Provável anfitrião na robótica cardíaca",
+     "url": "https://www.medanta.org/doctor-listing/cardiac-surgery-doctors-in-gurugram",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Nitin Kumar Rajput",
+     "cargo": "Cirurgião cardíaco (robotic-assisted CABG)",
+     "papel": "Faz CABG robótico",
+     "url": "https://www.medanta.org/doctor-listing/cardiac-surgery-doctors-in-gurugram",
+     "certeza": "provável"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "Série de 268 pacientes com cirurgia coronária robótica (2002–2006), Mishra, Wasir, Trehan et al., J Robotic Surg",
+     "ano": 2007,
+     "id": null,
+     "url": "https://wicri-demo.istex.fr/Wicri/Sic/explor/TelematiV1/Site/fr/Main/Merge/bibRecord.php?hk=001A05"
+    }
+   ],
+   "dicas": [
+    "Tradição de treinar cirurgiões em robótica via Vattikuti (não cardíaco)",
+    "Gancho para o e-mail: experiência pioneira em CABG robótico",
+    "Índia: NOC da National Medical Commission (desde 1/3/2023) para observership em faculdade de medicina, taxa US$200 (PG) + GST, intervalo mínimo de 1 ano entre observerships; aplicação a hospital privado não confirmada"
+   ],
+   "lacunas": [
+    "Programa e contato oficial: não encontrados",
+    "Volume robótico cardíaco recente: não encontrado",
+    "Artigos 2022–2026: não encontrados",
+    "Brasileiros e ponte com Unifesp: não encontrados"
+   ]
+  }
+ ],
+ "pontes_brasil": [
+  {
+   "nome": "Julene Carvalho",
+   "onde": "Royal Brompton Hospital, Londres",
+   "ligacao": "Formada no Brasil, início da cardiologia em São Paulo, PhD em Londres; ponte indireta em cardiologia fetal em Londres",
+   "centros": [
+    "Evelina London Children's Hospital"
+   ],
+   "url": "https://www.rbht.nhs.uk/node/6038",
+   "certeza": "confirmado"
+  },
+  {
+   "nome": "Carlos A. C. Pedra e Simone F. Pedra",
+   "onde": "Dante Pazzanese / HCor, São Paulo",
+   "ligacao": "Capítulo no 'Atlas of Cardiac Catheterization for Congenital Heart Disease', coeditado por Butera",
+   "centros": [
+    "Ospedale Pediatrico Bambino Gesù"
+   ],
+   "url": "https://www.springer.com/gp/book/9783319724423",
+   "certeza": "provável"
+  },
+  {
+   "nome": "Bruno Ramos Nascimento",
+   "onde": "UFMG, Belo Horizonte",
+   "ligacao": "Coautor com R. Krishna Kumar de revisão sobre critérios WHF de cardiopatia reumática",
+   "centros": [
+    "Amrita Institute of Medical Sciences"
+   ],
+   "url": "https://doaj.org/article/82abe64a539244108bc56c300715c738",
+   "certeza": "confirmado"
+  },
+  {
+   "nome": "Hospital de Messejana (Governo do Ceará)",
+   "onde": "Fortaleza, CE",
+   "ligacao": "Acordo de cooperação com o Xiamen Cardiovascular Hospital (15/04/2024): diagnóstico, formação de talentos, TI em saúde",
+   "centros": [
+    "Xiamen Cardiovascular Hospital"
+   ],
+   "url": "https://www.portalin.com.br/in-connection/ceara-firma-parceria-com-hospital-chines-de-referencia-para-avancos-no-diagnostico-e-tratamento-de-doencas-cardiovasculares/",
+   "certeza": "confirmado"
+  }
+ ]
+}
