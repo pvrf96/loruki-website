@@ -1,0 +1,1 @@
+Site único que reúne os blocos 2 e 3 (hub em index.html). Os 54 PDFs de bloco3/pdfs ficam fora do Git por tamanho (47,7 MB); eles estão no vault (pasta INSS Santos) e foram incluídos no deploy da Vercel.

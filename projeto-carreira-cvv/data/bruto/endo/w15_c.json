@@ -1,0 +1,179 @@
+[
+ {
+  "match": "Hospital de Messejana",
+  "cidade": "Fortaleza (CE), Brasil",
+  "areas": ["transplante"],
+  "programa": {
+   "status": "não encontrado",
+   "detalhe": "Nenhum edital/página de estágio optativo para residentes externos (COREME) do Hospital de Messejana (Hospital Dr. Carlos Alberto Studart Gomes, SESA-CE) apareceu. Há histórico de capacitação de equipes de outros estados em transplante cardíaco (programa de tutoria), o que indica abertura a profissionais externos.",
+   "fontes": [
+    {"url": "https://www.conass.org.br/?p=4719", "trecho": "Ceará capacita outros Estados para transplantes de órgãos — treinamento de 60 médicos, enfermeiros, fisioterapeutas... de cinco estados"},
+    {"url": "https://repositorio.ufc.br/handle/riufc/42237?locale=en", "trecho": "estágio extracurricular (estudantes) na sala de PCR do Hospital de Messejana"}
+   ],
+   "certeza": "não encontrado (abertura a externos = provável)"
+  },
+  "servico": {
+   "nome": "Unidade de Transplante e Insuficiência Cardíaca do Hospital de Messejana (adulto e pediátrico)",
+   "chefe": "João David de Souza Neto — coordenador da Unidade de Transplante e IC (fonte de fev/2023); Juan Cosquillo Mejia — coordenador cirúrgico da Unidade de Transplantes Cardíacos (ABTO News jul/2025). Coordenador em ago/2026 não nomeado na matéria do 600º.",
+   "fellowship": "não encontrado",
+   "volume": "600º transplante cardíaco em 6/ago/2026; 500º em fev/2023; 2º centro do Brasil em volume, atrás só do InCor; único do N/NE com transplante pediátrico (dado de imprensa).",
+   "fontes": [
+    {"url": "https://mais.opovo.com.br/jornal/farol/2026/08/08/hospital-de-messejana-alcanca-a-marca-de-600-transplantes-de-coracoes.html", "trecho": "HM realizou o transplante cardíaco número 600 ... segue o segundo maior em número de transplantes cardíacos do Brasil, atrás apenas do InCor"},
+    {"url": "https://www.opovo.com.br/noticias/ceara/2023/02/22/hospital-de-messejana-atinge-marca-de-500-transplantes-cardiacos-realizados.html", "trecho": "João David de Souza Neto, coordenador da Unidade de Transplante e Insuficiência Cardíaca do HM"},
+    {"url": "https://site.abto.org.br/wp-content/uploads/2025/08/ABTO-NEWS-JULHO-no7_2025-.pdf", "trecho": "Juan Cosquillo Mejia, coordenador cirúrgico da Unidade de Transplantes Cardíacos do Hospital de Messejana"}
+   ],
+   "certeza": "confirmado (cargos datados 2023/2025; atual 2026 = provável)"
+  },
+  "pessoas_chave": [
+   {"nome": "João David de Souza Neto", "cargo": "Coordenador da Unidade de Transplante e Insuficiência Cardíaca (2023)", "por_que": "lidera a parte clínica do programa; provável quem aceita estagiário clínico", "fonte": "https://www.opovo.com.br/noticias/ceara/2023/02/22/hospital-de-messejana-atinge-marca-de-500-transplantes-cardiacos-realizados.html"},
+   {"nome": "Juan Cosquillo Mejia", "cargo": "Coordenador cirúrgico da Unidade de Transplantes Cardíacos (2025); ex-coordenador do Programa de Tutoria em Doação de Órgãos e Transplante Cardíaco (2018)", "por_que": "chefe cirúrgico; já coordenou programa de treinamento de equipes externas — melhor porta para residente de cirurgia CV", "fonte": "https://site.abto.org.br/wp-content/uploads/2025/08/ABTO-NEWS-JULHO-no7_2025-.pdf"},
+   {"nome": "Valdester Cavalcante Pinto Júnior", "cargo": "Cirurgião cardiovascular pediátrico ligado à história do transplante cardíaco no Ceará (entrevista Unifor)", "por_que": "referência do transplante pediátrico no CE", "fonte": "https://unifor.br/web/doedecoracao/-/entrevista-nota-10-valdester-cavalcante-e-a-trajetoria-do-transplante-cardiaco-no-ceara"}
+  ],
+  "brasileiros": "Centro brasileiro (equipe toda atua no Brasil). Juan C. Mejia é cirurgião de origem estrangeira radicado no Ceará (não verificado país de origem).",
+  "pontes_unifesp_sp": {"detalhe": "não encontrado coautoria específica com Unifesp/EPM nas buscas. Referência cruzada natural: InCor (nº1 em volume) é citado como comparador.", "certeza": "não encontrado"},
+  "pesquisa_recente": [
+   {"titulo": "Long-term survival after heart transplantation in Chagas disease (Transplantation Direct, 2022) — afiliação Heart Failure Division, Hospital de Messejana", "ano": 2022, "id": "PMC9236606 (PDF indexado nos resultados)", "fonte": "https://rcastoragev2.blob.core.windows.net/af828120056c04a18d4aa99c6df2b4ec/PMC9236606.pdf", "certeza": "provável (título aproximado do trecho)"},
+   {"titulo": "Twenty-six years of heart transplantation in the world's largest public organ transplant system: a survival analysis (Heart Failure 2024, ESC — Messejana Hospital)", "ano": 2024, "id": "ESC365 presentation 280678", "fonte": "https://esc365.escardio.org/presentation/280678", "certeza": "confirmado (resumo de congresso)"},
+   {"titulo": "Ensaio: Impact of SGLT2 inhibitors in heart transplant recipients (vasculopatia do enxerto) — UFC + Hospital de Messejana", "ano": 2023, "id": "NCT06147271", "fonte": "https://www.syfrah.com/trial/NCT06147271", "certeza": "confirmado"}
+  ],
+  "dicas": [
+   "Marco recente (600 transplantes, ago/2026) é bom gancho de abertura do e-mail.",
+   "Programa tem histórico de tutoria/treinamento de equipes de outros estados — pedir estágio de observação nesse formato.",
+   "Hospital estadual (SESA-CE): estágio externo de residente provavelmente via Centro de Estudos/COREME do HM com ofício da COREME de origem (não confirmado)."
+  ],
+  "rota_recomendada": "1) Pedir à COREME da Unifesp ofício de estágio optativo e enviar ao Centro de Estudos/COREME do Hospital de Messejana; 2) em paralelo, e-mail profissional a Juan C. Mejia (cirurgia) ou João David de Souza Neto (IC/transplante clínico) citando o 600º transplante e o ensaio de SGLT2i (NCT06147271).",
+  "alerta_correcao": "Nome oficial: Hospital de Messejana Dr. Carlos Alberto Studart Gomes (às vezes chamado 'Hospital do Coração de Messejana'). Cardiologia pediátrica do HM teve transferência anunciada para Hospital Universitário do Ceará (Diário do Nordeste) — checar se transplante pediátrico segue no HM."
+ },
+ {
+  "match": "ICESP — Instituto do Câncer do Estado de SP",
+  "cidade": "São Paulo (SP), Brasil",
+  "areas": ["cardio_oncologia"],
+  "programa": {
+   "status": "não encontrado (estágio observador); existe fellowship formal",
+   "detalhe": "Programa de Cardio-Oncologia do ICESP criado em mai/2009; fellowship de cardio-oncologia criado em 2017. Edital InCor 2019 (cardio-oncologia) exigia 2 anos de residência em cardiologia/clínica + 6 meses de experiência em cardio-oncologia. Não achei edital de estágio curto para residente externo.",
+   "fontes": [
+    {"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7189468", "trecho": "In May 2009, the ICESP Cardio-Oncology Programme was created ... In 2017, a cardio-oncology fellowship was created"},
+    {"url": "https://www.incor.usp.br/sites/incor2013/docs/ps-1243-cartaz.pdf", "trecho": "edital InCor 2019: residência ≥2 anos em cardiologia/clínica + 6 meses de experiência em cardio-oncologia"}
+   ],
+   "certeza": "confirmado (fellowship); estágio curto não encontrado"
+  },
+  "servico": {
+   "nome": "Programa/Serviço de Cardio-Oncologia do ICESP (HCFMUSP), fisicamente ligado ao InCor",
+   "chefe": "Ludhmila Abrahão Hajjar — coordenadora de Cardio-Oncologia do ICESP e diretora de Cardio-Oncologia do InCor (perfil ESC); professora titular FMUSP desde 2023",
+   "fellowship": "Fellowship de cardio-oncologia ICESP/InCor (desde 2017); diretor não identificado",
+   "volume": "ICESP = maior hospital de tratamento de câncer da América Latina (artigo 2020); revisão de 10 anos (2009–2019). Volume anual de cardio-oncologia não encontrado.",
+   "fontes": [
+    {"url": "https://esc365.escardio.org/person/1178864", "trecho": "Director of Cardio-Oncology at the Heart Institute of HCFMUSP, Coordinator of Cardio-Oncology at the Cancer Institute of the State of São Paulo – ICESP"},
+    {"url": "https://www.correio24horas.com.br/brasil/medica-de-famosos-que-recusou-ministerio-de-bolsonaro-quem-e-a-cardiologista-que-atende-janones-na-uti-1026", "trecho": "professora titular da FMUSP desde 2023"}
+   ],
+   "certeza": "confirmado (cargo atual em 2026 = provável)"
+  },
+  "pessoas_chave": [
+   {"nome": "Ludhmila Abrahão Hajjar", "cargo": "Coordenadora Cardio-Oncologia ICESP / Diretora Cardio-Oncologia InCor; Prof. Titular FMUSP", "por_que": "decide; autora correspondente do ensaio IPAC", "fonte": "https://esc365.escardio.org/person/1178864"},
+   {"nome": "Stephanie Itala Rizk", "cargo": "Primeira autora do ensaio IPAC (ivabradina, ICESP/InCor; tese USP 2024)", "por_que": "pesquisadora ativa do serviço — contato acadêmico/hospedagem", "fonte": "https://teses.usp.br/teses/disponiveis/5/5131/tde-22052024-140427/en.php"},
+   {"nome": "Roberto Kalil Filho", "cargo": "Co-chair do Global Cardio-Oncology Summit 2019 (São Paulo) com Hajjar", "por_que": "liderança InCor ligada à cardio-oncologia", "fonte": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8352295"}
+  ],
+  "brasileiros": "Centro brasileiro (FMUSP). Equipe toda brasileira.",
+  "pontes_unifesp_sp": {"detalhe": "Ponte principal é USP/InCor (mesmo complexo HC). Coautoria específica com Unifesp/EPM em cardio-oncologia não encontrada nas buscas.", "certeza": "não encontrado"},
+  "pesquisa_recente": [
+   {"titulo": "Randomized, placebo-controlled, triple-blind clinical trial of ivabradine for the prevention of cardiac dysfunction (IPAC) — J Am Heart Assoc 2025 (Rizk et al.; ICESP/InCor)", "ano": 2025, "id": "NCT03650205; preprint doi 10.1101/2024.10.30.24316463", "fonte": "https://iris.unisr.it/retrieve/7ca7c5cd-2103-4416-960f-95fd488ed478/rizk-et-al-2025-randomized-placebo-controlled-triple-blind-clinical-trial-of-ivabradine-for-the-prevention-of-cardiac.pdf", "certeza": "confirmado (DOI do JAHA não apareceu)"},
+   {"titulo": "Ivabradina na prevenção de cardiotoxicidade por antraciclina — tese de doutorado FMUSP", "ano": 2024, "id": "teses.usp.br tde-22052024-140427", "fonte": "https://teses.usp.br/teses/disponiveis/5/5131/tde-22052024-140427/en.php", "certeza": "confirmado"},
+   {"titulo": "Brazilian cardio-oncology: the 10-year experience of the ICESP (BMC Cardiovasc Disord, 2020 — fora da janela, mas é o artigo-âncora do programa)", "ano": 2020, "id": "doi 10.1186/s12872-020-01471-8", "fonte": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7189468", "certeza": "confirmado"}
+  ],
+  "dicas": [
+   "Programa tem 2 sessões clínicas/semana (discussão de casos + journal club) e visita geral com o professor — formato bom para observador.",
+   "Atividades do fellowship: ambulatórios específicos, enfermaria e interconsultas supervisionadas (documento CEE-SP 2019).",
+   "Estágio externo provavelmente via Comissão de Residência/Ensino do HCFMUSP (não confirmado)."
+  ],
+  "rota_recomendada": "1) Ofício da COREME Unifesp para estágio optativo de 1 mês em cardio-oncologia ICESP via Comissão de Ensino do HCFMUSP; 2) e-mail à equipe de Hajjar citando o ensaio IPAC (JAHA 2025) pedindo inserção em ambulatório/interconsulta e sessões semanais.",
+  "alerta_correcao": "URL do radar (PMC7189468) é artigo de 2020, não página de programa."
+ },
+ {
+  "match": "Hospital Pequeno Príncipe",
+  "cidade": "Curitiba (PR), Brasil",
+  "areas": ["cardio_pediatrica"],
+  "programa": {
+   "status": "não encontrado",
+   "detalhe": "Não há página de estágio observador para médico externo. Em 2025 o hospital e as Faculdades Pequeno Príncipe encerraram estágios remunerados e criaram Curso de Especialidades em Saúde da Criança e do Adolescente (inclui ênfase Cardiologia). Residência: 4 vagas cardiologia pediátrica + 2 cirurgia cardíaca pediátrica.",
+   "fontes": [
+    {"url": "https://fpp.edu.br/wp-content/uploads/2025/08/EDITAL-ESP-2026_2028-1.pdf", "trecho": "decidiram por motivos legais encerrar os estágios remunerados e criaram o Curso de Especialidades em Saúde da Criança e do Adolescente"},
+    {"url": "https://med.estrategia.com/portal/residencia-medica/hpp-residencia-medica-tudo-sobre-o-processo-seletivo-para-ingresso-em-2023/", "trecho": "Cardiologia Pediátrica | 04"}
+   ],
+   "certeza": "não encontrado"
+  },
+  "servico": {
+   "nome": "Serviço de Cardiologia (clínica e cirúrgica) e Departamento de Cirurgia Cardiovascular Pediátrica do Hospital Pequeno Príncipe; Programa de Transplante Cardíaco Pediátrico (desde 2004)",
+   "chefe": "não encontrado chefe formal. Coordenador do transplante cardíaco: Bruno Hideo. Edital FPP 2026–2028 cita Dr. Fabio Said Sallum (Cirurgia Cardíaca I), Dr. Leonardo Mulinari (Cirurgia Cardíaca II), Dr. Lucas Rocha Oliveira (Cardiologia).",
+   "fellowship": "não encontrado",
+   "volume": "2024: 560 cirurgias cardíacas (92 em RN <1 mês), 9 transplantes cardíacos, 46 trocas valvares; 2025: 12 transplantes cardíacos (recorde; ~1 em cada 5 transplantes cardíacos pediátricos do Brasil, dado do hospital); 50º transplante cardíaco em 2025.",
+   "fontes": [
+    {"url": "https://pequenoprincipe.org.br/newsano8/en/?p=2539", "trecho": "In 2024 alone, the Hospital performed 560 cardiac surgeries, including 92 on newborns less than 1 month old ... nine heart transplants"},
+    {"url": "https://pequenoprincipe.org.br/newsano/?p=1203", "trecho": "One in every five pediatric heart transplants performed in Brazil in 2025 ... 12 heart transplants"},
+    {"url": "https://pequenoprincipe.org.br/newsano9/en/6/50th-transplant-marks-pequeno-principes-excellence-in-pediatric-cardiology", "trecho": "Bruno Hideo, coordinator of the heart transplant program"}
+   ],
+   "certeza": "confirmado (volume); chefia = não encontrado"
+  },
+  "pessoas_chave": [
+   {"nome": "Bruno Hideo", "cargo": "Coordenador do programa de transplante cardíaco pediátrico", "por_que": "lidera área de maior destaque recente", "fonte": "https://pequenoprincipe.org.br/newsano9/en/6/50th-transplant-marks-pequeno-principes-excellence-in-pediatric-cardiology"},
+   {"nome": "Fabio Said Sallum", "cargo": "Docente/responsável Cirurgia Cardíaca I no edital de especialização FPP 2026–2028", "por_que": "cirurgia cardíaca pediátrica — possível anfitrião", "fonte": "https://fpp.edu.br/wp-content/uploads/2025/08/EDITAL-ESP-2026_2028-1.pdf"},
+   {"nome": "Leonardo Mulinari", "cargo": "Cirurgia Cardíaca II (edital FPP 2026–2028)", "por_que": "cirurgia cardíaca", "fonte": "https://fpp.edu.br/wp-content/uploads/2025/08/EDITAL-ESP-2026_2028-1.pdf"},
+   {"nome": "Lucas Rocha Oliveira", "cargo": "Cardiologia (edital especialização FPP)", "por_que": "cardiologia pediátrica clínica", "fonte": "https://fpp.edu.br/wp-content/uploads/2025/08/EDITAL-ESP-2026_2028-1.pdf"},
+   {"nome": "Fábio Binhara Navarro", "cargo": "Dept. de Cirurgia Cardiovascular Pediátrica HPP; coautor de artigo BJCVS 2024", "por_que": "ativo em publicação/política da subespecialidade", "fonte": "https://pesquisa.bvsalud.org/portal/resource/PT/biblio-1559404"}
+  ],
+  "brasileiros": "Centro brasileiro; equipe brasileira.",
+  "pontes_unifesp_sp": {"detalhe": "Artigo multicêntrico BJCVS 2024 'Challenges of Congenital Heart Surgery in Brazil' tem coautor do HPP (Navarro) junto a outros centros nacionais; coautoria específica com Unifesp não verificada.", "certeza": "provável/não confirmado"},
+  "pesquisa_recente": [
+   {"titulo": "Challenges of Congenital Heart Surgery in Brazil: It is Time to Designate Pediatric Congenital Heart Surgery Subspecialty (Braz J Cardiovasc Surg 39(4):e20240138)", "ano": 2024, "id": "e20240138 (LILACS biblio-1559404)", "fonte": "https://pesquisa.bvsalud.org/portal/resource/PT/biblio-1559404", "certeza": "confirmado"},
+   {"titulo": "Carta-resposta ao artigo acima (BJCVS 2025)", "ano": 2025, "id": "PMC11952209", "fonte": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11952209", "certeza": "confirmado (autoria não verificada)"}
+  ],
+  "dicas": [
+   "Único hospital pediátrico do Brasil com cardiologia clínica e cirúrgica em tempo integral (site do hospital); UTI cardíaca de 8 leitos inaugurada em 2024.",
+   "Estágios remunerados foram encerrados em 2025 — pedir como estágio optativo não remunerado de residência, via Faculdades Pequeno Príncipe/COREME.",
+   "Relevante só se a residente tem interesse em cardiopatia congênita/transplante pediátrico."
+  ],
+  "rota_recomendada": "1) Contato com a COREME/Faculdades Pequeno Príncipe (fpp.edu.br) com ofício da Unifesp para estágio optativo de 1 mês em cardiologia/cirurgia cardíaca pediátrica; 2) e-mail a Bruno Hideo citando o recorde de 12 transplantes em 2025.",
+  "alerta_correcao": "Valdester Cavalcante Pinto Júnior aparece com afiliação HPP em artigo BJCVS, mas também é ligado ao Ceará — afiliação a checar."
+ },
+ {
+  "match": "Hospital da Criança e Maternidade — CardioPedBrasil",
+  "cidade": "São José do Rio Preto (SP), Brasil",
+  "areas": ["cardio_pediatrica"],
+  "programa": {
+   "status": "não encontrado para médicos",
+   "detalhe": "Editais 2026 do CardioPedBrasil achados são só para perfusionistas: XII Curso de Aperfeiçoamento em CEC Pediátrica (12 meses, 4 vagas, 9/mar–11/dez/2026; inscrições 1/dez/2025–27/fev/2026; em parceria com Children's HeartLink) e VII Curso de Formação em CEC (24 meses, 1 vaga). Residência FAMERP: 4 vagas cardiologia pediátrica. Estágio optativo para residente externo não encontrado.",
+   "fontes": [
+    {"url": "https://www.cardiopedbrasil.com.br/educacao/Edital-XII-Curso-Aperfeicoamento-em-Circulacao-Extracorporea-Pediatrica-2026.pdf", "trecho": "09 de março de 2026 a 11 de dezembro 2026 ... Children's HeartLink Foundation"},
+    {"url": "https://www.cardiopedbrasil.com.br/educacao/Edital-VII-Curso-Formacao-em-Circulacao-Extracorporea-2026.pdf", "trecho": "Hospital da Criança e Maternidade – Serviço de Cardiologia e Cirurgia Cardiovascular Pediátrica de SJRP"}
+   ],
+   "certeza": "não encontrado (médicos)"
+  },
+  "servico": {
+   "nome": "CardioPedBrasil® – Centro do Coração da Criança, Serviço de Cardiologia e Cirurgia Cardiovascular Pediátrica do HCM (FUNFARME/FAMERP)",
+   "chefe": "Prof. Dr. Ulisses Alexandre Croti (representante do CardioPedBrasil; cirurgião cardiovascular pediátrico)",
+   "fellowship": "não encontrado",
+   "volume": "Capacidade >450 pacientes cirúrgicos/ano; >3.500 pacientes no registro IQIC (prêmio 2023); Centro de Excelência Children's HeartLink (1º do Brasil/América Latina; entrega 23/set/2023).",
+   "fontes": [
+    {"url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11092978/", "trecho": "CardioPedBrasil® is able to accommodate over 450 surgical patients annually ... quality excellence award for data collection with more than 3,500 patients"},
+    {"url": "https://sapl.assis.sp.leg.br/sapl_documentos/proposicao/11152_signed.pdf", "trecho": "neste ato representada pelo Prof. Dr. Ulisses Alexandre Cotri [sic]"}
+   ],
+   "certeza": "confirmado"
+  },
+  "pessoas_chave": [
+   {"nome": "Ulisses Alexandre Croti", "cargo": "Líder/representante do CardioPedBrasil; cirurgião cardiovascular pediátrico; autor do relato Centro de Excelência (BJCVS 2024)", "por_que": "decide; organiza simpósios com Mayo Clinic/Children's HeartLink", "fonte": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11092978/"}
+  ],
+  "brasileiros": "Centro brasileiro; equipe brasileira.",
+  "pontes_unifesp_sp": {"detalhe": "Ponte internacional: Children's HeartLink (Minneapolis) e Mayo Clinic (simpósio de Tetralogia de Fallot no HCM). Coautoria com Unifesp não encontrada.", "certeza": "não encontrado (Unifesp)"},
+  "pesquisa_recente": [
+   {"titulo": "Children's HeartLink Certifies Center of Excellence in Brazil (Braz J Cardiovasc Surg, mai/2024; Croti et al.)", "ano": 2024, "id": "doi 10.21470/1678-9741-2023-0485; PMC11092978", "fonte": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11092978/", "certeza": "confirmado"},
+   {"titulo": "Pediatric Heart Transplant: Initial Experience in a Tertiary Center in Brazil (Braz J Cardiovasc Surg vol. 37, 2022)", "ano": 2022, "id": "não apareceu PMID/DOI", "fonte": "https://scielo.br/j/rbccv/a/T6V784GPk3zVdfYXMMNVNqh/?lang=en", "certeza": "provável (URL pode ser de outro artigo do mesmo conjunto)"},
+   {"titulo": "Recomendações globais para serviços de cardiopatia pediátrica/congênita em países de baixa e média renda (coautoria do centro, 2023)", "ano": 2023, "id": "não apareceu", "fonte": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11092978/", "certeza": "provável"}
+  ],
+  "dicas": [
+   "Centro é 'regional trainer' por definição do status Children's HeartLink — formação de externos faz parte da missão.",
+   "Organiza Children's HeartLink International Meeting in Brazil (6ª edição em 2023) e simpósios (Tetralogia de Fallot com Mayo) — porta de entrada via evento.",
+   "Cursos de perfusão 2026 incluem participação nas aulas regulares de cardiologia/cirurgia cardíaca pediátrica do serviço — há rotina didática estruturada."
+  ],
+  "rota_recomendada": "1) Ofício da COREME Unifesp à COREME FAMERP/FUNFARME para estágio optativo de 1 mês no CardioPedBrasil; 2) e-mail ao Prof. Ulisses Croti citando o status de Centro de Excelência Children's HeartLink e o registro IQIC; 3) se houver, participar do próximo encontro internacional Children's HeartLink no HCM.",
+  "alerta_correcao": "Grafia correta: Croti (documento legislativo grafa 'Cotri'). URL do radar (medicinasa) não verificada."
+ }
+]

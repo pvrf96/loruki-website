@@ -1,0 +1,148 @@
+[
+ {
+  "match": "Chinese PLA General Hospital",
+  "cidade": "Pequim, China",
+  "areas": ["robotica"],
+  "programa": {
+   "pagina_observership": "não encontrado (nenhuma página oficial de observership/visiting physician para estrangeiros apareceu nas buscas)",
+   "elegibilidade_taxa_documentos": "não encontrado",
+   "contato_oficial": "não encontrado",
+   "certeza": "não encontrado",
+   "observacao": "Hospital militar (301 Hospital, sob o Exército Popular de Libertação): acesso de estrangeiros provavelmente restrito e mediado por escritório de cooperação internacional; não confirmado."
+  },
+  "servico": {
+   "nomes": ["Department of Cardiovascular Surgery / Institute of Cardiac Surgery, PLA General Hospital (First Medical Centre)"],
+   "chefes": [
+    {"nome": "Gao Changqing (falecido em jan/2019)", "cargo": "ex-diretor de cirurgia cardiovascular e vice-presidente; fez a 1ª cirurgia cardíaca robótica da China (jan/2007)", "fonte": "https://en.wikipedia.org/wiki/Gao_Changqing", "certeza": "confirmado (histórico; NÃO é contato atual)"},
+    {"nome": "chefe atual", "cargo": "não encontrado", "fonte": "não encontrado", "certeza": "não encontrado"}
+   ],
+   "diretor_fellowship": "não encontrado",
+   "volume": {"valor": "650 cirurgias cardíacas robóticas de 2007 a 2013; >700 operações da Vinci até 2014; 24 tipos de procedimento", "fonte": "https://e-memoire.academie-chirurgie.fr/en/ememoire/1411-experience-of-robotic-cardiac-surgery ; https://covid-19.chinadaily.com.cn/china/2014-11/13/content_18906320.htm", "certeza": "confirmado (dados antigos; sem volume recente publicado nas buscas)"}
+  },
+  "pessoas_chave": [
+   {"nome": "Yang Ming", "cargo": "cirurgião, coautor da série robótica de Gao (CABG robótico híbrido, AVSD robótico)", "por_que": "provável sucessor/membro sênior do programa robótico", "fonte": "https://rcastoragev2.blob.core.windows.net/fc3581d014252a387d6a90c86526557a/PMC4636820.pdf", "certeza": "provável (coautoria antiga; cargo atual não confirmado)"},
+   {"nome": "Xiao Cangsong", "cargo": "cirurgião, coautor da série robótica de Gao", "por_que": "membro sênior do programa robótico", "fonte": "https://rcastoragev2.blob.core.windows.net/fc3581d014252a387d6a90c86526557a/PMC4636820.pdf", "certeza": "provável (cargo atual não confirmado)"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {"titulo": "Comparison of clinical outcomes for total robotic versus total thoracoscopic mitral repair (carta)", "ano": 2022, "id": "PMID 35060191", "fonte": "https://www.pubmed.gov/35060191/", "certeza": "confirmado (afiliação First Medical Centre of the Chinese PLA General Hospital)"},
+   {"titulo": "Nenhum outro artigo 2022–2026 do programa robótico encontrado nas buscas", "ano": null, "id": "não encontrado"}
+  ],
+  "dicas": [
+   "Gao editou o livro Springer 'Robotic Cardiac Surgery' (2014) — referência histórica para o e-mail, mas o líder morreu em 2019.",
+   "O programa parece ter perdido visibilidade internacional após 2019 (nenhuma cobertura recente encontrada)."
+  ],
+  "rota_recomendada": "Baixa prioridade: sem programa público para estrangeiros, hospital militar e programa robótico sem produção recente visível. Se insistir, tentar via escritório internacional do hospital/sociedade chinesa de cirurgia robótica; preferir Xiamen ou Queen Mary.",
+  "alerta_correcao": "URL do radar é abstract de 2013; o líder (Gao Changqing) faleceu em 2019 — não usar como contato."
+ },
+ {
+  "match": "Beijing Anzhen Hospital",
+  "cidade": "Pequim, China",
+  "areas": ["robotica"],
+  "programa": {
+   "pagina_observership": "não encontrado (página oficial de visiting scholar para estrangeiros não apareceu)",
+   "elegibilidade_taxa_documentos": "não encontrado",
+   "contato_oficial": "não encontrado",
+   "certeza": "não encontrado",
+   "observacao": "Hospital declara missão de 'international exchange' (ACC); Centro Nacional de Pesquisa Clínica em Doenças Cardiovasculares desde 2014. Fonte: https://acc.org/membership/sections-and-councils/international-center/resources/acc-in-china/apr2020-meet-aprils-feature-institutions (provável)"
+  },
+  "servico": {
+   "nomes": ["Department of Cardiac Surgery, Beijing Anzhen Hospital, Capital Medical University"],
+   "chefes": [{"nome": "não encontrado", "cargo": "chefe do departamento", "fonte": "não encontrado", "certeza": "não encontrado"}],
+   "diretor_fellowship": "não encontrado",
+   "volume": {"valor": "121 reparos mitrais robóticos (da Vinci) jan/2016–jun/2021 (120 analisados), sem conversão para esternotomia", "fonte": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9148248/", "certeza": "confirmado"}
+  },
+  "pessoas_chave": [
+   {"nome": "Bin You", "cargo": "Department of Cardiac Surgery, Anzhen (autor sênior provável da série robótica mitral)", "por_que": "lidera publicação sobre reparo mitral robótico", "fonte": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9148248/", "certeza": "confirmado como autor; papel de líder = provável"},
+   {"nome": "Guang Li", "cargo": "Department of Cardiac Surgery, Anzhen (1º autor)", "por_que": "pesquisador da série robótica", "fonte": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9148248/", "certeza": "confirmado"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {"titulo": "Follow-Up of Robotic Mitral Valve Repair: A Single Tertiary Institution Experience in China (Comput Math Methods Med)", "ano": 2022, "id": "DOI 10.1155/2022/1997371", "fonte": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9148248/", "certeza": "confirmado"},
+   {"titulo": "Nenhum artigo robótico 2023–2026 de Anzhen encontrado", "ano": null, "id": "não encontrado"}
+  ],
+  "dicas": ["Cirurgiões de Anzhen costumam ter passado por visiting scholar nos EUA (UCLA, UPMC) — rede de saída, não programa de entrada confirmado."],
+  "rota_recomendada": "Escrever ao Department of Cardiac Surgery citando o artigo de 2022 (Li/You) e pedir orientação sobre o escritório de cooperação internacional de Anzhen/Capital Medical University. Prioridade média-baixa sem programa estruturado confirmado.",
+  "alerta_correcao": "Polo robótico de Anzhen sustentado por um único artigo (2022, revista de baixo impacto); volume robótico modesto (~24/ano)."
+ },
+ {
+  "match": "Xiamen Cardiovascular Hospital",
+  "cidade": "Xiamen, Fujian, China",
+  "areas": ["robotica"],
+  "programa": {
+   "pagina_observership": "Heart Sapling Visiting Scholar Program (desde 2022): imersão clínica de médicos estrangeiros, foco inicial BRICS e depois países do 'Group of Friends of the GDI' (meta de 50 fellows em 3 anos); incluído no Global Development Project Pool (CIDCA/ONU)",
+   "fonte": "https://en.people.cn/n3/2026/0910/c90000-20498116.html ; https://www.thestar.com.my/aseanplus/aseanplus-news/2026/09/10/brazilian-surgeons-seek-advanced-heart-training-in-china-under-brics-program",
+   "trecho": "launched the program in 2022. Initially, it was focused on training cardiovascular specialists among BRICS nations",
+   "elegibilidade_taxa_documentos": "não encontrado (duração observada: fellowship de 6 meses; taxa, documentos e prazos não publicados nos resultados)",
+   "contato_oficial": "não encontrado (podcast CTSNet 'The Beat With Joel Dunning Ep. 154: The Heart Sapling Program' descreve como se candidatar: https://www.ctsnet.org/?p=241365)",
+   "certeza": "confirmado (existência e foco BRICS); duração 6 meses = confirmado para os brasileiros; programa de 1 mês = não confirmado"
+  },
+  "servico": {
+   "nomes": ["Xiamen Cardiovascular Hospital of Xiamen University — cardiologia estrutural/cirurgia (robótica transcateter e robô cirúrgico nacional)"],
+   "chefes": [{"nome": "Wang Yan", "cargo": "Presidente do hospital; operador dos procedimentos robóticos (TEER robótico, inclusive remoto de Bordeaux em out/2025; reparo mitral com coração batendo 2026)", "fonte": "https://www.fujian.gov.cn/english/news/202510/t20251029_7027484.htm ; https://en.people.cn/n3/2026/0812/c90000-20487941.html", "certeza": "confirmado"}],
+   "diretor_fellowship": "não encontrado",
+   "volume": {"valor": "29 cirurgias robóticas desde 2023 (ago/2026); 1º TEER robótico do mundo em 2023", "fonte": "https://en.people.cn/n3/2026/0812/c90000-20487941.html", "certeza": "confirmado"}
+  },
+  "pessoas_chave": [
+   {"nome": "Wang Yan", "cargo": "Presidente do hospital, intervencionista estrutural", "por_que": "decide e lidera o programa robótico e o Heart Sapling", "fonte": "https://regional.chinadaily.com.cn/XiamenFAO/2025-10/31/c_1136787.htm"},
+   {"nome": "Chen Xiang", "cargo": "coautor do 1º TEER robótico em humano", "por_que": "equipe robótica", "fonte": "https://www.deutsche-digitale-bibliothek.de/item/WWOZNUREUVQITUPPVZQS3LM75KD4J4TS", "certeza": "confirmado como coautor"},
+   {"nome": "Lionel Leroux (CHU Bordeaux) / Thomas Modine", "cargo": "parceiros franceses do TEER robótico remoto", "por_que": "ponte europeia do programa", "fonte": "https://regional.chinadaily.com.cn/XiamenFAO/2025-10/31/c_1136787.htm"}
+  ],
+  "brasileiros": [
+   {"nome": "Amanda Gabas Mercado e Eric Rodrigo Morales Mercado", "vinculo": "casal de cirurgiões de Salvador (BA), fellowship de 6 meses no Heart Sapling desde fim de abril/2026; planejam levar cirurgia cardíaca minimamente invasiva ao Brasil", "fonte": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/09/10/brazilian-surgeons-seek-advanced-heart-training-in-china-under-brics-program", "certeza": "confirmado (fonte única: Xinhua/People's Daily/The Star)"},
+   {"nome": "médico(a) do Hospital de Messejana (Fortaleza)", "vinculo": "enviado em mar/2024 para programa de 6 meses de pesquisa/estudo em Xiamen", "fonte": "https://regional.chinadaily.com.cn/fujian/2024-10/24/c_1038487.htm", "certeza": "confirmado (nome não divulgado)"}
+  ],
+  "pontes_unifesp_sp": {
+   "valor": "Sem ponte Unifesp/USP/Dante. Ponte institucional brasileira: acordo de cooperação Hospital de Messejana (Governo do Ceará) × Xiamen Cardiovascular Hospital assinado em 15/04/2024 (diagnóstico, formação de talentos, TI em saúde); fórum virtual set/2024; cidades-irmãs Xiamen–Fortaleza ('BRICS Twin Cities').",
+   "fonte": "https://www.portalin.com.br/in-connection/ceara-firma-parceria-com-hospital-chines-de-referencia-para-avancos-no-diagnostico-e-tratamento-de-doencas-cardiovasculares/ ; https://www.ipim.gov.mo/en/portuguese-speaking-countries-news/2024-04-25-ceara-government-signs-partnership-with-chinese-hospital-to-advance-diagnosis-and-treatment-of-cardiovascular-diseases/",
+   "certeza": "confirmado"
+  },
+  "pesquisa_recente": [
+   {"titulo": "First-in-human robotic-assisted transcatheter mitral edge-to-edge repair for treatment of severe mitral regurgitation (Int J Cardiovasc Imaging)", "ano": 2024, "id": "DOI 10.1007/s10554-024-03227-3", "fonte": "https://www.deutsche-digitale-bibliothek.de/item/WWOZNUREUVQITUPPVZQS3LM75KD4J4TS", "certeza": "confirmado (autores Wang Yan, Chen Xiang, Su Maolong, Chen Xu, Wang Bin, Taramasso M.)"},
+   {"titulo": "Robotic-assisted TEER with MitraClip G4 (caso PCRonline)", "ano": 2024, "id": "sem DOI/PMID", "fonte": "https://www.pcronline.com/Cases-resources-images/Cases/Read-share-cases/2024/Robotic-assisted-TEER-with-MitraClip-G4", "certeza": "provável (afiliação Xiamen não exibida no trecho)"},
+   {"titulo": "Ensaio NCT07055919: structural heart surgery assist system vs TEER manual com MitraClip G4", "ano": 2025, "id": "NCT07055919", "fonte": "https://ctv.veeva.com/study/structural-heart-surgery-assist-system-for-transcatheter-mitral-valve-edge-to-edge-repair-teer", "certeza": "confirmado (registro)"}
+  ],
+  "dicas": [
+   "Programa estruturado e explicitamente aberto a brasileiros (BRICS) — maior chance de aceite entre os 4 polos.",
+   "Ouvir o episódio 154 do 'The Beat' (CTSNet) sobre como se candidatar.",
+   "Citar a parceria Messejana–Xiamen e os colegas de Salvador no e-mail; perguntar se aceitam estágio curto (~1 mês) além do formato de 6 meses.",
+   "A 'robótica' aqui é sobretudo transcateter/estrutural (TEER robótico) com sistema nacional, mais útil para cardiologia intervencionista do que para cirurgia robótica clássica da Vinci."
+  ],
+  "rota_recomendada": "1) Contatar o Heart Sapling Visiting Scholar Program (via hospital/escritório internacional; ver podcast CTSNet) pedindo vaga curta; 2) pedir apresentação aos fellows de Salvador (Amanda e Eric Mercado) e/ou ao Hospital de Messejana, parceiro formal; 3) e-mail ao gabinete do presidente Wang Yan citando o artigo de 2024 (DOI 10.1007/s10554-024-03227-3).",
+  "alerta_correcao": "Robótica de Xiamen é intervenção estrutural transcateter (TEER) e robô nacional, não cirurgia da Vinci tradicional; adequar o perfil (melhor para R de cardiologia/hemodinâmica estrutural)."
+ },
+ {
+  "match": "Queen Mary Hospital (HKU)",
+  "cidade": "Hong Kong, China",
+  "areas": ["robotica"],
+  "programa": {
+   "pagina_observership": "não encontrado (só programas de estudantes locais, ex. HKUMed X QMH Summer Attachment; o Global Healthcare Talent Scheme da Hospital Authority é intercâmbio de 12–24 meses com registro médico, não observership)",
+   "fonte": "https://www.ha.org.hk/haho/ho/hesd/NLTD_GHTS_en.htm ; https://hkumed-ugadmissions.hku.hk/hkumedify/hkumed-x-qmh-summer-attachment-programme",
+   "elegibilidade_taxa_documentos": "não encontrado",
+   "contato_oficial": "não encontrado",
+   "certeza": "não encontrado (observership curto); provável que dependa de convite do departamento"
+  },
+  "servico": {
+   "nomes": ["Department of Cardiothoracic Surgery, Queen Mary Hospital / Division of Cardiothoracic Surgery, HKU Department of Surgery"],
+   "chefes": [{"nome": "Dr. Cally Ho", "cargo": "Chief of Service e Consultant Cardiac Surgeon, Dept. of Cardiothoracic Surgery, QMH", "fonte": "https://hksf.hku.hk/cally-ho", "certeza": "provável (perfil do Hong Kong Surgical Forum 2025; sem página oficial HA confirmando)"}],
+   "diretor_fellowship": "não encontrado",
+   "volume": {"valor": "1º reparo mitral robótico em 2014; cirurgia minimamente invasiva desde 1996; robótica limitada a ~1 vaga/mês (SCMP, data não exibida); maior centro terciário cardiotorácico de HK, único para transplante/ACHD/MCS", "fonte": "https://www.surgery.hku.hk/en/Clinical-Services/Cardiothoracic-Surgery ; https://www.scmp.com/news/hong-kong/health-environment/article/2054504/how-robotic-arm-technology-can-improve-heart", "certeza": "confirmado (sem volume anual recente)"}
+  },
+  "pessoas_chave": [
+   {"nome": "Dr. Cally Ho", "cargo": "Chief of Service", "por_que": "autoriza visitantes; registro aórtico, transplante e VAD", "fonte": "https://hksf.hku.hk/cally-ho"},
+   {"nome": "Dr. Max Wong", "cargo": "Associate Consultant", "por_que": "interesse em cirurgia cardíaca minimamente invasiva, robótica, reparo mitral e cirurgia de arritmia — anfitrião natural", "fonte": "https://hksf.hku.hk/max-wong"},
+   {"nome": "Dr. Daniel Chan Tai-leung", "cargo": "cirurgião cardíaco/estrutural, pioneiro da robótica cardíaca na QMH", "por_que": "liderou a cirurgia cardíaca robótica no QMH", "fonte": "https://hkuhs.med.hku.hk/en/Homepage/Our Professional/Dr Chan Tai Leung Daniel", "certeza": "provável (vínculo atual: perfil HKU Health System; pode atuar mais no setor privado/HKU-SZ)"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [{"titulo": "Nenhum artigo robótico cardíaco 2022–2026 do QMH encontrado nas buscas", "ano": null, "id": "não encontrado"}],
+  "dicas": [
+   "Hong Kong Surgical Forum (HKU) é evento anual com perfis dos cirurgiões — possível porta de entrada/networking.",
+   "Robótica cardíaca tem baixo volume (1 caso/mês reportado); considerar foco em mitral minimamente invasiva/transplante/MCS."
+  ],
+  "rota_recomendada": "E-mail ao Dr. Max Wong (interesse explícito em robótica/mitral) com cópia à Chief of Service Dr. Cally Ho, pedindo observership de ~4 semanas e o caminho administrativo HKU/HA; alternativa: inscrição no Hong Kong Surgical Forum para contato presencial. Prioridade média.",
+  "alerta_correcao": "Volume robótico cardíaco baixo e sem publicação recente; programa formal de observership para estrangeiros não confirmado."
+ }
+]

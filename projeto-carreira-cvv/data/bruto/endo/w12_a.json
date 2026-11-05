@@ -1,0 +1,143 @@
+[
+ {
+  "match": "Szpital Medicover — Kardiochirurgia",
+  "cidade": "Varsóvia", "pais": "Polônia", "areas": ["robotica"],
+  "programa": {
+   "observership_oficial": "não encontrado (nenhuma página de staż/obserwacja para médicos externos ou estrangeiros)",
+   "elegibilidade_estrangeiro": "não encontrado", "taxa": "não encontrado", "duracao": "não encontrado", "documentos": "não encontrado",
+   "contato_oficial": "hospital Al. Rzeczypospolitej 5, Varsóvia; tel. geral 500 900 900; secretaria da clínica 668 430 705 (seg–sex 8–15) — conforme resumo de busca das páginas Medicover; e-mail kardiochirurgia@medicover.pl vem do radar (não reconfirmado nesta rodada)",
+   "fonte": "https://www.medicover.pl/szpital/kardiochirurgia/ ; https://www.medicover.pl/en/medicover-hospital/cardiac-surgery",
+   "certeza": "confirmado: ausência de programa público; telefones = provável (resumo de busca)"
+  },
+  "servico": {
+   "nome": "Klinika Kardiochirurgii, Szpital Medicover (Warszawa)",
+   "chefe": "dr hab. n. med. Krzysztof Wróbel — 'Kierownik Kliniki Kardiochirurgii Szpitala Medicover. Profesor Uczelni Łazarskiego' (https://www.medicover.pl/lekarze/krzysztof-wrobel,20382,d,1021)",
+   "robotica": "Primeiras plastias mitrais robóticas (da Vinci) da Polônia, nov/2018, feitas com W. Randolph Chitwood ('pierwszy taki zabieg ... w listopadzie 2018 roku, wykonany wspólnie z prof. W. Randolphem Chitwoodem') — https://www.medicover.pl/o-zdrowiu/kardiochirurgia-a-robot-da-vinci-podcast,7274,n,168 . Também NeoChord transapical (único time na Polônia) e programa MIDCAB/híbrido coronário liderado por Marcin Zygier (https://www.medicover.pl/en/medicover-hospital/cardiac-surgery).",
+   "fellowship": "não encontrado",
+   "volume": "'ponad 4000 operacji' (acumulado, sem ano) — https://www.medicover.pl/szpital/kardiochirurgia/ ; volume robótico anual não encontrado",
+   "certeza": "confirmado (chefia e pioneirismo); volume = acumulado sem data"
+  },
+  "pessoas_chave": [
+   {"nome": "Krzysztof Wróbel", "cargo": "Chefe da Klinika Kardiochirurgii; prof. Uczelnia Łazarskiego", "por_que": "decide; fez as primeiras mitrais robóticas da Polônia; página diz que treinou médicos de vários países em NeoChord", "fonte": "https://www.medicover.pl/lekarze/krzysztof-wrobel,20382,d,1021"},
+   {"nome": "Marcin Zygier", "cargo": "líder do programa coronário minimamente invasivo (MIDCAB/híbrido)", "por_que": "área minimamente invasiva coronária", "fonte": "https://www.medicover.pl/en/medicover-hospital/cardiac-surgery"},
+   {"nome": "Katarzyna Kurnicka", "cargo": "coautora (eco) dos trabalhos robóticos/NeoChord", "por_que": "pesquisa de seguimento ecocardiográfico", "fonte": "https://doaj.org/article/86d5d244f86044f584cbe4ec194e4605"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {"titulo": "Miniinvasive robotic mitral valve repair using the da Vinci system in the first two patients in Poland – echocardiographic follow-up results 30 months after surgery", "ano": 2022, "ref": "Kardiochir Torakochir Pol 19(3):177–179 (carta ao editor; Kurnicka, Zieliński, Wróbel); DOI/PMID não exibidos nos resultados", "fonte": "https://doaj.org/article/86d5d244f86044f584cbe4ec194e4605"},
+   {"titulo": "(fora da janela 2022–26) Early results of MV repair with NeoChord DS1000 – first Polish consecutive patients", "ano": 2019, "ref": "Adv Interv Cardiol 2019;15(1):20-27, DOI 10.5114/aic.2019.81438", "fonte": "https://doaj.org/article/ca92396fccdf4c2b83d8f13ab1cdfa64"}
+  ],
+  "pesquisa_recente_obs": "nenhum artigo 2023–2026 de robótica do serviço encontrado",
+  "dicas": "Hospital privado (Medicover); robótica cardíaca aparentemente de baixo volume e centrada em mitral; vínculo histórico com Chitwood (ECU) — bom gancho para e-mail. Wróbel também tem simulador/biosimulador de reparo mitral com Chitwood (resumo de busca, provável).",
+  "rota_recomendada": "E-mail direto a Wróbel via secretaria da clínica, pedindo 2–4 semanas de observação em mitral minimamente invasiva/robótica/NeoChord, citando a carta de 2022 e o caso com Chitwood; sem programa formal, espere negociação ad hoc. Prioridade baixa frente a centros robóticos de alto volume.",
+  "alerta_correcao": "O radar atribui o url termedia ao Medicover — correto (artigo de Wróbel). Atenção: a robótica cardíaca de maior volume em Varsóvia é no PIM MSWiA (Suwalski), não no Medicover."
+ },
+ {
+  "match": "USK Wrocław",
+  "cidade": "Wrocław", "pais": "Polônia", "areas": ["robotica"],
+  "programa": {
+   "observership_oficial": "não encontrado",
+   "elegibilidade_estrangeiro": "não encontrado", "taxa": "não encontrado", "documentos": "não encontrado", "contato_oficial": "não encontrado",
+   "certeza": "confirmado: nada público"
+  },
+  "servico": {
+   "nome": "Klinika (Oddział Kliniczny) Kardiochirurgii, Instytut Chorób Serca, Uniwersytecki Szpital Kliniczny we Wrocławiu / Katedra Kardiochirurgii i Transplantacji Serca UMW",
+   "chefe": "prof. Roman Przybylski — 'kierownik Katedry Kardiochirurgii i Transplantacji Serca UMW, kierownik Oddziału Kardiochirurgii USK dr Roman Przybylski, prof. UMW' (https://www.wroclaw.pl/dla-mieszkanca/uniwersytecki-szpital-kliniczny-we-wroclawiu-jest-liderem-w-dziedzinie-transplantologii-w-polsce)",
+   "robotica": "1ª cirurgia cardíaca robótica da Baixa Silésia em 13/03/2025 (da Vinci Xi), com a equipe de Varsóvia (Piotr Suwalski e Radosław Smoczyński, PIM MSWiA) e Przybylski + Maciej Rachwalik fazendo a revascularização; 'Operacje kardiochirurgiczne z użyciem systemu da Vinci były dotąd przeprowadzane jedynie w Warszawie, w Państwowym Instytucie Medycznym MSWiA' — https://www.wroclaw.pl/dla-mieszkanca/pierwsza-na-dolnym-slasku-operacja-kardiochirurgiczna-robotem-da-vinci ; mp.pl 14/03/2025 https://www.mp.pl/chirurgia/aktualnosci/375413,wroclaw-kardiochirurgia-robotyczna-w-usk",
+   "volume": "robótico: não encontrado (só o caso inaugural). Forte em transplante: 2º centro do país em transplantes cardíacos no 1º ano (2021).",
+   "fellowship": "não encontrado",
+   "certeza": "confirmado (caso inaugural e chefia); continuidade do programa robótico = não encontrado"
+  },
+  "pessoas_chave": [
+   {"nome": "Roman Przybylski", "cargo": "chefe da Kardiochirurgia USK / Katedra UMW", "por_que": "decide", "fonte": "https://www.wroclaw.pl/dla-mieszkanca/pierwsza-na-dolnym-slasku-operacja-kardiochirurgiczna-robotem-da-vinci"},
+   {"nome": "Maciej Rachwalik", "cargo": "cirurgião cardíaco USK", "por_que": "co-operador do 1º caso robótico", "fonte": "mesma"},
+   {"nome": "Piotr Suwalski", "cargo": "PIM MSWiA Varsóvia (outra instituição)", "por_que": "mentor/proctor robótico do caso; real polo robótico polonês", "fonte": "mesma"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": "não encontrado artigo 2022–2026 de robótica do serviço (buscas não retornaram).",
+  "dicas": "Programa robótico cardíaco incipiente (2025), dependente de mentoria do PIM MSWiA; não há página de estágio. O hospital tem 'Uniwersyteckie Centrum Chirurgii Robotycznej' (multidisciplinar).",
+  "rota_recomendada": "Baixa prioridade para robótica: o know-how está no PIM MSWiA (Suwalski), que deveria ser o alvo. Se ainda assim quiser Wrocław, contato via secretaria da Katedra UMW a Przybylski, com foco em transplante/assistência circulatória + robótica inicial.",
+  "alerta_correcao": "O 'polo' de robótica de Wrocław na prática é um caso feito com a equipe do PIM MSWiA (Varsóvia, Suwalski/Smoczyński). Considerar adicionar/substituir pelo PIM MSWiA no radar."
+ },
+ {
+  "match": "Kepler Universitätsklinikum — Herz Zentrum",
+  "cidade": "Linz", "pais": "Áustria", "areas": ["robotica"],
+  "programa": {
+   "observership_oficial": "não encontrado (sem página de Hospitation/Gastarzt). Página 'Aus- und Weiterbildung' da cirurgia descreve só residência de 48 meses e ofertas a estudantes.",
+   "elegibilidade_estrangeiro": "para vagas, 'Ausländische BewerberInnen müssen die Erfordernisse der Ärztekammer (www.aekooe.at) erfüllen' (anúncio de emprego) — não se aplica diretamente a observer",
+   "taxa": "não encontrado", "documentos": "não encontrado",
+   "contato_oficial": "não encontrado e-mail de observership; página da clínica: https://prod.kepleruniklinikum.at/kliniken-einrichtungen/herz-gefaess-und-thoraxchirurgie/aus-und-weiterbildung",
+   "fonte": "https://prod.kepleruniklinikum.at/kliniken-einrichtungen/herz-gefaess-und-thoraxchirurgie/aus-und-weiterbildung ; https://www.praktischarzt.de/job/stationsaerztin-stationsarzt-fuer-herz-gefaess-thoraxchirurgie-2/",
+   "certeza": "confirmado: ausência de programa público"
+  },
+  "servico": {
+   "nome": "Universitätsklinik für Herz-, Gefäß- und Thoraxchirurgie (dentro do Universitäres Herz Zentrum OÖ), Kepler Universitätsklinikum / JKU",
+   "chefe": "Univ.-Prof. Dr. Andreas F. Zierer (Vorstand; catedrático desde 2017) — https://kepleruniklinikum.at/media/4594/pa_010317_lehrstuhl-fuer-herz-gefaess-und-thoraxchirurgie-in-linz_professor-zierer-tritt-dienst-an.pdf ; foco 'minimally invasive and interventional cardiac surgery as well as aortic surgery' (https://www.leading-medicine-guide.com/en/medical-experts/andreas-f-zierer-linz)",
+   "robotica": "Primeiras 2 revascularizações robóticas (da Vinci Xi), coração batendo sem CEC, em julho (post LinkedIn data 29.7.2026; imprensa diz 26 de julho, sem ano), sob Zierer, com apoio de Štěpán Černý (Motol, Praga); ~1 ano de preparação; parte de projeto maior lançado em junho com Steinwender (cardiologia) e Meier (anestesia) — https://www.tips.at/nachrichten/ooe/leben/731367-erste-roboter-bypass-operationen-am-kepler-uniklinikum-linz-durchgefuehrt ; https://www.meinbezirk.at/linz/c-gesundheit/erste-bypass-operationen-mit-roboterunterstuetzung-am-kuk_a8837086 ; https://at.linkedin.com/in/seedavid",
+   "volume": "não encontrado (programa robótico cardíaco em fase inicial, 2026)",
+   "fellowship": "não encontrado",
+   "certeza": "confirmado (chefe, casos iniciais); ano 2026 = provável (só via LinkedIn)"
+  },
+  "pessoas_chave": [
+   {"nome": "Andreas F. Zierer", "cargo": "Vorstand da Herz-, Gefäß- und Thoraxchirurgie; líder do Herz Zentrum (Linz+Wels)", "por_que": "decide e opera robótica", "fonte": "https://www.tips.at/nachrichten/ooe/leben/731367-erste-roboter-bypass-operationen-am-kepler-uniklinikum-linz-durchgefuehrt"},
+   {"nome": "Clemens Steinwender", "cargo": "Vorstand Kardiologie und Internistische Intensivmedizin", "por_que": "co-líder do projeto robótico/Herz Zentrum (estrutural)", "fonte": "https://at.linkedin.com/in/seedavid"},
+   {"nome": "Jens Meier", "cargo": "Vorstand Anästhesiologie", "por_que": "co-líder do projeto", "fonte": "https://at.linkedin.com/in/seedavid"},
+   {"nome": "Štěpán Černý", "cargo": "cirurgião, Motol University Hospital (Praga) — externo", "por_que": "proctor dos primeiros casos; Motol é o centro robótico de referência por trás", "fonte": "https://www.meinbezirk.at/linz/c-gesundheit/erste-bypass-operationen-mit-roboterunterstuetzung-am-kuk_a8837086"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {"titulo": "Estudo retrospectivo unicêntrico de 100 pacientes consecutivos com válvula aórtica sutureless Perceval (Kepler Univ. Hospital; Zierer coautor)", "ano": 2024, "ref": "Front Cardiovasc Med 2024, DOI 10.3389/fcvm.2024.1417617", "fonte": "https://www.frontiersin.org/journals/cardiovascular-medicine/articles/10.3389/fcvm.2024.1417617/epub"},
+   {"titulo": "Estudo internacional de prótese de arco aórtico de nova geração (Linz maior recrutador: 38/260)", "ano": "não datado", "ref": "notícia JKU; DOI não encontrado", "fonte": "https://www.jku.at/en/quanta/detail/news/meilenstein-fuer-herzchirurgie"}
+  ],
+  "dicas": "Programa robótico cardíaco recém-nascido (julho/2026) — volume baixo; valor maior para observar minimamente invasiva/aorta. Exige alemão no dia a dia. Página de publicações da clínica: https://kepleruniklinikum.at/versorgung/kliniken/herz-gefaess-und-thoraxchirurgie/publikationen",
+  "rota_recomendada": "Para robótica, o alvo real seria Motol/Praga (Černý). Em Linz: e-mail ao secretariado de Zierer pedindo Hospitation de 4 semanas em cirurgia valvar minimamente invasiva/aorta + início do programa robótico, citando o artigo Perceval 2024.",
+  "alerta_correcao": "URL do radar trata de marco em válvulas (Herzklappen), não de robótica; robótica cardíaca só começou em jul/2026 (provável), com proctoring de Motol/Praga."
+ },
+ {
+  "match": "St. Paul's Hospital — Centre for Heart Valve Innovation",
+  "cidade": "Vancouver", "pais": "Canadá", "areas": ["estrutural"],
+  "programa": {
+   "observership_oficial": "não encontrada página de observership da Providence Health Care/CHVI",
+   "elegibilidade_estrangeiro": "Na Colúmbia Britânica, observadores clínicos precisam de registro no CPSBC (classe 'clinical observer'): 'CPSBC must receive a signed clinical observership agreement from a supervising physician along with a copy of the ... CV'; observer atua no nível de estudante de 4º ano, sem prática independente",
+   "taxa": "não encontrado (taxa CPSBC não exibida)",
+   "documentos": "acordo assinado pelo médico supervisor + CV (CPSBC); demais não encontrado",
+   "contato_oficial": "não encontrado contato de educação; único e-mail institucional publicado é de encaminhamento de pacientes (transcatheterheartvalve@providencehealth.bc.ca) — NÃO usar para observership",
+   "fonte": "https://www.cpsbc.ca/registrants/current-registrants/registration-and-licensing/img/clinical-observer ; https://www.providencehealthcare.org/sites/default/files/2024-02/Info%20for%20referring%20docs%20for%20THV.pdf",
+   "certeza": "confirmado (exigência CPSBC + supervisor); programa do hospital = não encontrado"
+  },
+  "servico": {
+   "nome": "Centre for Heart Valve Innovation (St. Paul's + Vancouver General) / Vancouver Transcatheter Heart Valve Program, St. Paul's Hospital (Providence Health Care / UBC)",
+   "chefe": "Dr. John G. Webb — diretor do CHVI e de Cardiologia Intervencionista do St. Paul's; McLeod Professor UBC; diretor médico do Transcatheter Valve Program da BC (https://esc365.escardio.org/person/89055 ; https://medicine.med.ubc.ca/?p=31120)",
+   "fellowship": "diretor do fellowship estrutural: não encontrado",
+   "volume": "1.000º procedimento valvar transcateter em jun/2014 (PDF Providence); equipe de Webb fez/supervisionou >3.000 procedimentos em 30 países e treinou grupos em >25 países (UBC); volume anual atual não encontrado. Novo St. Paul's (com hub de pesquisa) abrindo em 2026 (helpstpauls.com).",
+   "certeza": "confirmado"
+  },
+  "pessoas_chave": [
+   {"nome": "John G. Webb", "cargo": "Diretor CHVI / Intervencionista St. Paul's", "por_que": "decide; pioneiro TAVI transfemoral (2005)", "fonte": "https://medicine.med.ubc.ca/?p=31120"},
+   {"nome": "Janarthanan Sathananthan", "cargo": "cardiologista intervencionista/estrutural St. Paul's e VGH; ex-fellow 2 anos no CHVI", "por_que": "lidera bench-testing/redo-TAVR; provável anfitrião de observers", "fonte": "https://vchri.ca/researchers/janarthanan-sathananthan ; https://scai.confex.com/scai/2023/webprogramarchives/Person33666.html"},
+   {"nome": "David A. Wood", "cargo": "cardiologista estrutural (coautor sênior)", "por_que": "pesquisa TAVR/redo", "fonte": "https://bibliography.cumc.columbia.edu/node/34266"},
+   {"nome": "Stephanie L. Sellers", "cargo": "pesquisadora (laboratório translacional/biobanco TAVI)", "por_que": "pesquisa básica valvar", "fonte": "https://healthresearchbc.ca/award_researcher/stephanie-sellers"},
+   {"nome": "Jonathon Leipsic", "cargo": "diretor do Advanced Cardiac Imaging Fellowship (radiologia UBC)", "por_que": "imagem/TC pré-TAVI", "fonte": "https://radiology.med.ubc.ca/education/fellowships/advanced-cardiac-imaging"},
+   {"nome": "Anson Cheung", "cargo": "cirurgião cardíaco St. Paul's (programa Tiara transcateter mitral)", "por_que": "ponte para residentes de cirurgia CV", "fonte": "https://thedailyscan.providencehealthcare.org/2020/01/neovasc-announces-executive-steering-committee-for-transfemoral-trans-septal-tiara-program-dr-anson-cheung-sph/"}
+  ],
+  "brasileiros": [
+   {"nome": "Matheus Simonato", "vinculo": "editorial 2015 (Rev Bras Cardiol Invasiva) com dupla afiliação Escola Paulista de Medicina/UNIFESP + St. Paul's Hospital Vancouver, com Danny Dvir; MD pela EPM (2019, perfil Yale); coordenador científico do registro VIVID", "fonte": "https://www.elsevier.es/en-revista-revista-brasileira-cardiologia-invasiva-english-234-articulo-aortic-valve-in-valve-hemodynamic-outcomes-where-S2214123516300023 ; https://medicine.yale.edu/internal-medicine/profile/matheus-simonato/ ; https://bv.fapesp.br/en/pesquisador/681921/URL", "certeza": "confirmado (vínculo Brasil + afiliação St. Paul's); se foi fellow = não encontrado"}
+  ],
+  "pontes_unifesp_sp": [
+   "Registro VIVID (Dvir, então em St. Paul's): coautores de St. Paul's (Leipsic, Sathananthan etc.) com InCor-USP, EPM/UNIFESP e Einstein — EHJ 2018, obstrução coronária em ViV (Rodés-Cabau et al.) — https://pesquisa.bvsalud.org/aleitamentomaterno/resource/pt/mdl-29020413 (provável: lista de autores via resumo de busca)",
+   "VIVID 2019 stentless vs stented (Duncan, Moat): Simonato (UNIFESP) + Sathananthan (St. Paul's) — https://pesquisa.bvsalud.org/bvsiec/resource/pt/mdl-31202944 (provável)",
+   "Simonato + José Honório Palma (cirurgião UNIFESP), revisão ViV TAVR em Structural Heart 2025 — https://profiles.wustl.edu/en/publications/the-essential-aortic-valve-in-valve-transcatheter-aortic-valve-re-2/ (ponte indireta Unifesp)"
+  ],
+  "pesquisa_recente": [
+   {"titulo": "Redo-TAVI with the ACURATE neo2 and Prime XL for balloon-expandable transcatheter heart valve failure (bench)", "ano": 2024, "ref": "DOI 10.4244/eij-d-23-00783 (EuroIntervention); Meier, ... Wood, Webb, Sellers, Sathananthan", "fonte": "https://bibliography.cumc.columbia.edu/node/34266"},
+   {"titulo": "Outcomes of Redo Transcatheter Aortic Valve Replacement According to the Initial and Subsequent Valve Type", "ano": 2022, "ref": "JACC Cardiovasc Interv 2022; DOI/PMID não exibidos", "fonte": "https://fis.uke.de/portal/en/publications/outcomes-of-redo-transcatheter-aortic-valve-replacement-according-to-the-initial-and-subsequent-valve-type(40230024-08aa-4801-803f-8bee27d7584b)/export.html"},
+   {"titulo": "Artigo CJC Open (maio/2022) com múltiplos autores do CHVI", "ano": 2022, "ref": "título/DOI não exibidos no resultado", "fonte": "https://doaj.org/article/6b5e4ae5a29040cabd5d198d46e6b1f0"}
+  ],
+  "dicas": "Sem programa estruturado público: precisa de supervisor interno que assine o acordo do CPSBC — conseguir o 'sim' de um staff (Sathananthan/Wood/Webb) é o passo crítico. Equipe transmite casos de TAVI para treinamento internacional. Hospital muda para o novo St. Paul's em 2026 (pode afetar disponibilidade). Precedente de visitante estrangeiro (APF Fellow 2018–19).",
+  "rota_recomendada": "1) Pedir apresentação via Matheus Simonato (EPM/UNIFESP, VIVID) ou J.H. Palma (Unifesp) a Sathananthan/Webb; 2) e-mail a Sathananthan citando o bench redo-TAVI 2024 e o VIVID com UNIFESP, pedindo 4 semanas de observação estrutural; 3) com o supervisor confirmado, tramitar o registro 'clinical observer' no CPSBC com antecedência.",
+  "alerta_correcao": "Contato do radar é PDF de encaminhamento de pacientes (e-mail clínico), não de educação. CHVI é conjunto St. Paul's + VGH."
+ }
+]

@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Verdadeiro ou falso</title>
+<meta name="description" content="Trilha didática de questões de verdadeiro ou falso para o edital de Engenharia Civil do TCESP (Vunesp): pré-teste, lição, confiança, conserto da frase e simulado.">
+<style>
+  :root { --tx:#1d1d1f; --suave:#5b5b60; --linha:#e6e6e9; --marca:#0b57d0; --marcabg:#e8f0fe; --ok:#137333; --okbg:#e6f4ea; --err:#b3261e; --errbg:#fce8e6; --amar:#8a5a00; --amarbg:#fef7e0; --card:#fafafa; }
+  * { box-sizing:border-box; }
+  html { -webkit-text-size-adjust:100%; }
+  body { margin:0; background:#fff; color:var(--tx); font:17px/1.6 -apple-system,"Segoe UI",Roboto,Arial,sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:28px 16px 100px; }
+  h1 { font-size:28px; line-height:1.2; margin:0 0 6px; }
+  h2 { font-size:20px; margin:28px 0 10px; }
+  p { margin:0 0 14px; overflow-wrap:break-word; }
+  a { color:var(--marca); }
+  .sub { color:var(--suave); font-size:15px; }
+  button { font:inherit; cursor:pointer; border-radius:10px; border:1px solid var(--linha); background:#fff; color:var(--tx); padding:12px 14px; text-align:left; }
+  button.pri { background:var(--marca); color:#fff; border-color:var(--marca); font-weight:700; text-align:center; }
+  button:disabled { opacity:.55; cursor:default; }
+  button small { display:block; font-weight:400; font-size:14px; opacity:.85; }
+  .btns { display:grid; gap:10px; }
+  .metr { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; margin:16px 0; }
+  .m { border:1px solid var(--linha); border-radius:10px; padding:10px 12px; }
+  .m b { display:block; font-size:22px; }
+  .m span { color:var(--suave); font-size:13px; }
+  .trilha { list-style:none; padding:0; margin:0; display:grid; gap:8px; }
+  .trilha button { width:100%; display:flex; gap:12px; align-items:center; }
+  .bola { flex:0 0 34px; height:34px; border-radius:50%; display:grid; place-items:center; font-weight:800; font-size:14px; background:var(--linha); }
+  .feita .bola { background:var(--ok); color:#fff; }
+  .atual .bola { background:var(--marca); color:#fff; }
+  .trilha .info { flex:1; min-width:0; }
+  .trilha .info small { color:var(--suave); }
+  .topo { display:flex; justify-content:space-between; gap:8px; color:var(--suave); font-size:14px; margin-bottom:10px; }
+  .fase { display:inline-block; font-size:12px; font-weight:700; letter-spacing:.05em; text-transform:uppercase; color:var(--marca); background:var(--marcabg); border-radius:6px; padding:2px 8px; margin-bottom:10px; }
+  .barra { height:6px; background:var(--linha); border-radius:3px; overflow:hidden; margin-bottom:14px; }
+  .barra i { display:block; height:100%; background:var(--marca); }
+  .card { border:1px solid var(--linha); border-radius:12px; padding:18px; background:var(--card); }
+  .ctx { background:#fff; border-left:4px solid var(--marca); padding:10px 12px; margin-bottom:14px; font-size:16px; }
+  .frase { font:19px/1.65 Georgia,"Times New Roman",serif; margin:0 0 16px; }
+  .conf4 { display:grid; grid-template-columns:1fr 1fr; gap:8px; }
+  .conf4 button { text-align:center; font-weight:700; padding:12px 8px; }
+  .conf4 button small { font-weight:400; }
+  .vbt { border-color:#9ccfa8; } .fbt { border-color:#f0a8a2; }
+  .tok { display:inline; padding:1px 2px; border-radius:4px; cursor:pointer; }
+  .tok:hover { background:var(--amarbg); }
+  .tok.alvo { background:var(--errbg); color:var(--err); text-decoration:line-through; }
+  .tok.errado { background:var(--amarbg); }
+  .passo { margin-top:16px; padding-top:14px; border-top:1px dashed var(--linha); }
+  .opc { display:grid; gap:8px; }
+  .opc button.certa { background:var(--okbg); border-color:var(--ok); }
+  .opc button.erradaE { background:var(--errbg); border-color:var(--err); }
+  .fb { margin-top:16px; border-radius:12px; padding:16px; }
+  .fb.ok { background:var(--okbg); } .fb.err { background:var(--errbg); }
+  .res { font-weight:800; font-size:18px; margin-bottom:6px; }
+  .alta { background:var(--err); color:#fff; border-radius:8px; padding:8px 12px; font-weight:700; margin-bottom:10px; }
+  .rot { font-size:12px; font-weight:700; text-transform:uppercase; letter-spacing:.05em; color:var(--suave); display:block; }
+  .fb p { font-size:16px; }
+  .certo { font-family:Georgia,serif; }
+  .certo ins { text-decoration:none; background:#c8ead2; padding:0 2px; border-radius:3px; }
+  .selo { display:inline-block; font-weight:800; letter-spacing:.06em; font-size:12px; border:2px solid currentColor; border-radius:6px; padding:1px 7px; margin-right:6px; }
+  .chips { display:flex; flex-wrap:wrap; gap:8px; }
+  .chips button { padding:6px 12px; font-size:14px; }
+  .chips button.on { background:var(--marca); color:#fff; border-color:var(--marca); }
+  .fonte { font-size:13px; color:var(--suave); }
+  .licao { border:1px solid var(--linha); border-radius:12px; padding:16px; margin-bottom:12px; }
+  .licao h3 { margin:0 0 6px; font-size:16px; }
+  .licao p { font:17px/1.6 Georgia,serif; margin:0 0 6px; }
+  table { width:100%; border-collapse:collapse; font-size:15px; }
+  td,th { text-align:left; padding:8px 6px; border-bottom:1px solid var(--linha); vertical-align:top; }
+  .bom { color:var(--ok); font-weight:700; } .mau { color:var(--err); font-weight:700; }
+  .aviso { background:var(--amarbg); color:var(--amar); border-radius:8px; padding:10px 12px; font-size:15px; margin-bottom:14px; }
+  details { margin:6px 0; }
+  summary { cursor:pointer; }
+  footer { margin-top:44px; color:var(--suave); font-size:14px; }
+</style>
+</head>
+<body>
+<main id="app"><p>Carregando…</p></main>
+<script>
+const $ = (s) => document.querySelector(s);
+const esc = (t) => String(t ?? '').replace(/[&<>"']/g, (m) => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;' }[m]));
+const RESUMO = 'https://resumofinalprova.vercel.app/#';
+const CHAVE = 'verdadeirofinal-v1';
+const OPS = { VIZINHO:'trocou o número ou a palavra pelo vizinho', ESCOPO:'ampliou ou restringiu o alcance', 'INVERSÃO':'inverteu a regra', ABSOLUTO:'pôs um absoluto que a lei não tem' };
+const MOTIVOS = ['li rápido', 'confundi o número', 'não sabia', 'caí no absoluto', 'troquei o sujeito'];
+const shuffle = (a) => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+function carrega() { try { return JSON.parse(localStorage.getItem(CHAVE)) || {}; } catch (e) { return {}; } }
+function salva() { try { localStorage.setItem(CHAVE, JSON.stringify(E)); } catch (e) {} }
+let D = null, E = carrega(), S = null;
+E.et = E.et || {}; E.cad = E.cad || {}; E.cal = E.cal || { c: [0, 0], a: [0, 0] }; E.tv = E.tv || [0, 0]; E.mot = E.mot || {};
+
+const Q = (id) => D.q.find((q) => q.id === id);
+const pct = (a, n) => n ? Math.round(100 * a / n) : null;
+
+function inicio() {
+  S = null;
+  const c = E.cal, errCert = c.c[0] - c.c[1];
+  const proxima = D.etapas.find((e) => !E.et[e.id]) || D.etapas[0];
+  const nCad = Object.keys(E.cad).length;
+  const motTop = Object.entries(E.mot).sort((a, b) => b[1] - a[1]);
+  $('#app').innerHTML = `
+  <h1>Verdadeiro ou falso</h1>
+  <p class="sub">Trilha didática do edital (TCESP, Engenharia Civil, Vunesp). Em cada etapa: você tenta primeiro, depois vem a lição, depois a prática com caso. Questões escritas do zero a partir do <a href="https://resumofinalprova.vercel.app">resumo final</a> e do <a href="https://pegadinhasfinal.vercel.app">pegadinhas final</a>, com outras redações, para treinar a regra e não a frase decorada.</p>
+  <div class="metr">
+    <div class="m"><b>${pct(c.c[1], c.c[0]) ?? '–'}${c.c[0] ? '%' : ''}</b><span>acerto quando você marca "certeza" (${c.c[0]} respostas)</span></div>
+    <div class="m"><b>${c.c[0] ? pct(errCert, c.c[0]) + '%' : '–'}</b><span>erros com certeza · meta abaixo de 5%</span></div>
+    <div class="m"><b>${pct(E.tv[1], E.tv[0]) ?? '–'}${E.tv[0] ? '%' : ''}</b><span>acerto nas frases verdadeiras</span></div>
+    <div class="m"><b>${Object.keys(E.et).length}/${D.etapas.length}</b><span>etapas concluídas</span></div>
+  </div>
+  ${c.c[0] >= 10 && pct(c.c[1], c.c[0]) < 85 ? `<p class="aviso">Sua "certeza" ainda não é confiável (${pct(c.c[1], c.c[0])}% de acerto). Na prova, é ela que decide. Antes de marcar certeza, procure o número, o sujeito e o absoluto da frase.</p>` : ''}
+  ${E.tv[0] >= 10 && pct(E.tv[1], E.tv[0]) < 70 ? `<p class="aviso">Você erra muitas frases <b>verdadeiras</b>: está desconfiando de tudo. Nem toda frase é pegadinha. Leia até o fim.</p>` : ''}
+  <div class="btns">
+    <button class="pri" id="seguir">Continuar a trilha: etapa ${D.etapas.indexOf(proxima) + 1}<small>${esc(proxima.t)}</small></button>
+    <button id="sim">Simulado no formato Vunesp<small>15 questões de múltipla escolha (5 alternativas), sem feedback até o fim, com mapa da sua certeza</small></button>
+    <button id="cad" ${nCad ? '' : 'disabled'}>Caderno de erros (${nCad})<small>refaça só o que você errou, em outra redação quando houver</small></button>
+  </div>
+  ${motTop.length ? `<h2>Seu perfil de erro com certeza</h2><p class="sub">${motTop.map(([k, n]) => `${esc(k)}: <b>${n}</b>`).join(' · ')}</p>` : ''}
+  <h2>A trilha</h2>
+  <ul class="trilha">${D.etapas.map((e, k) => { const r = E.et[e.id]; return `<li class="${r ? 'feita' : e === proxima ? 'atual' : ''}"><button data-e="${e.id}"><span class="bola">${r ? '✓' : k + 1}</span><span class="info">${esc(e.t)}<br><small>${r ? `${r.ok}/${r.n} na última vez` : D.q.filter((q) => q.e === e.id).length + ' questões'}</small></span></button></li>`; }).join('')}</ul>
+  <footer>Cada questão diz se foi aprovada pelo Jev contra o texto da lei ou do resumo, ou revisada à mão. O progresso fica só neste navegador. <button id="zerar" style="padding:4px 10px;font-size:13px">zerar</button></footer>`;
+  $('#seguir').onclick = () => etapa(proxima.id);
+  $('#sim').onclick = simulado;
+  $('#cad').onclick = caderno;
+  document.querySelectorAll('[data-e]').forEach((b) => b.onclick = () => etapa(b.dataset.e));
+  $('#zerar').onclick = () => { if (confirm('Apagar o progresso deste navegador?')) { localStorage.removeItem(CHAVE); E = { et: {}, cad: {}, cal: { c: [0, 0], a: [0, 0] }, tv: [0, 0], mot: {} }; inicio(); } };
+}
+
+// ---------- etapa: pré-teste → lição → prática (com caso e revisão intercalada)
+function etapa(id) {
+  const e = D.etapas.find((x) => x.id === id);
+  const soltas = shuffle(D.q.filter((q) => q.e === id && !q.caso));
+  const casos = D.q.filter((q) => q.e === id && q.caso);
+  const nPre = Object.keys(E.et).length === 0 ? 4 : 5;
+  // pré-teste equilibrado: metade verdadeiras
+  const vs = soltas.filter((q) => q.v), fs = soltas.filter((q) => !q.v);
+  const pre = shuffle(vs.slice(0, Math.ceil(nPre / 2)).concat(fs.slice(0, Math.floor(nPre / 2))));
+  const resto = shuffle(soltas.filter((q) => !pre.includes(q)));
+  const anteriores = D.etapas.slice(0, D.etapas.indexOf(e)).map((x) => x.id);
+  const rev = shuffle(D.q.filter((q) => anteriores.includes(q.e) && !q.caso)).sort((a, b) => (E.cad[b.id] ? 1 : 0) - (E.cad[a.id] ? 1 : 0)).slice(0, 2);
+  S = { tipo: 'etapa', e, fila: [...pre.map((q) => ({ q, fase: 'pré-teste' })), { licao: true }, ...resto.map((q) => ({ q, fase: 'prática' })),
+    ...casos.map((q) => ({ q, fase: 'caso' })), ...rev.map((q) => ({ q, fase: 'revisão de etapa anterior' }))], i: 0, ok: 0, n: 0, altas: [] };
+  intro();
+}
+function intro() {
+  $('#app').innerHTML = `<div class="topo"><a href="#" id="sair">← trilha</a><span>etapa ${D.etapas.indexOf(S.e) + 1} de ${D.etapas.length}</span></div>
+  <h1 style="font-size:24px">${esc(S.e.t)}</h1>
+  <p>Você vai começar <b>sem ler nada</b>: ${S.fila.findIndex((x) => x.licao)} questões de pré-teste. Errar agora não é ruim: a pergunta prepara o cérebro para a lição que vem logo depois, e o que você errar vai grudar mais.</p>
+  <p>Em cada questão, diga se é verdadeira ou falsa <b>e o quanto tem certeza</b>. Se achar a pegadinha, você vai apontar a palavra errada e consertar a frase.</p>
+  <div class="btns"><button class="pri" id="ir">Começar</button></div>`;
+  $('#sair').onclick = (ev) => { ev.preventDefault(); inicio(); };
+  $('#ir').onclick = passo;
+}
+function passo() {
+  if (S.i >= S.fila.length) return S.tipo === 'sim' ? fimSimulado() : fimEtapa();
+  const it = S.fila[S.i];
+  if (it.licao) return licao();
+  pergunta(it);
+}
+function licao() {
+  const e = S.e; const erros = (S.reg || []).filter((r) => !r.acerto);
+  $('#app').innerHTML = `<div class="topo"><a href="#" id="sair">← trilha</a><span>lição</span></div>
+  <span class="fase">lição</span><h1 style="font-size:22px">Agora sim: o que você precisa levar</h1>
+  ${erros.length ? `<div class="licao" style="border-color:var(--err)"><h3>Você errou no pré-teste. Veja como é de verdade:</h3>${erros.map((r) => `<p>${esc(r.v.verdadeira ? r.q.t : (r.q.tv || r.q.t))}</p>`).join('')}</div>` : '<p class="sub">Você acertou todo o pré-teste. Leia mesmo assim: a prática vem com outras redações.</p>'}
+  ${e.secs.map((s) => `<div class="licao"><h3>${esc(s.t)}</h3><p>${esc(s.leve)}</p><a href="${RESUMO}${s.id}" target="_blank" rel="noopener">ler a seção completa no resumo →</a></div>`).join('')}
+  <div class="btns"><button class="pri" id="ir">Praticar</button></div>`;
+  $('#sair').onclick = (ev) => { ev.preventDefault(); inicio(); };
+  $('#ir').onclick = () => { S.i++; passo(); window.scrollTo(0, 0); };
+}
+
+// versão mostrada: no caderno, uma falsa já errada pode voltar na versão corrigida (verdadeira)
+function versao(q, alternar) {
+  if (!q.v && alternar && q.vok && Math.random() < 0.5) return { texto: q.tv, verdadeira: true, corrigida: true };
+  return { texto: q.t, verdadeira: q.v, corrigida: false };
+}
+
+function pergunta(it) {
+  const q = it.q; S.ver = versao(q, S.tipo === 'cad');
+  const tot = S.fila.filter((x) => !x.licao).length, feitos = S.fila.slice(0, S.i).filter((x) => !x.licao).length;
+  $('#app').innerHTML = `<div class="topo"><a href="#" id="sair">← sair</a><span>${feitos + 1} de ${tot}</span></div>
+  <div class="barra"><i style="width:${Math.round(100 * feitos / tot)}%"></i></div>
+  <span class="fase">${esc(it.fase || 'questão')}</span>
+  <div class="card">
+    ${q.ctx ? `<div class="ctx"><b>Caso.</b> ${esc(q.ctx)}</div>` : ''}
+    <p class="frase" id="frase">${esc(S.ver.texto)}</p>
+    <div class="conf4">
+      <button class="vbt" data-r="V" data-c="c">Verdadeira<small>tenho certeza</small></button>
+      <button class="fbt" data-r="F" data-c="c">Falsa<small>tenho certeza</small></button>
+      <button class="vbt" data-r="V" data-c="a">Verdadeira<small>acho</small></button>
+      <button class="fbt" data-r="F" data-c="a">Falsa<small>acho</small></button>
+    </div>
+    <div id="extra"></div>
+  </div>
+  <div id="fb"></div>`;
+  $('#sair').onclick = (ev) => { ev.preventDefault(); S.tipo === 'sim' ? fimSimulado() : S.n ? fimEtapa() : inicio(); };
+  document.querySelectorAll('.conf4 button').forEach((b) => b.onclick = () => responde(b.dataset.r === 'V', b.dataset.c === 'c'));
+}
+
+function responde(disseV, certeza) {
+  const it = S.fila[S.i], q = it.q, v = S.ver;
+  document.querySelectorAll('.conf4 button').forEach((b) => b.disabled = true);
+  const acerto = disseV === v.verdadeira;
+  S.n++; if (acerto) S.ok++;
+  const k = certeza ? 'c' : 'a'; E.cal[k][0]++; if (acerto) E.cal[k][1]++;
+  if (v.verdadeira) { E.tv[0]++; if (acerto) E.tv[1]++; }
+  if (acerto) delete E.cad[q.id]; else E.cad[q.id] = (E.cad[q.id] || 0) + 1;
+  salva();
+  S.reg = S.reg || []; S.reg.push({ q, v, disseV, certeza, acerto });
+  if (!acerto && certeza) S.altas.push(q);
+  if (S.tipo === 'sim') { S.i++; return passo(); }
+  if (acerto && !v.verdadeira && q.a && q.a.length < 0.6 * q.t.length) return tocaPalavra(q, certeza);
+  if (acerto && !v.verdadeira && q.a) return conserta(q, certeza, true);
+  feedback(q, acerto, certeza, null);
+}
+
+// ---------- toque na palavra + conserte a frase
+function tocaPalavra(q, certeza) {
+  const ini = q.t.indexOf(q.a), fimA = ini + q.a.length;
+  const partes = []; const re = /\S+/g; let m;
+  while ((m = re.exec(q.t))) partes.push({ s: m[0], i: m.index, alvo: m.index < fimA && m.index + m[0].length > ini });
+  $('#frase').innerHTML = partes.map((p, k) => `<span class="tok" data-k="${k}">${esc(p.s)}</span>`).join(' ');
+  $('#extra').innerHTML = `<div class="passo"><b>Boa, é falsa.</b> Toque na palavra que torna a frase falsa.</div>`;
+  let tentou = false;
+  document.querySelectorAll('.tok').forEach((el) => el.onclick = () => {
+    if (tentou) return; tentou = true;
+    const p = partes[+el.dataset.k]; const achou = p.alvo;
+    document.querySelectorAll('.tok').forEach((x) => { if (partes[+x.dataset.k].alvo) x.classList.add('alvo'); x.onclick = null; x.style.cursor = 'default'; });
+    if (!achou) el.classList.add('errado');
+    conserta(q, certeza, achou);
+  });
+}
+function conserta(q, certeza, achou) {
+  const ops = shuffle([q.c, ...q.i]);
+  $('#extra').innerHTML = `<div class="passo"><p>${achou ? '<b>Exato.</b>' : 'Quase: o trecho riscado é o que a banca trocou.'} Agora <b>conserte</b>: qual trecho deixa a frase verdadeira no lugar de <b>"${esc(q.a)}"</b>?</p>
+    <div class="opc">${ops.map((o, k) => `<button data-k="${k}">${esc(o)}</button>`).join('')}</div></div>`;
+  document.querySelectorAll('.opc button').forEach((b) => b.onclick = () => {
+    const ok = ops[+b.dataset.k] === q.c;
+    document.querySelectorAll('.opc button').forEach((x) => { x.disabled = true; if (ops[+x.dataset.k] === q.c) x.classList.add('certa'); });
+    if (!ok) b.classList.add('erradaE');
+    feedback(q, true, certeza, { achou, consertou: ok });
+  });
+}
+
+function feedback(q, acerto, certeza, extra) {
+  const v = S.ver; let h = '';
+  const parcial = extra && (!extra.achou || !extra.consertou);
+  h += `<div class="res">${acerto ? (parcial ? 'Acertou o V/F, mas reveja o detalhe' : 'Acertou') : 'Errou'} · a frase era ${v.verdadeira ? 'VERDADEIRA' : 'FALSA'}</div>`;
+  if (!acerto && certeza) h += `<div class="alta">Erro com certeza. É o tipo de erro que mais derruba na prova, e também o que mais grava quando corrigido agora. Leia com atenção.</div>`;
+  if (!v.verdadeira) {
+    h += `<p><span class="rot">A frase certa</span><span class="certo">${esc(q.t.slice(0, q.t.indexOf(q.a)))}<ins>${esc(q.c)}</ins>${esc(q.t.slice(q.t.indexOf(q.a) + q.a.length))}</span></p>`;
+    if (q.op) h += `<p><span class="selo">${esc(q.op)}</span>${esc(OPS[q.op] || '')}</p>`;
+  } else if (v.corrigida) {
+    h += `<p><span class="rot">Atenção</span>Esta é a versão corrigida de uma frase que você já errou. A pegadinha original dizia: <s>${esc(q.a)}</s>.</p>`;
+  }
+  h += `<p><span class="rot">Por quê</span>${esc(q.ex)}</p>`;
+  h += `<p class="fonte">Fonte: ${esc(q.fo)}${q.sec ? ` · <a href="${RESUMO}${q.sec}" target="_blank" rel="noopener">ver no resumo</a>` : ''} · ${q.jok ? 'aprovada pelo Jev contra a fonte' : 'revisada à mão (o Jev ficou inconclusivo nesta redação)'}</p>`;
+  if (!acerto && certeza) h += `<p style="margin-top:10px"><span class="rot">Por que você errou com certeza? (um toque)</span></p><div class="chips" id="mot">${MOTIVOS.map((m) => `<button>${esc(m)}</button>`).join('')}</div>`;
+  $('#fb').innerHTML = `<div class="fb ${acerto && !parcial ? 'ok' : 'err'}">${h}<button class="pri" id="prox" style="margin-top:14px;width:100%">próxima</button></div>`;
+  if ($('#mot')) document.querySelectorAll('#mot button').forEach((b) => b.onclick = () => { if (b.classList.contains('on')) return; document.querySelectorAll('#mot button').forEach((x) => x.classList.remove('on')); b.classList.add('on'); E.mot[b.textContent] = (E.mot[b.textContent] || 0) + 1; salva(); });
+  $('#prox').onclick = () => { S.i++; passo(); window.scrollTo(0, 0); };
+  if (!acerto) $('#fb').scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function fimEtapa() {
+  const completa = S.i >= S.fila.length;
+  if (S.tipo === 'etapa' && completa) { E.et[S.e.id] = { ok: S.ok, n: S.n }; salva(); }
+  const altas = [...new Set(S.altas)];
+  const prox = S.tipo === 'etapa' ? D.etapas[D.etapas.indexOf(S.e) + 1] : null;
+  $('#app').innerHTML = `<h1>${S.tipo === 'etapa' ? (completa ? 'Etapa concluída' : 'Etapa interrompida') : 'Caderno revisado'}</h1>
+  <p><b>${S.ok} de ${S.n}</b> no verdadeiro ou falso.</p>
+  ${altas.length ? `<h2>Seus erros com certeza (${altas.length})</h2><p class="sub">Releia estas agora e de novo amanhã: a correção do erro confiante grava, mas se apaga sem reforço.</p><ul>${altas.map((q) => `<li style="margin-bottom:10px"><span class="certo">${esc(q.v ? q.t : q.tv)}</span></li>`).join('')}</ul>` : '<p>Nenhum erro com certeza. Ótimo sinal de calibração.</p>'}
+  <div class="btns">${prox ? `<button class="pri" id="prox">Próxima etapa: ${esc(prox.t)}</button>` : ''}<button id="volta">Voltar à trilha</button></div>`;
+  if ($('#prox')) $('#prox').onclick = () => etapa(prox.id);
+  $('#volta').onclick = inicio;
+}
+
+// ---------- simulado (múltipla escolha, como na Vunesp) e caderno
+function montaQuestao(etapaId) {
+  const pool = D.q.filter((q) => q.e === etapaId && !q.caso);
+  const verd = shuffle(pool.filter((q) => q.v).map((q) => ({ txt: q.t, ok: true, q })).concat(pool.filter((q) => !q.v && q.vok).map((q) => ({ txt: q.tv, ok: true, q }))));
+  const fals = shuffle(pool.filter((q) => !q.v).map((q) => ({ txt: q.t, ok: false, q })));
+  const inv = Math.random() < 0.3; // às vezes: assinale a INCORRETA
+  if (inv) { if (verd.length < 4 || !fals.length) return null; const certa = fals[0]; const outras = verd.filter((x) => x.q !== certa.q).slice(0, 4); if (outras.length < 4) return null; return { enun: 'Assinale a alternativa INCORRETA.', alts: shuffle([certa, ...outras]).map((x) => ({ ...x, marcar: x === certa })) }; }
+  if (!verd.length || fals.length < 4) return null; const certa = verd[0]; const outras = fals.filter((x) => x.q !== certa.q).slice(0, 4); if (outras.length < 4) return null;
+  return { enun: 'Assinale a alternativa correta.', alts: shuffle([certa, ...outras]).map((x) => ({ ...x, marcar: x === certa })) };
+}
+function simulado() {
+  const lista = [];
+  for (let k = 0; k < 60 && lista.length < 15; k++) { const e = D.etapas[k % D.etapas.length]; const mq = montaQuestao(e.id); if (mq) { mq.e = e; lista.push(mq); } }
+  S = { tipo: 'mc', lista: shuffle(lista), i: 0, ok: 0, n: 0, reg: [] };
+  $('#app').innerHTML = `<div class="topo"><a href="#" id="sair">← início</a><span>simulado</span></div><h1 style="font-size:24px">Simulado no formato Vunesp</h1>
+  <p>${S.lista.length} questões de <b>múltipla escolha com 5 alternativas</b>, como na objetiva. Sem feedback até o fim. Em cada questão, escolha a alternativa e diga se tem certeza.</p>
+  <p class="sub">Atenção ao comando: às vezes é "assinale a correta", às vezes "assinale a INCORRETA". Ler o comando errado é a pegadinha mais barata da prova.</p>
+  <div class="btns"><button class="pri" id="ir">Começar o simulado</button></div>`;
+  $('#sair').onclick = (ev) => { ev.preventDefault(); inicio(); };
+  $('#ir').onclick = mc;
+}
+function mc() {
+  if (S.i >= S.lista.length) return fimSimulado();
+  const x = S.lista[S.i]; let esc_ = null;
+  $('#app').innerHTML = `<div class="topo"><a href="#" id="sair">← encerrar</a><span>${S.i + 1} de ${S.lista.length}</span></div>
+  <div class="barra"><i style="width:${Math.round(100 * S.i / S.lista.length)}%"></i></div>
+  <span class="fase">${esc(x.e.t)}</span>
+  <div class="card"><p class="frase" style="font-weight:700">${esc(x.enun)}</p>
+  <div class="opc">${x.alts.map((a, k) => `<button data-k="${k}"><b>${'ABCDE'[k]})</b> ${esc(a.txt)}</button>`).join('')}</div>
+  <div class="conf4" style="margin-top:14px"><button class="pri" id="cc" disabled>Confirmar · tenho certeza</button><button id="ca" disabled>Confirmar · acho</button></div></div>`;
+  $('#sair').onclick = (ev) => { ev.preventDefault(); fimSimulado(); };
+  document.querySelectorAll('.opc button').forEach((b) => b.onclick = () => { esc_ = +b.dataset.k; document.querySelectorAll('.opc button').forEach((y) => y.style.outline = ''); b.style.outline = '3px solid var(--marca)'; $('#cc').disabled = $('#ca').disabled = false; });
+  const conf = (certeza) => { const acerto = x.alts[esc_].marcar; S.n++; if (acerto) S.ok++; const k = certeza ? 'c' : 'a'; E.cal[k][0]++; if (acerto) E.cal[k][1]++; salva(); S.reg.push({ x, esc: esc_, certeza, acerto }); S.i++; mc(); window.scrollTo(0, 0); };
+  $('#cc').onclick = () => conf(true); $('#ca').onclick = () => conf(false);
+}
+function fimSimulado() {
+  const r = S.reg || [], c = r.filter((x) => x.certeza), a = r.filter((x) => !x.certeza);
+  const oc = (l) => l.filter((x) => x.acerto).length;
+  $('#app').innerHTML = `<h1>Resultado do simulado</h1>
+  <p style="font-size:22px"><b>${S.ok} de ${S.n}</b> (${pct(S.ok, S.n) ?? 0}%)</p>
+  <h2>Mapa da sua certeza</h2>
+  <table><tr><th></th><th>questões</th><th>acerto</th></tr>
+  <tr><td>"tenho certeza"</td><td>${c.length}</td><td class="${pct(oc(c), c.length) >= 90 ? 'bom' : 'mau'}">${c.length ? pct(oc(c), c.length) + '%' : '–'}</td></tr>
+  <tr><td>"acho"</td><td>${a.length}</td><td>${a.length ? pct(oc(a), a.length) + '%' : '–'}</td></tr></table>
+  <p class="sub" style="margin-top:8px">Bem calibrado: perto de 100% no "certeza" e menos no "acho". Abaixo de 90% no "certeza" significa confiança demais, e é aí que a Vunesp pega.</p>
+  <h2>Correção</h2>
+  ${r.map((y, k) => `<details ${y.acerto ? '' : 'open'}><summary><span class="${y.acerto ? 'bom' : 'mau'}">${y.acerto ? '✓' : '✗'}</span> Questão ${k + 1} · ${esc(y.x.e.t)}${!y.acerto && y.certeza ? ' <b class="mau">(errou com certeza)</b>' : ''}</summary>
+    <p style="margin:8px 0 4px"><b>${esc(y.x.enun)}</b></p>
+    ${y.x.alts.map((al, j) => `<p style="font-size:15px;margin:0 0 8px">${al.marcar ? '<b class="bom">✓ gabarito</b> ' : ''}${j === y.esc && !al.marcar ? '<b class="mau">✗ sua resposta</b> ' : ''}<b>${'ABCDE'[j]})</b> ${esc(al.txt)}${!al.ok ? `<br><span class="fonte">Falsa. Certo: ${esc(al.q.tv)}</span>` : ''}</p>`).join('')}</details>`).join('')}
+  <div class="btns" style="margin-top:16px"><button class="pri" id="volta">Voltar ao início</button></div>`;
+  $('#volta').onclick = inicio;
+}
+function caderno() {
+  const ids = Object.keys(E.cad).map(Number);
+  S = { tipo: 'cad', fila: shuffle(ids.map(Q).filter(Boolean)).map((q) => ({ q, fase: 'caderno de erros' })), i: 0, ok: 0, n: 0, altas: [] };
+  passo();
+}
+
+fetch('dados/verdadeiro.json').then((r) => r.json()).then((d) => { D = d; inicio(); })
+  .catch(() => { $('#app').innerHTML = '<p>Não consegui carregar as questões. Recarregue a página.</p>'; });
+</script>
+</body>
+</html>

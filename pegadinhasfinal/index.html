@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pegadinhas finais</title>
+<meta name="description" content="Treino para gravar as pegadinhas de prazo e de falso real do edital de Engenharia Civil do TCESP (Vunesp).">
+<style>
+  :root { --tx:#1d1d1f; --suave:#5b5b60; --linha:#e6e6e9; --marca:#0b57d0; --ok:#137333; --okbg:#e6f4ea; --err:#b3261e; --errbg:#fce8e6; --amar:#8a5a00; --amarbg:#fef7e0; --fundo:#ffffff; --card:#fafafa; }
+  * { box-sizing:border-box; }
+  html { -webkit-text-size-adjust:100%; }
+  body { margin:0; background:var(--fundo); color:var(--tx); font:17px/1.6 -apple-system,"Segoe UI",Roboto,Arial,sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:28px 16px 100px; }
+  h1 { font-size:28px; line-height:1.2; margin:0 0 6px; }
+  h2 { font-size:20px; margin:28px 0 8px; }
+  p { margin:0 0 14px; overflow-wrap:break-word; }
+  .sub { color:var(--suave); font-size:15px; }
+  .metr { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; margin:18px 0; }
+  .m { border:1px solid var(--linha); border-radius:10px; padding:10px 12px; }
+  .m b { display:block; font-size:24px; }
+  .m span { color:var(--suave); font-size:13px; }
+  .aviso { background:var(--amarbg); color:var(--amar); border-radius:8px; padding:10px 12px; font-size:15px; margin:0 0 14px; }
+  .btns { display:grid; gap:10px; }
+  button { font:inherit; cursor:pointer; border-radius:10px; border:1px solid var(--linha); background:#fff; color:var(--tx); padding:12px 14px; text-align:left; }
+  button.pri { background:var(--marca); color:#fff; border-color:var(--marca); font-weight:700; }
+  button:disabled { opacity:.5; cursor:default; }
+  button small { display:block; font-weight:400; opacity:.85; font-size:14px; }
+  .chips { display:flex; flex-wrap:wrap; gap:8px; }
+  .chips button { padding:8px 12px; font-size:15px; }
+  .topo { display:flex; justify-content:space-between; gap:8px; color:var(--suave); font-size:14px; margin-bottom:10px; }
+  .card { border:1px solid var(--linha); border-radius:12px; padding:18px; background:var(--card); }
+  .tema { font-size:13px; color:var(--suave); margin-bottom:8px; }
+  .frase { font:19px/1.6 Georgia,"Times New Roman",serif; margin:0 0 18px; }
+  .resp { display:grid; grid-template-columns:1fr 1fr; gap:10px; }
+  .resp button { text-align:center; font-weight:700; }
+  .linha2 { display:flex; justify-content:space-between; align-items:center; margin-top:10px; font-size:15px; color:var(--suave); }
+  .linha2 button { padding:6px 12px; font-size:14px; }
+  label.chute { display:flex; gap:6px; align-items:center; }
+  .num { margin-top:14px; }
+  .num input { font:inherit; padding:10px; border:1px solid var(--linha); border-radius:8px; width:120px; }
+  .fb { margin-top:16px; border-radius:12px; padding:16px; }
+  .fb.ok { background:var(--okbg); } .fb.err { background:var(--errbg); }
+  .res { font-weight:800; font-size:18px; margin-bottom:8px; }
+  .selo { display:inline-block; font-weight:800; letter-spacing:.06em; font-size:13px; border:2px solid currentColor; border-radius:6px; padding:2px 8px; margin-bottom:10px; }
+  .troca { font-size:20px; margin:4px 0 10px; }
+  .troca s { color:var(--err); } .troca b { color:var(--ok); }
+  .fb p { font-size:16px; }
+  .rot { font-size:12px; font-weight:700; text-transform:uppercase; letter-spacing:.05em; color:var(--suave); display:block; }
+  details { margin-top:8px; font-size:15px; }
+  summary { cursor:pointer; color:var(--marca); }
+  .lei { font-family:Georgia,serif; background:#fff; border-left:3px solid var(--linha); padding:8px 12px; margin-top:6px; }
+  .conf { font-size:12px; color:var(--suave); margin-top:10px; }
+  .barra { height:6px; background:var(--linha); border-radius:3px; overflow:hidden; margin-bottom:14px; }
+  .barra i { display:block; height:100%; background:var(--marca); }
+  table { width:100%; border-collapse:collapse; font-size:15px; }
+  td,th { text-align:left; padding:8px 6px; border-bottom:1px solid var(--linha); vertical-align:top; }
+  select { font:inherit; padding:6px; border-radius:6px; border:1px solid var(--linha); max-width:100%; }
+  .bom { color:var(--ok); font-weight:700; } .mau { color:var(--err); font-weight:700; }
+  .erros li { margin-bottom:12px; }
+  .ancora { font-family:Georgia,serif; }
+  a { color:var(--marca); }
+  footer { margin-top:50px; color:var(--suave); font-size:14px; }
+</style>
+</head>
+<body>
+<main id="app"><p>Carregando…</p></main>
+<script>
+const $ = (s) => document.querySelector(s);
+const esc = (t) => String(t ?? '').replace(/[&<>"']/g, (m) => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;' }[m]));
+const CHAVE = 'pegadinhasfinal-v1';
+const INTERV = [0, 0, 1, 3, 7, 16];   // dias para a caixa 1..5 (índice = caixa)
+const NOVOS_DIA = 15, TETO = 60;
+const SELO = { VIZINHO:'troca o número ou a palavra pelo vizinho', ESCOPO:'troca o alcance (amplia ou restringe quem/o quê)', 'INVERSÃO':'inverte a regra (pode ↔ não pode)', ABSOLUTO:'põe um "sempre/apenas/obrigatoriamente" que a lei não tem' };
+
+function hoje() {
+  const q = new URLSearchParams(location.search).get('hoje');
+  if (q && /^\d{4}-\d{2}-\d{2}$/.test(q)) return q;
+  const d = new Date(); return new Date(d.getTime() - d.getTimezoneOffset() * 60000).toISOString().slice(0, 10);
+}
+function soma(dia, n) { const d = new Date(dia + 'T12:00:00Z'); d.setUTCDate(d.getUTCDate() + n); return d.toISOString().slice(0, 10); }
+function carrega() { try { return JSON.parse(localStorage.getItem(CHAVE)) || {}; } catch (e) { return {}; } }
+function salva() { try { localStorage.setItem(CHAVE, JSON.stringify(E)); } catch (e) {} }
+
+let BANCO = [], E = carrega(), R = null;
+E.c = E.c || {}; E.tv = E.tv || { n: 0, ok: 0 };
+if (!E.dia || E.dia.d !== hoje()) E.dia = { d: hoje(), novos: 0 };
+
+const est = (id) => E.c[id];
+const devido = (c) => est(c.id) && est(c.id).due <= hoje();
+const novo = (c) => !est(c.id);
+const dominado = (c) => est(c.id) && est(c.id).b >= 5 && est(c.id).ult === 1;
+
+function metricas() {
+  const n = BANCO.length, pz = BANCO.filter((c) => c.fam === 'prazo'), fr = BANCO.filter((c) => c.fam === 'falso');
+  return { ret: Math.round(100 * BANCO.filter(dominado).length / n), pz: pz.filter(dominado).length, pzN: pz.length,
+    fr: fr.filter(dominado).length, frN: fr.length, dev: BANCO.filter(devido).length, nov: BANCO.filter(novo).length,
+    tv: E.tv.n ? Math.round(100 * E.tv.ok / E.tv.n) : null };
+}
+
+function inicio() {
+  const m = metricas(); R = null;
+  const ops = ['VIZINHO', 'ESCOPO', 'INVERSÃO', 'ABSOLUTO'];
+  $('#app').innerHTML = `
+  <h1>Pegadinhas finais</h1>
+  <p class="sub">Treino para gravar as pegadinhas do edital (TCESP, Engenharia Civil, Vunesp): prazos e números, e o "falso real", a frase que parece verdadeira na primeira leitura. Cerca de 15 minutos por dia.</p>
+  <div class="metr">
+    <div class="m"><b>${m.ret}%</b><span>retenção comprovada (acertou depois de 7+ dias)</span></div>
+    <div class="m"><b>${m.dev}</b><span>revisões vencidas hoje · ${m.nov} ainda não vistas</span></div>
+    <div class="m"><b>${m.pz}/${m.pzN}</b><span>prazos e números gravados</span></div>
+    <div class="m"><b>${m.fr}/${m.frN}</b><span>falso real gravado</span></div>
+  </div>
+  <p class="sub">Escadas acertadas por inteiro: <b>${Object.values(E.esc || {}).filter((x) => x.a === x.n).length}/${ESCADAS.length}</b></p>
+  ${m.tv !== null && m.tv < 70 && E.tv.n >= 10 ? `<p class="aviso">Você acerta só ${m.tv}% das frases <b>verdadeiras</b>. Sinal de que está marcando "errado" por reflexo. Leia até o fim antes de responder.</p>` : ''}
+  <div class="btns">
+    <button class="pri" data-m="tudo">Rodada do dia<small>revisões vencidas primeiro, depois até ${NOVOS_DIA} novas, tudo misturado</small></button>
+    <button data-m="prazo">Só prazos e números<small>com digitação do número certo quando você achar a pegadinha</small></button>
+    <button data-m="falso">Só falso real<small>as frases mais convincentes primeiro</small></button>
+    <button data-m="escadas">Escadas de prazos<small>associe cada linha ao seu número; os vizinhos ficam lado a lado</small></button>
+  </div>
+  <h2>Treinar um tipo de pegadinha</h2>
+  <div class="chips">${ops.map((o) => `<button data-m="op:${o}">${o}</button>`).join('')}</div>
+  <p class="sub" style="margin-top:10px">${ops.map((o) => `<b>${o}</b>: ${SELO[o]}`).join(' · ')}</p>
+  <h2>Como funciona</h2>
+  <p class="sub">Cada cartão aparece ora na versão verdadeira, ora na versão pegadinha, para você ler de verdade e não responder "errado" por hábito. Acertou, o cartão volta mais tarde (1, 3, 7 e 16 dias, depois 30). Errou, ele volta na mesma rodada e recomeça. Marque "chutei" quando acertar sem certeza: aí o cartão não avança. "Gravado" só conta depois de acertar com intervalo de uma semana ou mais.</p>
+  <p class="sub">Origem: <b>${BANCO.filter((c) => c.conf === 'jev').length}</b> pegadinhas conferidas pelo Jev contra o texto da lei (Leis 14.133, 12.305 e 11.445, com trecho literal), e <b>${BANCO.filter((c) => c.conf === 'analistas').length}</b> itens do <a href="https://resumofinalprova.vercel.app">resumo final</a>, revisados pelos dois analistas, sem passar pelo Jev.</p>
+  <footer>O progresso fica salvo só neste navegador. <button id="zerar" style="padding:4px 10px;font-size:13px">zerar progresso</button></footer>`;
+  document.querySelectorAll('[data-m]').forEach((b) => b.onclick = () => b.dataset.m === 'escadas' ? escadas() : rodada(b.dataset.m));
+  $('#zerar').onclick = () => { if (confirm('Apagar todo o progresso deste navegador?')) { E = { c: {}, tv: { n: 0, ok: 0 }, dia: { d: hoje(), novos: 0 } }; salva(); inicio(); } };
+}
+
+function filtra(modo) {
+  if (modo === 'prazo' || modo === 'falso') return BANCO.filter((c) => c.fam === modo);
+  if (modo.startsWith('op:')) return BANCO.filter((c) => c.op === modo.slice(3));
+  return BANCO;
+}
+function intercala(l) {
+  const out = [], resto = l.slice();
+  while (resto.length) {
+    let k = resto.findIndex((c) => {
+      const a = out[out.length - 1], b = out[out.length - 2];
+      if (a && a.op && c.op === a.op) return false;
+      if (a && b && a.lei === c.lei && b.lei === c.lei) return false;
+      return true;
+    });
+    if (k < 0) k = 0;
+    out.push(resto.splice(k, 1)[0]);
+  }
+  return out;
+}
+function rodada(modo, lista) {
+  if (E.dia.d !== hoje()) E.dia = { d: hoje(), novos: 0 };
+  let fila;
+  if (lista) fila = lista;
+  else {
+    const base = filtra(modo);
+    const dev = base.filter(devido).sort((a, b) => est(a.id).due.localeCompare(est(b.id).due)).slice(0, TETO);
+    const vagas = dev.length >= TETO ? 0 : Math.max(0, NOVOS_DIA - E.dia.novos);
+    let nov = base.filter(novo);
+    nov.sort((a, b) => b.p - a.p);
+    fila = dev.concat(nov.slice(0, vagas));
+    if (!fila.length) { alert(vagas === 0 && base.some(novo) ? 'Meta de novas de hoje cumprida e nada vencido neste filtro. Volte amanhã ou escolha outro filtro.' : 'Nada para revisar neste filtro hoje.'); return; }
+    fila = modo === 'prazo' ? fila : intercala(fila.sort(() => Math.random() - .5));
+  }
+  R = { modo, fila, i: 0, ok: 0, n: 0, porOp: {}, erros: [], reinseridos: new Set() };
+  mostra();
+}
+
+function versao(c) {
+  if (c.conf !== 'jev') return { texto: c.enunciado, certa: c.certa };
+  const s = est(c.id); let vf;
+  if (!c.ok_v) vf = false;
+  else if (s && s.lv !== undefined) vf = Math.random() < 0.6 ? !s.lv : s.lv;
+  else vf = Math.random() < 0.65;
+  return { texto: vf ? c.vt : c.f, certa: vf };
+}
+
+function mostra() {
+  if (R.i >= R.fila.length) return fim();
+  const c = R.fila[R.i]; R.ver = versao(c);
+  const pct = Math.round(100 * R.i / R.fila.length);
+  $('#app').innerHTML = `
+  <div class="topo"><a href="#" id="sair">← sair</a><span>${R.i + 1} de ${R.fila.length}</span></div>
+  <div class="barra"><i style="width:${pct}%"></i></div>
+  <div class="card">
+    <div class="tema">${esc(c.lei)}${c.conf === 'jev' ? ' · ' + esc(c.tema) : ''}</div>
+    <p class="frase">${esc(R.ver.texto)}</p>
+    <div class="resp"><button id="bC">Certo</button><button id="bE">Errado</button></div>
+    <div class="linha2"><label class="chute"><input type="checkbox" id="chute"> chutei</label><button id="bN">não sei</button></div>
+    <div id="num"></div>
+  </div>
+  <div id="fb"></div>`;
+  $('#sair').onclick = (e) => { e.preventDefault(); fim(); };
+  $('#bC').onclick = () => responde(true);
+  $('#bE').onclick = () => (!R.ver.certa && c.troca && c.dig) ? pedeNumero(c) : responde(false);
+  $('#bN').onclick = () => responde(null);
+}
+
+function pedeNumero(c) {
+  $('#bC').disabled = $('#bE').disabled = $('#bN').disabled = true;
+  $('#num').innerHTML = `<div class="num"><p><b>Você viu a pegadinha.</b> Qual é o número certo no lugar de <b>${esc(c.troca[0])}</b>?</p>
+    <input id="nIn" inputmode="decimal" autocomplete="off"> <button class="pri" id="nOk" style="display:inline-block">conferir</button></div>`;
+  const nrm = (x) => { const s = String(x).toLowerCase(); const n = parseFloat(s.replace(/\s|%|r\$/g, '').replace(/\.(?=\d{3}(\D|$))/g, '').replace(',', '.')); return /\bmil\b/.test(s) ? n * 1000 : n; };
+  const go = () => { const v = $('#nIn').value; responde(false, nrm(v) === nrm(c.troca[1])); };
+  $('#nOk').onclick = go; $('#nIn').onkeydown = (e) => { if (e.key === 'Enter') go(); }; $('#nIn').focus();
+}
+
+function responde(resp, numOk) {
+  const c = R.fila[R.i], chute = $('#chute') && $('#chute').checked;
+  let acerto = resp !== null && resp === R.ver.certa;
+  const faltouNumero = acerto && numOk === false;
+  if (faltouNumero) acerto = false;
+  R.n++; if (acerto) R.ok++;
+  const k = c.op || 'resumo'; R.porOp[k] = R.porOp[k] || [0, 0]; R.porOp[k][1]++; if (acerto) R.porOp[k][0]++;
+  if (R.ver.certa) { E.tv.n++; if (acerto) E.tv.ok++; }
+  let s = est(c.id);
+  if (!s) { s = E.c[c.id] = { b: 0, ok: 0, err: 0 }; E.dia.novos++; }
+  if (acerto) { const jaEra5 = s.b === 5; s.ok++; if (!chute) s.b = Math.min(5, Math.max(2, s.b + 1)); if (s.b === 0) s.b = 1; s.due = soma(hoje(), jaEra5 && s.ult === 1 && !chute ? 30 : INTERV[s.b]); s.ult = chute ? 0 : 1; }
+  else {
+    s.err++; s.b = faltouNumero ? Math.max(1, s.b - 1) : 1; s.due = hoje(); s.ult = 0;
+    R.erros.push(c);
+    if (!R.reinseridos.has(c.id)) { R.reinseridos.add(c.id); R.fila.splice(Math.min(R.fila.length, R.i + 5), 0, c); }
+  }
+  if (c.conf === 'jev') s.lv = R.ver.certa;
+  salva();
+  feedback(c, acerto, resp === null, faltouNumero);
+}
+
+function feedback(c, acerto, naoSei, faltouNumero) {
+  document.querySelectorAll('.card button, .card input').forEach((b) => b.disabled = true);
+  const v = R.ver; let h = '';
+  const titulo = faltouNumero ? 'Achou a pegadinha, mas errou o número' : acerto ? 'Acertou' : naoSei ? 'Agora você vai gravar' : 'Caiu';
+  h += `<div class="res">${titulo}${v.certa ? ' · a frase era VERDADEIRA' : ' · a frase era PEGADINHA'}</div>`;
+  if (c.conf === 'jev') {
+    h += `<div class="selo" title="${esc(SELO[c.op])}">${esc(c.op)}</div><p style="margin-top:-4px;font-size:14px">${esc(SELO[c.op])}</p>`;
+    if (c.troca) h += `${v.certa ? '<span class="rot">a banca trocaria</span>' : ''}<div class="troca"><s>${esc(c.troca[0])}</s> → <b>${esc(c.troca[1])}</b></div>`;
+    if (c.nota) h += `<p style="font-size:14px">${esc(c.nota)}</p>`;
+    let resto = '';
+    if (v.certa) resto += `<p><span class="rot">A versão pegadinha seria</span>${esc(c.f)}</p>`;
+    else resto += `<p><span class="rot">O certo</span>${esc(c.v)}</p>`;
+    if (c.viz) resto += `<p><span class="rot">O vizinho que engana</span>${esc(c.viz)}</p>`;
+    resto += `<p><span class="rot">Por que parece verdade</span>${esc(c.mot)}</p>`;
+    h += acerto ? `<details><summary>ver explicação</summary>${resto}</details>` : resto;
+    h += `<details><summary>ver na lei · ${esc(c.fonte)}</summary><div class="lei">${esc(c.trecho)}</div></details>`;
+    h += `<div class="conf">Conferido pelo Jev contra o texto da lei.</div>`;
+  } else {
+    if (c.op) h += `<div class="selo">${esc(c.op)}</div>`;
+    if (c.rot) h += `<p style="margin-top:-4px;font-size:14px">Pegadinha de ${esc(c.rot.toLowerCase())}</p>`;
+    h += `<p>${esc(c.expl)}</p><div class="conf">Item do resumo final, revisado pelos analistas (sem Jev).</div>`;
+  }
+  $('#fb').innerHTML = `<div class="fb ${acerto ? 'ok' : 'err'}">${h}<button class="pri" id="prox" style="margin-top:12px;width:100%;text-align:center">próximo</button></div>`;
+  $('#prox').onclick = () => { R.i++; mostra(); window.scrollTo(0, 0); };
+  $('#prox').focus({ preventScroll: true });
+  if (!acerto) $('#fb').scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function fim() {
+  if (!R || !R.n) return inicio();
+  const unicos = [...new Map(R.erros.map((c) => [c.id, c])).values()];
+  const anc = unicos.filter((c) => c.conf === 'jev' && (c.viz || c.troca)).map((c) => c.troca ? `${c.troca[1]}, não ${c.troca[0]}: ${c.fonte}.${c.viz ? ' ' + c.viz : ''}` : `${c.fonte}: ${c.viz}`);
+  $('#app').innerHTML = `
+  <h1>Fim da rodada</h1>
+  <p><b>${R.ok} de ${R.n}</b> respostas certas.</p>
+  <table><tr><th>tipo de pegadinha</th><th>acertos</th></tr>${Object.entries(R.porOp).map(([k, [a, n]]) => `<tr><td>${esc(k)}</td><td class="${a === n ? 'bom' : 'mau'}">${a}/${n}</td></tr>`).join('')}</table>
+  ${unicos.length ? `<h2>Onde você caiu (${unicos.length})</h2><ul class="erros">${unicos.map((c) => c.conf === 'jev' ? `<li><b>Certo:</b> ${esc(c.v)}<br><span class="sub">Pegadinha: <s>${esc(c.f)}</s> · ${esc(c.fonte)}</span></li>` : `<li>${esc(c.enunciado)}<br><span class="sub">${esc(c.expl)}</span></li>`).join('')}</ul>
+  <div class="btns"><button class="pri" id="refaz">Refazer só estes agora</button></div>` : '<p>Nenhum erro. Os cartões subiram de caixa.</p>'}
+  ${anc.length ? `<h2>Frases-âncora para o caderno</h2><p class="ancora">${anc.map(esc).join('<br>')}</p><div class="btns"><button id="copia">Copiar âncoras</button></div>` : ''}
+  <div class="btns" style="margin-top:14px"><button id="volta">Voltar ao início</button></div>`;
+  if ($('#refaz')) $('#refaz').onclick = () => rodada('refazer', intercala(unicos.slice()));
+  if ($('#copia')) $('#copia').onclick = () => { try { navigator.clipboard.writeText(anc.join('\n')); $('#copia').textContent = 'Copiado'; } catch (e) {} };
+  $('#volta').onclick = inicio;
+}
+
+// Escadas: números conferidos no texto das leis (Lei 14.133, CONAMA 237, Leis 11.445 e 12.305).
+const ESCADAS = [
+  { t: 'Prazos mínimos de propostas (Lei 14.133, Art. 55), em dias úteis. Atenção: 15 e 35 aparecem duas vezes, e é aí que mora a pegadinha', l: [
+    ['Bens, menor preço ou maior desconto', '8'], ['Bens, demais casos', '15'], ['Serviços comuns e obras comuns, menor preço ou maior desconto', '10'],
+    ['Serviços especiais e obras especiais, menor preço ou maior desconto', '25'], ['Contratação integrada', '60'], ['Contratação semi-integrada', '35'],
+    ['Maior lance', '15'], ['Técnica e preço ou melhor técnica', '35']] },
+  { t: 'Percentuais de obras (Lei 14.133)', l: [
+    ['Proposta inexequível: abaixo de (Art. 59, § 4º)', '75%'], ['Exige garantia adicional: abaixo de (Art. 59, § 5º)', '85%'],
+    ['Parcela de maior relevância: valor igual ou acima de (Art. 67, § 1º)', '4%'], ['Quantidade máxima exigível em atestado (Art. 67, § 2º)', '50%'],
+    ['Garantia contratual, regra (Art. 98)', '5%'], ['Garantia majorada justificada (Art. 98)', '10%'], ['Seguro-garantia com retomada, grande vulto (Art. 99)', '30%'],
+    ['Aditivo: acréscimo ou supressão (Art. 125)', '25%'], ['Aditivo: acréscimo em reforma (Art. 125)', '50%'], ['Multa mínima (Art. 156, § 3º)', '0,5%'], ['Multa máxima (Art. 156, § 3º)', '30%']] },
+  { t: 'Tempos de contrato e sanções (Lei 14.133)', l: [
+    ['Impedimento de licitar: prazo máximo (Art. 156, § 4º)', '3 anos'], ['Inidoneidade: prazo mínimo (Art. 156, § 5º)', '3 anos'], ['Inidoneidade: prazo máximo (Art. 156, § 5º)', '6 anos'],
+    ['Aditivo com efeitos antecipados: formalizar em até (Art. 132)', '1 mês'], ['Responsabilidade pela solidez da obra após o recebimento: mínimo (Art. 140, § 6º)', '5 anos']] },
+  { t: 'Licenciamento (CONAMA 237)', l: [
+    ['Análise de cada licença: prazo máximo (Art. 14)', '6 meses'], ['Análise com EIA/RIMA ou audiência pública (Art. 14)', '12 meses'], ['Atender complementações: prazo máximo (Art. 15)', '4 meses'],
+    ['Licença Prévia: validade máxima (Art. 18)', '5 anos'], ['Licença de Instalação: validade máxima (Art. 18)', '6 anos'], ['Licença de Operação: validade mínima (Art. 18)', '4 anos'],
+    ['Licença de Operação: validade máxima (Art. 18)', '10 anos'], ['Pedir renovação da LO: antecedência mínima (Art. 18, § 4º)', '120 dias']] },
+  { t: 'Saneamento e resíduos (Leis 11.445 e 12.305; fim dos lixões: municípios com plano e cobrança, até 2 de agosto de cada ano)', l: [
+    ['Meta de água potável (Lei 11.445, Art. 11-B)', '99%'], ['Meta de coleta e tratamento de esgoto (Art. 11-B)', '90%'], ['Ano-limite das metas (Art. 11-B)', '2033'],
+    ['Revisão do plano de saneamento: no máximo a cada (Art. 19, § 4º)', '10 anos'], ['Plano simplificado: municípios com menos de (Art. 19, § 9º)', '20 mil hab.'],
+    ['Fim dos lixões: capitais e regiões metropolitanas (Lei 12.305, Art. 54)', '2021'], ['Fim dos lixões: mais de 100 mil habitantes', '2022'],
+    ['Fim dos lixões: 50 a 100 mil habitantes', '2023'], ['Fim dos lixões: menos de 50 mil habitantes', '2024']] }
+];
+function escadas(k = 0) {
+  const e = ESCADAS[k], opc = [...new Set(e.l.map((x) => x[1]))];
+  const ord = e.l.map((x, i) => i).sort(() => Math.random() - .5);
+  $('#app').innerHTML = `
+  <div class="topo"><a href="#" id="sair">← início</a><span>escada ${k + 1} de ${ESCADAS.length}</span></div>
+  <h1 style="font-size:22px">${esc(e.t)}</h1>
+  <p class="sub">Escolha o número de cada linha. Os vizinhos estão todos juntos de propósito: é o contraste que grava.</p>
+  <table>${ord.map((i) => `<tr><td>${esc(e.l[i][0])}</td><td><select data-i="${i}"><option value="">?</option>${opc.map((o) => `<option>${esc(o)}</option>`).join('')}</select></td></tr>`).join('')}</table>
+  <div class="btns" style="margin-top:14px"><button class="pri" id="conf">Conferir</button>
+  <button id="prox">${k + 1 < ESCADAS.length ? 'Próxima escada' : 'Voltar à primeira'}</button></div>
+  <p id="placar" style="margin-top:12px"></p>`;
+  $('#sair').onclick = (ev) => { ev.preventDefault(); inicio(); };
+  $('#prox').onclick = () => escadas((k + 1) % ESCADAS.length);
+  $('#conf').onclick = () => {
+    let a = 0;
+    document.querySelectorAll('select').forEach((s) => {
+      const certo = e.l[+s.dataset.i][1], td = s.parentElement;
+      td.querySelectorAll('.r').forEach((x) => x.remove());
+      const ok = s.value === certo; if (ok) a++;
+      td.insertAdjacentHTML('beforeend', `<div class="r ${ok ? 'bom' : 'mau'}">${ok ? '✓' : '✗ ' + esc(certo)}</div>`);
+    });
+    E.esc = E.esc || {}; E.esc[k] = { a, n: e.l.length, d: hoje() }; salva();
+    $('#placar').innerHTML = `<b>${a} de ${e.l.length}</b>. ${a === e.l.length ? 'Escada gravada.' : 'Refaça esta escada amanhã até acertar todas.'}`;
+  };
+}
+
+fetch('dados/banco.json').then((r) => r.json()).then((b) => { BANCO = b; inicio(); })
+  .catch(() => { $('#app').innerHTML = '<p>Não consegui carregar as pegadinhas. Recarregue a página.</p>'; });
+</script>
+</body>
+</html>

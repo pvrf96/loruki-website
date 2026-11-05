@@ -1,0 +1,879 @@
+{
+ "atualizado": "2026-11-01",
+ "polos": [
+  {
+   "match": "Herzzentrum Duisburg",
+   "alerta": "A URL do radar é uma matéria sobre a Charité; os dados de Duisburg vêm de fontes próprias, e a clínica mudou para Fahrn em 2024 (endereço Gerrickstraße está desatualizado).",
+   "rota": [
+    "E-mail à secretaria do Prof. Börgermann (via página evkln.de) pedindo Hospitation de 4 semanas em da Vinci mitral/coronária",
+    "Citar que é um de apenas 2 centros com cirurgia cardíaca robótica na Alemanha",
+    "Anexar carta da Unifesp, CV e seguro",
+    "Sem resposta: tentar o DHZC/Charité como alternativa robótica"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Sem programa público de Hospitation/Gastarzt para médicos externos; hospital de ensino da Heinrich-Heine-Universität Düsseldorf. Elegibilidade de estrangeiro não publicada.",
+    "url": "https://www.evkln.de/hzd/klinik-fuer-herzchirurgie-und-kinderherzchirurgie.html",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Prof. Dr. med. Jochen Börgermann",
+     "cargo": "Chefarzt, Herzchirurgie und Kinderherzchirurgie",
+     "papel": "Decide; principal cirurgião robótico (>120 casos da Vinci); OPCAB/MIDCAB",
+     "url": "https://www.evkln.de/hzd/klinik-fuer-herzchirurgie-und-kinderherzchirurgie.html",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Edis Ljajikj",
+     "cargo": "Oberarzt, Herzchirurgie",
+     "papel": "Membro da equipe; papel na robótica não confirmado",
+     "url": "https://www.evkln.de/hzd/klinik-fuer-herzchirurgie-und-kinderherzchirurgie.html",
+     "certeza": "provável"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "Robótica cardíaca ativa em 2025–2026 (da Vinci mitral e coronária), segundo DGTHG/dpa e Rundschau 2026",
+    "Equipe enfatiza cirurgia sem CEC (OPCAB >70%) e MIDCAB: bom tema para citar junto com robótica",
+    "Pedido direto ao Chefarzt/secretaria, em alemão ou inglês",
+    "A DGTHG (Junges Forum) organiza uma Summer School International para jovens cirurgiões: https://www.dgthg.de/sites/default/files/2023_JFDGTHG_Summer_School_International.pdf"
+   ],
+   "lacunas": [
+    "Programa de observership, taxa e documentos não encontrados",
+    "E-mail oficial de contato não encontrado (só telefone não reconfirmado)",
+    "Artigo recente de robótica do serviço com PMID/DOI não encontrado",
+    "Brasileiros e pontes com Unifesp/SP não encontrados"
+   ]
+  },
+  {
+   "match": "Klinikum Passau — Herzchirurgie",
+   "alerta": "Robótica não confirmada: o serviço faz cirurgia minimamente invasiva/endoscópica, sem evidência de robô.",
+   "rota": [
+    "E-mail a herzchirurgie@klinikum-passau.de dirigido ao Prof. Massoudy",
+    "Pedir Hospitation de 4 semanas em mitral/tricúspide minimamente invasiva com o Dr. Balan",
+    "Citar a special issue de cirurgia minimamente invasiva do J Clin Med editada por Massoudy",
+    "Só vale se a residente aceitar cirurgia endoscópica no lugar de robótica"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Sem programa de Gastarzt/observership; Hospitation aparece só como oferta de recrutamento em vagas. Elegibilidade de estrangeiro não publicada.",
+    "url": "https://www.klinikum-passau.de/fileadmin/user_upload/veranstaltungen/aerztl_dienst/2026/Einladung_FoBi-Minimalinvasive-Herzchirurgie-2026-06-24_WEB.pdf",
+    "contato": "herzchirurgie@klinikum-passau.de (contato publicado da clínica)",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Prof. Dr. med. Parwis Massoudy",
+     "cargo": "Chefarzt Klinik für Herzchirurgie",
+     "papel": "Decide; guest editor da special issue de cirurgia minimamente invasiva (J Clin Med)",
+     "url": "https://www.mdpi.com/journal/jcm/special_issues/J43849ZVPR",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Dr. med. Robert Balan, MHBA",
+     "cargo": "Leitender Oberarzt minimalinvasive Herzchirurgie",
+     "papel": "Provável host para mitral minimamente invasiva",
+     "url": "https://www.klinikum-passau.de/fileadmin/user_upload/veranstaltungen/aerztl_dienst/2026/Einladung_FoBi-Minimalinvasive-Herzchirurgie-2026-06-24_WEB.pdf",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "Centro menor (500–600 CEC/ano, dado de 2023), o que pode facilitar aceitação informal",
+    "A special issue do J Clin Med editada por Massoudy é o melhor gancho personalizado",
+    "A clínica organiza Fortbildung local em minimamente invasiva (edição de 24/06/2026 já passou)"
+   ],
+   "lacunas": [
+    "Cirurgia cardíaca robótica não encontrada",
+    "Taxa, documentos e regras para estrangeiros não encontrados",
+    "Artigo recente do serviço com PMID/DOI não encontrado",
+    "Brasileiros e pontes com Unifesp/SP não encontrados"
+   ]
+  },
+  {
+   "match": "MEDICLIN Herzzentrum Lahr",
+   "alerta": "Robótica não confirmada: o material da clínica trata de cirurgia mitral minimamente invasiva, sem robô.",
+   "rota": [
+    "E-mail a herzchirurgie.HZL@mediclin.de dirigido ao Prof. Sodian",
+    "Pedir Hospitation em reparo mitral minimamente invasivo",
+    "Personalizar com temas da newsletter Herzecho da clínica",
+    "Baixa prioridade para o objetivo robótica"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Não há observership para médicos; existe Famulatur (estágio para estudantes) em Herzchirurgie, Kardiologie e Anästhesie. Clínica privada (MEDICLIN); elegibilidade de estrangeiro não publicada.",
+    "url": "https://www.herzzentrum-lahr.de/fileadmin/02_Dokumente_Share_verzeichnis/02_Klinikdokumente/Herzzentrum_Lahr/HZL_Infos_Herzchirurgie.pdf",
+    "contato": "herzchirurgie.HZL@mediclin.de (secretaria de cirurgia cardíaca)",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Prof. Dr. med. Ralf Sodian",
+     "cargo": "Chefarzt Herz-, Thorax- und Gefäßchirurgie",
+     "papel": "Decide; lidera cirurgia mitral minimamente invasiva",
+     "url": "https://herzzentrum-lahr.de/unsere-experten/experte/prof-dr-med-ralf-sodian",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Kambis Mashayekhi",
+     "cargo": "Chefarzt Kardiologie",
+     "papel": "Relevante se a residente for de cardiologia",
+     "url": "https://www.herzzentrum-lahr.de/fileadmin/02_Dokumente_Share_verzeichnis/02_Klinikdokumente/Herzzentrum_Lahr/Herzecho_01_2022.pdf",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "Sem programa estruturado: pedido direto ao Chefarzt",
+    "Newsletter Herzecho (PDFs no site) traz temas atuais para personalizar o e-mail",
+    "Site tem versão em inglês (para pacientes): https://english.herzzentrum-lahr.de"
+   ],
+   "lacunas": [
+    "Cirurgia cardíaca robótica não encontrada",
+    "Observership para médicos, taxa e documentos não encontrados",
+    "Volume do serviço e artigo recente com PMID/DOI não encontrados",
+    "Brasileiros e pontes com Unifesp/SP não encontrados"
+   ]
+  },
+  {
+   "match": "Universitäts-Herzzentrum Freiburg – Bad Krozingen",
+   "alerta": "A robótica do UHZ é de cateterismo (PCI robótica, cardiologia), não cirurgia cardíaca robótica.",
+   "rota": [
+    "Se cardiologia: pedir Hospitation à Kardiologie do UHZ focada em PCI robótica",
+    "Se cirurgia: e-mail ao Prof. Czerny com foco em aorta, via secretaria da Klinik für Herz- und Gefäßchirurgie",
+    "Anexar carta da Unifesp, CV e seguro"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Sem programa público para médicos visitantes; as páginas de Hospitationstage da Uniklinik Freiburg são para enfermagem/técnicos. UHZ integrado à Uniklinik Freiburg desde 2021.",
+    "url": "https://www.uniklinik-freiburg.de/en/akademie-fuer-medizinische-berufe/hospitationstage-akademie.html",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Prof. Dr. Martin Czerny",
+     "cargo": "Ärztlicher Direktor, Klinik für Herz- und Gefäßchirurgie",
+     "papel": "Decide; referência em aorta e diretrizes",
+     "url": "https://www.med.uni-freiburg.de/de/fakultaet/profs/czerny",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "Robô de cateterismo desde 2021: https://www.uniklinik-freiburg.de/en/press/press-releases/detailed-view/2427-weltweit-modernster-herzkatheter-roboter-steht-in-freiburg.html",
+    "Para cirurgia, o forte é aorta, bypass sem CEC e mitral minimamente invasiva, não robótica",
+    "Gancho para Czerny: diretrizes de aorta co-lideradas por ele (https://www.eurekalert.org/news-releases/1035929)",
+    "Evento Bad Krozinger Herz-Kreislauf-Tage pode ser porta de contato"
+   ],
+   "lacunas": [
+    "Cirurgia cardíaca robótica (da Vinci) não encontrada",
+    "E-mail oficial de contato, taxa e documentos não encontrados",
+    "Vínculo atual do Prof. Matthias Siepe com Freiburg não confirmado em fonte oficial",
+    "Brasileiros, pontes e artigo recente com PMID/DOI não encontrados"
+   ]
+  },
+  {
+   "match": "Cliniques universitaires Saint-Luc",
+   "alerta": "O programa robótico de Namur (Clinique Saint-Luc Bouge) é outra instituição; não confundir com Saint-Luc Bruxelas.",
+   "rota": [
+    "E-mail ao Prof. Laurent de Kerchove via secretaria do serviço (site saintluc.be)",
+    "Pedir 4 semanas de observação no programa mitral robótico, citando a série de 278 casos (2022)",
+    "Anexar apoio formal da Unifesp e seguro",
+    "Alternativa: curso EACTS de reparo aórtico/Ross em Bruxelas e pedir visita na ocasião"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Sem observership formal para estrangeiros; o site cita número limitado de vagas de trainee por disciplina por ano, sem regras de elegibilidade.",
+    "url": "https://saintluc.be/en/node/12091",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Laurent de Kerchove",
+     "cargo": "Head, Cardiothoracic and Vascular Surgery Department; professor UCLouvain",
+     "papel": "Decide visitas; coautor da série robótica",
+     "url": "https://www.ctsnet.org/?p=227228",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Emiliano Navarra",
+     "cargo": "Cardiac surgeon",
+     "papel": "Envolvido no programa robótico desde 2013; provável anfitrião prático",
+     "url": "https://www.annalscts.com/article/view/16970/html",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Stefano Mastrobuoni",
+     "cargo": "Cardiac surgeon",
+     "papel": "Coautor das séries robóticas",
+     "url": "https://www.ctsnet.org/home/smastrobuoni",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Gaby Aphram",
+     "cargo": "Primeiro autor da série 2022",
+     "papel": "Pesquisador da coorte robótica",
+     "url": "https://www.annalscts.com/article/view/16970/html",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "Robotic mitral valve repair—the Bruxelles experience (Aphram et al.)",
+     "ano": 2022,
+     "id": "10.21037/acs-2022-rmvs-20",
+     "url": "https://www.annalscts.com/article/view/16970/html"
+    }
+   ],
+   "dicas": [
+    "Programa da Vinci mitral desde 2012: 278 reparos até 2022, sem mortalidade operatória",
+    "Serviço sedia o curso EACTS 'Aortic Valve Repair and Ross Operation' (https://www.ctsnet.org/print/events/eacts-aortic-valve-repair-and-ross-operation-1)",
+    "Já recebeu fellows internacionais (https://www.ctsnet.org/print/home/hheanmart)",
+    "Hospital francófono: e-mail em francês ou inglês"
+   ],
+   "lacunas": [
+    "E-mail/form oficial de contato não encontrado",
+    "Taxa, documentos e duração não encontrados",
+    "Diretor de fellowship não encontrado",
+    "Brasileiros e pontes com Unifesp/SP não encontrados"
+   ]
+  },
+  {
+   "match": "Klinik Hirslanden — HerzKlinik",
+   "alerta": "A primeira mitral robótica complexa da Suíça com a equipe WVU foi no University of Zurich Heart Center, não na Hirslanden.",
+   "rota": [
+    "E-mail ao Prof. Grünenfelder (contato do perfil Hirslanden) pedindo 2–4 semanas em mitral robótica/MIDCAB",
+    "Sem resposta: escrever a international@hirslanden.ch pedindo encaminhamento",
+    "Considerar também o Universitätsspital Zürich para robótica na Suíça"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Hospital privado sem observership/Hospitation publicado para médicos estrangeiros; a rede de formação suíça (Weiterbildungsverbund) é para residentes suíços.",
+    "url": "https://www.hirslanden.ch/content/dam/corporate/downloads/de/media/press-releases/2020/hirslanden-medienmitteilung-weiterbildungsverbund-herzchirurgie.pdf",
+    "contato": "international@hirslanden.ch (escritório internacional; não confirmado para visitas médicas)",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Jürg Grünenfelder",
+     "cargo": "Chairman Herzchirurgie, Hirslanden Zürich",
+     "papel": "Decide; mitral minimamente invasiva e MIDCAB robótico",
+     "url": "https://www.hirslanden.ch/en/corporate/doctors/1/prof-dr-med-juerg-gruenenfelder.html",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Sacha P. Salzberg",
+     "cargo": "Cardiac surgeon, HerzKlinik",
+     "papel": "Coautor da 1ª mitral robótica (2016); ablação de FA",
+     "url": "https://www.srf.ch/wissen/gesundheit/mit-vorhofflimmern-zum-roboter-oder-zum-chirurgen",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Roberto Corti",
+     "cargo": "Cardiologista, cofundador da HerzKlinik",
+     "papel": "Lado cardiologia do Heart Team",
+     "url": "https://www.bilanz.ch/archiv/beste-fachkliniken-2024-das-herz-der-kardiologie-schlaegt-in-zuerich/sv5bwbb",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "Faz reconstrução mitral com da Vinci (1ª da Suíça alemã em 2016): https://hirslanden.com/de/international/fokusgebiete/kardiologie/erkrankungen/moderne-herzchirurgie.html",
+    "Sem cultura de observership estruturado: aproximação pessoal com o cirurgião é o caminho",
+    "Material em alemão; e-mail em inglês é aceitável"
+   ],
+   "lacunas": [
+    "Volume robótico atual não encontrado (fontes específicas de 2014–2016)",
+    "Observership, taxa e documentos não encontrados",
+    "Artigo recente de robótica do serviço não encontrado",
+    "Brasileiros e pontes com Unifesp/SP não encontrados"
+   ]
+  },
+  {
+   "match": "Humanitas Gavazzeni",
+   "alerta": "URL do radar (NCT04415138) não verificada; o restante do polo está confirmado.",
+   "rota": [
+    "E-mail ao Dr. Alfonso Agnino (inglês ou francês) citando a curva de aprendizado (2023) e o RA-MIDCAB (2024)",
+    "Pedir 4 semanas de observação na cardiochirurgia robotica",
+    "Pedir encaminhamento à Direzione Sanitaria para autorização formal (seguro + carta Unifesp)",
+    "Checar se a International Heart School oferece curso/estágio"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Sem frequenza volontaria/observership formal publicado; a International Heart School sediada no hospital é possível canal educacional.",
+    "url": "https://eacts.org/?p=25710",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Alfonso Agnino",
+     "cargo": "Responsável, Cardiochirurgia Robotica e Mininvasiva",
+     "papel": "Decide e hospeda; formação em Rennes (fala francês)",
+     "url": "https://eacts.org/?p=25710",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Laura Giroletti",
+     "cargo": "Cirurgiã/pesquisadora",
+     "papel": "Coautora RA-MIDCAB 2024",
+     "url": "https://synapsesocial.com/papers/W4395011298",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Ascanio Graniero",
+     "cargo": "Cirurgião",
+     "papel": "Equipe robótica; coautor RA-MIDCAB 2024",
+     "url": "https://synapsesocial.com/papers/W4395011298",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Massimo Castoldi",
+     "cargo": "Direttore Sanitario",
+     "papel": "Autoriza formalmente a frequência de externos",
+     "url": "https://www.gavazzeni.it/wp-content/uploads/2025/09/Gavazzeni-CdS-A508-2025pr.pdf",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "Learning Curve Analysis of Robotic-Assisted Mitral Valve Repair with COVID-19 Exogenous Factor: A Single Center Experience",
+     "ano": 2023,
+     "id": "10.3390/medicina59091568",
+     "url": "https://www.mdpi.com/1648-9144/59/9/1568"
+    },
+    {
+     "titulo": "RA-MIDCAB e TE-CAB robóticos (Giroletti, Graniero, Agnino), J Clin Med",
+     "ano": 2024,
+     "id": null,
+     "url": "https://doaj.org/article/870ee4d55e7948b2a705921cf98e7e4d"
+    }
+   ],
+   "dicas": [
+    "Melhor alvo robótico europeu deste lote: programa desde 2019, 149 reparos mitrais robóticos até 2023",
+    "Equipe treinou na Orsi Academy, Na Homolce (Praga) e Nancy: bons temas de conversa",
+    "Congressos em Bérgamo sobre IA e robótica cardíaca podem ser ocasião de contato (https://qds.it/ia-e-robotica-al-servizio-del-cuore-un-convegno-a-bergamo/)"
+   ],
+   "lacunas": [
+    "E-mail/form oficial de contato não encontrado",
+    "Taxa, duração e documentos não encontrados",
+    "Diretor de fellowship não encontrado",
+    "Brasileiros e pontes com Unifesp/SP não encontrados"
+   ]
+  },
+  {
+   "match": "ISMETT",
+   "alerta": "O programa robótico cardíaco começou em mar/2025 e tem baixo volume; o rótulo de polo de robótica é otimista.",
+   "rota": [
+    "E-mail a mail@ismett.edu pedindo encaminhamento ao Dr. Pilato, com cópia ao Prof. Musumeci",
+    "Focar robótica coronária + transplante/assistência circulatória",
+    "Melhor alternativa: usar o vínculo ISMETT–UPMC para mirar o programa robótico da UPMC Pittsburgh"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Sem observership para médicos; recebe estudantes estrangeiros via convênio SISM e avalia candidaturas de visitantes a seu critério (IRCCS, parceria Região Sicília + UPMC).",
+    "url": "https://oldwww.ismett.edu/?p=5741",
+    "contato": "mail@ismett.edu (contato geral publicado)",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Michele Pilato",
+     "cargo": "Diretor do Centro Cuore ISMETT; presidente SICCH 2025–26",
+     "papel": "Decide; interesse público em percursos formativos",
+     "url": "https://upmc.it/en/specialists/pilato-michele",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Francesco Musumeci",
+     "cargo": "Senior Consultant in Cardiac Surgery",
+     "papel": "Lidera o programa robótico cardíaco",
+     "url": "https://www.ismett.edu/?p=20460",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Maria Scarlata",
+     "cargo": "Anestesiologista",
+     "papel": "Equipe do 1º caso robótico",
+     "url": "https://www.ismett.edu/?p=20460",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "Pouco caso robótico para observar em 1 mês",
+    "Forte em transplante cardíaco (>200 em 17 anos) e assistência circulatória"
+   ],
+   "lacunas": [
+    "Artigo robótico 2022–2026 do ISMETT não encontrado",
+    "Taxa, duração e documentos não encontrados",
+    "Volume robótico após o 1º caso não publicado",
+    "Brasileiros e pontes com Unifesp/SP não encontrados"
+   ]
+  },
+  {
+   "match": "Centro Cardiovascolare Lancisi (Univpm)",
+   "alerta": "Sem programa de cirurgia cardíaca robótica em Ancona: o foco é mitral mini-invasiva (minitoracotomia/transaxilar, endoscópica) e transcateter.",
+   "rota": [
+    "Inscrever-se no próximo Ancona Live/Advanced Course",
+    "A partir do curso, escrever ao Prof. Di Eusanio citando o Mini Mitral International Registry e o trabalho de del Nido",
+    "Pedir 2–4 semanas de observação; vínculo formal via AOU delle Marche/Univpm",
+    "Se o objetivo for robótica, Ancona não é o lugar"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Sem observership publicado; a porta pública são os cursos Ancona Live/Advanced (mini-invasiva e transcateter), abertos a internacionais, inclusive virtuais.",
+    "url": "https://minicardiacsurgery-univpm-research.com/",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Marco Di Eusanio",
+     "cargo": "Director, Cardiac Surgery Department, Lancisi; Professor Univpm",
+     "papel": "Decide; organiza os cursos de Ancona",
+     "url": "https://ctsnet.org/home/mdieusanio",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Paolo Berretta",
+     "cargo": "Cirurgião",
+     "papel": "Mini Mitral International Registry: bom gancho de e-mail",
+     "url": "https://minicardiacsurgery-univpm-research.com/",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Pietro Giorgio Malvindi",
+     "cargo": "Cirurgião",
+     "papel": "Primeiro autor de estudos mini-mitral",
+     "url": "https://minicardiacsurgery-univpm-research.com/",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Carlo Zingaro",
+     "cargo": "Cirurgião",
+     "papel": "Equipe mini-invasiva",
+     "url": "https://minicardiacsurgery-univpm-research.com/",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "Programa do curso mini-invasivo: https://www.minicardiacsurgery-univpm-research.com/wp-content/uploads/2024/06/Programma_Minimally_invasive-1.pdf",
+    "Edição virtual 2021 teve participantes de 81 países",
+    "O site lista visiting surgeons internacionais no corpo docente"
+   ],
+   "lacunas": [
+    "Cirurgia cardíaca robótica não encontrada",
+    "Página de contato do centro (via radar) não verificada",
+    "Artigos recentes sem PMID/DOI nem URL nos resultados",
+    "Volume atual, brasileiros e pontes não encontrados"
+   ]
+  },
+  {
+   "match": "Ospedale di Legnano — Cardiochirurgia",
+   "alerta": "Sem programa robótico cardíaco: a notícia do radar é sobre minitoracotomia, e o robô de Legnano/Magenta é de cirurgia geral e urologia.",
+   "rota": [
+    "Baixa prioridade para robótica: sugerir remover do radar robótico",
+    "Se interessar CABG/minitoracotomia: e-mail ao Dr. Di Credico citando os números Agenas 2024",
+    "Trâmite administrativo via ASST Ovest Milanese (não publicado)"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Sem observership internacional publicado; hospital público regional. Caminho seria contato direto com a SC/direção da ASST.",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Germano Di Credico",
+     "cargo": "Direttore SC Cardiochirurgia e Dipartimento Cardio Vascolare",
+     "papel": "Decide",
+     "url": "https://www.legnanonews.com/aree-geografiche/legnano/2025/12/30/asst-ovest-milanese-nuovi-traguardi-nella-cardiochirurgia-mini-invasiva-a-legnano/1394911/?output=pdf",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "Alto volume em CABG isolada (1º da Lombardia em 2024, Agenas): https://www.ilgiorno.it/salute/bypass-aortocoronarico-ospedale-legnano-eav290pn",
+    ">600 intervenções em 2024 e crescimento em valvar mini-invasiva"
+   ],
+   "lacunas": [
+    "Cirurgia cardíaca robótica não encontrada",
+    "Contato oficial, taxa e documentos não encontrados",
+    "Artigo científico recente do serviço não encontrado",
+    "Brasileiros e pontes com Unifesp/SP não encontrados"
+   ]
+  },
+  {
+   "match": "CHU de Bordeaux (Haut-Lévêque)",
+   "alerta": null,
+   "rota": [
+    "E-mail ao Pr Labrousse (cc Pr Modine) em francês/inglês citando o início do programa robótico mitral e a telecirurgia de 2025",
+    "Pedir 4 semanas de observação na chirurgie cardiaque Haut-Lévêque",
+    "Pedir o trâmite da Direction des Affaires Médicales/convenção de estágio do CHU",
+    "Alternativa: inscrever-se num DU da Univ. Bordeaux para ter vínculo formal"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Sem stage d'observation publicado para médicos estrangeiros. DUs da Univ. Bordeaux aceitam médicos estrangeiros especialistas (ex.: cardiopatias congênitas, com estágio de 35 h), mas não são de robótica.",
+    "url": "https://sante.u-bordeaux.fr/download_file/view/8057e604-544d-4f85-95d6-5ded92680179/462",
+    "documentos": "DU: carta de motivação + CV",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Louis Labrousse",
+     "cargo": "Chirurgien cardiaque; chef de service (2021)",
+     "papel": "Coautor sênior do programa robótico mitral",
+     "url": "https://www.ctsnet.org/home/llabrousse",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Thomas Modine",
+     "cargo": "Professor, cirurgião cardíaco",
+     "papel": "Liderou a 1ª intervenção cardíaca robótica à distância (MitraClip, 2025); muita rede internacional",
+     "url": "https://www.pourquoidocteur.fr/Articles/Question-d-actu/53263-Des-medecins-francais-opere-patient-chinois-10000-km-distance",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Olivier Busuttil",
+     "cargo": "Cirurgião cardíaco",
+     "papel": "Coautor do início do programa robótico",
+     "url": "https://busca.umc.cl/Record/oai:doaj.org-article:0c7edddfd46d4852b3e622ff04b6920d/Description",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Pernot (prenome provável: Mathieu)",
+     "cargo": "Cirurgião cardíaco",
+     "papel": "Coautor do programa robótico",
+     "url": "https://busca.umc.cl/Record/oai:doaj.org-article:0c7edddfd46d4852b3e622ff04b6920d/Description",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Antonio Piperata",
+     "cargo": "Primeiro autor dos artigos robóticos",
+     "papel": "Exemplo de estrangeiro (italiano) no programa robótico",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8674761",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Lionel Leroux",
+     "cargo": "Cardiologista intervencionista",
+     "papel": "Parceiro de Modine na telecirurgia robótica estrutural",
+     "url": "https://www.pourquoidocteur.fr/Articles/Question-d-actu/53263-Des-medecins-francais-opere-patient-chinois-10000-km-distance",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "Starting A New Robotic Surgery Program for Mitral Valve Repair. Lessons Learned from The First Nine Months",
+     "ano": 2021,
+     "id": "PMC8674761",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8674761"
+    },
+    {
+     "titulo": "Registro europeu de cirurgia cardíaca robótica 2016–2019 (Cerny, Oosterlinck et al.)",
+     "ano": 2022,
+     "id": "10.3389/fcvm.2021.827515",
+     "url": "https://www.frontiersin.org/articles/10.3389/fcvm.2021.827515"
+    },
+    {
+     "titulo": "Robotic surgery at Bordeaux University Hospital (J Pers Med 12(11):1895)",
+     "ano": 2022,
+     "id": null,
+     "url": "https://www.mdpi.com/2075-4426/12/11/1895"
+    }
+   ],
+   "dicas": [
+    "Programa da Vinci desde jan/2021 (mitral, MIDCAB/TECAB, tricúspide, CIA/FOP); volume modesto (25 robóticas em 2023)",
+    "Recebe estrangeiros (ex.: Piperata); francês ajuda",
+    "A telecirurgia robótica de Modine (2025) é ótimo gancho de e-mail",
+    "Para robótica cardíaca na França, é a melhor opção deste lote"
+   ],
+   "lacunas": [
+    "Cargo atual do Pr Labrousse não confirmado (dado de 2021)",
+    "E-mail/form oficial de contato não encontrado",
+    "Taxa e regras de observership não encontradas",
+    "Brasileiros e pontes com Unifesp/SP não encontrados"
+   ]
+  },
+  {
+   "match": "CHU de Limoges",
+   "alerta": "A cirurgia cardíaca robótica de Limoges é de ~2013; sem atividade robótica cardíaca 2021–2026 encontrada (programa pode estar inativo).",
+   "rota": [
+    "Baixa prioridade",
+    "Se insistir: e-mail ao Dr Le Guyader perguntando se o CABG robótico segue ativo antes de pedir observação",
+    "Para robótica na França, preferir Bordeaux"
+   ],
+   "prazos": [],
+   "programa": {
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Alexandre Le Guyader",
+     "cargo": "Cirurgião cardiotorácico, CHU Dupuytren",
+     "papel": "Liderou o programa de CABG robótico (histórico)",
+     "url": "https://www.caducee.net/actualite-medicale/11103/chirurgie-cardiaque-le-chu-de-limoges-realise-un-double-pontage-a-l-aide-d-un-robot.html",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Jérôme Jouan",
+     "cargo": "Associado ao serviço de cirurgia torácica e cardiovascular (2025)",
+     "papel": "Possível liderança atual",
+     "url": "https://www.unilim.fr/internat_limousin/wp-content/uploads/sites/4/2025/09/Chir-GO.pdf",
+     "certeza": "provável"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "Confirmar se há atividade robótica atual antes de investir"
+   ],
+   "lacunas": [
+    "Programa de observership não encontrado",
+    "Chefe de serviço atual não confirmado",
+    "Atividade e volume robótico atuais não encontrados",
+    "Artigos recentes, brasileiros e pontes não encontrados"
+   ]
+  },
+  {
+   "match": "Hospital Clínico San Carlos",
+   "alerta": "Sem cirurgia cardíaca robótica no HCSC (o da Vinci é de outras especialidades); na Espanha, a robótica cardíaca documentada é do Hospital Clínic de Barcelona.",
+   "rota": [
+    "Para robótica cardíaca, priorizar o Hospital Clínic de Barcelona",
+    "Se ainda quiser o HCSC: confirmar o chefe atual de Cirugía Cardíaca",
+    "Unifesp envia carta oficial à Comisión de Docencia indicando serviço e período, dentro do prazo do ciclo"
+   ],
+   "prazos": [
+    {
+     "txt": "Prazo de solicitações do ciclo citado: 12/06/2026 (já passou; próximo ciclo não confirmado)",
+     "url": "https://www.comunidad.madrid/hospital/clinicosancarlos/node/257",
+     "certeza": "confirmado"
+    }
+   ],
+   "programa": {
+    "resumo": "Normativa de Médicos Visitantes (estancia formativa): pedido oficial feito pelos tutores/diretores da instituição de origem à Comisión de Docencia, com centro, nome, especialidade e serviço de rotação.",
+    "url": "https://www.comunidad.madrid/hospital/clinicosancarlos/node/257",
+    "taxa": "Não informada; sem remuneração e sem custeio de viagem, hospedagem ou alimentação",
+    "documentos": "Carta oficial da instituição de origem",
+    "certeza": "confirmado"
+   },
+   "pessoas": [],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "Improvement of Early Outcomes in Type A Acute Aortic Syndrome After an Aorta Code Implementation (Ann Thorac Surg)",
+     "ano": 2024,
+     "id": null,
+     "url": "https://produccioncientifica.ucm.es/investigadores/145298/detalle"
+    }
+   ],
+   "dicas": [
+    "Foco cardíaco é minimamente invasivo: neocordas mitrais com coração batendo e 1º TMVR via minitoracotomia da Espanha (2020)",
+    "Cerca de 700 cirurgias/ano e 2 unidades CSUR (ano não confirmado)",
+    "O Smart Health Center treina robótica, mas em cirurgia geral/digestiva"
+   ],
+   "lacunas": [
+    "Chefe atual de Cirugía Cardíaca não encontrado (o ex-chefe Dr. Maroto atua hoje na Quirónsalud)",
+    "Cirurgia cardíaca robótica não encontrada",
+    "E-mail oficial da Comisión de Docencia não encontrado",
+    "Brasileiros e pontes com Unifesp/SP não encontrados"
+   ]
+  },
+  {
+   "match": "Acıbadem Maslak",
+   "alerta": null,
+   "rota": [
+    "Escrever ao International Office da Acıbadem University pedindo observership de pós-graduação em cirurgia cardiovascular robótica no Maslak",
+    "Em paralelo, e-mail acadêmico ao Prof. Cem Alhan/Prof. Şenay citando os artigos de 2022 e 2023",
+    "Anexar carta da Unifesp"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "A Acıbadem University anuncia observation programs para médicos estrangeiros em várias especialidades, sem detalhar elegibilidade ou taxa; o programa de estudantes (Atakent) não serve para residentes.",
+    "url": "https://acibadem.edu.tr/en/postgraduate-clinical-programs",
+    "taxa": "Referência (estudantes): USD 2.000 por 4 semanas; para residentes não informada",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Prof. Cem Alhan",
+     "cargo": "Cirurgião cardiovascular, autor sênior das séries robóticas",
+     "papel": "Líder do programa robótico; decide e hospeda",
+     "url": "https://acibademinternational.com/doctor/cem-alhan",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Prof. Şahin Şenay",
+     "cargo": "Cirurgião cardiovascular (visiting fellowship em Leipzig)",
+     "papel": "Coautor-chave em robótica; contato acadêmico",
+     "url": "https://acibademinternational.com/doctor/sahin-senay",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Ahmet Ümit Güllü",
+     "cargo": "Cirurgião cardiovascular",
+     "papel": "Coautor das séries robóticas",
+     "url": "https://acibademinternational.com/doctor/ahmet-umit-gullu",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Gökhan Arslanhan",
+     "cargo": "Primeiro autor da série de troca mitral robótica",
+     "papel": "Pesquisa do programa",
+     "url": "https://www.annalscts.com/article/view/16966/html",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Eyüp Murat Ökten",
+     "cargo": "Primeiro autor, Frontiers 2023",
+     "papel": "Pesquisa do programa",
+     "url": "https://www.frontiersin.org/journals/cardiovascular-medicine/articles/10.3389/fcvm.2023.1111496/full",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "Robotic-assisted mitral valve surgery without aortic cross-clamping: a safe and feasible technique",
+     "ano": 2023,
+     "id": "10.3389/fcvm.2023.1111496",
+     "url": "https://www.frontiersin.org/journals/cardiovascular-medicine/articles/10.3389/fcvm.2023.1111496/full"
+    },
+    {
+     "titulo": "Robotic mitral valve replacement; results from the world's largest series",
+     "ano": 2022,
+     "id": "10.21037/acs-2022-rmvs-11",
+     "url": "https://www.annalscts.com/article/view/16966/html"
+    },
+    {
+     "titulo": "Concomitant Tricuspid Valve Surgery Is Not Associated With Increased Operative Risk During Robotic Mitral Valve Surgery",
+     "ano": 2024,
+     "id": null,
+     "url": "https://avesis.acibadem.edu.tr/Cem.Alhan"
+    }
+   ],
+   "dicas": [
+    "301 mitrais robóticas entre 2010 e 2022: programa maduro",
+    "Gancho: técnica sem pinçamento aórtico e 'maior série mundial' de troca mitral robótica",
+    "Centro privado com forte braço internacional"
+   ],
+   "lacunas": [
+    "Chefe formal do departamento não encontrado",
+    "E-mail oficial do International Office não encontrado",
+    "Taxa e documentos para residentes não encontrados",
+    "Brasileiros e pontes com Unifesp/SP não encontrados"
+   ]
+  },
+  {
+   "match": "Memorial Bahçelievler",
+   "alerta": "A robótica cardíaca se apoia no perfil do Prof. Burak Onan; não há série publicada nem nota oficial do hospital confirmando volume.",
+   "rota": [
+    "Prioridade baixa: Acıbadem Maslak é alternativa mais sólida na mesma cidade",
+    "Antes, confirmar a produção do Prof. Onan no PubMed",
+    "Se insistir: e-mail acadêmico ao Prof. Onan (canal institucional/CTSNet) com carta da Unifesp"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Nenhum observership para médicos estrangeiros localizado; a página de doktor-basvurulari é de recrutamento.",
+    "url": "https://www.memorial.com.tr/doktor-basvurulari",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Prof. Dr. Burak Onan",
+     "cargo": "Cirurgião cardiovascular, Memorial Bahçelievler",
+     "papel": "Principal cirurgião robótico cardíaco identificado; hospedaria",
+     "url": "https://www.ctsnet.org/home/bonan",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Veysel Temizkan",
+     "cargo": "Cirurgião cardíaco",
+     "papel": "Membro do serviço; sem ligação com robótica confirmada",
+     "url": "https://health.bookimed.com/clinic/m/memorial-bahcelievler-hospital",
+     "certeza": "provável"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "Grupo privado voltado a turismo médico: entrada por contato pessoal com o cirurgião"
+   ],
+   "lacunas": [
+    "Chefe do serviço e volume robótico não encontrados",
+    "Artigo 2022–2026 do serviço sobre robótica não encontrado",
+    "Contato oficial, taxa e documentos não encontrados",
+    "Brasileiros e pontes com Unifesp/SP não encontrados"
+   ]
+  },
+  {
+   "match": "Sheba Medical Center",
+   "alerta": "A primeira cirurgia cardíaca robótica do Sheba (e de Israel) foi por volta de abr/2026; ainda não há volume nem série publicada.",
+   "rota": [
+    "Prioridade baixa para robótica",
+    "Contato via Sheba Global pedindo observership no Department of Cardiac Surgery (Prof. Sternik)",
+    "Tentar apresentação pela parceria Einstein–Sheba em SP",
+    "Para robótica mitral madura, a colaboração aponta a Cleveland Clinic (Gillinov)"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Nenhuma página oficial de observership/visiting physician encontrada; canal genérico é o Sheba Global.",
+    "url": "https://sheba-global.com",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Prof. Leonid Sternik",
+     "cargo": "Director of Cardiac Surgery",
+     "papel": "Decide; coliderou a 1ª cirurgia robótica",
+     "url": "https://www.shebaonline.org/?p=6513",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Prof. Marc Gillinov",
+     "cargo": "Cleveland Clinic, colaborador externo",
+     "papel": "Ponte para robótica mitral madura nos EUA",
+     "url": "https://sheba-global.com/category/development-projects/",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "Forte braço internacional (Sheba Global/ARC)",
+    "Observership sem contato com paciente é a norma israelense (referência indireta)",
+    "Cerca de 400 CABG/ano (ano não informado)"
+   ],
+   "lacunas": [
+    "Prof. Erez Kachel (coliderou a robótica) só citado via LinkedIn, sem URL estável",
+    "Contato oficial, taxa e documentos não encontrados",
+    "Artigo 2022–2026 do serviço não encontrado",
+    "Brasileiros no serviço não encontrados"
+   ]
+  }
+ ],
+ "pontes_brasil": [
+  {
+   "nome": "Hospital Israelita Albert Einstein",
+   "onde": "São Paulo",
+   "ligacao": "Parceria institucional com o Sheba em inovação (dados, medicina de precisão, estudos descentralizados); não cardiológica",
+   "centros": [
+    "Sheba Medical Center"
+   ],
+   "url": "https://sheba-global.com/sheba-and-albert-einstein-hospital-announce-new-partnership/",
+   "certeza": "confirmado"
+  }
+ ]
+}

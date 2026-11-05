@@ -1,0 +1,128 @@
+[
+ {
+  "match": "Hospital Clínico San Carlos",
+  "city": "Madri", "country": "Espanha", "areas": ["robotica"],
+  "alerta_correcao": "Nenhuma fonte confirma cirurgia cardíaca robótica no HCSC. O programa Da Vinci (desde 2006, >4.000 casos até jun/2026) cobre urologia, cirurgia geral/digestiva, ginecologia, pediatria, torácica e ORL, mas não cardíaca. Na cirurgia cardíaca, o que aparece é cirurgia minimamente invasiva: neocordas mitrais com coração batendo (2018) e primeiro implante de prótese mitral transcateter da Espanha via minitoracotomia (2020, que é a URL de contato do radar, noticia/58593). Em toda a Espanha, a cirurgia cardíaca robótica documentada é do Hospital Clínic de Barcelona (desde jun/2020). Sugestão: reclassificar como 'minimamente invasiva/TMVR' ou trocar pelo Clínic Barcelona.",
+  "programa": {
+   "pagina": "https://www.comunidad.madrid/hospital/clinicosancarlos/node/257",
+   "nome": "Normativa Médicos Visitantes (estancia formativa)",
+   "elegibilidade": "Médicos externos em estadia formativa. Pedido oficial feito pelos tutores/diretores da instituição de origem à Comisión de Docencia, informando centro de origem, nome, especialidade e serviço/área de rotação no HCSC.",
+   "taxa": "não encontrado. Sem remuneração, e o hospital não paga deslocamento, hospedagem nem alimentação.",
+   "prazo": "Para o período citado na página, o prazo de solicitações era 12/06/2026. A janela do próximo ciclo não foi confirmada.",
+   "documentos": "não encontrado (além da carta oficial da instituição de origem)",
+   "trecho": "deben dirigir la petición oficial... Servicio y Área de rotación en el Hospital Clínico San Carlos ... la fecha límite para aceptar solicitudes para dicho plazo es el día 12 DE JUNIO DE 2026",
+   "contato_oficial": "não encontrado (canal: Comisión de Docencia do HCSC)",
+   "certeza": "confirmado (trechos da página oficial)"
+  },
+  "servico": {
+   "nome": "Servicio de Cirugía Cardíaca, Hospital Clínico San Carlos",
+   "chefe": "Luis Carlos Maroto Castellanos foi nomeado chefe de serviço (era chefe de seção desde 2012), mas perfis da Quirónsalud o colocam como EX-chefe, atuando no Ruber Internacional desde jan/2023 e no Ruber Juan Bravo desde abr/2025. Chefe atual: não encontrado.",
+   "fontes": ["https://www.comunidad.madrid/node/61343", "https://www.quironsalud.com/es/cuadro-medico/luis-carlos-maroto-castellanos"],
+   "volume": "cerca de 700 cirurgias/ano e 2 unidades de referência nacional (CSUR). Ano da nota não confirmado.",
+   "diretor_fellowship": "não encontrado",
+   "certeza": "provável/desatualizado"
+  },
+  "pessoas_chave": [
+   {"nome": "Luis Carlos Maroto Castellanos", "cargo": "ex-chefe de Cirurgia Cardíaca do HCSC (hoje na Quirónsalud Ruber)", "por_que": "liderou os casos de TMVR e as neocordas. Provavelmente não decide mais estágios no HCSC", "fonte": "https://www.quironsalud.com/es/cuadro-medico/luis-carlos-maroto-castellanos", "certeza": "provável"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {"titulo": "Improvement of Early Outcomes in Type A Acute Aortic Syndrome After an Aorta Code Implementation", "ano": 2024, "revista": "Ann Thorac Surg", "id": "não encontrado nos resultados", "fonte": "https://produccioncientifica.ucm.es/investigadores/145298/detalle", "nota": "não é de robótica"},
+   {"titulo": "Artigo sobre substituição valvar aórtica em >65 anos (título exato não exibido)", "ano": 2023, "revista": "Eur J Cardiothorac Surg", "id": "não encontrado", "fonte": "https://produccioncientifica.ucm.es/investigadores/145298/detalle"}
+  ],
+  "dicas": "Por ser hospital público espanhol, a 'estancia formativa' depende de carta oficial da instituição de origem (COREME/Unifesp) enviada à Comisión de Docencia, com serviço e período definidos. Há prazos por ciclo (ex.: 12/jun/2026). O Smart Health Center do HCSC treina cirurgiões em robótica, mas o treino documentado é de cirurgia geral/digestiva.",
+  "rota_recomendada": "Para robótica cardíaca, este polo é fraco: priorize o Hospital Clínic de Barcelona. Se ainda quiser o HCSC (cirurgia mitral minimamente invasiva/transcateter), a Unifesp envia carta oficial à Comisión de Docencia indicando o Servicio de Cirugía Cardíaca, dentro do prazo do ciclo, depois de confirmar o chefe atual."
+ },
+ {
+  "match": "Acıbadem Maslak",
+  "city": "Istambul", "country": "Turquia", "areas": ["robotica"],
+  "programa": {
+   "pagina": "https://acibadem.edu.tr/en/postgraduate-clinical-programs",
+   "descricao": "A Acıbadem University anuncia 'observation programs' para médicos estrangeiros em várias especialidades, sem detalhar trilhas, elegibilidade ou taxa.",
+   "programa_estudantes": "https://www.acibadem.edu.tr/en/international-office/international-students/programs/undergraduate-clinical-programs: observership no Atakent Hospital, de 4 semanas (USD 2.000) a 8 semanas (USD 4.000). É voltado a estudantes do 4º ao 6º ano, não a residentes.",
+   "taxa_residentes": "não encontrado",
+   "documentos": "não encontrado",
+   "contato_oficial": "não encontrado (International Office da Acıbadem University)",
+   "certeza": "provável. Existe programa para médicos estrangeiros, mas sem detalhes para cirurgia cardiovascular."
+  },
+  "servico": {
+   "nome": "Department of Cardiovascular Surgery, Acıbadem Maslak Hospital (programa robótico Da Vinci Si/Xi)",
+   "chefe": "não encontrado formalmente. Prof. Cem Alhan é o autor sênior das séries robóticas.",
+   "volume": "301 cirurgias mitrais robóticas entre jan/2010 e set/2022 (Frontiers 2023). 117 trocas mitrais robóticas de 2010 a abr/2022 (Ann Cardiothorac Surg 2022). O grupo cita '>500 cirurgias cardíacas robóticas' (institucional).",
+   "fontes": ["https://www.frontiersin.org/journals/cardiovascular-medicine/articles/10.3389/fcvm.2023.1111496/full", "https://www.annalscts.com/article/view/16966/html", "https://acibademinternational.com/robotic-heart-surgery-at-acibadem-hospital/"],
+   "diretor_fellowship": "não encontrado",
+   "certeza": "confirmado (volume publicado)"
+  },
+  "pessoas_chave": [
+   {"nome": "Prof. Cem Alhan", "cargo": "cirurgião cardiovascular, Acıbadem Maslak. Autor sênior das séries robóticas", "por_que": "líder do programa robótico, quem decide e hospeda", "fonte": "https://acibademinternational.com/doctor/cem-alhan", "certeza": "confirmado (autoria); cargo formal não confirmado"},
+   {"nome": "Prof. Şahin Şenay", "cargo": "cirurgião cardiovascular, Acıbadem Maslak. Fez visiting fellowship no Leipzig Heart Center", "por_que": "coautor-chave em robótica e ponto de contato acadêmico", "fonte": "https://acibademinternational.com/doctor/sahin-senay", "certeza": "confirmado"},
+   {"nome": "Ahmet Ümit Güllü", "cargo": "cirurgião cardiovascular, Acıbadem", "por_que": "coautor das séries robóticas", "fonte": "https://acibademinternational.com/doctor/ahmet-umit-gullu", "certeza": "confirmado"},
+   {"nome": "Gökhan Arslanhan", "cargo": "primeiro autor da série de troca mitral robótica", "por_que": "pesquisa do programa", "fonte": "https://www.annalscts.com/article/view/16966/html", "certeza": "confirmado"},
+   {"nome": "Eyüp Murat Ökten", "cargo": "primeiro autor do artigo Frontiers 2023", "por_que": "pesquisa do programa", "fonte": "https://www.frontiersin.org/journals/cardiovascular-medicine/articles/10.3389/fcvm.2023.1111496/full", "certeza": "confirmado"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {"titulo": "Robotic-assisted mitral valve surgery without aortic cross-clamping: a safe and feasible technique", "ano": 2023, "revista": "Front Cardiovasc Med", "doi": "10.3389/fcvm.2023.1111496", "certeza": "confirmado"},
+   {"titulo": "Robotic mitral valve replacement; results from the world's largest series", "ano": 2022, "revista": "Ann Cardiothorac Surg 11(5):533-537", "doi": "10.21037/acs-2022-rmvs-11", "pmc": "PMC9551377", "certeza": "confirmado"},
+   {"titulo": "Concomitant Tricuspid Valve Surgery Is Not Associated With Increased Operative Risk During Robotic Mitral Valve Surgery", "ano": "2024 (data de indexação, não confirmada)", "id": "não encontrado", "fonte": "https://avesis.acibadem.edu.tr/Cem.Alhan", "certeza": "provável"}
+  ],
+  "dicas": "É um centro privado com forte braço internacional. A porta formal mais provável é a Acıbadem University (observation programs). O programa estruturado de estudantes custa ~USD 500/semana, o que serve de referência de custo. Um gancho forte para o e-mail é a técnica sem pinçamento aórtico e a 'maior série mundial' de troca mitral robótica.",
+  "rota_recomendada": "1) Escrever ao International Office da Acıbadem University pedindo observership para médico estrangeiro (postgraduate observation program) em cirurgia cardiovascular robótica no Maslak. 2) Em paralelo, mandar e-mail acadêmico ao Prof. Cem Alhan/Prof. Şenay citando os artigos de 2022 e 2023, com carta da Unifesp."
+ },
+ {
+  "match": "Memorial Bahçelievler",
+  "city": "Istambul", "country": "Turquia", "areas": ["robotica"],
+  "alerta_correcao": "A robótica cardíaca no Bahçelievler se apoia sobretudo no perfil do Prof. Burak Onan (CTSNet: >500 casos Da Vinci; Bookimed: treino em Estrasburgo e membro do EACTS Robotic Cardiac Surgery Group). Não há série publicada nem nota oficial datada do hospital confirmando volume. As alegações de 'primeiro' vêm de site de turismo médico. Grau: provável.",
+  "programa": {
+   "pagina": "não encontrado. Nenhum observership para médicos estrangeiros localizado. A página https://www.memorial.com.tr/doktor-basvurulari é de recrutamento, não de estágio.",
+   "certeza": "não encontrado"
+  },
+  "servico": {
+   "nome": "Memorial Bahçelievler Hastanesi, Kalp ve Damar Cerrahisi Bölümü",
+   "chefe": "não encontrado",
+   "volume": "não encontrado (só números autodeclarados e conflitantes: >500 robóticas no CTSNet vs 1.100+ procedimentos no Bookimed)",
+   "diretor_fellowship": "não encontrado",
+   "certeza": "provável"
+  },
+  "pessoas_chave": [
+   {"nome": "Prof. Dr. Burak Onan", "cargo": "cirurgião cardiovascular, Memorial Bahçelievler. Interesse em reparo mitral e robótica", "por_que": "principal (e talvez único) cirurgião robótico cardíaco identificado, quem hospedaria", "fonte": "https://www.ctsnet.org/home/bonan", "certeza": "provável"},
+   {"nome": "Veysel Temizkan", "cargo": "cirurgião cardíaco, Memorial Bahçelievler (fonte de turismo médico)", "por_que": "membro do serviço, sem ligação com robótica confirmada", "fonte": "https://health.bookimed.com/clinic/m/memorial-bahcelievler-hospital", "certeza": "provável"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": "não encontrado (nenhum artigo de 2022–2026 do serviço sobre robótica apareceu nos resultados. Buscar 'Onan B robotic' no PubMed antes de citar.)",
+  "dicas": "Grupo privado voltado a turismo médico, sem programa de educação para médicos estrangeiros publicado. A entrada seria por contato pessoal com o cirurgião.",
+  "rota_recomendada": "Prioridade baixa. Se insistir: e-mail acadêmico ao Prof. Burak Onan (pelo canal institucional/CTSNet) com carta da Unifesp, pedindo observação de casos robóticos mitrais. Antes, confirmar a produção dele no PubMed. Acıbadem Maslak é a alternativa mais sólida na mesma cidade."
+ },
+ {
+  "match": "Sheba Medical Center",
+  "city": "Ramat Gan", "country": "Israel", "areas": ["robotica"],
+  "alerta_correcao": "O programa de cirurgia cardíaca robótica é MUITO recente: a primeira cirurgia cardíaca robótica de Israel e do Oriente Médio foi feita no Sheba por volta de abr/2026, em colaboração com o Prof. Marc Gillinov (Cleveland Clinic). Ainda não há volume nem série publicada, então o valor de um observership em robótica aqui é limitado por enquanto. A URL do radar (sheba-global development-projects) é genérica.",
+  "programa": {
+   "pagina": "não encontrado. Nenhuma página oficial de observership/visiting physician do Sheba nos resultados.",
+   "taxa": "não encontrado",
+   "contato_oficial": "não encontrado (canal genérico: https://sheba-global.com)",
+   "certeza": "não encontrado"
+  },
+  "servico": {
+   "nome": "Department of Cardiac Surgery, Leviev Heart / Heart, Thorax and Vascular Center, Sheba",
+   "chefe": "Prof. Leonid Sternik, Director of Cardiac Surgery (desde 2018)",
+   "volume": "cerca de 400 CABG/ano (página shebaonline, ano não informado). Robótica: início em 2026.",
+   "fontes": ["https://www.shebaonline.org/?p=6513", "https://sheba-global.com/category/development-projects/"],
+   "diretor_fellowship": "não encontrado",
+   "certeza": "confirmado (chefe); provável (volume)"
+  },
+  "pessoas_chave": [
+   {"nome": "Prof. Leonid Sternik", "cargo": "Director of Cardiac Surgery, Sheba", "por_que": "decide e coliderou a 1ª cirurgia robótica", "fonte": "https://www.shebaonline.org/?p=6513", "certeza": "confirmado"},
+   {"nome": "Prof. Erez Kachel", "cargo": "cirurgião cardíaco, Sheba. Coliderou o programa robótico (treinou na Cleveland Clinic)", "por_que": "líder operacional da robótica", "fonte": "LinkedIn (post citado nos resultados da busca, sem URL estável)", "certeza": "provável"},
+   {"nome": "Prof. Marc Gillinov", "cargo": "Cleveland Clinic, colaborador externo", "por_que": "ponte: se ela já foi a Chicago/EUA, Cleveland é rota mais direta para robótica mitral", "fonte": "https://sheba-global.com/category/development-projects/", "certeza": "confirmado"}
+  ],
+  "brasileiros": "não encontrado (nenhum médico brasileiro identificado no serviço)",
+  "pontes_unifesp_sp": "Institucional, não cardiológica: parceria Sheba–Hospital Israelita Albert Einstein (SP) em inovação (dados, medicina de precisão, estudos descentralizados), em https://sheba-global.com/sheba-and-albert-einstein-hospital-announce-new-partnership/. Existe também o capítulo 'São Paulo Friends of Sheba Medical Center' (filantropia). Nenhuma coautoria com Unifesp, InCor ou Dante encontrada.",
+  "pesquisa_recente": "não encontrado (nenhum artigo de 2022–2026 do serviço em robótica/minimamente invasiva nos resultados)",
+  "dicas": "O Sheba tem forte braço internacional (Sheba Global/ARC; HaMeirim – ARC Cardiovascular é o centro de inovação do Heart, Thorax and Vascular Center). A ponte com o Einstein-SP pode abrir porta via contato institucional. Observership estilo Shaare Zedek, sem contato com paciente, é a norma israelense (referência indireta).",
+  "rota_recomendada": "Prioridade baixa para robótica, porque o programa começou em 2026. Se for de interesse: 1) contato via Sheba Global/International pedindo observership no Department of Cardiac Surgery (Prof. Sternik). 2) Tentar apresentação pela rede Einstein–Sheba em SP. Para robótica mitral madura, a colaboração aponta para a Cleveland Clinic (Gillinov) como destino melhor."
+ }
+]

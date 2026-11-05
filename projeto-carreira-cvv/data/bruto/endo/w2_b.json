@@ -1,0 +1,158 @@
+[
+ {
+  "match": "Hospital de Base — FAMERP/FUNFARME",
+  "cidade": "São José do Rio Preto", "pais": "Brasil",
+  "areas_polo": ["estagio_externo_cardiologia"],
+  "programa": {
+   "nome": "Estágios Optativos Externos (COREME-FAMERP) para residentes de outras instituições",
+   "url": "https://www.famerp.br/index.php/diretoria-de-pos-graduacao/coreme/estagios-optativos-externos/",
+   "elegibilidade": "Residentes de outras instituições (formulário Google 'residentes visitantes'); limite de 30 dias/ano de estágio optativo (Res. CNRM 27/2019).",
+   "antecedencia": "Solicitar entre 90 e 180 dias antes do início; 'Solicitações encaminhadas por outros meios ou fora deste período não serão consideradas.'",
+   "fluxo": "Formulário online -> análise pelo coordenador do programa/serviço -> se aprovado, COREME pede documentos por e-mail -> no 1º dia assina termo de compromisso e paga crachá (R$ 5,00) -> ao final devolve crachá e fichas de frequência/avaliação assinadas (sem elas não há declaração de conclusão).",
+   "documentos": "Foto 3x4, CPF, RG, carteira CRM, título de eleitor, certidão nascimento/casamento, diploma, declaração de matrícula na residência, ficha de estágio assinada, seguro de acidentes pessoais cobrindo o período, carteira de vacinação COVID-19.",
+   "taxa": "Apenas R$ 5,00 do crachá (nenhuma outra taxa encontrada).",
+   "contato_oficial": "Formulário online da página; e-mail coreme@famerp.br citado em outro formulário FAMERP (provável).",
+   "observacao": "Página informa novas solicitações a partir de 02/01/2025; página sem data — confirmar regras vigentes.",
+   "certeza": "confirmado (trechos da página oficial COREME)"
+  },
+  "servico": {
+   "nomes": ["Hospital de Base / HBCor (Centro Avançado de Cardiologia do Hospital de Base)", "Cirurgia cardíaca adulto e pediátrica (transplante cardíaco: >100 transplantes, 1º transplante pediátrico do interior em 2010)"],
+   "chefes": "não encontrado (chefe atual da cardiologia/cirurgia cardíaca/hemodinâmica e supervisor da residência não identificados nas buscas)",
+   "volume": "Mortalidade cirúrgica cardíaca 3,71% em 10 anos (2012–2022, dados do Ministério da Saúde, reportagem) — https://medicinasa.com.br/?p=78508 (provável, imprensa)",
+   "fontes": ["https://www.al.sp.gov.br/spl/2018/11/Acessorio/1000249884_1000227281_Acessorio.pdf", "https://bv.fapesp.br/en/pesquisador/50522/URL"],
+   "certeza": "provável"
+  },
+  "pessoas_chave": [
+   {"nome":"Domingo Marcolino Braile","cargo":"Cirurgião cardíaco, professor emérito FAMERP, pioneiro da cirurgia cardíaca/transplante no HB","por_que":"referência histórica do serviço; não decide estágio","fonte":"https://www.al.sp.gov.br/spl/2018/11/Acessorio/1000249884_1000227281_Acessorio.pdf","certeza":"confirmado (histórico)"},
+   {"nome":"Maurício de Nassau Machado","cargo":"Cardiologista/cirurgião cardiovascular com endereço no Hospital de Base; publicações em unidade coronariana, pós-CRM, Chagas","por_que":"pesquisador ativo do serviço (UCO/pós-operatório)","fonte":"https://www.catalogo.med.br/doutor/mauricio-de-nassau-machado-2091279.htm","certeza":"provável"},
+   {"nome":"Marcelo José Ferreira Soares","cargo":"Investigador do HB-FUNFARME/FAMERP em registro brasileiro de cirurgia cardíaca","por_que":"ponte com registros multicêntricos (BYPASS/REPLICCAR)","fonte":"https://pmc.ncbi.nlm.nih.gov/articles/PMC5409255","certeza":"provável"}
+  ],
+  "brasileiros": "N/A (polo brasileiro).",
+  "pontes_unifesp_sp": "HB-FUNFARME/FAMERP é centro participante do registro BYPASS (cirurgia de revascularização, multicêntrico brasileiro) — https://www.redalyc.org/journal/3989/398959097006/398959097006.pdf; registro BREATHE (IC aguda, SBC) com autor da FAMERP — PMID 40498905; sítio do EMPEROR-Preserved — NCT03057951. Coautoria específica com Unifesp: não encontrado.",
+  "pesquisa_recente": [
+   {"titulo":"Acute Heart Failure in Patients with Chagas Cardiomyopathy: Results of the I Brazilian Heart Failure Registry (BREATHE)","ano":"2025 (provável)","pmid":"40498905"},
+   {"titulo":"Clinical characteristics, predictors of mortality, and outcome in patients with heart failure with mildly reduced ejection fraction secondary to Chagas cardiomyopathy","ano":"2025 (provável)","pmid":"39986480"},
+   {"titulo":"Does left ventricular reverse remodeling influence long-term outcomes in patients with Chagas cardiomyopathy?","ano":"2020 (fora da janela; referência do HB)","pmid":"32207838"}
+  ],
+  "dicas": "Janela rígida de 90–180 dias; tudo pelo formulário online; exige seguro de acidentes pessoais; aprovação depende do coordenador do programa/serviço escolhido — indicar no pedido o serviço (ex. cardiomiopatias/Chagas, IC/transplante, UCO). FAMERP também tem 'Estágio Profissional/Fellowship' por processo seletivo (https://www.famerp.br/index.php/diretoria-de-pos-graduacao/coreme/processo-seletivo-estagio-profissional-fellowship/).",
+  "rota_recomendada": "1) Pedir à COREME/coordenação da Unifesp a carta de matrícula e autorização; 2) preencher o formulário 'residentes visitantes' da COREME-FAMERP entre 90–180 dias antes, escolhendo serviço com força própria (IC/Chagas/transplante cardíaco); 3) reunir documentos + seguro e mencionar interesse em IC/Chagas citando os artigos do grupo.",
+  "alerta_correcao": null
+ },
+ {
+  "match": "Deutsches Herzzentrum der Charité (DHZC)",
+  "cidade": "Berlim", "pais": "Alemanha",
+  "areas_polo": ["robotica","imagem","ic","congenitas","cardiologia","cirurgia_cardiaca","miocardiopatias","cardio_pediatrica","congenita_adulto","anestesia_cardiaca","uti_cardiaca"],
+  "programa": {
+   "nome": "Hospitations / Clinical Observership (Visit)",
+   "url": "https://www.dhzc.charite.de/en/career/cme/hospitations/",
+   "url_alternativa": "https://www.dhzb.de/en/career/continuing-education/clinical-observership-visit",
+   "elegibilidade": "Médicos internacionais; licença para praticar opcional; internacionais precisam de visto/autorização de residência.",
+   "duracao": "Até 3 meses, não remunerado; anestesia cardíaca: máx. 2 semanas por mês (idealmente com experiência em cardioanestesia); cirurgia cardiotorácica: 2 vagas de 'work shadowing'.",
+   "documentos": "Carta de candidatura (alemão ou inglês) marcada 'Hospitant'/'Clinical Observership', CV, comprovação de INGLÊS E ALEMÃO nível B2, cópia do passaporte, carta de referência da clínica/universidade, seguro saúde do período, comprovante de financiamento. Selecionados recebem carta-convite.",
+   "taxa": "não encontrado (nenhuma taxa mencionada)",
+   "contato_oficial": "Andreas Matschke — andreas.matschke@dhzc-charite.de (publicado na página Hospitations, anestesia/geral); página DHZB cita Serap Bulut para medicina interna/cardiologia (e-mail não capturado).",
+   "certeza": "confirmado (página oficial); exigência de alemão B2 é o principal obstáculo"
+  },
+  "servico": {
+   "nomes": ["Dept. Cardiothoracic and Vascular Surgery (dir. Volkmar Falk, também Diretor Médico do DHZC)", "Dept. Cardiology, Angiology and Intensive Care Medicine — CBF (Ulf Landmesser) e CVK", "Dept. Congenital Heart Surgery – Pediatric Heart Surgery (Joachim Photiadis, provável)", "Dept. Congenital Heart Disease – Pediatric Cardiology (Felix Berger, provável/possivelmente ex-diretor)", "Dept. Cardiac Anesthesiology and Intensive Care Medicine", "Heart Failure Centre / Transplant & MCS (Felix Schönrath, chefe cardiológico)", "CMR Unit (Sebastian Kelle)"],
+   "contexto": "DHZC formado em 2023 pela fusão do DHZB com a cardiologia da Charité; 7 departamentos em 3 campi.",
+   "volume": "não encontrado (ver DHZC Jahres- und Qualitätsbericht 2024/2025: https://www.dhzc.charite.de/fileadmin/broschueren/DHZC_Qualitaetsbericht_2025.pdf)",
+   "certeza": "confirmado para Falk/Landmesser; provável para os demais"
+  },
+  "pessoas_chave": [
+   {"nome":"Prof. Volkmar Falk","cargo":"Diretor Médico DHZC; Diretor Cirurgia Cardiotorácica e Vascular","por_que":"decide cirurgia/robótica","fonte":"https://www.berlin-health-excellence.com/medical-facilities-berlin/deutsches-herzzentrum-berlin-dhzb","certeza":"confirmado"},
+   {"nome":"Prof. Ulf Landmesser","cargo":"Vice-Diretor Médico; Diretor Cardiologia, Angiologia e Terapia Intensiva (CBF)","por_que":"decide cardiologia clínica/intervenção","fonte":"https://www.dhzc.charite.de/en/team/landmesser-ulf/","certeza":"confirmado"},
+   {"nome":"Felix Schönrath","cargo":"Chefe cardiológico de IC avançada, transplante e suporte circulatório","por_que":"IC/transplante","fonte":"https://www.dhzc.charite.de/en/referrer/heart-failure-centre/","certeza":"confirmado"},
+   {"nome":"PD Dr. Sebastian Kelle","cargo":"Líder da CMR Unit (cardiomiopatias, congênito adulto)","por_que":"imagem/miocardiopatias","fonte":"https://scmr.org/listings/cmr-unit-at-deutsches-herzzentrum-der-charite-dhzc","certeza":"confirmado"},
+   {"nome":"Joachim Photiadis","cargo":"Diretor Cirurgia Cardíaca Congênita/Pediátrica","por_que":"congênitas/cardiopediatria","fonte":"https://www.berlin-health-excellence.com/medical-facilities-berlin/deutsches-herzzentrum-berlin-dhzb","certeza":"provável"},
+   {"nome":"Andreas Matschke","cargo":"Contato oficial de Hospitations","por_que":"porta administrativa","fonte":"https://www.dhzc.charite.de/en/career/cme/hospitations/","certeza":"confirmado"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {"titulo":"First results of the 'Deutsches Herzzentrum der Charite' paediatric impella cohort","ano":"2025","pmid":"40366739"},
+   {"titulo":"New perspectives in the management of adults with congenital heart disease: insights from the 2025 ACHD Congress","ano":"2025/2026","pmid":"41624634"},
+   {"titulo":"Heart failure therapy in patients with advanced cancer receiving specialized palliative care (EMPATICC trial)","ano":"2025","pmid":"40884070"}
+  ],
+  "dicas": "Requisito formal de alemão B2 + inglês B2 (pedir dispensa/confirmar no e-mail se só inglês). Há workshops abertos (ex. Workshop Kardiovaskuläre CT: https://www.dhzb.de/en/karriere/fort-und-weiterbildung/workshop-kardiovaskulaere-computertomographie) e fellowships modulares de cardioanestesia — possíveis portas de entrada. Exige comprovante de financiamento e visto/autorização.",
+  "rota_recomendada": "1) E-mail a andreas.matschke@dhzc-charite.de perguntando sobre hospitation de 4 semanas e se inglês sem alemão B2 é aceito; 2) anexar dossiê completo (carta 'Hospitant', CV, referência Unifesp, seguro, financiamento) mirando um departamento (IC/transplante ou CMR); 3) em paralelo, carta curta ao líder do serviço (Schönrath/Kelle) citando artigo recente.",
+  "alerta_correcao": "URL dhzb.de redireciona/espelha a página DHZC; contatos diferem entre versões (Serap Bulut na DHZB, Andreas Matschke na DHZC) — usar a página dhzc.charite.de."
+ },
+ {
+  "match": "Barts Heart Centre",
+  "cidade": "Londres", "pais": "Reino Unido",
+  "areas_polo": ["robotica","imagem","cardiologia","miocardiopatias","cardiogenetica","anestesia_cardiaca"],
+  "programa": {
+   "nome": "Barts Health Clinical Observership Programme (Education Academy) — inclui 'cardiovascular services'",
+   "url": "https://educationacademy.bartshealth.nhs.uk/our-teams/medical-education-clinical-observership-programme/",
+   "elegibilidade": "Médicos pós-graduados formados no exterior; estritamente observacional (sem hands-on). Shortlist por formulário + CV; exige Honorary Contract e liberação de Occupational Health.",
+   "duracao": "4 semanas (padrão)",
+   "taxa": "£1.600 (4 semanas; £1.100 após emissão do Honorary Contract); versão antiga: £1.250. Não inclui hospedagem/viagem.",
+   "janelas": "3 janelas de inscrição por ano; fora delas não é considerado (datas exatas não capturadas).",
+   "idioma": "Versão antiga exigia IELTS ≥7,5 em cada módulo — confirmar.",
+   "contato_oficial": "não encontrado (placeholder na página International Education: https://educationacademy.bartshealth.nhs.uk/?p=839)",
+   "via_alternativa": "ESAIC Exchange Programme (anestesia cardíaca/UTI) — Barts é centro anfitrião; ficha 2026 aceita residentes ≥3º ano; chamada 2027 fechada, 2028 abre maio/2027: https://esaic.org/wp-content/uploads/2026/06/Barts-Heart-Centre-Information.pdf",
+   "certeza": "confirmado (taxa/duração/janelas); IELTS provável"
+  },
+  "servico": {
+   "nomes": ["Barts Heart Centre (St Bartholomew's) — 'maior centro cardiotorácico do Reino Unido'", "Inherited Cardiovascular Conditions service (maior da Europa)", "CMR / Cardiac Imaging", "Minimally Invasive & Robotic Cardiac Surgery (único em Londres)", "Cardiac anaesthesia & critical care"],
+   "volume": "não encontrado com ano",
+   "certeza": "confirmado"
+  },
+  "pessoas_chave": [
+   {"nome":"Prof. James Moon","cargo":"Clinical Director – Cardiac Imaging","por_que":"imagem/CMR; lidera Rapid CMR (inclui Brasil)","fonte":"https://www.bartshealth.nhs.uk/news/st-bartholomews-consultants-helping-to-improve-cardiac-disease-diagnosis-in-developing-countries-6989","certeza":"confirmado (cargo pode estar desatualizado)"},
+   {"nome":"Dr Thomas Treibel","cargo":"Clinical lead CMR training","por_que":"responde consultas de treinamento em CMR","fonte":"https://scmr.org/listings/barts-heart-centre-cmr-department/","certeza":"confirmado (out/2025)"},
+   {"nome":"Dr Neha Sekhri","cargo":"Clinical Lead for Inherited Cardiovascular Conditions / cardiomiopatias","por_que":"miocardiopatias/cardiogenética","fonte":"https://www.finder.bupa.co.uk/Consultant/view/193591/dr_neha_sekhri","certeza":"provável"},
+   {"nome":"Dr Luis da Rocha Lopes","cargo":"Clinical-Academic Consultant Cardiologist (cardiomiopatias/genética, UCL)","por_que":"lusófono (português) — ponte natural","fonte":"https://www.finder.bupa.co.uk/Consultant/view/246707/dr_luis_da_rocha_lopes","certeza":"confirmado (cargo); nacionalidade portuguesa é provável, não brasileira"},
+   {"nome":"Mr Dincer Aktuerk","cargo":"Director of Robotic Cardiac Surgery","por_que":"robótica","fonte":"https://www.mayoclinic.org/uk/doctors/dincer-aktuerk","certeza":"confirmado"},
+   {"nome":"Dr Carlos Corredor","cargo":"Supervisor dos trainees do ESAIC Exchange em anestesia cardíaca","por_que":"anestesia cardíaca/UTI; hispanofalante","fonte":"https://esaic.org/?p=7919","certeza":"provável"}
+  ],
+  "brasileiros": "não encontrado (nenhum fellow brasileiro identificado).",
+  "pontes_unifesp_sp": "Projeto Rapid CMR (UCL/Barts) com especialistas de Brasil/América Latina — provável; participação de InCor/Unifesp não confirmada. Fonte: https://www.bartshealth.nhs.uk/news/st-bartholomews-consultants-helping-to-improve-cardiac-disease-diagnosis-in-developing-countries-6989",
+  "pesquisa_recente": [
+   {"titulo":"Joy et al. MRI-guided electrocardiographic imaging in subclinical and overt HCM (JACC)","ano":"2024","doi":"10.1016/j.jacc.2024.01.006"},
+   {"titulo":"Cardiac magnetic resonance markers of pre-clinical hypertrophic and dilated cardiomyopathy in genetic variant carriers (BMC Med)","ano":"2025","pmid":"40660250","doi":"10.1186/s12916-025-04226-4"},
+   {"titulo":"Rapid CMR / CMR worldwide (Moon et al.) — terceiro artigo específico 2022–2026 não confirmado","ano":"não encontrado","pmid":"não encontrado"}
+  ],
+  "dicas": "Programa caro mas estruturado (4 semanas, Honorary Contract + Occupational Health — exige antecedência). Inscrever-se na janela correta; indicar 'cardiovascular services'. Cursos como 'New Horizons in Cardiomyopathy' (Radcliffe) e Rapid CMR são ganchos de e-mail.",
+  "rota_recomendada": "1) Inscrever-se no Clinical Observership Programme na próxima janela, pedindo Barts Heart Centre (miocardiopatias/CMR); 2) e-mail prévio a Treibel (CMR training) ou ao serviço de ICC citando Croon 2025/Joy 2024 para obter aceite departamental; 3) se anestesia, usar ESAIC Exchange 2028.",
+  "alerta_correcao": null
+ },
+ {
+  "match": "Herzzentrum Leipzig (Helios) — Hospitation",
+  "cidade": "Leipzig", "pais": "Alemanha",
+  "areas_polo": ["valvar","estrutural","robotica","cardio_pediatrica","fetal","coronaria"],
+  "programa": {
+   "nome": "não encontrado programa formal de observership/Hospitation para médicos estrangeiros",
+   "url": "https://www.helios-gesundheit.de/karriere/standorte/leipzig/studium/studierende-herzzentrum/",
+   "o_que_existe": "PJ para estudantes; Hospitation de 1 dia em processos seletivos; radiologia aceita Hospitationstermin via secretaria (doutorandos). ESC lista fellowship clínico em cardiologia intervencionista com ~2 fellows internacionais/ano (https://escardio.org/Research/Research-and-training-directory-in-interventional-cardiology/Heart-Center-Leipzig). Fellowship de anestesia cardíaca 1–2 anos com Seal-EACTA, em alemão (contato Jörg Ender): https://www.helios-gesundheit.de/karriere/standorte/leipzig/studium/studierende-herzzentrum/fellowship-anaesthesiologie/",
+   "taxa": "não encontrado", "duracao": "não encontrado",
+   "contato_oficial": "info.herzzentrum@helios-gesundheit.de (geral, publicado); secretaria cirurgia cardíaca 0341 865-1423/-1424; bewerbung.herzzentrum@helios-gesundheit.de (candidaturas); kika.herzzentrum@ (radar, não confirmado nesta busca)",
+   "certeza": "confirmado que não há página de observership; contatos confirmados"
+  },
+  "servico": {
+   "nomes": ["Universitätsklinik für Herzchirurgie (Prof. Michael A. Borger, também Ärztlicher Direktor)", "Universitätsklinik für Kardiologie – Helios Stiftungsprofessur (Prof. Holger Thiele, desde 2017; vice-diretor médico) + Rhythmologie (PD Dr. Kerstin Bode)", "Universitätsklinik für Kinderkardiologie (Prof. Ingo Dähnert até ≥2024; Dr. Frank-Thomas Riede vice-diretor 2026) + Zentrum für Pränatale Medizin", "Kinderherzchirurgie (Muhammed Aydin, contato PJ)", "Kardioanästhesie (Jörg Ender)"],
+   "volume": "Kinderkardiologia ~1.000 crianças/ano (2016); Top-10 mundial em cirurgia cardíaca (Newsweek/Statista 2024).",
+   "certeza": "confirmado (Borger, Thiele, Bode); provável (diretoria pediátrica atual)"
+  },
+  "pessoas_chave": [
+   {"nome":"Prof. Michael A. Borger","cargo":"Ärztlicher Direktor; Diretor Cirurgia Cardíaca (ex-fellow de Mohr em Leipzig, 2002)","por_que":"decide cirurgia valvar/mitral minimamente invasiva/robótica; contato publicado 0341 865-1485","fonte":"https://www.l-iz.de/melder/wortmelder/2017/05/Der-international-renommierte-Spitzenmediziner-Prof-Michael-A-Borger-uebernimmt-die-Leitung-der-Herzchirurgie-am-Herzzentrum-Leipzig-178916","certeza":"confirmado"},
+   {"nome":"Prof. Holger Thiele","cargo":"Diretor Cardiologia; vice-diretor médico; ex-presidente DGK","por_que":"coronária/choque/TAVI; ensaios ECLS-SHOCK, CULPRIT-SHOCK, TOMAHAWK","fonte":"https://www.uni-leipzig.de/personenprofil/mitarbeiter/prof-dr-holger-thiele","certeza":"confirmado"},
+   {"nome":"Prof. Sandra Erbs","cargo":"Contato de ensino (PJ) na cardiologia","por_que":"porta de ensino","fonte":"https://www.helios-gesundheit.de/karriere/standorte/leipzig/studium/studierende-herzzentrum/","certeza":"confirmado"},
+   {"nome":"Prof. Ingo Dähnert","cargo":"Diretor Kinderkardiologie (até pelo menos 2024)","por_que":"cardiopediatria intervencionista","fonte":"https://dgpk.org/wp-content/uploads/Finales-Programm-09.11.2024.pdf","certeza":"provável (pode ter mudado)"},
+   {"nome":"Dr. Frank-Thomas Riede","cargo":"Vice-diretor Kinderkardiologie; Pränatalsymposium Leipzig 2026","por_que":"fetal/pré-natal","fonte":"https://www.dgpk.org/wp-content/uploads/Flyer-Praenatalsymposium-Leipzig-2026.pdf","certeza":"confirmado"},
+   {"nome":"Prof. Jörg Ender","cargo":"Chefe Anestesia Cardíaca; fellowship Seal-EACTA","por_que":"anestesia/TEE","fonte":"https://www.helios-gesundheit.de/karriere/standorte/leipzig/studium/studierende-herzzentrum/fellowship-anaesthesiologie/","certeza":"confirmado"}
+  ],
+  "brasileiros": "não encontrado (só fellow argentino do Hospital Italiano de Buenos Aires, 2018–19, via CTSNet).",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {"titulo":"Five-Year Clinical Outcomes and Durability of a Self-Expanding Transcatheter Heart Valve With Intra-Annular Leaflets","ano":"2025","pmid":"41133305"},
+   {"titulo":"Obstructive Coronary Artery Disease and Health Status in TAVR: Post Hoc Analysis of SCOPE I (JAMA Netw Open)","ano":"2025","pmid":"41364435"},
+   {"titulo":"DOUBLE-CHOICE trial (TAVI: válvulas autoexpansíveis e abordagem minimalista vs padrão)","ano":"2025","nct":"NCT05036018"},
+   {"titulo":"Extracorporeal Life Support in Infarct-Related Cardiogenic Shock (ECLS-SHOCK, NEJM)","ano":"2023","doi":"10.1056/NEJMoa2307227"}
+  ],
+  "dicas": "Ambiente fortemente germanófono (vagas exigem alemão C1, Approbation). Sem programa formal — acesso por convite de chefe. Leipzig organiza o LINC/congressos e o Pränatalsymposium (2026) e transmite live cases (PCR) — eventos como porta de entrada.",
+  "rota_recomendada": "1) E-mail curto em inglês à secretaria da cirurgia cardíaca (Borger) ou cardiologia (Thiele) via info.herzzentrum@helios-gesundheit.de pedindo 4 semanas de observação (valvar/estrutural), citando DOUBLE-CHOICE/SCOPE I; 2) se cardiopediatria/fetal, contatar Kinderkardiologie (Riede) mencionando o Pränatalsymposium; 3) plano B: participar de congresso/live-case e pedir visita.",
+  "alerta_correcao": "URL do radar é página de carreira genérica, não de Hospitation; não há programa de observership publicado — 'programa: sim' do radar deve ser rebaixado para 'informal/não encontrado'."
+ }
+]

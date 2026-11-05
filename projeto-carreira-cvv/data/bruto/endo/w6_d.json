@@ -1,0 +1,294 @@
+[
+ {
+  "match": "Bangkok Heart Hospital",
+  "alerta_correcao": "Robótica cardíaca NÃO confirmada no Bangkok Heart Hospital: o foco publicado é MICS (MICS CABG, cirurgia valvar 100% endoscópica 3D, programa lançado em 2025). O centro robótico da Bangkok Hospital (da Vinci Xi) é do grupo e não é específico de cardíaca. A 1ª cirurgia cardíaca robótica do sistema público tailandês foi no Rajavithi Hospital. Use o polo para ECMO e MICS, não para robótica.",
+  "programa": {
+   "pagina": "não encontrado",
+   "detalhe": "Não achei programa de observership para médicos estrangeiros no Bangkok Heart Hospital/BDMS. O que aparece é intercâmbio de saída (enfermeiras da BDMS em observership na OHSU) e cursos internos. Alternativas formais em Bangkok: Chulalongkorn ('Observership for Postgraduate visitors (Less than 8 weeks), fee is required') e Siriraj/Mahidol (observership em cirurgia torácica e em terapia intensiva).",
+   "fontes": [
+    "https://www.bangkokhospital.com/en/content/greetings-from-ohsu-global",
+    "https://sgh.md.chula.ac.th/non-degree-programs/observership-programs/",
+    "https://www2.si.mahidol.ac.th/en/news-events/clinical-observership-program-in-critical-care-at-department-of-anesthesiology-2/"
+   ],
+   "contato_servico": "Cardiothoracic Surgery Center, 2º andar, tel. (+66) 2310 3033 / 2755 1033 (telefone do serviço, publicado no site do hospital)",
+   "taxa": "não encontrado",
+   "duracao": "não encontrado",
+   "documentos": "não encontrado",
+   "certeza": "confirmado que não há página; contato = provável"
+  },
+  "servico": {
+   "nome": "Bangkok Heart Hospital: Cardiothoracic Surgery Center; ECMO Program (inclui ECMO transport e SKY ICU)",
+   "chefe": "Chefe da cirurgia cardiotorácica: não encontrado. Dr. Permyos Ruengsakulrach: Assistant Medical Director, Director of the ECMO Program, cirurgião cardiotorácico — https://www.bangkokhospital.com/en/bangkok-heart/content/news-best-brand-for-a-better-tomorrow",
+   "fellowship": "não encontrado",
+   "volume": "Perfil: 95 leitos cardiovasculares e cerca de 70 médicos; 20–25% dos pacientes são estrangeiros (site do hospital, sem ano). ELSO Award for Excellence em 05/05/2022, o 1º e único da Tailândia; depois 'Silver Level ELSO Award' pela 2ª vez — https://www.bangkokhospital.com/en/bangkok-heart/about-us/awards-accreditations/elso-award",
+   "certeza": "confirmado (material institucional)"
+  },
+  "pessoas_chave": [
+   {
+    "nome": "Permyos Ruengsakulrach",
+    "cargo": "Assistant Medical Director; Director/Chairman of ECMO Program; Cardiothoracic Surgeon",
+    "por_que": "lidera ECMO; autor da revisão sobre ECMO de 2025",
+    "fonte": "https://www.bangkokhospital.com/en/bangkok-heart/doctor/dr-permyos-ruengsakulrach-2",
+    "certeza": "confirmado"
+   },
+   {
+    "nome": "Attapoom Susupaus",
+    "cargo": "Assistant hospital director; cirurgião cardiotorácico",
+    "por_que": "representou o time de cirurgia cardiotorácica no ELSO Award 2022",
+    "fonte": "https://www.bangkokhospital.com/en/bangkok-heart/about-us/awards-accreditations/elso-award",
+    "certeza": "confirmado"
+   },
+   {
+    "nome": "Padungkiat Tangpiroontham",
+    "cargo": "Cirurgião torácico (da Vinci Xi); listado entre os cirurgiões cardiotorácicos no catálogo do BHH",
+    "por_que": "é o único nome ligado a robótica, mas torácica e não cardíaca",
+    "fonte": "https://static.bangkokhospital.com/uploads/2025/09/E-Catalog-2025-Heart-20-21.pdf",
+    "certeza": "provável (vínculo com o BHH incerto)"
+   }
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {
+    "titulo": "Bridging Life: The Science and Practice of ECMO in Severe Cardiopulmonary Failure",
+    "ano": 2025,
+    "id": "Bangkok Med J 21(1):78-96 (sem DOI/PMID nos resultados)",
+    "url": "https://he02.tci-thaijo.org/index.php/bkkmedj/article/view/273101"
+   },
+   {
+    "titulo": "Estudo retrospectivo VV-ECMO vs ventilação convencional em SDRA por COVID-19 (Bangkok Heart Hospital, mar–set/2021, n=36)",
+    "ano": null,
+    "id": "não encontrado",
+    "url": "https://scholars.duke.edu/publication/1607472",
+    "nota": "título, ano e autoria não confirmados"
+   }
+  ],
+  "dicas": [
+   "O BHH faz 'BDMS Adult ECMO Training Course' no BDMS Simulation Center (edição de 27–29/out/2026, vagas limitadas). A página marca o curso como 'thai', então provavelmente é em tailandês: confirme o idioma antes — https://www.bangkokhospital.com/ar/bangkok-heart/content/bdms-adult-ecmo-training-course-2026-thai",
+   "O BHH já co-organizou com a ELSO e a Society of Thoracic Surgeons of Thailand a conferência APELSO 2019, ou seja, recebe congresso internacional de ECMO — https://www.bangkokhospital.com/en/bangkok-heart/content/news-invitation-apelso-2019-conference-the-society-of-thoracic-surgeons-of-thailand-inconjuction-with-elso-and-bangkok-heart-hospital",
+   "BDMS Advanced Robotic Surgery Conference 2025: é do grupo e não específico de cardíaca — https://www.bangkokhospital.com/en/bangkok/content/bdms-advanced-robotic-surgery-conference-2025-x-robotic-surgery-junior-camp"
+  ],
+  "rota_recomendada": "Prioridade baixa para robótica. Para ECMO: e-mail direto ao Dr. Permyos Ruengsakulrach (pelo canal internacional do hospital), citando a revisão de 2025 e o ELSO Award, e pedindo uma visita observacional informal. Se precisar de um programa formal em Bangkok, use o observership de pós-graduação da Chulalongkorn (<8 semanas, pago)."
+ },
+ {
+  "match": "TecSalud – Hospital Zambrano Hellion",
+  "alerta_correcao": "A URL do radar é uma página de tags (conectadev.tec.mx), não uma página oficial. 'Zambrano Hellion' é o nome do hospital (San Pedro Garza García, área metropolitana de Monterrey), não de um médico. A 1ª valvuloplastia mitral robótica do México (ago/2025) é atribuída a 'equipo multidisciplinario de TecSalud' e o cirujano não é nomeado.",
+  "programa": {
+   "pagina": "não encontrado",
+   "detalhe": "Não achei observership/rotação externa para residentes estrangeiros. Uma nota sobre as residências de TecSalud (Antonio Dávila Rivas, director asociado de posgrados clínicos) menciona compartilhar requisitos para rotar na América do Norte e do Sul, o que sugere intercâmbios, mas não descreve o processo.",
+   "fonte": "https://conectastg.tec.mx/es/pdf-generator/12251",
+   "contato": "não encontrado",
+   "taxa": "não encontrado",
+   "duracao": "não encontrado",
+   "documentos": "não encontrado",
+   "certeza": "provável (indireto)"
+  },
+  "servico": {
+   "nome": "TecSalud – Instituto de Cardiología y Medicina Vascular (Hospital Zambrano Hellion e Hospital San José); Programa ECMO y terapias avanzadas; Centro de Insuficiencia Cardiaca",
+   "chefe": "Diretor de cirurgia cardiotorácica: não encontrado. Programa ECMO: Dr. René Gómez Gutiérrez, director del programa de ECMO y terapias avanzadas — https://www.tecsalud.mx/sites/default/files/2026-02/05-Boleti%CC%81n_TecSalud%20recibe%20premio%20internacional%20por%20su%20programa%20de%20Oxigenacio%CC%81n%20por%20Membrana%20Extracorpo%CC%81rea%20%28ECMO%29.pdf",
+   "fellowship": "não encontrado",
+   "volume": "ELSO Award for Excellence Nível Platina (boletim de 07/10/2025); equipe ECMO de 43 profissionais. Taxa de sucesso '>80%' só aparece em material patrocinado (pouco confiável). Robótica: 1ª valvuloplastia mitral robótica do México, ago/2025 — https://conectadev.tec.mx/es/news/tags/hospital-zambrano-hellion",
+   "certeza": "confirmado (ECMO); robótica confirmada como marco, sem volume"
+  },
+  "pessoas_chave": [
+   {
+    "nome": "René Gómez Gutiérrez",
+    "cargo": "Director del programa de ECMO y terapias avanzadas, TecSalud",
+    "por_que": "lidera ECMO; dirige o curso de certificação ECMO adulto (passos I e II da ELSO) e o workshop do Simpósio de Choque Cardiogênico",
+    "fonte": "https://www.tecsalud.mx/sites/default/files/2026-02/06-Boleti%CC%81n_%203er.%20Simposio%20de%20Choque%20Cardioge%CC%81nico_031025.pdf",
+    "certeza": "confirmado (especialidade dele não confirmada)"
+   },
+   {
+    "nome": "Guillermo Torre-Amione",
+    "cargo": "President of TecSalud (perfil EACTS); staff dos hospitais San José e Zambrano Hellion",
+    "por_que": "liderança máxima, cardiologista de insuficiência cardíaca",
+    "fonte": "https://eacts.org/?p=1284",
+    "certeza": "provável (data do cargo incerta)"
+   },
+   {
+    "nome": "Antonio Dávila Rivas",
+    "cargo": "Director asociado de posgrados clínicos, TecSalud",
+    "por_que": "porta acadêmica para rotações de residentes",
+    "fonte": "https://conectastg.tec.mx/es/pdf-generator/12251",
+    "certeza": "provável"
+   }
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": "não encontrado",
+  "dicas": [
+   "TecSalud organiza, pelo Instituto de Cardiología y Medicina Vascular, o 'Simposio Latinoamericano de Choque Cardiogénico' (3ª edição em out/2025), com workshop teórico-prático de ECMO. Abre a porta para conhecer a equipe — https://www.tecsalud.mx/sites/default/files/2026-02/06-Boleti%CC%81n_%203er.%20Simposio%20de%20Choque%20Cardioge%CC%81nico_031025.pdf",
+   "Curso de certificação ECMO adulto (passos I/II da ELSO), dirigido por René Gómez; o Tec já capacitou 90 especialistas — https://www.cronica.com.mx/academia/capacita-tec-monterrey-90-especialistas-soporte-vida-extracorporea.html",
+   "Idioma: espanhol."
+  ],
+  "rota_recomendada": "1) Inscrever-se no curso ECMO/ELSO ou no Simpósio Latino-Americano de Choque Cardiogênico de TecSalud e fazer contato pessoal com o Dr. René Gómez. 2) Pedir uma estadia observacional curta pela Dirección de Posgrados Clínicos de TecSalud / Escuela de Medicina del Tec (processo não publicado). Para robótica, perguntar quem fez a valvuloplastia mitral robótica de 2025."
+ },
+ {
+  "match": "Hospital Clínico UC Christus",
+  "alerta_correcao": "A URL do radar é o fellowship de cirurgia de cardiopatias congênitas, que é outra área. O 'Programa ECMO UC' é historicamente neonatal-pediátrico (diretor: Javier Kattan, neonatologista). Não achei programa de ECMO adulto descrito. Robótica: não há cirurgia cardíaca robótica confirmada no Hospital Clínico UC; o marco robótico de lá é o 1º TMVR transcateter robótico do mundo (Capstan Medical, Gonzalo Martínez, cardiologia intervencionista, ~2025). A reparação mitral robótica no Chile é da Clínica Las Condes (desde 2015), não da UC.",
+  "programa": {
+   "pagina": "Estadías Observacionales de Perfeccionamiento — Oficina de Cooperación Internacional, Escuela de Medicina UC: https://piv.medicina.uc.cl/wp-content/uploads/2023/09/FAQs-Estadias-Observacionales-de-Perfeccionamiento-v.Ago23.pdf ; especialidades: https://piv.medicina.uc.cl/?p=25121",
+   "elegibilidade": "'sólo pueden postular residentes cursando algún programa de especialización médica'. É observacional: 'no puede intervenir pacientes y sólo podrá acompañar a los médicos staff'. Ou seja, aceita residente estrangeiro.",
+   "antecedencia": "Mínimo de 4 meses (120 dias) antes do início e máximo de 1 ano",
+   "idioma": "espanhol",
+   "documentos": "Formulário online com especialidade, datas tentativas e ensaio de motivação. Existe o documento 'Requisitos de postulación - Postulantes extranjeros', cujo conteúdo não foi visto.",
+   "contato": "intercam@med.puc.cl (Oficina de Cooperación Internacional)",
+   "taxa": "não encontrado",
+   "duracao": "não encontrado",
+   "certeza": "confirmado (elegibilidade/antecedência/idioma); e-mail provável"
+  },
+  "servico": {
+   "nome": "Sección/Departamento de Cirugía Cardiovascular UC (División de Cirugía); Programa ECMO UC (Red Salud UC-Christus); Centro de Terapia Endovascular",
+   "chefe": "Dr. Pedro Becker, jefe de la sección cirugía cardiovascular UC (nota dos 70 anos da 1ª cirurgia cardíaca; data não vista) — https://www.uc.cl/noticias/conmemoran-70-anos-de-la-primera-operacion-al-corazon-en-la-uc/",
+   "fellowship": "Congênitas: Dr. Rodrigo González Foretic (responsável) — https://medicina.uc.cl/wp-content/uploads/2024/12/Programa-estadia-de-perfeccionamiento-en-Cirugia-de-Cardiopatias-Congenitas-fellowship.pdf",
+   "volume": ">25 mil operações cardíacas na história da UC (nota institucional). ECMO-UC: 143 pacientes neonatais/pediátricos em 2003–2014, reportados à ELSO — https://pmc.ncbi.nlm.nih.gov/articles/PMC7121351",
+   "certeza": "confirmado; cargo atual de Becker provável"
+  },
+  "pessoas_chave": [
+   {
+    "nome": "Pedro Becker",
+    "cargo": "Jefe Sección Cirugía Cardiovascular UC",
+    "por_que": "decide a estadia na cirurgia CV",
+    "fonte": "https://www.uc.cl/noticias/conmemoran-70-anos-de-la-primera-operacion-al-corazon-en-la-uc/",
+    "certeza": "provável (data)"
+   },
+   {
+    "nome": "Javier Kattan",
+    "cargo": "Director Programa ECMO UC, Red Salud UC-Christus (neonatologista, formação em ECMO na UCSF)",
+    "por_que": "lidera ECMO-UC e cursos",
+    "fonte": "https://educacioncontinua.uc.cl/programas/teorico-de-oxigenacion-por-membrana-extracorporea-ecmo-neonatal-pediatrico/",
+    "certeza": "confirmado"
+   },
+   {
+    "nome": "Gonzalo Martínez",
+    "cargo": "Director del Centro de Terapia Endovascular, PUC",
+    "por_que": "fez o 1º TMVR robótico do mundo (Capstan); é a ponte para a robótica",
+    "fonte": "https://cardiovascularbusiness.com/topics/clinical/interventional-cardiology/cardiologists-make-history-complete-worlds-first-robotic-transcatheter-mitral-valve-replacements",
+    "certeza": "confirmado"
+   },
+   {
+    "nome": "Luis Eugenio Garrido Olivares",
+    "cargo": "Cirurgião cardiovascular full-time, Red Salud UC-Christus",
+    "por_que": "cirurgião de adultos (FA, isquêmica, valvar)",
+    "fonte": "https://investigadores.conicyt.cl/es/public_search/researcher?id=39598",
+    "certeza": "confirmado"
+   },
+   {
+    "nome": "Jorge Vergara",
+    "cargo": "Jefe División de Cirugía UC",
+    "por_que": "instância acima da seção",
+    "fonte": "https://www.uc.cl/noticias/conmemoran-70-anos-de-la-primera-operacion-al-corazon-en-la-uc/",
+    "certeza": "provável (data)"
+   }
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {
+    "titulo": "Resultados do programa ECMO neonatal-pediátrico UC 2003–2014 (sobrevida de 143 pacientes)",
+    "ano": null,
+    "id": "não encontrado",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7121351",
+    "nota": "anterior a 2022; ano não visto"
+   },
+   {
+    "titulo": "1º TMVR transcateter robótico (Capstan Medical) no Hospital Clínico UC",
+    "ano": 2025,
+    "id": "notícia, não artigo",
+    "url": "https://cardiovascularbusiness.com/topics/clinical/interventional-cardiology/cardiologists-make-history-complete-worlds-first-robotic-transcatheter-mitral-valve-replacements"
+   }
+  ],
+  "dicas": [
+   "Cursos de educação continuada em ECMO (teórico e teórico-prático) — https://educacioncontinua.uc.cl/programas/curso-teorico-practico-de-oxigenacion-de-membrana-extracorporea-ecmo/",
+   "O Medtronic Hugo e o Santiago Surgical Robotics Experience Center funcionam no Hospital Clínico UC desde 2021 (robótica geral/docente, não cardíaca) — https://www.biospace.com/medtronic-hugo-robotic-assisted-surgery-system-cornerstone-of-new-robotics-program-in-latin-america",
+   "Ex-staff da UC Gabriel Olivares (programa de transplante/MCS) hoje está na Cleveland Clinic: possível ponte — https://www.ctsnet.org/home/golivarr"
+  ],
+  "rota_recomendada": "1) Candidatar-se à 'Estadía Observacional de Perfeccionamiento' pela Oficina de Cooperación Internacional (intercam@med.puc.cl): é para residentes, deve ser feita com 4–12 meses de antecedência e em espanhol. Peça Cirugía Cardiovascular (Dr. Pedro Becker), com interesse em ECMO e mitral. 2) Se o foco for robótica, saiba que a UC tem robótica transcateter (G. Martínez) e não cirúrgica; para mitral robótica cirúrgica no Chile, olhar a Clínica Las Condes."
+ },
+ {
+  "match": "NewYork-Presbyterian / Weill Cornell",
+  "alerta_correcao": "NYP tem dois campi acadêmicos (Columbia e Weill Cornell): a página de observership achada é da Columbia (Neurologia). As regras gerais do NYP valem para os dois, mas o sponsor tem que ser do campus Weill Cornell.",
+  "programa": {
+   "pagina": "NYP Global Services – Education and Training (cita 'Physician Observerships'): https://nyp.org/globalservices/education-and-training . Não achei página específica da Cirurgia Cardiotorácica da Weill Cornell.",
+   "elegibilidade": "Regra do NYP (vista na página da Columbia Neurology): qualquer médico, inclusive residente, que peça clinical observership 'must be sponsored by a member of the NewYork-Presbyterian medical staff and must have approval of the Service Chief' — https://www.columbianeurology.org/education-and-training/visiting-physicians-and-scientists/clinical-observership",
+   "taxa": "Não encontrado para cirurgia CT. Referência de outro departamento (Psiquiatria Columbia/NYSPI): US$2.000, 2–3 meses de processo, 3 cartas. NÃO aplicar sem confirmar.",
+   "duracao": "não encontrado",
+   "documentos": "não encontrado",
+   "contato": "não encontrado",
+   "certeza": "provável (regra do NYP confirmada via Columbia; não confirmada para CT/Weill Cornell)"
+  },
+  "servico": {
+   "nome": "Department of Cardiothoracic Surgery, Weill Cornell Medicine / NYP-Weill Cornell Medical Center: Robotic & Minimally Invasive Cardiac Surgery; Translational & Clinical Research (coronária/CABG)",
+   "chefe": "Leonard N. Girardi, Chair (desde fev/2015), O. Wayne Isom Professor — https://directory.weill.cornell.edu/person/profile/lngirard ; Vice Chair: Nasser K. Altorki — https://ctsurgery.weillcornell.org/node/2",
+   "fellowship": "Diretor da residência/fellowship: não encontrado",
+   "volume": "Mick: >1.000 cirurgias cardíacas robóticas na carreira; curva de aprendizado estabiliza em ~30 casos (publicado em 2024). Três estrelas STS em CABG isolada e em reparo/troca mitral (2021–2024). Mitral Valve Repair Reference Center (Mitral Foundation/AHA) por anos seguidos — https://weillcornell.org/news/dr-stephanie-mick-blazing-a-trail-in-robotic-mitral-valve-repair",
+   "certeza": "confirmado"
+  },
+  "pessoas_chave": [
+   {
+    "nome": "Leonard N. Girardi",
+    "cargo": "Chair, Department of Cardiothoracic Surgery",
+    "por_que": "é o Service Chief que aprova o observership",
+    "fonte": "https://ctsurgery.weillcornell.org/node/2",
+    "certeza": "confirmado"
+   },
+   {
+    "nome": "Stephanie L. Mick",
+    "cargo": "Director, Robotic and Minimally Invasive Cardiac Surgery; Carrie and David Landew Associate Professor",
+    "por_que": "possível sponsor para robótica (mitral robótica), veio da Cleveland Clinic em 2019",
+    "fonte": "https://www.nyp.org/advances/meet-our-doctors/stephanie-mick",
+    "certeza": "confirmado"
+   },
+   {
+    "nome": "Mario F. L. Gaudino",
+    "cargo": "Stephen and Suzanne Weiss Professor; Director of Translational and Clinical Research; Assistant Dean for Clinical Trials / Director JCTO",
+    "por_que": "líder mundial em pesquisa de CABG (ROMA, ROMA:Women); possível sponsor para coronária e research fellowship",
+    "fonte": "https://eacts.org/?p=2137",
+    "certeza": "confirmado"
+   },
+   {
+    "nome": "Nasser K. Altorki",
+    "cargo": "Vice Chair (torácica)",
+    "por_que": "liderança do departamento",
+    "fonte": "https://ctsurgery.weillcornell.org/node/2",
+    "certeza": "confirmado"
+   },
+   {
+    "nome": "Sandhya K. Balaram",
+    "cargo": "Listada na liderança do departamento",
+    "por_que": "cargo exato não visto",
+    "fonte": "https://ctsurgery.weillcornell.org/node/2",
+    "certeza": "provável"
+   }
+  ],
+  "brasileiros": "Não encontrado nenhum com vínculo documentado no serviço. Tulio Caldonazo (formado em medicina no Brasil) está no Jena University Hospital (Alemanha), não na Weill Cornell, embora seja do círculo de metanálises sobre CABG — https://www.eacts.org/?p=45624 (certeza: confirmado que é brasileiro; vínculo com Weill Cornell não confirmado)",
+  "pontes_unifesp_sp": "Ponte Brasil (não SP): a página de ensaio do departamento (PI Gaudino) lista o 'Heart Institute of Pernambuco, Brazil' como centro participante — https://ctsurgery.weillcornell.org/node/224 (provável que seja o ROMA; página sem data). Coautoria com Unifesp/InCor/Dante: não encontrada.",
+  "pesquisa_recente": [
+   {
+    "titulo": "Robotic mitral valve repair (JTCVS Techniques, video atlas; Mick, Kohlbacher, Gillinov)",
+    "ano": 2023,
+    "id": "não encontrado",
+    "url": "https://weillcornell.org/news/dr-stephanie-mick-blazing-a-trail-in-robotic-mitral-valve-repair"
+   },
+   {
+    "titulo": "Curva de aprendizado da cirurgia mitral robótica na Weill Cornell (~30 casos)",
+    "ano": 2024,
+    "id": "não encontrado",
+    "url": "https://weillcornell.org/news/dr-stephanie-mick-blazing-a-trail-in-robotic-mitral-valve-repair",
+    "nota": "periódico não identificado"
+   },
+   {
+    "titulo": "ROMA:Women — single vs multiple arterial grafts em mulheres (recrutando desde 03/2025)",
+    "ano": 2025,
+    "id": "não encontrado",
+    "url": "https://dzhk.de/en/research/clinical-research/dzhk-studies/study/detail/romawomen"
+   }
+  ],
+  "dicas": [
+   "Sem sponsor do staff do NYP mais aprovação do Service Chief não há observership: o primeiro passo é conseguir o sim de Mick (robótica) ou de Gaudino (coronária).",
+   "O ROMA (NCT03217006) tem centro no Brasil (Pernambuco): bom gancho para o e-mail a Gaudino.",
+   "Gaudino comanda um grande grupo de pesquisa clínica em CABG com fellows internacionais. Um research fellowship ou colaboração remota em metanálise pode vir antes do observership (inferência, sem fonte direta)."
+  ],
+  "rota_recomendada": "1) E-mail personalizado à Dra. Stephanie Mick (robótica mitral, citando o JTCVS Techniques 2023 e a curva de aprendizado) e/ou ao Dr. Mario Gaudino (CABG, citando o ROMA e o centro brasileiro), pedindo para ser sponsor de um observership de 4 semanas. 2) Com o sponsor, formalizar pelo NYP Global Services / departamento, com aprovação do Chair (Girardi). 3) Alternativa: oferecer colaboração em pesquisa com o grupo de Gaudino."
+ }
+]

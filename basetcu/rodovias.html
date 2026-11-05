@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Estudo · Obras rodoviárias: o que mais cai</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #0A0E17; color: #F8FAFC; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; min-height: 100vh; padding: 24px 16px; }
+  main { max-width: 900px; margin: 0 auto; }
+  h1 { font-size: 24px; margin-bottom: 8px; }
+  h2 { font-size: 17px; margin: 22px 0 10px; color: #93C5FD; }
+  p.desc { color: #94A3B8; font-size: 14px; margin-bottom: 12px; line-height: 1.55; }
+  .box { background: #2A210A; border: 1px solid #854D0E; border-radius: 10px; padding: 10px 12px; margin-bottom: 14px; font-size: 13.5px; line-height: 1.55; color: #FDE68A; }
+  .box b { color: #FCD34D; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; background: #0F172A; border: 1px solid #1E293B; border-radius: 10px; overflow: hidden; }
+  th { text-align: left; color: #93C5FD; font-weight: 700; padding: 7px 8px; border-bottom: 1px solid #334155; }
+  td { overflow-wrap: anywhere; padding: 6px 8px; border-bottom: 1px solid #1E293B; color: #E2E8F0; vertical-align: top; }
+  td.n { font-family: ui-monospace, Consolas, monospace; font-weight: 700; color: #93C5FD; white-space: nowrap; }
+  .card { background: #111C33; border: 1px solid #1E293B; border-left: 4px solid #F59E0B; border-radius: 10px; padding: 14px 16px; margin-bottom: 12px; }
+  .card.top { border-left-color: #22C55E; }
+  .topo { display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap; align-items: baseline; margin-bottom: 8px; }
+  .nome { font-size: 16px; font-weight: 800; }
+  .imp { font-size: 11.5px; font-weight: 700; color: #93C5FD; background: #10264A; padding: 2px 8px; border-radius: 999px; }
+  ul { list-style: none; display: grid; gap: 7px; margin: 6px 0; }
+  li { font-size: 14px; line-height: 1.55; color: #E2E8F0; overflow-wrap: anywhere; }
+  .tg { font-size: 10.5px; font-weight: 800; border-radius: 4px; padding: 1px 6px; margin-right: 6px; white-space: nowrap; vertical-align: 1px; }
+  .tg.lei { background: #052E16; color: #4ADE80; } .tg.tec { background: #3A2A05; color: #FCD34D; }
+  .peg { margin-top: 10px; background: #1C1017; border: 1px solid #7F1D1D; border-radius: 8px; padding: 8px 10px; font-size: 13.5px; color: #FECACA; }
+  .peg b { color: #F87171; }
+  .rod { font-size: 12px; color: #64748B; margin-top: 18px; line-height: 1.6; }
+</style>
+</head>
+<body>
+<main>
+  <nav id="menu"></nav>
+  <h1>Obras rodoviárias e pavimentação urbana: o que mais cai</h1>
+  <p class="desc">Resumo pontual da parte rodoviária do edital (Auditor de Controle Externo, TCESP, Engenharia Civil), na ordem do que o Jev estima que mais cai.</p>
+  <div class="box"><b>Leia isto antes:</b> eu <b>não tenho o texto do Manual de Pavimentação do DNIT</b> nem das especificações. Cada ponto abaixo vem marcado: <span class="tg lei">lei</span> veio do texto da Lei 14.133 que eu tenho; <span class="tg tec">técnico</span> é conhecimento técnico geral, <b>sem texto-fonte e sem conferência do Jev</b>, e os valores precisam ser conferidos no manual. A ordem e os percentuais são estimativas do Jev (probabilidade de cair), não estatística de provas anteriores.</div>
+
+  <h2>Ranking do Jev: chance de cair</h2>
+  <table id="rank"><tr><th>#</th><th>tópico do edital</th><th>objetiva</th><th>caso</th></tr></table>
+
+  <h2>O que mais cai, tópico por tópico</h2>
+  <div id="cards"></div>
+  <p class="rod">Chance de cair = estimativa do Jev para a prova objetiva (manhã) e para os estudos de caso (tarde), com o perfil de prova do seu <code>jev-ranker</code> (TCE-SP, engenharia, Vunesp). As pegadinhas desta parte aguardam o texto do manual e das especificações do DNIT; assim que você mandar os PDFs, elas sobem com trecho literal.</p>
+</main>
+<script>
+const $ = (id) => document.getElementById(id);
+function esc(t) { return String(t).replace(/[&<>"']/g, (m) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;' }[m])); }
+const RANK = [
+  ['Controle de execução de obras e serviços', 81, 72], ['Especificações de serviços', 77, 55], ['Obras de drenagem', 72, 54],
+  ['Análise orçamentária: SICRO (metodologia e conceitos)', 72, 50], ['Normas técnicas vigentes da ABNT', 64, 43], ['Projeto de pavimentos', 54, 49],
+  ['Terraplenagem: cortes, aterros, bota-fora', 51, 50], ['Revestimento asfáltico', 52, 43], ['SICRO: produtividade e equipamentos', 57, 36],
+  ['Reforço do subleito, sub-base e base', 54, 34], ['Manual de Pavimentação do DNIT (IPR-719)', 52, 33], ['Materiais: características físicas', 52, 23],
+  ['Estudos geotécnicos: relatório de sondagens', 35, 37], ['Principais equipamentos utilizados', 52, 17], ['Ensaios de agregados', 40, 24],
+  ['Ensaios de solo', 36, 27], ['Ensaios de materiais betuminosos', 34, 27], ['Obras de arte especiais', 21, 12]
+];
+const L = 'lei', T = 'tec';
+const CARDS = [
+  { n: 'Controle de execução de obras e serviços', j: '81% objetiva · 72% caso', top: 1, p: [
+    [L, 'O fiscal do contrato acompanha e fiscaliza a execução, anota em registro próprio todas as ocorrências e determina o que for necessário para regularizar faltas e defeitos (Lei 14.133, Art. 117, caput e § 1º).'],
+    [L, 'Contratar terceiros para assistir o fiscal não o exime de responsabilidade, nos limites das informações recebidas (Art. 117, § 4º, II).'],
+    [L, 'O contratado repara, corrige, remove, reconstrói ou substitui, a suas expensas, o objeto com vícios, defeitos ou incorreções (Art. 119). A fiscalização não exclui nem reduz a responsabilidade do contratado por danos (Art. 120).'],
+    [L, 'Recebimento de obras e serviços: provisório pelo responsável pelo acompanhamento e fiscalização, e definitivo por servidor ou comissão, ambos mediante termo detalhado (Art. 140, I). Ele não exclui a responsabilidade civil pela solidez e pela segurança da obra (Art. 140, § 2º).'],
+    [L, 'Os ensaios, testes e demais provas para aferir a boa execução, exigidos por normas técnicas oficiais, correm por conta do contratado, salvo disposição em contrário no edital ou em ato normativo (Art. 140, § 4º).'],
+    [T, 'Tipos de controle: geométrico (cotas, larguras, espessuras), tecnológico (ensaios de laboratório e de campo) e de compactação (grau de compactação e desvio de umidade). Na usinagem do concreto asfáltico, controla-se a granulometria, o teor de ligante e a temperatura.']],
+    peg: 'achar que a fiscalização da Administração transfere a responsabilidade do contratado, ou que o recebimento definitivo encerra a responsabilidade pela solidez e segurança.' },
+  { n: 'Especificações de serviços', j: '77% objetiva · 55% caso', top: 1, p: [
+    [T, 'Imprimação: ligante asfáltico aplicado sobre a base granular concluída, antes do revestimento, para dar coesão superficial, impermeabilizar e favorecer a aderência ao revestimento.'],
+    [T, 'Pintura de ligação: ligante (em geral emulsão de ruptura rápida) aplicado sobre superfície coesa ou revestimento betuminoso, antes de nova camada betuminosa, para dar aderência entre as camadas.'],
+    [T, 'Revestimentos: tratamento superficial simples, duplo ou triplo (por penetração) e concreto betuminoso usinado a quente (por mistura em usina).'],
+    [T, 'Camadas: brita graduada simples (base granular); solo-cimento e brita graduada tratada com cimento (bases cimentadas, que levam ao pavimento semirrígido).'],
+    [T, 'Cada serviço tem especificação própria, com materiais, equipamentos, execução, controle e critérios de medição.']],
+    peg: 'trocar imprimação por pintura de ligação (a imprimação é sobre base granular; a pintura de ligação, sobre superfície betuminosa).' },
+  { n: 'Obras de drenagem', j: '72% objetiva · 54% caso', top: 1, p: [
+    [T, 'A drenagem protege o pavimento e o corpo estradal da ação da água, superficial e subterrânea.'],
+    [T, 'Superficial: sarjetas, valetas de proteção de corte e de aterro, meios-fios e descidas d\'água.'],
+    [T, 'Transposição de talvegues: bueiros (tubulares ou celulares) e pontilhões, dimensionados pela vazão de projeto.'],
+    [T, 'Profunda (subterrânea): drenos longitudinais profundos, drenos horizontais profundos, colchão drenante e camadas drenantes; servem para rebaixar o lençol freático e proteger taludes e a plataforma.']],
+    peg: 'confundir drenagem superficial com profunda, ou atribuir ao dreno profundo a função de captar água da chuva da pista.' },
+  { n: 'Análise orçamentária: SICRO', j: '72% objetiva · 50% caso (produtividade e equipamentos: 57% · 36%)', top: 1, p: [
+    [L, 'Para obras e serviços de infraestrutura de transportes, o valor estimado usa composição de custos unitários menores ou iguais à mediana do SICRO; para as demais obras e serviços de engenharia, a do SINAPI. O valor é acrescido do BDI de referência e dos encargos sociais cabíveis (Art. 23, § 2º, I).'],
+    [L, 'Municípios, Estados e Distrito Federal, sem recursos da União, podem usar outros sistemas de custos adotados pelo ente (Art. 23, § 3º).'],
+    [L, 'Proposta de obra ou serviço de engenharia é inexequível se inferior a 75% do valor orçado pela Administração (Art. 59, § 4º). Se a proposta vencedora for inferior a 85% do orçado, exige-se garantia adicional equivalente à diferença (Art. 59, § 5º).'],
+    [L, 'Na avaliação de exequibilidade e sobrepreço consideram-se o preço global, os quantitativos e os preços unitários tidos como relevantes (Art. 59, § 3º).'],
+    [T, 'O SICRO compõe o custo unitário do serviço com equipamentos, mão de obra, materiais, atividades auxiliares e transporte, a partir da produtividade da equipe mecânica. O custo horário do equipamento distingue o horário produtivo do improdutivo.']],
+    peg: 'trocar SICRO por SINAPI, ou trocar 75% (inexequível) por 85% (garantia adicional).' },
+  { n: 'Projeto de pavimentos, reforço do subleito, sub-base e base, Manual IPR-719', j: '54% objetiva · 49% caso (Manual IPR-719: 52% · 33%)', p: [
+    [T, 'Tipos: flexível (camadas deformam e dividem a carga), rígido (revestimento muito rígido absorve as tensões) e semirrígido (base cimentada com revestimento asfáltico).'],
+    [T, 'Camadas, de cima para baixo: revestimento, base, sub-base, reforço do subleito (se necessário) e regularização do subleito, sobre o subleito. O revestimento recebe o tráfego e impermeabiliza; a base resiste e distribui os esforços; a sub-base complementa a base; o reforço tem CBR melhor que o subleito e pior que a camada acima.'],
+    [T, 'Eixo padrão de 8,2 tf; N é o número equivalente de operações desse eixo no período de projeto. Dimensionamento pelo CBR: quanto maior o N, maior a espessura; quanto maior o CBR do subleito, menor a espessura.'],
+    [T, 'Valores usuais do manual, a conferir: sub-base CBR ≥ 20%, expansão ≤ 1%; base CBR ≥ 80% (≥ 60% se N ≤ 5 x 10^6), expansão ≤ 0,5%; subleito CBR ≥ 2%, expansão ≤ 2%; revestimento mínimo cresce com N (tratamento superficial até 10^6; 5,0 cm até 5 x 10^6; 7,5 cm até 10^7; 10,0 cm até 5 x 10^7; 12,5 cm acima).']],
+    peg: 'trocar os limites de CBR e de expansão entre as camadas, trocar a função de uma camada pela de outra, ou inverter o sentido da relação entre N e a espessura.' },
+  { n: 'Terraplenagem: cortes, aterros, bota-fora', j: '51% objetiva · 50% caso', p: [
+    [T, 'Corte: escavação do terreno natural. Aterro: execução com material de corte ou de empréstimo. Empréstimo: material tirado de fora da plataforma quando falta material. Bota-fora: destino do material excedente ou inservível.'],
+    [T, 'O solo cortado ocupa mais volume (empolamento). A compensação de volumes entre cortes e aterros reduz empréstimo e bota-fora, e a distância média de transporte pesa no custo.'],
+    [T, 'Compactação controlada pelo grau de compactação (relação entre a massa específica seca de campo e a máxima de laboratório) e pelo desvio de umidade em relação à ótima.']],
+    peg: 'trocar empréstimo por bota-fora, ou ignorar o empolamento ao comparar volumes.' },
+  { n: 'Revestimento asfáltico', j: '52% objetiva · 43% caso', p: [
+    [T, 'O ligante CAP (cimento asfáltico de petróleo) é classificado por penetração. Emulsões asfálticas de ruptura rápida servem, em geral, para pintura de ligação.'],
+    [T, 'A dosagem Marshall do concreto betuminoso define o teor de ligante pelos parâmetros de estabilidade, fluência, volume de vazios e relação betume/vazios.'],
+    [T, 'Equipamentos: usina de asfalto, caminhão espargidor, vibroacabadora e rolos (liso vibratório e pneumático na compactação).']],
+    peg: 'confundir revestimento por mistura (usinado) com revestimento por penetração (tratamento superficial).' },
+  { n: 'Materiais e ensaios (solo, betuminosos, agregados), sondagens e equipamentos', j: 'materiais 52% · 23% | sondagens 35% · 37% | ensaios 34 a 40% | equipamentos 52% · 17%', p: [
+    [T, 'Solo: granulometria, limites de Atterberg (índice de plasticidade = limite de liquidez − limite de plasticidade), compactação (Proctor: umidade ótima e massa específica seca máxima) e CBR (capacidade de suporte e expansão, em corpos de prova imersos por 4 dias).'],
+    [T, 'Betuminosos: penetração, ponto de amolecimento, viscosidade Saybolt-Furol, ductilidade e ponto de fulgor.'],
+    [T, 'Agregados: granulometria, abrasão Los Angeles (desgaste do agregado graúdo), equivalente de areia (finos plásticos do agregado miúdo), índice de forma e adesividade ao ligante.'],
+    [T, 'Sondagem a percussão (SPT): N_SPT é o número de golpes para cravar os 30 cm finais do amostrador-padrão; dá o perfil do subsolo, a posição do nível d\'água e a resistência das camadas.'],
+    [T, 'Equipamentos: motoniveladora (conformação da plataforma), rolo pé-de-carneiro (solos coesivos), rolo liso vibratório (materiais granulares e asfalto), escavadeira, caminhão basculante.']],
+    peg: 'inverter a fórmula do índice de plasticidade, ou confundir o N_SPT (golpes dos 30 cm finais) com o CBR (índice de suporte do solo).' },
+  { n: 'Obras de arte especiais', j: '21% objetiva · 12% caso (o menor do bloco)', p: [
+    [T, 'Pontes, viadutos e estruturas semelhantes: superestrutura (tabuleiro e vigas), mesoestrutura (pilares e aparelhos de apoio) e infraestrutura (fundações).']],
+    peg: 'trocar a posição das partes: a fundação é a infraestrutura, e o tabuleiro é a superestrutura.' },
+  { n: 'Normas técnicas vigentes da ABNT', j: '64% objetiva · 43% caso', p: [
+    [L, 'Os ensaios exigidos por normas técnicas oficiais para aferir a boa execução correm por conta do contratado, salvo disposição em contrário (Lei 14.133, Art. 140, § 4º).'],
+    [T, 'O edital não lista as normas neste trecho. Mande a lista do que você quer cobrir, que eu incluo.']],
+    peg: '' }
+];
+$('rank').innerHTML += RANK.map((r, i) => `<tr><td class="n">${i + 1}</td><td>${esc(r[0])}</td><td class="n">${r[1]}%</td><td class="n">${r[2]}%</td></tr>`).join('');
+$('cards').innerHTML = CARDS.map((c) => `<div class="card ${c.top ? 'top' : ''}"><div class="topo"><span class="nome">${esc(c.n)}</span><span class="imp">${esc(c.j)}</span></div>
+  <ul>${c.p.map(([t, tx]) => `<li><span class="tg ${t}">${t === 'lei' ? 'lei' : 'técnico'}</span>${esc(tx)}</li>`).join('')}</ul>
+  ${c.peg ? `<div class="peg"><b>Pegadinha típica:</b> ${esc(c.peg)}</div>` : ''}</div>`).join('');
+</script>
+<script src="/menu.js"></script>
+</body>
+</html>

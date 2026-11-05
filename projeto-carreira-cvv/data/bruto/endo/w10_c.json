@@ -1,0 +1,365 @@
+[
+ {
+  "match": "Dartmouth Hitchcock",
+  "centro": "Dartmouth Hitchcock Medical Center (Dartmouth Health) – Heart and Vascular Center, Lebanon NH",
+  "areas": [
+   "robotica"
+  ],
+  "programa": {
+   "status": "não encontrado",
+   "detalhe": "Nenhuma página oficial de observership/visiting physician da Dartmouth Health ou da Geisel foi encontrada (2 buscas). Elegibilidade, taxa, documentos e contato oficial: não encontrados.",
+   "certeza": "confirmado que não apareceu nas buscas; não significa que não exista"
+  },
+  "servico": {
+   "nome": "Section of Cardiac Surgery / Heart and Vascular Center – programa de cirurgia mitral robótica (iniciado ago/2025)",
+   "chefe": {
+    "nome": "Henry J. Tannous, MD",
+    "cargo": "Section Chief, Cardiac Surgery; Professor of Surgery, Geisel School of Medicine (entrou em 2024)",
+    "fonte": "https://providers.dartmouth-health.org/2270/henry-j-tannous",
+    "trecho": "Section Chief, Cardiac Surgery; Professor of Surgery, Geisel School of Medicine, Dartmouth",
+    "certeza": "confirmado"
+   },
+   "fellowship_relevante": "não encontrado",
+   "volume": {
+    "valor": "Programa novo: 1ª plastia mitral robótica em 15/08/2025, 2ª em 18/08/2025; sem número anual publicado",
+    "fonte": "https://www.dartmouth-hitchcock.org/stories/article/robotic-cardiac-surgery-promotes-game-changing-patient-care",
+    "trecho": "first patient, whose surgery was performed on August 15 ... A second robot-assisted mitral valve repair was performed August 18",
+    "certeza": "confirmado"
+   }
+  },
+  "pessoas_chave": [
+   {
+    "nome": "Henry J. Tannous, MD",
+    "cargo": "Section Chief, Cardiac Surgery",
+    "por_que": "decide; liderou a 1ª cirurgia mitral robótica do hospital; ex-chefe de CT em Stony Brook",
+    "fonte": "https://www.bostonglobe.com/2025/09/04/metro/nh-dartmouth-robot-heart-surgery/",
+    "certeza": "confirmado"
+   },
+   {
+    "nome": "Jose R. Rodriguez, MD",
+    "cargo": "Director of Minimally Invasive Cardiac Surgery and Quality",
+    "por_que": "console surgeon do programa robótico; ~17 anos de experiência com sistemas robóticos; provável anfitrião",
+    "fonte": "https://providers.dartmouth-health.org/2506/jose-r-rodriguez ; https://www.thedartmouth.com/article/2025/09/dartmouth-hitchcock-medical-center-pioneers-robotic-heart-surgeries",
+    "certeza": "confirmado (cargo); provável (papel de console)"
+   }
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": {
+   "itens": [],
+   "nota": "Nenhum artigo 2022–2026 do serviço em robótica encontrado nos resultados; programa iniciado em 2025. Para o e-mail, citar o lançamento do programa (notícia Dartmouth Health ago/2025, Boston Globe 04/09/2025).",
+   "certeza": "não encontrado"
+  },
+  "dicas": [
+   "Programa robótico mitral muito novo (ago/2025), o 1º da Nova Inglaterra ao norte de Boston: há pouca experiência acumulada para observar; útil só como complemento.",
+   "Tannous e Rodriguez também atendem em Manchester (NH)."
+  ],
+  "rota_recomendada": "Prioridade baixa para robótica. Se quiser tentar: e-mail curto a Jose R. Rodriguez (Minimally Invasive Cardiac Surgery) com cópia ao Section Chief Tannous, pedindo observership de 4 semanas e perguntando qual é o processo institucional (não há página pública). Antes, prefira centros com volume robótico consolidado (ex.: UPMC/Bonatti).",
+  "alerta_correcao": null
+ },
+ {
+  "match": "Ohio State Wexner (Ross Heart Hospital)",
+  "centro": "The Ohio State University Wexner Medical Center – Richard M. Ross Heart Hospital, Columbus OH",
+  "areas": [
+   "robotica"
+  ],
+  "programa": {
+   "status": "existe processo institucional, só por convite",
+   "pagina": "https://medicine.osu.edu/departments/office-of-global-health/international-visiting-scholars",
+   "regras": "Visitante internacional precisa ser convidado por departamento clínico/docente OSU; pedido tem que partir de dentro do departamento; pedidos não solicitados NÃO são aceitos; exige faculty sponsor + aprovação do chefe de departamento; observership de estudante internacional proibido.",
+   "trecho": "welcomes international scholars who have been invited by a clinical department or OSU faculty member to pursue an observational experience ... unsolicited requests are not accepted",
+   "visto": "Depende do propósito/duração; ver https://hr.osu.edu/services/talent-immigration/observation",
+   "taxa": "não encontrado",
+   "duracao": "não encontrado",
+   "documentos": "lista 'Documents for hosting an international scholar' existe na página, mas não foi capturada",
+   "contato_oficial": "Office of Global Health (via departamento anfitrião); e-mail não capturado",
+   "certeza": "confirmado (regra do convite/sponsor); demais itens não encontrados"
+  },
+  "servico": {
+   "nome": "Division of Cardiac Surgery – Robotic Heart and Vascular Surgery (Ross Heart Hospital)",
+   "chefe": {
+    "nome": "Bryan Whitson, MD, PhD",
+    "cargo": "Director, Division of Cardiac Surgery; Interim Co-Director, Heart and Vascular Center; áreas incluem Mitral Valve e Robotics",
+    "fonte": "https://wexnermedical.osu.edu/find-a-doctor/bryan-whitson-100000524",
+    "certeza": "confirmado (perfil OSU)"
+   },
+   "nota_lideranca": "Nahush Mokadam foi anunciado diretor da divisão (release de 2018); perfil atual de Whitson diz Director — possível troca; confirmar.",
+   "fellowship_relevante": "não encontrado",
+   "volume": {
+    "valor": "Histórico: centro com mais pacientes nos ensaios FDA de plastia mitral e CABG robóticos; 1º procedimento cardíaco robótico (da Vinci) dos EUA em 1999; revisão antiga cita >800 plastias mitrais robóticas. Sem volume recente com ano.",
+    "fonte": "https://wexnermedical.osu.edu/robotic-surgery/robotic-heart-and-vascular-surgery ; https://pmc.ncbi.nlm.nih.gov/articles/PMC3856989",
+    "certeza": "confirmado (histórico); volume atual não encontrado"
+   }
+  },
+  "pessoas_chave": [
+   {
+    "nome": "Bryan Whitson, MD, PhD",
+    "cargo": "Director, Division of Cardiac Surgery",
+    "por_que": "aprovaria/indicaria sponsor; lista Robotics e Mitral Valve",
+    "fonte": "https://wexnermedical.osu.edu/find-a-doctor/bryan-whitson-100000524",
+    "certeza": "confirmado"
+   },
+   {
+    "nome": "Nahush Mokadam, MD",
+    "cargo": "cirurgião cardíaco, Ross Heart Hospital (diretor da divisão segundo release de 2018)",
+    "por_que": "liderança sênior; transplante/IC",
+    "fonte": "https://wexnermedical.osu.edu/mediaroom/pressreleaselisting/two-nationally-prominent-surgeons-take-leadership-roles-at-osu-wex-med",
+    "certeza": "provável (cargo atual incerto)"
+   },
+   {
+    "nome": "Matthew Henn, MD",
+    "cargo": "Assistant Professor of Surgery, Cardiac Surgery",
+    "por_que": "listado na página de cirurgia minimamente invasiva; papel robótico não confirmado",
+    "fonte": "https://wexnermedical.osu.edu/heart-vascular/cardiac-surgery/minimally-invasive-surgery",
+    "certeza": "provável"
+   },
+   {
+    "nome": "Takuya Wada, MD",
+    "cargo": "Assistant Professor, Division of Cardiac Surgery (desde set/2025)",
+    "por_que": "docente novo, possível sponsor acessível; foco robótico não confirmado",
+    "fonte": "https://ctsnet.org/home/takuya-wada",
+    "certeza": "provável"
+   }
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": {
+   "itens": [],
+   "nota": "Nenhum artigo 2022–2026 de robótica do serviço apareceu nos resultados. Nenhum cirurgião robótico atual nomeado explicitamente pela OSU foi encontrado.",
+   "certeza": "não encontrado"
+  },
+  "dicas": [
+   "Sem sponsor docente não há como entrar: pedido direto ao escritório é recusado ('unsolicited requests are not accepted').",
+   "Robert Michler (pioneiro e 1º diretor executivo do Ross) e Randall Wolf (robótica 1999) não estão mais lá / são históricos — não usar como contato."
+  ],
+  "rota_recomendada": "1) Conseguir um docente da Division of Cardiac Surgery que aceite ser sponsor (e-mail ao diretor Bryan Whitson citando mitral/robótica); 2) o departamento inicia o pedido no Office of Global Health. Prioridade média-baixa: a fama robótica é histórica e o volume atual não está publicado.",
+  "alerta_correcao": "Liderança da divisão possivelmente mudou (Mokadam em 2018 vs. Whitson 'Director' no perfil atual); robótica é ponto forte histórico, não há evidência pública de volume atual."
+ },
+ {
+  "match": "UPMC Heart and Vascular Institute",
+  "centro": "UPMC Heart and Vascular Institute – UPMC Presbyterian (e UPMC Passavant), Pittsburgh PA",
+  "areas": [
+   "robotica"
+  ],
+  "programa": {
+   "status": "sem página de observership cardiotorácica; há precedente documentado de estágio internacional com Bonatti",
+   "precedente": {
+    "descricao": "Martin Winter, MD (Going International) passou vários meses no verão de 2025 na UPMC Presbyterian em pesquisa + observação + simulação em robótica cardíaca, supervisionado por Bonatti; observou >50 casos robóticos (mitral, TECAB, CIA, tumor, tricúspide).",
+    "fonte": "https://www.goinginternational.eu/pdfs/countryreports/Martin Winter_Clinical Rotation in Robotic Cardiac Surgery at UPMC Pittsburgh.pdf",
+    "trecho": "I was able to observe all robotic cardiac surgery cases performed at UPMC during my stay ... Dr. Bonatti was consistently welcoming and supportive",
+    "certeza": "confirmado (relato pessoal)"
+   },
+   "programa_institucional_alternativo": {
+    "nome": "UPMC Enhanced Observership Program (EOP) – Dept. of Medicine",
+    "detalhe": "8 semanas, taxa de inscrição US$50 não reembolsável; tuition US$8.000 (formulário); entrevista com docente; foco em IMGs para Match; sem contato com paciente. Voltado a medicina interna, não cirurgia cardíaca.",
+    "fonte": "https://dom.pitt.edu/?p=3070 ; https://www.surveymonkey.com/r/C7P7FQG",
+    "certeza": "confirmado (8 sem, $50); provável ($8.000)"
+   },
+   "elegibilidade_taxa_documentos": "não encontrado",
+   "certeza": "rota departamental provável"
+  },
+  "servico": {
+   "nome": "Department of Cardiothoracic Surgery – Division of Cardiac Surgery; Cardiac Robotic Surgery program (UPMC HVI)",
+   "chefe": {
+    "nome": "Ibrahim Sultan, MD",
+    "cargo": "Chief of Cardiac Surgery, UPMC",
+    "fonte": "https://www.heart-valve-surgery.com/videos/minimally-invasive-robotic-surgery-barlows-mitral-valve",
+    "certeza": "provável (fonte secundária)"
+   },
+   "diretor_robotica": {
+    "nome": "Johannes Bonatti, MD, FETCS",
+    "cargo": "Director of Cardiac Robotic Surgery, UPMC Heart and Vascular Institute; Professor of Cardiothoracic Surgery",
+    "fonte": "https://upmc.com/media/experts/johannes-bonatti",
+    "certeza": "confirmado"
+   },
+   "fellowship_relevante": "Fellowships non-ACGME listados: aortic surgery e heart/lung transplant; fellowship robótico específico não encontrado.",
+   "volume": {
+    "valor": "218 cirurgias robóticas jul/2021–abr/2024 (112 plastias mitrais, 63 TECAB, 29 RA-MIDCAB) em Presbyterian/Passavant; 1º CABG robótico UPMC em 19/07/2021; 2023: 1º procedimento híbrido simultâneo RCABG+PCI",
+    "fonte": "https://www.frontiersin.org/journals/cardiovascular-medicine/articles/10.3389/fcvm.2025.1575779/text ; https://www.upmcphysicianresources.com/news/050421-bonatti",
+    "certeza": "confirmado"
+   }
+  },
+  "pessoas_chave": [
+   {
+    "nome": "Johannes Bonatti, MD",
+    "cargo": "Director of Cardiac Robotic Surgery",
+    "por_que": "decide e hospeda (precedente de visitante internacional em 2025); pioneiro do TECAB (1º triplo e quádruplo endoscópico robótico do mundo, 2010/2012); >1.000 casos robóticos",
+    "fonte": "https://www.upmc.com/campaigns/life-changing-is/clinical-excellence/heart-vascular/bonatti",
+    "certeza": "confirmado"
+   },
+   {
+    "nome": "Ibrahim Sultan, MD",
+    "cargo": "Chief of Cardiac Surgery",
+    "por_que": "chefe do serviço; coautor do estudo de robótica 2025",
+    "fonte": "https://www.frontiersin.org/journals/cardiovascular-medicine/articles/10.3389/fcvm.2025.1575779/text",
+    "certeza": "confirmado (coautoria); provável (cargo)"
+   }
+  ],
+  "brasileiros": [
+   {
+    "nome": "Luciana Da Fonseca Da Silva, MD",
+    "vinculo": "Cirurgiã cardiotorácica UPMC Children's / UPMC Presbyterian; MD Universidade Federal de Juiz de Fora; título da SBCCV",
+    "area": "cardiopediátrica (não robótica)",
+    "fonte": "https://www.doximity.com/pub/luciana-da-fonseca-da-silva-md",
+    "certeza": "confirmado"
+   },
+   {
+    "nome": "Claudio A. B. Lima, MD",
+    "vinculo": "Assistant Professor of Cardiothoracic Surgery, Pitt; MD Universidade Federal do Espírito Santo",
+    "area": "cardiopediátrica",
+    "fonte": "https://providers.upmc.com/provider/claudio-a-b-lima/1321668",
+    "certeza": "confirmado"
+   },
+   {
+    "nome": "Rodrigo dos Santos, MD",
+    "vinculo": "Treinou na UNIFESP (2000–02); research fellow em cirurgia torácica minimamente invasiva no Allegheny General (Pittsburgh); Instructor of Surgery UPMC 2003 — vínculo histórico, cirurgia torácica",
+    "fonte": "https://ctsnet.org/home/rdossantos",
+    "certeza": "confirmado (histórico; afiliação atual não verificada)"
+   }
+  ],
+  "pontes_unifesp_sp": {
+   "itens": [
+    "Rodrigo dos Santos: ex-UNIFESP com passagem pela UPMC (2003) — ponte histórica, área torácica, não cardíaca.",
+    "Brasileiras/os atuais na CT UPMC (Da Silva, Lima) são da cardiopediatria — podem dar dicas logísticas internas."
+   ],
+   "coautorias_unifesp_incor_dante": "não encontrado",
+   "certeza": "provável/fraco"
+  },
+  "pesquisa_recente": [
+   {
+    "titulo": "Small cuts, big questions: the impact of incision length in minimally invasive robotic cardiac surgery",
+    "ano": 2025,
+    "revista": "Front Cardiovasc Med 12",
+    "doi": "10.3389/fcvm.2025.1575779",
+    "autores": "Rubino et al.; Sultan I, Bonatti J",
+    "certeza": "confirmado"
+   },
+   {
+    "titulo": "Exposure technique for the circumflex artery territory in robotic totally endoscopic coronary artery bypass grafting",
+    "ano": 2024,
+    "revista": "Ann Cardiothorac Surg",
+    "doi": "não encontrado",
+    "url": "https://www.annalscts.com/article/view/17121/html",
+    "autores": "Bonatti et al.",
+    "certeza": "confirmado (DOI não capturado)"
+   },
+   {
+    "titulo": "Embracing the robot for mitral valve surgery (palestra, 2023 UPMC Heart Valve Symposium)",
+    "ano": 2023,
+    "doi": "n/a",
+    "url": "https://boulder.vumedi.com/channel/university-of-pittsburgh-medical-center/tab/2023-heart-valve-symposium/video/embracing-the-robot-for-mitral-valve-surgery",
+    "certeza": "confirmado (vídeo, não artigo)"
+   }
+  ],
+  "dicas": [
+   "Bonatti aceitou visitante internacional europeu em 2025 num formato misto (pesquisa + observação + simulação): oferecer contribuição em pesquisa (banco de dados robótico, revisão) aumenta a chance.",
+   "Volume robótico ~70/ano (218 em ~33 meses): 4 semanas renderiam ~5–10 casos; o relato de >50 casos foi em vários meses.",
+   "Robótica mitral e TECAB/RA-MIDCAB + híbrido com hemodinâmica: tema forte para cardiologista também.",
+   "UPMC organiza o Heart Valve Symposium anual (palestras no VuMedi) — porta de entrada/assunto para e-mail."
+  ],
+  "rota_recomendada": "1) E-mail direto a Johannes Bonatti (Director of Cardiac Robotic Surgery) citando o artigo de 2025 sobre incisões (DOI 10.3389/fcvm.2025.1575779) e o TECAB, pedindo observership de 4 semanas e oferecendo ajuda em pesquisa; mencionar que já fez observership em Chicago. 2) Pedir que a equipe dele indique o trâmite de visitante do Dept. of Cardiothoracic Surgery (não há página pública). 3) Contatos brasileiros da CT (cardiopediatria) só para dicas logísticas. Melhor polo de robótica deste bloco.",
+  "alerta_correcao": null
+ },
+ {
+  "match": "Lenox Hill Hospital (Northwell)",
+  "centro": "Lenox Hill Hospital (Northwell Health) – Department of Cardiovascular and Thoracic Surgery, Nova York",
+  "areas": [
+   "robotica"
+  ],
+  "programa": {
+   "status": "observership: não encontrado; existe fellowship clínico de 1 ano (não-ACGME) em Advanced Coronary and Minimally Invasive Robotic Cardiac Surgery 2026–2027",
+   "fellowship": {
+    "url": "https://careers.thoracic.org/jobs/21907743/advanced-coronary-and-minimally-invasive-robotic-cardiac-surgery-fellowship-for-2026-2027",
+    "requisitos": "residência em cirurgia cardiotorácica concluída até jun/2026 (ou ACGME/equivalente), USMLE Step 1 e 2 + ECFMG, elegível a licença NY",
+    "trecho": "individuals must have completed USMLE STEP 1 and STEP 2 as well as be ECFMG certified",
+    "certeza": "confirmado (anúncio em job board)"
+   },
+   "observership_detalhes": "não encontrado",
+   "contato_oficial": "não encontrado"
+  },
+  "servico": {
+   "nome": "Department of Cardiovascular and Thoracic Surgery – Robotic/Minimally Invasive Coronary program (MIDCAB robótico, revascularização híbrida); sala híbrida com robô desde 2019",
+   "chefe": {
+    "nome": "Nirav C. Patel, MD",
+    "cargo": "Director of Robotic Cardiac Surgery, Northwell Health; Vice Chairman, Cardiovascular and Thoracic Surgery, Lenox Hill",
+    "fonte": "https://www.medifind.com/doctors/nirav-c-patel/10187223 ; https://www.ctsnet.org/home/npatel",
+    "certeza": "provável (diretórios secundários)"
+   },
+   "chair_departamento": {
+    "nome": "Valavanur A. Subramanian (pioneiro do MIDCAB 1994)",
+    "fonte": "https://aapiqli.org/?p=11835",
+    "certeza": "incerto — página possivelmente desatualizada; confirmar chair atual"
+   },
+   "fellowship_relevante": {
+    "diretor": "Nirav Patel",
+    "assistente": "Frank Manetta (Assistant Program Director)",
+    "fonte": "https://careers.hrsonline.org/jobs/21907743/advanced-coronary-and-minimally-invasive-robotic-cardiac-surgery-fellowship-for-2026-2027",
+    "certeza": "confirmado (anúncio)"
+   },
+   "volume": {
+    "valor": "395 pacientes de revascularização híbrida em ~10 anos (série single-center); mortalidade 30d 0,25%; volume anual não publicado",
+    "fonte": "https://scholars.mssm.edu/en/publications/ten-year-outcomes-of-hybrid-coronary-revascularization-at-a-singl/",
+    "certeza": "confirmado"
+   }
+  },
+  "pessoas_chave": [
+   {
+    "nome": "Nirav C. Patel, MD",
+    "cargo": "Director of Robotic Cardiac Surgery (Northwell); Vice Chair; diretor do fellowship robótico",
+    "por_que": "decide e hospeda; referência mundial em RA-MIDCAB/híbrido",
+    "fonte": "https://www.ctsnet.org/?p=426124",
+    "certeza": "confirmado (fellowship) / provável (cargos)"
+   },
+   {
+    "nome": "Frank Manetta, MD",
+    "cargo": "Assistant Program Director do fellowship",
+    "por_que": "cuida de educação/trainees — bom destinatário em cópia",
+    "fonte": "https://careers.hrsonline.org/jobs/21907743/advanced-coronary-and-minimally-invasive-robotic-cardiac-surgery-fellowship-for-2026-2027",
+    "certeza": "confirmado (anúncio)"
+   },
+   {
+    "nome": "Jonathan M. Hemli, MD",
+    "cargo": "cirurgião cardíaco, coautor recorrente de Patel (MIDCAB, colheita robótica de ATIE)",
+    "por_que": "pesquisa clínica do grupo",
+    "fonte": "https://meetings.ismics.org/program/2022/PC61.cgi",
+    "certeza": "provável (cargo não confirmado)"
+   }
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {
+    "titulo": "Ten-year outcomes of hybrid coronary revascularization at a single center",
+    "ano": 2024,
+    "revista": "Ann Cardiothorac Surg 13(5):425–435",
+    "doi": "não encontrado",
+    "url": "https://scholars.mssm.edu/en/publications/ten-year-outcomes-of-hybrid-coronary-revascularization-at-a-singl/",
+    "certeza": "confirmado"
+   },
+   {
+    "titulo": "How to robotically take down a mammary artery",
+    "ano": 2024,
+    "revista": "Ann Cardiothorac Surg",
+    "autores": "Newman, Lambert, Pupovac, Patel",
+    "doi": "não encontrado",
+    "url": "https://www.annalscts.com/article/view/17119/html",
+    "certeza": "confirmado"
+   },
+   {
+    "titulo": "Minimally invasive coronary bypass versus percutaneous coronary intervention for isolated complex stenosis of the left anterior descending coronary artery",
+    "ano": 2022,
+    "revista": "J Thorac Cardiovasc Surg 163:1839-1846.e1",
+    "autores": "Patel NC, Hemli JM, Seetharam K, et al.",
+    "doi": "não encontrado",
+    "certeza": "confirmado (citação em referência)"
+   }
+  ],
+  "dicas": [
+   "Foco é coronária robótica (RA-MIDCAB, híbrido com PCI) — tema que interessa tanto ao cirurgião quanto ao cardiologista/hemodinamicista.",
+   "Fellowship exige ECFMG/USMLE — não serve a R1–R5 brasileira; o caminho é observership informal com Patel.",
+   "Northwell não tem página pública de observership encontrada; o trâmite deve vir do departamento."
+  ],
+  "rota_recomendada": "1) E-mail a Nirav Patel (cópia Frank Manetta, que coordena o fellowship) citando o artigo de 10 anos de revascularização híbrida (Ann Cardiothorac Surg 2024) e pedindo observership de 4 semanas em RA-MIDCAB/híbrido; 2) perguntar o processo de observer da Northwell/Lenox Hill. Bom polo para coronária robótica, segundo depois da UPMC.",
+  "alerta_correcao": "URL do radar aponta só para anúncio de fellowship (job board), não para programa de observership. Chair atual do departamento não confirmado (Subramanian pode estar desatualizado)."
+ }
+]

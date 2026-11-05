@@ -1,0 +1,174 @@
+[
+ {
+  "match": "Hospital Israelita Albert Einstein",
+  "cidade": "São Paulo",
+  "pais": "Brasil",
+  "areas": ["robotica", "emergencia_choque"],
+  "alerta_correcao": "URL do radar (Einstein 2013, v11n3) é a série inicial de 21 casos (2010-2013), dado antigo. O líder histórico do programa robótico cardíaco, Robinson Poffo, também aparece como chefe do Centro de Cirurgia Cardíaca do Hospital Moriah e operou o 1º caso robótico cardíaco do HNSG em Curitiba (polo 226), ou seja, o mesmo cirurgião liga polos 224 e 226. Hoje o Einstein não é mais o único centro robótico cardíaco do Brasil (Angelina Caron, HNSG, HGU Maringá, Ceará 2026 etc.).",
+  "programa": {
+   "status": "não há página pública de estágio externo/observership para residentes de outras instituições em cardiologia/cirurgia cardiovascular; existe a categoria formal 'Médicos Estagiários' regida por 'Normas para Estágio'",
+   "detalhes": "A política de atividade médica do HIAE define 'Médicos Estagiários' como médicos em atividades complementares de aprendizado, que devem respeitar as Regras Gerais e as Normas para Estágio (documento das Normas não encontrado). Porta alternativa: CETEC (Centro de Treinamento em Cirurgia Robótica / Centro de Experimentação e Treinamento) certifica especialistas em robótica e já formou médicos de 16 países.",
+   "fontes": [
+    {"url": "https://medicalsuite.einstein.br/pratica-medica/GuiaPraticaMedica/Politica Regras Gerais para a Atividade Medica no Hospital Israelita Albert Einstein.pdf", "trecho": "VI – Médicos Estagiários São médicos em atividades complementares de aprendizado, de acordo com as Normas para Estágio."},
+    {"url": "https://medicinasa.com.br/?p=47783", "trecho": "Einstein ... começa, nesta semana, a certificar especialistas em cirurgia robótica torácica"}
+   ],
+   "taxa": "não encontrado",
+   "duracao": "não encontrado",
+   "documentos": "não encontrado",
+   "contato_oficial": "não encontrado (sugestão: Ensino Einstein / coordenação de residência; nenhum e-mail oficial localizado)",
+   "certeza": "categoria 'médico estagiário' = confirmado; regras e contato = não encontrado"
+  },
+  "servico": {
+   "nome": "Centro de Cirurgia Cardíaca Minimamente Invasiva e Robótica do Albert Einstein; Unidade Coronária (choque cardiogênico); programa de ECMO em UTI adulto desde 2012",
+   "chefe": "Robinson Poffo, citado como coordenador do Centro de Cirurgia Cardíaca Minimamente Invasiva e Robótica (matéria sem data); perfil CTSNet o descreve como cirurgião robótico do HIAE e chefe do Centro de Cirurgia Cardíaca do Hospital Moriah",
+   "diretor_fellowship": "não encontrado",
+   "volume": "21 casos robóticos 2010-2013 (Einstein 2013); 39 casos consecutivos mar/2010-dez/2015 (Ann Cardiothorac Surg 2017;6(1):17-26). Volume atual não encontrado.",
+   "outros": "Einstein foi a 1ª organização do Brasil com acreditações do American College of Cardiology em insuficiência cardíaca e dor torácica.",
+   "fontes": [
+    {"url": "https://www.saudebusiness.com/artigos/einstein-faz-primeira-ponte-de-safena-sem-abrir-trax-do-paciente/", "trecho": "Robinson Poffo, coordenador do Centro de Cirurgia Cardíaca Minimamente Invasiva e Robótica do Albert Einstein"},
+    {"url": "https://www.ctsnet.org/members/robinson-poffo/", "trecho": "Head of the Cardiac Surgery Center at Hospital Moriah ... robotic cardiac surgeon at Hospital Israelita Albert Einstein"},
+    {"url": "https://www.annalscts.com/article/view/13324/html", "trecho": "39 consecutive patients underwent robotic cardiac surgery from March 2010 to December 2015"},
+    {"url": "https://medicinasa.com.br/?p=122407", "trecho": "Einstein conquista duas acreditações inéditas no Brasil em Cardiologia"}
+   ],
+   "certeza": "coordenação de Poffo = provável (matéria sem data); volumes = confirmado para os anos citados"
+  },
+  "pessoas_chave": [
+   {"nome": "Robinson Poffo", "cargo": "Coordenador do Centro de Cirurgia Cardíaca Minimamente Invasiva e Robótica (HIAE); 1ª cirurgia cardíaca robótica da América Latina (mar/2010)", "por_que": "lidera/hospedaria em robótica; também opera no HNSG Curitiba e Hospital Moriah", "fonte": "https://www.ctsnet.org/members/robinson-poffo/"},
+   {"nome": "Marcelo Passos Teivelis", "cargo": "coautor (cirurgia vascular) do relato robótico 2024", "por_que": "colaborador do grupo robótico", "fonte": "https://doaj.org/article/31fe24226a91400491aa32c57bd06133"},
+   {"nome": "Nelson Wolosker", "cargo": "coautor do relato robótico 2024 (cirurgia vascular, ensino/pesquisa Einstein)", "por_que": "liderança acadêmica coautora", "fonte": "https://doaj.org/article/31fe24226a91400491aa32c57bd06133"}
+  ],
+  "brasileiros": "Centro brasileiro (equipe toda é do Brasil); critério não se aplica.",
+  "pontes_unifesp_sp": "Nenhuma coautoria específica Einstein–Unifesp nas áreas do polo encontrada nas buscas. Ponte geográfica óbvia (mesma cidade); Poffo atua também no Hospital Moriah (SP). Não encontrado em PubMed.",
+  "pesquisa_recente": [
+   {"titulo": "Robotic cardiac surgery for removal of iliac venous stent embolized in the right cardiac chambers: a case report", "ano": 2024, "id": "Einstein (São Paulo), nov/2024 — DOI/PMID não exibido nos resultados", "fonte": "https://doaj.org/article/31fe24226a91400491aa32c57bd06133"},
+   {"titulo": "Reparo robótico de valva mitral nativa com endocardite (JTCVS Techniques)", "ano": 2023, "id": "PMC10859664 (PMID não exibido)", "fonte": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10859664", "certeza": "provável que seja do grupo Poffo/HIAE (resultado do buscador)"},
+   {"titulo": "Clinical outcomes of patients undergoing extracorporeal membrane oxygenation after multidisciplinary training (UTI adulto HIAE, 2012-2020)", "ano": "não confirmado", "id": "não exibido", "fonte": "https://www.redalyc.org/journal/3989/398982952005/398982952005.pdf", "certeza": "provável (snippet indireto)"}
+  ],
+  "dicas": [
+   "Pedir enquadramento como 'Médico Estagiário' (Normas para Estágio) via Ensino Einstein com carta da COREME Unifesp e aceite de um preceptor do serviço.",
+   "CETEC (centro de treinamento robótico) recebe médicos de vários países — cursos/certificação podem ser porta de entrada para acompanhar casos.",
+   "Unidade Coronária organiza simpósio de cardiologia com sessão de choque cardiogênico/coração artificial (fonte: https://www.saudebusiness.com/artigos/einstein-apresenta-avanos-na-rea-de-cardiologia/)."
+  ],
+  "rota_recomendada": "1) E-mail/carta ao Ensino Einstein pedindo estágio optativo como 'médico estagiário' (1 mês) com aval da COREME Unifesp, já indicando preceptor; 2) contato com Robinson Poffo (citar série Ann CTS 2017 e relato 2024) para robótica, e com a Unidade Coronária para choque/ECMO; 3) alternativa: curso no CETEC.",
+  "certeza": "programa = não encontrado; serviço/pessoas = provável/confirmado conforme campo"
+ },
+ {
+  "match": "Real Hospital Português de Beneficência",
+  "cidade": "Recife",
+  "pais": "Brasil",
+  "areas": ["fetal", "cardio_pediatrica"],
+  "alerta_correcao": "Nenhum erro de identidade. O serviço fetal é a 'Unidade de Cardiologia Materno-Fetal (UCMF)' do RHP, ligada à ONG Círculo do Coração (Pernambuco/Paraíba). A clínica CardioPED Recife fica no mesmo endereço (Av. Agamenon Magalhães 4760), mas não foi confirmado que seja serviço próprio do RHP.",
+  "programa": {
+   "status": "não encontrado (nenhuma página de estágio externo/COREME do RHP nas buscas)",
+   "taxa": "não encontrado", "duracao": "não encontrado", "documentos": "não encontrado", "contato_oficial": "não encontrado",
+   "certeza": "não encontrado"
+  },
+  "servico": {
+   "nome": "Unidade de Cardiologia Materno-Fetal e Centro de Estudos Caduceus (RHP); serviço de cardiologia pediátrica do RHP; cirurgia cardíaca pediátrica (parceiro Children's HeartLink desde nov/2022, mentor Texas Children's Hospital)",
+   "chefe": "Sandra da Silva Mattos — Diretora da Unidade de Cardiologia Materno-Fetal e Centro de Estudos Caduceus; presidente do Círculo do Coração de Pernambuco (1991-atual)",
+   "diretor_fellowship": "não encontrado",
+   "volume": "RHP: 850 leitos, maior complexo hospitalar do Norte-Nordeste; >100 cardiologistas e 7 equipes de cirurgia cardíaca (Folha PE, sem data); fila de espera de cirurgia cardíaca pediátrica (2022). Volume pediátrico/fetal não encontrado.",
+   "fontes": [
+    {"url": "https://brcris.ibict.br/vivo/display/pers_d0384532-71d6-44b6-a60b-c701302a0abe", "trecho": "Diretora da Unidade de Cardiologia Materno-Fetal e Centro de Estudos - Caduceus - do Real Hospital Português de Beneficência em Pernambuco e presidente do Círculo do Coração de Pernambuco (1991-atual)"},
+    {"url": "https://childrensheartlink.org/realhospitalannouncement", "trecho": "fourth Brazilian partner ... will train with Children's HeartLink new medical volunteers from Texas Children's Hospital"},
+    {"url": "https://www.folhape.com.br/noticia/amp/375605/real-hospital-portugues-excelencia-em-cardiologia/", "trecho": "mais de cem cardiologistas e sete equipes de cirurgia cardíaca"}
+   ],
+   "certeza": "chefia da UCMF = provável (perfil acadêmico, sem confirmação no site do hospital)"
+  },
+  "pessoas_chave": [
+   {"nome": "Sandra da Silva Mattos", "cargo": "Diretora da UCMF/Caduceus (RHP); ex-presidente do Departamento de Cardiologia Pediátrica da SBC (2004-2007); coordena a rede de cardiologia pediátrica da Paraíba (Círculo do Coração)", "por_que": "decide/hospeda em cardiologia fetal; experiência internacional (Oxford John Radcliffe 1989; UNC Chapel Hill 1989-1990); foco em telemedicina", "fonte": "https://brcris.ibict.br/vivo/display/pers_d0384532-71d6-44b6-a60b-c701302a0abe"},
+   {"nome": "Juliana Neves", "cargo": "cardiologista do RHP citada no anúncio Children's HeartLink", "por_que": "porta-voz do programa pediátrico na parceria internacional", "fonte": "https://childrensheartlink.org/realhospitalannouncement"}
+  ],
+  "brasileiros": "Centro brasileiro; critério não se aplica. Ponte internacional: Texas Children's Hospital (Houston) é mentor via Children's HeartLink — 1ª visita de treinamento em 2023.",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {"titulo": "não encontrado artigo 2022-2026 com DOI/PMID nos resultados", "fonte": "—"},
+   {"titulo": "Artigo co-autorado por Mattos na Revista Portuguesa de Cardiologia com afiliação 'serviço de cardiologia pediátrica do RHP' (ano não exibido)", "fonte": "https://www.revportcardiol.org/en-estadisticas-S087025511730536X", "certeza": "provável"}
+  ],
+  "dicas": [
+   "Organizam o 'Encontro de Cardiopediatria do Real Hospital Português' (III edição) — evento como porta de entrada (https://doity.com.br/iii-encontro-de-cardiopediatria-do-real-hospital-portugus).",
+   "Programa de telemedicina do Círculo do Coração (Paraíba/Pernambuco) com triagem e cirurgia dos casos graves no RHP — bom gancho para e-mail.",
+   "1ª visita de treinamento Texas Children's–RHP em 2023 (https://childrensheartlink.org/first-training-visit/)."
+  ],
+  "rota_recomendada": "1) Contato direto com Sandra Mattos (UCMF/Caduceus) pedindo estágio de 1 mês em cardiologia fetal/telemedicina, citando o Círculo do Coração; 2) formalizar via centro de estudos/ensino do RHP com carta da COREME Unifesp; 3) para cardiopediatria cirúrgica, citar a parceria Children's HeartLink/Texas Children's.",
+  "certeza": "programa = não encontrado; pessoa-chave fetal = provável"
+ },
+ {
+  "match": "Hospital Nossa Senhora das Graças",
+  "cidade": "Curitiba",
+  "pais": "Brasil",
+  "areas": ["robotica"],
+  "alerta_correcao": "Polo de robótica cardíaca fraco: só há uma notícia (Tribuna PR, sem data nos resultados) de 1º caso robótico cardíaco (correção de defeito congênito com patch de pericárdio bovino) feito por Vinicius Nicolau Woitowicz e Robinson Poffo — Poffo é o líder do programa do Einstein (polo 224). Não há evidência de programa robótico cardíaco regular nem de residência em cirurgia cardiovascular no HNSG.",
+  "programa": {
+   "status": "não encontrado estágio externo; HNSG tem COREME e 20 programas de residência credenciados (inclui Cardiologia, 2 vagas/ano, 2 anos, pré-requisito Clínica Médica); nenhuma residência em cirurgia cardiovascular encontrada",
+   "fontes": [
+    {"url": "https://hnsg.org.br/wp-content/uploads/2025/01/EDITAL-PROVA-RM-2025-HNSG-2.pdf", "trecho": "CARDIOLOGIA 02 02 ANOS CLÍNICA MÉDICA"},
+    {"url": "https://hnsg.org.br/wp-content/uploads/2023/02/GUIA-DO-CANDIDATO-RESIDENCIA-MEDICA.pdf", "trecho": "20 programas de Residencia Médica (RM) aprovados pela Comissão Nacional de Residencia Médica (CNRM)"}
+   ],
+   "taxa": "não encontrado", "duracao": "não encontrado", "documentos": "não encontrado", "contato_oficial": "não encontrado (COREME HNSG; site hnsg.org.br)",
+   "certeza": "residência de cardiologia = confirmado; estágio externo = não encontrado"
+  },
+  "servico": {
+   "nome": "Cirurgia cardiovascular do HNSG (sem nome de serviço/programa robótico publicado)",
+   "chefe": "não encontrado",
+   "diretor_fellowship": "não encontrado",
+   "volume": "1 caso robótico cardíaco noticiado (data não encontrada)",
+   "fontes": [
+    {"url": "https://www.tribunapr.com.br/noticias/curitiba-regiao/hospital-de-curitiba-realiza-primeira-cirurgia-de-coracao-com-robo/", "trecho": "cirurgiões cardiovasculares Vinicius Nicolau Woitowicz e Robinson Poffo – que é pioneiro em cirurgia robótica cardíaca no Brasil"}
+   ],
+   "certeza": "confirmado (1 fonte jornalística)"
+  },
+  "pessoas_chave": [
+   {"nome": "Vinicius Nicolau Woitowicz", "cargo": "cirurgião cardiovascular (Curitiba; também listado no Hospital Marcelino Champagnat)", "por_que": "operou o 1º caso robótico cardíaco do HNSG", "fonte": "https://www.tribunapr.com.br/noticias/curitiba-regiao/hospital-de-curitiba-realiza-primeira-cirurgia-de-coracao-com-robo/"},
+   {"nome": "Robinson Poffo", "cargo": "cirurgião robótico (HIAE/Moriah), proctor do caso", "por_que": "elo com o Einstein", "fonte": "https://www.tribunapr.com.br/noticias/curitiba-regiao/hospital-de-curitiba-realiza-primeira-cirurgia-de-coracao-com-robo/"},
+   {"nome": "Maria Letícia Leão Lana", "cargo": "coordenadora da Residência de Cardiologia do HNSG", "por_que": "porta de entrada acadêmica (COREME)", "fonte": "https://setelagoas.com.br/noticias/saude/215865-cardiologista-do-hospital-n-sa-das-gracas-fala-sobre-a-importancia-da-especialidade-na-vida-dos-pacientes", "certeza": "provável — a fonte é de Sete Lagoas (MG); pode ser outro Hospital N. Sra. das Graças (Sete Lagoas), NÃO confirmar como Curitiba"}
+  ],
+  "brasileiros": "Centro brasileiro; não se aplica.",
+  "pontes_unifesp_sp": "Indireta: Robinson Poffo (Einstein, SP) participou do 1º caso. Coautorias não encontradas.",
+  "pesquisa_recente": [{"titulo": "não encontrado (nenhuma publicação do HNSG em robótica cardíaca nos resultados)"}],
+  "dicas": ["Valor baixo para observership em robótica cardíaca: o volume parece mínimo; preferir Einstein (mesmo cirurgião) ou Angelina Caron no Paraná."],
+  "rota_recomendada": "Baixa prioridade. Se insistir: contatar Woitowicz/COREME HNSG pedindo acompanhar casos robóticos agendados; melhor seguir Poffo no Einstein.",
+  "certeza": "baixa — dados escassos"
+ },
+ {
+  "match": "Hospital Angelina Caron",
+  "cidade": "Campina Grande do Sul (PR)",
+  "pais": "Brasil",
+  "areas": ["robotica"],
+  "alerta_correcao": "Possível confusão de identidade em diretórios dos EUA: existe 'Rodrigo de Souza, MD' associate professor de cirurgia cardiotorácica na USF Morsani (Tampa) — a matéria brasileira diz que Rodrigo Ribeiro de Souza se certificou em robótica pela University of South Florida e voltou ao Paraná; não confirmado que seja a mesma pessoa.",
+  "programa": {
+   "status": "não há página de estágio externo; hospital-escola (UniCaron) com residência médica própria (49 vagas em 2026; Cardiologia 3 vagas; inscrições 2027 até 3/dez/2026) e 'programas de formação em cirurgia cardiovascular minimamente invasiva e robótica' citados em 2026",
+   "fontes": [
+    {"url": "https://med.estrategia.com/portal/residencia-medica/hospital-angelina-caron/", "trecho": "O Hospital Angelina Caron ofereceu 49 vagas em seu processo seletivo"},
+    {"url": "https://med.estrategia.com/portal/?p=47415", "trecho": "permanecem abertas até 3 de dezembro de 2026"},
+    {"url": "https://www.bemparana.com.br/bem-estar/padilha-destaca-expansao-de-cirurgias-exames-e-tecnologia-do-hospital-angelina-caron/", "trecho": "programas de formação em cirurgia cardiovascular minimamente invasiva e robótica e em cirurgia geral com certificação robótica"}
+   ],
+   "taxa": "não encontrado", "duracao": "não encontrado", "documentos": "não encontrado", "contato_oficial": "não encontrado",
+   "certeza": "programas de formação robótica = confirmado (matéria 2026); estágio externo = não encontrado"
+  },
+  "servico": {
+   "nome": "Cirurgia cardiovascular do HAC — cirurgia cardíaca robótica com Da Vinci X (investimento de R$ 14 milhões); projeto de cirurgia cardíaca robótica para idosos do SUS financiado por doações via incentivo fiscal",
+   "chefe": "Rodrigo Ribeiro de Souza conduziu a estreia da cirurgia cardíaca robótica (cargo de chefia não explicitado)",
+   "diretor_fellowship": "não encontrado",
+   "volume": "não encontrado",
+   "fontes": [
+    {"url": "https://medicinasa.com.br/?p=136717", "trecho": "estreia ... conduzida pelo Dr. Rodrigo Ribeiro de Souza ... certificação em cirurgia robótica pela University of South Florida ... retorna ao Paraná para assumir esse novo desafio no Hospital Angelina Caron"},
+    {"url": "https://www.saudebusiness.com/hospitais/hospital-angelina-caron-investe-r-14-milhoes-em-cirurgia-robotica/", "trecho": "Hospital Angelina Caron investe R$ 14 milhões em cirurgia robótica"},
+    {"url": "https://www.tribunapr.com.br/saude-e-bem-estar/idosos-poderao-fazer-cirurgias-cardiacas-roboticas-em-campina-grande-do-sul/", "trecho": "Idosos poderão fazer cirurgias cardíacas robóticas em Campina Grande do Sul"}
+   ],
+   "certeza": "confirmado"
+  },
+  "pessoas_chave": [
+   {"nome": "Rodrigo Ribeiro de Souza", "cargo": "cirurgião cardiovascular, líder da cirurgia cardíaca robótica do HAC", "por_que": "decide/hospeda em robótica; formação nos EUA (USF)", "fonte": "https://medicinasa.com.br/?p=136717"}
+  ],
+  "brasileiros": "Centro brasileiro; não se aplica. Rodrigo Ribeiro de Souza é brasileiro com passagem por centros dos EUA (fonte medicinasa).",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [{"titulo": "não encontrado (sem publicações do HAC em robótica cardíaca nos resultados)"}],
+  "dicas": [
+   "Missão internacional de cirurgia cardiovascular avançada 10-17 set (2026) com King Faisal Specialist Hospital & Research Centre, Liga Mundial Muçulmana e UniCaron, operando pacientes da fila do SUS — evento repetível como porta de entrada (https://www.bandab.com.br/saude/hospital-angelina-caron-missao-cirurgias-cardiacas-sus-medicos-arabia-saudita/).",
+   "Hospital-escola com programas de formação robótica declarados — perfil receptivo a estagiários."
+  ],
+  "rota_recomendada": "1) Contato direto com Rodrigo Ribeiro de Souza pedindo 4 semanas acompanhando a cirurgia cardíaca robótica (citar o projeto SUS-idosos e a missão King Faisal); 2) formalizar pela COREME/ensino do HAC-UniCaron com carta da COREME Unifesp; 3) perguntar sobre vagas nos 'programas de formação em cirurgia cardiovascular minimamente invasiva e robótica'.",
+  "certeza": "serviço = confirmado; programa externo = não encontrado"
+ }
+]

@@ -1,0 +1,165 @@
+[
+ {
+  "match": "Institut Jantung Negara (IJN)",
+  "cidade": "Kuala Lumpur",
+  "pais": "Malásia",
+  "areas": ["cardio_pediatrica"],
+  "programa": {
+    "observership_oficial": "IJN tem seção 'Attachment & Fellowship' no menu Career e página 'APPLICATION & SUBMISSION' com tabela 'Fees Structure For Attachment / Practical / Industrial Training In IJN' — https://www.ijn.com.my/career-submission/",
+    "elegibilidade_estrangeiro": "A tabela tem categoria para 'Foreigners working in Malaysia / Abroad', 'foreign students from foreign colleges or universities' e 'Malaysians working abroad' — https://www.ijn.com.my/career-submission/ (linhas visíveis só para estudantes de medicina; categoria para médico/residente estrangeiro não confirmada)",
+    "taxa": "Para estudante de medicina estrangeiro: registro USD30 ou USD300 (tabela ambígua), estacionamento USD20/semana ou USD5/dia, teto USD300 por attachment; 'fees are subject to changes' — https://www.ijn.com.my/career-submission/ . Taxa para médico/residente: não encontrado",
+    "duracao": "attachment 'at least one week' e no máximo dois departamentos ao mesmo tempo — https://www.ijn.com.my/career-submission/",
+    "antecedencia_janelas": "não encontrado",
+    "documentos": "não encontrado",
+    "contato_oficial": "telefones listados na página de submissão: 03-26982824 / 03-26178200 ext. 6282 — https://www.ijn.com.my/career-submission/",
+    "fellowship_alternativo": "Children's HeartLink Fellowship in Pediatric Cardiac Sciences (CHL + Amrita Kochi + IJN), para profissionais de países de baixa e média renda; trilhas cardiologia pediátrica, cirurgia cardíaca pediátrica e terapia intensiva cardíaca pediátrica; no IJN 'one year, which could be extended to two years'; contato IJN publicado para o fellowship: Dr. Sivakumar Sivalingam, sivakumar@ijn.com.my — https://childrensheartlink.org/childrens-heartlink-fellowship-pediatric-cardiac-sciences ; https://childrensheartlink.org/childrens-heartlink-offers-a-new-fellowship",
+    "certeza": "confirmado: existência de attachment pago e tabela de taxas; provável: aplicável a residente estrangeiro (categoria 'abroad' existe, mas linhas para médico não visíveis). Fellowship CHL é de 1 ano, não serve como observership de 1 mês"
+  },
+  "servico": {
+    "nome": "Paediatric & Congenital Heart Centre (PCHC), IJN — https://www.ijn.com.my/?p=8652",
+    "chefe": "Dr. Marhisham Che Mood — 'Consultant Paediatric Cardiologist & Head of Paediatric & Congenital Heart Centre (PCHC)' (página IJN, via resultado de busca)",
+    "diretor_fellowship": "Contato do fellowship CHL no IJN: Dr. Sivakumar Sivalingam (cirurgião cardiotorácico) — https://childrensheartlink.org/childrens-heartlink-fellowship-pediatric-cardiac-sciences",
+    "volume": "'over 800–900 paediatric heart surgeries every year'; mortalidade intra-hospitalar 2,5% e infecção maior 3,2% em 2022 — https://www.ijn.com.my/publication/surgery-for-chd-in-malaysia-setting-standards-for-lower-and-middle-income-countries/ ; '>10,000 pediatric heart surgeries' na última década — https://www.ijn.com.my/ijn-media/minimally-invasive-pediatric-heart-surgery/",
+    "experiencia_estrangeiros": "'IJN has prepared 75 fellows from overseas ... pediatric cardiology and intensive care' e 21 em cirurgia cardiotorácica (2021) — https://childrensheartlink.org/our-center-of-excellence-in-malaysia-helps-improve-cardiac-programs-in-several-countries/",
+    "certeza": "chefe PCHC: provável (página IJN sem data no trecho); volume: confirmado como autodeclarado"
+  },
+  "pessoas_chave": [
+    {"nome": "Marhisham Che Mood", "cargo": "Consultant Paediatric Cardiologist & Head of PCHC", "por_que": "chefe do centro que receberia a observadora", "fonte": "https://www.ijn.com.my/?p=8652 (via busca)"},
+    {"nome": "Sivakumar Sivalingam", "cargo": "contato IJN do Children's HeartLink Fellowship", "por_que": "e-mail institucional publicado para candidatos internacionais; já lida com estrangeiros", "fonte": "https://childrensheartlink.org/childrens-heartlink-fellowship-pediatric-cardiac-sciences"},
+    {"nome": "Geetha Kandavello", "cargo": "Senior Consultant Paediatric Cardiologist / Consultant ACHD; Director ACHD Services (bio 2023); President, International Society of Adult Congenital Heart Disease (ISACHD)", "por_que": "liderança internacional; ponte acadêmica via ISACHD", "fonte": "https://www.ijn.com.my/doctor/dr-geetha-kandavello-kandhavel/ ; https://cppcongress.com/2023/speakers/geetha-kandavello/"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado (nenhum vínculo IJN–Brasil nos resultados; CHL tem parceria separada com InCor desde 2018 — https://childrensheartlink.org/wp-content/uploads/2024/12/CHL.Brazil-Fact-Sheet.2021.pdf — mas não com IJN)",
+  "pesquisa_recente": [
+    {"titulo": "Surgery for CHD in Malaysia: setting standards for lower and middle income countries (resumo/publicação IJN)", "ano": "2025 (segundo resumo da busca)", "id": "sem PMID/DOI nos resultados", "fonte": "https://www.ijn.com.my/publication/surgery-for-chd-in-malaysia-setting-standards-for-lower-and-middle-income-countries/"},
+    {"titulo": "Small Incisions Making a Big Difference in Children's Heart Surgery (IJN media, cirurgia minimamente invasiva pediátrica)", "ano": "não informado", "id": "não é artigo indexado", "fonte": "https://www.ijn.com.my/ijn-media/minimally-invasive-pediatric-heart-surgery/"},
+    "terceiro artigo 2022–2026 indexado: não encontrado"
+  ],
+  "dicas": [
+    "Attachment pago com mínimo de 1 semana e até 2 departamentos — dá para pedir PCHC (cardiologia pediátrica) + cirurgia cardiotorácica pediátrica",
+    "IJN sediou workshop AATS de cirurgia cardiotorácica com trilha pediátrica (maio 2025) e foi sítio de transmissão ao vivo em evento intervencionista 2025 — https://www.ijn.com.my/?p=9398 (via busca)",
+    "Acreditado JCI desde 2009"
+  ],
+  "rota_recomendada": "1) Candidatar-se ao attachment via página 'Application & Submission' do IJN, pedindo PCHC por 4 semanas e confirmando por telefone a taxa para médico estrangeiro. 2) Em paralelo, e-mail ao contato publicado (Dr. Sivakumar Sivalingam) mencionando a experiência do IJN com fellows estrangeiros e os dados de 800–900 cirurgias/ano.",
+  "alerta_correcao": "A URL do radar aponta para o fellowship Children's HeartLink (1–2 anos, para LMIC), não para um observership; a porta realista de ~1 mês é o 'attachment' pago do IJN."
+ },
+ {
+  "match": "Hospital Dr. Luis Calvo Mackenna",
+  "cidade": "Santiago",
+  "pais": "Chile",
+  "areas": ["cardio_pediatrica"],
+  "programa": {
+    "observership_oficial": "não encontrado (nenhuma página de pasantía/estadía para médicos estrangeiros)",
+    "ensino_existente": "Hospital é sede do Departamento de Pediatría y Cirugía Infantil (Campus Oriente) da Universidad de Chile; módulos docentes de ecocardiografia fetal e cardiologia infantil no 'Centro Cardiovascular, Hospital Luis Calvo Mackenna (HLCM), Campus Oriente' — https://medichi.uchile.cl/wp-content/uploads/2022/11/ESTADA-Perfeccionamiento-Ecocardiografía-Fetal.pdf ; programa de especialização em cardiologia pediátrica — https://portaluchile.uchile.cl/dam/jcr:14358055-acc9-4de4-bdea-b5de1f27ed09/8.-pte-cardiologia-pediatrica-2017.pdf",
+    "elegibilidade_estrangeiro": "não encontrado; a 'Estadía de Perfeccionamiento' da Universidad de Chile (formato existente para ecocardiografia fetal) é a via provável",
+    "taxa": "não encontrado",
+    "duracao": "não encontrado",
+    "documentos": "não encontrado",
+    "contato_oficial": "não encontrado (site calvomackenna.cl; Escuela de Postgrado da Facultad de Medicina U. Chile)",
+    "certeza": "confirmado: ausência de programa público para estrangeiros; provável: rota via 'Estadía de Perfeccionamiento' U. Chile"
+  },
+  "servico": {
+    "nome": "Centro Cardiovascular do Hospital Dr. Luis Calvo Mackenna (cardiologia, ecocardiografia fetal e cirurgia cardiovascular infantil)",
+    "chefe": "não encontrado",
+    "diretor_fellowship": "não encontrado",
+    "volume": "não encontrado; Minsal descreve o hospital como centro muito importante para cirurgia cardíaca infantil (GES cardiopatias congênitas) — https://www.minsal.cl/minsal-implementa-estrategias-para-dar-continuidad-a-la-atencion-de-los-pacientes-con-patologias-cardiacas-graves-del-hospital-dr-calvo-mackenna/",
+    "contexto": "Incêndio em 26/10/2023 danificou equipamentos e pavilhões; em set/2025 o ministro inaugurou novos pavilhões cirúrgicos 'marking a milestone in the establishment's recovery' — https://www.minsal.cl/?p=90687 ; https://www.minsal.cl/2025/09/06/ . Primeira cirurgia de coração aberto do Chile (1967) foi feita lá — https://andespediatrica.cl/index.php/rchped/article/download/5595/5353/47330",
+    "certeza": "contexto: confirmado (Minsal); chefe/volume: não encontrado"
+  },
+  "pessoas_chave": [
+    {"nome": "cirurgião do perfil CTSNet 'fboye' (nome completo não visível no trecho)", "cargo": "Cardiac Surgeon, Luis Calvo Mackenna Children's Hospital (2012–present); ex-chief resident 2008–2010; fellowship em Children's Hospital Boston 2011–2012", "por_que": "cirurgião cardíaco pediátrico do staff com formação internacional", "fonte": "https://www.ctsnet.org/print/home/fboye", "certeza": "provável (perfil sem data)"},
+    {"nome": "cirurgião do perfil CTSNet 'ltolentino' (nome não visível no trecho)", "cargo": "Cardiovascular Surgeon Staff (2001–present), HLCM e Clínica Santa María; congênito", "por_que": "cirurgião sênior do serviço", "fonte": "https://www.ctsnet.org/home/ltolentino", "certeza": "provável"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+    {"titulo": "Editorial Andes Pediatrica sobre cardiopatias congênitas no Chile ao longo da vida (Artaza, Yarza, Uriarte), menciona HLCM", "ano": "2025 (vol 96 n.3, segundo resumo)", "id": "sem PMID/DOI nos resultados", "fonte": "https://andespediatrica.cl/index.php/rchped/article/download/5595/5353/47330", "certeza": "vínculo com HLCM: provável"},
+    "outros artigos 2022–2026 do serviço: não encontrado"
+  ],
+  "dicas": [
+    "Hospital público universitário (U. Chile, Campus Oriente); estágio de estrangeiro provavelmente passa pela Escuela de Postgrado da U. Chile, não pelo hospital",
+    "Espanhol é necessário; proximidade e custo baixo em relação a EUA",
+    "Verificar se a capacidade cirúrgica está normalizada após o incêndio de 2023 (pavilhões novos em set/2025)"
+  ],
+  "rota_recomendada": "1) Contatar a Escuela de Postgrado / Departamento de Pediatría y Cirugía Infantil Oriente da U. Chile pedindo uma 'estadía de perfeccionamiento' no Centro Cardiovascular do HLCM. 2) Contatar em paralelo cirurgiões do staff (ex.: o de formação em Boston) via canais institucionais. 3) Confirmar que o centro cirúrgico já voltou ao ritmo normal após o incêndio.",
+  "alerta_correcao": "URL do radar é comunicado do Minsal sobre continuidade de atendimento após incêndio (2023), não um programa de ensino."
+ },
+ {
+  "match": "Baylor University Medical Center",
+  "cidade": "Dallas",
+  "pais": "EUA",
+  "areas": ["ecmo"],
+  "programa": {
+    "observership_oficial": "não encontrado (nenhuma página de observership para médicos internacionais na Baylor Scott & White)",
+    "elegibilidade_estrangeiro": "não encontrado",
+    "taxa": "não encontrado",
+    "duracao": "não encontrado",
+    "documentos": "não encontrado",
+    "contato_oficial": "não encontrado escritório de observer; GME Dallas existe (páginas de fellowship em bswhealth.com/medical-professionals/education/graduate-medical-education/dallas/)",
+    "certeza": "confirmado: ausência de programa público nos resultados"
+  },
+  "servico": {
+    "nome": "Programa de ECMO da Baylor University Medical Center (Baylor Scott & White Health; ECMO em 4 centros cardíacos de DFW) — https://bswhealth.med/Pages/departments/heart-vascular/extracorporeal-membrane-oxygenation-program.aspx",
+    "chefe": "Gary Schwartz, MD — 'Chief, Department of Thoracic Surgery; Surgical Director, Lung Transplantation; Medical Director, Extracorporeal Membrane Oxygenation' — https://www.bswhealth.com/Provider-Type/physician/g/a/gary-schwartz-1386979144",
+    "diretor_fellowship": "Surgical Critical Care Fellowship (inclui ECMO): Laura Bruce Petrey, MD, FACS, program director — https://freida.ama-assn.org/program/4424844122?nid=156471 ; Cardiac Critical Care Fellowship inclui 'CVCC, MCS, ECMO – three months block' — https://bswhealth.med/education/Pages/gme/dallas/cardiac-critical-care-fellowship.aspx (diretor não encontrado)",
+    "volume": "'150–160 patients each year' (newsletter Dallas Foundation, sem ano) — https://dallasfoundation.bswhealth.com/?p=3141 ; 'as of 2023, we have completed 177 runs for ECMO' (página do fellowship, ambíguo) — https://www.bswhealth.com/Medical-Professionals/Education/Graduate-Medical-Education/Dallas/Surgical-Critical-Care-Fellowship ; 'top 10 Adult ECMO centers in the country by volume'; ELSO Platinum (release ~2021) — https://news.bswhealth.com/releases/baylor-university-medical-center-receives-award-for-excellence-in-life-support",
+    "certeza": "diretor ECMO: confirmado no perfil BSW; volume: provável (fontes divergem)"
+  },
+  "pessoas_chave": [
+    {"nome": "Gary Schwartz", "cargo": "Medical Director ECMO; Chief of Thoracic Surgery; Surgical Director Lung Transplant", "por_que": "decide/hospeda no programa de ECMO", "fonte": "https://www.bswhealth.com/Provider-Type/physician/g/a/gary-schwartz-1386979144"},
+    {"nome": "Dan Meyer", "cargo": "Chief of Heart Transplantation and Mechanical Circulatory Support", "por_que": "lado cardíaco (VA-ECMO/MCS), relevante para cirurgia cardiovascular", "fonte": "https://support.doctorpodcasting.com/client/bswheart/item/47214-ecmo-how-a-machine-provides-life-saving-care"},
+    {"nome": "Laura Bruce Petrey", "cargo": "Program Director, Surgical Critical Care Fellowship", "por_que": "fellowship que roda no ECMO; contato de educação", "fonte": "https://freida.ama-assn.org/program/4424844122?nid=156471"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+    {"titulo": "Revisão retrospectiva de transporte em VV-ECMO do programa Baylor (2012–2017), Proc (Bayl Univ Med Cent)", "ano": "2019 (fora da janela 2022–2026)", "id": "DOI 10.1080/08998280.2019.1669120", "fonte": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6988654"},
+    {"titulo": "VV-ECMO para SDRA por COVID-19 em 4 centros de referência Baylor Scott & White", "ano": "2021 (fora da janela)", "id": "PMID 33419553", "fonte": "resultado de busca (PubMed)"},
+    "artigos 2022–2026: não encontrado"
+  ],
+  "dicas": [
+    "BSW organizou 'Baylor Scott & White ECMO Conference' (Temple, TX, 20/05/2022, presencial e virtual) — https://ce.bswhealth.com/2022ECMO ; edições posteriores não encontradas",
+    "Sem programa estruturado: provavelmente exige sponsor interno (Schwartz/Meyer) e trâmite pelo medical staff/GME"
+  ],
+  "rota_recomendada": "1) E-mail via canal institucional ao Dr. Gary Schwartz (Medical Director ECMO) citando o status Platinum e o programa de transporte em ECMO, pedindo observership de 4 semanas e perguntando o caminho de credenciamento. 2) Alternativa: Dr. Dan Meyer (MCS/VA-ECMO), mais alinhado a cirurgia cardiovascular. 3) Acompanhar ce.bswhealth.com para conferências de ECMO como primeiro contato.",
+  "alerta_correcao": "nenhum"
+ },
+ {
+  "match": "UNC Medical Center",
+  "cidade": "Chapel Hill",
+  "pais": "EUA",
+  "areas": ["ecmo"],
+  "programa": {
+    "observership_oficial": "não encontrado (nenhuma página de observership/visiting international physician da UNC nos resultados)",
+    "contato_possivel": "international@med.unc.edu (919-962-5511) aparece em lista não oficial no Scribd — https://www.scribd.com/document/455065235/Observership-List",
+    "elegibilidade_estrangeiro": "não encontrado",
+    "taxa": "não encontrado",
+    "duracao": "não encontrado",
+    "documentos": "não encontrado",
+    "certeza": "contato: não verificado (fonte não oficial, sem data)"
+  },
+  "servico": {
+    "nome": "UNC ECMO Program (UNC Health) — adulto (Acute Care & Trauma Surgery) e Congenital ECMO Program (North Carolina Children's Hospital)",
+    "chefe": "Rebecca Owensby, RN — 'UNC Health ECMO Program Director' — https://www.med.unc.edu/surgery/unc-ecmo-program-ranked-among-the-worlds-best/ ; Medical Director, Adult ECMO Program: Lauren Raff, MD — https://www.med.unc.edu/surgery/trauma/directory/lauren-raff-md/",
+    "diretor_fellowship": "não encontrado",
+    "volume": "não encontrado; ELSO Platinum Level Center of Excellence (ano não confirmado) — https://www.med.unc.edu/surgery/unc-ecmo-program-ranked-among-the-worlds-best/ ; Gold em 2020 — https://news.unchealthcare.org/2020/07/unc-medical-centers-ecmo-program-wins-gold/",
+    "certeza": "confirmado (páginas UNC)"
+  },
+  "pessoas_chave": [
+    {"nome": "Rebecca Owensby, RN", "cargo": "UNC Health ECMO Program Director", "por_que": "coordena o programa, provável ponto de contato operacional", "fonte": "https://www.med.unc.edu/surgery/unc-ecmo-program-ranked-among-the-worlds-best/"},
+    {"nome": "Lauren Raff, MD", "cargo": "Associate Professor of Surgery; Medical Director, Adult ECMO Program", "por_que": "decide/hospeda observador no ECMO adulto", "fonte": "https://www.med.unc.edu/surgery/trauma/directory/lauren-raff-md/"},
+    {"nome": "Anthony Charles, MD, MPH", "cargo": "ex-diretor do UNC ECMO Program (2020)", "por_que": "liderança histórica; trauma/cirurgia global", "fonte": "https://news.unchealthcare.org/2020/07/unc-medical-centers-ecmo-program-wins-gold/"},
+    {"nome": "Jennifer S. Nelson, MD", "cargo": "Director, Congenital ECMO Program, NC Children's Hospital (página sem data)", "por_que": "ECMO pediátrico/congênito, ponte com cirurgia cardíaca", "fonte": "https://www.med.unc.edu/ct/news/dr-nelson-joins-unc-as-pediatric-cardiac-surgeon"},
+    {"nome": "Mahesh S. Sharma, MD", "cargo": "Co-Director NC Children's Heart Center; Director Pediatric Heart Transplantation and MCS (página sem data)", "por_que": "MCS pediátrico", "fonte": "https://med.unc.edu/surgery/author/sheerah-coe/page/25"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": ["artigos 2022–2026 do programa: não encontrado nas buscas (fazer busca PubMed por 'Raff L' e 'extracorporeal')"],
+  "dicas": [
+    "ECMO adulto fica na cirurgia de trauma/acute care (não na cirurgia cardíaca) — para cirurgia cardiovascular, considerar também o Congenital ECMO/MCS pediátrico",
+    "Não encontrado curso de ECMO da UNC aberto a externos"
+  ],
+  "rota_recomendada": "1) E-mail à Dra. Lauren Raff (Medical Director, Adult ECMO) com cópia à coordenação do programa (Rebecca Owensby), citando o Platinum ELSO e pedindo 4 semanas de observership. 2) Perguntar ao escritório internacional da UNC School of Medicine (confirmar o endereço oficial) sobre o processo de visiting observer.",
+  "alerta_correcao": "nenhum"
+ }
+]

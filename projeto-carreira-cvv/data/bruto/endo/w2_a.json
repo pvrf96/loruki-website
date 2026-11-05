@@ -1,0 +1,184 @@
+[
+ {
+  "match": "InCor — Instituto do Coração (HCFMUSP)",
+  "cidade": "São Paulo", "pais": "Brasil",
+  "areas_polo": ["transplante","miocardiopatias","cardio_pediatrica","congenita_adulto","uti_cardiaca","coronaria","estagio_externo_cardiologia","fetal"],
+  "alerta_correcao": "A url do radar (ensino.hcor.com.br, 'Programa Experiência HCor') é do HCor (Hospital do Coração, Associação Beneficente Síria), instituição diferente do InCor/HCFMUSP. Para o InCor, a porta é a Comissão de Ensino do InCor + COREME-FMUSP (fm.usp.br/coreme).",
+  "programa": {
+   "nome": "Estágio para residentes externos (COREME-FMUSP) e atividades de longa duração da Comissão de Ensino do InCor",
+   "url": "https://fm.usp.br/coreme/portal/estagios-eletivos-para-residentes-externos",
+   "url_incor": "https://www.incor.usp.br/sites/incor2024/ensino",
+   "descricao": "COREME-FMUSP descreve 3 modalidades: (1) estágio interinstitucional de longa duração via convênio entre programas, válido por 2 anos; (2) estágio OBSERVACIONAL de curta duração com Termo de Compromisso específico, SEM necessidade de convênio; (3) residentes FMUSP indo para fora. A Comissão de Ensino do InCor afirma ter >700 alunos/ano em atividades de longa duração 'incluindo estágios de residentes de outras instituições', seguindo regulamento do HC/FMUSP.",
+   "elegibilidade_residente_externo": "confirmado (modalidade observacional curta sem convênio; e Unifesp pode ter convênio — não verificado)",
+   "taxa": "não encontrado",
+   "duracao": "não encontrado para InCor (padrão nacional CNRM 27/2019; curta duração)",
+   "antecedencia": "não encontrado",
+   "documentos": "Termo de Compromisso específico (observacional); CRM-SP ou visto provisório obrigatório antes do início para residentes com CRM de outro estado (aviso de divisão cirúrgica FMUSP) — residente da Unifesp já tem CRM-SP. Demais documentos: não encontrado.",
+   "contato_oficial": "coreme@fm.usp.br (página Contato/Atendimento da COREME-FMUSP: https://fm.usp.br/coreme/portal/contato-atendimento)",
+   "certeza": "confirmado (modalidades e e-mail COREME); provável (que a rota observacional se aplique ao InCor, pois InCor é instituto do HCFMUSP); taxa/prazo não encontrados"
+  },
+  "servico": {
+   "nomes": ["Núcleo de Transplantes do InCor (criado 2013, foco exclusivo em transplante)", "Unidade Clínica de Cardiologia Pediátrica e Cardiopatias Congênitas do Adulto", "Centro de ECMO (InCor-HC-FMUSP)", "Ambulatório de Insuficiência Cardíaca e Transplante"],
+   "chefes": [
+    {"area":"transplante","nome":"Fernando Bacal","cargo":"Diretor do Núcleo de Transplantes do InCor","fonte":"https://www.abcdoabc.com.br/para-medico-que-operou-faustao-comocao-fez-bem-ao-debate-sobre-transplantes/","certeza":"provável (fontes jornalísticas/FAPESP; nenhuma página oficial 2025+ confirmando cargo atual; autor ativo em 2025)"},
+    {"area":"cardio_pediatrica/ecmo","nome":"Luiz Fernando Caneo","cargo":"Affiliate Professor e ECMO Center Director, InCor-HC-FMUSP","fonte":"https://sd.iweventos.com.br/evento/ispmc2025/programacao/palestrante/11271","certeza":"confirmado (bio de congresso 2025)"},
+    {"area":"cardio_pediatrica/congenita_adulto","nome":"não encontrado","cargo":"diretor da Unidade de Cardiologia Pediátrica e Cardiopatias Congênitas do Adulto","fonte":"https://www.incor.usp.br/sites/incor2022/docs/CARTAZ.PDF","certeza":"não encontrado (só o nome da unidade foi confirmado)"}
+   ],
+   "volume": "InCor foi o hospital que mais realizou transplantes de coração e pulmão no Estado de SP em 2022 (https://medicinasa.com.br/?p=82326). Coorte 2013–2019: 299 transplantes cardíacos adultos analisados (JHLT Open 2024).",
+   "certeza": "confirmado (nomes de unidades, volume 2022); chefias em parte prováveis"
+  },
+  "pessoas_chave": [
+   {"nome":"Fernando Bacal","cargo":"Diretor do Núcleo de Transplantes (provável atual)","por_que":"lidera transplante/IC; autor sênior de pesquisa recente","fonte":"https://revistapesquisa.fapesp.br/coracoes-trocados/","certeza":"provável"},
+   {"nome":"Fábio Antônio Gaiotto","cargo":"Cirurgião cardiovascular, equipe de transplante InCor","por_que":"cirurgião do transplante; coautor sênior JHLT Open 2024","fonte":"https://www.folhape.com.br/cultura/medico-de-faustao-cita-recuperacao-apos-transplante-nossa-missao-so/291364/","certeza":"confirmado (equipe); cargo formal não encontrado"},
+   {"nome":"Luiz Fernando Caneo","cargo":"ECMO Center Director","por_que":"UTI/ECMO pediátrico e cirurgia congênita","fonte":"https://sd.iweventos.com.br/evento/ispmc2025/programacao/palestrante/11271","certeza":"confirmado"},
+   {"nome":"Fábio Kawamura","cargo":"Diretor Executivo do InCor (desde jan/2022)","por_que":"gestão institucional (não decide estágio)","fonte":"https://www.incor.usp.br/sites/incor2013/docs/2022_janeiro_Release_Novo_diretor_executivo_-_Fabio_Kawamura.pdf","certeza":"confirmado (2022)"},
+   {"nome":"Roberto Kalil Filho","cargo":"Presidente do Conselho Diretor do InCor (fonte 2021)","por_que":"liderança institucional","fonte":"https://www.incor.usp.br/sites/incor2013/docs/2021_Setembro_Selo_Newsweek.pdf","certeza":"provável (fonte 2021)"}
+  ],
+  "brasileiros": "n/a (centro brasileiro)",
+  "pontes_unifesp_sp": "Não encontrada coautoria específica InCor+Unifesp nas áreas do polo nas buscas. Pontes indiretas: InCor e Unifesp estão em SP; o Registro Brasileiro de Transplantes (ABTO) reúne todas as equipes de transplante cardíaco do país (Arq Bras Cardiol 2025, https://abccardiol.org/wp-content/uploads/articles_xml/0066-782X-abc-122-01-e20240370/0066-782X-abc-122-01-e20240370.x66747.pdf). Certeza: não encontrado (coautoria direta).",
+  "pesquisa_recente": [
+   {"titulo":"Risk prediction score for 1-year mortality after heart transplantation (coorte unicêntrica InCor 2013–2019, 299 adultos; Chagas 36% das etiologias; preditores SOFA máx., clearance de creatinina, PCR, leucócitos)","ano":2024,"id":"JHLT Open, nov/2024 (DOI não capturado; registro DOAJ)","autores":"Aulicino G (1º), ... Gaiotto FA, Bacal F","fonte":"https://doaj.org/article/16cd16f757b84e7ebaa5782175311a8c","certeza":"confirmado (título exato não capturado, conteúdo confirmado)"},
+   {"titulo":"Gene expression analysis of primary graft dysfunction in adult heart transplant recipients: a cohort study","ano":2025,"id":"PMC11935338","fonte":"https://repositorio.usp.br/item/003293744","certeza":"confirmado (autoria Bacal F, FMUSP)"},
+   {"titulo":"Reflections Upon 55 Years of the First Human Heart Transplant in Brazil (editorial)","ano":2024,"id":"PMC10987036","fonte":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10987036/","certeza":"confirmado (editorial USP)"}
+  ],
+  "dicas": [
+   "Pedir a modalidade 'estágio observacional de curta duração' (Termo de Compromisso, sem convênio) via COREME-FMUSP; a Comissão de Ensino do InCor recebe residentes externos rotineiramente.",
+   "Ensaio aberto no InCor em miocardiopatia chagásica (modulação de contratilidade cardíaca, NCT05519046) — gancho de interesse para miocardiopatias.",
+   "Transplante com predomínio de etiologia chagásica (36%) — tema diferencial vs. centros dos EUA, bom assunto para o e-mail."
+  ],
+  "rota_recomendada": "1) Pedir à COREME-Unifesp a autorização de estágio optativo (CNRM 27/2019) e enviar à COREME-FMUSP (coreme@fm.usp.br) solicitação de estágio observacional no InCor, indicando a unidade (Núcleo de Transplantes/IC ou Cardiopediatria-Congênitas). 2) Em paralelo, escrever ao responsável pela unidade (ex.: equipe do Dr. Bacal) citando o JHLT Open 2024, para obter o 'aceite' do supervisor. 3) Não usar o link do HCor do radar."
+ },
+ {
+  "match": "Hospital BP — Beneficência Portuguesa de São Paulo",
+  "cidade": "São Paulo", "pais": "Brasil",
+  "areas_polo": ["coronaria","robotica","estagio_externo_cardiologia","estagio_externo_ccv"],
+  "alerta_correcao": "A url do radar (site.unifesp.br/coreme/estagio/estagio-opcional) é a página da COREME da UNIFESP (regras de estágio opcional da Unifesp), não da BP. Não foi encontrada página pública da BP de estágio para residentes externos; o canal oficial de ensino da BP é educacaoepesquisa.bp.org.br (Educação e Pesquisa / Faculdade BP).",
+  "programa": {
+   "nome": "não encontrado (sem página pública de estágio optativo para residentes externos na BP)",
+   "url": "https://educacaoepesquisa.bp.org.br/fellowship/",
+   "descricao": "BP tem residência própria credenciada pela CNRM (inclui Cardiologia, Cardiologia Pediátrica, Cirurgia Cardiovascular, Ecocardiografia) e programas de fellowship com edital (ex.: Cirurgia Cardiovascular Minimamente Invasiva — edital 2020; Cardiointensivismo Pediátrico 2026). A Faculdade BP tem seção 'Estágios', conteúdo não capturado.",
+   "elegibilidade_residente_externo": "não encontrado",
+   "taxa": "não encontrado", "duracao": "não encontrado", "antecedencia": "não encontrado", "documentos": "não encontrado",
+   "contato_oficial": "não confirmado (ensinobp@bp.org.br aparece em edital antigo, segundo resumo de busca; não verificado como canal de estágio)",
+   "certeza": "não encontrado (programa); confirmado (residência e fellowships existem)"
+  },
+  "servico": {
+   "nomes": ["Centro de Especialidades - Cardiologia BP (4 subespecialidades: cardiologia clínica, cirurgia cardiológica, cardiologia intervencionista, métodos gráficos)", "Programa de cirurgia robótica da BP", "Fellowship em Cirurgia Cardiovascular Minimamente Invasiva"],
+   "chefes": [
+    {"area":"ccv_minimamente_invasiva","nome":"João Antônio Caparroz Vieira e Rafael Albino Lencioni","cargo":"Coordenadores do Fellowship em Cirurgia Cardiovascular Minimamente Invasiva (edital 2020)","fonte":"https://www.bp.org.br/media/593108/edital-fellow-cirurgia-cardiovascular-minimamente-invasiva-2020.pdf","certeza":"provável (fonte 2020; atual não confirmado)"},
+    {"area":"robotica (geral)","nome":"Gustavo Guimarães","cargo":"Coordenador do programa de cirurgia robótica da BP (todas as especialidades)","fonte":"https://medicinasa.com.br/?p=78525","certeza":"confirmado (matéria sem data clara; não é específico de cardíaca)"},
+    {"area":"coronaria/cardiologia","nome":"não encontrado","cargo":"diretor/coordenador da Cardiologia","fonte":"https://www.bp.org.br/centros-de-especialidades/cardiologia/a-cardiologia","certeza":"não encontrado"}
+   ],
+   "volume": "não encontrado (descrita como 'maior parque hemodinâmico da América Latina' em site de preparação: https://www.medway.com.br/conteudos/residencia-medica-no-hospital-beneficencia-portuguesa-de-sao-paulo-pelo-sus-sp-historia-numeros-e-estrutura/ — provável, fonte secundária)",
+   "certeza": "parcial"
+  },
+  "pessoas_chave": [
+   {"nome":"João Antônio Caparroz Vieira","cargo":"Coordenador, Fellowship CCV Minimamente Invasiva (2020)","por_que":"hospedaria residente de CCV em cirurgia minimamente invasiva/robótica","fonte":"https://www.bp.org.br/media/593108/edital-fellow-cirurgia-cardiovascular-minimamente-invasiva-2020.pdf","certeza":"provável"},
+   {"nome":"Rafael Albino Lencioni","cargo":"Coordenador, Fellowship CCV Minimamente Invasiva (2020)","por_que":"idem","fonte":"https://www.bp.org.br/media/593108/edital-fellow-cirurgia-cardiovascular-minimamente-invasiva-2020.pdf","certeza":"provável"},
+   {"nome":"Gustavo Guimarães","cargo":"Coordenador do programa de cirurgia robótica BP","por_que":"programa robótico institucional (expansão R$ 25 mi)","fonte":"https://medicinasa.com.br/?p=78525","certeza":"confirmado"}
+  ],
+  "brasileiros": "n/a (centro brasileiro)",
+  "pontes_unifesp_sp": "BP participa do registro paulista de cirurgia cardiovascular REPLICCAR II (com USP) e é colaboradora do estudo CABG-BraSCORE (líder: HCFMUSP, registrado 2024, NCT07293533). Coautoria direta com Unifesp: não encontrada.",
+  "pesquisa_recente": [
+   {"titulo":"Immediate results after multiple arterial grafts in coronary artery bypass surgery (REPLICCAR II; afiliação inclui Hospital Beneficência Portuguesa de SP)","ano":2023,"id":"Arq Bras Cardiol 2023 (PMID/DOI não capturado)","fonte":"https://bv.fapesp.br/en/publicacao/219103/immediate-results-after-multiple-arterial-grafts-in-coronary","certeza":"confirmado (afiliação BP); título em inglês aproximado do registro FAPESP"},
+   {"titulo":"Brazilian System for Cardiac Operative Risk Evaluation CABG (CABG-BraSCORE) — BP como colaboradora","ano":2024,"id":"NCT07293533","fonte":"https://www.syfrah.com/trial/NCT07293533","certeza":"confirmado (registro de estudo, não artigo)"},
+   {"titulo":"não encontrado terceiro artigo 2022–2026 do serviço de CCV/robótica da BP","ano":null,"id":null,"fonte":null,"certeza":"não encontrado"}
+  ],
+  "dicas": [
+   "BP organiza o 'Simpósio Internacional de Cardiologia' (5ª edição) — evento aberto que pode servir de porta de entrada/contato (https://www.bp.org.br/educacao-e-pesquisa/eventos-cientificos/5-simposio-internacional-de-cardiologia).",
+   "Existe 'Simpósio Internacional de Cirurgia Cardíaca Robótica 2025' em São Paulo (organizador não confirmado como BP: https://visitesaopaulo.com/evento/simposio-internacional-de-cirurgia-cardiaca-robotica-2025/).",
+   "Sem fluxo público de estágio: provavelmente depende de aceite informal do coordenador do serviço + formalização via Educação e Pesquisa BP."
+  ],
+  "rota_recomendada": "1) Contatar o setor Educação e Pesquisa da BP (educacaoepesquisa.bp.org.br) perguntando se aceitam estágio optativo de residente externo em CCV minimamente invasiva/robótica. 2) Em paralelo, buscar aceite do coordenador do fellowship de CCV minimamente invasiva (confirmar nome atual) e formalizar pela COREME-Unifesp (CNRM 27/2019). Certeza baixa: nenhuma regra pública encontrada."
+ },
+ {
+  "match": "Instituto de Cardiologia do RS — IC/FUC",
+  "cidade": "Porto Alegre", "pais": "Brasil",
+  "areas_polo": ["estagio_externo_cardiologia"],
+  "alerta_correcao": null,
+  "programa": {
+   "nome": "Estágios — Unidade de Ensino do Instituto de Cardiologia / Fundação Universitária de Cardiologia",
+   "url": "https://diretoriacientificaicfuc.org.br/ensino/estagios/",
+   "url_alt": "https://cardiologia.org.br/estagios/",
+   "descricao": "Página de estágios separa por tipo de candidato. Médicos residentes: formulário de solicitação de estágio assinado + comprovante de apólice de seguro. Documentos exigidos pela instituição de origem devem ser entregues antes à Unidade de Ensino para análise e aceite. Página mais antiga para residentes de outras instituições informa custo mínimo de R$ 500,00 por estágio, renovável mensalmente, com etapa de pagamento.",
+   "elegibilidade_residente_externo": "confirmado",
+   "taxa": "R$ 500,00 mínimo, renovável mensalmente (página antiga; vigência 2026 não confirmada)",
+   "duracao": "não encontrado para médicos (para residentes multiprofissionais a página antiga limita a 30 dias)",
+   "antecedencia": "não encontrado para médicos (multiprofissional: mínimo 90 dias)",
+   "documentos": "formulário de solicitação assinado; comprovante de seguro (apólice); documentos da instituição de origem",
+   "restricoes": "Algumas unidades só a partir de certo semestre — cirurgia cardiovascular e enfermaria 3B apenas a partir do 6º semestre (regra parece voltada a estudantes de graduação).",
+   "contato_oficial": "apoio.ensino@cardiologia.org.br (também unidadedeensino@cardiologia.org.br; tel. (51) 3230-3600)",
+   "certeza": "confirmado (e-mail, documentos); provável (taxa atual)"
+  },
+  "servico": {
+   "nomes": ["Serviço de Hemodinâmica do IC/FUC", "Unidade de Cardiologia Fetal do IC/FUC", "Laboratório de Pesquisa em Imagem Cardiovascular (IC/FUC)"],
+   "chefes": [
+    {"area":"hemodinamica/coronaria","nome":"Alexandre Schaan de Quadros","cargo":"Chefe do Serviço de Hemodinâmica do IC-RS; professor PPG Cardiologia","fonte":"https://www.ufrgs.br/ppgcardiologia/?p=190","certeza":"provável (perfil sem data)"},
+    {"area":"diretoria","nome":"Marne de Freitas Gomes","cargo":"Diretor-Científico da FUC (documento 2021)","fonte":"https://cms.sanarsaude.com/wp-content/uploads/2021/06/16201953/ICC.pdf","certeza":"provável (2021)"},
+    {"area":"diretoria","nome":"Carlos Antonio Mascia Gotschall","cargo":"Diretor-Presidente da FUC (documento 2021)","fonte":"https://cms.sanarsaude.com/wp-content/uploads/2021/06/16201953/ICC.pdf","certeza":"provável (2021)"}
+   ],
+   "volume": "não encontrado",
+   "certeza": "parcial"
+  },
+  "pessoas_chave": [
+   {"nome":"Alexandre Schaan de Quadros","cargo":"Chefe da Hemodinâmica","por_que":"hospedaria estágio em coronária/intervenção; pesquisador ativo","fonte":"https://www.ufrgs.br/ppgcardiologia/?p=190","certeza":"provável"},
+   {"nome":"Marcelo Haertel Miglioranza","cargo":"Pesquisador, Cardiovascular Imaging Research Laboratory IC/FUC","por_que":"imagem cardiovascular; autor correspondente","fonte":"https://doaj.org/article/92c37cd34a6d462394f1e2a093f39407","certeza":"confirmado (afiliação)"},
+   {"nome":"Marne de Freitas Gomes","cargo":"Diretor-Científico FUC (2021)","por_que":"diretoria científica abriga a Unidade de Ensino","fonte":"https://cms.sanarsaude.com/wp-content/uploads/2021/06/16201953/ICC.pdf","certeza":"provável"}
+  ],
+  "brasileiros": "n/a (centro brasileiro)",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {"titulo":"não encontrado artigo 2022–2026 com título/PMID confirmados nas buscas (há artigos SciELO/ABC com afiliação IC/FUC de Quadros e Miglioranza, sem título capturado)","ano":null,"id":null,"fonte":"https://www.scielo.br/j/abc/a/9G7dR4nX4NTsKTDGYW8jYNx/abstract/?lang=en","certeza":"não encontrado"}
+  ],
+  "dicas": [
+   "Programa estruturado e pago (R$ 500/mês, página antiga) — exige seguro; enviar formulário assinado à Unidade de Ensino.",
+   "Rota alternativa: residentes de instituições conveniadas à UFCSPA pedem via sistema SGE da Santa Casa, até 45 dias antes; sem convênio, via setor de ensino da Santa Casa, com possível taxa (https://ufcspa.edu.br/estude-na-ufcspa/residencia-medica/estagio-optativo).",
+   "Tem Unidade de Cardiologia Fetal e Hemodinâmica de referência."
+  ],
+  "rota_recomendada": "1) Escrever a apoio.ensino@cardiologia.org.br pedindo formulário atual, taxa e prazo para residente médico externo, indicando o serviço desejado. 2) Obter autorização da COREME-Unifesp e contratar seguro (apólice) antes de submeter. 3) Opcionalmente, contato prévio com o chefe do serviço (ex.: Hemodinâmica) para aceite."
+ },
+ {
+  "match": "ICTDF — Instituto de Cardiologia e Transplantes do DF",
+  "cidade": "Brasília", "pais": "Brasil",
+  "areas_polo": ["estagio_externo_cardiologia"],
+  "alerta_correcao": "Também chamado ICDF (Instituto de Cardiologia do DF) em fontes antigas; ligado à Fundação Universitária de Cardiologia (FUC), mesma mantenedora do IC-RS.",
+  "programa": {
+   "nome": "Estágios Optativos — Residentes Externos (ICTDF)",
+   "url": "https://ictdf.org.br/estagios-optativos/",
+   "descricao": "Estágio optativo para residentes externos é OBSERVACIONAL, sem custo e não remunerado; apenas para residentes médicos e multiprofissionais de instituições de ensino conveniadas. A solicitação deve ser feita pela COREME/COREMU de ORIGEM, com antecedência mínima de 60 dias e máxima de 1 ano. Após aprovação, o residente insere os documentos (conforme 'Regimento Estágio Optativo: Residentes Externos', disponível para download no site). Cadastro 'Estágio Optativo (Após Autorização)' aberto de 13/03/2025 a 31/12/2026 em e-inscricao.com/ictdf.",
+   "elegibilidade_residente_externo": "confirmado (exige instituição conveniada — verificar se Unifesp tem convênio)",
+   "taxa": "sem custo",
+   "duracao": "não encontrado (regimento não capturado)",
+   "antecedencia": "mínimo 60 dias, máximo 1 ano",
+   "janela": "cadastro pós-autorização 13/03/2025–31/12/2026 (https://www.e-inscricao.com/ictdf)",
+   "documentos": "conforme Regimento (não capturado)",
+   "especialidades": "Cardiologia Clínica, Cardiologia Pediátrica, Hemodinâmica e Cardiologia Intervencionista (entre outras)",
+   "contato_oficial": "residencias@ictdf.org.br (citado no resumo de busca; certeza provável)",
+   "certeza": "confirmado (observacional, gratuito, via COREME de origem, 60 dias–1 ano); provável (e-mail)"
+  },
+  "servico": {
+   "nomes": ["Programa de Insuficiência Cardíaca e Transplante (ICTDF)", "COREME-ICTDF"],
+   "chefes": [
+    {"area":"IC/transplante","nome":"Marcelo Botelho Ulhoa Junior","cargo":"Coordenador do programa de insuficiência cardíaca e transplante (Lattes, 2025)","fonte":"https://www.escavador.com/sobre/7703467/marcelo-botelho-ulhoa-junior","certeza":"provável (currículo)"},
+    {"area":"gestao","nome":"Marcos Antônio Costa","cargo":"Superintendente do ICTDF (2025)","fonte":"https://jornaldebrasilia.com.br/brasilia/df-registra-aumento-de-transplantes-com-655-procedimentos-nos-quatro-primeiros-meses-de-2025/","certeza":"confirmado (declaração 2025)"}
+   ],
+   "volume": "Único do DF a fazer transplante cardíaco adulto e pediátrico pelo SUS (2025, https://www.correiodamanha.com.br/nacional/centro-oeste/2025/07/209709-transplantes-de-orgaos-crescem-no-df.html); 91 transplantes cardíacos acumulados até 2023 e 21 cirurgias desse tipo em Brasília em 2023 (https://jornaldebrasilia.com.br/brasilia/uma-em-cada-dez-pessoas-que-esperam-por-transplante-de-coracao-estao-em-brasilia/); >100 cirurgias cardíacas pediátricas em 2023 via contrato SES-DF.",
+   "certeza": "confirmado (volumes jornalísticos)"
+  },
+  "pessoas_chave": [
+   {"nome":"Marcelo Botelho Ulhoa Junior","cargo":"Coordenador IC e Transplante","por_que":"hospedaria estágio em IC/transplante","fonte":"https://www.escavador.com/sobre/7703467/marcelo-botelho-ulhoa-junior","certeza":"provável"},
+   {"nome":"Marcos Antônio Costa","cargo":"Superintendente","por_que":"gestão (não decide estágio)","fonte":"https://jornaldebrasilia.com.br/brasilia/df-registra-aumento-de-transplantes-com-655-procedimentos-nos-quatro-primeiros-meses-de-2025/","certeza":"confirmado"}
+  ],
+  "brasileiros": "n/a (centro brasileiro)",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {"titulo":"não encontrado artigo PubMed 2022–2026 do ICTDF nas buscas (tentar afiliação 'Instituto de Cardiologia do Distrito Federal' / 'ICDF')","ano":null,"id":null,"fonte":null,"certeza":"não encontrado"}
+  ],
+  "dicas": [
+   "Fluxo 100% via COREME de origem: a residente não pede direto; a COREME-Unifesp envia a solicitação ≥60 dias antes.",
+   "Gratuito e observacional; cadastro de documentos só após autorização (e-inscricao.com/ictdf).",
+   "Exige 'instituição conveniada' — confirmar com a COREME-Unifesp se há convênio ou se o termo de compromisso basta."
+  ],
+  "rota_recomendada": "1) Baixar o Regimento em ictdf.org.br/estagios-optativos e pedir à COREME-Unifesp que envie a solicitação (60 dias a 1 ano antes), checando convênio. 2) Após aprovação, cadastrar documentos em e-inscricao.com/ictdf. 3) Dúvidas: residencias@ictdf.org.br."
+ }
+]

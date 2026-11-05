@@ -1,0 +1,515 @@
+[
+ {
+  "match": "University Hospitals Cleveland (Harrington)",
+  "centro": "University Hospitals Cleveland Medical Center – UH Harrington Heart & Vascular Institute (Cleveland, OH, EUA)",
+  "areas": [
+   "robotica",
+   "emergencia_choque"
+  ],
+  "programa": {
+   "status": "nao encontrado programa institucional de observership para médicos internacionais em cardiologia/cirurgia cardíaca",
+   "evidencia": [
+    {
+     "url": "https://www.uhhospitals.org/medical-education/otolaryngology/visiting-observership",
+     "trecho": "Departamento de Otorrinolaringologia da UH tem 'Visiting Observership' voltado principalmente a IMGs — mostra que observerships na UH são por departamento"
+    },
+    {
+     "url": "https://uhhospitals.org/locations/uh-cleveland-medical-center/volunteer-services/observation-program",
+     "trecho": "Observation Program geral (carreiras em saúde): shadowing de um 'staff sponsor', até 30 dias corridos por ano — não é voltado a médicos"
+    }
+   ],
+   "elegibilidade_taxa_documentos": "não encontrado",
+   "contato_oficial": "não encontrado (só página clínica do Heart Surgery Center: https://www.uhhospitals.org/for-clinicians/specialties/heart-and-vascular/heart-surgery-center)",
+   "alerta": "Não confundir com Cleveland Clinic (instituição diferente, com programa CIME estruturado).",
+   "certeza": "provável (ausência de programa central; existência de modelo 'staff sponsor' confirmada)"
+  },
+  "servico": {
+   "nomes": [
+    "Division of Cardiac Surgery – UH Harrington Heart & Vascular Institute (programa de cirurgia cardíaca robótica)",
+    "Multidisciplinary Shock Team / Hambrick Center for Cardiac Recovery (choque cardiogênico)"
+   ],
+   "chefe": {
+    "nome": "Yasir Abu-Omar, MD, PhD",
+    "cargo": "Division Chief, Cardiac Surgery; Co-Director Hambrick Center for Cardiac Recovery",
+    "url": "https://www.uhhospitals.org/doctors/AbuOmar-Yasir-1346872181",
+    "certeza": "confirmado (perfil UH + Becker's 'University Hospitals names cardiac surgery chief')"
+   },
+   "chefe_cirurgia_geral": {
+    "nome": "Joseph F. Sabik III, MD",
+    "cargo": "Chairman of Surgery (integra equipe robótica)",
+    "url": "https://www.uhhospitals.org/for-clinicians/articles-and-news/articles/2026/05/robot-assisted-cardiac-surgery-at-uh-hhvi-provides-equivalent-outcomes-with-shorter-patient-recovery"
+   },
+   "fellowship": {
+    "nome": "Cardiothoracic Surgery Fellowship (UH/Case Western)",
+    "url": "https://www.uhhospitals.org/medical-education/surgery-medical-education/cardiothoracic-surgery-fellowship/faculty-and-staff",
+    "diretor": "não encontrado"
+   },
+   "volume": [
+    {
+     "dado": "Programa robótico iniciado dez/2023; 8–10 procedimentos/mês; >100 pacientes na UH Cleveland Medical Center até dez/2024; 'one of the highest volume programs in the country'",
+     "ano": 2024,
+     "url": "https://news.uhhospitals.org/news-releases/articles/2024/12/university-hospitals-robust-robotic-cardiac-surgery-program-treats-more-than-100-patients"
+    },
+    {
+     "dado": "Começou com MIDCAB robótico; expandiu para mitral e aórtica robóticas",
+     "ano": 2025,
+     "url": "https://www.uhhospitals.org/for-clinicians/articles-and-news/articles/2025/02/uh-surgeons-ohios-1st-to-provide-robotic-minimally-invasive-cardiac-surgery"
+    },
+    {
+     "dado": "Shock Team multidisciplinar em todo o sistema UH desde 2017; ECMO iniciada 52 vezes em 2018 (índice de mortalidade 0,99)",
+     "ano": 2018,
+     "url": "https://www.uhhospitals.org/for-clinicians/articles-and-news/articles/2020/03/increasing-options-for-life-saving-care-focus-on-multidisciplinary-cardiogenic-shock-team-at-uh"
+    }
+   ]
+  },
+  "pessoas_chave": [
+   {
+    "nome": "Yasir Abu-Omar, MD, PhD",
+    "cargo": "Chefe de Cirurgia Cardíaca; ex-líder do programa de reparo mitral minimamente invasivo e de transplante/MCS no Royal Papworth (UK)",
+    "por_que": "decide/hospeda — chefe da divisão; atua em robótica mitral e MCS/choque",
+    "url": "https://www.uhhospitals.org/for-clinicians/articles-and-news/articles/2020/04/uh-recruits-top-cardiac-surgeon-from-uk-as-addition-to-growing-transplant-program"
+   },
+   {
+    "nome": "Kelsey Gray, MD",
+    "cargo": "Cirurgiã cardíaca, co-líder do programa robótico (MIDCAB)",
+    "por_que": "hospeda — rotina diária do programa robótico",
+    "url": "https://news.uhhospitals.org/news-releases/articles/2024/12/university-hospitals-robust-robotic-cardiac-surgery-program-treats-more-than-100-patients"
+   },
+   {
+    "nome": "Pablo Ruda Vega, MD",
+    "cargo": "Cirurgião cardíaco, co-líder do programa robótico",
+    "por_que": "hospeda — robótica; perfil UH: https://author.uhhospitals.org/doctors/RudaVega-Pablo-1316551005 (nacionalidade não confirmada)",
+    "url": "https://www.ideastream.org/show/sound-of-ideas/2025-01-08/northeast-ohio-cardiac-and-thoracic-surgeons-use-robotics-to-improve-patient-experience"
+   },
+   {
+    "nome": "Michael Zacharias, DO",
+    "cargo": "Medical Director of Mechanical Circulatory Support (dado de 2020)",
+    "por_que": "lidera choque/MCS — confirmar se cargo atual",
+    "url": "https://www.uhhospitals.org/for-clinicians/articles-and-news/articles/2020/03/increasing-options-for-life-saving-care-focus-on-multidisciplinary-cardiogenic-shock-team-at-uh",
+    "certeza": "provável (fonte 2020)"
+   },
+   {
+    "nome": "Francis (Ted) Lytle, MD",
+    "cargo": "Medical Director, Cardiothoracic ICU; Division Chief Critical Care (dado 2018–2020)",
+    "por_que": "UTI cardiotorácica/choque — confirmar cargo atual",
+    "url": "https://www.uhhospitals.org/about-uh/publications/uh-annual-report/2018-annual-report/uh-harrington-heart-and-vascular-institutes-shock-team-saves-lives",
+    "certeza": "provável (fonte antiga)"
+   },
+   {
+    "nome": "Igo Ribeiro, MD",
+    "cargo": "Cirurgião cardíaco, UH Harrington",
+    "por_que": "ponte brasileira (ver campo brasileiros)",
+    "url": "https://uhhospitals.org/doctors/Ribeiro-Igo-1386297729"
+   }
+  ],
+  "brasileiros": [
+   {
+    "nome": "Igo Ribeiro, MD",
+    "vinculo_brasil": "formação médica na Universidade Federal do Ceará (2003); fala português",
+    "funcao": "cirurgião cardíaco – UH Harrington Heart & Vascular Institute",
+    "url": "https://uhhospitals.org/doctors/Ribeiro-Igo-1386297729",
+    "certeza": "confirmado"
+   },
+   {
+    "nome": "Mauricio Arruda, MD",
+    "vinculo_brasil": "MD pela PUC-Campinas",
+    "funcao": "Diretor do Electrophysiology Center e do Atrial Fibrillation Center – UH Harrington (fora das áreas do polo, mas ponte institucional forte)",
+    "url": "https://www.uhhospitals.org/doctors/Arruda-Mauricio-1326151366",
+    "certeza": "confirmado"
+   },
+   {
+    "nome": "(nome não visível no trecho) cirurgião com perfil CTSNet",
+    "vinculo_brasil": "MD UFMG 1991; residência cardiotorácica UH Cleveland 1998–2000",
+    "url": "https://www.ctsnet.org/home/ccaldeira",
+    "certeza": "provável — ex-residente, não atual"
+   }
+  ],
+  "pontes_unifesp_sp": "não encontrado (nenhuma coautoria UH–Unifesp/InCor/Dante localizada nas buscas)",
+  "pesquisa_recente": [
+   {
+    "titulo": "Robot-assisted cardiac surgery at UH HHVI provides equivalent outcomes with shorter patient recovery (artigo institucional para clínicos, não peer-reviewed)",
+    "ano": 2026,
+    "url": "https://www.uhhospitals.org/for-clinicians/articles-and-news/articles/2026/05/robot-assisted-cardiac-surgery-at-uh-hhvi-provides-equivalent-outcomes-with-shorter-patient-recovery",
+    "pmid_doi": "não se aplica"
+   },
+   {
+    "titulo": "UH surgeons Ohio's 1st to provide robotic minimally invasive cardiac surgery (institucional)",
+    "ano": 2025,
+    "url": "https://www.uhhospitals.org/for-clinicians/articles-and-news/articles/2025/02/uh-surgeons-ohios-1st-to-provide-robotic-minimally-invasive-cardiac-surgery",
+    "pmid_doi": "não se aplica"
+   },
+   {
+    "nota": "Artigos peer-reviewed 2022–2026 do serviço com PMID/DOI: não encontrados nas buscas. Primeiro implante mundial do sistema Medtronic Penditure (exclusão de AAE) em reparo mitral minimamente invasivo (Abu-Omar & Rushing): https://www.eurekalert.org/news-releases/1030575"
+   }
+  ],
+  "dicas": [
+   "Equipe declara estar pesquisando o efeito da via robótica no tempo de internação — gancho para oferecer ajuda em coleta de dados/revisão (Becker's: https://www.beckershospitalreview.com/cardiology/less-pain-quicker-recoveries-1-year-of-university-hospitals-robotics-push).",
+   "Modelo UH de observação depende de 'staff sponsor' — conseguir um cirurgião patrocinador é o passo-chave.",
+   "UH pertence ao sistema Case Western Reserve University (afiliação acadêmica)."
+  ],
+  "rota_recomendada": "1) E-mail ao Dr. Igo Ribeiro (brasileiro, cirurgião cardíaco) pedindo orientação e apoio como sponsor; 2) com ele, pedido formal ao chefe Dr. Abu-Omar para 4 semanas no programa robótico + Shock Team/Hambrick Center, citando o volume >100 casos e o estudo de tempo de internação; 3) alternativa: contato via Dr. Mauricio Arruda (brasileiro, diretor de EP) para chegar à cirurgia.",
+  "alerta_correcao": "Programa de observership do radar não confirmado; não existe página central — via é sponsor departamental."
+ },
+ {
+  "match": "St. Antonius Ziekenhuis",
+  "centro": "St. Antonius Ziekenhuis – St. Antonius Hartcentrum, Nieuwegein (Países Baixos)",
+  "areas": [
+   "robotica",
+   "arritmia_cirurgica"
+  ],
+  "programa": {
+   "status": "não encontrado programa de observership/visiting physician",
+   "evidencia": [
+    {
+     "url": "https://www.ctsnet.org/members/andrew-liem/",
+     "trecho": "perfis de cirurgiões listam residência e 'Cardiothoracic Surgery Fellowship' no St. Antonius — há tradição de formação, mas sem programa para observadores externos publicado"
+    }
+   ],
+   "contato_oficial": "Hartcentrum (telefone geral do folheto de pacientes: 088 320 11 00) — https://www.antoniusziekenhuis.nl/behandelingen-onderzoeken/mitraalklepreparatie/pdf_download",
+   "certeza": "não encontrado"
+  },
+  "servico": {
+   "nomes": [
+    "Afdeling Cardiothoracale Chirurgie – St. Antonius Hartcentrum (descrita como o maior departamento cardiotorácico dos Países Baixos)"
+   ],
+   "fonte_tamanho": {
+    "url": "https://www.eacts.org/?p=40307",
+    "trecho": "largest cardiothoracic department in the Netherlands"
+   },
+   "chefe": "não encontrado",
+   "responsavel_residencia": {
+    "nome": "Bart P. van Putte",
+    "trecho": "responsible for the residency training program since 2017",
+    "url": "https://www.minicardiacsurgery-univpm-research.com/?p=720",
+    "certeza": "confirmado (fonte pode estar desatualizada)"
+   },
+   "volume": "não encontrado",
+   "tecnica_mitral": {
+    "dado": "folheto de pacientes descreve reparo mitral endoscópico (via monitor, pequena incisão) — NÃO menciona robô",
+    "url": "https://www.antoniusziekenhuis.nl/behandelingen-onderzoeken/mitraalklepreparatie/pdf_download"
+   }
+  },
+  "pessoas_chave": [
+   {
+    "nome": "Bart P. van Putte, MD, PhD",
+    "cargo": "Cirurgião cardiotorácico desde 2013; foco em cirurgia mitral minimamente invasiva e cirurgia de FA (incl. manejo de AAE); proctor de ablação toracoscópica (>25 centros treinados desde 2012); membro da task force das diretrizes ESC/EACTS de FA 2016 e 2020; responsável pela residência desde 2017",
+    "por_que": "decide/hospeda — pessoa central para as duas áreas do polo e para educação",
+    "url": "https://www.minicardiacsurgery-univpm-research.com/?p=720"
+   },
+   {
+    "nome": "Lucas Boersma, MD",
+    "cargo": "Cardiologista/eletrofisiologista (pioneiro em oclusão de AAE na Holanda; FAST trial)",
+    "por_que": "lado EP do programa híbrido",
+    "url": "https://nos.nl/artikel/133832-eerste-hartoor-operatie-in-nederland",
+    "certeza": "provável (fonte antiga)"
+   }
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado. Ponte indireta: FAST trial (cirúrgica vs cateter) foi conduzido por Nieuwegein + Barcelona (Hospital Clínic) — https://link.springer.com/doi/10.1007/s12471-012-0266-x",
+  "pesquisa_recente": [
+   {
+    "titulo": "Ensaio randomizado PVI toracoscópica vs cateter em FA persistente (St. Antonius = centro recrutando)",
+    "id": "NCT04715425",
+    "url": "https://www.syfrah.com/trial/NCT04715425",
+    "ano": "em andamento"
+   },
+   {
+    "titulo": "Totally thoracoscopic surgical ablation – análise sistemática de complicações em 30 dias (Vos, van Putte et al., Europace)",
+    "ano": "não confirmado no trecho",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11411208/",
+    "pmid_doi": "não confirmado (PMC11411208 aparece no resultado)"
+   },
+   {
+    "titulo": "A wider scope on the treatment of atrial fibrillation (Antonius Academie; tese/resumo sobre FAST e ablação cirúrgica)",
+    "url": "https://antoniusacademie.mijn.bsl.nl/a-wider-scope-on-the-treatment-of-atrial-fibrillation/618258",
+    "ano": "não confirmado"
+   },
+   {
+    "nota": "Artigos 2022–2026 com PMID/DOI confirmados: não encontrados. Revisão 2022 sobre reparo de cordas transapical/port-access com autores St. Antonius: https://www.frontiersin.org/articles/10.3389/fcvm.2022.850700 (DOI 10.3389/fcvm.2022.850700)"
+   }
+  ],
+  "dicas": [
+   "Van Putte foi guest editor do special issue do J Clin Med 'Minimally Invasive Approaches for Cardiovascular and Thoracic Surgery' — bom tema para e-mail (https://www2.mdpi.com/journal/jcm/special_issues/Minimally_Invasive_Approaches_Cardiovascular_Thoracic_Surgery).",
+   "Ele é proctor internacional de ablação toracoscópica — já recebe/treina equipes externas.",
+   "da Vinci no hospital é usado em cirurgia torácica oncológica e ginecologia; uso cardíaco não confirmado."
+  ],
+  "rota_recomendada": "1) E-mail direto ao Dr. Bart van Putte pedindo 4 semanas de observação em cirurgia mitral endoscópica + ablação toracoscópica/híbrida, citando FAST e o ensaio NCT04715425; 2) pedir que ele indique o fluxo administrativo do Hartcentrum. Priorizar se o foco for arritmia cirúrgica, não robótica.",
+  "alerta_correcao": "A área 'robotica' parece incorreta: as fontes mostram cirurgia mitral ENDOSCÓPICA/toracoscópica (port-access), sem confirmação de robô em cirurgia cardíaca. Uma fonte EACTS indica que um cirurgião atuou lá até 2025 — quadro pode ter mudado."
+ },
+ {
+  "match": "Hospital Clínic de Barcelona",
+  "centro": "Hospital Clínic de Barcelona – Institut Clínic Cardiovascular (ICCV)",
+  "areas": [
+   "robotica",
+   "eletrofisiologia"
+  ],
+  "programa": {
+   "status": "não encontrada página própria de observership; via legal = 'Estancias formativas para profesionales extranjeros' do Ministerio de Sanidad + aceite do serviço",
+   "requisitos_nacionais": [
+    {
+     "dado": "Solicitar ao Ministério entre 6 e 3 meses antes do início; duração máx. 6 meses; autorização vale só para as datas da resolução; descumprimento pode gerar bloqueio de 5 anos",
+     "url": "https://www.sanidad.gob.es/areas/profesionesSanitarias/profesiones/estanciasFormativasExtranjeros/",
+     "certeza": "confirmado (nível nacional)"
+    },
+    {
+     "dado": "Calendário 2026 de estâncias fixado pelo Ministério",
+     "url": "https://www.redaccionmedica.com/secciones/ministerio-sanidad/sanidad-fija-el-calendario-de-estancias-de-extranjeros-en-el-sns-en-2026-4690"
+    }
+   ],
+   "porta_alternativa_EP": {
+    "dado": "EHRA Training Fellowships (Observational Training Programme 2–4 semanas, financiado por Biosense) restritos a EHRA Recognised Training Centres; Clínic hospedou observadores em 2017–2019 e um fellowship de 1 ano em ablação em 2024",
+    "url": "https://www.escardio.org/Education/Career-Development/Grants-and-fellowships/EHRA-training-fellowships-past-winners",
+    "certeza": "confirmado"
+   },
+   "contato_oficial": "não encontrado (passar pelo serviço e pela Unitat de Docència)",
+   "certeza": "provável"
+  },
+  "servico": {
+   "nomes": [
+    "Servei de Cirurgia Cardiovascular – programa de cirurgia cardíaca robótica (da Vinci Xi)",
+    "Secció d'Arrítmies – Institut Clínic Cardiovascular"
+   ],
+   "chefe_cirurgia": {
+    "nome": "Manuel (Manel) Castellà Pericás",
+    "cargo": "Jefe de Servicio de Cirugía Cardiovascular (documento de itinerário formativo, maio/2021)",
+    "url": "https://www.clinicbarcelona.org/uploads/media/default/0017/23/26360c2136d9dd1a1072c3f5f0216e09ae695e98.pdf",
+    "certeza": "provável (fonte 2021)"
+   },
+   "lider_robotica": {
+    "nome": "Daniel Pereda",
+    "cargo": "responsável pelo programa robótico (mitral e aórtico); diretor do centro de cardiopatias congênitas Clínic–Sant Joan de Déu",
+    "url": "https://clinicbarcelona.org/en/news/tag/daniel-pereda"
+   },
+   "chefe_arritmias": {
+    "nome": "Ivo Roca-Luque",
+    "cargo": "Jefe de la Sección de Arritmias del Hospital Clínic (perfil Quirónsalud, sem data)",
+    "url": "https://www.quironsalud.com/dexeus-barcelona/es/cuadro-medico/ivo-roca-luque",
+    "certeza": "provável — Lluís Mont aparece como chefe em fontes mais antigas (2005–) e ainda como contato em ensaio recrutando (NCT07746336)"
+   },
+   "volume": [
+    {
+     "dado": "Primeiros 120 pacientes robóticos (dez/2019–jul/2022): 82% cirurgia mitral (n=98), reparo mitral n=86",
+     "ano": 2023,
+     "url": "https://www.revespcardiol.org/en-implementation-and-clinical-impact-of-a-articulo-S1885585723001226"
+    },
+    {
+     "dado": "Centro nacional de referência em reparo mitral complexo, >100 cirurgias/ano; único hospital da Espanha com robótica cardíaca em 2020",
+     "ano": 2020,
+     "url": "https://www.clinicbarcelona.org/uploads/media/default/0002/68/6b6d9fdce197a3d6f224390184dc828268feb215.pdf"
+    },
+    {
+     "dado": "RAVR (troca valvar aórtica robótica): 25 pacientes dez/2021–out/2024; único na Espanha",
+     "ano": 2025,
+     "url": "https://www.annalscts.com/article/view/17179/html"
+    },
+    {
+     "dado": "Unidade de arritmias é um de dois centros espanhóis reconhecidos pela EHRA como centro europeu de treinamento em EP",
+     "url": "https://www.comunidad.madrid/node/55180"
+    }
+   ]
+  },
+  "pessoas_chave": [
+   {
+    "nome": "Daniel Pereda",
+    "cargo": "Cirurgião cardiovascular, líder do programa robótico",
+    "por_que": "hospeda/decide — robótica",
+    "url": "https://www.frontiersin.org/articles/10.3389/fcvm.2023.1237151"
+   },
+   {
+    "nome": "Elena Sandoval",
+    "cargo": "Cirurgiã cardiovascular, co-responsável pelo programa robótico; primeira autora RAVR 2025",
+    "por_que": "hospeda — robótica",
+    "url": "https://www.annalscts.com/article/view/17179/html"
+   },
+   {
+    "nome": "Manuel Castellà",
+    "cargo": "Jefe de Servicio Cirurgia Cardiovascular (2021)",
+    "por_que": "autorização do serviço",
+    "url": "https://www.clinicbarcelona.org/uploads/media/default/0017/23/26360c2136d9dd1a1072c3f5f0216e09ae695e98.pdf",
+    "certeza": "provável"
+   },
+   {
+    "nome": "Ivo Roca-Luque",
+    "cargo": "Chefe da Seção de Arritmias (provável); foco em ablação de TV/mapeamento de substrato",
+    "por_que": "decide — EP",
+    "url": "https://www.quironsalud.com/dexeus-barcelona/es/cuadro-medico/ivo-roca-luque"
+   },
+   {
+    "nome": "Lluís Mont",
+    "cargo": "ex-chefe da Seção de Arritmias e Unidade de FA; contato em ensaio ativo",
+    "por_que": "liderança histórica; FAST trial com Nieuwegein",
+    "url": "https://clinicaltrials.gov/study/NCT07746336"
+   }
+  ],
+  "brasileiros": [
+   {
+    "nome": "Rodrigo Melo Kulchetscki",
+    "vinculo_brasil": "perfil Escavador (Brasil); resultado indica subespecialidade em arritmia/EP pelo InCor-HCFMUSP e curso de ablação no Hospital Clínic de Barcelona",
+    "url": "https://www.escavador.com/sobre/4338306/rodrigo-melo-kulchetscki",
+    "certeza": "provável — trecho do buscador associa InCor + curso no Clínic, mas o nome não foi confirmado em busca específica (o buscador não achou o nome em outras fontes)"
+   }
+  ],
+  "pontes_unifesp_sp": "Não encontrada coautoria Clínic–Unifesp nas buscas. Ponte provável InCor via ex-aluno de curso de ablação (acima).",
+  "pesquisa_recente": [
+   {
+    "titulo": "Implementation and clinical impact of a robotic cardiac surgery program (Sandoval, Muro, Navarro, García-Álvarez, Castellà, Pereda) – Rev Esp Cardiol",
+    "ano": 2023,
+    "pmid_doi": "não confirmado; artículo S1885585723001226",
+    "url": "https://www.revespcardiol.org/en-implementation-and-clinical-impact-of-a-articulo-S1885585723001226"
+   },
+   {
+    "titulo": "Robotic mitral repair: totally thoracoscopic (closed-chest) vs mini-thoracotomy, n=110 – Front Cardiovasc Med",
+    "ano": 2023,
+    "pmid_doi": "DOI 10.3389/fcvm.2023.1237151",
+    "url": "https://www.frontiersin.org/articles/10.3389/fcvm.2023.1237151"
+   },
+   {
+    "titulo": "Establishing a robotic aortic valve replacement program in Spain: growing opportunities for Europe – Ann Cardiothorac Surg",
+    "ano": 2025,
+    "pmid_doi": "DOI 10.21037/acs-2025-ravr-0003",
+    "url": "https://www.annalscts.com/article/view/17179/html"
+   },
+   {
+    "titulo": "S3 protocol (high-density whole-chamber double extrastimuli) for VT substrate mapping – JACC Clin EP (Roca-Luque coautor)",
+    "ano": 2024,
+    "pmid_doi": "PMID 38819348 (de listagem JoVE/tese, verificar no PubMed)",
+    "url": "https://app.jove.com/author/67736/ivo-roca-luque"
+   }
+  ],
+  "dicas": [
+   "EP: EHRA Observational Training Programme (2–4 semanas) é a porta estruturada — exige ser membro EHRA e escolher centro ERTC; Clínic é ERTC.",
+   "Ministério exige pedido com 3–6 meses de antecedência: planejar com pelo menos 6 meses.",
+   "Curso 'Robotic and less invasive cardiovascular surgery' na Aula Clínic (plataforma educacional do hospital): https://www.aulaclinic.com/media/upload/pdf/cp-22-013_robotic_and_less_invasive_cardiovascular_surgery_editora_3_963_1.pdf — possível porta de entrada (edição atual não confirmada).",
+   "Programa robótico pediátrico conjunto com Sant Joan de Déu (primeiro na Espanha)."
+  ],
+  "rota_recomendada": "1) Robótica: e-mail ao Dr. Daniel Pereda e Dra. Elena Sandoval citando o paper RAVR 2025 e o closed-chest mitral; com o aceite, tramitar estância formativa no Ministerio de Sanidad (6–3 meses antes). 2) EP: aplicar ao EHRA Observational Training Programme indicando o Clínic, e contatar Dr. Roca-Luque. 3) Usar o Dr. Kulchetscki (InCor) como referência se a ligação for confirmada.",
+  "alerta_correcao": "Chefia da Seção de Arritmias mudou provavelmente de Lluís Mont para Ivo Roca-Luque — confirmar. Nenhuma página institucional de observership."
+ },
+ {
+  "match": "Minneapolis Heart Institute (Abbott Northwestern)",
+  "centro": "Allina Health Minneapolis Heart Institute at Abbott Northwestern Hospital + Minneapolis Heart Institute Foundation (MHIF)",
+  "areas": [
+   "estrutural",
+   "hemodinamica_coronaria"
+  ],
+  "programa": {
+   "status": "International Scholar Program (MHIF) — é de PESQUISA, 1–2 anos, não observership de 1 mês",
+   "evidencia": {
+    "url": "https://mplsheart.org/international-scholar-program",
+    "trecho": "Since 2017, our International Scholar program has brought practicing physicians from countries around the world for a one- or two-year period to work directly with Minneapolis Heart Institute physicians... scholars from China, Japan, Brazil, Hungary, Turkey and Greece"
+   },
+   "observership_curto": "não encontrado",
+   "contato_oficial": "MHIF 612-863-3833; 920 East 28th Street, Suite 100, Minneapolis, MN 55407 (via grantable.co) ; education@mhif.org (oficial para cursos/eventos)",
+   "fontes_contato": [
+    "https://grantable.co/grants/international-scholar-program-1a0b07d40051",
+    "https://www.mplsheart.org/events/4th-annual-ct-guided-pci-summit"
+   ],
+   "vagas_scholar": [
+    "https://mplsheart.org/job-posting-research-scholar-center-coronary-artery-disease",
+    "https://mplsheart.org/job-posting-research-scholar-valve-science-center"
+   ],
+   "certeza": "confirmado (programa de pesquisa); observership curto não encontrado"
+  },
+  "servico": {
+   "nomes": [
+    "Center for Valve and Structural Heart Disease / MHIF Valve Science Center",
+    "Center for Coronary Artery Disease (CCAD)"
+   ],
+   "chefes": [
+    {
+     "nome": "Paul Sorajja, MD",
+     "cargo": "Director, Center for Valve & Structural Heart Disease; Roger L. and Lynn C. Headrick Family Chair e Diretor do MHIF Valve Science Center",
+     "url": "https://mplsheart.org/paul-sorajja-md",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Emmanouil S. Brilakis, MD, PhD",
+     "cargo": "Diretor do Center for Coronary Artery Disease (CTO/complex PCI); SCAI 2026 Master Interventionalist",
+     "url": "https://mplsheart.org/emmanouil-brilakis-md-phd-facc-faha-fesc-fscai",
+     "certeza": "confirmado (liderança CCAD; título exato provável)"
+    }
+   ],
+   "fellowship": {
+    "nome": "Structural Heart Fellowship (1 ano; 350–450 intervenções estruturais) e Interventional Cardiology Fellowship",
+    "diretor": "Mario Goessl, MD (Program Director – faculty page Allina); FREIDA lista Jeffrey Jim (conflito)",
+    "url": "https://allinahealth.org/for-medical-professionals/minneapolis-heart-institute/fellowship-training-programs/structural-fellowship/faculty",
+    "outro": "CCAD: Maslowski CHIP/CTO Fellowship — https://mplsheart.org/coronary-artery-disease/fellowship"
+   },
+   "volume": "não encontrado número anual publicado (só 350–450 intervenções estruturais por fellow/ano)"
+  },
+  "pessoas_chave": [
+   {
+    "nome": "Paul Sorajja, MD",
+    "cargo": "Diretor Valve Science Center / Center for Valve & Structural Heart Disease; PI do TRILUMINATE",
+    "por_que": "decide — estrutural",
+    "url": "https://mplsheart.org/paul-sorajja-md"
+   },
+   {
+    "nome": "Emmanouil Brilakis, MD, PhD",
+    "cargo": "Diretor CCAD; diretor de cursos (CT-guided PCI Summit, PCI Manuals Live)",
+    "por_que": "decide — coronária complexa/CTO; recebe international scholars",
+    "url": "https://mplsheart.org/emmanouil-brilakis-md-phd-facc-faha-fesc-fscai"
+   },
+   {
+    "nome": "Mario Goessl, MD",
+    "cargo": "Director, Transcatheter Valve Therapies; Program Director dos fellowships estrutural e intervencionista",
+    "por_que": "hospeda — rotina de lab estrutural e formação",
+    "url": "https://allinahealth.org/for-medical-professionals/minneapolis-heart-institute/fellowship-training-programs/structural-fellowship/faculty"
+   },
+   {
+    "nome": "Vinayak Bapat, MD",
+    "cargo": "Cirurgião; James R. and Judith A. Bradshaw Chair for the Valve Science Center (2026)",
+    "por_que": "ponte para residente de cirurgia CV — heart team estrutural",
+    "url": "https://mplsheart.org/vinayak-bapat-md"
+   },
+   {
+    "nome": "Pedro E. P. Carvalho, MD",
+    "cargo": "Raymond Ames and Barbara Thorndike International Scholar – CCAD",
+    "por_que": "brasileiro dentro do CCAD — ponte direta",
+    "url": "https://mplsheart.org/pedro-carvalho-md"
+   }
+  ],
+  "brasileiros": [
+   {
+    "nome": "Pedro E. P. Carvalho, MD",
+    "vinculo_brasil": "de Belo Horizonte; MD UFMG (dez/2023); ex-assistente de pesquisa no HC-UFMG",
+    "funcao": "International Scholar inaugural (Ames/Thorndike) no Center for Coronary Artery Disease — imagem intracoronária, fisiologia, doença microvascular, CT-guided PCI",
+    "url": "https://mplsheart.org/pedro-carvalho-md",
+    "certeza": "confirmado"
+   },
+   {
+    "nota": "Programa declara ter recebido scholars do Brasil (plural não especificado)",
+    "url": "https://mplsheart.org/international-scholar-program"
+   }
+  ],
+  "pontes_unifesp_sp": "não encontrado (nenhuma coautoria MHI–Unifesp/Dante/InCor confirmada nas buscas)",
+  "pesquisa_recente": [
+   {
+    "titulo": "Transcatheter Repair for Patients with Tricuspid Regurgitation (TRILUMINATE Pivotal) – NEJM, Sorajja et al.",
+    "ano": 2023,
+    "pmid_doi": "DOI 10.1056/NEJMoa2300525",
+    "url": "https://ce.massmed.nejm.org/nejm-weekly-cme/content/transcatheter-repair-patients-tricuspid-regurgitation"
+   },
+   {
+    "titulo": "Transcatheter treatment of the tricuspid valve: current status and perspectives – Eur Heart J 45(11):876–894 (Maisano, Hahn, Sorajja, Praz, Lurz)",
+    "ano": 2024,
+    "pmid_doi": "DOI 10.1093/eurheartj/ehae082",
+    "url": "https://bibliography.cumc.columbia.edu/node/34449"
+   },
+   {
+    "titulo": "International survey of chronic total occlusion PCI operators – Catheter Cardiovasc Interv (autores MHI/MHIF)",
+    "ano": "não confirmado no trecho",
+    "pmid_doi": "DOI 10.1002/ccd.30914",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1002/ccd.30914"
+   }
+  ],
+  "dicas": [
+   "4th Annual CT-guided PCI Summit: 12–13 nov 2026, MacMillan Center, Minneapolis; diretor Brilakis; desconto para fellows em treinamento; contato education@mhif.org — https://www.mplsheart.org/events/4th-annual-ct-guided-pci-summit",
+   "PCI Manuals Live (curso pequeno, case-based, complex PCI; edição mar/2025) — https://mplsheart.org/PCIlive",
+   "MHIF publica vagas de 'Research Scholar' (CCAD e Valve Science Center) — porta para estadia longa.",
+   "Pedro Carvalho publicou metanálises em JACC/IJC/CCI — residente pode propor colaboração em revisão sistemática como contrapartida."
+  ],
+  "rota_recomendada": "1) Contato com Dr. Pedro Carvalho (brasileiro, CCAD) para entender a rotina e pedir apresentação a Dr. Brilakis; 2) e-mail a Brilakis (coronária) e/ou Sorajja/Goessl (estrutural) pedindo 4 semanas de observação, oferecendo colaboração em metanálise; 3) participar do CT-guided PCI Summit (nov/2026) como ponto de encontro presencial; se a meta for estadia longa, candidatar-se a Research Scholar.",
+  "alerta_correcao": "O link 'international-scholar-program' do radar é programa de pesquisa de 1–2 anos, não observership de ~1 mês. Duas entidades: Allina Health (hospital/fellowships) e MHIF (fundação de pesquisa/educação)."
+ }
+]

@@ -1,0 +1,224 @@
+[
+ {
+  "match": "Apollo Hospitals Bangalore",
+  "alerta_correcao": "A url do radar é o comunicado de 2021 (100 cirurgias robóticas). Dados mais novos: >600 cirurgias cardíacas robóticas e >150 trocas mitrais robóticas no centro (comunicados 2024-25). Atenção: o recorde de '100 em 155 dias' (2026) é da Apollo Jubilee Hills (Hyderabad), não de Bangalore; e o marco de 500 procedimentos (out/2024) foi anunciado pela Apollo Chennai, com Nambala presente como 'Chief Surgeon, Robotic & MICS, Apollo Hospitals'.",
+  "programa": {
+   "pagina": "https://apollohospitals.com/academics-research/courses/medical/fellowship",
+   "elegibilidade": "A página de fellowships pós-doutorais da Apollo lista uma opção 'International Observership' ('global exposure'), sem termos publicados; os fellowships clínicos (6 meses/1 ano) exigem MBBS/MD/DNB/MS (PDF https://www.apollohospitals.com/apollo_pdf/Academics-Clinical-Fellowship-AHERF.pdf) — não se aplica a observer",
+   "contato_oficial": "fellowship@apollohospitals.com (e-mail do escritório de fellowships citado na página oficial, segundo o resultado de busca)",
+   "taxa": "não encontrado",
+   "duracao": "não encontrado",
+   "antecedencia": "não encontrado",
+   "documentos": "não encontrado",
+   "regulacao_india": {
+    "regra": "Diretrizes da National Medical Commission (NMC, em vigor desde 1/3/2023): estrangeiro precisa de NOC/consentimento da NMC para elective/observership em faculdade de medicina indiana; taxa de processamento US$100 (graduação) / US$200 (pós-graduação) + GST; intervalo mínimo de 1 ano entre dois observerships; teto de vagas por especialidade (2 citado para PG, fonte inconsistente); observador não participa de cuidado ao paciente",
+    "fontes": [
+     "https://medicaldialogues.in/health-news/nmc/nmc-spells-out-limits-for-electives-observership-by-foreign-medical-doctors-in-india-107830",
+     "https://news.careers360.com/nmc-issues-guidelines-for-noc-grant-foreign-nationals-for-observership-in-indian-medical-colleges",
+     "https://krishjayaprakash.blogspot.com/2023/03/national-medical-commission.html"
+    ],
+    "certeza": "confirmado em notícias (texto oficial da NMC não visto); aplicação a hospital privado não-faculdade = provável/não confirmado"
+   },
+   "certeza": "existência da opção International Observership = provável (trecho indireto); termos = não encontrado"
+  },
+  "servico": {
+   "nome": "Robotic Cardiac Surgery Unit / Robotic & Minimally Invasive Cardiac Surgery, Apollo Hospitals Bannerghatta Road, Bengaluru (programa desde o fim de 2019, da Vinci Xi)",
+   "chefe": "Dr. Sathyaki P. Nambala — 'senior consultant, cardiothoracic and vascular surgeon and head of the department of robotic cardiac surgery unit' (2021) / 'Chief Surgeon, Robotic & Minimally Invasive Cardiac Surgery, Apollo Hospitals' (2024)",
+   "fellowship": "não encontrado fellowship específico de cirurgia robótica cardíaca",
+   "volume": "100 cirurgias robóticas cardíacas (set/2021, 'primeiro hospital da Índia'); >600 robóticas cardíacas e >3.000 MICS da equipe; >150 trocas mitrais robóticas (comunicados 2024-25)",
+   "fontes": [
+    "https://www.apollohospitals.com/apollo-hospitals-bangalore-is-the-first-hospital-in-the-country-to-have-successfully-completed-100-robotic-cardiac-surgeries/",
+    "https://medicaldialogues.in/news/health/hospital-diagnostics/apollo-hospitals-bangalore-completes-100-robotic-cardiac-surgeries-81734",
+    "https://health.medicaldialogues.in/health/53-year-old-beats-deadly-heart-condition-after-apollos-high-precision-robotic-surgery-160448",
+    "https://apollohospitals.com/apollo-in-the-news/a-yemeni-patient-with-complex-mitral-valve-disease-underwent-a-lifesaving-robotic-procedure-at-apollo-hospitals-bangalore",
+    "https://apollohospitals.com/robotic-cardiac-surgery"
+   ],
+   "certeza": "chefia = confirmado (imprensa/comunicado); volumes = autorreportados pelo hospital"
+  },
+  "pessoas_chave": [
+   {
+    "nome": "Sathyaki P. Nambala",
+    "cargo": "Chefe da unidade de cirurgia cardíaca robótica / Chief Surgeon Robotic & MICS, Apollo Hospitals",
+    "por_que": "lidera o programa e decidiria quem acompanha a sala robótica",
+    "fonte": "https://medicaldialogues.in/news/health/hospital-diagnostics/apollo-hospitals-bangalore-completes-100-robotic-cardiac-surgeries-81734",
+    "certeza": "confirmado"
+   }
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": "não encontrado (nenhum artigo revisado por pares 2022-2026 do serviço apareceu; só comunicados: troca mitral robótica em 29 min, 2024; dupla troca valvar robótica em endocardite, 2025) — útil como assunto do e-mail, mas citar como caso divulgado, não como artigo",
+  "dicas": "Programa novo (2019) e muito voltado a pacientes internacionais; não há observership estruturado publicado — o caminho é e-mail ao escritório de fellowships pedindo a 'International Observership' em CTVS/robótica, mencionando Nambala. Considerar a exigência de NOC da NMC (US$200, intervalo de 1 ano).",
+  "rota_recomendada": "1) E-mail a fellowship@apollohospitals.com pedindo International Observership de 4 semanas em Robotic Cardiac Surgery (Bangalore), citando os 600+ casos e a mitral robótica; 2) em paralelo, carta curta ao Dr. Nambala via canal institucional da Apollo pedindo aval; 3) confirmar se é preciso NOC da NMC antes de comprar passagem."
+ },
+ {
+  "match": "Apollo Hospitals Jubilee Hills",
+  "alerta_correcao": "Polo correto (Hyderabad). O recorde '100 cirurgias cardíacas robóticas em 155 dias' (abr/2026) é autoproclamado 'world record', sem validação independente encontrada.",
+  "programa": {
+   "pagina": "https://apollohospitals.com/academics-research/courses/medical/fellowship",
+   "elegibilidade": "Mesma via corporativa da Apollo ('International Observership' listada na página de fellowships), sem termos publicados",
+   "contato_oficial": "fellowship@apollohospitals.com (escritório de fellowships, rede Apollo)",
+   "taxa": "não encontrado",
+   "duracao": "não encontrado",
+   "antecedencia": "não encontrado",
+   "documentos": "não encontrado",
+   "regulacao_india": {
+    "regra": "Diretrizes da National Medical Commission (NMC, em vigor desde 1/3/2023): estrangeiro precisa de NOC/consentimento da NMC para elective/observership em faculdade de medicina indiana; taxa de processamento US$100 (graduação) / US$200 (pós-graduação) + GST; intervalo mínimo de 1 ano entre dois observerships; teto de vagas por especialidade (2 citado para PG, fonte inconsistente); observador não participa de cuidado ao paciente",
+    "fontes": [
+     "https://medicaldialogues.in/health-news/nmc/nmc-spells-out-limits-for-electives-observership-by-foreign-medical-doctors-in-india-107830",
+     "https://news.careers360.com/nmc-issues-guidelines-for-noc-grant-foreign-nationals-for-observership-in-indian-medical-colleges",
+     "https://krishjayaprakash.blogspot.com/2023/03/national-medical-commission.html"
+    ],
+    "certeza": "confirmado em notícias (texto oficial da NMC não visto); aplicação a hospital privado não-faculdade = provável/não confirmado"
+   },
+   "certeza": "provável"
+  },
+  "servico": {
+   "nome": "Cardiothoracic & Vascular Surgery / Heart Institute, Apollo Hospitals Jubilee Hills — programa de cirurgia cardíaca robótica com da Vinci",
+   "chefe": "Programa robótico liderado por Dr. Nagesh Ayalasomayajula, 'Senior Consultant Cardio Thoracic & Heart Transplant Surgeon' (na Apollo Jubilee Hills desde 2025). Chefe do departamento: não encontrado",
+   "fellowship": "não encontrado",
+   "volume": "100 cirurgias cardíacas robóticas em 155 dias (abr/2026); o hospital passou de 2.000 procedimentos robóticos de todas as especialidades (mar/2026)",
+   "fontes": [
+    "https://www.indianpharmapost.com/news/apollo-hospitals-sets-world-record-in-robotic-heart-surgery-with-100-procedures-in-155-days-19681",
+    "https://www.apollohospitals.com/doctors/cardiothoracic-and-vascular-surgery/hyderabad/dr-nagesh-ayalasomayajula",
+    "https://www.indianpharmapost.com/news/apollo-hospitals-jubilee-hills-breaks-robotic-surgery-records-in-telangana-andhra-19462"
+   ],
+   "certeza": "confirmado (imprensa + perfil oficial); volume autorreportado"
+  },
+  "pessoas_chave": [
+   {
+    "nome": "Nagesh Ayalasomayajula",
+    "cargo": "Senior Consultant Cardiothoracic & Heart Transplant Surgeon; liderou o programa de 100 robóticas em 155 dias",
+    "por_que": "hospedaria a observação em robótica (e transplante)",
+    "fonte": "https://www.apollohospitals.com/doctors/cardiothoracic-and-vascular-surgery/hyderabad/dr-nagesh-ayalasomayajula",
+    "certeza": "confirmado"
+   }
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": "não encontrado",
+  "dicas": "Programa robótico recente (2025-26) com volume alto e cirurgião que também faz transplante — boa combinação para uma residente de cirurgia cardiovascular. Mesma ressalva de NOC/NMC.",
+  "rota_recomendada": "1) E-mail ao escritório de fellowships da Apollo (fellowship@apollohospitals.com) pedindo International Observership em Jubilee Hills, CTVS robótica, citando o marco de abr/2026; 2) mencionar interesse em transplante e MICS (perfil do Dr. Nagesh) e pedir que encaminhem a ele."
+ },
+ {
+  "match": "Manipal Hospitals",
+  "alerta_correcao": "Polo vago: 'Manipal Hospitals' é uma rede com várias unidades em Bengaluru (Old Airport Road/HAL, Yeshwanthpur, Electronics City, Whitefield, Yelahanka, Malleshwaram); a url do radar é uma página de marketing da rede, sem unidade, cirurgião ou volume. Não encontrei volume de cirurgia cardíaca robótica publicado nem notícia de casos em Bengaluru 2024-25 (a notícia de CABG robótico achada é da Manipal Delhi, mai/2023). Em Bengaluru, Apollo, Narayana (Mazumdar Shaw) e Sakra World Hospital (>550 robóticas cardíacas, ago/2025) têm programa robótico cardíaco muito mais documentado.",
+  "programa": {
+   "pagina": "não encontrado",
+   "elegibilidade": "não encontrado programa de observership para médicos estrangeiros; notícia antiga (2010) diz que observadores estrangeiros em Bengaluru (incl. Manipal) se registravam no Karnataka Medical Council (https://aarogya.com/news-and-updates/year-2010/foreign-doctors-plump-for-city-hospitals.html)",
+   "contato_oficial": "não encontrado",
+   "taxa": "não encontrado",
+   "duracao": "não encontrado",
+   "antecedencia": "não encontrado",
+   "documentos": "não encontrado",
+   "regulacao_india": {
+    "regra": "Diretrizes da National Medical Commission (NMC, em vigor desde 1/3/2023): estrangeiro precisa de NOC/consentimento da NMC para elective/observership em faculdade de medicina indiana; taxa de processamento US$100 (graduação) / US$200 (pós-graduação) + GST; intervalo mínimo de 1 ano entre dois observerships; teto de vagas por especialidade (2 citado para PG, fonte inconsistente); observador não participa de cuidado ao paciente",
+    "fontes": [
+     "https://medicaldialogues.in/health-news/nmc/nmc-spells-out-limits-for-electives-observership-by-foreign-medical-doctors-in-india-107830",
+     "https://news.careers360.com/nmc-issues-guidelines-for-noc-grant-foreign-nationals-for-observership-in-indian-medical-colleges",
+     "https://krishjayaprakash.blogspot.com/2023/03/national-medical-commission.html"
+    ],
+    "certeza": "confirmado em notícias (texto oficial da NMC não visto); aplicação a hospital privado não-faculdade = provável/não confirmado"
+   },
+   "certeza": "não encontrado"
+  },
+  "servico": {
+   "nome": "Cardiothoracic & Vascular Surgery (CTVS) — páginas de Yeshwanthpur (robotic CABG), Yelahanka ('among the few centres offering robotic CABG and robotic valve replacements') e Electronics City ('early adoption of robotic CABG')",
+   "chefe": "Old Airport Road/HAL: Dr. N. S. Devananda, 'HOD and Consultant – Cardiothoracic and Vascular Surgery' (diretório Credihealth, terceiro; sem ligação confirmada com robótica)",
+   "fellowship": "não encontrado",
+   "volume": "não encontrado para o serviço; um cirurgião de Electronics City (Dr. Harsha Goutham H V) declara >250 cirurgias robóticas cardíacas e torácicas realizadas ou assistidas (perfil no site da Manipal)",
+   "fontes": [
+    "https://www.manipalhospitals.com/yelahanka/specialities/cardiothoracic-vascular-surgery/",
+    "https://www.manipalhospitals.com/electronicscity/specialities/cardiothoracic-vascular-surgery/",
+    "https://www.manipalhospitals.com/yeshwanthpur/specialities/cardiothoracic-vascular-surgery/robotic-cabg/",
+    "https://www.manipalhospitals.com/electronicscity/doctors/dr-harsha-goutham-h-v-cardiothoracic-and-vascular-surgeon/",
+    "https://omega.credihealth.com/doctors/india/robotic-cardiac-surgery"
+   ],
+   "certeza": "provável (páginas promocionais e diretório de terceiro)"
+  },
+  "pessoas_chave": [
+   {
+    "nome": "Harsha Goutham H V",
+    "cargo": "Cirurgião cardiotorácico e vascular, Manipal Electronics City (declara >250 robóticas cardíacas/torácicas)",
+    "por_que": "único cirurgião da Manipal Bengaluru com experiência robótica cardíaca declarada",
+    "fonte": "https://www.manipalhospitals.com/electronicscity/doctors/dr-harsha-goutham-h-v-cardiothoracic-and-vascular-surgeon/",
+    "certeza": "provável (o número vem do próprio perfil)"
+   },
+   {
+    "nome": "N. S. Devananda",
+    "cargo": "HOD – Cardiothoracic and Vascular Surgery, Manipal HAL Airport Road (diretório de terceiro)",
+    "por_que": "chefe do CTVS na unidade principal; ligação com robótica não confirmada",
+    "fonte": "https://omega.credihealth.com/doctors/india/robotic-cardiac-surgery",
+    "certeza": "provável"
+   }
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": "não encontrado",
+  "dicas": "Baixa prioridade para robótica. Se quiser Bengaluru, a Apollo Bangalore (ou Narayana/Sakra, fora do radar) tem programa robótico cardíaco documentado.",
+  "rota_recomendada": "Despriorizar. Se insistir: contato pelo canal internacional/academics da Manipal pedindo observação no CTVS de Electronics City (robótica), mas confirmar antes por escrito que há casos robóticos cardíacos regulares."
+ },
+ {
+  "match": "Medanta – The Medicity",
+  "alerta_correcao": "A url do radar é a página do Medanta Vattikuti Institute of Robotic Surgery, que é multiespecialidade (urologia, gineco etc.), não específica de cardíaca. O dado cardíaco vem das páginas do Medanta (CTVS) e do histórico do Dr. Trehan (primeiro robô da Índia em 2000; robótica cardíaca desde 2002).",
+  "programa": {
+   "pagina": "não encontrado",
+   "elegibilidade": "Não encontrado programa oficial de observership no site do Medanta; um diretório de terceiro (DocThub) lista o Medanta entre locais de observership em cardiologia (https://www.docthub.com/observership-in-cardiology-CT2482)",
+   "contato_oficial": "não encontrado",
+   "taxa": "não encontrado",
+   "duracao": "não encontrado",
+   "antecedencia": "não encontrado",
+   "documentos": "não encontrado",
+   "regulacao_india": {
+    "regra": "Diretrizes da National Medical Commission (NMC, em vigor desde 1/3/2023): estrangeiro precisa de NOC/consentimento da NMC para elective/observership em faculdade de medicina indiana; taxa de processamento US$100 (graduação) / US$200 (pós-graduação) + GST; intervalo mínimo de 1 ano entre dois observerships; teto de vagas por especialidade (2 citado para PG, fonte inconsistente); observador não participa de cuidado ao paciente",
+    "fontes": [
+     "https://medicaldialogues.in/health-news/nmc/nmc-spells-out-limits-for-electives-observership-by-foreign-medical-doctors-in-india-107830",
+     "https://news.careers360.com/nmc-issues-guidelines-for-noc-grant-foreign-nationals-for-observership-in-indian-medical-colleges",
+     "https://krishjayaprakash.blogspot.com/2023/03/national-medical-commission.html"
+    ],
+    "certeza": "confirmado em notícias (texto oficial da NMC não visto); aplicação a hospital privado não-faculdade = provável/não confirmado"
+   },
+   "outros": "Medanta já anunciou treinamento de cirurgiões em robótica (prostatectomia, 2017) e recebeu Vattikuti Fellows (2016) — portas de treinamento robótico, mas não cardíaco",
+   "certeza": "não encontrado / provável (terceiros)"
+  },
+  "servico": {
+   "nome": "Medanta Heart Institute – Cardiac Surgery (CTVS), Medanta – The Medicity, Gurugram; usa da Vinci + MICS",
+   "chefe": "Dr. Naresh Trehan — Chairman, Managing Director e Chief Cardiac Surgeon; expertise listada inclui 'minimally invasive and robotically assisted cardiac surgery'",
+   "fellowship": "não encontrado",
+   "volume": "não encontrado volume robótico cardíaco recente; série histórica de 268 pacientes com cirurgia coronária robótica (dez/2002–set/2006), 14 TECAB, publicada por Mishra, Wasir, Rajneesh, Sharma, Mehta e Trehan (2007, J Robotic Surg — PMID/DOI não confirmados)",
+   "fontes": [
+    "https://www.medanta.org/doctor-listing/cardiac-surgery-doctors-in-gurugram",
+    "https://vattikutifoundation.com/?p=32918",
+    "https://wicri-demo.istex.fr/Wicri/Sic/explor/TelematiV1/Site/fr/Main/Merge/bibRecord.php?hk=001A05"
+   ],
+   "certeza": "chefia = confirmado; volume recente = não encontrado"
+  },
+  "pessoas_chave": [
+   {
+    "nome": "Naresh Trehan",
+    "cargo": "Chairman & MD, Chief Cardiac Surgeon, Medanta; pioneiro da robótica na Índia",
+    "por_que": "decide em última instância; nome que abre portas",
+    "fonte": "https://www.medanta.org/doctor-listing/cardiac-surgery-doctors-in-gurugram",
+    "certeza": "confirmado"
+   },
+   {
+    "nome": "Harpreet Wasir",
+    "cargo": "Cirurgião cardíaco do Medanta com 'robotic cardiac surgery' na lista de expertise; coautor da série robótica de 2007",
+    "por_que": "provável anfitrião do dia a dia na robótica cardíaca",
+    "fonte": "https://www.medanta.org/doctor-listing/cardiac-surgery-doctors-in-gurugram",
+    "certeza": "provável"
+   },
+   {
+    "nome": "Nitin Kumar Rajput",
+    "cargo": "Cirurgião cardíaco do Medanta com 'robotic-assisted CABG' na lista de expertise",
+    "por_que": "faz CABG robótico",
+    "fonte": "https://www.medanta.org/doctor-listing/cardiac-surgery-doctors-in-gurugram",
+    "certeza": "provável"
+   }
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": "não encontrado 2022-2026 (só a série histórica de 2007, que serve de gancho: 'a experiência pioneira de vocês em CABG robótico')",
+  "dicas": "Hospital grande com estrutura acadêmica (programas DNB) e tradição de treinar cirurgiões em robótica via Vattikuti; sem página pública de observership — pedir pelo escritório de educação/internacional. NOC da NMC provavelmente exigido.",
+  "rota_recomendada": "1) E-mail ao escritório internacional/acadêmico do Medanta pedindo 4 semanas de observação em cirurgia cardíaca robótica/MICS, citando o legado de Trehan e a série de CABG robótico; 2) pedir que encaminhem ao Dr. Harpreet Wasir como anfitrião; 3) checar exigência de NOC da NMC (US$200)."
+ }
+]

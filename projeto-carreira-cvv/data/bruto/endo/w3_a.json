@@ -1,0 +1,182 @@
+[
+ {
+  "match": "Jewish General Hospital (McGill)",
+  "cidade": "Montreal", "pais": "Canadá", "areas_polo": ["robotica", "hemodinamica_coronaria"],
+  "alerta_correcao": "A url do radar (mcgill.ca/cardiology/education/fellowships/cto) é de FELLOWSHIP de 2 anos (máx. 1 fellow/ano), não de observership. A porta de observership do JGH é o escritório de Medical Education do hospital, com médico supervisor e chefe de departamento em cópia.",
+  "programa": {
+    "nome": "Observership no JGH (Medical Education office / CIUSSS Centre-Ouest-de-l'Île-de-Montréal)",
+    "url": "https://www.mcgill.ca/obgyn/node/60501",
+    "trecho": "documentos enviados num único e-mail ao Medical Education do JGH, com o médico supervisor e o chefe de departamento em cópia; 'In order to properly plan this observation internship, please see below a few steps to be followed and documents to complete.'",
+    "contato_oficial": "jgh.medical.education.ccomtl@ssss.gouv.qc.ca (publicado como 'jgh.medical.education.ccomtl [at] ssss.gouv.qc.ca' na página McGill OB/GYN sobre observership no JGH; página sem data)",
+    "elegibilidade_residente_estrangeiro": "não encontrado explicitamente para cardiologia/cirurgia cardíaca",
+    "taxa": "não encontrado",
+    "duracao": "não encontrado",
+    "antecedencia": "não encontrado para o JGH (referência vizinha: formulário de observership do MUHC/CUSM 2026 indica aprovação em 2–4 semanas — https://cusm.ca/sites/default/files/m-Internships/Observership-Request-Form_HS_2026_V2.pdf — instituição diferente)",
+    "documentos": "formulário de identificação + formulários do Medical Education (pedir versão atualizada); no MUHC: observership request, observership agreement, carteira de vacinação se solicitada (não confirmado para o JGH)",
+    "certeza": "provável (e-mail e fluxo vêm de página de outro departamento McGill sobre o JGH; sem data)"
+  },
+  "servico": {
+    "nomes": ["Division of Cardiac Surgery, Jewish General Hospital (programa robótico intracardíaco e coronário)", "Division of Cardiology JGH — Interventional / CTO & Complex PCI program (McGill)"],
+    "chefes": [
+      {"area": "cirurgia cardíaca/robótica", "nome": "Emmanuel Moss", "cargo": "Chief, Division of Cardiac Surgery, JGH (2021–presente); Program Director, Cardiac Surgery Residency McGill", "fonte": "https://mcgill.ca/cardiacsurgery/faculty/dr-emmanuel-moss", "trecho": "Program Director, Cardiac Surgery Residency; Division Head, Cardiac Surgery Jewish General Hospital", "certeza": "provável — a página Contact Us de McGill Cardiac Surgery (https://www.mcgill.ca/cardiacsurgery/contact-us) ainda lista 'Dr. Jean-François Morin (Chief)', provavelmente desatualizada"},
+      {"area": "hemodinâmica/CTO", "nome": "não encontrado (chefe atual da hemodinâmica do JGH)", "fonte": null}
+    ],
+    "diretor_fellowship": {"nome": "Stéphane Rinfret (diretor) com Dominique Joyal (assistente) — documento de JANEIRO 2018", "fonte": "https://www.mcgill.ca/pgme/files/pgme/chronic_total_occlusion_complex_pci_fellowship_january2018.pdf", "certeza": "desatualizado/não confirmado para 2026; página atual do fellowship não nomeia diretor nos trechos"},
+    "fellowship_cto": {"url": "https://www.mcgill.ca/cardiology/education/fellowships/cto", "trecho": "Maximum 1 per year; Length of Fellowship 2 years; ≥300 PCIs no 1º ano", "certeza": "confirmado"},
+    "volume": "não encontrado (relatórios anuais da cardiologia JGH existem, último achado 2017: https://hgj-dev-staging-cdn.s3.amazonaws.com/documents/hgj/Medicine/Annual_reports/2017/Cardiology_2017.pdf)"
+  },
+  "pessoas_chave": [
+    {"nome": "Emmanuel Moss", "cargo": "Chefe da Cirurgia Cardíaca JGH; diretor da residência de cirurgia cardíaca McGill", "por_que": "Iniciou o programa robótico intracardíaco e de revascularização robótica do JGH; 'one of the only surgeons in Canada routinely performing both robotic mitral valve and coronary bypass surgeries'; fellowship em cirurgia minimamente invasiva/robótica na Emory. Decide/hospeda observers na cirurgia.", "fonte": "https://www.mcgill.ca/cardiacsurgery/node/635"},
+    {"nome": "Dominique Joyal", "cargo": "Cardiologista intervencionista JGH; co-operador do programa CTO", "por_que": "Ponto de entrada para a parte CTO/complex PCI; autor de meta-análise clássica de CTO PCI", "fonte": "https://www.mcgill.ca/cardiology/staff"},
+    {"nome": "Nathan Messas", "cargo": "Associate Professor, Division of Cardiology McGill; atua principalmente no JGH, foco em cardiologia intervencionista", "por_que": "Intervencionista do JGH, possível supervisor", "fonte": "https://www.mcgill.ca/deptmedicine/node/2036"},
+    {"nome": "Yves Langlois / Felix Ma", "cargo": "Cirurgiões cardíacos do JGH", "por_que": "Equipe da divisão (possíveis anfitriões)", "fonte": "https://www.mcgill.ca/cardiacsurgery/contact-us"},
+    {"nome": "Jonathan Afilalo", "cargo": "Cardiologista JGH (fragilidade, cardiologia geriátrica, pesquisa)", "por_que": "Pesquisador de alta visibilidade no JGH (não é das áreas do polo)", "fonte": "https://www.mcgill.ca/cardiology/staff"}
+  ],
+  "brasileiros": "não encontrado no JGH. Indireto: Luiz Fernando Ybarra (brasileiro, intervencionista, CTO) aparece com afiliação McGill University Health Centre em artigo dos Arq Bras Cardiol com coautores brasileiros (https://www.scielo.br/j/abc/a/9G7dR4nX4NTsKTDGYW8jYNx/abstract/?lang=en) — MUHC, não JGH; vínculo atual não confirmado. Certeza: provável/indireto.",
+  "pontes_unifesp_sp": "não encontrado (nenhuma coautoria JGH × Unifesp/InCor/Dante localizada nas buscas)",
+  "pesquisa_recente": [
+    {"titulo": "Desenho de ensaio sobre TAVI em pacientes com BRE novo (Moss coautor)", "ano": 2023, "id": "não encontrado (citado no perfil Doximity de Moss: https://www.doximity.com/pub/emmanuel-moss-md)", "certeza": "provável; não é da área robótica/coronária"},
+    {"nota": "Não foram encontrados artigos 2022–2026 do JGH em robótica ou CTO com PMID nas buscas. Sugestão: PubMed 'Moss E[au] AND Jewish General' e 'Joyal D[au] chronic total occlusion' antes de escrever o e-mail."}
+  ],
+  "dicas": [
+    "Fluxo do JGH: um único e-mail ao Medical Education com supervisor e chefe de departamento em cópia — ou seja, é preciso PRIMEIRO obter aceite de um médico do JGH (supervisor) antes de submeter (https://www.mcgill.ca/obgyn/node/60501).",
+    "Moss é um dos poucos no Canadá com robótica mitral + coronária de rotina — assunto forte para e-mail de residente interessada em robótica.",
+    "Montreal é francófona; formulários CIUSSS podem vir em francês."
+  ],
+  "rota_recomendada": "1) E-mail direto ao Dr. Emmanuel Moss (chefe da cirurgia cardíaca, programa robótico) pedindo 4 semanas de observership em robótica mitral/coronária, citando sua formação em Emory e o programa robótico; 2) com o aceite dele, enviar pacote ao Medical Education do JGH (jgh.medical.education.ccomtl@ssss.gouv.qc.ca) com Moss e o chefe em cópia; 3) se o foco for hemodinâmica/CTO, mesmo caminho via Dr. Dominique Joyal."
+ },
+ {
+  "match": "WVU Heart and Vascular Institute",
+  "cidade": "Morgantown (WV)", "pais": "EUA", "areas_polo": ["robotica", "ecmo"],
+  "programa": {
+    "nome": "International Medical Graduate (IMG) Observer Guideline — WVU School of Medicine / Office of Graduate Medical Education (rev. 2023)",
+    "url": "https://medicine.wvu.edu/media/372099/international-medical-graduate-observer-guideline-rev2023.pdf",
+    "url_politica": "https://medicine.wvu.edu/media/366303/img-observer-policy.pdf",
+    "elegibilidade_residente_estrangeiro": "confirmado (provável aplicável): observership destinado a IMGs 'who are not in an ACGME approved graduate medical educational training program or ECFMG approved nonstandard training program' — residente brasileira se enquadra.",
+    "taxa": "não encontrado (guideline diz que a WVU não paga observers, não reembolsa viagem nem dá honorário)",
+    "duracao": "não encontrado",
+    "antecedencia": "confirmado: pedido deve chegar ao Global Engagement Office 'no later than 90 days prior to the requested observation start date'",
+    "documentos": "carteira de vacinação, background check, 'courtesy access packet', crachá WVU com foto, treinamentos HIPAA e OSHA antes de iniciar (política OGME)",
+    "regras": "Supervisão direta o tempo todo; sem contato/exame independente de pacientes; sem crédito acadêmico. O 'accepting WVU faculty member' e o Chair/designee notificam o DIO (nome, país, datas).",
+    "contato_oficial": "Office of Graduate Medical Education WVU, tel. 304-293-0672 (citado nos trechos); Global Engagement Office do HSC recebe as aplicações. E-mail oficial: não encontrado.",
+    "certeza": "confirmado (antecedência, documentos, exigência de faculty aceitante); taxa/duração não encontradas"
+  },
+  "servico": {
+    "nomes": ["Department of Cardiovascular and Thoracic Surgery / WVU Heart & Vascular Institute — Cardiac Surgery (Robotic Aortic Valve Replacement – RAVR, robótica mitral)", "Adult ECMO Program, WVU HVI (ELSO Center of Excellence)"],
+    "chefes": [
+      {"area": "cirurgia cardíaca/robótica", "nome": "Vinay Badhwar", "cargo": "Gordon F. Murray Professor and Chair, Department of Cardiovascular and Thoracic Surgery; Executive Chair, WVU Heart and Vascular Institute", "fonte": "https://wvumedicine.org/our-care/institutes/heart/departments/cardiac-surgery/", "certeza": "confirmado"},
+      {"area": "ECMO", "nome": "J.W. Awori Hayanga", "cargo": "Diretor do ECMO Program (cirurgião torácico; veio da UPMC em 2017)", "fonte": "https://wvumedicine.org/news/article/wvu-heart-and-vascular-institute-s-dr-hayanga-delivers-10th-annual-van-praag-lecture-at-johns-hopkin", "certeza": "provável — página de liderança sem data lista Paul McCarthy como 'Director, WVU ECMO Program'"}
+    ],
+    "diretor_fellowship": "não encontrado (fellowship de cirurgia cardiotorácica aceita 1 fellow/ano, J-1, NRMP — https://medicine.wvu.edu/cardiovascular-and-thoracic-surgery/fellowships/cardiothoracic-surgery-fellowship)",
+    "volume": "RAVR: '>350 robotic valve procedures since 2020' (página RAVR WVU: https://wvumedicine.org/our-care/institutes/heart/departments/cardiac-surgery/ravr/) — sem ano exato; ECMO: ELSO Gold Center of Excellence (relatório HVI 2021: https://wvumedicine.org/heart/wp-content/uploads/sites/50/2022/03/HVIreport2021_FINAL.pdf)",
+    "certeza": "confirmado (nomes/chefe); volume provável"
+  },
+  "pessoas_chave": [
+    {"nome": "Vinay Badhwar", "cargo": "Chair CV&T Surgery; Executive Chair WVU HVI", "por_que": "Decide; criador da técnica RAVR (1ª RAVR completa jan/2020; 1ª RAVR+CABG robótica out/2024); programa reconhecido por STS/AATS como destino de treinamento robótico e que 'proctored surgeons from across the globe'", "fonte": "https://wvumedicine.org/our-care/institutes/heart/departments/cardiac-surgery/"},
+    {"nome": "J.W. Awori Hayanga", "cargo": "Diretor do programa de ECMO (adulto)", "por_que": "Lidera ECMO/VV-ECMO e pesquisa de sobreviventes de ECMO", "fonte": "https://wvumedicine.org/news/article/wvu-heart-and-vascular-surgeon-is-lead-author-in-recommendations-on-treatment-of-covid-patients"},
+    {"nome": "Paul McCarthy", "cargo": "Listado como Director WVU ECMO Program e Director HVI Research Division (página sem data)", "por_que": "Possível interlocutor de pesquisa/ECMO", "fonte": "https://wvumedicine.org/heart/?p=9496", "certeza": "provável/possivelmente desatualizado"},
+    {"nome": "William D. Patten", "cargo": "Diretor do ECMO da WVU Medicine Children's", "por_que": "ECMO pediátrico (se interesse)", "fonte": "https://wvumedicine.org/news/article/wvu-heart-and-vascular-institute-wvu-medicine-children-s-ecmo-teams-receive-national-awards"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+    {"titulo": "Primeira RAVR + CABG robótica por incisão única (relato em The Annals of Thoracic Surgery, Badhwar 1º autor)", "ano": "2024/2025", "id": "não encontrado (DOI não localizado)", "fonte": "https://cardiovascularbusiness.com/topics/clinical/cardiac-surgery/heart-surgeons-detail-worlds-first-robotic-heart-procedure-its-kind", "certeza": "provável"},
+    {"titulo": "Survivorship clinic model for VV-ECMO survivors (pacientes 2020–2023; QALY/SF-12)", "ano": 2025, "id": "PMC12167524 (Ann Thorac Surg Short Reports)", "fonte": "https://rcastoragev2.blob.core.windows.net/a2414d703538351b5589a9913718d76c/main.PMC12167524.pdf", "certeza": "provável (afiliação WVU/Hayanga inferida do contexto da busca)"},
+    {"titulo": "Robotic aortic valve replacement (expert opinion, Badhwar & Wei)", "ano": 2020, "id": "doi:10.1016/j.jtcvs.2020.10.078", "certeza": "confirmado — fora da janela 2022–2026, útil como referência fundadora"}
+  ],
+  "dicas": [
+    "Sponsor interno é obrigatório: o 'accepting WVU faculty member' e o Chair/designee notificam o DIO — conseguir aceite de Badhwar ou de cirurgião da equipe ANTES.",
+    "Mandar o pedido com ≥90 dias de antecedência (idealmente 4–5 meses, por causa de background check).",
+    "Simpósio internacional de RAVR do WVU HVI (1º em 2024; 2º previsto 13–14 nov 2025) — porta de entrada para conhecer a equipe pessoalmente (https://cardiovascularbusiness.com/topics/clinical/cardiac-surgery/new-alternative-surgeons-cardiologists-gather-learn-more-about-robotic-aortic-valve-replacement). Edição 2026: não encontrado.",
+    "Badhwar declarou que hoje muitos cirurgiões aprendem por vídeos antes de iniciar casos — vale citar vídeos/RAVR no e-mail."
+  ],
+  "rota_recomendada": "1) E-mail ao Dr. Vinay Badhwar (ou à equipe de cirurgia cardíaca do HVI) pedindo 4 semanas de observership em robótica (RAVR/mitral) + ECMO, citando o relato RAVR+CABG no Ann Thorac Surg; 2) com o faculty aceitante, submeter pela IMG Observer Guideline ao Global Engagement Office/GME com ≥90 dias (vacinas, background check, HIPAA/OSHA); 3) alternativa: participar do simpósio de RAVR e pedir a visita lá."
+ },
+ {
+  "match": "Klinikum Dortmund — Herzchirurgie",
+  "cidade": "Dortmund", "pais": "Alemanha", "areas_polo": ["robotica", "coronaria"],
+  "alerta_correcao": "A área 'robotica' parece INCORRETA: as fontes ligam o Klinikum Dortmund a cirurgia coronária MINIMAMENTE INVASIVA (MIDCAB, MV-MIDCAB, off-pump), não robótica; o da Vinci do hospital aparece apenas em cirurgia geral (https://www.klinikumdo.de/fileadmin/Dokumente/Zentren/InfoFlyerdaVinci.pdf). O 'programa' é um centro de TREINAMENTO MIDCAB em parceria com a Medtronic (para cirurgiões), não observership formal.",
+  "programa": {
+    "nome": "International Reference / Training Center for Minimally Invasive Bypass Surgery (MIDCAB, MV-MIDCAB), em cooperação com a Medtronic desde 01/01/2020",
+    "url": "https://klinikumdo.de/kliniken-zentren/kliniken/herzchirurgie/international-reference-center-for-bypass-surgery",
+    "trecho": "'recognized as a training center for minimally invasive bypass operations (MIDCAB, MV-MIDCAB)'; 'starting from 01.01.2020, our clinic for cardiac surgery, in cooperation with Medtronic, offers training for minimally invasive bypass surgery'",
+    "elegibilidade_residente_estrangeiro": "não encontrado",
+    "taxa": "não encontrado", "duracao": "não encontrado", "antecedencia": "não encontrado", "documentos": "não encontrado (Hospitation na Alemanha geralmente pede comprovação vacinal/seguro — não confirmado para Dortmund)",
+    "contato_oficial": "Secretaria da Herzchirurgie +49 (0)231 953-20980 (citado em resultado da página do hospital); página internacional: https://www.klinikumdo.de/kliniken-zentren/kliniken/herzchirurgie/international-patients/english. E-mail oficial: não encontrado.",
+    "certeza": "confirmado (centro de treinamento MIDCAB/Medtronic); detalhes de observership não encontrados"
+  },
+  "servico": {
+    "nomes": ["Klinik für Herzchirurgie, Klinikum Dortmund gGmbH (Klinikum der Universität Witten/Herdecke)"],
+    "chefes": [{"nome": "Prof. Dr. Alexander Albert", "cargo": "Chefarzt (desde 2019) e Ärztlicher Direktor", "fonte": "https://admin.leading-medicine-guide.com/spezialisten/alexander-albert-dortmund", "certeza": "confirmado (diretório + CTSNet https://www.ctsnet.org/home/aalbert)"}],
+    "diretor_fellowship": "não se aplica / não encontrado",
+    "volume": "não encontrado"
+  },
+  "pessoas_chave": [
+    {"nome": "Prof. Dr. Alexander Albert", "cargo": "Chefarzt Herzchirurgie e Diretor Médico", "por_que": "Decide; especialista internacional em off-pump e MIDCAB/MVST, BIMA, coleta endoscópica de radial; lidera o centro europeu de treinamento MIDCAB da Medtronic em Dortmund; coeditor do livro 'Operative Techniques in Coronary Artery Bypass Surgery' (Springer)", "fonte": "https://www.ctsnet.org/home/aalbert"},
+    {"nome": "Dr. Alexander Blehm", "cargo": "Leitender Oberarzt, Herzchirurgie", "por_que": "Segundo na hierarquia; provável organizador do dia a dia de visitantes", "fonte": "https://www.arzt-auskunft.de/herzchirurgie/dortmund/", "certeza": "provável (diretório de terceiros)"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+    {"titulo": "The impact of socio-demographic factors on health-related quality of life after coronary artery bypass surgery (Assmann AK, Assmann A, ... Albert A)", "ano": 2023, "id": "Interdiscip Cardiovasc Thorac Surg (PMID/DOI não encontrado)", "fonte": "https://www.klinikumdo.de/medizin/herzchirurgie/publikationen", "certeza": "provável"},
+    {"titulo": "Less-invasive ventricular assist device implantation: A multicenter study (Albert A coautor)", "ano": "não confirmado", "id": "J Thorac Cardiovasc Surg (PMID não encontrado)", "fonte": "https://www.klinikumdo.de/medizin/herzchirurgie/publikationen", "certeza": "provável"},
+    {"nota": "Lista oficial de publicações do serviço: https://www.klinikumdo.de/medizin/herzchirurgie/publikationen — conferir antes do e-mail."}
+  ],
+  "dicas": [
+    "Enquadrar o pedido como interesse em revascularização minimamente invasiva (MIDCAB/MV-MIDCAB, off-pump, BIMA) — é o carro-chefe do serviço, não robótica.",
+    "O treinamento é com a Medtronic: perguntar à Medtronic Brasil/Educação se há vaga para residente/observer nos cursos MIDCAB de Dortmund pode ser porta de entrada.",
+    "Para robótica coronária na Europa, a EACTS 'Robotics Revascularisation Training' (Leuven; 2–3 set 2026, esgotado com lista de espera) é alternativa (https://www.eacts.org/education/eacts-academy/events/robotics-revascularisation-training/)."
+  ],
+  "rota_recomendada": "1) E-mail (em inglês, idealmente com saudação em alemão) ao Prof. Alexander Albert via secretaria da Herzchirurgie, pedindo Hospitation de 4 semanas focada em MIDCAB/off-pump, citando seu livro/técnicas; 2) em paralelo, contatar a Medtronic sobre os cursos de MIDCAB do centro de Dortmund; 3) se o objetivo for robótica, priorizar outro polo (o Dortmund não tem robótica cardíaca documentada)."
+ },
+ {
+  "match": "National Heart Centre Singapore (SingHealth)",
+  "cidade": "Singapura", "pais": "Singapura", "areas_polo": ["ic", "imagem"],
+  "alerta_correcao": "A url do radar (SingHealth Academy fellowship overview) é o guarda-chuva de fellowships SingHealth. O NHCS tem página própria de training & fellowships (https://www.nhcs.com.sg/education/training-and-fellowships) e e-mail próprio. Não confundir com o National University Heart Centre Singapore (NUHCS/NUHS), que é outra instituição.",
+  "programa": {
+    "nome": "NHCS Office of Training & Education — Fellowships (Heart Failure, Cardiac Imaging, Echocardiography, Cardiac CT) e Clinical Observership",
+    "url": "https://www.nhcs.com.sg/education/training-and-fellowships/list-of-fellowship-programmes",
+    "urls_area": ["https://www.nhcs.com.sg/education/training-and-fellowships/list-of-fellowship-programmes/Fellowship-Training-in-Heart-Failure", "https://www.nhcs.com.sg/education/training-and-fellowships/list-of-fellowship-programmes/fellowship-training-in-cardiac-imaging", "https://www.nhcs.com.sg/education/training-and-fellowships/list-of-fellowship-programmes/fellowship-training-in-echocardiography"],
+    "contato_oficial": "nhcs.ote@nhcs.com.sg (NHCS Fellowship Administrator / Office of Training & Education — publicado no site oficial)",
+    "observership": "Existe na prática: relato de 2024 da Universitas Sumatera Utara sobre 3 médicos em 'Clinical Observership programs' no NHCS, incluindo rounds de IC, ambulatórios e cateterismo direito (https://www.usu.ac.id/en/university-activity/three-usu-medical-faculty-doctors-participate-in-clinical-education-at-nhcs). Página oficial de observership do NHCS: não encontrada.",
+    "elegibilidade_residente_estrangeiro": "Fellowship: NÃO para residente (exige 2–3 anos pós título + prática ativa 3 anos, registro temporário SMC, Training Employment Pass). Observership hands-off: em outras instituições SingHealth/NUHS, observers hands-off não precisam de registro no SMC — provável aplicável.",
+    "taxa": "não encontrado para o NHCS (referências SingHealth: SNEC S$160,50; KKH hands-off S$163,50; NNI S$545 — instituições diferentes)",
+    "duracao": "não encontrado para NHCS (referência NCCS/SingHealth: hands-off observership até 28 dias)",
+    "antecedencia": "Fellowship: aplicações 1 fev–31 jul, revisão out/nov, resultado dez/jan (formulário NHCS abr/2023). Observership: não encontrado (IMH indica até 3 meses de processamento).",
+    "documentos": "Fellowship: formulário + CV por e-mail; financiamento próprio ('selected applicants must arrange their own funding'); SMC/MOM; IELTS/TOEFL se graduação não foi em inglês (formulário SNEC) — https://www.nhcs.com.sg:443/education-training/fellowships/Documents/01%20NHCS%20Fellowship%20Application%20Form.Apr23.pdf",
+    "certeza": "confirmado (e-mail OTE, regras de fellowship); provável (observership curta existe); taxa/duração não encontradas"
+  },
+  "servico": {
+    "nomes": ["Heart Failure Programme, NHCS", "Heart Transplant & Mechanical Assist Device Programme", "Cardiac Magnetic Resonance Imaging / Echocardiography / Non-invasive Cardiac Laboratory", "Advanced Cardiometabolic Imaging research core (https://www.nhcs.com.sg/research-innovation/research-cores/advanced-cardiometabolic-imaging)"],
+    "chefes": [
+      {"area": "IC", "nome": "Louis Teo (Teo Loon Yee Louis)", "cargo": "Director, Heart Failure Programme (mai/2025–presente); co-diretor jul/2023–abr/2025", "fonte": "https://www.nhcs.com.sg/doctor/cardiology/louis-teo", "certeza": "provável (página do programa ainda lista David Sim)"},
+      {"area": "cardiologia", "nome": "David Sim", "cargo": "Head, Department of Cardiology; ex-diretor do Heart Failure Programme 2011–abr/2025", "fonte": "https://nhcs.com.sg/profile/sim-kheng-leng-david", "certeza": "provável"},
+      {"area": "transplante/MCS", "nome": "Tan Teing Ee (diretor) e Zameer Abdul Aziz (co-diretor desde mai/2025)", "fonte": "https://www.nhcs.com.sg/profile/zameer-bin-abdul-aziz", "certeza": "provável"},
+      {"area": "RM cardíaca", "nome": "Assoc Prof Calvin Chin Chee Yang", "cargo": "Director, Cardiac MRI; Deputy Director, National Heart Research Institute Singapore", "fonte": "https://www.eurekalert.org/news-releases/1064678", "certeza": "confirmado (nov/2024)"},
+      {"area": "eco", "nome": "Clin Assoc Prof Ewe See Hooi", "cargo": "Director of Echocardiography", "fonte": "https://www.apaclearningacademy.philips.com/promotions/post/clinical-associate-professor-ewe-see-hooi", "certeza": "provável (fonte sem data)"}
+    ],
+    "volume": "não encontrado; '>120 international fellows since 1992' (https://www.nhcs.com.sg:443/education-training/fellowships/overseas-fellowship-alumni)"
+  },
+  "pessoas_chave": [
+    {"nome": "Louis Teo", "cargo": "Diretor do Heart Failure Programme", "por_que": "Decide/hospeda em IC", "fonte": "https://www.nhcs.com.sg/doctor/cardiology/louis-teo"},
+    {"nome": "David Sim", "cargo": "Chefe do Departamento de Cardiologia", "por_que": "Aprova estágios no departamento", "fonte": "https://www.nhcs.com.sg/doctor/cardiology/david-sim"},
+    {"nome": "Calvin Chin Chee Yang", "cargo": "Diretor de RM cardíaca; vice-diretor NHRIS", "por_que": "Lidera imagem avançada e pesquisa (RM em IC/diabetes)", "fonte": "https://www.eurekalert.org/news-releases/1064678"},
+    {"nome": "Ewe See Hooi", "cargo": "Diretora de Ecocardiografia", "por_que": "Hospeda observers em eco", "fonte": "https://www.apaclearningacademy.philips.com/promotions/post/clinical-associate-professor-ewe-see-hooi"},
+    {"nome": "Carolyn S.P. Lam", "cargo": "Senior Consultant Cardiologist NHCS; Professor Duke-NUS", "por_que": "Líder mundial em IC (HFpEF, eco, biomarcadores; ASIAN-HF, SHOP)", "fonte": "https://cme.utsouthwestern.edu/node/117327/bio/58597/view"},
+    {"nome": "Huang Weiting / Go Yun Yun", "cargo": "Senior Consultants em RM cardíaca e eco", "por_que": "Possíveis supervisores diretos em imagem", "fonte": "https://www.nhcs.com.sg/profile/huang-weiting"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado especificamente; Carolyn Lam participa de grandes ensaios globais de IC que costumam incluir centros brasileiros, mas coautoria com Unifesp/InCor não foi verificada nesta pesquisa (certeza: não confirmado).",
+  "pesquisa_recente": [
+    {"titulo": "Global longitudinal strain por RM em IC com diabetes + biomarcadores plasmáticos de fibrose/inflamação (ATTRaCT; Lam, Chin et al.)", "ano": 2023, "id": "medRxiv doi:10.1101/2023.03.20.23287472 (versão publicada/PMID não encontrada)", "fonte": "https://www.news-medical.net/news/20230731/Study-suggests-global-longitudinal-strain-is-a-powerful-independent-predictor-of-adverse-outcomes-in-patients-with-heart-failure-and-diabetes.aspx", "certeza": "confirmado (preprint)"},
+    {"nota": "Outros artigos 2022–2026 com PMID não localizados nas buscas; sugerir PubMed 'Chin CWL[au] cardiac magnetic resonance' e 'Teo LLY[au] heart failure'."}
+  ],
+  "dicas": [
+    "Fellowship formal exige experiência pós-título e registro SMC — para residente o caminho é observership hands-off curto (≈até 4 semanas), sem contato com paciente; SMC não exige registro para hands-off (regra SingHealth/NUHS).",
+    "Escrever para nhcs.ote@nhcs.com.sg pedindo explicitamente 'hands-off clinical observership' em Heart Failure e/ou Cardiac Imaging, com supervisor sugerido.",
+    "MOU NHCS × Mayo Clinic (jun/2025) para treinamento — sinal de abertura a intercâmbio (https://www.news-medical.net/news/20250619/NHCS-and-Mayo-Clinic-join-forces-to-advance-global-cardiovascular-care.aspx).",
+    "Prever processamento de até 3 meses e pequena taxa administrativa (S$150–550 em outras instituições SingHealth)."
+  ],
+  "rota_recomendada": "1) E-mail ao Office of Training & Education (nhcs.ote@nhcs.com.sg) pedindo observership hands-off de 4 semanas no Heart Failure Programme + RM/eco, com 3–4 meses de antecedência; 2) em paralelo, e-mail curto ao Dr. Louis Teo (IC) ou Assoc Prof Calvin Chin (RM) pedindo para ser o supervisor, citando o trabalho de GLS por RM em IC/diabetes; 3) não aplicar ao fellowship formal (inelegível como residente)."
+ }
+]

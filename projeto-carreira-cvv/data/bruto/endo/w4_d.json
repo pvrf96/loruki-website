@@ -1,0 +1,147 @@
+[
+ {
+  "match": "NewYork-Presbyterian / Columbia",
+  "alerta_correcao": "Liderança mudou em 2026: Emile Bacha (ex-chefe CTVS) virou Chair of Surgery/Surgeon-in-Chief em 01/01/2026 e Arnar Geirsson foi nomeado chefe da Division of Cardiac Surgery em 10/02/2026. Nenhuma página de observership da cardiologia/cirurgia cardíaca foi encontrada; o único programa de visitante achado é da Neurologia (não vale para cardio).",
+  "programa": {
+   "pagina": "não encontrado (cardiologia/cirurgia cardíaca)",
+   "elegibilidade": "Não encontrada página oficial para médicos estrangeiros em cardio. Columbia Cardiology tem 'Visiting Scholars Program' só para estudantes de medicina (https://www.columbiacardiology.org/node/5726). Observership de Cirurgia Geral 'closed until further notice due to COVID-19' (https://columbiasurgery.org/node/8656).",
+   "referencia_outro_depto": "Modelo Columbia/NYP na Neurologia: clinical observer MD/PhD, só observação, precisa de sponsor no staff da NYP com aprovação do Service Chief, até 3 meses, taxa US$1.000 (https://www.columbianeurology.org/education-and-training/visiting-physicians-and-scientists/clinical-observership). Provável que cardio siga lógica semelhante (sponsor interno), mas NÃO confirmado.",
+   "contato_oficial": "não encontrado",
+   "certeza": "confirmado que não há página pública de cardio encontrada; regras de cardio não encontradas"
+  },
+  "servico": {
+   "nome": "Division of Cardiac Surgery (antes Division of Cardiac, Thoracic and Vascular Surgery), NYP/Columbia University Irving Medical Center; Columbia Structural Heart and Valve Center; Robotic Cardiac Surgery Program; Heart Failure, Transplant & VAD; Fetal Cardiology / Pediatric Cardiology (Morgan Stanley Children's)",
+   "chefe": "Arnar Geirsson, chefe da Division of Cardiac Surgery (anúncio 10/02/2026) — https://www.nyp.org/news/nyp-and-cuimc-announce-new-leadership-appointments-in-cardiac-surgery",
+   "volume": "300ª cirurgia cardíaca robótica (dez/2025; programa iniciado set/2023) — https://www.nyp.org/news/newyork-presbyterian-and-columbia-cardiac-surgeons-perform-300th-robotic-heart-surgery ; transplante: '>80 transplants each year... largest U.S. heart transplant program by volume' (autodeclarado, sem ano) — https://columbiasurgery.org/lvad ; Mitral Foundation Reference Center Award 2026 — https://columbiasurgery.org/node/18753",
+   "certeza": "confirmado (chefe e marco robótico); volume de transplante autodeclarado"
+  },
+  "pessoas_chave": [
+   {"nome": "Arnar Geirsson, MD", "cargo": "Chief, Division of Cardiac Surgery; diretor do Cardiovascular Institute e do surgical heart valve program; fundou o programa robótico (2023, vindo de Yale)", "por_que": "decide no serviço; lidera robótica/mitral", "fonte": "https://www.nyp.org/news/nyp-and-cuimc-announce-new-leadership-appointments-in-cardiac-surgery ; https://www.vagelos.columbia.edu/about-us/columbia-medicine-magazine/archives/winter-2024-25/clinical-advances/robotic-heart-surgery-program-flourishes-columbia", "certeza": "confirmado"},
+   {"nome": "Michael LaLonde, MHA, PA-C", "cargo": "Director, Robotic Cardiac Surgery Program (perfil do programa)", "por_que": "coordena operação do programa robótico — logística de visitante", "fonte": "https://columbiasurgery.org/node/16786", "certeza": "provável (fontes divergem sobre quem 'dirige')"},
+   {"nome": "Koji Takeda, MD", "cargo": "Surgical Director, Heart Transplant and Mechanical Circulatory Support", "por_que": "hospeda área transplante/ECMO/VAD", "fonte": "https://columbiasurgery.org/transplant ; https://www.columbiadoctors.org/koji-takeda-md", "certeza": "confirmado (perfil sem data)"},
+   {"nome": "Isaac George, MD; Tamim Nazif, MD; Torsten Vahl, MD", "cargo": "Co-directors, Structural Heart and Valve Center (George é cirurgião)", "por_que": "estrutural; Susheel Kodali ainda aparece como Director em perfis de 2025", "fonte": "https://www.nyp.org/advances/article/cardiology/structural-heart-and-valve-center-at-newyork-presbyterian-and-columbia-advances-cardiac-care-through-innovation-and-multidisciplinary-expertise ; https://www.columbiacardiology.org/profile/susheel-k-kodali-md", "certeza": "provável (fontes conflitantes)"},
+   {"nome": "Emile Bacha, MD", "cargo": "Chair of Surgery CUIMC / Surgeon-in-Chief NYP (desde 01/01/2026); cirurgião congênito; presidente AATS 2025", "por_que": "autoridade máxima da cirurgia; congênitas/robótica pediátrica", "fonte": "https://www.cuimc.columbia.edu/node/30037", "certeza": "confirmado"},
+   {"nome": "Stephanie Levasseur, MD / Matthew Crystal, MD", "cargo": "Director of Fetal Cardiology / Director of Fetal Cardiac Intervention", "por_que": "fetal e cardio pediátrica", "fonte": "https://doctors.nyp.org/stephanie-levasseur-md/cumc-newyork-presbyterian-morgan-stanley-childrens-hospital ; https://pediatrics.columbia.edu/profile/matthew-crystal-md", "certeza": "provável (perfis sem data)"}
+  ],
+  "brasileiros": "não encontrado (Javier Maldonado, ex-Columbia Presbyterian em transplante/VAD, fez residência no InCor 1992–94, mas não há indicação de ser brasileiro nem de estar atual — https://ctsnet.freelock.com/article/author/jmaldonado; provável, baixo valor)",
+  "pontes_unifesp_sp": "não encontrado nas buscas (sem coautoria Columbia+Unifesp/InCor/Dante localizada; checar PubMed por afiliação)",
+  "pesquisa_recente": [
+   {"titulo": "Transcatheter Valve Replacement in Severe Tricuspid Regurgitation (TRISCEND II)", "ano": 2024, "id": "DOI 10.1056/NEJMoa2401918", "nota": "1ª autora Rebecca Hahn (Columbia), Kodali sênior", "fonte": "https://www.pcronline.com/News/Congress-coverages/TCT/2024/TRISCEND-II-trial-Randomized-comparison-transcatheter-valve-replacement-optimal-medical-therapy-for-severe-tricuspid-regurgitation"},
+   {"titulo": "Robotic Mitral Valve Repair for Degenerative Mitral Regurgitation (Ann Thorac Surg)", "ano": 2024, "id": "não encontrado", "fonte": "https://columbiasurgery.org/node/18745"},
+   {"titulo": "Mitral valve repair for degenerative MR with moderate or less TR: 2-year outcomes (JACC)", "ano": 2026, "id": "não encontrado", "fonte": "https://columbiasurgery.org/node/18745"}
+  ],
+  "dicas": [
+   "Programa robótico jovem (set/2023) e em expansão — 99% de reparo em prolapso mitral sem conversão (dado institucional) — bom gancho para e-mail a Geirsson.",
+   "Programa de robótica pediátrica/congênita existe (https://columbiasurgery.org/node/17761).",
+   "Columbia sedia o AATS Mitral Conclave (destaques 2025: https://www.nyp.org/advances/article/cardiology/highlights-from-the-2025-aats-mitral-conclave) — congresso como porta de contato.",
+   "Pela regra vista em outro depto Columbia/NYP, espere precisar de sponsor no staff + aprovação do chefe + taxa administrativa."
+  ],
+  "rota_recomendada": "1) E-mail personalizado a Arnar Geirsson (robótica/mitral) citando o marco de 300 casos e o paper de Ann Thorac Surg 2024, pedindo para ser sponsor de observership de 4 semanas; em paralelo perguntar ao escritório da Division of Cardiac Surgery o processo oficial (taxa/documentos). 2) Alternativa por área: Takeda (transplante/ECMO) ou Structural Heart Center. 3) Usar o AATS Mitral Conclave como ponto de contato presencial."
+ },
+ {
+  "match": "University of Ottawa Heart Institute",
+  "alerta_correcao": "O URL do radar é a página da Division of Cardiac Surgery da uOttawa (faculdade), não do UOHI; nenhuma página pública de observership do UOHI foi achada. 'Robótica' não confirmada como programa forte: o destaque é MICS CABG (multiarterial por minitoracotomia) de Marc Ruel; robotic CABG aparece só em webinar AATS.",
+  "programa": {
+   "pagina": "não encontrado",
+   "elegibilidade": "não encontrado para UOHI. No Ontário, o regulador CPSO não administra observerships ('The College does not administer observerships' — https://www.cpso.on.ca/getmedia/4e8ff72e-9e8c-44b2-8d81-a38317dbbbe0/observerships.pdf); cada hospital define. Fellowships formais do UOHI exigem licença educacional de Ontário (https://jobs.smartrecruiters.com/ni/UniversityOfOttawa1/62cf09e0-6263-42d3-a42d-4f7f5b531bd3-advanced-adult-clinical-cardiology-fellowship).",
+   "contato_oficial": "não encontrado (Barb Shantz, Divisional Academic Administrator, aparece como contato de vagas de cardiologia — não é contato de observership)",
+   "certeza": "não encontrado"
+  },
+  "servico": {
+   "nome": "Division of Cardiac Surgery e Division of Cardiology (UOHI/uOttawa); Division of Cardiac Prevention and Rehabilitation; Arrhythmia/EP service",
+   "chefe": "Cirurgia: Marc Ruel — Chief of Cardiac Surgery desde 2012 e Chairman Division of Cardiac Surgery uOttawa desde 2013 (https://newswire.ca/news-releases/heart-institute-names-renowned-surgeon-as-head-of-cardiac-surgery-division-511338571.html ; https://www.eacts.org/faculty/marc-ruel). CEO: Rob Beanlands desde 01/04/2024 (https://ccs.ca/news/ccs-member-dr-rob-beanlands-appointed-president-and-chief-executive-officer-of-the-university-of-ottawa-heart-institute/). Cardiologia: David Birnie listado como Head ou Deputy Head (fontes divergem).",
+   "volume": "não encontrado com ano; MIST trial 2026: 170 pacientes, 7 centros",
+   "certeza": "Ruel provável-atual (sem fonte 2025); Beanlands confirmado"
+  },
+  "pessoas_chave": [
+   {"nome": "Marc Ruel, MD MPH", "cargo": "Chief/Division Head, Cardiac Surgery", "por_que": "decide; lidera MICS CABG e ministra cursos internacionais 'teaching surgeons from around the world both in Ottawa and internationally'", "fonte": "https://ottawasymphony.com/artists/marc-ruel ; https://www.uottawa.ca/faculty-medicine/directory/dr-marc-ruel", "certeza": "provável"},
+   {"nome": "David Birnie, MD", "cargo": "Cardiac Electrophysiologist; Head ou Deputy Head, Division of Cardiology", "por_que": "EP e liderança da cardiologia", "fonte": "https://radcliffecardiology.com/authors/david-birnie ; https://theorg.com/org/university-of-ottawa-heart-institute/org-chart/david-birnie", "certeza": "provável"},
+   {"nome": "Martin Green, MD", "cargo": "Director, Postgraduate EP Fellowship", "por_que": "ensino em EP", "fonte": "https://network.expertisefinder.com/experts/martin-s-green", "certeza": "provável"},
+   {"nome": "Rob Beanlands, MD", "cargo": "President & CEO UOHI (2024–2029)", "por_que": "liderança institucional (imagem cardíaca/nuclear)", "fonte": "https://ccs.ca/news/ccs-member-dr-rob-beanlands-appointed-president-and-chief-executive-officer-of-the-university-of-ottawa-heart-institute/", "certeza": "confirmado"},
+   {"nome": "Robert Reid / Jennifer Reed", "cargo": "Deputy Chief, Cardiac Prevention & Rehabilitation / Program Chair Cardiac Rehabilitation", "por_que": "área reabilitação", "fonte": "https://www.csanzasm.com/speakers/jennifer-reed", "certeza": "provável"},
+   {"nome": "Peter Liu, MD", "cargo": "Chief Scientific Officer / VP Research", "por_que": "IC/pesquisa", "fonte": "https://theorg.com/org/university-of-ottawa-heart-institute/org-chart/peter-liu", "certeza": "provável (pode estar desatualizado)"}
+  ],
+  "brasileiros": "Fellow em cardiologia nuclear no UOHI desde 2019 com doutorado na Universidade Federal Fluminense (perfil IAEA, nome não visível no trecho) — https://iaea.org/node/88393 (provável). Nenhum brasileiro confirmado em cirurgia/IC.",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {"titulo": "Multivessel coronary artery bypass grafting via small thoracotomy versus sternotomy (MIST): randomised trial", "ano": 2026, "id": "PMID 42537680; DOI 10.1016/S0140-6736(26)01288-2", "fonte": "https://clinicaltrials.gov/study/NCT03447938 ; https://www.uottawa.ca/en/news-all/worlds-first-randomized-trial-finds-less-invasive-heart-bypass-surgery-speeds-recovery"},
+   {"titulo": "Robotic CABG: How I Do It (webinar AATS, Ruel; disponível 2026–2029)", "ano": 2026, "id": "não é artigo", "fonte": "https://education.aats.org/node/846"}
+  ],
+  "dicas": [
+   "Ruel organiza cursos internacionais de MICS CABG e minimally invasive valve surgery em Ottawa — curso/proctoring como porta de entrada.",
+   "Fellowships do UOHI exigem licença educacional de Ontário — para 1 mês, buscar observership informal via chefe de divisão.",
+   "Laboratório de eco do UOHI recebe trainees internacionais desde 1988 (https://csecho.ca/wp-content/uploads/9UniversityofOttawaHeartInstitute.pdf)."
+  ],
+  "rota_recomendada": "1) E-mail a Marc Ruel citando o MIST (Lancet 2026) e pedindo observership de 4 semanas em MICS CABG/robótica, perguntando se há curso internacional próximo. 2) Para cardiologia (EP/IC/reabilitação), contatar o escritório acadêmico da Division of Cardiology pedindo o processo de observer."
+ },
+ {
+  "match": "Hospital Italiano de Buenos Aires",
+  "alerta_correcao": "O URL do radar descreve cirurgia por via axilar (minimamente invasiva) para tumor/válvula aórtica, liderada por Germán Fortunato — NÃO é cirurgia robótica. Não achei programa robótico cardíaco no HIBA; o primeiro bypass robótico da Argentina foi na Fundación Favaloro.",
+  "programa": {
+   "pagina": "não encontrado",
+   "elegibilidade": "Provável que aceite rotação externa internacional: resoluções do governo peruano aprovaram rotação externa internacional de residente em Cirurgia Pediátrica no HIBA em 2023 (https://cdn.www.gob.pe/uploads/document/file/4761111/R.D.%20N%C2%B0079-2023-DG_removed%20%281%29.pdf). Regras específicas de cardio não encontradas. Em hospitais vizinhos (Austral), estrangeiro sem matrícula argentina entra só como observador.",
+   "contato_oficial": "posgrado@hospitalitaliano.org.ar aparece em matéria de 2006 (IntraMed) — possivelmente desatualizado",
+   "certeza": "provável (existência de rotação externa); detalhes não encontrados"
+  },
+  "servico": {
+   "nome": "Instituto de Medicina Cardiovascular do HIBA: Servicio de Cirugía Cardiovascular; Servicio de Cardiología Adultos; Programa de Trasplante Cardíaco (adulto e pediátrico)",
+   "chefe": "Vadim Kotowicz — Chief of Cardiovascular Surgery (2014–atual, CTSNet) — https://ctsnet.org/home/vkotowicz ; chefe de cardiologia não encontrado",
+   "volume": "500 transplantes cardíacos em adultos desde 1988, 50 nos últimos 3 anos (jan/2026) — https://www.noticiasnqn.com.ar/noticias/2026/01/21/326942-de-neuquen-al-trasplante-500-la-historia-que-cambio-la-vida-de-dorelia ; 1º transplante cardíaco pediátrico com doador em parada (DCD) da Argentina, jun/2025 — https://www.diariodecuyo.com.ar/argentina/en-argentina-realizaron-el-primer-trasplante-de-corazon-pediatrico-de-un-donante-con-paro-cardiaco-1745738.html",
+   "certeza": "confirmado (Kotowicz e volumes de imprensa)"
+  },
+  "pessoas_chave": [
+   {"nome": "Vadim Kotowicz", "cargo": "Jefe del Servicio de Cirugía Cardiovascular", "por_que": "decide aceite na cirurgia", "fonte": "https://www.lavozdesanjusto.com.ar/realizaron-una-inedita-operacion-de-corazon-a-traves-de-la-axila-en-la-argentina", "certeza": "confirmado"},
+   {"nome": "Germán Fortunato", "cargo": "Cirujano cardiovascular staff; liderou a cirurgia via axilar", "por_que": "cirurgia minimamente invasiva (área 'robótica' do radar)", "fonte": "https://www.ctsnet.org/members/german-fortunato/", "certeza": "confirmado"},
+   {"nome": "Jorge Barretta", "cargo": "Jefe de cirugía cardiovascular y trasplante pediátrico", "por_que": "congênitas, cardio pediátrica, transplante pediátrico", "fonte": "https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2025/PDF2025/TP2025/3502-D-2025.pdf", "certeza": "confirmado"},
+   {"nome": "Leandro Barbagelata / Ignacio Bluro", "cargo": "Cardiologia adultos (IC/imagem); Barbagelata publica em ICFEp", "por_que": "IC/miocardiopatias", "fonte": "https://ar.linkedin.com/in/imedcv", "certeza": "provável"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado; há parceria de fellowship em cardiologia intervencionista com VCU Pauley Heart Center (EUA) — https://www.vcuhealth.org/news/international-researchers-hone-skills-in-fellowship/",
+  "pesquisa_recente": [
+   {"titulo": "Heart transplant experience of an Argentine institution lacking long-term assist devices (ESC Congress 2025, apresentação)", "ano": 2025, "id": "não encontrado", "fonte": "https://esc365.escardio.org/presentation/309547"},
+   {"titulo": "Prognostic value of albuminuria in heart failure with preserved ejection fraction: A systematic review (Curr Probl Cardiol)", "ano": null, "id": "não encontrado (ano não confirmado)", "fonte": "https://ar.linkedin.com/in/imedcv"}
+  ],
+  "dicas": [
+   "Espanhol: hospitais vizinhos exigem comprovação de proficiência para não hispanofalantes — preparar carta.",
+   "Esperar status de observador (sem matrícula argentina) e possível taxa; trazer carta da Unifesp.",
+   "Escola de cardiologia tradicional (GESICA nasceu no HIBA) — gancho histórico para IC."
+  ],
+  "rota_recomendada": "1) Escrever ao Departamento de Docencia/Posgrado do HIBA pedindo 'rotación externa observacional' de 4 semanas em Cirugía Cardiovascular/Trasplante, com carta da COREME Unifesp. 2) Em paralelo, e-mail a Kotowicz (adulto) ou Barretta (pediátrico/congênitas) pedindo aval. 3) Distância/idioma/custo baixos tornam este polo bom plano B."
+ },
+ {
+  "match": "Montreal Heart Institute",
+  "alerta_correcao": "Dados de liderança cirúrgica são de 2017 (Louis P. Perrault como chefe); não confirmei o chefe atual. Não há página de observership pública; o caminho estruturado do MHI é fellowship longo (12–36 meses).",
+  "programa": {
+   "pagina": "Fellowships: https://icm-mhi.org/en/node/925 ; https://icm-mhi.org/en/node/1263",
+   "elegibilidade": "Observership curto: não encontrado. Fellowship: ~20 especialistas estrangeiros/ano ('welcomes approximately 20 cardiologists, cardiac surgeons, and other foreign medical specialists' — https://fondationicm.org/en/?p=2706); cardiologia clínica 36 meses, subespecialidades 12–24 meses; exige cartas, matrícula/taxa na Université de Montréal, aplicar ≥18 meses antes; bolsas limitadas e competitivas.",
+   "regulador": "CMQ: 'les périodes d'observation ne relèvent pas de la compétence du Collège' — cada estabelecimento decide (https://www.cmq.org/en/accéder-à-la-profession/centre-info/stage-dobservation).",
+   "contato_oficial": "não encontrado (tel. geral (514) 376-3330)",
+   "certeza": "confirmado (fellowship); observership não encontrado"
+  },
+  "servico": {
+   "nome": "Department of Cardiac Surgery (programa robótico/minimamente invasivo, Da Vinci Xi dedicado desde 2017); Structural Heart Program; Cardiovascular Genetics Centre; Centre ÉPIC (prevenção); UTI cardíaca",
+   "chefe": "Louis P. Perrault — Head of Department of Cardiac Surgery (2017) — https://icm-mhi.org/en/node/3659 ; atual não confirmado",
+   "volume": "1º robô Da Vinci Xi do Canadá exclusivo para cirurgia cardíaca (2017) e 1ª mitral robótica do MHI (set/2017) — https://www.dicardiology.com/content/montreal-heart-institute-performs-first-robotic-mitral-valve-surgery",
+   "certeza": "confirmado para 2017; atual não encontrado"
+  },
+  "pessoas_chave": [
+   {"nome": "Denis Bouchard, MD", "cargo": "Responsável pelo Robotic Surgery Program do MHI (desde 2007), co-fundador do programa minimamente invasivo/robótico", "por_que": "hospeda robótica", "fonte": "https://icm-mhi.org/en/node/545", "certeza": "provável"},
+   {"nome": "Louis P. Perrault, MD", "cargo": "Head/Chief of Cardiac Surgery (2017; página da fundação sem data)", "por_que": "decide no departamento", "fonte": "https://icm-mhi.org/en/node/3659", "certeza": "provável (pode estar desatualizado)"},
+   {"nome": "Anita Asgar, MD", "cargo": "Co-director Structural Heart Program; Director Transcatheter Valve Therapy Clinic", "por_que": "estrutural", "fonte": "https://icm-mhi.org/en/node/443 ; https://www.massdevice.com/anteris-technologies-implant-duravr-viv/", "certeza": "provável"},
+   {"nome": "Reda Ibrahim, MD", "cargo": "Ex-Director Structural Heart Disease Program e Medical ICU", "por_que": "estrutural/UTI", "fonte": "https://scai.confex.com/scai/2026/webprogramarchives/Person64237.html", "certeza": "provável"},
+   {"nome": "Rafik Tadros, MD PhD", "cargo": "Director, Cardiovascular Genetics Centre", "por_que": "cardiogenética", "fonte": "https://www.acmgmeeting.net/speakers/rafik-tadros", "certeza": "confirmado"},
+   {"nome": "Julia Cadrin-Tourigny, MD", "cargo": "Cardiologista-EP, doenças hereditárias", "por_que": "cardiogenética", "fonte": "https://esc365.escardio.org/person/536555", "certeza": "confirmado"}
+  ],
+  "brasileiros": "Luiz Fernando Ybarra — cardiologista brasileiro com endereço em Montreal em artigo dos Arq Bras Cardiol 2019 com afiliação brasileira (https://www.scielo.br/j/abc/a/9G7dR4nX4NTsKTDGYW8jYNx/abstract/?lang=en); vínculo com MHI NÃO confirmado (provável). Fellows latino-americanos são comuns (ex.: argentina Laura Vidales, fellow 2020).",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {"titulo": "Large-scale genome-wide association analyses identify novel genetic loci and mechanisms in hypertrophic cardiomyopathy (Nat Genet 57:530–538)", "ano": 2025, "id": "DOI 10.1038/s41588-025-02087-4", "fonte": "https://www.ukbiobank.ac.uk/publications/large-scale-genome-wide-association-analyses-identify-novel-genetic-loci-and-mechanisms-in-hypertrophic-cardiomyopathy/"}
+  ],
+  "dicas": [
+   "Francês ajuda muito (instituição francófona; UdeM).",
+   "Fundação ICM financia bolsas para especialistas do exterior — relevante só para fellowship longo.",
+   "Para 1 mês, pedir diretamente a um chefe de serviço (robótica/estrutural/genética) aceite como observadora; formulário próprio não encontrado."
+  ],
+  "rota_recomendada": "1) E-mail (idealmente em francês) a Denis Bouchard (robótica) ou Rafik Tadros (cardiogenética, citando Nat Genet 2025) pedindo observership de 4 semanas e o procedimento interno do MHI. 2) Se quiser algo maior, planejar fellowship com ≥18 meses de antecedência via UdeM."
+ }
+]

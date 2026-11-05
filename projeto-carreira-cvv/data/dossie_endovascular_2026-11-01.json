@@ -1,0 +1,872 @@
+{
+ "atualizado": "2026-11-01",
+ "polos": [
+  {
+   "match": "Baylor St. Luke's / Texas Heart Institute",
+   "alerta": "Gustavo Oderich (brasileiro) agora chefia a vascular do Baylor e dirige o Baylor Medicine Center for Aortic Surgery desde fev/2025 — é a ponte mais forte de todas.",
+   "rota": [
+    "E-mail personalizado a Oderich pedindo observership de 4 semanas (citar endovascular aórtico e o observership em Chicago)",
+    "Segunda opção ou cópia: Joseph Coselli (TAAA aberta), alinhado à cirurgia cardiovascular",
+    "Com o aceite, a divisão aciona o GME Office pela política 27.2.7 (International Observers)",
+    "Plano B: Houston Aortic Symposium (4–6 mar/2027) para contato presencial"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Não há página pública de observership do THI; residente internacional é regido pela GME International Observers Policy 27.2.7 do BCM (texto não público), via host da divisão.",
+    "url": "https://WWW.BCM.EDU/sites/default/files/2018/59/23.2.03-observers-and-observerships-policy-v1-web.pdf",
+    "contato": null,
+    "taxa": "não encontrado",
+    "duracao": "não encontrado",
+    "documentos": "não encontrado",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Gustavo S. Oderich, MD",
+     "cargo": "Chief, Vascular Surgery and Endovascular Therapy; Director, Baylor Medicine Center for Aortic Surgery",
+     "papel": "Brasileiro (UFRGS), referência em F/B-EVAR; decide e hospeda",
+     "url": "https://www.bcm.edu/people-search/gustavo-oderich-179646",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Joseph S. Coselli, MD",
+     "cargo": "Professor/Executive Vice Chair, Cardiothoracic Surgery",
+     "papel": "Maior série de TAAA aberta; host natural para cirurgia cardiovascular",
+     "url": "https://profiles.viictr.org/display/267370",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Marc R. Moon, MD",
+     "cargo": "Chief, Division of Cardiothoracic Surgery, BCM",
+     "papel": "Aprova visitantes na cardiotorácica",
+     "url": "https://www.bcm.edu/healthcare/specialties/cardiovascular-medicine/specialty-centers-and-programs/center-for-aortic-surgery/meet-our-team",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [
+    {
+     "nome": "Gustavo S. Oderich",
+     "ligacao": "Formado e residente na UFRGS; 'From Brazil to Baylor' (2025)",
+     "url": "https://vascularnews.com/from-brazil-to-baylor-oderich-assumes-coveted-role-at-cardiovascular-powerhouse/",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Thanila de Araujo Macedo",
+     "ligacao": "Professora de Radiologia no BCM; formada na UFG; ex-Mayo",
+     "url": "https://www.bcm.edu/people-search/thanila-de-araujo-macedo-180726",
+     "certeza": "provável"
+    }
+   ],
+   "artigos": [
+    {
+     "titulo": "Predicting perioperative risk of persistent paraplegia after elective open thoracoabdominal aortic aneurysm repair (J Thorac Cardiovasc Surg)",
+     "ano": 2025,
+     "id": "PMID 40317286",
+     "url": "https://profiles.viictr.org/display/267370"
+    },
+    {
+     "titulo": "Outcomes of thoracoabdominal aortic aneurysm repair in patients with and without peripheral arterial disease (J Thorac Cardiovasc Surg)",
+     "ano": 2025,
+     "id": "PMID 40112948",
+     "url": "https://profiles.viictr.org/display/267370"
+    },
+    {
+     "titulo": "Artigo de F/B-EVAR do grupo Oderich (J Vasc Surg 2025)",
+     "ano": 2025,
+     "id": "PMID 40449698",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/40449698/"
+    }
+   ],
+   "dicas": [
+    "Oderich forma visitantes 'from the US and abroad' e já orientou mais de 100 residentes/fellows",
+    "Residente internacional cai na política 27.2.7, não na 23.2.03",
+    "Divisão em expansão (Complex Endovascular Aortic Fellowship, 1 ano, non-ACGME) — porta futura",
+    "Houston Aortic Symposium: 4–6 mar/2027, abstracts até 29/jan/2027"
+   ],
+   "lacunas": [
+    "Texto da política GME 27.2.7 (taxa, documentos, prazo)",
+    "Página oficial de observership do Texas Heart Institute",
+    "Diretor do Complex Endovascular Aortic Fellowship",
+    "Se Tenorio/Lima migraram para o Baylor"
+   ]
+  },
+  {
+   "match": "Mayo Clinic",
+   "alerta": "Oderich (saiu em 2020) e Bernardo Mendes (foi para a UCLA em mai/2025) não estão mais na Mayo; o Aortic Center hoje tem Andrew Hoel como Surgical Director.",
+   "rota": [
+    "Escrever ao GME/Visiting Resident da Mayo perguntando se residente estrangeiro pode fazer o Visiting Resident Experience em Vascular & Endovascular Surgery",
+    "Pedir que o Aortic Center (Andrew Hoel) seja o host",
+    "Pedir apresentação via Bernardo Mendes (UCLA) ou Oderich (Baylor)",
+    "Se a Mayo não abrir, seguir os brasileiros: Baylor e UCLA"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Não foi encontrada página oficial de observership geral; a via formal para residente parece ser o Visiting Resident Experience (formulário MC0437-19), com elegibilidade de estrangeiro não confirmada.",
+    "url": "https://mcforms.mayo.edu/mc0400-mc0499/mc0437-19.pdf",
+    "contato": null,
+    "taxa": "não encontrado",
+    "duracao": "não encontrado",
+    "documentos": "não encontrado",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Randall R. DeMartino, MD, MS",
+     "cargo": "Chair, Division of Vascular and Endovascular Surgery",
+     "papel": "Autoriza/endossa observer na divisão",
+     "url": "https://www.mayoclinic.org/biographies/demartino-randall-r-m-d-m-s/bio-20089296",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Andrew W. Hoel, MD",
+     "cargo": "Surgical Director, Mayo Clinic Aortic Center",
+     "papel": "Host ideal para aorta; veio da Northwestern (Chicago)",
+     "url": "https://www.mayoclinic.org/biographies/hoel-andrew-w-m-d/bio-20590295",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Jill J. Colglazier, MD",
+     "cargo": "Program Director, Vascular Surgery Fellowship/Residency",
+     "papel": "Educação; aorta aberta complexa",
+     "url": "https://www.mayoclinic.org/biographies/colglazier-jill-j/bio-20314462",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Manju Kalra, MBBS",
+     "cargo": "Professor of Surgery (vascular)",
+     "papel": "Faculty sênior em aneurisma/dissecção",
+     "url": "https://college.mayo.edu/academics/residencies-and-fellowships/vascular-surgery-fellowship-minnesota/department-and-faculty/",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [
+    {
+     "nome": "Bernardo C. Mendes",
+     "ligacao": "Ex-faculty e PD do Advanced Aortic Fellowship; hoje UCLA",
+     "url": "https://www.uclahealth.org/providers/bernardo-curi-mendes",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Gustavo S. Oderich",
+     "ligacao": "Chefe da divisão 2006–2020; hoje Baylor",
+     "url": "https://www.bcm.edu/people-search/gustavo-oderich-179646",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Guilherme Baumgardt Barbosa Lima",
+     "ligacao": "Coautor do grupo; diretório o coloca na Mayo (pode estar desatualizado)",
+     "url": "https://www.vitals.com/doctors/guilherme-baumgardt-barbosa-lima-2nsmvn",
+     "certeza": "provável"
+    }
+   ],
+   "artigos": [
+    {
+     "titulo": "Aneurysm sac shrinkage at 1 year after fenestrated-branched endovascular aortic repair of complex aortic aneurysms offers mid-term survival advantage (J Vasc Surg 80(4):958)",
+     "ano": 2024,
+     "id": null,
+     "url": "https://mayoclinic.org/biographies/mendes-bernardo-c-m-d/bio-20426532"
+    },
+    {
+     "titulo": "Effect of fenestration configuration on renal artery outcomes during fenestrated-branched endovascular aortic repair (J Vasc Surg 80(5):1384)",
+     "ano": 2024,
+     "id": null,
+     "url": "https://mayoclinic.org/biographies/mendes-bernardo-c-m-d/bio-20426532"
+    },
+    {
+     "titulo": "Preoperative predictors of nonhome discharge after fenestrated-branched endovascular repair of complex abdominal and thoracoabdominal aortic aneurysms (J Vasc Surg 79(3):469)",
+     "ano": 2024,
+     "id": null,
+     "url": "https://mayoclinic.org/biographies/mendes-bernardo-c-m-d/bio-20426532"
+    }
+   ],
+   "dicas": [
+    "Advanced Aortic Fellowship (3 meses, US$5.000, exige vascular concluída e licença MN) é porta pós-formação",
+    "Observerships costumam pedir aplicação 2–3 meses antes e aprovação do chefe (AMA)",
+    "Os 3 artigos têm Mendes (hoje UCLA); para Hoel/DeMartino buscar artigo deles no PubMed",
+    "Série de 600 FB-EVAR 2007–2019 (Tenorio et al., JVS 2022)"
+   ],
+   "lacunas": [
+    "Página oficial de observership/visiting physician atual",
+    "Se o Visiting Resident Experience aceita residente estrangeiro, taxa e prazos",
+    "Quem lidera F/B-EVAR na Mayo hoje",
+    "Brasileiro atual na equipe vascular"
+   ]
+  },
+  {
+   "match": "UKE Hamburg — Herzchirurgie",
+   "alerta": "O endovascular de aorta fica no German Aortic Center (Kölbel, Gefäßmedizin); a Herzchirurgie tem novo diretor, Evaldas Girdauskas, desde 01/10/2025.",
+   "rota": [
+    "E-mail curto em inglês a Tilo Kölbel (cc Giuseppe Panuccio) citando o EJVES 2024 e o Candy-Plug, pedindo 4 semanas hands-off",
+    "Mencionar cirurgia cardiovascular e interesse em arco/TAAA (ponte com Christian Detter)",
+    "Com o OK do departamento, enviar aplicação em PDF a International.guest@uke.de e pagar €476",
+    "Pedir lista de documentos (seguro, vacinas) e carta para o consulado se necessária"
+   ],
+   "prazos": [
+    {
+     "txt": "Aplicações o ano todo, sem prazo",
+     "url": "https://uke.de/english/general/career/international-guests/observership-%E2%80%9Chands-off%E2%80%9D-for-doctors-from-non-eu-countries.html",
+     "certeza": "confirmado"
+    }
+   ],
+   "programa": {
+    "resumo": "Observership 'Hands off' para médicos de países não-UE, só observação; exige confirmação prévia do departamento. Residente formado deve se enquadrar como 'doctor' (provável).",
+    "url": "https://uke.de/english/general/career/international-guests/observership-%E2%80%9Chands-off%E2%80%9D-for-doctors-from-non-eu-countries.html",
+    "contato": "International.guest@uke.de",
+    "taxa": "€476 única (com IVA), não reembolsável, cobrada mesmo se o visto for negado",
+    "duracao": "não publicada",
+    "documentos": "Aplicação por e-mail em PDF (inglês ou alemão); demais documentos não encontrados",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Tilo Kölbel",
+     "cargo": "Head, German Aortic Center Hamburg (desde 2012)",
+     "papel": "Decide quem observa no endovascular de aorta",
+     "url": "https://eacts.org/?p=1001",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "E. Sebastian Debus",
+     "cargo": "Diretor, Klinik und Poliklinik für Gefäßmedizin",
+     "papel": "A confirmação do departamento passa por ele",
+     "url": "https://www.nds.ox.ac.uk/events/surgical-grand-rounds-sebastian-debus",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Giuseppe Panuccio",
+     "cargo": "Deputy head, Deutsches Aortenzentrum",
+     "papel": "Opera F/BEVAR; contato operacional",
+     "url": "https://uke.de/english/physicians-and-scientists/arztprofilseite_giuseppe_panuccio.html",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Christian Detter",
+     "cargo": "Cirurgião cardíaco; cofundador/head do German Aortic Center (lado cardíaco)",
+     "papel": "Ponte para cirurgia cardiovascular (FET, híbridos)",
+     "url": "https://www.uke.de/english/physicians-and-scientists/arztprofilseite_christian_detter.html",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Evaldas Girdauskas",
+     "cargo": "Diretor, Klinik für Herzchirurgie (desde 10/2025)",
+     "papel": "Nome atual para citar no lado cardíaco",
+     "url": "https://www.forschung-und-lehre.de/karriere/leitungspositionen/leitungspositionen-november-2025-7365",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Petroula Nana",
+     "cargo": "Researcher, German Aortic Center Hamburg",
+     "papel": "Pesquisadora produtiva; contato acessível",
+     "url": "https://loop.frontiersin.org/people/2192076",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "Post-dissection Thoraco-abdominal Aortic Aneurysm Managed by Fenestrated or Branched Endovascular Aortic Repair (EJVES 68(3):325)",
+     "ano": 2024,
+     "id": null,
+     "url": "https://ouci.dntb.gov.ua/works/4M0BMmN7"
+    },
+    {
+     "titulo": "Urgent Candy-Plug technique for distal false lumen occlusion in chronic aortic dissection (J Vasc Surg 80(5):1418)",
+     "ano": 2024,
+     "id": null,
+     "url": "https://fis.uke.de/portal/en/journals/j-vasc-surg(60ea9ec8-4fb1-4efd-8746-812597811760)/publications.html"
+    }
+   ],
+   "dicas": [
+    "Hands-off = só observar; adequado a 1 mês",
+    "Carta-convite só após pagamento; UKE não garante visto",
+    "Pedir exposição cardio + vascular (FET, F/BEVAR, arco endovascular)",
+    "Hamburger Gefäßtag anunciado para 05/12/2026 (flyer DGA) — possível porta de entrada"
+   ],
+   "lacunas": [
+    "Nenhum brasileiro encontrado (fellow, staff ou coautor)",
+    "Documentos, vacinas, seguro e duração máxima",
+    "Volume anual de F/B-EVAR/TEVAR",
+    "Nacionalidade do autor 'Gorgatti F' (EJVES 2024)"
+   ]
+  },
+  {
+   "match": "Cleveland Clinic — Heart, Vascular & Thoracic Institute",
+   "alerta": "A janela Jan–Jun 2027 já fechou; a próxima (Jul–Dez 2027) abre em 1/dez/2026.",
+   "rota": [
+    "Aplicar ao International Physician Observership (CIME) em 1/dez/2026, escolhendo Vascular Surgery ou Aorta",
+    "Juntar carta da Unifesp e citar Caputo/Roselli e o Aorta Center",
+    "Em paralelo, perguntar a FlaObservers@ccf.org se Vascular Surgery em Weston aceita residente estrangeiro",
+    "Pedir orientação a Agenor Paulino Dias (brasileiro, ex-fellow endovascular/aorta)"
+   ],
+   "prazos": [
+    {
+     "txt": "Janela Jul–Dez 2027 abre 1/dez/2026, fecha 31/jan/2027, decisão até 15/mar/2027",
+     "url": "https://my.clevelandclinic.org/departments/international-medical-education/physician-programs/physician-observer",
+     "certeza": "provável"
+    },
+    {
+     "txt": "Janela Jan–Jun 2027 (1/jun–31/jul/2026) já fechada",
+     "url": "https://my.clevelandclinic.org/departments/international-medical-education/physician-programs/physician-observer",
+     "certeza": "provável"
+    },
+    {
+     "txt": "Flórida: aprovação ≥60 dias antes; início na 1ª segunda-feira do mês",
+     "url": "https://my.clevelandclinic.org/florida/medical-professionals/education/observerships",
+     "certeza": "confirmado"
+    }
+   ],
+   "programa": {
+    "resumo": "Programa estruturado de 1 mês só no campus de Cleveland, por janelas semestrais; aceita residentes estrangeiros que vão se formar na própria instituição (não para quem quer residência nos EUA).",
+    "url": "https://my.clevelandclinic.org/departments/international-medical-education/physician-programs/physician-observer",
+    "contato": "Formulário online do CIME (e-mail não publicado); Flórida: FlaObservers@ccf.org",
+    "taxa": "US$500 (US$200 de processing fee não reembolsável + US$300 após aceite); sem isenção",
+    "duracao": "1 mês",
+    "documentos": "Carta de aprovação do CIME serve para visto B1/B2; lista de vacinas/seguro não encontrada",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Sean P. Lyden, MD",
+     "cargo": "Chairman, Department of Vascular Surgery",
+     "papel": "Decide/endossa observers no departamento",
+     "url": "https://my.clevelandclinic.org/departments/heart/medical-professionals/fellowship-residency/vascular-surgery",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Francis J. Caputo, MD",
+     "cargo": "Vascular Surgery Director, Aorta Center; PD dos programas de treinamento vascular",
+     "papel": "Elo endovascular + aorta + educação; melhor host",
+     "url": "https://providers.clevelandclinic.org/provider/francis-caputo/4271962",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Eric E. Roselli, MD",
+     "cargo": "Director, Aorta Center; Chief of Adult Cardiac Surgery",
+     "papel": "Lado cardíaco/arco — casa com cirurgia cardiovascular",
+     "url": "https://my.clevelandclinic.org/staff/6515",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Lee Kirksey, MD",
+     "cargo": "Vice Chair, Vascular Surgery",
+     "papel": "Liderança; treino aberto e endovascular",
+     "url": "https://my.clevelandclinic.org/departments/heart/medical-professionals/fellowship-residency/vascular-surgery",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Patrick Vargo, MD",
+     "cargo": "Cirurgião do Aorta Center",
+     "papel": "Porta-voz dos resultados 2024",
+     "url": "https://my.clevelandclinic.org/podcasts/cardiac-consult/aorta-surgery-updates-and-outcomes",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Greg Kasper, MD",
+     "cargo": "Director of vascular services, Cleveland Clinic Florida",
+     "papel": "Rota Flórida (cargo atual incerto)",
+     "url": "https://www.beckershospitalreview.com/uncategorized/cleveland-clinic-florida-taps-vascular-services-leader/",
+     "certeza": "provável"
+    }
+   ],
+   "brasileiros": [
+    {
+     "nome": "Agenor Paulino Dias, MD",
+     "ligacao": "UFPR; ex-fellow endovascular e de aorta no CC; hoje UH Cleveland",
+     "url": "https://www.uhhospitals.org/doctors/PaulinoDias-Agenor-1447655576",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Gustavo S. Oderich, MD",
+     "ligacao": "Fellowship avançado endovascular no CC (2007); hoje Baylor",
+     "url": "https://en.wikipedia.org/wiki/Gustavo_S._Oderich",
+     "certeza": "provável"
+    }
+   ],
+   "artigos": [
+    {
+     "titulo": "Artigo JTCVS Structural and Endovascular com Francis J. Caputo (tema a verificar)",
+     "ano": 2024,
+     "id": null,
+     "url": "https://doaj.org/article/9dcfcad823f047c296efafb5cc0c7fc5"
+    }
+   ],
+   "dicas": [
+    "Aplicar logo em 1/dez/2026",
+    "Uma especialidade por aplicação; justificar foco em aorta/endovascular",
+    "Observer não tem contato com paciente; pedir carta a attendings é desencorajado",
+    "Existe Aortic Fellowship de 1 ano (porta pós-residência)"
+   ],
+   "lacunas": [
+    "Conferir datas exatas da janela na página oficial (tabela embaralhada no trecho)",
+    "Se Vascular Surgery é oferecida na Flórida e taxa atual lá",
+    "Lista de vacinas/seguro do CIME",
+    "Volume de F/B-EVAR/TEVAR e artigos com PMID"
+   ]
+  },
+  {
+   "match": "UHN Toronto General — Peter Munk Cardiac Centre",
+   "alerta": "Sem sponsor UHN não há observership; a chefia da vascular em TGH parece ser Graham Roche-Nagle (perfis antigos ainda citam Thomas Lindsay).",
+   "rota": [
+    "E-mail personalizado a Thomas Lindsay (ou Ouzounian/Chung) citando PMID 38339966 e pedindo para ser sponsor de 4 semanas",
+    "Se possível, pedir apresentação via Rodolfo Rocha",
+    "Em paralelo, enviar objetivos + CV a observerships@uhn.ca pedindo indicação de sponsor",
+    "Com o 'sim', preencher o Authorized Guest Agreement e providenciar eTA/visto e vacinas/TB com 2–3 meses de antecedência"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Observership por sponsor individual com assinatura do chefe (Signing Authority); sem restrição explícita a residente estrangeiro encontrada.",
+    "url": "https://uhn.ca/healthcareprofessionals/Observerships",
+    "contato": "observerships@uhn.ca",
+    "taxa": "CAD 275 para 7–30 dias (150 até 6 dias; 400 até 90 dias) — a confirmar se vigente",
+    "duracao": "Sem limite UHN-wide encontrado; faixa de taxa vai até 90 dias",
+    "documentos": "Authorized Guest Agreement (sponsor + signing authority), Confidentiality Agreement, CV, foto, vacinas/TB (RX se TST positivo); UHN não ajuda com visto",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Thomas F. Lindsay",
+     "cargo": "Professor of Surgery, vascular TGH",
+     "papel": "Autor sênior das séries de F/BEVAR em TAAA; melhor alvo como sponsor",
+     "url": "https://surgery.utoronto.ca/faculty/thomas-lindsay",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Graham Roche-Nagle",
+     "cargo": "Head, Division of Vascular Surgery, TGH/PMCC",
+     "papel": "Provável signing authority",
+     "url": "https://www.uhnresearch.ca/researcher/graham-roche-nagle",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Maral Ouzounian",
+     "cargo": "Cirurgiã cardíaca e de aorta, TGH/PMCC",
+     "papel": "Aorta torácica/arco; ponte para cirurgia cardiovascular",
+     "url": "https://surgery.utoronto.ca/faculty/maral-ouzounian",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Jennifer C-Y. Chung",
+     "cargo": "Cirurgiã cardíaca; co-diretora do Advanced Aortic Surgery Fellowship",
+     "papel": "Perfil híbrido cardíaco/endovascular",
+     "url": "https://surgery.utoronto.ca/faculty/jennifer-chung",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Sean Crawford",
+     "cargo": "Cirurgião vascular e surgeon-scientist, TGH",
+     "papel": "Staff vascular atual",
+     "url": "https://surgery.utoronto.ca/faculty/sean-crawford",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [
+    {
+     "nome": "Rodolfo V. Rocha",
+     "ligacao": "UFMG; PhD U of T; coautor de Lindsay/Ouzounian (PMID 38339966)",
+     "url": "https://ctsnet.freelock.com/article/author/vigilrocha",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Christiane Werneck",
+     "ligacao": "UFMG, cirurgia CV no Brasil, fellowship vascular na U of T; atua em Trillium",
+     "url": "https://surgery.utoronto.ca/faculty/christiane-werneck",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Gustavo Azoubel",
+     "ligacao": "UPE; treinou vascular na U of T; Scarborough Hospital",
+     "url": "https://surgery.utoronto.ca/faculty/gustavo-azoubel",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Tirone David",
+     "ligacao": "Cirurgião cardíaco de TGH formado no Brasil; referência em raiz aórtica",
+     "url": "https://expertfile.com/experts/drtirone.david/dr-tirone-david",
+     "certeza": "confirmado"
+    }
+   ],
+   "artigos": [
+    {
+     "titulo": "Thoracoabdominal Aortic Aneurysm Repair Using Fenestrated and Branched Endovascular Grafts for High-Risk Patients: Evolving yet Safe (J Endovasc Ther)",
+     "ano": 2024,
+     "id": "PMID 38339966",
+     "url": "https://doi.org/10.1177/15266028241229005"
+    },
+    {
+     "titulo": "Endovascular arch repair using the NEXUS arch endograft (Ann Cardiothorac Surg)",
+     "ano": 2022,
+     "id": "PMID 35211391",
+     "url": "https://doi.org/10.21037/acs-2021-taes-18"
+    }
+   ],
+   "dicas": [
+    "Taxa baixa (CAD 275 até 30 dias)",
+    "Fellowship conjunto de aorta (cardíaca + vascular) combina com cirurgia cardiovascular",
+    "Citar o trabalho com Rodolfo Rocha e o observership em Chicago",
+    "Brasileiro precisa de eTA ou visto canadense — checar IRCC"
+   ],
+   "lacunas": [
+    "Chefia atual da vascular TGH (Roche-Nagle vs Lindsay)",
+    "Se a taxa CAD 275 está vigente",
+    "Volume anual de F/BEVAR",
+    "Coautoria com Unifesp/USP/InCor/Dante"
+   ]
+  },
+  {
+   "match": "Memorial Hermann-TMC / UTHealth Houston",
+   "alerta": "Oderich não está mais na UTHealth (foi para o Baylor em 2025); o chefe da vascular é Joseph DuBose desde 1/set/2026, e os dados de programa eram do Houston Methodist por engano.",
+   "rota": [
+    "E-mail personalizado a Anthony Estrera (aorta torácica/TAAA) e/ou Joseph DuBose pedindo que sejam faculty sponsor de 4 semanas",
+    "Com o aceite, o departamento abre a aplicação no Visiting Scholars Program (VSP)",
+    "Completar Health History Questionnaire, registros de vacinas e treinamentos (HIPAA, assédio)",
+    "Alternativa: Clinical Exchange Program do Memorial Hermann, (713) 704-5515"
+   ],
+   "prazos": [
+    {
+     "txt": "Houston Aortic Symposium 4–6 mar/2027; abstracts até 29/jan/2027",
+     "url": "https://www.ctsnet.org/events/the-houston-aortic-symposium-2027/",
+     "certeza": "confirmado"
+    }
+   ],
+   "programa": {
+    "resumo": "Trilha Observer do UTHealth Visiting Scholars Program: exige faculty sponsor, visto adequado e onboarding; estrangeiros aceitos, sem regra explícita sobre residente.",
+    "url": "https://www.uth.edu/visiting-scholars/documents/observer-guidelines.pdf",
+    "contato": null,
+    "taxa": "Provável US$775 para estrangeiro (FAQ da Neurologia); confirmar com o VSP",
+    "duracao": "não encontrado (Clinical Exchange: 2–4 semanas)",
+    "documentos": "Health History Questionnaire, vacinas/testes, treinamentos HIPAA e assédio, visto adequado",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Joseph DuBose, MD",
+     "cargo": "Chief, Division of Vascular Surgery (desde 1/set/2026)",
+     "papel": "Assina como faculty sponsor da vascular",
+     "url": "https://med.uth.edu/blog/2026/09/02/dubose-named-chief-of-vascular-surgery/",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Anthony L. Estrera, MD",
+     "cargo": "Chair, Dept. of Cardiothoracic and Vascular Surgery; líder do Aortic Program",
+     "papel": "Aorta torácica/TAAA; ideal para cirurgia cardiovascular",
+     "url": "https://med.uth.edu/heartandvascular/programs/aortic-program/",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [
+    {
+     "nome": "Emanuel R. Tenorio, MD, PhD",
+     "ligacao": "Advanced Aortic Research Program (até 2025); vínculo atual e nacionalidade não confirmados",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9901508",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Guilherme Baumgardt Barbosa Lima",
+     "ligacao": "Coautor do Advanced Aortic Research Program",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9901508",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Lucas Ruiter Kanamori",
+     "ligacao": "Santa Casa SP; ex-postdoc research fellow em aorta na UTHealth; hoje U Washington",
+     "url": "https://uwsurgery.org/?p=22871",
+     "certeza": "confirmado"
+    }
+   ],
+   "artigos": [
+    {
+     "titulo": "Total transfemoral percutaneous endovascular aortic arch repair using a 3-vessel inner branch stent-graft (JACC: Case Reports)",
+     "ano": 2022,
+     "id": "PMC9901508",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9901508"
+    },
+    {
+     "titulo": "Mid-Term Outcomes of 'Complete Aortic Repair': Surgical or Endovascular Total Arch Replacement With Thoracoabdominal F/B-EVAR (J Endovasc Ther)",
+     "ano": 2023,
+     "id": null,
+     "url": null
+    },
+    {
+     "titulo": "Increasing Clinical Experience and Changes in Practice Protocols Improved Outcomes of Fenestrated Branched Endovascular Repair of Complex Aortic Aneurysms (J Vasc Surg)",
+     "ano": 2025,
+     "id": null,
+     "url": "https://www.aminer.org/pub/6832244c163c01c850028bbe"
+    }
+   ],
+   "dicas": [
+    "Sem faculty sponsor não há aplicação: o e-mail ao cirurgião é o passo 1",
+    "Só pode começar após o e-mail de aprovação do VSP e onboarding completo",
+    "Não citar Oderich como contato da UTHealth",
+    "Clinical Exchange (2–4 semanas, com host) parece mirar médicos já formados"
+   ],
+   "lacunas": [
+    "Taxa exata para estrangeiro no VSP",
+    "Duração e antecedência da trilha Observer",
+    "Diretor atual do Advanced Endovascular Aortic Fellowship",
+    "Volume aórtico publicado"
+   ]
+  },
+  {
+   "match": "NOVO",
+   "alerta": "O pedido precisa ser iniciado por um médico do Houston Methodist; HMObserver@ é só o canal de dúvidas.",
+   "rota": [
+    "Conseguir o 'sim' de um host: Eric Peden (vascular/endovascular) ou cirurgião aórtico do Dept. de Cardiovascular Surgery",
+    "E-mail personalizado citando a edição de aorta do MDCVJ 2023",
+    "Em paralelo, pedir requisitos/taxa para residente internacional a HMObserver@houstonmethodist.org",
+    "Com o host, preencher o Global Observership Agreement com 6–8 semanas de antecedência"
+   ],
+   "prazos": [
+    {
+     "txt": "Aprovação leva ~4 semanas após o aceite (FAQ MERLIN, pode se referir a estudantes)",
+     "url": "https://merlin.houstonmethodist.org/Merlin/FAQ.aspx",
+     "certeza": "provável"
+    }
+   ],
+   "programa": {
+    "resumo": "Observership de 2–4 semanas sem contato com paciente, iniciado por médico do Houston Methodist; regra específica para residente estrangeiro não encontrada.",
+    "url": "https://www.houstonmethodist.org/for-health-professionals/global-health-care-services/global-health-care-education/observerships/",
+    "contato": "HMObserver@houstonmethodist.org",
+    "taxa": "não encontrado (background check ~US$99 nos EUA, mais para histórico internacional)",
+    "duracao": "2–4 semanas",
+    "documentos": "Global Observership Agreement; background check, drug screening e vacinas (provável)",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Eric K. Peden, MD",
+     "cargo": "Division Chief and Program Director, Vascular Surgery",
+     "papel": "Host potencial (exigido) em vascular/endovascular",
+     "url": "https://mdvideos.houstonmethodist.org/participant/eric-peden-md",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Alan B. Lumsden, MD",
+     "cargo": "Medical Director, DeBakey Heart & Vascular Center; Chair, Cardiovascular Surgery",
+     "papel": "Liderança máxima; editor da edição de aorta do MDCVJ 2023",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10000332/",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "The Spectrum of Care for Aortic Disease (Methodist DeBakey Cardiovasc J 19(2):1-3)",
+     "ano": 2023,
+     "id": "DOI 10.14797/mdcvj.1217",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10000332/"
+    }
+   ],
+   "dicas": [
+    "Não emitem carta de recomendação nem avaliação; só carta de conclusão sob pedido",
+    "Prever background check internacional e drug screen",
+    "Site do ensaio IMPROVE-AD (TEVAR em dissecção tipo B, NCT06087029) — provável"
+   ],
+   "lacunas": [
+    "Taxa do observership",
+    "Se aceita residente estrangeiro",
+    "Diretor do programa de aorta e volume",
+    "Nenhum brasileiro encontrado"
+   ]
+  },
+  {
+   "match": "Instituto Dante Pazzanese de Cardiologia",
+   "alerta": "Não existe programa observacional publicado para residente externo de cirurgia; o pedido deve ser formal, da COREME da Unifesp ao setor de ensino do IDPC.",
+   "rota": [
+    "Contatar a área de ensino/CEAP do IDPC (ceap@dantepazzanese.org.br, a confirmar) sobre estágio optativo de residente externo",
+    "Pedir à COREME da Unifesp um ofício de estágio optativo com carta do supervisor",
+    "Conseguir indicação de um preceptor da Unifesp que conheça a equipe do Dante",
+    "Evitar o período de seleção (out–dez/2026)"
+   ],
+   "prazos": [
+    {
+     "txt": "Seleção de residência 2027: inscrições 05/10–11/11/2026, prova 29/11/2026 (evitar o período)",
+     "url": "https://med.estrategia.com/portal/noticias/dante-pazzanese-edital-residencia-medica-2027/",
+     "certeza": "confirmado"
+    }
+   ],
+   "programa": {
+    "resumo": "Sem estágio observacional publicado para residentes de cirurgia; relato informal indica que o Dante recebe residentes de outras instituições.",
+    "url": "https://portal.afya.com.br/carreira/residencia-medica-no-dante-pazzanese-como-funciona-e-dicas-para-ser-aprovado",
+    "contato": null,
+    "taxa": "não encontrado",
+    "duracao": "não encontrado",
+    "documentos": "Ofício da COREME de origem (sugerido)",
+    "certeza": "provável"
+   },
+   "pessoas": [],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "Tem residência em Cirurgia Vascular e área de atuação em Cirurgia Endovascular (4 vagas em 2026)",
+    "O único curso observacional publicado é de Doppler de carótidas (não serve)"
+   ],
+   "lacunas": [
+    "Chefia atual da cirurgia vascular/endovascular",
+    "Chefia de aorta (pista fraca: Virginia Rivas, CTSNet)",
+    "Confirmar e-mail do CEAP",
+    "Fluxo formal de estágio optativo externo"
+   ]
+  }
+ ],
+ "novo_polo": {
+  "name": "Houston Methodist — DeBakey Heart & Vascular Center",
+  "city": "Houston",
+  "country": "EUA",
+  "reg": "eua",
+  "lat": 29.7107,
+  "lon": -95.3988,
+  "areas": [
+   "vascular_endovascular",
+   "aorta"
+  ],
+  "fontes": [
+   {
+    "areas": [
+     "vascular_endovascular",
+     "aorta"
+    ],
+    "evid": "Division of Vascular Surgery (chefe Eric Peden) e Aortic Network no DeBakey Heart & Vascular Center; edição temática de aorta do MDCVJ 2023 (Lumsden)",
+    "url": "https://www.houstonmethodist.org/services-and-specialties/heart-vascular/clinics-and-programs/1548_servicesandspecialities_aorticnetwork/servicesandspecialities_aorticnetwork_fhp/",
+    "volume": "nao_publicado"
+   }
+  ],
+  "programa": "sim",
+  "url": "https://www.houstonmethodist.org/for-health-professionals/global-health-care-services/global-health-care-education/observerships/",
+  "contatos": [
+   "HMObserver@houstonmethodist.org"
+  ],
+  "contato_fonte": "oficial",
+  "aceita": "nao_confirmado",
+  "taxa": "não publicada; background check ~US$99 (EUA, internacional custa mais) segundo FAQ MERLIN",
+  "taxa_baixa": false,
+  "duracao": "2–4 semanas",
+  "antecedencia": "~4 semanas de processamento após o aceite do host (FAQ MERLIN, provável)",
+  "requisitos": "Pedido iniciado por médico do Houston Methodist; Global Observership Agreement (observer, preceptor e administrador); background check, drug screening e vacinas (provável); sem contato com paciente; não emitem carta de recomendação nem avaliação",
+  "volume": "nao_confirmado"
+ },
+ "fix_memorial": {
+  "url": "https://www.uth.edu/visiting-scholars/documents/observer-guidelines.pdf",
+  "contatos": [
+   "Memorial Hermann International Services Center: (713) 704-5515"
+  ],
+  "programa": "sim",
+  "aceita": "nao_confirmado",
+  "taxa": "Provável US$775 para estrangeiro (FAQ Neurologia UTHealth; US$100 citado para doméstico) — confirmar com o VSP",
+  "duracao": "VSP Observer: não publicada; Clinical Exchange Memorial Hermann: 2–4 semanas",
+  "antecedencia": "não publicada; visita só começa após o e-mail de aprovação do VSP e onboarding completo",
+  "requisitos": "Faculty sponsor da UTHealth (departamento submete ao VSP); visto adequado; Health History Questionnaire e registros de vacinas/testes; treinamentos HIPAA e assédio; sem contato com paciente. Clinical Exchange mira médicos já formados"
+ },
+ "pontes_brasil": [
+  {
+   "nome": "Gustavo S. Oderich",
+   "onde": "Baylor College of Medicine / Texas Heart Institute",
+   "ligacao": "Brasileiro (UFRGS); ex-chefe na Mayo e UTHealth; fellowship endovascular no Cleveland (2007); membro da SBACV",
+   "centros": [
+    "Baylor St. Luke's / Texas Heart Institute",
+    "Mayo Clinic",
+    "Cleveland Clinic — Heart, Vascular & Thoracic Institute",
+    "Memorial Hermann-TMC / UTHealth Houston"
+   ],
+   "url": "https://vascularnews.com/from-brazil-to-baylor-oderich-assumes-coveted-role-at-cardiovascular-powerhouse/",
+   "certeza": "confirmado"
+  },
+  {
+   "nome": "Bernardo Curi Mendes",
+   "onde": "UCLA (desde mai/2025)",
+   "ligacao": "UFSM e Santa Casa de SP; research fellow, residente e staff de aorta complexa na Mayo",
+   "centros": [
+    "Mayo Clinic"
+   ],
+   "url": "https://www.uclahealth.org/providers/bernardo-curi-mendes",
+   "certeza": "confirmado"
+  },
+  {
+   "nome": "Maurício Serra Ribeiro",
+   "onde": "FMRP-USP (Ribeirão Preto)",
+   "ligacao": "Coautor de Oderich em F/B-EVAR (JVS 2019, CVIR 2019); ponte acadêmica brasileira mais sólida",
+   "centros": [
+    "Baylor St. Luke's / Texas Heart Institute",
+    "Mayo Clinic",
+    "Memorial Hermann-TMC / UTHealth Houston"
+   ],
+   "url": "https://repositorio.usp.br/item/002898512",
+   "certeza": "confirmado"
+  },
+  {
+   "nome": "Lucas Ruiter Kanamori",
+   "onde": "University of Washington (residente de vascular)",
+   "ligacao": "Santa Casa SP; ex-postdoc research fellow em aorta na UTHealth; coautor de Oderich (PMID 40683396)",
+   "centros": [
+    "Memorial Hermann-TMC / UTHealth Houston",
+    "Baylor St. Luke's / Texas Heart Institute"
+   ],
+   "url": "https://uwsurgery.org/?p=22871",
+   "certeza": "confirmado"
+  },
+  {
+   "nome": "Emanuel R. Tenorio",
+   "onde": "UTHealth ou grupo Oderich no Baylor (não confirmado)",
+   "ligacao": "Coautor frequente de F/B-EVAR do grupo Oderich (PMID 40449698); brasileiro não confirmado",
+   "centros": [
+    "Memorial Hermann-TMC / UTHealth Houston",
+    "Mayo Clinic",
+    "Baylor St. Luke's / Texas Heart Institute"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40449698/",
+   "certeza": "provável"
+  },
+  {
+   "nome": "Guilherme Baumgardt Barbosa Lima",
+   "onde": "Mayo Clinic (diretório, pode estar desatualizado)",
+   "ligacao": "Coautor 2023–2024 com Oderich, Mendes e Tenorio",
+   "centros": [
+    "Mayo Clinic",
+    "Memorial Hermann-TMC / UTHealth Houston"
+   ],
+   "url": "https://www.vitals.com/doctors/guilherme-baumgardt-barbosa-lima-2nsmvn",
+   "certeza": "provável"
+  },
+  {
+   "nome": "Thanila de Araujo Macedo",
+   "onde": "Baylor College of Medicine (Radiologia)",
+   "ligacao": "UFG; residência e fellowship de radiologia vascular na Mayo; publica com o grupo de aorta",
+   "centros": [
+    "Baylor St. Luke's / Texas Heart Institute",
+    "Mayo Clinic"
+   ],
+   "url": "https://www.bcm.edu/people-search/thanila-de-araujo-macedo-180726",
+   "certeza": "provável"
+  },
+  {
+   "nome": "Agenor Paulino Dias",
+   "onde": "University Hospitals Cleveland",
+   "ligacao": "UFPR; ex-fellow endovascular e de aorta no Cleveland Clinic",
+   "centros": [
+    "Cleveland Clinic — Heart, Vascular & Thoracic Institute"
+   ],
+   "url": "https://www.uhhospitals.org/doctors/PaulinoDias-Agenor-1447655576",
+   "certeza": "provável"
+  },
+  {
+   "nome": "Rodolfo V. Rocha",
+   "onde": "não confirmado",
+   "ligacao": "UFMG; PhD U of T; coautor do grupo de aorta de TGH (PMID 38339966)",
+   "centros": [
+    "UHN Toronto General — Peter Munk Cardiac Centre"
+   ],
+   "url": "https://ctsnet.freelock.com/article/author/vigilrocha",
+   "certeza": "confirmado"
+  },
+  {
+   "nome": "Christiane Werneck",
+   "onde": "Trillium Health Partners / U of T",
+   "ligacao": "UFMG; cirurgia CV no Brasil e fellowship vascular na U of T — trajetória parecida com a da residente",
+   "centros": [
+    "UHN Toronto General — Peter Munk Cardiac Centre"
+   ],
+   "url": "https://surgery.utoronto.ca/faculty/christiane-werneck",
+   "certeza": "confirmado"
+  }
+ ],
+ "pontes_unifesp": "Não foi encontrado professor da Unifesp/EPM, InCor ou Dante com fellowship ou coautoria comprovada nos centros-alvo; as pontes comprovadas passam pelo grupo Oderich (USP-Ribeirão, Santa Casa SP). Internamente, o grupo de aorta da CCV-Unifesp (José Honório Palma/Diego Gaia) e Walter José Gomes são os nomes naturais para a carta de apresentação."
+}

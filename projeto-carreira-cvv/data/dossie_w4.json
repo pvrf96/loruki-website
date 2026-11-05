@@ -1,0 +1,1226 @@
+{
+ "atualizado": "2026-11-01",
+ "polos": [
+  {
+   "match": "MD Anderson Cancer Center — Cardiology",
+   "alerta": "Não há sub-página de observership da Cardiologia; o aceite depende do departamento — confirmar antes de pagar.",
+   "rota": [
+    "Perguntar ao Observer Programs se Cardiology recebe observers e confirmar status 'trainee' (isento da taxa)",
+    "Em paralelo, e-mail a Anita Deswal ou Nicolas Palaskas (miocardite por ICI) pedindo hospedagem de 4 semanas",
+    "Plano B: curso/simpósio de cardio-oncologia do MDA como primeiro contato"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "MD Anderson Observer Programs (Outreach): aceite por departamento; profissionais precisam de vínculo institucional. Residente provavelmente entra como trainee, não confirmado para cardiologia.",
+    "url": "https://www.mdanderson.org/education-training/outreach-programs/observer-programs.html",
+    "taxa": "US$ 2.000 para profissionais após aceite condicional; isento para trainees/estudantes; departamentos podem cobrar extra (US$ 500–1.000)",
+    "documentos": "Candidatura no Slate; traduções certificadas de documentos não em inglês; vacina da gripe na temporada; requisitos do departamento",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Anita Deswal",
+     "cargo": "Chair, Department of Cardiology",
+     "papel": "Decide/aprova hospedagem no departamento",
+     "url": "https://faculty.mdanderson.org/profiles/anita_deswal.html",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Elie Mouhayar",
+     "cargo": "Deputy Chair for Clinical Affairs, Cardiology",
+     "papel": "Liderança clínica; organiza agenda clínica",
+     "url": "https://www.mdanderson.org/research/departments-labs-institutes/departments-divisions/cardiology/faculty-staff.html",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Syed Wamique Yusuf",
+     "cargo": "Director, Cardiology Fellowship Program",
+     "papel": "Educação/treinamento no departamento",
+     "url": "https://www.mdanderson.org/research/departments-labs-institutes/departments-divisions/cardiology/faculty-staff.html",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Nicolas Palaskas",
+     "cargo": "Associate Professor, Cardiology",
+     "papel": "Pesquisa em miocardite por ICI — gancho para e-mail",
+     "url": "https://faculty.mdanderson.org/profiles/nicolas_palaskas.html",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Ihab Hamzeh",
+     "cargo": "Faculty, cardio-oncologia",
+     "papel": "Possível anfitrião",
+     "url": "https://faculty.mdanderson.org/profiles/ihab_hamzeh.html",
+     "certeza": "provável"
+    }
+   ],
+   "brasileiros": [
+    {
+     "nome": "Sanderson Cauduro",
+     "ligacao": "Cardiologista brasileiro; relatou imersão em cardio-oncologia no MD Anderson (2019), não é fellow",
+     "url": "https://www.bemparana.com.br/publicacao/iza-zilli/imersao-em-cardio-oncologia-no-md-anderson/",
+     "certeza": "provável"
+    }
+   ],
+   "artigos": [],
+   "dicas": [
+    "Taxa de US$ 2.000 não se aplica a trainees — enfatizar status de residente",
+    "Cada departamento tem requisitos/taxas próprios: confirmar Cardiology antes de pagar",
+    "Algoritmos 'MD Anderson Practice (MAP)' de complicações CV (PMC5883083) são bom gancho para o e-mail",
+    "Traduções certificadas obrigatórias; vacina da gripe no inverno"
+   ],
+   "lacunas": [
+    "Duração e antecedência do observership em Cardiology",
+    "E-mail oficial do Observer Programs (não capturado)",
+    "Volume do serviço e diretor do Onco-Cardiology Fellowship",
+    "Artigos recentes com título e ID confirmados; ponte com Unifesp/ICESP"
+   ]
+  },
+  {
+   "match": "Memorial Sloan Kettering — Cardiology Service",
+   "alerta": "O PDF do radar é antigo: o fluxo atual é o International Observership Program (Bobst), que exige um médico do MSK como sponsor; chefe atual é Jennifer Liu.",
+   "rota": [
+    "E-mail a Anthony Yu ou Jennifer Liu citando o estudo de vigilância reduzida em HER2+ (2025) e pedindo sponsorship de 4 semanas",
+    "Com o sim, o sponsor inicia o processo no International Observership Program",
+    "Só após aprovação tirar visto B-1 e marcar viagem",
+    "Plano B: MSK Cardio-Oncology Symposium para contato pessoal"
+   ],
+   "prazos": [
+    {
+     "txt": "Visitas de até 30 dias, início em segundas-feiras alternadas",
+     "url": "https://www.mskcc.org/hcp-education-training/international/observership",
+     "certeza": "confirmado"
+    }
+   ],
+   "programa": {
+    "resumo": "International Observership Program (Bobst International Center): só observação, até 30 dias, exige sponsor do MSK; o programa não faz match nem dá contatos. Residente estrangeiro não é excluído nos trechos.",
+    "url": "https://www.mskcc.org/hcp-education-training/international/observership",
+    "duracao": "Máx. 30 dias",
+    "documentos": "Visto B-1 (MSK não patrocina visto)",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Jennifer Liu",
+     "cargo": "Chief, Cardiology Service; PD Cardio-Oncology fellowship",
+     "papel": "Decide/pode ser sponsor; dirige o simpósio 2026",
+     "url": "https://mskcc.org/cancer-care/doctors/jennifer-liu",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Anthony F. Yu",
+     "cargo": "Cardio-oncologist",
+     "papel": "PI do ensaio de vigilância reduzida em HER2+; potencial sponsor",
+     "url": "https://synapse.mskcc.org/synapse/works/226275",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Dipti Gupta",
+     "cargo": "Program Director, Cardio-Oncology fellowship (ACC/ESC)",
+     "papel": "Educação/fellows",
+     "url": "https://esc365.escardio.org/person/1399253",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Richard M. Steingart",
+     "cargo": "Ex-chief, Cardiology Service",
+     "papel": "Figura sênior, ainda coautor em 2024",
+     "url": "https://synapse.mskcc.org/synapse/people/4321-Richard_Steingart/works",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Ioanna Kosmidou",
+     "cargo": "Cardiologist, MSK",
+     "papel": "Pesquisa de qualidade/desfechos",
+     "url": "https://synapse.mskcc.org/synapse/people/4321-Richard_Steingart/works",
+     "certeza": "provável"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "Cardiac safety of reduced cardiotoxicity surveillance during HER2-targeted therapy",
+     "ano": 2025,
+     "id": null,
+     "url": "https://synapse.mskcc.org/synapse/works/226275"
+    },
+    {
+     "titulo": "Rationale and design of a cardiac safety study for reduced cardiotoxicity surveillance during HER2-targeted therapy",
+     "ano": 2023,
+     "id": "DOI 10.1186/s40959-023-00163-4",
+     "url": "https://link.springer.com/doi/10.1186/s40959-023-00163-4"
+    }
+   ],
+   "dicas": [
+    "Sponsor interno é obrigatório: o e-mail deve ir direto a um cardiologista do MSK",
+    "Máx. 30 dias encaixa num observership de 1 mês",
+    "MSK não patrocina visto: B-1",
+    "Simpósio de cardio-oncologia (21–22/05/2026, dir. Liu) é porta de entrada: https://mskcc.cloud-cme.com/Assets/mskcc/Activities/58983/Cardio-Onc2026_Brochure.pdf"
+   ],
+   "lacunas": [
+    "Taxa atual (documento antigo citava US$ 125, desatualizado)",
+    "E-mail oficial do programa internacional (mascarado nas buscas)",
+    "Antecedência e lista completa de documentos",
+    "Brasileiros no serviço e ponte com Unifesp/SP"
+   ]
+  },
+  {
+   "match": "National Heart Centre Singapore",
+   "alerta": "A URL do radar é de fellowship hands-on de 6–12 meses em cardiologia nuclear, não de observership de 1 mês.",
+   "rota": [
+    "Escrever a nhcs.ote@nhcs.com.sg perguntando por attachment/observership de 4 semanas em Nuclear Cardiology",
+    "Endereçar Felix Keng citando o artigo de reserva de fluxo por SPECT (Heliyon 2024)",
+    "Plano B: observership formal do NUH/NUHS em Singapura"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "NHCS oferece Fellowship Training in Nuclear Cardiology (6–12 meses; >120 fellows internacionais desde 1992). Observership curto e elegibilidade de residente estrangeiro não documentados.",
+    "url": "https://www.nhcs.com.sg/education/training-and-fellowships/list-of-fellowship-programmes/Fellowship-Training-in-Nuclear-Cardiology",
+    "contato": "nhcs.ote@nhcs.com.sg",
+    "duracao": "6–12 meses (fellowship)",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Felix Keng Yung Jih",
+     "cargo": "Senior Consultant; Director of Nuclear Cardiac Imaging",
+     "papel": "Lidera o serviço e pesquisa de fluxo miocárdico/SPECT dinâmico",
+     "url": "https://www.nhcs.com.sg/doctor/cardiology/felix-keng",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Terrance Chua Siang Jin",
+     "cargo": "Ex-CEO NHCS, Senior Advisor",
+     "papel": "Figura sênior histórica da cardiologia nuclear",
+     "url": "https://www.nhcs.com.sg/profile/chua-siang-jin-terrance",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Cai Xinzhe James",
+     "cargo": "Consultant (eco e cardiologia nuclear)",
+     "papel": "Staff da área",
+     "url": "https://www.nhcs.com.sg/doctor/cardiology/cai-xinzhe-james",
+     "certeza": "provável"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "Going beyond summed stress scores: Correlating global and territorial coronary flow reserve by single photon emission tomography with routine myocardial perfusion imaging",
+     "ano": 2024,
+     "id": "DOI 10.1016/j.heliyon.2024.e29629",
+     "url": "https://doaj.org/article/ab59fe1ecb384403ad8b299d11841c97"
+    }
+   ],
+   "dicas": [
+    "Foco do serviço: SPECT dinâmico com quantificação de fluxo/reserva coronariana — tema para o e-mail",
+    "Tradição de receber estrangeiros: https://www.nhcs.com.sg/education-training/fellowships/overseas-fellowship-alumni",
+    "Alternativa SingHealth Academy: fellowship@singhealthacademy.edu.sg",
+    "NUH tem clinical observership formal: https://www.nuh.com.sg/research-and-education/honorary-clinical-fellowship-and-clinical-observership"
+   ],
+   "lacunas": [
+    "Observership curto (4 semanas) na NHCS",
+    "Elegibilidade, taxa e documentos",
+    "Diretor do fellowship e volume do serviço",
+    "Brasileiros e ponte com Brasil"
+   ]
+  },
+  {
+   "match": "Children's Hospital Los Angeles — Heart Institute",
+   "alerta": "Liderança mudou (set/2026): John David Cleveland é o novo chefe de Cirurgia Cardiotorácica e Co-Director do Heart Institute; Paul Kantor segue chefe de Cardiologia.",
+   "rota": [
+    "E-mail curto a Paul Kantor (ou Cleveland, se cirurgia) citando PANORAMA-HF/JAHA 2024 pedindo apoio da divisão",
+    "Preencher o formulário do International Observership Program (US$ 250) para UMA divisão, com 3 objetivos",
+    "Enviar cartas endereçadas ao CHLA Center for Global Health e fazer a entrevista de inglês",
+    "Confirmar a janela de datas no site e aplicar com ≥6 meses de antecedência"
+   ],
+   "prazos": [
+    {
+     "txt": "Janela de candidatura 1/jul–31/ago para observerships em jan–fev (confirmar no site)",
+     "url": "https://www.chla.org/international-observership-program",
+     "certeza": "provável"
+    }
+   ],
+   "programa": {
+    "resumo": "International Observership Program (Center for Global Health): residentes internacionais matriculados no exterior são explicitamente elegíveis; aceite a critério de cada divisão, só observação.",
+    "url": "https://www.chla.org/international-observership-program",
+    "contato": "internationalobservership@chla.usc.edu",
+    "taxa": "US$ 250 (application fee, não reembolsável)",
+    "duracao": "Máx. 3 meses; tipicamente 1 mês",
+    "documentos": "Formulário PDF com 3 objetivos de aprendizado; cartas de recomendação; entrevista de inglês; carta-convite para visto",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Paul F. Kantor",
+     "cargo": "Division Chief of Cardiology; Co-Director, Heart Institute",
+     "papel": "Divisão de cardiologia decide aceite; IC pediátrica",
+     "url": "https://chla.org/profile/paul-f-kantor-mbbch-msc-frcpc",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "John David Cleveland",
+     "cargo": "Division Chief of Cardiothoracic Surgery; Co-Director, Heart Institute",
+     "papel": "Decide para cirurgia cardíaca congênita",
+     "url": "https://secure.businesswire.com/news/home/20260922413880/en/John-David-Cleveland-MD-Named-Division-Chief-of-Cardiothoracic-Surgery-and-Co-Director-of-the-Heart-Institute-at-Childrens-Hospital-Los-Angeles",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Vaughn A. Starnes",
+     "cargo": "H. Russell Smith Foundation Chair in CT Surgery",
+     "papel": "Figura sênior, segue operando",
+     "url": "https://www.chla.org/profile/vaughn-starnes-md",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Robert E. Shaddy",
+     "cargo": "Cardiologist, CHLA",
+     "papel": "Autor correspondente do PANORAMA-HF",
+     "url": "https://rcastoragev2.blob.core.windows.net/5e124fb9c0771e055ab559b315a30144/cir-150-1756.PMC11593999.pdf",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Karla L. Loss",
+     "cargo": "Researcher/cardiologist, Heart Institute",
+     "papel": "1ª autora JAHA 2024 com Kantor",
+     "url": "https://profiles.sc-ctsi.org/paul.kantor",
+     "certeza": "provável"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "Serial B-type natriuretic peptide, vasoactive drug weaning and adverse cardiovascular outcomes in pediatric heart failure",
+     "ano": 2024,
+     "id": null,
+     "url": "https://profiles.sc-ctsi.org/paul.kantor"
+    },
+    {
+     "titulo": "PANORAMA-HF: sacubitril/valsartan vs enalapril em crianças com IC sistólica",
+     "ano": 2024,
+     "id": null,
+     "url": "https://rcastoragev2.blob.core.windows.net/5e124fb9c0771e055ab559b315a30144/cir-150-1756.PMC11593999.pdf"
+    }
+   ],
+   "dicas": [
+    "Residente internacional é explicitamente elegível — frase oficial rara",
+    "Observer fica restrito à divisão aprovada: escolher Cardiology OU Cardiothoracic Surgery",
+    "Sem moradia, e-mail CHLA ou acesso ao prontuário",
+    "Só certificado de participação, sem avaliação de habilidades"
+   ],
+   "lacunas": [
+    "Nacionalidade/formação brasileira de Karla Loss (sugerida em agregador, não escrita em fonte oficial)",
+    "Diretor atual do Pediatric Cardiology Fellowship",
+    "Volume do serviço com ano",
+    "Ponte com Unifesp/SP"
+   ]
+  },
+  {
+   "match": "Semmelweis University Heart and Vascular Center",
+   "alerta": "O 'programa' do radar é o ESAIC Exchange, restrito a membros ESAIC que trabalham na Europa e trainees de anestesia — não serve a residente brasileira de cardio/cirurgia.",
+   "rota": [
+    "Só vale se a área for anestesia cardíaca: e-mail direto à Profa. Andrea Székely propondo ~1 mês de observação",
+    "Citar a linha de pesquisa em suporte mecânico/transplante",
+    "Prioridade baixa"
+   ],
+   "prazos": [
+    {
+     "txt": "ESAIC Exchange: chamada 2027 fechada; 2028 abre em maio/2027",
+     "url": "https://esaic.org/professional-growth/exchange-programme/",
+     "certeza": "confirmado"
+    }
+   ],
+   "programa": {
+    "resumo": "Centro anfitrião do ESAIC Exchange (anestesia/UTI cardíaca, TEE/TTE), exige ser membro ESAIC trabalhando na Europa; residente no Brasil não é elegível. Não há página própria de observership.",
+    "url": "https://esaic.org/wp-content/uploads/2025/05/Semmelweis-University-Heart-and-Vascular-Center-Information.pdf",
+    "contato": "education@esaic.org",
+    "duracao": "Até 3 meses (preferido 3 meses, fev–dez)",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Andrea Székely",
+     "cargo": "Professor of Anesthesia, Division of Cardiac Anesthesiology",
+     "papel": "Liderança/pesquisa em anestesia cardíaca; provável decisora",
+     "url": "https://sraticongres.ro/?p=14538",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Béla Merkely",
+     "cargo": "Director, Heart and Vascular Center; Rector",
+     "papel": "Autoridade máxima do centro",
+     "url": "https://semmelweis.hu/english/2019/07/my-university-dr-bela-merkely-and-the-varosmajor-heart-and-vascular-centre/",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Zsolt Molnár",
+     "cargo": "Anesthesia/ICU faculty",
+     "papel": "Pesquisa perioperatória cardiotorácica",
+     "url": "https://www.mdpi.com/journal/jcm/special_issue_flyer_pdf_v2/R89J4Y6E7Q",
+     "certeza": "provável"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "Livro de visitas mostra fellows estrangeiros — há cultura de visitantes: https://semmelweis.hu/varosmajor/oktatas/vendegkonyv/",
+    "Fora do ESAIC, só e-mail direto (sem procedimento publicado)",
+    "ECMO/suporte mecânico e transplante são bons ganchos de assunto",
+    "Idioma do ESAIC: inglês ou alemão"
+   ],
+   "lacunas": [
+    "Observership para médicos estrangeiros fora do ESAIC",
+    "Taxa (informações conflitantes)",
+    "Artigos 2022–2026 com PMID",
+    "Brasileiros e ponte com Unifesp/InCor/Dante"
+   ]
+  },
+  {
+   "match": "University of Kentucky — Visiting Scholar Cardiovascular Medicine",
+   "alerta": null,
+   "rota": [
+    "Aplicar ao Scholar Program for Exchange Visitors in Cardiovascular Medicine com o formulário DS supplement",
+    "Pedir 1 mês na subárea de interesse, citando o Gill Biorepository e a experiência prévia em Chicago",
+    "Planejar pagamento por cheque/certified funds",
+    "Na aceitação, pedir a carta de recomendação mencionada pelo programa"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Programa estruturado de observação de 1 mês (B1/B2), shadowing em internação e ambulatório, com certificado e possíveis cartas. Elegibilidade de residente estrangeiro não explicitada (provável).",
+    "url": "https://medicine.uky.edu/index.php/departments/internalmedicine/visiting-scholar-program",
+    "taxa": "US$ 1.500/mês, pagos integralmente na aceitação (cheque/certified funds)",
+    "duracao": "1 mês",
+    "documentos": "Formulário 'Certification for Clinical Observer to become an exchange visitor program participant' (suplemento ao DS)",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Vincent L. Sorrell",
+     "cargo": "Interim Division Chief, Cardiovascular Medicine",
+     "papel": "Chefe da divisão que hospeda o programa",
+     "url": "https://medicine.uky.edu/departments/internalmedicine/about-us-4",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Dr. Gupta",
+     "cargo": "Director, Gill Heart & Vascular Institute; associate chief",
+     "papel": "Liderança do instituto (primeiro nome não confirmado)",
+     "url": "https://uknow.uky.edu/uk-healthcare/uk-healthcare-announces-new-director-gill-heart-vascular-institute",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Kenneth S. Campbell",
+     "cargo": "Professor, Cardiovascular Medicine",
+     "papel": "Dirige o Gill Cardiovascular Biorepository",
+     "url": "https://uknow.uky.edu/node/255431",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Marc Paranzino",
+     "cargo": "Lead, Sports Cardiology Program",
+     "papel": "Programa novo — possível mentor",
+     "url": "https://uknow.uky.edu/node/241691",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Darwin Conwell",
+     "cargo": "Chair, Internal Medicine",
+     "papel": "Instância acima da divisão",
+     "url": "https://medicine.uky.edu/departments/internalmedicine/welcome-department-internal-medicine",
+     "certeza": "provável"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "Raro programa de cardiologia com formato de 1 mês e preço fixo publicado",
+    "Pagamento só por cheque/certified funds — planejar remessa",
+    "Página cita B1/B2 mas exige formulário de exchange visitor (DS): confirmar o visto"
+   ],
+   "lacunas": [
+    "E-mail de contato (na página, não extraído)",
+    "Elegibilidade explícita, antecedência, vacinas e seguro",
+    "Artigos 2022–2026 com PMID",
+    "Brasileiros e ponte com Unifesp/SP"
+   ]
+  },
+  {
+   "match": "SUNY Upstate — Dept. of Medicine Observership",
+   "alerta": null,
+   "rota": [
+    "Baixar o formulário do Dept. of Medicine e indicar Cardiologia",
+    "Escrever ao contato da cardiologia, Jefferey Montalbano, via página oficial",
+    "Pagar US$ 300 por money order/certified check e enviar por correio",
+    "Confirmar duração (prever 2–4 semanas)"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Observership do Dept. of Medicine aberto a médicos do mundo todo para acompanhar médicos, residentes e fellows; foco em visão do sistema médico americano.",
+    "url": "https://www.upstate.edu/medicine/observership/",
+    "taxa": "US$ 300 de inscrição não reembolsável (certified check/money order); candidato arca com todos os custos",
+    "documentos": "Formulário https://www.upstate.edu/medresidency/pdf/observership_application.pdf enviado ao Dept. of Medicine, Room 5138 UH, 750 E. Adams St., Syracuse, NY 13210",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Jefferey Montalbano",
+     "cargo": "Cardiology observership contact",
+     "papel": "Porta oficial de entrada para a cardiologia",
+     "url": "https://www.upstate.edu/medicine/observership/",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Adeeb Al-Quthami",
+     "cargo": "Director, Cardiology Fellowship (rev. jun/2026)",
+     "papel": "Coordena os fellows",
+     "url": "https://www.upstate.edu/cardiology/pdf/academics/fellowship-curriculum.pdf",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Andrew Weinberg",
+     "cargo": "Program Director (FREIDA 2025)",
+     "papel": "Possível PD atual/anterior",
+     "url": "https://freida.ama-assn.org/program/1413521128",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Cynthia Taub",
+     "cargo": "Chair, Department of Medicine",
+     "papel": "Chefe do departamento que gere o programa",
+     "url": "https://careers.upstate.edu/jobs/division-chief-of-cardiology-syracuse-new-york-united-states",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Ankur Kalra",
+     "cargo": "Division of Cardiology (afiliação em artigo)",
+     "papel": "Pesquisador ativo — gancho para e-mail",
+     "url": "https://doaj.org/article/0e625974e91c4ac48200cbde9279016c",
+     "certeza": "provável"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "Taxa baixa e navegador próprio ('Observership Navigator') — barreira de entrada pequena",
+    "Pagamento em papel por correio exige planejamento",
+    "Perfil mais voltado a IMGs/USMLE; menor peso acadêmico em cardiologia — opção de backup"
+   ],
+   "lacunas": [
+    "Duração (2 semanas renováveis vem de fonte incerta)",
+    "Chefe atual da Division of Cardiology (vaga aberta)",
+    "Vacinas/background check e e-mail do contato",
+    "Artigos 2022–2026 e brasileiros"
+   ]
+  },
+  {
+   "match": "Imperial College Healthcare — International Clinical Observer",
+   "alerta": "Programa ativo, mas a janela de inscrições está FECHADA no momento, sem data de reabertura.",
+   "rota": [
+    "Monitorar a reabertura da janela do International Clinical Observer",
+    "Em paralelo, pedir a um consultant (ex.: Rasha Al-Lamee, citando ORBITA-2/COSMIC) que supervisione 4 semanas em Hammersmith",
+    "Supervisor e clinical director (Ramzi Khamis) assinam o supervision agreement",
+    "Preparar documentos de identidade e visto de visitante"
+   ],
+   "prazos": [
+    {
+     "txt": "Janela de novas inscrições fechada, reabertura não informada",
+     "url": "https://www.imperial.nhs.uk/education/education-resources/clinical-observership-programmes/international-clinical-observer",
+     "certeza": "confirmado"
+    }
+   ],
+   "programa": {
+    "resumo": "Para médicos pós-graduados qualificados e registrados no país de origem (GMC não exigido); residente com CRM provavelmente elegível. Sem hands-on, com supervisor-mentor e corporate induction.",
+    "url": "https://www.imperial.nhs.uk/education/education-resources/clinical-observership-programmes/international-clinical-observer",
+    "duracao": "Máx. 12 semanas",
+    "documentos": "Formulário + documentos de identidade + visto se não-UE; supervision agreement assinado",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Ramzi Khamis",
+     "cargo": "Clinical Director, Cardiology and Cardiac Surgery",
+     "papel": "Assina o supervision agreement",
+     "url": "https://www.imperial.nhs.uk/consultant-directory/ramzi-khamis",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Rasha Al-Lamee",
+     "cargo": "Consultant interventional cardiologist",
+     "papel": "Líder dos ensaios ORBITA; possível supervisora",
+     "url": "https://imperial.nhs.uk/our-services/cardiology/heart-assessment-centre/meet-the-team",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Iqbal Malik",
+     "cargo": "Lead, Heart Attack Centre; Director of Structural Heart Disease",
+     "papel": "Lidera HAC/estrutural",
+     "url": "https://search.myhealthspecialist.com/specialists/iqbal-malik",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Darrel Francis",
+     "cargo": "Consultant cardiologist",
+     "papel": "Pesquisador sênior (coautor ORBITA)",
+     "url": "https://imperial.nhs.uk/our-services/cardiology/heart-assessment-centre/meet-the-team",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "ORBITA-2: Placebo-Controlled Trial of PCI for the Relief of Stable Angina (NEJM)",
+     "ano": 2023,
+     "id": null,
+     "url": "https://citoday.com/news/orbita-2-shows-pci-relieves-chest-pain-and-improves-exercise-capacity"
+    },
+    {
+     "titulo": "ORBITA-COSMIC: coronary sinus reducer for refractory angina (The Lancet)",
+     "ano": 2024,
+     "id": null,
+     "url": "https://www.acc.org/Latest-in-Cardiology/Articles/2024/04/02/17/02/mon-11am-orbita-cosmic-acc-2024"
+    }
+   ],
+   "dicas": [
+    "Inscrição só em janelas — monitorar a página",
+    "O que destrava é um consultant disposto a supervisionar",
+    "Até 12 semanas: 1 mês cabe bem"
+   ],
+   "lacunas": [
+    "Taxa",
+    "E-mail oficial (ofuscado nas buscas)",
+    "Requisitos de saúde ocupacional",
+    "Brasileiros e ponte com InCor/Unifesp"
+   ]
+  },
+  {
+   "match": "Leeds Teaching Hospitals — Medical Observerships",
+   "alerta": null,
+   "rota": [
+    "Escolher subárea e escrever a um consultant (Schlosshan p/ imagem, Page p/ EP, Rossington p/ TAVI/PCI) citando CE-MARC",
+    "Com o aceite, acionar o hosting team pela página How to apply e pagar £350",
+    "Iniciar Occupational Health e police clearance/good standing traduzidos e notarizados",
+    "Planejar 4 semanas (máx. 12)"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "LTHT Medical Observerships, só para médicos formados (residente se enquadra), hands-off; o candidato precisa achar sozinho um consultant anfitrião antes do pedido. Cardiologia no Yorkshire Heart Centre (LGI).",
+    "url": "https://www.leedsth.nhs.uk/careers/medical-observerships/",
+    "taxa": "£350 única, não reembolsável",
+    "duracao": "Máx. 12 semanas",
+    "documentos": "Occupational Health; certificate of good standing e police clearance traduzidos/notarizados; formulário MHC3; visto se necessário",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Andrew Hogarth",
+     "cargo": "Clinical Director, Cardiology (LGI)",
+     "papel": "Decide a rotina do serviço",
+     "url": "https://www.jobs.nhs.uk/candidate/jobadvert/C9298-MED-525",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Dominik Schlosshan",
+     "cargo": "Lead Clinician; clinical lead cardiac imaging",
+     "papel": "Possível host em imagem/CMR",
+     "url": "https://www.jobs.nhs.uk/candidate/jobadvert/C9298-MED-525",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Kate Gatenby",
+     "cargo": "Lead Clinician",
+     "papel": "Liderança clínica; possível host",
+     "url": "https://www.jobs.nhs.uk/candidate/jobadvert/C9298-MED-525",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Jennifer Rossington",
+     "cargo": "Coronary Intervention Lead",
+     "papel": "Host para hemodinâmica/TAVI",
+     "url": "https://resuminder.com/jobs/761011-con-971-consultant-cardiologist-tavi-at-leeds-teaching-hospitals",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Stephen Page",
+     "cargo": "Consultant Cardiologist & Electrophysiologist",
+     "papel": "Host para EP",
+     "url": "https://www.leedsth.nhs.uk/consultants/dr-stephen-page/",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Sven Plein / John Greenwood",
+     "cargo": "University of Leeds — CMR",
+     "papel": "Grupo de CMR de referência (CE-MARC)",
+     "url": "https://www.postdocjobs.com/posting/7138252",
+     "certeza": "provável"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "CE-MARC 3 — ensaio randomizado UK de investigação de dor torácica estável (abstract JCMR)",
+     "ano": 2024,
+     "id": null,
+     "url": "https://eprints.whiterose.ac.uk/id/eprint/224949/"
+    }
+   ],
+   "dicas": [
+    "Sem consultant que aceite não há pedido: o e-mail ao consultant É a candidatura",
+    "Pagar £350 só depois do aceite",
+    "Carta de apoio ao visto só sai após OH e checagens; confirmar regras de ETA",
+    "Antecipar police clearance (PF) e good standing (CRM) com tradução juramentada"
+   ],
+   "lacunas": [
+    "E-mail do hosting team (não visível)",
+    "Antecedência necessária",
+    "Brasileiros no YHC",
+    "PMIDs dos artigos CE-MARC 2023"
+   ]
+  },
+  {
+   "match": "NYU Langone — Dept. of Surgery Observership",
+   "alerta": "URL e e-mail do radar não confirmados; o único programa achado é o de trauma/acute care de Long Island, e a robótica cardíaca fica no Dept. of Cardiothoracic Surgery, sem observership publicado.",
+   "rota": [
+    "E-mail a Didier Loulmet (cc Eugene Grossi) citando o review de 2024 pedindo 4 semanas em reparo mitral robótico",
+    "Se aceito, seguir o fluxo de visiting observer indicado pelo departamento",
+    "Plano B: programa de Patrizio Petrone em Long Island (trauma, não cardíaca)"
+   ],
+   "prazos": [
+    {
+     "txt": "Inscrição aberta o ano todo (programa de Long Island)",
+     "url": "https://medli.nyu.edu/departments-divisions/surgery/research/international-observership-program",
+     "certeza": "confirmado"
+    }
+   ],
+   "programa": {
+    "resumo": "International Observership Program in Surgery (NYU Long Island): internacional, foco trauma/acute care, aceite por qualificação e entrevista. A Cardiotorácica não tem observership para médicos externos.",
+    "url": "https://medli.nyu.edu/departments-divisions/surgery/research/international-observership-program",
+    "contato": "patrizio.petrone@nyulangone.org",
+    "documentos": "CV + statement of purpose + 3 recomendadores por e-mail; entrevista presencial ou remota",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Didier F. Loulmet",
+     "cargo": "Director, Robotic Mitral Valve Program",
+     "papel": "Pioneiro; hospedaria observação em robótica mitral",
+     "url": "https://nyulangone.org/doctors/1629059076/didier-f-loulmet",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Eugene A. Grossi",
+     "cargo": "Stephen B. Colvin Professor of CT Surgery",
+     "papel": "Coautor sênior das séries robóticas",
+     "url": "https://nyulangone.org/doctors/1205821949/eugene-a-grossi",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Ralph S. Mosca",
+     "cargo": "Chair, Cardiothoracic Surgery",
+     "papel": "Aprovação departamental",
+     "url": "https://med.nyu.edu/departments-institutes/cardiothoracic-surgery/",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Patrizio Petrone",
+     "cargo": "Director, International Observership Program in Surgery (LI)",
+     "papel": "Único programa internacional publicado",
+     "url": "https://medli.nyu.edu/departments-divisions/surgery/research/international-observership-program",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "Two decades of experience with robotic mitral valve repair: What have we learned?",
+     "ano": 2024,
+     "id": "DOI 10.1016/j.xjtc.2024.01.014",
+     "url": "https://doi.org/10.1016/j.xjtc.2024.01.014"
+    },
+    {
+     "titulo": "Short-term outcomes of robotic left ventricular patch ventriculoplasty for significant mitral annular calcification",
+     "ano": 2024,
+     "id": "DOI 10.1016/j.xjtc.2024.06.016",
+     "url": "https://doi.org/10.1016/j.xjtc.2024.06.016"
+    }
+   ],
+   "dicas": [
+    "Robótica cardíaca sem programa estruturado: precisa de convite de Loulmet ou Grossi",
+    ">1.000 reparos mitrais robóticos desde 2011 — gancho para o e-mail",
+    "Orthopedics NYU exige faculty sponsor e limita a 30 dias — padrão provável",
+    "Visto B1/B2 para brasileiro"
+   ],
+   "lacunas": [
+    "URL/e-mail do radar (não confirmados)",
+    "Taxa e duração",
+    "Processo de visiting observer da Cardiotorácica",
+    "Ponte com Unifesp/USP/Dante"
+   ]
+  },
+  {
+   "match": "Fundación Favaloro",
+   "alerta": "Cargos divergem: Camporrotondo aparece como chefe de Cirurgia Cardiovascular (fev/2026) e Bertolotti como chefe de Cirurgia CV e Torácica (mai/2026) — confirmar no site.",
+   "rota": [
+    "E-mail em espanhol ao Departamento de Docencia + chefe da área pedindo 'rotación como observadora' de 4 semanas",
+    "Anexar carta da COREME/Unifesp",
+    "Pedir ao Docencia a lista de requisitos (seguro, título, carta)",
+    "Usar o Favaloro Cardiovascular Symposium para contato presencial"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Sem página pública de observership; formou >450 residentes da América Latina e Europa. Para estadia curta, padrão argentino é entrar como observador sem matrícula.",
+    "url": "https://www.coneau.gob.ar/archivos/anexos/IF-2018-57383703-APN-DAC-CONEAU.pdf",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Mariano Camporrotondo",
+     "cargo": "Jefe de Cirugía Cardiovascular",
+     "papel": "Liderou o 1º bypass robótico da Argentina (2026)",
+     "url": "https://www.baenegocios.com/saludybienestar/la-fundacion-favaloro-realizo-el-primer-bypass-coronario-asistido-por-robot-del-pais-3347/",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Alejandro M. Bertolotti",
+     "cargo": "Chairman Transplant Department; Director HF, MCS & Heart Transplant",
+     "papel": "Decide em transplante e IC",
+     "url": "https://virtual.tts.org/webapp/bio/6485",
+     "certeza": "provável"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "Symposium (set/2025) teve bolsas via organizacionsimposioff@grupoolmos.com.ar; edição 2026 não encontrada",
+    "Espanhol fluente ajuda; pode ser pedida carta de competência linguística",
+    "Brasileiro entra como turista para <90 dias; >90 dias exige residência transitória"
+   ],
+   "lacunas": [
+    "Página/contato oficial de observership",
+    "Taxa, duração e documentos",
+    "Chefes de eletrofisiologia e hipertensão pulmonar",
+    "Artigos recentes com ID"
+   ]
+  },
+  {
+   "match": "Stanford Health Care",
+   "alerta": "Não há observership central: cada departamento gere o seu; o único internacional publicado é do Dept. of Surgery, sem confirmação de que cubra a Cardiotorácica.",
+   "rota": [
+    "Escolher UMA subárea (ex. SCICD com Parikh ou CT surgery com Woo) e pedir faculty host por e-mail",
+    "Com o aceite, o departamento submete o Visiting Observer Form e cobra a taxa",
+    "Usar a conexão USP–Stanford (J.C.B. Ferreira) se a área for miocardiopatia/IC"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Visiting Observer Program por departamento, exige faculty host e é só observação; a política geral inclui médicos internacionais. A rotação AHFTC exige fellow ACGME (não serve).",
+    "url": "https://surgery.stanford.edu/about/global-surgery/international-visiting-observer-program.html",
+    "taxa": "Surgery: US$ 1.500 (inclui 1ª semana) + US$ 1.000/semana adicional",
+    "duracao": "Máx. 4 semanas (Surgery); muitos deptos ≤30 dias/12 meses",
+    "documentos": "Faculty host; Visiting Observer Form (Smartsheet); vacina COVID + reforço (aviso 2022); visto por conta própria",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Y. Joseph Woo",
+     "cargo": "Chair, Cardiothoracic Surgery",
+     "papel": "Hospeda robótica, mitral, transplante",
+     "url": "https://profiles.stanford.edu/joseph-woo",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Victoria Parikh",
+     "cargo": "Director, SCICD",
+     "papel": "Host em cardiogenética/miocardiopatias",
+     "url": "https://profiles.stanford.edu/victoria-parikh",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Euan Ashley",
+     "cargo": "Founder, SCICD",
+     "papel": "Cardiogenética de referência mundial",
+     "url": "https://ashleylab.stanford.edu/our-team/faculty/",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Kiran Khush",
+     "cargo": "Heart transplant research",
+     "papel": "Host em transplante/IC",
+     "url": "https://med.stanford.edu/cvmedicine/affinity-groups/heart-failure.html",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Jeffrey Teuteberg",
+     "cargo": "Medical Director, MCS program",
+     "papel": "Suporte circulatório",
+     "url": "https://med.stanford.edu/cvmedicine/affinity-groups/heart-failure.html",
+     "certeza": "provável"
+    },
+    {
+     "nome": "George Lui",
+     "cargo": "Medical Director, Adult Congenital Heart Program",
+     "papel": "Host em congênito adulto",
+     "url": "https://www.stanfordchildrens.org/en/services/congenital-heart/careteam.html",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [
+    {
+     "nome": "Julio Cesar Batista Ferreira",
+     "ligacao": "ICB-USP; Professor Visitante/pós-doc na Stanford School of Medicine (2019–21), pesquisa básica",
+     "url": "https://bv.fapesp.br/pt/pesquisador/32710/julio-cesar-batista-ferreira/",
+     "certeza": "provável"
+    }
+   ],
+   "artigos": [],
+   "dicas": [
+    "Sem faculty host não há pedido",
+    "Orçar ~US$ 4.500 por 4 semanas (modelo Surgery)",
+    "Robotic-assisted MIDCAB desde out/2022 — gancho citável",
+    "Visto B1/B2 por conta própria"
+   ],
+   "lacunas": [
+    "Contato oficial de observership da cardiologia/CT",
+    "Antecedência",
+    "Diretor do programa de sports cardiology",
+    "Artigos recentes com PMID"
+   ]
+  },
+  {
+   "match": "NewYork-Presbyterian / Columbia",
+   "alerta": "Liderança mudou em 2026: Bacha virou Chair of Surgery e Arnar Geirsson chefia a Cirurgia Cardíaca; não há página de observership em cardio/cirurgia cardíaca.",
+   "rota": [
+    "E-mail a Arnar Geirsson citando os 300 casos robóticos e o paper de 2024 pedindo sponsor de 4 semanas",
+    "Em paralelo, perguntar ao escritório da Division of Cardiac Surgery o processo oficial",
+    "Alternativa por área: Koji Takeda (transplante/ECMO) ou Structural Heart Center",
+    "Usar o AATS Mitral Conclave como contato presencial"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Sem observership público em cardiologia/cirurgia cardíaca; o modelo da Neurologia exige sponsor no staff, aprovação do chefe, até 3 meses e US$ 1.000 — provável lógica semelhante, não confirmada.",
+    "url": "https://www.columbianeurology.org/education-and-training/visiting-physicians-and-scientists/clinical-observership",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Arnar Geirsson",
+     "cargo": "Chief, Division of Cardiac Surgery",
+     "papel": "Decide; fundou o programa robótico (2023)",
+     "url": "https://www.nyp.org/news/nyp-and-cuimc-announce-new-leadership-appointments-in-cardiac-surgery",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Michael LaLonde",
+     "cargo": "Director, Robotic Cardiac Surgery Program",
+     "papel": "Logística do programa robótico",
+     "url": "https://columbiasurgery.org/node/16786",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Koji Takeda",
+     "cargo": "Surgical Director, Heart Transplant and MCS",
+     "papel": "Transplante/ECMO/VAD",
+     "url": "https://www.columbiadoctors.org/koji-takeda-md",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Isaac George / Tamim Nazif / Torsten Vahl",
+     "cargo": "Co-directors, Structural Heart and Valve Center",
+     "papel": "Estrutural",
+     "url": "https://www.nyp.org/advances/article/cardiology/structural-heart-and-valve-center-at-newyork-presbyterian-and-columbia-advances-cardiac-care-through-innovation-and-multidisciplinary-expertise",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Emile Bacha",
+     "cargo": "Chair of Surgery / Surgeon-in-Chief (desde 01/2026)",
+     "papel": "Autoridade da cirurgia; congênitas",
+     "url": "https://www.cuimc.columbia.edu/node/30037",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Stephanie Levasseur / Matthew Crystal",
+     "cargo": "Director of Fetal Cardiology / Fetal Cardiac Intervention",
+     "papel": "Fetal e cardio pediátrica",
+     "url": "https://pediatrics.columbia.edu/profile/matthew-crystal-md",
+     "certeza": "provável"
+    }
+   ],
+   "brasileiros": [
+    {
+     "nome": "Javier Maldonado",
+     "ligacao": "Ex-Columbia Presbyterian (transplante/VAD), fez residência no InCor 1992–94; vínculo atual não confirmado",
+     "url": "https://ctsnet.freelock.com/article/author/jmaldonado",
+     "certeza": "provável"
+    }
+   ],
+   "artigos": [
+    {
+     "titulo": "Transcatheter Valve Replacement in Severe Tricuspid Regurgitation (TRISCEND II)",
+     "ano": 2024,
+     "id": "DOI 10.1056/NEJMoa2401918",
+     "url": "https://www.pcronline.com/News/Congress-coverages/TCT/2024/TRISCEND-II-trial-Randomized-comparison-transcatheter-valve-replacement-optimal-medical-therapy-for-severe-tricuspid-regurgitation"
+    },
+    {
+     "titulo": "Robotic Mitral Valve Repair for Degenerative Mitral Regurgitation (Ann Thorac Surg)",
+     "ano": 2024,
+     "id": null,
+     "url": "https://columbiasurgery.org/node/18745"
+    }
+   ],
+   "dicas": [
+    "Programa robótico jovem (set/2023), 300ª cirurgia em dez/2025 — bom gancho",
+    "Há robótica pediátrica/congênita: https://columbiasurgery.org/node/17761",
+    "Espere precisar de sponsor + aprovação do chefe + taxa administrativa",
+    "Visiting Scholars da Cardiology é só para estudantes de medicina"
+   ],
+   "lacunas": [
+    "Página, contato, taxa e documentos de observership em cardio",
+    "Diretor atual do Structural Heart Center (fontes conflitantes)",
+    "Ponte com Unifesp/InCor/Dante",
+    "ID do paper de robótica mitral 2024"
+   ]
+  },
+  {
+   "match": "University of Ottawa Heart Institute",
+   "alerta": "A URL do radar é da Division of Cardiac Surgery da uOttawa, não do UOHI; o destaque é MICS CABG (Marc Ruel), não robótica.",
+   "rota": [
+    "E-mail a Marc Ruel citando o MIST (Lancet 2026) pedindo 4 semanas em MICS CABG/robótica",
+    "Perguntar se há curso internacional de MICS próximo",
+    "Para EP/IC/reabilitação, pedir ao escritório acadêmico da Division of Cardiology o processo de observer"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Sem observership público do UOHI; no Ontário cada hospital define (CPSO não administra). Fellowships formais exigem licença educacional de Ontário.",
+    "url": "https://www.cpso.on.ca/getmedia/4e8ff72e-9e8c-44b2-8d81-a38317dbbbe0/observerships.pdf",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Marc Ruel",
+     "cargo": "Chief/Division Head, Cardiac Surgery",
+     "papel": "Decide; lidera MICS CABG e cursos internacionais",
+     "url": "https://www.uottawa.ca/faculty-medicine/directory/dr-marc-ruel",
+     "certeza": "provável"
+    },
+    {
+     "nome": "David Birnie",
+     "cargo": "Cardiac Electrophysiologist; Head ou Deputy Head, Cardiology",
+     "papel": "EP e liderança da cardiologia",
+     "url": "https://radcliffecardiology.com/authors/david-birnie",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Martin Green",
+     "cargo": "Director, Postgraduate EP Fellowship",
+     "papel": "Ensino em EP",
+     "url": "https://network.expertisefinder.com/experts/martin-s-green",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Rob Beanlands",
+     "cargo": "President & CEO, UOHI",
+     "papel": "Liderança institucional (imagem/nuclear)",
+     "url": "https://ccs.ca/news/ccs-member-dr-rob-beanlands-appointed-president-and-chief-executive-officer-of-the-university-of-ottawa-heart-institute/",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Robert Reid / Jennifer Reed",
+     "cargo": "Cardiac Prevention & Rehabilitation",
+     "papel": "Área de reabilitação",
+     "url": "https://www.csanzasm.com/speakers/jennifer-reed",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Peter Liu",
+     "cargo": "Chief Scientific Officer / VP Research",
+     "papel": "IC/pesquisa",
+     "url": "https://theorg.com/org/university-of-ottawa-heart-institute/org-chart/peter-liu",
+     "certeza": "provável"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "Multivessel coronary artery bypass grafting via small thoracotomy versus sternotomy (MIST): randomised trial",
+     "ano": 2026,
+     "id": "PMID 42537680",
+     "url": "https://www.uottawa.ca/en/news-all/worlds-first-randomized-trial-finds-less-invasive-heart-bypass-surgery-speeds-recovery"
+    }
+   ],
+   "dicas": [
+    "Cursos internacionais de MICS CABG em Ottawa são porta de entrada",
+    "Para 1 mês, buscar observership informal via chefe de divisão",
+    "Laboratório de eco recebe trainees internacionais desde 1988: https://csecho.ca/wp-content/uploads/9UniversityofOttawaHeartInstitute.pdf"
+   ],
+   "lacunas": [
+    "Página e contato oficial de observership do UOHI",
+    "Nome do fellow de cardiologia nuclear com doutorado na UFF (perfil IAEA sem nome visível)",
+    "Volume do serviço com ano",
+    "Ponte com Unifesp/SP"
+   ]
+  },
+  {
+   "match": "Hospital Italiano de Buenos Aires",
+   "alerta": "A URL do radar descreve cirurgia por via axilar (minimamente invasiva), não robótica; não há programa robótico cardíaco no HIBA.",
+   "rota": [
+    "Escrever ao Docencia/Posgrado pedindo 'rotación externa observacional' de 4 semanas, com carta da COREME Unifesp",
+    "Em paralelo, e-mail a Vadim Kotowicz (adulto) ou Jorge Barretta (pediátrico/congênitas)",
+    "Preparar carta de proficiência em espanhol"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Sem página de observership; há precedente de rotação externa internacional de residente (Peru, 2023). Estrangeiro sem matrícula argentina provavelmente entra como observador.",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/4761111/R.D.%20N%C2%B0079-2023-DG_removed%20%281%29.pdf",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Vadim Kotowicz",
+     "cargo": "Jefe del Servicio de Cirugía Cardiovascular",
+     "papel": "Decide aceite na cirurgia",
+     "url": "https://ctsnet.org/home/vkotowicz",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Germán Fortunato",
+     "cargo": "Cirujano cardiovascular staff",
+     "papel": "Cirurgia minimamente invasiva (via axilar)",
+     "url": "https://www.ctsnet.org/members/german-fortunato/",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Jorge Barretta",
+     "cargo": "Jefe de cirugía cardiovascular y trasplante pediátrico",
+     "papel": "Congênitas e transplante pediátrico",
+     "url": "https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2025/PDF2025/TP2025/3502-D-2025.pdf",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Leandro Barbagelata / Ignacio Bluro",
+     "cargo": "Cardiologia adultos (IC/imagem)",
+     "papel": "IC/miocardiopatias",
+     "url": "https://ar.linkedin.com/in/imedcv",
+     "certeza": "provável"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "500 transplantes cardíacos adultos desde 1988 e 1º transplante pediátrico DCD da Argentina (2025) — ganchos",
+    "GESICA nasceu no HIBA — gancho histórico para IC",
+    "Esperar status de observador e possível taxa",
+    "Distância, idioma e custo baixos: bom plano B"
+   ],
+   "lacunas": [
+    "Contato oficial atual (posgrado@hospitalitaliano.org.ar é de 2006)",
+    "Regras, taxa e duração para cardio",
+    "Chefe de cardiologia adultos",
+    "Artigos recentes com ID"
+   ]
+  },
+  {
+   "match": "Montreal Heart Institute",
+   "alerta": "Liderança cirúrgica nos brutos é de 2017; não há observership público — o caminho estruturado é fellowship de 12–36 meses.",
+   "rota": [
+    "E-mail (de preferência em francês) a Denis Bouchard (robótica) ou Rafik Tadros (cardiogenética, citando Nat Genet 2025)",
+    "Pedir observership de 4 semanas e o procedimento interno do MHI",
+    "Se quiser algo maior, planejar fellowship com ≥18 meses de antecedência via UdeM"
+   ],
+   "prazos": [
+    {
+     "txt": "Fellowship: aplicar ≥18 meses antes",
+     "url": "https://fondationicm.org/en/?p=2706",
+     "certeza": "confirmado"
+    }
+   ],
+   "programa": {
+    "resumo": "Observership curto não encontrado; o MHI recebe ~20 especialistas estrangeiros/ano em fellowship (12–36 meses, matrícula na UdeM). No Quebec cada estabelecimento decide observações.",
+    "url": "https://icm-mhi.org/en/node/925",
+    "duracao": "Fellowship 12–36 meses",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Denis Bouchard",
+     "cargo": "Lead, Robotic Surgery Program",
+     "papel": "Hospeda robótica",
+     "url": "https://icm-mhi.org/en/node/545",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Louis P. Perrault",
+     "cargo": "Head of Cardiac Surgery (2017)",
+     "papel": "Decide no departamento (pode estar desatualizado)",
+     "url": "https://icm-mhi.org/en/node/3659",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Anita Asgar",
+     "cargo": "Co-director, Structural Heart Program",
+     "papel": "Estrutural",
+     "url": "https://icm-mhi.org/en/node/443",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Reda Ibrahim",
+     "cargo": "Ex-Director, Structural Heart Disease Program",
+     "papel": "Estrutural/UTI",
+     "url": "https://scai.confex.com/scai/2026/webprogramarchives/Person64237.html",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Rafik Tadros",
+     "cargo": "Director, Cardiovascular Genetics Centre",
+     "papel": "Cardiogenética",
+     "url": "https://www.acmgmeeting.net/speakers/rafik-tadros",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Julia Cadrin-Tourigny",
+     "cargo": "Cardiologist-EP, inherited diseases",
+     "papel": "Cardiogenética",
+     "url": "https://esc365.escardio.org/person/536555",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [
+    {
+     "nome": "Luiz Fernando Ybarra",
+     "ligacao": "Cardiologista brasileiro com endereço em Montreal (Arq Bras Cardiol 2019); vínculo com o MHI não confirmado",
+     "url": "https://www.scielo.br/j/abc/a/9G7dR4nX4NTsKTDGYW8jYNx/abstract/?lang=en",
+     "certeza": "provável"
+    }
+   ],
+   "artigos": [
+    {
+     "titulo": "Large-scale genome-wide association analyses identify novel genetic loci and mechanisms in hypertrophic cardiomyopathy",
+     "ano": 2025,
+     "id": "DOI 10.1038/s41588-025-02087-4",
+     "url": "https://www.ukbiobank.ac.uk/publications/large-scale-genome-wide-association-analyses-identify-novel-genetic-loci-and-mechanisms-in-hypertrophic-cardiomyopathy/"
+    }
+   ],
+   "dicas": [
+    "Francês ajuda muito (instituição francófona, UdeM)",
+    "1º Da Vinci Xi do Canadá exclusivo para cirurgia cardíaca (2017)",
+    "Fundação ICM financia bolsas só para fellowship longo",
+    "Fellows latino-americanos são comuns"
+   ],
+   "lacunas": [
+    "Chefe atual da Cirurgia Cardíaca",
+    "Página/contato de observership curto",
+    "Taxa e documentos",
+    "Ponte com Unifesp/SP"
+   ]
+  }
+ ],
+ "pontes_brasil": [
+  {
+   "nome": "Julio Cesar Batista Ferreira",
+   "onde": "ICB-USP (São Paulo)",
+   "ligacao": "Professor Visitante/pós-doc em Stanford (2019–21), metabolismo cardíaco",
+   "centros": [
+    "Stanford Health Care"
+   ],
+   "url": "https://bv.fapesp.br/pt/pesquisador/32710/julio-cesar-batista-ferreira/",
+   "certeza": "provável"
+  }
+ ]
+}

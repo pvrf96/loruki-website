@@ -1,0 +1,142 @@
+[
+  {
+    "centro": "Instituto Dante Pazzanese de Cardiologia (IDPC), São Paulo",
+    "programa": {
+      "estagio_externo_observacional": "não encontrado: nenhuma página oficial de estágio eletivo/observacional para residentes externos em cirurgia vascular/endovascular. O único 'curso observacional' publicado é o de ultrassom Doppler de carótidas/vertebrais (módulos semanais de 1 a 4 semanas), destinado a radiologistas/ultrassonografistas, não a residentes de cirurgia.",
+      "fonte_curso_observacional": "https://cursos.idpc.org.br/image/catalog/pdf/OBSERVACIONAL/ECO_DOPPLER/Curso%20observacional%20de%20ultrassonografia%20de%20caro%CC%81tidas%20e%20vertebrais%20IDPC%20.pdf",
+      "indicio_aceita_externos": "relato pessoal de residente (não é regra formal): o Dante 'recebe muitos residentes' de outros países da América Latina e de outras universidades brasileiras",
+      "fonte_indicio": "https://portal.afya.com.br/carreira/residencia-medica-no-dante-pazzanese-como-funciona-e-dicas-para-ser-aprovado",
+      "emails": {
+        "ceap@dantepazzanese.org.br": "provável: a busca o atribui ao Edital 2026 de Anestesia do IDPC como contato do setor de ensino. Não conferi o trecho no PDF.",
+        "fonte_ceap": "https://cursos.idpc.org.br/image/catalog/pdf/Aprimoramento_2026/ANESTESIA/Edital_2026_Anestesia.pdf",
+        "coreme@dantepazzanese.org.br": "não confirmado: uma busca exata pelo endereço não trouxe nenhuma página"
+      },
+      "certeza": "baixa para o estágio, provável para o e-mail do CEAP"
+    },
+    "servico": {
+      "estrutura": "O IDPC tem residência em Cirurgia Vascular (R1 de 2 anos, exige 2 anos de cirurgia geral) e área de atuação em Cirurgia Endovascular (1 ano; 4 vagas em 2026; exige 2 anos de Cirurgia Vascular, Angiologia ou Radiologia). Tem também residência em Cirurgia Cardiovascular, que em 2027 passou a ter acesso direto.",
+      "fontes": [
+        "https://www.medway.com.br/conteudos/residencia-medica-dante/",
+        "https://med.estrategia.com/portal/noticias/dante-pazzanese-edital-residencia-medica-2027/",
+        "https://cursos.idpc.org.br/image/catalog/pdf/RESIDENCIA%202023/EDITAL_DE_SELECAO_2023.pdf"
+      ],
+      "chefe_vascular_endovascular": "não encontrado (3 buscas sem fonte que nomeie a chefia atual)",
+      "chefe_aorta": "não encontrado. Pista fraca: um diretório do CTSNet lista Virginia Rivas como cirurgiã cardiotorácica do Dante Pazzanese Institute, com interesse em aneurisma, dissecção e TAVI. Não confirma cargo e pode estar desatualizado.",
+      "fonte_pista": "https://www.ctsnet.org/home/virgini",
+      "processo_seletivo_2027": "inscrições de 05/10 a 11/11/2026; prova objetiva em 29/11/2026 (Estratégia MED)",
+      "certeza": "confirmado para a estrutura da residência; não encontrado para a chefia"
+    },
+    "pessoas_chave": [],
+    "brasileiros": "n/a (instituição brasileira)",
+    "dicas": [
+      "Não existe programa observacional publicado para residentes de cirurgia: o pedido deve ser formal, da COREME da Unifesp para a área de ensino do IDPC (CEAP), com carta do supervisor.",
+      "Para estágio no 1º trimestre, evitar o período de seleção (outubro a dezembro de 2026)."
+    ],
+    "rota_recomendada": "1) Ligar ou escrever para a área de ensino/CEAP do IDPC (ceap@dantepazzanese.org.br, a confirmar no site idpc.org.br) para saber o fluxo de estágio optativo de residente externo e quem chefia a cirurgia vascular/endovascular. 2) Pedir à COREME da Unifesp um ofício de estágio optativo. 3) Se possível, conseguir a indicação de um preceptor da Unifesp que conheça a equipe do Dante."
+  },
+  {
+    "centro": "PONTES_BRASIL",
+    "nota_geral": "Não encontrei professor da Unifesp/EPM, do InCor ou do Dante com fellowship ou coautoria comprovada com Cleveland, Mayo, UTHealth, Methodist, Texas Heart, UHN ou UKE. As pontes comprovadas passam pelo grupo de Gustavo Oderich, por brasileiros da Santa Casa de SP e da USP-Ribeirão Preto. ATUALIZAÇÃO IMPORTANTE: em fevereiro de 2025 Oderich deixou a UTHealth e hoje chefia a Divisão de Cirurgia Vascular e Terapia Endovascular do Baylor College of Medicine e o Baylor Medicine Center for Aortic Surgery (Texas Heart Institute / Baylor St. Luke's).",
+    "pontes": [
+      {
+        "nome": "Gustavo S. Oderich",
+        "instituicao_atual": "Baylor College of Medicine e Texas Heart Institute, Houston: chefe da Divisão de Cirurgia Vascular e Terapia Endovascular e diretor do Baylor Medicine Center for Aortic Surgery (desde 2025)",
+        "ligacao": "Brasileiro, formado na UFRGS (graduação e residência). Fez fellowship de vascular na Mayo e fellowship avançado de endovascular na Cleveland Clinic (2007, com Roy Greenberg). Chefiou a vascular da Mayo e dirigiu o Mayo Aortic Center até 2020; chefiou a vascular da UTHealth de 2020 a 2025. É membro da SBACV. Funciona como ponte para Baylor/Texas Heart, Mayo e Cleveland.",
+        "fontes": [
+          "https://www.texasheart.org/dr-gustavo-oderich-joins-baylor-college-of-medicine-as-chief-of-the-division-of-vascular-surgery-and-endovascular-therapy/",
+          "https://vascularnews.com/from-brazil-to-baylor-oderich-assumes-coveted-role-at-cardiovascular-powerhouse/",
+          "https://en.wikipedia.org/wiki/Gustavo_S._Oderich"
+        ],
+        "certeza": "confirmado"
+      },
+      {
+        "nome": "Bernardo Curi Mendes",
+        "instituicao_atual": "UCLA (desde maio de 2025), titular da Wesley S. Moore Endowed Chair in Endovascular Surgery",
+        "ligacao": "Graduou-se na UFSM em 2008 e fez residência de cirurgia geral na Santa Casa de São Paulo (2012). Foi research fellow de Oderich na Mayo em 2012, fez a residência integrada de vascular da Mayo (2013–2018) e depois foi staff de aorta complexa na Mayo. É coautor frequente de Oderich e Tenorio. Ponte para Mayo e UCLA.",
+        "fontes": [
+          "https://www.uclahealth.org/providers/bernardo-curi-mendes",
+          "https://mayoclinic.org/biographies/mendes-bernardo-c-m-d/bio-20426532",
+          "https://www.eacts.org/faculty/bernardo-mendes/"
+        ],
+        "certeza": "confirmado"
+      },
+      {
+        "nome": "Emanuel R. Tenorio",
+        "instituicao_atual": "provável: Advanced Aortic Research Program da UTHealth Houston, ou grupo de Oderich no Baylor (não confirmado)",
+        "ligacao": "Coautor de muitos artigos do grupo Oderich sobre F/B-EVAR, por exemplo PMID 40449698 (J Vasc Surg 2025), PMID 40568830 e PMID 40409435. Há um 'Emanuel Junio Ramos Tenorio', cirurgião vascular do HC de Ribeirão Preto. Não confirmei que seja a mesma pessoa nem que seja brasileiro.",
+        "fontes": [
+          "https://www.catalogo.med.br/doutor/emanuel-junio-ramos-tenorio-2030314.htm",
+          "https://pubmed.ncbi.nlm.nih.gov/40449698/"
+        ],
+        "certeza": "provável"
+      },
+      {
+        "nome": "Maurício Serra Ribeiro",
+        "instituicao_atual": "FMRP-USP (Ribeirão Preto), Divisão de Cirurgia Vascular e Endovascular",
+        "ligacao": "Coautor de Oderich, com afiliação USP, em J Vasc Surg 2019 (DOI 10.1016/j.jvs.2018.09.063, endopróteses fenestradas/ramificadas feitas pelo fabricante) e em CVIR 2019 (DOI 10.1007/s00270-019-02322-6, cateteres pré-carregados). É a ponte acadêmica brasileira mais sólida para o grupo Oderich (Mayo, UTHealth, Baylor).",
+        "fontes": [
+          "https://repositorio.usp.br/item/002898512",
+          "https://repositorio.usp.br/item/003006619"
+        ],
+        "certeza": "confirmado para a coautoria; fellowship na Mayo não confirmado"
+      },
+      {
+        "nome": "Lucas Ruiter Kanamori",
+        "instituicao_atual": "University of Washington (Seattle), residente de cirurgia vascular",
+        "ligacao": "Paulistano, formado na Faculdade de Ciências Médicas da Santa Casa de SP, com estudos na USP. Foi postdoctoral research fellow em aorta na UTHealth Houston (Veith 2024); outro perfil o coloca no Baylor. É coautor de Oderich em F/B-EVAR (por exemplo PMID 40683396). Ponte jovem e acessível: é o caminho de 'research fellow' que a residente pode copiar.",
+        "fontes": [
+          "https://uwsurgery.org/?p=22871",
+          "https://veithsymposium.org/2024/assoc_faculty.php?letter=r",
+          "https://profiles.viictr.org/display/77937843"
+        ],
+        "certeza": "confirmado"
+      },
+      {
+        "nome": "Guilherme Baumgardt Barbosa Lima (Guilherme B. Lima)",
+        "instituicao_atual": "provável: Mayo Clinic Vascular Center, Rochester (diretório Vitals, pode estar desatualizado)",
+        "ligacao": "Coautor de artigos de 2023–2024 no J Vasc Surg com Oderich, Mendes, Tenorio e Kanamori. O nome sugere que é brasileiro, mas a formação no Brasil não foi confirmada.",
+        "fontes": [
+          "https://aminer.org/profile/guilherme-b-barbosa-lima/5617057545ce1e5963befffd",
+          "https://www.vitals.com/doctors/guilherme-baumgardt-barbosa-lima-2nsmvn"
+        ],
+        "certeza": "provável"
+      },
+      {
+        "nome": "Thanila de Araujo Macedo",
+        "instituicao_atual": "Baylor College of Medicine, professora de Radiologia (Baylor St. Luke's)",
+        "ligacao": "Formada na Universidade Federal de Goiás (segundo um diretório). Fez residência de radiologia (1997–2001) e fellowship de radiologia vascular/intervencionista (2001–2002) na Mayo. Publica com o grupo de aorta (EVAR, embolização de endoleak). Ponte brasileira dentro do Baylor/Texas Heart.",
+        "fontes": [
+          "https://www.bcm.edu/people-search/thanila-de-araujo-macedo-180726",
+          "https://www.doximity.com/pub/thanila-macedo-md"
+        ],
+        "certeza": "provável"
+      }
+    ],
+    "pontes_internas_unifesp_sem_vinculo_exterior_confirmado": [
+      {
+        "nome": "José Honório Palma / Diego Felipe Gaia",
+        "instituicao": "Disciplina de Cirurgia Cardiovascular, EPM-Unifesp",
+        "ligacao": "Grupo de aorta e tratamento híbrido/endovascular do arco aórtico da Unifesp. É o grupo natural para escrever a carta de apresentação. Não encontrei fellowship ou coautoria deles com os centros-alvo.",
+        "fontes": [
+          "https://oasisbr.ibict.br/vufind/Record/UFSP_640213ff3560fe1aa74cd2aa5928bceb",
+          "https://bv.fapesp.br/en/pesquisador/666055/diego-felipe-gaia-dos-santos"
+        ],
+        "certeza": "confirmado para a afiliação; vínculo com o exterior não encontrado"
+      },
+      {
+        "nome": "Walter José Gomes",
+        "instituicao": "Professor titular de Cirurgia Cardiovascular, EPM-Unifesp",
+        "ligacao": "Chefe acadêmico da área da residente e coautor das diretrizes brasileiras de cirurgia da aorta (2004). Vínculo com o exterior não encontrado.",
+        "fontes": ["https://www.escavador.com/sobre/6081470/walter-jose-gomes"],
+        "certeza": "confirmado para a afiliação"
+      }
+    ],
+    "nao_encontrado": [
+      "Brasileiros atuais ou ex-fellows no German Aortic Center Hamburg (UKE). Há um 'AortenFellow 2020' sem nome no CTSNet: https://www.ctsnet.org/print/home/maldag",
+      "Brasileiros no Toronto UHN e no Houston Methodist",
+      "Coautorias Unifesp/EPM com Oderich, Kölbel, Greenberg ou Coselli",
+      "Um perfil do CTSNet descreve um brasileiro com clinical fellowship em cirurgia cardiovascular e endovascular na Cleveland Clinic (2001–2003) e doutorado na USP (2008). Não consegui identificar o nome a partir do trecho."
+    ],
+    "rota_recomendada": "1) Pedir ao grupo de aorta da CCV-Unifesp (Palma/Gaia) uma carta. 2) Pedir uma apresentação por e-mail via Maurício Serra Ribeiro (FMRP-USP, coautor de Oderich) ou via ex-fellows brasileiros como Kanamori e Mendes. 3) Escrever a Oderich em português, no Baylor/Texas Heart (não mais na UTHealth), citando PMID 40449698. Para a Mayo, a ponte é Bernardo Mendes (hoje na UCLA)."
+  }
+]

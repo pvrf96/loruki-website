@@ -1,0 +1,243 @@
+<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Guia fundo · IPTU, ambiental e competências</title>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#EFEADC;--pg:#FDFBF3;--bd:#E3DFCF;--bl:#0C447C;--rd:#993C1D;--gr:#1A6B3C;--tx:#2C2C2A;--am:#D9A441}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);font-family:'Caveat',cursive;color:var(--tx)}
+.wrap{max-width:900px;margin:0 auto;padding:10px 10px 70px}
+.nav{position:sticky;top:0;z-index:30;background:var(--pg);border:1px solid var(--bd);border-radius:10px;padding:6px 10px;font-size:18px;line-height:26px;box-shadow:0 2px 6px rgba(0,0,0,.06)}.nav a{margin-right:10px;color:var(--rd);text-decoration:none;border-bottom:1px dotted #C9A896;white-space:nowrap}.nav b{color:var(--bl)}
+h1{font-size:34px;line-height:38px;margin:10px 0 4px;color:var(--bl)}h2{font-size:29px;line-height:33px;margin:0 0 8px;color:var(--bl);scroll-margin-top:80px}h3{font-size:23px;margin:14px 0 4px;color:var(--gr)}
+p,li{font-size:20px;line-height:29px;margin:5px 0}.sb{font-size:17px;color:#5F5E5A}ul,ol{padding-left:24px;margin:4px 0}
+.pg{background:var(--pg);border:1px solid var(--bd);border-radius:14px;padding:16px 16px 18px;margin:14px 0}
+.bz{border:1.5px solid var(--bl);border-radius:6px;padding:8px 12px;margin:10px 0;font-size:20px;line-height:28px;color:var(--bl);background:#F4F8FC}
+.pk{border:1.5px dashed #A32D2D;padding:8px 12px;margin:10px 0;font-size:19px;line-height:27px;color:#A32D2D;background:#FDF6F5;border-radius:6px}
+.fm{border-left:4px solid var(--gr);background:#F1F9F4;padding:7px 12px;margin:10px 0;font-size:20px;line-height:28px;color:#14532D}
+.av{background:#FFF6E0;border:1.5px solid var(--am);border-radius:8px;padding:8px 12px;margin:10px 0;font-size:18px;line-height:26px;color:#7A5A12}
+.hl{background:#FAEEDA;padding:0 4px;border-radius:3px}.cz{color:var(--bl);font-weight:700}.cv{color:#A32D2D;font-weight:700}
+table{width:100%;border-collapse:collapse;margin:8px 0;font-size:18px}th{background:#EAF0F7;color:var(--bl);text-align:left;padding:5px 7px;border:1px solid #D6D2C4}td{padding:5px 7px;border:1px solid var(--bd);vertical-align:top;line-height:24px}td.k{font-weight:700;color:var(--rd)}
+.tl{display:flex;flex-direction:column;gap:0;margin:10px 0}.st{display:flex;gap:10px;align-items:stretch}.st .d{min-width:92px;max-width:92px;background:var(--bl);color:#fff;border-radius:10px 0 0 10px;padding:6px 6px;font-size:18px;line-height:22px;text-align:center;display:flex;align-items:center;justify-content:center}
+.st .t{flex:1;border:1.5px solid var(--bl);border-radius:0 10px 10px 0;padding:6px 10px;font-size:19px;line-height:26px;background:#fff}.ar{text-align:center;font-size:24px;color:var(--rd);line-height:22px;margin:2px 0 2px 0}
+.st.r .d{background:#A32D2D}.st.r .t{border-color:#A32D2D}.st.g .d{background:var(--gr)}.st.g .t{border-color:var(--gr)}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}@media(max-width:620px){.grid{grid-template-columns:1fr}}
+.cell{border:2px solid var(--bl);border-radius:12px;padding:8px 10px;background:#fff}.cell h4{margin:0 0 4px;font-size:23px;color:var(--bl)}.cell.u{border-color:#0C447C;background:#EAF0F7}.cell.c{border-color:#1A6B3C;background:#E7F5EC}.cell.e{border-color:#B8860B;background:#FFF6DD}.cell.m{border-color:#993C1D;background:#FBEDE6}.cell.s{border-color:#6B3FA0;background:#F1EAF8}
+.cell .n{display:inline-block;background:var(--bl);color:#fff;border-radius:10px;padding:0 9px;font-size:18px;margin-right:6px}
+.inp{font:inherit;font-size:22px;border:1.5px solid var(--bl);border-radius:8px;padding:3px 8px;width:100%;background:#fff}.row{display:flex;gap:10px;flex-wrap:wrap}.row>div{flex:1;min-width:150px}label{font-size:18px;color:var(--bl);font-weight:700}
+.btn{font:inherit;font-size:21px;font-weight:700;border:2px solid var(--bl);background:var(--bl);color:#fff;border-radius:12px;padding:5px 14px;cursor:pointer;margin:4px 6px 4px 0}.btn.o{background:#fff;color:var(--bl)}
+.opt{display:inline-block;font:inherit;font-size:18px;border:1.5px solid var(--bl);color:var(--bl);background:#fff;border-radius:14px;padding:2px 11px;margin:3px 4px 3px 0;cursor:pointer}.opt.ok{background:#1A6B3C;color:#fff;border-color:#1A6B3C}.opt.no{background:#A32D2D;color:#fff;border-color:#A32D2D}
+.qz{border:1px solid var(--bd);border-radius:10px;padding:8px 10px;margin:8px 0;background:#fff}.qz .ex{margin-top:6px;font-size:18px;line-height:25px;color:#14532D;display:none}
+.mem{font-size:22px;line-height:32px;text-align:center;border:2px solid var(--rd);border-radius:12px;padding:8px 10px;margin:10px 0;background:#FDF6F5;color:var(--rd);font-weight:700}
+@media(max-width:520px){h1{font-size:27px}td,th{font-size:16px;padding:4px}.st .d{min-width:74px;max-width:74px;font-size:16px}}
+</style></head><body><div class="wrap">
+<div class="nav"><b>Guia fundo</b> · <a href="#tributario">1 Tributário do zero</a> <a href="#iptu">2 IPTU progressivo</a> <a href="#simul">3 Simulador</a> <a href="#peuc">4 PEUC passo a passo</a> <a href="#amb">5 Ambiental fundo</a> <a href="#comp">6 Esquema das competências</a> <a href="#treino">7 Treino</a> <a href="#nunca">8 Não errar mais</a></div>
+<h1>Guia fundo: IPTU, ambiental e competências</h1>
+<p class="sb">Bloco 3 · Santos (IBAM) · feito para quem não tem base de tributário e quer entender, não só decorar.</p>
+<div class="av"><b>Fontes e limites.</b> Não tenho acesso ao material do Estratégia (é pago e não está disponível aqui). Escrevi a partir do texto das leis das apostas (LC 1.181 de Santos, Estatuto da Cidade, CF, LC 140, Lei 12.651 e outras) e do básico de Direito Tributário e Constitucional que cada ponto exige. Se você colar aqui um trecho do Estratégia, eu comparo. Também não usei o Jev (falta chave de API).</div>
+
+<section class="pg" id="tributario"><h2>1. Direito Tributário em 5 minutos (o mínimo para entender o IPTU)</h2>
+<p>Sim, o IPTU é <b>direito tributário</b>. Mas na sua prova ele aparece <b>dentro do urbanismo</b>: o Plano Diretor usa o imposto como arma para obrigar o dono de terreno parado a usá-lo. Por isso você só precisa de seis palavras.</p>
+<table><tr><th>Palavra</th><th>O que é</th><th>No IPTU</th></tr>
+<tr><td class="k">Tributo</td><td>pagamento obrigatório, em dinheiro, criado por lei</td><td>o IPTU é um tributo</td></tr>
+<tr><td class="k">Imposto</td><td>tributo cobrado sem o governo prestar um serviço específico em troca</td><td>IPTU é imposto <b>municipal</b> (CF, art. 156, I)</td></tr>
+<tr><td class="k">Fato gerador</td><td>o fato que faz nascer a obrigação de pagar</td><td>ser dono (ou ter o domínio útil ou a posse) de imóvel <b>urbano</b></td></tr>
+<tr><td class="k">Contribuinte</td><td>quem paga</td><td>proprietário, titular do domínio útil ou possuidor</td></tr>
+<tr><td class="k">Base de cálculo</td><td>o valor sobre o qual se aplica o percentual</td><td>o <b>valor venal</b> do imóvel (quanto ele valeria numa venda)</td></tr>
+<tr><td class="k">Alíquota</td><td>o <b>percentual</b> aplicado sobre a base</td><td>fixada em <b>lei municipal</b></td></tr></table>
+<div class="fm"><b>Conta única que vale para todo tributo</b>: <span class="cz">valor do imposto = base de cálculo × alíquota</span>. No IPTU: <span class="cz">IPTU = valor venal × alíquota</span>. Exemplo: imóvel de R$ 400.000 e alíquota de 1% → R$ 4.000 por ano.</div>
+<h3>O que é “progressivo”?</h3>
+<p>Alíquota <b>progressiva</b> é a que <b>sobe</b>. Existem dois tipos de progressividade do IPTU, e a banca mistura:</p>
+<table><tr><th></th><th>Progressividade fiscal (em razão do valor)</th><th>Progressividade no tempo (extrafiscal)</th></tr>
+<tr><td class="k">Sobe quando</td><td>o imóvel vale mais</td><td>passam os anos sem o dono cumprir a obrigação</td></tr>
+<tr><td class="k">Objetivo</td><td>arrecadar de forma mais justa (quem tem mais, paga mais)</td><td><b>forçar</b> o uso do imóvel: função social da propriedade</td></tr>
+<tr><td class="k">Base na CF</td><td>art. 156, §1º, I</td><td><b>art. 182, §4º, II</b></td></tr>
+<tr><td class="k">Sua prova</td><td>raramente</td><td><b>é o tema</b> (Plano Diretor, art. 52)</td></tr></table>
+<div class="bz"><b>Extrafiscal</b> = o tributo não serve para arrecadar, serve para <b>induzir um comportamento</b>. O IPTU progressivo no tempo é o exemplo clássico: o Município não quer o dinheiro, quer o terreno construído.</div>
+<div class="pk"><b>Armadilha</b>: o IPTU progressivo no tempo <b>não é para qualquer imóvel</b>. Só para solo urbano <b>não edificado, subutilizado ou não utilizado</b>, em <b>área incluída no plano diretor</b>, por <b>lei municipal específica</b> e <b>depois</b> de notificado o dono (parcelamento ou edificação compulsórios vêm antes).</div></section>
+<section class="pg" id="iptu"><h2>2. IPTU progressivo no tempo: as regras, uma por uma</h2>
+<p>Duas leis mandam aqui: o <b>Estatuto da Cidade</b> (lei federal, art. 7º) dá o molde, e o <b>Plano Diretor de Santos</b> (LC 1.181/2022, art. 52) preenche os números.</p>
+<h3>As regras federais (Estatuto, art. 7º)</h3>
+<ul>
+<li><b>Quando começa</b>: o dono foi notificado, não cumpriu os prazos de parcelar, edificar ou utilizar.</li>
+<li><b>Quanto dura</b>: majoração da alíquota por <span class="cz">5 anos consecutivos</span>.</li>
+<li><b>Quanto sobe por ano</b>: a alíquota de cada ano é fixada na lei específica e <span class="cz">não pode passar do dobro</span> da do ano anterior.</li>
+<li><b>Teto</b>: <span class="cz">15%</span>.</li>
+<li><b>Depois dos 5 anos</b>: <span class="cz">mantém a alíquota máxima</span> até o dono cumprir a obrigação.</li>
+<li><b>Proibido</b>: isenção ou anistia (o dono não ganha perdão do imposto enquanto descumpre).</li></ul>
+<h3>Os números de Santos (LC 1.181/2022, art. 52)</h3>
+<table><tr><th>Tipo de imóvel</th><th>Ano 1</th><th>Ano 2</th><th>Ano 3</th><th>Ano 4</th><th>Ano 5</th><th>Depois</th></tr>
+<tr><td class="k">Edificado (subutilizado)</td><td>3%</td><td>6%</td><td>9%</td><td>12%</td><td>15%</td><td rowspan="2">fica em 15% até cumprir</td></tr>
+<tr><td class="k">Não edificado</td><td>5%</td><td>7%</td><td>10%</td><td>13%</td><td>15%</td></tr></table>
+<div class="mem">Edificado: 3 · 6 · 9 · 12 · 15 &nbsp;|&nbsp; Não edificado: 5 · 7 · 10 · 13 · 15</div>
+<p><b>Confira a regra do dobro</b>: no edificado, 3→6 (dobro, no limite), 6→9, 9→12, 12→15. No não edificado, 5→7, 7→10, 10→13, 13→15. Nenhuma passa do dobro, e todas terminam em 15% (o teto).</p>
+<div class="bz"><b>Truque para não trocar</b>: o <b>não edificado</b> começa mais <b>alto</b> (5%), porque terreno vazio é o caso mais grave. O <b>edificado</b> começa em 3% e sobe de 3 em 3, até 15%.</div>
+<div class="pk"><b>Como a banca erra a gente</b>: (1) inverter os dois (“edificado 5, 7, 10…”); (2) “teto de 30%”; (3) “por 10 anos”; (4) “o dono pode ter anistia se se manifestar”; (5) “a venda do imóvel zera o prazo” (não zera: a transmissão passa as obrigações sem interromper os prazos); (6) “depois dos 5 anos a alíquota volta ao normal” (não volta: fica no máximo).</div>
+<h3>O que acontece depois (a última sanção)</h3>
+<p>Passados 5 anos de IPTU progressivo sem cumprimento, o Município pode <b>desapropriar com pagamento em títulos da dívida pública</b>: aprovados pelo <b>Senado Federal</b>, resgatados em até <b>10 anos</b>, em <b>parcelas anuais, iguais e sucessivas</b>, com <b>juros legais de 6% ao ano</b>. A indenização reflete a base de cálculo do IPTU, descontado o que as obras públicas valorizaram depois da notificação, e <b>não</b> inclui lucros cessantes, juros compensatórios nem expectativa de ganho. Os títulos <b>não têm poder liberatório</b> (não servem para pagar tributos). O Município tem <b>5 anos</b> para dar adequado aproveitamento ao imóvel.</p></section>
+
+<section class="pg" id="simul"><h2>3. Simulador: veja o IPTU subindo ano a ano</h2>
+<p>Digite o valor venal e uma alíquota <b>ordinária hipotética</b> (a real vem da lei de IPTU de Santos, que não está no seu material). O simulador aplica as alíquotas progressivas do art. 52 e mostra quanto o dono paga a mais.</p>
+<div class="row"><div><label>Valor venal (R$)</label><input class="inp" id="vv" type="number" value="400000"></div><div><label>Alíquota ordinária hipotética (%)</label><input class="inp" id="ao" type="number" step="0.1" value="1"></div><div><label>Tipo de imóvel</label><select class="inp" id="tp"><option value="ne">Não edificado (5-7-10-13-15)</option><option value="ed">Edificado subutilizado (3-6-9-12-15)</option></select></div></div>
+<div><button class="btn" onclick="sim()">Calcular</button></div><div id="out"></div>
+<p class="sb">O que o simulador mostra é o mecanismo, não o valor real do seu imóvel: a alíquota ordinária é hipotética, e a lei de Santos pode ter outras regras de lançamento.</p></section>
+
+<section class="pg" id="peuc"><h2>4. PEUC passo a passo: da notificação à desapropriação</h2>
+<p>PEUC = <b>P</b>arcelamento, <b>E</b>dificação ou <b>U</b>tilização <b>C</b>ompulsórios. É a primeira das três sanções do art. 182, §4º, da CF, e a ordem <b>nunca</b> se inverte: <b>compulsório → IPTU progressivo → desapropriação com títulos</b>.</p>
+<div class="tl">
+<div class="st"><div class="d">Dia 0</div><div class="t"><b>Notificação</b> do dono (por funcionário; por edital se 3 tentativas falharem), <b>averbada na matrícula</b>. A recusa do cartório em averbar <b>não</b> anula a notificação.</div></div><div class="ar">▼</div>
+<div class="st"><div class="d">até 1 ano</div><div class="t">Dono <b>protocola o projeto</b> (o Estatuto exige prazo de, no mínimo, 1 ano; Santos fixa 1 ano da notificação).</div></div><div class="ar">▼</div>
+<div class="st"><div class="d">até 2 anos</div><div class="t"><b>Inicia as obras</b> em até 2 anos <b>da aprovação do projeto</b>. Em Santos: <b>sem prorrogação nem revalidação</b> do alvará.</div></div><div class="ar">▼ descumpriu</div>
+<div class="st r"><div class="d">5 anos</div><div class="t"><b>IPTU progressivo</b>: edificado 3-6-9-12-15%; não edificado 5-7-10-13-15%. Sem isenção, sem anistia.</div></div><div class="ar">▼ continua sem cumprir</div>
+<div class="st r"><div class="d">depois</div><div class="t">Alíquota fica no <b>máximo (15%)</b> até cumprir. Pode ocorrer a desapropriação.</div></div><div class="ar">▼</div>
+<div class="st r"><div class="d">final</div><div class="t"><b>Títulos da dívida pública</b>: Senado aprova, resgate em até 10 anos, parcelas anuais iguais e sucessivas, juros de 6% ao ano.</div></div><div class="ar">▼</div>
+<div class="st g"><div class="d">5 anos</div><div class="t">Município deve dar <b>adequado aproveitamento</b> (direto ou por alienação ou concessão com licitação, mantidas as mesmas obrigações a quem adquire).</div></div></div>
+<h3>Quem entra no PEUC em Santos (Plano Diretor, arts. 46 a 49)</h3>
+<table><tr><th>Categoria</th><th>Regra</th></tr>
+<tr><td class="k">Não utilizado não edificado</td><td>lote ou gleba acima de <span class="cz">200 m²</span> com coeficiente de aproveitamento utilizado <span class="cz">igual a 0</span></td></tr>
+<tr><td class="k">Subutilizado (edificado)</td><td>acima de <span class="cz">200 m²</span> com aproveitamento <span class="cz">inferior a 0,4</span> vez a área do lote</td></tr>
+<tr><td class="k">Não utilizado edificado</td><td>coeficiente <span class="cz">igual ou superior a 0,3</span> e <span class="cz">desocupado por mais de 1 ano</span> ininterrupto</td></tr>
+<tr><td class="k">Onde vale</td><td>ZEIS, Macrozona Centro (exceto Zona Portuária), zonas industriais e retroportuárias da Macroárea Insular e AAS</td></tr>
+<tr><td class="k">Até 200 m²</td><td>só com <b>deliberação do CMDU</b></td></tr>
+<tr><td class="k">Condomínio</td><td>com 60% ou mais de unidades desocupadas, a obrigação recai sobre cada unidade sem uso por mais de 1 ano</td></tr></table>
+<div class="bz"><b>Quem NÃO é subutilizado</b> (art. 47, §1º, e art. 54): atividades regulares que dispensem o CA mínimo (menos em ZEIS, Centro e AAS), <b>postos de abastecimento</b>, <b>imóveis do Sistema de Áreas Verdes</b>, e <b>imóveis tombados ou NP1a/1b/2a/2b</b> com uso efetivo e conforme.</div>
+<div class="fm"><b>Por que 0,4 e 0,3?</b> O coeficiente de aproveitamento (CA) é “quantas vezes a área do terreno você construiu”. Um terreno de 1.000 m² com 300 m² construídos tem CA 0,3: construído abaixo de 0,4 → subutilizado. Se estiver desocupado há mais de 1 ano e CA a partir de 0,3, entra como “não utilizado edificado”. Não decore os dois sem lembrar: <b>0,4 é o limite do subutilizado</b>; <b>0,3 é o piso do edificado desocupado</b>.</div>
+<div class="pk"><b>Armadilhas</b>: trocar 0,4 por 0,3; “500 m²” em vez de 200 m²; “o alvará pode ser revalidado”; “a TDC pode ter como doador imóvel notificado” (vedado); “a lista de imóveis é publicada até dezembro” (é até <b>novembro</b>, com lançamento no exercício seguinte).</div></section>
+<script>
+function brl(n){return n.toLocaleString("pt-BR",{style:"currency",currency:"BRL"})}
+function sim(){const vv=+document.getElementById("vv").value,ao=+document.getElementById("ao").value,tp=document.getElementById("tp").value;
+ const al=tp=="ne"?[5,7,10,13,15]:[3,6,9,12,15];let h='<table><tr><th>Ano</th><th>Alíquota</th><th>IPTU no ano</th><th>Ordinário</th><th>Diferença</th></tr>',tot=0,tor=0,ok=true;
+ al.forEach((a,i)=>{const v=vv*a/100,o=vv*ao/100;tot+=v;tor+=o;if(i>0&&a>2*al[i-1])ok=false;h+='<tr><td class="k">'+(i+1)+'</td><td>'+a+'%</td><td>'+brl(v)+'</td><td>'+brl(o)+'</td><td>+'+brl(v-o)+'</td></tr>'});
+ const v6=vv*15/100;h+='<tr><td class="k">6º em diante</td><td>15%</td><td>'+brl(v6)+'</td><td>'+brl(vv*ao/100)+'</td><td>+'+brl(v6-vv*ao/100)+' por ano</td></tr>';
+ h+='<tr><td class="k" colspan="2">Total em 5 anos</td><td>'+brl(tot)+'</td><td>'+brl(tor)+'</td><td>+'+brl(tot-tor)+'</td></tr></table><div class="bz">Checagem da regra do dobro: '+(ok?'nenhuma alíquota passa do dobro da anterior, e todas respeitam o teto de 15%.':'há salto acima do dobro.')+' Depois do 5º ano a alíquota <b>fica em 15%</b> até o dono cumprir; passados os 5 anos, o Município pode <b>desapropriar com títulos</b>.</div>';
+ document.getElementById("out").innerHTML=h}
+sim();
+</script>
+<section class="pg" id="amb"><h2>5. Ambiental fundo: os quadros que destravam as questões</h2>
+<p>O começo do ambiental é conceito. Quando aprofunda, a banca cobra <b>quem</b> (competência), <b>quanto</b> (prazos e números) e <b>qual estudo ou licença</b>. Cada quadro abaixo responde a uma dessas perguntas. Resolva as questões olhando para eles até fixar.</p>
+<h3>5.1 Quem licencia? (LC 140/2011)</h3>
+<div class="grid">
+<div class="cell u"><h4>União</h4>mar territorial, plataforma continental e ZEE · terra indígena · <b>UC federal</b> (exceto APA) · <b>2 ou mais Estados</b> · país limítrofe · caráter <b>militar</b> · <b>nuclear</b> (parecer da CNEN) · tipologia fixada por decreto</div>
+<div class="cell e"><h4>Estado</h4>o <b>residual</b>: o que não é da União nem do Município · <b>UC estadual</b> (exceto APA)</div>
+<div class="cell m"><h4>Município</h4><b>impacto local</b> (tipologia dos <b>Conselhos Estaduais</b> de Meio Ambiente, por porte, potencial poluidor e natureza) · <b>UC municipal</b> (exceto APA)</div>
+<div class="cell s"><h4>APA e regras gerais</h4>na APA <b>não vale o ente instituidor</b>: segue tipologia e impacto · <b>um único ente</b> licencia; os outros opinam <b>sem vincular</b> · prazo vencido <b>não gera licença tácita</b> (abre a competência supletiva)</div></div>
+<div class="fm"><b>Cadeia da supletiva (LC 140, art. 15)</b>: Município sem órgão capacitado e conselho → o <b>Estado</b> atua; Estado sem eles → a <b>União</b> atua. “Capacitado” = técnicos próprios ou em consórcio, habilitados, em número compatível com a demanda.</div>
+<h3>5.2 As três responsabilidades (CF, art. 225, §3º)</h3>
+<table><tr><th></th><th>Civil</th><th>Administrativa</th><th>Penal</th></tr>
+<tr><td class="k">O que é</td><td>reparar ou indenizar o dano</td><td>multa, embargo, demolição, suspensão</td><td>crime ambiental</td></tr>
+<tr><td class="k">Lei</td><td>Lei 6.938, art. 14, §1º: <b>objetiva</b> (independe de culpa)</td><td>Lei 9.605 (arts. 70 a 76) e Decreto 6.514</td><td>Lei 9.605 (pessoa jurídica também responde)</td></tr>
+<tr><td class="k">Quem aplica</td><td>Judiciário (ação do MP e outros)</td><td>órgão ambiental (auto de infração)</td><td>Judiciário (ação pública incondicionada)</td></tr>
+<tr><td class="k">Números</td><td>—</td><td>defesa 20 dias · julgamento 30 · recurso 20 · pagamento 5 · multa R$ 50 a R$ 50 mi · prescrição 5 anos (intercorrente 3)</td><td>interdição de direitos 5 anos (dolosos) e 3 (culposos) · prestação pecuniária 1 a 360 SM</td></tr></table>
+<div class="pk">As três são <b>independentes e cumulativas</b>. “Pagou a multa, acabou” e “reparou o dano, não há crime” são falsas.</div>
+<h3>5.3 APP × Reserva Legal × Uso restrito (Código Florestal)</h3>
+<table><tr><th></th><th>APP</th><th>Reserva Legal</th><th>Uso restrito</th></tr>
+<tr><td class="k">O que protege</td><td>águas, encostas, topos, restingas, manguezais</td><td>parte do imóvel rural com vegetação nativa</td><td>áreas de inclinação de 25° a 45° e pantanais</td></tr>
+<tr><td class="k">Onde</td><td>rural e urbana</td><td>só imóvel <b>rural</b></td><td>rural</td></tr>
+<tr><td class="k">Números</td><td>rios 30, 50, 100, 200, 500 m · nascente 50 m · encosta &gt; 45° · altitude &gt; 1.800 m</td><td>20% (Amazônia Legal: 80% floresta, 35% cerrado, 20% campos)</td><td>manejo e agrossilvipastoril, sem novas conversões</td></tr>
+<tr><td class="k">Pode mexer?</td><td>só utilidade pública, interesse social ou baixo impacto</td><td>manejo sustentável aprovado</td><td>boas práticas, sem converter</td></tr></table>
+<div class="fm"><b>Macete dos rios</b>: largura &lt; 10 m → <b>30</b>; 10 a 50 → <b>50</b>; 50 a 200 → <b>100</b>; 200 a 600 → <b>200</b>; acima de 600 → <b>500</b>. A faixa é “o dobro do número de cima” só até 100: 30 · 50 · 100 · 200 · 500.</div>
+<h3>5.4 Qual estudo? EIA × EIV × RAP</h3>
+<table><tr><th>Estudo</th><th>Para quê</th><th>Base</th><th>Pegadinha</th></tr>
+<tr><td class="k">EIA/RIMA</td><td>obra ou atividade com <b>significativa degradação</b> ambiental; tem publicidade</td><td>CF 225, §1º, IV · CONAMA 1</td><td>não é para <b>toda</b> obra</td></tr>
+<tr><td class="k">EIV</td><td>efeitos na <b>vizinhança</b> (adensamento, tráfego, ventilação, paisagem)</td><td>Estatuto (arts. 36 a 38)</td><td><b>não substitui</b> o EIA; documentos públicos</td></tr>
+<tr><td class="k">RAP / EAS / MCE</td><td>estudos do licenciamento <b>municipal</b> de Santos</td><td>LC 1.196/2023</td><td>audiência pública pode ser exigida nos casos de RAP</td></tr></table>
+<h3>5.5 Licenças e prazos</h3>
+<table><tr><th>Licença</th><th>Fase</th><th>Validade CONAMA 237</th><th>Santos (LC 1.196)</th></tr>
+<tr><td class="k">LP</td><td>localização, concepção, viabilidade</td><td>até <b>5 anos</b></td><td>validade máx. de 5 anos; não renova</td></tr>
+<tr><td class="k">LI</td><td>autoriza a instalação</td><td>até <b>6 anos</b></td><td>renova <b>uma</b> vez</td></tr>
+<tr><td class="k">LO</td><td>autoriza a operação</td><td><b>4 a 10 anos</b></td><td>validade máx. de 5 anos; renovação com 120 dias</td></tr>
+<tr><td class="k">LOTP</td><td>operação a título precário</td><td>—</td><td>até <b>180 dias</b>; não renova</td></tr></table>
+<p class="sb">Análise do pedido (CONAMA 237): 6 meses, ou 12 com EIA/RIMA ou audiência; empreendedor atende complementação em 4 meses. Obras em Santos: exigem <b>LI ou CDL</b>; alvará exige <b>LO ou CDL</b>.</p>
+<h3>5.6 Mata Atlântica: o que se pode suprimir (Lei 11.428)</h3>
+<table><tr><th>Estágio</th><th>Quem autoriza e quando</th></tr>
+<tr><td class="k">Primário e secundário <b>avançado</b></td><td>só <b>utilidade pública</b></td></tr>
+<tr><td class="k">Secundário <b>médio</b></td><td>utilidade pública <b>ou interesse social</b></td></tr>
+<tr><td class="k">Secundário <b>inicial</b></td><td>autorização do órgão estadual (em Estado com menos de 5% de remanescentes, vale o regime do médio)</td></tr>
+<tr><td class="k">Compensação</td><td>área <b>equivalente</b>, mesma bacia (microbacia, se possível)</td></tr>
+<tr><td class="k">Perímetro urbano antigo</td><td>avançada: preservar <b>50%</b> · média: preservar <b>30%</b> (nos novos: avançada vedada e média 50%)</td></tr></table>
+<h3>5.7 Resíduos: o par que mais cai</h3>
+<ul><li><b>Ordem de prioridade (PNRS, art. 9º)</b>: não geração → redução → reutilização → reciclagem → tratamento → disposição final dos <b>rejeitos</b>.</li>
+<li><b>Destinação final</b> inclui reutilização, reciclagem, compostagem e aproveitamento energético. <b>Disposição final</b> é só o aterro de <b>rejeitos</b> (o que não tem mais como aproveitar).</li>
+<li><b>Resíduos da construção (CONAMA 307)</b>: A = agregados · B = recicláveis (plástico, papel, metal, vidro, madeira, gesso) · C = sem tecnologia de reciclagem · D = perigosos (tintas, solventes, óleos, amianto).</li>
+<li><b>Logística reversa</b> obrigatória: agrotóxicos, pilhas e baterias, pneus, óleos lubrificantes, lâmpadas e eletroeletrônicos. Fluxo: consumidor → comerciante → fabricante.</li></ul></section>
+<section class="pg" id="comp"><h2>6. Esquema das competências: o mapa para nunca mais errar</h2>
+<p>Toda questão de competência cai em <b>uma de duas perguntas</b>: <b>quem pode LEGISLAR</b> (fazer a lei) ou <b>quem pode EXECUTAR</b> (cuidar, fiscalizar, prestar o serviço). Se você separar o verbo, a metade dos erros some.</p>
+<div class="mem">21 = União EXECUTA · 22 = União LEGISLA · 23 = TODOS cuidam · 24 = U + E + DF legislam · 30 = MUNICÍPIO (o local)</div>
+<h3>6.1 O mapa (clique mentalmente: cor = artigo)</h3>
+<div class="grid">
+<div class="cell u"><h4><span class="n">art. 21</span>União executa (exclusiva)</h4>Material, <b>indelegável</b>. Para o seu bloco:<br>• XX: <b>diretrizes</b> do desenvolvimento urbano (habitação, saneamento básico, transportes urbanos)<br>• XIX: sistema nacional de <b>recursos hídricos</b> e critérios de outorga</div>
+<div class="cell u"><h4><span class="n">art. 22</span>União legisla (privativa)</h4>Legislativa, <b>delegável</b> por lei complementar a Estados (par. único):<br>• IV: <b>águas</b>, energia<br>• XI: <b>trânsito e transporte</b><br>• XXVII: <b>normas gerais de licitação e contratação</b></div>
+<div class="cell c"><h4><span class="n">art. 23</span>Comum (todos executam)</h4>Material: União, Estados, DF e <b>Municípios</b>:<br>• III: proteger bens de valor histórico, cultural e paisagens notáveis<br>• VI: proteger o <b>meio ambiente</b> e combater a poluição<br>• VII: preservar florestas, fauna e flora<br>• IX: programas de <b>moradia</b> e melhoria do <b>saneamento básico</b><br>Par. único: lei complementar fixa a cooperação (é a <b>LC 140</b>)</div>
+<div class="cell e"><h4><span class="n">art. 24</span>Concorrente (legislam U + E + DF)</h4>Legislativa. <b>Município não está aqui.</b><br>• I: <b>direito urbanístico</b><br>• VI: florestas, natureza, solo, <b>meio ambiente</b>, poluição<br>• VII: <b>patrimônio</b> histórico, cultural, turístico, paisagístico<br>• VIII: responsabilidade por <b>dano</b> ambiental<br>§1º União: <b>só normas gerais</b> · §2º Estados <b>suplementam</b> · §3º sem lei federal, Estado legisla <b>pleno</b> · §4º lei federal nova <b>suspende</b> a estadual contrária</div>
+<div class="cell m"><h4><span class="n">art. 30</span>Município (o local)</h4>• I: assuntos de <b>interesse local</b><br>• II: <b>suplementar</b> a legislação federal e estadual no que couber<br>• V: organizar e prestar <b>serviços locais</b> (inclui transporte coletivo, essencial)<br>• VIII: <b>ordenamento territorial</b> (uso, parcelamento e ocupação do solo urbano)<br>• IX: proteger o patrimônio histórico-cultural <b>local</b></div>
+<div class="cell s"><h4><span class="n">art. 25 §1º</span>Estados (residual)</h4>Ficam com o que <b>não for vedado</b> (o que sobra). Regiões metropolitanas são instituídas por lei complementar estadual.</div></div>
+<h3>6.2 Os cinco “S” e outros nomes (onde a banca confunde)</h3>
+<table><tr><th>Nome</th><th>Significa</th><th>Onde</th></tr>
+<tr><td class="k">Suplementar</td><td><b>complementar a lei</b> geral com detalhes (legislativa)</td><td>Estados (24, §2º) e Municípios (30, II)</td></tr>
+<tr><td class="k">Supletiva</td><td><b>substituir</b> o ente que não age (administrativa)</td><td>LC 140: se o Município não tem órgão capacitado, o Estado atua; se o Estado não tem, a União atua</td></tr>
+<tr><td class="k">Subsidiária</td><td><b>ajudar</b>, só se o ente competente <b>pedir</b></td><td>LC 140 (apoio técnico, científico, administrativo ou financeiro)</td></tr>
+<tr><td class="k">Residual</td><td>o que <b>sobra</b> para os Estados</td><td>art. 25, §1º (e licenciamento residual na LC 140)</td></tr>
+<tr><td class="k">Plena</td><td>Estado legisla <b>tudo</b> enquanto não há lei federal de normas gerais</td><td>art. 24, §3º (cai quando vem lei federal: §4º suspende)</td></tr></table>
+<div class="mem">Suplementar = COMPLETA a lei · Supletiva = SUBSTITUI o omisso · Subsidiária = AJUDA se pedir</div>
+<h3>6.3 Exclusiva × privativa (a banca adora)</h3>
+<ul><li><b>Exclusiva</b> (art. 21 e semelhantes): só aquele ente e <b>não se delega</b>.</li><li><b>Privativa</b> (art. 22): é daquele ente, mas <b>pode ser delegada</b>: lei complementar pode autorizar os Estados a legislar sobre questões específicas.</li></ul>
+<h3>6.4 Do assunto ao ente: tabela de consulta</h3>
+<table><tr><th>Assunto</th><th>Quem LEGISLA</th><th>Quem EXECUTA</th></tr>
+<tr><td class="k">Águas</td><td>União (privativa, 22, IV)</td><td>União: sistema de recursos hídricos (21, XIX); bens: União e Estados (arts. 20 e 26)</td></tr>
+<tr><td class="k">Normas gerais de licitação</td><td>União (privativa, 22, XXVII)</td><td>cada ente licita para si</td></tr>
+<tr><td class="k">Trânsito e transporte</td><td>União (privativa, 22, XI)</td><td>transporte coletivo <b>local</b>: Município (30, V)</td></tr>
+<tr><td class="k">Direito urbanístico</td><td>concorrente: União (normas gerais), Estados, DF (24, I); Município suplementa</td><td>Município ordena o solo urbano (30, VIII)</td></tr>
+<tr><td class="k">Diretrizes do desenvolvimento urbano</td><td>—</td><td>União (21, XX)</td></tr>
+<tr><td class="k">Meio ambiente e poluição</td><td>concorrente (24, VI); Município suplementa</td><td>comum (23, VI e VII)</td></tr>
+<tr><td class="k">Licenciar</td><td>—</td><td>LC 140: um só ente (União, Estado ou Município, conforme o caso)</td></tr>
+<tr><td class="k">Dano ambiental (responsabilidade)</td><td>concorrente (24, VIII)</td><td>—</td></tr>
+<tr><td class="k">Patrimônio histórico e cultural</td><td>concorrente (24, VII)</td><td>proteger: comum (23, III); local: Município (30, IX)</td></tr>
+<tr><td class="k">Moradia e saneamento</td><td>diretrizes: União (21, XX)</td><td>programas: comum (23, IX); serviço local: Município (30, V); SUS participa (art. 200, IV)</td></tr>
+<tr><td class="k">Interesse local</td><td>Município (30, I)</td><td>Município</td></tr></table>
+<h3>6.5 Como pensar na prova (fluxo de 4 perguntas)</h3>
+<ol><li><b>O verbo é “legislar” ou “executar/cuidar/proteger/prestar”?</b></li>
+<li>Se <b>legislar</b>: o assunto é águas, energia, trânsito, normas gerais de licitação? → <b>União, art. 22</b>. É direito urbanístico, meio ambiente, florestas, patrimônio, dano? → <b>concorrente, art. 24</b> (e o Município só <b>suplementa</b>). É interesse local? → <b>Município, art. 30</b>.</li>
+<li>Se <b>executar</b>: é diretriz nacional de desenvolvimento urbano ou recursos hídricos? → <b>União, art. 21</b>. É proteger ambiente, patrimônio ou fazer moradia e saneamento? → <b>comum, art. 23</b>. É serviço local (transporte coletivo, limpeza urbana) ou ordenar o solo urbano? → <b>Município, art. 30</b>.</li>
+<li>Se a pergunta é <b>“quem licencia”</b>: esqueça a CF e vá para o <b>quadro 5.1 (LC 140)</b>.</li></ol>
+<div class="pk"><b>Pegadinhas campeãs</b>:<br>1. “O Município legisla <b>concorrentemente</b> sobre direito urbanístico” (<b>falso</b>: concorrência é de União, Estados e DF; Município suplementa).<br>2. “A competência <b>comum</b> é legislativa” (<b>falso</b>: é administrativa; legislar é o art. 24).<br>3. “A União legisla <b>privativamente</b> sobre meio ambiente” (<b>falso</b>: concorrente; privativa é águas e energia).<br>4. “Normas gerais de licitação são concorrentes” (<b>falso</b>: privativa da União, 22, XXVII).<br>5. “A União fixa normas gerais e <b>exclui</b> a competência dos Estados” (<b>falso</b>: não exclui a suplementar).<br>6. “O saneamento é competência exclusiva do Município” (<b>falso</b>: diretrizes da União, programas comuns, serviço local do Município).<br>7. “Supletiva é a que <b>ajuda</b>” (<b>falso</b>: supletiva substitui; ajudar é subsidiária).<br>8. “Patrimônio histórico: só a União protege” (<b>falso</b>: proteger é comum; legislar é concorrente; o local é do Município).<br>9. “O ente que cria a APA licencia nela” (<b>falso</b>: na APA não vale o ente instituidor).<br>10. “Na competência concorrente a lei federal nova revoga a estadual” (<b>falso</b>: <b>suspende</b> a eficácia no que for contrária).</div></section>
+
+<section class="pg" id="treino"><h2>7. Treino do esquema: classifique e confira</h2>
+<p>Cada frase pede <b>um</b> enquadramento. Clique, veja a resposta e leia o porquê. A pontuação aparece no fim.</p>
+<div id="tr"></div><div class="bz" id="trres"></div></section>
+
+<section class="pg" id="nunca"><h2>8. Para não errar mais: o resumo de uma folha</h2>
+<div class="fm"><b>IPTU progressivo no tempo (PD art. 52 + Estatuto art. 7º)</b><br>• Antes dele vem o <b>PEUC</b> (1 ano para o projeto, 2 anos para as obras, sem prorrogar).<br>• <b>5 anos</b> de progressividade · dobro por ano no máximo · teto <b>15%</b> · depois fica no máximo · sem isenção nem anistia.<br>• Edificado <b>3-6-9-12-15</b> · não edificado <b>5-7-10-13-15</b>.<br>• Depois: desapropriação com <b>títulos</b> (Senado, 10 anos, parcelas anuais iguais e sucessivas, 6% ao ano); Município aproveita em <b>5 anos</b>.<br>• Quem entra: acima de <b>200 m²</b>; CA <b>0</b> (não edificado), <b>&lt; 0,4</b> (subutilizado), <b>≥ 0,3 + desocupado &gt; 1 ano</b>; até 200 m² só com CMDU.</div>
+<div class="fm"><b>Competências</b><br>• 21 executa (União) · 22 legisla (União) · 23 cuida (todos) · 24 legisla (U, E, DF) · 30 Município.<br>• Suplementar completa · supletiva substitui · subsidiária ajuda.<br>• Licenciar = LC 140 (um único ente; APA não segue o instituidor; prazo vencido não dá licença).</div>
+<div class="fm"><b>Ambiental, o que mais cai</b><br>• Responsabilidades: civil objetiva + administrativa + penal, independentes.<br>• Rios 30-50-100-200-500 · nascente 50 · RL 20%.<br>• LP 5 · LI 6 · LO 4 a 10 (CONAMA); Santos: máx. 5; renovação 120 dias; LOTP 180 dias.<br>• Estágio avançado só utilidade pública; médio também interesse social.<br>• Ordem dos resíduos: não geração, redução, reutilização, reciclagem, tratamento, disposição.</div>
+<p class="sb">Para treinar com questões: simulados, séries de 200 e 100 questões e a cola do bloco 3 estão no mesmo site (página inicial).</p></section>
+</div>
+<script>
+const T=[
+["Legislar sobre normas gerais de licitação e contratação.","u22","Art. 22, XXVII: privativa da União. Não é concorrente."],
+["Proteger o meio ambiente e combater a poluição em qualquer de suas formas (ação).","com","Art. 23, VI: competência comum, administrativa, de todos os entes."],
+["Legislar sobre direito urbanístico (normas gerais).","conc","Art. 24, I: concorrente de União, Estados e DF; a União fixa normas gerais."],
+["Promover o adequado ordenamento territorial, com controle do uso, do parcelamento e da ocupação do solo urbano.","mun","Art. 30, VIII."],
+["Instituir diretrizes para o desenvolvimento urbano, inclusive habitação, saneamento básico e transportes urbanos.","u21","Art. 21, XX: competência material exclusiva da União."],
+["Legislar sobre águas.","u22","Art. 22, IV: privativa da União."],
+["Organizar e prestar o transporte coletivo local, de caráter essencial.","mun","Art. 30, V."],
+["Preservar as florestas, a fauna e a flora (ação).","com","Art. 23, VII: comum."],
+["Legislar sobre florestas, conservação da natureza, defesa do solo e proteção do meio ambiente.","conc","Art. 24, VI: concorrente."],
+["Legislar sobre proteção do patrimônio histórico, cultural, turístico e paisagístico.","conc","Art. 24, VII: concorrente. (Proteger, na ação, é comum, art. 23, III.)"],
+["Proteger os bens de valor histórico, artístico e cultural e as paisagens naturais notáveis (ação).","com","Art. 23, III: comum."],
+["Suplementar a legislação federal e a estadual no que couber.","mun","Art. 30, II. O Município suplementa; não legisla concorrentemente."],
+["O Município não tem órgão ambiental capacitado nem conselho de meio ambiente. Quem atua no licenciamento, no lugar dele?","sup","LC 140, art. 15: atuação supletiva do Estado (e, se o Estado também não tiver, da União)."],
+["Instituir o sistema nacional de gerenciamento de recursos hídricos e os critérios de outorga.","u21","Art. 21, XIX: exclusiva da União (executa)."],
+["Promover programas de construção de moradias e a melhoria das condições de saneamento básico.","com","Art. 23, IX: comum."],
+["Legislar sobre responsabilidade por dano ao meio ambiente.","conc","Art. 24, VIII: concorrente."],
+["Legislar sobre assuntos de interesse local.","mun","Art. 30, I."],
+["Na ausência de lei federal sobre normas gerais, o Estado exerce a competência legislativa plena para atender a suas peculiaridades.","conc","Art. 24, §3º, dentro da competência concorrente (até a lei federal superveniente suspender a estadual, §4º)."],
+["Legislar sobre trânsito e transporte.","u22","Art. 22, XI: privativa da União."],
+["O ente da Federação que se substitui ao originariamente detentor das atribuições, por omissão dele, no licenciamento.","sup","LC 140, art. 2º: atuação supletiva."],
+["Apoio técnico, científico, administrativo ou financeiro prestado ao ente competente, quando ele solicita.","sub","LC 140, art. 16: atuação subsidiária."],
+["Licenciar atividade que cause impacto ambiental de âmbito local, conforme a tipologia dos Conselhos Estaduais de Meio Ambiente.","mun","LC 140, art. 9º, XIV, a: licenciamento municipal."],
+["Titularidade do serviço de limpeza urbana e manejo de resíduos sólidos no interesse local.","mun","Serviço de interesse local: Município (art. 30, V; Lei 11.445, art. 8º)."],
+["A lei complementar que fixa normas de cooperação entre os entes nas ações da competência comum.","com","Art. 23, parágrafo único: é a LC 140 no ambiente, e opera na competência <b>comum</b>."]
+];
+const OP=[["u21","União executa (21)"],["u22","União legisla (22)"],["com","Comum (23)"],["conc","Concorrente (24)"],["mun","Município (30)"],["sup","Supletiva"],["sub","Subsidiária"]];
+let ac=0,ans={};
+function drawT(){let h="";T.forEach((t,i)=>{h+='<div class="qz"><b>'+(i+1)+'.</b> '+t[0]+'<div>';OP.forEach(o=>{let c="opt";if(ans[i]!==undefined){if(o[0]==t[1])c+=" ok";else if(ans[i]==o[0])c+=" no"}h+='<button class="'+c+'" onclick="ch('+i+',\''+o[0]+'\')">'+o[1]+'</button>'});h+='</div><div class="ex" style="display:'+(ans[i]!==undefined?"block":"none")+'"><b>'+(ans[i]==t[1]?"Certo. ":"Errado. ")+'</b>'+t[2]+'</div></div>'});document.getElementById("tr").innerHTML=h;
+ const k=Object.keys(ans).length;let a=0;Object.keys(ans).forEach(i=>{if(ans[i]==T[i][1])a++});document.getElementById("trres").innerHTML="Respondidas: "+k+" / "+T.length+" · Acertos: "+a+(k==T.length?" ("+Math.round(100*a/T.length)+"%). Releia o mapa das que errou.":"")}
+function ch(i,o){if(ans[i]!==undefined)return;ans[i]=o;drawT()}
+drawT();
+</script></body></html>

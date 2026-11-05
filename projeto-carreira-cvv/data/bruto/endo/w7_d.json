@@ -1,0 +1,165 @@
+[
+ {
+  "match": "Fundación Valle del Lili",
+  "alerta_correcao": "A url do radar é um artigo antigo (revista institucional, 2021) sobre cirurgia cardíaca em crianças e o contato aponta para a página de cirurgia cardiovascular de ADULTOS. As duas áreas existem no mesmo hospital: congênitas (Cirugía Cardiovascular Pediátrica) e transplante cardíaco (Unidad de Trasplantes, que faz transplante de coração desde 1996). Não há mistura de instituições.",
+  "programa": {
+   "pagina": "https://valledellili.org/en/education/in-person-learning/observational-internship",
+   "requisitos_pdf": ["https://valledellili.org/wp-content/uploads/2019/07/FINAL_PDFdescargable_Requisitos-para-rotaciones-observacionales_ING.pdf", "https://valledellili.org/wp-content/uploads/2018/10/Requisitos-Rotaciones-Observacionales-Profesionales-Extranjeros.pdf"],
+   "elegibilidade": "Profissionais estrangeiros podem fazer rotação observacional, só de observação (há um PDF específico para 'Profesionales Extranjeros')",
+   "contato_oficial": "liliana.estrada@fvl.org.co (endereço dado nos PDFs oficiais de requisitos para enviar o pedido)",
+   "conteudo_do_pedido": "dados pessoais, última certificação/título, duas opções de datas, áreas de interesse, objetivos e outras informações relevantes",
+   "documentos": "seguro de vida e/ou plano de saúde completo; vacinas: tríplice viral (MMR), gripe nos últimos 6 meses, PPD nos últimos 6 meses; cumprir as exigências de entrada e permanência da Migración Colombia",
+   "duracao": "no máximo 6 meses (1 mês cabe)",
+   "antecedencia": "pelo menos 3 meses (PDF antigo de 2018; confirmar)",
+   "taxa": "não encontrado",
+   "certeza": "confirmado (PDFs oficiais; trechos vistos nos resultados de busca); prazo de antecedência = provável/desatualizado"
+  },
+  "servico": {
+   "nome": "Cirugía Cardiovascular Pediátrica / Cardiología Pediátrica (cardiopatias congênitas); Unidad de Trasplantes – transplante cardíaco (Falla cardiaca y trasplante cardiaco), dentro do Servicio de Cardiología",
+   "chefe": "Cirurgia de congênitas: Juan Fernando Vélez Moreno, 'Chief Congenital Heart Surgery at Fundación Valle del Lili' desde 2013 (perfil no CTSNet: https://www.ctsnet.org/home/jvelez). Cardiologia pediátrica: Jaiber Alberto Gutiérrez Gil, 'Jefe Servicio de Cardiología Pediátrica' (2015: https://valledellili.org/wp-content/uploads/2018/04/pdf-225-cartadelasalud-febrero2015-1.pdf). Chefe do transplante cardíaco: não encontrado",
+   "fellowship": "Especialização em Cardiologia Pediátrica (Icesi–FVL, 2 anos), coordenador Walter Mosquera Álvarez; especialização em Cardiologia, coordenador Noel Alberto Flórez Alarcón (folheto de 2021: https://Www.Icesi.Edu.co/facultad-ciencias-salud/images/posgrado/Especializaciones/medico-quirurgicas/Especializaciones_Medicas_Icesi_cali-Plegable-mar-2021.pdf). Fellowship de cirurgia cardiovascular: não encontrado",
+   "volume": "Registro RETRAC: 260 transplantados cardíacos adultos de 1995 a 2024; sobrevida de 74,6% em 1 ano, 56,9% em 5 anos e 46,9% em 10 anos (PMC12880014). Cirurgia congênita: 308 cirurgias de 2019 a 2022, mortalidade de 7,5% e failure-to-rescue de 11,4% (Cruz et al. 2024)",
+   "certeza": "chefias = provável (fontes de 2013 a 2021); volume = confirmado"
+  },
+  "pessoas_chave": [
+   {"nome": "Juan Fernando Vélez Moreno", "cargo": "Chefe da cirurgia de cardiopatias congênitas (CTSNet, desde 2013)", "por_que": "receberia quem vem pela área de congênitas", "fonte": "https://www.ctsnet.org/home/jvelez", "certeza": "provável (cargo pode ter mudado)"},
+   {"nome": "Jaiber Alberto Gutiérrez Gil", "cargo": "Chefe do Serviço de Cardiologia Pediátrica (2015)", "por_que": "chefe de congênitas clínicas; aparece como autor do trabalho de Fontan de 20 anos", "fonte": "https://valledellili.org/wp-content/uploads/2018/04/pdf-225-cartadelasalud-febrero2015-1.pdf", "certeza": "provável"},
+   {"nome": "Walter Mosquera Álvarez", "cargo": "Coordenador da especialização em Cardiologia Pediátrica Icesi–FVL (2021)", "por_que": "cuida da parte de ensino em cardiologia pediátrica", "fonte": "https://Www.Icesi.Edu.co/facultad-ciencias-salud/images/posgrado/Especializaciones/medico-quirurgicas/Especializaciones_Medicas_Icesi_cali-Plegable-mar-2021.pdf", "certeza": "provável"},
+   {"nome": "Noel Alberto Flórez Alarcón", "cargo": "Coordenador da especialização em Cardiologia (2021); autor ligado ao registro RETRAC", "por_que": "ponto de contato acadêmico da cardiologia de adultos e do transplante", "fonte": "https://arxivlens.com/Author/Details/florez-noel-6739-2481677", "certeza": "provável"},
+   {"nome": "Liliana Estrada", "cargo": "Destinatária oficial dos pedidos de rotação observacional", "por_que": "porta de entrada administrativa", "fonte": "https://valledellili.org/wp-content/uploads/2019/07/FINAL_PDFdescargable_Requisitos-para-rotaciones-observacionales_ING.pdf", "certeza": "confirmado"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado (nenhuma colaboração com InCor, Unifesp ou Dante apareceu). O RETRAC tem coautoria com a Mayo Clinic Jacksonville",
+  "pesquisa_recente": [
+   {"titulo": "Survival in Adult Patients Undergoing Heart Transplantation 1995–2024: A Report of the RETRAC Registry", "ano": "2026 (PMC; DOI não visto)", "id": "PMC12880014", "fonte": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12880014/"},
+   {"titulo": "Failure to rescue in congenital heart surgery (Cruz et al., Congenital Heart Disease 19(2):207–218)", "ano": 2024, "doi": "10.32604/chd.2024.044244", "fonte": "https://www.techscience.com/chd/v19n2/56476/html"},
+   {"titulo": "20 years of experience with the Fontan procedure: characteristics and clinical outcomes of children in a tertiary referral hospital (Cardiol Young 33:1378–1382)", "ano": 2023, "doi": "10.1017/S1047951122002475", "fonte": "https://core-prod.cambridgecore.org/core/journals/cardiology-in-the-young/article/20-years-of-experience-with-the-fontan-procedure-characteristics-and-clinical-outcomes-of-children-in-a-tertiary-referral-hospital/0C1A260D34645E6ED334598BB91EC2E7", "nota": "a fonte diverge sobre o primeiro autor (Mejía-Quiñones ou Gutiérrez-Gil)"}
+  ],
+  "dicas": [
+   "Programa formal e barato em termos de burocracia: basta um e-mail com 2 opções de datas e objetivos. Na América Latina não precisa de visto B1/B2 (brasileiros entram na Colômbia como turistas; confirmar na Migración Colombia).",
+   "XIX Congreso Internacional CARDIOLILI, de 4 a 7/11/2026, no auditório da FVL em Cali, híbrido e gratuito: dá para assistir online e citar no e-mail (https://www.intramed.net/post/group_simple_post/fundacion-valle-del-lili-20260921-142639-188-p-strongxix-congreso-internacional-cardiolilistron)",
+   "Os pedidos podem ser em espanhol; vale mandar o e-mail nas duas línguas"
+  ],
+  "rota_recomendada": "1) Mandar e-mail a liliana.estrada@fvl.org.co com o pacote do PDF (dados, título, 2 datas, áreas 'trasplante cardíaco y cardiopatías congénitas', objetivos), com pelo menos 3 meses de antecedência, citando o RETRAC 2026 e o artigo de failure-to-rescue de 2024. 2) Em paralelo, escrever aos chefes de cirurgia de congênitas e de cardiologia pediátrica para que aceitem recebê-la. 3) Assistir ao CARDIOLILI 2026 online e mencionar no e-mail."
+ },
+ {
+  "match": "Royal Prince Alfred Hospital",
+  "alerta_correcao": "A url do radar é uma matéria do NSW Health sobre o Prof. Chris Semsarian. A força em cardiogenética/HCM é a dupla RPA (clínica) + Centenary Institute (Agnes Ginges Centre for Molecular Cardiology, pesquisa) + University of Sydney. São três instituições e quem hospeda na prática é o grupo do Semsarian.",
+  "programa": {
+   "pagina": "não encontrado (nenhuma página de observership do RPA ou do Sydney Local Health District apareceu)",
+   "detalhe": "Só apareceram vagas de VMO (Visiting Medical Officer = cargo pago com credenciamento via eCredential, NÃO é observership). Para comparar na Austrália: Monash Health (Melbourne) tem observership clínico formal de 1 a 4 semanas (https://monashhealth.org/global-relations-office/education-and-training/global-clinical-observerships/)",
+   "contato_oficial": "não encontrado",
+   "taxa": "não encontrado", "duracao": "não encontrado", "documentos": "não encontrado (na Austrália é preciso visto; o tipo para observership não foi verificado)",
+   "certeza": "confirmado que nenhuma página apareceu (busca padrão)"
+  },
+  "servico": {
+   "nome": "Genetic Heart Disease and Hypertrophic Cardiomyopathy Clinic (RPAH); Agnes Ginges Centre for Molecular Cardiology (Centenary Institute)",
+   "chefe": "Prof. Christopher Semsarian AM: diretor da clínica de doenças cardíacas genéticas e HCM do RPAH; chefe de Molecular Cardiology / diretor do Agnes Ginges Centre no Centenary; Professor of Medicine na Univ. Sydney (https://www.medicalresearch.nsw.gov.au/scientists-solving-mysteries-of-the-heart ; https://www.centenary.org.au/?p=38757)",
+   "fellowship": "não encontrado",
+   "volume": "Centro com 20 anos (2026), mais de 120 pesquisadores, clínicos e estudantes já passaram por ele (https://www.centenary.org.au/?p=41342); 2,7 milhões de dólares australianos em bolsas para doença cardíaca hereditária e morte súbita",
+   "outros_lideres_RPA": "Prof. Sanjay Patel: Director of the Cardiac Catheterisation Laboratory, RPAH (https://www.hri.org.au/our-research/coronary-diseases/professor-sanjay-patel); A/Prof. Jo-Dee Lattimore: Director of Heart Failure Services, RPAH (documento de 2024, https://cardiology.medicinetoday.com.au/sites/default/files/articles/files/CT%20Ed%20Board%20-%20Oct%202024_2.pdf). Chefe do departamento de cardiologia: não encontrado",
+   "certeza": "confirmado (Semsarian); provável (outros cargos)"
+  },
+  "pessoas_chave": [
+   {"nome": "Christopher Semsarian AM", "cargo": "Diretor da Genetic Heart Disease & HCM Clinic (RPAH) e do Agnes Ginges Centre for Molecular Cardiology (Centenary)", "por_que": "decide e hospeda em cardiogenética e miocardiopatias; o modelo dele é 'atendemos no hospital, os pacientes viram sujeitos de pesquisa no Centenary'", "fonte": "https://www.medicalresearch.nsw.gov.au/scientists-solving-mysteries-of-the-heart", "certeza": "confirmado"},
+   {"nome": "Jodie Ingles", "cargo": "Head of the Clinical Cardiac Genetics Group, Agnes Ginges Centre (Centenary)", "por_que": "lidera a genética clínica; coautora frequente", "fonte": "https://www.centenary.org.au/news/associate-professor-jodie-ingles-awarded-nhmrc-honour/", "certeza": "confirmado (fonte pode estar desatualizada: ela pode ter mudado de instituição)"},
+   {"nome": "Richard Bagnall", "cargo": "Pesquisador do Agnes Ginges Centre", "por_que": "genômica da morte súbita e de miocardiopatias", "fonte": "https://www.centenary.org.au/news/celebrating-20-year-anniversary/", "certeza": "confirmado"},
+   {"nome": "Belinda Gray", "cargo": "Cardiologista (genética cardíaca), coautora do grupo", "por_que": "cardiologista clínica do grupo de cardiogenética", "fonte": "https://acsep.org.au/page/events/annual-conference/annual-scientific-conference-2023/keynotes-and-international-speakers/assoc-prof-belinda-gray", "certeza": "provável (vínculo com o RPA não confirmado no trecho)"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado (a busca por coautoria de Semsarian com São Paulo ou Brasil não retornou nada)",
+  "pesquisa_recente": [
+   {"titulo": "Estudo do grupo Semsarian (J Am Coll Cardiol) sobre teste genético em morte súbita com autópsia inconclusiva: gene causal em 22% (cardiomiopatia oculta)", "ano": 2022, "id": "PMID/DOI não visto nos resultados", "fonte": "https://www.scimex.org/newsfeed/increased-genetic-testing-required-to-identify-concealed-cardiomyopathy"},
+   {"titulo": "Projeto NHMRC 'Concealed cardiomyopathy and sudden cardiac death' (2021–2023)", "ano": "2021–2023", "id": "registro de bolsa, não é artigo", "fonte": "https://researchdata.edu.au/concealed-cardiomyopathy-sudden-cardiac-death/1780266"},
+   {"titulo": "Bolsa 'Translating genomics into improved care of inherited heart disease and sudden death families'", "ano": "não indicado", "id": "não é artigo", "fonte": "https://www.centenary.org.au/news/new-funding-to-accelerate-research-into-sudden-cardiac-death"}
+  ],
+  "pesquisa_recente_nota": "Não achei 3 artigos de 2022–2026 com DOI/PMID visíveis; buscar no PubMed 'Semsarian C[au] 2024' antes de citar.",
+  "dicas": [
+   "Não há programa estruturado visível: a entrada é por patrocínio direto do Semsarian ou do Agnes Ginges Centre (pesquisa + clínica).",
+   "O ângulo de pesquisa (registro de morte súbita em jovens, teste genético pós-morte) é a melhor ponte para quem faz cardiogenética no Brasil.",
+   "Monash Health tem programa formal de 1 a 4 semanas, caso se queira uma alternativa australiana."
+  ],
+  "rota_recomendada": "1) Escrever ao Prof. Semsarian pelo formulário de contato ou de estudantes do Centenary Institute, propondo 4 semanas de observação na clínica de HCM/cardiogenética do RPAH junto com o grupo de pesquisa, e citar o trabalho de cardiomiopatia oculta. 2) Pedir que ele indique o caminho administrativo do SLHD para observadores. 3) Se não houver resposta, considerar o programa formal da Monash Health."
+ },
+ {
+  "match": "Nationwide Children's Hospital",
+  "alerta_correcao": "O programa de ACHD (COACH) é conjunto entre o Nationwide Children's e o Ohio State Wexner Medical Center: Curt Daniels dirige o ACHD nos dois. Para uma residente de cardiologia de ADULTOS, a parte adulta do ACHD fica na OSU. Além disso, o ISP do Nationwide exige experiência clínica pediátrica e atuação em área pediátrica, o que pode barrar residente de cardio adulto ou de cirurgia CV de adultos.",
+  "programa": {
+   "pagina": "https://www.nationwidechildrens.org/for-medical-professionals/education-and-training/international-scholars-program-isp",
+   "trilhas": "Independently Funded Program: até 3 meses, autofinanciado (https://www.nationwidechildrens.org/independently-funded-program); Stecker Scholarship: 3 meses financiados (só para cirurgiões pediátricos)",
+   "elegibilidade": "experiência clínica pediátrica prévia e atuação atual como profissional licenciado em área pediátrica, com comprovação de credenciais do país de origem; só observação; não vale crédito acadêmico",
+   "documentos": "comprovar fundos para moradia e manutenção; seguro saúde aprovado; o pacote de inscrição varia com a duração e os objetivos",
+   "contato_oficial": "ISP@Nationwidechildrens.org (indicado pelo programa para dúvidas antes de se inscrever)",
+   "taxa": "não encontrado", "antecedencia": "não encontrado", "visto": "não encontrado para o ISP (o fellowship não patrocina H1B)",
+   "certeza": "confirmado (páginas oficiais do ISP vistas em trechos)"
+  },
+  "servico": {
+   "nome": "The Heart Center (Cardiology & Cardiothoracic Surgery); Adolescent & Adult Congenital Heart Disease (ACHD) Program / COACH (com OSU)",
+   "chefe": "Co-diretores do Heart Center: Antonio Cabrera, MD (chefe da divisão de cardiologia) e Mark Galantowicz, MD (chefe da cirurgia cardiotorácica). Um site de terceiros cita Harinder Singh como co-diretor (provavelmente desatualizado)",
+   "fellowship": "ACHD Fellowship: Lauren Lastinger, MD, Program Director, e Curt Daniels associado (as fontes divergem: outra página põe Daniels como diretor) — https://www.nationwidechildrens.org/adult-congenital-heart-disease-fellowship",
+   "volume": "não encontrado com ano; o programa de ACHD foi acreditado pela ACHA em 2017 (url do radar)",
+   "certeza": "confirmado (site do NCH) para Daniels, Cabrera e Galantowicz; fellowship = provável"
+  },
+  "pessoas_chave": [
+   {"nome": "Curt J. Daniels", "cargo": "Diretor do ACHD Program (NCH e OSU Wexner) e do Pulmonary Hypertension Program (OSU)", "por_que": "decide em ACHD e é a ponte entre o hospital pediátrico e o adulto", "fonte": "https://www.nationwidechildrens.org/find-a-doctor/profiles/curt-j-daniels", "certeza": "confirmado"},
+   {"nome": "Lauren T. Lastinger", "cargo": "Program Director, ACHD Fellowship (no corpo docente de ACHD desde 2019)", "por_que": "ensino em ACHD", "fonte": "https://www.nationwidechildrens.org/find-a-doctor/profiles/lauren-t-lastinger", "certeza": "provável"},
+   {"nome": "Antonio G. Cabrera", "cargo": "Division Chief of Cardiology; co-diretor do Heart Center", "por_que": "chefe da cardiologia pediátrica; coautor do SVR III", "fonte": "https://www.nationwidechildrens.org/heart-center-team", "certeza": "confirmado"},
+   {"nome": "Mark Galantowicz", "cargo": "Chief of Cardiothoracic Surgery; co-diretor do Heart Center", "por_que": "cirurgia CV; pioneiro do procedimento híbrido para HLHS", "fonte": "https://www.nationwidechildrens.org/heart-center-team", "certeza": "confirmado (cargo); 'pioneiro do híbrido' não verificado nesta busca"},
+   {"nome": "ISP office (contato citado no diretório ASPO: Julie Davis)", "cargo": "International Scholars Program", "por_que": "porta administrativa", "fonte": "https://aspo.memberclicks.net/international-observerships-1", "certeza": "provável (diretório de terceiros)"}
+  ],
+  "brasileiros": "não encontrado (a lista de fellows e ex-fellows de cardiologia não mostra brasileiros nos trechos vistos)",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {"titulo": "Longitudinal Follow-Up of Children With HLHS and Association Between Norwood Shunt Type and Long-Term Outcomes: The SVR III Study (Circulation 148(17):1330–1339)", "ano": 2023, "doi": "10.1161/circulationaha.123.065192", "nota": "Cabrera entre os autores; o vínculo com o NCH não aparece no trecho (é um estudo multicêntrico)", "fonte": "https://pubmed.ncbi.nlm.nih.gov/37795623/"},
+   {"titulo": "Estudo de atividade física em cardiopatia congênita, V.2 (PI Jamie L. Jackson, NCH)", "ano": "registrado em 2023", "id": "NCT06003023 (ensaio, não é artigo)", "fonte": "https://clinicaltrials.gov/study/NCT06003023"}
+  ],
+  "pesquisa_recente_nota": "Não achei artigos de ACHD do NCH de 2022–2026 com DOI nos resultados; checar no PubMed 'Daniels CJ' ou 'Lastinger L' antes de citar.",
+  "dicas": [
+   "O ISP é a única porta formal: até 3 meses autofinanciado, só observação, e pede seguro e comprovação de fundos.",
+   "Mandar e-mail ao ISP perguntando ANTES se residente de cardiologia de adultos é elegível (a regra fala em 'pediatric field').",
+   "Para ACHD de adultos, avaliar o caminho pela OSU Wexner (o mesmo Daniels dirige o ACHD lá)."
+  ],
+  "rota_recomendada": "1) E-mail a ISP@Nationwidechildrens.org perguntando se uma residente de cardiologia (adulto) com interesse em ACHD pode entrar no Independently Funded Program por 4 semanas. 2) Em paralelo, contatar o Dr. Curt Daniels pelo programa de ACHD para obter o aceite do serviço, mencionando a passagem pelo programa de ACHD da OSU. 3) Se a elegibilidade pediátrica barrar, pedir observership pela OSU Wexner no COACH."
+ },
+ {
+  "match": "Stollery Children's Hospital",
+  "alerta_correcao": "A cardiologia fetal fica no Stollery (Alberta Health Services) e na Univ. of Alberta, e o fellowship também passa pelo laboratório de eco do Royal Alexandra Hospital. Hoje a diretora do Fetal & Neonatal Cardiology Program é Angela McBrien (perfil WCHN sem data). Lisa Hornberger fundou e dirigiu o programa de 2008 a 2020 e hoje é Divisional Director of Cardiology e chefe do eco pediátrico, mas a página do fellowship ainda a lista como Fellowship Director.",
+  "programa": {
+   "pagina": "não encontrado programa de observership próprio do Stollery ou da cardiologia pediátrica",
+   "alternativas": [
+    "International Academic Program (Office of International Programs, FoMD, U of A) para estudantes de medicina, residentes e enfermeiros internacionais: Clinical Track de 4 semanas por $4.000 (moeda não indicada, provavelmente CAD); Research Track de 1 mês por $2.000; também há trilhas de 8 e 12 semanas; contato iaep@ualberta.ca (https://ualberta.ca/en/medicine/programs/international/international-academic-elective-program.html ; https://marketplace.ualberta.ca/products/international-academic-elective-program-clinical-track-1-month). Os sites listados são UAH, Royal Alexandra, Grey Nuns, Misericordia e Alberta Hospital; o Stollery NÃO aparece na lista",
+    "Página de observerships do Departamento de Pediatria (atualizada em jul/2022, só contatos administrativos no trecho): https://sites.google.com/a/ualberta.ca/pediatric-education-administrators-sit/home/observerships",
+    "Postgraduate incoming elective: só para quem está em programa ACREDITADO (canadense); exige CPSA/CMPA, então não se aplica a residente brasileira"
+   ],
+   "contato_oficial": "iaep@ualberta.ca (IAP); pedfello@ualberta.ca (fellowships de cardiologia pediátrica)",
+   "documentos": "não encontrado para observer (exigências do AHS são prováveis)",
+   "certeza": "IAP = confirmado; encaixe no Stollery = não confirmado"
+  },
+  "servico": {
+   "nome": "Fetal & Neonatal Cardiology Program (Stollery/U of A); Division of Pediatric Cardiology; Pediatric Echocardiography",
+   "chefe": "Divisional Director of Cardiology: Lisa Hornberger (https://westernchildrensheartnetwork.ca/partner-hospitals/stollery-childrens-hospital/meet-the-team/lisa-hornberger/). Diretora do programa fetal: Angela McBrien (https://westernchildrensheartnetwork.ca/partner-hospitals/stollery-childrens-hospital/meet-the-team/angela-mcbrien/)",
+   "fellowship": "Fetal and Neonatal Cardiology Fellowship: Fellowship Director Lisa Hornberger; Program Administrator Allison Spry (https://www.ualberta.ca/en/pediatrics/pediatric-education-programs/fellowship-training/cardiology-fellowships/fetal-and-neonatal-cardiology-fellowship.html)",
+   "volume": "mais de 1.800 ecocardiogramas fetais por ano (página do fellowship, sem ano); 2º maior volume de cirurgia cardíaca pediátrica do Canadá e 9º da América do Norte; 19 cardiologistas pediátricos em tempo integral (página da residência)",
+   "certeza": "confirmado (com divergência de datas)"
+  },
+  "pessoas_chave": [
+   {"nome": "Angela McBrien", "cargo": "Director, Stollery Fetal and Neonatal Cardiology Program", "por_que": "decide quem observa na cardiologia fetal; autora do estudo de eco fetal de 10 a 15 semanas", "fonte": "https://westernchildrensheartnetwork.ca/partner-hospitals/stollery-childrens-hospital/meet-the-team/angela-mcbrien/", "certeza": "provável (página sem data)"},
+   {"nome": "Lisa Hornberger", "cargo": "Divisional Director of Cardiology; Section Head do Pediatric Echocardiography; fundadora do programa fetal (2008–2020); Fellowship Director", "por_que": "nome de referência mundial em cardiologia fetal; chefe da divisão", "fonte": "https://apps.ualberta.ca/directory/person/lhornber", "certeza": "confirmado"},
+   {"nome": "Luke Eckersley", "cargo": "Pediatric and Fetal Cardiologist (desde 2017)", "por_que": "coautor dos trabalhos fetais recentes", "fonte": "https://westernchildrensheartnetwork.ca/partner-hospitals/stollery-childrens-hospital/meet-the-team/luke-eckersley/", "certeza": "confirmado"},
+   {"nome": "Allison Spry", "cargo": "Program Administrator, Fetal & Neonatal Cardiology Fellowship", "por_que": "administrativo da área fetal", "fonte": "https://www.ualberta.ca/en/pediatrics/pediatric-education-programs/fellowship-training/cardiology-fellowships/fetal-and-neonatal-cardiology-fellowship.html", "certeza": "confirmado"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado. Hornberger aparece entre os autores da diretriz da ASE de eco fetal de 2023 (multicêntrica). Nenhuma coautoria brasileira foi vista",
+  "pesquisa_recente": [
+   {"titulo": "Fetal Echocardiography From 10 to 15 Weeks of Gestation: Reliability, Genetic Associations, and Outcomes (Rittey, Davidson, Hornberger, Eckersley, Boehme, McBrien; J Am Soc Echocardiogr)", "ano": 2024, "doi": "10.1016/j.echo.2024.08.012"},
+   {"titulo": "Socioeconomic status and incidence of congenital heart disease em Alberta (Smith, ..., Eckersley, Hornberger; Pediatric Cardiology)", "ano": 2023, "doi": "10.1007/s00246-023-03310-x"},
+   {"titulo": "Remoteness and socioeconomic status: outcomes of children with heart disease in Alberta (Conway et al., inclui Hornberger; JACC: Advances)", "ano": 2024, "doi": "10.1016/j.jacadv.2024.101351"}
+  ],
+  "pesquisa_recente_fonte": "resultados de busca (bohrium/ouci/asecho); o título exato do artigo de 2023 e o de 2024 em JACC Adv são paráfrases, conferir antes de citar",
+  "dicas": [
+   "Sem programa de observership próprio. O caminho formal mais próximo é o IAP da U of A (4 semanas, cerca de CAD 4.000), mas o Stollery não está entre os sites listados: perguntar ao iaep@ualberta.ca se pode ser alocada na cardiologia fetal do Stollery.",
+   "O Research Track (1 mês, cerca de CAD 2.000) pode ser uma porta para o laboratório de eco fetal, se McBrien ou Hornberger aceitarem orientar."
+  ],
+  "rota_recomendada": "1) E-mail a iaep@ualberta.ca perguntando se a Clinical Track ou a Research Track de 4 semanas pode ser feita na cardiologia fetal e pediátrica do Stollery. 2) Ao mesmo tempo, pedir o aceite da Dra. Angela McBrien (programa fetal) citando o artigo de eco fetal de 10 a 15 semanas de 2024, com cópia para pedfello@ualberta.ca. 3) Se não for possível, pedir à administração de pediatria (página de observerships) o processo de observer do AHS."
+ }
+]

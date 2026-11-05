@@ -1,0 +1,430 @@
+[
+ {
+  "match": "Piedmont Heart Institute",
+  "cidade": "Atlanta, GA, EUA",
+  "areas": [
+   "transplante",
+   "hemodinamica_coronaria"
+  ],
+  "programa": {
+   "pagina_observership": "não encontrado (busca específica não retornou página oficial de observership/visiting physician do Piedmont)",
+   "elegibilidade_taxa_documentos": "não encontrado",
+   "contato_oficial": "não encontrado",
+   "certeza": "não encontrado",
+   "observacao": "Piedmont é sistema privado/comunitário (não acadêmico clássico); fellowship de cardiologia própria não confirmada nas buscas."
+  },
+  "servico": {
+   "nomes": [
+    "Samsky Advanced Heart Failure Center (Advanced Heart Failure, Transplant and MCS)",
+    "Interventional Cardiology – Piedmont Heart Institute"
+   ],
+   "chefes": [
+    {
+     "nome": "David E. Kandzari, MD",
+     "cargo": "Chief of Piedmont Heart Institute and Cardiovascular Service Line; Director, Interventional Cardiology; Chief Scientific Officer, Piedmont Healthcare",
+     "fonte": "https://www.care.piedmont.org/provider/David+Edward+Kandzari/388799",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Ezequiel J. Molina, MD",
+     "cargo": "Surgical program director, Advanced Heart Failure, Transplant and MCS (nomeado jul/2022; ainda citado como diretor em release de 2025)",
+     "fonte": "https://mdatl.com/dr-molina-named-surgical-program-director-at-piedmont-heart-institute",
+     "certeza": "confirmado (2022); provável (atual)"
+    },
+    {
+     "nome": "Robert Cole, MD",
+     "cargo": "Medical director, Advanced Heart Failure, Transplant and MCS (2021–2022)",
+     "fonte": "https://www.piedmont.org/about-piedmont-healthcare/media-room/stories/news-article?story=4678",
+     "certeza": "provável (sem confirmação para 2024+; vaga de 'System Medical Director' publicada)"
+    }
+   ],
+   "diretor_fellowship": "não encontrado",
+   "volume": {
+    "valor": "103 transplantes cardíacos em 2024 no Piedmont Atlanta (recorde institucional)",
+    "fonte": "https://www.piedmont.org/news/piedmont-heart-institute-performs-record-number-of-heart-transplants",
+    "certeza": "confirmado"
+   }
+  },
+  "pessoas_chave": [
+   {
+    "nome": "David E. Kandzari",
+    "cargo": "Chefe do instituto e diretor de cardiologia intervencionista",
+    "por_que": "decide/autoriza visitantes; líder de ensaios coronários e de denervação renal",
+    "fonte": "https://www.care.piedmont.org/provider/David+Edward+Kandzari/388799"
+   },
+   {
+    "nome": "Ezequiel J. Molina",
+    "cargo": "Diretor cirúrgico de IC avançada/transplante/MCS",
+    "por_que": "hospedaria a parte de transplante",
+    "fonte": "https://mdatl.com/dr-molina-named-surgical-program-director-at-piedmont-heart-institute"
+   },
+   {
+    "nome": "Robert Cole",
+    "cargo": "Co-medical director Samsky AHF Center (desde 2021)",
+    "por_que": "lado clínico do transplante",
+    "fonte": "https://www.piedmont.org/about-piedmont-healthcare/media-room/stories/news-article?story=4678",
+    "certeza": "provável"
+   }
+  ],
+  "brasileiros": "não encontrado (busca Piedmont + Brasil sem resultado relevante)",
+  "pontes_unifesp_sp": "não encontrado diretamente. Ponte indireta: Kandzari é PI de grandes ensaios multicêntricos de stent/denervação que costumam ter centros brasileiros — não verificado.",
+  "pesquisa_recente": [
+   {
+    "titulo": "Effect of Alcohol-Mediated Renal Denervation on Blood Pressure in the Presence of Antihypertensive Medications: Primary Results from the TARGET BP I Randomized Clinical Trial (Circulation, 2024; Kandzari)",
+    "ano": 2024,
+    "id": "DOI/PMID não apareceram nos resultados",
+    "fonte": "https://cm.healio.com/news/cardiology/20240408/modest-mixed-bp-benefits-seen-with-alcoholmediated-renal-denervation-target-bp1"
+   },
+   {
+    "titulo": "Long-term safety and efficacy of renal denervation (Kandzari et al., 2025)",
+    "ano": 2025,
+    "id": "DOI não apareceu",
+    "fonte": "https://researchonline.lshtm.ac.uk/id/eprint/4676751/1/Kandzari-etal-2025-Long-term-safety-and-efficacy-of-renal-denervation.pdf"
+   },
+   {
+    "titulo": "5-year outcomes ridaforolimus- vs zotarolimus-eluting stents, BIONICS e NIREUS (abstract EHJ 2024; Kandzari coautor)",
+    "ano": 2024,
+    "id": "DOI 10.1093/eurheartj/ehae666.2405",
+    "fonte": "https://bohrium.dp.tech/paper/arxiv/73ac0ac1a18e2e8574b0e27c263060ea8f64b814684f84bad0de64d64c21edc9",
+    "certeza": "provável (agregador)"
+   }
+  ],
+  "dicas": [
+   "Sem programa formal achado: abordagem deve ser por e-mail/carta ao chefe (Kandzari) ou ao diretor de transplante, pedindo observership de 4 semanas.",
+   "Programa cresceu muito (103 transplantes em 2024; segundo transplante coração-fígado na Geórgia) — bom gancho para e-mail."
+  ],
+  "rota_recomendada": "1) Contato institucional via página do Piedmont Heart Institute/Media/educação pedindo o setor que trata observers; 2) carta ao Dr. Kandzari (hemodinâmica) ou Dr. Molina (transplante) citando TARGET BP I e o recorde de 103 transplantes/2024, oferecendo pagar taxa e cumprir exigências; prioridade baixa-média por não haver programa formal.",
+  "alerta_correcao": "Nenhum; nome e áreas coerentes. Programa de observership não confirmado."
+ },
+ {
+  "match": "Tufts Medical Center",
+  "cidade": "Boston, MA, EUA",
+  "areas": [
+   "transplante",
+   "miocardiopatias"
+  ],
+  "programa": {
+   "pagina_observership": "não encontrado para cardiologia/internacional. Existe só Neurology Residency Clinical Observership (departamental).",
+   "fonte_neuro": "https://www.tuftsmedicine.org/medical-professionals-trainees/training-education/training-programs/neurology-residency/neurology-residency-training-experience/neurology-residency-clinical-observership",
+   "contato": "oia@tufts.edu aparece em lista não oficial de observerships (Scribd) — NÃO verificado como canal oficial",
+   "fonte_contato": "https://www.scribd.com/document/455065235/Observership-List",
+   "certeza": "não encontrado (oficial); contato não verificado"
+  },
+  "servico": {
+   "nomes": [
+    "Advanced Heart Failure and Cardiac Transplantation Program – CardioVascular Center, Tufts Medical Center",
+    "Hypertrophic Cardiomyopathy Center (histórico)"
+   ],
+   "chefes": [
+    {
+     "nome": "Indranee Rajapreyar, MD",
+     "cargo": "Medical Director of Cardiac Transplantation",
+     "fonte": "https://www.tuftsmedicine.org/about-us/news/tufts-medical-center-completes-70-adult-heart-transplants-2024-break-own-new-england-record-second-straight-year",
+     "certeza": "confirmado (release 2024/25)"
+    },
+    {
+     "nome": "Amanda Vest, MD",
+     "cargo": "Medical Director, Advanced Heart Failure Program (fonte posterior a chama de diretora do Cardiac Transplant Program)",
+     "fonte": "https://beckershospitalreview.com/podcasts/becker-s-cardiology-podcast/inside-the-latest-heart-transplant-innovations-with-dr-amanda-vest-medical-director-and-associate-professor-tufts-university-school-of-medicine-127841772.html",
+     "certeza": "provável (títulos divergem entre fontes)"
+    }
+   ],
+   "diretor_fellowship": {
+    "nome": "Gaurav Gulati, MD",
+    "cargo": "Program Director, Advanced Heart Failure and Transplant Cardiology Fellowship",
+    "fonte": "https://www.tuftsmedicine.org/medical-professionals-trainees/training-education/training-programs/advanced-heart-failure-transplant-cardiology-fellowship",
+    "certeza": "provável"
+   },
+   "volume": {
+    "valor": "70 transplantes cardíacos adultos em 2024 (61 em 2023); T-13º nacional em 2024; maior volume da Nova Inglaterra em 2024 e 2025 (número de 2025 não publicado)",
+    "fonte": "https://www.tuftsmedicine.org/about-us/news/tufts-medical-center-completes-70-adult-heart-transplants-2024-break-own-new-england-record-second-straight-year",
+    "certeza": "confirmado"
+   }
+  },
+  "pessoas_chave": [
+   {
+    "nome": "Indranee Rajapreyar",
+    "cargo": "Diretora médica de transplante cardíaco",
+    "por_que": "hospedaria rotação em transplante",
+    "fonte": "https://www.tuftsmedicine.org/about-us/news/tufts-medical-center-completes-70-adult-heart-transplants-2024-break-own-new-england-record-second-straight-year"
+   },
+   {
+    "nome": "Amanda Vest",
+    "cargo": "Diretora médica IC avançada",
+    "por_que": "líder do programa, visibilidade (podcast Becker's)",
+    "fonte": "https://beckershospitalreview.com/podcasts/becker-s-cardiology-podcast/inside-the-latest-heart-transplant-innovations-with-dr-amanda-vest-medical-director-and-associate-professor-tufts-university-school-of-medicine-127841772.html"
+   },
+   {
+    "nome": "Gaurav Gulati",
+    "cargo": "Diretor do fellowship AHF/Transplante",
+    "por_que": "educação/visitantes",
+    "fonte": "https://www.tuftsmedicine.org/medical-professionals-trainees/training-education/training-programs/advanced-heart-failure-transplant-cardiology-fellowship",
+    "certeza": "provável"
+   },
+   {
+    "nome": "Navin K. Kapur",
+    "cargo": "Pesquisador/intervencionista, Cardiogenic Shock Working Group; Kapur Laboratory (MCRI)",
+    "por_que": "pesquisa em choque/MCS ligada ao transplante",
+    "fonte": "https://tuftsmedicine.org/research-clinical-trials/research-institutes-research-department/mcri-homepage/mcri-investigators/kapur-laboratory"
+   }
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {
+    "titulo": "Estudo sobre bombas Impella de alta capacidade no choque cardiogênico (Cardiogenic Shock Working Group; Kong, Sangal, Burkhoff, Kapur), J Heart Lung Transplant 2024",
+    "ano": 2024,
+    "id": "DOI 10.1016/j.healun.2024.05.015",
+    "fonte": "resultado de busca (PubMed listado, PMID em branco)",
+    "certeza": "provável (título exato não exibido)"
+   },
+   {
+    "titulo": "Pulmonary Artery Catheter in Cardiogenic Shock Trial (PACCS) – ensaio em andamento",
+    "ano": "registro",
+    "id": "NCT05485376",
+    "fonte": "https://clinicaltrials.gov/study/NCT05485376",
+    "certeza": "vínculo com Tufts provável"
+   }
+  ],
+  "dicas": [
+   "Sem programa institucional de observership em cardiologia encontrado; o de Neurologia mostra que existe modelo departamental — pedir ao programa AHF/Transplante algo análogo.",
+   "Gancho de e-mail: recorde de 70 transplantes em 2024 e trabalho em choque cardiogênico (Kapur)."
+  ],
+  "rota_recomendada": "1) E-mail ao coordenador do Advanced HF & Transplant Cardiology Fellowship (via página oficial) pedindo observership de 4 semanas no programa de transplante; 2) cópia/carta à Dra. Rajapreyar. Para miocardiopatias (HCM), considerar Lahey Hospital (Burlington, MA), para onde o centro de HCM de Maron/Rowin migrou.",
+  "alerta_correcao": "Área 'miocardiopatias': o renomado HCM Center de Tufts (Martin Maron, 20 anos) migrou para Lahey Hospital & Medical Center (Maron e Rowin agora lá); liderança atual de HCM em Tufts não confirmada. Fonte: https://lahey.org/services/cardiovascular-medicine/hcm-center/meet-the-team e https://www.4hcm.org/COE/morristown-2"
+ },
+ {
+  "match": "Lurie Children's — Heart Center",
+  "cidade": "Chicago, IL, EUA",
+  "areas": [
+   "congenitas",
+   "transplante"
+  ],
+  "programa": {
+   "pagina_observership": "não encontrado (página oficial internacional não achada).",
+   "alternativa": {
+    "descricao": "Cardiovascular-Thoracic Surgery External Rotation Program — encaminha ao processo de visiting students da Feinberg (Northwestern); requisitos descritos para residentes baseados nos EUA (licença temporária de treinamento de Illinois, imunizações). Não trata de estrangeiros.",
+    "fonte": "https://www.luriechildrens.org/en/specialties-conditions/cardiovascular-thoracic-surgery/external-rotation-program/",
+    "certeza": "confirmado (existência); estrangeiros não confirmado"
+   },
+   "diretorio_terceiro": {
+    "descricao": "Base ASPO lista Lurie com observership internacional de duração flexível (contato em ORL pediátrica, não cardio) — evidência de que a instituição aceita observers internacionais em algumas divisões",
+    "fonte": "https://aspo.memberclicks.net/international-observerships-1",
+    "certeza": "provável (data incerta)"
+   },
+   "contato_oficial": "não encontrado"
+  },
+  "servico": {
+   "nomes": [
+    "Heart Center (Regenstein Cardiac Care Unit)",
+    "Division of Cardiovascular-Thoracic Surgery",
+    "Pediatric Heart Transplant Program (Siragusa Transplantation Center)"
+   ],
+   "chefes": [
+    {
+     "nome": "David S. Winlaw, MBBS MD FRACS",
+     "cargo": "Division Head, Cardiovascular-Thoracic Surgery; Co-Executive Director, Heart Center",
+     "fonte": "https://luriechildrens.org/en/doctors/winlaw-david-s",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Stuart Berger, MD",
+     "cargo": "Division Head of Cardiology (fonte Nemours também: medical director do Heart Center)",
+     "fonte": "https://ce.nemours.org/node/2792/bio/8932/view",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Michael Mongé, MD",
+     "cargo": "Surgical director do programa de transplante cardíaco (release 2024)",
+     "fonte": "https://www.luriechildrens.org/en/news-stories/lurie-childrens-premier-heart-center-hits-milestone-400-pediatric-heart-transplants/",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Diretor médico do transplante",
+     "cargo": "Divergência: Philip Thrush (2021), Katheryn Gambetta, Tracy Tester — todos citados em páginas Lurie",
+     "fonte": "https://www.luriechildrens.org/en/doctors/tester-tracy/",
+     "certeza": "incerto"
+    }
+   ],
+   "diretor_fellowship": "não encontrado (fellowship de cardiologia pediátrica: 4 fellows/ano, 36 meses; fonte https://www.pediatrics.northwestern.edu/education/fellows/cardiology)",
+   "volume": {
+    "valor": "30 transplantes cardíacos no AF set/2023–ago/2024 (140 transplantes totais, recorde); 2º maior volume pediátrico de transplante cardíaco dos EUA em 2024; marco de 400 transplantes cardíacos pediátricos; sobrevida 1 ano >98%; único serviço de transplante cardíaco pediátrico de Illinois",
+    "fonte": "https://www.luriechildrens.org/en/news-stories/lurie-childrens-transplant-expertise-shines-in-record-breaking-year/",
+    "certeza": "confirmado"
+   }
+  },
+  "pessoas_chave": [
+   {
+    "nome": "David S. Winlaw",
+    "cargo": "Chefe CTS / co-diretor executivo Heart Center",
+    "por_que": "decide visitantes em cirurgia congênita; ex-Westmead (Sydney) e Cincinnati — perfil internacional",
+    "fonte": "https://luriechildrens.org/en/doctors/winlaw-david-s"
+   },
+   {
+    "nome": "Michael Mongé",
+    "cargo": "Diretor cirúrgico transplante cardíaco",
+    "por_que": "hospedaria transplante",
+    "fonte": "https://www.luriechildrens.org/en/news-stories/lurie-childrens-premier-heart-center-hits-milestone-400-pediatric-heart-transplants/"
+   },
+   {
+    "nome": "Stuart Berger",
+    "cargo": "Chefe de Cardiologia",
+    "por_que": "lado clínico",
+    "fonte": "https://ce.nemours.org/node/2792/bio/8932/view",
+    "certeza": "provável"
+   },
+   {
+    "nome": "Elisabeth Martin",
+    "cargo": "Director, Pulmonary Artery Reconstruction Program and Surgical Outcomes Research (desde ago/2025)",
+    "por_que": "pesquisa de resultados cirúrgicos",
+    "fonte": "https://www.luriechildrens.org/en/news-stories/pediatric-cardiac-surgeon-dr.-elisabeth-martin-joins-lurie-childrens-heart-center"
+   },
+   {
+    "nome": "Anna G. Joong",
+    "cargo": "Cardiologista de IC/transplante, pesquisadora",
+    "por_que": "coautora de estudo multicêntrico Fontan-transplante",
+    "fonte": "https://research.luriechildrens.org/en/researchers/anna-g-joong/"
+   }
+  ],
+  "brasileiros": "não encontrado (Guilherme Baptista de Faria apareceu em busca, fala português, mas sem vínculo Lurie/Brasil comprovado — NÃO marcado)",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {
+    "titulo": "The Impact of Fontan Circulatory Failure on Heart Transplant Survival: A 20-Center Retrospective Cohort Study (Circulation 2025;152(8):508-518; Lurie coautoria)",
+    "ano": 2025,
+    "id": "PMID 40631708; DOI 10.1161/CIRCULATIONAHA.124.072961",
+    "fonte": "https://pubmed.ncbi.nlm.nih.gov/40631708/",
+    "certeza": "confirmado (artigo); participação Lurie via release"
+   }
+  ],
+  "pesquisa_recente_obs": "Outros artigos 2022–2026 do serviço não confirmados nas buscas.",
+  "dicas": [
+   "Caso de referência já fez observership em Chicago — mencionar vínculo/carta do hospital anterior de Chicago pode ajudar (Lurie é afiliado à Northwestern).",
+   "Ser residente de cardiologia/CCV adulto em centro pediátrico: justificar interesse (cardiopatias congênitas do adulto, transplante)."
+  ],
+  "rota_recomendada": "1) Contatar a CTS External Rotation Program/Feinberg visiting process perguntando sobre observer internacional; 2) e-mail ao Dr. Winlaw (congênitas) ou Dr. Mongé (transplante) citando o estudo Fontan/transplante (Circulation 2025) e o marco de 400 transplantes; 3) usar ponte do hospital de Chicago onde a residente já esteve, se for Northwestern.",
+  "alerta_correcao": "Becker's cita Sunjay Kaushal como chefe de CTS (nomeação de 2020) — desatualizado; atual é Winlaw."
+ },
+ {
+  "match": "Texas Children's Heart Center",
+  "cidade": "Houston, TX, EUA",
+  "areas": [
+   "congenitas",
+   "transplante"
+  ],
+  "programa": {
+   "pagina_observership": "International Observers Program (Department of International and Destination Medicine)",
+   "fonte": "https://www.texaschildrens.org/departments/international-and-destination-medicine/international-observers-program",
+   "duracao": "limitado a 30 dias salvo pré-aprovação",
+   "antecedencia": "todos os documentos ≥90 dias antes do início",
+   "documentos": "imunizações conforme exigência TCH; termo de isenção de responsabilidade; seguro saúde; fluência em inglês; carta de referência do diretor/dean confirmando good standing; acordo de confidencialidade",
+   "visto": "TCH não patrocina visto (B1/B2 por conta do visitante)",
+   "taxa": "não encontrado",
+   "formulario": "application PDF na página oficial (e-mail não exibido nos trechos)",
+   "fonte_detalhes": "https://www.texaschildrens.org/es/node/75706",
+   "certeza": "confirmado"
+  },
+  "servico": {
+   "nomes": [
+    "Texas Children's Heart Center",
+    "Congenital Heart Surgery (Baylor College of Medicine)",
+    "Heart Transplant and Mechanical Circulatory Support",
+    "Heart Failure, Cardiomyopathy and Cardiac Transplantation"
+   ],
+   "chefes": [
+    {
+     "nome": "Caner Salih, MD e Daniel Penny, MD PhD MHA",
+     "cargo": "Executive Co-Directors, Heart Center (Salih veio do Evelina/Guy's & St Thomas', Londres)",
+     "fonte": "https://www.texaschildrens.org/content/news-release/new-transformative-leadership-team-announced-for-texas-childrens-world",
+     "certeza": "confirmado (data exata não clara)"
+    },
+    {
+     "nome": "Jeffrey S. Heinle, MD",
+     "cargo": "Chief of Congenital Heart Surgery (desde dez/2022); Surgical Director, Lung Transplant",
+     "fonte": "https://www.texaschildrens.org/find-a-provider/jeffrey-s-heinle-md",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Iki Adachi, MD",
+     "cargo": "Surgical Director, Heart Transplant and MCS",
+     "fonte": "https://www.texaschildrens.org/sites/tc/files/uploads/documents/pcics/Heart-Leadership.pdf",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Joseph Spinner, MD",
+     "cargo": "Medical Director, Heart Failure, Cardiomyopathy and Cardiac Transplantation",
+     "fonte": "https://www.texaschildrens.org/sites/tc/files/uploads/documents/conferences/achd/HEART-40210-26-ACHD%20Heart%20Leadership-HRnoCrops.pdf",
+     "certeza": "provável (documento mais recente; antes William Dreyer)"
+    }
+   ],
+   "diretor_fellowship": "Congenital Cardiac Surgery Fellowship 2 anos (1 de 16 ACGME nos EUA); diretor não confirmado",
+   "fonte_fellowship": "https://www.bcm.edu/departments/surgery/divisions-and-centers/congenital-heart-surgery/education",
+   "volume": {
+    "valor": "Cirurgia congênita: 1127 (2021), 983 (2022), 1116 (2023), 1164 (2024) casos (fact sheet STS); #1 em cardiologia/cirurgia cardíaca pediátrica US News por anos consecutivos; programa de transplante cardíaco com 40 anos",
+    "fonte": "https://www.texaschildrens.org/sites/tc/files/uploads/documents/heart/chop/CHS%20Fact%20Sheet-01.21-12.24%20STS%20(TCH-0379).pdf",
+    "certeza": "confirmado (ordem dos números inferida do fact sheet)"
+   }
+  },
+  "pessoas_chave": [
+   {
+    "nome": "Jeffrey S. Heinle",
+    "cargo": "Chefe Cirurgia Congênita",
+    "por_que": "decide/hospeda em cirurgia",
+    "fonte": "https://www.texaschildrens.org/find-a-provider/jeffrey-s-heinle-md"
+   },
+   {
+    "nome": "Iki Adachi",
+    "cargo": "Diretor cirúrgico Transplante/MCS",
+    "por_que": "transplante e VAD pediátrico",
+    "fonte": "https://www.texaschildrens.org/sites/tc/files/uploads/documents/pcics/Heart-Leadership.pdf"
+   },
+   {
+    "nome": "Joseph Spinner",
+    "cargo": "Diretor médico IC/Miocardiopatia/Transplante",
+    "por_que": "lado clínico do transplante",
+    "fonte": "https://www.texaschildrens.org/sites/tc/files/uploads/documents/conferences/achd/HEART-40210-26-ACHD%20Heart%20Leadership-HRnoCrops.pdf",
+    "certeza": "provável"
+   },
+   {
+    "nome": "Caner Salih",
+    "cargo": "Co-diretor executivo Heart Center",
+    "por_que": "liderança máxima; perfil internacional",
+    "fonte": "https://www.texaschildrens.org/content/news-release/new-transformative-leadership-team-announced-for-texas-childrens-world"
+   }
+  ],
+  "brasileiros": "não encontrado no TCH. (Davi Freitas Tenório — formado UFAL, CCV no InCor-USP — é cirurgião congênito no Texas, mas em Dell Children's/UT Austin, não TCH; útil só como contato brasileiro no Texas: https://www.ctsnet.org/home/davifreitas)",
+  "pontes_unifesp_sp": {
+   "descricao": "Texas Children's virou equipe de medical volunteers da Children's HeartLink em 2022 para trabalhar no Brasil; primeira visita de treinamento ao Real Hospital Português (Recife). Não há vínculo TCH–InCor (InCor é parceiro de Children's Minnesota e SickKids).",
+   "fonte": "https://childrensheartlink.org/tx-childrens-new-med-volunteers",
+   "fonte2": "https://childrensheartlink.org/first-training-visit/",
+   "certeza": "confirmado"
+  },
+  "pesquisa_recente": [
+   {
+    "titulo": "Long-term implantable ventricular assist device support in children (Cho J ... Heinle JS, Hickey EJ, Adachi I), J Thorac Cardiovasc Surg 2024;167(4):1417-1426.e1",
+    "ano": 2024,
+    "id": "PMID 37913838",
+    "fonte": "https://profiles.viictr.org/display/270156"
+   },
+   {
+    "titulo": "Kalustian et al., crianças com origem anômala da coronária esquerda (AAOLCA), Circ Cardiovasc Interv 2023",
+    "ano": 2023,
+    "id": "PMID 37192311",
+    "fonte": "https://profiles.viictr.org/display/270156"
+   },
+   {
+    "titulo": "Yoneyama et al., Long-term outcomes of ascending sliding arch aortoplasty, World J Pediatr Congenit Heart Surg 2024",
+    "ano": 2024,
+    "id": "PMID 38465582",
+    "fonte": "https://profiles.viictr.org/display/270156"
+   }
+  ],
+  "dicas": [
+   "Único dos 4 com programa formal de observer internacional: 30 dias encaixa no formato de 1 mês.",
+   "Antecedência mínima de 90 dias — planejar ≥4–6 meses incluindo autorização Unifesp e carta do coordenador/COREME.",
+   "Gancho brasileiro: parceria TCH–Children's HeartLink no Brasil (Recife) desde 2022."
+  ],
+  "rota_recomendada": "1) Aplicar ao International Observers Program (PDF oficial, ≥90 dias antes), indicando Heart Center – cirurgia congênita/transplante; 2) em paralelo, e-mail ao Dr. Heinle ou Dr. Adachi citando o artigo de VAD pediátrico (PMID 37913838) pedindo aceite/sponsor do serviço; 3) mencionar a atuação do TCH no Brasil via Children's HeartLink.",
+  "alerta_correcao": "Nenhum."
+ }
+]

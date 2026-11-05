@@ -1,0 +1,165 @@
+[
+ {
+  "match": "NUH / National University Heart Centre — Hands-off Observership",
+  "cidade": "Singapura", "pais": "Singapura", "areas_polo": ["cardiologia","cirurgia_cardiaca"],
+  "alerta_correcao": "O programa é do NUH (National University Hospital), não do NUHCS em si; NUHCS é o centro cardíaco que hospeda Cardiologia e CTVS dentro do NUH. Não confundir com National Heart Centre Singapore (NHCS, SingHealth), instituição diferente com programa de fellowship próprio (nhcs.ote@nhcs.com.sg).",
+  "programa": {
+   "nome": "Hands-off Observership (NUH)",
+   "url": "https://www.nuh.com.sg/research-and-education/hands-off-observership",
+   "trecho": "Foreign doctors can apply ... to observe in a clinical department with no hands-on. ... A processing fee of S$170 (GST included) is applicable per attachment (to be paid online upon acceptance).",
+   "especialidades": "Lista inclui Cardiology e Cardiac/Thoracic/Vascular Surgery (confirmado)",
+   "elegibilidade_residente_estrangeiro": "provável — aberto a 'foreign doctors' com diploma médico reconhecido; lista completa de requisitos não visível no trecho",
+   "taxa": "S$170 por estágio, paga após aceite; algumas especialidades podem cobrar taxa adicional (miscellaneous fee) — confirmado",
+   "duracao": "não encontrado (página não mostrou limite no trecho)",
+   "antecedencia": "não encontrado",
+   "documentos": "formulário de aplicação (download na página) + CV; visto por conta do candidato; sem bolsa/alojamento. Vacinas/seguro: não encontrado para NUH (o NNI, outro hospital de Singapura, exige varicela e COVID-19 — apenas referência).",
+   "contato_oficial": "observer_application@nuhs.edu.sg (publicado na página oficial para envio do formulário + CV)",
+   "pagina_relacionada": "https://www.nuh.com.sg/research-and-education/honorary-clinical-fellowship-and-clinical-observership",
+   "certeza": "confirmado (taxa, especialidades, e-mail; página datada 02/02/2026); duração/antecedência não encontradas"
+  },
+  "servico": {
+   "nomes": ["Department of Cardiology, NUHCS","Department of Cardiac, Thoracic & Vascular Surgery (CTVS), NUHCS","Cardiovascular Research Institute (CVRI)"],
+   "chefes": [
+    {"area":"cardiologia","nome":"Adj A/Prof Chai Ping","cargo":"Head, Department of Cardiology","fonte":"https://www.nuhcs.com.sg/about-nuhcs/at-the-helm","certeza":"provável (página oficial sem data)"},
+    {"area":"cirurgia_cardiaca","nome":"A/Prof Laszlo Kiraly","cargo":"Head, Department of CTVS","fonte":"https://www.nuhcs.com.sg/about-nuhcs/at-the-helm","certeza":"provável (página oficial sem data)"}
+   ],
+   "fellowships": "NUHCS tem Heart Failure Fellowship Programme (12 meses, desde 2021) e Coronary Interventional Fellowship; contato nuhcs@nuhs.edu.sg (https://www.nuhcs.com.sg/research-and-education/fellowship-programmes/heart-failure-fellowship-programme). Diretor do fellowship: não encontrado.",
+   "volume": "não encontrado"
+  },
+  "pessoas_chave": [
+   {"nome":"Chai Ping","cargo":"Head of Cardiology NUHCS","por_que":"decide/aceita observers na Cardiologia","fonte":"https://www.nuhcs.com.sg/about-nuhcs/at-the-helm"},
+   {"nome":"Laszlo Kiraly","cargo":"Head of CTVS NUHCS","por_que":"decide na cirurgia cardíaca","fonte":"https://www.nuhcs.com.sg/about-nuhcs/at-the-helm"},
+   {"nome":"Mark Chan Yan Yee","cargo":"Deputy Executive Director NUHCS; Deputy Director CVRI","por_que":"liderança de pesquisa","fonte":"https://www.nuhcs.com.sg/about-nuhcs/at-the-helm"},
+   {"nome":"Yeo Tiong Cheng","cargo":"Group Chief, Cardiology, NUHS","por_que":"liderança do grupo de cardiologia","fonte":"https://www.nuhcs.com.sg/about-nuhcs/at-the-helm"},
+   {"nome":"Poh Kian Keong","cargo":"Director of Research; Senior Consultant Cardiology","por_que":"pesquisa (fonte: revista Pulse NUHCS, data incerta)","fonte":"https://www.ziniounlimited.com/publications/pulse-magazine/45056/issues/705724"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado coautoria direta NUHCS–Unifesp/InCor/Dante. Existe acordo FAPESP–NUS (National University of Singapore) para projetos conjuntos de pesquisadores paulistas (https://bv.fapesp.br/en/638) — ponte institucional possível, não específica de cardiologia (provável).",
+  "pesquisa_recente": [
+   {"titulo":"Clinical Characteristics and Outcomes of a Cohort of Multiethnic Asian Patients with Cardiac Myxoma","ano":2025,"pmid":"41125747","nota":"afiliação Dept of Cardiology NUHCS; tema cardio+cirurgia"},
+   {"titulo":"Frontiers in subclinical atherosclerosis and the latest in early life preventive cardiology","ano":2025,"pmid":"40116060"},
+   {"titulo":"Role of ChatGPT in interventional cardiology","ano":2025,"pmid":"40160102"}
+  ],
+  "dicas": "Processo simples por e-mail (formulário + CV); taxa baixa (S$170) paga só após aceite; hands-off. Indicar no formulário Cardiology OU CTVS. Projeto RESET (prevenção CV nacional, S$25 mi) e programa de IA em prevenção são temas atuais do serviço.",
+  "rota_recomendada": "1) Baixar o formulário na página oficial e enviar com CV para observer_application@nuhs.edu.sg, especificando Cardiology (ou CTVS) e o mês desejado, com 3+ meses de antecedência por causa do visto. 2) Em paralelo, e-mail curto ao Head (Chai Ping / Kiraly) citando um artigo recente do serviço. Visto/visit pass de Singapura por conta própria (brasileiros normalmente não precisam de visto para visita curta — confirmar com ICA)."
+ },
+ {
+  "match": "UAB — International Visiting Medical Observers",
+  "cidade": "Birmingham (AL)", "pais": "EUA", "areas_polo": ["cardiologia","cirurgia_cardiaca"],
+  "alerta_correcao": "Há dois programas distintos na UAB: (a) International Visiting Medical Observership (IVMO, caro, slots de 4 semanas) e (b) International Visiting Scholar Clinical Observership (até 3 meses, exige host/departamento). Os valores do radar devem se referir ao (a).",
+  "programa": {
+   "nome": "International Visiting Medical Observership (UAB Heersink School of Medicine — International Medical Education)",
+   "url": "https://www.uab.edu/medicine/international/international-programs/observership",
+   "faq": "https://bb.uab.edu/medicine/international/international-programs/observership/frequently-asked-questions",
+   "trecho": "Applicants must have graduated with a MD or MD equivalent by the start date of the opportunity ... Available timeframes are 4 weeks or 8 weeks ... $350 application fee remains non-refundable under all circumstances.",
+   "elegibilidade_residente_estrangeiro": "confirmado — exige MD ou equivalente até o início (residente formado se qualifica)",
+   "taxa": "US$350 de inscrição (não reembolsável) + US$4.250 por slot de 4 semanas, cobrado só se houver match; moradia/transporte/alimentação não incluídos (confirmado; 'sujeito a mudança')",
+   "duracao": "4 ou 8 semanas (8 = dois blocos de 4) — confirmado",
+   "antecedencia": "pacote de pré-chegada enviado aos aprovados >60 dias antes do início (provável); prazo de inscrição não encontrado",
+   "documentos": "aplicação em 2 PDFs em ordem obrigatória ('application will be rejected if not placed in the following order'); pacote de onboarding pós-match. Vacinas específicas do IVMO: não encontrado (Pediatria UAB pede PPD, varicela, sarampo, hepatite B — referência).",
+   "contato_oficial": "observer@uab.edu (página IVMO); internationalmd@uab.edu (International Medical Education, PDF de aplicação). Scholar track: IVS@uab.edu",
+   "nota": "Departamentos (ex.: Neurologia, Patologia) NÃO aceitam aplicação direta — tudo pelo escritório International Medical Education.",
+   "certeza": "confirmado (taxas, duração, elegibilidade, e-mails); lista de especialidades com cardiologia não confirmada"
+  },
+  "servico": {
+   "nomes": ["Division of Cardiovascular Disease (Dept of Medicine)","Division of Cardiothoracic Surgery (Dept of Surgery)","UAB Medicine Cardiovascular Institute","Comprehensive Cardiovascular Center"],
+   "chefes": [
+    {"area":"cardiologia","nome":"Nicole Lohr, MD, PhD","cargo":"Director, Division of Cardiovascular Disease (nomeada 2022)","fonte":"https://www.uab.edu/medicine/cardiovascular/about/welcome-from-the-director","certeza":"provável (sem anúncio de mudança até 2026)"},
+    {"area":"centro_cv","nome":"Gregory Payne, MD, PhD","cargo":"Director, Comprehensive Cardiovascular Center (out/2025, sucedendo Lohr)","fonte":"https://www.dpo.uab.edu/medicine/news/dom/payne-named-director-of-the-uab-comprehensive-cardiovascular-center","certeza":"confirmado"},
+    {"area":"cirurgia_cardiaca","nome":"James Davies, MD","cargo":"Division Director of Cardiothoracic Surgery; John W. Kirklin Endowed Chair; CVI Co-Director (citado em 2022)","fonte":"https://bb.uab.edu/medicine/dom/news-events/department-news/lohr-named-new-director-for-the-division-of-cardiovascular-disease","certeza":"provável (dado de 2022, não confirmado 2025-26)"}
+   ],
+   "volume": "TAVR: 2.313 pacientes entre 2015–2023 (estudo de explante UAB, notícia jun/2025) — https://www.uab.edu/medicine/news/surgery/uab-researchers-publish-findings-on-outcomes-for-high-risk-patients-following-tavr-explantations"
+  },
+  "pessoas_chave": [
+   {"nome":"Nicole Lohr","cargo":"Diretora, Division of Cardiovascular Disease","por_que":"chefe da cardiologia","fonte":"https://www.uab.edu/medicine/cardiovascular/about/welcome-from-the-director"},
+   {"nome":"Gregory Payne","cargo":"Diretor, Comprehensive Cardiovascular Center","por_que":"liderança CV/pesquisa","fonte":"https://www.dpo.uab.edu/medicine/news/dom/payne-named-director-of-the-uab-comprehensive-cardiovascular-center"},
+   {"nome":"James Davies","cargo":"Diretor, Cardiothoracic Surgery (2022)","por_que":"decide na cirurgia","fonte":"https://bb.uab.edu/medicine/dom/news-events/department-news/lohr-named-new-director-for-the-division-of-cardiovascular-disease"},
+   {"nome":"James K. Kirklin","cargo":"Professor CT Surgery; ex-diretor (2006–2016); transplante/MCS (Intermacs)","por_que":"referência mundial em transplante e assistência circulatória","fonte":"https://en.wikipedia.org/wiki/James_Kirklin"},
+   {"nome":"Elizabeth (Lisa) Jackson","cargo":"ex-diretora interina da Divisão CV (2021–22)","por_que":"cardiologia preventiva/mulheres","fonte":"https://uab.edu/medicine/dom/news-events/department-news/elizabeth-jackson-m-d-named-interim-director-for-cardiovascular-disease"}
+  ],
+  "brasileiros": "não encontrado (atuais). Histórico: Birmingham/Kirklin foi polo de formação de cirurgiões de vários países, sem nome brasileiro confirmado nas buscas.",
+  "pontes_unifesp_sp": "não encontrado coautoria Unifesp–UAB em cardiologia. Ponte temática provável: registro STS Intermacs (MCS/LVAD), historicamente ligado à UAB/Kirklin — confirmar envolvimento atual.",
+  "pesquisa_recente": [
+   {"titulo":"Desfechos de pacientes de alto risco após explante de TAVR (UAB, 2.313 TAVR 2015–2023)","ano":2025,"pmid":"não encontrado","fonte":"https://www.uab.edu/medicine/news/surgery/uab-researchers-publish-findings-on-outcomes-for-high-risk-patients-following-tavr-explantations"},
+   {"titulo":"The Society of Thoracic Surgeons Intermacs 2025 Annual Report: Focus on Outcomes in Older Adults","ano":2025,"pmid":"41177301","nota":"autoria UAB não confirmada no trecho"},
+   "terceiro artigo: não encontrado"
+  ],
+  "dicas": "Programa estruturado, pago (US$4.250/4 sem.) e centralizado — não adianta escrever direto para o departamento. Taxa só cobrada se houver match. Atenção à ordem dos PDFs. Alternativa mais barata: Visiting Scholar Clinical Observership (até 3 meses, US$350, host form 6 semanas antes) se conseguir um docente host.",
+  "rota_recomendada": "1) Aplicar ao IVMO via portal/observer@uab.edu indicando Cardiovascular Disease ou Cardiothoracic Surgery, 4 semanas. 2) Se houver contato com docente (ex.: grupo de TAVR/MCS), considerar a via Visiting Scholar (IVS@uab.edu), mais barata e flexível."
+ },
+ {
+  "match": "Keck Medicine of USC — International Observership",
+  "cidade": "Los Angeles", "pais": "EUA", "areas_polo": ["cardiologia","cirurgia_cardiaca"],
+  "alerta_correcao": "Não confundir com o International Observership Program do Children's Hospital Los Angeles (CHLA, afiliado à USC, taxa US$250 + tuition).",
+  "programa": {
+   "nome": "International Physician Observership Program (Keck Medicine of USC)",
+   "url": "https://sites.usc.edu/healthcare-edu/observership/",
+   "trecho": "Applicants are required to submit their application and pay the application fee at least 30 days prior to their desired observership start date. ... must be recommended by a Keck Medicine of USC faculty member.",
+   "especialidades": "inclui Cardiothoracic Surgery e Cardiovascular Medicine (confirmado)",
+   "elegibilidade_residente_estrangeiro": "provável — aberto a 'physicians worldwide'; exige RECOMENDAÇÃO DE DOCENTE da Keck (sponsor interno)",
+   "taxa": "US$300 de inscrição, não reembolsável (confirmado); tuition adicional não encontrada",
+   "duracao": "normalmente 1–6 meses; mais curto/longo caso a caso (confirmado)",
+   "antecedencia": "mínimo 30 dias antes do início (confirmado)",
+   "documentos": "jaleco branco próprio; demais (vacinas, seguro, visto): não encontrado no trecho",
+   "contato_oficial": "'International Observership Programs' — e-mail não visível nos trechos; ver página oficial",
+   "certeza": "confirmado (taxa, prazo, duração, sponsor, especialidades)"
+  },
+  "servico": {
+   "nomes": ["Division of Cardiac Surgery (Dept of Surgery, Keck SOM)","Division of Cardiovascular Medicine","USC Cardiac and Vascular Institute"],
+   "chefes": [
+    {"area":"cirurgia_cardiaca","nome":"Craig J. Baker, MD","cargo":"Chief, Division of Cardiac Surgery; Program Director thoracic surgery residency","fonte":"https://keck.usc.edu/faculty-search/craig-j-baker/","certeza":"provável (perfil sem data)"},
+    {"area":"departamento","nome":"Vaughn A. Starnes, MD","cargo":"Chair of Surgery; Executive Director, USC Cardiac and Vascular Institute","fonte":"https://internalmedicine.usc.edu/?p=111304","certeza":"provável"},
+    {"area":"cardiologia","nome":"não confirmado","cargo":"Chief, Division of Cardiovascular Medicine","nota":"Leslie Saxon foi chefe (fontes 2010–11 e perfil USC Today sem data); bios 2024–25 só citam Center for Body Computing","fonte":"https://today.usc.edu/profile/leslie-a-saxon/","certeza":"não confirmado"}
+   ],
+   "volume": ">3.000 procedimentos cirúrgicos cardíacos/ano (adulto+pediátrico) — página da Divisão, ano não informado: https://keck2.usc.edu/cardiac-surgery-division/?p=102"
+  },
+  "pessoas_chave": [
+   {"nome":"Craig J. Baker","cargo":"Chefe de Cirurgia Cardíaca","por_que":"pode ser o docente que recomenda (sponsor); transplante, valva mitral/aórtica","fonte":"https://keck.usc.edu/faculty-search/craig-j-baker/"},
+   {"nome":"Vaughn Starnes","cargo":"Chair of Surgery / Diretor Cardiac and Vascular Institute","por_que":"decide no departamento; Ross, transplante","fonte":"https://internalmedicine.usc.edu/?p=111304"},
+   {"nome":"Leslie A. Saxon","cargo":"Professor of Medicine; Exec. Director, USC Center for Body Computing","por_que":"eletrofisiologia/saúde digital; possível sponsor em cardiologia","fonte":"https://keck.usc.edu/faculty-search/leslie-ann-saxon/"},
+   {"nome":"Anthony Kim","cargo":"Chief of Thoracic Surgery (2025)","por_que":"cirurgia torácica (menos central)","fonte":"https://keckzine.keckmedicine.org/?p=207"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {"titulo":"Implementation of Well-Being for Cardiothoracic Surgeons","ano":2023,"pmid":"37953054"},
+   {"titulo":"The surgical management of mediastinal paragangliomas: A modern series reflecting true collaboration between cardiac and thoracic surgeons","ano":"2025/2026 (série 2018–2024)","pmid":"42079943"},
+   {"titulo":"Early onset of deep sternal wound infection after cardiac surgery is associated with decreased survival (Baker/Starnes)","ano":2021,"pmid":"não encontrado","nota":"fora da janela 2022–26"}
+  ],
+  "dicas": "Ponto crítico: sem recomendação de docente Keck a aplicação não anda — primeiro conseguir o sponsor, depois aplicar (≥30 dias antes, US$300). Baker preside a Western Thoracic Surgical Association (contato possível em congresso).",
+  "rota_recomendada": "1) E-mail curto a um docente da Cardiac Surgery ou Cardiovascular Medicine (ex.: Baker) pedindo para ser sponsor de 4 semanas, citando trabalho dele e o observership prévio em Chicago. 2) Com o aceite, aplicar no portal sites.usc.edu/healthcare-edu/observership e pagar US$300 com ≥30 dias (idealmente 3 meses, por visto B1/B2)."
+ },
+ {
+  "match": "AdventHealth — Institute for Surgical Advancement",
+  "cidade": "Orlando (FL)", "pais": "EUA", "areas_polo": ["cardiologia","cirurgia_cardiaca"],
+  "alerta_correcao": "1) URL do radar (/institute/adventhealth-institute-surgical-advancement/observership-program) difere da atual: https://www.adventhealth.com/institutes/surgical-advancement/observership-program. 2) Contato do radar (FH.HR.RegulatoryServices@AdventHealth.com) parece ser contato regulatório/RH; o e-mail do programa é AdventHealth.Orlando.ISA@AdventHealth.com. 3) ELEGIBILIDADE: o programa é 'currently meant for active surgeons. No students of any kind' — residente pode NÃO ser elegível, sobretudo de cardiologia clínica; confirmar antes de investir.",
+  "programa": {
+   "nome": "ISA Observership Program (AdventHealth Institute for Surgical Advancement, Orlando)",
+   "url": "https://www.adventhealth.com/institutes/surgical-advancement/observership-program",
+   "trecho": "ISA's observership program is currently meant for active surgeons. No students of any kind will be considered. ... approximately 15-30 days from receipt.",
+   "especialidades": "lista inclui Cardiac Surgery e Cardiology (confirmado)",
+   "elegibilidade_residente_estrangeiro": "duvidosa — voltado a 'active surgeons'; residentes não citados explicitamente",
+   "taxa": "não encontrado; sem remuneração; moradia e despesas por conta do observer",
+   "duracao": "não encontrado (outra via GME AdventHealth 'eyes-only' limita a 30 dias — programa diferente)",
+   "antecedencia": "processamento ~15–30 dias após documentação completa (confirmado)",
+   "documentos": "aplicação só processada com todos os documentos; lista específica não encontrada",
+   "contato_oficial": "AdventHealth.Orlando.ISA@AdventHealth.com (publicado na página do programa)",
+   "certeza": "confirmado (público-alvo, prazo, e-mail); taxa/duração não encontradas"
+  },
+  "servico": {
+   "nomes": ["AdventHealth Cardiovascular Institute (Orlando) — Thoracic & Cardiovascular Surgery","AdventHealth Medical Group Cardiology at Orlando","AdventHealth Transplant Institute (coração/MCS)"],
+   "chefes": [{"area":"cirurgia_cardiaca","nome":"não encontrado","certeza":"não encontrado"},{"area":"cardiologia","nome":"não encontrado (vaga aberta de Medical Director Cardiology, HLV Institute, em anúncios)","fonte":"https://jobs.adventhealth.com/job/22962802/medical-director-cardiology-heart-lung-and-vascular-institute-adventhealth-orlando/"}],
+   "volume": "não encontrado (programa com transplante/assistência, congênito e TAVR certificado ACC — https://www.adventhealth.com/locations/practices/adventhealth-medical-group/cardiovascular-surgery-orlando)"
+  },
+  "pessoas_chave": [],
+  "brasileiros": "provável/não confirmado: Leonardo Wagner Florencio dos Santos (cardiologia+clínica, atua no AdventHealth Orlando; nacionalidade não informada — https://www.vitals.com/doctors/leonardo-wagner-florencio-dos-santos-995lmq); Rodrigo do Lago (cardiologia afiliada AdventHealth Orlando; nacionalidade não informada). Médico formado na UFC (Fortaleza) fez residência de clínica médica no AdventHealth Orlando como chief resident (https://www.msmc.com/?p=290029, nome não visível).",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {"titulo":"Corticosteroid Therapy and Vascular Complications in Patients Undergoing TAVR: A Meta-analysis With Meta-regression","ano":2024,"pmid":"39132379","nota":"autor da Division of Cardiology, AdventHealth Orlando"},
+   {"titulo":"Multimodal molecular testing provides prognostic value for heart transplant recipients","ano":2025,"pmid":"41297735","nota":"AdventHealth Transplant Institute"},
+   {"titulo":"Multicenter Study on the Safety of Pulsed Field Ablation in Over 40,000 Patients: MANIFEST-US","ano":"2025","pmid":"41389071","nota":"site AdventHealth Orlando"}
+  ],
+  "dicas": "ISA é um centro de treinamento em técnicas cirúrgicas (robótica/minimamente invasiva) — perfil mais adequado a R de cirurgia cardiovascular. Trials ativos de interesse: REVIVE-TAVR (valve-in-valve vs explante).",
+  "rota_recomendada": "1) Antes de aplicar, e-mail a AdventHealth.Orlando.ISA@AdventHealth.com perguntando se residentes (R3+ de cirurgia cardiovascular/cardiologia) são aceitos. 2) Se sim, enviar pacote completo (processo 15–30 dias). 3) Se não, polo de baixa prioridade para residente de cardiologia clínica."
+ }
+]

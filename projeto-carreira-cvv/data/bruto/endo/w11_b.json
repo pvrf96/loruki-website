@@ -1,0 +1,173 @@
+[
+ {
+  "match": "Cliniques universitaires Saint-Luc",
+  "cidade": "Bruxelas", "pais": "Bélgica", "areas": ["robotica"],
+  "programa": {
+   "status": "não encontrado programa formal de observership para médicos estrangeiros",
+   "detalhes": "Site do hospital menciona número limitado de vagas de 'trainee' por disciplina por ano, sem dizer elegibilidade/observership. Páginas UCLouvain de 'stage d'observation' são para alunos de graduação (BAC3), não se aplicam.",
+   "fontes": [
+    {"url": "https://saintluc.be/en/node/12091", "trecho": "offer a limited number of trainee positions in each discipline every year (paráfrase do resultado)"},
+    {"url": "https://uclouvain.be/cours-2024-wmds1329", "trecho": "Stage d'observation en médecine générale (4 semaines) - BAC3"}
+   ],
+   "contato_oficial": "não encontrado (endereço do serviço: Avenue Hippocrate 10, 1200 Bruxelles)",
+   "certeza": "confirmado que não há página pública de observership nos resultados"
+  },
+  "servico": {
+   "nome": "Service de chirurgie cardiovasculaire et thoracique (Department of Cardiothoracic and Vascular Surgery) - programa de reparo mitral robótico (da Vinci) desde março/2012",
+   "chefe": "Prof. Laurent de Kerchove - 'Head of Cardiothoracic and Vascular Surgery Department at Cliniques Universitaires Saint-Luc' (CTSNet, 2025); outro perfil diz 'Associate Head'",
+   "diretor_fellowship": "não encontrado",
+   "volume": "278 reparos mitrais robóticos consecutivos mar/2012-mai/2022; sem mortalidade operatória/hospitalar; sobrevida 10 anos 93,7% (Aphram et al., Ann Cardiothorac Surg 2022)",
+   "fontes": [
+    {"url": "https://www.ctsnet.org/?p=227228", "trecho": "Head of Cardiothoracic and Vascular Surgery Department at Cliniques Universitaires Saint-Luc, Belgium"},
+    {"url": "https://www.annalscts.com/article/view/16970/html", "trecho": "Between March 2012 and May 2022, a total of 278 consecutive patients underwent robotically assisted mitral valve repair at the Cliniques Universitaires Saint-Luc"}
+   ],
+   "certeza": "provável (título do chefe varia entre fontes)"
+  },
+  "pessoas_chave": [
+   {"nome": "Laurent de Kerchove", "cargo": "Chefe do Departamento de Cirurgia Cardiotorácica e Vascular; professor UCLouvain", "por_que": "decide quem visita o serviço; coautor da série robótica", "fonte": "https://www.ctsnet.org/?p=227228 ; https://uclouvain.be/en/people/laurent.dekerchove"},
+   {"nome": "Emiliano Navarra", "cargo": "Cirurgião cardíaco; envolvido no programa robótico desde 2013", "por_que": "primeiro autor da série 2017 (ICVTS); provável anfitrião prático do robô", "fonte": "https://www.annalscts.com/article/view/16970/html (autoria); resultado de busca citando seu perfil"},
+   {"nome": "Stefano Mastrobuoni", "cargo": "Cirurgião cardíaco, coautor recorrente", "por_que": "coautor das séries robóticas", "fonte": "https://www.ctsnet.org/home/smastrobuoni"},
+   {"nome": "Gaby Aphram", "cargo": "Primeiro autor da série 2022", "por_que": "pesquisador da coorte robótica", "fonte": "https://www.annalscts.com/article/view/16970/html"},
+   {"nome": "Gebrine El Khoury", "cargo": "Ex-chefe do serviço (dado de 2008), coautor 2022", "por_que": "referência histórica em reparo valvar; não confirmar cargo atual", "fonte": "https://www.saintluc.be/sites/default/files/2008-chirurgie-cardiaque-symposium.pdf"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {"titulo": "Robotic mitral valve repair—the Bruxelles experience (Aphram et al.)", "ano": 2022, "doi": "10.21037/acs-2022-rmvs-20"},
+   {"titulo": "Série de 226 reparos mitrais robóticos (Klepper et al., J Card Surg)", "ano": 2022, "doi": "10.1111/jocs.16575"},
+   {"titulo": "Mitral Valve Repair—Tips and Tricks From Brussels Experience (palestra de de Kerchove, London Core Review, CTSNet)", "ano": 2025, "doi": "não encontrado (vídeo CTSNet https://www.ctsnet.org/?p=227228)"}
+  ],
+  "dicas": [
+   "Serviço sedia o curso EACTS 'Aortic Valve Repair and Ross Operation' em Bruxelas (edições 2023 e 2024; edição 2026 em 10-11/set anunciada via LinkedIn, não verificado) - porta de entrada para conhecer a equipe pessoalmente (fonte: https://www.ctsnet.org/print/events/eacts-aortic-valve-repair-and-ross-operation-1).",
+   "Saint-Luc já teve fellows internacionais em cirurgia minimamente invasiva/valvar (CV em CTSNet: 'UCL-St-Luc, Bruxelles, Belgium (Fellowship, 2005-2006)') - https://www.ctsnet.org/print/home/hheanmart",
+   "Hospital francófono: e-mail em francês ou inglês."
+  ],
+  "rota_recomendada": "1) E-mail direto ao Prof. Laurent de Kerchove (via secretaria do serviço, contato do site saintluc.be) pedindo observação de 4 semanas no programa robótico mitral, citando a série de 278 casos (Ann Cardiothorac Surg 2022); 2) apoio formal da Unifesp + seguro; 3) alternativa: inscrever-se no curso EACTS de reparo aórtico/Ross em Bruxelas e pedir visita ao centro cirúrgico na ocasião.",
+  "alerta_correcao": "O pioneiro robótico David Glineur começou o programa mitral robótico na Clinique Saint-Luc Bouge (Namur), outra instituição; hoje ele está no University of Ottawa Heart Institute (EACTS https://www.eacts.org/?p=37831). Não confundir. URL do radar (annalscts 16970) confirmada como Saint-Luc Bruxelas."
+ },
+ {
+  "match": "Klinik Hirslanden — HerzKlinik",
+  "cidade": "Zurique", "pais": "Suíça", "areas": ["robotica"],
+  "programa": {
+   "status": "não encontrado programa de observership/Hospitation para médicos estrangeiros",
+   "detalhes": "Hospital privado. Existe rede de formação (Weiterbildungsverbund) suíça em cirurgia cardíaca anunciada em 2020 (Prof. Thierry Carrel), voltada a residentes suíços. Contato internacional publicado: international@hirslanden.ch (escritório de pacientes internacionais, não confirmado para visitas médicas).",
+   "fontes": [
+    {"url": "https://www.hirslanden.ch/content/dam/corporate/downloads/de/media/press-releases/2020/hirslanden-medienmitteilung-weiterbildungsverbund-herzchirurgie.pdf", "trecho": "Weiterbildungsverbund Herzchirurgie ... Prof. Thierry Carrel (paráfrase)"},
+    {"url": "https://www.hirslanden.com/en/international/doctors.doctor.html/12749.html", "trecho": "international@hirslanden.ch (no perfil internacional do especialista)"}
+   ],
+   "certeza": "provável (sem página oficial de observership)"
+  },
+  "servico": {
+   "nome": "HerzKlinik Hirslanden / Herzchirurgie Klinik Hirslanden Zürich (Witellikerstrasse 40) - reconstrução mitral com robô da Vinci",
+   "chefe": "Prof. Dr. med. Jürg Grünenfelder - 'Chairman Herzchirurgie Hirslanden Zürich'; cofundador da HerzKlinik com o cardiologista Roberto Corti",
+   "diretor_fellowship": "não encontrado",
+   "volume": "não encontrado volume robótico publicado; 1ª cirurgia mitral com da Vinci na Suíça alemã em 09/09/2016; Bilanz 2024 classificou a Klinik Hirslanden em 1º em cirurgia cardíaca na Suíça",
+   "fontes": [
+    {"url": "https://hirslanden.com/de/international/fokusgebiete/kardiologie/erkrankungen/moderne-herzchirurgie.html", "trecho": "Unsere Herzchirurgen der HerzKlinik in Zürich führen die Herzklappenrekonstruktion mit dem Operationsroboter Da Vinci durch"},
+    {"url": "https://www.hirslanden.ch/content/dam/corporate/downloads/de/media/press-releases/2016/MM_Da%20Vinci%20Mitralklappe.pdf", "trecho": "erste Mitralklappenoperation mit Da Vinci ... 9. September 2016 (paráfrase)"},
+    {"url": "https://www.hirslanden.ch/content/dam/corporate/microsite/downloads/herzmedizin-hirslanden-zuerich/Herz-Beilage-Tagesanzeiger.pdf", "trecho": "Jürg Grünenfelder, Chairman Herzchirurgie Hirslanden Zürich"},
+    {"url": "https://www.bilanz.ch/archiv/beste-fachkliniken-2024-das-herz-der-kardiologie-schlaegt-in-zuerich/sv5bwbb", "trecho": "ranking 2024, 1º lugar cirurgia cardíaca"}
+   ],
+   "certeza": "confirmado (programa robótico existe); volume/atividade atual não confirmados - fontes específicas são de 2014-2016"
+  },
+  "pessoas_chave": [
+   {"nome": "Jürg Grünenfelder", "cargo": "Chairman de Cirurgia Cardíaca, Hirslanden Zürich", "por_que": "decide; interesses em mitral minimamente invasiva e MIDCAB robótico (CTSNet)", "fonte": "https://www.hirslanden.ch/en/corporate/doctors/1/prof-dr-med-juerg-gruenenfelder.html ; https://www.ctsnet.org/home/jgrunenfelder"},
+   {"nome": "Sacha P. Salzberg", "cargo": "Cirurgião cardíaco HerzKlinik", "por_que": "coautor da 1ª mitral robótica 2016; ablação cirúrgica/robótica de FA", "fonte": "https://www.srf.ch/wissen/gesundheit/mit-vorhofflimmern-zum-roboter-oder-zum-chirurgen"},
+   {"nome": "Roberto Corti", "cargo": "Cardiologista, cofundador da HerzKlinik", "por_que": "lado cardiologia do Heart Team", "fonte": "https://www.bilanz.ch/archiv/beste-fachkliniken-2024-das-herz-der-kardiologie-schlaegt-in-zuerich/sv5bwbb"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": "não encontrado - nenhum artigo 2022-2026 do serviço sobre robótica apareceu nas buscas",
+  "dicas": [
+   "Centro privado de médicos-afiliados (Belegarztsystem provável) - sem cultura de observership estruturado; aproximação pessoal com o cirurgião é o caminho.",
+   "Material é em alemão; e-mail em inglês é aceitável, mas contexto em alemão ajuda."
+  ],
+  "rota_recomendada": "Baixa prioridade. 1) E-mail ao Prof. Grünenfelder (via secretaria/contato do perfil Hirslanden) pedindo 2-4 semanas de observação em mitral robótica/MIDCAB; 2) se não responder, usar international@hirslanden.ch pedindo encaminhamento. Para robótica na Suíça, considerar também o Universitätsspital Zürich (UHZ), que iniciou programa robótico mitral com apoio da WVU.",
+  "alerta_correcao": "A 'primeira reparação mitral bileaflet robótica complexa da Suíça' feita pela equipe WVU (Badhwar) foi no University of Zurich Heart Center (Alberto Weber), NÃO na Hirslanden (https://wvumedicine.org/news/article/wvu-heart-and-vascular-institute-team-perform-switzerland-s-first-robotic-complex-bileaflet-mit_0). Não misturar as duas instituições."
+ },
+ {
+  "match": "Humanitas Gavazzeni",
+  "cidade": "Bérgamo", "pais": "Itália", "areas": ["robotica"],
+  "programa": {
+   "status": "não encontrado programa formal de observership/frequenza volontaria",
+   "detalhes": "Existe a 'International Heart School' sediada no Humanitas Gavazzeni (escola internacional de cirurgia cardíaca, cardiologia e anestesia) - possível porta de entrada. Equipe já fez telementoring internacional (Na Homolce, Praga, 2021) e cooperação com Univ. Rennes (França).",
+   "fontes": [
+    {"url": "https://eacts.org/?p=25710", "trecho": "International Heart School ... based at Humanitas Gavazzeni (paráfrase do resultado)"},
+    {"url": "https://ecodibergamo.it/classification/argomento/specializzazioni-mediche_173_855/?page=175", "trecho": "cardiochirurgia robotica, intervento a 1200 km di distanza"}
+   ],
+   "contato_oficial": "não encontrado (Direção Sanitária - Dr. Massimo Castoldi nomeado na Carta dei Servizi)",
+   "certeza": "provável"
+  },
+  "servico": {
+   "nome": "Unità di Cardiochirurgia Robotica e Mininvasiva - Humanitas Gavazzeni (programa robótico desde 2019, 1º programa italiano de cardio-robótica)",
+   "chefe": "Dr. Alfonso Agnino - responsável/diretor da cardiochirurgia robotica e mininvasiva; professor adjunto Univ. Torino; formado em Bari e CHU Rennes",
+   "diretor_fellowship": "não encontrado",
+   "volume": "149 reparos mitrais robóticos (da Vinci X) mai/2019-mar/2023; 2019-2023: >700 procedimentos com CEC, >300 minimamente invasivos e 250 robóticos (bio EACTS); >400 procedimentos robóticos (imprensa)",
+   "fontes": [
+    {"url": "https://www.mdpi.com/1648-9144/59/9/1568", "trecho": "149 patients underwent RAMVS using the Da Vinci X Surgical System between May 2019 and March 2023"},
+    {"url": "https://eacts.org/?p=25710", "trecho": "chief of robotic and minimally invasive cardiac surgery ... over 300 minimally invasive and 250 robotic (paráfrase)"},
+    {"url": "https://tg24.sky.it/tecnologia/now/2022/11/03/cardiorobotica-humanitas-gavazzeni-bergamo", "trecho": "robot e smartglasses ... primeiro na Europa (2022)"}
+   ],
+   "certeza": "confirmado"
+  },
+  "pessoas_chave": [
+   {"nome": "Alfonso Agnino", "cargo": "Responsável pela Cardiochirurgia Robotica e Mininvasiva", "por_que": "decide e hospeda; fala francês (formação em Rennes)", "fonte": "https://eacts.org/?p=25710 ; https://ctsnet.org/home/alfonsoagnino"},
+   {"nome": "Laura Giroletti", "cargo": "Cirurgiã/pesquisadora, coautora RA-MIDCAB 2024", "por_que": "pesquisa robótica coronária", "fonte": "https://synapsesocial.com/papers/W4395011298"},
+   {"nome": "Ascanio Graniero", "cargo": "Cirurgião, coautor RA-MIDCAB 2024", "por_que": "equipe robótica", "fonte": "https://synapsesocial.com/papers/W4395011298"},
+   {"nome": "Massimo Castoldi", "cargo": "Direttore Sanitario", "por_que": "autoriza formalmente frequência de externos", "fonte": "https://www.gavazzeni.it/wp-content/uploads/2025/09/Gavazzeni-CdS-A508-2025pr.pdf"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {"titulo": "Learning Curve Analysis of Robotic-Assisted Mitral Valve Repair with COVID-19 Exogenous Factor: A Single Center Experience (Medicina)", "ano": 2023, "doi": "10.3390/medicina59091568", "pmc": "PMC10536190"},
+   {"titulo": "Técnica de RA-MIDCAB e TE-CAB robóticos - Journal of Clinical Medicine, abr/2024 (Giroletti, Graniero, Agnino)", "ano": 2024, "doi": "não encontrado nos resultados (registro DOAJ: https://doaj.org/article/870ee4d55e7948b2a705921cf98e7e4d)"}
+  ],
+  "dicas": [
+   "Equipe treinou na Orsi Academy (Melle, Bélgica) e no Nemocnice Na Homolce (Praga) e em simulação no Stan Institute (Nancy) - temas de conversa.",
+   "Organizam congressos em Bérgamo ('IA e robotica al servizio del cuore'; convênio com Univ. Bergamo) - possível ocasião de contato: https://qds.it/ia-e-robotica-al-servizio-del-cuore-un-convegno-a-bergamo/",
+   "International Heart School no próprio hospital = canal educacional estruturado a investigar."
+  ],
+  "rota_recomendada": "Melhor alvo robótico europeu deste lote. 1) E-mail direto ao Dr. Alfonso Agnino (via contato institucional gavazzeni.it/CTSNet) em inglês ou francês, citando o estudo de curva de aprendizado (Medicina 2023) e o RA-MIDCAB 2024, pedindo 4 semanas de observação; 2) pedir que ele encaminhe à Direção Sanitária para autorização formal (seguro + carta Unifesp); 3) checar se a International Heart School oferece curso/estágio.",
+  "alerta_correcao": "URL do radar (NCT04415138) não verificada nas buscas; o resto do polo confirmado."
+ },
+ {
+  "match": "ISMETT",
+  "cidade": "Palermo", "pais": "Itália", "areas": ["robotica"],
+  "programa": {
+   "status": "não encontrado programa de observership para médicos",
+   "detalhes": "ISMETT (IRCCS; parceria Região Sicília + UPMC/Pittsburgh) recebe estudantes estrangeiros via convênio SISM (cirurgia abdominal/torácica, radiologia etc., com tutor) e reserva 'full and complete discretion' na avaliação de candidaturas de visitantes. Contato geral publicado: mail@ismett.edu, +39 091 2192111.",
+   "fontes": [
+    {"url": "https://oldwww.ismett.edu/?p=5741", "trecho": "Students from all over the world for training in Palermo"},
+    {"url": "https://www.blogsicilia.it/palermo/studenti-di-medicina-da-tutto-il-mondo-a-palermo-per-imparare-le-tecniche-ismett/449769/", "trecho": "programma di scambi internazionali per studenti di medicina ... SISM"}
+   ],
+   "certeza": "provável"
+  },
+  "servico": {
+   "nome": "Centro Cuore / Dipartimento per la cura e lo studio delle patologie cardiotoraciche e dei trapianti - Cardiochirurgia ISMETT (robótica cardíaca iniciada em 2025)",
+   "chefe": "Dr. Michele Pilato - diretor do Centro Cuore desde 2005; presidente da SICCH 2025-2026",
+   "diretor_fellowship": "não encontrado",
+   "volume": "1º procedimento cardíaco robótico (revascularização coronária com da Vinci, coração batendo, sem CEC) em mar/2025 - primeiro do Sul da Itália; sem volume posterior publicado; >200 transplantes cardíacos em 17 anos",
+   "fontes": [
+    {"url": "https://www.ismett.edu/?p=20460", "trecho": "First robotic heart surgery performed at ISMETT ... team led by Francesco Musumeci, Senior Consultant in Cardiac Surgery"},
+    {"url": "https://upmc.it/en/specialists/pilato-michele", "trecho": "heads heart surgery at ISMETT since 2005 (paráfrase)"},
+    {"url": "https://www.italpress.com/cardiochirurgia-pilato-sicch-adeguare-i-percorsi-formativi/", "trecho": "direttore del Centro Cuore dell'ISMETT di Palermo e nuovo presidente della SICCH"}
+   ],
+   "certeza": "confirmado"
+  },
+  "pessoas_chave": [
+   {"nome": "Michele Pilato", "cargo": "Diretor do Centro Cuore ISMETT; presidente SICCH 2025-26", "por_que": "decide; interesse público em percursos formativos", "fonte": "https://upmc.it/en/specialists/pilato-michele"},
+   {"nome": "Francesco Musumeci", "cargo": "Senior Consultant em Cirurgia Cardíaca (desde 2023; ex-chefe San Camillo Roma 1998-2023)", "por_que": "lidera o programa robótico cardíaco e cirurgia com realidade aumentada", "fonte": "https://www.ismett.edu/?p=18080 ; https://upmc.it/en/specialists/musumeci-francesco"},
+   {"nome": "Maria Scarlata", "cargo": "Anestesiologista da equipe robótica", "por_que": "equipe do 1º caso robótico", "fonte": "https://www.ismett.edu/?p=20460"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": "não encontrado - nenhum artigo robótico 2022-2026 do ISMETT nas buscas (programa iniciado em 2025). Artigo da UPMC Pittsburgh (rede-mãe) Rubino et al., Front Cardiovasc Med 2025, doi 10.3389/fcvm.2025.1575779 (204 casos robóticos jul/2021-abr/2024: 112 MVR, 63 TECAB, 29 MIDCAB) - não é do ISMETT.",
+  "dicas": [
+   "Programa robótico cardíaco muito incipiente (2025) - pouco caso para observar em 1 mês.",
+   "Vínculo UPMC: para robótica, a UPMC Pittsburgh (programa robótico de alto volume) pode ser alvo melhor e o ISMETT uma ponte de apresentação.",
+   "ISMETT é forte em transplante cardíaco e assistência circulatória - mais útil se a residente quiser essas áreas."
+  ],
+  "rota_recomendada": "Baixa prioridade para robótica. 1) Se quiser Palermo: e-mail ao Dr. Pilato com cópia ao Prof. Musumeci (via mail@ismett.edu solicitando encaminhamento), focando robótica coronária + transplante; 2) melhor alternativa: usar o vínculo ISMETT–UPMC para mirar o programa robótico da UPMC em Pittsburgh.",
+  "alerta_correcao": "Radar: URL livesicilia confirma 1º caso robótico (mar/2025). O programa robótico cardíaco é novo e de baixo volume; o rótulo 'polo de robótica' é otimista."
+ }
+]

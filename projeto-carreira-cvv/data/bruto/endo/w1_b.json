@@ -1,0 +1,163 @@
+[
+ {
+  "match": "Erasmus MC — Thoraxcenter",
+  "programa": {
+   "url": "https://www.eur.nl/en/erasmusmc/exchange/observership",
+   "trecho": "An observership at Erasmus MC offers international medical students and healthcare professionals the opportunity to gain insight into clinical practice... duration varies by department and is subject to availability; additional department-specific requirements may apply.",
+   "departamentos_listados": "Anesthesiology, Cardiothoracic Surgery, Hematology, Internal Medicine (Geriatrics) (lista parcial no trecho)",
+   "fluxo": "1) pedido; 2) availability check no departamento/período; 3) International Office pede documentos ('required supporting documents vary per department'); 4) avaliação e resposta",
+   "elegibilidade_residente_estrangeiro": "provável (texto fala em 'international medical students and healthcare professionals')",
+   "taxa": "não encontrado",
+   "duracao": "variável por departamento",
+   "antecedencia_janelas": "não encontrado",
+   "documentos": "variam por departamento — não encontrado lista específica",
+   "contato_oficial": "formulário/International Office via página acima (e-mail não encontrado)",
+   "certeza": "confirmado (fluxo e Cardiothoracic Surgery listada); não confirmado se Cardiologia/EP aceita observers por essa rota"
+  },
+  "servico": {
+   "cirurgia_cardiaca": {"nome": "Department of Cardiothoracic Surgery", "chefe": "Prof. Jolanda Kluin (chefe desde 1/fev/2023)", "fonte": "https://www.erasmusmc.nl/en/patient-care/zorgverleners/kluin-j ; https://www.awti.nl/over-ons/raadsleden/jolanda-kluin", "certeza": "confirmado"},
+   "eletrofisiologia": {"nome": "Clinical Electrophysiology (EP) unit, Department of Cardiology (Thoraxcenter)", "diretor": "Sing-Chien Yap, MD PhD — 'director of the Clinical Electrophysiology (EP) unit'", "fonte": "https://www.erasmusmc.nl/en/research/researchers/yap-sing-chien", "certeza": "confirmado"},
+   "chefe_cardiologia": "não encontrado",
+   "diretor_fellowship": "não encontrado",
+   "volume": "não encontrado"
+  },
+  "pessoas_chave": [
+   {"nome": "Jolanda Kluin", "cargo": "Head, Dept. of Cardiothoracic Surgery", "por_que": "decide/aprova vagas no departamento listado no programa", "fonte": "https://www.erasmusmc.nl/en/patient-care/zorgverleners/kluin-j"},
+   {"nome": "Sing-Chien Yap", "cargo": "Director, Clinical EP unit", "por_que": "hospedaria observership clínico em EP", "fonte": "https://www.erasmusmc.nl/en/research/researchers/yap-sing-chien"},
+   {"nome": "Natasja M.S. de Groot", "cargo": "Cardiologist-Electrophysiologist, chief Research Unit Translational Electrophysiology; Medical Delta professor (Erasmus MC/TU Delft)", "por_que": "liga EP e cirurgia (mapeamento epicárdico intraoperatório de FA, FA pós-operatória, arritmias em congênitas) — ponte perfeita para residente que transita entre cardio e CCV", "fonte": "https://www.erasmusmc.nl/en/research/researchers/groot-natasja-de"},
+   {"nome": "Yannick J.H.J. Taverne", "cargo": "cirurgião cardiotorácico, coautor do grupo de mapeamento (cargo exato não confirmado)", "por_que": "elo cirurgia–EP nos estudos de mapeamento", "fonte": "https://repository.tudelft.nl/record/uuid:78f4663c-d425-442d-af65-f15396f9123a", "certeza": "provável"}
+  ],
+  "brasileiros": [
+   {"descricao": "Cardiologista intervencionista sênior do InCor/FMUSP com PhD pela Erasmus University/Erasmus MC (nome não exibido no trecho)", "fonte": "https://bv.fapesp.br/en/pesquisador/709132/URL", "certeza": "provável (área intervenção, não EP/CCV)"},
+   {"descricao": "Pesquisador com doutorado na FMUSP (2015) e pós-doc em cardiologia intervencionista no Thoraxcenter", "fonte": "https://brcris.ibict.br/vivo/display/pers_a22b0d63-d4e0-4574-bffa-23787c12e2ad", "certeza": "provável (área intervenção)"},
+   {"descricao": "Nenhum brasileiro confirmado em EP ou cirurgia cardiotorácica", "certeza": "não encontrado"}
+  ],
+  "pontes_unifesp_sp": "Tradição Thoraxcenter–InCor em cardiologia intervencionista (PhDs acima). Coautoria Unifesp/InCor/Dante em EP ou CCV: não encontrado.",
+  "pesquisa_recente": [
+   {"titulo": "High-Density and Resolution Epicardial Mapping of the Atria", "ano": 2024, "doi": "10.3390/jcm13216386", "autores": "Ye Z, ..., Taverne YJHJ, de Groot NMS", "fonte": "https://repository.tudelft.nl/record/uuid:78f4663c-d425-442d-af65-f15396f9123a"},
+   {"titulo": "In search of a driver for atrial fibrillation (mapeamento epicárdico em 71 pacientes de cirurgia cardíaca eletiva)", "ano": 2025, "doi": "não encontrado", "fonte": "https://repository.tudelft.nl/record/uuid:6cdc89bd-4f16-4cab-8eb8-77e7818f1ceb"},
+   {"titulo": "Geranylgeranylacetone as Prevention for Postoperative Atrial Fibrillation (GENIALITY)", "ano": 2025, "pmid": "40227474", "fonte": "https://pubmed.ncbi.nlm.nih.gov/40227474/", "certeza": "provável que seja do grupo Erasmus (afiliação Cardiologia Erasmus MC no trecho)"}
+  ],
+  "dicas": "Programa centralizado: primeiro checam disponibilidade no departamento e período, só depois pedem documentos. Cardiothoracic Surgery é departamento explicitamente listado — rota mais segura. Para EP, pedir no formulário Cardiology/EP ou combinar com cirurgia (FA pós-operatória/mapeamento intraoperatório é o tema que une as duas áreas).",
+  "rota_recomendada": "1) Solicitar pelo formulário oficial em Cardiothoracic Surgery (departamento listado), período de 4 semanas, mencionando interesse em mapeamento epicárdico/FA pós-operatória; 2) e-mail acadêmico paralelo ao grupo de de Groot/Yap citando o artigo JCM 2024 e o GENIALITY; 3) se houver contato InCor com PhD Erasmus, pedir apresentação.",
+  "alerta_correcao": "URL é da Erasmus University (eur.nl), correta para o programa. Não confirmado que Cardiologia/EP esteja entre os departamentos que aceitam observers."
+ },
+ {
+  "match": "KU Medical Center — Electrophysiology",
+  "programa": {
+   "url": "https://www.kumc.edu/academic-and-student-affairs/departments/office-of-international-programs/inbound-programs/information-for-irsd-observers-and-visitors/international-observership-program.html",
+   "trecho": "observers can be defined as visiting residents, physicians or medical school graduates... To apply for the 2026 cycle, email iirpobserve@kumc.edu. This will prompt an automated response with the link to the inquiry application... The standard fee charged for the program is $3,000 for the month.",
+   "elegibilidade_residente_estrangeiro": "sim — 'visiting residents'; 'generally International Medical Graduates regardless of immigration status' (confirmado)",
+   "taxa": "US$ 3.000/mês, pago pelo candidato (confirmado)",
+   "duracao": "mensal; máximo citado ambíguo (4 meses vs 4 semanas em páginas distintas) — confirmar",
+   "antecedencia_janelas": "ciclo anual ('2026 cycle'); prazo não encontrado",
+   "documentos": "não anexar documentos no inquiry inicial; lista (vacinas, visto) não encontrada",
+   "regras": "sem contato direto com paciente; não pode ficar sozinho com paciente",
+   "contato_oficial": "iirpobserve@kumc.edu (Office of International Programs)",
+   "certeza": "confirmado"
+  },
+  "servico": {
+   "nome": "Division of Cardiac Electrophysiology, Department of Cardiovascular Medicine — The University of Kansas Health System/KUMC",
+   "diretor_lab_EP": "Rhea Pimentel, MD (citada como diretora do EP lab; foi PD do fellowship 2009–2019)", "fonte_pimentel": "https://orchid-grape-gz4f.squarespace.com/facultybios/2020/12/5/u3xk3l2dfcmx1ed6c5x7s3limsljsj", "certeza_pimentel": "provável (fonte de 2020)",
+   "diretor_fellowship": "Seth Sheldon, MD (Program Director, Clinical Cardiac Electrophysiology Fellowship); Amit Noheria, MBBS (Associate PD)", "fonte_fellowship": "https://www.kumc.edu/school-of-medicine/academics/departments/cardiovascular-medicine/fellowships/clinical-cardiac-electrophysiology-fellowship.html", "certeza_fellowship": "confirmado",
+   "outros_fellowships": "Cardiac Arrhythmia Fellowship (1 ano, não-ACGME); contato cvfellowships@kumc.edu",
+   "volume": ">3.500 procedimentos de EP/ano, 11 eletrofisiologistas (anúncio de vaga sem data) — https://practicematch.com/physicians/job-details.cfm/1050139/cardiology/kansas/kansas-city/the-university-of-kansas-health-system", "certeza_volume": "provável"
+  },
+  "pessoas_chave": [
+   {"nome": "Seth H. Sheldon", "cargo": "PD do fellowship de EP; interesse em conduction system pacing/LBBAP", "por_que": "lidera ensino em EP — destinatário natural do pedido de supervisão", "fonte": "https://www.kumc.edu/ssheldon.html"},
+   {"nome": "Amit Noheria", "cargo": "Associate PD do fellowship de EP; pesquisa em ECG/vectorcardiografia/CRT", "por_que": "pesquisador mais produtivo do grupo", "fonte": "https://www.kumc.edu/school-of-medicine/academics/departments/cardiovascular-medicine/fellowships/clinical-cardiac-electrophysiology-fellowship.html"},
+   {"nome": "Rhea C. Pimentel", "cargo": "Diretora do EP lab (provável)", "por_que": "controla o laboratório onde o observer passaria", "fonte": "https://orchid-grape-gz4f.squarespace.com/facultybios/2020/12/5/u3xk3l2dfcmx1ed6c5x7s3limsljsj"},
+   {"nome": "Raghuveer Dendi", "cargo": "eletrofisiologista KUMC (coautor LAAO/FA)", "por_que": "linha de oclusão de apêndice atrial", "fonte": "https://pubmed.ncbi.nlm.nih.gov/39525332/"},
+   {"nome": "Madhu Reddy", "cargo": "eletrofisiologista KUMC (coautor)", "por_que": "coautor recorrente", "fonte": "https://pubmed.ncbi.nlm.nih.gov/41566140/"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {"titulo": "Predictors of Device-Related Thrombus After Left Atrial Appendage Occlusion: TED-F2 Score", "ano": "2024 (provável)", "pmid": "39525332"},
+   {"titulo": "Different methods of 3D QRS area calculation from vectorcardiographic X, Y, and Z Leads", "ano": 2024, "pmid": "38529807", "revista": "Pacing Clin Electrophysiol"},
+   {"titulo": "Recurrence of Atrial Fibrillation/Flutter Over Long-Term Follow-Up After Index Atrial Fibrillation Catheter Ablation", "ano": "2025/2026 (provável)", "pmid": "41566140"},
+   {"titulo": "Electrocardiographic Correlates of Myocardial Remodeling After Cardiac Resynchronization Therapy", "ano": "2026 (provável)", "pmid": "42059322"}
+  ],
+  "dicas": "Processo 100% pelo OIP: e-mail para iirpobserve@kumc.edu gera resposta automática com link do inquiry; não mandar anexos nessa etapa. Ciclo anual (2026) — entrar cedo. Preço fixo e claro (US$3.000/mês), semelhante ao padrão do caso de Chicago.",
+  "rota_recomendada": "1) Enviar e-mail a iirpobserve@kumc.edu já indicando Cardiovascular Medicine/EP e o mês desejado; 2) em paralelo, carta curta a Sheldon (PD) ou Noheria citando TED-F2/AF recurrence para garantir aceite do serviço; 3) preparar vacinas/seguro/B1-B2 assim que o OIP enviar o checklist.",
+  "alerta_correcao": "Nenhum. URL e e-mail confirmados. (Duração máxima aparece divergente entre páginas do OIP — confirmar.)"
+ },
+ {
+  "match": "Cincinnati Children's — Heart Institute",
+  "programa": {
+   "url": "https://www.cincinnatichildrens.org/service/g/global/international-visiting-observer-program",
+   "trecho": "Current Attending Physician or in a Fellowship or Resident program... must speak and understand English... one-time, non-refundable processing fee for all those who are accepted... no educational credit or certificate.",
+   "elegibilidade_residente_estrangeiro": "sim — residentes aceitos; precisa estar vinculado a instituição/programa credenciado no momento da inscrição e da visita (confirmado)",
+   "taxa": "taxa única não reembolsável (valor não encontrado)",
+   "duracao": "não encontrado",
+   "antecedencia_janelas": "não encontrado",
+   "documentos": "não encontrado (itinerário detalhado enviado após aceite)",
+   "regras": "observação apenas, sem hands-on/diagnóstico; sem certificado",
+   "contato_oficial": "International Visitor's Office via página oficial (e-mail não encontrado)",
+   "outra_pagina": "https://cincinnatichildrens.org/professional/resources/international-visitor-program ; cirurgia: https://cincinnatichildrens.org/service/s/surgery/visitors-program/international",
+   "certeza": "confirmado"
+  },
+  "servico": {
+   "nome": "The Heart Institute — Division of Cardiology; Division of Cardiothoracic Surgery (Congenital Heart Surgery)",
+   "lideranca": "Executive co-directors: Michael Gaies (desde dez/2023; também Division Director, Cardiology), David Morales (desde ago/2022; diretor Cardiothoracic Surgery/Congenital Heart Surgery), Jeffery Molkentin (Molecular Cardiovascular Biology)",
+   "fonte": "https://www.cincinnatichildrens.org/news/release/2023/michael-gaies ; https://www.cincinnatichildrens.org/news/release/2022/david-morales ; https://accomplishments.cincinnatichildrens.org/2023/heart/meet-our-team",
+   "certeza": "confirmado até 2023–2024; títulos 2025 não reconfirmados",
+   "diretor_fellowship": "não encontrado nome (fellowship de cardiologia pediátrica treinou pessoas de >30 países)",
+   "volume": "~600 cirurgias cardiotorácicas/ano (página institucional, ano não indicado) — https://www.cincinnatichildrens.org/service/h/heart-surgery; 113 publicações/ano da divisão de CCV — https://www.cincinnatichildrens.org/research/divisions/c/cardiothoracic"
+  },
+  "pessoas_chave": [
+   {"nome": "Michael Gaies", "cargo": "Executive Co-Director, Heart Institute; Division Director, Cardiology", "por_que": "decide/endossa observers na cardiologia", "fonte": "https://www.cincinnatichildrens.org/news/release/2023/michael-gaies"},
+   {"nome": "David L.S. Morales", "cargo": "Executive Co-Director, Heart Institute; Director, Cardiothoracic/Congenital Heart Surgery", "por_que": "decide na cirurgia congênita", "fonte": "https://www.cincinnatichildrens.org/news/release/2022/david-morales"},
+   {"nome": "Jeffery Molkentin", "cargo": "Executive Co-Director; Director, Molecular Cardiovascular Biology", "por_que": "pesquisa básica (menos relevante para observership clínico)", "fonte": "https://accomplishments.cincinnatichildrens.org/2023/heart/meet-our-team"}
+  ],
+  "brasileiros": "Nenhum fellow brasileiro individual encontrado. Ponte institucional: parceria Children's HeartLink (anunciada nov/2024) com voluntários do Heart Institute trabalhando com o Instituto Nacional de Cardiologia (INC, Rio) — Renata Mattos, chefe de cardiologia pediátrica/cardiopatias congênitas do INC — https://childrensheartlink.org/instituto-nacional-de-cardiologia-partnership-with-cincinnati-childrens-announcement/ (confirmado)",
+  "pontes_unifesp_sp": "Unifesp/InCor/Dante: não encontrado. Ponte brasileira existente é com INC/RJ.",
+  "pesquisa_recente": [
+   {"titulo": "Practice Patterns and Outcomes of Hemodialysis in Infants Undergoing Congenital Heart Surgery in the United States", "ano": "2025/2026 (provável)", "pmid": "41511517"},
+   {"titulo": "Uptake of genetic testing for infants with congenital heart disease: Impact of prenatal versus postnatal cardiovascular genetic counseling", "ano": "2026 (provável)", "pmid": "41928619"},
+   {"titulo": "Neurocognitive and Psychological Interventions for Adults With Congenital Heart Disease: Consensus Statement From the ACHD/Neuro 2024 Conference", "ano": "2025/2026 (provável)", "pmid": "41553067"}
+  ],
+  "dicas": "Exige vínculo ativo com programa de residência na inscrição E durante a visita — pedir carta da COREME/Unifesp confirmando. Proficiência em inglês exigida. Sem certificado (avisar a Unifesp se ela precisar de comprovação). A divisão de cirurgia tem página própria de visitantes internacionais.",
+  "rota_recomendada": "1) Aplicar pelo International Visitor Program indicando Heart Institute (cardiologia ou cirurgia congênita, conforme foco); 2) carta ao escritório de Gaies/Morales citando o estudo de hemodiálise pós-cirurgia congênita; 3) explorar a ponte INC-RJ/Children's HeartLink para uma apresentação.",
+  "alerta_correcao": "Centro exclusivamente pediátrico/congênito — só faz sentido se a residente tiver interesse em congênitas (ou ACHD); para cardiologia adulta geral o encaixe é fraco."
+ },
+ {
+  "match": "SickKids — Labatt Family Heart Centre",
+  "programa": {
+   "url": "https://www.sickkids.ca/en/care-services/clinical-departments/cardiology/cardiology-elective-and-observership-program",
+   "trecho": "Electives are not available to international learners... observerships to international medical school graduates who are Paediatric Cardiologists or trainees with an interest in paediatric cardiology... students, medical students and other physicians without substantial cardiology experience will not be accepted... International Learners Program or contact ilp.requests@sickkids.ca",
+   "elegibilidade_residente_estrangeiro": "parcial — observership aceita 'trainees with an interest in paediatric cardiology' com 'substantial cardiology experience'; versão alternativa da página exige board-eligible/certified em Paediatric Cardiology. Elective só para matriculados no Canadá.",
+   "taxa": "não encontrado",
+   "duracao": "não encontrado",
+   "antecedencia_janelas": "não encontrado",
+   "documentos": "formulário do International Learner Program (SurveyMonkey ILP-IMO: https://www.surveymonkey.com/r/ILP-IMO, provável); lista não encontrada",
+   "contato_oficial": "ilp.requests@sickkids.ca (International Learners Program)",
+   "certeza": "confirmado (contato e regras); elegibilidade de residente de cardiologia adulta = incerta"
+  },
+  "servico": {
+   "nome": "Labatt Family Heart Centre — Division of Cardiology; Division of Cardiovascular Surgery (mais Cardiac Critical Care, Cardiac Anesthesia, Cardiovascular Research)",
+   "chefe_cardiologia": "Mike Seed — Head, Division of Cardiology (vaga docente 2025)", "fonte_cardio": "https://jobs.utoronto.ca/job/Toronto-Assistant-Associate-Professor-Division-of-Cardiology-ON/587321117", "certeza_cardio": "confirmado",
+   "chefe_cirurgia": "conflitante: David Barron (página SickKids) vs Osami Honjo (outra listagem)", "fonte_cirurgia": "https://www.sickkids.ca/en/care-services/clinical-departments/cardiovascular-surgery", "certeza_cirurgia": "incerto",
+   "diretor_fellowship": "não encontrado",
+   "volume": "não encontrado",
+   "estrategia": "LFHC Strategy 2025–2030 (PDF) — https://inte.ontariopoisoncentre.ca/siteassets/care--services/centres/labatt-family-heart-centre/lfhc-strategy-2025-2030.pdf"
+  },
+  "pessoas_chave": [
+   {"nome": "Mike Seed", "cargo": "Head, Division of Cardiology", "por_que": "decide observership da divisão de cardiologia", "fonte": "https://jobs.utoronto.ca/job/Toronto-Assistant-Associate-Professor-Division-of-Cardiology-ON/587321117"},
+   {"nome": "David Barron", "cargo": "Head, Division of Cardiovascular Surgery (provável)", "por_que": "cirurgia congênita", "fonte": "https://www.sickkids.ca/en/care-services/clinical-departments/cardiovascular-surgery"},
+   {"nome": "Osami Honjo", "cargo": "cirurgião cardiovascular (listado como head em uma página)", "por_que": "cirurgia congênita; checar cargo atual", "fonte": "https://www.sickkids.ca/en/care-services/clinical-departments/cardiovascular-surgery"}
+  ],
+  "brasileiros": [
+   {"nome": "Carlos A.C. Pedra", "descricao": "formado USP; cardiologia pediátrica e hemodinâmica no Instituto Dante Pazzanese; 18 meses como clinical fellow no cath lab da SickKids (Dr. Lee Benson)", "fonte": "https://www.emedevents.com/speaker-profile/carlos-ac-pedra", "certeza": "confirmado (ex-fellow)"}
+  ],
+  "pontes_unifesp_sp": "FORTE: parceria Children's HeartLink InCor–SickKids desde 2018 (SickKids = parceiro de treinamento voluntário; foco em qualidade/segurança, liderança, governança). Leonardo Miana (cirurgião cardíaco pediátrico InCor) cita o programa; Marcelo Jatene (InCor) também ligado. Fontes: https://childrensheartlink.org/international-collaboration-saving-hearts/ ; https://childrensheartlink.org/cardiac-surgeons-in-brazil-encourage-new-partnerships-with-childrens-heartlink/ ; editorial '50 Years of Children's HeartLink and the Partnerships in Brazil' (2020) https://repositorio.usp.br/item/003014089. Unifesp: não encontrado.",
+  "pesquisa_recente": [
+   {"titulo": "Pediatric and Congenital Cardiac Services: An Innovative and Empowering Approach to Global Training and Equitable Care", "ano": 2025, "pmid": "40194977", "revista": "JAHA"},
+   {"titulo": "Novel Frontiers in Pediatric Cardiology: Beyond the Heart", "ano": 2025, "pmid": "40286363"},
+   {"titulo": "Pediatric cardiac surgical site infections: A single-center quality improvement initiative", "ano": "2025 (provável)", "pmid": "39780839"}
+  ],
+  "dicas": "Elective proibido para internacionais — pedir explicitamente OBSERVERSHIP via ILP. Exigem experiência substancial em cardiologia: destacar anos de residência em cardiologia e interesse em pediatria/congênitas. Programa de idioma ILSC Greystone (Toronto) oferece 1 semana de observership na SickKids no pacote de 4 semanas (porta alternativa, menos clínica) — https://www.ilsc.com/greystone-college/canada/programs/communication-in-healthcare.",
+  "rota_recomendada": "1) Se o interesse for congênitas: e-mail a ilp.requests@sickkids.ca pedindo observership na Division of Cardiology, deixando claro o nível (R3+ cardiologia) e o interesse pediátrico; 2) pedir apresentação via equipe InCor da parceria Children's HeartLink (Miana/Jatene) ou Carlos Pedra; 3) citar o artigo JAHA 2025 sobre treinamento global.",
+  "alerta_correcao": "Centro pediátrico; elegibilidade exige perfil de cardiologia pediátrica — residente de cardiologia adulta R1/R2 provavelmente recusada. Página tem versões divergentes. Chefia da cirurgia (Barron vs Honjo) inconsistente nas fontes."
+ }
+]

@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mapa mental de artigos</title>
+<meta name="description" content="Trilhas encadeadas do edital (obra pública, concreto, licenciamento, resíduos, saneamento, rodovia) com os artigos de lei de cada etapa, texto literal e normas externas.">
+<style>
+  :root { --tx:#1d1d1f; --suave:#5b5b60; --linha:#e6e6e9; --marca:#0b57d0; --marcabg:#e8f0fe; --ok:#137333; --amar:#8a5a00; --amarbg:#fef7e0; --card:#fafafa; }
+  * { box-sizing:border-box; }
+  html { -webkit-text-size-adjust:100%; }
+  body { margin:0; background:#fff; color:var(--tx); font:17px/1.6 -apple-system,"Segoe UI",Roboto,Arial,sans-serif; }
+  main { max-width:900px; margin:0 auto; padding:24px 16px 100px; }
+  h1 { font-size:28px; line-height:1.2; margin:0 0 6px; }
+  h2 { font-size:22px; margin:6px 0 4px; }
+  h3 { font-size:15px; text-transform:uppercase; letter-spacing:.05em; color:var(--suave); margin:20px 0 8px; }
+  p { margin:0 0 12px; overflow-wrap:break-word; }
+  a { color:var(--marca); }
+  .sub { color:var(--suave); font-size:15px; }
+  button { font:inherit; cursor:pointer; border-radius:10px; border:1px solid var(--linha); background:#fff; color:var(--tx); padding:8px 12px; text-align:left; }
+  .trilhas { display:flex; flex-wrap:wrap; gap:8px; margin:16px 0; }
+  .trilhas button { border-radius:999px; font-size:15px; }
+  .trilhas button.on { color:#fff; }
+  .busca { display:flex; gap:8px; margin:6px 0 16px; }
+  .busca input { flex:1; min-width:0; font:inherit; padding:10px 12px; border:1px solid var(--linha); border-radius:10px; }
+  .cadeia { display:flex; flex-wrap:wrap; align-items:center; gap:6px; margin:14px 0 6px; }
+  .cadeia button { font-weight:700; font-size:15px; padding:8px 12px; }
+  .cadeia button.on { color:#fff; }
+  .cadeia .seta { color:var(--suave); font-weight:700; }
+  .painel { border:1px solid var(--linha); border-radius:14px; padding:18px; background:var(--card); margin-top:12px; }
+  .ideia { font:18px/1.6 Georgia,serif; margin:4px 0 10px; }
+  .navs { display:flex; justify-content:space-between; gap:8px; margin-top:16px; }
+  .ref { border-bottom:1px solid var(--linha); padding:10px 0; }
+  .ref:last-child { border-bottom:0; }
+  .ref .c { font-weight:800; color:var(--marca); cursor:pointer; }
+  .ref .c::after { content:" ▸"; font-weight:400; color:var(--suave); }
+  .ref.aberto .c::after { content:" ▾"; }
+  .ref .r { margin-top:2px; }
+  .ref .x { display:none; font:15.5px/1.6 Georgia,serif; background:#fff; border-left:3px solid var(--marca); padding:8px 12px; margin-top:8px; }
+  .ref.aberto .x { display:block; }
+  .ref .v { font-size:12px; color:var(--suave); margin-top:4px; }
+  .ext { display:grid; grid-template-columns:auto 1fr; gap:4px 10px; padding:8px 0; border-bottom:1px solid var(--linha); }
+  .ext:last-child { border-bottom:0; }
+  .ext b { grid-column:1 / -1; }
+  .cert { font-size:11px; font-weight:800; border-radius:4px; padding:1px 6px; align-self:start; margin-top:3px; }
+  .cert.A { background:#e6f4ea; color:var(--ok); } .cert.M { background:var(--amarbg); color:var(--amar); }
+  .modo { display:flex; gap:8px; flex-wrap:wrap; margin:8px 0; }
+  .modo button.on { background:var(--marca); color:#fff; border-color:var(--marca); }
+  .oculto .r { filter:blur(6px); cursor:pointer; user-select:none; }
+  .oculto .r.vis { filter:none; }
+  .res-busca .item { padding:8px 0; border-bottom:1px solid var(--linha); cursor:pointer; }
+  .res-busca .item small { color:var(--suave); }
+  .tudo .bloco { margin-bottom:24px; }
+  footer { margin-top:44px; color:var(--suave); font-size:14px; }
+  @media print { nav, .busca, .modo, .navs, .trilhas { display:none !important; } .ref .x { display:block; } }
+</style>
+</head>
+<body>
+<main>
+<h1>Mapa mental de artigos</h1>
+<p class="sub">O "link mental" de cada assunto do edital: uma trilha de etapas, e em cada etapa todos os artigos que mandam nela (toque para ver o texto literal da lei) e as normas de fora que valem ponto: decretos, TCU, Código Civil, CONFEA, Ibraop, NBR e DNIT.</p>
+<div class="trilhas" id="trilhas"></div>
+<div class="busca"><input id="q" placeholder="Buscar artigo ou norma: 128, 117, Súmula 254, NBR 12655, outorga…" autocomplete="off"></div>
+<div id="app"></div>
+<footer>Textos literais tirados das leis 14.133, 6.938, 9.605, 9.433, 12.305, 11.445 e da Resolução CONAMA 237. Cada resumo de uma linha foi conferido pelo Jev contra o texto literal ou revisado à mão (está indicado). Normas externas não têm texto no site: <b>A</b> = certeza alta, <b>M</b> = média, confira. Valores em reais da Lei 14.133 são os do texto da lei e são atualizados todo ano (Art. 182).</footer>
+</main>
+<script>
+const $ = (s) => document.querySelector(s);
+const esc = (t) => String(t ?? '').replace(/[&<>"']/g, (m) => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;' }[m]));
+let M = [], ti = 0, ei = 0, oculto = false;
+
+function trilhas() {
+  $('#trilhas').innerHTML = M.map((t, k) => `<button data-t="${k}" class="${k === ti ? 'on' : ''}" style="${k === ti ? `background:${t.cor};border-color:${t.cor}` : `color:${t.cor}`}">${esc(t.t)}</button>`).join('');
+  document.querySelectorAll('[data-t]').forEach((b) => b.onclick = () => { ti = +b.dataset.t; ei = 0; $('#q').value = ''; render(); });
+}
+function refHTML(r) {
+  return `<div class="ref"><div class="c">${esc(r.c)}</div><div class="r">${esc(r.r)}</div><div class="x">${esc(r.x)}</div><div class="v">${r.j >= 0.7 ? 'resumo conferido pelo Jev' : 'resumo revisado à mão'}</div></div>`;
+}
+function extHTML(x) { return `<div class="ext"><span class="cert ${x[2]}">${x[2]}</span><span><b>${esc(x[0])}</b><br>${esc(x[1])}</span></div>`; }
+function render() {
+  trilhas();
+  const t = M[ti];
+  if (ei === -1) return tudo();
+  const e = t.etapas[ei];
+  $('#app').innerHTML = `
+  <h2 style="color:${t.cor}">${esc(t.t)}</h2><p class="sub">${esc(t.intro)}</p>
+  <div class="cadeia">${t.etapas.map((x, k) => `${k ? '<span class="seta">→</span>' : ''}<button data-e="${k}" class="${k === ei ? 'on' : ''}" style="${k === ei ? `background:${t.cor};border-color:${t.cor}` : ''}">${esc(x.n)}</button>`).join('')}</div>
+  <div class="modo"><button id="mo" class="${oculto ? 'on' : ''}">${oculto ? 'Modo revisão: ligado' : 'Modo revisão: esconder os resumos'}</button><button id="tudo">Ver a trilha inteira numa página</button></div>
+  <div class="painel ${oculto ? 'oculto' : ''}">
+    <span class="sub">Etapa ${ei + 1} de ${t.etapas.length}</span>
+    <h2>${esc(e.n)}</h2>
+    <p class="ideia">${esc(e.ideia)}</p>
+    ${e.refs.length ? `<h3>Na lei (${e.refs.length}) · toque no artigo para o texto literal</h3>${e.refs.map(refHTML).join('')}` : '<p class="sub">Etapa regida por normas técnicas: veja abaixo.</p>'}
+    ${e.ext.length ? `<h3>Normas de fora que valem ponto</h3>${e.ext.map(extHTML).join('')}` : ''}
+    <div class="navs"><button id="ant" ${ei === 0 ? 'disabled' : ''}>← ${ei ? esc(t.etapas[ei - 1].n) : ''}</button><button id="prx" ${ei === t.etapas.length - 1 ? 'disabled' : ''}>${ei < t.etapas.length - 1 ? esc(t.etapas[ei + 1].n) : ''} →</button></div>
+  </div>`;
+  liga();
+  document.querySelectorAll('[data-e]').forEach((b) => b.onclick = () => { ei = +b.dataset.e; render(); });
+  if ($('#ant')) $('#ant').onclick = () => { ei--; render(); };
+  if ($('#prx')) $('#prx').onclick = () => { ei++; render(); };
+}
+function liga() {
+  document.querySelectorAll('.ref .c').forEach((c) => c.onclick = () => c.parentElement.classList.toggle('aberto'));
+  document.querySelectorAll('.oculto .r').forEach((r) => r.onclick = () => r.classList.add('vis'));
+  if ($('#mo')) $('#mo').onclick = () => { oculto = !oculto; render(); };
+  if ($('#tudo')) $('#tudo').onclick = () => { ei = -1; render(); };
+}
+function tudo() {
+  const t = M[ti];
+  $('#app').innerHTML = `<h2 style="color:${t.cor}">${esc(t.t)}: a trilha inteira</h2>
+  <p class="sub">${t.etapas.map((e) => esc(e.n)).join(' → ')}</p>
+  <div class="modo"><button id="volta">← voltar às etapas</button><button onclick="window.print()">Imprimir ou salvar em PDF</button></div>
+  <div class="tudo">${t.etapas.map((e, k) => `<div class="bloco painel"><h2>${k + 1}. ${esc(e.n)}</h2><p class="ideia">${esc(e.ideia)}</p>${e.refs.map(refHTML).join('')}${e.ext.length ? `<h3>Normas de fora</h3>${e.ext.map(extHTML).join('')}` : ''}</div>`).join('')}</div>`;
+  liga(); $('#volta').onclick = () => { ei = 0; render(); };
+}
+function busca(q) {
+  q = q.trim().toLowerCase(); if (!q) return render();
+  const num = /^\d+$/.test(q);
+  const hits = [];
+  M.forEach((t, a) => t.etapas.forEach((e, b) => {
+    const pal = q.split(/\s+/), tem = (s) => pal.every((w) => s.toLowerCase().includes(w));
+    e.refs.forEach((r) => { const m = num ? new RegExp(`art\\. ${q}(\\b|,|$)`, 'i').test(r.c) : tem(r.c + ' ' + r.r); if (m) hits.push({ a, b, t, e, txt: r.c, sub: r.r }); });
+    e.ext.forEach((x) => { const s = x[0] + ' ' + x[1]; if (num ? new RegExp(`\\b${q}\\b`).test(s) : tem(s)) hits.push({ a, b, t, e, txt: x[0], sub: x[1] }); });
+  }));
+  $('#app').innerHTML = `<h2>${hits.length} resultado(s) para "${esc(q)}"</h2><p class="sub">Toque para abrir a etapa.</p><div class="res-busca">${hits.map((h, k) => `<div class="item" data-k="${k}"><b>${esc(h.txt)}</b> <small>· ${esc(h.t.t)} → ${esc(h.e.n)}</small><br>${esc(h.sub)}</div>`).join('')}</div>`;
+  document.querySelectorAll('.res-busca .item').forEach((d) => d.onclick = () => { const h = hits[+d.dataset.k]; ti = h.a; ei = h.b; $('#q').value = ''; render(); window.scrollTo(0, 0); });
+}
+$('#q').oninput = (e) => busca(e.target.value);
+fetch('dados/mapa.json').then((r) => r.json()).then((d) => { M = d; const h = location.hash.slice(1); const k = M.findIndex((t) => t.id === h); if (k >= 0) ti = k; render(); })
+  .catch(() => { $('#app').innerHTML = '<p>Não consegui carregar o mapa. Recarregue a página.</p>'; });
+</script>
+</body>
+</html>

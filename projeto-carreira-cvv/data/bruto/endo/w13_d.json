@@ -1,0 +1,181 @@
+[
+ {
+  "match": "Hôpital Bicêtre (AP-HP)",
+  "cidade": "Le Kremlin-Bicêtre, França",
+  "areas": ["hipertensao_pulmonar"],
+  "programa": {
+    "pagina_oficial": "https://www.aphp.fr/nous-connaitre/international/laccueil-des-professionnels-de-sante-etrangers-welcoming-foreign",
+    "descricao": "Não há página de observership própria do serviço. A rota institucional é a Direction des Relations Internationales (DRI) da AP-HP, que gere 'stagiaires d'observation' (estágio de observação), 'stagiaires associés' (convênios de cooperação) e PCA-RCH (pesquisa clínica).",
+    "trecho": "Em 2024: 78 acolhimentos de estagiários de observação e 84 convênios de estagiários associados para médicos de fora da UE (página AP-HP, atualizada em 09/06/2026).",
+    "duracao": "Curta: de 1 a 3 meses (instrução interministerial de 28/07/2015 sobre estágios de observadores em hospitais públicos franceses; fonte https://www.fhf.fr/ressources-humaines-etudiants-en-sante/stages-en-qualite-dobservateurs-instruction-du-28-juillet-2015). Um mês cabe no modelo.",
+    "elegibilidade_taxa_documentos": "não encontrado (a taxa, os documentos e o e-mail da DRI não apareceram nos trechos; provavelmente exige convenção assinada entre a AP-HP e a instituição de origem, com base na circular de 2012, https://affairesjuridiques.aphp.fr/textes/circulaire-interministerielle-ndgosrh1rh4ddibip2012330-du-31-aout-2012-relative-aux-dispositifs-daccueil-en-formation-en-france-detudiants-et-professionnels-etrangers-medicaux-et-param/telecharger/600423)",
+    "contato_oficial": "não encontrado (só a DRI da AP-HP como escritório responsável)",
+    "certeza": "confirmado que existe o dispositivo de estágio de observação na AP-HP e a duração de 1 a 3 meses; detalhes operacionais não encontrados"
+  },
+  "servico": {
+    "nome": "Service de Pneumologie et Soins Intensifs Respiratoires, Hôpital Bicêtre; Centre de Référence de l'Hypertension Pulmonaire (centro nacional coordenador, rede PulmoTension/ERN-LUNG). O centro constitutivo para cirurgia (endarterectomia/CTEPH) é o Hôpital Marie-Lannelongue (Le Plessis-Robinson).",
+    "chefe": "Prof. Marc Humbert (chefe de serviço e responsável pelo centro de referência)",
+    "fontes": ["https://www.aphp.fr/bicetre/service-de-pneumologie", "https://www.universite-paris-saclay.fr/actualites/marc-humbert-guerir-lhypertension-pulmonaire", "https://cancerologie.lequotidiendumedecin.fr/archives/une-prise-en-charge-bien-organisee"],
+    "volume": "Registro francês de HP com mais de 18.000 casos, construído por Humbert e Sitbon em Bicêtre (Paris-Saclay, 2025). Coordena 25 centros de competência regionais.",
+    "fonte_volume": "https://www.universite-paris-saclay.fr/en/news/inserm-grand-prize-2025-marc-humbert-thirty-years-innovation-against-pulmonary-hypertension",
+    "diretor_fellowship": "não encontrado",
+    "certeza": "confirmado"
+  },
+  "pessoas_chave": [
+    {"nome": "Marc Humbert", "cargo": "Chefe do serviço de pneumologia; responsável pelo centro de referência de HP; Grand Prix Inserm 2025", "por_que": "decide o acolhimento no serviço", "fonte": "https://www.aphp.fr/bicetre/service-de-pneumologie"},
+    {"nome": "Olivier Sitbon", "cargo": "Professor, Bicêtre; cofundador do registro francês de HP", "por_que": "lidera a pesquisa clínica e o registro", "fonte": "https://www.aphp.fr/pr-sitbon-olivier"},
+    {"nome": "David Montani", "cargo": "Médico e pesquisador do serviço (não é o chefe)", "por_que": "pesquisa em HP (PVOD, HP induzida por drogas)", "fonte": "https://www.universite-paris-saclay.fr/actualites/marc-humbert-guerir-lhypertension-pulmonaire", "certeza": "provável quanto ao cargo exato"},
+    {"nome": "Laurent Savale", "cargo": "Médico do serviço, coautor de ensaios do centro", "por_que": "pesquisa clínica em HP", "fonte": "https://www.timc.fr/publication/hal-04526871v1", "certeza": "provável"},
+    {"nome": "Gérald Simonneau", "cargo": "Ex-diretor do centro nacional (histórico)", "por_que": "fundador; contexto histórico, provavelmente não decide hoje", "fonte": "https://www.universite-paris-saclay.fr/actualites/gerald-simonneau-guerir-lhypertension-arterielle-pulmonaire"}
+  ],
+  "brasileiros": "não encontrado (nenhum fellow brasileiro com passagem documentada por Bicêtre apareceu nas buscas)",
+  "pontes_unifesp_sp": [
+    {"descricao": "Registro de casos incidentes de HAP brasileiros (Chest, 2015): Alves J, Gavilanes F, Jardim C, Fernandes C, Morinaga L, Dias B, Hoette S, Humbert M, Souza R. Une o InCor-HCFMUSP (Rogério Souza, Carlos Jardim, Caio Fernandes) a Marc Humbert.", "fonte": "https://ghdx.healthdata.org/node/401224", "pmid_doi": "não encontrado nos resultados", "certeza": "confirmado"},
+    {"descricao": "Nenhuma ponte com a Unifesp encontrada.", "certeza": "não encontrado"}
+  ],
+  "pesquisa_recente": [
+    {"titulo": "Sotatercept em HAP de alto risco (ZENITH), apresentado por Humbert no ACC.25 e publicado simultaneamente no NEJM", "ano": 2025, "pmid_doi": "não encontrado nos resultados", "fonte": "https://www.news-medical.net/news/20250416/Promising-findings-for-the-treatment-of-patients-with-pulmonary-arterial-hypertension-with-a-high-risk-of-mortality.aspx"},
+    {"titulo": "Algoritmo para identificar casos de HAP no banco de dados nacional de saúde francês (ERJ Open Research), com afiliação a Bicêtre", "ano": 2024, "pmid_doi": "PMC11317892 (aparece no nome do PDF)", "fonte": "https://rcastoragev2.blob.core.windows.net/09924c7aa222b0769f6ed2704330299a/00109-2024.PMC11317892.pdf", "certeza": "provável quanto à afiliação"},
+    {"titulo": "Conseil génétique et dépistage de l'HTAP: consensus du Consortium international pour les études génétiques dans l'HTAP (versão francesa, Rev Mal Respir)", "ano": 2023, "pmid_doi": "não encontrado", "fonte": "https://scholarhub.vn/publication/Conseil-g%C3%A9n%C3%A9tique-et-d%C3%A9pistage-de-l-hypertension-art%C3%A9rielle-pulmonaire-consensus-du-Consortium-international-pour-les-%C3%A9tudes-g%C3%A9n%C3%A9tiques-dans-l-HTAP-version-fran%C3%A7aise/5f9ffeb5-d19b-4129-800a-d3238591e2f1"}
+  ],
+  "dicas": [
+    "O serviço é de PNEUMOLOGIA. Para uma residente de cardiologia, enquadre o pedido como hemodinâmica de HP (cateterismo direito) e equipe multidisciplinar. Para cirurgia cardiovascular, a endarterectomia pulmonar (CTEPH) é feita no Marie-Lannelongue, não em Bicêtre.",
+    "Programa de pesquisa em CTEPH financiado em 2024, segundo o site do serviço (https://www.aphp.fr/bicetre/service-de-pneumologie). É um bom gancho para o e-mail.",
+    "Estudo ACTIOBIO (Activina-A/FSTL3 como marcador prognóstico na HP pré-capilar), iniciado em março de 2024 em Bicêtre: https://www.syfrah.com/trial/NCT07253363 (provável).",
+    "Um e-mail em francês ou inglês, com carta da COREME/Unifesp, ajuda a montar a convenção de estágio de observação."
+  ],
+  "rota_recomendada": "1) Pedir apresentação por Rogério Souza ou Carlos Jardim (InCor), coautores de Humbert, e escrever a Humbert, citando o registro brasileiro de 2015 e o sotatercept. 2) Com o aceite do serviço, formalizar um estágio de observação de 1 mês pela DRI da AP-HP, com convênio Unifesp–AP-HP. 3) Se o foco for cirúrgico, pedir à mesma rede o Marie-Lannelongue (CTEPH).",
+  "alerta_correcao": "O polo é de pneumologia (o centro de referência de HP fica no serviço de pneumologia de Bicêtre). A cirurgia de CTEPH fica no Hôpital Marie-Lannelongue, centro constitutivo e instituição separada."
+ },
+ {
+  "match": "AOU Careggi",
+  "cidade": "Florença, Itália",
+  "areas": ["miocardiopatias"],
+  "programa": {
+    "pagina_oficial": "não encontrado",
+    "descricao": "Nenhum programa de observership internacional encontrado para a Careggi. Na Itália, existe a 'frequenza volontaria' (frequência voluntária) em estruturas universitárias, autorizada caso a caso, com parecer favorável do responsável e registro de horas. Exemplos de outros hospitais: https://www.uniba.it/it/organizzazione/amm-centrale/dru/uo-rapporti-con-il-servizio-sanitario-regionale-e-nazionale/rapporti-con-il-servizio-sanitario-nazionale-e-regionale/frequenza-post-laurea-di-strutture-assistenziali/frequenza-di-strutture-a-direzione-universitaria-da-parte-di-medici-volontari e https://www.aslvco.it/wp-content/uploads/2025/06/2885448.pdf",
+    "elegibilidade_taxa_documentos": "não encontrado para a Careggi",
+    "contato_oficial": "não encontrado",
+    "certeza": "não encontrado (só o modelo genérico italiano)"
+  },
+  "servico": {
+    "nome": "Cardiomyopathy Unit / Servizio Cardiomiopatie, AOU Careggi. Faz parte de um centro conjunto da Università di Firenze com a Careggi e o Meyer, e é Centro Regionale di Riferimento para doenças miocárdicas primárias (CMH, CMD, transplante).",
+    "chefe": "Prof. Iacopo Olivotto, citado como 'direttore Servizio Cardiomiopatie Aou Careggi' e como ordinario de Cardiologia da UniFi e diretor da Cardiologia Pediátrica do Meyer (2022). Um CV do DMSC lista Olivotto, Francesco Cappelli e Marta Pieroni como diretores da unidade.",
+    "fontes": ["https://qds.it/farmaci-olivotto-unifi-mavacamten-riduce-ostruzione-cardiomiopatia-ipertrofica/", "https://www.milanofinanza.it/news/cardiomiopatia-ipertrofica-ostruttiva-in-italia-oltre-100-mila-casi-senza-diagnosi-202212061648241163", "https://www.dmsc.unifi.it/upload/sub/CV%20Giacomo%20Bonacchi.pdf", "https://www.gonews.it/?p=1183393"],
+    "volume": "não encontrado",
+    "diretor_fellowship": "não encontrado",
+    "certeza": "provável (o título atual de Olivotto em 2025/26 não foi confirmado; afiliação Meyer em 2024)"
+  },
+  "pessoas_chave": [
+    {"nome": "Iacopo Olivotto", "cargo": "Professor ordinario de Cardiologia (UniFi); Cardiologia Pediátrica do Meyer; Servizio Cardiomiopatie da Careggi; cofundador do SHaRe e da ICON", "por_que": "decide e hospeda; referência mundial em CMH e mavacamten", "fonte": "https://fondazione-menarini.com/es/cursos-y-eventos/orador.html/iacopo-olivotto"},
+    {"nome": "Francesco Cappelli", "cargo": "Codiretor da Cardiomyopathy Unit, segundo um CV institucional", "por_que": "amiloidose cardíaca/fenocópias", "fonte": "https://www.dmsc.unifi.it/upload/sub/CV%20Giacomo%20Bonacchi.pdf", "certeza": "provável"},
+    {"nome": "Marta Pieroni", "cargo": "Codiretora da Cardiomyopathy Unit, segundo o mesmo CV", "por_que": "miocardiopatias/Fabry", "fonte": "https://www.dmsc.unifi.it/upload/sub/CV%20Giacomo%20Bonacchi.pdf", "certeza": "provável"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": [
+    {"descricao": "Estudo sobre infecção por SARS-CoV-2 na CMH (ESC Heart Failure, ago/2022), de registros internacionais (Dilema/SHaRe), com Olivotto e Alexandre C. Pereira (HC-FMUSP/InCor) como coautores.", "fonte": "https://doaj.org/article/91483f6a810740f68b374d86c8670633", "certeza": "confirmado"},
+    {"descricao": "Perfil de publicações de Olivotto lista São Paulo entre as localidades de coautoria (3).", "fonte": "https://www.medifind.com/conditions/Coronary Heart Disease/1354/doctors/iacopo-a-olivotto/575642378", "certeza": "provável"},
+    {"descricao": "Nada com Unifesp ou Dante Pazzanese.", "certeza": "não encontrado"}
+  ],
+  "pesquisa_recente": [
+    {"titulo": "Real-world candidacy to mavacamten in a contemporary hypertrophic obstructive cardiomyopathy population (Bertero et al., Eur J Heart Fail)", "ano": 2024, "doi": "10.1002/ejhf.3120", "fonte": "https://iris.uniroma1.it/retrieve/efeae4ec-a1b7-4ec4-8d3c-1d4ce36be62d/Bertero_Real-world-candidacy-to-mavacamten_2024.pdf"},
+    {"titulo": "Registro HOPS: cerca de metade dos pacientes com CMHO no mundo real seriam elegíveis ao mavacamten (19 centros italianos, até jun/2024)", "ano": 2025, "pmid_doi": "não encontrado", "fonte": "https://air.unimi.it/handle/2434/1174835", "certeza": "provável"},
+    {"titulo": "Remodelamento atrial na CMH e seu papel prognóstico (revisão, Frontiers in Cardiovascular Medicine), com Olivotto como coautor", "ano": 2025, "doi": "10.3389/fcvm.2025.1620313", "fonte": "https://www.frontiersin.org/articles/10.3389/fcvm.2025.1620313/full"}
+  ],
+  "dicas": [
+    "Olivotto também atua no Meyer (pediátrico). O e-mail pode citar o mavacamten e o SHaRe/ICON.",
+    "Pedir a 'frequenza volontaria' (estágio de observação) com carta da instituição de origem. Os trâmites vão pela Direzione Medica da Careggi (contato não encontrado).",
+    "O Annuario 2023 do DMSC (URL do radar) traz as linhas de pesquisa: https://www.dmsc.unifi.it/upload/sub/News/2024/Annuario%202023%20stampa.pdf"
+  ],
+  "rota_recomendada": "1) Pedir apresentação via Alexandre C. Pereira (InCor), coautor de Olivotto pelo SHaRe, e escrever a Olivotto citando o estudo do mavacamten (doi 10.1002/ejhf.3120). 2) Com o aceite, formalizar a frequência voluntária de 1 mês na Careggi. 3) Alternativa: Cappelli, para o foco em amiloidose cardíaca.",
+  "alerta_correcao": "A URL do radar é o anuário do DMSC/UniFi, não uma página da Careggi. A unidade é conjunta UniFi/Careggi/Meyer, e o líder (Olivotto) tem afiliação principal recente no Meyer Children's Hospital."
+ },
+ {
+  "match": "Universitätsklinikum Heidelberg — Amyloidose-Zentrum",
+  "cidade": "Heidelberg, Alemanha",
+  "areas": ["miocardiopatias"],
+  "programa": {
+    "pagina_oficial": "https://klinikum.uni-heidelberg.de/en/zentrum-fuer-innere-medizin-medizin-klinik/innere-medizin-iii-kardiologie-angiologie-und-pneumologie/lehre/gastarzttaetigkeit-weiterbildung-fuer-das-fach-kardiologie",
+    "descricao": "A Innere Medizin III (Cardiologia) tem a página 'Gastarzttätigkeit / Weiterbildung für das Fach Kardiologie'. É uma formação completa de 6 anos (WBO), NÃO um observership de 1 mês. Requisitos: 2 anos de prática pós-licença no país de origem, CV e licença, bolsa que cubra todo o período, alemão B2, visto ou residência, licença profissional e entrevista positiva.",
+    "elegibilidade_para_esta_residente": "Não serve como está (exige alemão B2, bolsa e 6 anos). Para hospitação curta, nada foi encontrado.",
+    "taxa": "não encontrado",
+    "contato_oficial": "Amyloidose-Ambulanz (Med. Klinik V): contato científico Prof. Schönland e Prof. Hegenbart, tel. 06221 56-8030 (release de 2022). Site www.amyloidose-zentrum.de. Fonte: https://idw-online.de/de/news799786",
+    "certeza": "confirmado que o programa Gastarzt é de 6 anos; não há observership curto documentado"
+  },
+  "servico": {
+    "nome": "Amyloidose-Zentrum Heidelberg / Amyloidose-Ambulanz, sediado na Medizinische Klinik V (Hematologia, Oncologia e Reumatologia). A parte cardíaca fica na Innere Medizin III (Kardiologie, Angiologie und Pneumologie) e no Institut für Cardiomyopathien Heidelberg (ICH).",
+    "chefe": "Prof. Stefan Schönland, médico responsável (Ärztlicher Leiter) da Amyloidose-Ambulanz e presidente da ISA; Prof. Ute Hegenbart, contato primário no diretório da ISA (confirmado em 27/03/2026). O chefe da Cardiologia (Prof. Norbert Frey) aparece como coautor do posicionamento da DGK, mas o cargo não foi confirmado nos trechos.",
+    "fontes": ["https://idw-online.de/de/news799786", "https://directory.isaamyloidosis.org/provider-directory/entry/104/", "https://link.springer.com/content/pdf/10.1007/s00392-020-01799-3.pdf"],
+    "volume": "1.500 pacientes por ano (diretório da ISA, 2026)",
+    "fonte_volume": "https://directory.isaamyloidosis.org/provider-directory/entry/104/",
+    "diretor_fellowship": "não encontrado",
+    "certeza": "confirmado (centro e volume); provável (liderança cardiológica)"
+  },
+  "pessoas_chave": [
+    {"nome": "Stefan Schönland", "cargo": "Ärztlicher Leiter da Amyloidose-Ambulanz; presidente da ISA", "por_que": "decide o acolhimento no centro (hematologia/AL)", "fonte": "https://idw-online.de/de/news799786"},
+    {"nome": "Ute Hegenbart", "cargo": "Contato primário do centro (ISA); coautora de trabalhos de 2024 sobre ATTR e tafamidis", "por_que": "porta de entrada oficial", "fonte": "https://directory.isaamyloidosis.org/provider-directory/entry/104/"},
+    {"nome": "Arnt V. Kristen", "cargo": "Professor associado da Universidade de Heidelberg, Cardiologia; organizador fundador do centro", "por_que": "cardiologista da amiloidose; revisão de ATTR-CM em 2025", "fonte": "https://heibib.ub.uni-heidelberg.de/search/Record/1945034459/Details", "certeza": "provável (o vínculo clínico atual não foi confirmado)"},
+    {"nome": "Fabian aus dem Siepen", "cargo": "Cardiologia, UK Heidelberg; ICH; palestrante do centro sobre ATTR", "por_que": "cardiologista do dia a dia da amiloidose", "fonte": "https://klinikum.uni-heidelberg.de/fileadmin/medizinische_klinik/Abteilung_3/ICH/241216ICH_BRO_Amyloidose_143x185_Web_final_Medienzentrum.pdf", "certeza": "provável"},
+    {"nome": "Norbert Frey", "cargo": "Cardiologia, Heidelberg; coautor do posicionamento da DGK sobre amiloidose cardíaca", "por_que": "chefe provável da Innere Medizin III (não confirmado nos trechos)", "fonte": "https://link.springer.com/content/pdf/10.1007/s00392-020-01799-3.pdf", "certeza": "provável"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+    {"titulo": "Transthyretin amyloid cardiomyopathy: 2025 update; current diagnostic approaches and emerging therapeutic options (Tschöpe, Elsanhoury, Kristen; J Clin Med)", "ano": 2025, "pmid_doi": "não encontrado", "fonte": "https://heibib.ub.uni-heidelberg.de/search/Record/1945034459/Details"},
+    {"titulo": "RV-PA uncoupling associado a maior mortalidade na ATTR-CM tratada com tafamidis (Clin Res Cardiol, nov/2024), com Hegenbart como coautora", "ano": 2024, "pmid_doi": "não encontrado", "fonte": "https://katalog.ub.uni-heidelberg.de/profil/1028373708", "certeza": "provável"},
+    {"titulo": "Guideline-directed medical therapy for heart failure in transthyretin amyloid cardiomyopathy", "ano": "não confirmado", "pmid_doi": "não encontrado", "fonte": "https://heibib.ub.uni-heidelberg.de/search/Record/1938188160/Details"},
+    {"titulo": "Biomarcadores pró-fibróticos na amiloidose TTR cardíaca (Int J Mol Sci 26(21):10714), com coorte de Heidelberg", "ano": 2025, "pmid_doi": "não encontrado", "fonte": "https://www.mdpi.com/1422-0067/26/21/10714", "certeza": "provável"}
+  ],
+  "dicas": [
+    "O centro é liderado pela hematologia (AL). Para miocardiopatia, peça explicitamente a Amyloidose-Sprechstunde cardiológica ou o ICH na Innere Medizin III.",
+    "O centro organiza Patiententag e simpósios (aniversário de 10 anos em 2018), e Schönland preside a ISA. O congresso da ISA é uma porta de networking.",
+    "Na Alemanha, hospitação curta de estrangeiro sem licença costuma ser só de observação. Para a Heidelberg, os requisitos não foram encontrados; pergunte direto."
+  ],
+  "rota_recomendada": "1) Escrever ao contato oficial (Hegenbart/Schönland) pedindo uma hospitação de observação de 4 semanas com foco na amiloidose cardíaca, em rodízio com a cardiologia (aus dem Siepen/Kristen). 2) Usar a ISA (congresso) para contato pessoal. 3) Não usar o programa Gastarzt (6 anos, alemão B2).",
+  "alerta_correcao": "O Amyloidose-Zentrum fica na Med. Klinik V (hematologia). A cardiologia da amiloidose fica na Innere Medizin III/ICH, um serviço diferente. O programa oficial para visitantes da cardiologia é uma formação de 6 anos, não um observership."
+ },
+ {
+  "match": "Amsterdam UMC",
+  "cidade": "Amsterdã, Países Baixos",
+  "areas": ["cardiogenetica"],
+  "programa": {
+    "pagina_oficial": "não encontrado (nenhuma página de observership de cardiologia da Amsterdam UMC)",
+    "modelo_existente": "Intercâmbio de 4 semanas em cardiogenética na Amsterdam UMC (EJP RD/ERN), feito por uma cientista de Malta (Mater Dei), com participação em reuniões multidisciplinares semanais (cardiologistas, geneticistas, cientistas). Fonte: https://www.ejprarediseases.org/wp-content/uploads/2023/12/PR_Scerri-1.pdf",
+    "elegibilidade": "Provavelmente restrito a membros europeus de ERN/EJP RD (provável). Para brasileiros, não encontrado.",
+    "comparativo": "A Erasmus MC (Roterdã, outra instituição) tem observership internacional formal via International Office: https://www.eur.nl/en/erasmusmc/exchange/observership",
+    "taxa_documentos_contato": "não encontrado",
+    "certeza": "confirmado que existiu um intercâmbio de 4 semanas em cardiogenética; programa formal não encontrado"
+  },
+  "servico": {
+    "nome": "Amsterdam UMC Heart Center: ambulatório de cardiogenética (joint venture com a Genética Clínica, um dos primeiros do mundo e entre os maiores da Europa) e Department of Experimental Cardiology (genética da morte súbita no jovem). Coordena a ERN GUARD-Heart desde 2017.",
+    "chefe": "não encontrado (liderança atual do ambulatório não confirmada). Arthur Wilde é o fundador e coordena a ERN GUARD-Heart.",
+    "fontes": ["https://escardio.org/Congresses-Events/ESC-Congress/Congress-news/meet-the-esc-gold-medallists-professor-arthur-wilde", "https://esc365.escardio.org/Person/2056-prof-wilde-arthur"],
+    "volume": "não encontrado (só 'entre os maiores da Europa', ESC 2023)",
+    "diretor_fellowship": "não encontrado",
+    "certeza": "confirmado (serviço); chefe atual não encontrado"
+  },
+  "pessoas_chave": [
+    {"nome": "Arthur A.M. Wilde", "cargo": "Cardiologista e pesquisador translacional (arritmias hereditárias); medalha de ouro da ESC; coordenador da ERN GUARD-Heart", "por_que": "fundador do ambulatório; o nome que abre portas", "fonte": "https://escardio.org/Congresses-Events/ESC-Congress/Congress-news/meet-the-esc-gold-medallists-professor-arthur-wilde"},
+    {"nome": "Connie R. Bezzina", "cargo": "Professora de Cardiogenética Molecular (UvA, desde 2012); Experimental Cardiology", "por_que": "lidera a pesquisa genética (GWAS de Brugada e CMH; projeto no UK Biobank)", "fonte": "https://www.um.edu.mt/think/preventing-sudden-death/"},
+    {"nome": "Pieter G. Postema", "cargo": "Cardiologista-eletrofisiologista, Amsterdam UMC Heart Center; vínculo com a UvA", "por_que": "clínica de arritmias hereditárias; autor correspondente da revisão de Brugada de 2023", "fonte": "https://www.practiceupdate.com/author/pieter-postema/4866"},
+    {"nome": "Ahmad S. Amin", "cargo": "Coautor das revisões de Brugada e canalopatias (Amsterdam UMC)", "por_que": "clínica de canalopatias", "fonte": "https://pure.amsterdamumc.nl/ws/files/161847622/Novelties-in-brugada-syndrome.pdf", "certeza": "provável quanto ao cargo"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": [
+    {"descricao": "Consenso de 2022 sobre testes genéticos em doenças cardíacas (Europace, euac030), com Wilde como coautor e afiliações que incluem uma instituição brasileira (LAHRS). O nome do coautor brasileiro não foi visto.", "doi": "10.1093/europace/euac030", "fonte": "https://www.scribd.com/document/725647640/euac030", "certeza": "provável"},
+    {"descricao": "Nada com a Unifesp.", "certeza": "não encontrado"}
+  ],
+  "pesquisa_recente": [
+    {"titulo": "Novelties in Brugada syndrome (Hoeksema, Amin, Bezzina, Wilde, Postema; Card Electrophysiol Clin)", "ano": 2023, "pmid_doi": "não encontrado", "fonte": "https://pure.amsterdamumc.nl/ws/files/161847622/Novelties-in-brugada-syndrome.pdf"},
+    {"titulo": "Família multigeracional com bradicardia sinusal e LQT2 (Cardiogenetics 15(4):31), autores do Amsterdam UMC Heart Center", "ano": 2025, "pmid_doi": "não encontrado", "fonte": "https://www.mdpi.com/2035-8148/15/4/31"},
+    {"titulo": "Reavaliação de genes associados à CMH (preprint medRxiv, com afiliação Amsterdam UMC)", "ano": 2024, "doi": "10.1101/2024.07.29.24311195", "fonte": "https://medrxiv.org/content/10.1101/2024.07.29.24311195.full.pdf"}
+  ],
+  "dicas": [
+    "Peça para acompanhar as MDTs semanais de cardiogenética, o mesmo formato do intercâmbio de 4 semanas já documentado (EJP RD).",
+    "Estudo recrutando na VUmc (desde maio/2024) sobre função microvascular em portadores de MYBPC3/MYH7: https://whichtrial.com/trial/NCT06400524. Gancho para o e-mail se o interesse for CMH genética.",
+    "Se a Amsterdam UMC não responder, a Erasmus MC (Roterdã) tem observership internacional formal."
+  ],
+  "rota_recomendada": "1) Escrever a Pieter Postema ou Ahmad Amin (clínicos) pedindo 4 semanas de observação no ambulatório e nas MDTs de cardiogenética, citando a revisão de Brugada de 2023 e a ERN GUARD-Heart. Se possível, conseguir apresentação via LAHRS/SOBRAC (coautor brasileiro do consenso Europace 2022). 2) Pedir que o anfitrião aponte o trâmite administrativo. 3) Plano B: o observership formal da Erasmus MC.",
+  "alerta_correcao": "A URL do radar é um PDF do Netherlands Heart Journal (Springer), não uma página do programa. A Amsterdam UMC tem duas localizações (AMC e VUmc); a cardiogenética de Wilde/Bezzina é historicamente da AMC."
+ }
+]

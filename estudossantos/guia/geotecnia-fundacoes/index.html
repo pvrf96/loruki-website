@@ -1,0 +1,231 @@
+<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Guia fundo 10 · Geotecnia e fundações</title>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#EFEADC;--pg:#FDFBF3;--bd:#E3DFCF;--bl:#0C447C;--rd:#993C1D;--gr:#1A6B3C;--tx:#2C2C2A;--am:#D9A441}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);font-family:'Caveat',cursive;color:var(--tx)}
+.wrap{max-width:900px;margin:0 auto;padding:10px 10px 70px}
+.nav{position:sticky;top:0;z-index:30;background:var(--pg);border:1px solid var(--bd);border-radius:10px;padding:6px 10px;font-size:18px;line-height:26px;box-shadow:0 2px 6px rgba(0,0,0,.06)}.nav a{margin-right:10px;color:var(--rd);text-decoration:none;border-bottom:1px dotted #C9A896;white-space:nowrap}.nav b{color:var(--bl)}
+h1{font-size:34px;line-height:38px;margin:10px 0 4px;color:var(--bl)}h2{font-size:29px;line-height:33px;margin:0 0 8px;color:var(--bl);scroll-margin-top:80px}h3{font-size:23px;margin:14px 0 4px;color:var(--gr)}
+p,li{font-size:20px;line-height:29px;margin:5px 0}.sb{font-size:17px;color:#5F5E5A}ul,ol{padding-left:24px;margin:4px 0}
+.pg{background:var(--pg);border:1px solid var(--bd);border-radius:14px;padding:16px 16px 18px;margin:14px 0}
+.bz{border:1.5px solid var(--bl);border-radius:6px;padding:8px 12px;margin:10px 0;font-size:20px;line-height:28px;color:var(--bl);background:#F4F8FC}
+.pk{border:1.5px dashed #A32D2D;padding:8px 12px;margin:10px 0;font-size:19px;line-height:27px;color:#A32D2D;background:#FDF6F5;border-radius:6px}
+.fm{border-left:4px solid var(--gr);background:#F1F9F4;padding:7px 12px;margin:10px 0;font-size:20px;line-height:28px;color:#14532D}
+.av{background:#FFF6E0;border:1.5px solid var(--am);border-radius:8px;padding:8px 12px;margin:10px 0;font-size:18px;line-height:26px;color:#7A5A12}
+.hl{background:#FAEEDA;padding:0 4px;border-radius:3px}.cz{color:var(--bl);font-weight:700}.cv{color:#A32D2D;font-weight:700}
+table{width:100%;border-collapse:collapse;margin:8px 0;font-size:18px}th{background:#EAF0F7;color:var(--bl);text-align:left;padding:5px 7px;border:1px solid #D6D2C4}td{padding:5px 7px;border:1px solid var(--bd);vertical-align:top;line-height:24px}td.k{font-weight:700;color:var(--rd)}
+.tl{display:flex;flex-direction:column;gap:0;margin:10px 0}.st{display:flex;gap:10px;align-items:stretch}.st .d{min-width:92px;max-width:92px;background:var(--bl);color:#fff;border-radius:10px 0 0 10px;padding:6px 6px;font-size:18px;line-height:22px;text-align:center;display:flex;align-items:center;justify-content:center}
+.st .t{flex:1;border:1.5px solid var(--bl);border-radius:0 10px 10px 0;padding:6px 10px;font-size:19px;line-height:26px;background:#fff}.ar{text-align:center;font-size:24px;color:var(--rd);line-height:22px;margin:2px 0 2px 0}
+.st.r .d{background:#A32D2D}.st.r .t{border-color:#A32D2D}.st.g .d{background:var(--gr)}.st.g .t{border-color:var(--gr)}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}@media(max-width:620px){.grid{grid-template-columns:1fr}}
+.cell{border:2px solid var(--bl);border-radius:12px;padding:8px 10px;background:#fff}.cell h4{margin:0 0 4px;font-size:23px;color:var(--bl)}.cell.u{border-color:#0C447C;background:#EAF0F7}.cell.c{border-color:#1A6B3C;background:#E7F5EC}.cell.e{border-color:#B8860B;background:#FFF6DD}.cell.m{border-color:#993C1D;background:#FBEDE6}.cell.s{border-color:#6B3FA0;background:#F1EAF8}
+.cell .n{display:inline-block;background:var(--bl);color:#fff;border-radius:10px;padding:0 9px;font-size:18px;margin-right:6px}
+.inp{font:inherit;font-size:22px;border:1.5px solid var(--bl);border-radius:8px;padding:3px 8px;width:100%;background:#fff}.row{display:flex;gap:10px;flex-wrap:wrap}.row>div{flex:1;min-width:150px}label{font-size:18px;color:var(--bl);font-weight:700}
+.btn{font:inherit;font-size:21px;font-weight:700;border:2px solid var(--bl);background:var(--bl);color:#fff;border-radius:12px;padding:5px 14px;cursor:pointer;margin:4px 6px 4px 0}.btn.o{background:#fff;color:var(--bl)}
+.opt{display:inline-block;font:inherit;font-size:18px;border:1.5px solid var(--bl);color:var(--bl);background:#fff;border-radius:14px;padding:2px 11px;margin:3px 4px 3px 0;cursor:pointer}.opt.ok{background:#1A6B3C;color:#fff;border-color:#1A6B3C}.opt.no{background:#A32D2D;color:#fff;border-color:#A32D2D}
+.qz{border:1px solid var(--bd);border-radius:10px;padding:8px 10px;margin:8px 0;background:#fff}.qz .ex{margin-top:6px;font-size:18px;line-height:25px;color:#14532D;display:none}
+.mem{font-size:22px;line-height:32px;text-align:center;border:2px solid var(--rd);border-radius:12px;padding:8px 10px;margin:10px 0;background:#FDF6F5;color:var(--rd);font-weight:700}
+@media(max-width:520px){h1{font-size:27px}td,th{font-size:16px;padding:4px}.st .d{min-width:74px;max-width:74px;font-size:16px}}
+.pg{overflow-x:auto}td,th{word-break:break-word}.nav{overflow-wrap:anywhere}</style></head><body><div class="wrap">
+<div class="nav"><b>Guia fundo 10</b> · <a href="#mapa">1 Mapa</a> <a href="#zero">2 Do zero</a> <a href="#solo">3 O solo</a> <a href="#inv">4 Investigação</a> <a href="#rasa">5 Fundações rasas</a> <a href="#prof">6 Fundações profundas</a> <a href="#rec">7 Recalques e patologias</a> <a href="#cont">8 Contenções e taludes</a> <a href="#terra">9 Terraplenagem</a> <a href="#nr18">10 NR-18</a> <a href="#sim">11 Simuladores</a> <a href="#esq">12 Esquema</a> <a href="#treino">13 Treino</a> <a href="#nunca">14 Uma folha</a></div>
+<h1>Guia fundo: geotecnia e fundações</h1>
+<p class="sb">Bloco 4 · Conhecimentos específicos de Engenheiro Civil (peso 4) · mecânica dos solos, investigação, fundações rasas e profundas, contenções, taludes e terraplenagem.</p>
+<div class="av"><b>Fontes e limites (importante).</b> As normas da ABNT (NBR 6122, 6484, 8036, 11682, 12131 e outras) são pagas e <b>não estão no seu acervo</b>: não li o texto delas. O que está aqui vem de três origens: (1) <b>NR-18</b> (texto do seu acervo, item 18.7.2, escavação e fundação), que li e cito com número do item; (2) as <b>questões do banco do site Engenharia IBAM</b> (cuja correção não conferi item a item); (3) <b>conhecimento padrão de geotecnia</b>, que escrevi e marquei como "conferir na norma" quando há número. Fórmulas (Rankine, índices físicos) são clássicas, e o simulador usa valores hipotéticos. Não usei o Estratégia (é pago) nem o Jev (falta chave de API). As chances de cobrança são estimativas minhas.</div>
+
+<section class="pg" id="mapa"><h2>1. O mapa: a lógica de um projeto de fundação</h2>
+<p>Fundação é o elemento que leva a carga da estrutura ao solo com segurança contra <b>ruptura</b> e com <b>recalque</b> aceitável. Por isso o estudo segue uma ordem: conhecer o solo, escolher o tipo de fundação, verificar recalques e, se houver desnível, conter o terreno.</p>
+<div class="grid">
+<div class="cell u"><h4>1. Conhecer o solo</h4>Índices, classificação, resistência e investigação (sondagem SPT).</div>
+<div class="cell c"><h4>2. Escolher a fundação</h4>Rasa (sapata, radier) ou profunda (estaca, tubulão).</div>
+<div class="cell e"><h4>3. Verificar</h4>Capacidade de carga e recalques (total e diferencial).</div>
+<div class="cell m"><h4>4. Conter e terraplenar</h4>Empuxos, muros, taludes, corte, aterro, compactação.</div>
+<div class="cell s"><h4>5. Executar com segurança</h4>NR-18: escavação, escoramento, tubulão, bate-estaca.</div></div>
+<h3>Quanto cada parte vale (estimativa minha, não é o Jev)</h3>
+<table><tr><th>Tema</th><th>Chance</th><th>Por quê</th></tr>
+<tr><td class="k">Sondagem SPT e leitura de N</td><td><b>alta</b></td><td>o edital cita "sondagens"; conta simples</td></tr>
+<tr><td class="k">Fundações rasas × profundas, tipos de estaca e tubulão</td><td><b>alta</b></td><td>o edital cita "fundações rasas e profundas"</td></tr>
+<tr><td class="k">Recalque e fissuras</td><td>alta</td><td>o edital cita "recalques" em patologias</td></tr>
+<tr><td class="k">Contenções e estabilidade de taludes</td><td>alta</td><td>o edital cita "contenções; estabilidade de taludes"</td></tr>
+<tr><td class="k">Terraplenagem, corte, aterro e compactação</td><td>média a alta</td><td>citados no edital</td></tr>
+<tr><td class="k">NR-18 em escavação e fundação</td><td>média</td><td>está no seu acervo; números diretos</td></tr>
+<tr><td class="k">Mecânica dos solos (índices, limites)</td><td>média</td><td>base teórica citada no edital</td></tr></table>
+</section>
+
+<section class="pg" id="zero"><h2>2. Do zero: as palavras de geotecnia</h2>
+<table><tr><th>Palavra</th><th>O que é</th><th>No seu tema</th></tr>
+<tr><td class="k">Solo</td><td>Partículas minerais com vazios (ar e água).</td><td>Areia (grossa, sem coesão) × argila (fina, coesiva).</td></tr>
+<tr><td class="k">Tensão efetiva</td><td>Tensão que realmente é suportada pelos grãos: σ' = σ − u.</td><td>Governa resistência e adensamento.</td></tr>
+<tr><td class="k">Poropressão (u)</td><td>Pressão da água nos vazios.</td><td>Abaixo do nível d'água, reduz a tensão efetiva.</td></tr>
+<tr><td class="k">Capacidade de carga</td><td>Carga máxima que o solo suporta antes de romper.</td><td>Tensão admissível = capacidade ÷ fator de segurança.</td></tr>
+<tr><td class="k">Recalque</td><td>Afundamento da fundação.</td><td>Total e diferencial.</td></tr>
+<tr><td class="k">Empuxo</td><td>Força do solo contra uma estrutura de contenção.</td><td>Ativo, passivo, repouso.</td></tr>
+<tr><td class="k">N_SPT</td><td>Resistência à penetração do ensaio SPT.</td><td>Mede compacidade (areia) e consistência (argila).</td></tr></table>
+<div class="fm"><b>A ideia única:</b> toda fundação responde a duas perguntas: <b>1) o solo aguenta (não rompe)? 2) o solo deforma pouco (recalque aceitável)?</b> E tudo o que se faz em obra (sondar, escolher a fundação, conter, compactar) é para responder bem a essas duas.</div>
+</section>
+
+<section class="pg" id="solo"><h2>3. O solo: índices, limites e compactação</h2>
+<ul>
+<li><b>Índices físicos</b>: índice de vazios e, porosidade n, umidade w, grau de saturação S, peso específico γ (natural, seco γd, saturado). γd = γ ÷ (1 + w).</li>
+<li><b>Granulometria</b>: separa pedregulho, areia, silte e argila. Solos grossos têm resistência por atrito; finos, por coesão e plasticidade.</li>
+<li><b>Limites de Atterberg</b>: LL (de liquidez, passagem de plástico a líquido), LP (de plasticidade). <b>IP = LL − LP</b>. Quanto maior o IP, mais plástica (e geralmente mais compressível) é a argila.</li>
+<li><b>Classificação</b>: SUCS (unificado) e HRB (rodoviária) agrupam solos por granulometria e plasticidade.</li>
+<li><b>Resistência</b> (Mohr-Coulomb): τ = c' + σ'·tan φ'. Areia: c ≈ 0, resistência por atrito (φ). Argila saturada em curto prazo: coesão não drenada.</li>
+<li><b>Compactação</b>: ensaio Proctor (normal, intermediário, modificado) dá a <b>umidade ótima</b> e o <b>γd máximo</b>. <b>Grau de compactação GC = γd campo ÷ γd máx × 100</b>; o valor exigido (95%, 100%...) vem da especificação. Controle em campo: frasco de areia, entre outros. Solos coesivos: rolo pé de carneiro; granulares: rolo liso vibratório.</li>
+<li><b>CBR</b>: índice de suporte do solo para pavimentos.</li></ul>
+<div class="pk"><b>Como a banca erra a gente:</b> IP = LL + LP · tensão efetiva "= total + poropressão" · umidade ótima "igual à umidade natural" · compactar argila com rolo liso vibratório · GC "calculado só com a umidade".</div>
+</section>
+
+<section class="pg" id="inv"><h2>4. Investigação geotécnica e sondagens</h2>
+<ul>
+<li><b>SPT</b> (NBR 6484; sondagem a percussão): martelo de 65 kg caindo de 75 cm sobre o amostrador-padrão, que penetra 45 cm em três trechos de 15 cm. <b>N_SPT = golpes dos últimos 30 cm</b> (soma do 2º e do 3º trecho). Mede-se também o nível d'água. Dá perfil do solo e N a cada metro.</li>
+<li><b>Impenetrável ao SPT</b>: quando o amostrador não avança com o número de golpes definido na norma (o banco do site fala em 50 golpes); aí pode-se passar para sondagem rotativa.</li>
+<li><b>Sondagem rotativa</b>: em rocha, com coroa diamantada, gera testemunhos. <b>RQD</b> considera só fragmentos de 10 cm ou mais dividido pelo comprimento da manobra. Recuperação é outra coisa.</li>
+<li><b>Trado</b> (helicoidal ou concha): reconhecimento preliminar, amostras <b>deformadas</b>.</li>
+<li><b>Outros</b>: CPT e piezocone, ensaios de placa, vane test (argilas moles), sondagem sísmica (geofísica). A sondagem sísmica não mede umidade e densidade: mede propagação de ondas.</li>
+<li><b>Quantidade de furos</b> (NBR 8036; conferir na norma): no mínimo 2 furos para projeção até 200 m²; 3 furos entre 200 e 400 m²; acima disso aumenta (1 furo por 200 m² entre 400 e 1.200 m² da projeção).</li>
+<li><b>Interpretação (NBR 6484, tabelas usuais)</b>: Areia: fofa ≤ 4 · pouco compacta 5 a 8 · medianamente compacta 9 a 18 · compacta 19 a 40 · muito compacta &gt; 40. Argila: muito mole ≤ 2 · mole 3 a 5 · média 6 a 10 · rija 11 a 19 · dura &gt; 19.</li></ul>
+<div class="mem">areia: 4 · 8 · 18 · 40 &nbsp; | &nbsp; argila: 2 · 5 · 10 · 19</div>
+<div class="pk"><b>Como a banca erra a gente:</b> N = golpes dos 45 cm (são os últimos 30) · RQD = recuperação · trado "com amostras indeformadas" · sondagem sísmica "mede umidade" · classificar areia pela tabela de argila.</div>
+</section>
+
+<section class="pg" id="rasa"><h2>5. Fundações rasas (diretas)</h2>
+<ul>
+<li><b>Definição (NBR 6122)</b>: base assentada a profundidade inferior a <b>2 vezes a menor dimensão</b> da fundação (e a menos de 3 m). Acima disso, é profunda.</li>
+<li><b>Sapata isolada</b>: sob um pilar. <b>Sapata corrida</b>: sob parede ou fila de pilares. <b>Sapata associada</b>: um elemento para dois ou mais pilares próximos. <b>Viga de equilíbrio (alavanca)</b>: pilar de divisa. <b>Radier</b>: placa que recebe todas as cargas; boa para solo de baixa resistência e cargas distribuídas.</li>
+<li><b>Dimensionamento básico</b>: área da base A = P ÷ σ adm (P: carga do pilar, mais o peso próprio, se for o caso). A sapata é quadrada ou retangular; lado mínimo usual de 60 cm (conferir na norma). Lastro de concreto magro sob a sapata (usual 5 cm).</li>
+<li><b>Condições favoráveis</b>: solo resistente perto da superfície, NA profundo, cargas moderadas.</li>
+<li><b>Cuidados</b>: escavação limpa, fundo nivelado, evitar amolgamento, <b>proteger de água</b>, atender a NR-18 (escoramento acima de 1,25 m).</li></ul>
+<div class="pk"><b>Como a banca erra a gente:</b> sapata é "fundação profunda" · radier "só para solo muito resistente" · viga alavanca "para pilar central" · área da sapata "A = σ adm ÷ P".</div>
+</section>
+
+<section class="pg" id="prof"><h2>6. Fundações profundas: estacas e tubulões</h2>
+<table><tr><th>Grupo</th><th>Tipos</th><th>Pontos de prova</th></tr>
+<tr><td class="k">Estacas cravadas</td><td>pré-moldada de concreto, metálica, madeira, Franki (moldada com tubo cravado)</td><td>deslocam o solo; controle por <b>nega</b> e repique; vibração e ruído; comprimento a ajustar</td></tr>
+<tr><td class="k">Estacas escavadas</td><td>broca, Strauss, hélice contínua monitorada, escavada com lama (estacão, barrete), raiz</td><td>retiram solo; lama bentonítica estabiliza; concreto sobe por tremonha</td></tr>
+<tr><td class="k">Tubulão</td><td>a céu aberto (com ou sem camisa) e a ar comprimido</td><td>fuste e <b>base alargada</b>; NR-18: manual até 15 m, encamisado, diâmetro mínimo 0,9 m; <b>ar comprimido proibido</b> pela NR-18</td></tr></table>
+<ul>
+<li><b>Estaca de ponta × atrito</b>: carga pela ponta (camada resistente) ou pelo fuste (atrito lateral); a maioria trabalha pelos dois.</li>
+<li><b>Capacidade de carga</b>: métodos semi-empíricos com N_SPT (Aoki-Velloso, Décourt-Quaresma) e <b>prova de carga estática</b> (NBR 12131), que é a medição direta. Carga admissível = capacidade ÷ fator de segurança.</li>
+<li><b>Controle</b>: ensaios de integridade (baixa deformação, PIT), ensaio dinâmico, prova de carga por amostragem.</li>
+<li><b>Bloco de coroamento</b> reúne as estacas de um pilar e recebe a carga. <b>Efeito de grupo</b>: estacas próximas se influenciam; o recalque do grupo é maior que o de uma estaca isolada.</li>
+<li><b>Atrito negativo</b>: aterro recente sobre argila mole arrasta o fuste para baixo.</li>
+<li><b>Contexto de Santos (não é norma)</b>: a Baixada Santista tem camadas de <b>argila marinha mole</b> e nível d'água raso, e muitos edifícios usam estacas até camadas mais resistentes. Os edifícios inclinados da orla são exemplo de recalque diferencial.</li></ul>
+<div class="pk"><b>Como a banca erra a gente:</b> estaca escavada "controlada por nega" · tubulão manual "sem limite de profundidade" · tubulão a ar comprimido "autorizado pela NR-18" · prova de carga "só estima, não mede" · estaca de atrito "apoiada em rocha".</div>
+</section>
+
+<section class="pg" id="rec"><h2>7. Recalques e patologias de fundação</h2>
+<ul>
+<li><b>Recalque total</b>: afundamento médio. <b>Diferencial</b>: diferença entre apoios vizinhos (o que fissura). <b>Distorção angular</b>: diferença dividida pela distância.</li>
+<li><b>Causas</b>: solo mole, adensamento, mudança de NA, vizinhança (escavação, rebaixamento), carga excessiva, erro de projeto, fundação mista (sapata e estaca na mesma estrutura), aterro mal compactado.</li>
+<li><b>Sinais</b>: fissuras <b>inclinadas (cerca de 45°)</b> em alvenaria, portas e janelas emperrando, trincas em vigas e pilares, pisos desnivelados. Fissuras <b>verticais regulares</b> em pano extenso sem juntas indicam retração ou variação térmica, não recalque.</li>
+<li><b>Estrutura isostática × hiperestática</b>: em isostática, o recalque desloca sem criar esforços; na hiperestática, cria esforços adicionais.</li>
+<li><b>Vistoria</b>: marcos de recalque (nivelamento topográfico), fissurômetros, relatório com fotos, ensaios.</li>
+<li><b>Solução</b>: depende da causa (reforço de fundação, injeções, estacas de reforço); sempre com projeto de profissional habilitado.</li></ul>
+<div class="pk"><b>Como a banca erra a gente:</b> recalque diferencial "não afeta hiperestática" · fissura vertical regular como "recalque" · fissura a 45° como "retração" · solução "sem projeto".</div>
+</section>
+
+<section class="pg" id="cont"><h2>8. Contenções e estabilidade de taludes</h2>
+<ul>
+<li><b>Empuxos</b>: <b>ativo</b> (solo empurra o muro, mínimo), <b>repouso</b> (K0, sem deslocamento) e <b>passivo</b> (muro empurra o solo, máximo). Ka &lt; K0 &lt; Kp.</li>
+<li><b>Rankine (solo granular, parede vertical lisa)</b>: Ka = tan²(45° − φ/2). Empuxo ativo Ea = ½ · Ka · γ · H², aplicado a <b>H/3</b> da base. Sobrecarga e água aumentam o empuxo.</li>
+<li><b>Tipos</b>: gravidade (pedra argamassada, gabião, concreto ciclópico), flexão (muro em L), com contrafortes, <b>cortina atirantada</b>, <b>solo grampeado</b>, solo reforçado (terra armada), estaca prancha, parede diafragma.</li>
+<li><b>Verificações do muro</b>: tombamento, deslizamento, capacidade de carga da base e ruptura global; fatores de segurança usuais de 1,5 (conferir norma e risco).</li>
+<li><b>Drenagem</b>: barbacãs, drenos de brita ou geotêxtil e canaleta de crista: <b>evitam empuxo hidrostático</b>. Muro sem drenagem é causa clássica de ruptura.</li>
+<li><b>Taludes</b>: o fator de segurança é a razão entre resistência e solicitação; a NBR 11682 trata de estabilidade de encostas (valores conforme o risco; conferir). Causas de instabilidade: chuva e água, corte sem proteção, sobrecarga na crista, desmatamento, perda de apoio no pé.</li>
+<li><b>Proteção</b>: cobertura vegetal, drenagem superficial e profunda, retaludamento, banquetas, drenos sub-horizontais (DSH).</li></ul>
+<div class="mem">Ka &lt; K0 &lt; Kp · Ea = ½ Ka γ H² a H/3 · FS ≈ 1,5 · dreno obrigatório</div>
+<div class="pk"><b>Como a banca erra a gente:</b> Kp menor que Ka · empuxo aplicado a H/2 · muro "dispensa drenagem se for de concreto" · cortina atirantada "executada de baixo para cima" · só verificar tombamento (esquecer deslizamento e ruptura global).</div>
+</section>
+
+<section class="pg" id="terra"><h2>9. Terraplenagem: corte, aterro e compactação</h2>
+<ul>
+<li><b>Corte</b>: escavação; <b>aterro</b>: preenchimento; <b>empréstimo</b>: solo trazido de outro local; <b>bota-fora</b>: material excedente.</li>
+<li><b>Empolamento</b>: o solo escavado aumenta de volume. Solto = natural × (1 + empolamento). Em aterro compactado, o volume costuma ficar menor que o solto; os fatores dependem do solo.</li>
+<li><b>Compensação</b>: usar o corte para fazer o aterro e reduzir transporte. <b>DMT</b>: distância média de transporte.</li>
+<li><b>Diagrama de massas (Brückner)</b>: máximo da curva = passagem de corte para aterro; mínimo = passagem de aterro para corte.</li>
+<li><b>Execução</b>: camadas de espessura compatível com o equipamento, umidade próxima da ótima, controle de compactação por camada (frasco de areia, por exemplo).</li>
+<li><b>Aterro sobre solo mole</b>: colchão drenante, drenos verticais, sobrecarga temporária e controle de recalque.</li>
+<li><b>Equipamentos</b>: trator de esteira, motoniveladora, escavadeira, pá-carregadeira, caminhão basculante, rolos (pé de carneiro, liso vibratório, pneumático).</li>
+<li><b>Terraplenagem urbana</b>: interferência frequente com redes de gás, água, esgoto e cabos elétricos (cadastrar e proteger).</li></ul>
+<div class="pk"><b>Como a banca erra a gente:</b> aterro compactado "com volume maior que o solto" · bota-fora no lugar de empréstimo · compactar com umidade qualquer · máximo do Brückner como "aterro para corte".</div>
+</section>
+
+<section class="pg" id="nr18"><h2>10. NR-18 em escavação e fundação (item 18.7.2, texto do seu acervo)</h2>
+<table><tr><th>Item</th><th>Regra</th></tr>
+<tr><td class="k">18.7.2.7</td><td>Faixa de proteção de no mínimo <b>1 m</b> nas bordas da escavação, livre de cargas, e proteção contra águas superficiais.</td></tr>
+<tr><td class="k">18.7.2.8</td><td>Escavação com profundidade <b>superior a 1,25 m</b>: taludes ou escoramentos definidos em projeto de profissional habilitado, com escadas ou rampas perto dos postos de trabalho.</td></tr>
+<tr><td class="k">18.7.2.8.1</td><td>Até 1,25 m: avaliar riscos no local e adotar medidas se necessário.</td></tr>
+<tr><td class="k">18.7.2.9</td><td>Escavações próximas de edificações: <b>monitorar</b> e documentar o resultado.</td></tr>
+<tr><td class="k">18.7.2.10</td><td>Cabos elétricos, tubulações de água, esgoto, gás nas proximidades: medidas para eliminar o risco.</td></tr>
+<tr><td class="k">18.7.2.11</td><td>Escoramentos <b>inspecionados diariamente</b>.</td></tr>
+<tr><td class="k">18.7.2.16</td><td>Tubulão escavado manualmente: <b>proibido acima de 15 m</b>.</td></tr>
+<tr><td class="k">18.7.2.17</td><td>Tubulão manual: <b>encamisado</b> em toda a extensão; sondagem ou estudo geotécnico para profundidade acima de 3 m; <b>diâmetro mínimo de 0,9 m</b>.</td></tr>
+<tr><td class="k">18.7.2.18 a 22</td><td>Plano de resgate e remoção; capacitação (NR-33 e NR-35); registro diário em livro; proibido trabalho simultâneo em bases alargadas adjacentes e abertura simultânea de bases tangentes; sarilho com dupla trava, afastado no mínimo 0,5 m da borda; ventilação por insuflação; paralisar com chuva a céu aberto.</td></tr>
+<tr><td class="k">18.7.2.23</td><td>É <b>proibida</b> a execução de fundação por tubulão de ar comprimido.</td></tr></table>
+<div class="av">O diâmetro mínimo do tubulão é um ponto em que a NR-18 (0,9 m, para o tubulão <b>manual</b>) pode diferir do que a NBR 6122 diz para o fuste em geral. Se a questão citar a NR-18, use 0,9 m.</div>
+<div class="pk"><b>Como a banca erra a gente:</b> escoramento obrigatório "acima de 2 m" (é 1,25 m) · faixa de 0,5 m · tubulão manual "até 30 m" · tubulão a ar comprimido "permitido".</div>
+</section>
+
+<section class="pg" id="sim"><h2>11. Simuladores</h2>
+<div class="av">Valores hipotéticos para treinar. As tabelas de N_SPT e de furos são as usuais citadas acima; confira nas normas.</div>
+<h3>SPT: N e classificação</h3>
+<div class="row"><div><label>Golpes 1º trecho (15 cm)</label><input class="inp" id="s1" type="number" value="4"></div><div><label>2º trecho</label><input class="inp" id="s2" type="number" value="6"></div><div><label>3º trecho</label><input class="inp" id="s3" type="number" value="7"></div><div><label>Solo</label><select class="inp" id="st"><option value="a">Areia</option><option value="c">Argila</option></select></div></div>
+<button class="btn" onclick="sp()">Calcular</button><div id="spo"></div>
+<h3>Número mínimo de sondagens (projeção da edificação)</h3>
+<div class="row"><div><label>Área de projeção (m²)</label><input class="inp" id="ar" type="number" value="350"></div></div>
+<button class="btn" onclick="sd()">Calcular</button><div id="sdo"></div>
+<h3>Sapata, empuxo e compactação</h3>
+<div class="row"><div><label>Carga do pilar (kN)</label><input class="inp" id="pc" type="number" value="900"></div><div><label>σ adm (kPa)</label><input class="inp" id="sa" type="number" value="300"></div></div>
+<div class="row"><div><label>φ (°)</label><input class="inp" id="ph" type="number" value="30"></div><div><label>γ (kN/m³)</label><input class="inp" id="ga" type="number" value="18"></div><div><label>H (m)</label><input class="inp" id="hh" type="number" value="3"></div></div>
+<div class="row"><div><label>γd campo (g/cm³)</label><input class="inp" id="gc" type="number" step="0.01" value="1.78"></div><div><label>γd máximo (g/cm³)</label><input class="inp" id="gm" type="number" step="0.01" value="1.85"></div><div><label>Volume natural (m³)</label><input class="inp" id="vn" type="number" value="100"></div><div><label>Empolamento (%)</label><input class="inp" id="em" type="number" value="25"></div></div>
+<button class="btn" onclick="ge()">Calcular</button><div id="geo"></div>
+</section>
+
+<section class="pg" id="esq"><h2>12. Esquema: não confundir</h2>
+<table><tr><th>Par</th><th>Diferença</th></tr>
+<tr><td class="k">Rasa × profunda</td><td>Rasa: &lt; 2 × menor dimensão (e &lt; 3 m). Profunda: estaca, tubulão.</td></tr>
+<tr><td class="k">Estaca cravada × escavada</td><td>Cravada desloca o solo e se controla por nega. Escavada retira solo e usa lama ou camisa.</td></tr>
+<tr><td class="k">Estaca de ponta × de atrito</td><td>Ponta: camada resistente. Atrito: fuste.</td></tr>
+<tr><td class="k">Ka × K0 × Kp</td><td>Ka &lt; K0 &lt; Kp.</td></tr>
+<tr><td class="k">Recalque total × diferencial</td><td>O diferencial fissura a estrutura.</td></tr>
+<tr><td class="k">SPT × rotativa × trado</td><td>SPT: solo, N. Rotativa: rocha, RQD. Trado: reconhecimento, amostra deformada.</td></tr>
+<tr><td class="k">Compacidade × consistência</td><td>Compacidade: areia. Consistência: argila.</td></tr>
+<tr><td class="k">NBR 6122 × 6484 × 8036</td><td>Projeto e execução de fundações × SPT × programação de sondagens.</td></tr>
+<tr><td class="k">Corte × aterro × empréstimo × bota-fora</td><td>Escava · preenche · traz de fora · descarta o excedente.</td></tr></table>
+<h3>Quatro perguntas para a prova</h3>
+<ol><li><b>É solo grosso ou fino?</b> Isso define atrito ou coesão, e a tabela do N.</li><li><b>Rasa ou profunda?</b> Compare profundidade com a menor dimensão e com 3 m.</li><li><b>Qual é o risco?</b> Ruptura (capacidade) ou recalque (deformação)?</li><li><b>E a água?</b> Poropressão, drenagem e NA mudam quase tudo.</li></ol>
+</section>
+
+<section class="pg" id="treino"><h2>13. Treino (38 questões)</h2><div id="qzs"></div><div class="bz" id="sc"></div></section>
+
+<section class="pg" id="nunca"><h2>14. Para não errar mais: uma folha</h2>
+<div class="fm"><b>SPT</b>: N = últimos 30 cm dos 45 cm · areia 4-8-18-40 (fofa, pouco compacta, medianamente compacta, compacta, muito compacta) · argila 2-5-10-19 (muito mole, mole, média, rija, dura) · RQD só ≥ 10 cm · trado: amostra deformada · furos: 2 até 200 m², 3 até 400 m² (conferir).</div>
+<div class="fm"><b>Fundação</b>: rasa &lt; 2 × menor dimensão e &lt; 3 m · sapata, corrida, associada, viga alavanca (divisa), radier · profunda: estaca (cravada: nega; escavada: lama e tremonha), tubulão · bloco de coroamento · prova de carga estática (NBR 12131) mede · PIT checa integridade · atrito negativo: aterro sobre argila mole.</div>
+<div class="fm"><b>Recalque</b>: diferencial fissura · 45° = recalque · vertical regular = retração/térmica · hiperestática sofre esforço.</div>
+<div class="fm"><b>Contenção</b>: Ka = tan²(45° − φ/2) · Ea = ½ Ka γ H² a H/3 · Ka &lt; K0 &lt; Kp · FS ≈ 1,5 · dreno e barbacã · atirantada e grampeado: de cima para baixo.</div>
+<div class="fm"><b>Terraplenagem</b>: solto = natural × (1 + empolamento) · GC = γd campo ÷ γd máx · pé de carneiro (argila) · Brückner: máx = corte→aterro.</div>
+<div class="fm"><b>NR-18</b>: 1,25 m (escoramento) · faixa 1 m · inspeção diária · tubulão manual: ≤ 15 m, encamisado, ≥ 0,9 m · ar comprimido proibido.</div>
+<div class="pk"><b>Armadilhas que mais se repetem</b>: N dos 45 cm · RQD = recuperação · rasa × profunda · Kp &lt; Ka · fissura vertical = recalque · muro sem dreno · aterro "maior que o solto" · escoramento "acima de 2 m".</div>
+<div class="av">Lembrete: números das NBR (8036, 6122, tabelas de N) são do meu conhecimento padrão; confira nas normas antes de decorar. O que veio da NR-18 foi lido no texto do seu acervo.</div></section>
+</div>
+<script>
+const Q=[{"q": "Pela NR-18 (item 18.7.2.8), escavações com profundidade superior a ___ devem ser protegidas com taludes ou escoramentos definidos em projeto de profissional habilitado:", "o": ["0,80 m", "1,25 m", "2,00 m", "3,00 m"], "a": 1, "e": "1,25 m. Até 1,25 m, avalia-se no local o risco e adotam-se medidas se necessário (18.7.2.8.1). Os escoramentos são inspecionados diariamente (18.7.2.11)."}, {"q": "Nas bordas da escavação, a NR-18 manda manter faixa livre de cargas de, no mínimo:", "o": ["0,5 m", "1 m", "2 m", "3 m"], "a": 1, "e": "18.7.2.7: faixa de proteção de no mínimo 1 m livre de cargas, mais proteção contra entrada de águas superficiais."}, {"q": "Segundo a NR-18, o tubulão escavado manualmente:", "o": ["pode ter qualquer profundidade", "é proibido acima de 15 m, deve ser encamisado e ter diâmetro mínimo de 0,9 m", "pode ter 0,5 m de diâmetro", "dispensa sondagem sempre"], "a": 1, "e": "18.7.2.16 e 18.7.2.17: proibido acima de 15 m; encamisado em toda a extensão; sondagem ou estudo geotécnico para profundidade superior a 3 m; diâmetro mínimo de 0,9 m."}, {"q": "Quanto ao tubulão a ar comprimido (pressão hiperbárica), a NR-18 (18.7.2.23):", "o": ["permite com qualquer profundidade", "proíbe a execução de fundação por tubulão de ar comprimido", "exige apenas capacete", "só permite na Baixada Santista"], "a": 1, "e": "No texto da NR-18 que está no seu acervo, é proibida a execução de fundação por tubulão de ar comprimido."}, {"q": "No SPT, o N_SPT é o número de golpes necessários para:", "o": ["cravar os primeiros 15 cm", "cravar os últimos 30 cm dos 45 cm do amostrador", "cravar 45 cm", "cravar 1 m"], "a": 1, "e": "O amostrador penetra 45 cm em três trechos de 15 cm; o N é a soma dos golpes dos dois últimos (os últimos 30 cm). O primeiro trecho de 15 cm é de assentamento."}, {"q": "Num furo de SPT, os golpes por trecho de 15 cm foram 4, 6 e 7. O N_SPT é:", "o": ["4", "6", "13", "17"], "a": 2, "e": "N = 6 + 7 = 13 (descarta o primeiro trecho). Em areia, 9 a 18 golpes: medianamente compacta."}, {"q": "Pela classificação usual da NBR 6484, areia com N_SPT = 25 é:", "o": ["fofa", "pouco compacta", "medianamente compacta", "compacta"], "a": 3, "e": "Areia: fofa ≤ 4; pouco compacta 5 a 8; medianamente compacta 9 a 18; compacta 19 a 40; muito compacta > 40."}, {"q": "Argila com N_SPT = 4 é classificada, em geral, como:", "o": ["muito mole", "mole", "média", "rija"], "a": 1, "e": "Argila: muito mole ≤ 2; mole 3 a 5; média 6 a 10; rija 11 a 19; dura > 19."}, {"q": "O RQD, em sondagem rotativa, é obtido:", "o": ["dividindo o comprimento total das testemunhas pelo da manobra", "somando só os pedaços de testemunho com 10 cm ou mais e dividindo pelo comprimento da manobra", "contando os golpes", "medindo a umidade"], "a": 1, "e": "RQD considera apenas fragmentos de 10 cm ou mais. Dividir o total recuperado pelo avançado dá a recuperação, não o RQD."}, {"q": "A sondagem a trado (helicoidal ou concha) fornece:", "o": ["amostras indeformadas", "amostras deformadas, para reconhecimento preliminar", "N_SPT", "RQD"], "a": 1, "e": "O trado coleta amostras deformadas; é usado em reconhecimento. Amostra indeformada exige amostrador próprio (por exemplo, Shelby)."}, {"q": "Pela NBR 8036 (número mínimo de furos), para projeção da edificação de 350 m², o mínimo é:", "o": ["1 furo", "2 furos", "3 furos", "5 furos"], "a": 2, "e": "Até 200 m²: no mínimo 2; de 200 a 400 m²: no mínimo 3; acima disso, aumenta-se o número (1 furo para cada 200 m² entre 400 e 1.200 m² da projeção). Confira a norma antes de decorar os números."}, {"q": "Fundação rasa, pela definição da NBR 6122, é a que se apoia em profundidade inferior a:", "o": ["1 vez a menor dimensão e 1 m", "2 vezes a menor dimensão e 3 m", "5 vezes a menor dimensão e 10 m", "qualquer valor"], "a": 1, "e": "Rasa: base assentada a menos de 2 vezes a menor dimensão da fundação (e a menos de 3 m de profundidade). Profunda: acima disso (estacas, tubulões, caixões)."}, {"q": "O elemento usado quando o pilar fica na divisa do terreno e a sapata não pode ser centrada é:", "o": ["radier", "viga de equilíbrio (alavanca)", "estaca raiz", "muro de arrimo"], "a": 1, "e": "A viga alavanca transfere parte da carga do pilar de divisa a um apoio interno."}, {"q": "Radier é:", "o": ["uma estaca escavada", "uma placa que recebe vários pilares ou cargas distribuídas, sendo fundação rasa", "um muro de contenção", "um tubulão"], "a": 1, "e": "Radier: laje de fundação em contato com o solo, que distribui as cargas de toda a estrutura (ou de parte dela)."}, {"q": "O bloco de coroamento:", "o": ["recebe a carga dos pilares e a transmite às estacas", "substitui o solo mole", "é a camada de rolamento", "é a ferragem do tubulão"], "a": 0, "e": "Une as cabeças das estacas e distribui a carga do pilar entre elas."}, {"q": "A estaca que transmite a carga ao solo principalmente pelo atrito lateral é chamada:", "o": ["de ponta", "de atrito (flutuante)", "de arrimo", "de nega"], "a": 1, "e": "Estaca de atrito (flutuante) trabalha pelo fuste; estaca de ponta apoia-se em camada resistente."}, {"q": "Nas estacas escavadas com lama (fluido estabilizante), o concreto é lançado:", "o": ["de cima, em queda livre", "de baixo para cima, por tubo tremonha, deslocando o fluido", "com vibrador sobre a lama", "só depois de esgotar o fluido"], "a": 1, "e": "Tremonha: o concreto sobe deslocando o fluido; exige mistura fluida e coesa."}, {"q": "Para verificar a integridade de estacas moldadas in loco, usa-se com frequência:", "o": ["prova de carga estática em todas", "ensaio de baixa deformação (PIT)", "ensaio de Proctor", "ensaio de slump"], "a": 1, "e": "O PIT detecta descontinuidades no fuste. A prova de carga estática (NBR 12131) mede capacidade e recalque, mas é cara e feita por amostragem."}, {"q": "A 'nega' é medida para:", "o": ["estacas cravadas, no controle de cravação", "tubulões a céu aberto", "sapatas corridas", "muros de gravidade"], "a": 0, "e": "Nega: penetração permanente da estaca por golpe (ou série de golpes) do martelo; controla a cravação junto ao repique."}, {"q": "O atrito negativo em estacas ocorre, tipicamente, quando:", "o": ["o solo ao redor é arenoso compacto", "há aterro recente sobre argila mole que adensa e arrasta o fuste para baixo", "a estaca é metálica", "o NA é profundo"], "a": 1, "e": "O solo que recalca em torno da estaca puxa o fuste para baixo, somando carga à estaca."}, {"q": "Em uma estrutura hiperestática, o recalque diferencial entre apoios:", "o": ["não causa esforços", "causa esforços adicionais e pode fissurar a superestrutura", "só afeta estruturas isostáticas", "reduz o peso da estrutura"], "a": 1, "e": "Em estruturas isostáticas, o recalque desloca o apoio sem esforços adicionais; em hiperestáticas, gera esforços."}, {"q": "Fissuras verticais regularmente espaçadas em pano extenso de alvenaria sem juntas de movimentação indicam, em geral:", "o": ["recalque de fundação", "retração ou variação térmica", "erro de prumo", "patologia de pintura"], "a": 1, "e": "Recalque diferencial costuma gerar fissuras inclinadas (cerca de 45°), do lado do apoio que recalca menos para o que mais recalca. Fissuras verticais regulares sugerem movimentação térmica ou higroscópica."}, {"q": "Para solo sem coesão, com φ = 30°, o coeficiente de empuxo ativo de Rankine é:", "o": ["0,25", "1/3", "0,5", "3"], "a": 1, "e": "Ka = tan²(45° − φ/2) = tan²(30°) = 1/3. Já o passivo é Kp = 1/Ka = 3."}, {"q": "Em um muro de H = 3 m, areia com γ = 18 kN/m³ e Ka = 1/3 (sem sobrecarga e sem água), o empuxo ativo por metro de muro é:", "o": ["9 kN/m", "18 kN/m", "27 kN/m", "54 kN/m"], "a": 2, "e": "Ea = ½ × Ka × γ × H² = ½ × 1/3 × 18 × 9 = 27 kN/m, aplicado a H/3 = 1 m da base."}, {"q": "O empuxo triangular de um solo uniforme é aplicado a que altura da base?", "o": ["H/2", "H/3", "2H/3", "na crista"], "a": 1, "e": "A distribuição é triangular (nula na crista); a resultante fica a H/3 da base."}, {"q": "A ordem dos coeficientes de empuxo é:", "o": ["Ka > K0 > Kp", "Ka < K0 < Kp", "K0 < Ka < Kp", "Kp < K0 < Ka"], "a": 1, "e": "Ativo (Ka) < repouso (K0) < passivo (Kp). O ativo é o mínimo e o passivo o máximo."}, {"q": "Nas verificações de um muro de arrimo de gravidade, os fatores de segurança usuais para tombamento e deslizamento são de, em geral:", "o": ["≥ 1,0", "≥ 1,5", "≥ 5", "≥ 10"], "a": 1, "e": "Valores usuais: 1,5 para tombamento e deslizamento (e para a ruptura global, conforme a norma e o risco). Verifique também a capacidade de carga do solo de apoio."}, {"q": "A função de barbacãs e drenos atrás de contenções é:", "o": ["aumentar o empuxo", "aliviar a poropressão e evitar o empuxo hidrostático", "enfeitar o muro", "aumentar o peso do solo"], "a": 1, "e": "A água acumulada atrás do muro aumenta muito o empuxo; o dreno e as barbacãs a retiram."}, {"q": "Cortina atirantada e solo grampeado são executados, em geral, em sentido:", "o": ["ascendente, de baixo para cima", "descendente, de cima para baixo", "em qualquer sentido sem projeto", "só com o solo saturado"], "a": 1, "e": "Escava-se um estágio, executam-se tirantes ou grampos e o paramento, e desce-se para o próximo."}, {"q": "O grau de compactação é a relação entre:", "o": ["umidade de campo e umidade ótima", "γd de campo e γd máximo do ensaio (Proctor)", "CBR e N_SPT", "volume solto e natural"], "a": 1, "e": "GC = γd campo ÷ γd máx × 100. Com 1,78 e 1,85 g/cm³: 96,2%."}, {"q": "γd de campo 1,78 g/cm³ e γd máximo 1,85 g/cm³ dão grau de compactação de cerca de:", "o": ["90,5%", "93,0%", "96,2%", "103,9%"], "a": 2, "e": "1,78 ÷ 1,85 = 0,962 = 96,2%."}, {"q": "Para compactar solos coesivos (argilosos), o rolo mais usado é o:", "o": ["liso vibratório", "pé de carneiro", "de grelha", "de roda de aço sem lastro"], "a": 1, "e": "Pé de carneiro (patas) amassa e compacta solos coesivos; liso vibratório serve melhor a solos granulares."}, {"q": "100 m³ de solo no corte (natural), com fator de empolamento de 25%, ocupam solto no caminhão:", "o": ["80 m³", "100 m³", "125 m³", "150 m³"], "a": 2, "e": "Solto = natural × (1 + empolamento) = 100 × 1,25 = 125 m³. Compactado no aterro, o volume costuma ficar menor que o solto."}, {"q": "No diagrama de massas (Brückner), um ponto de máximo da curva corresponde a:", "o": ["passagem de corte para aterro", "passagem de aterro para corte", "distância média de transporte", "bota-fora"], "a": 0, "e": "Corte aumenta a ordenada e aterro a diminui; no máximo, a curva deixa de subir (corte) e passa a descer (aterro)."}, {"q": "O colchão drenante (rachão e geotêxtil) na base de aterro sobre solo mole serve para:", "o": ["aumentar o recalque", "permitir a dissipação das poropressões e acelerar o adensamento", "impedir qualquer recalque", "substituir o aterro"], "a": 1, "e": "Ajuda a drenar a água expulsa do solo mole sob o peso do aterro."}, {"q": "Um solo com LL = 45% e LP = 25% tem índice de plasticidade:", "o": ["20%", "25%", "45%", "70%"], "a": 0, "e": "IP = LL − LP = 45 − 25 = 20%."}, {"q": "A tensão efetiva é:", "o": ["σ' = σ + u", "σ' = σ − u", "σ' = u − σ", "σ' = σ × u"], "a": 1, "e": "Tensão efetiva = tensão total menos poropressão. É a que governa a resistência e a deformação do solo."}, {"q": "Associe: NBR 6484, NBR 8036 e NBR 6122, respectivamente:", "o": ["fundações, sondagens e concreto", "sondagem SPT, programação de sondagens e projeto e execução de fundações", "terraplenagem, drenagem e pavimento", "concreto, aço e madeira"], "a": 1, "e": "6484: SPT. 8036: programação das sondagens. 6122: projeto e execução de fundações. (NBR 11682 trata de estabilidade de encostas.)"}];
+const nn=(x,d=2)=>x.toFixed(d).replace(".",",");
+function cls(n,t){if(t=="a"){return n<=4?"fofa":n<=8?"pouco compacta":n<=18?"medianamente compacta":n<=40?"compacta":"muito compacta"}return n<=2?"muito mole":n<=5?"mole":n<=10?"média":n<=19?"rija":"dura"}
+function sp(){const a=+s1.value,b=+s2.value,c=+s3.value,t=st.value;const n=b+c;
+ spo.innerHTML='<div class="bz"><b>N_SPT = '+b+' + '+c+' = '+n+'</b> (o 1º trecho de '+a+' golpes é descartado). '+(t=="a"?"Areia":"Argila")+' <b>'+cls(n,t)+'</b>.</div><div class="av">Tabela usual da NBR 6484; confira na norma.</div>'}
+function sd(){const A=+ar.value;let n;if(A<=200)n=2;else if(A<=400)n=3;else if(A<=1200)n=3+Math.ceil((A-400)/200);else n=3+4+Math.ceil((A-1200)/400);
+ let m=A>400?"Para 400 a 1.200 m²: mínimo de 1 furo por 200 m² (a norma define como contar; este simulador é aproximado).":"";
+ sdo.innerHTML='<div class="bz">Mínimo estimado: <b>'+n+' furo(s)</b> de sondagem.</div><div class="av">'+m+' Regra de memória: até 200 m², 2 furos; de 200 a 400 m², 3 furos. Confira a NBR 8036.</div>'}
+function ge(){const P=+pc.value,s=+sa.value,f=+ph.value,g=+ga.value,H=+hh.value,gc2=+gc.value,gm2=+gm.value,V=+vn.value,e=+em.value;
+ const A=P/s,L=Math.sqrt(A),Ka=Math.pow(Math.tan((45-f/2)*Math.PI/180),2),Kp=1/Ka,Ea=0.5*Ka*g*H*H,GC=gc2/gm2*100,Vs=V*(1+e/100);
+ geo.innerHTML='<table><tr><th>Cálculo</th><th>Resultado</th></tr><tr><td class="k">Área da sapata (P ÷ σ adm)</td><td>'+nn(A)+' m² (lado quadrado ≈ '+nn(L)+' m)</td></tr><tr><td class="k">Ka (Rankine)</td><td>'+nn(Ka,3)+'</td></tr><tr><td class="k">Kp = 1 ÷ Ka</td><td>'+nn(Kp,3)+'</td></tr><tr><td class="k">Empuxo ativo (½ Ka γ H²)</td><td>'+nn(Ea)+' kN/m, aplicado a '+nn(H/3)+' m da base</td></tr><tr><td class="k">Grau de compactação</td><td>'+nn(GC,1)+'%</td></tr><tr><td class="k">Volume solto</td><td>'+nn(Vs,1)+' m³</td></tr></table><div class="av">Hipóteses: solo granular, parede vertical lisa, sem água nem sobrecarga (Rankine); sapata sem peso próprio; valores clássicos de livro.</div>'}
+let pts=0,done=0;
+Q.forEach((x,i)=>{const d=document.createElement("div");d.className="qz";const sh=((x.a-(i%4))%4+4)%4;const o=x.o.map((t,j)=>({t,j}));const rot=o.slice(sh).concat(o.slice(0,sh));
+ d.innerHTML='<b>'+(i+1)+'. '+x.q+'</b><br>'+rot.map((r,k)=>'<button class="opt" data-j="'+r.j+'">'+"ABCD"[k]+') '+r.t+'</button>').join("")+'<div class="ex">'+x.e+'</div>';
+ d.querySelectorAll(".opt").forEach(b=>b.onclick=()=>{if(d.dataset.d)return;d.dataset.d=1;done++;const j=+b.dataset.j;if(j==x.a){pts++;b.classList.add("ok")}else{b.classList.add("no");d.querySelectorAll(".opt").forEach(e=>{if(+e.dataset.j==x.a)e.classList.add("ok")})}
+  d.querySelector(".ex").style.display="block";sc.innerHTML="Acertos: <b>"+pts+"</b> de "+done+" respondidas (total "+Q.length+")"});
+ qzs.appendChild(d)});
+sc.innerHTML="Acertos: 0 de 0 respondidas (total "+Q.length+")";
+sp();sd();ge();
+</script></body></html>

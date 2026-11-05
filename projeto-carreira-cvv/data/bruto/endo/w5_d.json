@@ -1,0 +1,148 @@
+[
+ {
+  "match": "Tampa General Hospital",
+  "alerta_correcao": "O radar aponta a página do Cardiothoracic Surgery Center of Excellence. Os médicos são de faculdade conjunta USF Health Morsani College of Medicine + TGH, então a porta acadêmica é a USF. Robótica cardíaca: em out/2025 a vaga de 'Medical Director, Robotic Cardiac Surgery' estava anunciada (o programa ainda está montando a liderança). Transplante cardíaco: o volume é bem menor do que sugere o marketing 'top transplant center' (o ranking é puxado por rim e fígado).",
+  "programa": {
+   "pagina": "Não achei página de observership da TGH para cardio/cirurgia cardíaca. Modelo publicado (Neurocirurgia USF/TGH): primeiro é preciso aprovação por escrito, por e-mail, do médico da TGH a ser acompanhado; depois se envia o 'physician-to-physician observer request form'; a vaga depende do momento e da demanda — https://health.usf.edu/medicine/neurosurgery/education/observer-program/",
+   "via_usf": "USF Health International: 'International Medical Trainee (IMT) observership' para estudantes de medicina e médicos internacionais de instituições não afiliadas, para 'exposure to the US healthcare system' — https://health.usf.edu/medicine/ia/international-training-programs/ . O flyer da USF lista a coordenadora Jayme Smith (jaymesmith@usf.edu), coordenadora de programa da USF Medicine International: é contato institucional publicado, mas confirme se segue atual.",
+   "taxa_duracao_docs": "não encontrado",
+   "certeza": "provável (IMT USF existe; não confirmado que valha para cardio/CTS da TGH)"
+  },
+  "servico": {
+   "nome": "TGH Heart & Vascular Institute: Cardiothoracic Surgery Center of Excellence; Heart Failure Center of Excellence / Cardiogenic Shock Program; TGH Transplant Institute – Heart Transplant Center; USF Division of Cardiothoracic Surgery",
+   "chefe": "Lucian Lozonschi: chefe da USF Division of Cardiothoracic Surgery e TGH Endowed Chair (https://health.usf.edu/medicine/surgery/cardiothoracic-surgery/), também Surgical Director do Heart Transplant Center e do MCS (https://doctors.tgh.org/doctor/npi_1740388123/...). Gundars Katlaps é listado como Chief, Section of Thoracic and Cardiovascular Surgery, TGH (Doximity CV, data incerta).",
+   "fellowship": "USF Morsani/TGH Advanced Heart Failure and Transplant Cardiology Fellowship — https://health.usf.edu/medicine/internalmedicine/cardiology/sub-subspecialty-programs/advanced-heart-failure-transplant-fellowship (diretor não encontrado)",
+   "volume": "Coração: 42 transplantes em 2025 (51 em 2024); ranking nacional de coração nº 32. Total da instituição: 895 transplantes em 2025, top 5 dos EUA (https://www.tgh.org/transplant ; https://www.wusf.org/health-news-florida/2026-05-08/...). Programa de choque cardiogênico formalizado em fev/2022, 'first and only 24/7 multidisciplinary cardiogenic shock program in Florida', com canulação de ECMO na hemodinâmica (https://www.tgh.org/institutes-and-services/heart-and-vascular-institute/heart-failure-center-of-excellence/cardiogenic-shock-program). Prêmio ELSO 2024. Robótica: a USF diz ter o único programa de revascularização coronária híbrida robótica de Tampa Bay.",
+   "certeza": "confirmado (volumes e choque); chefia de robótica em aberto"
+  },
+  "pessoas_chave": [
+   {"nome": "Lucian Lozonschi, MD", "cargo": "Chefe de Cirurgia Cardiotorácica da USF; Surgical Director de Transplante Cardíaco/MCS da TGH", "porque": "decide/hospeda em CTS, transplante e robótica (o perfil enfatiza cirurgia robótica e minimamente invasiva)", "fonte": "https://health.usf.edu/medicine/surgery/cardiothoracic-surgery/ ; https://www.getcare.health.usf.edu/providers/lucian-lozonschi-1740388123"},
+   {"nome": "Benjamin Mackie, MD", "cargo": "Medical Director, Heart Transplant Center", "porque": "transplante/IC avançada (lado clínico)", "fonte": "https://www.tgh.org/services/transplant/heart-transplant/heart-transplant-leadership"},
+   {"nome": "Debbie Rinde-Hoffman, MD", "cargo": "Co-diretora do Cardiogenic Shock Program; vice-chefe do Heart & Vascular Institute", "porque": "área emergência/choque", "fonte": "https://www.tgh.org/institutes-and-services/heart-and-vascular-institute/heart-failure-center-of-excellence/cardiogenic-shock-program ; podcast TGH"},
+   {"nome": "Raheel Qureshi, MD", "cargo": "Medical Director, ECMO Program, TGH (Pneumologia/Terapia Intensiva USF)", "porque": "ECMO/choque", "fonte": "https://www.tgh.org/news/tgh-press-releases/2024/august/tampa-general-hospital-wins-extracorporeal-life-support-award"},
+   {"nome": "Hiram Bezerra, MD, PhD", "cargo": "Professor de Medicina; Director of Interventional Cardiology USF Health/TGH", "porque": "PONTE BRASILEIRA (formado no Brasil, ver abaixo); pode apresentar a residente às equipes de choque/MCS (antes dirigiu Advanced Coronary Intervention and MCS na UH Cleveland)", "fonte": "https://www.getcare.tgh.org/providers/hiram-bezerra-1528389442"},
+   {"nome": "Fadi Matar, MD", "cargo": "Chefe de Cardiologia da USF (página sem data)", "porque": "chefia do departamento clínico", "fonte": "https://www.tampastylemagazine.com/interventional-cardiology-university-of-south-florida"}
+  ],
+  "brasileiros": [
+   {"nome": "Hiram Bezerra", "evidencia": "'received his MD from Santa Casa de Vitoria... residency and cardiology/interventional cardiology fellowship at University of Sao Paulo'; o perfil da TGH lista residência na Beneficência Portuguesa (1997) e fellowships na USP (1999 e 2002)", "fonte": "https://www.getcare.tgh.org/providers/hiram-bezerra-1528389442", "certeza": "confirmado"},
+   {"nome": "Rodrigo de Souza, MD", "evidencia": "Doximity: certificação do Colégio Brasileiro de Cirurgiões e da Sociedade Brasileira de Cirurgia Cardiovascular; consultório em 5 Tampa General Cir; o MediFind o lista como cirurgião torácico/cardíaco em Tampa", "fonte": "https://doximity.com/pub/rodrigo-de-souza-md", "certeza": "provável (vínculo com o Brasil confirmado pelas certificações; cargo atual na TGH não confirmado)"}
+  ],
+  "pontes_unifesp_sp": "Bezerra: residência/fellowship na USP (provavelmente InCor; o perfil diz só 'University of Sao Paulo'). Não achei coautoria TGH–Unifesp nas áreas do polo.",
+  "pesquisa_recente": [
+   {"titulo": "Single center 3 year analysis of a cardiogenic shock program implementation", "ano": 2025, "id": "Apresentação ESC (esc365 presentation/299455), sem PMID", "nota": "afiliação TGH provável (coincide com os 3 anos do programa), não confirmada"},
+   {"titulo": "Efficacy and Safety of High-Frequency Optical Coherence Tomography (HF-OCT) for Coronary Imaging: A Multicenter Study (JSCAI)", "ano": 2025, "id": "não encontrado", "nota": "Bezerra é coautor; primeiro caso em humanos feito na TGH (Cath Lab Digest). Fora das áreas do polo, mas bom gancho com ele"},
+   {"titulo": "Projeto de dispositivo para otimizar corações doadores (Lozonschi & Ruisheng Liu, prêmio de US$500 mil)", "ano": 2024, "id": "press release, não é artigo — https://www.biospace.com/tampa-general-researchers-develop-innovative-device-that-expands-access-to-heart-transplants"}
+  ],
+  "dicas": "Há vídeos/podcasts educativos do programa de choque (doctorpodcasting.com/client/tampageneral; canal no VuMedi), bons para citar. A USF tem programa estruturado de IMT observership via International Affairs. A neurocirurgia exige 'written email approval' do médico anfitrião antes do formulário; é provável que valha regra parecida em cardio.",
+  "rota_recomendada": "1) E-mail ao Dr. Hiram Bezerra (ex-USP) pedindo apresentação e apoio para observership de ~4 semanas no programa de choque/MCS e transplante. 2) Com o aceite de um anfitrião (Lozonschi para CTS/robótica, Rinde-Hoffman para choque), formalizar pela USF Health International (IMT observership, contato publicado de Jayme Smith). 3) Se o foco for robótica, perguntar antes se o programa já tem diretor."
+ },
+ {
+  "match": "Ospedale San Raffaele — Cardiochirurgia",
+  "alerta_correcao": "O URL do radar é o EACTS Francis Fontan Fund Mitral Valve Repair Fellowship, uma bolsa de 2 semanas no San Raffaele Heart Valve Centre, e não um observership. A área 'eletrofisiologia' fica em outra unidade (Aritmologia e Eletrofisiologia, Paolo Della Bella), não na Cardiochirurgia. ALERTA REPUTACIONAL: o chefe atual da cirurgia cardíaca, Francesco Maisano, é alvo (2026) de revisão independente e de investigação penal da Procuradoria de Zurique sobre o período dele na USZ (2014–2020): excesso de mortalidade e conflito de interesse (CardioBand). O San Raffaele abriu auditoria e manteve Maisano no cargo (RSI, maio/2026). Ninguém foi formalmente indiciado.",
+  "programa": {
+   "pagina": "Não achei programa de observership/frequência voluntária para médicos estrangeiros na cardiochirurgia.",
+   "porta_estruturada": "EACTS Francis Fontan Fund – Mitral Valve Repair Fellowship: 'two-week clinical immersion at San Raffaele Heart Valve Centre', com currículo de mitral endoscópica/minimamente invasiva 3D; bolsa de €3.750; janela de inscrição 1/mar–1/mai/2025 para início em jan/2026 (ciclo anterior; confirme o ciclo atual). Exige relatório final — https://www.eacts.org/education/francis-fontan-fund/mitral-valve-repair-fellowship-2025-26/ . Elegibilidade (provavelmente membro da EACTS / cirurgião em formação) não confirmada.",
+   "outras_portas": "Master UniSR em Eletrofisiologia Intervencionista 2025/26 (diretor Carlo Pappone; Della Bella entre os coordenadores) — https://www.unisr.it/en/offerta-formativa/medicina-chirurgia/post-lauream/master-facolta-medicina-chirurgia/elettrofisiologia/docenti ; há também Master em Chirurgia Aortica na UniSR.",
+   "contato_oficial": "não encontrado (o radar dá www.unisr.it)",
+   "certeza": "confirmado que a bolsa EACTS existe; observership avulso não encontrado"
+  },
+  "servico": {
+   "nome": "U.O. Cardiochirurgia + Heart Valve Center (IRCCS Ospedale San Raffaele); Divisione di Cardiochirurgia delle Terapie Avanzate e di Ricerca (De Bonis); U.O. Aritmologia ed Elettrofisiologia (Della Bella)",
+   "chefe": "Francesco Maisano: diretor da Cardiac Surgery Unit e do Heart Valve Center; Full Professor e chefe desde 2021 (EACTS; página UniSR sem data). Michele De Bonis: Chief of Cardiac Surgery, Innovation and Research (2017–). Ottavio Alfieri: chefe 1996–2017, hoje Senior Consultant.",
+   "volume": "não encontrado com ano. Robótica: perfis citam 'including robotic', mas não achei anúncio de programa robótico nem volumes.",
+   "certeza": "provável (cargos vêm de perfis sem data, mas a RSI de 2026 confirma Maisano como primário)"
+  },
+  "pessoas_chave": [
+   {"nome": "Francesco Maisano", "cargo": "Primário da Cardiochirurgia e Heart Valve Center", "porque": "decide; chefe atual (ver alerta)", "fonte": "https://www.rsi.ch/info/svizzera/Cardiochirurgia-a-Milano-nessuna-misura-per-Maisano--3728292.html"},
+   {"nome": "Michele De Bonis", "cargo": "Chief, Cardiac Surgery Innovation and Research; líder do RCT NOSTRUM", "porque": "referência mundial em reparo mitral/tricúspide; provável anfitrião da bolsa EACTS", "fonte": "https://www.pcronline.com/Physicians/De-Bonis-Michele ; NCT02996552"},
+   {"nome": "Ottavio Alfieri", "cargo": "Senior Consultant (ex-chefe 1996–2017; técnica edge-to-edge)", "porque": "nome histórico, bom para citar", "fonte": "https://radcliffecardiology.com/authors/ottavio-alfieri"},
+   {"nome": "Paolo Della Bella", "cargo": "Chefe da U.O. Aritmologia e Eletrofisiologia", "porque": "decide em eletrofisiologia (TV/ablação)", "fonte": "https://www.unisr.it/en/offerta-formativa/medicina-chirurgia/post-lauream/master-facolta-medicina-chirurgia/elettrofisiologia/docenti"},
+   {"nome": "Caterina Bisceglia", "cargo": "Head, Advanced Ventricular Arrhythmia Treatment Unit; docente de master e cursos internacionais", "porque": "porta via cursos internacionais de mapeamento", "fonte": "https://www.gsdinternational.com/doctors/caterina-bisceglia"},
+   {"nome": "Benedetto Del Forno", "cargo": "Cirurgião da equipe (reparo mitral)", "porque": "equipe de valva mitral", "fonte": "https://gsdinternational.com/doctors/benedetto-del-forno"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "Não achei coautoria com Unifesp/InCor. Ponte indireta: o TRIGISTRY (EHJ 2024; 33 centros; Maisano e De Bonis coautores). Não verifiquei se há centro brasileiro.",
+  "pesquisa_recente": [
+   {"titulo": "TRIGISTRY: cirurgia tricúspide isolada vs tratamento conservador estratificado pelo TRI-SCORE (Eur Heart J)", "ano": 2024, "id": "DOI 10.1093/eurheartj/ehae578", "certeza": "confirmado (DOI no trecho)"},
+   {"titulo": "Reparo mitral em 856 pacientes com dilatação de VE e IM degenerativa grave por prolapso de folheto posterior, San Raffaele 2008–2020 (De Bonis sênior; EJCTS 64(4) ezad274)", "ano": 2023, "id": "EJCTS ezad274 (DOI/PMID não exibidos no resultado)", "certeza": "confirmado"},
+   {"titulo": "Revisão de 10 anos de ablação epicárdica de TV, centro único (Circ Arrhythm Electrophysiol)", "ano": 2024, "id": "PMID 38836351", "certeza": "provável que seja do grupo Della Bella (o resultado associa, mas sem a lista de autores)"},
+   {"titulo": "Matching Ablation Endpoints to Long-Term Outcome: The Prospective Multicenter Italian Ventricular Tachycardia Ablation Registry (JACC Clin EP 2023;9(6):836-847)", "ano": 2023, "id": "PMID não encontrado", "certeza": "confirmado (citado no NCT03649022)"}
+  ],
+  "dicas": "A bolsa EACTS de 2 semanas é a porta formal mais próxima (inscrições mar–mai, início no ano seguinte) e exige relatório. Há RCTs abertos que servem de assunto: NOSTRUM (NCT02996552; anuloplastia tricúspide na IT não grave durante reparo mitral) e DEEP vs activation mapping (NCT06371729, eletrofisiologia, início jun/2024). O hospital passou em 2025–2026 por crises (sanção do Ministério da Saúde em dez/2025, caso Maisano), o que pode atrasar respostas.",
+  "rota_recomendada": "1) Se for cirurgia: candidatar-se à bolsa EACTS Mitral Valve Repair (2 semanas) e, em paralelo, escrever a De Bonis citando NOSTRUM/EJCTS 2023 e pedindo estender para ~4 semanas como visitante. 2) Se for eletrofisiologia: escrever a Della Bella/Bisceglia citando o registro italiano de ablação de TV. 3) Pesar o risco reputacional do caso Maisano antes de escolher a cirurgia."
+ },
+ {
+  "match": "The Prince Charles Hospital",
+  "alerta_correcao": "O URL do radar (tpch-cardio-rd-1yr.pdf) é material de recrutamento de registrar/vaga remunerada (Advanced Training RACP), não um observership. Ele exige registro na AHPRA e não serve para a residente. O contato do radar (?p=54451) é a nota de 05/11/2025 sobre a revisão de benchmarking de 2024 dos transplantes de coração e pulmão da TPCH, que gerou recomendações e cobertura de imprensa. A chefia de transplante/IC avançada parece em transição: houve vaga anunciada de 'Clinical Director – Cardiac Transplant and Advanced Heart Failure' (QLD-PCH690301).",
+  "programa": {
+   "pagina": "Não achei página de observership da TPCH/Metro North.",
+   "regra_estadual": "Queensland Health define 'clinical observership' como observar sem participar do cuidado direto e manda contatar o Hospital and Health Service em questão (Metro North) — https://www.careers.health.qld.gov.au/students-and-graduates/clinical-placements/students/other-placements",
+   "taxa_duracao_docs": "não encontrado",
+   "contato_oficial": "não encontrado (pedir ao workforce/medical education da Metro North)",
+   "certeza": "provável que exista via HHS; nada específico confirmado"
+  },
+  "servico": {
+   "nome": "Advanced Heart Failure and Transplant Service (único centro de transplante cardíaco de Queensland; lidera o Statewide Heart Failure Service); Cardiothoracic Surgery / Queensland Heart & Lung Transplant; Cardiology Clinical Research Centre (equipe de estrutural); Critical Care Research Group (CCRG)",
+   "chefe": "não confirmado. George Javorsky aparece como Director of Heart Failure and Cardiac Transplantation em notícia sem data da Metro North; o cargo foi anunciado como vaga. Cardiologia: Darren Walters era diretor em 2015 (desatualizado).",
+   "volume": "521 transplantes cardíacos acumulados (nov/2025) — https://metronorth.health.qld.gov.au/media-release/tpch-transplant-services ; cerca de 60 transplantes de coração+pulmão por ano (página da cirurgia, sem ano). TAVI: ~380 de 2010 a 2015 (relatório de 2015). Estrutural: VDYNE tricúspide em 3 dos primeiros 39 pacientes do mundo (Relatório de Pesquisa 2024 da PCH Foundation).",
+   "certeza": "confirmado (acumulado 2025); demais números antigos ou autodeclarados"
+  },
+  "pessoas_chave": [
+   {"nome": "George Javorsky", "cargo": "Director of Heart Failure and Cardiac Transplantation (fonte sem data)", "porque": "IC/transplante, se ainda estiver no cargo", "fonte": "https://metronorth.health.qld.gov.au/?p=11257"},
+   {"nome": "Mary Bayat", "cargo": "Cardiologista de IC avançada, transplante e MCS na TPCH", "porque": "possível anfitriã em IC/transplante", "fonte": "https://www.ramsayhealth.com.au/en/specialists-and-practitioners/dr-mary-bayat/"},
+   {"nome": "Sam Hayman", "cargo": "Cardiologista intervencionista que faz TAVI na TPCH (base principal: Wesley)", "porque": "estrutural", "fonte": "https://www.wesley.com.au/doctors/sam-hayman"},
+   {"nome": "Su Hnin Hlaing", "cargo": "Cardiologista intervencionista, TPCH", "porque": "estrutural/intervenção", "fonte": "https://www.pcronline.com/Physicians/Su-Hnin-Hlaing"}
+  ],
+  "brasileiros": [
+   {"nome": "Vinicius Nina", "evidencia": "treinamento em cirurgia geral e cardiovascular em São Paulo; fellowship pós-graduação em cirurgia cardiotorácica na UAB e na Prince Charles Hospital, Brisbane; depois criou e chefiou a cirurgia cardiovascular do Hospital Universitário em São Luís (MA)", "fonte": "https://cardiostart.org/viniciusnina/", "certeza": "confirmado (ex-fellow)"}
+  ],
+  "pontes_unifesp_sp": "Ex-fellow Vinicius Nina (formado em SP; hoje UFMA/São Luís). O Relatório de Pesquisa 2023 da PCH Foundation lista o Brasil entre as colaborações internacionais (sem nomes) — https://thecommongood.org.au/wp-content/uploads/2024/10/24493_PCHF_ResearchReport2023_web.pdf . Coautoria com Unifesp/InCor: não encontrado.",
+  "pesquisa_recente": [
+   {"titulo": "Hypothermic oxygenated perfusion (HOPE) safely and effectively extends acceptable donor heart preservation times: Results of the Australian and New Zealand trial (J Heart Lung Transplant, vol. 43)", "ano": 2024, "id": "PMID provável 37918701 (ID do QxMD Read; confirmar)", "nota": "o CCRG da TPCH fez o trabalho pré-clínico e a PCH Foundation financiou; a TPCH não estava entre os 5 centros clínicos do trial", "certeza": "provável"},
+   {"titulo": "Estudo de 48 h de preservação (HOPE) do CCRG, financiamento de AU$1,6 mi do governo de Queensland", "ano": 2024, "id": "não é artigo — Relatório de Pesquisa 2024 da PCH Foundation"},
+   {"titulo": "VDYNE tricuspid (primeiros casos mundiais) — Cardiology Clinical Research Centre", "ano": 2024, "id": "não encontrado"}
+  ],
+  "dicas": "A porta mais forte é a pesquisa (CCRG/HOPE, VDYNE). Na Austrália, observer não pode tocar no paciente. Fuso e burocracia (Metro North) pedem antecedência grande. As vagas pagas de fellow/registrar exigem AHPRA e não servem para 1 mês.",
+  "rota_recomendada": "1) Contatar a Metro North (workforce/medical education) pedindo o processo de clinical observership na TPCH, com carta da Unifesp. 2) Achar o anfitrião no Advanced Heart Failure and Transplant Service (Bayat ou o atual Clinical Director) ou no time estrutural, citando HOPE/VDYNE. 3) Pedir referência ao Dr. Vinicius Nina (ex-fellow) se houver contato acadêmico."
+ },
+ {
+  "match": "Johns Hopkins Heart and Vascular Institute",
+  "alerta_correcao": "O URL do radar é a página do annual report de IC/transplante, não de programa de observer. LIMITE IMPORTANTE: observerships da Johns Hopkins 'shall not exceed 100 hours over the course of 12 months' (≈2,5 semanas em tempo integral). Um mês inteiro provavelmente não cabe na regra padrão.",
+  "programa": {
+   "pagina": "Johns Hopkins Medicine Observership (Volunteer Services) — https://volunteerservices.jhmi.edu/pages/OBSINFO ; https://hopkinsmedicine.org/volunteer-services/observerships",
+   "elegibilidade": "O observador mesmo procura o anfitrião ('must independently research health care providers... and secure observership dates with a sponsor'); não há garantia nem obrigação dos médicos de aceitar; não conta como treinamento nem dá crédito.",
+   "duracao": "máximo de 100 h em 12 meses",
+   "antecedencia": "formulário enviado 2 semanas antes do início",
+   "documentos": "carteira de vacinação, termo de confidencialidade (Confidentiality Pledge). A Volunteer Services NÃO emite carta para visto. Referência mais completa: o checklist do Hospital Medicine IMG Observership (programa de 6 semanas, competitivo, taxa de US$150) pede B1 ou outro status válido, MMR, hepatite B, meningite, tétano, varicela, COVID, influenza na temporada, PPD recente e background check criminal — https://hopkinsmedicine.org/-/media/hospital-medicine/application-checklist.pdf",
+   "taxa": "não encontrada para cardio (US$150 é do Hospital Medicine)",
+   "certeza": "confirmado"
+  },
+  "servico": {
+   "nome": "Heart Failure & Cardiac Transplantation (HVI); Heart Transplantation and MCS (Cirurgia Cardíaca); Hypertrophic Cardiomyopathy Program/Center (Centro de Excelência da HCMA); Johns Hopkins Center for Inherited Heart Diseases; Arrhythmogenic Cardiomyopathy (ARVC/ALVC/ACM) Precision Medicine Center of Excellence",
+   "chefe": "Transplante/MCS: Ahmet Kilic (diretor de heart transplantation & MCS; também diretor do programa de residência de cirurgia cardiotorácica). HCM: Jose Madrazo (diretor) e Richard (Rick) Carrick (associate/co-diretor). ARVC: Hugh Calkins (diretor); Cynthia James (Research Director do Center for Inherited Heart Diseases).",
+   "volume": "65 transplantes cardíacos adultos em 2024, recorde do hospital — https://www.hopkinsmedicine.org/news/articles/2025/02/johns-hopkins-reaches-heart-transplant-milestones ; primeiro transplante com doador DCD de Maryland em 28/04/2024; 5 transplantes em 7 dias (fev/2024).",
+   "certeza": "confirmado"
+  },
+  "pessoas_chave": [
+   {"nome": "Ahmet Kilic, MD", "cargo": "Diretor de Heart Transplantation & MCS", "porque": "decide/hospeda em transplante (lado cirúrgico)", "fonte": "https://clinicalconnection.hopkinsmedicine.org/participant/ahmet-kilic-md"},
+   {"nome": "Nisha Gilotra, MD", "cargo": "Medical Director, Heart Failure Disease Management; na lista de médicos de transplante", "porque": "IC/transplante (lado clínico)", "fonte": "https://medicine-matters.blogs.hopkinsmedicine.org/2019/11/advanced-heart-failure-and-transplantation-leadership/"},
+   {"nome": "Jose Madrazo, MD", "cargo": "Diretor do HCM Center", "porque": "miocardiopatias", "fonte": "https://hopkinsmedicine.org/heart-vascular-institute/cardiology/hypertrophic-cardiomyopathy-hcm/our-team-hcm"},
+   {"nome": "Richard Carrick, MD, PhD", "cargo": "Associate director do HCM; autor do recalibramento do ARVC risk calculator", "porque": "miocardiopatias + cardiogenética", "fonte": "idem"},
+   {"nome": "Hugh Calkins, MD", "cargo": "Diretor do programa de ARVC; Catherine Ellen Poindexter Professor of Cardiology", "porque": "cardiogenética/ARVC; decide", "fonte": "https://www.hopkinsmedicine.org/inhealth/precision-medicine-centers/arvc/"},
+   {"nome": "Cynthia A. James, PhD, ScM", "cargo": "Research Director, Center for Inherited Heart Diseases", "porque": "lidera a pesquisa em cardiogenética; o registro de ARVC é porta de pesquisa", "fonte": "https://www.hopkinsmedicine.org/heart-vascular-institute/cardiology/inherited-heart-disease/our-team"}
+  ],
+  "brasileiros": [
+   {"nome": "João A. C. Lima", "evidencia": "professor da Johns Hopkins e diretor do Cardiovascular Imaging; orienta doutorado em parceria com a Bahiana e tem bolsa CNPq em projeto com a Bahiana. Vínculo acadêmico com o Brasil confirmado; formação no Brasil não confirmada na fonte", "fonte": "https://en.bahiana.edu.br/noticia/7150/programa-de-pos-graduacao-da-bahiana-realiza-seminario/", "certeza": "confirmado o vínculo com o Brasil (imagem, fora das áreas do polo, mas é ponte)"},
+   {"nome": "Carlos Rochitte", "evidencia": "'former Johns Hopkins fellow now at the University of São Paulo'", "fonte": "idem", "certeza": "confirmado (ex-fellow, InCor/USP, RM cardíaca)"},
+   {"nome": "Luis Cláudio Correia", "evidencia": "ex-fellow da Hopkins; professor adjunto da Bahiana", "fonte": "idem", "certeza": "confirmado"}
+  ],
+  "pontes_unifesp_sp": "Carlos Rochitte (InCor/USP) é ex-fellow da Hopkins (imagem): boa ponte para carta de apresentação. Coautoria Hopkins–Unifesp/InCor em ARVC/transplante: não encontrado. Existe uma coorte brasileira de ARVC (Circ Arrhythm Electrophysiol 2023), mas não confirmei autores da Hopkins nela.",
+  "pesquisa_recente": [
+   {"titulo": "Longitudinal Prediction of Ventricular Arrhythmic Risk in Patients With Arrhythmogenic Right Ventricular Cardiomyopathy (Carrick, James et al.; Circ Arrhythm Electrophysiol 15(11))", "ano": 2022, "id": "PMID/DOI não exibidos no resultado", "certeza": "confirmado"},
+   {"titulo": "Reavaliação dos genes de HCM pelo painel especialista do ClinGen (Genetics in Medicine Open; coautores Hopkins Asatryan, C. James, B. Murray)", "ano": 2024, "id": "não encontrado (DOAJ bd0ce983443640bf8524d486c2542311)", "certeza": "confirmado"},
+   {"titulo": "Impact of donor obesity on outcomes of donation after circulatory death heart transplantation (J Thorac Cardiovasc Surg)", "ano": 2024, "id": "DOI 10.1016/j.jtcvs.2024.12.016", "certeza": "provável (Johns Hopkins Hospital entre as afiliações; autor principal da VCU; Kilic não confirmado)"}
+  ],
+  "dicas": "O teto de 100 h/ano obriga a negociar ~2,5 semanas, ou a dividir entre dois anfitriões só se a regra permitir (não confirmado). Sem carta para visto: use B1/B2 próprio. O programa de ARVC publica newsletter anual e faz encontros de pacientes; o HCM fez simpósio de pacientes em 13/09/2025, o que dá assunto para o e-mail. Combinar transplante (Kilic/Gilotra) com cardiogenética (James/Calkins) num pedido só.",
+  "rota_recomendada": "1) Garantir um sponsor por e-mail: Cynthia James/Hugh Calkins (ARVC/cardiogenética) ou Kilic/Gilotra (transplante), citando o recalibramento do risco em ARVC ou os 65 transplantes de 2024. 2) Pedir carta de apresentação a um ex-fellow brasileiro da Hopkins (Rochitte, InCor). 3) Com o sponsor, enviar a aplicação pela Volunteer Services 2 semanas antes, respeitando o limite de 100 h."
+ }
+]

@@ -1,0 +1,411 @@
+[
+ {
+  "match": "Sant'Orsola — Policlinico di Bologna",
+  "i": 84,
+  "cidade": "Bolonha",
+  "pais": "Itália",
+  "areas": [
+   "aorta",
+   "transplante",
+   "miocardiopatias"
+  ],
+  "programa": {
+   "tipo": "Frequenza volontaria (frequentador voluntário) — não há página de observership internacional encontrada",
+   "descricao": "Formulários da Unibo citam um 'Regolamento per la frequenza volontaria' da AOU Bologna Policlinico S.Orsola–Malpighi e um 'Regolamento dei Laureati Frequentatori'. Texto do regulamento (estrangeiros, taxa, documentos) não obtido.",
+   "fontes": [
+    "https://www.unibo.it/it/allegati/modulo-per-laureati-frequentatori-iscrizione-i-anno",
+    "https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/scuole-di-specializzazione/allegati/domanda-frequenza-attivita-frf-italia-estero/@@download/file/Domanda%20richiesta%20frf%20(Italia-Estero).pdf"
+   ],
+   "elegibilidade_estrangeiro": "não encontrado",
+   "taxa": "não encontrado",
+   "duracao": "não encontrado",
+   "documentos": "não encontrado",
+   "contato_oficial": "Settore Medici in formazione Specialistica, c/o Policlinico di Sant'Orsola, Polo Murri, tel. +39 051 20 80 851 (é o escritório de especializandos; útil para perguntar o trâmite de frequentatori)",
+   "obs": "Edital de contratação exige italiano adequado para estrangeiros (aplica-se a staff, não necessariamente a frequentador).",
+   "certeza": "provável (existência do regulamento confirmada; regras para estrangeiros não encontradas)"
+  },
+  "servico": {
+   "cardiochirurgia": "UO Cardiochirurgia — Diretor Prof. Davide Pacini (também Diretor da Scuola di Specializzazione in Cardiochirurgia Unibo; alta especialização em cirurgia da aorta torácica no CV).",
+   "fonte_cc": "https://www.unibo.it/sitoweb/davide.pacini/cv ; https://www.unibo.it/sitoweb/davide.pacini/download/en/CV%20inglese%20mar%202026.pdf",
+   "cardiologia": "Diretor Cardiologia: Nazzareno Galiè segundo qsalute.it (página sem data — confirmar).",
+   "fonte_cardio": "https://www.qsalute.it/cardiologia-policlinico-bologna-s-orsola-malpighi/",
+   "transplante": "Único centro de transplante cardíaco da Emilia-Romagna; 1º centro nacional por nº de transplantes cardíacos (3º ano consecutivo, 39 tx sendo 8 pediátricos — ano não explícito); jan–set/2025: 28 tx cardíacos (4 DCD). 2023: 1º transplante italiano com coração em OCS ('heart in a box') pela equipe Pacini.",
+   "fontes_tx": [
+    "https://salute.regione.emilia-romagna.it/notizie/regione/2025/settembre/allegato_trapianto_cuorefermo.pdf",
+    "https://archivio.blitzquotidiano.it/cronaca-italia/cuore-in-scatola-tenuto-in-vita-continua-a-battere-il-primo-trapianto-in-italia-video-3495909"
+   ],
+   "miocardiopatias": "Elena Biagini — PI do estudo NCT06813443 (caracterização de miocardiopatias para identificar candidatos a transplante; Bologna coordenador, 700 participantes) e trabalhos em amiloidose TTR.",
+   "fonte_cmp": "https://clinicaltrials.gov/study/NCT06813443",
+   "diretor_fellowship": "Pacini dirige a Escola de Especialização em Cardiocirurgia (não há fellowship estilo EUA)",
+   "certeza": "confirmado para Pacini; provável para Galiè; volume 2025 confirmado"
+  },
+  "pessoas_chave": [
+   {
+    "nome": "Davide Pacini",
+    "cargo": "Diretor UO Cardiochirurgia; Diretor Scuola Spec. Cardiochirurgia (Unibo)",
+    "por_que": "decide/hospeda em aorta e transplante",
+    "fonte": "https://www.unibo.it/sitoweb/davide.pacini/cv"
+   },
+   {
+    "nome": "Elena Biagini",
+    "cargo": "Cardiologista, PI de estudo de miocardiopatias/candidatos a transplante; amiloidose",
+    "por_que": "lidera pesquisa em miocardiopatias",
+    "fonte": "https://clinicaltrials.gov/study/NCT06813443"
+   },
+   {
+    "nome": "Luciano Potena",
+    "cargo": "Responsável por registro de IC avançada/transplante (cargo formal não confirmado)",
+    "por_que": "transplante cardíaco/IC avançada",
+    "fonte": "https://decentrialz.com/clinical-trials/electronic-register-advanced-heart-failure-transplantation-06773611",
+    "certeza": "provável"
+   },
+   {
+    "nome": "Nazzareno Galiè",
+    "cargo": "Diretor Cardiologia (fonte sem data)",
+    "por_que": "chefe da cardiologia",
+    "fonte": "https://www.qsalute.it/cardiologia-policlinico-bologna-s-orsola-malpighi/",
+    "certeza": "provável"
+   }
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {
+    "titulo": "Murana et al. — estudo de frozen elephant trunk (FET) 2007–2022, Sant'Orsola (freedom from reintervention/TEVAR)",
+    "ano": 2024,
+    "ref": "Eur J Cardiothorac Surg 2024;65(2):ezad364 (DOI não mostrado no trecho)",
+    "fonte": "https://cris.unibo.it/bitstream/11585/995609/1/ezad364.pdf"
+   },
+   {
+    "titulo": "Leone et al. — editorial sobre FET na dissecção crônica (coautor Pacini)",
+    "ano": 2025,
+    "doi": "10.21037/acs-2025-evet-0045",
+    "fonte": "https://cris.unibo.it/retrieve/handle/11585/1036362/4c7de7b8-2549-412e-97c7-6a266412d81e/acs-14-04-309.pdf"
+   },
+   {
+    "titulo": "Biagini, Longhi et al. — coorte retrospectiva de portadores de mutação TTR em Bolonha (1984–2022)",
+    "ano": 2024,
+    "ref": "Eur J Prev Cardiol 2024 (DOI/PMID não nos resultados)",
+    "fonte": "https://cris.unibo.it/cris/rp/rp22071/statistics?type=item"
+   }
+  ],
+  "dicas": [
+   "Colaboração cardiocirúrgica Bologna–Parma (Ospedale Maggiore) confirmada pela imprensa (url do radar).",
+   "Processo italiano típico: autorização discricionária da Direção, sem vínculo, vigilância sanitária; exige um tutor/diretor de UO que aceite.",
+   "Italiano pode ser exigido/valorizado."
+  ],
+  "rota_recomendada": "1) E-mail direto ao Prof. Davide Pacini (aorta/FET/transplante) pedindo frequenza volontaria de ~4 semanas, citando o estudo FET ezad364 e o heart-in-a-box; 2) com aceite do diretor, solicitar a autorização via regulamento de frequenza volontaria da AOU (perguntar ao escritório Polo Murri o trâmite para estrangeiros); 3) para miocardiopatias, alternativa via Elena Biagini.",
+  "alerta_correcao": "URL do radar é notícia sobre colaboração Bologna–Parma, não página de programa."
+ },
+ {
+  "match": "Hospital Puerta de Hierro Majadahonda",
+  "i": 85,
+  "cidade": "Majadahonda (Madri)",
+  "pais": "Espanha",
+  "areas": [
+   "miocardiopatias",
+   "cardiogenetica",
+   "transplante"
+  ],
+  "programa": {
+   "tipo": "Estancias formativas para profesionales sanitarios extranjeros (Ministerio de Sanidad, art. 30 do RD 183/2008) — via nacional, sem página própria do hospital encontrada",
+   "elegibilidade": "Profissionais/especialistas em formação de países com acordo de cooperação cultural com a Espanha (Brasil não citado explicitamente no trecho — provável).",
+   "janelas": "Convocatórias periódicas; a última listada foi 6–17 jul/2026 (já fechada); próxima data não encontrada.",
+   "duracao": "máximo 1 ano, sem prorrogação; uma estância e um hospital por vez",
+   "taxa": "não encontrado",
+   "vinculo": "sem relação laboral",
+   "antecedencia": "processo pode levar 9–12 meses (guia de hospital catalão)",
+   "documentos": "não se aceita solicitação por e-mail; detalhes nos FAQ do Ministério",
+   "contato_oficial": "Docencia (UAM) Puerta de Hierro: docencia.puertadehierro@uam.es, tel. 911917350 (publicado na página de docência)",
+   "fontes": [
+    "https://www.sanidad.gob.es/en/areas/profesionesSanitarias/profesiones/estanciasFormativasExtranjeros/home.htm",
+    "https://www.sanidad.gob.es/areas/profesionesSanitarias/profesiones/estanciasFormativasExtranjeros/docs/2027_1FAQ_PREGUNTAS_FRECUENTES.pdf",
+    "https://www.comunidad.madrid/hospital/puertadehierro/profesionales/docencia",
+    "https://www.csapg.cat/media/upload/arxius/professionals/docencia/estancias-formativas-extranjeros-procediment-v1.pdf"
+   ],
+   "certeza": "confirmado (via nacional e contato docência); provável (aplicação ao Brasil)"
+  },
+  "servico": {
+   "cardiogenetica": "Unidad de Cardiopatías Familiares (Servicio de Cardiología) — CSUR do SNS desde 2013; membro da ERN GUARD-Heart. Chefe: Pablo García-Pavía (também CNIC e CIBERCV).",
+   "fontes_cg": [
+    "https://www.comunidad.madrid/hospital/puertadehierro/noticia/45611",
+    "https://www.cnic.es/en/node/6438"
+   ],
+   "transplante": "Unidad de Insuficiencia Cardiaca Avanzada y Trasplante — >1.000 transplantes cardíacos (líder na Espanha; programa desde 1984); ~50 assistências ventriculares; selo SEC-Excelente em assistência ventricular. Javier Segovia associado à unidade (fonte 2015; chefia atual não confirmada).",
+   "fontes_tx": [
+    "https://www.comunidad.madrid/hospital/puertadehierro/noticia/hospital-puerta-hierro-lider-implante-asistencias-ventriculares-pacientes-insuficiencia-cardiaca",
+    "https://www.revespcardiol.org/es-aspectos-organizativos-contemporaneos-de-articulo-S1131358715300042-pdf-file"
+   ],
+   "chefe_servico_cardiologia": "não encontrado",
+   "diretor_fellowship": "não encontrado",
+   "certeza": "confirmado para García-Pavía e volume; provável para Segovia"
+  },
+  "pessoas_chave": [
+   {
+    "nome": "Pablo García-Pavía",
+    "cargo": "Chefe da Unidad de Cardiopatías Familiares; investigador CNIC/CIBERCV",
+    "por_que": "decide/hospeda em miocardiopatias e cardiogenética; 1º autor do position statement ESC de amiloidose",
+    "fonte": "https://www.cnic.es/en/node/6438"
+   },
+   {
+    "nome": "Esther González-López",
+    "cargo": "Cardiologista da unidade (amiloidose)",
+    "por_que": "pesquisa amiloidose",
+    "fonte": "https://www.radcliffecardiology.com/authors/esther-gonzalez-lopez",
+    "certeza": "provável"
+   },
+   {
+    "nome": "Javier Segovia",
+    "cargo": "Unidad de Trasplante Cardiaco/IC avanzada (fonte 2015)",
+    "por_que": "transplante",
+    "fonte": "https://www.revespcardiol.org/es-aspectos-organizativos-contemporaneos-de-articulo-S1131358715300042-pdf-file",
+    "certeza": "provável (cargo atual não confirmado)"
+   },
+   {
+    "nome": "Mariana Brandão",
+    "cargo": "Research & clinical fellow na unidade; PhD em amiloidose (orientador García-Pavía) — PORTUGUESA, não brasileira",
+    "por_que": "exemplo de fellow lusófona estrangeira aceita; bom contato informal",
+    "fonte": "https://esc365.escardio.org/person/680493"
+   }
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {
+    "titulo": "Penetrance of Dilated Cardiomyopathy in Genotype-Positive Relatives",
+    "ano": 2024,
+    "doi": "10.1016/j.jacc.2024.02.036",
+    "fonte": "https://www.news-medical.net/news/20240422/New-research-identifies-risk-factors-for-dilated-cardiomyopathy-in-genetic-carriers.aspx"
+   },
+   {
+    "titulo": "Estudo multicêntrico (20 hospitais, 1.005 pacientes) sobre prognóstico de CMD genética combinando genética e RM (detalhes de publicação não nos resultados)",
+    "ano": "2024 (provável)",
+    "fonte": "https://www.comunidad.madrid/hospital/puertadehierro/noticia/61501"
+   },
+   {
+    "titulo": "Ensaio fase I de anticorpo depletor de amiloide (NEJM, Puerta de Hierro líder)",
+    "ano": 2023,
+    "fonte": "https://www.comunidad.madrid/hospital/puertadehierro/noticia/66219",
+    "ref": "DOI não nos resultados"
+   }
+  ],
+  "dicas": [
+   "Curso 'Amiloday' organizado pelo hospital desde 2018 (porta de entrada/networking).",
+   "Programa de formação em amiloidose para profissionais da China (prova de que recebem estrangeiros em formação estruturada).",
+   "Unidade aceita fellows estrangeiros (ex.: fellow portuguesa via PhD).",
+   "Pedido pelo Ministério não aceita e-mail; planejar 9–12 meses."
+  ],
+  "rota_recomendada": "1) E-mail ao Dr. Pablo García-Pavía pedindo estância de ~4 semanas na Unidad de Cardiopatías Familiares (citar JACC 2024 penetrância CMD) e pedir carta de aceite; 2) com aceite, submeter na próxima convocatória de 'Estancias formativas para extranjeros' do Ministerio de Sanidad (antecedência ~1 ano) e alinhar com docencia.puertadehierro@uam.es; 3) alternativa curta: inscrever-se no Amiloday/cursos SEC.",
+  "alerta_correcao": "URL do radar é a lista CSUR do Ministério (confirma CSUR de cardiopatias familiares), não um programa."
+ },
+ {
+  "match": "AOU Padova",
+  "i": 86,
+  "cidade": "Pádua",
+  "pais": "Itália",
+  "areas": [
+   "esporte",
+   "cardiogenetica",
+   "miocardiopatias"
+  ],
+  "programa": {
+   "tipo": "Frequenza volontaria (Regolamento per le frequenze volontarie da Azienda Ospedaliera di Padova)",
+   "descricao": "Autorização discricionária, sem vínculo de trabalho, sem ônus para o hospital, frequentador não substitui staff nem toma decisões; pedido por correio/PEC ao hospital. Regras específicas para estrangeiros não encontradas (art. 6 citado, não lido).",
+   "fontes": [
+    "https://sdb.unipd.it/medico-frequentatore-2013-nuovo-regolamento",
+    "https://testweb.sdb.unipd.it/sites/sdb.unipd.it/files/Medico%20Frequentatore%20Ulteriori%20Informazioni%20.pdf"
+   ],
+   "taxa": "sem ônus para o hospital (taxa para o frequentador não mencionada)",
+   "duracao": "não encontrado",
+   "documentos": "não encontrado",
+   "contato_oficial": "não encontrado",
+   "alternativa_estruturada": "Master di II livello in Cardiologia dello Sport (Univ. Padova, diretor Corrado desde 2015) e Corso SportCard",
+   "fonte_master": "https://www.masterin.it/master/23387-master-cardiologia-dello-sport/",
+   "certeza": "confirmado (regulamento 2013); não confirmado para estrangeiros"
+  },
+  "servico": {
+   "esporte": "Ambulatorio di Cardiologia dello Sport (criado 2020, screening de 2º/3º nível) — responsável Prof. Alessandro Zorzi; UOSD 'Centro Genetico Clinico delle Cardiomiopatie Aritmiche e Cardiologia dello Sport' citada no CV de Zorzi.",
+   "cardiologia": "Clinica Cardiologica — Diretor Prof. Domenico Corrado (Ordinario; Dip. Scienze Cardio-Toraco-Vascolari e Sanità Pubblica); doutor honoris causa Semmelweis nov/2025.",
+   "cardiopatologia": "Cristina Basso e Gaetano Thiene coautores (Padua criteria/ACM); cargo atual de Basso não confirmado nos resultados.",
+   "fontes": [
+    "https://www.ilnordest.it/cronaca/arresti-cardiaci-sport-alessandro-zorzi-caso-bove-rischi-soccorsi-prevenzione-tg4289ro",
+    "https://dataweb.unipd.it/persone/sites/default/files/CV_AB5300BCFE10759DDC49C1A0543C9196_IT.pdf",
+    "https://www.unipd.it/sites/unipd.it/files/2025-11-25_Dottorato%20HC%20al%20prof%20Domenico%20Corrado.pdf"
+   ],
+   "volume": "não encontrado",
+   "diretor_fellowship": "Corrado — Diretor do Master em Cardiologia do Esporte",
+   "certeza": "confirmado"
+  },
+  "pessoas_chave": [
+   {
+    "nome": "Domenico Corrado",
+    "cargo": "Diretor Clinica Cardiologica; Diretor Master Cardiologia dello Sport",
+    "por_que": "decide; referência mundial em ACM/morte súbita no atleta (Padua criteria)",
+    "fonte": "https://www.unipd.it/sites/unipd.it/files/2025-11-25_Dottorato%20HC%20al%20prof%20Domenico%20Corrado.pdf"
+   },
+   {
+    "nome": "Alessandro Zorzi",
+    "cargo": "Prof. associado; responsável pelo Ambulatorio di Cardiologia dello Sport",
+    "por_que": "hospeda no dia a dia; e-mail mais provável de resposta",
+    "fonte": "https://www.ilnordest.it/cronaca/arresti-cardiaci-sport-alessandro-zorzi-caso-bove-rischi-soccorsi-prevenzione-tg4289ro"
+   },
+   {
+    "nome": "Patrizio Sarto",
+    "cargo": "Coautor de screening em crianças/atletas (EHJ 2023)",
+    "por_que": "medicina/cardiologia do esporte",
+    "fonte": "https://rcastoragev2.blob.core.windows.net/44d0e800b8282092e9a0dc6a449baa20/ehad017.PMC10027466.pdf",
+    "certeza": "provável (vínculo exato não detalhado)"
+   },
+   {
+    "nome": "Cristina Basso",
+    "cargo": "Coautora (Padova) em ACM e cardiologia do esporte",
+    "por_que": "cardiopatologia/cardiogenética",
+    "fonte": "https://pesquisa.bvsalud.org/bvsms/resource/pt/mdl-37844667",
+    "certeza": "provável (cargo não confirmado)"
+   }
+  ],
+  "contato_institucional": "CV público de Corrado na unipd lista domenico.corrado@unipd.it (e-mail institucional publicado em CV) — https://www.unipd.it/data/cv/cv-it/9B96C5550CA5B92ADF4984BC5BE3B652.pdf",
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {
+    "titulo": "Sarto, Zorzi, Corrado et al. — rendimento do screening pré-participação em crianças italianas 7–18 anos (69 com doença de risco, 0,3%)",
+    "ano": 2023,
+    "doi": "10.1093/eurheartj/ehad017",
+    "fonte": "https://rcastoragev2.blob.core.windows.net/44d0e800b8282092e9a0dc6a449baa20/ehad017.PMC10027466.pdf"
+   },
+   {
+    "titulo": "Corrado, Zorzi et al. — revisão sobre Padua criteria (cardiomiopatia arritmogênica, RM)",
+    "ano": 2023,
+    "doi": "10.1093/eurheartjsupp/suad017",
+    "fonte": "https://rcastoragev2.blob.core.windows.net/cb1c4a66bf1ba36202089103c76cf9e5/suad017.PMC10132624.pdf"
+   },
+   {
+    "titulo": "Extrassístoles ventriculares em atletas (Int J Cardiol)",
+    "ano": 2023,
+    "doi": "10.1016/j.ijcard.2023.131220",
+    "fonte": "https://air.unimi.it/retrieve/handle/2434/1001928/2287193/1-s2.0-S016752732301063X-main.pdf"
+   },
+   {
+    "titulo": "Consenso europeu (Task Force) critérios diagnósticos de cardiomiopatia arritmogênica",
+    "ano": 2024,
+    "pmid": "37844667 (id MEDLINE na BVS 'mdl-37844667' — provável PMID)",
+    "fonte": "https://pesquisa.bvsalud.org/bvsms/resource/pt/mdl-37844667"
+   }
+  ],
+  "dicas": [
+   "Master/curso de Cardiologia dello Sport em Pádua como porta de entrada estruturada.",
+   "Regulamento de frequenze volontarie: pedido formal por PEC/correio após aceite do diretor.",
+   "Revista RCM tem special issue editada por Zorzi (arritmogênicas em jovens/atletas)."
+  ],
+  "rota_recomendada": "1) E-mail ao Prof. Alessandro Zorzi (com cópia ao Prof. Corrado) propondo 4 semanas no ambulatório de cardiologia do esporte/cardiopatias arritmogênicas, citando EHJ 2023 ehad017 e Padua criteria; 2) com aceite, pedido formal de frequenza volontaria à Azienda Ospedale-Università Padova; 3) alternativa: inscrição no Master/curso de Cardiologia do Esporte.",
+  "alerta_correcao": "Nenhum; URL do radar é notícia unipd sobre morte súbita no esporte."
+ },
+ {
+  "match": "Children's National Hospital",
+  "i": 87,
+  "cidade": "Washington, DC",
+  "pais": "EUA",
+  "areas": [
+   "fetal",
+   "congenita_adulto",
+   "cardio_pediatrica"
+  ],
+  "programa": {
+   "tipo": "Physician Observerships (Children's National) + International: 'Medical education and training'",
+   "descricao": "Página oficial de physician observerships: aceitos se registram no Volunteer Services Office e seguem as regras de voluntários. Site internacional diz que o hospital 'frequentemente recebe visitantes em vários departamentos para observership clínico, pesquisa e educação médica'.",
+   "fontes": [
+    "https://childrensnational.org/healthcare-providers/healthcare-education/educational-resources/physician-observerships",
+    "https://international.childrensnational.org/for-healthcare-professionals/medical-education-and-training"
+   ],
+   "taxa": "não encontrado",
+   "duracao": "não encontrado",
+   "antecedencia": "não encontrado",
+   "documentos": "provavelmente requisitos de voluntário (vacinas/background) — não detalhado",
+   "visto": "não encontrado",
+   "contato_oficial": "não encontrado",
+   "certeza": "confirmado (existência do programa); detalhes não encontrados"
+  },
+  "servico": {
+   "fetal": "Prenatal Cardiology Program (antigo Fetal Heart Program) — Mary Donofrio, Medical Director of Prenatal Cardiology e Critical Care Delivery Program; Diretora do Advanced Cardiac Imaging Fellowship; Van Metre Companies Professor of Fetal Cardiology. >4.000 ultrassons fetais/ano (ano não indicado). Karim Diab listado como Medical Director, Prenatal Cardiology Program em lista de faculty (Fetology Chicago).",
+   "congenita_adulto": "Washington Adult Congenital Heart Program (WACH, fundado 2001; acreditado ACHA; parceria com MedStar Washington Hospital Center) — Diretora médica Anitha Sara John desde 2011.",
+   "heart_center": "Wayne J. Franklin — Senior Vice President do Children's National Heart Center (mar/2024). Fellowship de cardiologia pediátrica: diretor Lowell Frank (36 meses, ~12 de pesquisa).",
+   "fontes": [
+    "https://research.childrensnational.org/people/donofrio-mary",
+    "https://www.childrensnational.org/get-care/departments/washington-adult-congenital-heart-program",
+    "https://innovationdistrict.childrensnational.org/?p=18407",
+    "https://childrensnational.org/healthcare-providers/healthcare-education/residencies-and-fellowships/fellowship-programs/cardiology",
+    "https://fetologychicago2022.elevate.gocadmium.com/faculty"
+   ],
+   "certeza": "confirmado"
+  },
+  "pessoas_chave": [
+   {
+    "nome": "Mary T. Donofrio",
+    "cargo": "Medical Director Prenatal Cardiology; Diretora Advanced Cardiac Imaging Fellowship",
+    "por_que": "decide/hospeda em fetal",
+    "fonte": "https://research.childrensnational.org/people/donofrio-mary"
+   },
+   {
+    "nome": "Anitha Sara John",
+    "cargo": "Medical Director, Washington Adult Congenital Heart Program",
+    "por_que": "hospeda em cardiopatia congênita do adulto",
+    "fonte": "https://www.childrensnational.org/get-care/departments/washington-adult-congenital-heart-program"
+   },
+   {
+    "nome": "Karim Diab",
+    "cargo": "Medical Director, Prenatal Cardiology Program; imaging (faculty list 2022)",
+    "por_que": "fetal/imagem",
+    "fonte": "https://fetologychicago2022.elevate.gocadmium.com/faculty",
+    "certeza": "provável"
+   },
+   {
+    "nome": "Wayne J. Franklin",
+    "cargo": "SVP, Children's National Heart Center",
+    "por_que": "liderança do Heart Center (aprovação institucional)",
+    "fonte": "https://innovationdistrict.childrensnational.org/?p=18407"
+   },
+   {
+    "nome": "Lowell Frank",
+    "cargo": "Diretor do Cardiology Fellowship",
+    "por_que": "educação/observers em cardiologia pediátrica",
+    "fonte": "https://childrensnational.org/healthcare-providers/healthcare-education/residencies-and-fellowships/fellowship-programs/cardiology"
+   }
+  ],
+  "brasileiros": "não encontrado (pista: palestrante do DCCCP/SBC 2022 descrito como Professor of Pediatrics GWU e cardiologista pediátrico/fetal do Children's National — nome não visível no trecho; não é prova de nacionalidade) — https://sd.iweventos.com.br/evento/dcccp2022/programacao/palestrante/8403",
+  "pontes_unifesp_sp": "provável/indireta: participação de faculty do Children's National em congresso do Departamento de Cardiopatia Congênita e Cardiologia Pediátrica da SBC (DCCCP 2022). Coautorias com Unifesp/USP não encontradas.",
+  "pesquisa_recente": [
+   {
+    "titulo": "Madan N, Donofrio MT, Szwast A, Moon-Grady AJ, Patel SR; Fetal Heart Society Collaborators (título não no trecho)",
+    "ano": 2024,
+    "ref": "Ultrasound Obstet Gynecol 2024;64(5):567-573 — DOI aparece truncado no trecho ('10.1002/uog.2909'), verificar",
+    "fonte": "https://innovationdistrict.childrensnational.org/fetal-detection-risk-stratified-care-algorithms-give-infants-with-chd-their-best-chance-to-thrive/"
+   },
+   {
+    "titulo": "Ali N, Donofrio MT — Delivery room and early postnatal management of neonates with congenital heart disease",
+    "ano": 2024,
+    "ref": "Prenatal Diagnosis 2024 (DOI não no trecho)",
+    "fonte": "https://innovationdistrict.childrensnational.org/fetal-detection-risk-stratified-care-algorithms-give-infants-with-chd-their-best-chance-to-thrive/"
+   },
+   {
+    "titulo": "Haxel CS ... Donofrio MT — Care of the Fetus With Congenital Cardiovascular Disease: From Diagnosis to Delivery",
+    "ano": 2022,
+    "doi": "10.1542/peds.2022-056415c",
+    "fonte": "https://bibliography.cumc.columbia.edu/node/45100"
+   },
+   {
+    "titulo": "CHI-RON (Congenital Heart Initiative) — estudo de adultos com cardiopatia congênita, apresentado por Anitha John",
+    "ano": 2024,
+    "fonte": "https://rethinkingclinicaltrials.org/?p=35106"
+   }
+  ],
+  "dicas": [
+   "Observers são tratados como voluntários (Volunteer Services) — esperar exigências de saúde/background como nos voluntários.",
+   "Hospitais pediátricos pares cobram ~US$750–1.500/mês (CHOP, Children's Nebraska) — referência, não dado do Children's National.",
+   "WACH é conjunto com MedStar Washington Hospital Center: congênita do adulto pode exigir circular nos dois campi.",
+   "Children's National promove CME/Grand Rounds e o programa 'CME spotlight' em ACHD."
+  ],
+  "rota_recomendada": "1) E-mail à Dra. Mary Donofrio (fetal) e/ou Dra. Anitha John (ACHD) pedindo sponsor para 4 semanas, citando UOG 2024/Pediatrics 2022 ou CHI-RON; 2) com sponsor, aplicar pelo Physician Observerships (Volunteer Services) e pelo site internacional; 3) usar a ponte SBC/DCCCP (faculty já palestrou no Brasil) como gancho.",
+  "alerta_correcao": "Nenhum; nome do programa fetal mudou para 'Prenatal Cardiology Program'."
+ }
+]

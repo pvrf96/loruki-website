@@ -1,0 +1,182 @@
+[
+ {
+  "match": "Semmelweis University Heart and Vascular Center",
+  "centro": "Semmelweis University Heart and Vascular Center (Városmajor), Budapeste — anestesia cardíaca/vascular e UTI cardíaca",
+  "cidade": "Budapeste, Hungria",
+  "areas": ["anestesia_cardiaca"],
+  "programa": {
+    "pagina": "https://esaic.org/wp-content/uploads/2025/05/Semmelweis-University-Heart-and-Vascular-Center-Information.pdf",
+    "tipo": "Centro anfitrião do ESAIC Exchange Programme (European Society of Anaesthesiology and Intensive Care). NÃO há página própria da Semmelweis de observership para médicos estrangeiros encontrada.",
+    "oferta": "Hands-on (para trainees estrangeiros de anestesia/UTI) em anestesia cardíaca, torácica e vascular, UTI e UTI cardíaca, incl. treino de TEE/TTE; anestesia/UTI cardíaca pediátrica só como observership ('Observership in the pediatric cardiac center per request').",
+    "elegibilidade": "Applicants must be an ESAIC Active/Trainee Member actively working in Europe (WHO) at the time of the deadline; mínimo 3º ano de residência até 4º ano pós-residência (guia 2026). => Residente brasileira de cardiologia/cirurgia, trabalhando no Brasil, NÃO é elegível.",
+    "duracao": "Até 3 meses (ESAIC); folha 2024 do centro: duração preferida 3 meses, início fev–dez (exceto jan e ago); idioma inglês ou alemão.",
+    "janelas": "Chamada 2027 fechada; 2028 abre em maio/2027 (página ESAIC).",
+    "taxa": "Não encontrado (ESAIC fala em grants; formulário 2027 sugere custo próprio — conflitante).",
+    "contato_oficial": "education@esaic.org (Secretariado ESAIC, citado no resultado de busca; provável).",
+    "fontes": ["https://esaic.org/wp-content/uploads/2024/03/Semmelweis-University_Budapest_Hungary.pdf", "https://esaic.org/professional-growth/exchange-programme/", "https://esaic.org/wp-content/uploads/2026/05/ESAIC-EP_Applicant-Guide-Checklist.pdf", "https://form.jotform.com/251315116195350"],
+    "certeza": "confirmado (oferta, duração, exigência de trabalhar na Europa); contato e taxa prováveis/não encontrados."
+  },
+  "servico": {
+    "nomes": ["Semmelweis University Heart and Vascular Center (Városmajor) — Department/Division of Cardiac Anaesthesiology and Intensive Care"],
+    "diretor_centro": "Béla Merkely — diretor do Heart and Vascular Centre desde 2012 (artigo 2019; também reitor da Semmelweis). Certeza: provável (fonte antiga).",
+    "chefe_anestesia": "Andrea Székely, PhD, DEAA — CV abr/2025: 'head of department, university professor', afiliada ao Heart and Vascular Center / Dept. of Anesthesia and Intensive Care; perfil SRATI: 'Professor of Anesthesia in the Division of Cardiac Anesthesiology'. Certeza: provável (CV hospedado na Faculdade de Ciências da Saúde — o departamento que ela chefia pode ser outro).",
+    "fellowship": "Não encontrado fellowship próprio; programa EACTAIC de anestesia cardiotorácica é separado.",
+    "volume": "Não encontrado; centro terciário com transplante cardíaco e suporte mecânico circulatório. Nov/2025: Városmajor poderá operar como 'supercentro europeu' com UTI separada para transplante/suporte circulatório.",
+    "fontes": ["https://semmelweis.hu/etk/files/2025/04/Szekely_Andrea_EN_CV.pdf", "https://sraticongres.ro/?p=14538", "https://semmelweis.hu/english/2019/07/my-university-dr-bela-merkely-and-the-varosmajor-heart-and-vascular-centre/", "https://infostart.hu/belfold/2025/11/17/europai-szupercentrumkent-mukodhet-a-varosmajori-szivklinika"]
+  },
+  "pessoas_chave": [
+    {"nome": "Andrea Székely", "cargo": "Professora de Anestesia, Divisão de Anestesia Cardíaca; head of department (CV 2025)", "por_que": "Liderança/pesquisa em anestesia cardíaca (estratificação de risco, ECMO/suporte mecânico, transplante, fragilidade); provável decisora para observers", "fonte": "https://sraticongres.ro/?p=14538"},
+    {"nome": "Béla Merkely", "cargo": "Diretor do Heart and Vascular Center (desde 2012; reitor)", "por_que": "Autoridade máxima do centro", "fonte": "https://semmelweis.hu/english/2019/07/my-university-dr-bela-merkely-and-the-varosmajor-heart-and-vascular-centre/"},
+    {"nome": "Zsolt Molnár", "cargo": "Docente de anestesia/UTI Semmelweis; guest editor de special issue MDPI JCM sobre estratégias perioperatórias em cirurgia cardiotorácica", "por_que": "Pesquisa perioperatória cardiotorácica", "fonte": "https://www.mdpi.com/journal/jcm/special_issue_flyer_pdf_v2/R89J4Y6E7Q", "certeza": "provável"}
+  ],
+  "brasileiros": "Não encontrado. Livro de visitas do centro mostra fellows estrangeiros (ex.: Daniela Silva e Mariana Amara — Portugal; fellows de Hong Kong e Turquia em intervenção/EP) — https://semmelweis.hu/varosmajor/oktatas/vendegkonyv/",
+  "pontes_unifesp_sp": "Não encontrado (nenhuma coautoria Semmelweis-Unifesp/InCor/Dante identificada nos trechos).",
+  "pesquisa_recente": [
+    {"titulo": "Frontiers Research Topic: Innovative monitoring and management of perioperative complications in cardiac surgery (autores do Heart and Vascular Center, incl. Merkely)", "ano": "não confirmado", "id": "https://www.frontiersin.org/research-topics/68175/", "certeza": "provável"},
+    {"nota": "Artigos 2022–2026 específicos com PMID não encontrados via busca; consultar https://lib.semmelweis.hu/publications/author/10021986 (Székely A) ou PubMed 'Szekely A[au] Semmelweis'."}
+  ],
+  "dicas": [
+    "O centro aceita estrangeiros historicamente (guestbook com fellows de EP/intervenção de vários países) — há cultura de visitantes, mas o canal formal encontrado é só o ESAIC.",
+    "Fora do ESAIC, a rota seria e-mail direto ao centro com proposta de observership (sem procedimento publicado).",
+    "Foco em ECMO/suporte mecânico e transplante é um gancho de assunto."
+  ],
+  "rota_recomendada": "Para residente de cardiologia/cirurgia brasileira o ESAIC Exchange NÃO serve (exige ser membro trabalhando na Europa e ser trainee de anestesia). Só vale se ela for de anestesia cardíaca: contato direto com a Profa. Andrea Székely propondo observership de ~1 mês (citar linha de pesquisa em suporte mecânico/transplante). Prioridade baixa.",
+  "alerta_correcao": "O radar marca 'programa: sim' com base no PDF do ESAIC, mas esse programa é restrito a membros ESAIC que trabalham na Europa e a trainees de anestesia; não é observership aberta a residentes brasileiros de cardiologia/cirurgia CV."
+ },
+ {
+  "match": "University of Kentucky — Visiting Scholar Cardiovascular Medicine",
+  "centro": "University of Kentucky — Division of Cardiovascular Medicine / Linda and Jack Gill Heart and Vascular Institute",
+  "cidade": "Lexington, KY, EUA",
+  "areas": ["cardiologia"],
+  "programa": {
+    "pagina": "https://medicine.uky.edu/index.php/departments/internalmedicine/visiting-scholar-program",
+    "nome_oficial": "Scholar Program for Exchange Visitors in Cardiovascular Medicine",
+    "formato": "Programa curto de observação com visto B1/B2, duração de 1 mês; shadowing de mentores docentes e outros médicos em internação e ambulatório; pode receber certificado e possivelmente cartas de recomendação.",
+    "taxa": "US$1.500 por mês, pagos integralmente na aceitação ('paid in full on acceptance into The Gill Heart and Vascular Program'); taxas consulares podem se aplicar; só cheque/certified funds.",
+    "documentos": "Todos devem baixar e preencher 'Certification for Clinical Observer to become an exchange visitor program participant' (suplemento ao formulário DS): https://medicine.uky.edu/sites/default/files/inline-files/CERTIFICATION%20FOR%20CLINICAL%20OBSERVER%20TO%20BECOME%20AN%20EXCHANGE%20VISITOR%20PROGRAM%20PARTICIPANT%20SUPPLEMENT%20TO%20FORM%20DS.pdf. Demais (vacinas, seguro, antecedência) não encontrados.",
+    "elegibilidade": "Não explicitada nos trechos (residente estrangeiro: provável que sim, programa voltado a médicos internacionais).",
+    "gestor": "Office of International Programs (OIP) supervisiona observerships internacionais (provável).",
+    "contato_oficial": "Não extraído (contato na própria página).",
+    "certeza": "confirmado (nome, 1 mês, B1/B2, US$1.500/mês, formulário); elegibilidade/antecedência não encontradas."
+  },
+  "servico": {
+    "nomes": ["Division of Cardiovascular Medicine", "Gill Heart and Vascular Institute"],
+    "chefe": "Vincent L. Sorrell, MD — Interim/Acting Division Chief (página da divisão); vaga de chefe permanente anunciada. Ex-chefe Susan Smyth faleceu em 31/12/2022.",
+    "diretor_instituto": "Dr. Gupta (associate chief da divisão; diretor do Gill Heart & Vascular Institute após atuar como acting director da service line criada em 2025) — primeiro nome não confirmado.",
+    "chefe_departamento": "Darwin Conwell, MD — Chair, Dept. of Internal Medicine (desde 2022).",
+    "fellowship": "Diretor do fellowship de cardiologia não encontrado.",
+    "volume": "Não encontrado. Gill Cardiovascular Biorepository descrito como um dos maiores do mundo (Kenneth Campbell, 2025).",
+    "fontes": ["https://medicine.uky.edu/departments/internalmedicine/about-us-4", "https://research.uky.edu/research-priorities/cardiovascular/about", "https://uknow.uky.edu/uk-healthcare/uk-healthcare-announces-new-director-gill-heart-vascular-institute", "https://medicine.uky.edu/departments/internalmedicine/welcome-department-internal-medicine"]
+  },
+  "pessoas_chave": [
+    {"nome": "Vincent L. Sorrell, MD", "cargo": "Interim Division Chief, Cardiovascular Medicine (imagem cardiovascular)", "por_que": "Chefe da divisão que hospeda o programa", "fonte": "https://medicine.uky.edu/departments/internalmedicine/about-us-4", "certeza": "provável (status interino pode ter mudado)"},
+    {"nome": "Dr. Gupta (primeiro nome não confirmado)", "cargo": "Diretor do Gill Heart & Vascular Institute; associate chief da divisão", "por_que": "Liderança do instituto onde ocorre o programa", "fonte": "https://uknow.uky.edu/uk-healthcare/uk-healthcare-announces-new-director-gill-heart-vascular-institute", "certeza": "provável"},
+    {"nome": "Kenneth S. Campbell, PhD", "cargo": "Professor de medicina cardiovascular; dirige pesquisa translacional e o Gill Cardiovascular Biorepository", "por_que": "Pesquisa de destaque (Nature 2023, mapeamento molecular do coração)", "fonte": "https://uknow.uky.edu/node/255431"},
+    {"nome": "Marc Paranzino, MD", "cargo": "Líder do Sports Cardiology Program (2024)", "por_que": "Programa novo — possível mentor", "fonte": "https://uknow.uky.edu/node/241691"},
+    {"nome": "Darwin Conwell, MD", "cargo": "Chair, Internal Medicine", "por_que": "Instância acima da divisão", "fonte": "https://medicine.uky.edu/departments/internalmedicine/welcome-department-internal-medicine"}
+  ],
+  "brasileiros": "Não encontrado.",
+  "pontes_unifesp_sp": "Não encontrado.",
+  "pesquisa_recente": [
+    {"titulo": "Estudo de mapeamento molecular de parte do coração com participação de Kenneth Campbell (Nature)", "ano": 2023, "id": "não extraído", "certeza": "provável (citado em podcast UK)"},
+    {"nota": "Artigos 2022–2026 com PMID não encontrados via busca; consultar PubMed 'University of Kentucky[ad] AND cardiovascular'."}
+  ],
+  "dicas": [
+    "É um dos raros programas de cardiologia com formato estruturado de 1 mês, preço fixo e publicado (US$1.500/mês) e menção a cartas de recomendação — encaixe perfeito com o perfil.",
+    "Pagamento só por cheque/certified funds — planejar com antecedência (remessa internacional).",
+    "Página fala em B1/B2 mas exige formulário de 'exchange visitor' (DS) — confirmar tipo de visto com o escritório."
+  ],
+  "rota_recomendada": "1) Aplicar direto ao Scholar Program for Exchange Visitors in Cardiovascular Medicine (página oficial + formulário DS supplement), pedindo 1 mês na subárea de interesse. 2) No e-mail citar o Gill Biorepository/linha de pesquisa e a experiência prévia em Chicago. 3) Pedir na aceitação a carta de recomendação mencionada pelo programa.",
+  "alerta_correcao": null
+ },
+ {
+  "match": "SUNY Upstate — Dept. of Medicine Observership",
+  "centro": "SUNY Upstate Medical University — Department of Medicine Observership (Division of Cardiology / Upstate Heart Institute)",
+  "cidade": "Syracuse, NY, EUA",
+  "areas": ["cardiologia"],
+  "programa": {
+    "pagina": "https://www.upstate.edu/medicine/observership/",
+    "descricao": "Aberto a médicos de todo o mundo que queiram observar médicos, residentes e fellows da Upstate; objetivo: visão geral do sistema médico americano.",
+    "taxa": "US$300 de inscrição, não reembolsável, por certified check/money order em US$ para 'Upstate Medical University, Department of Medicine/MSG'; cheque pessoal não aceito. Candidato arca com todos os custos (visto, viagem, health clearance, hospedagem).",
+    "formulario": "https://www.upstate.edu/medresidency/pdf/observership_application.pdf — enviar para Upstate Medical University, Department of Medicine, Attn: Observership Program, Room 5138 UH, 750 E. Adams St., Syracuse, NY 13210.",
+    "duracao": "Rotações de 2 semanas renováveis com aprovação do coordenador, supervisor e chefe do departamento — certeza: incerta (trecho vindo de cópia em pastebin; uma busca atribuiu a Nebraska).",
+    "contato_cardiologia": "Página lista 'Cardiology | Jefferey Montalbano' como contato da cardiologia (e-mail ofuscado nos trechos — ver página).",
+    "outros": "Após aprovação, o 'Observership Navigator' informa horários.",
+    "documentos": "Vacinas/background check não encontrados para Medicina (variam por departamento).",
+    "certeza": "confirmado (taxa, endereço, contato cardiologia, público internacional); duração incerta."
+  },
+  "servico": {
+    "nomes": ["Division of Cardiology", "Upstate Heart Institute"],
+    "chefe": "Indefinido: vaga de Division Chief of Cardiology aberta desde jul/2024 (ainda anunciada em 2025); documento sem data cita Dr. Larry Charlamb como Interim Chief; newsletter antiga cita Tim Ford como chief.",
+    "chefe_departamento": "Cynthia Taub, MD — Chair, Department of Medicine (posting jul/2024).",
+    "fellowship": "PD conflitante: página/FREIDA (dez/2025) listam Andrew Weinberg, DO, FACC; currículo do fellowship revisado jun/2026 nomeia Adeeb Al-Quthami, MD, RPVI, FACC, FSCMR como Director (mais recente).",
+    "volume": "Não encontrado. Cardiovascular Group of Syracuse (8 cardiologistas) incorporado em 2019.",
+    "fontes": ["https://careers.upstate.edu/jobs/division-chief-of-cardiology-syracuse-new-york-united-states", "https://www.upstate.edu/cardiology/education/applicants/", "https://www.upstate.edu/cardiology/pdf/academics/fellowship-curriculum.pdf", "https://freida.ama-assn.org/program/1413521128", "https://upstate.edu/news/articles/2019/2019-09-03-heart1.php"]
+  },
+  "pessoas_chave": [
+    {"nome": "Jefferey Montalbano", "cargo": "Contato de observership da Cardiologia (Dept. of Medicine)", "por_que": "Porta oficial de entrada para a cardiologia", "fonte": "https://www.upstate.edu/medicine/observership/"},
+    {"nome": "Adeeb Al-Quthami, MD", "cargo": "Diretor do fellowship de cardiologia (currículo rev. jun/2026)", "por_que": "Coordena fellows que a observer acompanharia", "fonte": "https://www.upstate.edu/cardiology/pdf/academics/fellowship-curriculum.pdf", "certeza": "provável"},
+    {"nome": "Andrew Weinberg, DO", "cargo": "Program Director listado na página/FREIDA 2025", "por_que": "Possível PD atual/anterior", "fonte": "https://freida.ama-assn.org/program/1413521128"},
+    {"nome": "Cynthia Taub, MD", "cargo": "Chair, Department of Medicine (cardiologista de imagem)", "por_que": "Chefe do departamento que gere o programa", "fonte": "https://careers.upstate.edu/jobs/division-chief-of-cardiology-syracuse-new-york-united-states"},
+    {"nome": "Ankur Kalra, MD, MSc", "cargo": "Afiliado à Division of Cardiology, SUNY Upstate (paper sobre retratações em literatura CV)", "por_que": "Pesquisador ativo — gancho para e-mail", "fonte": "https://doaj.org/article/0e625974e91c4ac48200cbde9279016c", "certeza": "provável (ano não confirmado; pode ter mudado de instituição)"}
+  ],
+  "brasileiros": "Não encontrado.",
+  "pontes_unifesp_sp": "Não encontrado.",
+  "pesquisa_recente": [
+    {"titulo": "Retractions and Withdrawals in Clinical Cardiovascular Literature", "ano": "não confirmado", "id": "https://doaj.org/article/0e625974e91c4ac48200cbde9279016c", "certeza": "provável"},
+    {"nota": "Outros artigos 2022–2026 não encontrados via busca."}
+  ],
+  "dicas": [
+    "Taxa baixa (US$300) e programa de departamento com navegador próprio — barreira de entrada pequena.",
+    "Pagamento por cheque/money order em papel enviado por correio — exige planejamento.",
+    "Programa mais voltado a IMGs buscando visão do sistema americano (perfil USMLE/match); menor prestígio acadêmico em cardiologia que outros polos."
+  ],
+  "rota_recomendada": "1) Baixar o formulário do Dept. of Medicine, indicar Cardiologia e escrever ao contato Jefferey Montalbano via página oficial. 2) Pagar US$300 por money order e prever ~2–4 semanas (confirmar duração). Opção de custo baixo/backup.",
+  "alerta_correcao": null
+ },
+ {
+  "match": "Imperial College Healthcare — International Clinical Observer",
+  "centro": "Imperial College Healthcare NHS Trust — International Clinical Observership (Cardiologia: Hammersmith Hospital / Heart Attack Centre)",
+  "cidade": "Londres, Reino Unido",
+  "areas": ["cardiologia"],
+  "programa": {
+    "pagina": "https://www.imperial.nhs.uk/education/education-resources/clinical-observership-programmes/international-clinical-observer",
+    "elegibilidade": "'Fully qualified post-graduate doctors', qualificados e registrados no país de origem; GMC não exigido. Residente brasileira com CRM: provável elegível.",
+    "regras": "Sem atividade hands-on; máximo 12 semanas; cada observer pareado com supervisor-mentor; supervisor consultant e head of speciality/clinical director assinam 'supervision agreement form'; observer cumpre etapas de corporate induction.",
+    "documentos": "Formulário de inscrição + documentos de identidade + visto se não-UE (detalhes de saúde ocupacional não encontrados).",
+    "status": "Página: 'the window for new applications for the international medical education observership programme is now closed' — reabertura não informada.",
+    "taxa": "Não encontrado.",
+    "contato_oficial": "E-mail ofuscado nos trechos — não confirmado.",
+    "fontes": ["https://www.imperial.nhs.uk/education/medicine/clinical-observership-programmes"],
+    "certeza": "confirmado (elegibilidade, 12 semanas, supervisor, janela fechada); taxa e contato não encontrados."
+  },
+  "servico": {
+    "nomes": ["Cardiology (Hammersmith Hospital — hub de cardiologia aguda e complexa do oeste de Londres)", "Heart Attack Centre (um dos 7 de Londres, 24h)"],
+    "clinical_director": "Dr Ramzi Khamis — Clinical Director of Cardiology and Cardiac Surgery, Imperial College Healthcare NHS Trust (perfis de terceiros sem data; provável).",
+    "lider_HAC": "Dr Iqbal Malik — lidera o programa Heart Attack Centre e é Director of Structural Heart Disease em Hammersmith (provável, fonte possivelmente antiga).",
+    "fellowship": "Clinical Training Fellowships (estrutural, ICC, eletrofisiologia) anunciadas em NHS Jobs — não é fellowship formal tipo ACGME.",
+    "volume": "Não encontrado.",
+    "fontes": ["https://www.imperial.nhs.uk/our-services/cardiology", "https://www.imperial.nhs.uk/consultant-directory/ramzi-khamis", "https://www.emedevents.com/speaker-profile/ramzi-khamis", "https://imperial.nhs.uk/our-services/cardiology/heart-assessment-centre/meet-the-team"]
+  },
+  "pessoas_chave": [
+    {"nome": "Dr Ramzi Khamis", "cargo": "Clinical Director, Cardiology and Cardiac Surgery; intervencionista em Hammersmith", "por_que": "Clinical director é quem assina o supervision agreement", "fonte": "https://www.imperial.nhs.uk/consultant-directory/ramzi-khamis"},
+    {"nome": "Dr Rasha Al-Lamee", "cargo": "Consultant intervencionista; líder dos ensaios ORBITA", "por_que": "Pesquisa de alto impacto citável; possível supervisora", "fonte": "https://imperial.nhs.uk/our-services/cardiology/heart-assessment-centre/meet-the-team"},
+    {"nome": "Dr Iqbal Malik", "cargo": "Lead Heart Attack Centre; Director of Structural Heart Disease", "por_que": "Lidera HAC/estrutural", "fonte": "https://search.myhealthspecialist.com/specialists/iqbal-malik", "certeza": "provável"},
+    {"nome": "Professor Darrel Francis", "cargo": "Consultant cardiologista, equipe HAC", "por_que": "Pesquisador sênior (coautor ORBITA)", "fonte": "https://imperial.nhs.uk/our-services/cardiology/heart-assessment-centre/meet-the-team"}
+  ],
+  "brasileiros": "Não encontrado.",
+  "pontes_unifesp_sp": "Não encontrado (nenhuma coautoria Imperial–InCor/Unifesp nos trechos).",
+  "pesquisa_recente": [
+    {"titulo": "ORBITA-2: Placebo-Controlled Trial of PCI for the Relief of Stable Angina (NEJM)", "ano": 2023, "id": "DOI 10.1056/NEJMoa2310610 (DOI de conhecimento prévio — provável; publicação NEJM confirmada no trecho)", "fonte": "https://citoday.com/news/orbita-2-shows-pci-relieves-chest-pain-and-improves-exercise-capacity"},
+    {"titulo": "ORBITA-COSMIC: coronary sinus reducer for refractory angina, double-blind placebo-controlled (The Lancet)", "ano": 2024, "id": "não extraído", "fonte": "https://www.acc.org/Latest-in-Cardiology/Articles/2024/04/02/17/02/mon-11am-orbita-cosmic-acc-2024"},
+    {"titulo": "Design and rationale of the ORBITA-COSMIC trial (EuroIntervention)", "ano": "2022-2023 (provável)", "id": "https://eurointervention.pcronline.com/article/a-double-blind-randomised-placebo-controlled-trial-of-the-coronary-sinus-reducer-in-refractory-angina-design-and-rationale-of-the-orbita-cosmic-trial/pdf"}
+  ],
+  "dicas": [
+    "Aplicação só abre em janelas — monitorar a página; hoje fechada.",
+    "Sem a janela, o caminho é ter um consultant disposto a supervisionar (ele + clinical director assinam o supervision agreement) — e-mail direto a um consultant de interesse é o que destrava.",
+    "Até 12 semanas; 1 mês cabe bem."
+  ],
+  "rota_recomendada": "1) Acompanhar a reabertura da janela do International Clinical Observer. 2) Em paralelo, escrever a um consultant (ex.: Rasha Al-Lamee, citando ORBITA-2/COSMIC) pedindo que seja supervisor de 4 semanas em Hammersmith, já que o formulário exige supervisor + clinical director (Ramzi Khamis). 3) Preparar documentos de identidade/visto de visitante.",
+  "alerta_correcao": "Programa ativo mas com janela de aplicações FECHADA no momento da pesquisa."
+ }
+]

@@ -1,0 +1,187 @@
+[
+{
+ "match": "Yale New Haven Hospital",
+ "cidade": "New Haven", "pais": "EUA", "areas_polo": ["robotica","aorta"],
+ "alerta_correcao": "A liderança mudou: Arnar Geirsson (ex-chefe e ex-diretor de cirurgia minimamente invasiva) saiu para NYP/Columbia; Marc Pelletier é chefe desde 01/03/2025. O programa robótico foi relançado em set/2025 com Kelsey Gray, então a página robotic-mitral-valve-repair-program do radar pode estar desatualizada. A política de observadores I.005 citada no radar é de 2013; o formulário atual é o observer_app_05-2026.",
+ "programa": {
+  "nome": "YNHH Medical Staff Observer (formulário observer_app_05-2026) e 'Application for Resident Observers' para residentes/fellows visitantes. Não existe observership próprio da cirurgia cardíaca",
+  "url": "https://www.ynhh.org/-/media/Files/YNHH/PDF/Medical-Staff/observer_app_05-2026.ashx",
+  "url_extra": ["https://ynhh.org/-/media/Files/YNHH/Medical_Professionals/Visiting_Residents/Application_for_Resident_Observers.ashx","https://www.ynhh.org/-/media/Files/Modules/House-Staff-Handbook/ClinicalObserverspolicyI005FINAL.ashx","https://www.ynhh.org/medical-professionals/gme/admissions/visiting-residents"],
+  "trecho": "Formulário de 2026: devolvido por e-mail ao endereço de medical staff applications; quem quiser participar do cuidado ao paciente deve aplicar como 'Guest'. Em centro cirúrgico, o observador 'must remain unscrubbed at all times'. Formulário de residente: 'Residents and fellows who are applying for an observership at Yale New Haven are required to complete the following forms'; exige contato do departamento na YNHH e assinatura do chief of service.",
+  "elegibilidade_residente_estrangeiro": "provável (há formulário específico para residentes observadores de fora; nada exclui estrangeiros, mas não há regra explícita para eles)",
+  "sponsor": "provável que seja exigido: o formulário pede um contato departamental na YNHH e a assinatura do chief of service",
+  "taxa": "não encontrado",
+  "duracao": "não encontrado",
+  "antecedencia": "não encontrado",
+  "documentos": "Registro de imunizações (MMR e hepatite B entre os itens), acordo de confidencialidade devolvido à Medical Staff Administration, cláusula de indenização, identificação visível. Também ajuda a orientação HIPAA para observadores de Yale (https://hipaa.yale.edu/sites/default/files/files/Visiting%20Clinical%20Observers%202022.pdf). Visto, seguro e background check: não encontrado (a Pathology de Yale pede seguro saúde e visto, mas a regra é do departamento dela)",
+  "contato_oficial": "O e-mail de medical staff applications aparece no formulário de 2026, mas o endereço exato não veio nos trechos (não encontrado). A política de 2013 citava o escritório Tompkins 209 (Heather Russell-Milici), contato provavelmente desatualizado",
+  "certeza": "confirmado (existem os formulários e as exigências de imunização e confidencialidade); provável (regras para estrangeiros e sponsor)"
+ },
+ "servico": {
+  "nomes": ["Division of Cardiac Surgery, Yale School of Medicine / Heart and Vascular Center, YNHH","Robotic Cardiac Surgery Program (relançado em 2025)","Aortic Institute at Yale-New Haven Hospital"],
+  "chefe": {"nome": "Marc Pelletier, MD","cargo": "Division Chief of Cardiac Surgery, Section Chief na YNHH, Physician-in-Chief do Heart and Vascular Center (desde 01/03/2025; antes era chefe na UH Cleveland/Case Western)","fonte": "https://medicine.yale.edu/myysm/news-article/yale-appoints-dr-marc-pelletier-chief-of-cardiac-surgery","certeza": "confirmado"},
+  "diretor_fellowship": "não encontrado (só achamos as páginas da residência CT de 2 e de 6 anos: https://medicine.yale.edu/surgery/education/residencies/cardiothoracic-surgery/2-year-cardiac/apply)",
+  "volume": [
+   {"dado": "50 cirurgias robóticas nos 6 meses seguintes ao relançamento (anúncio de abr/2026); mais de 80 casos robóticos no primeiro ano, incluindo plastia mitral e troca aórtica robóticas; único hospital da Nova Inglaterra com TECAB (revascularização totalmente endoscópica)","fonte": "https://www.ynhhs.org/news/yale-new-haven-hospital-advances-less-invasive-heart-surgery-with-robotic-cardiac-procedures ; https://hartfordbusiness.com/honoree/2026-healthcare-hero-dr-kelsey-gray/","certeza": "confirmado (dados da própria instituição)"},
+   {"dado": "Aortic Institute: 'one of the nation's largest facilities for treatment of the dilated thoracic aorta' (sem número nem ano)","fonte": "https://medicine.yale.edu/profile/john_elefteriades","certeza": "autodeclarado"}
+  ]
+ },
+ "pessoas_chave": [
+  {"nome": "Marc Pelletier, MD","cargo": "Chief, Division of Cardiac Surgery; Physician-in-Chief, Heart and Vascular Center","por_que": "Assina como chief of service, então aprova o observador. Atua em mitral minimamente invasiva, TAVR e aorta","fonte": "https://medicine.yale.edu/myysm/news-article/yale-appoints-dr-marc-pelletier-chief-of-cardiac-surgery","certeza": "confirmado"},
+  {"nome": "Kelsey Gray, MD","cargo": "Director, Cardiothoracic Transplant (YNHH Heart and Vascular Center); Assistant Professor; lidera o relançamento do programa robótico desde set/2025","por_que": "Host natural para robótica (TECAB, mitral robótica). Ela é uma das cerca de 15 cirurgiãs no mundo que fazem TECAB","fonte": "https://medicine.yale.edu/surgery/profile/kelsey-gray/ ; https://hartfordbusiness.com/honoree/2026-healthcare-hero-dr-kelsey-gray/","certeza": "confirmado"},
+  {"nome": "John A. Elefteriades, MD","cargo": "Founding Director (2011), Aortic Institute at Yale; Editor-in-Chief da revista AORTA","por_que": "Decide sobre visitantes e pesquisa no Aortic Institute","fonte": "https://medicine.yale.edu/profile/john_elefteriades","certeza": "confirmado"},
+  {"nome": "Bulat A. Ziganshin, MD, PhD","cargo": "Research Director, Aortic Institute; Associate Research Scientist of Surgery","por_que": "Coordena a pesquisa do instituto, que recebe fellows de pesquisa","fonte": "https://medicine.yale.edu/profile/bulat_ziganshin","certeza": "confirmado"},
+  {"nome": "Mohammad Abdullah Zafar, MBBS, MHS","cargo": "Research Director e Yale-Masone Aortic Research Fellow, Aortic Institute; editor da AORTA","por_que": "Contato operacional da pesquisa em aorta. Ele próprio é médico estrangeiro que entrou como fellow em 2015","fonte": "https://medicine.yale.edu/profile/mohammad-zafar/","certeza": "confirmado"}
+ ],
+ "brasileiros": "não encontrado (uma busca específica no Aortic Institute não achou nenhum fellow com vínculo no Brasil)",
+ "pontes_unifesp_sp": "não encontrado (nenhuma coautoria de Yale/Aortic Institute com Unifesp, InCor ou Dante apareceu nos resultados)",
+ "pesquisa_recente": [
+  {"titulo": "Two hundred robotic mitral valve repair procedures for degenerative mitral regurgitation: the Yale experience","ano": 2022,"ref": "Ann Cardiothorac Surg 2022;11(5):525-532 (Amabile, LaLonde, Geirsson et al.); DOI/PMID não apareceram","fonte": "https://portal.fis.tum.de/en/publications/two-hundred-robotic-mitral-valve-repair-procedures-for-degenerati/","certeza": "confirmado (título e revista)"},
+  {"titulo": "Patient-specific ascending aortic intervention criteria (Kalogerakos et al.)","ano": 2024,"ref": "Eur J Cardiothorac Surg 2024;65:ezae162 (título aproximado, tirado da lista de publicações)","fonte": "https://medicine.yale.edu/profile/mohammad-zafar/","certeza": "provável (título exato não confirmado)"},
+  {"titulo": "Genetic understanding of thoracic aortic aneurysm: practitioner-oriented review (Elefteriades, Zafar, Ziganshin)","ano": 2024,"ref": "JTCVS Open 2024 (título aproximado); DOI não apareceu","fonte": "https://medicine.yale.edu/profile/bulat_ziganshin","certeza": "provável"}
+ ],
+ "dicas": [
+  "O formulário de observador de 2026 exige ficar unscrubbed no centro cirúrgico: no e-mail, peça só observação",
+  "O programa robótico tem pouco mais de 1 ano e está crescendo (50 casos em 6 meses). Um centro novo tende a receber bem visitantes interessados em montar programa no Brasil",
+  "O Aortic Institute edita a revista AORTA e mantém fellowship de pesquisa (Yale-Masone): dá para entrar pela pesquisa",
+  "Prêmio AATS Sir Magdi Yacoub International Mentored Career Development Award: financia treinamento observacional de cirurgiões internacionais com carta do host (https://www.aats.org/foundation/sir-magdi-yacoub-international-mentored-career-development-award). Não confirmamos se Yale é host"
+ ],
+ "rota_recomendada": "1) E-mail para Kelsey Gray (robótica/TECAB), com cópia para Pelletier, pedindo 4 semanas de observação e citando a experiência prévia em Chicago e o relançamento do programa. 2) Alternativa em aorta: Elefteriades/Ziganshin no Aortic Institute, citando os trabalhos de critérios de intervenção na aorta ascendente. 3) Com o aceite, o departamento assina o Application for Resident Observers da YNHH (imunizações e confidencialidade)."
+},
+{
+ "match": "Barnes-Jewish / WashU",
+ "cidade": "St. Louis", "pais": "EUA", "areas_polo": ["robotica","arritmia_cirurgica"],
+ "alerta_correcao": "1) Liderança: Ralph Damiano Jr. dirigiu a Division of Cardiothoracic Surgery de 2014 a 2025. Tsuyoshi Kaneko assumiu a direção da divisão em 2025 (efetivo em 1º de maio) e já era chefe da Section of Cardiac Surgery desde 2022. 2) RISCO DE ELEGIBILIDADE: as WUSM Visitor Guidelines (mar/2024) só permitem observership hands-off para médicos que 'no longer pursuing graduate medical education' (até 30 dias). Residentes, inclusive estrangeiros, vão pelo GME (gme@wustl.edu). Uma residente R1–R5 provavelmente NÃO entra como observadora comum e precisa da via de visiting resident. Certeza provável: a tabela da fonte veio truncada.",
+ "programa": {
+  "nome": "WashU Medicine Visiting Learner process (HR Visiting Learner Team) e GME para residentes/fellows visitantes. Não existe observership próprio da cirurgia CT",
+  "url": "https://gme.wustl.edu/wp-content/uploads/2024/06/WUSM-Visitor-Guidelines_3.2024.pdf",
+  "url_extra": ["https://md.wustl.edu/?p=11592","https://obgyn.wustl.edu/education/visiting-residents-and-fellows/"],
+  "trecho": "Observerships são permitidos para observação hands-off só se o médico 'is no longer pursuing graduate medical education'; a regra 'includes International Medical Graduates'. Pedidos vão para visitinglearners@wustl.edu (médicos já formados) ou gme@wustl.edu (residentes/fellows).",
+  "elegibilidade_residente_estrangeiro": "duvidosa: residente em formação aparentemente não se qualifica para observership hands-off e tem de ir pelo GME (provável)",
+  "taxa": "não encontrado",
+  "duracao": "até 30 dias para observership de médico formado (provável, a tabela veio truncada)",
+  "antecedencia": "pelo menos 8 semanas antes, contatando primeiro o programa de interesse (página de visiting residents da OB/GYN, que aplica a regra do GME)",
+  "janelas": "A OB/GYN não aceita visitantes de 1º de março a 31 de agosto. Não sabemos se a cirurgia CT tem restrição igual",
+  "documentos": "não encontrado (WUSM Visitor Guidelines de 26/03/2024; a página de RH é hr.wustl.edu/visiting-learner-process)",
+  "contato_oficial": "gme@wustl.edu (residentes/fellows visitantes); visitinglearners@wustl.edu (médicos já formados)",
+  "certeza": "confirmado (e-mails e existência das guidelines); provável (limite de 30 dias e veto a residente)"
+ },
+ "servico": {
+  "nomes": ["Division of Cardiothoracic Surgery / Section of Cardiac Surgery, WashU Medicine – Barnes-Jewish Hospital","Atrial Fibrillation Center / Cardiac Surgical Research Laboratory (Cox-Maze)","Programa de mitral robótica (desde out/2024)"],
+  "chefe": {"nome": "Tsuyoshi Kaneko, MD","cargo": "Director, Division of Cardiothoracic Surgery (2025); Chief, Section of Cardiac Surgery (desde 2022); John M. Shoenberg Chair in Cardiovascular Disease","fonte": "https://source.washu.edu/2025/08/kaneko-named-director-of-cardiothoracic-surgery/ ; https://medicine.washu.edu/news/kaneko-to-lead-division-of-cardiothoracic-surgery/","certeza": "confirmado"},
+  "diretor_fellowship": "não encontrado",
+  "volume": [
+   {"dado": "Primeira cirurgia mitral robótica da Barnes-Jewish em out/2024, feita por Kaneko depois de 12 meses de preparo com bolsa da Thoracic Surgery Foundation. É o único hospital num raio de 200 milhas a oferecer o procedimento. Não há número de casos","fonte": "https://professionals.barnesjewish.org/news/advancements-in-robotic-assisted-mitral-valve-surgery-at-barnes-jewish-hospital","certeza": "confirmado"},
+   {"dado": "Cox-Maze IV: 853 pacientes de 2003 a 2018 na série de durabilidade de longo prazo (JTCVS)","fonte": "https://profiles.wustl.edu/en/publications/the-long-term-outcomes-and-durability-of-the-cox-maze-iv-procedur/","certeza": "confirmado"},
+   {"dado": "Mitral Valve Repair Reference Center Award (AHA/Mitral Foundation) por 2 anos seguidos (ano não informado)","fonte": "https://surgery.wustl.edu/about-us/divisions/section-of-cardiac-surgery/","certeza": "confirmado"}
+  ]
+ },
+ "pessoas_chave": [
+  {"nome": "Tsuyoshi Kaneko, MD","cargo": "Director, Division of Cardiothoracic Surgery; Chief, Cardiac Surgery","por_que": "Decide sobre visitantes e é o cirurgião que faz a mitral robótica. Atua em valvar transcateter e minimamente invasiva","fonte": "https://source.washu.edu/2025/08/kaneko-named-director-of-cardiothoracic-surgery/","certeza": "confirmado"},
+  {"nome": "Ralph J. Damiano Jr., MD","cargo": "Ex-diretor da divisão (2014–2025); criador do Cox-Maze IV; lidera o laboratório de cirurgia de FA (financiado pelo NIH há mais de 30 anos)","por_que": "Maior referência mundial em arritmia cirúrgica, host natural para essa área","fonte": "https://surgery.wustl.edu/?p=614 ; https://ctsnet.org/home/rdamiano","certeza": "confirmado (o cargo atual depois de 2025 não foi confirmado)"},
+  {"nome": "Spencer J. Melby, MD","cargo": "Cirurgião cardíaco da WashU (lista de cirurgiões que fazem plastia mitral minimamente invasiva e Maze)","por_que": "Possível host em mitral/Maze minimamente invasivos","fonte": "https://cardiothoracicsurgery.wustl.edu/?p=20","certeza": "provável (não achamos papel específico em robótica)"}
+ ],
+ "brasileiros": "não encontrado (a busca por fellows brasileiros no laboratório de Damiano não deu resultado; a ex-fellow citada, Chawannuch Ruaengsri, é tailandesa)",
+ "pontes_unifesp_sp": "não encontrado (nenhuma coautoria WashU–Brasil em Cox-Maze. No Brasil, o InCor publicou ablação por radiofrequência intraoperatória (Abreu Filho) e Jatene publicou a experiência inicial com o Maze, sem vínculo com WashU)",
+ "pesquisa_recente": [
+  {"titulo": "The long-term outcomes and durability of the Cox-Maze IV procedure for atrial fibrillation","ano": 2022,"ref": "J Thorac Cardiovasc Surg (Khiabani, Damiano, Schuessler et al.); DOI/PMID não apareceram","fonte": "https://profiles.wustl.edu/en/publications/the-long-term-outcomes-and-durability-of-the-cox-maze-iv-procedur/","certeza": "confirmado (ano 2022 conforme o trecho)"},
+  {"titulo": "Late outcomes of stand-alone surgical ablation (Cox-Maze IV) – MacGregor, Damiano et al.","ano": 2022,"ref": "J Thorac Cardiovasc Surg 2022;164(5):1515-1528 (online abr/2021); PMCID PMC9536146","fonte": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9536146","certeza": "confirmado (título aproximado)"},
+  {"titulo": "Advancements in robotic-assisted mitral valve surgery at Barnes-Jewish Hospital (nota institucional, não é artigo)","ano": 2024,"ref": "sem DOI","fonte": "https://professionals.barnesjewish.org/news/advancements-in-robotic-assisted-mitral-valve-surgery-at-barnes-jewish-hospital","certeza": "confirmado"}
+ ],
+ "dicas": [
+  "Antes de tudo, pergunte ao gme@wustl.edu se uma residente estrangeira pode visitar como observadora. As regras indicam que residente vai pela via GME, com 8 semanas de antecedência e contato prévio com o programa",
+  "Não achamos artigos de 2023–2026 do grupo do Maze nos resultados. Antes do e-mail, confira no PubMed (Damiano RJ, 2024–2026) para citar algo recente",
+  "James Cox, inventor do Maze, hoje é professor na Northwestern: dá para combinar os dois polos de arritmia cirúrgica"
+ ],
+ "rota_recomendada": "1) Confirmar a elegibilidade com gme@wustl.edu (residente estrangeira, 4 semanas, observação). 2) Se aceitarem, e-mail a Kaneko (robótica mitral, programa desde 2024) ou a Damiano (Cox-Maze IV), citando a série de durabilidade de 2022. 3) Se residentes forem vetados, adiar para depois da residência (observership hands-off de até 30 dias via visitinglearners@wustl.edu) e priorizar outros polos."
+},
+{
+ "match": "Cedars-Sinai Smidt Heart Institute",
+ "cidade": "Los Angeles", "pais": "EUA", "areas_polo": ["robotica","transplante"],
+ "alerta_correcao": "Danny Ramzy (ex-diretor de robótica de Cedars) saiu para UTHealth Houston em 2022, então páginas antigas que o citam estão desatualizadas. Não achamos nenhuma página pública de observership da Cedars-Sinai.",
+ "programa": {
+  "nome": "não encontrado (nenhuma página pública de observership/visiting physician da Cedars-Sinai ou do Smidt Heart Institute)",
+  "url": "não encontrado",
+  "trecho": "O que existe: o Cedars-Sinai International Health office (citado no FAQ da residência de cirurgia, que só considera escolas internacionais 'with established affiliations ... through its International Health office') e um Robotic Cardiac Surgery Fellowship de 1 ano, não ACGME.",
+  "url_extra": ["https://cedars-sinai.edu/education/graduate-medical/residency/general-surgery/faqs.html","https://careercenter.asnc.org/job/robotic-cardiac-surgery-fellowship/76326014"],
+  "elegibilidade_residente_estrangeiro": "não encontrado",
+  "taxa": "não encontrado", "duracao": "não encontrado", "antecedencia": "não encontrado", "documentos": "não encontrado",
+  "contato_oficial": "não encontrado",
+  "certeza": "confirmado que não há página pública nos resultados"
+ },
+ "servico": {
+  "nomes": ["Department of Cardiac Surgery, Smidt Heart Institute","Heart Transplant Program (Department of Cardiology/Cardiac Surgery)","Robotic mitral/tricuspid repair program (Mitral Valve Repair Reference Center)"],
+  "chefe": {"nome": "Joanna Chikwe, MD","cargo": "Founding Chair, Department of Cardiac Surgery (desde 2019); Irina and George Schaeffer Distinguished Chair; especialista em plastia mitral robótica","fonte": "https://events.aats.org/mitral-conclave-25/joanna-chikwe ; https://pulse.cedars-sinai.org/news/cedars-sinai-designated-as-mitral-valve-repair-reference-center","certeza": "confirmado (2025–fev/2026)"},
+  "diretor_fellowship": "não encontrado (existem os fellowships Cardiovascular & Thoracic Surgery, Thoracic Transplantation/MCS e Robotic Cardiac Surgery, mas os diretores não apareceram)",
+  "volume": [
+   {"dado": "114 transplantes cardíacos adultos em 2025, maior centro da Califórnia em volume; 130 em 2022 (release de 2023); 2º maior dos EUA em volume (dados de 2024)","fonte": "https://www.cedars-sinai.org/newsroom/cedars-sinai-achieves-record-liver-lung-transplants-in-2025/ ; https://www.cedars-sinai.org/newsroom/a-record-year-for-cedars-sinai-transplant-patients/","certeza": "confirmado (dados da instituição)"},
+   {"dado": "1.412 plastias mitrais robóticas de 2005 a 2023, feitas por 4 cirurgiões (registro de Cedars); a maioria das operações mitrais é robótica, com taxa de plastia acima de 99%","fonte": "https://mdpi.com/2077-0383/13/21/6375 ; https://pulse.cedars-sinai.org/news/unrivaled-experience-in-robotic-and-transcatheter-mitral-and-tricuspid-repair","certeza": "confirmado"}
+  ]
+ },
+ "pessoas_chave": [
+  {"nome": "Joanna Chikwe, MD","cargo": "Chair, Department of Cardiac Surgery","por_que": "Decide sobre visitantes na cirurgia e lidera a robótica mitral","fonte": "https://events.aats.org/mitral-conclave-25/joanna-chikwe","certeza": "confirmado"},
+  {"nome": "Fardad Esmailian, MD","cargo": "Surgical Director, Heart Transplant Program","por_que": "Host em transplante; investigador do estudo DCD (NCT05462041)","fonte": "https://www.cedars-sinai.org/newsroom/cedars-sinai-achieves-record-liver-lung-transplants-in-2025/ ; https://clinicaltrials.gov/study/NCT05462041","certeza": "confirmado"},
+  {"nome": "Jon Kobashigawa, MD","cargo": "Director, Heart Transplant Program / Advanced Heart Disease","por_que": "Lado clínico do transplante. É referência mundial em pesquisa de transplante","fonte": "https://www.cedars-sinai.org/newsroom/cedars-sinai-achieves-record-liver-lung-transplants-in-2025/","certeza": "confirmado"},
+  {"nome": "Pedro Catarino, MD","cargo": "Cirurgião cardíaco de Cedars-Sinai (formado em Oxford)","por_que": "Nome lusófono, mas a fonte NÃO indica vínculo com o Brasil. Não usar como ponte brasileira","fonte": "https://rebuild.heart-valve-surgery.com/surgeons/dr-Pedro-Catarino-Los+Angeles-California.php","certeza": "provável (o cargo atual não foi confirmado)"}
+ ],
+ "brasileiros": "não encontrado (a página de graduados do fellowship de transplante/MCS existe, https://www.cedars-sinai.edu/education/graduate-medical/fellowship/thoracic-transplantation-mechanical-circulatory-support/graduates.html, mas os trechos não mostraram nenhum brasileiro)",
+ "pontes_unifesp_sp": "não encontrado",
+ "pesquisa_recente": [
+  {"titulo": "Registro de 1.412 plastias mitrais robóticas em Cedars-Sinai, 2005–2023 (Chikwe et al.)","ano": 2024,"ref": "J Clin Med 2024;13(21):6375 (título exato não veio nos trechos)","fonte": "https://mdpi.com/2077-0383/13/21/6375","certeza": "confirmado (revista e volume); título provável"},
+  {"titulo": "Impacto da estratégia de captação do coração sobre os órgãos abdominais captados juntos (Megna, Emerson, Esmailian et al.)","ano": 2023,"ref": "J Heart Lung Transplant 2023; DOI não apareceu","fonte": "https://profiles.ucla.edu/fardad.esmailian","certeza": "provável"},
+  {"titulo": "DCD IIT: Evaluating the Safety of Utilizing Donor Hearts From DCD Donors (ensaio unicêntrico, NRP/DPP)","ano": "2022–2025","ref": "NCT05462041","fonte": "https://clinicaltrials.gov/study/NCT05462041","certeza": "confirmado"}
+ ],
+ "dicas": [
+  "Não há programa público: a entrada depende de convite de um host (Chikwe, Esmailian ou Kobashigawa). Peça no e-mail que o departamento indique o processo interno",
+  "O Cedars-Sinai International Health office mantém afiliações com escolas estrangeiras. Vale perguntar se a Unifesp tem ou poderia ter vínculo (não confirmado)",
+  "Existem fellowships não ACGME em robótica e em transplante/MCS: o departamento já recebe treinandos de fora do sistema ACGME",
+  "Kobashigawa organiza historicamente reuniões de consenso em transplante. Não confirmamos nenhuma edição atual"
+ ],
+ "rota_recomendada": "1) Para transplante: e-mail a Esmailian (cirúrgico), com cópia para Kobashigawa, citando o volume de 114 transplantes em 2025 e o programa DCD com NRP, pedindo 4 semanas de observação. 2) Para robótica: e-mail a Chikwe citando a série de 1.412 plastias robóticas. 3) Pedir ao host que indique o processo interno de observer e o contato do International Health office."
+},
+{
+ "match": "Northwestern Memorial (Bluhm)",
+ "cidade": "Chicago", "pais": "EUA", "areas_polo": ["robotica","arritmia_cirurgica"],
+ "alerta_correcao": "Não há erro no polo. Vale verificar se o observership que a residente já fez em Chicago foi na Northwestern: nesse caso o contato anterior é a melhor ponte; se foi em outro hospital, conta como experiência para citar.",
+ "programa": {
+  "nome": "não encontrado (nenhuma página pública de observership da Northwestern Medicine, da Feinberg ou do Bluhm Cardiovascular Institute para médicos internacionais)",
+  "url": "não encontrado",
+  "trecho": "Duas buscas específicas (Bluhm/international observership e Feinberg observership policy) não acharam nenhuma página institucional.",
+  "elegibilidade_residente_estrangeiro": "não encontrado",
+  "taxa": "não encontrado", "duracao": "não encontrado", "antecedencia": "não encontrado", "documentos": "não encontrado",
+  "contato_oficial": "não encontrado",
+  "certeza": "confirmado que não há página pública nos resultados"
+ },
+ "servico": {
+  "nomes": ["Division of Cardiac Surgery, Northwestern Medicine / Bluhm Cardiovascular Institute","Northwestern Medicine Robotic Cardiac Surgery Program (desde 2023)","Programa de cirurgia de fibrilação atrial (Cox-Maze, Maze robótico)"],
+  "chefe": {"nome": "Douglas R. Johnston, MD","cargo": "Chief of Cardiac Surgery","fonte": "https://breakthroughsforphysicians.nm.org/cardiovascular-news-year-in-review-bluhm-cardiovascular-institute-2025","certeza": "confirmado (2025)"},
+  "diretor_instituto": "Patrick M. McCarthy, MD, Executive Director do Bluhm Cardiovascular Institute (https://www.ctsnet.org/print/home/pmccarthy)",
+  "diretor_fellowship": "não encontrado",
+  "volume": [
+   {"dado": "Volume de cirurgia cardíaca robótica dobrou de 2024 para 2025; programa lançado em 2023, começando pela mitral, depois CABG robótica e Maze robótico. Sem número absoluto","fonte": "https://breakthroughsforphysicians.nm.org/cardiovascular-clinical-video-robotic-cardiac-surgery-volume-doubles","certeza": "confirmado (autodeclarado)"}
+  ]
+ },
+ "pessoas_chave": [
+  {"nome": "Kevin E. Hodges, MD","cargo": "Assistant Professor; Director, Robotic and Minimally Invasive Cardiac Surgery","por_que": "Host direto para robótica (mitral, CABG e Maze robóticos)","fonte": "https://breakthroughsforphysicians.nm.org/cardiovascular-clinical-video-robotic-cardiac-surgery-volume-doubles","certeza": "confirmado"},
+  {"nome": "Douglas R. Johnston, MD","cargo": "Chief of Cardiac Surgery","por_que": "Aprova visitantes na divisão","fonte": "https://breakthroughsforphysicians.nm.org/cardiovascular-news-year-in-review-bluhm-cardiovascular-institute-2025","certeza": "confirmado"},
+  {"nome": "Patrick M. McCarthy, MD","cargo": "Executive Director, Bluhm Cardiovascular Institute; faz Cox-Maze e cirurgia de FA concomitante","por_que": "Referência em arritmia cirúrgica e liderança máxima do instituto","fonte": "https://www.ctsnet.org/print/home/pmccarthy","certeza": "confirmado"},
+  {"nome": "James L. Cox, MD","cargo": "Professor of Cardiac Surgery, Northwestern Medicine (inventor do Cox-Maze)","por_que": "Nome histórico da arritmia cirúrgica; bom para citar no e-mail","fonte": "https://breakthroughsforphysicians.nm.org/cardiovascular-news-article-coxs-surgical-treatment-of-afib","certeza": "confirmado (o papel ativo atual não foi confirmado)"}
+ ],
+ "brasileiros": [
+  {"nome": "Guilherme Baptista de Faria, MD","vinculo": "Cardiologista pediátrico no Lurie Children's; docente da Feinberg; fellowship no McGaw/Northwestern (2017); fala português","fonte": "https://www.nm.org/doctors/1962713768/guilherme-baptista-de-faria-md","certeza": "NÃO confirmado como brasileiro: a fonte não cita formação no Brasil. Fica de fora pela regra extra e não serve de ponte para cirurgia adulta"}
+ ],
+ "pontes_unifesp_sp": "não encontrado",
+ "pesquisa_recente": [
+  {"titulo": "Expert opinion de McCarthy PM sobre se o Maze IV é sempre a melhor escolha (abordagem da Northwestern: começa com clip epicárdico no átrio esquerdo e prioriza o fechamento da auriculeta)","ano": 2023,"ref": "JTCVS Techniques, fev/2023; PMCID PMC9938361 (título exato e DOI não apareceram)","fonte": "https://rcastoragev2.blob.core.windows.net/00ee80f99d3c03e021f7bb392826624c/main.PMC9938361.pdf","certeza": "provável (título aproximado)"},
+  {"titulo": "Innovative case study: robotic mitral valve repair, narrado por Hodges (vídeo institucional, nov/2025)","ano": 2025,"ref": "sem DOI","fonte": "https://breakthroughsforphysicians.nm.org/cardiovascular-clinical-video-innovative-case-study-robotic-mitral-valve-repair","certeza": "confirmado"},
+  {"titulo": "Behind BCVI: robotic Maze procedure (vídeo institucional)","ano": "não informado","ref": "sem DOI","fonte": "https://breakthroughsforphysicians.nm.org/cardiovascular-clinical-video-behind-bcvi-robotic-maze-procedure","certeza": "confirmado"}
+ ],
+ "dicas": [
+  "O Maze robótico une as duas áreas do polo (robótica e arritmia cirúrgica): esse é o melhor gancho para o e-mail a Hodges",
+  "Programa novo (2023) com volume dobrando: costuma receber bem visitantes",
+  "Se a experiência anterior em Chicago foi aqui, peça carta ou indicação ao host anterior. Se foi em outro hospital de Chicago, cite-a como prova de que ela já conhece a logística dos EUA",
+  "Não achamos artigos peer-reviewed de 2024–2026 de Hodges/Johnston nos resultados: confira no PubMed antes de citar"
+ ],
+ "rota_recomendada": "1) E-mail a Kevin Hodges pedindo 4 semanas no programa robótico (mitral e Maze robótico), com cópia para Douglas Johnston. 2) Alternativa em arritmia: McCarthy, citando a abordagem com clip epicárdico do artigo de 2023. 3) Pedir que a divisão indique o processo interno de observer (sem página pública)."
+}
+]

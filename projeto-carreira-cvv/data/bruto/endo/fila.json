@@ -1,0 +1,3392 @@
+[
+{
+"i": 0,
+"name": "Massachusetts General Hospital",
+"city": "Boston",
+"country": "EUA",
+"areas": [
+"robotica",
+"esporte",
+"nuclear",
+"uti_cardiaca",
+"ecmo",
+"emergencia_choque"
+],
+"programa": "sim",
+"url": "https://www.massgeneral.org/imaging/education/fellowships/observer",
+"contatos": [
+"https://www.massgeneral.org/education/fellowship.aspx?id=259",
+"https://www.massgeneral.org/imaging/education/fellowships/observer"
+]
+},
+{
+"i": 1,
+"name": "Asan Medical Center",
+"city": "Seul",
+"country": "Coreia do Sul",
+"areas": [
+"robotica",
+"transplante",
+"estrutural",
+"coronaria",
+"hemodinamica_coronaria"
+],
+"programa": "sim",
+"url": "https://brc.amc.seoul.kr/gb/lang/education/langEducationInfoScholar.do",
+"contatos": [
+"intedu@amc.seoul.kr",
+"https://news-en.amc.seoul.kr/news/eng/detail.do?cntId=2898"
+]
+},
+{
+"i": 2,
+"name": "Fundación Cardioinfantil — LaCardio",
+"city": "Bogotá",
+"country": "Colômbia",
+"areas": [
+"transplante",
+"congenitas",
+"estagio_externo_cardiologia",
+"cardio_pediatrica"
+],
+"programa": "sim",
+"url": "https://www.lacardio.org/educacion-medica/hospital-universitario/",
+"contatos": [
+"https://www.lacardio.org",
+"https://www.lacardio.org/educacion-medica/hospital-universitario/"
+]
+},
+{
+"i": 3,
+"name": "Instituto Nacional de Cardiología Ignacio Chávez",
+"city": "Cidade do México",
+"country": "México",
+"areas": [
+"hipertensao_pulmonar",
+"cardio_pediatrica",
+"congenita_adulto",
+"estagio_externo_cardiologia"
+],
+"programa": "sim",
+"url": "https://www.cardiologia.org.mx/organizacion/direccion_general/direccion_de_ensenanza/rotaciones_clinicas/",
+"contatos": [
+"https://www.cardiologia.org.mx/organizacion/direccion_general/direccion_de_ensenanza/rotaciones_clinicas/"
+]
+},
+{
+"i": 4,
+"name": "Erasmus MC — Thoraxcenter",
+"city": "Roterdã",
+"country": "Países Baixos",
+"areas": [
+"eletrofisiologia",
+"cirurgia_cardiaca"
+],
+"programa": "sim",
+"url": "https://www.eur.nl/en/erasmusmc/exchange/observership",
+"contatos": [
+"https://www.eur.nl/en/erasmusmc/exchange/observership"
+]
+},
+{
+"i": 5,
+"name": "KU Medical Center — Electrophysiology",
+"city": "Kansas City",
+"country": "EUA",
+"areas": [
+"eletrofisiologia",
+"cardiologia"
+],
+"programa": "sim",
+"url": "https://www.kumc.edu/academic-and-student-affairs/departments/office-of-international-programs/inbound-programs/information-for-irsd-observers-and-visitors/international-observership-program.html",
+"contatos": [
+"iirpobserve@kumc.edu"
+]
+},
+{
+"i": 6,
+"name": "Cincinnati Children's — Heart Institute",
+"city": "Cincinnati",
+"country": "EUA",
+"areas": [
+"congenitas",
+"cardiologia"
+],
+"programa": "sim",
+"url": "https://www.cincinnatichildrens.org/service/g/global/international-visiting-observer-program",
+"contatos": [
+"https://www.cincinnatichildrens.org/service/g/global/international-visiting-observer-program"
+]
+},
+{
+"i": 7,
+"name": "SickKids — Labatt Family Heart Centre",
+"city": "Toronto",
+"country": "Canadá",
+"areas": [
+"congenitas",
+"cardiologia"
+],
+"programa": "sim",
+"url": "https://www.sickkids.ca/en/care-services/clinical-departments/cardiology/cardiology-elective-and-observership-program",
+"contatos": [
+"ilp.requests@sickkids.ca"
+]
+},
+{
+"i": 8,
+"name": "Children's Hospital Colorado",
+"city": "Aurora (CO)",
+"country": "EUA",
+"areas": [
+"congenita_adulto",
+"cardio_pediatrica"
+],
+"programa": "sim",
+"url": "https://medschool.cuanschutz.edu/pediatrics/education/international-trainee-observership-program",
+"contatos": [
+"https://medschool.cuanschutz.edu/pediatrics/education/international-trainee-observership-program"
+]
+},
+{
+"i": 9,
+"name": "USF Health — International Training Programs",
+"city": "Tampa",
+"country": "EUA",
+"areas": [
+"cardiologia",
+"cirurgia_cardiaca"
+],
+"programa": "sim",
+"url": "https://health.usf.edu/medicine/ia/international-training-programs",
+"contatos": [
+"https://health.usf.edu/medicine/ia/international-training-programs"
+]
+},
+{
+"i": 10,
+"name": "AIIMS Nova Délhi — Observership for Foreign Nationals",
+"city": "Nova Délhi",
+"country": "Índia",
+"areas": [
+"cardiologia",
+"cirurgia_cardiaca"
+],
+"programa": "sim",
+"url": "https://www.aiims.edu/images/pdf/Academic_Section/Observership for Foreign Nationals.pdf",
+"contatos": [
+"academicsection@aiims.edu"
+]
+},
+{
+"i": 11,
+"name": "SCTIMST — Clinical Observership",
+"city": "Thiruvananthapuram",
+"country": "Índia",
+"areas": [
+"cardiologia",
+"cirurgia_cardiaca"
+],
+"programa": "sim",
+"url": "https://audit.sctimst.ac.in/Academic%20and%20Research/Academic/Guidelines,%20Manuals,%20Forms/resources/Guidelines_for_Clinical_Observership-Part-1.pdf",
+"contatos": [
+"Diretor do SCTIMST (pedido via chefe da instituição de origem)"
+]
+},
+{
+"i": 12,
+"name": "Boston Children's — Benderson Heart Center",
+"city": "Boston",
+"country": "EUA",
+"areas": [
+"congenitas"
+],
+"programa": "sim",
+"url": "https://www.childrenshospital.org/centers/heart-center/education-and-training/observerships",
+"contatos": [
+"observership.program@childrens.harvard.edu"
+]
+},
+{
+"i": 13,
+"name": "University of Miami — Global Observership (IMI)",
+"city": "Miami",
+"country": "EUA",
+"areas": [
+"cardiologia"
+],
+"programa": "sim",
+"url": "https://med.miami.edu/centers-and-institutes/international-medicine-institute/education-and-training/global-observership",
+"contatos": [
+"https://med.miami.edu/centers-and-institutes/international-medicine-institute/education-and-training/global-observership"
+]
+},
+{
+"i": 14,
+"name": "Guy's and St Thomas' — Cardiology Visiting Professional",
+"city": "Londres",
+"country": "Reino Unido",
+"areas": [
+"cardiologia"
+],
+"programa": "sim",
+"url": "https://gstt.mixd.co.uk/vpp/programmes/cardiology",
+"contatos": []
+},
+{
+"i": 15,
+"name": "Med Uni Graz — Observership",
+"city": "Graz",
+"country": "Áustria",
+"areas": [
+"cardiologia"
+],
+"programa": "sim",
+"url": "https://typo3-migration.medunigraz.at/en/international-student-mobility/observership-at-med-uni-graz",
+"contatos": [
+"international.office@medunigraz.at"
+]
+},
+{
+"i": 16,
+"name": "InCor — Instituto do Coração (HCFMUSP)",
+"city": "São Paulo",
+"country": "Brasil",
+"areas": [
+"transplante",
+"miocardiopatias",
+"cardio_pediatrica",
+"congenita_adulto",
+"uti_cardiaca",
+"coronaria",
+"estagio_externo_cardiologia",
+"fetal"
+],
+"programa": "sim",
+"url": "https://ensino.hcor.com.br/programa-experiencia-hcor---enfermaria-cardiologia/p",
+"contatos": [
+"https://www.incor.usp.br",
+"https://ensinoincor.com.br",
+"https://ensino.hcor.com.br/programa-experiencia-hcor---enfermaria-cardiologia/p"
+]
+},
+{
+"i": 17,
+"name": "Hospital BP — Beneficência Portuguesa de São Paulo",
+"city": "São Paulo",
+"country": "Brasil",
+"areas": [
+"coronaria",
+"robotica",
+"estagio_externo_cardiologia",
+"estagio_externo_ccv"
+],
+"programa": "sim",
+"url": "https://site.unifesp.br/coreme/estagio/estagio-opcional",
+"contatos": [
+"https://site.unifesp.br/coreme/estagio/estagio-opcional"
+]
+},
+{
+"i": 18,
+"name": "Instituto de Cardiologia do RS — IC/FUC",
+"city": "Porto Alegre",
+"country": "Brasil",
+"areas": [
+"estagio_externo_cardiologia"
+],
+"programa": "sim",
+"url": "https://diretoriacientificaicfuc.org.br/ensino/estagios/",
+"contatos": [
+"apoio.ensino@cardiologia.org.br"
+]
+},
+{
+"i": 19,
+"name": "ICTDF — Instituto de Cardiologia e Transplantes do DF",
+"city": "Brasília",
+"country": "Brasil",
+"areas": [
+"estagio_externo_cardiologia"
+],
+"programa": "sim",
+"url": "https://ictdf.org.br/estagios-optativos/",
+"contatos": [
+"https://ictdf.org.br/estagios-optativos/"
+]
+},
+{
+"i": 20,
+"name": "Hospital de Base — FAMERP/FUNFARME",
+"city": "São José do Rio Preto",
+"country": "Brasil",
+"areas": [
+"estagio_externo_cardiologia"
+],
+"programa": "sim",
+"url": "https://www.famerp.br/index.php/diretoria-de-pos-graduacao/coreme/estagios-optativos-externos/",
+"contatos": [
+"https://www.famerp.br/index.php/diretoria-de-pos-graduacao/coreme/estagios-optativos-externos/"
+]
+},
+{
+"i": 21,
+"name": "Deutsches Herzzentrum der Charité (DHZC)",
+"city": "Berlim",
+"country": "Alemanha",
+"areas": [
+"robotica",
+"imagem",
+"ic",
+"congenitas",
+"cardiologia",
+"cirurgia_cardiaca",
+"miocardiopatias",
+"cardio_pediatrica",
+"congenita_adulto",
+"anestesia_cardiaca",
+"uti_cardiaca"
+],
+"programa": "sim",
+"url": "https://www.dhzb.de/en/career/continuing-education/clinical-observership-visit",
+"contatos": [
+"https://www.dhzb.de/en/career/continuing-education/clinical-observership-visit",
+"https://www.dhzc.charite.de/en/career/cme/hospitations/"
+]
+},
+{
+"i": 22,
+"name": "Barts Heart Centre",
+"city": "Londres",
+"country": "Reino Unido",
+"areas": [
+"robotica",
+"imagem",
+"cardiologia",
+"miocardiopatias",
+"cardiogenetica",
+"anestesia_cardiaca"
+],
+"programa": "sim",
+"url": "https://educationacademy.bartshealth.nhs.uk/our-teams/medical-education-clinical-observership-programme/",
+"contatos": [
+"https://educationacademy.bartshealth.nhs.uk/our-teams/medical-education-clinical-observership-programme/",
+"https://esaic.org/wp-content/uploads/2026/06/Barts-Heart-Centre-Information.pdf"
+]
+},
+{
+"i": 23,
+"name": "Herzzentrum Leipzig (Helios) — Hospitation",
+"city": "Leipzig",
+"country": "Alemanha",
+"areas": [
+"valvar",
+"estrutural",
+"robotica",
+"cardio_pediatrica",
+"fetal",
+"coronaria"
+],
+"programa": "sim",
+"url": "https://www.helios-gesundheit.de/karriere/standorte/leipzig/das-sind-wir/herzzentrum/",
+"contatos": [
+"info.herzzentrum@helios-gesundheit.de",
+"kika.herzzentrum@helios-gesundheit.de"
+]
+},
+{
+"i": 24,
+"name": "Royal Papworth Hospital",
+"city": "Cambridge",
+"country": "Reino Unido",
+"areas": [
+"transplante",
+"cardiologia",
+"cirurgia_cardiaca",
+"hipertensao_pulmonar",
+"ecmo",
+"anestesia_cardiaca"
+],
+"programa": "sim",
+"url": "https://esaic.org/wp-content/uploads/2025/05/Royal-Papworth-Hospital-NHS-Foundation-Trust-Information.pdf",
+"contatos": [
+"papworth.business.services@nhs.net",
+"https://esaic.org/wp-content/uploads/2025/05/Royal-Papworth-Hospital-NHS-Foundation-Trust-Information.pdf"
+]
+},
+{
+"i": 25,
+"name": "Samsung Medical Center",
+"city": "Seul",
+"country": "Coreia do Sul",
+"areas": [
+"robotica",
+"ic",
+"transplante",
+"ecmo",
+"emergencia_choque"
+],
+"programa": "sim",
+"url": "https://www.samsunghospital.com/en/healthcare-professionals/education/observership-electives.do",
+"contatos": [
+"https://www.samsunghospital.com/en/healthcare-professionals/education/observership-electives.do"
+]
+},
+{
+"i": 26,
+"name": "Mount Sinai — International Observership",
+"city": "Nova York",
+"country": "EUA",
+"areas": [
+"eletrofisiologia",
+"estrutural",
+"cardiologia",
+"cirurgia_cardiaca"
+],
+"programa": "sim",
+"url": "https://mountsinai.vsyslive.com/pages/app/fnobserver",
+"contatos": [
+"https://mountsinai.vsyslive.com/pages/app/fnobserver"
+]
+},
+{
+"i": 27,
+"name": "Duke University Hospital",
+"city": "Durham (NC)",
+"country": "EUA",
+"areas": [
+"robotica",
+"transplante",
+"nuclear"
+],
+"programa": "sim",
+"url": "https://radiology.duke.edu/education/visiting-observerships",
+"contatos": [
+"https://physicians.dukehealth.org/articles/robotic-mitral-valve-repair-provides-faster-recovery",
+"https://www.dukehealth.org/treatments/transplant-program/heart-transplant",
+"https://radiology.duke.edu/education/visiting-observerships"
+]
+},
+{
+"i": 28,
+"name": "UCSF Cardiac Surgery — Visiting Physician",
+"city": "San Francisco",
+"country": "EUA",
+"areas": [
+"fetal",
+"cardio_pediatrica",
+"robotica"
+],
+"programa": "sim",
+"url": "https://cardiacsurgery.ucsf.edu/visitors-programs",
+"contatos": [
+"https://cardiacsurgery.ucsf.edu/visitors-programs"
+]
+},
+{
+"i": 29,
+"name": "UZ Leuven — Cardiac Surgery Observership",
+"city": "Leuven",
+"country": "Bélgica",
+"areas": [
+"congenita_adulto",
+"arritmia_cirurgica",
+"robotica"
+],
+"programa": "sim",
+"url": "https://www.uzleuven.be/en/cardiac-surgery/cardiac-surgery-observership",
+"contatos": [
+"https://www.uzleuven.be/en/cardiac-surgery/cardiac-surgery-observership"
+]
+},
+{
+"i": 30,
+"name": "National Taiwan University Hospital",
+"city": "Taipé",
+"country": "Taiwan",
+"areas": [
+"robotica",
+"ecmo"
+],
+"programa": "sim",
+"url": "https://www.ntuh.gov.tw/ckfinder_file/PMR/files/Guidelines%20of%20Clinical%20Observationship%20for%20Foreign%20Medical%20Doctors%20at%20National%20Taiwan%20University%20Hospital%20_NTUH_.pdf",
+"contatos": [
+"Departamento de Educação Médica do NTUH (exige R1 completo; 3 meses de antecedência)"
+]
+},
+{
+"i": 31,
+"name": "Cleveland Clinic Abu Dhabi",
+"city": "Abu Dhabi",
+"country": "Emirados Árabes",
+"areas": [
+"robotica",
+"cardiologia"
+],
+"programa": "sim",
+"url": "https://www.clevelandclinicabudhabi.ae/subspecialties/clinical-observership-program",
+"contatos": [
+"https://www.clevelandclinicabudhabi.ae/en/health-hub/health-library/pages/minimally-invasive-valve-repair.aspx",
+"https://fs10.formsite.com/CCADclinicaltraining/form1/index"
+]
+},
+{
+"i": 32,
+"name": "Jewish General Hospital (McGill)",
+"city": "Montreal",
+"country": "Canadá",
+"areas": [
+"robotica",
+"hemodinamica_coronaria"
+],
+"programa": "sim",
+"url": "https://www.mcgill.ca/cardiology/education/fellowships/cto",
+"contatos": [
+"https://www.jgh.ca/care-services/surgery/cardiac-surgery",
+"https://www.mcgill.ca/cardiology/education/fellowships/cto"
+]
+},
+{
+"i": 33,
+"name": "WVU Heart and Vascular Institute",
+"city": "Morgantown (WV)",
+"country": "EUA",
+"areas": [
+"robotica",
+"ecmo"
+],
+"programa": "sim",
+"url": "https://medicine.wvu.edu/media/372099/international-medical-graduate-observer-guideline-rev2023.pdf",
+"contatos": [
+"https://wvumedicine.org/heart/patient-care/services/cardiac-surgery"
+]
+},
+{
+"i": 34,
+"name": "Klinikum Dortmund — Herzchirurgie",
+"city": "Dortmund",
+"country": "Alemanha",
+"areas": [
+"robotica",
+"coronaria"
+],
+"programa": "sim",
+"url": "https://klinikumdo.de/kliniken-zentren/kliniken/herzchirurgie/international-reference-center-for-bypass-surgery",
+"contatos": [
+"https://www.klinikumdo.de/kliniken-zentren/kliniken/herzchirurgie/international-patients/english"
+]
+},
+{
+"i": 35,
+"name": "National Heart Centre Singapore (SingHealth)",
+"city": "Singapura",
+"country": "Singapura",
+"areas": [
+"ic",
+"imagem"
+],
+"programa": "sim",
+"url": "https://www.singhealthacademy.edu.sg/ccm/medical-education-programmes/fellowship-singhealth/overview",
+"contatos": [
+"https://www.singhealthacademy.edu.sg/ccm/medical-education-programmes/fellowship-singhealth/overview"
+]
+},
+{
+"i": 36,
+"name": "CHOP — Cardiac Center",
+"city": "Filadélfia",
+"country": "EUA",
+"areas": [
+"congenitas",
+"cirurgia_cardiaca"
+],
+"programa": "sim",
+"url": "https://www.chop.edu/services/international-observership-program",
+"contatos": [
+"https://www.chop.edu/services/international-observership-program"
+]
+},
+{
+"i": 37,
+"name": "Siriraj Hospital — Cardio-Thoracic Vascular Surgery",
+"city": "Bangkok",
+"country": "Tailândia",
+"areas": [
+"cirurgia_cardiaca",
+"anestesia_cardiaca"
+],
+"programa": "sim",
+"url": "https://www2.si.mahidol.ac.th/en/international-office/observership-program-in-cardio-thoracic-vascular-surgery-at-siriraj",
+"contatos": [
+"https://www2.si.mahidol.ac.th/en/international-office/observership-program-in-cardio-thoracic-vascular-surgery-at-siriraj"
+]
+},
+{
+"i": 38,
+"name": "NUH / National University Heart Centre",
+"city": "Singapura",
+"country": "Singapura",
+"areas": [
+"cardiogenetica",
+"miocardiopatias"
+],
+"programa": "sim",
+"url": "https://www.nuh.com.sg/research-and-education/hands-off-observership",
+"contatos": [
+"https://www.nuh.com.sg/research-and-education/hands-off-observership"
+]
+},
+{
+"i": 39,
+"name": "UCLA Health",
+"city": "Los Angeles",
+"country": "EUA",
+"areas": [
+"congenita_adulto",
+"cardiologia"
+],
+"programa": "sim",
+"url": "https://www.uclahealth.org/international-services/medical-education-training/physicians/physician-observerships",
+"contatos": [
+"IntlEdu@mednet.ucla.edu"
+]
+},
+{
+"i": 40,
+"name": "NUH / National University Heart Centre — Hands-off Observership",
+"city": "Singapura",
+"country": "Singapura",
+"areas": [
+"cardiologia",
+"cirurgia_cardiaca"
+],
+"programa": "sim",
+"url": "https://www.nuh.com.sg/research-and-education/hands-off-observership",
+"contatos": [
+"https://www.nuh.com.sg/research-and-education/hands-off-observership"
+]
+},
+{
+"i": 41,
+"name": "UAB — International Visiting Medical Observers",
+"city": "Birmingham (AL)",
+"country": "EUA",
+"areas": [
+"cardiologia",
+"cirurgia_cardiaca"
+],
+"programa": "sim",
+"url": "https://www.uab.edu/medicine/international/international-programs/observership",
+"contatos": [
+"https://www.uab.edu/medicine/international/international-programs/observership"
+]
+},
+{
+"i": 42,
+"name": "Keck Medicine of USC — International Observership",
+"city": "Los Angeles",
+"country": "EUA",
+"areas": [
+"cardiologia",
+"cirurgia_cardiaca"
+],
+"programa": "sim",
+"url": "https://sites.usc.edu/healthcare-edu/observership/",
+"contatos": [
+"https://sites.usc.edu/healthcare-edu/observership/"
+]
+},
+{
+"i": 43,
+"name": "AdventHealth — Institute for Surgical Advancement",
+"city": "Orlando (FL)",
+"country": "EUA",
+"areas": [
+"cardiologia",
+"cirurgia_cardiaca"
+],
+"programa": "sim",
+"url": "https://www.adventhealth.com/institute/adventhealth-institute-surgical-advancement/observership-program",
+"contatos": [
+"FH.HR.RegulatoryServices@AdventHealth.com"
+]
+},
+{
+"i": 44,
+"name": "National University Heart Centre Singapore / NUH",
+"city": "Singapura",
+"country": "Singapura",
+"areas": [
+"robotica"
+],
+"programa": "sim",
+"url": "https://www.nuh.com.sg/research-and-education/hands-off-observership",
+"contatos": [
+"https://www.nuh.com.sg/research-and-education/hands-off-observership"
+]
+},
+{
+"i": 45,
+"name": "Foothills Medical Centre / Libin (Univ. of Calgary)",
+"city": "Calgary",
+"country": "Canadá",
+"areas": [
+"robotica"
+],
+"programa": "sim",
+"url": "https://libin.ucalgary.ca/clinicians/libin-groups/minimally-invasive-cardiac-surgery/mics-surgeon-observation-training-program",
+"contatos": [
+"https://libin.ucalgary.ca/clinicians/libin-groups/minimally-invasive-cardiac-surgery/mics-surgeon-observation-training-program"
+]
+},
+{
+"i": 46,
+"name": "London Health Sciences Centre (Western University)",
+"city": "London (ON)",
+"country": "Canadá",
+"areas": [
+"robotica"
+],
+"programa": "sim",
+"url": "https://www.schulich.uwo.ca/internationalization/global_initiatives/observerships.html",
+"contatos": [
+"internationalization@schulich.uwo.ca"
+]
+},
+{
+"i": 47,
+"name": "Great Ormond Street Hospital",
+"city": "Londres",
+"country": "Reino Unido",
+"areas": [
+"congenitas"
+],
+"programa": "sim",
+"url": "https://gosh.nhs.uk/learning/gosh-learning-academy/international-opportunities/international-observership-programme",
+"contatos": [
+"https://gosh.nhs.uk/learning/gosh-learning-academy/international-opportunities/international-observership-programme"
+]
+},
+{
+"i": 48,
+"name": "MD Anderson Cancer Center — Cardiology",
+"city": "Houston",
+"country": "EUA",
+"areas": [
+"cardio_oncologia"
+],
+"programa": "sim",
+"url": "https://www.mdanderson.org/education-training/outreach-programs/observer-programs.html",
+"contatos": [
+"https://www.mdanderson.org/education-training/outreach-programs/observer-programs.html"
+]
+},
+{
+"i": 49,
+"name": "Memorial Sloan Kettering — Cardiology Service",
+"city": "Nova York",
+"country": "EUA",
+"areas": [
+"cardio_oncologia"
+],
+"programa": "sim",
+"url": "https://www.mskcc.org/sites/www.mskcc.org/files/node/4724/documents/clinical-observertion-program-application.pdf",
+"contatos": [
+"https://www.mskcc.org/sites/www.mskcc.org/files/node/4724/documents/clinical-observertion-program-application.pdf"
+]
+},
+{
+"i": 50,
+"name": "National Heart Centre Singapore",
+"city": "Singapura",
+"country": "Singapura",
+"areas": [
+"nuclear"
+],
+"programa": "sim",
+"url": "https://www.nhcs.com.sg/education/training-and-fellowships/list-of-fellowship-programmes/Fellowship-Training-in-Nuclear-Cardiology",
+"contatos": [
+"https://www.nhcs.com.sg/education/training-and-fellowships/list-of-fellowship-programmes/Fellowship-Training-in-Nuclear-Cardiology"
+]
+},
+{
+"i": 51,
+"name": "Children's Hospital Los Angeles — Heart Institute",
+"city": "Los Angeles",
+"country": "EUA",
+"areas": [
+"cardio_pediatrica"
+],
+"programa": "sim",
+"url": "https://www.chla.org/international-observership-program",
+"contatos": [
+"https://www.chla.org/international-observership-program"
+]
+},
+{
+"i": 52,
+"name": "Semmelweis University Heart and Vascular Center",
+"city": "Budapeste",
+"country": "Hungria",
+"areas": [
+"anestesia_cardiaca"
+],
+"programa": "sim",
+"url": "https://esaic.org/wp-content/uploads/2025/05/Semmelweis-University-Heart-and-Vascular-Center-Information.pdf",
+"contatos": [
+"https://esaic.org/wp-content/uploads/2025/05/Semmelweis-University-Heart-and-Vascular-Center-Information.pdf"
+]
+},
+{
+"i": 53,
+"name": "University of Kentucky — Visiting Scholar Cardiovascular Medicine",
+"city": "Lexington",
+"country": "EUA",
+"areas": [
+"cardiologia"
+],
+"programa": "sim",
+"url": "https://medicine.uky.edu/index.php/departments/internalmedicine/visiting-scholar-program",
+"contatos": [
+"https://medicine.uky.edu/index.php/departments/internalmedicine/visiting-scholar-program"
+]
+},
+{
+"i": 54,
+"name": "SUNY Upstate — Dept. of Medicine Observership",
+"city": "Syracuse",
+"country": "EUA",
+"areas": [
+"cardiologia"
+],
+"programa": "sim",
+"url": "https://www.upstate.edu/medicine/observership/",
+"contatos": [
+"https://www.upstate.edu/medicine/observership/"
+]
+},
+{
+"i": 55,
+"name": "Imperial College Healthcare — International Clinical Observer",
+"city": "Londres",
+"country": "Reino Unido",
+"areas": [
+"cardiologia"
+],
+"programa": "sim",
+"url": "https://www.imperial.nhs.uk/education/education-resources/clinical-observership-programmes/international-clinical-observer",
+"contatos": [
+"https://www.imperial.nhs.uk/education/education-resources/clinical-observership-programmes/international-clinical-observer"
+]
+},
+{
+"i": 56,
+"name": "Leeds Teaching Hospitals — Medical Observerships",
+"city": "Leeds",
+"country": "Reino Unido",
+"areas": [
+"cardiologia"
+],
+"programa": "sim",
+"url": "https://www.leedsth.nhs.uk/careers/medical-observerships/",
+"contatos": [
+"https://www.leedsth.nhs.uk/careers/medical-observerships/"
+]
+},
+{
+"i": 57,
+"name": "NYU Langone — Dept. of Surgery Observership",
+"city": "Nova York",
+"country": "EUA",
+"areas": [
+"robotica"
+],
+"programa": "sim",
+"url": "https://med.nyu.edu/departments-institutes/surgery/education/observership-program",
+"contatos": [
+"NYU-SurgeryObservership@NYULangone.org"
+]
+},
+{
+"i": 58,
+"name": "Fundación Favaloro",
+"city": "Buenos Aires",
+"country": "Argentina",
+"areas": [
+"robotica",
+"eletrofisiologia",
+"ic",
+"transplante",
+"hipertensao_pulmonar",
+"estagio_externo_cardiologia"
+],
+"programa": "nao_publico",
+"url": "https://www.baenegocios.com/saludybienestar/la-fundacion-favaloro-realizo-el-primer-bypass-coronario-asistido-por-robot-del-pais-3347/",
+"contatos": []
+},
+{
+"i": 59,
+"name": "Stanford Health Care",
+"city": "Palo Alto",
+"country": "EUA",
+"areas": [
+"robotica",
+"ic",
+"transplante",
+"arritmia_cirurgica",
+"cardiogenetica",
+"esporte",
+"miocardiopatias",
+"congenita_adulto",
+"cardio_pediatrica"
+],
+"programa": "nao_confirmado",
+"url": "https://med.stanford.edu/ctsurgery/clinical-care/adult-cardiac-surgery-services/minimally-invasive-mitral-valve-surgery.html",
+"contatos": [
+"https://med.stanford.edu/ctsurgery/clinical-care/adult-cardiac-surgery-services/minimally-invasive-mitral-valve-surgery.html",
+"https://med.stanford.edu/ctsurgery/about-the-department"
+]
+},
+{
+"i": 60,
+"name": "NewYork-Presbyterian / Columbia",
+"city": "Nova York",
+"country": "EUA",
+"areas": [
+"robotica",
+"estrutural",
+"transplante",
+"congenitas",
+"miocardiopatias",
+"fetal",
+"cardio_pediatrica",
+"ecmo"
+],
+"programa": "nao_confirmado",
+"url": "https://www.nyp.org/news/newyork-presbyterian-and-columbia-cardiac-surgeons-perform-300th-robotic-heart-surgery",
+"contatos": [
+"https://columbiasurgery.org/node/16786",
+"https://www.columbiacardiology.org/patient-care/columbia-structural-heart-and-valve-center"
+]
+},
+{
+"i": 61,
+"name": "University of Ottawa Heart Institute",
+"city": "Ottawa",
+"country": "Canadá",
+"areas": [
+"robotica",
+"eletrofisiologia",
+"estrutural",
+"ic",
+"transplante",
+"coronaria",
+"reabilitacao"
+],
+"programa": "nao_confirmado",
+"url": "https://www.uottawa.ca/faculty-medicine/surgery/divisions/cardiac-surgery",
+"contatos": [
+"https://www.uottawa.ca/faculty-medicine/surgery/divisions/cardiac-surgery",
+"https://uottawa.ca/faculty-medicine/department-medicine/cardiology"
+]
+},
+{
+"i": 62,
+"name": "Hospital Italiano de Buenos Aires",
+"city": "Buenos Aires",
+"country": "Argentina",
+"areas": [
+"robotica",
+"ic",
+"transplante",
+"congenitas",
+"miocardiopatias",
+"fetal",
+"cardio_pediatrica"
+],
+"programa": "nao_confirmado",
+"url": "https://www.lavozdesanjusto.com.ar/realizaron-una-inedita-operacion-de-corazon-a-traves-de-la-axila-en-la-argentina",
+"contatos": [
+"https://www.hospitalitaliano.org.ar"
+]
+},
+{
+"i": 63,
+"name": "Montreal Heart Institute",
+"city": "Montreal",
+"country": "Canadá",
+"areas": [
+"robotica",
+"estrutural",
+"preventiva",
+"cardiogenetica",
+"uti_cardiaca"
+],
+"programa": "nao_confirmado",
+"url": "https://www.dicardiology.com/content/montreal-heart-institute-performs-first-robotic-mitral-valve-surgery",
+"contatos": [
+"https://icm-mhi.org/en/node/3659",
+"https://fondationicm.org/en/?p=2706"
+]
+},
+{
+"i": 64,
+"name": "University of Michigan Frankel CVC",
+"city": "Ann Arbor",
+"country": "EUA",
+"areas": [
+"robotica",
+"aorta",
+"cardio_pediatrica",
+"hemodinamica_pediatrica"
+],
+"programa": "nao_confirmado",
+"url": "https://www.uofmhealth.org/our-care/specialties-services/robotic-heart-surgery",
+"contatos": [
+"https://medschool.umich.edu/departments/cardiac-surgery"
+]
+},
+{
+"i": 65,
+"name": "Brigham and Women's Hospital",
+"city": "Boston",
+"country": "EUA",
+"areas": [
+"robotica",
+"imagem",
+"hipertensao_pulmonar",
+"nuclear"
+],
+"programa": "nao_confirmado",
+"url": "https://www.brighamandwomens.org/heart-and-vascular-center/programs/minimally-invasive-heart-surgery-program",
+"contatos": [
+"https://www.brighamandwomens.org/heart-and-vascular-center/programs/minimally-invasive-heart-surgery-program",
+"https://cvimaging.brighamandwomens.org"
+]
+},
+{
+"i": 66,
+"name": "St George's University Hospital",
+"city": "Londres",
+"country": "Reino Unido",
+"areas": [
+"robotica",
+"esporte",
+"cardiogenetica",
+"miocardiopatias"
+],
+"programa": "nao_confirmado",
+"url": "https://www.stgeorges.nhs.uk/newsitem/96716-2/",
+"contatos": [
+"https://www.stgeorges.nhs.uk/newsitem/96716-2/"
+]
+},
+{
+"i": 67,
+"name": "The Alfred — Heart Failure & Transplant",
+"city": "Melbourne",
+"country": "Austrália",
+"areas": [
+"ic",
+"transplante",
+"ecmo",
+"uti_cardiaca"
+],
+"programa": "nao_confirmado",
+"url": "https://www.alfredhealth.org.au/services/advanced-heart-failure-clinic",
+"contatos": [
+"https://www.alfredhealth.org.au/services/advanced-heart-failure-clinic"
+]
+},
+{
+"i": 68,
+"name": "Rigshospitalet — The Heart Center",
+"city": "Copenhague",
+"country": "Dinamarca",
+"areas": [
+"estrutural",
+"ic",
+"imagem",
+"transplante"
+],
+"programa": "nao_confirmado",
+"url": "https://clinicaltrials.gov/study/NCT05670041",
+"contatos": []
+},
+{
+"i": 69,
+"name": "Royal Brompton Hospital",
+"city": "Londres",
+"country": "Reino Unido",
+"areas": [
+"cardiogenetica",
+"miocardiopatias",
+"hipertensao_pulmonar",
+"congenita_adulto"
+],
+"programa": "nao_confirmado",
+"url": "https://www.rbht.nhs.uk/pulmonary-hypertension-service",
+"contatos": []
+},
+{
+"i": 70,
+"name": "Fuwai Hospital",
+"city": "Pequim",
+"country": "China",
+"areas": [
+"hipertensao_pulmonar",
+"miocardiopatias",
+"coronaria",
+"cardio_pediatrica"
+],
+"programa": "nao_confirmado",
+"url": "https://www.frontiersin.org/journals/surgery/articles/10.3389/fsurg.2022.1067750/full",
+"contatos": []
+},
+{
+"i": 71,
+"name": "Starship Children's Hospital",
+"city": "Auckland",
+"country": "Nova Zelândia",
+"areas": [
+"cardio_pediatrica",
+"fetal",
+"congenita_adulto",
+"hemodinamica_pediatrica"
+],
+"programa": "nao_confirmado",
+"url": "https://starship.org.nz/health-professionals/paediatric-and-congenital-cardiology-service/",
+"contatos": []
+},
+{
+"i": 72,
+"name": "St Vincent's Hospital Sydney",
+"city": "Sydney",
+"country": "Austrália",
+"areas": [
+"robotica",
+"ic",
+"transplante"
+],
+"programa": "nao_confirmado",
+"url": "https://www.svhs.org.au/our-services/list-of-services/cardiothoracic-surgery",
+"contatos": [
+"https://www.svhs.org.au/our-services/list-of-services/cardiothoracic-surgery"
+]
+},
+{
+"i": 73,
+"name": "Auckland City Hospital (Greenlane)",
+"city": "Auckland",
+"country": "Nova Zelândia",
+"areas": [
+"robotica",
+"eletrofisiologia",
+"estrutural"
+],
+"programa": "nao_confirmado",
+"url": "https://www.healthpoint.co.nz/download,d834be1b-6eec-4c45-9a36-e01fa4c83faf.do",
+"contatos": [
+"https://adhb.health.nz/our-services/cardiovascular"
+]
+},
+{
+"i": 74,
+"name": "Penn Presbyterian (Penn Medicine)",
+"city": "Filadélfia",
+"country": "EUA",
+"areas": [
+"robotica",
+"eletrofisiologia",
+"aorta"
+],
+"programa": "nao_confirmado",
+"url": "https://www.pennmedicine.org/physicians-hub/clinical-briefing/non-rib-spreading-robotic-mitral-valve-surgery",
+"contatos": [
+"https://www.pennmedicine.org/specialties/cardiac-surgery",
+"https://www.med.upenn.edu/ep/"
+]
+},
+{
+"i": 75,
+"name": "Allegheny General (AHN)",
+"city": "Pittsburgh",
+"country": "EUA",
+"areas": [
+"robotica",
+"ecmo",
+"emergencia_choque"
+],
+"programa": "nao_confirmado",
+"url": "https://www.ahn.org/services/cardiovascular/treatments/robotic-heart-surgery",
+"contatos": [
+"https://www.ahn.org/services/cardiovascular/treatments/robotic-heart-surgery"
+]
+},
+{
+"i": 76,
+"name": "Tampa General Hospital",
+"city": "Tampa",
+"country": "EUA",
+"areas": [
+"robotica",
+"transplante",
+"emergencia_choque"
+],
+"programa": "nao_confirmado",
+"url": "https://tgh.org/institutes-and-services/heart-and-vascular-institute/cardiothoracic-surgery-center-of-excellence",
+"contatos": [
+"https://www.tgh.org/call-for-care/cardiothoracic-surgery"
+]
+},
+{
+"i": 77,
+"name": "Ospedale San Raffaele — Cardiochirurgia",
+"city": "Milão",
+"country": "Itália",
+"areas": [
+"robotica",
+"eletrofisiologia",
+"valvar"
+],
+"programa": "nao_confirmado",
+"url": "https://www.eacts.org/education/francis-fontan-fund/mitral-valve-repair-fellowship-2025-26/",
+"contatos": [
+"https://www.unisr.it"
+]
+},
+{
+"i": 78,
+"name": "The Prince Charles Hospital",
+"city": "Brisbane",
+"country": "Austrália",
+"areas": [
+"estrutural",
+"ic",
+"transplante"
+],
+"programa": "nao_confirmado",
+"url": "https://www.careers.health.qld.gov.au/__data/assets/pdf_file/0035/387863/tpch-cardio-rd-1yr.pdf",
+"contatos": [
+"https://metronorth.health.qld.gov.au/?p=54451"
+]
+},
+{
+"i": 79,
+"name": "Johns Hopkins Heart and Vascular Institute",
+"city": "Baltimore",
+"country": "EUA",
+"areas": [
+"transplante",
+"miocardiopatias",
+"cardiogenetica"
+],
+"programa": "nao_confirmado",
+"url": "https://www.hopkinsmedicine.org/heart-vascular-institute/annual-report/heart-failure-and-cardiac-transplantation",
+"contatos": [
+"https://www.hopkinsmedicine.org/heart-vascular-institute/annual-report/heart-failure-and-cardiac-transplantation"
+]
+},
+{
+"i": 80,
+"name": "Emory — Robotic Cardiac Surgery",
+"city": "Atlanta",
+"country": "EUA",
+"areas": [
+"aorta",
+"robotica",
+"coronaria"
+],
+"programa": "nao_publico",
+"url": "https://prod.emoryhealthcare.org/services/heart-vascular/treatments/ascending-aorta-arch-surgery",
+"contatos": [
+"https://prod.emoryhealthcare.org/centers-programs/cardiothoracic-surgery-program"
+]
+},
+{
+"i": 81,
+"name": "Hôpital Pitié-Salpêtrière",
+"city": "Paris",
+"country": "França",
+"areas": [
+"transplante",
+"ecmo",
+"uti_cardiaca"
+],
+"programa": "nao_confirmado",
+"url": "https://www.academie-medecine.fr/wp-content/uploads/2016/03/PAGES-DE-1335-1344.pdf",
+"contatos": [
+"https://www.aphp.fr"
+]
+},
+{
+"i": 82,
+"name": "National Cerebral and Cardiovascular Center (NCVC)",
+"city": "Suita (Osaka)",
+"country": "Japão",
+"areas": [
+"transplante",
+"ic",
+"hipertensao_pulmonar"
+],
+"programa": "nao_confirmado",
+"url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9713647/",
+"contatos": []
+},
+{
+"i": 83,
+"name": "Fundación Cardiovascular de Colombia",
+"city": "Bucaramanga",
+"country": "Colômbia",
+"areas": [
+"transplante",
+"congenitas",
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://www.lafm.com.co/colombia/colombia-realizo-el-primer-trasplante-pediatrico",
+"contatos": []
+},
+{
+"i": 84,
+"name": "Sant'Orsola — Policlinico di Bologna",
+"city": "Bolonha",
+"country": "Itália",
+"areas": [
+"aorta",
+"transplante",
+"miocardiopatias"
+],
+"programa": "nao_confirmado",
+"url": "https://www.quotidianosanita.it/regioni-e-asl/liste-d-attesa-confermata-la-collaborazione-tra-le-cardiochirurgie-del-sant-orsola-di-bologna-e-dell-ospedale-maggiore-di-parma/",
+"contatos": []
+},
+{
+"i": 85,
+"name": "Hospital Puerta de Hierro Majadahonda",
+"city": "Madri",
+"country": "Espanha",
+"areas": [
+"miocardiopatias",
+"cardiogenetica",
+"transplante"
+],
+"programa": "nao_confirmado",
+"url": "https://www.sanidad.gob.es/areas/csur/centros/patologias/areasEspecializacion/cardiologia.htm",
+"contatos": []
+},
+{
+"i": 86,
+"name": "AOU Padova",
+"city": "Pádua",
+"country": "Itália",
+"areas": [
+"esporte",
+"cardiogenetica",
+"miocardiopatias"
+],
+"programa": "nao_confirmado",
+"url": "https://www.unipd.it/news/morte-improvvisa-nello-sport-drastico-calo-dei-numeri-e-nuovi-metodi-diagnostici",
+"contatos": []
+},
+{
+"i": 87,
+"name": "Children's National Hospital",
+"city": "Washington",
+"country": "EUA",
+"areas": [
+"fetal",
+"congenita_adulto",
+"cardio_pediatrica"
+],
+"programa": "nao_confirmado",
+"url": "https://www.childrensnational.org/get-care/locations/fetal-heart-services",
+"contatos": []
+},
+{
+"i": 88,
+"name": "IRCCS Policlinico San Donato",
+"city": "San Donato Milanese",
+"country": "Itália",
+"areas": [
+"cardio_pediatrica",
+"congenita_adulto",
+"hemodinamica_pediatrica"
+],
+"programa": "nao_confirmado",
+"url": "https://gsdinternational.com/hospitals/policlinico-san-donato/pediatric-cardiology",
+"contatos": []
+},
+{
+"i": 89,
+"name": "Hôpital Marie Lannelongue",
+"city": "Le Plessis-Robinson",
+"country": "França",
+"areas": [
+"cardio_pediatrica",
+"congenita_adulto",
+"fetal"
+],
+"programa": "nao_confirmado",
+"url": "https://www.lequotidiendumedecin.fr/specialites/cardiologie/un-nouveau-pole-coeur-enfant-lhopital-marie-lannelongue",
+"contatos": []
+},
+{
+"i": 90,
+"name": "Prince of Wales Hospital (CUHK)",
+"city": "Hong Kong",
+"country": "China",
+"areas": [
+"robotica",
+"estrutural"
+],
+"programa": "nao_confirmado",
+"url": "https://global.chinadaily.com.cn/a/202604/02/WS69ce5fb7a310d6866eb41797.html",
+"contatos": []
+},
+{
+"i": 91,
+"name": "Narayana Institute of Cardiac Sciences",
+"city": "Bengaluru",
+"country": "Índia",
+"areas": [
+"robotica",
+"congenitas"
+],
+"programa": "nao_confirmado",
+"url": "https://vattikutifoundation.com/2024/03/29/indian-ssi-mantra-used-for-mitral-valve-replacement/",
+"contatos": [
+"https://hospital.narayanahealth.org/english/cardiology-cardiac-surgery-in-india/"
+]
+},
+{
+"i": 92,
+"name": "Bangkok Heart Hospital",
+"city": "Bangkok",
+"country": "Tailândia",
+"areas": [
+"robotica",
+"ecmo"
+],
+"programa": "nao_confirmado",
+"url": "https://www.bangkokhospital.com/en/bangkok-heart/content/minimally-invasive-cardiac-surgery-mics",
+"contatos": [
+"https://www.bangkokhospital.com/en/bangkok-heart/content/minimally-invasive-cardiac-surgery-mics"
+]
+},
+{
+"i": 93,
+"name": "TecSalud – Hospital Zambrano Hellion",
+"city": "Monterrey",
+"country": "México",
+"areas": [
+"robotica",
+"ecmo"
+],
+"programa": "nao_confirmado",
+"url": "https://conectadev.tec.mx/es/news/tags/hospital-zambrano-hellion",
+"contatos": []
+},
+{
+"i": 94,
+"name": "Hospital Clínico UC Christus",
+"city": "Santiago",
+"country": "Chile",
+"areas": [
+"robotica",
+"ecmo"
+],
+"programa": "nao_confirmado",
+"url": "https://medicina.uc.cl/wp-content/uploads/2024/12/Programa-estadia-de-perfeccionamiento-en-Cirugia-de-Cardiopatias-Congenitas-fellowship.pdf",
+"contatos": [
+"https://medicina.uc.cl"
+]
+},
+{
+"i": 95,
+"name": "NewYork-Presbyterian / Weill Cornell",
+"city": "Nova York",
+"country": "EUA",
+"areas": [
+"robotica",
+"coronaria"
+],
+"programa": "nao_confirmado",
+"url": "https://weillcornell.org/news/dr-stephanie-mick-blazing-a-trail-in-robotic-mitral-valve-repair",
+"contatos": [
+"https://ctsurgery.weillcornell.org/node/355"
+]
+},
+{
+"i": 96,
+"name": "Yale New Haven Hospital",
+"city": "New Haven",
+"country": "EUA",
+"areas": [
+"robotica",
+"aorta"
+],
+"programa": "nao_confirmado",
+"url": "https://www.ynhh.org/-/media/Files/Modules/House-Staff-Handbook/ClinicalObserverspolicyI005FINAL.ashx",
+"contatos": [
+"https://www.yalemedicine.org/departments/robotic-mitral-valve-repair-program",
+"https://medicine.yale.edu/surgery/cardio/about"
+]
+},
+{
+"i": 97,
+"name": "Barnes-Jewish / WashU",
+"city": "St. Louis",
+"country": "EUA",
+"areas": [
+"robotica",
+"arritmia_cirurgica"
+],
+"programa": "nao_confirmado",
+"url": "https://professionals.barnesjewish.org/news/advancements-in-robotic-assisted-mitral-valve-surgery-at-barnes-jewish-hospital",
+"contatos": [
+"https://surgery.wustl.edu/2022-annual-report/cardiac-surgery/"
+]
+},
+{
+"i": 98,
+"name": "Cedars-Sinai Smidt Heart Institute",
+"city": "Los Angeles",
+"country": "EUA",
+"areas": [
+"robotica",
+"transplante"
+],
+"programa": "nao_confirmado",
+"url": "https://pulse.cedars-sinai.org/news/unrivaled-experience-in-robotic-and-transcatheter-mitral-and-tricuspid-repair",
+"contatos": [
+"https://pulse.cedars-sinai.org/news/cardiac-surgery"
+]
+},
+{
+"i": 99,
+"name": "Northwestern Memorial (Bluhm)",
+"city": "Chicago",
+"country": "EUA",
+"areas": [
+"robotica",
+"arritmia_cirurgica"
+],
+"programa": "nao_confirmado",
+"url": "https://breakthroughsforphysicians.nm.org/cardiovascular-clinical-video-robotic-cardiac-surgery-volume-doubles",
+"contatos": [
+"https://breakthroughsforphysicians.nm.org/cardiovascular"
+]
+},
+{
+"i": 100,
+"name": "University Hospitals Cleveland (Harrington)",
+"city": "Cleveland",
+"country": "EUA",
+"areas": [
+"robotica",
+"emergencia_choque"
+],
+"programa": "nao_confirmado",
+"url": "https://news.uhhospitals.org/news-releases/articles/2024/12/university-hospitals-robust-robotic-cardiac-surgery-program-treats-more-than-100-patients",
+"contatos": [
+"https://www.uhhospitals.org/for-clinicians/specialties/heart-and-vascular/heart-surgery-center"
+]
+},
+{
+"i": 101,
+"name": "St. Antonius Ziekenhuis",
+"city": "Nieuwegein",
+"country": "Países Baixos",
+"areas": [
+"robotica",
+"arritmia_cirurgica"
+],
+"programa": "nao_confirmado",
+"url": "https://www.antoniusziekenhuis.nl/behandelingen-onderzoeken/mitraalklepreparatie/pdf_download",
+"contatos": [
+"https://www.antoniusziekenhuis.nl/behandelingen-onderzoeken/mitraalklepreparatie"
+]
+},
+{
+"i": 102,
+"name": "Hospital Clínic de Barcelona",
+"city": "Barcelona",
+"country": "Espanha",
+"areas": [
+"robotica",
+"eletrofisiologia"
+],
+"programa": "nao_confirmado",
+"url": "https://www.clinicbarcelona.org/uploads/media/default/0002/68/6b6d9fdce197a3d6f224390184dc828268feb215.pdf",
+"contatos": [
+"https://www.clinicbarcelona.org"
+]
+},
+{
+"i": 103,
+"name": "Minneapolis Heart Institute (Abbott Northwestern)",
+"city": "Minneapolis",
+"country": "EUA",
+"areas": [
+"estrutural",
+"hemodinamica_coronaria"
+],
+"programa": "nao_confirmado",
+"url": "https://www.allinahealth.org/for-medical-professionals/minneapolis-heart-institute/fellowship-training-programs",
+"contatos": [
+"https://mplsheart.org/international-scholar-program"
+]
+},
+{
+"i": 104,
+"name": "Piedmont Heart Institute",
+"city": "Atlanta",
+"country": "EUA",
+"areas": [
+"transplante",
+"hemodinamica_coronaria"
+],
+"programa": "nao_confirmado",
+"url": "https://www.piedmont.org/news/piedmont-heart-institute-performs-record-number-of-heart-transplants",
+"contatos": [
+"https://www.piedmont.org/news/piedmont-heart-institute-performs-record-number-of-heart-transplants"
+]
+},
+{
+"i": 105,
+"name": "Tufts Medical Center",
+"city": "Boston",
+"country": "EUA",
+"areas": [
+"transplante",
+"miocardiopatias"
+],
+"programa": "nao_confirmado",
+"url": "https://www.beckershospitalreview.com/cardiology/inside-tufts-record-breaking-heart-transplant-program",
+"contatos": []
+},
+{
+"i": 106,
+"name": "Lurie Children's — Heart Center",
+"city": "Chicago",
+"country": "EUA",
+"areas": [
+"congenitas",
+"transplante"
+],
+"programa": "nao_confirmado",
+"url": "https://www.luriechildrens.org/en/specialties-conditions/heart-center/volumes-outcomes/",
+"contatos": [
+"https://www.luriechildrens.org/en/specialties-conditions/heart-center/volumes-outcomes/"
+]
+},
+{
+"i": 107,
+"name": "Texas Children's Heart Center",
+"city": "Houston",
+"country": "EUA",
+"areas": [
+"congenitas",
+"transplante"
+],
+"programa": "nao_confirmado",
+"url": "https://texaschildrens.org/departments/congenital-heart-surgery/programs-and-services",
+"contatos": [
+"https://texaschildrens.org/departments/congenital-heart-surgery/programs-and-services"
+]
+},
+{
+"i": 108,
+"name": "Fundación Valle del Lili",
+"city": "Cali",
+"country": "Colômbia",
+"areas": [
+"transplante",
+"congenitas"
+],
+"programa": "nao_confirmado",
+"url": "https://valledellili.org/wp-content/uploads/legacy/2021/03/Articulo-Cirugia-cardiaca-en-ninos.pdf",
+"contatos": [
+"https://valledellili.org/en/departamentos-y-servicios/cardiovascular-surgery-for-adults"
+]
+},
+{
+"i": 109,
+"name": "Royal Prince Alfred Hospital",
+"city": "Sydney",
+"country": "Austrália",
+"areas": [
+"cardiogenetica",
+"miocardiopatias"
+],
+"programa": "nao_confirmado",
+"url": "https://www.medicalresearch.nsw.gov.au/scientists-solving-mysteries-of-the-heart",
+"contatos": []
+},
+{
+"i": 110,
+"name": "Nationwide Children's Hospital",
+"city": "Columbus",
+"country": "EUA",
+"areas": [
+"congenita_adulto",
+"cardio_pediatrica"
+],
+"programa": "nao_confirmado",
+"url": "https://www.nationwidechildrens.org/newsroom/news-releases/2017/09/adolescent-and-adult-congenital-heart-disease-program-earns-accreditation-from-the-adult-congenital",
+"contatos": []
+},
+{
+"i": 111,
+"name": "Stollery Children's Hospital",
+"city": "Edmonton",
+"country": "Canadá",
+"areas": [
+"fetal",
+"cardio_pediatrica"
+],
+"programa": "nao_confirmado",
+"url": "https://www.ualberta.ca/en/pediatrics/pediatric-education-programs/fellowship-training/cardiology-fellowships/fetal-and-neonatal-cardiology-fellowship.html",
+"contatos": []
+},
+{
+"i": 112,
+"name": "CHU Sainte-Justine",
+"city": "Montreal",
+"country": "Canadá",
+"areas": [
+"cardio_pediatrica",
+"fetal"
+],
+"programa": "nao_confirmado",
+"url": "https://newswire.ca/news-releases/philanthropy-powers-global-reach-of-chu-sainte-justine-and-universite-de-montreal-in-pediatric-cardiology-843191420.html",
+"contatos": []
+},
+{
+"i": 113,
+"name": "Evelina London Children's Hospital",
+"city": "Londres",
+"country": "Reino Unido",
+"areas": [
+"fetal",
+"cardio_pediatrica"
+],
+"programa": "nao_confirmado",
+"url": "https://guysandstthomasspecialistcare.co.uk/services/fetal-cardiology/",
+"contatos": []
+},
+{
+"i": 114,
+"name": "Ospedale Pediatrico Bambino Gesù",
+"city": "Roma",
+"country": "Itália",
+"areas": [
+"hemodinamica_pediatrica",
+"cardio_pediatrica"
+],
+"programa": "nao_confirmado",
+"url": "https://img.ospedalebambinogesu.it/images/2023/03/17/095958076-a4162edf-b79d-4565-a59e-bbf083f7d48c.pdf",
+"contatos": []
+},
+{
+"i": 115,
+"name": "Amrita Institute of Medical Sciences",
+"city": "Kochi",
+"country": "Índia",
+"areas": [
+"cardio_pediatrica",
+"fetal"
+],
+"programa": "nao_confirmado",
+"url": "https://childrensheartlink.org/childrens-heartlink-fellowship-pediatric-cardiac-sciences",
+"contatos": []
+},
+{
+"i": 116,
+"name": "Hospital Garrahan",
+"city": "Buenos Aires",
+"country": "Argentina",
+"areas": [
+"cardio_pediatrica",
+"hemodinamica_pediatrica"
+],
+"programa": "nao_confirmado",
+"url": "https://www.lavozdesanjusto.com.ar/el-95-de-las-ninas-y-ninos-con-malformaciones-cardiacas-puede-mejorar-su-pronostico-132076",
+"contatos": []
+},
+{
+"i": 117,
+"name": "NewHeart Watanabe Institute",
+"city": "Tóquio",
+"country": "Japão",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://www.annalscts.com/article/view/16955/html",
+"contatos": [
+"https://newheart.jp/introduction/publishing.php"
+]
+},
+{
+"i": 118,
+"name": "Sakakibara Heart Institute of Okayama",
+"city": "Okayama",
+"country": "Japão",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://www.jstage.jst.go.jp/article/circj/82/6/82_CJ-17-1319/_html/-char/en",
+"contatos": []
+},
+{
+"i": 119,
+"name": "Seoul National University Bundang Hospital",
+"city": "Seongnam",
+"country": "Coreia do Sul",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://sports.khan.co.kr/en/article/202511300728447",
+"contatos": []
+},
+{
+"i": 120,
+"name": "Chinese PLA General Hospital",
+"city": "Pequim",
+"country": "China",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://e-memoire.academie-chirurgie.fr/en/ememoire/1411-experience-of-robotic-cardiac-surgery",
+"contatos": []
+},
+{
+"i": 121,
+"name": "Beijing Anzhen Hospital",
+"city": "Pequim",
+"country": "China",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9148248/",
+"contatos": []
+},
+{
+"i": 122,
+"name": "Xiamen Cardiovascular Hospital",
+"city": "Xiamen",
+"country": "China",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://en.people.cn/n3/2026/0812/c90000-20487941.html",
+"contatos": []
+},
+{
+"i": 123,
+"name": "Queen Mary Hospital (HKU)",
+"city": "Hong Kong",
+"country": "China",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://www8.ha.org.hk/QMH/services/clinical_department/department/ctsd/ctsd.aspx",
+"contatos": [
+"https://www.surgery.hku.hk/en/Clinical-Services/Cardiothoracic-Surgery"
+]
+},
+{
+"i": 124,
+"name": "Apollo Hospitals Bangalore",
+"city": "Bengaluru",
+"country": "Índia",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://www.apollohospitals.com/apollo-hospitals-bangalore-is-the-first-hospital-in-the-country-to-have-successfully-completed-100-robotic-cardiac-surgeries/",
+"contatos": [
+"https://apollohospitals.com/academics-research/courses/medical/fellowship"
+]
+},
+{
+"i": 125,
+"name": "Apollo Hospitals Jubilee Hills",
+"city": "Hyderabad",
+"country": "Índia",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://www.indianpharmapost.com/news/apollo-hospitals-sets-world-record-in-robotic-heart-surgery-with-100-procedures-in-155-days-19681",
+"contatos": [
+"https://apollohospitals.com/academics-research/courses/medical/fellowship"
+]
+},
+{
+"i": 126,
+"name": "Manipal Hospitals",
+"city": "Bengaluru",
+"country": "Índia",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://www.manipalhospitals.com/treatment/robotic-mitral-valve-repair-replacement-surgery/",
+"contatos": [
+"https://www.manipalhospitals.com/treatment/robotic-mitral-valve-repair-replacement-surgery/"
+]
+},
+{
+"i": 127,
+"name": "Medanta – The Medicity",
+"city": "Gurugram",
+"country": "Índia",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://vattikutifoundation.com/institutions/medanta-vattikuti-institute-of-robotic-surgery-medanta/",
+"contatos": [
+"https://www.medanta.org/doctor-listing/cardiac-surgery-doctors-in-gurugram"
+]
+},
+{
+"i": 128,
+"name": "National Heart Centre Singapore",
+"city": "Singapura",
+"country": "Singapura",
+"areas": [
+"robotica"
+],
+"programa": "nao_publico",
+"url": "https://www.singhealth.com.sg/news/patient-care/nhc-offers-heart-patients-minimally-invasive-robot-assisted-mitral-valve-repair-surgery",
+"contatos": []
+},
+{
+"i": 129,
+"name": "King Faisal Specialist Hospital & Research Centre",
+"city": "Riad",
+"country": "Arábia Saudita",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://www.ctsnet.org/print/jans/riyadh-kfshrc-performs-worlds-first-fully-robotic-heart-transplant",
+"contatos": []
+},
+{
+"i": 130,
+"name": "King Abdulaziz University Hospital",
+"city": "Jidá",
+"country": "Arábia Saudita",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://www.kau.edu.sa/en/news-details/significant-advancement-at-king-abdulaziz-university-hospital-robotic-assisted-coronary-artery-bypass-surgeries-successfully-performed",
+"contatos": [
+"https://www.kau.edu.sa/en/news-details/significant-advancement-at-king-abdulaziz-university-hospital-robotic-assisted-coronary-artery-bypass-surgeries-successfully-performed"
+]
+},
+{
+"i": 131,
+"name": "Macquarie University Hospital",
+"city": "Sydney",
+"country": "Austrália",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://lighthouse.mq.edu.au/article/2018-stories/Robots-open-the-door-to-safer-open-heart-surgery-at-Macquarie-Hospital",
+"contatos": [
+"https://mqhealth.org.au/about/stories/repairing-the-forgotten-valve"
+]
+},
+{
+"i": 132,
+"name": "St John of God Geelong Hospital",
+"city": "Geelong",
+"country": "Austrália",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://www.sjog.org.au/our-locations/st-john-of-god-geelong-hospital/services/cardiology",
+"contatos": [
+"https://www.sjog.org.au/our-locations/st-john-of-god-geelong-hospital/services/cardiology"
+]
+},
+{
+"i": 133,
+"name": "St. Michael's Hospital (Unity Health Toronto)",
+"city": "Toronto",
+"country": "Canadá",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://pgme.utoronto.ca/observerships",
+"contatos": [
+"https://unityhealth.to/clinics-services/minimally-invasive-cardiac-surgery/"
+]
+},
+{
+"i": 134,
+"name": "Vancouver General Hospital (UBC)",
+"city": "Vancouver",
+"country": "Canadá",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://apt.med.ubc.ca/?p=539",
+"contatos": [
+"https://surgery.med.ubc.ca/?p=39868"
+]
+},
+{
+"i": 135,
+"name": "Centro Médico Nacional 20 de Noviembre (ISSSTE)",
+"city": "Cidade do México",
+"country": "México",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://www.xataka.com.mx/investigacion/en-mexico-se-realizo-la-primera-cirugia-robotica-de-corazon-en-america-latina",
+"contatos": []
+},
+{
+"i": 136,
+"name": "Fundación Clínica Shaio",
+"city": "Bogotá",
+"country": "Colômbia",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7731842",
+"contatos": []
+},
+{
+"i": 137,
+"name": "Clínica Cardio VID",
+"city": "Medellín",
+"country": "Colômbia",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://investigacion.upb.edu.co/es/publications/experience-in-minimally-invasive-cardiac-surgery-in-a-cardiovascu/",
+"contatos": []
+},
+{
+"i": 138,
+"name": "Hospital Internacional de Colombia",
+"city": "Bucaramanga",
+"country": "Colômbia",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://www.intramed.net/content/colombia-inaugura-una-nueva-era-en-cirugia-cardiaca-con-la--primera-cirugia-cardiovascular-robotica-realizada-con-el--si",
+"contatos": []
+},
+{
+"i": 139,
+"name": "Clínica Las Condes",
+"city": "Santiago",
+"country": "Chile",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://revistamedicadechile.cl/index.php/rmedica/article/download/7466/5340/94714",
+"contatos": []
+},
+{
+"i": 140,
+"name": "Hospital Nacional Dos de Mayo",
+"city": "Lima",
+"country": "Peru",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://caretas.pe/salud/hospital-dos-de-mayo-paciente-de-56-anos-recibe-primer-bypass-coronario-robotico-realizado-en-peru/",
+"contatos": []
+},
+{
+"i": 141,
+"name": "Baylor Scott & White The Heart Hospital – Plano",
+"city": "Plano (TX)",
+"country": "EUA",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://news.bswhealth.com/releases/the-heart-hospital-baylor-plano-performs-1-000th-robotic-surgery",
+"contatos": [
+"https://BSWHealth.com/the-heart-hospital/locations/plano"
+]
+},
+{
+"i": 142,
+"name": "Virtua Our Lady of Lourdes",
+"city": "Camden (NJ)",
+"country": "EUA",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://www.virtua.org/news/virtua-surgeon-performs-1000th-robotic-surgery",
+"contatos": [
+"https://www.virtua.org/locations/cardiothoracic-surgery-sewell"
+]
+},
+{
+"i": 143,
+"name": "Inova Fairfax (Schar Heart and Vascular)",
+"city": "Fairfax (VA)",
+"country": "EUA",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://www.inovanewsroom.org/featured-posts/2025/03/nearly-50-years-of-cardiac-surgery-innovation-and-excellence/",
+"contatos": [
+"https://www.inova.org/cvsurg"
+]
+},
+{
+"i": 144,
+"name": "MedStar Washington Hospital Center",
+"city": "Washington",
+"country": "EUA",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://www.medstarhealth.org/news-and-publications/news/mwhc-first-robotic-heart-surgery",
+"contatos": [
+"https://www.medstarhealth.org/news-and-publications/news/mwhc-first-robotic-heart-surgery"
+]
+},
+{
+"i": 145,
+"name": "Corewell Health Beaumont",
+"city": "Royal Oak (MI)",
+"country": "EUA",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://newsroom.corewellhealth.org/2026-07-14-Corewell-Health-performs-worlds-first-documented-single-port-robotic-mitral-valve-repair",
+"contatos": [
+"https://newsroom.corewellhealth.org/2026-07-14-Corewell-Health-performs-worlds-first-documented-single-port-robotic-mitral-valve-repair"
+]
+},
+{
+"i": 146,
+"name": "Henry Ford Macomb",
+"city": "Clinton Township (MI)",
+"country": "EUA",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://www.henryford.com/hcp/clinical-insights/heart",
+"contatos": [
+"https://henryford.com/campaign/heart-surgery"
+]
+},
+{
+"i": 147,
+"name": "El Camino Hospital",
+"city": "Mountain View (CA)",
+"country": "EUA",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://www.elcaminohealth.org/node/178821",
+"contatos": [
+"https://www.elcaminohealth.org/node/178821"
+]
+},
+{
+"i": 148,
+"name": "University of Utah Hospital",
+"city": "Salt Lake City",
+"country": "EUA",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://medicine.utah.edu/surgery/cardiothoracic/news/2023/05/robotic-cardiac-surgery-only-mountain-west",
+"contatos": [
+"https://healthcare.utah.edu/cardiovascular/treatments/robotic-heart-surgery"
+]
+},
+{
+"i": 149,
+"name": "Loma Linda University Medical Center",
+"city": "Loma Linda (CA)",
+"country": "EUA",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://lluh.org/services/minimally-invasive-robotic-surgery/our-services/robotic-mitral-valve-surgery",
+"contatos": [
+"https://lluh.org/services/minimally-invasive-robotic-surgery/our-services/robotic-mitral-valve-surgery"
+]
+},
+{
+"i": 150,
+"name": "UVA Health",
+"city": "Charlottesville (VA)",
+"country": "EUA",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://www.uvahealth.com/treatments/robotic-heart-surgery",
+"contatos": [
+"https://www.uvahealth.com/treatments/robotic-heart-surgery"
+]
+},
+{
+"i": 151,
+"name": "Novant Health Presbyterian",
+"city": "Charlotte (NC)",
+"country": "EUA",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://www.novanthealth.org/services/heart--vascular/treatments/minimally-invasive-robotic-heart-surgery/",
+"contatos": [
+"https://www.novanthealth.org/services/heart--vascular/treatments/minimally-invasive-robotic-heart-surgery/"
+]
+},
+{
+"i": 152,
+"name": "Dartmouth Hitchcock",
+"city": "Lebanon (NH)",
+"country": "EUA",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://www.dartmouth-hitchcock.org/stories/article/robotic-cardiac-surgery-promotes-game-changing-patient-care",
+"contatos": [
+"https://www.dartmouth-hitchcock.org/stories/article/robotic-cardiac-surgery-promotes-game-changing-patient-care"
+]
+},
+{
+"i": 153,
+"name": "Ohio State Wexner (Ross Heart Hospital)",
+"city": "Columbus",
+"country": "EUA",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://wexnermedical.osu.edu/robotic-surgery/robotic-heart-and-vascular-surgery",
+"contatos": [
+"https://wexnermedical.osu.edu/robotic-surgery/robotic-heart-and-vascular-surgery"
+]
+},
+{
+"i": 154,
+"name": "UPMC Heart and Vascular Institute",
+"city": "Pittsburgh",
+"country": "EUA",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://www.upmc.com/healthbeat/heart-vascular/robotic-mitral-valve-repair",
+"contatos": [
+"https://www.upmc.com/healthbeat/heart-vascular/robotic-mitral-valve-repair"
+]
+},
+{
+"i": 155,
+"name": "Lenox Hill Hospital (Northwell)",
+"city": "Nova York",
+"country": "EUA",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://careers.thoracic.org/jobs/21907743/advanced-coronary-and-minimally-invasive-robotic-cardiac-surgery-fellowship-for-2026-2027",
+"contatos": []
+},
+{
+"i": 156,
+"name": "HonorHealth Deer Valley",
+"city": "Phoenix",
+"country": "EUA",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://www.honorhealth.com/healthy-living/how-honorhealth-harnessing-power-robotic-technology-mitral-valve-disease",
+"contatos": [
+"https://www.honorhealth.com/healthy-living/how-honorhealth-harnessing-power-robotic-technology-mitral-valve-disease"
+]
+},
+{
+"i": 157,
+"name": "Mills-Peninsula (Sutter)",
+"city": "Burlingame (CA)",
+"country": "EUA",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://vitals.sutterhealth.org/?p=43933",
+"contatos": [
+"https://vitals.sutterhealth.org/?p=43933"
+]
+},
+{
+"i": 158,
+"name": "Liverpool Heart and Chest Hospital",
+"city": "Liverpool",
+"country": "Reino Unido",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://www.lhch.nhs.uk/news/article/240",
+"contatos": [
+"https://www.lhch.nhs.uk"
+]
+},
+{
+"i": 159,
+"name": "James Cook University Hospital",
+"city": "Middlesbrough",
+"country": "Reino Unido",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://www.isrctn.com/ISRCTN13930454",
+"contatos": []
+},
+{
+"i": 160,
+"name": "Herzzentrum Duisburg",
+"city": "Duisburg",
+"country": "Alemanha",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://www.volksstimme.de/panorama/hightech-im-op-charite-nutzt-roboter-fur-herzoperationen-4147319",
+"contatos": []
+},
+{
+"i": 161,
+"name": "Klinikum Passau — Herzchirurgie",
+"city": "Passau",
+"country": "Alemanha",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://www.klinikum-passau.de/fileadmin/user_upload/veranstaltungen/aerztl_dienst/2026/Einladung_FoBi-Minimalinvasive-Herzchirurgie-2026-06-24_WEB.pdf",
+"contatos": [
+"herzchirurgie@klinikum-passau.de"
+]
+},
+{
+"i": 162,
+"name": "MEDICLIN Herzzentrum Lahr",
+"city": "Lahr",
+"country": "Alemanha",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://www.herzzentrum-lahr.de/fileadmin/02_Dokumente_Share_verzeichnis/02_Klinikdokumente/Herzzentrum_Lahr/Herzecho_2704.pdf",
+"contatos": [
+"https://www.herzzentrum-lahr.de"
+]
+},
+{
+"i": 163,
+"name": "Universitäts-Herzzentrum Freiburg – Bad Krozingen",
+"city": "Bad Krozingen",
+"country": "Alemanha",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://www.uniklinik-freiburg.de/fileadmin/mediapool/09_zentren/herzzentrum/pdf/uhz-aktuell-2022/uhz_aktuell_Oktober2022_print.pdf",
+"contatos": []
+},
+{
+"i": 164,
+"name": "Cliniques universitaires Saint-Luc",
+"city": "Bruxelas",
+"country": "Bélgica",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://www.annalscts.com/article/view/16970/html",
+"contatos": [
+"https://www.saintluc.be"
+]
+},
+{
+"i": 165,
+"name": "Klinik Hirslanden — HerzKlinik",
+"city": "Zurique",
+"country": "Suíça",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://hirslanden.com/de/international/fokusgebiete/kardiologie/erkrankungen/moderne-herzchirurgie.html",
+"contatos": [
+"https://hirslanden.ch/de/klinik-hirslanden/fachgebiete/herz.html"
+]
+},
+{
+"i": 166,
+"name": "Humanitas Gavazzeni",
+"city": "Bérgamo",
+"country": "Itália",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://clinicaltrials.gov/study/NCT04415138",
+"contatos": []
+},
+{
+"i": 167,
+"name": "ISMETT",
+"city": "Palermo",
+"country": "Itália",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://livesicilia.it/?p=1779784",
+"contatos": []
+},
+{
+"i": 168,
+"name": "Centro Cardiovascolare Lancisi (Univpm)",
+"city": "Ancona",
+"country": "Itália",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://www.minicardiacsurgery-univpm-research.com/?p=1557",
+"contatos": [
+"https://www.minicardiacsurgery-univpm-research.com/?p=90"
+]
+},
+{
+"i": 169,
+"name": "Ospedale di Legnano — Cardiochirurgia",
+"city": "Legnano",
+"country": "Itália",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://www.legnanonews.com/salute/2026/02/20/chirurgia-mini-invasiva-la-cardiochirurgia-dellospedale-di-legnano-corre-e-macina-numeri-da-record/1410607/?output=pdf",
+"contatos": []
+},
+{
+"i": 170,
+"name": "CHU de Bordeaux (Haut-Lévêque)",
+"city": "Bordeaux",
+"country": "França",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8674761",
+"contatos": []
+},
+{
+"i": 171,
+"name": "CHU de Limoges",
+"city": "Limoges",
+"country": "França",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://www.caducee.net/actualite-medicale/11103/chirurgie-cardiaque-le-chu-de-limoges-realise-un-double-pontage-a-l-aide-d-un-robot.html",
+"contatos": []
+},
+{
+"i": 172,
+"name": "Hospital Clínico San Carlos",
+"city": "Madri",
+"country": "Espanha",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://www.comunidad.madrid/hospital/clinicosancarlos/noticia/54379",
+"contatos": [
+"https://www.comunidad.madrid/hospital/clinicosancarlos/noticia/58593"
+]
+},
+{
+"i": 173,
+"name": "Acıbadem Maslak",
+"city": "Istambul",
+"country": "Turquia",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://www.frontiersin.org/articles/10.3389/fcvm.2023.1111496/full",
+"contatos": [
+"https://acibademinternational.com/robotic-heart-surgery-at-acibadem-hospital/"
+]
+},
+{
+"i": 174,
+"name": "Memorial Bahçelievler",
+"city": "Istambul",
+"country": "Turquia",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://www.memorial.com.tr/tedavi-yontemleri/robotik-cerrahi-ile-kalp-ameliyati-hangi-hastaliklarda-kullanilir",
+"contatos": [
+"https://www.memorial.com.tr/robotik-cerrahi-merkezi"
+]
+},
+{
+"i": 175,
+"name": "Sheba Medical Center",
+"city": "Ramat Gan",
+"country": "Israel",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://sheba-global.com/category/development-projects/",
+"contatos": [
+"https://sheba-global.com"
+]
+},
+{
+"i": 176,
+"name": "Szpital Medicover — Kardiochirurgia",
+"city": "Varsóvia",
+"country": "Polônia",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://www.termedia.pl/Miniinvasive-robotic-mitral-valve-repair-using-the-da-Vinci-r-nsystem-in-the-first-two-patients-in-Poland-echocardiographic-follow-up-results-30-months-after-surgery,40,47880,0,1.html",
+"contatos": [
+"kardiochirurgia@medicover.pl"
+]
+},
+{
+"i": 177,
+"name": "USK Wrocław",
+"city": "Wrocław",
+"country": "Polônia",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://www.wroclaw.pl/dla-mieszkanca/pierwsza-na-dolnym-slasku-operacja-kardiochirurgiczna-robotem-da-vinci",
+"contatos": []
+},
+{
+"i": 178,
+"name": "Kepler Universitätsklinikum — Herz Zentrum",
+"city": "Linz",
+"country": "Áustria",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://kepleruniklinikum.at/kliniken-einrichtungen/universitaeres-herz-zentrum-ooe/aktuelles/universitaeres-herz-zentrum-meilenstein-in-der-behandlung-erkrankter-herzklappen",
+"contatos": [
+"https://prod.kepleruniklinikum.at/kliniken-einrichtungen/universitaeres-herz-zentrum-ooe/schwerpunkte-und-leistungen"
+]
+},
+{
+"i": 179,
+"name": "St. Paul's Hospital — Centre for Heart Valve Innovation",
+"city": "Vancouver",
+"country": "Canadá",
+"areas": [
+"estrutural"
+],
+"programa": "nao_confirmado",
+"url": "https://www.providencehealthcare.org/sites/default/files/2024-02/Info%20for%20referring%20docs%20for%20THV.pdf",
+"contatos": [
+"https://www.providencehealthcare.org/sites/default/files/2024-02/Info%20for%20referring%20docs%20for%20THV.pdf"
+]
+},
+{
+"i": 180,
+"name": "UZ Brussel — Heart Rhythm Management Centre",
+"city": "Bruxelas",
+"country": "Bélgica",
+"areas": [
+"eletrofisiologia"
+],
+"programa": "nao_confirmado",
+"url": "https://www.uzbrussel.be/web/heart-rhythm-management-centre",
+"contatos": [
+"https://www.uzbrussel.be/web/heart-rhythm-management-centre"
+]
+},
+{
+"i": 181,
+"name": "LUMC — Heart Lung Center",
+"city": "Leiden",
+"country": "Países Baixos",
+"areas": [
+"imagem"
+],
+"programa": "nao_confirmado",
+"url": "https://www.escardio.org/Education/Career-Development/Grants-and-fellowships/EACVI-training-grants-past-winners",
+"contatos": []
+},
+{
+"i": 182,
+"name": "Royal Adelaide — Centre for Heart Rhythm Disorders",
+"city": "Adelaide",
+"country": "Austrália",
+"areas": [
+"eletrofisiologia"
+],
+"programa": "nao_confirmado",
+"url": "https://www.adelaide.edu.au/chrd/",
+"contatos": [
+"https://www.adelaide.edu.au/chrd/"
+]
+},
+{
+"i": 183,
+"name": "Instituto Cardiovascular de Buenos Aires (ICBA)",
+"city": "Buenos Aires",
+"country": "Argentina",
+"areas": [
+"estrutural"
+],
+"programa": "nao_confirmado",
+"url": "https://solaci.org/2020/08/03/de-la-angioplastia-coronaria-ambulatoria-al-radial-lounge-invitacion-icba/",
+"contatos": []
+},
+{
+"i": 184,
+"name": "Inselspital Bern — Kardiologie",
+"city": "Berna",
+"country": "Suíça",
+"areas": [
+"estrutural"
+],
+"programa": "nao_confirmado",
+"url": "https://kardiologie.insel.ch/fileadmin/Kardiologie/pdf/Jahresberichte/Jahresbericht_2018_Kardio_A6-5_16_Seitig.pdf",
+"contatos": [
+"https://kardiologie.insel.ch"
+]
+},
+{
+"i": 185,
+"name": "Vanderbilt University Medical Center",
+"city": "Nashville",
+"country": "EUA",
+"areas": [
+"transplante"
+],
+"programa": "nao_confirmado",
+"url": "https://news.vumc.org/2025/01/13/vanderbilt-transplant-center-sets-world-record-for-heart-transplants-in-2024/",
+"contatos": []
+},
+{
+"i": 186,
+"name": "HDZ NRW — Herz- und Diabeteszentrum",
+"city": "Bad Oeynhausen",
+"country": "Alemanha",
+"areas": [
+"transplante"
+],
+"programa": "nao_confirmado",
+"url": "https://www.hdz-nrw.de/fileadmin/downloads/mediathek/Flyer_Kurz-vorgestellt-1-2024_web.pdf",
+"contatos": []
+},
+{
+"i": 187,
+"name": "Deutsches Herzzentrum München",
+"city": "Munique",
+"country": "Alemanha",
+"areas": [
+"congenitas"
+],
+"programa": "nao_confirmado",
+"url": "https://www.lmu-klinikum.de/phd-cardiovascular-science/european-pediatric-heart-center/78965794dbbda97c",
+"contatos": [
+"https://www.deutsches-herzzentrum-muenchen.de/en/"
+]
+},
+{
+"i": 188,
+"name": "Harefield Hospital (Royal Brompton & Harefield)",
+"city": "Harefield (Londres)",
+"country": "Reino Unido",
+"areas": [
+"transplante"
+],
+"programa": "nao_confirmado",
+"url": "https://www.rbht.nhs.uk/our-services/heart/transplantation-heart",
+"contatos": [
+"https://www.rbht.nhs.uk/our-services/heart/transplantation-heart"
+]
+},
+{
+"i": 189,
+"name": "Hôpital Necker-Enfants malades",
+"city": "Paris",
+"country": "França",
+"areas": [
+"congenitas"
+],
+"programa": "nao_confirmado",
+"url": "https://www.aphp.fr/necker-enfants-malades/service-de-chirurgie-cardiaque-pediatrique",
+"contatos": [
+"https://www.aphp.fr/necker-enfants-malades/service-de-chirurgie-cardiaque-pediatrique"
+]
+},
+{
+"i": 190,
+"name": "AKH Wien / MedUni Wien",
+"city": "Viena",
+"country": "Áustria",
+"areas": [
+"transplante"
+],
+"programa": "nao_confirmado",
+"url": "https://www.meduniwien.ac.at/web/en/ueber-uns/news/2024/news-im-april-2024/40-years-of-heart-transplantation-in-vienna-a-success-story/",
+"contatos": []
+},
+{
+"i": 191,
+"name": "Royal Children's Hospital Melbourne",
+"city": "Melbourne",
+"country": "Austrália",
+"areas": [
+"congenitas"
+],
+"programa": "nao_confirmado",
+"url": "https://rch.org.au/cardiology/about_us/Department_Information",
+"contatos": [
+"https://rch.org.au/cardiology/about_us/Department_Information"
+]
+},
+{
+"i": 192,
+"name": "Oklahoma Heart Hospital",
+"city": "Oklahoma City",
+"country": "EUA",
+"areas": [
+"arritmia_cirurgica"
+],
+"programa": "nao_confirmado",
+"url": "https://www.okheart.com/news/surgical-ablation-convergent-and-cox-maze-iv/",
+"contatos": []
+},
+{
+"i": 193,
+"name": "Austin Hospital",
+"city": "Melbourne",
+"country": "Austrália",
+"areas": [
+"coronaria"
+],
+"programa": "nao_confirmado",
+"url": "https://www.ctsnet.org/?p=225903",
+"contatos": []
+},
+{
+"i": 194,
+"name": "Royal Melbourne Hospital",
+"city": "Melbourne",
+"country": "Austrália",
+"areas": [
+"coronaria"
+],
+"programa": "nao_confirmado",
+"url": "https://trial.medpath.com/clinical-trial/0cb94477743e8c34/total-arterial-revascularisation-coronary-artery-surgery",
+"contatos": []
+},
+{
+"i": 195,
+"name": "Apollo Hospitals Greams Road",
+"city": "Chennai",
+"country": "Índia",
+"areas": [
+"coronaria"
+],
+"programa": "nao_confirmado",
+"url": "https://meetings.ismics.org/program/2025/C30.cgi",
+"contatos": []
+},
+{
+"i": 196,
+"name": "MIOT International",
+"city": "Chennai",
+"country": "Índia",
+"areas": [
+"coronaria"
+],
+"programa": "nao_confirmado",
+"url": "https://www.miotinternational.com/total-arterial-revascularization/",
+"contatos": []
+},
+{
+"i": 197,
+"name": "Seoul National University Hospital",
+"city": "Seul",
+"country": "Coreia do Sul",
+"areas": [
+"coronaria"
+],
+"programa": "nao_confirmado",
+"url": "https://www.j-circ.or.jp/english/sessions/reports/69th/joint_kcs.htm",
+"contatos": []
+},
+{
+"i": 198,
+"name": "Kishiwada Tokushukai Hospital",
+"city": "Kishiwada (Osaka)",
+"country": "Japão",
+"areas": [
+"coronaria"
+],
+"programa": "nao_confirmado",
+"url": "https://kishiwada.tokushukai.or.jp/en/research/clinical-research-outcomes/cardiovascular-clinical-outcomes/",
+"contatos": []
+},
+{
+"i": 199,
+"name": "Nagasaki University Hospital",
+"city": "Nagasaki",
+"country": "Japão",
+"areas": [
+"arritmia_cirurgica"
+],
+"programa": "nao_confirmado",
+"url": "https://www.med.nagasaki-u.ac.jp/surg-crd/report/data/2024.pdf",
+"contatos": []
+},
+{
+"i": 200,
+"name": "OLVG",
+"city": "Amsterdã",
+"country": "Países Baixos",
+"areas": [
+"arritmia_cirurgica"
+],
+"programa": "nao_confirmado",
+"url": "https://cardiacrhythmnews.com/atricure-launches-maze-iv-training-programme-in-europe",
+"contatos": []
+},
+{
+"i": 201,
+"name": "Sana Herzchirurgie Stuttgart",
+"city": "Stuttgart",
+"country": "Alemanha",
+"areas": [
+"arritmia_cirurgica"
+],
+"programa": "nao_confirmado",
+"url": "https://cardiacrhythmnews.com/atricure-launches-maze-iv-training-programme-in-europe",
+"contatos": []
+},
+{
+"i": 202,
+"name": "Boston Medical Center — BU Amyloidosis Center",
+"city": "Boston",
+"country": "EUA",
+"areas": [
+"miocardiopatias"
+],
+"programa": "nao_confirmado",
+"url": "https://www.bu.edu/amyloid/about-us",
+"contatos": []
+},
+{
+"i": 203,
+"name": "Royal Free — National Amyloidosis Centre",
+"city": "Londres",
+"country": "Reino Unido",
+"areas": [
+"miocardiopatias"
+],
+"programa": "nao_confirmado",
+"url": "https://www.royalfree.nhs.uk/news/princess-royal-opens-mri-centre",
+"contatos": []
+},
+{
+"i": 204,
+"name": "Hôpital Bicêtre (AP-HP)",
+"city": "Le Kremlin-Bicêtre",
+"country": "França",
+"areas": [
+"hipertensao_pulmonar"
+],
+"programa": "nao_confirmado",
+"url": "https://www.aphp.fr/bicetre/service-de-pneumologie",
+"contatos": []
+},
+{
+"i": 205,
+"name": "AOU Careggi",
+"city": "Florença",
+"country": "Itália",
+"areas": [
+"miocardiopatias"
+],
+"programa": "nao_confirmado",
+"url": "https://www.dmsc.unifi.it/upload/sub/News/2024/Annuario%202023%20stampa.pdf",
+"contatos": []
+},
+{
+"i": 206,
+"name": "Universitätsklinikum Heidelberg — Amyloidose-Zentrum",
+"city": "Heidelberg",
+"country": "Alemanha",
+"areas": [
+"miocardiopatias"
+],
+"programa": "nao_confirmado",
+"url": "https://www.heidelberg-university-hospital.com/diseases-treatments/endocrine-and-metabolic-diseases/amyloidosis",
+"contatos": []
+},
+{
+"i": 207,
+"name": "Amsterdam UMC",
+"city": "Amsterdã",
+"country": "Países Baixos",
+"areas": [
+"cardiogenetica"
+],
+"programa": "nao_confirmado",
+"url": "https://link.springer.com/content/pdf/10.1007/s12471-019-1251-4.pdf",
+"contatos": []
+},
+{
+"i": 208,
+"name": "Baker Heart Institute / St Vincent's Melbourne",
+"city": "Melbourne",
+"country": "Austrália",
+"areas": [
+"esporte"
+],
+"programa": "nao_confirmado",
+"url": "https://baker.edu.au/news/institute-news/sleep-recovery-success",
+"contatos": []
+},
+{
+"i": 209,
+"name": "UMC Groningen",
+"city": "Groningen",
+"country": "Países Baixos",
+"areas": [
+"hemodinamica_coronaria"
+],
+"programa": "nao_confirmado",
+"url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7782643/",
+"contatos": []
+},
+{
+"i": 210,
+"name": "Birmingham Children's Hospital",
+"city": "Birmingham",
+"country": "Reino Unido",
+"areas": [
+"cardio_pediatrica"
+],
+"programa": "nao_confirmado",
+"url": "https://www.bch.org.uk/childrens-heart-appeal",
+"contatos": []
+},
+{
+"i": 211,
+"name": "Shanghai Children's Medical Center",
+"city": "Xangai",
+"country": "China",
+"areas": [
+"cardio_pediatrica"
+],
+"programa": "nao_confirmado",
+"url": "https://wjps.bmj.com/content/2/1/e000048",
+"contatos": []
+},
+{
+"i": 212,
+"name": "Institut Jantung Negara (IJN)",
+"city": "Kuala Lumpur",
+"country": "Malásia",
+"areas": [
+"cardio_pediatrica"
+],
+"programa": "nao_confirmado",
+"url": "https://childrensheartlink.org/childrens-heartlink-fellowship-pediatric-cardiac-sciences",
+"contatos": []
+},
+{
+"i": 213,
+"name": "Hospital Dr. Luis Calvo Mackenna",
+"city": "Santiago",
+"country": "Chile",
+"areas": [
+"cardio_pediatrica"
+],
+"programa": "nao_confirmado",
+"url": "https://www.minsal.cl/minsal-implementa-estrategias-para-dar-continuidad-a-la-atencion-de-los-pacientes-con-patologias-cardiacas-graves-del-hospital-dr-calvo-mackenna/",
+"contatos": []
+},
+{
+"i": 214,
+"name": "Baylor University Medical Center",
+"city": "Dallas",
+"country": "EUA",
+"areas": [
+"ecmo"
+],
+"programa": "nao_confirmado",
+"url": "https://news.bswhealth.com/releases/baylor-university-medical-center-receives-award-for-excellence-in-life-support",
+"contatos": []
+},
+{
+"i": 215,
+"name": "UNC Medical Center",
+"city": "Chapel Hill",
+"country": "EUA",
+"areas": [
+"ecmo"
+],
+"programa": "nao_confirmado",
+"url": "https://www.med.unc.edu/surgery/unc-ecmo-program-ranked-among-the-worlds-best/",
+"contatos": []
+},
+{
+"i": 216,
+"name": "Legacy Emanuel Medical Center",
+"city": "Portland (OR)",
+"country": "EUA",
+"areas": [
+"ecmo"
+],
+"programa": "nao_confirmado",
+"url": "https://www.legacyhealth.org/about/news-and-media/story-center/2025/11/legacy-emanuel-ecmo-earns-highest-level-of-recognition",
+"contatos": []
+},
+{
+"i": 217,
+"name": "Cooper University Hospital",
+"city": "Camden (NJ)",
+"country": "EUA",
+"areas": [
+"ecmo"
+],
+"programa": "nao_confirmado",
+"url": "https://blogs.cooperhealth.org/news/2025/10/cooper-university-health-care-internationally-recognized-with-gold-level-award-for-excellence-in-life-support/",
+"contatos": []
+},
+{
+"i": 218,
+"name": "University of Iowa Hospitals & Clinics",
+"city": "Iowa City",
+"country": "EUA",
+"areas": [
+"ecmo"
+],
+"programa": "nao_confirmado",
+"url": "https://uihc.org/news/ecmo-program-earns-highest-level-elso-distinction-excellence-life-support",
+"contatos": []
+},
+{
+"i": 219,
+"name": "Toronto Rehabilitation Institute (UHN)",
+"city": "Toronto",
+"country": "Canadá",
+"areas": [
+"reabilitacao"
+],
+"programa": "nao_confirmado",
+"url": "https://www.uhn.ca/TorontoRehab/Cardiovascular-Rehab",
+"contatos": []
+},
+{
+"i": 220,
+"name": "ECMO Centre Karolinska",
+"city": "Estocolmo",
+"country": "Suécia",
+"areas": [
+"ecmo"
+],
+"programa": "nao_confirmado",
+"url": "https://karolinska.se/vard/funktion/funktion-barn-pmi/ecmo/in-english",
+"contatos": []
+},
+{
+"i": 221,
+"name": "General University Hospital in Prague (VFN)",
+"city": "Praga",
+"country": "Tchéquia",
+"areas": [
+"ecmo"
+],
+"programa": "nao_confirmado",
+"url": "https://vfn.cz/en/?p=14307",
+"contatos": []
+},
+{
+"i": 222,
+"name": "Fundación Cardiovascular de Colombia",
+"city": "Bucaramanga",
+"country": "Colômbia",
+"areas": [
+"ecmo"
+],
+"programa": "nao_confirmado",
+"url": "https://www.vanguardia.com/area-metropolitana/bucaramanga/fcv-recibio-la-maxima-distincion-en-latinoamerica-por-manejo-de-ecmo-NE4341492",
+"contatos": []
+},
+{
+"i": 223,
+"name": "UChicago Medicine — Heart & Vascular",
+"city": "Chicago",
+"country": "EUA",
+"areas": [
+"robotica"
+],
+"programa": "nao_publico",
+"url": "https://www.uchicagomedicine.org/forefront/heart-and-vascular-articles/international-collaborations-reflect-prestige-and-expertise-of-uchicago-medicine-heart-and-vascular-center",
+"contatos": []
+},
+{
+"i": 224,
+"name": "Hospital Israelita Albert Einstein",
+"city": "São Paulo",
+"country": "Brasil",
+"areas": [
+"robotica",
+"emergencia_choque"
+],
+"programa": "nao_confirmado",
+"url": "https://scielo.br/pdf/eins/v11n3/a07v11n3.pdf",
+"contatos": []
+},
+{
+"i": 225,
+"name": "Real Hospital Português de Beneficência",
+"city": "Recife",
+"country": "Brasil",
+"areas": [
+"fetal",
+"cardio_pediatrica"
+],
+"programa": "nao_confirmado",
+"url": "https://childrensheartlink.org/realhospitalannouncement",
+"contatos": []
+},
+{
+"i": 226,
+"name": "Hospital Nossa Senhora das Graças",
+"city": "Curitiba",
+"country": "Brasil",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://www.tribunapr.com.br/noticias/curitiba-regiao/hospital-de-curitiba-realiza-primeira-cirurgia-de-coracao-com-robo/",
+"contatos": []
+},
+{
+"i": 227,
+"name": "Hospital Angelina Caron",
+"city": "Campina Grande do Sul (PR)",
+"country": "Brasil",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://medicinasa.com.br/?p=136717",
+"contatos": []
+},
+{
+"i": 228,
+"name": "Hospital Mater Dei",
+"city": "Belo Horizonte",
+"country": "Brasil",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://www.itatiaia.com.br/saude/mater-dei-avanca-no-uso-da-cirurgia-robotica-e-amplia-possibilidades-no-tratamento-cardiaco/",
+"contatos": []
+},
+{
+"i": 229,
+"name": "Hospital Oto Aldeota",
+"city": "Fortaleza",
+"country": "Brasil",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://mais.opovo.com.br/jornal/ciencia-e-saude/2026/03/23/ceara-realiza-primeira-cirurgia-cardiaca-robotica.html",
+"contatos": []
+},
+{
+"i": 230,
+"name": "Hospital Meridional",
+"city": "Vitória",
+"country": "Brasil",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://tribunaonline.com.br/saude/espirito-santo-tem-1-cirurgia-cardiaca-feita-com-robos-299264",
+"contatos": []
+},
+{
+"i": 231,
+"name": "Hospital Geral Unimed Maringá",
+"city": "Maringá",
+"country": "Brasil",
+"areas": [
+"robotica"
+],
+"programa": "nao_confirmado",
+"url": "https://www.unimed.coop.br/site/web/maringa/-/hgu-realiza-primeira-cirurgia-card%C3%ADaca-rob%C3%B3tica-de-maring%C3%A1",
+"contatos": [
+"https://www.unimed.coop.br/site/web/maringa"
+]
+},
+{
+"i": 232,
+"name": "Hospital de Messejana",
+"city": "Fortaleza",
+"country": "Brasil",
+"areas": [
+"transplante"
+],
+"programa": "nao_confirmado",
+"url": "https://mais.opovo.com.br/jornal/farol/2026/08/08/hospital-de-messejana-alcanca-a-marca-de-600-transplantes-de-coracoes.html",
+"contatos": []
+},
+{
+"i": 233,
+"name": "ICESP — Instituto do Câncer do Estado de SP",
+"city": "São Paulo",
+"country": "Brasil",
+"areas": [
+"cardio_oncologia"
+],
+"programa": "nao_confirmado",
+"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7189468",
+"contatos": []
+},
+{
+"i": 234,
+"name": "Hospital Pequeno Príncipe",
+"city": "Curitiba",
+"country": "Brasil",
+"areas": [
+"cardio_pediatrica"
+],
+"programa": "nao_confirmado",
+"url": "https://www.saude.pr.gov.br/Noticia/Com-apoio-do-Estado-Hospital-Pequeno-Principe-inaugura-oito-novos-leitos-de-UTI",
+"contatos": []
+},
+{
+"i": 235,
+"name": "Hospital da Criança e Maternidade — CardioPedBrasil",
+"city": "São José do Rio Preto",
+"country": "Brasil",
+"areas": [
+"cardio_pediatrica"
+],
+"programa": "nao_confirmado",
+"url": "https://medicinasa.com.br/?p=122401",
+"contatos": []
+},
+{
+"i": 236,
+"name": "Instituto de Cardiologia do RS — IC/FUC",
+"city": "Porto Alegre",
+"country": "Brasil",
+"areas": [
+"fetal"
+],
+"programa": "nao_confirmado",
+"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6081570",
+"contatos": []
+},
+{
+"i": 237,
+"name": "Hospital Samaritano Paulista",
+"city": "São Paulo",
+"country": "Brasil",
+"areas": [
+"emergencia_choque"
+],
+"programa": "nao_confirmado",
+"url": "https://medicinasa.com.br/?p=36285",
+"contatos": []
+},
+{
+"i": 238,
+"name": "Hospital Copa D'Or",
+"city": "Rio de Janeiro",
+"country": "Brasil",
+"areas": [
+"ecmo"
+],
+"programa": "nao_confirmado",
+"url": "https://www.rededorsaoluiz.com.br/hospital/copador/servicos/unidade-pulmonar/",
+"contatos": []
+},
+{
+"i": 239,
+"name": "Hospital e Maternidade Sepaco",
+"city": "São Paulo",
+"country": "Brasil",
+"areas": [
+"ecmo"
+],
+"programa": "nao_confirmado",
+"url": "https://medicinasa.com.br/?p=168296",
+"contatos": []
+}
+]

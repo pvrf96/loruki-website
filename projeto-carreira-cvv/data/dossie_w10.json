@@ -1,0 +1,856 @@
+{
+ "atualizado": "2026-11-01",
+ "polos": [
+  {
+   "match": "MedStar Washington Hospital Center",
+   "alerta": "A URL do radar é um comunicado de 2022, não de 2026.",
+   "rota": [
+    "E-mail ao Dr. Yuji Kawano pedindo que seja host de observership de 4 semanas em robótica",
+    "Citar o programa robótico de 2022 e a expansão para coronária, tricúspide e FA",
+    "Com o aceite, enviar formulários a MWHCClinicalObservers@medstar.net",
+    "Confirmar requisitos para estrangeiros (vacinas, seguro, B1/B2)"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Política institucional de Clinical Observers (aprovada em 15/02/2025): só attending ou APP do MWHC pode hospedar, e a observação pode ser encerrada a qualquer momento. Trilha explícita para estrangeiros não encontrada.",
+    "contato": "MWHCClinicalObservers@medstar.net (formulários e dúvidas de observers)",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Yuji Kawano, MD",
+     "cargo": "Director, Robotic Cardiac Surgery Program (MHVI/MWHC)",
+     "papel": "Host natural; a política exige attending host",
+     "url": "https://www.medstarhealth.org/Doctors/yuji-kawano-md",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Ammar S. Bafi",
+     "cargo": "Cardiac surgeon",
+     "papel": "Host alternativo",
+     "url": "https://www.medstarhealth.org/Locations/Cardiac-Surgery-MedStar-Washington-Hospital-Center",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Thomas E. MacGillivray",
+     "cargo": "Cardiac surgeon",
+     "papel": "Host alternativo",
+     "url": "https://www.medstarhealth.org/Locations/Cardiac-Surgery-MedStar-Washington-Hospital-Center",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Alexander Nissen",
+     "cargo": "Cardiac surgeon",
+     "papel": "Host alternativo",
+     "url": "https://www.medstarhealth.org/Locations/Cardiac-Surgery-MedStar-Washington-Hospital-Center",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Christian C. Shults",
+     "cargo": "Cardiac surgeon",
+     "papel": "Host alternativo",
+     "url": "https://www.medstarhealth.org/Locations/Cardiac-Surgery-MedStar-Washington-Hospital-Center",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "Kawano fez >200 cirurgias robóticas antes do programa e tem fellowship robótica em Emory: bom gancho para o e-mail",
+    "Primeira mitral robótica da região em abr/2022; STS 3 estrelas"
+   ],
+   "lacunas": [
+    "URL do PDF da política de observers (buscar 'MWHC clinical observer policy' em medstarhealth.org)",
+    "Taxa, vacinas, seguro e visto para estrangeiros",
+    "Cargo do Dr. Kawano em 2026 não reconfirmado (dados de 2022)",
+    "Artigos 2022–2026 do serviço em robótica"
+   ]
+  },
+  {
+   "match": "Corewell Health Beaumont",
+   "alerta": "Corresponde ao Corewell Health William Beaumont University Hospital (Royal Oak), antigo Beaumont; algumas páginas usam a marca antiga.",
+   "rota": [
+    "Tratar como alvo secundário: o GME diz não oferecer observership",
+    "E-mail direto ao Dr. Rakesh Suri pedindo visita curta como observer",
+    "Citar o reparo mitral robótico single-port (jul/2026) e o case report JTCVS Tech 2025 (PMID 41112438)"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Não há observership oficial; FAQs de residências de Royal Oak dizem 'we do not offer observerships'. Para cirurgia cardíaca não foi achada política específica.",
+    "url": "https://corewellhealth.org/graduate-medical-education/southeast-michigan/residencies/royal-oak/internal-medicine/faqs",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Rakesh M. Suri, MD",
+     "cargo": "Regional Director, Cardiac Surgery Robotics and Innovation, WBUH Royal Oak",
+     "papel": "Lidera robótica mitral; seria o host",
+     "url": "https://providers.corewellhealth.org/provider/rakesh-suri/3189518",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Thomas A. Schwann, MD",
+     "cargo": "Regional Chief of Cardiac Surgery, Corewell Health East",
+     "papel": "Chefe do serviço; aprovaria exceção",
+     "url": "https://doximity.com/pub/thomas-schwann-md",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "Acesso só por convite pessoal do Dr. Suri (e talvez aprovação do Dr. Schwann/medical staff)",
+    "1º reparo mitral robótico single-port documentado do mundo em 14/07/2026: gancho forte para o e-mail"
+   ],
+   "lacunas": [
+    "Observership específico de cirurgia cardíaca",
+    "Status atual do antigo formulário 'graduate observership' de Dearborn",
+    "Pessoas com formação brasileira no serviço",
+    "Pontes Unifesp/SP"
+   ]
+  },
+  {
+   "match": "Henry Ford Macomb",
+   "alerta": "As URLs do radar são páginas gerais do sistema Henry Ford, não de Macomb; a chefia do serviço tem títulos conflitantes nas fontes (Alnajjar vs Harrington).",
+   "rota": [
+    "E-mail ao Dr. Raed Alnajjar pedindo sponsorship de observership em robótica cardiotorácica",
+    "Citar o 1º reparo mitral robótico do sistema (nov/2025) e a ressecção pulmonar single-port",
+    "Com o aceite, seguir a política MEP 237 via Physician Staff Services, com carta da Unifesp",
+    "Alternativa: visiting na cardiologia do Henry Ford Hospital (Detroit)"
+   ],
+   "prazos": [
+    {
+     "txt": "Visiting fellows na cardiologia do Henry Ford Hospital (Detroit): Visiting House Officer Application ≥75 dias antes",
+     "url": "https://henryford.com/hcp/med-ed/residencies-fellowships/hfh/cardio-disease/visiting-fellows",
+     "certeza": "confirmado"
+    }
+   ],
+   "programa": {
+    "resumo": "Política sistêmica MEP 237 (Observership or Shadowing): exige médico sponsor, aprovação dos diretores de programa de origem e receptor, e observação só no serviço do sponsor. Aplicação ao campus Macomb é provável.",
+    "url": "https://www.henryford.com/-/media/files/henry-ford/hcp/med-ed/residencies-hfh/medical-education-policies/mep-237-observership-or-shadowing-experiences.pdf?la=en",
+    "documentos": "Aprovação do diretor do programa de origem; trâmite via Physician Staff Services",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Raed Alnajjar, MD",
+     "cargo": "Medical Director Cardiothoracic Surgery (Macomb) / Robotic CT Surgery (Henry Ford Health), segundo SCAI 2026",
+     "papel": "Provável sponsor/decisor",
+     "url": "https://scai.confex.com/scai/2026/webprogramarchives/Person91754.html",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Steven Harrington, MD",
+     "cargo": "Cardiothoracic surgeon, Henry Ford Macomb (perfil CTSNet)",
+     "papel": "Liderança histórica do serviço/robótica",
+     "url": "https://www.ctsnet.org/home/sharrington",
+     "certeza": "provável"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "Precisa de sponsor interno + carta/aprovação da COREME/Unifesp",
+    "Robótica cardíaca nova (mitral desde nov/2025) e de baixo volume; talvez valha mais pela robótica torácica",
+    "Henry Ford Warren tem International Observership Policy (conteúdo não visto)"
+   ],
+   "lacunas": [
+    "Taxa e documentos",
+    "Nome do cirurgião do MVr robótico de nov/2025",
+    "Volume robótico",
+    "Pessoas com formação brasileira e pontes Unifesp/SP"
+   ]
+  },
+  {
+   "match": "El Camino Hospital",
+   "alerta": "Possível mistura de campi: o CABG robótico foi anunciado pelo Los Gatos Hospital (El Camino Health), e o Dr. Carroll tem vínculo também com Los Robles; confirmar onde opera.",
+   "rota": [
+    "Prioridade baixa",
+    "Pedir ao HVI a política de clinical observers",
+    "E-mail ao Dr. Nels Carroll, via canal institucional do HVI, perguntando se aceita observer internacional em CABG robótico"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Nenhuma política ou página de observer/visiting physician encontrada; hospital comunitário, acesso dependeria de convite pessoal e do medical staff office.",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Nels D. Carroll, MD",
+     "cargo": "Cardiac surgeon, El Camino Health",
+     "papel": "Fez o CABG robótico; host natural",
+     "url": "https://www.elcaminohealth.org/node/179096",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Vincent Gaudiani, MD",
+     "cargo": "Surgeon (diretório El Camino Health; aparentemente cardiotorácico)",
+     "papel": "Staff do serviço",
+     "url": "https://www.getcare.elcaminohealth.org/providers/vincent-gaudiani-md-1851317341-1",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Keith Korver, MD",
+     "cargo": "Surgeon (diretório El Camino Health; aparentemente cardiotorácico)",
+     "papel": "Staff do serviço",
+     "url": "https://www.getcare.elcaminohealth.org/providers/vincent-gaudiani-md-1851317341-1",
+     "certeza": "provável"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "Programa de CABG robótico (da Vinci) anunciado em jul/2026: volume baixo esperado",
+    "HVI com STS 3 estrelas; robótica geral há mais de 10 anos"
+   ],
+   "lacunas": [
+    "Programa de observership e contato oficial",
+    "Chefia do serviço",
+    "Volume robótico cardíaco",
+    "Produção acadêmica, brasileiros e pontes"
+   ]
+  },
+  {
+   "match": "University of Utah Hospital",
+   "alerta": null,
+   "rota": [
+    "E-mail a Vikas Sharma pedindo 4 semanas de observership em mitral robótica, com CV e carta da Unifesp",
+    "Cópia para o chefe da divisão, Craig Selzman",
+    "Com o aceite, inscrever-se no Department Sponsored Visitors Program ≥8 semanas antes",
+    "Preparar background check, vacinas/TB, drug screen e seguro"
+   ],
+   "prazos": [
+    {
+     "txt": "Inscrição na Global Health Education pelo menos 6–8 semanas antes da chegada",
+     "url": "https://medicine.utah.edu/global-health-education/department-sponsored-visitors-program",
+     "certeza": "confirmado"
+    }
+   ],
+   "programa": {
+    "resumo": "Department Sponsored Visitors Program: médico ou residente formado fora dos EUA é aceito com departamento/docente patrocinador; IMG só observa, sem contato com paciente. Uma versão exige 12 meses de experiência clínica.",
+    "url": "https://medicine.utah.edu/global-health-education/department-sponsored-visitors-program",
+    "contato": "Office of Global Health Education (via página do programa)",
+    "taxa": "US$ 40 de processamento; uma versão lista US$ 450/semana e a loja do Dean's Office mostra US$ 0 após 01/07/2024 — confirmar com o escritório",
+    "documentos": "Background check internacional, imunizações e TB, drug screen, seguro-saúde; o escritório emite cartas para o visto",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Vikas Sharma, MD",
+     "cargo": "Director, Robotic Cardiac Surgery Program; Assistant Professor, CT Surgery",
+     "papel": "Alvo principal; hospedaria",
+     "url": "https://healthcare.utah.edu/find-a-doctor/vikas-sharma",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Craig H. Selzman, MD",
+     "cargo": "Chief, Division of Cardiothoracic Surgery",
+     "papel": "Aprova o patrocínio departamental",
+     "url": "https://medicine.utah.edu/surgery/cardiothoracic/message-from-chief",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "Conseguir o 'sim' de Sharma antes de abrir a inscrição no escritório",
+    "Único centro do Mountain West com da Vinci em cirurgia cardíaca (2023); Destination Care Specialty Program desde nov/2022",
+    "O Cardio/CT/Transplant/Pulmonary Symposium da divisão pode ser porta de contato"
+   ],
+   "lacunas": [
+    "Valor real da taxa (fontes divergem)",
+    "Volume robótico",
+    "Artigos 2022–2026 do serviço com PMID/DOI",
+    "Pessoas com formação brasileira e pontes Unifesp/SP"
+   ]
+  },
+  {
+   "match": "Loma Linda University Medical Center",
+   "alerta": "Joshua Chung é chair desde 2023 (matéria de 2021 o chama de vice-chair).",
+   "rota": [
+    "E-mail ao Dr. Joshua Chung pedindo observership de 4 semanas em cirurgia minimamente invasiva/robótica",
+    "Em paralelo, consultar o Global Health Institute sobre o IPDP",
+    "Prioridade média-baixa para robótica"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Sem observership clínico geral; o IPDP do Global Health Institute é só observação, pedido pela instituição de origem (que custeia e garante o cargo) e exige departamento e mentor dispostos. Aplicação a residente de curta duração é incerta.",
+    "url": "https://ghi.llu.edu/ipdp",
+    "contato": "Global Health Institute (ghi.llu.edu)",
+    "documentos": "CV atualizado e carta de intenção",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Joshua S. Chung, MD, FACS",
+     "cargo": "Chair, Dept. of Cardiothoracic Surgery",
+     "papel": "Decide e hospeda; lidera a mitral robótica",
+     "url": "https://news.llu.edu/academics/chung-selected-chair-of-department-of-cardiothoracic-surgery",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Anees Razzouk, MD",
+     "cargo": "Ex-chair (2007–2023); cirurgia cardíaca pediátrica e adulta",
+     "papel": "Figura sênior do departamento",
+     "url": "https://murrieta.lluh.org/provider/razzouk-anees",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "Primeira troca mitral robótica em set/2020: programa pequeno e recente",
+    "Se a residente tiver vínculo com hospital adventista brasileiro, o IPDP pode servir de rota formal (vínculo Loma Linda–Brasil não documentado)"
+   ],
+   "lacunas": [
+    "Taxa, duração e antecedência do IPDP",
+    "E-mail específico do Global Health Institute",
+    "Volume robótico",
+    "Artigos com PMID/DOI (há case report 2025 no EHJ Case Reports, título não visto)"
+   ]
+  },
+  {
+   "match": "UVA Health",
+   "alerta": "Michael Ibrahim está na UVA desde 2026; página da Penn ainda o lista como diretor do fellowship robótico.",
+   "rota": [
+    "E-mail ao Dr. Michael Ibrahim citando o lançamento do programa (ago/2026) e o trabalho em reoperação mitral robótica",
+    "Pedir 4 semanas de observação",
+    "Com o aceite, a divisão faz o pedido ao GME Office (formulário de observer >10 dias)",
+    "Plano B: perguntar sobre observação na Penn"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "GME Visitors/Observers: o pedido precisa partir de um programa da UVA para o GME Office, com formulários separados para observers <10 e >10 dias. Documento específico para estrangeiros não encontrado.",
+    "url": "https://med.virginia.edu/gme/program-resources/forms/visitors-observers/",
+    "contato": "GME Office, via programa patrocinador",
+    "documentos": "Triagem de saúde do centro médico; vacina de influenza obrigatória entre outubro e abril (modelo da Radiologia)",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Michael E. Ibrahim, MD, PhD",
+     "cargo": "Director of Robotic Cardiac Surgery, UVA Health",
+     "papel": "Decide e hospeda; ex-diretor do fellowship robótico da Penn",
+     "url": "https://www.uvahealth.com/providers/Michael-Ibrahim-1528443041",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Ourania Preventza, MD",
+     "cargo": "Chief, Division of Cardiothoracic Surgery",
+     "papel": "Aprova o patrocínio",
+     "url": "https://giving.uvahealth.com/article/new-cardiothoracic-surgery-chief",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Leora T. Yarboro, MD",
+     "cargo": "Associate Professor; surgical director HF & transplant",
+     "papel": "Cirurgia valvar/transplante; vínculo com robótica não confirmado",
+     "url": "https://www.uvahealth.com/providers/Leora-Yarboro-1437378643",
+     "certeza": "provável"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "Reoperative Mitral Valve Surgery Utilizing a Robotic Technique: A Safe and Reproducible Approach (ISMICS 2025, abstract; feito na Penn)",
+     "ano": 2025,
+     "id": null,
+     "url": "https://www3.pennmedicine.org/providers/profile/michael-ibrahim"
+    },
+    {
+     "titulo": "Re-repair for mitral insufficiency (Ann Thorac Surg; feito na Penn)",
+     "ano": 2024,
+     "id": null,
+     "url": "https://www3.pennmedicine.org/providers/profile/michael-ibrahim"
+    }
+   ],
+   "dicas": [
+    "Programa lançado em 14/08/2026 (1º caso: reparo mitral); equipe treinou 6–9 meses antes",
+    "Ibrahim tem perfil de educador em robótica: aumenta a chance de aceitar observers"
+   ],
+   "lacunas": [
+    "Taxa",
+    "Regras específicas para médico internacional",
+    "Volume robótico",
+    "Pessoas com formação brasileira e pontes Unifesp/SP"
+   ]
+  },
+  {
+   "match": "Novant Health Presbyterian",
+   "alerta": null,
+   "rota": [
+    "Prioridade baixa; priorizar centros acadêmicos (Utah, UVA)",
+    "Se tentar: e-mail ao Dr. Jeffrey Everett pedindo para observar mitral robótica",
+    "Perguntar se a Novant tem processo de observer para médicos visitantes"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Sem via para médicos/residentes estrangeiros; só há pacote de observação de estudantes (<16 h), com acordo e supervisor nomeado. Rotações exigem acordo institucional.",
+    "url": "https://www.novanthealth.org/careers/student-programs.aspx",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Jeffrey Everett, MD",
+     "cargo": "Advanced Robotic Cardiac Surgery / Cardiothoracic Surgery, Novant Health",
+     "papel": "Líder do programa de mitral robótica; decide e hospedaria",
+     "url": "https://www.novanthealth.org/pf/providers/1407849532/jeffrey-everett",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "Primeiro da região de Charlotte a oferecer reparo mitral robótico; programa recente",
+    "Na reportagem da WSOC o nome aparece grafado 'Jefferey'"
+   ],
+   "lacunas": [
+    "Observership para médicos e contato oficial",
+    "Taxa e documentos",
+    "Volume robótico",
+    "Artigos, brasileiros e pontes"
+   ]
+  },
+  {
+   "match": "Dartmouth Hitchcock",
+   "alerta": null,
+   "rota": [
+    "Prioridade baixa para robótica; preferir centros de volume consolidado (ex.: UPMC)",
+    "E-mail curto a Jose R. Rodriguez com cópia ao chefe Henry Tannous, pedindo 4 semanas de observership",
+    "Perguntar qual é o processo institucional (não há página pública)"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Nenhuma página oficial de observership/visiting physician da Dartmouth Health ou da Geisel encontrada.",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Henry J. Tannous, MD",
+     "cargo": "Section Chief, Cardiac Surgery; Professor of Surgery, Geisel",
+     "papel": "Decide; liderou a 1ª mitral robótica do hospital",
+     "url": "https://providers.dartmouth-health.org/2270/henry-j-tannous",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Jose R. Rodriguez, MD",
+     "cargo": "Director of Minimally Invasive Cardiac Surgery and Quality",
+     "papel": "Console surgeon do programa robótico (provável); provável anfitrião",
+     "url": "https://providers.dartmouth-health.org/2506/jose-r-rodriguez",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "Programa novo: 1ª plastia mitral robótica em 15/08/2025; útil só como complemento",
+    "Tannous e Rodriguez também atendem em Manchester (NH)"
+   ],
+   "lacunas": [
+    "Programa de observership, elegibilidade, taxa e contato",
+    "Volume anual robótico",
+    "Artigos 2022–2026 do serviço em robótica",
+    "Pessoas com formação brasileira e pontes"
+   ]
+  },
+  {
+   "match": "Ohio State Wexner (Ross Heart Hospital)",
+   "alerta": "Liderança da divisão a confirmar: release de 2018 cita Mokadam como diretor, o perfil atual cita Whitson; a fama robótica é histórica, sem volume atual publicado.",
+   "rota": [
+    "Conseguir um docente da Division of Cardiac Surgery que aceite ser sponsor",
+    "E-mail ao diretor Bryan Whitson citando mitral/robótica",
+    "O departamento inicia o pedido no Office of Global Health",
+    "Prioridade média-baixa"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "International Visiting Scholars: só por convite de departamento/docente OSU, com faculty sponsor e aprovação do chefe; pedidos não solicitados não são aceitos.",
+    "url": "https://medicine.osu.edu/departments/office-of-global-health/international-visiting-scholars",
+    "contato": "Office of Global Health (via departamento anfitrião)",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Bryan Whitson, MD, PhD",
+     "cargo": "Director, Division of Cardiac Surgery; Interim Co-Director, Heart and Vascular Center",
+     "papel": "Aprovaria/indicaria sponsor; lista Robotics e Mitral Valve",
+     "url": "https://wexnermedical.osu.edu/find-a-doctor/bryan-whitson-100000524",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Nahush Mokadam, MD",
+     "cargo": "Cardiac surgeon, Ross Heart Hospital",
+     "papel": "Liderança sênior (cargo atual incerto)",
+     "url": "https://wexnermedical.osu.edu/mediaroom/pressreleaselisting/two-nationally-prominent-surgeons-take-leadership-roles-at-osu-wex-med",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Matthew Henn, MD",
+     "cargo": "Assistant Professor of Surgery, Cardiac Surgery",
+     "papel": "Listado em cirurgia minimamente invasiva; papel robótico não confirmado",
+     "url": "https://wexnermedical.osu.edu/heart-vascular/cardiac-surgery/minimally-invasive-surgery",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Takuya Wada, MD",
+     "cargo": "Assistant Professor, Division of Cardiac Surgery (desde set/2025)",
+     "papel": "Possível sponsor acessível; foco robótico não confirmado",
+     "url": "https://ctsnet.org/home/takuya-wada",
+     "certeza": "provável"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "Sem sponsor docente não há entrada: pedido direto ao escritório é recusado",
+    "Visto depende do propósito/duração: https://hr.osu.edu/services/talent-immigration/observation"
+   ],
+   "lacunas": [
+    "Taxa, duração e lista de documentos",
+    "E-mail do Office of Global Health",
+    "Volume robótico atual e cirurgião robótico atual nomeado",
+    "Artigos 2022–2026, brasileiros e pontes"
+   ]
+  },
+  {
+   "match": "UPMC Heart and Vascular Institute",
+   "alerta": null,
+   "rota": [
+    "E-mail a Johannes Bonatti citando o artigo de 2025 sobre incisões (DOI 10.3389/fcvm.2025.1575779) e o TECAB",
+    "Pedir 4 semanas de observership e oferecer ajuda em pesquisa",
+    "Pedir à equipe dele o trâmite de visitante do Dept. of Cardiothoracic Surgery",
+    "Contatos brasileiros da CT só para dicas logísticas"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Sem página de observership cardiotorácica; há precedente de visitante internacional europeu por vários meses em 2025 com Bonatti (pesquisa + observação + simulação, >50 casos). Rota departamental provável.",
+    "url": "https://www.goinginternational.eu/pdfs/countryreports/Martin Winter_Clinical Rotation in Robotic Cardiac Surgery at UPMC Pittsburgh.pdf",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Johannes Bonatti, MD, FETCS",
+     "cargo": "Director of Cardiac Robotic Surgery, UPMC HVI; Professor of CT Surgery",
+     "papel": "Decide e hospeda; pioneiro do TECAB, >1.000 casos robóticos",
+     "url": "https://upmc.com/media/experts/johannes-bonatti",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Ibrahim Sultan, MD",
+     "cargo": "Chief of Cardiac Surgery, UPMC",
+     "papel": "Chefe do serviço; coautor do estudo robótico de 2025",
+     "url": "https://www.frontiersin.org/journals/cardiovascular-medicine/articles/10.3389/fcvm.2025.1575779/text",
+     "certeza": "provável"
+    }
+   ],
+   "brasileiros": [
+    {
+     "nome": "Luciana Da Fonseca Da Silva, MD",
+     "ligacao": "MD pela UFJF, título SBCCV; cirurgiã CT na UPMC Children's/Presbyterian (cardiopediatria)",
+     "url": "https://www.doximity.com/pub/luciana-da-fonseca-da-silva-md",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Claudio A. B. Lima, MD",
+     "ligacao": "MD pela UFES; Assistant Professor of CT Surgery, Pitt (cardiopediatria)",
+     "url": "https://providers.upmc.com/provider/claudio-a-b-lima/1321668",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Rodrigo dos Santos, MD",
+     "ligacao": "Treinou na UNIFESP (2000–02); Instructor of Surgery UPMC em 2003 (torácica; vínculo histórico)",
+     "url": "https://ctsnet.org/home/rdossantos",
+     "certeza": "confirmado"
+    }
+   ],
+   "artigos": [
+    {
+     "titulo": "Small cuts, big questions: the impact of incision length in minimally invasive robotic cardiac surgery",
+     "ano": 2025,
+     "id": "10.3389/fcvm.2025.1575779",
+     "url": "https://www.frontiersin.org/journals/cardiovascular-medicine/articles/10.3389/fcvm.2025.1575779/text"
+    },
+    {
+     "titulo": "Exposure technique for the circumflex artery territory in robotic totally endoscopic coronary artery bypass grafting",
+     "ano": 2024,
+     "id": null,
+     "url": "https://www.annalscts.com/article/view/17121/html"
+    }
+   ],
+   "dicas": [
+    "Volume ~70 robóticas/ano (218 entre jul/2021 e abr/2024: mitral, TECAB, RA-MIDCAB): 4 semanas ≈ 5–10 casos",
+    "Oferecer contribuição em pesquisa aumenta a chance",
+    "Heart Valve Symposium anual da UPMC: bom assunto para o e-mail",
+    "Enhanced Observership Program (Dept. of Medicine; 8 semanas, US$50 de inscrição) é para medicina interna, não serve à cirurgia cardíaca"
+   ],
+   "lacunas": [
+    "Elegibilidade, taxa e documentos para observer na CT",
+    "Fellowship robótico específico",
+    "Coautorias com Unifesp/InCor/Dante"
+   ]
+  },
+  {
+   "match": "Lenox Hill Hospital (Northwell)",
+   "alerta": "A URL do radar é anúncio de fellowship em job board, não programa de observership; chair atual do departamento não confirmado.",
+   "rota": [
+    "E-mail a Nirav Patel com cópia a Frank Manetta",
+    "Citar o artigo de 10 anos de revascularização híbrida (Ann Cardiothorac Surg 2024)",
+    "Pedir 4 semanas de observership em RA-MIDCAB/híbrido",
+    "Perguntar o processo de observer da Northwell/Lenox Hill"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Observership não encontrado. Há fellowship clínico de 1 ano (não-ACGME) em coronária avançada e robótica 2026–2027, que exige residência CT concluída, USMLE 1 e 2 e ECFMG; não serve a residente brasileira.",
+    "url": "https://careers.thoracic.org/jobs/21907743/advanced-coronary-and-minimally-invasive-robotic-cardiac-surgery-fellowship-for-2026-2027",
+    "duracao": "Fellowship: 1 ano",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Nirav C. Patel, MD",
+     "cargo": "Director of Robotic Cardiac Surgery (Northwell); Vice Chair CV & Thoracic Surgery; diretor do fellowship robótico",
+     "papel": "Decide e hospeda; referência em RA-MIDCAB/híbrido",
+     "url": "https://www.ctsnet.org/?p=426124",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Frank Manetta, MD",
+     "cargo": "Assistant Program Director do fellowship",
+     "papel": "Cuida de trainees; bom em cópia",
+     "url": "https://careers.hrsonline.org/jobs/21907743/advanced-coronary-and-minimally-invasive-robotic-cardiac-surgery-fellowship-for-2026-2027",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Jonathan M. Hemli, MD",
+     "cargo": "Cardiac surgeon; coautor recorrente de Patel",
+     "papel": "Pesquisa clínica do grupo",
+     "url": "https://meetings.ismics.org/program/2022/PC61.cgi",
+     "certeza": "provável"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "Ten-year outcomes of hybrid coronary revascularization at a single center",
+     "ano": 2024,
+     "id": null,
+     "url": "https://scholars.mssm.edu/en/publications/ten-year-outcomes-of-hybrid-coronary-revascularization-at-a-singl/"
+    },
+    {
+     "titulo": "How to robotically take down a mammary artery",
+     "ano": 2024,
+     "id": null,
+     "url": "https://www.annalscts.com/article/view/17119/html"
+    }
+   ],
+   "dicas": [
+    "Foco em coronária robótica (RA-MIDCAB, híbrido com PCI): interessa a cirurgião e hemodinamicista",
+    "395 revascularizações híbridas em ~10 anos, mortalidade 30d de 0,25%",
+    "Segundo melhor polo deste bloco, depois da UPMC"
+   ],
+   "lacunas": [
+    "Detalhes e contato oficial de observership",
+    "Chair atual do departamento",
+    "Volume anual robótico",
+    "Pessoas com formação brasileira e pontes"
+   ]
+  },
+  {
+   "match": "HonorHealth Deer Valley",
+   "alerta": "Não há observership confirmado; o link do radar é matéria de marketing.",
+   "rota": [
+    "Prioridade baixa frente a centros com programa formal",
+    "Contato com o Dr. Zain Khalpey via consultório/departamento",
+    "Citar o artigo Robotic Convergent Plus (2024) e o interesse em mitral/FA robótica",
+    "Pedir o caminho de credenciamento de observer (Medical Staff/Academic Affairs)"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Nenhuma página de observership/visiting physician encontrada; a Undergraduate Medical Education não oferece rotações a alunos de escolas fora dos EUA (regra para estudantes, não para residentes).",
+    "url": "https://honorhealth.com/academic-affairs/undergraduate-medical-education",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Zain Khalpey, MD, PhD",
+     "cargo": "CT surgeon; Director Artificial Heart, MCS and ECMO; network director of AI",
+     "papel": "Liderou as primeiras cirurgias cardíacas robóticas; anfitrião natural",
+     "url": "https://www.honorhealth.com/physicians/zain-khalpey",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "Khalpey tem forte perfil em IA na cirurgia cardíaca: bom gancho se houver interesse em IA/robótica/MCS",
+    "Primeiras robóticas cardíacas em jul/2022; 100º convergente robótico para FA em 2024"
+   ],
+   "lacunas": [
+    "Programa de observership e contato oficial",
+    "Chefe formal do serviço",
+    "Volume robótico mitral",
+    "PMID/DOI do artigo de 2024"
+   ]
+  },
+  {
+   "match": "Mills-Peninsula (Sutter)",
+   "alerta": "Bilal Shafi aparece vinculado a vários hospitais além de Mills-Peninsula (Good Samaritan, Dominican, El Camino); confirmar o local principal.",
+   "rota": [
+    "Prioridade baixa",
+    "Contato com o Dr. Bilal Shafi via Sutter pedindo 2–4 semanas em mitral robótica",
+    "Combinar com ele o hospital da observação",
+    "Com o aceite, pedir o processo de observer à Medical Staff Office"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Observership para médicos não encontrado; só há pacote de voluntariado da Sutter (vacinas e teste de TB obrigatórios).",
+    "url": "https://sutterhealth.org/pdf/volunteering/observational-experience-packet.pdf",
+    "documentos": "Pacote genérico: comprovante de imunizações e teste de TB",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Bilal Shafi, MD",
+     "cargo": "CT surgeon; Director of Cardiovascular Surgery & Structural Heart, Good Samaritan Hospital",
+     "papel": "Único cirurgião do programa robótico; decide e hospedaria",
+     "url": "https://www.sutterhealth.org/find-doctor/dr-Bilal-Shafi",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "Programa lançado em 2025; Shafi tem >300 cirurgias cardíacas robóticas (Sutter, abr/2025)",
+    "Hospital comunitário, sem fellowship CT conhecido"
+   ],
+   "lacunas": [
+    "Observership para médicos e contato oficial",
+    "Volume do programa em Mills-Peninsula",
+    "Artigos 2022–2026",
+    "Pessoas com formação brasileira e pontes"
+   ]
+  },
+  {
+   "match": "Liverpool Heart and Chest Hospital",
+   "alerta": "Dados de volume e equipe do programa robótico são de 2017–2018; situação atual não confirmada.",
+   "rota": [
+    "E-mail a Mr Paul Modi pedindo 4 semanas de observação em mitral robótica",
+    "Citar a revisão de robótica mitral da equipe",
+    "Se aceitar, ele encaminha ao Medical Education/HR para honorary contract",
+    "Médio prazo: fellowship post-CCT (exige GMC)"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Nenhuma página de observership/clinical attachment da LHCH encontrada; outros trusts NHS usam honorary contract sem hands-on, mas isso não é regra da LHCH.",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Mr Paul Modi",
+     "cargo": "Consultant cardiac surgeon (mitral minimamente invasiva e robótica, FA)",
+     "papel": "Fundador/líder do programa robótico; anfitrião principal",
+     "url": "https://www.ctsnet.org/print/jans/robotic-mitral-surgery-starts-uk",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Mr Steven Woolley",
+     "cargo": "Thoracic surgeon do programa robótico (2017)",
+     "papel": "Co-líder do lado torácico",
+     "url": "https://www.lhch.nhs.uk/resources/download/lhch-64c8c1838d4555.03066547",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Omar Al-Rawi",
+     "cargo": "Coautor da revisão de robótica mitral (2021)",
+     "papel": "Equipe do programa robótico",
+     "url": "https://typeset.io/pdf/robotic-mitral-valve-surgery-a-review-and-tips-for-safely-2zn3zsjf93.pdf",
+     "certeza": "provável"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "Robotic mitral valve surgery: a review and tips for safely negotiating the learning curve (J Thorac Dis)",
+     "ano": 2021,
+     "id": null,
+     "url": "https://typeset.io/pdf/robotic-mitral-valve-surgery-a-review-and-tips-for-safely-2zn3zsjf93.pdf"
+    }
+   ],
+   "dicas": [
+    "Primeiro programa de robótica cardíaca do Reino Unido (mitral totalmente endoscópica em mar/2018)",
+    "Revisão de 2023 em Front Cardiovasc Med (DOI 10.3389/fcvm.2023.1239742) também serve de gancho",
+    "Recebe fellows post-CCT com experiência robótica (vaga paga NHS, exige GMC)"
+   ],
+   "lacunas": [
+    "Programa de observership, taxa e contato",
+    "Chefe de cirurgia cardíaca",
+    "Volume robótico atual",
+    "Pessoas com formação brasileira e pontes"
+   ]
+  },
+  {
+   "match": "James Cook University Hospital",
+   "alerta": "O link do radar (ISRCTN13930454) é o UK Mini Mitral, de mini-toracotomia, não robótica; robótica cardíaca aparece 'em desenvolvimento' e a área do polo deveria ser 'mitral minimamente invasiva'.",
+   "rota": [
+    "Escolher só se o interesse for mini-mitral/ERAS/pesquisa",
+    "E-mail ao Prof Enoch Akowuah citando o UK Mini Mitral (JAMA 2023)",
+    "Pedir 4 semanas de observação em mitral minimamente invasiva/ERAS e na ACU",
+    "Perguntar se há honorary observer via departamento"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Observership não encontrado; há vagas pagas de Clinical Fellow em cirurgia CT (NHS Jobs, exigem GMC).",
+    "url": "https://www.jobs.nhs.uk/candidate/jobadvert/C9328-25-0929",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Prof Enoch Akowuah",
+     "cargo": "Consultant cardiac surgeon; Chair Adult Cardiac Surgery subcommittee SCTS; CI do UK Mini Mitral",
+     "papel": "Figura acadêmica mais influente do serviço",
+     "url": "https://www.ctsnet.org/home/eakowuah",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Mr Joel Dunning",
+     "cargo": "CT surgeon (robótica torácica)",
+     "papel": "Líder do programa robótico da trust",
+     "url": "https://southtees.mixd.co.uk/news/middlesbrough-surgeon-in-africa-robotic-surgery-first/",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Mr Luke Rogers",
+     "cargo": "Surgeon citado na acreditação minimamente invasiva",
+     "papel": "Equipe de mini/ERAS",
+     "url": "https://www.southtees.nhs.uk/news/leaders-in-minimally-invasive-heart-surgery-and-enhanced-recovery/",
+     "certeza": "provável"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "Acreditado pela SCTS como um dos 5 centros nacionais em cirurgia cardíaca minimamente invasiva e ERAS",
+    "UK Mini Mitral: JAMA 2023;329(22):1957-1966, DOI 10.1001/jama.2023.7800",
+    "Robótica torácica estabelecida (3 da Vinci, desde 2014)"
+   ],
+   "lacunas": [
+    "Programa de observership e contato oficial",
+    "Chefe do serviço",
+    "Data da acreditação SCTS",
+    "Pessoas com formação brasileira e pontes"
+   ]
+  }
+ ],
+ "pontes_brasil": [
+  {
+   "nome": "Rodrigo dos Santos, MD",
+   "onde": "Pittsburgh (UPMC, 2003; Allegheny General)",
+   "ligacao": "Treinou na UNIFESP (2000–02); research fellow em cirurgia torácica minimamente invasiva e Instructor of Surgery UPMC (vínculo histórico, torácica)",
+   "centros": [
+    "UPMC Heart and Vascular Institute"
+   ],
+   "url": "https://ctsnet.org/home/rdossantos",
+   "certeza": "confirmado"
+  }
+ ]
+}

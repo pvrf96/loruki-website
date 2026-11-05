@@ -1,0 +1,1043 @@
+{
+ "atualizado": "2026-11-01",
+ "polos": [
+  {
+   "match": "Baker Heart Institute / St Vincent's Melbourne",
+   "alerta": "O laboratório de cardiologia do esporte nasceu no Baker, mas desde 2023 André La Gerche chefia o HEART Lab (St Vincent's Institute + Victor Chang) e o National Centre for Sports Cardiology; o alvo hoje é o St Vincent's (Fitzroy).",
+   "rota": [
+    "E-mail a André La Gerche via página do HEART Lab (SVI/Victor Chang)",
+    "Citar o artigo de 2024 na Circulation sobre FE reduzida em atletas",
+    "Propor ~4 semanas de observação/pesquisa e pedir o caminho de clinical observer no St Vincent's",
+    "Plano B: abordá-lo em congresso de cardiologia do esporte"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Não há observership publicado no Baker nem no St Vincent's; há precedente de visita acadêmica informal (sabático de cardiologista britânico no laboratório, 2017). Acesso por contato direto com o laboratório.",
+    "url": "https://www.uhs.nhs.uk/for-patients/find-your-consultant/dr-dhrubo-drew-rakhit",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "André La Gerche",
+     "cargo": "Head, HEART Lab e National Centre for Sports Cardiology; cardiologista do St Vincent's Hospital Melbourne",
+     "papel": "Decide e hospeda visitantes; referência em coração do atleta",
+     "url": "https://www.victorchang.edu.au/about-us/our-scientists/andre-legerche",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Kegan Moneghetti",
+     "cargo": "Cardiologista; perfil de pesquisa no Baker (cardiologia do esporte)",
+     "papel": "Possível cohost clínico",
+     "url": "https://www.baker.edu.au/research/staff/kegan-moneghetti",
+     "certeza": "provável"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "Reduced Ejection Fraction in Elite Endurance Athletes: Clinical and Genetic Overlap With Dilated Cardiomyopathy",
+     "ano": 2024,
+     "id": null,
+     "url": "https://eprints.victorchang.edu.au/view/creators/La_Gerche=3AAndr=E9=3A=3A.html"
+    },
+    {
+     "titulo": "Tackling an unmet need in sports cardiology: understanding exercise-induced cardiac remodelling and its clinical consequences",
+     "ano": 2022,
+     "id": "PMID 35428656; DOI 10.1136/bjsports-2022-105440",
+     "url": "https://www.pubmed.gov/35428656/"
+    }
+   ],
+   "dicas": [
+    "Propor projeto concreto (ex.: dados do Pro@Heart, FE reduzida em atleta) aumenta a chance",
+    "O precedente aceito foi um sabático acadêmico de 12 meses",
+    "La Gerche é palestrante frequente (ACSEP, CRY, UT Southwestern): congresso é porta de entrada",
+    "A página de carreiras do SVHM tem seção para IMG (conteúdo não lido por completo)"
+   ],
+   "lacunas": [
+    "Programa formal de observership, taxa, duração e documentos",
+    "Contato oficial de escritório",
+    "Diretor de fellowship",
+    "Brasileiros e pontes com SP"
+   ]
+  },
+  {
+   "match": "UMC Groningen",
+   "alerta": "A URL do radar (PMC7782643) não foi verificada; o fluxo de observership publicado do UMCG é para estudantes.",
+   "rota": [
+    "E-mail ao International Office perguntando sobre observer para residente estrangeiro na Cardiologia (intervenção)",
+    "Pedir o contato do departamento",
+    "Carta em paralelo a Erik Lipsic citando o programa de CTO/STICH 3.0-NL",
+    "Candidatar-se com ≥3 meses de antecedência"
+   ],
+   "prazos": [
+    {
+     "txt": "Candidatura ao International Office pelo menos 3 meses antes do início",
+     "url": "https://www.rug.nl/umcg/education/geneeskunde/international-students/clinical-and-research-in-the-umcg",
+     "certeza": "confirmado"
+    }
+   ],
+   "programa": {
+    "resumo": "Vários departamentos oferecem clinical observership (sem contato com paciente) a estudantes estrangeiros; freemovers se candidatam ao International Office, sem garantia e com prioridade para parceiros. Cardiologia não é citada; para residente formado é preciso perguntar.",
+    "url": "https://www.rug.nl/umcg/education/geneeskunde/international-students/clinicalobservership/",
+    "contato": "international.office@umcg.nl (International Office UMCG)",
+    "documentos": "Carta de motivação, CV e comprovação de inglês (fluxo de estudantes)",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Erik Lipsic",
+     "cargo": "Cardiologista intervencionista, UMCG",
+     "papel": "Doença coronária/infarto; coautor do programa de CTO",
+     "url": "https://www.rug.nl/staff/e.lipsic/?lang=en",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "STICH 3.0-NL – ensaio randomizado CABG vs ICP na FE reduzida (liderado pelo UMCG)",
+     "ano": 2025,
+     "id": "NCT07269366",
+     "url": "https://whichtrial.com/trial/NCT07269366/"
+    },
+    {
+     "titulo": "Development and first results of a dedicated chronic total occlusion programme",
+     "ano": 2019,
+     "id": "DOI 10.1007/s12471-019-01348-2",
+     "url": "https://link.springer.com/10.1007/s12471-019-01348-2"
+    }
+   ],
+   "dicas": [
+    "Diretório ESC: fellowship de intervenção com 1 fellow internacional/ano e ~500 ICPs primárias/ano",
+    "Para médico formado, perguntar se existe 'visiting doctor/observer'",
+    "Vagas escassas: carta muito específica para o candidato independente",
+    "Citar STICH 3.0-NL ou o programa de CTO no e-mail ao grupo de intervenção"
+   ],
+   "lacunas": [
+    "Chefe do serviço e diretor de fellowship",
+    "Taxa e duração",
+    "Brasileiros",
+    "Coautoria com Unifesp/InCor/Dante"
+   ]
+  },
+  {
+   "match": "Birmingham Children's Hospital",
+   "alerta": "O hospital pertence ao Birmingham Women's and Children's NHS Foundation Trust (BWC).",
+   "rota": [
+    "Carta ao Dr Chetan Mehta (lead de fellows) com cópia ao Dr Vinay Bhole pedindo 4 semanas como clinical observer",
+    "Perguntar à educação médica/RH do BWC sobre letter of access e saúde ocupacional",
+    "Se o foco for cirurgia, escrever a Nigel Drury citando o DESTINY"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Sem página oficial de observership no BWC, mas há precedente de observership estrangeiro na unidade cardiotorácica (2019). No padrão NHS, observer não atua na prática e precisa de honorary contract/letter of access.",
+    "url": "https://www.ctsnet.org/members/bobur-turaev/",
+    "documentos": "Provável (padrão NHS, não confirmado no BWC): honorary contract/letter of access, liberação da saúde ocupacional, visto de visitante",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Vinay Bhole",
+     "cargo": "Consultant Paediatric Cardiologist & Clinical Service Lead",
+     "papel": "Decide quem entra no serviço",
+     "url": "https://www.jobs.nhs.uk/candidate/jobadvert/C9284-25-0531",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Chetan Mehta",
+     "cargo": "Consultant; Lead for fellow training program",
+     "papel": "Interlocutor natural para observer",
+     "url": "https://www.jobs.nhs.uk/candidate/jobadvert/C9284-25-0531",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Nigel Drury",
+     "cargo": "Consultant paediatric cardiac surgeon; pesquisador da University of Birmingham",
+     "papel": "Lidera os ensaios DESTINY e BRICC",
+     "url": "https://bwc.nhs.uk/news/mending-hearts-at-our-childrens-hospital-destiny-trial-to-investigate-how-to-improve-protection-for-children-during-open-heart-surgery-4145",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Anna N Seale",
+     "cargo": "Consultant paediatric and fetal cardiologist",
+     "papel": "Cardiologia fetal; ventrículo único/genética pré-natal",
+     "url": "https://www.birmingham.ac.uk/staff/profiles/cardiovascular-sciences/seale-anna",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "DESTINY – del Nido vs St Thomas' blood cardioplegia em crianças (ensaio randomizado)",
+     "ano": 2021,
+     "id": "ISRCTN13638147",
+     "url": "https://www.isrctn.com/ISRCTN13638147"
+    },
+    {
+     "titulo": "BRICC – precondicionamento isquêmico remoto em cirurgia cardíaca pediátrica (protocolo, BMJ Open)",
+     "ano": 2020,
+     "id": "DOI 10.1136/bmjopen-2020-042176",
+     "url": "https://www.bhf.org.uk/research-projects/remote-ischaemic-preconditioning-for-myocardial-protection-in-young-children-undergoing-heart-surgery-a-doubleblind-randomised-controlled-trial-in-normoxic-and-hypoxic-patients"
+    }
+   ],
+   "dicas": [
+    "Cardiac Unit é 'one of the largest in the UK'",
+    "O trust tem fellowships clínicas pagas de 12 meses: cultura de receber estrangeiros",
+    "Referência de outro trust (Barts): observership de 4 semanas a £1.600"
+   ],
+   "lacunas": [
+    "Política e taxa de observership do BWC",
+    "Contato oficial",
+    "Volume anual de cirurgias",
+    "Brasileiros e pontes com SP"
+   ]
+  },
+  {
+   "match": "Shanghai Children's Medical Center",
+   "alerta": "Afiliado à Shanghai Jiao Tong University School of Medicine; não confundir com o Shanghai Chest Hospital, que tem programa de international visiting scholar desde 2015.",
+   "rota": [
+    "Prioridade baixa",
+    "E-mail ao Heart Center/escritório internacional (via SJTUSM) pedindo carta-convite para 4 semanas",
+    "Pedir apresentação a mentor do hospital de Chicago com laço com Boston/CHOP/Project HOPE",
+    "Alternativa: visiting scholar do Shanghai Chest Hospital (cirurgia adulto)"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Nenhum programa oficial para médicos estrangeiros encontrado; a parceria histórica com a Project HOPE foca em enviar médicos chineses ao exterior.",
+    "url": "https://www.projecthope.org/country/shanghai/",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Zhiwei Xu",
+     "cargo": "Director of Thoracic & Cardiovascular Surgery (CTSNet, 1999-)",
+     "papel": "Liderança histórica da cirurgia congênita",
+     "url": "https://www.ctsnet.org/members/zhiwei-xu/",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Zhuoming Xu",
+     "cargo": "Chief physician; orientadora de doutorado (cardiotorácica)",
+     "papel": "Hipertensão pulmonar na cardiopatia congênita",
+     "url": "https://www.shsmu.edu.cn/english/info/1338/3149.htm",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Zhang Hao",
+     "cargo": "Executive Vice President do SCMC (cirurgião cardíaco)",
+     "papel": "Possível porta institucional",
+     "url": "https://www.shsmu.edu.cn/english/info/1338/3137.htm",
+     "certeza": "provável"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "Estudo de óbitos após cirurgia de cardiopatia congênita, 2012-2019 (mortalidade de 1,9%)",
+     "ano": 2020,
+     "id": "DOI 10.32604/CHD.2020.011983",
+     "url": "https://techscience.com/chd/v15n5/40258/html"
+    },
+    {
+     "titulo": "Cirurgia cardíaca neonatal: características pré-operatórias e desfechos precoces (2006-2019)",
+     "ano": 2021,
+     "id": "DOI 10.3389/fped.2021.670197",
+     "url": "https://frontiersin.org/articles/10.3389/fped.2021.670197/pdf"
+    }
+   ],
+   "dicas": [
+    "Volume enorme: >3.700 cirurgias cardíacas/ano (artigo do centro, 2020)",
+    "Convite oficial do hospital provavelmente necessário (língua e visto; não confirmado)",
+    "Muitos cirurgiões estagiaram em Boston/Filadélfia: apresentação por centro norte-americano ajuda"
+   ],
+   "lacunas": [
+    "Programa para estrangeiros, taxa e documentos",
+    "Contato oficial",
+    "Chefia atual do Heart Center",
+    "Brasileiros e pontes com SP"
+   ]
+  },
+  {
+   "match": "Institut Jantung Negara (IJN)",
+   "alerta": "A URL do radar aponta para o fellowship Children's HeartLink (1–2 anos, para LMIC); a porta realista de ~1 mês é o 'attachment' pago do IJN.",
+   "rota": [
+    "Candidatar-se ao attachment pela página 'Application & Submission' pedindo PCHC por 4 semanas",
+    "Confirmar por telefone a taxa para médico estrangeiro",
+    "Pedir até 2 departamentos: PCHC + cirurgia cardiotorácica pediátrica",
+    "Em paralelo, contatar o Dr. Sivakumar Sivalingam (contato do fellowship CHL no IJN)"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Attachment pago de no mínimo 1 semana, até 2 departamentos ao mesmo tempo; a tabela de taxas tem categoria para estrangeiros, mas as linhas visíveis são de estudantes de medicina.",
+    "url": "https://www.ijn.com.my/career-submission/",
+    "contato": "Página oficial de submissão do attachment (ijn.com.my/career-submission); tel. 03-26982824 / 03-26178200 ramal 6282",
+    "taxa": "Estudante estrangeiro: registro USD30 ou USD300 (tabela ambígua), teto USD300; taxa para médico não informada",
+    "duracao": "Mínimo 1 semana",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Marhisham Che Mood",
+     "cargo": "Consultant Paediatric Cardiologist & Head of PCHC",
+     "papel": "Chefe do centro que receberia a observadora",
+     "url": "https://www.ijn.com.my/?p=8652",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Sivakumar Sivalingam",
+     "cargo": "Cirurgião cardiotorácico; contato IJN do Children's HeartLink Fellowship",
+     "papel": "Já lida com candidatos internacionais",
+     "url": "https://childrensheartlink.org/childrens-heartlink-fellowship-pediatric-cardiac-sciences",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Geetha Kandavello",
+     "cargo": "Senior Consultant Paediatric Cardiologist; President, ISACHD",
+     "papel": "Ponte acadêmica via ISACHD",
+     "url": "https://www.ijn.com.my/doctor/dr-geetha-kandavello-kandhavel/",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "Surgery for CHD in Malaysia: setting standards for lower and middle income countries",
+     "ano": 2025,
+     "id": null,
+     "url": "https://www.ijn.com.my/publication/surgery-for-chd-in-malaysia-setting-standards-for-lower-and-middle-income-countries/"
+    }
+   ],
+   "dicas": [
+    "Volume: 800–900 cirurgias cardíacas pediátricas/ano (autodeclarado)",
+    "IJN já formou 75 fellows estrangeiros em cardiologia pediátrica/UTI e 21 em cirurgia (2021)",
+    "Fellowship CHL (1–2 anos) não serve como observership de 1 mês",
+    "Acreditado JCI desde 2009"
+   ],
+   "lacunas": [
+    "Taxa e categoria para médico/residente estrangeiro",
+    "Documentos e antecedência",
+    "Brasileiros e pontes com SP",
+    "Artigos indexados 2022–2026 com PMID/DOI"
+   ]
+  },
+  {
+   "match": "Hospital Dr. Luis Calvo Mackenna",
+   "alerta": "A URL do radar é um comunicado do Minsal sobre continuidade de atendimento (2023), não um programa de ensino.",
+   "rota": [
+    "Contatar a Escuela de Postgrado / Depto. de Pediatría y Cirugía Infantil Oriente da U. Chile",
+    "Pedir uma 'estadía de perfeccionamiento' no Centro Cardiovascular do HLCM",
+    "Em paralelo, contatar cirurgiões do staff por canais institucionais",
+    "Confirmar que o centro cirúrgico opera em ritmo normal (novos pavilhões em set/2025)"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Sem página de estágio para estrangeiros; o hospital é sede de ensino da Universidad de Chile (Campus Oriente), que tem o formato 'Estadía de Perfeccionamiento' em ecocardiografia fetal – via provável.",
+    "url": "https://medichi.uchile.cl/wp-content/uploads/2022/11/ESTADA-Perfeccionamiento-Ecocardiografía-Fetal.pdf",
+    "certeza": "provável"
+   },
+   "pessoas": [],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "Editorial Andes Pediatrica sobre cardiopatias congênitas no Chile ao longo da vida (Artaza, Yarza, Uriarte)",
+     "ano": 2025,
+     "id": null,
+     "url": "https://andespediatrica.cl/index.php/rchped/article/download/5595/5353/47330"
+    }
+   ],
+   "dicas": [
+    "Estágio de estrangeiro provavelmente passa pela Escuela de Postgrado da U. Chile, não pelo hospital",
+    "Espanhol necessário; custo baixo comparado aos EUA",
+    "Primeira cirurgia de coração aberto do Chile (1967) foi feita lá"
+   ],
+   "lacunas": [
+    "Chefe do serviço e nomes do staff",
+    "Volume cirúrgico",
+    "Contato oficial, taxa e documentos",
+    "Brasileiros e pontes com SP"
+   ]
+  },
+  {
+   "match": "Baylor University Medical Center",
+   "alerta": null,
+   "rota": [
+    "E-mail institucional ao Dr. Gary Schwartz (Medical Director ECMO) pedindo 4 semanas de observership",
+    "Perguntar o caminho de credenciamento (medical staff/GME)",
+    "Alternativa: Dr. Dan Meyer (MCS/VA-ECMO)",
+    "Acompanhar ce.bswhealth.com para conferências de ECMO"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Nenhuma página de observership para médicos internacionais na Baylor Scott & White; provavelmente exige sponsor interno e trâmite pelo medical staff/GME.",
+    "url": "https://bswhealth.med/Pages/departments/heart-vascular/extracorporeal-membrane-oxygenation-program.aspx",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Gary Schwartz",
+     "cargo": "Medical Director ECMO; Chief of Thoracic Surgery; Surgical Director Lung Transplant",
+     "papel": "Decide/hospeda no ECMO",
+     "url": "https://www.bswhealth.com/Provider-Type/physician/g/a/gary-schwartz-1386979144",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Dan Meyer",
+     "cargo": "Chief of Heart Transplantation and Mechanical Circulatory Support",
+     "papel": "Lado cardíaco (VA-ECMO/MCS)",
+     "url": "https://support.doctorpodcasting.com/client/bswheart/item/47214-ecmo-how-a-machine-provides-life-saving-care",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Laura Bruce Petrey",
+     "cargo": "Program Director, Surgical Critical Care Fellowship",
+     "papel": "Fellowship que roda no ECMO",
+     "url": "https://freida.ama-assn.org/program/4424844122?nid=156471",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "Revisão retrospectiva de transporte em VV-ECMO do programa Baylor (2012–2017)",
+     "ano": 2019,
+     "id": "DOI 10.1080/08998280.2019.1669120",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6988654"
+    }
+   ],
+   "dicas": [
+    "Volume: 150–160 pacientes/ano (sem ano); top 10 de ECMO adulto nos EUA; ELSO Platinum (~2021)",
+    "Cardiac Critical Care Fellowship inclui bloco de 3 meses de CVCC/MCS/ECMO",
+    "BSW fez ECMO Conference em 2022; edições posteriores não encontradas"
+   ],
+   "lacunas": [
+    "Programa de observership, taxa e documentos",
+    "Contato oficial de escritório",
+    "Artigos 2022–2026",
+    "Brasileiros e pontes com SP"
+   ]
+  },
+  {
+   "match": "UNC Medical Center",
+   "alerta": null,
+   "rota": [
+    "E-mail à Dra. Lauren Raff (Medical Director, Adult ECMO) com cópia a Rebecca Owensby, pedindo 4 semanas",
+    "Citar o status Platinum ELSO",
+    "Perguntar ao escritório internacional da UNC School of Medicine (endereço oficial a confirmar) sobre visiting observer"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Nenhuma página oficial de observership/visiting international physician da UNC encontrada.",
+    "url": "https://www.med.unc.edu/surgery/unc-ecmo-program-ranked-among-the-worlds-best/",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Rebecca Owensby, RN",
+     "cargo": "UNC Health ECMO Program Director",
+     "papel": "Ponto de contato operacional",
+     "url": "https://www.med.unc.edu/surgery/unc-ecmo-program-ranked-among-the-worlds-best/",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Lauren Raff, MD",
+     "cargo": "Associate Professor of Surgery; Medical Director, Adult ECMO Program",
+     "papel": "Decide/hospeda no ECMO adulto",
+     "url": "https://www.med.unc.edu/surgery/trauma/directory/lauren-raff-md/",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Jennifer S. Nelson, MD",
+     "cargo": "Director, Congenital ECMO Program, NC Children's Hospital",
+     "papel": "ECMO congênito, ponte com cirurgia cardíaca",
+     "url": "https://www.med.unc.edu/ct/news/dr-nelson-joins-unc-as-pediatric-cardiac-surgeon",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Mahesh S. Sharma, MD",
+     "cargo": "Co-Director NC Children's Heart Center; Director Pediatric Heart Transplantation and MCS",
+     "papel": "MCS pediátrico",
+     "url": "https://med.unc.edu/surgery/author/sheerah-coe/page/25",
+     "certeza": "provável"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "A conferir: international@med.unc.edu (919-962-5511) aparece só em lista não oficial no Scribd – https://www.scribd.com/document/455065235/Observership-List",
+    "ECMO adulto fica na cirurgia de trauma/acute care, não na cirurgia cardíaca",
+    "Para cirurgia cardiovascular, considerar o Congenital ECMO/MCS pediátrico"
+   ],
+   "lacunas": [
+    "Programa de observership, taxa e documentos",
+    "Volume anual de ECMO",
+    "Artigos 2022–2026 do programa",
+    "Brasileiros e pontes com SP"
+   ]
+  },
+  {
+   "match": "Legacy Emanuel Medical Center",
+   "alerta": null,
+   "rota": [
+    "Prioridade baixa frente a centros com programa formal",
+    "E-mail a Dr. Joseph Deng pelos canais oficiais do Legacy ECMO Program",
+    "Citar o Platinum ELSO 2025 e o ECMO móvel; pedir 4 semanas",
+    "Pedir indicação do setor de educação médica para a papelada"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Nenhuma página de observership/visiting physician da Legacy Health; hospital sem escola médica própria, provavelmente sem programa formal.",
+    "url": "https://legacyhealth.org/For-Health-Professionals/refer-a-patient/ECMO-for-providers",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Joseph Deng, MD",
+     "cargo": "ECMO Medical Director, Legacy Health",
+     "papel": "Decide/hospeda observadores",
+     "url": "https://www.legacyhealth.org/about/news-and-media/story-center/2025/11/legacy-emanuel-ecmo-earns-highest-level-of-recognition",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "ELSO Platinum em nov/2025; programa com >30 anos",
+    "Equipe de ECMO móvel completou 100 transportes terrestres (mar/2023)",
+    "Deng palestrou sobre desfechos de longo prazo de ECMO (Salem Health) – bom tema para o e-mail"
+   ],
+   "lacunas": [
+    "Programa de observership e contato oficial",
+    "Volume anual",
+    "Artigos 2022–2026",
+    "Brasileiros e pontes com SP"
+   ]
+  },
+  {
+   "match": "Cooper University Hospital",
+   "alerta": null,
+   "rota": [
+    "E-mail a Dra. Emily Damuth (cópia Dr. Puri) pedindo 4 semanas de observership",
+    "Citar Gold ELSO 2025 e o ECMO móvel de 2026",
+    "Pedir encaminhamento à educação médica (Cooper Medical School of Rowan University)"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Sem página institucional de observership para estrangeiros; departamentos aceitam observadores caso a caso (ex.: otorrino, lista AAO-HNS 2024).",
+    "url": "https://www.entnet.org/wp-content/uploads/2024/03/Observership_Listings_2024-v2.pdf",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Emily Damuth, MD",
+     "cargo": "Section Head of ECMO",
+     "papel": "Líder clínica; quem autorizaria",
+     "url": "https://blogs.cooperhealth.org/news/2025/10/cooper-university-health-care-internationally-recognized-with-gold-level-award-for-excellence-in-life-support/",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Nitin Puri, MD",
+     "cargo": "Director of Critical Care Services",
+     "papel": "Fundador do programa",
+     "url": "https://blogs.cooperhealth.org/news/2026/04/cooper-university-health-care-launches-mobile-ecmo-transport-program-for-critically-ill-heart-and-lung-patients/",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Rob Rios",
+     "cargo": "Equipe ECMO (banco de dados de pacientes)",
+     "papel": "Dados/qualidade",
+     "url": "https://www.roi-nj.com/2022/10/06/healthcare/cooper-critical-care-team-earns-national-honor-for-excellence-in-life-support",
+     "certeza": "provável"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [],
+   "dicas": [
+    "ECMO só de adultos, conduzido pela medicina intensiva (modelo intensivista)",
+    "ECMO móvel lançado em fev/2026: tema concreto para acompanhar",
+    "Artigo do grupo sobre canulação por cirurgiões vs intensivistas (ano não confirmado): https://www.peeref.com/works/24496122"
+   ],
+   "lacunas": [
+    "Programa de observership para ECMO e contato oficial",
+    "Volume anual",
+    "Artigos 2022–2026 com ano confirmado",
+    "Brasileiros e pontes com SP"
+   ]
+  },
+  {
+   "match": "University of Iowa Hospitals & Clinics",
+   "alerta": null,
+   "rota": [
+    "Inscrever-se no próximo curso de ECMO adulto endossado pela ELSO e usar o contato para pedir observership",
+    "E-mail ao Dr. Lovkesh Arora citando o survey JICM 2024 e o ECMO AirCare, pedindo 4 semanas",
+    "Formalizar via GME (formulário de observação)"
+   ],
+   "prazos": [
+    {
+     "txt": "Curso de ECMO adulto: edições mar/2026 e 13–16/out/2026 já passaram; ver a próxima no uiowa.cloud-cme.com",
+     "url": "https://uiowa.cloud-cme.com/Assets/uiowa/Activities/79996/Updated_2026_October_ECMO_course_brochure.pdf",
+     "certeza": "confirmado"
+    }
+   ],
+   "programa": {
+    "resumo": "Sem página oficial de visiting physician internacional; existe formulário de observação do GME. Observer não tem contato físico com paciente (documento de terceiros); a patologia não aceita observers internacionais (vale só para ela).",
+    "url": "https://gme.medicine.uiowa.edu/sites/gme.medicine.uiowa.edu/files/wysiwyg_uploads/Iowa%20HD%20Observation%20Application.docx",
+    "contato": "Formulário 'Iowa HD Observation Application' (GME)",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Lovkesh Arora, MBBS, MD",
+     "cargo": "ECMO Medical Director, Heart and Vascular Center",
+     "papel": "Decide/hospeda; faculty dos cursos",
+     "url": "https://anesthesia.medicine.uiowa.edu/profile/lovkesh-arora",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Dan Dietzel, RN",
+     "cargo": "ECMO Program Clinical Practice Leader",
+     "papel": "Organiza operação/curso",
+     "url": "https://www.healthcare.uiowa.edu/marcom/uihc/heart_vascular_center/ECMO-Course.pdf",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Katelyn Meyer",
+     "cargo": "Coordenadora do curso de ECMO",
+     "papel": "Porta de entrada pelo curso",
+     "url": "https://uiowa.cloud-cme.com/Assets/uiowa/Activities/79996/Updated_2026_October_ECMO_course_brochure.pdf",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "What are the real issues in providing Extracorporeal Membrane Oxygenation (ECMO) support: a survey",
+     "ano": 2024,
+     "id": null,
+     "url": "https://anesthesia.medicine.uiowa.edu/profile/lovkesh-arora"
+    },
+    {
+     "titulo": "Emergent veno-venous extracorporeal membrane oxygenation during aortic valve replacement following severe re-expansion pulmonary edema: a case report",
+     "ano": 2024,
+     "id": null,
+     "url": "https://anesthesia.medicine.uiowa.edu/profile/lovkesh-arora"
+    }
+   ],
+   "dicas": [
+    "ELSO Platinum (2022); 30 anos de ECMO (2024); eCPR e ECMO AirCare de helicóptero (2025)",
+    "Curso de ECMO adulto por simulação endossado pela ELSO: ótima porta de entrada",
+    "A conferir: regras de observer (sem licença de Iowa nem credenciamento) vêm de documento de terceiros no Scribd – https://www.scribd.com/document/633103498/Observing-Physicians"
+   ],
+   "lacunas": [
+    "Taxa, duração e documentos do observership",
+    "Volume anual de ECMO",
+    "Diretor de fellowship",
+    "Brasileiros e pontes com SP"
+   ]
+  },
+  {
+   "match": "Toronto Rehabilitation Institute (UHN)",
+   "alerta": "O cargo de Paul Oh só tem fontes até 2022 e Ghisi é Affiliate Scientist: confirmar a atualidade de ambos.",
+   "rota": [
+    "E-mail à Dra. Gabriela Ghisi (brasileira, KITE) citando o artigo Frontiers 2024 e o ensaio de BH",
+    "Obter o aceite dela ou do Dr. Paul Oh",
+    "Aplicar no UHN Observership Program (observerships@uhn.ca, formulário online)",
+    "Preparar vacinas, CV, foto, eLearning de privacidade e taxa (~CA$175)"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "UHN tem escritório central de observership (~1.550 observadores/ano do mundo todo), mas o pedido precisa ser arranjado com faculty/departamento UHN.",
+    "url": "https://www.uhn.ca/Education/About-Us/Portfolios/CEPD/ICE/Pages/observerships.aspx",
+    "contato": "observerships@uhn.ca / 416-340-4800 ramal 2665",
+    "taxa": "CA$175 não reembolsável para >2 dias (fonte de terceiros)",
+    "documentos": "CV, foto, módulo eLearning de privacidade, Authorized Guest Agreement, vacinas conforme política UHN",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Paul Oh, MD, FRCPC",
+     "cargo": "Medical Director, Cardiovascular Prevention and Rehabilitation Program; Senior Scientist KITE",
+     "papel": "Decide/hospeda",
+     "url": "https://www.uhnresearch.ca/researcher/paul-oh",
+     "certeza": "provável"
+    },
+    {
+     "nome": "Gabriela Lima de Melo Ghisi, PhD",
+     "cargo": "Affiliate Scientist, KITE/Toronto Rehab; Assistant Professor, Temerty Faculty of Medicine; Chair do ICCPR",
+     "papel": "Brasileira; lidera educação do paciente (Cardiac College)",
+     "url": "https://kite-uhn.com/news/gabriela-ghisi-qanda",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Sherry L. Grace, PhD",
+     "cargo": "Pesquisadora KITE/Toronto Rehab e York University",
+     "papel": "Líder de pesquisa global em reabilitação cardíaca; colaborações com o Brasil",
+     "url": "https://kite-uhn.com/news/Cardiac-spotlight-grace",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Caroline Chessex, MD",
+     "cargo": "Clinical director (fonte antiga)",
+     "papel": "Gestão clínica",
+     "url": "https://expertfile.com/experts/drpaul.oh",
+     "certeza": "provável"
+    }
+   ],
+   "brasileiros": [
+    {
+     "nome": "Gabriela Lima de Melo Ghisi",
+     "ligacao": "'Originally from Brazil'; estudos prévios com a UDESC; hoje Affiliate Scientist no KITE",
+     "url": "https://kite-uhn.com/news/gabriela-ghisi-qanda",
+     "certeza": "confirmado"
+    }
+   ],
+   "artigos": [
+    {
+     "titulo": "Avaliação multicêntrica mista do Cardiac College for Women (educação em reabilitação cardíaca para mulheres)",
+     "ano": 2024,
+     "id": "DOI 10.3389/fcvm.2024.1430268",
+     "url": "https://doi.org/10.3389/fcvm.2024.1430268"
+    }
+   ],
+   "dicas": [
+    "Programa no Rumsey Centre e na unidade Toronto Western; ~2.600 pacientes/ano (2015); opções híbrida e virtual",
+    "O programa já recebe equipes visitantes para aprender o modelo (North Bay, fev/2025)",
+    "Para cardiologia clínica/cirurgia, combinar com o Peter Munk Cardiac Centre (mesmo escritório)"
+   ],
+   "lacunas": [
+    "Duração máxima e seguro do observership",
+    "Diretor de fellowship",
+    "Coautoria com Unifesp/USP/InCor/Dante",
+    "Cargo atual de Paul Oh (2025–2026)"
+   ]
+  },
+  {
+   "match": "ECMO Centre Karolinska",
+   "alerta": "A URL do radar aponta para a seção pediátrica, mas o ECMO Centre atende adultos e crianças; não há observership confirmado.",
+   "rota": [
+    "Inscrever-se no ECMO Course Stockholm (out/2027; inscrição ~maio)",
+    "No curso, pedir a Jonas Berner alguns dias de shadowing",
+    "Em paralelo, contato acadêmico com o grupo de L. M. Broman (KI) citando o paper de ECPR (PMID 38486930)",
+    "Contar que observership clínico formal provavelmente exige licença sueca/UE"
+   ],
+   "prazos": [
+    {
+     "txt": "ECMO Course Stockholm 2026 foi em 12–15/out (inscrição abriu 04/05/2026); próxima edição provável em out/2027",
+     "url": "https://www.karolinska.se/vard/funktion/funktion-barn-pmi/ecmo/ecmo-course-international/",
+     "certeza": "provável"
+    }
+   ],
+   "programa": {
+    "resumo": "Sem página pública de observership; há curso internacional anual em inglês e vagas pagas de International Fellowship. Sem licença sueca/UE, provavelmente só shadowing/pesquisa (regra vista no Sahlgrenska).",
+    "url": "https://www.karolinska.se/vard/funktion/funktion-barn-pmi/ecmo/ecmo-course-international/",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Jonas Berner",
+     "cargo": "Head of ECMO unit, Medical director",
+     "papel": "Decide recepção de visitantes clínicos",
+     "url": "https://www.karolinska.se/4a3494/globalassets/global/2-funktioner/funktion-barn-pmi/ecmo/faculty-2026-2.docx",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Lars Mikael Broman",
+     "cargo": "Senior Consultant Intensivist; Docent; líder do grupo de pesquisa em ECLS/ECMO (KI)",
+     "papel": "Porta via pesquisa (visiting researcher)",
+     "url": "https://ki.se/en/fyfa/extracorporeal-life-support-and-extracorporeal-membrane-oxygenation-0",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Björn Frenckner",
+     "cargo": "Contato do ECMO Course Stockholm",
+     "papel": "Contato publicado do curso",
+     "url": "https://www.karolinska.se/vard/funktion/funktion-barn-pmi/ecmo/ecmo-course-international/",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Marcus Brynolf",
+     "cargo": "Contato do ECMO Course Stockholm",
+     "papel": "Contato publicado do curso",
+     "url": "https://www.karolinska.se/vard/funktion/funktion-barn-pmi/ecmo/ecmo-course-international/",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "Implementação de programa de ECPR para PCR extra-hospitalar em Estocolmo (95 pacientes; sobrevida 25%)",
+     "ano": 2024,
+     "id": "PMID 38486930",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/38486930/"
+    },
+    {
+     "titulo": "Fluxo sanguíneo pulmonar e dano pulmonar em TC durante ECMO",
+     "ano": 2024,
+     "id": "DOI 10.3390/jcm13041113",
+     "url": "https://www.mdpi.com/2077-0383/13/4/1113"
+    },
+    {
+     "titulo": "EuroECMO-COVID (multicêntrico, Karolinska entre os centros)",
+     "ano": 2025,
+     "id": "PMID 40010369",
+     "url": "https://dev.nlk.cz/mdv/doc/pmid40010369?lang=en"
+    }
+   ],
+   "dicas": [
+    "Único centro ELSO Platinum nos países nórdicos",
+    "Monitorar o International Fellowship pago em regionstockholm.se/jobb (edição 2025 já fechou)",
+    "Há também o Stockholm Neonatal & Pediatric ECMO Course",
+    "Treinamentos curtos já foram feitos para equipes institucionais (Kyiv, 2024), não para indivíduos"
+   ],
+   "lacunas": [
+    "Observership individual e elegibilidade de residente estrangeiro",
+    "Taxa do curso",
+    "Volume anual",
+    "Brasileiros e pontes com SP"
+   ]
+  },
+  {
+   "match": "General University Hospital in Prague (VFN)",
+   "alerta": "A URL do radar (?p=14307) não foi verificada; a página oficial do ECMO center é vfn.cz/en/ecmo-centrum/.",
+   "rota": [
+    "E-mail a Jan Bělohlávek (contato oficial do ECMO center) pedindo aceite como estagiária observadora por 4 semanas",
+    "Com o aceite, enviar o questionário completo a internship@vfn.cz ≥4 semanas antes",
+    "Anexar diploma e seguros (acidente + responsabilidade profissional)",
+    "Assinar o contrato em 2 vias e enviar ao Departamento de Educação"
+   ],
+   "prazos": [
+    {
+     "txt": "Questionário enviado pelo menos 4 semanas antes do início",
+     "url": "https://www.vfn.cz/en/odbornici/vzdelavani/staze/",
+     "certeza": "confirmado"
+    }
+   ],
+   "programa": {
+    "resumo": "Programa oficial de estágio com seção para candidatos estrangeiros: questionário, contrato e consentimento prévio do serviço anfitrião. Aceite de residente estrangeiro provável; vagas no ECMO Centre não confirmadas.",
+    "url": "https://www.vfn.cz/en/odbornici/vzdelavani/staze/",
+    "contato": "internship@vfn.cz (consentimento do serviço: staze@vfn.cz)",
+    "documentos": "Autopagantes: diploma de medicina, seguro de acidentes e seguro de responsabilidade profissional",
+    "certeza": "confirmado"
+   },
+   "pessoas": [
+    {
+     "nome": "Jan Bělohlávek",
+     "cargo": "Chefe da 2ª Clínica de Medicina Interna (Cardiologia/Angiologia); coordenador ECMO VFN; PI do Prague OHCA e OSIRIS ECPR",
+     "papel": "Decide/hospeda; referência em ECPR",
+     "url": "https://eacts.org/?p=30134",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Daniel Rob",
+     "cargo": "Co-PI do estudo de ECPR pré-hospitalar",
+     "papel": "Possível supervisor no dia a dia",
+     "url": "https://clinicaltrials.gov/study/NCT06789978",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "Prague OHCA study – abordagem hiperinvasiva (ECPR) vs padrão na PCR refratária (JAMA)",
+     "ano": 2022,
+     "id": null,
+     "url": "https://eacts.org/?p=30134"
+    },
+    {
+     "titulo": "Análise secundária do Prague OHCA: ECPR vs RCP convencional (Critical Care)",
+     "ano": 2022,
+     "id": null,
+     "url": "https://dev.nlk.cz/mdv/doc/bmc22032968?lang=en"
+    },
+    {
+     "titulo": "OSIRIS ECPR Trial (registro)",
+     "ano": 2025,
+     "id": "NCT06805344",
+     "url": "https://clinicaltrials.gov/study/NCT06805344"
+    }
+   ],
+   "dicas": [
+    "Sem consentimento prévio do serviço anfitrião o pedido não é analisado",
+    "Parte do passo a passo veio de espelho de teste do site (vfn-webprod-testovaci) – conferir no vfn.cz",
+    "ECMO center com 8 leitos; ECPR hospitalar desde 2012",
+    "Bom gancho: caso do maratonista salvo por ECPR pré-hospitalar (maio/2025)"
+   ],
+   "lacunas": [
+    "Taxa do estágio",
+    "Vagas específicas no ECMO Centre",
+    "Brasileiros e pontes com SP",
+    "PMID/DOI do Prague OHCA"
+   ]
+  },
+  {
+   "match": "Fundación Cardiovascular de Colombia",
+   "alerta": "O programa hoje é citado como 'HIC Instituto Cardiovascular' (Hospital Internacional de Colombia, grupo FCV): usar os dois nomes.",
+   "rota": [
+    "Contato com Leonardo Salazar Rojas (canais FCV/HIC) pedindo rotação observacional de 4 semanas",
+    "Citar os resultados de 2025 vs ELSO e o estudo latino-americano de 2025",
+    "Alternativa: curso ELSO do próprio time e negociar estágio na sequência",
+    "Perguntar à COREME/Unifesp sobre convênio de estágio optativo no exterior"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Sem página de observership; o time organiza cursos com faculty da ELSO (curso acreditado no CIE do HIC; 36 latino-americanos treinados em 2019).",
+    "url": "https://www.vanguardia.com/area-metropolitana/bucaramanga/de-santander-para-el-mundo-el-equipo-medico-que-ensena-a-otros-especialistas-a-salvar-vidas-XX563011",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Leonardo Salazar Rojas",
+     "cargo": "Diretor do Programa de ECMO e Coração Artificial/Assistência Ventricular",
+     "papel": "Decide",
+     "url": "https://www.bluradio.com/regiones/santanderes/ecmo-en-santander-supera-estandares-internacionales-historia-de-vida-lo-demuestra-rg10",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Camilo Pizarro",
+     "cargo": "Liderança do time ECMO; 1º autor do estudo latino-americano (2025)",
+     "papel": "Pesquisa/ensino",
+     "url": "https://www.medintensiva.org/en-experience-with-extracorporeal-membrane-oxygenation-articulo-S2173572725000049",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Antonio Figueredo Moreno",
+     "cargo": "Co-líder do curso de suporte circulatório mecânico (2019)",
+     "papel": "Ensino",
+     "url": "https://www.vanguardia.com/area-metropolitana/bucaramanga/de-santander-para-el-mundo-el-equipo-medico-que-ensena-a-otros-especialistas-a-salvar-vidas-XX563011",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Claudia Colmenares-Mejía",
+     "cargo": "Coautora (FCV) do estudo latino-americano de ECMO",
+     "papel": "Pesquisa clínica",
+     "url": "https://www.medintensiva.org/en-experience-with-extracorporeal-membrane-oxygenation-articulo-S2173572725000049",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "Experience with extracorporeal membrane oxygenation support in Latin America between 2016 and 2020",
+     "ano": 2025,
+     "id": null,
+     "url": "https://www.medintensiva.org/en-experience-with-extracorporeal-membrane-oxygenation-articulo-S2173572725000049"
+    },
+    {
+     "titulo": "Setting up an ECMO program in a South American country: outcomes of the first 104 pediatric patients",
+     "ano": 2015,
+     "id": "PMID 26180151",
+     "url": "https://www.pubmed.gov/26180151/"
+    }
+   ],
+   "dicas": [
+    "ELSO Center of Excellence Platinum; ~80 pacientes/ano (~2020), >560 até 2019",
+    "2025: sobrevida de 73% em suporte cardiovascular pediátrico vs 62% ELSO",
+    "Rede comum com centros brasileiros: capítulo LatAm ELSO",
+    "Espanhol e custo menor que EUA/Europa"
+   ],
+   "lacunas": [
+    "Contato oficial, taxa e documentos",
+    "Diretor de fellowship",
+    "Calendário atual de cursos",
+    "Brasileiros e coautoria com SP"
+   ]
+  },
+  {
+   "match": "UChicago Medicine — Heart & Vascular",
+   "alerta": "Confirmado que não há programa central de observership: só formulários departamentais (ex.: dermatologia).",
+   "rota": [
+    "E-mail a Husam Balkhy pedindo 4 semanas no programa robótico/TECAB, citando o editorial de 2023 e o trabalho de alta no POD1",
+    "Anexar CV, carta da Unifesp e da experiência prévia em Chicago",
+    "Com o aceite, pedir à seção (Jeevanandam) e a visiting.pritzker@bsd.uchicago.edu o formulário e os requisitos",
+    "Plano B: cursos/proctoring de robótica com o time"
+   ],
+   "prazos": [],
+   "programa": {
+    "resumo": "Observership é negociado por seção/departamento; Balkhy já recebeu grupos internacionais para treinar com o time robótico. O Center for Global Health orienta departamentos que hospedam visiting scholars (até 6 meses).",
+    "url": "https://www.uchicagomedicine.org/forefront/heart-and-vascular-articles/international-collaborations-reflect-prestige-and-expertise-of-uchicago-medicine-heart-and-vascular-center",
+    "contato": "visiting.pritzker@bsd.uchicago.edu (visitantes/rotadores externos; voltado a estudantes)",
+    "certeza": "provável"
+   },
+   "pessoas": [
+    {
+     "nome": "Husam H. Balkhy",
+     "cargo": "Professor of Surgery; Director, Robotic and Minimally Invasive Cardiac Surgery",
+     "papel": "Hospeda; recebe grupos internacionais; foco em TECAB robótico",
+     "url": "https://www.uchicagomedicine.org/find-a-physician/physician/husam-h-balkhy",
+     "certeza": "confirmado"
+    },
+    {
+     "nome": "Valluvan Jeevanandam",
+     "cargo": "Chief, Section of Cardiac Surgery; Director, Heart and Vascular Center",
+     "papel": "Autoriza visitantes na seção",
+     "url": "https://surgeryar.bsd.uchicago.edu/sections/cardiac-surgery",
+     "certeza": "confirmado"
+    }
+   ],
+   "brasileiros": [],
+   "artigos": [
+    {
+     "titulo": "Achieving Mastery in Robotic-Assisted Coronary Artery Bypass Surgery: Why Stop at One Internal Thoracic Artery Graft!?",
+     "ano": 2023,
+     "id": null,
+     "url": "https://profiles.uchicago.edu/profiles/display/2101335/Network/ResearchAreas/33662307"
+    },
+    {
+     "titulo": "Alta no 1º dia pós-operatório após TECAB robótico (Innovations)",
+     "ano": 2023,
+     "id": null,
+     "url": "https://profiles.uchicago.edu/profiles/display/2101335/Network/ResearchAreas/33662307"
+    },
+    {
+     "titulo": "Impacto das dimensões da parede torácica em bypass robótico uni e multiarterial (Innovations)",
+     "ano": 2024,
+     "id": null,
+     "url": "https://profiles.uchicago.edu/profiles/display/2101335/Network/ResearchAreas/33662307"
+    }
+   ],
+   "dicas": [
+    "Volume: 1.000ª cirurgia robótica em 2020; Balkhy >2.000; CABG robótico multiarterial de rotina",
+    "Tema para o e-mail: simulação e treinamento robótico (entrevista CTSNet)",
+    "Gancho possível: artigo de cirurgia robótica na Colômbia no Braz J Cardiovasc Surg (2020; autoria de Balkhy não confirmada)",
+    "Carta do preceptor de Chicago ajuda (mesma logística de visto B1/B2)"
+   ],
+   "lacunas": [
+    "Taxa e documentos para visitante",
+    "Diretor de fellowship",
+    "Brasileiros",
+    "Parceria com hospital brasileiro"
+   ]
+  }
+ ],
+ "pontes_brasil": [
+  {
+   "nome": "Gabriela Lima de Melo Ghisi",
+   "onde": "Toronto (KITE/Toronto Rehab, UHN); brasileira, estudos prévios com a UDESC",
+   "ligacao": "Pode apoiar o pedido de observership no programa de reabilitação cardíaca",
+   "centros": [
+    "Toronto Rehabilitation Institute (UHN)"
+   ],
+   "url": "https://kite-uhn.com/news/gabriela-ghisi-qanda",
+   "certeza": "confirmado"
+  },
+  {
+   "nome": "Grupo de reabilitação cardíaca da UFMG (Chaves GSS et al.)",
+   "onde": "Belo Horizonte (UFMG)",
+   "ligacao": "Ensaio clínico randomizado em BH com Ghisi e Grace (Toronto Rehab), publicado no Heart",
+   "centros": [
+    "Toronto Rehabilitation Institute (UHN)"
+   ],
+   "url": "https://heart.bmj.com/content/105/5/406",
+   "certeza": "confirmado"
+  },
+  {
+   "nome": "USP (USP Winter Schools)",
+   "onde": "São Paulo",
+   "ligacao": "Parceria estratégica da Graduate School da RUG com a USP; não específica de cardiologia",
+   "centros": [
+    "UMC Groningen"
+   ],
+   "url": "https://graduateschoolrug.sites.kirra.nl/about/strategic-partners/usp-winter-schools",
+   "certeza": "confirmado"
+  }
+ ]
+}

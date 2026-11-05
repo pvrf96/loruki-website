@@ -1,0 +1,145 @@
+[
+ {
+  "match": "University of Utah Hospital",
+  "cidade": "Salt Lake City (UT), EUA",
+  "areas": ["robotica"],
+  "programa": {
+   "via_oficial": "Department Sponsored Visitors Program (Global Health Education, School of Medicine) – visitante internacional precisa de departamento/docente patrocinador.",
+   "url": "https://medicine.utah.edu/global-health-education/department-sponsored-visitors-program",
+   "elegibilidade": "Médico ou residente com diploma de escola fora dos EUA é aceito como 'physician or resident'. Trecho: 'A physician or resident is defined in this case as someone who has a medical degree from a non-US school.' Uma versão exige '12 months clinical experience'. IMG só observa: 'under no circumstance is an international medical graduate allowed to have hands on patient care ... They are only allowed to observe.'",
+   "taxa": "US$ 40 de processamento para todos; uma versão da página lista US$ 450/semana para physicians, fellows e residents. A loja do Dean's Office (https://deanssom-uofu.nbsstore.net/international-visiting-physician-fees-1) mostra '$0.00 For electives taking place AFTER July 1, 2024'. As fontes divergem: confirmar com o escritório.",
+   "antecedencia": "Inscrição na Global Health Education 'at least 6-8 weeks prior to the desired arrival time'.",
+   "documentos": "Background check internacional, imunizações e comprovação de ausência de TB, drug screen, seguro-saúde. Seguro de responsabilidade só se houver contato com paciente. O escritório emite cartas para o visto ('Provide letters or forms for US Visa requirements'). O modelo da Radiologia pede B1/B2, CV, carta de apresentação e entrevista virtual (https://medicine.utah.edu/radiology/education/head-neck).",
+   "contato_oficial": "Office of Global Health Education (via página acima). Contato administrativo da Divisão de Cirurgia CT publicado em vaga de emprego: Heather Clark, Heather.Clark@hsc.utah.edu (publicado para vagas, não especificamente para observers; usar com cautela).",
+   "certeza": "confirmado (programa institucional para IMG); valores de taxa conflitantes"
+  },
+  "servico": {
+   "nome": "Robotic Cardiac Surgery Program – Division of Cardiothoracic Surgery, University of Utah Hospital",
+   "diretor_programa_robotico": "Vikas Sharma, MD – 'Director of the Robotic Cardiac Surgery Program at the University of Utah Hospital' (https://medicine.utah.edu/surgery/cardiothoracic/news/2023/05/robotic-cardiac-surgery-only-mountain-west)",
+   "chefe_divisao": "Craig H. Selzman, MD – Professor e Chief of the Division of Cardiothoracic Surgery (chefe desde 2015) (https://medicine.utah.edu/surgery/cardiothoracic/message-from-chief)",
+   "diretor_fellowship": "não encontrado",
+   "procedimentos": "Reparo/troca mitral, CABG, fechamento de CIA, fechamento de apêndice atrial esquerdo com AtriClip, reparo tricúspide, tumores cardíacos (https://healthcare.utah.edu/cardiovascular/treatments/robotic-heart-surgery)",
+   "volume": "não encontrado. Destaque institucional: 'only center in the Mountain West region to use the da Vinci Robot for cardiac surgery' (2023); designado Destination Care Specialty Program em nov/2022 (https://medicine.utah.edu/surgery/cardiothoracic/news/2023/02/robotic-cardiac-surgery-program-designated-destination-care)",
+   "certeza": "confirmado"
+  },
+  "pessoas_chave": [
+   {"nome": "Vikas Sharma, MD", "cargo": "Diretor do Robotic Cardiac Surgery Program; Assistant Professor, Division of CT Surgery; foco em cirurgia mitral e Convergence Procedure", "por_que": "hospedaria e decide no serviço de robótica; alvo principal do e-mail", "fonte": "https://healthcare.utah.edu/find-a-doctor/vikas-sharma"},
+   {"nome": "Craig H. Selzman, MD", "cargo": "Chief, Division of Cardiothoracic Surgery; Surgical Director de suporte mecânico e transplante", "por_que": "chefe da divisão, aprova o patrocínio departamental", "fonte": "https://medicine.utah.edu/surgery/cardiothoracic/message-from-chief"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": "não encontrado: nenhum artigo de robótica 2022–2026 do serviço com PMID/DOI apareceu nas buscas. Sugestão: PubMed 'Sharma V[au] AND Utah AND robotic'.",
+  "dicas": [
+   "O programa é institucional e precisa de departamento patrocinador: conseguir o 'sim' de Vikas Sharma primeiro e depois abrir a inscrição na Global Health Education.",
+   "O Center for Global Surgery da Utah tem página de pagamento para 'visiting observers' (https://umarket.utah.edu/um2/globalsurgobserver). A página estava em modo teste e não mostra valor.",
+   "A divisão realiza o Cardio/CT/Transplant/Pulmonary Symposium (https://uofuhealth.utah.edu/cardio-ct-trans-pulmonary-symposium/speakers), uma possível porta de contato."
+  ],
+  "rota_recomendada": "1) E-mail a Vikas Sharma (diretor da robótica) pedindo 4 semanas de observership em cirurgia mitral robótica, citando o programa Destination Care e anexando CV e carta da Unifesp. 2) Com o aceite dele, inscrever-se no Department Sponsored Visitors Program da Global Health Education pelo menos 8 semanas antes, com background check, vacinas/TB, drug screen e seguro. 3) Cópia para a chefia da divisão (Selzman).",
+  "alerta_correcao": "Nenhum. A fonte institucional usa tanto 'only' quanto 'first' center in Mountain West."
+ },
+ {
+  "match": "Loma Linda University Medical Center",
+  "cidade": "Loma Linda (CA), EUA",
+  "areas": ["robotica"],
+  "programa": {
+   "via_oficial": "Nenhum observership clínico geral foi encontrado. Existe o International Professional Development Program (IPDP) do Global Health Institute: 'observation only'.",
+   "url": "https://ghi.llu.edu/ipdp",
+   "elegibilidade": "Inglês proficiente; 'Needs additional training and education not available in home country'; o treinamento deve beneficiar a instituição de origem. A observação é solicitada pela instituição de origem, que cobre salário e despesas e garante o cargo na volta. Critério de aprovação: 'department and mentor must be willing to accept the mentee' (https://ghi.llu.edu/about/committees-and-affiliates/goac).",
+   "taxa": "não encontrado",
+   "duracao_antecedencia": "não encontrado",
+   "documentos": "CV atualizado e carta de intenção (IPDP).",
+   "contato_oficial": "Global Health Institute (ghi.llu.edu); e-mail específico não encontrado",
+   "certeza": "provável: o IPDP é desenhado para profissionais de instituições parceiras, e não há certeza de que se aplique a residente de curta duração"
+  },
+  "servico": {
+   "nome": "Loma Linda University International Heart Institute – Department of Cardiothoracic Surgery (Minimally Invasive Robotic Surgery: robotic mitral valve surgery)",
+   "chefe": "Joshua S. Chung, MD, FACS – chair do Department of Cardiothoracic Surgery desde 1º de julho (notícia de maio/2023), sucedendo Anees Razzouk, chair desde 2007 (https://news.llu.edu/academics/chung-selected-chair-of-department-of-cardiothoracic-surgery)",
+   "diretor_fellowship": "não encontrado (há residência integrada de cirurgia torácica: https://res-medical-center.lluh.org/health-professionals/gme/resident-fellow/thoracic-surgery-integrated-residency/meet-us)",
+   "volume": "não encontrado. Primeira troca mitral robótica em set/2020, 'only center to offer the procedure in the Inland Empire' (https://news.llu.edu/patient-care/patients-needing-heart-valve-repair-can-benefit-from-robotic-surgery-llu). Programa pequeno e recente.",
+   "certeza": "confirmado"
+  },
+  "pessoas_chave": [
+   {"nome": "Joshua S. Chung, MD, FACS", "cargo": "Chair, Dept. of Cardiothoracic Surgery; ex-diretor de transplante cardíaco adulto, ECMO e MCS; lidera a mitral robótica", "por_que": "decide e hospeda", "fonte": "https://news.llu.edu/academics/chung-selected-chair-of-department-of-cardiothoracic-surgery"},
+   {"nome": "Anees Razzouk, MD", "cargo": "Ex-chair (2007–2023), cirurgia cardíaca pediátrica e adulta, transplante", "por_que": "figura sênior do departamento", "fonte": "https://murrieta.lluh.org/provider/razzouk-anees"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "Nenhuma ponte acadêmica encontrada. Ponte indireta e não comprovada: rede adventista. A LLUH mantém parceria com a Adventist Health International (plano estratégico 2025–2029: https://issuu.com/lluh/docs/lluh-strategic-plan-2025-2029), e no Brasil os hospitais adventistas foram unificados em 'Adventist Health' em 2025 (https://www.healthministries.com/?p=17965). Não há vínculo Loma Linda–Brasil documentado.",
+  "pesquisa_recente": "não encontrado com PMID/DOI. O perfil institucional lista um case report de 2025 no European Heart Journal – Case Reports com Chung e Razzouk (título não visto) (https://experts.llu.edu/en/organisations/cardiothoracic-surgery/).",
+  "dicas": [
+   "Instituição adventista com forte vocação internacional (Global Health Institute). Se a residente tiver vínculo com hospital adventista brasileiro, o IPDP pode servir como rota formal.",
+   "Para robótica pura, o volume parece baixo frente a outros polos: avaliar o custo-benefício."
+  ],
+  "rota_recomendada": "1) E-mail direto ao Dr. Joshua Chung (chair) pedindo observership de 4 semanas na cirurgia cardíaca minimamente invasiva/robótica. 2) Em paralelo, consultar o Global Health Institute sobre IPDP ou outra via de observação para residente estrangeira. 3) Prioridade média-baixa para robótica, por ser programa iniciado em 2020 e sem volume publicado.",
+  "alerta_correcao": "A página do radar está correta, mas a matéria de 2021 chama Chung de vice-chair; desde 2023 ele é chair."
+ },
+ {
+  "match": "UVA Health",
+  "cidade": "Charlottesville (VA), EUA",
+  "areas": ["robotica"],
+  "programa": {
+   "via_oficial": "GME Visitors/Observers: o pedido precisa partir de um programa da UVA para o GME Office ('Requests to host visitors or observers must come from the UVA Programs to the GME Office').",
+   "url": "https://med.virginia.edu/gme/program-resources/forms/visitors-observers/",
+   "elegibilidade": "Nenhum documento específico para médico internacional foi encontrado. A Policy 28 trata de visitantes com atuação clínica (exige Program Letter of Agreement; mínimo de 10 dias para credenciamento). Para observadores existem formulários separados: <10 dias (https://med.virginia.edu/gme/wp-content/uploads/sites/255/2015/10/ObserverLessthan10Days92014.pdf) e >10 dias (https://med.virginia.edu/gme/wp-content/uploads/sites/255/2015/12/Observers-More-than-10-days.pdf).",
+   "taxa": "não encontrado",
+   "documentos": "Triagem de saúde conforme política do centro médico; vacina de influenza obrigatória entre outubro e abril (modelo da Radiologia: https://med.virginia.edu/radiology/?p=15814).",
+   "contato_oficial": "GME Office, via programa patrocinador",
+   "certeza": "confirmado (processo GME); provável para internacionais"
+  },
+  "servico": {
+   "nome": "UVA Health Robotic Cardiac Surgery Program – Division of Cardiothoracic Surgery (descrito como o primeiro/único programa dedicado de cirurgia cardíaca robótica da Virgínia)",
+   "diretor_programa_robotico": "Michael E. Ibrahim, MD, PhD – 'Director of Robotic Cardiac Surgery at UVA Health' (https://www.uvahealth.com/providers/Michael-Ibrahim-1528443041). Antes dirigiu o Robotic Heart Surgery Program da Penn. Primeiro caso robótico na UVA em 14 de agosto de 2026 (https://www.29news.com/2026/08/19/uva-health-launches-first-robotic-heart-surgery-program-virginia/)",
+   "chefe_divisao": "Ourania Preventza, MD – chief of the Division of Cardiothoracic Surgery desde 19/06/2023 (https://giving.uvahealth.com/article/new-cardiothoracic-surgery-chief). Uma página antiga ainda lista John Kern.",
+   "diretor_fellowship": "Na UVA: não encontrado. Na Penn, Ibrahim era Program Director do Robotic Cardiac Surgery Fellowship, de 12 meses ou versão de 6 meses (https://www3.pennmedicine.org/departments-and-centers/department-of-surgery/education-and-training/fellowships/robotic-cardiac-surgery). A página pode estar desatualizada após a mudança dele.",
+   "volume": "Programa lançado em ago/2026, sem volume publicado. Primeiro caso: reparo mitral. A equipe treinou 6–9 meses antes de começar.",
+   "certeza": "confirmado"
+  },
+  "pessoas_chave": [
+   {"nome": "Michael E. Ibrahim, MD, PhD", "cargo": "Director of Robotic Cardiac Surgery, UVA Health; foco em reparo mitral e tricúspide robótico", "por_que": "decide e hospeda; tem experiência de educador (dirigiu o fellowship robótico da Penn)", "fonte": "https://www.uvahealth.com/providers/Michael-Ibrahim-1528443041"},
+   {"nome": "Ourania Preventza, MD", "cargo": "Chief, Division of Cardiothoracic Surgery; co-director do Cardiovascular Service Line", "por_que": "chefia, aprova o patrocínio", "fonte": "https://giving.uvahealth.com/article/new-cardiothoracic-surgery-chief"},
+   {"nome": "Leora T. Yarboro, MD", "cargo": "Associate Professor; surgical director de insuficiência cardíaca e transplante", "por_que": "cirurgia valvar e transplante; o vínculo com robótica não foi confirmado", "fonte": "https://www.uvahealth.com/providers/Leora-Yarboro-1437378643"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": [
+   {"titulo": "Reoperative Mitral Valve Surgery Utilizing a Robotic Technique: A Safe and Reproducible Approach", "ano": 2025, "veiculo": "ISMICS 2025 (abstract)", "id": "sem PMID/DOI nos resultados", "fonte": "https://www3.pennmedicine.org/providers/profile/michael-ibrahim", "obs": "trabalho de Ibrahim feito na Penn"},
+   {"titulo": "Re-repair for mitral insufficiency", "ano": 2024, "veiculo": "Annals of Thoracic Surgery", "id": "sem PMID/DOI nos resultados", "fonte": "https://www3.pennmedicine.org/providers/profile/michael-ibrahim", "obs": "Ibrahim último autor (Penn)"}
+  ],
+  "dicas": [
+   "Programa novíssimo (agosto de 2026): o observador acompanharia a fase de implantação. Pode ser bom para um e-mail personalizado ('starting a robotic program', em que ele treinou a equipe por 6–9 meses).",
+   "Ibrahim tem perfil de educador em robótica (fellowship na Penn), o que aumenta a chance de aceitar observadores."
+  ],
+  "rota_recomendada": "1) E-mail ao Dr. Michael Ibrahim citando o lançamento do programa (ago/2026) e o trabalho de reoperação mitral robótica, pedindo 4 semanas de observação. 2) Com o aceite, a divisão faz o pedido ao GME Office (formulário de observer >10 dias). 3) Plano B: perguntar a ele sobre observação na Penn, onde há fellowship robótico estruturado.",
+  "alerta_correcao": "Ibrahim ainda aparece como diretor do fellowship robótico da Penn em página possivelmente desatualizada. Desde 2026 ele está na UVA."
+ },
+ {
+  "match": "Novant Health Presbyterian",
+  "cidade": "Charlotte (NC), EUA",
+  "areas": ["robotica"],
+  "programa": {
+   "via_oficial": "não encontrado para médicos/residentes estrangeiros. Só existe o pacote de observação de estudantes (<16 h), que exige uma 'observation experience agreement', facilidade e médico supervisor nomeado (https://www.novanthealth.org/globalassets/buttons-and-documents-ctaslinks/documents-pdfs/student-placements/observationpacketless16houscombo-10_24_23.pdf). Rotações exigem acordo institucional ('current student agreement on file') (https://www.novanthealth.org/careers/student-programs.aspx).",
+   "taxa": "não encontrado",
+   "documentos": "não encontrado",
+   "contato_oficial": "Student Programs / GME Novant (e-mail não encontrado)",
+   "certeza": "não confirmado: sistema comunitário, sem programa internacional visível"
+  },
+  "servico": {
+   "nome": "Novant Health Heart & Vascular Institute – Minimally Invasive & Robotic Heart Surgery (programa dedicado de mitral robótica, Presbyterian Medical Center)",
+   "lider": "Jeffrey Everett, MD – veio para a Novant 'to lead the region's first dedicated robotic mitral valve program' (https://mooresvilletribune.com/news/community/article_dc6cfc68-dafc-5f84-83ca-c492cdd92e5e.html). Tem mais de 24 anos de experiência (WBTV, abr/2026). Antes esteve no IU Health, onde tinha interesse em 'minimally invasive valve surgery including robotics' (https://iuhealth.org/find-providers/provider/jeffrey-e-everett-md-5990)",
+   "diretor_fellowship": "não encontrado (não há fellowship conhecido)",
+   "volume": "não encontrado. Afirmação institucional: 'first in Charlotte and the surrounding area to offer robotic mitral valve repair' (https://www.novanthealth.org/services/heart--vascular/treatments/minimally-invasive-robotic-heart-surgery/)",
+   "certeza": "confirmado (líder); volume ausente"
+  },
+  "pessoas_chave": [
+   {"nome": "Jeffrey Everett, MD", "cargo": "Advanced Robotic Cardiac Surgery / Cardiothoracic Surgery, Novant Health", "por_que": "único líder identificado do programa robótico; decide e hospedaria", "fonte": "https://www.novanthealth.org/pf/providers/1407849532/jeffrey-everett"}
+  ],
+  "brasileiros": "não encontrado",
+  "pontes_unifesp_sp": "não encontrado",
+  "pesquisa_recente": "não encontrado: o perfil de Everett no CTSNet mostra a pesquisa como 'No entries found' (https://www.ctsnet.org/home/jeverett)",
+  "dicas": [
+   "Hospital comunitário/privado, sem estrutura acadêmica para observadores internacionais: a chance depende só da boa vontade do cirurgião e do jurídico.",
+   "Programa de mitral robótica recente ('started performing just last spring', WSOC-TV)."
+  ],
+  "rota_recomendada": "Prioridade baixa. Se tentar: e-mail ao Dr. Jeffrey Everett pedindo para observar casos de mitral robótica e perguntando se a Novant tem processo de observer para médicos visitantes. Antes, priorizar centros acadêmicos com programa formal (Utah, UVA).",
+  "alerta_correcao": "Nenhum. Na reportagem da WSOC o nome aparece grafado 'Jefferey'."
+ }
+]

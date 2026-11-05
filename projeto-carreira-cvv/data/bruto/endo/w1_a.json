@@ -1,0 +1,195 @@
+[
+ {
+  "match": "Massachusetts General Hospital",
+  "cidade": "Boston", "pais": "EUA",
+  "areas_polo": ["robotica","esporte","nuclear","uti_cardiaca","ecmo","emergencia_choque"],
+  "programa": {
+   "nome": "International Observership Program (coordenado pelo International Patient Center, MGH)",
+   "url": "https://www.massgeneral.org/education/fellowship.aspx?id=259",
+   "formulario_oficial": "https://massgeneral.org/education/international-observership/international-observership-request-information-form",
+   "descricao": "Programa informal e customizado; permite a medicos, pesquisadores e outros profissionais observar atividades clinicas, de pesquisa ou administrativas. Sem credito de educacao medica; certificado de presenca ao final. Nao e voltado a estudantes.",
+   "elegibilidade_residente_estrangeiro": "provavel (aberto a 'physicians'; nao exclui residentes, exclui estudantes)",
+   "taxa": "nao encontrado (nenhum valor publicado do MGH nos resultados)",
+   "duracao": "nao encontrado (customizada)",
+   "antecedencia": "minimo 6 semanas a partir do recebimento da aplicacao (pagina oficial)",
+   "documentos": "formulario de aplicacao assinado + CV atual (envio eletronico); seguro saude proprio para toda a estadia, comprovante ate 10 dias antes da chegada (PDF 'Expectations for observers': https://www.massgeneral.org/assets/MGH/pdf/professional-education/international-observership/Expectations-for-observers.pdf). Vacinas/visto: nao encontrado no trecho.",
+   "certeza": "confirmado (antecedencia, documentos basicos, seguro); taxa/duracao nao encontrados"
+  },
+  "servico": {
+   "nomes": ["Corrigan Minehan Heart Center", "Cardiovascular Performance Program (cardiologia do esporte)", "Cardiac Intensive Care Unit - Critical Care Cardiology Section", "Heart Center ICU (36 leitos, cardiotoracica: transplante, VAD, ECMO)", "Cardiogenic Shock Team 24/7", "Mitral valve surgery innovation program (robotico desde 2021)", "Nuclear Cardiology Fellowship / Cardiac MR PET CT Program"],
+   "chefes": [
+    {"area":"esporte","nome":"J. Sawalla Guseh, MD","cargo":"Diretor do Cardiovascular Performance Program (nomeado 2023) e diretor do fellowship do programa","fonte":"https://www.massgeneralbrigham.org/en/doctors/g/james-guseh-3010957","certeza":"confirmado"},
+    {"area":"uti_cardiaca","nome":"David Dudzinski, MD","cargo":"Director, Cardiac Intensive Care Unit, Critical Care Cardiology Section","fonte":"https://esc365.escardio.org/person/1250653","certeza":"provavel (perfis Doximity/ESC, sem data)"},
+    {"area":"uti_cardiaca/ecmo","nome":"Kenneth Shelton, MD","cargo":"Medical director / co-director do Heart Center ICU; chefe da Critical Care Division (Anestesia)","fonte":"https://www.massgeneral.org/anesthesia/clinical-services-and-programs/critical-care","certeza":"provavel (paginas com papeis divergentes ao longo do tempo)"},
+    {"area":"robotica","nome":"Serguei Melnitchouk, MD","cargo":"Cirurgiao cardiaco, especialista em mitral minimamente invasiva; co-diretor do Heart Valve Program","fonte":"https://www.massgeneral.org/doctors/19342/serguei-melnitchouk","certeza":"confirmado (lider formal do robotico nao nomeado em fonte oficial)"},
+    {"area":"nuclear","nome":"Ahmed Tawakol, MD","cargo":"Diretor do Nuclear Cardiology Fellowship","fonte":"https://massgeneral.org/heart-center/education-and-training/nuclear-cardiology-fellowship","certeza":"provavel (pagina pode estar desatualizada)"}
+   ],
+   "volume": "Programa robotico de mitral introduzido em 2021; 16 reparos roboticos com sucesso em 100% ate ago/2022 (Front Cardiovasc Med 2023, PMID 37025683). Hospital designado ECMO Center of Excellence (pagina Cardiogenic Shock Team). Volume anual de choque/ECMO: nao encontrado.",
+   "fontes": ["https://www.massgeneral.org/heart-center/treatments-and-services/cardiogenic-shock-team","https://pubmed.ncbi.nlm.nih.gov/37025683/"]
+  },
+  "pessoas_chave": [
+   {"nome":"J. Sawalla Guseh","cargo":"Diretor, Cardiovascular Performance Program","por_que":"decide/hospeda observadores na cardiologia do esporte; dirige o fellowship","fonte":"https://cvrc.massgeneral.org/?p=7738"},
+   {"nome":"Eugene Chung, MD, MPH","cargo":"Diretor inaugural da Sports Electrophysiology Clinic (desde nov/2023)","por_que":"segundo nome de referencia em esporte","fonte":"https://www.massgeneral.org/doctors/23511/eugene-chung"},
+   {"nome":"David Dudzinski","cargo":"Diretor da CICU","por_que":"hospedaria observacao em UTI cardiaca/choque","fonte":"https://doximity.com/pub/david-dudzinski-md"},
+   {"nome":"Kenneth Shelton","cargo":"Co-diretor Heart Center ICU","por_que":"UTI cardiotoracica com ECMO/VAD","fonte":"https://www.massgeneral.org/anesthesia/clinical-services-and-programs/critical-care"},
+   {"nome":"Serguei Melnitchouk","cargo":"Cirurgiao, co-diretor Heart Valve Program","por_que":"lidera mitral minimamente invasiva/robotica; equipe ja treinou externos (WVU)","fonte":"https://wvumedicine.org/news/article/wvu-heart-and-vascular-institute-hosts-harvard-heart-surgeons-to-share-best-practices-for-robotic-mi"},
+   {"nome":"Ahmed Tawakol","cargo":"Diretor do fellowship de cardiologia nuclear","por_que":"porta para nuclear/PET","fonte":"https://massgeneral.org/heart-center/education-and-training/nuclear-cardiology-fellowship"}
+  ],
+  "brasileiros": [
+   {"nome":"Michel Pompeu Sa, MD, PhD","vinculo":"Cardiac Surgery Fellowship, MGH/Harvard (CTSNet); formacao em Recife (Hosp. Barao de Lucena, PhD UPE); 40 Under 40 Cardiovascular Business 2025 o descreve como cirurgiao CV no MGH","fonte":"https://www.ctsnet.org/print/home/michelpompeusa","certeza":"confirmado (vinculo); datas e situacao atual nao confirmadas"},
+   {"nome":"Thiago Quinaglia","vinculo":"Cardiologista, post-doctoral research fellow no MGH (formacao Ribeirao Preto/Unicamp)","fonte":"https://aminer.org/profile/thiago-quinaglia/53f430a6dabfaee2a1ca63e8","certeza":"provavel (afiliacao atual nao confirmada)"}
+  ],
+  "pontes_unifesp_sp": "nao encontrado (busca MGH + InCor/Unifesp nas areas do polo sem resultado; Michel Pompeu Sa e a ponte brasileira mais forte em cirurgia CV)",
+  "pesquisa_recente": [
+   {"titulo":"Mitral valve repair program at MGH: minimally invasive approach and introduction of robotic MVr (Van Kampen, Langer, Melnitchouk et al.)","ano":2023,"pmid":"37025683","doi":"10.3389/fcvm.2023.1113908","area":"robotica"},
+   {"titulo":"Estudo de valores normais de imagem cardiaca em jogadores de futebol de elite (coautoria Guseh) - JAMA Cardiology","ano":"nao confirmado","pmid":"nao encontrado","area":"esporte","certeza":"provavel"},
+   {"titulo":"Endurance exercise de longa duracao associado a aorta aumentada (release MGH)","ano":"nao confirmado","pmid":"nao encontrado","area":"esporte"}
+  ],
+  "dicas": [
+   "Antecedencia minima de 6 semanas; o pedido comeca pelo 'Request Information Form' oficial.",
+   "Programa e customizado: na pratica precisa de um preceptor/servico que aceite hospedar - escrever antes ao diretor do servico-alvo ajuda.",
+   "Seguro saude proprio obrigatorio, comprovante 10 dias antes.",
+   "Curso CME 'Mass General Brigham Heart Failure & Shock Course' (Harvard) e alternativa/porta de contato em choque: https://cmecatalog.hms.harvard.edu/mass-general-brigham-heart-failure-shock-course/faculty"
+  ],
+  "rota_recomendada": "1) Escolher UM servico-alvo (ex. CICU/choque com Dudzinski ou Cardiovascular Performance com Guseh) e enviar e-mail curto citando trabalho do servico; 2) com o aceite informal, submeter o International Observership Request Form (>=6 semanas antes) com CV, carta da Unifesp e seguro; 3) usar Michel Pompeu Sa como ponte brasileira se o alvo for cirurgia/robotica.",
+  "alerta_correcao": "A URL do radar (massgeneral.org/imaging/education/fellowships/observer) e o programa de observer do Departamento de Radiologia/Imaging - so serve para imagem/nuclear. Para cardiologia/cirurgia CV, a rota correta e o International Observership Program (fellowship.aspx?id=259), coordenado pelo International Patient Center."
+ },
+ {
+  "match": "Asan Medical Center",
+  "cidade": "Seul", "pais": "Coreia do Sul",
+  "areas_polo": ["robotica","transplante","estrutural","coronaria","hemodinamica_coronaria"],
+  "programa": {
+   "nome": "ASAN International Visiting Scholars Program (IViS)",
+   "url": "https://eng.amc.seoul.kr/gb/lang/education/langEducationInfoScholar.do",
+   "email_oficial": "intedu@amc.seoul.kr (publicado para duvidas do programa)",
+   "elegibilidade_residente_estrangeiro": "provavel: exige diploma e licenca medica e atuar em hospital no exterior; proficiencia em ingles ou coreano (TOEIC/IELTS ou entrevista telefonica podem ser exigidos). Residente com CRM ativo em hospital brasileiro parece se enquadrar.",
+   "taxa": "existe, varia por nacionalidade e pode mudar sem aviso; valor nao encontrado",
+   "duracao": "ate 1 ano; prorrogacao so com aprovacao do departamento; >1 mes exige aprovacao do AMC Education Committee",
+   "antecedencia": "nao encontrado",
+   "documentos": "formulario, carta de recomendacao, CV, certificado de vinculo (employment certificate), copia da licenca medica; aplicacao vai ao Asan Medical International e depois e aprovada pelo departamento",
+   "status": "aplicacoes reabertas desde 2022",
+   "certeza": "confirmado (trechos das paginas IViS); taxa nao encontrada"
+  },
+  "servico": {
+   "nomes": ["Asan Heart Institute (fundado 1989: Cardiology, Cardiac Surgery, Vascular Surgery)", "Division of Cardiology - Interventional Catheterization Laboratory", "Division of Thoracic and Cardiovascular Surgery", "Programa de transplante cardiaco"],
+   "chefes": [
+    {"nome":"Seung-Jung Park","cargo":"Endowed-Chair Professor, Division of Cardiology; descrito como chairman do Heart Institute (Wikipedia, data incerta); fundador do TCTAP/CVRF","fonte":"https://news-en.amc.seoul.kr/news/eng/detail.do?cntId=3080","certeza":"provavel (cargo atual de diretor do Heart Institute nao confirmado)"},
+    {"nome":"Duk-Woo Park","cargo":"Professor, diretor do Interventional Catheterization Laboratory; program director/co-chair do TCTAP, AP-Valve e Complex PCI; deputy editor JACC: Asia","fonte":"https://scri.edu.sg/prof-duk-woo-park","certeza":"provavel (pagina sem data)"},
+    {"nome":"Joon Bum Kim","cargo":"Cirurgiao, Division of Thoracic and Cardiovascular Surgery","fonte":"https://produccioncientifica.usal.es/grupos/7453/colaboracion/organizaciones/7982?lang=en","certeza":"provavel"}
+   ],
+   "volume": "Mais de 900 transplantes cardiacos (maior numero da Coreia) - release AMC abr/2024: https://news-en.amc.seoul.kr/news/eng/detail.do?cntId=2907 (provavel, trecho do resultado). Robotica cardiaca: nao encontrado volume; primeira ICP assistida por robo na Coreia (2023, asiae.co.kr).",
+   "certeza": "transplante: confirmado pelo trecho; robotica: nao encontrado"
+  },
+  "pessoas_chave": [
+   {"nome":"Seung-Jung Park","cargo":"Endowed-Chair Professor, Cardiology","por_que":"lider historico do Heart Institute e do CVRF/TCTAP","fonte":"https://en.wikipedia.org/wiki/Park_Seung-jung"},
+   {"nome":"Duk-Woo Park","cargo":"Diretor do cath lab intervencionista","por_que":"decide/hospeda em hemodinamica coronaria e estrutural; dirige TCTAP","fonte":"https://scri.edu.sg/prof-duk-woo-park"},
+   {"nome":"Do-Yoon Kang","cargo":"Cardiologista intervencionista (co-primeiro autor OCTIVUS)","por_que":"ja foi mentor de observer internacional de 2 semanas em cardiologia intervencionista (relato AIHA 2025/26)","fonte":"https://www.aiha.com/wp-content/uploads/2026/03/Masci-Scholar-Personal-Testimony_Jastine-Galvez.pdf"},
+   {"nome":"Jung-Min Ahn","cargo":"Cardiologista intervencionista","por_que":"co-primeiro autor OCTIVUS; pesquisa em imagem intracoronaria","fonte":"https://scholarworks.bwise.kr/cau/bitstream/2019.sw.cau/68474/1/Optical%20Coherence%20Tomography-Guided%20or%20Intravascular%20Ultrasound-Guided%20Percutaneous%20Coronary%20Intervention%20The%20OCTIVUS%20Randomized%20Clinical%20Trial.pdf"},
+   {"nome":"Ho Jin Kim","cargo":"Cirurgiao cardiaco, sponsor do registro SAVR vs TAVR do Asan","por_que":"estrutural cirurgico","fonte":"https://tundraspace.com/directory/studies/nct03298178"},
+   {"nome":"Joon Bum Kim","cargo":"Cirurgiao cardiaco","por_que":"coautor em estudos TAVR/valva com a cardiologia","fonte":"https://produccioncientifica.usal.es/grupos/7453/colaboracion/organizaciones/7982?lang=en"}
+  ],
+  "brasileiros": "nao encontrado",
+  "pontes_unifesp_sp": "nao encontrado diretamente. Possiveis pontes indiretas: Transpacific TAVR Registry (NCT03826264, multinacional, PI Duk-Woo Park, recrutando) - participacao brasileira nao confirmada; estudo COVID-TAVI (JACC CV Interv 2024;17(3):374-387) inclui Asan entre afiliacoes - participacao brasileira nao verificada.",
+  "pesquisa_recente": [
+   {"titulo":"Optical Coherence Tomography-Guided or Intravascular Ultrasound-Guided PCI: The OCTIVUS Randomized Clinical Trial","ano":2023,"revista":"Circulation 148:1195-1206","pmid":"nao encontrado","registro":"NCT03394079","area":"coronaria/hemodinamica"},
+   {"titulo":"OCTIVUS - analise de lesoes complexas","ano":2023,"revista":"JACC","pmid":"nao encontrado","area":"coronaria"},
+   {"titulo":"Impact of the COVID-19 Pandemic on Global TAVR Activity: The COVID-TAVI Study","ano":2024,"revista":"JACC Cardiovasc Interv 17(3):374-387","pmid":"nao encontrado","area":"estrutural (Asan como centro participante)"}
+  ],
+  "dicas": [
+   "TCTAP (Seul, abril; 2025 foi 23-26/abr) e AP-Valve/Complex PCI sao organizados pelo CVRF + Asan Heart Institute - comparecer/submeter caso e a melhor porta para conhecer Duk-Woo Park.",
+   "Ha precedente publicado de observership de 2 semanas em cardiologia intervencionista no AMC Heart Institute com mentor designado (Prof. Kang Do-Yoon).",
+   "Estagio >1 mes precisa de aprovacao extra do Education Committee: pedir exatamente 4 semanas (ou menos) simplifica.",
+   "Pode haver entrevista telefonica/prova de ingles."
+  ],
+  "rota_recomendada": "1) Escrever para intedu@amc.seoul.kr pedindo o formulario IViS para Division of Cardiology (intervencao coronaria/estrutural) por <=4 semanas; 2) em paralelo, e-mail ao lab de Duk-Woo Park citando OCTIVUS; 3) se possivel, conhecer o grupo no TCTAP antes.",
+  "alerta_correcao": "A URL do radar (brc.amc.seoul.kr) e um subdominio de um centro especifico do AMC; a pagina geral do IViS e eng.amc.seoul.kr/gb/lang/education/langEducationInfoScholar.do (mesmo conteudo/contato). Robotica cardiaca no Asan nao confirmada por fonte (robotica do Asan documentada em urologia, figado, pediatria)."
+ },
+ {
+  "match": "Fundación Cardioinfantil — LaCardio",
+  "cidade": "Bogota", "pais": "Colombia",
+  "areas_polo": ["transplante","congenitas","estagio_externo_cardiologia","cardio_pediatrica"],
+  "programa": {
+   "nome": "Rotacao externa/internacional de residentes (via Educacao Medica / hospital universitario)",
+   "url": "https://www.lacardio.org/educacion-medica/hospital-universitario/",
+   "evidencia": "Resolucao do governo peruano (2026) aprova 'Rotacion Externa Internacional en la Fundacion Cardioinfantil-La Cardio, Bogota, Colombia' para residente vinculado a Universidad Ricardo Palma - prova que LaCardio aceita residentes estrangeiros em rotacao, via instituicao de origem.",
+   "fonte_evidencia": "https://www.gob.pe/institucion/insnsb/normas-legales/8098329-000201-2026-uad-insnsb",
+   "elegibilidade_residente_estrangeiro": "provavel (precedente peruano 2026)",
+   "taxa": "nao encontrado", "duracao": "nao encontrado", "antecedencia": "nao encontrado", "documentos": "nao encontrado",
+   "email_oficial": "nao encontrado",
+   "certeza": "provavel"
+  },
+  "servico": {
+   "nomes": ["Instituto de Cardiopatias Congenitas", "Cirurgia Cardiovascular Pediatrica", "Unidad de Trasplante Cardiaco (fundada 2005)", "Especializacion en Cardiologia Pediatrica (Universidad del Rosario, sede principal FCI, 2 anos)"],
+   "chefes": [
+    {"nome":"Nestor Fernando Sandoval Reyes","cargo":"Lider Cirugia Cardiovascular Pediatrica; diretor do Instituto de Cardiopatias Congenitas desde 2006","fonte":"https://www.lacardio.org/especialistas/nestor-fernando-sandoval-reyes/","certeza":"confirmado"},
+    {"area":"transplante cardiaco","nome":"nao encontrado","certeza":"nao encontrado"}
+   ],
+   "volume": "Transplante cardiaco adulto: 103 transplantes de 2005 ate 2022 (tese Universidad del Rosario 2023: https://repository.urosario.edu.co/bitstreams/4ded43c9-7a56-412d-aed4-5476f8b256fa/download). Congenitas: 556 correcoes consecutivas de Tetralogia de Fallot 2001-2022 (apresentacao de Sandoval, CHOP Cardiology 2023: https://www.card2023.chopcme.com/media/attachments/pdf/day-02/56/0845-fri-rio-mar-5_6-sandoval.pdf).",
+   "certeza": "confirmado (trechos), dados nao atualizados para 2025-26"
+  },
+  "pessoas_chave": [
+   {"nome":"Nestor F. Sandoval Reyes","cargo":"Diretor, Instituto de Cardiopatias Congenitas","por_que":"decide/hospeda em congenitas e cirurgia pediatrica; lider internacional (WSPCHS, World Database for Pediatric and Congenital Heart Surgery, palestrante CHOP)","fonte":"https://www.lacardio.org/especialistas/nestor-fernando-sandoval-reyes/"},
+   {"nome":"Tomas Chalela","cargo":"Coautor do programa social 'Regale una Vida'","por_que":"equipe de congenitas","fonte":"https://www.lacardio.org/regale-una-vida-a-successful-social-program-for-underprivileged-children-with-congenital-heart-disease-in-a-middle-income-country/","certeza":"provavel (cargo nao confirmado)"}
+  ],
+  "brasileiros": "nao encontrado",
+  "pontes_unifesp_sp": "nao encontrado. Ponte indireta: Sandoval participa do World Database for Pediatric and Congenital Heart Surgery, que tambem tem centros brasileiros (participacao especifica de Unifesp/InCor nao verificada).",
+  "pesquisa_recente": [
+   {"titulo":"Tetralogy of Fallot: 556 consecutive repairs 2001-2022 (apresentacao, CHOP Cardiology 2023)","ano":2023,"pmid":"nao se aplica (apresentacao)","area":"congenitas"},
+   {"titulo":"Regale una Vida: a successful social program for underprivileged children with congenital heart disease in a middle income country","ano":"nao confirmado","pmid":"nao encontrado","area":"congenitas"},
+   {"titulo":"Tese de cardiologia (U. Rosario 2023) sobre a Unidade de Transplante Cardiaco da LaCardio","ano":2023,"pmid":"nao se aplica","area":"transplante"}
+  ],
+  "dicas": [
+   "O precedente encontrado e via universidade/programa de origem (oficio institucional) - para residente da Unifesp, a COREME/programa deve formalizar o pedido.",
+   "Espanhol ajuda muito; ambiente em espanhol.",
+   "Sandoval tem perfil internacional forte (congressos CHOP/WSPCHS) - bom alvo para e-mail personalizado."
+  ],
+  "rota_recomendada": "1) Pedir a Unifesp oficio de rotacao externa internacional dirigido a Direccion de Educacion Medica da LaCardio (canal oficial: pagina educacion-medica); 2) em paralelo, e-mail a Nestor Sandoval (congenitas/cardio pediatrica) citando a serie de Tetralogia de Fallot; 3) para transplante, pedir indicacao do lider da Unidad de Trasplante na resposta.",
+  "alerta_correcao": "Nao se encontrou pagina oficial com requisitos/contato de rotacao para estrangeiros; e-mail oficial do escritorio de educacao nao encontrado. Chefe do transplante cardiaco nao identificado (Jairo Rivera Baquero e do transplante hepatico pediatrico, nao cardiaco)."
+ },
+ {
+  "match": "Instituto Nacional de Cardiología Ignacio Chávez",
+  "cidade": "Cidade do Mexico", "pais": "Mexico",
+  "areas_polo": ["hipertensao_pulmonar","cardio_pediatrica","congenita_adulto","estagio_externo_cardiologia"],
+  "programa": {
+   "nome": "Rotaciones clinicas - Direccion de Ensenanza",
+   "url": "https://www.cardiologia.org.mx/organizacion/direccion_general/direccion_de_ensenanza/rotaciones_clinicas/",
+   "elegibilidade_residente_estrangeiro": "nao encontrado em fonte do INC (pagina do radar nao apareceu nos resultados)",
+   "taxa": "nao encontrado", "duracao": "nao encontrado", "antecedencia": "nao encontrado",
+   "documentos": "nao encontrado para o INC. Referencia analoga (outro instituto nacional, INCMNSZ): pedido apenas por oficio institucional a Direccion de Ensenanza, nao aceita iniciativa individual do residente; curso de higiene de maos - NAO assumir para o INC.",
+   "email_oficial": "achd.inc@cardiologia.org.mx - contato publicado (ISACHD, dez/2024) do Fellowship de Cardiopatias Congenitas do Adulto (1 ano, 3-4 fellows/ano); para rotacao curta nao confirmado",
+   "fonte_email": "https://isachd.org/jobs-fellowships",
+   "certeza": "baixa para rotacao; confirmado para o contato do fellowship ACHD"
+  },
+  "servico": {
+   "nomes": ["Departamento de Cardioneumologia (hipertensao pulmonar)", "Departamento de Cardiologia Pediatrica", "Clinica de Cardiopatias Congenitas del Adulto", "ACHD Fellowship (INC/UNAM)"],
+   "chefes": [
+    {"area":"hipertensao_pulmonar","nome":"Tomas R. Pulido","cargo":"Autor da Guia Mexicana de HP 2024 (Cardioneumologia, INC); PI do Latin American Pulmonary Hypertension Registry (ALAT)","fonte":"https://medigraphic.com/pdfs/neumo/nt-2024/nt244d.pdf","certeza":"confirmado (afiliacao); cargo de chefe nao confirmado"},
+    {"area":"hipertensao_pulmonar","nome":"Julio Sandoval","cargo":"PI do coorte prospectiva de HP grupos 1 e 4 no INC (NCT02252705)","fonte":"https://www.syfrah.com/trial/NCT02252705","certeza":"provavel"},
+    {"area":"cardio_pediatrica","nome":"Juan Eberto Calderon Colmenero / Alfonso Buendia Hernandez","cargo":"Ambos aparecem como 'Jefe del Departamento de Cardiologia Pediatrica' em teses UNAM sem data - provavelmente periodos distintos","fonte":"https://ru.dgb.unam.mx/bitstream/20.500.14330/TES01000829648/3/0829648.pdf","certeza":"incerto (atual nao confirmado)"},
+    {"area":"direcao_geral","nome":"nao encontrado","cargo":"Processo de designacao do Diretor Geral 2024-2029 aberto em fev/2024; nome nao encontrado","fonte":"https://www.gob.mx/cms/uploads/attachment/file/893185/CONSULTA_DESIGNACION_LA_PERSONA_TITULAR-INCICH.pdf"}
+   ],
+   "volume": "Cirurgia cardiaca pediatrica: 4.494 pacientes <18 anos operados 2010-2024 (estudo de mortalidade, World J Pediatr Congenit Heart Surg, DOI 10.1177/21501351261450531, 2026). Clinica ACHD: 651 pacientes em 30 anos (estudo 2009).",
+   "certeza": "confirmado (trechos)"
+  },
+  "pessoas_chave": [
+   {"nome":"Tomas R. Pulido","cargo":"Cardioneumologia / PI registro latino-americano de HP","por_que":"referencia em HP; registro multinacional","fonte":"https://clinicaltrials.gov/study/NCT02570737"},
+   {"nome":"Julio Sandoval","cargo":"Pesquisador em HP (INC)","por_que":"lider historico de HP no INC","fonte":"https://www.syfrah.com/trial/NCT02252705"},
+   {"nome":"Juan Eberto Calderon Colmenero","cargo":"Jefe del Departamento de Cardiologia Pediatrica (tese sem data)","por_que":"decide em cardio pediatrica","fonte":"https://ru.dgb.unam.mx/bitstream/20.500.14330/TES01000829648/3/0829648.pdf","certeza":"incerto"},
+   {"nome":"Coordenacao ACHD Fellowship","cargo":"contato achd.inc@cardiologia.org.mx","por_que":"unico e-mail institucional publicado para formacao em congenita do adulto","fonte":"https://isachd.org/jobs-fellowships"}
+  ],
+  "brasileiros": "nao encontrado",
+  "pontes_unifesp_sp": "nao encontrado com Unifesp/InCor/Dante. Indiretas: Latin American PH Registry (ALAT, NCT02570737) - site brasileiro listado em agregador e o Hospital Clementino Fraga Filho/UFRJ (Rio), nao SP; RENACCAPE (registro nacional mexicano de cirurgia cardiaca pediatrica) ligado ao World Database for Pediatric and Congenital Heart Surgery.",
+  "pesquisa_recente": [
+   {"titulo":"Pulmonary Hypertension Mexican Registry (REMEHIP) - 875 pacientes, inclui 133 pediatricos com HAP idiopatica e 123 CTEPH","ano":2024,"revista":"Pulmonary Circulation 14:e12395","doi":"10.1002/pul2.12395","area":"hipertensao_pulmonar/cardio_pediatrica"},
+   {"titulo":"Guia de Practica Clinica Mexicana de Hipertension Pulmonar","ano":2024,"revista":"Neumol Cir Torax","doi":"nao encontrado","area":"hipertensao_pulmonar"},
+   {"titulo":"Mortality and risk factors in pediatric cardiac surgery for congenital heart disease in Mexico (4.494 pacientes, 2010-2024)","ano":2026,"doi":"10.1177/21501351261450531","area":"cardio_pediatrica/congenitas"}
+  ],
+  "dicas": [
+   "Em institutos nacionais mexicanos o padrao e pedido por oficio da instituicao de origem a Direccion de Ensenanza (nao individual) - preparar carta da Unifesp/COREME.",
+   "Fellowship ACHD de 1 ano existe e tem contato publicado - bom canal para perguntar sobre estagio curto em congenita do adulto/HP.",
+   "Espanhol fluente muito recomendado."
+  ],
+  "rota_recomendada": "1) Carta oficial da Unifesp a Direccion de Ensenanza do INC pela pagina de Rotaciones Clinicas; 2) e-mail a achd.inc@cardiologia.org.mx perguntando sobre rotacao observacional de 4 semanas em congenita do adulto + HP; 3) citar REMEHIP 2024 (HP) ou o estudo de cirurgia pediatrica 2026 no e-mail.",
+  "alerta_correcao": "Pagina de rotaciones_clinicas do radar nao foi confirmada nos resultados (WebFetch indisponivel); requisitos para estrangeiros nao encontrados. Chefias de cardio pediatrica com nomes conflitantes em fontes sem data."
+ }
+]
